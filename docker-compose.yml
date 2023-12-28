@@ -9,7 +9,7 @@ services:
       - ./src/:/var/www/html/
     environment:
       - APACHE_DOCUMENT_ROOT=/var/www/html
-    command: ["a2enmod rewrite && a2enmod actions && service apache2 restart"]
+    command: ["sh", "-c", "a2enmod rewrite && a2enmod actions && apache2-foreground"]
     restart: unless-stopped
     networks:
       - default
