@@ -1,0 +1,546 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark13">
+<p align=left>
+<b><font color=#000080 size=4>Artin's conjecture (primitive roots).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>First, recall the meaning of the term </font></b>
+<i><b><font color=#000080>primitive root modulo p </font></b></i>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> prime): </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> is said to be a primitive root modulo </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> if </font></b>
+<img src="images/Flt340.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and </font></b>
+<img src="images/Flt341.gif" width=60 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) for all </font></b>
+<img src="images/Flt342.gif" width=83 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , (</font></b>
+<img src="images/Flt343.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>). In other words, </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> is a primitive root modulo </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> if </font></b>
+<img src="images/Flt344.gif" width=46 height=30 alt="[Maple Math]" align=middle>
+<img src="images/Flt345.gif" width=82 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Maple examples:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory): # needed for 'order' and 'phi'</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>Warning, new definition for order</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(200);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt346.gif" width=70 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>order(2, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt347.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>order(3, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt348.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>order(4, p); # not a surprise:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt349.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>order(5, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt350.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>So, 2 and 3 are primitive roots modulo 211, 4 (for obvious reasons, known in advance) is not a primitive root mod 211, and 5 also is not a primitive root modulo 211.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Recall a classic theorem of Gauss that p has exactly </font></b>
+<img src="images/Flt351.gif" width=78 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> primitive roots in the interval [1, </font></b>
+<img src="images/Flt352.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>], and let us make a list of all those primitive roots - and count how many there are - for </font></b>
+<img src="images/Flt353.gif" width=69 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L := []: count := 0:<br>
+for a to (p-1) do<br>
+if order(a, p) = p-1 then<br>
+L := [a, op(L)]; count := count+1;<br>
+fi od; sort(L); count;</font></b>
+</p>
+<p align=left>
+<img src="images/Flt354.gif" width=923 height=19 alt="[Maple Math]">
+<br>
+<img src="images/Flt355.gif" width=495 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt356.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>To determine how many there are one can, trivially, resort to:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>nops(L);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt357.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>phi(p-1); # the Gauss result:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt358.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That's all very straightforward, and well known. But now let us look at the fascinating unknown: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080>Fix</font></b></i>
+<b><font color=#000080> the value of </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, and ask: for how many primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> a primitive root? </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In other words, for how many primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> does one have:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt359.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) ... (i)</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>but </font></b>
+<img src="images/Flt360.gif" width=60 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> in [1, </font></b>
+<img src="images/Flt361.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>] ... (ii)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here one has the (famous) </font></b>
+<i><b><font color=#000080>conjecture</font></b></i>
+<b><font color=#000080> of Emil Artin. Let </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer (</font></b>
+<img src="images/Flt362.gif" width=64 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and not a square), then </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> is a primitive root mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> for infinitely many primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>.  (In 1958 Schinzel and Sierpinski showed Artin's conjecture is  a consequence of the </font></b>
+<i><b><font color=#000080>prime tuples conjecture</font></b></i>
+<b><font color=#000080>, and in 1986 Heath-Brown proved (</font></b>
+<i><b><font color=#000080>unconditionally</font></b></i>
+<b><font color=#000080>) Artin's conjecture for infinitely many </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> (but </font></b>
+<b><u><font color=#000080>no</font></u></b>
+<b><font color=#000080> single '</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>' is known for which the conjecture is true).)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A remarkable quantitative version (for such an </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>) of this conjecture - by Artin - </font></b>
+<i><b><font color=#000080>had been</font></b></i>
+<b><font color=#000080>: Let </font></b>
+<img src="images/Flt363.gif" width=58 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> be the number of primes less than or equal to </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> for which </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> is a primitive root, then:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt364.gif" width=58 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is asymptotic to </font></b>
+<img src="images/Flt365.gif" width=54 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/Flt366.gif" width=65 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>Artin's constant</font></b></i>
+<b><font color=#000080>) is defined by:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                                     </font></b>
+<img src="images/Flt367.gif" width=205 height=78 alt="[Maple Math]" align=middle>
+<b><font color=#000080> ( = 0.3739558136... )</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In other words:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt368.gif" width=62 height=78 alt="[Maple Math]" align=middle>
+<b><font color=#000080>  tends to </font></b>
+<img src="images/Flt369.gif" width=27 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/Flt370.gif" width=65 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>[I should point out to readers, perhaps not entirely familiar with Number Theory, that the ' </font></b>
+<img src="images/Flt371.gif" width=54 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> ' is the main asymptotic term of the famous, classic Prime Number Theorem; it is, roughly, the number of primes up to </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Above I wrote "</font></b>
+<i><b><font color=#000080>had been</font></b></i>
+<b><font color=#000080>", because computational work by the Lehmers (D.H. and E., 1962) revealed an error (an independence error in a probability argument), that error being set right by Tate and Lang (both of whom had been Artin's students) in their 1965 preface to Artin's Collected Papers (1965).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Hooley (1967) proved that the above quantitative result </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> true for </font></b>
+<i><b><font color=#000080>squarefree a</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/Flt372.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080>subject to </font></b></i>
+<b><font color=#000080>the Generalised Riemann Hypothesis. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The </font></b>
+<i><b><font color=#000080>truly extraordinary</font></b></i>
+<b><font color=#000080>, corrected version (formulated by Heilbronn, as detailed in the Royal Society Mathematical Tables 9 </font></b>
+<i><b><font color=#000080>Indices and Primitive Roots</font></b></i>
+<b><font color=#000080> by A. E. Western and J. C. P. Miller) reads as follows (in Bach and Shallit):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<img src="images/Flt373.gif" width=90 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/Flt374.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> squarefree, and let </font></b>
+<i><b><font color=#000080>h</font></b></i>
+<b><font color=#000080> be the largest integer for which </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> is a </font></b>
+<img src="images/Flt375.gif" width=40 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> power. Let </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt376.gif" width=364 height=56 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>where the first product is taken over primes </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> dividing </font></b>
+<i><b><font color=#000080>h</font></b></i>
+</p>
+<p align=left>
+<b><font color=#000080>and the second is taken over primes </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> dividing </font></b>
+<i><b><font color=#000080>h</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>then (conjecture) </font></b>
+<img src="images/Flt377.gif" width=58 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is asymptotic to </font></b>
+<img src="images/Flt378.gif" width=54 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/Flt379.gif" width=65 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> if </font></b>
+<img src="images/Flt380.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 4)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>otherwise (conjecture) </font></b>
+<img src="images/Flt381.gif" width=58 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is asymptotic to </font></b>
+<img src="images/Flt382.gif" width=54 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/Flt383.gif" width=65 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt384.gif" width=405 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where '</font></b>
+<img src="images/Flt385.gif" width=27 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>' is the </font></b>
+<i><b><font color=#000080>Mobius function</font></b></i>
+<b><font color=#000080> (in Maple that's 'mobius')</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the first product is taken over primes </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> dividing </font></b>
+<img src="images/Flt386.gif" width=86 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>and the second is taken over primes </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> dividing </font></b>
+<img src="images/Flt387.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> but </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> dividing </font></b>
+<i><b><font color=#000080>h</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(see page 222 of Bach and Shallit for many references)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Some Maple work:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A := product(1 - 1/(ithprime(r)*(ithprime(r)-1)),r=1..infinity);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt388.gif" width=338 height=66 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(A); # it is NO surprise that Maple cannot evaluate A:</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#FF0000>Error, (in evalf/product1) cannot evaluate boolean</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>So, let's merely get an approximate value:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A[20] := product(1 - 1/(ithprime(r)*(ithprime(r)-1)),r=1..20);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt389.gif" width=393 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(A[20]);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt390.gif" width=100 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>In the following I calculate the number of times for which 2 (then 3, 5, 27) is a primitive for primes up to 'x' (for various x's: </font></b>
+<img src="images/Flt391.gif" width=107 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>; one may take higher values depending on the speed of computer available), and the relative frequency (i.e., relative to </font></b>
+<img src="images/Flt392.gif" width=54 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> ). Here I have written a simple Maple procedure, which might not be familiar to all my readers, but it ought to be clear what is going on (and I spell it out just once):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin := proc(a, x) local count, r;<br>
+count := 0:<br>
+for r while ithprime(r) &lt;= x do<br>
+if order(a, ithprime(r)) = ithprime(r)-1 then<br>
+count := count+1<br>
+fi od; print(count, count/evalf(x/ln(x))); end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(2, 10^2);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt393.gif" width=124 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Thus there are 12 primes up to 100 for which 2 is a primitive root, and the '.552 ... ' is ... .</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(2, 10^3);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt394.gif" width=124 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(2, 10^4);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt395.gif" width=132 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(3, 10^4);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt396.gif" width=132 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Here I take a case where </font></b>
+<img src="images/Flt397.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 4) (for the 'otherwise')</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(5, 10^4);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt398.gif" width=132 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(6, 10^4);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt399.gif" width=132 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Artin(27, 10^4); # note the (expected) 'drop'...</font></b>
+</p>
+<p align=center>
+<img src="images/Flt400.gif" width=132 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:43 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

@@ -1,0 +1,148 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 1 0 1 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 
+0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple
+ Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 
+3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "# quest4.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "n1 := 39769980898651447;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n1G\"2Z9l)*3)*p(R" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 30 "n2 := 12219680349533033295131;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#n2G\"8J^HLI`\\.o>A\"" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 81 "n3 := 13763753091259830908851671592986383374
+406723776943018451814418910576640001;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%#n3G\"eo,+kw0\"*=W\"=X=I%pxBnSuLQ')Hfr;&)34$)f74`Pw8" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 177 "n := 14648180805356694860611232649
+4160580676597757390203425433760346556289969224977192583652803722778590
+7076556566245365587610371141442803807439825546725524694329425397982885
+33;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"nG\"fuL&)G)zRD%HVpCbsYb#)Ru
+!Q!GWT6P5wel`Cmlbwq!fyFs.Gl$e#>x\\Ap**GclMgPVDM?!Rdxfw1egT\\EB61'[pc`!
+3=[Y\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "e := 995737;" }
+{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eG\"'Pd**" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(1)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "2&^(n1-1) mod n1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"23L%yW]01:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "2&^(n2-1) m
+od n2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"7GXVwFs&oVq))*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "2&^(n3-1) mod n3;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"eoE2V^J*H'o'>(e2\\vx+W$4a*zo@a!z*3NK$RPn(fLK8" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 94 "A Fermat test to the base two show
+s that the numbers n1, n2, n3 are all composite (see above)." }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Using the p-1 factorization method
+ to find a proper factor of each of them." }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "igcd(n1, 2^(1!) -1 mod n1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "ig
+cd(n1, 2^(2!) -1 mod n1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "igcd(n1, 2^(3!) -1 mod n1)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 27 "igcd(n1, 2^(4!) -1 mod n1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "ig
+cd(n1, 2^(5!) -1 mod n1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "igcd(n1, 2^(6!) -1 mod n1)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 27 "igcd(n1, 2^(7!) -1 mod n1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "ig
+cd(n1, 2^(8!) -1 mod n1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "igcd(n1, 2^(9!) -1 mod n1)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 29 "igcd(n1, 2&^(10!) -1 mod n1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(11!) -1 mod n
+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"),o\"*R" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "igcd(n1, \+
+2&^(1!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "igcd(n1, 2&^(2!) -1 mod n2);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 28 "igcd(n1, 2&^(3!) -1 mod n2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "ig
+cd(n1, 2&^(4!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "igcd(n1, 2&^(5!) -1 mod n
+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 28 "igcd(n1, 2&^(6!) -1 mod n2);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "
+igcd(n1, 2&^(7!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "igcd(n1, 2&^(8!) -1 mod
+ n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 28 "igcd(n1, 2&^(9!) -1 mod n2);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 
+"igcd(n1, 2&^(10!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(11!) -1 \+
+mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(12!) -1 mod n2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 29 "igcd(n1, 2&^(13!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(14!
+) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(15!) -1 mod n2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "igcd(n1, 2&^(16!) -1 mod n2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "ig
+cd(n1, 2&^(17!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(18!) -1 mo
+d n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(19!) -1 mod n2);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "igcd(n1, 2&^(20!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(21!)
+ -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(22!) -1 mod n2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "igcd(n1, 2&^(23!) -1 mod n2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "ig
+cd(n1, 2&^(24!) -1 mod n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "igcd(n1, 2&^(25!) -1 mo
+d n2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 67 "Try the pollard procedure as the above method is g
+oing on too long." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 282 "Poll_best:= proc(seed,n)\nlocal a, k;\na[1] :=seed
+:\nfor k from 2 while igcd(n,a[k-1] -1 mod n) = 1\ndo a[k] :=a[k-1]&^k
+ mod n od;\nif igcd(n, a[k-1] -1 mod n) < n then\nlprint(igcd(n,a[k-1]
+-1 mod n), `is a proper factor of`, n)\nelse\nlprint(`Try some other s
+eed`)\nfi\nend:\nPoll_best(2,n1);" }}{PARA 6 "" 1 "" {TEXT -1 52 "3991
+6801   is a proper factor of   39769980898651447" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"Poll_best(2,n2);" }}{PARA 6 "" 1 "" {TEXT -1 62 "200560490131   is a \+
+proper factor of   12219680349533033295131" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "Poll_best(2,n3);" }}{PARA 6 "" 1 "" {TEXT -1 145 "1
+3763753091226345046315979581580902400000001   is a proper factor of   \+
+1376375309125983090885167159298638337440672377694301845181441891057664
+0001" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(2)" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 177 "n := 1464818080535669486061123264941605806765
+9775739020342543376034655628996922497719258365280372277859070765565662
+4536558761037114144280380743982554672552469432942539798288533;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"nG\"fuL&)G)zRD%HVpCbsYb#)Ru!Q!GWT6
+P5wel`Cmlbwq!fyFs.Gl$e#>x\\Ap**GclMgPVDM?!Rdxfw1egT\\EB61'[pc`!3=[Y\"
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "e := 995737;" }{TEXT -1 0 "" }}
+{PARA 0 "" 1 "" {XPPMATH 20 "6#>%\"eG\"'Pd**" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "Poll_best(2,n);" }}{PARA 6 "" 1 "" {TEXT -1 304 
+"447011546151268434089125713812505111007680070028290501581908009237042
+2104067183317016903680000000000000001   is a proper factor of   146481
+8080535669486061123264941605806765977573902034254337603465562899692249
+7719258365280372277859070765565662453655876103711414428038074398255467
+2552469432942539798288533" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+111 "p:=44701154615126843408912571381250511100768007002829050158190800
+92370422104067183317016903680000000000000001 ;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"pG\"eq,+++++++o.p,<L=nS5A/P#4!3>e,0HG+2!o2560D\"QrD
+\"*3M%o7:Y:,Z%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "p is a factor o
+f n, to get the other factor q divide n by p." }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 177 "q:=14648180805356694860611232649416058067659775
+7390203425433760346556289969224977192583652803722778590707655656624536
+558761037114144280380743982554672552469432942539798288533/p;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"qG\"\\oL&)G)zRD%H*z'HkxJThW$3>))>'*\\&4n
+E$*H8pF$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "phi_n:=(p-1)*(q
+-1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&phi_nG\"fu++++++++w(f#*y<eR
+X0yw@**3%[3&y/m?^:B)yvfRNl%eY:wU#3XYjP&)>=bY.wLaU.-Rdxfw1egT\\EB61'[pc
+`!3=[Y\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "igcdex(e,phi_n,
+'x','y');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 15 "d:=x mod phi_n;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"dG\"eutw$[Nvs=zBc,fD[W/sfeM<Bq;C,/![-?YtZRz(4Hb0gv<
+(\\*fS50jZG4\\f*H%fC%y;f)oD*3^5^x=`$=/')[?aO52A;#" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "50 0 0" 67 }{VIEWOPTS 1 1 0 1 1 
+1803 }

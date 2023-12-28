@@ -1,0 +1,336 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 281 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 317 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 0 0 0 0 128 1 0 1 0 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 
+15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 
+0 0 0 0 0 0 15 2 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# program2.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "" 
+{TEXT -1 42 "Maple programming for first year students." }}{PARA 0 "" 
+0 "" {TEXT -1 113 "Lecture/Demonstration of Friday 20th October 2000.
+\nHere you learn about the use of if ... fi in conjunction with " }
+{TEXT 261 9 "do ... od" }{TEXT -1 280 "\nThese notes continue program1
+.mws.\n\nI made up this Maple worksheet (the input-output part of it) \+
+in front of you as the class went along, and added text later. You wil
+l find that I have inserted some extra input-output outside class time
+ (you should take those in the spirit of: " }{TEXT 262 27 "do you see \+
+what can be done" }{TEXT -1 2 "? " }{TEXT 263 43 "do you see what is t
+he effect of the use of" }{TEXT -1 18 "...?); you should " }{TEXT 293 
+11 "make a note" }{TEXT -1 22 " of those extras, and " }{TEXT 292 4 "k
+now" }{TEXT -1 6 " them." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 115 "John Cosgrave, Mathematics Dept., St. Patrick's C
+ollege, \n                           Drumcondra, Dublin 9, IRELAND." }
+}{PARA 0 "" 0 "" {TEXT -1 27 "email: John.Cosgrave@spd.ie" }}{PARA 0 "
+" 0 "" {TEXT -1 40 "web site: http://www.spd.dcu.ie/johnbcos" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 131 "I began with a
+ revision question: give me a Maple program which would compute the fi
+rst whatever number of terms of the sequence \{ " }{XPPEDIT 18 0 "b[n]
+;" "6#&%\"bG6#%\"nG" }{TEXT -1 39 " \} where whatever ... ; something \+
+like " }{XPPEDIT 18 0 "b[1] = 5;" "6#/&%\"bG6#\"\"\"\"\"&" }{TEXT -1 
+5 " and " }{XPPEDIT 18 0 "b[n] = 4*b[n-1]+7;" "6#/&%\"bG6#%\"nG,&*&\"
+\"%\"\"\"&F%6#,&F'F+\"\"\"!\"\"F+F+\"\"(F+" }{TEXT -1 6 ", for " }
+{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }{TEXT -1 178 ". Since that is
+ now child's play for you I omit the details here.\n\nNext I asked you
+ to give me a program to compute the first 100 (say) terms of the (fam
+ous) Fibonacci sequence \{" }{XPPEDIT 18 0 "f[n];" "6#&%\"fG6#%\"nG" }
+{TEXT -1 57 " \}, whose terms are defined by:\n\n                     \+
+   " }{XPPEDIT 18 0 "f[1] = 1;" "6#/&%\"fG6#\"\"\"\"\"\"" }{TEXT -1 3 
+",  " }{XPPEDIT 18 0 "f[2] = 1;" "6#/&%\"fG6#\"\"#\"\"\"" }{TEXT -1 7 
+", and  " }{XPPEDIT 18 0 "f[n] = f[n-1]+f[n-2];" "6#/&%\"fG6#%\"nG,&&F
+%6#,&F'\"\"\"\"\"\"!\"\"F,&F%6#,&F'F,\"\"#F.F," }{TEXT -1 5 " for " }
+{XPPEDIT 18 0 "3 <= n;" "6#1\"\"$%\"nG" }{TEXT -1 179 ".\n\nTogether w
+e hand calculated the first several of them... . I was correctly (good
+!) given the following (before executing it, I briefly discussed the q
+uestion of safety... , of " }{TEXT 294 6 "likely" }{TEXT -1 269 " size
+... ; cultivate that habit of trying to anticipate size...) :\n\nNote.
+ Because 100 numbers take up so much space I don't show them here, ins
+tead I change the '100' to '10.' \nProgram 2.1 (The '2' tying us to th
+is program2.mws worksheet, and the '1' to this being the " }{XPPEDIT 
+18 0 "1^st;" "6#)\"\"\"%#stG" }{TEXT -1 15 " program in it)" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "f[1] := 1;\nf[2] := 1;\nfor k from \+
+3 to 10 do\nf[k] := f[k-1] + f[k-2]\nod;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 124 "Since I had \+
+earlier brought to your attention the difference between the use of th
+e semi-colon ( ; ) and the colon ( : ) in " }{TEXT 258 20 "numerical a
+ssignment" }{TEXT -1 15 " - as shown by:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "x := 3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "x
+^2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "y := 5:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "y^2;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 295 4 "Note" }{TEXT 
+-1 84 ". In using the colon at the end of an assignment, one says that
+ the output is being " }{TEXT 296 10 "suppressed" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "One can n
+ow save space in the Fibonacci program by suppressing the output:\n\nP
+rogram 2.2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "f[1] := 1:  \+
+\nf[2] := 1:\nfor k from 3 to 100 do\nf[k] := f[k-1] + f[k-2]\nod:" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 21 "and now, for example:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "f[100];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f
+[99];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f[98];" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "f[98] + f[99];" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 6 "f[10];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 19 "and note (and know " }
+{TEXT 256 3 "why" }{TEXT -1 2 "):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "f[120];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "
+is(f[100] = f[98] + f[99]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "is(f[50] = f[47] + f[48]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "And you should guess t
+he meaning of " }{TEXT 297 4 "FAIL" }{TEXT -1 4 " in:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "is(f[101] = f[99] + f[100]);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 50 "So, we have the first 100 Fibonacci numbers; what " }
+{TEXT 256 5 "might" }{TEXT -1 80 " we do with them? Answer: A lot!! Mu
+ch is known about them, and a great deal is " }{TEXT 300 7 "unknown" }
+{TEXT -1 40 ". For example it is known that the only " }{TEXT 298 6 "s
+quare" }{TEXT -1 26 " Fibonacci numbers are the" }{XPPEDIT 18 0 "1^st;
+" "6#)\"\"\"%#stG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^nd;" "6#)\"\"#%#
+ndG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "12^th;" "6#)\"#7%#thG" }
+{TEXT -1 58 " (namely 1, 1, and 144), but it is unknown as to how many
+ " }{TEXT 299 5 "prime" }{TEXT -1 189 " Fibonacci numbers there are...
+ \n\nI raised the question of wondering which of them are prime number
+s, and before we explore that let us pin down once and for all exactly
+ what is meant by a " }{TEXT 257 5 "prime" }{TEXT -1 42 " number.\n\nF
+irst some standard terminology:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 34 "The Integers (whole numbers). The " }
+{TEXT 302 8 "integers" }{TEXT -1 22 " are the numbers: ... " }
+{XPPEDIT 18 0 "-3,-2,-1,0,1,2,3,4;" "6*,$\"\"$!\"\",$\"\"#F%,$\"\"\"F%
+\"\"!\"\"\"\"\"#\"\"$\"\"%" }{TEXT -1 5 ", ..." }}{PARA 15 "" 0 "" 
+{TEXT -1 25 "The Natural Numbers. The " }{TEXT 301 7 "natural" }{TEXT 
+-1 36 " numbers are the positive integers: " }{XPPEDIT 18 0 "1,2,3,4,5
+;" "6'\"\"\"\"\"#\"\"$\"\"%\"\"&" }{TEXT -1 6 ", ... " }}{PARA 15 "" 
+0 "" {TEXT -1 17 "Factor (of). Let " }{XPPEDIT 18 0 "n;" "6#%\"nG" }
+{TEXT -1 28 " be a natural number; then  " }{XPPEDIT 18 0 "f;" "6#%\"f
+G" }{TEXT -1 18 " is said to be a  " }{TEXT 259 6 "factor" }{TEXT -1 
+4 " of " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 4 " if " }{XPPEDIT 
+18 0 "f;" "6#%\"fG" }{TEXT -1 26 " is a natural number, and " }
+{XPPEDIT 18 0 "n = f*F;" "6#/%\"nG*&%\"fG\"\"\"%\"FGF'" }{TEXT -1 25 "
+ for some natural number " }{XPPEDIT 18 0 "F;" "6#%\"FG" }{TEXT -1 6 "
+. (If " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 16 " is a factor of " 
+}{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 31 ", one sometimes also says \+
+that " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 1 " " }{TEXT 260 3 "has
+" }{TEXT -1 8 " factor " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 47 ".
+)\n\nSo, for example, 5 is a factor of 15 since " }{XPPEDIT 18 0 "15 =
+ 5;" "6#/\"#:\"\"&" }{TEXT -1 39 "*3, and 3 is a natural number. \n(Th
+ere " }{TEXT 261 1 "n" }{TEXT -1 10 " was 15,  " }{TEXT 262 1 "f" }
+{TEXT -1 12 " was 5, and " }{TEXT 264 1 "F" }{TEXT -1 258 " was 3.) \n
+\nOther examples (with obvious comments omitted):\n\n1 is a factor of \+
+1.\n1 is a factor of 2, 2 is a factor of 2.\n1 is a factor of 3, 3 is \+
+a factor of 3.\n1, 2 and 4 are the factors of 4.\n1 and 5 are the fact
+ors of 5.\n1, 2, 3 and 6 are the factors of 6." }{TEXT 263 31 "\nYou d
+o some more yourself...\n\n" }{TEXT 265 4 "Note" }{TEXT -1 8 ". It is \+
+" }{TEXT 266 12 "bad language" }{TEXT -1 68 " to say that a number is \+
+a factor, as in '5 is a factor.' A number, " }{TEXT 267 10 "on its own
+" }{TEXT -1 17 ", cannot be said " }{TEXT 268 15 "to be a factor " }
+{TEXT -1 16 "; rather it is a" }{TEXT 279 11 " factor of " }{TEXT -1 
+13 "something: 5 " }{TEXT 270 2 "is" }{TEXT -1 23 " a factor of 15, bu
+t 5 " }{TEXT 272 5 "isn't" }{TEXT -1 23 " a factor of (say) 21.\n" }}
+{PARA 15 "" 0 "" {TEXT -1 32 "Prime numbers. A natural number " }
+{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 15 " is said to be " }{TEXT 
+273 5 "prime" }{TEXT -1 13 " (or to be a " }{TEXT 274 5 "prime" }
+{TEXT -1 12 ") if\n(i)    " }{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }
+{TEXT -1 13 ", and\n(ii)   " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 
+36 " has only two factors (namely 1 and " }{TEXT 275 1 "n" }{TEXT -1 
+1 ")" }}{PARA 15 "" 0 "" {TEXT -1 36 "Composite numbers. A natural num
+ber " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 15 " is said to be " }
+{TEXT 276 9 "composite" }{TEXT -1 13 " (or to be a " }{TEXT 277 9 "com
+posite" }{TEXT -1 11 ") if\n(i)   " }{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"
+%\"nG" }{TEXT -1 12 ", and\n(ii)  " }{XPPEDIT 18 0 "n;" "6#%\"nG" }
+{TEXT -1 5 " has " }{TEXT 278 12 "at least one" }{TEXT -1 25 " factor \+
+other than 1 and " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 105 "\nExam
+ples: 2 is prime (alternatively, 2 is a prime), 3 is prime, ... , 97 i
+s prime, 101 is prime, \n... , " }{XPPEDIT 18 0 "2^127-1;" "6#,&*$\"\"
+#\"$F\"\"\"\"\"\"\"!\"\"" }{TEXT -1 4 " (= " }{XPPEDIT 18 0 "170141183
+460469231731687303715884105727;" "6#\"HFd5%)er.toJ<Bp/Y$=T,<" }{TEXT 
+-1 176 ") is prime, ...\n\n4 is composite (2 is a factor), 6 is compos
+ite (2 is a factor; so too is 3), \n8 is composite (2 is a factor; so \+
+too is 4), 9 is composite (3 is a factor), ...\n" }{XPPEDIT 18 0 "2^67
+-1;" "6#,&*$\"\"#\"#n\"\"\"\"\"\"!\"\"" }{TEXT -1 15 " is composite (
+" }{XPPEDIT 18 0 "193707721;" "6#\"*@xq$>" }{TEXT -1 62 " is a factor;
+ its smallest one, in fact, apart from 1), ... ,\n" }{XPPEDIT 18 0 "2^
+(2^382447)+1;" "6#,&)\"\"#*$\"\"#\"'ZCQ\"\"\"\"\"\"F)" }{TEXT -1 17 " \+
+is composite (3*" }{XPPEDIT 18 0 "2^382449+1;" "6#,&*$\"\"#\"'\\CQ\"\"
+\"\"\"\"F'" }{TEXT -1 176 " is a factor; its smallest one, apart from \+
+1). \nThat is the largest known composite Fermat number, and you may r
+ead about it in the \nFermat Record Number corner of my web site." }}
+{PARA 0 "" 0 "" {TEXT -1 172 "Now let us return to the question as to \+
+which (if any) of the first 100 (say) Fibonacci numbers are prime. I p
+ointed to various (large) Fibonacci numbers and asked if they " }
+{TEXT 269 5 "could" }{TEXT -1 10 " be prime:" }}{PARA 15 "" 0 "" 
+{TEXT -1 7 "could  " }{XPPEDIT 18 0 "f[96];" "6#&%\"fG6#\"#'*" }{TEXT 
+-1 4 " (= " }{XPPEDIT 18 0 "51680708854858323072;" "6#\"5sIKe[&)32o^" 
+}{TEXT -1 56 ") be prime? I was told it couldn't, on the grounds that \+
+" }{TEXT 271 15 "it ended in a 2" }{TEXT -1 85 " (and - I am adding th
+is - so it has 2 as a factor, and so cannot be prime). That is " }
+{TEXT 287 6 "almost" }{TEXT -1 23 " correct, but it needs " }{TEXT 
+280 11 "fine tuning" }{TEXT -1 7 ":\nwhat " }{TEXT 281 2 "is" }{TEXT 
+-1 17 " correct is that " }{XPPEDIT 18 0 "f[96] = 51680708854858323072
+;" "6#/&%\"fG6#\"#'*\"5sIKe[&)32o^" }{TEXT -1 5 " = 2*" }{XPPEDIT 18 
+0 "25840354427429161536;" "6#\"5O:;HuUa.%e#" }{TEXT -1 9 ", and so " }
+{XPPEDIT 18 0 "f[96];" "6#&%\"fG6#\"#'*" }{TEXT -1 31 " has a factor o
+ther than 1 and " }{XPPEDIT 18 0 "f[96];" "6#&%\"fG6#\"#'*" }{TEXT -1 
+73 ", and so is not prime; it is composite. However 2 (ending in '2') \+
+= 2*1, " }{TEXT 282 2 "is" }{TEXT -1 12 " prime. The " }{TEXT 283 7 "c
+orrect" }{TEXT -1 18 " principle is: if " }{TEXT 284 1 "n" }{TEXT -1 
+25 " is a natural number and " }{TEXT 285 1 "n" }{TEXT -1 14 " = ...2,
+ then " }{TEXT 286 1 "n" }{TEXT -1 17 " is composite if " }{XPPEDIT 
+18 0 "2 < n;" "6#2\"\"#%\"nG" }{TEXT -1 18 ", and is prime if " }
+{XPPEDIT 18 0 "n = 2;" "6#/%\"nG\"\"#" }{TEXT -1 1 "." }}{PARA 15 "" 
+0 "" {TEXT -1 34 "We had a similar discussion with  " }{XPPEDIT 18 0 "
+f[95];" "6#&%\"fG6#\"#&*" }{TEXT -1 8 ", where " }{XPPEDIT 18 0 "f[95]
+ = 31940434634990099905;" "6#/&%\"fG6#\"#&*\"50**4!*\\jM/%>$" }{TEXT 
+-1 14 " ended in a 5." }}{PARA 15 "" 0 "" {TEXT -1 274 "All in all we \+
+concluded that any Fibonacci number ending in 0, 2 (except for 2 itsel
+f), 4, 5 (except for 5 itself), 6 or 8 could not be prime, but as for \+
+those ending in 1, 3, 7 or 9, well it could go either way. Of course s
+uch an analysis has nothing whatsoever to do with " }{TEXT 288 9 "Fibo
+nacci" }{TEXT -1 46 " numbers, but with natural numbers in general." }
+}{PARA 0 "" 0 "" {TEXT -1 52 "For us to make progress we had to resort
+ to Maple's " }{TEXT 289 7 "isprime" }{TEXT -1 10 " command: " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "isprime(13);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "isprime(21);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "isprime(f[3]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "isprime(f[95]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "isprime(f[96]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "isprime(f[98]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "isprime(71);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 39 "And now I introduced you
+ to the use of " }{TEXT 290 9 "if ... fi" }{TEXT -1 154 " (with variou
+s refinements added as we went along). If we merely wish to see Fibona
+cci numbers (out of the first 100 of them) that happen to be prime, we
+ " }{TEXT 303 5 "could" }{TEXT -1 22 " do this:\n\nProgram 2.3" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 129 "f[1] := 1:\nf[2] := 1:\nfor
+ k from 3 to 100 do\nf[k] := f[k-1] + f[k-2]\nod:\nfor k to 100 do\nif
+ isprime(f[k])\nthen print(f[k])\nfi\nod;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "but the poi
+nt is that apart from the early small ones we wouldn't know " }{TEXT 
+304 5 "which" }{TEXT -1 47 " Fibonacci numbers we were looking at: is \+
+that " }{XPPEDIT 18 0 "433494437;" "6#\"*PW\\L%" }{TEXT -1 5 " the " }
+{XPPEDIT 18 0 "50^th;" "6#)\"#]%#thG" }{TEXT -1 26 " Fibonacci number?
+ or the " }{XPPEDIT 18 0 "61^st;" "6#)\"#h%#stG" }{TEXT -1 79 "? To en
+able us to know, all we have to do is to make a small alteration to th
+e " }{TEXT 291 5 "print" }{TEXT -1 238 " line of the program (I copied
+ and pasted the above program into the following space so that I can l
+et you see the step in the printed for of this worksheet, but in the l
+ab one would just make the change in the above program:\n\nProgram 2.4
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 132 "f[1] := 1:\nf[2] := 1:
+\nfor k from 3 to 100 do\nf[k] := f[k-1] + f[k-2]\nod:\nfor k to 100 d
+o\nif isprime(f[k])\nthen print(k, f[k])\nfi\nod;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "And \+
+when we had a look at the above output " }{TEXT 305 20 "we noticed som
+ething" }{TEXT -1 6 ": the " }{TEXT 306 1 "k" }{TEXT -1 14 "'s for whi
+ch  " }{XPPEDIT 18 0 "f[k];" "6#&%\"fG6#%\"kG" }{TEXT -1 71 " was prim
+e themselves appeared to be prime (with the sole exception of " }
+{XPPEDIT 18 0 "k = 4;" "6#/%\"kG\"\"%" }{TEXT -1 25 "); that makes one
+ wonder:" }}{PARA 15 "" 0 "" {TEXT -1 4 "if  " }{XPPEDIT 18 0 "f[k];" 
+"6#&%\"fG6#%\"kG" }{TEXT -1 14 " is prime, is " }{TEXT 307 1 "k" }
+{TEXT -1 40 " also prime (with the sole exception of " }{XPPEDIT 18 0 
+"k = 4;" "6#/%\"kG\"\"%" }{TEXT -1 2 ")?" }}{PARA 15 "" 0 "" {TEXT -1 
+3 "if " }{TEXT 308 1 "k" }{TEXT -1 19 " is composite (and " }{XPPEDIT 
+18 0 "k <> 4;" "6#0%\"kG\"\"%" }{TEXT -1 6 "), is " }{XPPEDIT 18 0 "f[
+k];" "6#&%\"fG6#%\"kG" }{TEXT -1 11 " composite?" }}{PARA 0 "" 0 "" 
+{TEXT -1 156 "So here is a further modification of Program 2.4 (again \+
+I use paste, and make the change in the print line):\n\nProgram 2.5 (a
+nd I also change the 100 to 500)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 144 "f[1] := 1:\nf[2] := 1:\nfor k from 3 to 500 do\nf[k]
+ := f[k-1] + f[k-2]\nod:\nfor k to 500 do\nif isprime(f[k])\nthen prin
+t(k, isprime(k), f[k])\nfi\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 314 23 "Investigations/Projec
+ts" }{TEXT -1 2 ".\n" }}{PARA 0 "" 0 "" {TEXT 315 2 "#1" }{TEXT -1 1 "
+." }}{PARA 15 "" 0 "" {TEXT -1 28 "which Fibonacci numbers are " }
+{TEXT 309 9 "divisible" }{TEXT -1 27 " by 2 (have 2 as a factor)?" }}
+{PARA 15 "" 0 "" {TEXT -1 28 "which Fibonacci numbers are " }{TEXT 
+256 9 "divisible" }{TEXT -1 27 " by 3 (have 3 as a factor)?" }}{PARA 
+15 "" 0 "" {TEXT -1 28 "which Fibonacci numbers are " }{TEXT 256 9 "di
+visible" }{TEXT -1 27 " by 4 (have 4 as a factor)?" }}{PARA 15 "" 0 "
+" {TEXT -1 28 "which Fibonacci numbers are " }{TEXT 256 9 "divisible" 
+}{TEXT -1 31 " by 5 (have 5 as a factor)?\n..." }}{PARA 0 "" 0 "" 
+{TEXT 313 6 "Advice" }{TEXT -1 58 ". Start your investigations (ideall
+y work with a partner) " }{TEXT 310 7 "by hand" }{TEXT -1 90 ": write \+
+down on paper the first several Fibonacci numbers and use your eye to \+
+investigate " }{TEXT 312 6 "before" }{TEXT -1 119 " you resort to Mapl
+e... . See if you spot a pattern... . Articulate that pattern... . And
+ when you do resort to Maple, " }{TEXT 311 4 "what" }{TEXT -1 37 " pro
+blem will you have to cope with?\n" }}{PARA 0 "" 0 "" {TEXT 316 2 "#2
+" }{TEXT -1 2 ". " }{TEXT 317 7 "Observe" }{TEXT -1 33 " the behaviour
+ of the sequence \{ " }{XPPEDIT 18 0 "f[n+1]/f[n];" "6#*&&%\"fG6#,&%\"
+nG\"\"\"\"\"\"F)F)&F%6#F(!\"\"" }{TEXT -1 4 " \} (" }{XPPEDIT 18 0 "1 \+
+<= n;" "6#1\"\"\"%\"nG" }{TEXT -1 65 " ), from the point of view how t
+he value of each term changes as " }{TEXT 318 1 "n" }{TEXT -1 85 " inc
+reases in size. Use actual (rational) values, and also converted decim
+al values.\n" }}{PARA 0 "" 0 "" {TEXT 319 2 "#3" }{TEXT -1 2 ". " }
+{TEXT 256 7 "Observe" }{TEXT -1 33 " the behaviour of the sequence \{ \+
+" }{XPPEDIT 18 0 "f[n]^2-f[n-1]*f[n+1];" "6#,&*$&%\"fG6#%\"nG\"\"#\"\"
+\"*&&F&6#,&F(F*\"\"\"!\"\"F*&F&6#,&F(F*\"\"\"F*F*F0" }{TEXT -1 4 " \} \+
+(" }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"nG" }{TEXT -1 20 " ), and form
+ulate a " }{TEXT 320 8 "possible" }{TEXT -1 17 " general result.\n" }}
+{PARA 0 "" 0 "" {TEXT 321 2 "#4" }{TEXT -1 34 ". Having done #3, now i
+nvestigate\n" }}{PARA 15 "" 0 "" {TEXT -1 15 "the sequence \{ " }
+{XPPEDIT 18 0 "f[n]^2-f[n-2]*f[n+2];" "6#,&*$&%\"fG6#%\"nG\"\"#\"\"\"*
+&&F&6#,&F(F*\"\"#!\"\"F*&F&6#,&F(F*\"\"#F*F*F0" }{TEXT -1 4 " \} (" }
+{XPPEDIT 18 0 "3 <= n;" "6#1\"\"$%\"nG" }{TEXT -1 19 "), and formulate
+ a " }{TEXT 322 8 "possible" }{TEXT -1 15 " general result" }}{PARA 
+15 "" 0 "" {TEXT -1 15 "the sequence \{ " }{XPPEDIT 18 0 "f[n]^2-f[n-3
+]*f[n+3];" "6#,&*$&%\"fG6#%\"nG\"\"#\"\"\"*&&F&6#,&F(F*\"\"$!\"\"F*&F&
+6#,&F(F*\"\"$F*F*F0" }{TEXT -1 4 " \} (" }{XPPEDIT 18 0 "4 <= n;" "6#1
+\"\"%%\"nG" }{TEXT -1 19 "), and formulate a " }{TEXT 256 8 "possible
+" }{TEXT -1 15 " general result" }}{PARA 15 "" 0 "" {TEXT -1 15 "the s
+equence \{ " }{XPPEDIT 18 0 "f[n]^2-f[n-4]*f[n+4];" "6#,&*$&%\"fG6#%\"
+nG\"\"#\"\"\"*&&F&6#,&F(F*\"\"%!\"\"F*&F&6#,&F(F*\"\"%F*F*F0" }{TEXT 
+-1 4 " \} (" }{XPPEDIT 18 0 "5 <= n;" "6#1\"\"&%\"nG" }{TEXT -1 19 "),
+ and formulate a " }{TEXT 256 8 "possible" }{TEXT -1 19 " general resu
+lt\n..." }}{PARA 0 "" 0 "" {TEXT -1 1 "\n" }{TEXT 323 2 "#5" }{TEXT 
+-1 86 ". Take any two consecutive Fibonacci numbers, and add their squ
+ares. What do you get? " }}}}{MARK "55" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

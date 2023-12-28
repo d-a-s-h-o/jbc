@@ -1,0 +1,68 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "76*4;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "isprime(17);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "isprime(15);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "isprime(1799887766543432322254556778998767666554444);
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "isprime(179988776654343
+2322254556778998767666554441);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "193 mod 7;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "196 m
+od 7;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "a.1 := 17998877665
+43432322254556778998767666554441;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "a.1 mod 2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "a.1 mod 3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "a.1 mod 5
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "a.1 mod 7;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "a.1 mod 11;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "ithprime(4);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "# ithprime(40000);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "seq(a.1 mod ithprime(k), k=1..4);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 34 "seq(a.1 mod ithprime(k), k=5..40);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "ithprime(25);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "a.1 mod 97;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 7 "a.1/97;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 11 "a.1 mod 97;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "a.2 \+
+:= a.1 + 2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "isprime(a.2)
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "a.3 := a.2 + 4;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "isprime(a.3);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "a.4 := 10^12 + 1;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 13 "isprime(a.4);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "ifactor(a.4);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "ifactor(10^4 + 1);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "p := nextprime(10^12);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "q := prevprime(10^12);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "n := p*q;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+32 "seq(n mod ithprime(i), i=2..20);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 35 "seq(n mod ithprime(i), i=21..1000);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 64 "for i to 1000 do\nif n mod ithprime(i) = \+
+0 \nthen print(i)\nfi;\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+79 "for i to 1000 do\nif a.4 mod ithprime(i) = 0 \nthen print(i, ithpr
+ime(i))\nfi;\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "n;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "isprime(n);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "2^12 mod 13;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "2^14 mod 15;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "2^(n-1) mod n;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "2&^(n-1) mod n;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "#n1 := nextprime(10^1);
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "#2^(n1 - 1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "#2^(n1 - 1) mod n1;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "#n2 := nextprime(10^2);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "#2^(n2 - 1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "#2^(n2 - 1) mod n2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "#n3 := nextprime(10^
+3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "#2^(n3 - 1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "#2^(n3 - 1) mod n3;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "#n4 := nextprime(10^4);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "#2^(n4 - 1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "#2^(n4 - 1) mod n4;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "#n5 := nextprime(122
+222222222266666666655555555);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 19 "#2^(n5 - 1) mod n5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+20 "#2&^(n5 - 1) mod n5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 
+"#3&^(n5 - 1) mod n5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "#4
+&^(n5 - 1) mod n5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "#seq(
+k&^(n5 - 1) mod n5, k=5..100);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{MARK "64 0 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 }

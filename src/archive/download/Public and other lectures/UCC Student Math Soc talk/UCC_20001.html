@@ -1,0 +1,2567 @@
+<html>
+<head>
+<title>UCC_2000.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># UCC_2000.mws</font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>A Prime For The Millennium -<br>
+primality testing with particular emphasis <br>
+on Henry Cabourn Pocklington (1875 - 1952)</font></b>
+<b><font color=#000080><br>
+<br>
+A talk given to the student mathematical society of <br>
+University College Cork on Thursday 23rd. March 2000</font></b>
+<i><b><font color=#000080 size=4><br>
+</font></b></i>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>John Cosgrave, St. Patrick's College,<br>
+Drumcondra, Dublin 9, IRELAND.<br>
+</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>John.Cosgrave@spd.ie <br>
+http://www.spd.dcu.ie/johnbcos<br>
+</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>For </font></b>
+<b><font color=#000080>T</font></b>
+<b><font color=#000080>im </font></b>
+<b><font color=#000080>and</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>M</font></b>
+<b><font color=#000080>airead Robinson of </font></b>
+<b><font color=#000080>F</font></b>
+<b><font color=#000080>olding </font></b>
+<b><font color=#000080>L</font></b>
+<b><font color=#000080>andscapes</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+<i><b><font color=#000080>(http://www.iol.ie/~tandmfl)</font></b></i>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>whose idea it was to publish </font></b>
+<i><b><font color=#000080>A Prime For The Millennium</font></b></i>
+<b><font color=#000080><br>
+(an explanatory email to my niece Jo and nephew Ben)</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I have adopted, as the title of my talk tonight, the title of my recently published booklet </font></b>
+<i><b><font color=#000080>A Prime For The Millennium</font></b></i>
+<b><font color=#000080> (my royalties for the Irish Cancer Society). This booklet began its life as an email written to my young niece and nephew, Jo and Ben Hartley. Just how that private email came to pass into the public domain as a booklet may be read about in the Millennium</font></b>
+<font color=#000080> </font>
+<b><font color=#000080>prime booklet section of my web site. How a painting by </font></b>
+<b><u><font color=#000080>Tom Marine</font></u></b>
+<b><font color=#000080> (a Leeds-based artist) of the booklet cover (designed by </font></b>
+<b><u><font color=#000080>Simon Cutts and Tim Robinson</font></u></b>
+<b><font color=#000080>) came to be sold  to </font></b>
+<b><u><font color=#000080>Turlough Sheehan</font></u></b>
+<b><font color=#000080> of Consolidated Distribution Systems for the benefit of the Irish Cancer Society and the NSPCC (UK), may also be read about at my web site. <br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>The cover of the booklet - a gif file copied and pasted into<br>
+this Maple worksheet - is best viewed in the html version:<br>
+</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_20001.gif" width=348 height=471 alt="[Maple Bitmap]">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I wish to thank </font></b>
+<b><u><font color=#000080>Turlough Crowe of Allied Irish Banks,</font></u></b>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>Elaine Bragg of Adept Scientific</font></u></b>
+<b><font color=#000080> (http://www.adeptscience.co.uk), </font></b>
+<b><u><font color=#000080>Charlie Hipwell of Pfizer</font></u></b>
+<b><font color=#000080>, and </font></b>
+<b><u><font color=#000080>Gerry McGovern of Nua</font></u></b>
+<b><font color=#000080> (http://www.nua.ie) who generously sponsored copies of the booklet for distribution this evening. <br>
+<br>
+Anyone reading this abroad (or here in Ireland) may obtain a copy (or copies!) by contacting Folding Landscapes at their web site (http://www.iol.ie/~tandmfl). There was a print run of 2000, so hurry hurry while stocks last! Of public reaction to the booklet I was especially pleased with an email forwarded to me by Tim Robinson last December 23rd:<br>
+<br>
+</font></b>
+<i><b><font color=#000080>Dear Tim Robinson,<br>
+&gt;<br>
+&gt;As a mother of two small kids you would think (quite rightly) <br>
+&gt;that I would be mad busy on the eve of Christmas Eve; well <br>
+&gt;since we found the time from nowhere to greet the dawn at <br>
+&gt;Newgrange on Tuesday I thought I would steal some time <br>
+&gt;to read your beautiful publication 'A Prime For The Millennium'<br>
+&gt;which I bought for my brother-in-law who is a number whiz..<br>
+&gt;<br>
+&gt;What a delight; I thought that I was numerically illiterate <br>
+&gt;but I saw the poetry in John Cosgrave's work. If I was a <br>
+&gt;number I would definitely want to be a Prime. Please convey <br>
+&gt;my thanks to him for his enthusiasm; I now have something <br>
+&gt;numerical to feed my babies with when they are older.<br>
+</font></b></i>
+<b><font color=#000080><br>
+The MapleV5 file of this talk may be accessed in the Public and other lectures section of my web site. The </font></b>
+<i><b><font color=#000080>html</font></b></i>
+<b><font color=#000080> text version of that file - for anyone who doesn't have Maple - may also be accessed (note that because Maple saves outputs and in-line mathematical expressions as gif files, then there are hundreds of gif files in the html version).<br>
+</font></b>
+</p>
+<p align=left><a name="Top">
+<b><font color=#000080>                                                                         [Top]<br>
+</font></b>
+</p>
+<p align=left>
+<a href="#The futility of Eratosthenes' method" target="Content">The futility of Eratosthenes' method</a><b><font color=#000080>.<br>
+</font></b>
+<a href="#A technical preliminary" target="Content">A technical preliminary</a><b><font color=#000080> (</font></b>
+<i><b><font color=#000080>modular exponentiation</font></b></i>
+<b><font color=#000080>).<br>
+</font></b>
+<a href="#Fermat" target="Content">Fermat</a><b><font color=#000080>'s (1601 - 1667) 'little' theorem. Identifying composites. Pseudoprimes. A moral.<br>
+</font></b>
+<a href="#The modern study" target="Content">The modern study</a><b><font color=#000080> of </font></b>
+<i><b><font color=#000080>primality proving </font></b></i>
+<b><font color=#000080>starts with Edouard Lucas (1842 - 1891).<br>
+</font></b>
+<a href="#D. H. Lehmer and John Selfridge" target="Content">D. H. Lehmer and John Selfridge</a><b><font color=#000080>.<br>
+</font></b>
+<a href="#H.C.Pocklington" target="Content">H. C. Pocklington (1870 - 1952) again</a><b><font color=#000080>.<br>
+<br>
+</font></b>
+<a href="#Appendix 1" target="Content">Appendix 1</a><b><font color=#000080>. The factors of </font></b>
+<img src="images/UCC_20002.gif" width=412 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.<br>
+</font></b>
+<a href="#Appendix 2" target="Content">Appendix 2</a><b><font color=#000080>. John Selfridge's improvement of D.H. Lehmer's 1927 result.<br>
+</font></b>
+<a href="#Appendix 3" target="Content">Appendix 3</a><b><font color=#000080>. Francois Proth. (1852 - 1879). <br>
+</font></b>
+<a href="#Appendix 4" target="Content">Appendix 4</a><b><font color=#000080>. Other examples of Euclid-Pocklington primes. <br>
+</font></b>
+<a href="#Recommended reading" target="Content">Recommended reading</a><b><font color=#000080>.<br>
+<br>
+In my talk I may not get to cover all that I would like, I may have to cut some corners, but you can always look up the full text version at my web site. My ambition is to give you a flavour of what is at stake; it is not possible to cover anything other than a small fraction... . <br>
+<br>
+</font></b>
+<b><font color=#000080>Introduction to Pocklington. On January 7th. 1999 - in the course of preparing some work to illustrate the </font></b>
+<i><b><font color=#000080>power</font></b></i>
+<b><font color=#000080> of some ideas due to </font></b>
+<b><u><font color=#000080>Henry Cabourn Pocklington</font></u></b>
+<b><font color=#000080> (from a 1914-16 paper of his) for my 3rd. year students in connection with my Number Theory and Cryptography course - I happened to find a prime number with exactly 2000 digits (I dubbed it a </font></b>
+<i><b><font color=#000080>millennium</font></b></i>
+<b><font color=#000080> prime). The size of that prime is not especially significant (though it </font></b>
+<i><b><font color=#000080>would have been</font></b></i>
+<b><font color=#000080> the largest known prime in early 1963); there are, in fact, </font></b>
+<i><b><font color=#000080>rather a lot</font></b></i>
+<b><font color=#000080> of primes with 2000 digits: the exact number of such primes happens to be unknown, but it is of the </font></b>
+<i><b><font color=#000080>order</font></b></i>
+<b><font color=#000080> of 1.9542*</font></b>
+<img src="images/UCC_20003.gif" width=65 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (expressed another way, the probability of a randomly chosen 2000-digit number being prime is about 1 in 455)</font></b>
+<b><font color=#000080>. <br>
+<br>
+Two things are of interest about this prime:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1. the </font></b>
+<i><b><font color=#000080>way</font></b></i>
+<b><font color=#000080> in which it is constructed. It is the number:  </font></b>
+<img src="images/UCC_20004.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> *...*</font></b>
+<img src="images/UCC_20005.gif" width=109 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> + 1, namely, the </font></b>
+<b><u><font color=#000080>product</font></u></b>
+<b><font color=#000080> of the </font></b>
+<b><u><font color=#000080>first 325 primes</font></u></b>
+<b><font color=#000080> (2, 3, 5, 7, ... , 2153) and </font></b>
+<b><u><font color=#000080>the 325th power of the 326th prime</font></u></b>
+<b><font color=#000080> (2161), </font></b>
+<b><u><font color=#000080>plus 1</font></u></b>
+<b><font color=#000080>.<br>
+<br>
+2. that its primality </font></b>
+<i><b><font color=#000080>can</font></b></i>
+<b><font color=#000080> be established so readily (there is currently no fast </font></b>
+<i><b><font color=#000080>general</font></b></i>
+<b><font color=#000080> way to establish primality for primes of large size, and the quest for - or proof of the non-existence of - a '</font></b>
+<i><b><font color=#000080>polynomial time algorithm</font></b></i>
+<b><font color=#000080>' to establish primality is </font></b>
+<i><b><font color=#000080>the</font></b></i>
+<b><font color=#000080> great unsolved problem of primality testing) by Pocklington's method. (Indeed for prime numbers of a </font></b>
+<i><b><font color=#000080>certain structure</font></b></i>
+<b><font color=#000080>, Pocklington's method is </font></b>
+<i><b><font color=#000080>vastly superior</font></b></i>
+<b><font color=#000080> to other later methods.) <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Here it is :</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>millennium_prime := <br>
+product(ithprime(k), k=1..325)*ithprime(326)^325 + 1;</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_20006.gif" width=954 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_20007.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_20008.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_20009.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200010.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200011.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200012.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200013.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200014.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200015.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200016.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200017.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200018.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200019.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200020.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200021.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200022.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200023.gif" width=248 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(millennium_prime);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200024.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>So, let </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080> be the product of the first 325 prime, </font></b>
+<i><b><font color=#000080>F</font></b></i>
+<b><font color=#000080> be the 325th power of the 326th prime, and </font></b>
+<img src="images/UCC_200025.gif" width=102 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is a 2000-digit prime.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>U := product(ithprime(k), k=1..325):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F := ithprime(326)^325:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := U*F + 1:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(n);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200026.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(17);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200027.gif" width=43 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(21);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200028.gif" width=47 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I am not executing the command 'isprime(n)' - to attempt to establish the primality of the above 2000-digit </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> - for two reasons:<br>
+<br>
+1. it would take Maple far too long (hours, possibly, depending on the speed of the computer being used) (and in this respect, and in many others, the </font></b>
+<i><b><font color=#000080>free</font></b></i>
+<b><font color=#000080> program PrimeForm - created by Chris Nash, and based on the library of Yves Gallot's remarkable Proth program - is </font></b>
+<i><b><font color=#000080>vastly superior</font></b></i>
+<b><font color=#000080>,<br>
+<br>
+2. using Maple, the output could not be relied upon (because Maple - in common with </font></b>
+<i><b><font color=#000080>all other </font></b></i>
+<b><font color=#000080>commercial mathematical software - uses a </font></b>
+<i><b><font color=#000080>probabilistic method</font></b></i>
+<b><font color=#000080> for testing primality, and is only reliable for numbers with up to about 400 digits)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+How can the above number be </font></b>
+<i><b><font color=#000080>proved</font></b></i>
+<b><font color=#000080> to be prime using Pocklington's theorem(s)? What, in fact, is (are) Pocklington's theorem(s)?  Here, to start with, is a version of </font></b>
+<b><u><font color=#000080>Pocklington's theorem</font></u></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>in its simplest form</font></b></i>
+<b><font color=#000080> (a full working through of Pocklington's analysis may be found in the 3rd year part of the Maple section of my web site):<br>
+<br>
+Let </font></b>
+<img src="images/UCC_200029.gif" width=112 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (' </font></b>
+<i><b><font color=#000080>U </font></b></i>
+<b><font color=#000080>' for ' </font></b>
+<i><b><font color=#000080>unfactored</font></b></i>
+<b><font color=#000080> ', meaning that </font></b>
+<i><b><font color=#000080>one doesn't </font></b></i>
+<i><b><u><font color=#000080>need</font></u></b></i>
+<i><b><font color=#000080> to know</font></b></i>
+<b><font color=#000080> its actual factorisation - this is a very significant point: many earlier and later methods </font></b>
+<b><u><font color=#000080>required knowing</font></u></b>
+<b><font color=#000080> the </font></b>
+<b><u><font color=#000080>complete factorisation</font></u></b>
+<b><font color=#000080> of </font></b>
+<img src="images/UCC_200030.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> as a preliminary step to possibly establishing the primality of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), where<br>
+<br>
+1.    </font></b>
+<img src="images/UCC_200031.gif" width=37 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is a prime power<br>
+2.   </font></b>
+<i><b><font color=#000080>U </font></b></i>
+<b><font color=#000080>is a natural number with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> not dividing </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080>, and<br>
+3.   </font></b>
+<img src="images/UCC_200032.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+</font></b>
+<b><u><font color=#000080>then </font></u></b>
+<i><b><u><font color=#000080>n</font></u></b></i>
+<b><u><font color=#000080> is prime if<br>
+</font></u></b>
+<b><font color=#000080><br>
+</font></b>
+<b><u><font color=#000080>Condition 1 (the Fermat-Lucas condition)</font></u></b>
+<b><font color=#000080> <br>
+<br>
+there is </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/UCC_200033.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) (</font></b>
+<i><b><font color=#000080>meaning</font></b></i>
+<b><font color=#000080> - for those of you not familiar with </font></b>
+<i><b><font color=#000080>congruences</font></b></i>
+<b><font color=#000080> - that </font></b>
+<img src="images/UCC_200034.gif" width=77 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves remainder 1 when divided by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, and<br>
+<br>
+</font></b>
+<b><u><font color=#000080>Condition 2 (what I would like to call Pocklington's condition)</font></u></b>
+<b><font color=#000080> <br>
+<br>
+</font></b>
+<img src="images/UCC_200035.gif" width=205 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (where </font></b>
+<img src="images/UCC_200036.gif" width=83 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is the greatest common divisor of </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>B.</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+</font></b>
+<b><u><font color=#000080>Some comments</font></u></b>
+<b><font color=#000080>. For a novice these conditions </font></b>
+<i><b><font color=#000080>might appear</font></b></i>
+<b><font color=#000080> strange, but - as with all things - with some background they are entirely natural. Of course, the second condition </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> appear useless since - again, for a novice - one </font></b>
+<i><b><font color=#000080>might</font></b></i>
+<b><font color=#000080> think that the finding of the gcd </font></b>
+<i><b><font color=#000080>should</font></b></i>
+<b><font color=#000080> entail </font></b>
+<i><b><font color=#000080>more work</font></b></i>
+<b><font color=#000080> than is neccessary to establish primality; but one </font></b>
+<i><b><font color=#000080>must</font></b></i>
+<b><font color=#000080> realise that in practice the gcd is computed </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> by finding </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> divisors of </font></b>
+<img src="images/UCC_200037.gif" width=116 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (which in any case would mean that one would have established whether or not </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> had any factors other than </font></b>
+<b><font color=#000080>1 and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), </font></b>
+<i><b><font color=#000080>but</font></b></i>
+<b><font color=#000080> rather by using the remarkable (and entirely elementary) </font></b>
+<i><b><font color=#000080>Euclidean algorithm</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>An illustrative example</font></u></b>
+<b><font color=#000080>. I will demonstrate how Pocklington's theorem establishes that 5347 is prime. <br>
+</font></b>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080>. I will include some unneccessary calculations just to let you see the size of the numbers involved.<br>
+<br>
+</font></b>
+<b><u><font color=#000080>A Pocklington demonstration that 5347 is prime</font></u></b>
+<b><font color=#000080>: 5347 = 22*</font></b>
+<img src="images/UCC_200038.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, so </font></b>
+<img src="images/UCC_200039.gif" width=37 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is </font></b>
+<img src="images/UCC_200040.gif" width=33 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080> is 22.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 22*3^5 + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200041.gif" width=79 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>We will start by trying </font></b>
+<img src="images/UCC_200042.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and test Condition 1:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^(n-1);</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_200043.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200044.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200045.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200046.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200047.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200048.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200049.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200050.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200051.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200052.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200053.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200054.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200055.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200056.gif" width=728 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^(n-1) mod n; # computes the remainder on division by n</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200057.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now to test Condition 2:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^((n-1)/3) - 1;</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_200058.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200059.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200060.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200061.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200062.gif" width=568 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(2^((n-1)/3) - 1, n);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200063.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>is </font></b>
+<b><u><font color=#000080>no use</font></u></b>
+<b><font color=#000080>, since it is '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' </font></b>
+<i><b><font color=#000080>itself</font></b></i>
+<b><font color=#000080>.  Now we try using </font></b>
+<img src="images/UCC_200064.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3^(n-1);</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_200065.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200066.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200067.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200068.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200069.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200070.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200071.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200072.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200073.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200074.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200075.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200076.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200077.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200078.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200079.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200080.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200081.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200082.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200083.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200084.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200085.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200086.gif" width=768 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3^(n-1) mod n; # computes the remainder on division by n</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200087.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Now to test Condition 2:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3^((n-1)/3) - 1;</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_200088.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200089.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200090.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200091.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200092.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200093.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200094.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_200095.gif" width=272 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(3^((n-1)/3) - 1, n);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_200096.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>which establishes the primality of 5347 by Pocklington's theorem.</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left>
+<b><font color=#000080>I will return to Pocklington later, but first a big step backwards in time, to the classic elementary test of Eratosthenes.<br>
+</font></b>
+</p>
+<p align=left><a name="The futility of Eratosthenes' method">
+<b><font color=#000080>The futility of Eratosthenes' method. The classic (and entirely elementary) Eratosthenes test for primality, namely: to test if a given natural number </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime or not, one </font></b>
+<i><b><font color=#000080>need only</font></b></i>
+<b><font color=#000080> test for </font></b>
+<i><b><font color=#000080>possible</font></b></i>
+<b><font color=#000080> prime factors up to and including the square root of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>. This test is easily used for small numbers, or for large numbers that </font></b>
+<i><b><font color=#000080>happen</font></b></i>
+<b><font color=#000080> to have a </font></b>
+<i><b><font color=#000080>relatively small prime factor</font></b></i>
+<b><font color=#000080>.  Otherwise it is entirely useless from a computational point of view.<br>
+<br>
+Examples: <br>
+<br>
+1.   </font></b>
+<img src="images/UCC_200097.gif" width=53 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> lies between 11 and 12, and to test 127 for primality one need only test for possible prime factors up to and including 11. Then, since 127 is not divisible by 2, 3, 5, 7 or 11, it follows that 127 </font></b>
+<b><u><font color=#000080>is prime</font></u></b>
+<b><font color=#000080>.<br>
+<br>
+2.   </font></b>
+<img src="images/UCC_200098.gif" width=109 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> lies between 40809 and 40810, and to test 1665436393 for primality one need only test for possible prime factors up to and including 40801 (being the largest prime at most 40809).  1665436393 is not divisible by 2, 3, 5, 7, 11, 13, 17, but it is divisible by 19, and so 1665436393 </font></b>
+<b><u><font color=#000080>is not prime</font></u></b>
+<b><font color=#000080>.<br>
+<br>
+3.   </font></b>
+<img src="images/UCC_200099.gif" width=182 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> lies </font></b>
+<i><b><font color=#000080>between</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/UCC_2000100.gif" width=57 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/UCC_2000101.gif" width=65 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>to </font></b></i>
+<b><font color=#000080>prove</font></b>
+<i><b><font color=#000080> that the </font></b></i>
+<b><font color=#000080>millennium </font></b>
+<i><b><font color=#000080>prime </font></b></i>
+<b><font color=#000080>is</font></b>
+<i><b><font color=#000080> prime</font></b></i>
+<b><font color=#000080> - using the method of Eratosthenes - would </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> be a feasible computation: using the famous 'Prime Number Theorem' (that the number of primes up to </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> is '</font></b>
+<i><b><font color=#000080>asymptotic</font></b></i>
+<b><font color=#000080>' to </font></b>
+<img src="images/UCC_2000102.gif" width=54 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where </font></b>
+<img src="images/UCC_2000103.gif" width=50 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is the logarithm of </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> to the base </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>) the number of primes up to </font></b>
+<img src="images/UCC_2000104.gif" width=57 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is approximately approximately 4.347*</font></b>
+<img src="images/UCC_2000105.gif" width=57 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and so even with a computer that could perform 4.347*</font></b>
+<img src="images/UCC_2000106.gif" width=49 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> trial divisions per second (such a computer doesn't exist), it would take more than </font></b>
+<img src="images/UCC_2000107.gif" width=57 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> seconds to establish the primality of the millennium prime using the method of Eratosthenes. That is rather a long time (!!), given that the age of the universe - using the estimate of 15 thousand million years - is of the order of between </font></b>
+<img src="images/UCC_2000108.gif" width=49 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/UCC_2000109.gif" width=49 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> seconds.</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left><a name="A technical preliminary">
+<b><u><font color=#000080>A technical preliminary (</font></u></b>
+<i><b><u><font color=#000080>modular exponentiation</font></u></b></i>
+<b><u><font color=#000080> using the powerful - but entirely elementary - </font></u></b>
+<i><b><u><font color=#000080>square-and-multiply</font></u></b></i>
+<b><u><font color=#000080> method)</font></u></b>
+<b><font color=#000080>. In what follows, a </font></b>
+<i><b><font color=#000080>very important </font></b></i>
+<b><font color=#000080>computation we will need to perform is </font></b>
+<i><b><font color=#000080>modular exponentiation</font></b></i>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>involving large numbers</font></u></b>
+<b><font color=#000080>, namely: computing the remainder that </font></b>
+<img src="images/UCC_2000110.gif" width=33 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves on division by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, with </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> and/or </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>large</font></b></i>
+<b><font color=#000080>. You have already seen, in my introduction to Pocklington, the computation of - for example - the remainder</font></b>
+<i><b><font color=#000080> </font></b></i>
+<img src="images/UCC_2000111.gif" width=57 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves on division by 5347, but we will need to perform much more demanding computations.<br>
+<br>
+By way of example I begin with: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^57171 mod 797979; # computes the remainder 2 to the power of 57171 leaves on division by 797979</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000112.gif" width=56 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I would like to point out how remarkable - relatively speaking - a computation that was!! <br>
+<br>
+To perform it, Maple </font></b>
+<i><b><font color=#000080>actually evaluated</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/UCC_2000113.gif" width=65 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>then</font></b></i>
+<b><font color=#000080> divided by 797979 to produce the remainder 70715. <br>
+<br>
+And here is the </font></b>
+<i><b><font color=#000080>actual value</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/UCC_2000114.gif" width=65 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (a 17211 digit number):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^57171;</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_2000115.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000116.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000117.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000118.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000119.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000120.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000121.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000122.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000123.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000124.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000125.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000126.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000127.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000128.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000129.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000130.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000131.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000132.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000133.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000134.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000135.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000136.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000137.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000138.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000139.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000140.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000141.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000142.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000143.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000144.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000145.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000146.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000147.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000148.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000149.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000150.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000151.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000152.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000153.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000154.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000155.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000156.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000157.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000158.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000159.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000160.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000161.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000162.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000163.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000164.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000165.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000166.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000167.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000168.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000169.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000170.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000171.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000172.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000173.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000174.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000175.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000176.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000177.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000178.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000179.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000180.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000181.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000182.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000183.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000184.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000185.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000186.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000187.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000188.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000189.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000190.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000191.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000192.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000193.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000194.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000195.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000196.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000197.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000198.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000199.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000200.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000201.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000202.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000203.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000204.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000205.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000206.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000207.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000208.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000209.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000210.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000211.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000212.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000213.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000214.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000215.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000216.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000217.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000218.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000219.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000220.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000221.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000222.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000223.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000224.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000225.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000226.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000227.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000228.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000229.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000230.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000231.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000232.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000233.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000234.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000235.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000236.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000237.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000238.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000239.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000240.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000241.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000242.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000243.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000244.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000245.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000246.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000247.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000248.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000249.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000250.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000251.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000252.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000253.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000254.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000255.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000256.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000257.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000258.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000259.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000260.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000261.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000262.gif" width=112 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>However I will soon wish to carry out modular exponentiation computations involving </font></b>
+<i><b><font color=#000080>much larger numbers</font></b></i>
+<b><font color=#000080>, computations like these:<br>
+                                          </font></b>
+<img src="images/UCC_2000263.gif" width=77 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, (</font></b>
+<img src="images/UCC_2000264.gif" width=117 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... ) and </font></b>
+<i><b><font color=#000080>quite large</font></b></i>
+<b><font color=#000080> values of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>. <br>
+For example:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 2;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000265.gif" width=54 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 98765432123456789876543211111111111111111111111111;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000266.gif" width=447 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a^(n-1) mod n;</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000 size=2>Error, integer too large in context</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>However there is a very elementary, but incredibly powerful method (known as the </font></b>
+<i><b><font color=#000080>square-and-multiply</font></b></i>
+<b><font color=#000080> method) which enables such calculations to be done extremely quickly, and here is the Maple command for the above computation to be done:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a&amp;^(n-1) mod n;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000267.gif" width=416 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>You will see shortly </font></b>
+<i><b><font color=#000080>why</font></b></i>
+<b><font color=#000080> such computations are so vital (and, incidentally, see - instantly, and remarkably - that as a result of the just performed computation we may conclude that </font></b>
+<img src="images/UCC_2000268.gif" width=446 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> prime).<br>
+<br>
+[Remark. Maple's apparent speed of modular exponentiation is completely outclassed by much more powerful (and free!) programs as </font></b>
+<b><u><font color=#000080>Yves Gallot's Proth.exe</font></u></b>
+<b><font color=#000080>, or </font></b>
+<b><u><font color=#000080>Chris Nash's related PrimeForm</font></u></b>
+<b><font color=#000080>.]</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left><a name="Fermat">
+<b><u><font color=#000080>Fermat's '</font></u></b>
+<i><b><u><font color=#000080>little</font></u></b></i>
+<b><u><font color=#000080>' theorem. Pseudoprimes</font></u></b>
+<b><font color=#000080>.<br>
+<br>
+</font></b>
+<b><u><font color=#000080>The remarkable Fermat's 'little' theorem</font></u></b>
+<b><font color=#000080> (so powerful in Number Theory, and in Cryptography): Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be any prime, and let </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> divisible by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>; then </font></b>
+<img src="images/UCC_2000269.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) (in other words, </font></b>
+<img src="images/UCC_2000270.gif" width=76 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves remainder 1 on division by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>). <br>
+<br>
+</font></b>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. This is one of </font></b>
+<i><b><font color=#000080>the</font></b></i>
+<b><font color=#000080> most important theorems in all of Number Theory. It has countless computational, theoretical, and real-world (cryptography) applications.<br>
+<br>
+Some examples and observations.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p1 := 71; # a small prime</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000271.gif" width=70 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>103^(p1 - 1);</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_2000272.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000273.gif" width=208 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>103&amp;^(p1 - 1) mod p1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000274.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(p1 - 1) mod p1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000275.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>10&amp;^(p1 - 1) mod p1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000276.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>142&amp;^(p1 - 1) mod p1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000277.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>(I hope you see why that '0' appeared.)  Now I would like you to see how Fermat's 'little' theorem may be used to </font></b>
+<i><b><font color=#000080>quickly establish</font></b></i>
+<b><font color=#000080> that a number is composite (i.e., is not prime). I will deliberately make up a number which is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> prime, by multiplying two large primes together (the resulting number could </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> be quickly shown to be </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> prime by using the method of Eratosthenes):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p2 := nextprime(9876543009887765498720);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000278.gif" width=230 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q2 := nextprime(10000*p2 + 999999999999999);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000279.gif" width=262 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n2 := p2*q2;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000280.gif" width=439 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and then the instantaneous computation: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(n2 - 1) mod n2;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000281.gif" width=400 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>shows that n2 is not prime. You see why?<br>
+<br>
+In fact a </font></b>
+<i><b><font color=#000080>non unity output</font></b></i>
+<b><font color=#000080> will </font></b>
+<i><b><font color=#000080>almost certainly</font></b></i>
+<b><font color=#000080> result from (almost!) any large </font></b>
+<i><b><font color=#000080>random</font></b></i>
+<b><font color=#000080> choice (the probability of a large random number being prime is quite small; that's an interpretation of the Prime Number Theorem). In the saved text I can only have one 'choice' shown, but during my live lecture I will re-execute the the 'rand' commands to see a few different 'choice' values (this cannot be reproduced by someone having only the html version):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>?random</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>rand();</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000282.gif" width=112 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>rand();</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000283.gif" width=112 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>In the following - where there are five </font></b>
+<i><b><font color=#000080>different</font></b></i>
+<b><font color=#000080> random numbers being used - the coefficients c1 and c2 are simply to </font></b>
+<i><b><font color=#000080>ensure</font></b></i>
+<b><font color=#000080> (and you see how?) that 'choice' is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> divisible by any prime from 2 to 97 (the 25th prime):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>c1 := product(ithprime(k), k=1..25);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000284.gif" width=349 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>c2 := c1^2;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000285.gif" width=637 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>choice := c1*rand()*rand()*rand() + c2*rand()*rand() + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000286.gif" width=857 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(choice - 1) mod choice;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000287.gif" width=792 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and so - as you will see, </font></b>
+<i><b><font color=#000080>almost certainly</font></b></i>
+<b><font color=#000080> - 'choice' is </font></b>
+<i><b><font color=#000080>not prime</font></b></i>
+<b><font color=#000080> (I hope I don't have bad luck on the night!).  <br>
+[Of course, if we successively re-executed the previous two commands </font></b>
+<i><b><font color=#000080>often enough</font></b></i>
+<b><font color=#000080> we would </font></b>
+<i><b><font color=#000080>eventually</font></b></i>
+<b><font color=#000080> - </font></b>
+<i><b><font color=#000080>almost certainly</font></b></i>
+<b><font color=#000080> - get a second output of '1.' And so? Well, you have to see what's coming up next...]<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Now I give another (</font></b>
+<i><b><font color=#000080>not random</font></b></i>
+<b><font color=#000080>!) computational example [see Appendix for further details]:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>c := 1195068768795265792518361315725116351898245581;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000288.gif" width=413 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Let us observe how it fairs with respect to Fermat's little theorem:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000289.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000290.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>5&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000291.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>7&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000292.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>11&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000293.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>13&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000294.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Those 1's </font></b>
+<i><b><font color=#000080>continue</font></b></i>
+<b><font color=#000080> being produced </font></b>
+<i><b><font color=#000080>until</font></b></i>
+<b><font color=#000080> one reaches:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>37&amp;^(c - 1) mod c;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000295.gif" width=384 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>at which point '</font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>' is revealed as being </font></b>
+<i><b><font color=#000080>not prime</font></b></i>
+<b><font color=#000080>. [</font></b>
+<a href="#Appendix 1" target="Content">See Appendix 1</a><b><font color=#000080>.]<br>
+<br>
+</font></b>
+<b><u><font color=#000080>A moral</font></u></b>
+<b><font color=#000080>. The following, </font></b>
+<i><b><font color=#000080>too hasty </font></b></i>
+<b><font color=#000080>converse of Fermat's little theorem is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> true (it is, of course, obviously not true in the trivial case where </font></b>
+<img src="images/UCC_2000296.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>)): Let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be a natural number, and suppose </font></b>
+<img src="images/UCC_2000297.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) for </font></b>
+<i><b><u><font color=#000080>some</font></u></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime. [The following is trivially - but uselessly (from a computational point of view it would be far, far worse than Eratosthenes' approach) - true: Let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be a natural number (</font></b>
+<img src="images/UCC_2000298.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>), and suppose </font></b>
+<img src="images/UCC_2000299.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) for </font></b>
+<i><b><u><font color=#000080>all</font></u></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/UCC_2000300.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.]  However one should not abandon all hope, and it to Lucas that falls the credit of first obtaining a partial converse of Fermat's little theorem.  </font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left><a name="The modern study">
+<b><u><font color=#000080>The modern study of primality testing</font></u></b>
+<b><font color=#000080>. It was Edouard Lucas (1842-1891) who first (in 1876) provided a partial converse to Fermat's 'little' theorem (a very weak converse, but one that was successively improved upon, and varied by Lucas himself (in 1878), by Theophile Pepin (1877), Proth (1878), Pocklington (1914, and apparently unaware of earlier work), D. H. Lehmer (1927, and later), John Selfridge (1967), and others).<br>
+<br>
+I will be brief. In 1876 Lucas observed this partial converse: Let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be a natural number, and suppose there is an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that<br>
+<br>
+1.    </font></b>
+<img src="images/UCC_2000301.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and<br>
+2.    </font></b>
+<img src="images/UCC_2000302.gif" width=60 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) for </font></b>
+<b><u><font color=#000080>all</font></u></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/UCC_2000303.gif" width=51 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> &lt; </font></b>
+<img src="images/UCC_2000304.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.  An illustrative example:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>example1 := 29:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a1 := 2:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a1^(example1 - 1) mod example1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000305.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(a1^r mod example1, r = 1..(example1 - 2));</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000306.gif" width=592 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Those computations show that:<br>
+<br>
+1.    </font></b>
+<img src="images/UCC_2000307.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 29), and<br>
+2.    </font></b>
+<b><u><font color=#000080>none</font></u></b>
+<b><font color=#000080> of </font></b>
+<img src="images/UCC_2000308.gif" width=99 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/UCC_2000309.gif" width=107 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves remainder 1 on division by 29<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and thus 29 is a prime.  However it is obvious that the amount of computation is </font></b>
+<i><b><font color=#000080>worse</font></b></i>
+<b><font color=#000080> that would be required with Eratosthenes!!  Lucas observed (in 1878) the following improvement:  Let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be a natural number, and suppose there is an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that<br>
+<br>
+1.    </font></b>
+<img src="images/UCC_2000310.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and<br>
+2.    </font></b>
+<img src="images/UCC_2000311.gif" width=60 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) for all </font></b>
+<b><u><font color=#000080>divisors</font></u></b>
+<i><b><font color=#000080> r</font></b></i>
+<b><font color=#000080> of (</font></b>
+<img src="images/UCC_2000312.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) with </font></b>
+<img src="images/UCC_2000313.gif" width=51 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> &lt; </font></b>
+<img src="images/UCC_2000314.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.  An illustrative example:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>example2 := 83:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a2 := 2:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory): # needed for 'divisors'</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>S := divisors(example2 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000315.gif" width=135 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Test := S minus {example2 - 1};</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000316.gif" width=130 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a2^(example2 - 1) mod example2;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000317.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(a2^r mod example2, r = Test);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000318.gif" width=64 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Those computations show that:<br>
+<br>
+1.   </font></b>
+<img src="images/UCC_2000319.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 83), and<br>
+2.   </font></b>
+<b><u><font color=#000080>none</font></u></b>
+<b><font color=#000080> of </font></b>
+<img src="images/UCC_2000320.gif" width=82 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves remainder 1 on division by 83</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+and thus 83 is prime.  It is obvious, of course, that the improvement is significant only when </font></b>
+<img src="images/UCC_2000321.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> has a small number of divisors. It would be futile to use it to establish the primality of - for example - the 8-digit prime (11! + 1):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>11! + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000322.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>since 11! has 540 divisors:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>divisors(11!);</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_2000323.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000324.gif" width=988 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000325.gif" width=988 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000326.gif" width=988 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000327.gif" width=940 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000328.gif" width=972 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000329.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000330.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000331.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000332.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000333.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000334.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000335.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000336.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000337.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000338.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000339.gif" width=988 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000340.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000341.gif" width=972 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000342.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000343.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000344.gif" width=972 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000345.gif" width=980 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000346.gif" width=848 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>A really great improvement later came with D.H. Lehmer (though Kraitchik seems to know the result, but with no stated proof...). It is a mystery to me that Lucas missed it.</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left><a name="D. H. Lehmer and John Selfridge">
+<b><u><font color=#000080>D. H. Lehmer (and later John Selfridge, and others</font></u></b>
+<b><font color=#000080>) </font></b>
+<b><u><font color=#000080>D. H. Lehmer's theorem of 1927</font></u></b>
+<b><font color=#000080>.  Let </font></b>
+<img src="images/UCC_2000347.gif" width=194 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080>... </font></b>
+<img src="images/UCC_2000348.gif" width=49 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080>,  where the </font></b>
+<img src="images/UCC_2000349.gif" width=80 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... are distinct primes, and suppose there is an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that<br>
+<br>
+1.   </font></b>
+<img src="images/UCC_2000350.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, and <br>
+2.   for </font></b>
+<b><u><font color=#000080>all</font></u></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>i, </font></b></i>
+<img src="images/UCC_2000351.gif" width=87 height=116 alt="[Maple Math]" align=middle>
+<b><font color=#000080> does </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> leave remainder 1 on division by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.  </font></b>
+<b><u><font color=#000080>In short</font></u></b>
+<b><font color=#000080>, D.H. Lehmer's theorem means that one </font></b>
+<b><u><font color=#000080>need only be concerned with</font></u></b>
+<b><font color=#000080> those divisors of </font></b>
+<img src="images/UCC_2000352.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> that are of the form </font></b>
+<img src="images/UCC_2000353.gif" width=58 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, as </font></b>
+<img src="images/UCC_2000354.gif" width=29 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> varies over the prime factors of </font></b>
+<img src="images/UCC_2000355.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. </font></b>
+<b><u><font color=#000080>This is a really significant, and computationally serious advance</font></u></b>
+<b><font color=#000080>.<br>
+<br>
+</font></b>
+<b><u><font color=#000080>An illustrative example (which shows the strengths and weaknesses of Lehmer's theorem)</font></u></b>
+<b><font color=#000080>. I'll use Lehmer's theorem to establish the primality of </font></b>
+<img src="images/UCC_2000356.gif" width=99 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where the prime divisors of </font></b>
+<img src="images/UCC_2000357.gif" width=57 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> are 2, 3, 5, 7 and 11:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>N := 11! + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000358.gif" width=114 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>47&amp;^(N-1) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000359.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>47&amp;^((N-1)/2) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000360.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>47&amp;^((N-1)/3) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000361.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>47&amp;^((N-1)/5) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000362.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>47&amp;^((N-1)/7) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000363.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>473&amp;^((N-1)/11) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000364.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>While that looks impressive, I have bypassed a lot of fruitless earlier computations (smaller </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>'s than '47'). Other, better examples may be seen in the 3rd year section of the Maple section of my web site. Also, I have moved to an appendix John Selfridge's 1967 valuable improvement of D.H. Lehmer's 1927 theorem.</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left><a name="H.C.Pocklington">
+<b><font color=#000080>H.C. Pocklington again (and the millennium prime is found).  Because of their occurence in Euclid's classic proof of the infinitude of primes, the infinite sequence of numbers: <br>
+<br>
+          2+1, 2*3+1, 2*3*5+1, 2*3*5*7+1, 2*3*5*7*11+ 1, etc, <br>
+ <br>
+are called </font></b>
+<i><b><font color=#000080>Euclidean numbers</font></b></i>
+<b><font color=#000080>. Several of them are prime, and it is a daunting unsolved question as to how many of them are prime (I believe that is a problem that will never be answered).  In January 1999, starting on the 5th, and ending (temporarily) on the 7th, I began searching for what I would like to call primes of Euclid-Pocklington type, meaning primes in the infinite equence:<br>
+<br>
+ 2*(3)+1 = 7, 2*3*5^2+1 = 151, 2*3*5*7^3+1 = 10291, etc.<br>
+<br>
+As you can see, all I was doing - in terms of the simplest version of Pocklington's theorem - was choosing:<br>
+<br>
+1.   ' </font></b>
+<img src="images/UCC_2000365.gif" width=37 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> ' to be the </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>th power of the (</font></b>
+<img src="images/UCC_2000366.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)th prime, and then choose<br>
+2.   ' </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080> ' to be the product of the first </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> prime numbers, thus<br>
+3.   automatically having the condition </font></b>
+<img src="images/UCC_2000367.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> being satisfied.  </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f := n -&gt; product(ithprime(k), k=1..n)*ithprime(n+1)^n + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000368.gif" width=368 height=66 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f(1);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000369.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f(2);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000370.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f(3);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000371.gif" width=56 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f(100);</font></b>
+</p>
+<p align=left>
+<img src="images/UCC_2000372.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000373.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000374.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000375.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/UCC_2000376.gif" width=224 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>It is explained in simple language in my booklet what I did, but here I just remark that what I needed to do, to identify primes in the above sequence, was to </font></b>
+<i><b><font color=#000080>first</font></b></i>
+<b><font color=#000080> identify </font></b>
+<i><b><font color=#000080>some candidates</font></b></i>
+<b><font color=#000080> for primality (meaning ones that at least passed the </font></b>
+<i><b><font color=#000080>first hurdle</font></b></i>
+<b><font color=#000080> of the Fermat-Lucas test to the base 2):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>candidates := proc(m, n) local k;<br>
+for k from m to n do<br>
+if 2&amp;^(f(k)-1) mod f(k) = 1<br>
+then print(k, f(k))<br>
+fi od end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>candidates(1, 30);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000377.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/UCC_2000378.gif" width=56 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/UCC_2000379.gif" width=240 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/UCC_2000380.gif" width=560 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And thus, out of the first 30 of the above numbers, the 1st, 2nd, 10th, and 10th are possible primes.<br>
+<br>
+In fact, those four are all prime (the first two - 7 and 151 - can be done by hand!), but, how do we </font></b>
+<i><b><font color=#000080>know</font></b></i>
+<b><font color=#000080> that; how can we </font></b>
+<i><b><font color=#000080>prove</font></b></i>
+<b><font color=#000080> that? Using Pocklington, that is.  Let's have a look at the 3rd of them, the 25 digit </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f(10);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000381.gif" width=216 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>and just to let you </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(f(10) - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000382.gif" width=415 height=28 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>We already have that </font></b>
+<img src="images/UCC_2000383.gif" width=132 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/UCC_2000384.gif" width=51 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>), and so, using Pocklington, the primality of </font></b>
+<img src="images/UCC_2000385.gif" width=51 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> would be established if we </font></b>
+<b><u><font color=#000080>also</font></u></b>
+<b><font color=#000080> had that </font></b>
+<img src="images/UCC_2000386.gif" width=257 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.  Now, the computation of the gcd of two numbers - even really large ones - is a  </font></b>
+<i><b><font color=#000080>fast computation</font></b></i>
+<b><font color=#000080> (this is part of the greatness of the </font></b>
+<i><b><font color=#000080>Euclidean algorithm</font></b></i>
+<b><font color=#000080>): </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(10^200 + 84, 10^150 + 14);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000387.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(100! + 8765432, 10^150 + 13);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000388.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>So, let's calculate: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(2^((f(10) - 1)/ithprime(11)) - 1, f(10));</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000 size=2>Error, integer too large in context</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Which integer is "too large"?   It's the </font></b>
+<img src="images/UCC_2000389.gif" width=142 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.  That number (easy exercise) has </font></b>
+<i><b><font color=#000080>more</font></b></i>
+<b><font color=#000080> than ten thousand, million, million, million digits!! And Maple can only handle integers up to </font></b>
+<i><b><font color=#000080>about</font></b></i>
+<b><font color=#000080> 500,000 digits. (And that's just for f(10); the millennium prime is f(325)).  So, what can one do?   To our rescue comes the Euclidean algorithm, the </font></b>
+<i><b><font color=#000080>key step</font></b></i>
+<b><font color=#000080> of which is the utterly elementary - but oh! so incredibly powerful result! - that if </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>B</font></b></i>
+<b><font color=#000080> are any two whole numbers, then </font></b>
+<img src="images/UCC_2000390.gif" width=171 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>R</font></b></i>
+<b><font color=#000080> is the integer obtained from </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> by dividing it by </font></b>
+<i><b><font color=#000080>B</font></b></i>
+<b><font color=#000080>, as in: </font></b>
+<img src="images/UCC_2000391.gif" width=103 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>Q</font></b></i>
+<b><font color=#000080> is the 'quotient', and </font></b>
+<i><b><font color=#000080>R</font></b></i>
+<b><font color=#000080> is the 'remainder'.<br>
+<br>
+In particular it means that the value of </font></b>
+<img src="images/UCC_2000392.gif" width=206 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080> may be obtained by computing the remainder that </font></b>
+<img src="images/UCC_2000393.gif" width=142 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves on division by f(10):  <br>
+<br>
+(and the Maple command for </font></b>
+<i><b><font color=#000080>that</font></b></i>
+<b><font color=#000080> is the modular exponential one:  2&amp;^((f(10) - 1)/ithprime(11)) - 1 mod F(10)  )<br>
+<br>
+thus obtaining: </font></b>
+<img src="images/UCC_2000394.gif" width=528 height=104 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(f(10), 2&amp;^((f(10) - 1)/ithprime(11)) - 1 mod f(10));</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000395.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Instantly, and </font></b>
+<i><b><font color=#000080>proving</font></b></i>
+<b><font color=#000080> that f(10) is prime.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(f(20), 2&amp;^((f(20) - 1)/ithprime(21)) - 1 mod f(20));</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000396.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>which </font></b>
+<i><b><font color=#000080>proves</font></b></i>
+<b><font color=#000080> that f(20) is prime.  Returning to my search of last January 1999 I continued looking for candidates, and checking bit by bit up to f(180) these were the outputs (to re-execute them you must first delete the comment sign ' # ' before 'candidates'): </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># candidates(31, 60); # no output</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># candidates(61, 120); # no output</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># candidates(121, 180); # here just one output, '173'</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000397.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(f(173));</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000398.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and applying Pocklington to f(173) it turned out to be prime, and I might have stopped at that point but decided to plough on as my ambition then was to find - if there was one! (it was quite possible that there might not have been another one) - a Euclid-Pocklington prime with at least 1000 digits (any prime with at least 1000 digits is known as a </font></b>
+<i><b><font color=#000080>titanic</font></b></i>
+<b><font color=#000080> prime, and its finder is entitled to be called a </font></b>
+<i><b><font color=#000080>Titan</font></b></i>
+<b><font color=#000080>; it's just a bit of fun.)<br>
+<br>
+Well, you have probably guessed the outcome: the first candidate after f(180) turned out to be f(325) (the '325' was the output from 'candidates(301, 330)'). Then the Pocklington condition was satisfied, proving that f(325) was prime, and then, checking to see how many digits it had, it happened to be exactly 2000.</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center><a name="Appendix 1">
+<b><font color=#000080 size=4>Appendix 1</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+Here is the structure of the number 'c' from within the Fermat section:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 1195068768795265792518361315725116351898245581;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000399.gif" width=415 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 24444516448431392447461;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000400.gif" width=230 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q := 48889032896862784894921;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000401.gif" width=230 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>is(n = c);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000402.gif" width=43 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top<br>
+</a></p>
+<p align=center><a name="Appendix 2">
+<b><font color=#000080 size=4>Appendix 2</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+John Selfridge's theorem of 1967.  Let </font></b>
+<img src="images/UCC_2000403.gif" width=194 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080>... </font></b>
+<img src="images/UCC_2000404.gif" width=49 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where the </font></b>
+<img src="images/UCC_2000405.gif" width=80 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... are distinct primes, and suppose for </font></b>
+<i><b><font color=#000080>each</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> there is an integer </font></b>
+<img src="images/UCC_2000406.gif" width=29 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (which may or may not vary as i varies, though in practice it does - it is this freedom that makes it superior to Lehmer's theorem) such that:<br>
+<br>
+1.   </font></b>
+<img src="images/UCC_2000407.gif" width=111 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) (i.e. </font></b>
+<img src="images/UCC_2000408.gif" width=82 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves remainder 1 on division by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>; <br>
+      in other words, suppose "</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> passes the Fermat-Lucas test to the base </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>"]<br>
+<br>
+2.   </font></b>
+<img src="images/UCC_2000409.gif" width=121 height=116 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) (i.e., </font></b>
+<img src="images/UCC_2000410.gif" width=92 height=116 alt="[Maple Math]" align=middle>
+<b><font color=#000080> does </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> leave remainder 1 on division by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>)</font></b>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.  And here, for example, is the primality of 11! + 1 established using Selfridge:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>N := 11! + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000411.gif" width=114 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>First fix </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> at 2 to see:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(N-1) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000412.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^((N-1)/2) mod N; # need to try another 'a'</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000413.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^((N-1)/3) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000414.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^((N-1)/5) mod N; # need to try another 'a'</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000415.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^((N-1)/7) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000416.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^((N-1)/11) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000417.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3&amp;^(N-1) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000418.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3&amp;^((N-1)/2) mod N; # need to try another 'a'</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000419.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3&amp;^((N-1)/5) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000420.gif" width=72 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>13&amp;^(N-1) mod N;</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000421.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>13&amp;^((N-1)/2) mod N; </font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000422.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That last, non-unity output, finally establishes the primality of </font></b>
+<img src="images/UCC_2000423.gif" width=99 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. Other examples of Selfridge's theorem may be viewed in the 3rd year section of the Maple section of my web site.<br>
+</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top<br>
+</a></p>
+<p align=center><a name="Appendix 3">
+<b><font color=#000080 size=4>Appendix 3 <br>
+Francois Proth (1852 - 1879)<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Francois Proth - a self taught French farmer - was the first mathematician to discover a wide ranging primality test for a natural number </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> that </font></b>
+<i><b><font color=#000080>did not require</font></b></i>
+<b><font color=#000080> knowing the </font></b>
+<i><b><font color=#000080>complete factorisation</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/UCC_2000424.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. Since his test is something that featured prominently in my earlier talk this afternoon ("Could there exist a sixth Fermat prime? I believe it is </font></b>
+<i><b><font color=#000080>not impossible</font></b></i>
+<b><font color=#000080>"), then I do not intend saying very much about it here, except to record it, and point out its relation to Pocklington's theorem. </font></b>
+<b><font color=#000080><br>
+<br>
+The usual statement of Proth's (Dec. 1878) theorem (I keep the notation as close as possible to the already seen simplest form of Pocklington's 1914-16 theorem). Let </font></b>
+<img src="images/UCC_2000425.gif" width=112 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> where </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080> is odd and </font></b>
+<img src="images/UCC_2000426.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. Suppose there is an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that:<br>
+                                                    </font></b>
+<img src="images/UCC_2000427.gif" width=127 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>),<br>
+then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.<br>
+<br>
+</font></b>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. The principal point of interest is that one </font></b>
+<i><b><font color=#000080>need not know</font></b></i>
+<b><font color=#000080> the actual factorisation of </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080>, though in practice one usually experiments with small (and thus entirely </font></b>
+<i><b><font color=#000080>known</font></b></i>
+<b><font color=#000080>) odd values of </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080>.<br>
+<br>
+I have two very personal reasons for being grateful to Proth:<br>
+<br>
+1.   Early in 1999, while attempting to simplify the statement and proof of Proth's theorem to present to my 3rd year students, I rediscovered a little known </font></b>
+<i><b><font color=#000080>unification of Mersenne and Fermat numbers</font></b></i>
+<b><font color=#000080>. That was one of the most satisfying times in my mathematical life, and formed the basis of my talk earlier this afternoon.<br>
+<br>
+2.   Between July 23rd and 25th 1999, and using </font></b>
+<b><u><font color=#000080>Yves Gallot</font></u></b>
+<b><font color=#000080>'s remarkable Proth.exe program, I was the lucky discoverer of the then (and still) largest known composite Fermat number </font></b>
+<img src="images/UCC_2000428.gif" width=205 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, by finding that it had the 115130-digit prime factor 3*</font></b>
+<img src="images/UCC_2000429.gif" width=102 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. You may read all about that in the Fermat number record section of my web site.</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top<br>
+</a></p>
+<p align=center><a name="Appendix 4">
+<b><font color=#000080 size=4>Appendix 4</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+Other examples of Euclid-Pocklington (or simply Pocklington) type primes.<br>
+A very beautiful (because of its structure, and its resistance to a classical primality proof) prime, one with 1031 digits, is the prime </font></b>
+<img src="images/UCC_2000430.gif" width=97 height=100 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. This number was first identified as a </font></b>
+<i><b><font color=#000080>probable prime</font></b></i>
+<b><font color=#000080> several years ago (in an unpublished paper) by Wilfrid Keller, and was rediscovered by me on March 10th 1999 (see my earlier, afternoon talk), again as a probable prime. For my purposes it was critical that it </font></b>
+<i><b><font color=#000080>be</font></b></i>
+<b><font color=#000080> a prime, and following circulation of a note about it to about 35 mathematicians I received a note from Francois Morain on March 25th 1999 that a two day computation by him - using the elliptic curve method - had resulted in its primality being established. This prime has been dubbed the 'Keller-Cosgrave-Morain' prime</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>KCM := (2^(59^2) - 1)/(2^59 - 1):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(KCM);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000431.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Some weeks ago, with this talk in mind, I thought it might be interesting to find a Pocklington-type prime of the form (</font></b>
+<img src="images/UCC_2000432.gif" width=82 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>), with </font></b>
+<img src="images/UCC_2000433.gif" width=113 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and </font></b>
+<img src="images/UCC_2000434.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. Using Chris Nash's PrimeForm program I found a 2613-digit one one with </font></b>
+<img src="images/UCC_2000435.gif" width=81 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>. This prime is especially interesting since the number </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080> is currently unfactored.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := (KCM - 1)*3^3316 + 1:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(p);</font></b>
+</p>
+<p align=center>
+<img src="images/UCC_2000436.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>On December 30th 1999, again using Chris Nash's PrimeForm I found the 15756-digit Pocklington type prime </font></b>
+<img src="images/UCC_2000437.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*...*</font></b>
+<img src="images/UCC_2000438.gif" width=162 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.<br>
+The general form of Pocklington's theorem. Let </font></b>
+<img src="images/UCC_2000439.gif" width=210 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080>... </font></b>
+<img src="images/UCC_2000440.gif" width=49 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080>,  where the </font></b>
+<img src="images/UCC_2000441.gif" width=80 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... are distinct primes, none of which divide </font></b>
+<i><b><font color=#000080>U</font></b></i>
+<b><font color=#000080>, and  </font></b>
+<img src="images/UCC_2000442.gif" width=168 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> ...  </font></b>
+<img src="images/UCC_2000443.gif" width=49 height=68 alt="[Maple Math]" align=middle>
+<i><b><font color=#000080>. </font></b></i>
+<b><font color=#000080>Then</font></b>
+<i><b><font color=#000080> n</font></b></i>
+<b><font color=#000080> is prime if:<br>
+<br>
+Condition 1 (the Fermat-Lucas condition)</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080> there is </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/UCC_2000444.gif" width=106 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and<br>
+<br>
+Condition 2</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>(the general Pocklington's condition)</font></b>
+<i><b><font color=#000080> </font></b></i>
+<img src="images/UCC_2000445.gif" width=205 height=116 alt="[Maple Math]" align=middle>
+<b><font color=#000080> for all </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+An example: </font></b>
+<img src="images/UCC_2000446.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*...*</font></b>
+<img src="images/UCC_2000447.gif" width=199 height=36 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is a 3318-digit prime.<br>
+</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top<br>
+</a></p>
+<p align=center><a name="Recommended reading">
+<b><font color=#000080 size=4>Recommended reading</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+The literature is vast, and I will keep it brief by saying that anyone wishing to really study this subject would greatly benefit from a reading of Hugh C. Williams' Edouard Lucas and Primality Testing [ISBN 0-471-14852-0], Canadian Mathematical Society Series of Monographs and Advanced Texts, Volume 22, John Wiley &amp; Sons, 1998. Williams' book is a real treasure, and ought to become a classic. I got my copy from Undercover Books (http://www.undercoverbooks.com); please tell Joel Turner (who, with his sister and mother, runs this great company) I told you so.<br>
+</font></b>
+</p>
+<p align=center>
+<a href="#Top" target="Content">Return to Top</a></p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:10:18 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

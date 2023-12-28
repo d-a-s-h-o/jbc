@@ -1,0 +1,3682 @@
+<html>
+<head>
+<title>FER1640.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Theme" content="nature 100, default">
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="#FFFFCC" text="#333399" link="#990033" vlink="#006633" alink="#FF6600"><a href="http://www.johnbcosgrave.com">	&lt; Back to johnbcosgrave.com</a><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<a name="MapleAutoBookmark1">
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># Fer_1640.mws </font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080" size="4">A Public Lecture</font></u></b>
+<b><font color="#000080" size="4">:</font></b>
+<b><font color="#000080">     </font></b>
+<b><font color="#000080" size="4">The history of Fermat [1601-1665] numbers from August 1640</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Question</font></u></b>
+<b><font color="#000080">: </font></b>
+<i><b><font color="#000080"> What</font></b></i>
+<b><font color="#000080"> is this lecture </font></b>
+<i><b><font color="#000080">about</font></b></i>
+<b><font color="#000080">?</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Answer</font></u></b>
+<b><font color="#000080">:    It is about one of the most beautiful questions in Mathematics (going back to August 1640),</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                  a question that is simple </font></b>
+<i><b><font color="#000080">to explain</font></b></i>
+<b><font color="#000080">, </font></b>
+<i><b><font color="#000080">to state</font></b></i>
+<b><font color="#000080">, but for which there is absolutely no sign of an </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                  answer. It is about a question which </font></b>
+<i><b><font color="#000080">may never be answered</font></b></i>
+<b><font color="#000080">. Its answer - if ever there be </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                  one - will require creativity of unimaginable proportions.<br>
+<br>
+                  Recently - cycling over the </font></b>
+<i><b><font color="#000080">Luke Kelly Bridge</font></b></i>
+<b><font color="#000080"> - I came upon someone who said: &quot;John, you have </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                  one minute in which to tell me what this Fermat business is all about,&quot; and this was my reply:   ... ... </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                  Now you may - if you wish - go home.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Speaker</font></u></b>
+<b><font color="#000080">:          Dr. John Cosgrave.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Address:          Mathematics Department, St. Patrick's College, Drumcondra, Dublin 9, IRELAND.</font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">e-mail</font></b></i>
+<b><font color="#000080">:             John.Cosgrave@spd.ie (College) or  johnbcos@iol.ie (home)</font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">Web</font></b></i>
+<b><font color="#000080">:                &lt;http://www.spd.dcu.ie/johnbcos&gt;</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Venue</font></u></b>
+<b><font color="#000080">:             Room E 201, St. Patrick's College, Drumcondra, Dublin 9, IRELAND.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Note</font></u></b>
+<b><font color="#000080">.  This lecture has been prepared using the Computer Mathematical System </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080">, which is researched and developed </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">by Waterloo University (Canada), INRIA (France) and the ETH (Zurich). </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> is used by all academic mathematics students </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">here in St. Patrick's College. The </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> files of this talk </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">in </font></b>
+<b><u><font color="#000080">active </font></u></b>
+<i><b><u><font color="#000080">mws</font></u></b></i>
+<b><font color="#000080"> format (which allows a user who has </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> to make his/her own alterations), or </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">in </font></b>
+<i><b><u><font color="#000080">html</font></u></b></i>
+<i><b><font color="#000080"> </font></b></i>
+<b><font color="#000080">format (which allows anyone who doesn't have </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> - but who has a web facility - <br>
+to at least read the text of this lecture), <br>
+<br>
+and many other </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> worksheets:<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">1st. year </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080">/Calculus/Analysis</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">2nd year Number Theory [under construction]</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">3rd year Number Theory and Cryptography</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">some public or seminar/conference lectures<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">together with course notes, examination papers (written and </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> lab), may be accessed/downloaded at my web site.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left"><a name="Structure of my talk">
+<b><u><font color="#000080">Structure of my talk</font></u></b>
+<b><font color="#000080"> [All the mathematical ideas presented in this talk are treated in my undergraduate courses with our </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">students in St. Patrick's College, Drumcondra. </font></b>
+<i><b><font color="#000080">Most</font></b></i>
+<b><font color="#000080"> of our students are taking the B.Ed. degree, with a view to becoming </font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">primary school teachers</font></b></i>
+<b><font color="#000080"> in Ireland; we also have a number of B. A. students.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I believe it has been remarked (by whom?) that in a once-off lecture what one ought to do it this:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">1. Tell</font></b>
+<i><b><font color="#000080"> </font></b></i>
+<b><font color="#000080">your listeners what you are going to tell them, </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">which in my case is: I am going to tell you about the historical background to a mathematically significant discovery (made </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">here - on computer #17 in Room D318 of St. Patrick's College, Drumcondra - over the weekend of Frid. 23rd. to Sunday </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">25th. July 1999), namely that the 382447th. </font></b>
+<i><b><font color="#000080">Fermat </font></b></i>
+<b><font color="#000080">number is </font></b>
+<i><b><font color="#000080">composite</font></b></i>
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">That Fermat number - and you will know its meaning shortly - is </font></b>
+<b><u><font color="#000080">so utterly vast</font></u></b>
+<b><font color="#000080"> that were one to write it out in </font></b>
+<i><b><font color="#000080">decimal notation</font></b></i>
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">(i.e. in the normal, everyday way: ... 79324 ... 872349100218 ... 7777766655443221 ... etc.) at - let us say - 4 digits per inch - and </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">not just on a single sheet of paper, but on sheet upon sheet, stacked back-to-back (at - say - 250 sheets per inch of depth - the </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">thickness of photocopying paper) to form a giant cube, then that cube would have side length roughly 10000000000000....000 </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">(38,358 noughts!!) light years (1 light year - the distance light travels in a year - is approximately 58,656,960,000,000 miles). </font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">That is big</font></u></b>
+<b><font color="#000080">; the entire universe would fit inside a cube whose side was only (!) about 30,000,000,000 light years. <br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">2. Tell them, what you told them, you would tell them: that corresponds to the hyperlinked topics just coming up.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">3. Tell them, you have told them, what you told them, you would tell them: that will come at the end.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left"><a name="A brief revision">
+<a href="fer16401.html#Introduction" target="Content">Introduction</a><b><font color="#000080">. A brief revision of some simple mathematical terminology, and a few relevant </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> commands:<br>
+<br>
+   1.</font></b>
+<i><b><font color="#000080">   Natural</font></b></i>
+<b><font color="#000080"> numbers (1, 2, 3, 4, ... , </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">, ... ). Addition and multiplication using </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080">.<br>
+   2.  </font></b>
+<i><b><font color="#000080"> Powers </font></b></i>
+<b><font color="#000080">(</font></b>
+<i><b><font color="#000080">power of</font></b></i>
+<b><font color="#000080">) [this will enable me to tell you </font></b>
+<i><b><font color="#000080">what</font></b></i>
+<b><font color="#000080"> the </font></b>
+<i><b><font color="#000080">Fermat</font></b></i>
+<b><font color="#000080"> numbers </font></b>
+<i><b><font color="#000080">are</font></b></i>
+<b><font color="#000080">, <br>
+         and I will briefly consider the question of the size of Fermat numbers]. <br>
+   3.   </font></b>
+<i><b><font color="#000080">Division</font></b></i>
+<b><font color="#000080">. </font></b>
+<i><b><font color="#000080">Dividing</font></b></i>
+<b><font color="#000080"> one number by another, </font></b>
+<i><b><font color="#000080">quotient</font></b></i>
+<b><font color="#000080">, </font></b>
+<i><b><font color="#000080">remainder</font></b></i>
+<b><font color="#000080">. <br>
+         Relevant</font></b>
+<i><b><font color="#000080"> Maple</font></b></i>
+<b><font color="#000080"> commands, and '</font></b>
+<i><b><font color="#000080">modular exponentiation</font></b></i>
+<b><font color="#000080">.'           </font></b>
+<i><b><font color="#000080"><br>
+</font></b></i>
+<b><font color="#000080">   4.</font></b>
+<i><b><font color="#000080">   Prime</font></b></i>
+<b><font color="#000080"> numbers (2, 3, 5, 7, 11,13, 17, 19, ... ), and </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">             </font></b>
+<i><b><font color="#000080">composite</font></b></i>
+<b><font color="#000080"> numbers (4, 6, 8, 9, 10, 12, 14, 15, ... ).    <br>
+<br>
+In my lecture I intend </font></b>
+<b><u><font color="#000080">passing quickly over the next two sections</font></u></b>
+<b><font color="#000080"> (which the interested attendee may read at his/her </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">leisure at a later date by looking up the </font></b>
+<i><b><font color="#000080">html</font></b></i>
+<b><font color="#000080"> format version of this talk at my web site); these next two sections are </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">intended only to provide the historical background to Fermat's discovery of the numbers that now bear his name. <br>
+</font></b>
+</p>
+<p align="left">
+<a href="fer16401.html#Euclid and perfect numbers" target="Content">Euclid and perfect numbers</a></p>
+<p align="left">
+<a href="fer16401.html#Mersenne primes" target="Content">Mersenne primes</a><b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<a href="fer16401.html#Fermat numbers" target="Content">Fermat numbers</a><b><font color="#000080"> made their first appearance in </font></b>
+<b><u><font color="#000080">August 1640</font></u></b>
+<b><font color="#000080">.  Fermat's </font></b>
+<b><u><font color="#000080">belief</font></u></b>
+<b><font color="#000080"> with regard to his numbers.</font></b>
+</p>
+<p align="left">
+<a href="fer16401.html#Euler-Fermat theorem" target="Content">Euler-Fermat theorem</a><b><font color="#000080"> (1732).  <br>
+Euler's discovery (1732) in connection with </font></b>
+<img src="images/FER16401.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.<br>
+Landry's discovery (1880) in connection with </font></b>
+<img src="images/FER16402.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.<br>
+[though see Hugh C. Williams' book </font></b>
+<i><b><font color="#000080">re</font></b></i>
+<b><font color="#000080"> Clausen (1854) reference, and much, much more besides.]</font></b>
+</p>
+<p align="left"><a name="Pepin's theorem">
+<a href="fer16401.html#Pepin's theorem" target="Content">Pepin's theorem</a><b><font color="#000080"> (1877)<br>
+Morehead and Western (independently, 1903) in connection with </font></b>
+<img src="images/FER16403.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. <br>
+Brillhart and Morrison (1970) in connection with </font></b>
+<img src="images/FER16404.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.<br>
+[Only the surface can be scratched as far as attribution or credit is concerned;<br>
+ the interested reader should consult Hugh C. Williams' remarkable book.]</font></b>
+</p>
+<p align="left">
+<a href="fer16401.html#The current state" target="Content">The current state of knowledge</a><b><font color="#000080">, <br>
+</font></b>
+<a href="fer16401.html#Proth's theorem" target="Content">Proth's theorem</a><b><font color="#000080"> of December 1878, and<br>
+</font></b>
+<a href="fer16401.html#Yves Gallot" target="Content">Yves Gallot</a><b><font color="#000080">'s remarkable </font></b>
+<i><b><font color="#000080">Proth.exe</font></b></i>
+<b><font color="#000080"> program.</font></b>
+</p>
+<p align="left"><a name="Events of the summer">
+<a href="fer16401.html#In the late afternoon" target="Content">Events</a><b><font color="#000080"> of the summer, starting 5.00 P.M. Friday 23rd. July 1999 [a much more extensive version of this section may be read <br>
+at my web site, especially with regard to what I might call the personal history side of events, from my point of view, and also <br>
+from Yves Gallot's.]. Briefly, that over the weekend of Frid. 23rd. - Sun. 25th. July, and as a participant [the complete list of <br>
+</font></b>
+<a href="fer16401.html#Participants" target="Content">participants</a><b><font color="#000080"> as of August 4th. 1999] in the Yves Gallot founded Proth prime project, I had the good fortune to discover - using <br>
+Yves Gallot's remarkable, and greatly admired Proth.exe program - the largest known composite Fermat number. Precisely <br>
+what that actually means will - I hope! - be clear by the end of my talk.</font></b>
+</p>
+<p align="left">
+<a href="fer16401.html#Summary" target="Content">Summary</a></p>
+<p align="left">
+<a href="fer16401.html#Web site references" target="Content">Web site references</a></p>
+<p align="left">
+<a href="fer16401.html#A frequently asked question" target="Content">A frequently asked question</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="Introduction">
+<b><u><font color="#000080">Introduction</font></u></b>
+<b><font color="#000080">. A brief revision of some simple mathematical terminology, and a few relevant Maple commands:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">1.  The term '</font></b>
+<i><b><font color="#000080">number</font></b></i>
+<b><font color="#000080">' has a variety of meanings. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Convention</font></u></b>
+<b><font color="#000080">. In what follows (for simplicity, and relevance) whenever I use the term </font></b>
+<i><b><font color="#000080">number</font></b></i>
+<b><font color="#000080"> I will </font></b>
+<b><u><font color="#000080">generally mean</font></u></b>
+<b><font color="#000080"> - unless </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">otherwise stated - what is called a '</font></b>
+<i><b><font color="#000080">natural</font></b></i>
+<b><font color="#000080"> ' number: The </font></b>
+<i><b><u><font color="#000080">natural</font></u></b></i>
+<b><font color="#000080"> numbers are the numbers: 1, 2, 3, 4, 5, 6, ... , </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">, ... </font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Addition:</font></u></b>
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3 + 8;</font></b>
+</p>
+<p align="center">
+<img src="images/FER16405.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">9876543213333334444449999999999999999999999999888888899999999998888885555555554444444433333328888899999999999998888888888877777777766666666 + 22222244444444449999999999999923800000999999999999999999999776599999999999999999999999432987;</font></b>
+</p>
+<p align="left">
+<img src="images/FER16406.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER16407.gif" width="192" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Multiplication</font></u></b>
+<b><font color="#000080">. Multiplying 3 and 8 - denoted by 3*8 in </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> - produces 24.</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3*8;</font></b>
+</p>
+<p align="center">
+<img src="images/FER16408.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">98765432133333347777111111111111111111111111111111177777777777777333333333333333334444498888888888888877777777776666655676778876656 *<br>
+23877699999999999999999999999999999999990000000000005432987999999999999988888887765546667745332000000000000;</font></b>
+</p>
+<p align="left">
+<img src="images/FER16409.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER164010.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER164011.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">2.  </font></b>
+<b><u><font color="#000080">Powers</font></u></b>
+<b><font color="#000080">. By &quot;2 to the power of 5&quot; (say) is meant the </font></b>
+<i><b><font color="#000080">repeated</font></b></i>
+<b><font color="#000080"> product 2*2*2*2*2 (where there are five two's), which is 32. The standard mathematical notation for 2 to the power of 5 is </font></b>
+<img src="images/FER164012.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.  By &quot;3 to the power of 4&quot; (say) is meant the repeated product 3*3*3*3 (where there are four three's), which is 81. The notation for 3 to the power of 4 is </font></b>
+<img src="images/FER164013.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.  The general notation for &quot;</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080"> to the power of </font></b>
+<i><b><font color="#000080">b</font></b></i>
+<b><font color="#000080">&quot; - namely </font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">*</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">*</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">*...*</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080"> (where there are </font></b>
+<i><b><font color="#000080">b</font></b></i>
+<b><font color="#000080"> occurences of '</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">') - is </font></b>
+<img src="images/FER164014.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">A special case</font></u></b>
+<b><font color="#000080">. In the case where the raising power </font></b>
+<i><b><font color="#000080">b</font></b></i>
+<b><font color="#000080"> is 2, </font></b>
+<img src="images/FER164015.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is generally called &quot;</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080"> </font></b>
+<i><b><u><font color="#000080">squared</font></u></b></i>
+<b><font color="#000080">.&quot;</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Examples</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2^5; # the first one above</font></b>
+</p>
+<p align="center">
+<img src="images/FER164016.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3^4; # the second one above</font></b>
+</p>
+<p align="center">
+<img src="images/FER164017.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">5^2; # 5 squared:</font></b>
+</p>
+<p align="center">
+<img src="images/FER164018.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">19999999988888888777776255244423123100000000006666666665555555555555544444444444444444444411111111111111444444444444444012345678987654321^2;</font></b>
+</p>
+<p align="left">
+<img src="images/FER164019.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER164020.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER164021.gif" width="328" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Definition of the Fermat numbers</font></u></b>
+<b><font color="#000080">. I can now tell you what the </font></b>
+<i><b><font color="#000080">Fermat numbers</font></b></i>
+<b><font color="#000080"> are [in so doing I am &quot;pulling them out of a hat,&quot; because I want to get down to basics as quickly as possible; later I will show you how they arose in a most natural fashion] ; the Fermat numbers are the </font></b>
+<i><b><font color="#000080">infinite</font></b></i>
+<b><font color="#000080"> sequence of numbers </font></b>
+<b><u><font color="#000080">formed by</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">starting</font></u></b>
+<b><font color="#000080"> with the number 2</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">repeatedly form successive squares</font></u></b>
+<b><font color="#000080">:<br>
+<br>
+</font></b>
+<img src="images/FER164022.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,<br>
+</font></b>
+<img src="images/FER164023.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,<br>
+</font></b>
+<img src="images/FER164024.gif" width="86" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,<br>
+</font></b>
+<img src="images/FER164025.gif" width="110" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,<br>
+</font></b>
+<img src="images/FER164026.gif" width="166" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, <br>
+</font></b>
+<img src="images/FER164027.gif" width="518" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, etc<br>
+</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">add 1 to every one of the above numbers</font></u></b>
+<b><font color="#000080">, starting with the initial '2,' forming the </font></b>
+<b><u><font color="#000080">'</font></u></b>
+<i><b><u><font color="#000080">Fermat</font></u></b></i>
+<b><u><font color="#000080">' numbers</font></u></b>
+<b><font color="#000080">:<br>
+<br>
+3, 5, 17, 257, 65537, 4294967296, </font></b>
+<img src="images/FER164028.gif" width="328" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, etc<br>
+<br>
+The standard mathematical symbols for those numbers are : </font></b>
+<img src="images/FER164029.gif" width="197" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, etc<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">There is a succinct mathematical description for these numbers - based upon elementary observations like:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">   . . . , </font></b>
+<img src="images/FER164030.gif" width="146" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER164031.gif" width="146" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ... , </font></b>
+<img src="images/FER164032.gif" width="191" height="82" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (the completely general case)</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">- namely that the </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">-th Fermat number (denoted by </font></b>
+<img src="images/FER164033.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) has this value:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                     </font></b>
+<img src="images/FER164034.gif" width="127" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (for </font></b>
+<img src="images/FER164035.gif" width="166" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ...)<br>
+</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[0] := 2^(2^0) + 1; # is the &quot;zero-th&quot; Fermat number, the initial one</font></b>
+</p>
+<p align="center">
+<img src="images/FER164036.gif" width="65" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[1] := 2^(2^1) + 1; # is the &quot;first&quot; Fermat number</font></b>
+</p>
+<p align="center">
+<img src="images/FER164037.gif" width="65" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[2] := 2^(2^2) + 1; # is the &quot;second&quot; Fermat number</font></b>
+</p>
+<p align="center">
+<img src="images/FER164038.gif" width="73" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[3] := 2^(2^3) + 1; # is the &quot;third&quot; Fermat number</font></b>
+</p>
+<p align="center">
+<img src="images/FER164039.gif" width="81" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Just a pause on that last calculation</font></u></b>
+<b><font color="#000080">. There I was asking </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> to compute the 3rd. Fermat number, </font></b>
+<img src="images/FER164040.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, whose value is given by </font></b>
+<img src="images/FER164041.gif" width="125" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. </font></b>
+<b><u><font color="#000080">Check</font></u></b>
+<b><font color="#000080">: </font></b>
+<img src="images/FER164042.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is 8, and so </font></b>
+<img src="images/FER164043.gif" width="56" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<img src="images/FER164044.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, which is 2*2*2*2*2*2*2*2, which is 256. Thus </font></b>
+<img src="images/FER164045.gif" width="125" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 256 + 1 = 257.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[4] := 2^(2^4) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164046.gif" width="97" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] := 2^(2^5) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164047.gif" width="137" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[6] := 2^(2^6) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164048.gif" width="217" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[7] := 2^(2^7) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164049.gif" width="369" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[8] := 2^(2^8) + 1;</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[9] := 2^(2^9) + 1;</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[10] := 2^(2^10) + 1;</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[11] := 2^(2^11) + 1;</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[12] := 2^(2^12) + 1;</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(F[12]); # the command to show F[12] has 1234 digits:</font></b>
+</p>
+<p align="center">
+<img src="images/FER164050.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">The Fermat numbers grow in size extremely rapidly, and it is elementary to argue that each one has</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">either twice as many digits as the previous one</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">or one fewer than twice as many digits as the previous one</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">which I merely illustrate with:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^4) + 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164051.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^5) + 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164052.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^6) + 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164053.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^7) + 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164054.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^8) + 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164055.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^12) + 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164056.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^13) + 1); # 2467 is 2*1234 - 1</font></b>
+</p>
+<p align="center">
+<img src="images/FER164057.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">I hope you can begin to appreciate how it is that the 382447th. Fermat number - </font></b>
+<img src="images/FER164058.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - can be so large, can have so many digits: </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">I have done a rough calculation (see the Fermat Number Record section of my web site) which establishes that </font></b>
+<img src="images/FER164059.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> has approximately </font></b>
+</p>
+<p align="left">
+<img src="images/FER164060.gif" width="81" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> digits.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">So far I have only told you </font></b>
+<i><b><u><font color="#000080">what</font></u></b></i>
+<b><font color="#000080"> the Fermat numbers are, and I have yet to tell you </font></b>
+<i><b><u><font color="#000080">how</font></u></b></i>
+<b><font color="#000080"> they came about in the first place, and </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">what it is about them that has created such interest in them. That will come shortly. First, though, we need to have a look at:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Division</font></u></b>
+<b><font color="#000080">. Choose two numbers - </font></b>
+<b><u><font color="#000080">95</font></u></b>
+<b><font color="#000080"> and </font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080"> (say) - and &quot;</font></b>
+<b><u><font color="#000080">divide</font></u></b>
+<b><font color="#000080">&quot; the larger ( </font></b>
+<b><u><font color="#000080">95</font></u></b>
+<b><font color="#000080"> ) by the smaller ( </font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080"> ):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                    </font></b>
+<b><u><font color="#000080">95</font></u></b>
+<b><font color="#000080"> = </font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080">*</font></b>
+<i><b><font color="#000080">13</font></b></i>
+<b><font color="#000080"> + </font></b>
+<i><b><font color="#000080">4</font></b></i>
+<b><font color="#000080">   ... (i)</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">It is usual to say that &quot;</font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080"> divides into </font></b>
+<b><u><font color="#000080">95</font></u></b>
+<b><font color="#000080"> thirteen times (the </font></b>
+<i><b><font color="#000080">13</font></b></i>
+<b><font color="#000080"> is the </font></b>
+<b><u><font color="#000080">quotient</font></u></b>
+<b><font color="#000080">), and leaves </font></b>
+<b><u><font color="#000080">remainder</font></u></b>
+<b><font color="#000080"> 4 over. One then says &quot;7 does </font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">not divide evenly</font></b></i>
+<b><font color="#000080"> into 95&quot; [though mathematicians never say &quot;evenly&quot;: you will hear them say: &quot;95 is not divisible by 7.&quot; You may </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">well say that mathematicians are odd that they don't say evenly.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Now choose two other numbers - </font></b>
+<b><u><font color="#000080">98</font></u></b>
+<b><font color="#000080"> and </font></b>
+<i><b><font color="#000080">7</font></b></i>
+<b><font color="#000080">  - and divide the larger ( </font></b>
+<b><u><font color="#000080">98</font></u></b>
+<b><font color="#000080"> ) by the smaller ( </font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080"> ):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                    </font></b>
+<b><u><font color="#000080">98</font></u></b>
+<b><font color="#000080"> = </font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080">*</font></b>
+<i><b><font color="#000080">14   </font></b></i>
+<b><font color="#000080">... (ii)</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">It is usual to say that &quot;</font></b>
+<b><u><font color="#000080">7</font></u></b>
+<b><font color="#000080"> divides evenly into </font></b>
+<b><u><font color="#000080">98</font></u></b>
+<b><font color="#000080">&quot; (</font></b>
+<i><b><font color="#000080">14</font></b></i>
+<b><font color="#000080"> times; the </font></b>
+<i><b><font color="#000080">14</font></b></i>
+<b><font color="#000080"> is the </font></b>
+<b><u><font color="#000080">quotient</font></u></b>
+<b><font color="#000080">).</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">In case (i) one says there is a </font></b>
+<b><u><font color="#000080">remainder of 4</font></u></b>
+<b><font color="#000080"> when 95 is divided by 7.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">In case (ii) one says there is a </font></b>
+<b><u><font color="#000080">remainder of 0</font></u></b>
+<b><font color="#000080"> when 98 is divided by 7.<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Here are the </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> commands for finding those remainders:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">95 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164061.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">98 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164062.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2^5 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164063.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2^980 mod 816654321900000000055555554444444333333222222211111177777777777777666665555555558765555444491;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164064.gif" width="752" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">but look at this (identical to the previous one, except that I have altered the '980' to ... ):</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2^98076054328 mod 816654321900000000055555554444444333333222222211111177777777777777666665555555558765555444491;</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">Error, integer too large in context</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Comment</font></u></b>
+<b><font color="#000080">. The 'too large' refers to the </font></b>
+<img src="images/FER164065.gif" width="113" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, which - having 29,523,834,210 digits - is beyond </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080">'s capacity </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">(roughly 500,000 digits) for handling natural numbers.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">But computations of such remainders is exactly the sort of thing one wishes to do!!</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Have we arrived at an impasse? No!!, not at all!! What we have been trying to do in the last three computations is to carry out </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">what is known as a </font></b>
+<i><b><font color="#000080">modular exponentiation</font></b></i>
+<b><font color="#000080"> computation: that is to compute the remainder that </font></b>
+<img src="images/FER164066.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves on division by </font></b>
+<i><b><font color="#000080">M</font></b></i>
+<b><font color="#000080">, where </font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">, </font></b>
+<i><b><font color="#000080">b</font></b></i>
+<b><font color="#000080"> and </font></b>
+<i><b><font color="#000080">M</font></b></i>
+<b><font color="#000080"> are numbers.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">To our rescue comes a technique (known as the </font></b>
+<i><b><font color="#000080">square-and-multiply method</font></b></i>
+<b><font color="#000080">; it is fundamental to many areas, including cryptography) </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">which enables such computations to be carried out without having to compute the actual value of the number </font></b>
+<img src="images/FER164067.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. That method is </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">incorporated into </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> with the following (see how it differs from above)</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^98076054328 mod 816654321900000000055555554444444333333222222211111177777777777777666665555555558765555444491;</font></b>
+</p>
+<p align="center">
+<img src="images/FER164068.gif" width="760" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Instantly!!! You will see later why the facility to perform such a computation is of fundamental importance.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Finally, two critical terms, </font></b>
+<i><b><font color="#000080">prime </font></b></i>
+<b><font color="#000080">number and </font></b>
+<i><b><font color="#000080">composite</font></b></i>
+<b><font color="#000080"> number:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">4.  </font></b>
+<b><u><font color="#000080">Prime numbers and composite numbers</font></u></b>
+<b><font color="#000080">.  </font></b>
+<b><u><font color="#000080">Every</font></u></b>
+<b><font color="#000080"> number greater than 1 is - of course - evenly divisible by 1 and</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">     itself. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">However, </font></b>
+<b><u><font color="#000080">some</font></u></b>
+<b><font color="#000080"> numbers ' </font></b>
+<i><b><font color="#000080">p '</font></b></i>
+<b><font color="#000080">, greater than 1, are </font></b>
+<b><u><font color="#000080">evenly divisible</font></u></b>
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">only</font></u></b>
+<b><font color="#000080"> by 1 and </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080">. <br>
+<br>
+The first several are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...<br>
+<br>
+and some later (highly structured) ones are: <br>
+<br>
+8191 ( = </font></b>
+<img src="images/FER164069.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">), ... , <br>
+<br>
+1111111111111111111 (where there are nineteen 1's), ... , <br>
+<br>
+the 1031-digit number </font></b>
+<img src="images/FER164070.gif" width="226" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> + ... + </font></b>
+<img src="images/FER164071.gif" width="139" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ( = </font></b>
+<img src="images/FER164072.gif" width="97" height="100" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ) , ...  <br>
+<br>
+Such numbers are said to be </font></b>
+<i><b><u><font color="#000080">prime</font></u></b></i>
+<b><font color="#000080">, and Euclid's 3rd. century B.C. proof that there are an infinite number of prime <br>
+numbers is rightly considered a classsic of early mathematical work<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">On the other hand, </font></b>
+<b><u><font color="#000080">all other</font></u></b>
+<b><font color="#000080"> numbers ' </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080"> ', greater than 1, are </font></b>
+<b><u><font color="#000080">evenly divisible</font></u></b>
+<b><font color="#000080"> by </font></b>
+<b><u><font color="#000080">some</font></u></b>
+<b><font color="#000080"> number other than 1 and </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">.<br>
+<br>
+The first several are: 4 (which, being 2*2, is evenly divisible by 2)                                 </font></b>
+<i><b><font color="#000080"><br>
+                                     </font></b></i>
+<b><font color="#000080">6 (which, being 2*3, is evenly divisible by 2, or 3)<br>
+                                     8 (which, being 2*4, is evenly divisible by 2, or 4)<br>
+                                     9 (which, being 3*3, is evenly divisible by 3),<br>
+                                     <br>
+and some later (highly structured) ones (compare with the above special primes) are: <br>
+<br>
+8193 ( = </font></b>
+<img src="images/FER164073.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">), <br>
+<br>
+11111111111111111111111 (where there are twenty-three 1's), ... , <br>
+<br>
+the 1102-digit number </font></b>
+<img src="images/FER164074.gif" width="226" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> + ... + </font></b>
+<img src="images/FER164075.gif" width="139" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ( = </font></b>
+<img src="images/FER164076.gif" width="97" height="100" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ), ... <br>
+<br>
+Such numbers are said to be </font></b>
+<i><b><u><font color="#000080">composite</font></u></b></i>
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">In short</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">Prime</font></b></i>
+<b><font color="#000080"> numbers are numbers with </font></b>
+<b><u><font color="#000080">exactly</font></u></b>
+<b><font color="#000080"> two '</font></b>
+<i><b><font color="#000080">divisors</font></b></i>
+<b><font color="#000080">' </font></b>
+</p>
+<p align="left">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">Composite</font></b></i>
+<b><font color="#000080"> numbers are numbers with </font></b>
+<b><u><font color="#000080">more than</font></u></b>
+<b><font color="#000080"> two divisors    </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">A common misunderstanding</font></u></b>
+<b><font color="#000080">. One sometimes hears things like: &quot;</font></b>
+<i><b><font color="#000080">A composite number is a number that is a product of two primes</font></b></i>
+<b><font color="#000080">, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">like 15 which is 3 times 5, or 35 which is 5 times 7, etc.&quot; That is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> so. Those numbers - 15 and 35 - are examples of composite numbers, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">but numbers like 60 are also composite (60 is evenly divisible by 2, and so 60 is 2 times 30. Thus 60 is the product of two numbers one of </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">which (2) is prime, but the other one (30) is not. </font></b>
+<b><u><font color="#000080">What is true</font></u></b>
+<b><font color="#000080"> is that every composite number is a product of a certain number of primes; </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">60, for example is the product of the primes 2, 2, 3 and 5.</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(15);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164077.gif" width="72" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(60);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164078.gif" width="111" height="28" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(1008);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164079.gif" width="120" height="28" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(3087);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164080.gif" width="90" height="28" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">So much for terminology</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                    </font></b>
+<a href="fer16401.html#A brief revision" target="Content">Return to &quot;A brief revision&quot;</a><b><font color="#000080">                                                              </font></b>
+</p>
+<p align="left">
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left"><a name="Euclid and perfect numbers">
+<b><u><font color="#000080">Euclid and perfect numbers</font></u></b>
+<b><font color="#000080"> (briefly!) [Much greater detail may be viewed in one of my </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> public lectures - given in </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">October 1997 - on the then recently discovered world record size Mersenne prime. It is available at my web site.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">A </font></b>
+<i><b><u><font color="#000080">perfect</font></u></b></i>
+<b><font color="#000080"> number is one whose sum of factors - excluding itself - is equal to itself.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Examples</font></u></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">6 is perfect, because the factors of 6 are 1, 2, 3 and 6, and </font></b>
+<img src="images/FER164081.gif" width="111" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">28 is perfect, because the factors of 28 are 1, 2, 4, 7, 14 and 28, and </font></b>
+<img src="images/FER164082.gif" width="185" height="30" alt="[Maple Math]" align="middle">
+</p>
+<p align="left">
+<b><font color="#000080">496 is perfect, because the factors of 496 are 1, 2, 4, 8, 16, 31, 62, 124, 248 and 496, and <br>
+</font></b>
+<img src="images/FER164083.gif" width="357" height="30" alt="[Maple Math]" align="middle">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Euclid's great discovery (and one to which students may easily be led) was</font></u></b>
+<b><font color="#000080">: Let </font></b>
+<img src="images/FER164084.gif" width="25" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> be a natural number such </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">that (</font></b>
+<img src="images/FER164085.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) is a prime number, then the number </font></b>
+<img src="images/FER164086.gif" width="142" height="56" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is a perfect number.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Examples</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<img src="images/FER164087.gif" width="91" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime, and thus the number </font></b>
+<img src="images/FER164088.gif" width="126" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER164089.gif" width="61" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, is perfect</font></b>
+</p>
+<p align="left">
+<img src="images/FER164090.gif" width="123" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime, and thus the number </font></b>
+<img src="images/FER164091.gif" width="166" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER164092.gif" width="48" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 33,550,336, is perfect<br>
+</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">isprime(2^13 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164093.gif" width="43" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2^12*(2^13-1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER164094.gif" width="80" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Historical (historic, and unsolved) question</font></u></b>
+<b><font color="#000080">: For which values of </font></b>
+<img src="images/FER164095.gif" width="25" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is (</font></b>
+<img src="images/FER164096.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) prime?</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Some partial answers</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">If</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080"> is composite (i.e., is not prime) </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> (</font></b>
+<img src="images/FER164097.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) is also composite, and - as a consequence - </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">if</font></u></b>
+<b><font color="#000080"> (</font></b>
+<img src="images/FER164098.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) is prime, </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080"> is prime.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Warning</font></u></b>
+<b><font color="#000080">. It is </font></b>
+<b><u><font color="#000080">not true</font></u></b>
+<b><font color="#000080"> that if </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080"> is prime then </font></b>
+<b><font color="#000080">(</font></b>
+<img src="images/FER164099.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) is prime</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Examples</font></u></b>
+<b><font color="#000080">. Note that 11, 23 and 29 are all prime, but:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">isprime(2^11 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640100.gif" width="47" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(2^11 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640101.gif" width="88" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">isprime(2^23 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640102.gif" width="47" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(2^23 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640103.gif" width="120" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">isprime(2^29 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640104.gif" width="47" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(2^29 - 1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640105.gif" width="166" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">                                             </font></b>
+<a href="fer16401.html#A brief revision" target="Content">Return to &quot;A brief revision&quot;</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="Mersenne primes">
+<b><u><font color="#000080">Mersenne numbers, Mersenne primes</font></u></b>
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Definitions.</font></u></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let  </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> be prime, then </font></b>
+<img src="images/FER1640106.gif" width="104" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, is the </font></b>
+<i><b><font color="#000080">Mersenne</font></b></i>
+<b><font color="#000080"> number formed from the prime </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Let  </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> be prime; if </font></b>
+<img src="images/FER1640107.gif" width="104" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime, then it is said to be a Mersenne prime.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">Mersenne := proc(n1, n2) local p;<br>
+for p from n1 to n2 do<br>
+if isprime(p) and isprime(2^p - 1)<br>
+then print(p, 2^p - 1) fi od end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">Mersenne(2, 100);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640108.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640109.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640110.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640111.gif" width="56" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640112.gif" width="72" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640113.gif" width="88" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640114.gif" width="88" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640115.gif" width="120" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640116.gif" width="192" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/FER1640117.gif" width="256" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">WARNING. Do </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> fall into the trap of thinking that you can find big Mersenne primes using this ... !! I am attempting </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">to avoid straying into very, very deep waters.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                              </font></b>
+<a href="fer16401.html#A brief revision" target="Content">Return to &quot;A brief revision&quot;</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="Fermat numbers">
+<b><u><font color="#000080">Fermat numbers</font></u></b>
+<b><font color="#000080">. In the previous section I set out the longstanding problem there had been in finding primes - called </font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">Mersenne</font></b></i>
+<b><font color="#000080"> primes - like 3, 7, 31, 127, 8191, ... , each of which is a power of 2 less 1:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<img src="images/FER1640118.gif" width="91" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640119.gif" width="91" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640120.gif" width="99" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640121.gif" width="107" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640122.gif" width="123" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ... , </font></b>
+<img src="images/FER1640123.gif" width="110" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> [is the 38th known Mersenne prime, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">with 2,098,960 digits, and is </font></b>
+<b><u><font color="#000080">currently the largest known prime</font></u></b>
+<b><font color="#000080"> number].                                                </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Whereas Mersenne primes had their origin is a question asked in the 3rd. century B.C. (and earlier), Fermat primes/numbers </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">had their origin in 1640. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Pierre de Fermat (1601-1665</font></u></b>
+<b><font color="#000080">, and the '</font></b>
+<i><b><font color="#000080">father of modern Number Theory</font></b></i>
+<b><font color="#000080">') - a contemporary and correspondent of Mersenne's - </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">asked himself this </font></b>
+<i><b><u><font color="#000080">apparently</font></u></b></i>
+<b><u><font color="#000080"> simple question</font></u></b>
+<b><font color="#000080">, sometime in the Summer of 1640:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080"> Which primes are a power of 2, </font></b>
+<b><u><font color="#000080">plus</font></u></b>
+<b><font color="#000080"> 1?<br>
+<br>
+ That is, for which values of </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> (</font></b>
+<img src="images/FER1640124.gif" width="147" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">...) is (</font></b>
+<img src="images/FER1640125.gif" width="60" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) a prime?</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">School children, students, anyone, may easily check by hand that:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">When </font></b>
+<img src="images/FER1640126.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640127.gif" width="118" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3, </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">When </font></b>
+<img src="images/FER1640128.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640129.gif" width="118" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 5, </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">         When </font></b>
+<img src="images/FER1640130.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640131.gif" width="118" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 9 = 3*3, is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">When </font></b>
+<img src="images/FER1640132.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640133.gif" width="126" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 17, </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">          When </font></b>
+<img src="images/FER1640134.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640135.gif" width="126" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 33 = 3*11, is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">          When </font></b>
+<img src="images/FER1640136.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640137.gif" width="126" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 65 = 5*13, is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">          When </font></b>
+<img src="images/FER1640138.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640139.gif" width="134" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 129 = 3*43, is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">When </font></b>
+<img src="images/FER1640140.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640141.gif" width="134" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 257, </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> prime</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Perhaps you detect an </font></b>
+<i><b><font color="#000080">apparent</font></b></i>
+<b><font color="#000080"> pattern?</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">At this point (and this has always been my experience, over many years, with my own students) most people will </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">immediately leap to the </font></b>
+<b><u><font color="#000080">guesses</font></u></b>
+<b><font color="#000080">/</font></b>
+<b><u><font color="#000080">questions</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Is (</font></b>
+<img src="images/FER1640142.gif" width="60" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) composite when </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">is not</font></u></b>
+<b><font color="#000080"> a power of 2? [Here the answer is a simple '</font></b>
+<i><b><font color="#000080">yes</font></b></i>
+<b><font color="#000080">,' and it is an elementary exercise to prove it.]</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Is (</font></b>
+<img src="images/FER1640143.gif" width="60" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) prime when </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> a power of 2? That is, letting </font></b>
+<img src="images/FER1640144.gif" width="133" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (</font></b>
+<img src="images/FER1640145.gif" width="201" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ... ) be the </font></b>
+<i><b><font color="#000080">m</font></b></i>
+<b><font color="#000080">-th Fermat <br>
+number, is it true that </font></b>
+<img src="images/FER1640146.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime for all </font></b>
+<img src="images/FER1640147.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">?<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">In a letter to Frenicle of </font></b>
+<b><u><font color="#000080">August 1640</font></u></b>
+<b><font color="#000080"> (and another of October 1640; both letters available - in French - at Antreas P. Hatzipolakis's <br>
+web site: &lt;http://users.hol.gr/~xpolakis/fermat/fac.html&gt;) Fermat wrote as follows (English translation quoted from Michael Sean <br>
+Mahoney's </font></b>
+<i><b><font color="#000080">The Mathematical Career of Pierre de Fermat</font></b></i>
+<b><font color="#000080">, Princeton University Press, 2nd edition, 1994; see also Andre Weil's </font></b>
+<i><b><font color="#000080"><br>
+Number Theory </font></b></i>
+<b><font color="#000080">(</font></b>
+<i><b><font color="#000080">An approach through history</font></b></i>
+<b><font color="#000080">), Birkhauser, 1984):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<i><b><font color="#000080">&quot; But here is what I admire most of all: it is that I am just about convinced that all progressive numbers augmented by unity, </font></b></i>
+</p>
+<p align="left">
+<i><b><font color="#000080">   of which the exponents are numbers of the double progression, are prime numbers, such as<br>
+<br>
+                            </font></b></i>
+<b><font color="#000080">3, 5, 17, 257, 65537, 4294967297</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<i><b><font color="#000080">and the following of twenty digits</font></b></i>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                          18,446,744,073,709,551,617, etc.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<i><b><font color="#000080">I do not have an exact proof of it, but I have excluded such a large quantity of divisors by infallible demonstrations, and my t</font></b></i>
+</p>
+<p align="left">
+<i><b><font color="#000080">houghts rest on such clear insights, that I can hardly be mistaken.&quot;</font></b></i>
+<b><font color="#000080"> [end of Fermat quotation.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Fermat returned to this question over and over again in the remaining 25 years of his life, and, when he died in January 1665, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">he had neither proved that all Fermat numbers were prime, nor found an example of one that was composite.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">The first example of a composite Fermat number</font></u></b>
+<b><font color="#000080"> was only found in 1732, when the most prolific mathematician of all time - the </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">famous Leonhard Euler (1707-1783) - discovered that the 5th Fermat number, </font></b>
+<img src="images/FER1640148.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, is evenly divisible by 641:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] := 2^(2^5) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640149.gif" width="137" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] mod 641;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640150.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(F[5]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640151.gif" width="136" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Question</font></u></b>
+<b><font color="#000080">. </font></b>
+<i><b><font color="#000080">How</font></b></i>
+<b><font color="#000080"> did Euler make the discovery that </font></b>
+<img src="images/FER1640152.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is divisible by 641? Did he just do a trial-and-error series of calculations, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">trying (as some texts wrongly state) one </font></b>
+<i><b><font color="#000080">possible</font></b></i>
+<b><font color="#000080"> prime divisor of </font></b>
+<img src="images/FER1640153.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> after another?:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] mod 3;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640154.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640155.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] mod 11;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640156.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] mod 13;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640157.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">and so on until ... .</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Answer</font></u></b>
+<b><font color="#000080">. No; Euler found that </font></b>
+<img src="images/FER1640158.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> was divisible by 641 by using the following</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left"><a name="Euler-Fermat theorem">
+<b><u><font color="#000080">Special case of the Fermat-Euler theorem (1732)</font></u></b>
+<b><font color="#000080">. For </font></b>
+<b><u><font color="#000080">any</font></u></b>
+<b><font color="#000080"> value of </font></b>
+<i><b><font color="#000080">m</font></b></i>
+<b><font color="#000080"> (= 0, 1, 2, 3, 4, ... ), </font></b>
+<b><u><font color="#000080">every</font></u></b>
+<b><font color="#000080"> divisor </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> (prime or otherwise) </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">of (</font></b>
+<img src="images/FER1640159.gif" width="89" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) </font></b>
+<b><u><font color="#000080">must</font></u></b>
+<b><font color="#000080"> leave remainder 1 when divided by </font></b>
+<img src="images/FER1640160.gif" width="80" height="56" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. In other words, every divisor </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> of (</font></b>
+<img src="images/FER1640161.gif" width="89" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) must have </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">the following </font></b>
+<b><u><font color="#000080">structure</font></u></b>
+<b><font color="#000080">: </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                   </font></b>
+<img src="images/FER1640162.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640163.gif" width="109" height="56" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, for some </font></b>
+<img src="images/FER1640164.gif" width="133" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ... . </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">[In later years that &quot;</font></b>
+<img src="images/FER1640165.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">&quot; was improved - for </font></b>
+<i><b><font color="#000080">m</font></b></i>
+<b><font color="#000080"> = 2, 3, 4, ... - to &quot;</font></b>
+<img src="images/FER1640166.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">&quot; by a theorem of Gauss.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">The point of this theorem is simply this</font></u></b>
+<b><font color="#000080">: </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">What Euler did (actually Andre Weil is of the view (which I am in sympathy) that Fermat himself also did this - using his </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">unproven discovery - but made an arithmetical error) was to attempt to find a factor of:</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                      </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                           </font></b>
+<img src="images/FER1640167.gif" width="125" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = </font></b>
+<img src="images/FER1640168.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 4,294,967,297</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">by using the proved result that any prime factor </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> of </font></b>
+<img src="images/FER1640169.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> must be of the form:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                        </font></b>
+<img src="images/FER1640170.gif" width="102" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (some </font></b>
+<i><b><font color="#000080">k</font></b></i>
+<b><font color="#000080"> = 1, 2, 3, 4, ... )</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">and, when he got up to </font></b>
+<i><b><font color="#000080">k </font></b></i>
+<b><font color="#000080">= 10 he found that </font></b>
+<img src="images/FER1640171.gif" width="61" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640172.gif" width="106" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> divides evenly into </font></b>
+<img src="images/FER1640173.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">In the following century, Landry (in 1880, and at the age of 82!) found that 274,177 divided evenly into:<br>
+<br>
+                        </font></b>
+<img src="images/FER1640174.gif" width="125" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = </font></b>
+<img src="images/FER1640175.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 18,446,744,073,709,551,617</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[6] := 2^(2^6) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640176.gif" width="217" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[6] mod 274177;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640177.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(F[6]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640178.gif" width="216" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Warning</font></u></b>
+<b><font color="#000080">. I am </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> going to use Maple to </font></b>
+<b><u><font color="#000080">attempt</font></u></b>
+<b><font color="#000080"> to factor<br>
+                                         </font></b>
+<img src="images/FER1640179.gif" width="125" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[7] := 2^(2^7) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640180.gif" width="369" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">because that number </font></b>
+<b><u><font color="#000080">was only factored as recently as 1970</font></u></b>
+<b><font color="#000080"> - it has the following prime factorization:<br>
+<br>
+       </font></b>
+<img src="images/FER1640181.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = (</font></b>
+<img src="images/FER1640182.gif" width="136" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640183.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">)*(</font></b>
+<img src="images/FER1640184.gif" width="176" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640185.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">)</font></b>
+</p>
+<p align="left">
+<b><font color="#000080"><br>
+and it was only possible to do so because of a very great theoretical advance (the </font></b>
+<i><b><font color="#000080">continued fraction factorisation method </font></b></i>
+<b><font color="#000080">), </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">made that year, due to </font></b>
+<b><u><font color="#000080">Brillhart and Morrison</font></u></b>
+<b><font color="#000080">. [John Brillhart is in a historic photograph that I have made available at my web </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">site: go to my home page, and click on the </font></b>
+<b><u><font color="#000080">Oxford 1969</font></u></b>
+<b><font color="#000080"> button.]</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">p1 := 116503103764643*2^9 + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640186.gif" width="190" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">isprime(p1);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640187.gif" width="43" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">p2 := 11141971095088142685*2^9 + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640188.gif" width="230" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">isprime(p2);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640189.gif" width="43" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">N := p1*p2;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640190.gif" width="362" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[7];</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640191.gif" width="328" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">is(N = F[7]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640192.gif" width="43" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">However, in 1970 it had </font></b>
+<i><b><font color="#000080">already been known</font></b></i>
+<b><font color="#000080"> from the first decade of this century that </font></b>
+<img src="images/FER1640193.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> composite!!                         </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left"><a name="Big question">
+<b><u><font color="#000080">Big question</font></u></b>
+<b><font color="#000080">.  </font></b>
+<b><u><font color="#000080">How</font></u></b>
+<b><font color="#000080"> had it been possible to </font></b>
+<b><u><font color="#000080">know</font></u></b>
+<b><font color="#000080"> at </font></b>
+<i><b><font color="#000080">an earlier time</font></b></i>
+<b><font color="#000080"> (than 1970) that </font></b>
+<img src="images/FER1640194.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is composite?<br>
+</font></b>
+</p>
+<p align="left"><a name="Pepin's theorem">
+<b><font color="#000080">This brings us to </font></b>
+<b><u><font color="#000080">Théophile Pépin (1826-1905)'s remarkable theorem of 1877</font></u></b>
+<b><font color="#000080"> (which developed in a particular direction a work </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">of Édouard Lucas of the previous year, and which formed the basis of a result François Proth's at the end of 1878):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">If</font></u></b>
+<b><font color="#000080"> the number </font></b>
+<img src="images/FER1640195.gif" width="101" height="116" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder  </font></b>
+<img src="images/FER1640196.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> when divided by </font></b>
+<img src="images/FER1640197.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640198.gif" width="133" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">is</font></u></b>
+<b><font color="#000080"> a prime,</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">and</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">if</font></u></b>
+<b><font color="#000080"> the number </font></b>
+<img src="images/FER1640199.gif" width="101" height="116" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">doesn't</font></u></b>
+<b><font color="#000080"> leave remainder  </font></b>
+<img src="images/FER1640200.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> when divided by </font></b>
+<img src="images/FER1640201.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640202.gif" width="133" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">is not</font></u></b>
+<b><font color="#000080"> a prime.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Comment</font></u></b>
+<b><font color="#000080">. This is a remarkable theorem!! It tells one that the status of a Fermat number </font></b>
+<img src="images/FER1640203.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (</font></b>
+<i><b><font color="#000080">vis à vis</font></b></i>
+<b><font color="#000080"> knowing </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">if it is prime or composite) may be determined by carrying out a single computation, namely: </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">            divide </font></b>
+<img src="images/FER1640204.gif" width="101" height="116" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> by </font></b>
+<img src="images/FER1640205.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, and </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">if the remainder turns out to be </font></b>
+<img src="images/FER1640206.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, then </font></b>
+<img src="images/FER1640207.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is a prime number, but</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">if the remainder turns out </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> to be </font></b>
+<img src="images/FER1640208.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, then </font></b>
+<img src="images/FER1640209.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> a prime number.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Small hand performed example</font></u></b>
+<b><u><font color="#000080">, by way of illustration</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let </font></b>
+<img src="images/FER1640210.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, then </font></b>
+<img src="images/FER1640211.gif" width="79" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = </font></b>
+<img src="images/FER1640212.gif" width="85" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 17, and so </font></b>
+<img src="images/FER1640213.gif" width="200" height="116" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = </font></b>
+<img src="images/FER1640214.gif" width="86" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and dividing 6561 by 17 we get: 6561 = 17*</font></b>
+<img src="images/FER1640215.gif" width="69" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">     </font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">proving</font></u></b>
+<b><font color="#000080">, by Pépin's theorem that </font></b>
+<img src="images/FER1640216.gif" width="125" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 17, is prime.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">That small example was for illustration purposes </font></b>
+<i><b><font color="#000080">only</font></b></i>
+<b><font color="#000080">; no one would seriously prove that 17 is prime by appealing to </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Pépin's theorem!! However for larger values of </font></b>
+<img src="images/FER1640217.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, it really is a serious issue to decide the status of </font></b>
+<img src="images/FER1640218.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> by using </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Pépin's theorem, and only as recently as September 1999 was the case </font></b>
+<img src="images/FER1640219.gif" width="65" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> settled in the US - after several years of </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">computation - by a group of researchers led by Richard Crandall (Director of the Centre for Advanced Scientific </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Computation). Currently the smallest Fermat number of </font></b>
+<b><u><font color="#000080">unknown status</font></u></b>
+<b><font color="#000080"> is </font></b>
+<img src="images/FER1640220.gif" width="141" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, which Richard Crandall </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">estimates would require about 10,000 of computation to resolve.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Here is the </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> command for the Pépin </font></b>
+<img src="images/FER1640221.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> and other computations:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[2] := 2^(2^2) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640222.gif" width="73" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3^((F[2] - 1)/2), F[2]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640223.gif" width="29" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[3] := 2^(2^3) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640224.gif" width="81" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3^((F[3] - 1)/2), F[3]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640225.gif" width="29" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[4] := 2^(2^4) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640226.gif" width="97" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3^((F[4] - 1)/2), F[4]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640227.gif" width="29" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Incidentally, let us just have a peek at the value of the number:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3^((F[4] - 1)/2);</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">It is quite large!  Please note that in the </font></b>
+<i><b><font color="#000080">html</font></b></i>
+<b><font color="#000080"> version of this lecture I will have to OMIT that output </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">because it leads to the creation of a very large </font></b>
+<i><b><font color="#000080">gif</font></b></i>
+<b><font color="#000080">  file.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">This computes how many digits it has:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(3^((F[4] - 1)/2));</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640228.gif" width="56" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Now let's do the Euler case, where </font></b>
+<img src="images/FER1640229.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[5] := 2^(2^5) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640230.gif" width="137" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">But see what happens when we attempt to apply the Pépin theorem:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3^((F[5] - 1)/2), F[5]);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">Error, integer too large in context</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<b><font color="#000080">So, is Maple useless, when we only get up to the modest sized </font></b>
+<img src="images/FER1640231.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">?</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">No, not at all; this is similar to an earlier modular exponentiation computation, and once again the square-and-</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">multiply technique comes to our rescue [the inserted ' &amp; ' between the '3' and the '^' makes the difference]:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^((F[5] - 1)/2), F[5]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640232.gif" width="80" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">The fact that the '10324303' is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> '</font></b>
+<img src="images/FER1640233.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">' proves - using Pépin's theorem - that </font></b>
+<img src="images/FER1640234.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> prime.</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[6] := 2^(2^6) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640235.gif" width="217" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^((F[6] - 1)/2), F[6]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640236.gif" width="173" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[7] := 2^(2^7) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640237.gif" width="369" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^((F[7] - 1)/2), F[7]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640238.gif" width="328" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">It was precicely that last computation which enabled Morehead and Western in 1903 to prove that </font></b>
+<img src="images/FER1640239.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> was composite, </font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">without finding an actual number</font></u></b>
+<b><font color="#000080"> that divided evenly into </font></b>
+<img src="images/FER1640240.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[8] := 2^(2^8) + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640241.gif" width="681" height="25" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^((F[8] - 1)/2), F[8]);</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640242.gif" width="624" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[9] := 2^(2^9) + 1;</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640243.gif" width="953" height="25" alt="[Maple Math]">
+<br>
+<img src="images/FER1640244.gif" width="360" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^((F[9] - 1)/2), F[9]);</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640245.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER1640246.gif" width="312" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F[10] := 2^(2^10) + 1;</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640247.gif" width="953" height="25" alt="[Maple Math]">
+<br>
+<img src="images/FER1640248.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER1640249.gif" width="664" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^((F[10] - 1)/2), F[10]);</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640250.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER1640251.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/FER1640252.gif" width="592" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Those computations establish that </font></b>
+<img src="images/FER1640253.gif" width="178" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> are all composite - a very far cry from Fermat's belief that all </font></b>
+<img src="images/FER1640254.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">'s are prime!!</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                    </font></b>
+<a href="fer16401.html#Pepin's theorem" target="Content">Return to Pepin's theorem</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="The current state">
+<b><u><font color="#000080">The current state of knowledge </font></u></b>
+<i><b><u><font color="#000080">re</font></u></b></i>
+<b><u><font color="#000080"> Fermat numbers</font></u></b>
+<b><font color="#000080">. I mention </font></b>
+<i><b><font color="#000080">only some of the most important</font></b></i>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">The </font></b>
+<b><u><font color="#000080">only known</font></u></b>
+<b><font color="#000080"> Fermat primes are the first five: </font></b>
+<img src="images/FER1640255.gif" width="143" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> [the </font></b>
+<i><b><font color="#000080">current orthodoxy</font></b></i>
+<b><font color="#000080"> is that these are the </font></b>
+<b><u><font color="#000080">only</font></u></b>
+<b><font color="#000080"> <br>
+Fermat primes. I do not share that view, and would maintain that some work of mine, from March of 1999, casts <br>
+considerable doubt on this. That work of mine - part of which rediscovers work of Shanks from the early 60's, and <br>
+some of Ligh and Jones from the early 80's - is available in a 21-page </font></b>
+<i><b><font color="#000080">Word</font></b></i>
+<b><font color="#000080"> document in the </font></b>
+<b><u><font color="#000080">Fermat 6</font></u></b>
+<b><font color="#000080"> section of my web site.]<br>
+</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640256.gif" width="39" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<b><u><font color="#000080">known to be composite</font></u></b>
+<b><font color="#000080"> for all </font></b>
+<img src="images/FER1640257.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> with 4 &lt; </font></b>
+<img src="images/FER1640258.gif" width="65" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, and the </font></b>
+<img src="images/FER1640259.gif" width="65" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> case was only settled as recently as this August <br>
+(followed by some checking), and was announced by Richard Crandall (Director of the Center for Advanced Scientific <br>
+Computation, Reed College, Oregon, USA) to the Number Theory mailing list on September 30th this year.<br>
+</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640260.gif" width="113" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (all known to be composite by the use of Pépin's theorem) have </font></b>
+<b><u><font color="#000080">no known factors</font></u></b>
+<b><font color="#000080"><br>
+</font></b>
+</p>
+<p align="left"><a name="Proth's theorem">
+<b><u><font color="#000080">François Proth</font></u></b>
+<b><font color="#000080"> (1852-1879), a &quot;self-taught farmer, who lived all his short life in the village of Vaux devant Damloup near <br>
+Verdun in France,&quot; [Hugh Williams' book] discovered the following theorem in 1878 (I teach it to my 3rd. year students, <br>
+and notes about it are available form my web site):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let </font></b>
+<img src="images/FER1640261.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640262.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> where </font></b>
+<i><b><font color="#000080">k</font></b></i>
+<b><font color="#000080"> and </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080"> are natural numbers with </font></b>
+<img src="images/FER1640263.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">; </font></b>
+<b><u><font color="#000080">then </font></u></b>
+<i><b><u><font color="#000080">N</font></u></b></i>
+<b><u><font color="#000080"> is a prime number if</font></u></b>
+<b><font color="#000080"> there is a number ' </font></b>
+<img src="images/FER1640264.gif" width="24" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> '</font></b>
+</p>
+<p align="left">
+<b><font color="#000080"> with the property that:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                        </font></b>
+<img src="images/FER1640265.gif" width="90" height="104" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder  </font></b>
+<img src="images/FER1640266.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> on division by </font></b>
+<img src="images/FER1640267.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">in other words, if there is a number </font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080"> such that </font></b>
+<img src="images/FER1640268.gif" width="164" height="104" alt="[Maple Math]" align="middle">
+<b><font color="#000080">     ... (P') for some number </font></b>
+<img src="images/FER1640269.gif" width="24" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Small hand performed example</font></u></b>
+<b><font color="#000080"> (with </font></b>
+<img src="images/FER1640270.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> and </font></b>
+<img src="images/FER1640271.gif" width="54" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let </font></b>
+<img src="images/FER1640272.gif" width="65" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3*</font></b>
+<img src="images/FER1640273.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, then choosing </font></b>
+<img src="images/FER1640274.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> we find that<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                    </font></b>
+<img src="images/FER1640275.gif" width="189" height="104" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = </font></b>
+<img src="images/FER1640276.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 5*</font></b>
+<img src="images/FER1640277.gif" width="61" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">    ... (compare with P' above)</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">and so, by Proth's theorem, </font></b>
+<img src="images/FER1640278.gif" width="65" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                    </font></b>
+<a href="fer16401.html#Pepin's theorem" target="Content">Return to Pepin's theorem</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="Yves Gallot">
+<b><u><font color="#000080" size="4">Yves Gallot</font></u></b>
+<b><font color="#000080"> (Toulouse, France, where Fermat discovered the numbers that now bear his name) has written a truly </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">extraordinary program - named </font></b>
+<i><b><font color="#000080">Proth.exe</font></b></i>
+<b><font color="#000080"> after Proth - which incorporated Proth's theorem with a revolutionary new idea of </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">the the past twenty years - the </font></b>
+<i><b><font color="#000080">Fast Fourier Transform</font></b></i>
+<b><font color="#000080"> (FFT). [Charles Van Loan (with whom I used to play five-a-side soccer </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">in Manchester university in the early 70's) - Joseph C. Ford Professor of Engineering in the Dept. of Computer Science at Cornell </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">University - is quoted on page 149 of Richard Crandall's </font></b>
+<i><b><font color="#000080">Topics in Advanced Scientific Computation</font></b></i>
+<b><font color="#000080"> as follows:<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                          [The Fast Fourier Transform] &quot;</font></b>
+<i><b><font color="#000080">has changed the face of science and <br>
+                           engineering so much so that it is not an exaggeration to say that life <br>
+                           as we know it would be very different without the FFT</font></b></i>
+<b><font color="#000080">.&quot; [CVL, 1992]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<i><b><font color="#000080">Basically</font></b></i>
+<b><font color="#000080"> what Yves Gallot's program does is this:<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">it searches for primes </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> of the form:  </font></b>
+<img src="images/FER1640279.gif" width="104" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (the interest lies in small </font></b>
+<i><b><font color="#000080">k</font></b></i>
+<b><font color="#000080"> and large </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">)<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and - whenever it finds such a prime </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> - it then tests to see if </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> divides certain associated Fermat numbers. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">In particular, on finding the recent prime </font></b>
+<img src="images/FER1640280.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640281.gif" width="102" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, his program then proceeded to perform the <br>
+</font></b>
+<b><u><font color="#000080">monumental computation</font></u></b>
+<b><font color="#000080"> that </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> divides evenly into </font></b>
+<img src="images/FER1640282.gif" width="205" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I have prepared a simple Maple worksheet - available from my web site - showing that the number of digits that </font></b>
+<img src="images/FER1640283.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">has </font></b>
+<b><u><font color="#000080">approximately</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640284.gif" width="81" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> digits, and would require a square board with side length approximately </font></b>
+<img src="images/FER1640285.gif" width="73" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">LIGHT </font></b></i>
+</p>
+<p align="left">
+<i><b><font color="#000080">YEARS</font></b></i>
+<b><font color="#000080"> in order to write </font></b>
+<img src="images/FER1640286.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> in decimal notation at 4 digits per inch, and even if one were to write the digits at </font></b>
+<img src="images/FER1640287.gif" width="49" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">digits per inch it would only bring the side of the square down to (not a surprise) </font></b>
+<img src="images/FER1640288.gif" width="73" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> light years.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                               </font></b>
+<a href="fer16401.html#Pepin's theorem" target="Content">Return to Pepin's theorem</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="In the late afternoon">
+<b><u><font color="#000080">Events of the Summer</font></u></b>
+<b><font color="#000080">. In my lecture I wish only to mention that near the end of July I had the good fortune to discover - </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">as a </font></b>
+<i><b><font color="#000080">participant</font></b></i>
+<b><font color="#000080"> in the Yves Gallot inspired, Proth project - that the 115,130 digit number:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">           </font></b>
+<img src="images/FER1640289.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640290.gif" width="102" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime [then - and still - the 10th largest prime ever found]<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and that it </font></b>
+<i><b><font color="#000080">divides evenly</font></b></i>
+<b><font color="#000080"> into the 382447-th Fermat number </font></b>
+<img src="images/FER1640291.gif" width="205" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, making </font></b>
+<img src="images/FER1640292.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> be the </font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">largest known composite Fermat number</font></b></i>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">In the late afternoon of Friday 23rd. July 1999, I sent the following announcement to the Irish Mathematics Departments </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">List Server, and to a number of individual mathematicians worldwide:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Dear Friends and colleagues,<br>
+<br>
+I am delighted to inform you that using Yves Gallot's Proth program I have just found the 10th. largest known prime (and <br>
+a new Irish prime record into the bargain). The prime is 3*</font></b>
+<img src="images/FER1640293.gif" width="102" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, and it has 115130 digits.<br>
+<br>
+All the credit goes to Proth (1878, whose theorem I teach to my 3rd. years), to Gallot for his remarkable program, and to my <br>
+College for computer access during the slack Summer period. I have put up a brief note about it on my web site <br>
+(&lt;http://www.spd.dcu.ie/johnbcos&gt;).</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Then, two days later, on the evening of Sunday 25th. August I sent out the following much more exciting announcement: </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                             ANNOUNCING THE LARGEST KNOWN COMPOSITE FERMAT NUMBER </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Dear Friends and colleagues, Using Yves Gallot's remarkable Proth program I have made the fortuitous discoveries that: <br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">1.   </font></b>
+<img src="images/FER1640294.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/FER1640295.gif" width="102" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<i><b><font color="#000080">prime</font></b></i>
+<b><font color="#000080"> (the 10th. largest known one, and the 3rd. largest non-Mersenne prime),<br>
+2.   </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> is a divisor of the Fermat number </font></b>
+<img src="images/FER1640296.gif" width="205" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"><br>
+<br>
+      making </font></b>
+<img src="images/FER1640297.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> be the </font></b>
+<i><b><font color="#000080">largest known composite Fermat number</font></b></i>
+<b><font color="#000080">, and the sixth Fermat number for which </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">      a factor has been found using Gallot's program.<br>
+3.    </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> is a divisor of the following 'generalized Fermat numbers' (GFN's): </font></b>
+<img src="images/FER1640298.gif" width="221" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,              </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">       </font></b>
+<img src="images/FER1640299.gif" width="221" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<img src="images/FER1640300.gif" width="237" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,  </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">4.   </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> a divisor of any </font></b>
+<img src="images/FER1640301.gif" width="161" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">nor</font></b></i>
+<b><font color="#000080"> of </font></b>
+<b><u><font color="#000080">any</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640302.gif" width="177" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,<br>
+<br>
+5.   </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> is a 'generalized Cullen prime.'<br>
+<br>
+Previously the largest known composite Fermat number was </font></b>
+<img src="images/FER1640303.gif" width="205" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, with prime factor </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">3*</font></b>
+<img src="images/FER1640304.gif" width="102" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> [Jeff Young, 1998]. I made my chance discovery while making a systematic Proth-Gallot test </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">of all numbers 3*</font></b>
+<img src="images/FER1640305.gif" width="63" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, with '</font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">' ranging between 366,000 and 390,000, spread over 40-50 machines in my </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">College's main computer laboratory, during the past two months.  Best wishes to you all, John<br>
+<br>
+REFERENCES<br>
+<br>
+1.    Wilfrid Keller maintains the 'Prime factors k*2^n + 1 of Fermat numbers F[m] and complete factoring status' site</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">       at: &lt;http://vamri.xray.ufl.edu/proths/fermat.html&gt;<br>
+<br>
+2.    Ray Ballinger valiantly maintains the Proth prime search site at: &lt;http://vamri.xray.ufl.edu/proths/&gt;<br>
+<br>
+3.    Chris Caldwell maintains the remarkable Prime number site at: &lt;http://www.utm.edu/research/primes&gt;<br>
+                    <br>
+       Much more detail concerning the story and timing of the discovery may be seen at my College we site, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">       including a simple analysis showing that the </font></b>
+<b><u><font color="#000080">supra-astronomically large</font></u></b>
+<b><font color="#000080"> number </font></b>
+<img src="images/FER1640306.gif" width="205" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">       has approximately </font></b>
+<img src="images/FER1640307.gif" width="81" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> digits would require a square board of side length approximately </font></b>
+<img src="images/FER1640308.gif" width="73" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">LIGHT</font></b></i>
+</p>
+<p align="left">
+<i><b><font color="#000080">      YEARS</font></b></i>
+<b><font color="#000080"> in order to write it out in decimal notation at 4 digits per inch  </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left"><a name="Web site references">
+<b><u><font color="#000080">Web site and some text references</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Yves Gallot's remarkable </font></b>
+<i><b><font color="#000080">Proth.exe</font></b></i>
+<b><font color="#000080"> program may be downloaded from:<br>
+<br>
+                   &lt;http://perso.wanadoo.fr/yves.gallot/primes/gfn.html&gt;<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Dr. Ray Ballinger of the University of Florida valiantly maintains the Proth prime search site at:<br>
+<br>
+	                  &lt;http://vamri.xray.ufl.edu/proths/&gt;<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">The current complete factoring status re Fermat numbers is maintained by Dr. Wilfrid Keller (who once - in 1984 - held <br>
+the record for the largest known composite Fermat number; it was then </font></b>
+<img src="images/FER1640309.gif" width="67" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">) of Hamburg University at this site:<br>
+                   &lt;http://vamri.xray.ufl.edu/proths/fermat.html&gt;<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">For matters relating to primes in general one should look no further than Dr. Chris Caldwell's monumental site at:<br>
+                   &lt;http://www.utm.edu/research/primes/&gt;<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">A delightful, and famous book - written by a non-mathematician Constance Reid (but benefiting from being the sister <br>
+of the renowned mathematician Julia Robinson, and the sister-in-law of Julia's husband, mathematician R.M. Robinson) <br>
+- </font></b>
+<i><b><font color="#000080">From Zero to Infinity</font></b></i>
+<b><font color="#000080">, provides a wonderful introduction to Mersenne and Fermat numbers (and much else besides), and <br>
+is obtainable from the Mathematical Association of America at http://www.maa.org<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">For a serious student I unreservedly recommend Hugh C. Williams' monumental </font></b>
+<i><b><font color="#000080">Edouard Lucas and Primality Testing</font></b></i>
+<b><font color="#000080">, <br>
+Volume 22 of the Canadian Mathematical Society Series of Monographs and Advanced Texts, published by John Wiley <br>
+&amp; Sons, Inc. in 1998. ISBN 0-471-14852-0<br>
+<br>
+Also, should you wish to buy a copy of Hugh Williams' book, I unreservedly recommend Joel Turner of Undercover Books <br>
+(Ohio, USA); his email address is joel@undercoverbooks.com, or web http://undercoverbooks.com<br>
+<br>
+</font></b>
+<b><u><font color="#000080">Disclaimer</font></u></b>
+<b><font color="#000080">: </font></b>
+<b><u><font color="#000080">These are unsolicited recommendations</font></u></b>
+<b><font color="#000080">.                                     </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Here is the above 115,130 digit prime </font></b>
+<img src="images/FER1640310.gif" width="24" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> [I omit it from both the </font></b>
+<i><b><font color="#000080">mws</font></b></i>
+<b><font color="#000080"> and </font></b>
+<i><b><font color="#000080">html</font></b></i>
+<b><font color="#000080"> versions to save space.]:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">p := 3*2^382449 + 1;</font></b>
+</p>
+<p align="left"><a name="Participants">
+<b><font color="#000080">Participants in the Proth prime search as of August 4th. 1999: Ed Adamson, Mark Alfonso, Bojan Antonovic, Ray Ballinger, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Brian Beesley, Christer Berg, Steve Bird, Lars Blomberg, Didier Boivin, Jack Brennen, Byron Buck, Ingo Buechel, Robert Burrowes, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Chris Caldwell, Kevin Carton, John Chatzikonstantinou, Robert Clark, </font></b>
+<b><u><font color="#000080">John Cosgrave</font></u></b>
+<b><font color="#000080">, Joseph Cox, Nick Craig-Wood, Mike Curtis, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Chad Davis, Daval Davis, Mike Dawson, John De-Cuir, Sébastien Desnault, Olivier Dodinval, Pete Dodson, </font></b>
+<b><u><font color="#000080">Harvey Dubner</font></u></b>
+<b><font color="#000080">, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Rüdiger Eckhard, Germano Vale Filho, Matt Fischer, Martin Freiss, Brandon Galbraith, </font></b>
+<b><u><font color="#000080">Yves Gallot</font></u></b>
+<b><font color="#000080">, Michael Graef, </font></b>
+<b><u><font color="#000080">Gennady Gusev</font></u></b>
+<b><font color="#000080">, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Henry Hamilton, Michael Hannigan, David Hanson, Bill Hodgeman, Chris Jeppesen, Jo Yeong Uk, Paul Jobling, Craig Johnston, Rick Jones, Henk-Jan de Jong, Wilfrid Keller, Chip Kerchner, Ship Key, Eduard Kostolansky, Richard Kowalski, Herni Lifchitz, Lars Lindley, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Dave Linton, Jud McCranie, Bryan McIntyre, Sven Meinhardt, Michal Misztal, </font></b>
+<b><u><font color="#000080">Dan Morenus</font></u></b>
+<b><font color="#000080">, Chris Nash, Peter Neugebauer, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Takahiro Nohara, Alexis Nunes, Michael O'Brien, Kevin O'Hare, Anton Oleynick, Nicolas Pagnier, Charlie Partin, Michael Peake, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Kirk Pearson, Andy Penrose, Richard Quelle, </font></b>
+<b><u><font color="#000080">John Renze</font></u></b>
+<b><font color="#000080">, Stephen Scott, Rob Simmons, Chris St.Clair, Ola Svallmark, Aaron Swihart, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Janusz Szmidt, Tadashi Taura, Manfred Toplic, Steven Whitaker, Vincent Wighman, Jeff Wolski, Helmut Zeisel and Bruce Ziemienski.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I have underlined those who have had the joy of discovering a composite Fermat number using Yves Gallot's Proth program. <br>
+Some of the others are household names in computational Number Theory, but I mention only:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Chris Caldwell. His Prime Page web site is the most highly regarded for recording material about prime numbers; in fact it has <br>
+no serious rival. He has also established a number of recordsover the years in connection with 'Euclidean', and related primes. </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Harvey Dubner. The creator of the 'Cruncher' chip, and the holder of an extraordinary range of prime number records.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Wilfrid Keller. In 1984 he established - with access to a CRAY supercomputer at Hamburg university - a new composite Fermat <br>
+number record: that </font></b>
+<img src="images/FER1640311.gif" width="67" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is divisible by the prime number (5*</font></b>
+<img src="images/FER1640312.gif" width="94" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">). That record stood for almost 14 years.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Chris Nash. He has developed a fine program - </font></b>
+<i><b><font color="#000080">Prime Form </font></b></i>
+<b><font color="#000080">- for which he pays handsome tribute to Yves Gallot for making <br>
+available the library of Proth.exe. Prime Form allows one to choose whatever numbers one wishes to test for primality.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Tadashi Taura. He participates in the Proth project, but using his own independent approach he has found a number of <br>
+smaller composite Fermat numbers.<br>
+<br>
+                                  </font></b>
+<a href="fer16401.html#Events of the summer" target="Content">Return to &quot;Events of the summer&quot;</a></p>
+<p align="left">
+</p>
+<p align="left"><a name="Summary">
+<b><u><font color="#000080">Summary</font></u></b>
+<b><font color="#000080">. I hope you now</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">1. Know what prime and composite numbers </font></b>
+<i><b><font color="#000080">are</font></b></i>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">2. Know </font></b>
+<i><b><font color="#000080">what</font></b></i>
+<b><font color="#000080"> the Fermat numbers </font></b>
+<i><b><font color="#000080">are</font></b></i>
+<b><font color="#000080">, and have an idea as to </font></b>
+<i><b><font color="#000080">how</font></b></i>
+<b><font color="#000080"> they came into being.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">3. Have some feeling for their great size.</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">4. Have some rough idea as to the mathematical ideas that have been brought to bear on <br>
+    Fermat numbers, and know what is the great unsolved problem relating to them</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                                   </font></b>
+<i><b><font color="#000080" size="5">       FIN</font></b></i>
+</p>
+<p align="left">
+</p>
+<p align="left"><a name="A frequently asked question">
+<b><u><font color="#000080">A frequently asked question</font></u></b>
+<b><font color="#000080">. Over the past few months, quite a number of people have said things to me like: </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<i><b><font color="#000080">     &quot; John, this enormous Fermat number</font></b></i>
+<b><font color="#000080"> - </font></b>
+<img src="images/FER1640313.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - </font></b>
+<i><b><font color="#000080">which you tell us is so big </font></b></i>
+<b><font color="#000080"><br>
+<br>
+     (so big that to write it out on a square sheet of paper at - so vast, that to write it out - not just on a single sheet of paper, </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">     but on sheet upon sheet, stacked back-to-back (at - say - 250 sheets per inch of depth; the thickness of photocopying paper) <br>
+     to form a giant cube, then that cube would have side length roughly 10 to the power of 38358 light years (1 light year is <br>
+     approximately 58,656,960,000,000 miles), </font></b>
+<i><b><font color="#000080"><br>
+<br>
+     how is it possible</font></b></i>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">for that number to be found on one of the College's computers when it can't be written out in the whole universe</font></b></i>
+<b><font color="#000080">? &quot;</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">An </font></u></b>
+<i><b><u><font color="#000080">attempt</font></u></b></i>
+<b><u><font color="#000080"> at an answer</font></u></b>
+<b><font color="#000080">. You must stop thinking of that number being written out in the normal way - in </font></b>
+<i><b><font color="#000080">decimal notation</font></b></i>
+<b><font color="#000080"> (in the base 10) - </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and concentrate instead on the </font></b>
+<i><b><font color="#000080">way</font></b></i>
+<b><font color="#000080"> in which </font></b>
+<img src="images/FER1640314.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<i><b><font color="#000080">defined</font></b></i>
+<b><font color="#000080">, namely that it is </font></b>
+<img src="images/FER1640315.gif" width="65" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, where </font></b>
+<i><b><font color="#000080">w</font></b></i>
+<b><font color="#000080"> itself is </font></b>
+<i><b><font color="#000080">defined</font></b></i>
+<b><font color="#000080"> by </font></b>
+<img src="images/FER1640316.gif" width="105" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. I am </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">going to show you how it is possible (not only possible, but I will actually do it!) to calculate - just by using our brains, no </font></b>
+<i><b><font color="#000080">computing</font></b></i>
+<b><font color="#000080"> - that </font></b>
+</p>
+<p align="left">
+<img src="images/FER1640317.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> divisible by - let us say - the number 7. I could choose a larger number than '7', but that is not the issue; </font></b>
+<b><u><font color="#000080">the real point</font></u></b>
+<b><font color="#000080"> I wish </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">to make is that without knowing the actual value of </font></b>
+<img src="images/FER1640318.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> one can easily calculate the remainder that it leaves when it is divided by 7.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I don't need to cut any corners, though I will cut down on the normal standards of mathematical rigour (and where I do so I will point it out).</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">First</font></u></b>
+<b><font color="#000080">, I ask you to </font></b>
+<b><u><font color="#000080">think about</font></u></b>
+<b><font color="#000080"> the remainders that successive powers of 2 leave when divided by 7:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                         2 leaves remainder 2 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                              </font></b>
+<img src="images/FER1640319.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, leaves remainder 4 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                             </font></b>
+<img src="images/FER1640320.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*1 + 1,  leaves remainder 1 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                            </font></b>
+<img src="images/FER1640321.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*2 + 2,  leaves remainder 2 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                            </font></b>
+<img src="images/FER1640322.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*4 + 4,  leaves remainder 4 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                            </font></b>
+<img src="images/FER1640323.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*9 + 1,  leaves remainder 1 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                 .</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                 .</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                 .</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640324.gif" width="142" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*306783378 + 2,  leaves remainder </font></b>
+<b><u><font color="#000080">2</font></u></b>
+<b><font color="#000080"> when divided by 7,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640325.gif" width="142" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*613566756 + 4,  leaves remainder </font></b>
+<b><u><font color="#000080">4</font></u></b>
+<b><font color="#000080"> when divided by 7,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640326.gif" width="142" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 7*1227133513 + 1,  leaves remainder </font></b>
+<b><u><font color="#000080">1</font></u></b>
+<b><font color="#000080"> when divided by 7,</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I'm sure you see what is going on: the remainders </font></b>
+<i><b><font color="#000080">appear</font></b></i>
+<b><font color="#000080"> to form a cyclic pattern [2, 4, 1], [2, 4, 1], [2, 4, 1], etc.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">The 'etc' is all too easily written down, but is it true that the pattern continues? Yes, it does. If you are prepared to accept <br>
+that it does then we may continue, but if not then I would just point out that it is easily argued that the cycle does continue <br>
+(contact me if you really want to know how the detail is provided).</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Now ask</font></u></b>
+<b><font color="#000080">: what remainder does </font></b>
+<img src="images/FER1640327.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leave when divided by 7?, and you will quickly realise that it all depends on </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">one simple observation, namely: </font></b>
+<b><u><font color="#000080">it all depends on the remainder that ' </font></u></b>
+<i><b><u><font color="#000080">r</font></u></b></i>
+<b><u><font color="#000080"> ' leaves on division by 3</font></u></b>
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">if </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> = 1, 4, 7, 10, 13, 16, 19, ... then </font></b>
+<img src="images/FER1640328.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> will leave remainder 2 when divided by 7<br>
+</font></b>
+<b><u><font color="#000080">In short</font></u></b>
+<b><font color="#000080">:</font></b>
+<b><u><font color="#000080"> if</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> leaves remainder 1 when divided by 3 </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640329.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder 2 when divided by 7<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">if </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> = 2, 5, 8, 11, 14, 17, 20, ... then </font></b>
+<img src="images/FER1640330.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> will leave remainder 4 when divided by 7<br>
+</font></b>
+<b><u><font color="#000080">In short</font></u></b>
+<b><font color="#000080">: </font></b>
+<b><u><font color="#000080">if</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> leaves remainder 2 when divided by 3 </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640331.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder 4 when divided by 7<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">if </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> = 3, 6, 9, 12, 15, 18, 21, ... then </font></b>
+<img src="images/FER1640332.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> will leave remainder 1 when divided by 7<br>
+</font></b>
+<b><u><font color="#000080">In short</font></u></b>
+<b><font color="#000080">: </font></b>
+<b><u><font color="#000080">if</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> is evenly divisible by 3 </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640333.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder 1 when divided by 7</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">The fundamental point is now this</font></u></b>
+<b><font color="#000080">: In order to be able to calculate the remainder that any number </font></b>
+<img src="images/FER1640334.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves on division by 7 (say), </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">you </font></b>
+<b><u><font color="#000080">don't </font></u></b>
+<i><b><u><font color="#000080">need</font></u></b></i>
+<b><u><font color="#000080"> to know the actual value of the number</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640335.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">; </font></b>
+<i><b><u><font color="#000080">all</font></u></b></i>
+<b><u><font color="#000080"> you </font></u></b>
+<i><b><u><font color="#000080">need</font></u></b></i>
+<b><u><font color="#000080"> to know is</font></u></b>
+<b><font color="#000080"> the remainder that </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> leaves on division by 3.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">And so, for example, if we wanted to know the remainder that </font></b>
+<img src="images/FER1640336.gif" width="105" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> left when divided by 7, all we need do is divide the </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">' 1000000000' by 3, to see what the remainder came to, and it is 1, since 1000000000 = </font></b>
+<b><u><font color="#000080">3</font></u></b>
+<b><font color="#000080">*333333333 + </font></b>
+<b><u><font color="#000080">1</font></u></b>
+<b><font color="#000080">. That then enables us </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">immediately to say that when </font></b>
+<img src="images/FER1640337.gif" width="105" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is divided by 7, the remainder will automatically be 2.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">You want to see an actual computation?</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2^1000000000 mod 7;</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">Error, object too large</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<b><font color="#000080">and you know why that has happened? </font></b>
+<i><b><font color="#000080">Maple</font></b></i>
+<b><font color="#000080"> threw up its hands and said &quot;object too large&quot;; the </font></b>
+<img src="images/FER1640338.gif" width="105" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is way, way beyond its capacity.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">But all is not lost!! The modular exponentiation command (which has incorporated into it the </font></b>
+<i><b><font color="#000080">square-and-multilpy</font></b></i>
+<b><font color="#000080"> method) gives:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^1000000000 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640339.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">and see the next few:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^1000000001 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640340.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^1000000002 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640341.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^1000000003 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640342.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^1000000004 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640343.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^1000000005 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640344.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">That is - as we already </font></b>
+<i><b><font color="#000080">know</font></b></i>
+<b><font color="#000080"> - the [2, 4, 1] cyclic pattern.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Now</font></u></b>
+<b><font color="#000080">, what we need to turn our attention to is the question: </font></b>
+<i><b><font color="#000080">what</font></b></i>
+<b><font color="#000080"> remainder does </font></b>
+<img src="images/FER1640345.gif" width="73" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leave </font></b>
+<b><u><font color="#000080">when divided by 3</font></u></b>
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">[We want to know that, because it is the key to finally knowing what remainder </font></b>
+<img src="images/FER1640346.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves on division by 7.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">We begin like before (and find that a new cycle emerges):</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                          2 leaves remainder 2 when divided by 3,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640347.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3*1 + 1, leaves remainder 1 when divided by 3,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640348.gif" width="62" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3*2 + 2,  leaves remainder 2 when divided by 3,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640349.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3*5 + 1,  leaves remainder 1 when divided by 3,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640350.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3*10 + 2,  leaves remainder 2 when divided by 3,</font></b>
+</p>
+<p align="left">
+<img src="images/FER1640351.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 3*21 + 1,  leaves remainder 1 when divided by 3,</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I'm sure you see what is going on: the remainders </font></b>
+<i><b><font color="#000080">appear</font></b></i>
+<b><font color="#000080"> to form a cyclic pattern [2, 1], [2, 1], [2, 1], etc.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Now ask</font></u></b>
+<b><font color="#000080">: what remainder does the number </font></b>
+<img src="images/FER1640352.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leave when divided by 3?, and you will quickly realise that it all <br>
+depends on one simple observation, namely: </font></b>
+<b><u><font color="#000080">it all depends on the remainder that ' </font></u></b>
+<i><b><u><font color="#000080">r</font></u></b></i>
+<b><u><font color="#000080"> ' leaves on division by 2</font></u></b>
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">if </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> = 1, 3, 5, 7, 9, 11, 13, ... then </font></b>
+<img src="images/FER1640353.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> will leave remainder 2 when divided by 3<br>
+</font></b>
+<b><u><font color="#000080">In short</font></u></b>
+<b><font color="#000080">:</font></b>
+<b><u><font color="#000080"> if</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> leaves remainder 1 when divided by 2 </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640354.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder 2 when divided by 3<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">if </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> = 2, 4, 6, 8, 10, 12, 14, ... then </font></b>
+<img src="images/FER1640355.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> will leave remainder 1 when divided by 3<br>
+</font></b>
+<b><u><font color="#000080">In short</font></u></b>
+<b><font color="#000080">: </font></b>
+<b><u><font color="#000080">if</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">r</font></b></i>
+<b><font color="#000080"> is evenly divisible by 2, </font></b>
+<b><u><font color="#000080">then</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/FER1640356.gif" width="31" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder 1 when divided by 3</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Now we are able to determine the exact remainder</font></u></b>
+<b><font color="#000080"> that </font></b>
+<img src="images/FER1640357.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves when we divide it by 7:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<i><b><font color="#000080">Because</font></b></i>
+<b><font color="#000080"> 382447 = 2*191223 + 1, leaves remainder 1 when divided by 2, </font></b>
+<i><b><font color="#000080">then we know</font></b></i>
+<b><font color="#000080"> that </font></b>
+<img src="images/FER1640358.gif" width="73" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">must</font></b></i>
+<b><font color="#000080"> leave remainder 2 when divided by 3.</font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">Because</font></b></i>
+<b><font color="#000080"> we </font></b>
+<i><b><font color="#000080">know</font></b></i>
+<b><font color="#000080"> that </font></b>
+<img src="images/FER1640359.gif" width="73" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> leaves remainder 2 when divided by 3, </font></b>
+<i><b><font color="#000080">we</font></b></i>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">then know</font></b></i>
+<b><font color="#000080"> that </font></b>
+<img src="images/FER1640360.gif" width="96" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">must</font></b></i>
+<b><font color="#000080"> leave remainder 4 when divided by 7,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and so we then know - </font></b>
+<b><u><font color="#000080">without having worked out its actual value</font></u></b>
+<b><font color="#000080"> - that </font></b>
+<img src="images/FER1640361.gif" width="205" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">must leave remainder 3 on division by 7</font></u></b>
+<b><font color="#000080"> </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">[if we have a number ' </font></b>
+<i><b><font color="#000080">X</font></b></i>
+<b><font color="#000080"> ' that leaves leaves remainder 4 on division by 7, then </font></b>
+<i><b><font color="#000080">X = 7*x + 4</font></b></i>
+<b><font color="#000080">, and so </font></b>
+<i><b><font color="#000080">X + 1 = (7*x + 4) + 1 = 7*x + 5</font></b></i>
+<b><font color="#000080">, which </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">leaves 5 over when divided by 7.]</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(2^100) + 1 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640362.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(2^101) + 1 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640363.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(2^102) + 1 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640364.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(2^103) + 1 mod 7;</font></b>
+</p>
+<p align="center">
+<img src="images/FER1640365.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Summary</font></u></b>
+<b><font color="#000080">. The supra-astronomically large number </font></b>
+<img src="images/FER1640366.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> has been shown </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> to be evenly divisible by 7, </font></b>
+<b><u><font color="#000080">without</font></u></b>
+<b><font color="#000080"> the actual value </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">of </font></b>
+<img src="images/FER1640367.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> being known, or needing to be known.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                  </font></b>
+<a href="fer16401.html#A brief revision" target="Content">Return to &quot;A brief revision&quot;</a></p>
+<!--mstheme--></font><!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/nature/narule.gif" width="600" height="10"></p>
+
+<p>This page was last updated 18 February 2005 15:08:52 -0000</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

@@ -1,0 +1,10 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|PATSNET\\johnbcos
+vti_modifiedby:SR|PATSNET\\johnbcos
+vti_timecreated:TR|26 Aug 2007 19:22:44 -0000
+vti_timelastmodified:TR|28 Aug 2007 17:13:16 -0000
+vti_filesize:IR|775
+vti_extenderversion:SR|4.0.2.7802
+vti_backlinkinfo:VX|halmos1.htm
+vti_nexttolasttimemodified:TR|26 Aug 2007 19:22:44 -0000
+vti_cacheddtm:TX|28 Aug 2007 17:13:16 -0000

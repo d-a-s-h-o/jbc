@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark26">
+<p align=left>
+<b><font color=#000080 size=4>Louis Joel Mordell (1888-1972)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>This small section is </font></b>
+<i><b><font color=#000080 size=4>essentially</font></b></i>
+<b><font color=#000080 size=4> about the deep question:<br>
+</font></b>
+<i><b><font color=#000080 size=4>how close can squares and cubes get to each other</font></b></i>
+<b><font color=#000080 size=4>?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>You may view a photograph of Mordell in the Oxford 1969 corner of my web site, and a short account of a conversation I had with him at the time the photograph was taken. Here I mention </font></b>
+<b><font color=#000080 size=4>only one</font></b>
+<b><font color=#000080> famous result of Mordell - which is intimately related to Thue's theorem - and here mention that both Thue and Mordell relate to later profound work of Alan Baker.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Some (fast-track!) background. Everyone knows the squares: 0, 1, 4, 9, 16, ... , and it is trivial to explain why the successive differences between them, namely 1, 3, 5, 7, ... , follow a </font></b>
+<i><b><font color=#000080>predictable</font></b></i>
+<b><font color=#000080> pattern:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>it's simply that </font></b>
+<img src="images/transcendental683.gif" width=259 height=50 alt="(n+1)^2-n^2 = n^2+2*n+1-n^2" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental684.gif" width=65 height=32 alt="2*n+1" align=middle>
+<b><font color=#000080>, and the terms of the sequence {</font></b>
+<img src="images/transcendental685.gif" width=65 height=32 alt="2*n+1" align=middle>
+<b><font color=#000080>} are merely 1, 3, 5, 7, ... . The same sort of thing happens with cubes, though now the first sequence of differences behaves quadratically, while the second sequence of differences behaves linearly:<br>
+<br>
+The cubes are:        0, 1, 8, 27, 64, 125, 216, ... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The differences:     1, 7, 19, 37, 61, 91, ... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Their differences:   6, 12, 18, 24, 30, ...  [and it's an easy exercise to explain why...]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But now for something </font></b>
+<b><font color=#000080 size=4>quite different</font></b>
+<b><font color=#000080>. The mixed sequence of all squares and cubes (the ones in the larger font size are those that are both a square and a cube, and so are a sixth power) starts like this:</font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>0</font></b>
+<b><font color=#000080>, </font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>, 4, 8, 9, 16, 25, 27, 36, 49, </font></b>
+<b><font color=#000080 size=4>64</font></b>
+<b><font color=#000080>, 81, 100, 121, 125, ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Now look at the successive differences: 1, 3, 4, 1, 7, 9, 2, 9, 13, ... . As you see, the differences are most certainly not monotonic - as was the case with the squares and cubes separately - and jump about all over the place ('live' I can vary the 'bound' - I'll probably make it be 100000 (a </font></b>
+<i><b><font color=#000080>lakh</font></b></i>
+<b><font color=#000080> in India) - just to allow the third '17' difference to be seen; but in the fixed html version I will probably set it at 1000):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>bound := 1000: <br>
+Ss := {}: for k from 0 while k^2 &lt;= bound do<br>
+Ss := {op(Ss), k^2} od: Ss:<br>
+Sc := {}: for k from 0 while k^3 &lt;= bound do<br>
+Sc := {op(Sc), k^3} od: Sc:<br>
+mixed := Ss union Sc; N := nops(mixed):<br>
+differences := [seq(mixed[k+1] - mixed[k], k=1..N-1)];<br>
+differ_occur := sort(differences);</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental686.gif" width=714 height=20 alt="mixed := {0, 1, 4, 8, 9, 16, 25, 27, 36, 49, 64, 81...">
+<br>
+<img src="images/transcendental687.gif" width=504 height=20 alt="mixed := {0, 1, 4, 8, 9, 16, 25, 27, 36, 49, 64, 81...">
+</p>
+<p align=left>
+<img src="images/transcendental688.gif" width=705 height=20 alt="differences := [1, 3, 4, 1, 7, 9, 2, 9, 13, 15, 17,...">
+<br>
+<img src="images/transcendental689.gif" width=255 height=20 alt="differences := [1, 3, 4, 1, 7, 9, 2, 9, 13, 15, 17,...">
+</p>
+<p align=left>
+<img src="images/transcendental690.gif" width=714 height=20 alt="differ_occur := [1, 1, 2, 3, 4, 4, 7, 9, 9, 9, 13, ...">
+<br>
+<img src="images/transcendental691.gif" width=255 height=20 alt="differ_occur := [1, 1, 2, 3, 4, 4, 7, 9, 9, 9, 13, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Some (fast-track) observations and questions (see the Alan Baker section later).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>First a trivial ovservation: it is completely elementary to determine all possible integral square that differ by a given amount. For example, let's find all squares differing by (say) 15. I omit all obvious comment concerning 15 being minus 5 times minus 3 etc. </font></b>
+<img src="images/transcendental692.gif" width=105 height=50 alt="y^2-x^2 = 15" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental693.gif" width=154 height=32 alt="(y-x)*(y+x) = 15" align=middle>
+<b><font color=#000080>, gives possibilities:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>y + x = </font></b></i>
+<b><font color=#000080>15</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>and </font></b>
+<img src="images/transcendental694.gif" width=79 height=32 alt="y-x = 1" align=middle>
+<b><font color=#000080> , thus </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> = 8 and </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = 7</font></b>
+</li>
+<li>
+<i><b><font color=#000080>y + x = </font></b></i>
+<b><font color=#000080>5</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>and </font></b>
+<img src="images/transcendental695.gif" width=79 height=32 alt="y-x = 3" align=middle>
+<b><font color=#000080> , thus </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> = 4 and </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = 1</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>And thus 49 and 64 (which are consecutive), and 1 and 16 are the only squares that differ by 15. A similar check will reveal the unsurprising fact that there are no squares that differ by (e.g.) 8. A similar analysis may be made for cubes differing by a given amount; one uses the factorisation  </font></b>
+<img src="images/transcendental696.gif" width=248 height=50 alt="y^3-x^3 = (y-x)*(y^2+y*x+x^2)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    But it's an entirely different matter for the mixed squares and cubes (and do bear in mind that there are all those other </font></b>
+<i><b><font color=#000080>difficult</font></b></i>
+<b><font color=#000080> variations: squares and first powers, cubes and fifth powers, ... )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Observation I. 8 and 9 are a cube and square differing by 1. Are there any others? In fact, what </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> the integers that satisfy the </font></b>
+<i><b><font color=#000080>diophantine </font></b></i>
+<b><font color=#000080>equation </font></b>
+<img src="images/transcendental697.gif" width=97 height=50 alt="y^2 = x^3+1" align=middle>
+<b><font color=#000080>? And the same question for </font></b>
+<img src="images/transcendental698.gif" width=97 height=50 alt="y^2 = x^3-1" align=middle>
+<b><font color=#000080>. It happens - but it is not easy to prove that, apart from the trivial 0 and 1, 8 and 9 are the only square and cube that differ by 1. It's a recently settled - and much hailed result - that 8 and 9 are the only proper powers differing by 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Observation II. 25 and 27 are a square and a cube differing by 2. Are there any others? Fermat reckoned - and asked around for a proof - that they were the only ones. In fact, what </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> the integers that satisfy the </font></b>
+<i><b><font color=#000080>Diophantine </font></b></i>
+<b><font color=#000080>equation </font></b>
+<img src="images/transcendental699.gif" width=97 height=50 alt="y^2 = x^3+2" align=middle>
+<b><font color=#000080>, and the same question for </font></b>
+<img src="images/transcendental700.gif" width=97 height=50 alt="y^2 = x^3-2" align=middle>
+<b><font color=#000080>. Answers are known.<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Observation III. 16 and 25 are squares differing by 9, while 27 and 36 are a cube and square differing also by 9, and (further along) 216 and 225 are another cube and square differing by 9. What </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> the integers that satisfy the </font></b>
+<i><b><font color=#000080>diophantine </font></b></i>
+<b><font color=#000080>equation </font></b>
+<img src="images/transcendental701.gif" width=97 height=50 alt="y^2 = x^3+9" align=middle>
+<b><font color=#000080>, and the same question for </font></b>
+<img src="images/transcendental702.gif" width=97 height=50 alt="y^2 = x^3-9" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It is entirely trivial to find all integer solutions of (say) </font></b>
+<img src="images/transcendental703.gif" width=97 height=50 alt="y^2 = x^2+9" align=middle>
+<b><font color=#000080> (that is not a typing error in '</font></b>
+<img src="images/transcendental704.gif" width=33 height=50 alt="x^2" align=middle>
+<b><font color=#000080>') or all the integer solutions of </font></b>
+<img src="images/transcendental705.gif" width=97 height=50 alt="y^3 = x^3+9" align=middle>
+<b><font color=#000080> (those </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> cubes), but quite a different matter to determine all solutions of either </font></b>
+<img src="images/transcendental706.gif" width=97 height=50 alt="y^2 = x^3+9" align=middle>
+<b><font color=#000080> or  </font></b>
+<img src="images/transcendental707.gif" width=97 height=50 alt="y^2 = x^3-9" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Mordell's Theorem (1914 and 1922). For any fixed non-zero integer </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080> [positive or negative] there are only a </font></b>
+<b><font color=#000080 size=4>finite</font></b>
+<b><font color=#000080> number of integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/transcendental708.gif" width=97 height=50 alt="y^2 = x^3+k" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Mordell used Thue's 1909 theorem in a fundamental way in his proof; Mordell was unaware of Thue's result in 1914, and only came to hear of it much later (remember Landau's remark). A fundamental weakness in Mordell's result - which itself is related to the same in Thue's proof - is that it is '</font></b>
+<i><b><font color=#000080>ineffective</font></b></i>
+<b><font color=#000080>', meaning that while it tells us that there are only a finite number of solutions, it doesn't allow us to know when we've found all of them, </font></b>
+<i><b><font color=#000080>if</font></b></i>
+<b><font color=#000080> there are any, and there </font></b>
+<i><b><font color=#000080>may</font></b></i>
+<b><font color=#000080> be none (a nice example where there are none is provided by the equation  </font></b>
+<img src="images/transcendental709.gif" width=97 height=50 alt="y^2 = x^3+7" align=middle>
+<b><font color=#000080>, which can be proved in a reasonably elementary way, as I sometimes show to my second year students).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Finally, and to give just a flavour of a classic hard-fought result, I mention a theorem of Nagell's (1930): the Diophantine equation </font></b>
+<img src="images/transcendental710.gif" width=105 height=50 alt="y^2 = x^3+17" align=middle>
+<b><font color=#000080> has exactly eight solutions, given by </font></b>
+<i><b><font color=#000080>x </font></b></i>
+<b><font color=#000080>= -1, -2, 2, 4, 8, 43, 52, 5234 and<br>
+</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> = 4, 3, 5, 9, 23, 282, 358, 378661 respectively. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Alan Baker's arrival on the scene in the 1960s carried this subject to undreamed of heights.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:58 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

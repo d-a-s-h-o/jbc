@@ -1,0 +1,626 @@
+<html>
+<head>
+<title>decimal expansions.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark3">
+<p align=left>
+<b><font color=#000080 size=5>Theory (for those who know some Number Theory)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In this section I want to prove that </font></b>
+<i><b><font color=#000080>all </font></b></i>
+<b><font color=#000080>the following rational numbers have periodic decimal expansions:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/decimal expansions37.gif" width=236 height=58 alt="1/3, 1/7, 1/9, 1/11, 1/13, 1/17, 1/19, 1/21, 1/23" align=middle>
+<b><font color=#000080>, ...</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions38.gif" width=236 height=58 alt="2/3, 2/7, 2/9, 2/11, 2/13, 2/17, 2/19, 2/21, 2/23" align=middle>
+<b><font color=#000080>, ...</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions39.gif" width=216 height=58 alt="3/7, 3/9, 3/11, 3/13, 3/17, 3/19, 3/21, 3/23" align=middle>
+<b><font color=#000080>, ...</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>... ...</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem (the expansion theorem)</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be any natural number, </font></b>
+<img src="images/decimal expansions40.gif" width=53 height=32 alt="1 &lt; n" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/decimal expansions41.gif" width=114 height=32 alt="gcd(10,n) = 1" align=middle>
+<b><font color=#000080> (in other words, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> divisible by 2, </font></b>
+<i><b><font color=#000080>nor</font></b></i>
+<b><font color=#000080> by 5), and let </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any natural number with </font></b>
+<img src="images/decimal expansions42.gif" width=81 height=32 alt="a &lt;= n-1" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/decimal expansions43.gif" width=29 height=58 alt="a/n" align=middle>
+<b><font color=#000080> has a periodic decimal expansion. (In other words, </font></b>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> fraction, whose numerator is smaller than its denominator, and whose denominator is not divisible by 2 or 5, has a periodic decimal expansion.)</font></b>
+</p>
+<a name="MapleAutoBookmark4">
+<p align=left>
+<b><font color=#000080 size=4>The idea behind the proof is quite simple</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>To start the proof one needs to </font></b>
+<i><b><font color=#000080>know</font></b></i>
+<b><font color=#000080> (at some level, superficial or deep) the values of the following </font></b>
+<i><b><font color=#000080>special </font></b></i>
+<b><font color=#000080>decimals</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<ul><li>
+<img src="images/decimal expansions44.gif" width=28 height=58 alt="1/9" align=middle>
+<b><font color=#000080> is .1 1 1 1 1 1 1 1 1 1 1 1 1 1 1... </font></b>
+</li>
+<li>
+<img src="images/decimal expansions45.gif" width=36 height=58 alt="1/99" align=middle>
+<b><font color=#000080> is .01 01 01 01 01 01 01 01 01 01 01...</font></b>
+</li>
+<li>
+<img src="images/decimal expansions46.gif" width=44 height=58 alt="1/999" align=middle>
+<b><font color=#000080> is .001 001 001 001 001 001 001 001...</font></b>
+</li>
+<li>
+<img src="images/decimal expansions47.gif" width=52 height=58 alt="1/9999" align=middle>
+<b><font color=#000080> is .0001 0001 0001 0001 0001 0001 0001 0001...</font></b>
+</li>
+<li>
+<b><font color=#000080>In general,  </font></b>
+<img src="images/decimal expansions48.gif" width=77 height=58 alt="1/(10^m-1)" align=middle>
+<b><font color=#000080> has </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>-place periodic decimal expansion .000...1 000...1 000...1 000...1 </font></b>
+<i><b><font color=#000080>ad infinitum<br>
+</font></b></i>
+<b><font color=#000080>it is understood that there are (</font></b>
+<img src="images/decimal expansions49.gif" width=56 height=32 alt="m-1" align=middle>
+<b><font color=#000080>) 0's, followed by a single '1' in the repeated block.</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>And why is that true?</font></u></b>
+<b><font color=#000080>. Well, at a superficial level this may satisfy: let's take the example </font></b>
+<img src="images/decimal expansions50.gif" width=56 height=32 alt="m = 3" align=middle>
+<b><font color=#000080> (corresponding to the fraction </font></b>
+<img src="images/decimal expansions51.gif" width=44 height=58 alt="1/999" align=middle>
+<b><font color=#000080>). Let's 'find' the value of .001 001 001 001 001... by the standard 'trick':</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>Set </font></b>
+<img src="images/decimal expansions52.gif" width=172 height=32 alt="alpha = .1001001001001e-2" align=middle>
+<b><font color=#000080>... , then </font></b>
+<img src="images/decimal expansions53.gif" width=216 height=32 alt="1000*alpha = 1.001001001001001" align=middle>
+<b><font color=#000080>... ,</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>giving </font></b>
+<img src="images/decimal expansions54.gif" width=84 height=32 alt="999*alpha = 1" align=middle>
+<b><font color=#000080>, and thus </font></b>
+<img src="images/decimal expansions55.gif" width=76 height=58 alt="alpha = 1/999" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>At a deeper level, the very </font></b>
+<i><b><font color=#000080>meaning</font></b></i>
+<b><font color=#000080> of .001 001 001 001 001... is that it is the sum of the (convergent) infinite series </font></b>
+<img src="images/decimal expansions56.gif" width=113 height=80 alt="Sum(1/(10^(3*n)),n = 1 .. infinity)" align=middle>
+<b><font color=#000080>, whose value (by general theory) is </font></b>
+<img src="images/decimal expansions57.gif" width=45 height=58 alt="1/(10^3)" align=middle>
+<b><font color=#000080>.</font></b>
+<img src="images/decimal expansions58.gif" width=77 height=100 alt="1/(1-1/(10^3))" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions59.gif" width=121 height=58 alt="1/(10^3-1) = 1/999" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Maple can handle that </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> sum (not bad going for a piece of software!):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>sum(1/(10^(3*n)),n = 1 .. infinity);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions60.gif" width=40 height=45 alt="1/999">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Then, what one needs to know is that </font></b>
+<b><u><font color=#000080>every</font></u></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> - which is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> divisible by 2 or 5 (i.e. </font></b>
+<img src="images/decimal expansions61.gif" width=114 height=32 alt="gcd(10,n) = 1" align=middle>
+<b><font color=#000080>) - divides </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> whole number consisting </font></b>
+<i><b><font color=#000080>entirely</font></b></i>
+<b><font color=#000080> of 9's. <br>
+Examples:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>3 divides 9</font></b>
+</li>
+<li>
+<b><font color=#000080>7 divides 999999 (count how many 9's there are!)</font></b>
+</li>
+<li>
+<b><font color=#000080>9 divides 9</font></b>
+</li>
+<li>
+<b><font color=#000080>11 divides 99</font></b>
+</li>
+<li>
+<b><font color=#000080>13 divides 999999</font></b>
+</li>
+<li>
+<b><font color=#000080>17 divides 9999999999999999 (count how many 9's there are!)</font></b>
+</li>
+<li>
+<b><font color=#000080>19 divides 999999999999999999 (count how many 9's there are!)</font></b>
+</li>
+<li>
+<b><font color=#000080>21 divides 999999</font></b>
+</li>
+<li>
+<b><font color=#000080>23 divides 9999999999999999999999 (count how many 9's there are!)</font></b>
+</li>
+<li>
+<b><font color=#000080>27 divides 999</font></b>
+</li>
+<li>
+<b><font color=#000080>29 divides 9999999999999999999999999999 (count how many 9's there are!)</font></b>
+</li>
+<li>
+<b><font color=#000080>31 divides 999999999999999 (count how many 9's there are!)</font></b>
+</li>
+<li>
+<b><font color=#000080>33 divides 99</font></b>
+</li>
+<li>
+<b><font color=#000080>37 divides 999</font></b>
+</li>
+<li>
+<b><font color=#000080>39 divides 999999</font></b>
+</li>
+<li>
+<b><font color=#000080>41 divides 99999</font></b>
+</li>
+<li>
+<b><font color=#000080>43 divides 999999999999999999999 (count how many 9's there are!)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>And the relevance of all that?</font></u></b>
+<b><font color=#000080> It's quite simple, as I will convey by two examples:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Find the decimal expansion of the number </font></b>
+<img src="images/decimal expansions62.gif" width=36 height=58 alt="33/37" align=middle>
+<b><font color=#000080>.<br>
+</font></b>
+<b><u><font color=#000080>Solution</font></u></b>
+<b><font color=#000080>. 37 divides 999 (doing the division gives 999 = 37*27), and thus</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/decimal expansions63.gif" width=84 height=58 alt="1/37 = 27/999" align=middle>
+<b><font color=#000080> = .027 027 027 027 ... (since </font></b>
+<img src="images/decimal expansions64.gif" width=44 height=58 alt="1/999" align=middle>
+<b><font color=#000080> = .001 001 001 001 ... )</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>thus </font></b>
+<img src="images/decimal expansions65.gif" width=72 height=58 alt="33/37 = 33" align=middle>
+<b><font color=#000080> times </font></b>
+<img src="images/decimal expansions66.gif" width=44 height=58 alt="27/999" align=middle>
+<b><font color=#000080> = 33*(.027 027 027 027 ... )</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>giving </font></b>
+<img src="images/decimal expansions67.gif" width=36 height=58 alt="33/37" align=middle>
+<b><font color=#000080> = .891 891 891 891 ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   And see  what Maple gives:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(33/37);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions68.gif" width=228 height=20 alt="PDEXPAND(1,0,[],[8, 9, 1])">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<ul><li>
+<b><font color=#000080>Find the decimal expansion of the number </font></b>
+<img src="images/decimal expansions69.gif" width=36 height=58 alt="13/21" align=middle>
+<b><font color=#000080>.<br>
+</font></b>
+<b><u><font color=#000080>Solution</font></u></b>
+<b><font color=#000080>. 21 divides 999999 (doing the division gives 999999 = 21*47619), and thus</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/decimal expansions70.gif" width=108 height=58 alt="1/21 = 47619/999999" align=middle>
+<b><font color=#000080> = .047619 047619 047619 ... (since </font></b>
+<img src="images/decimal expansions71.gif" width=68 height=58 alt="1/999999" align=middle>
+<b><font color=#000080> = .000001 000001 000001 000001 ... )</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>thus </font></b>
+<img src="images/decimal expansions72.gif" width=72 height=58 alt="13/21 = 13" align=middle>
+<b><font color=#000080> times </font></b>
+<img src="images/decimal expansions73.gif" width=68 height=58 alt="47619/999999" align=middle>
+<b><font color=#000080> = 13*(.047619 047619 047619 ... )</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>giving </font></b>
+<img src="images/decimal expansions74.gif" width=36 height=58 alt="13/21" align=middle>
+<b><font color=#000080> = .619047 619047 619047 619047 ... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   And again see Maple's output:    </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(13/21);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions75.gif" width=276 height=20 alt="PDEXPAND(1,0,[],[6, 1, 9, 0, 4, 7])">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>13*47619;</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions76.gif" width=64 height=20 alt="619047">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Returning to the all 9's claim above, we are simply claiming that </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (one not divisible by 2 or 5) divides a number of the form (</font></b>
+<img src="images/decimal expansions77.gif" width=73 height=50 alt="10^m-1" align=middle>
+<b><font color=#000080>) for some whole number </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/decimal expansions78.gif" width=56 height=32 alt="1 &lt;= m" align=middle>
+<b><font color=#000080>). In congruence language:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be any natural number, </font></b>
+<img src="images/decimal expansions79.gif" width=53 height=32 alt="1 &lt; n" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/decimal expansions80.gif" width=114 height=32 alt="gcd(10,n) = 1" align=middle>
+<b><font color=#000080>, then there is </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> natural number </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> (in fact one exists with </font></b>
+<img src="images/decimal expansions81.gif" width=85 height=32 alt="m &lt;= n-1" align=middle>
+<b><font color=#000080>) such that </font></b>
+<img src="images/decimal expansions82.gif" width=73 height=50 alt="10^m = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Proof</font></u></b>
+<b><font color=#000080>. Since </font></b>
+<img src="images/decimal expansions83.gif" width=114 height=32 alt="gcd(10,n) = 1" align=middle>
+<b><font color=#000080> then </font></b>
+<img src="images/decimal expansions84.gif" width=121 height=50 alt="gcd(10^r,n) = 1" align=middle>
+<b><font color=#000080> for all natural numbers </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>. Thus none of the </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> numbers:</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions85.gif" width=131 height=50 alt="10, 10^2, 10^3, 10^4" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/decimal expansions86.gif" width=42 height=50 alt="10^n" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>is divisible by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, and thus (since there are only </font></b>
+<img src="images/decimal expansions87.gif" width=53 height=32 alt="n-1" align=middle>
+<b><font color=#000080> possible remainders) some two of those must be congruent mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>; that is, some two of those powers </font></b>
+<img src="images/decimal expansions88.gif" width=74 height=50 alt="10^u, 10^v" align=middle>
+<b><font color=#000080> satisfy:</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions89.gif" width=86 height=50 alt="10^v = 10^u" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), </font></b>
+<img src="images/decimal expansions90.gif" width=53 height=32 alt="1 &lt;= u" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/decimal expansions91.gif" width=52 height=32 alt="u &lt; v" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/decimal expansions92.gif" width=52 height=32 alt="v &lt;= n" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>Then </font></b>
+<img src="images/decimal expansions93.gif" width=114 height=50 alt="10^v-10^u = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and so </font></b>
+<img src="images/decimal expansions94.gif" width=181 height=58 alt="10^v*(10^(v-u)-1) = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and thus (since </font></b>
+<img src="images/decimal expansions95.gif" width=124 height=50 alt="gcd(10^u,n) = 1" align=middle>
+<b><font color=#000080>) we have </font></b>
+<img src="images/decimal expansions96.gif" width=139 height=58 alt="10^(v-u)-1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>). That is, we have</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/decimal expansions97.gif" width=73 height=50 alt="10^m = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<img src="images/decimal expansions98.gif" width=84 height=32 alt="m = v-u" align=middle>
+<b><font color=#000080> satisfies </font></b>
+<img src="images/decimal expansions99.gif" width=56 height=32 alt="1 &lt;= m" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/decimal expansions100.gif" width=85 height=32 alt="m &lt;= n-1" align=middle>
+<b><font color=#000080>, as claimed above.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=4>Now we return to the expansion theorem</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Proof of (decimal expansion) theorem</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> be the least </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> for which </font></b>
+<img src="images/decimal expansions101.gif" width=73 height=50 alt="10^m = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>) [</font></b>
+<b><u><font color=#000080>Aside</font></u></b>
+<b><font color=#000080>. The 'least' is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> essential, but in practice it is all one needs. For example, with </font></b>
+<img src="images/decimal expansions102.gif" width=61 height=32 alt="n = 11" align=middle>
+<b><font color=#000080>, one </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> use that 11 divides (</font></b>
+<img src="images/decimal expansions103.gif" width=69 height=50 alt="10^4-1" align=middle>
+<b><font color=#000080>) (namely 9999), and then one would have 9999 = 11*909, giving </font></b>
+<img src="images/decimal expansions104.gif" width=92 height=58 alt="1/11 = 909/9999" align=middle>
+<b><font color=#000080> = 909*(.0001 0001 0001 ... ), which would be .0909 0909 0909 0909 ... , which is, of course, simply .09 09 09 09 09 ... . In other words, the length of the period in the decimal expansion of </font></b>
+<img src="images/decimal expansions105.gif" width=36 height=58 alt="1/11" align=middle>
+<b><font color=#000080> is not really '4', but is, more simply, '2'.]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Then </font></b>
+<img src="images/decimal expansions106.gif" width=111 height=50 alt="10^r-1 = n*w" align=middle>
+<b><font color=#000080>, for some natural number </font></b>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080>, and thus</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions107.gif" width=104 height=58 alt="1/n = w/(10^r-1)" align=middle>
+<b><font color=#000080> = </font></b>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080>/99...9 (where there are </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> 9's)   (i)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Now   </font></b>
+<img src="images/decimal expansions108.gif" width=28 height=58 alt="1/9" align=middle>
+<b><font color=#000080> = .1 1 1 1 1 1 1... , </font></b>
+<img src="images/decimal expansions109.gif" width=36 height=58 alt="1/99" align=middle>
+<b><font color=#000080> = .01 01 01 01 01 ... , </font></b>
+<img src="images/decimal expansions110.gif" width=44 height=58 alt="1/999" align=middle>
+<b><font color=#000080> = .001 001 001 001 ... , in general:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>1/99... 9 = .00...1 00...1 00...1 00...1 ... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and thus </font></b>
+<img src="images/decimal expansions111.gif" width=29 height=58 alt="1/n" align=middle>
+<b><font color=#000080> = </font></b>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080>/99...9, has periodic decimal expansion . </font></b>
+<img src="images/decimal expansions112.gif" width=32 height=32 alt="a[1]" align=middle>
+<img src="images/decimal expansions113.gif" width=32 height=32 alt="a[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions114.gif" width=30 height=32 alt="a[r]" align=middle>
+<b><font color=#000080>  </font></b>
+<img src="images/decimal expansions115.gif" width=32 height=32 alt="a[1]" align=middle>
+<img src="images/decimal expansions116.gif" width=32 height=32 alt="a[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions117.gif" width=30 height=32 alt="a[r]" align=middle>
+<b><font color=#000080>  </font></b>
+<img src="images/decimal expansions118.gif" width=32 height=32 alt="a[1]" align=middle>
+<img src="images/decimal expansions119.gif" width=32 height=32 alt="a[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions120.gif" width=30 height=32 alt="a[r]" align=middle>
+<b><font color=#000080> ... ,</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080> = '</font></b>
+<img src="images/decimal expansions121.gif" width=32 height=32 alt="a[1]" align=middle>
+<img src="images/decimal expansions122.gif" width=32 height=32 alt="a[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions123.gif" width=30 height=32 alt="a[r]" align=middle>
+<b><font color=#000080> ' is the </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>-digit natural number (in base 10, possibly starting with some 0's) obtained by dividing </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> into 99...9 (= </font></b>
+<img src="images/decimal expansions124.gif" width=67 height=50 alt="10^r-1" align=middle>
+<b><font color=#000080>). But </font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions125.gif" width=79 height=32 alt="1*w &lt; nw" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions126.gif" width=67 height=50 alt="10^r-1" align=middle>
+</p>
+<p align=center>
+<img src="images/decimal expansions127.gif" width=79 height=32 alt="2*w &lt; nw" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions128.gif" width=67 height=50 alt="10^r-1" align=middle>
+<b><font color=#000080><br>
+...<br>
+</font></b>
+<img src="images/decimal expansions129.gif" width=122 height=32 alt="(n-1)*w &lt; nw" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions130.gif" width=67 height=50 alt="10^r-1" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>and thus for </font></b>
+<img src="images/decimal expansions131.gif" width=52 height=32 alt="1 &lt;= a" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/decimal expansions132.gif" width=53 height=32 alt="a &lt;= n" align=middle>
+<b><font color=#000080>, we have</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions133.gif" width=104 height=58 alt="a/n = a*w/(10^r-1)" align=middle>
+<b><font color=#000080> = </font></b>
+<i><b><font color=#000080>aw</font></b></i>
+<b><font color=#000080>/99...9</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>has periodic decimal expansion</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>. </font></b>
+<img src="images/decimal expansions134.gif" width=35 height=32 alt="A[1]" align=middle>
+<img src="images/decimal expansions135.gif" width=35 height=32 alt="A[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions136.gif" width=33 height=32 alt="A[r]" align=middle>
+<b><font color=#000080>  </font></b>
+<img src="images/decimal expansions137.gif" width=35 height=32 alt="A[1]" align=middle>
+<img src="images/decimal expansions138.gif" width=35 height=32 alt="A[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions139.gif" width=33 height=32 alt="A[r]" align=middle>
+<b><font color=#000080>  </font></b>
+<img src="images/decimal expansions140.gif" width=35 height=32 alt="A[1]" align=middle>
+<img src="images/decimal expansions141.gif" width=35 height=32 alt="A[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions142.gif" width=33 height=32 alt="A[r]" align=middle>
+<b><font color=#000080> ... ,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080> = '</font></b>
+<img src="images/decimal expansions143.gif" width=35 height=32 alt="A[1]" align=middle>
+<img src="images/decimal expansions144.gif" width=35 height=32 alt="A[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions145.gif" width=33 height=32 alt="A[r]" align=middle>
+<b><font color=#000080> ' is the </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>-digit natural number (in base 10, possibly starting with some 0's) obtained by multiplying </font></b>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080> (= </font></b>
+<img src="images/decimal expansions146.gif" width=32 height=32 alt="a[1]" align=middle>
+<img src="images/decimal expansions147.gif" width=32 height=32 alt="a[2]" align=middle>
+<b><font color=#000080> ... </font></b>
+<img src="images/decimal expansions148.gif" width=30 height=32 alt="a[r]" align=middle>
+<b><font color=#000080> ) by </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:06:53 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

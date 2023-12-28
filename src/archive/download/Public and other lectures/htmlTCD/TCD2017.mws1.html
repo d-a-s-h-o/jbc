@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws1.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<a name="MapleAutoBookmark1" />
+
+<body bgcolor="FFFFFF">
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong> </strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="4" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="4" face="Courier New"><strong>### extension of Gauss' binomial coefficient congruence.mws</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong>I dedicate this talk to the memory of <font style="background-color: #ff9900">Jon Borwein</strong></font> (1951-2016)</strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong><img src="images/TCD2017.mws_1.gif" width="340" height="370" alt="Image" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong><font style="background-color: #ff9900">https://en.wikipedia.org/wiki/Jonathan_Borwein</strong></font></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font><font color="#003366" size="7" face="Times New Roma"><strong>_________________
+<br></strong></font>&nbsp;</p>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>Chorus, in the Prologue of Shakespeare's Henry V:</strong></font>&nbsp;</p>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong>" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... &nbsp;&nbsp;</strong></font><font color="#003366" size="4" face="Times New Roma"><strong><em>jumping o'er times</em></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font><font color="#003366" size="4" face="Times New Roma"><strong><em>Turning the accomplishment of many years</em></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font><font color="#003366" size="4" face="Times New Roma"><strong><em> &nbsp;&nbsp;&nbsp;Into an hour glass : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" &nbsp;&nbsp;&nbsp;</em></strong></font>&nbsp;</p>
+<p align="center"><font color="#003366" size="7" face="Times New Roma"><strong>_________________</strong></font>&nbsp;</p>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws2.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>Title, speaker, aim/structure of talk</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws3.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font><font color="#000000" size="4" face="Times New Roma"><strong>Procedures</strong></font><font color="#003366" size="4" face="Times New Roma"><strong> (anyone using this 'live' needs to exectute this section to perform independent computations)</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws4.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>Photos of Gauss, Karl, Beukers, Chowla-Dwork-Evans, and some web links</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Before I tell you Gauss' theorem (and its extension by Chowla-Dwork-Evans, and then ourselves, Cosgrave-Dilcher) I need to remind you of certain earlier work &nbsp;- Fermat (two instances), Wilson, Lagrange</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws5.html" target="Content"><p align="left"><font color="#000000" size="4" face="Times New Roma"><strong>Fermat's two-square theorem (with the 'signed' element incorporated into its statement)</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>In the following section - which has several sub-sections - I have added more details than in my actual talk, and I include them now for your independent reading:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws6.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font><font color="#000000" size="4" face="Times New Roma"><strong>Some classic congruences (Fermat, Wilson, Lagrange, and some others ... ), and the Gauss- Wilson theorem</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>And now we are ready for the remarkable:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws12.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font><font color="#993300" size="4" face="Times New Roma"><strong>Gauss' binomial coefficient congruence</strong></font><font color="#003366" size="4" face="Times New Roma"><strong>, and its extension ("suggested by Beukers"), proved by </strong></font><font color="#993300" size="4" face="Times New Roma"><strong>Chowla-Dwork-Evans</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>And now the notion of a Gauss factorial (which we introduced in our first paper):</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws13.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>A very, very fast introduction to </strong></font><font color="#993300" size="4" face="Times New Roma"><strong><em>Gauss factorials</em></strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws14.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>Cutting corners: introducing the gamma-values <img src="images/TCD2017.mws_246.gif" width="110" height="28" alt="gamma[1], gamma[2], gamma[3], gamma[4], `...`" align="center" border="0"></strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws15.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>View examples of the gamma-structure of prime powers for </strong></font><font color="#993300" size="4" face="Times New Roma"><strong>half</strong></font><font color="#003366" size="4" face="Times New Roma"><strong>- and </strong></font><font color="#993300" size="4" face="Times New Roma"><strong>quarter</strong></font><font color="#003366" size="4" face="Times New Roma"><strong>-factorials, and '<font style="background-color: #ff9900">exceptional</strong></font>' prime</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws24.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>How we went from one of our gamma-structure results - helped by Chowla-Dwork-Evans - to the start our new ...</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws25.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>And the continuation, and finalisation</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<dl style="margin-left:40px"><a href="TCD2017.mws26.html" target="Content"><p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>And a brief return to 'exceptional' primes</strong></font>&nbsp;</p>
+</a></dl>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark18">
+<p align=left>
+<b><font color=#000080 size=4>Euler's intuition (which later proved correct)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>From </font></b>
+<b><font color=#000080 size=4>A.O. Gelfond</font></b>
+<b><font color=#000080>'s classic </font></b>
+<i><b><font color=#000080>Transcendental and Algebraic Numbers of Numbers</font></b></i>
+<b><font color=#000080> (English translation of Russian original) I quote: </font></b>
+<i><b><font color=#000080 size=4>The Euler-Hilbert problem. The problem of the transcendence or the rationality of the logarithms, with rational base, of rational numbers, stated by Euler in 1748, was formulated by Hilbert in a significantly more general form and introduced by him as number seven of a set of 23 problems, to the solution of which there appeared to be no suitable approach even at the very end of the nineteenth century...</font></b></i>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>(I take up this topic in greater detail later.)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Euler introduced the concept of a transcendental number (When exactly? Was it done before Euler? Was it Leibnitz? Is there some confusion over the difference between transcendental </font></b>
+<i><b><font color=#000080>function</font></b></i>
+<b><font color=#000080> and transcendental </font></b>
+<i><b><font color=#000080>number</font></b></i>
+<b><font color=#000080>?), but he could </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> prove the transcendence of </font></b>
+<i><b><font color=#000080>even a single</font></b></i>
+<b><font color=#000080> example (one imagines that he must have wondered if (e.g) </font></b>
+<img src="images/transcendental380.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> or </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> were transcendental). Euler did however make a wonderful guess (Fel'dman and Shidlovskii - in their monumental 1967 </font></b>
+<i><b><font color=#000080>Survey</font></b></i>
+<b><font color=#000080> wrote: </font></b>
+<i><b><font color=#000080>"...we may mention the conjecture made by Euler in 1748 (they give as reference Euler's Introductio in analysin infinitorum, Lausanne 1748, Opera omnia, VIII and IX) on the transcendence of the logarithms to a rational base of rational numbers that are not rational powers of the base."</font></b></i>
+<b><font color=#000080>) at some numbers that he felt could be transcendental (it is an elementary exercise that his candidates are all irrational), as I now explain. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Standard, routine high school problems are to ask:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>Solve the equation </font></b>
+<img src="images/transcendental381.gif" width=61 height=50 alt="4^x = 8" align=middle>
+<b><font color=#000080> (later vary the pair (4, 8) to e.g: (4, 16), (</font></b>
+<img src="images/transcendental382.gif" width=36 height=58 alt="27/8" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental383.gif" width=28 height=58 alt="9/4" align=middle>
+<b><font color=#000080>), (</font></b>
+<img src="images/transcendental384.gif" width=44 height=58 alt="1/100" align=middle>
+<b><font color=#000080>, 10), ... )</font></b>
+</li>
+<li>
+<b><font color=#000080>Solve the equation </font></b>
+<img src="images/transcendental385.gif" width=61 height=50 alt="4^x = 6" align=middle>
+<b><font color=#000080> (later vary the pair (4, 6) to e.g: (5, 2), (10, 8), (</font></b>
+<img src="images/transcendental386.gif" width=36 height=58 alt="11/3" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental387.gif" width=36 height=58 alt="12/7" align=middle>
+<b><font color=#000080>), ... )</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080><br>
+Of course both equations have solutions, meaning:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>there </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> an '</font></b>
+<img src="images/transcendental388.gif" width=32 height=32 alt="x[1]" align=middle>
+<b><font color=#000080>' such that </font></b>
+<img src="images/transcendental389.gif" width=69 height=72 alt="4^x[1] = 8" align=middle>
+<b><font color=#000080> </font></b>
+</li>
+<li>
+<b><font color=#000080>there </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> an '</font></b>
+<img src="images/transcendental390.gif" width=32 height=32 alt="x[2]" align=middle>
+<b><font color=#000080>' such that </font></b>
+<img src="images/transcendental391.gif" width=69 height=72 alt="4^x[2] = 6" align=middle>
+<b><font color=#000080><br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>But what </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> the values of </font></b>
+<img src="images/transcendental392.gif" width=32 height=32 alt="x[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental393.gif" width=32 height=32 alt="x[2]" align=middle>
+<b><font color=#000080>? School pupils - spotting the obviously related '4' and '8' - should get </font></b>
+<img src="images/transcendental394.gif" width=32 height=32 alt="x[1]" align=middle>
+<b><font color=#000080> to be </font></b>
+<img src="images/transcendental395.gif" width=28 height=58 alt="3/2" align=middle>
+<b><font color=#000080>, but might get stuck with finding </font></b>
+<img src="images/transcendental396.gif" width=32 height=32 alt="x[2]" align=middle>
+<b><font color=#000080>.  Some might say something like: </font></b>
+<img src="images/transcendental397.gif" width=172 height=32 alt="x[2]*log[10](4) = log[10](6)" align=middle>
+<b><font color=#000080>, then - using a calculator - write:</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental398.gif" width=114 height=72 alt="x[2] = log[10](6)/log[10](4)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental399.gif" width=208 height=58 alt=".7781512504/.6020599913 = 1.292481250" align=middle>
+<b><font color=#000080> (to 10 places of accuracy)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It is entirely elementary to prove that </font></b>
+<img src="images/transcendental400.gif" width=32 height=32 alt="x[2]" align=middle>
+<b><font color=#000080> is, in fact, irrational. One might be astounded to know that </font></b>
+<img src="images/transcendental401.gif" width=32 height=32 alt="x[2]" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>actually </font></b></i>
+<b><font color=#000080>transcendental.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>This is what I believe Euler surmised</font></b>
+<b><font color=#000080>: let </font></b>
+<img src="images/transcendental402.gif" width=30 height=32 alt="r[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental403.gif" width=30 height=32 alt="r[2]" align=middle>
+<b><font color=#000080> be positive rational numbers such that </font></b>
+<img src="images/transcendental404.gif" width=73 height=36 alt="r[1]^p = r[2]" align=middle>
+<b><font color=#000080>, then</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> is rational </font></b>
+<b><font color=#000080>OR</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> is transcendental</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(Alternatively: the ratio of the logarithms of two rational numbers </font></b>
+<img src="images/transcendental405.gif" width=68 height=72 alt="log(r[2])/log(r[1])" align=middle>
+<b><font color=#000080> is either rational or transcendental.)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>One should sense the </font></b>
+<b><font color=#000080 size=4>remarkable nature</font></b>
+<b><font color=#000080> of this assertion/guess/conjecture... it is saying/suggesting that such a ratio is either </font></b>
+<b><font color=#000080 size=4>incredibly simple</font></b>
+<b><font color=#000080> or </font></b>
+<b><font color=#000080 size=4>incredibly complex</font></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(plots): # for 'display'<br>
+with(plottools): # for 'line'<br>
+p := plot(4^x, x = 0.9..1.6, colour=navy, thickness=2,<br>
+             title="THE GRAPH OF 4 TO THE POWER x"):<br>
+v1 := line([1.5, 0], [1.5, 8], color=red, thickness=2):<br>
+alpha := log[10](6.0)/log[10](4.0):<br>
+v2 := line([alpha, 0], [alpha, 6], colour=brown, thickness=2):<br>
+tp1 := textplot([1.48, 8,`x[1]=3/2`],align=LEFT):<br>
+tp2 := textplot([1.51, 8,`y=8`],align=RIGHT):<br>
+tp3 := textplot([1.3, 6,`y=6`],align=RIGHT):<br>
+tp4 := textplot([1.28, 6.2,`Is x[2]=transcendental?`],align=LEFT):<br>
+display([p, v1, v2, tp1, tp2, tp3, tp4]);<br>
+</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the name changecoords has been redefined<br>
+</font></pre></tt>
+</p>
+<p align=center>
+<img src="images/transcendental406.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Hilbert's seventh problem (later section) is a more general form of Euler's surmise.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:56 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

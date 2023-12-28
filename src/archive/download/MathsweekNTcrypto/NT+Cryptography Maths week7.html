@@ -1,0 +1,641 @@
+<html>
+<head>
+<title>NT+Cryptography Maths week.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark7">
+<p align=left>
+<b><font color=#000080 size=4>Fermat's 'little' theorem</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Sadly I have to rush this one (anyone who cares to follow this up may do so by consulting my web site for my substantial Maple lecture </font></b>
+<i><b><font color=#000080 size=4>Fermat's little theorem</font></b></i>
+<b><font color=#000080 size=4>, introduced in Austria in 2001, marking the four hundreth anniversary of the birth of Pierre de Fermat (1601-1665), the first great number theorist since classical times).<br>
+<br>
+Fermat's '</font></b>
+<i><b><font color=#000080 size=4>little</font></b></i>
+<b><font color=#000080 size=4>' theorem - a fundamental result in Number Theory - states that:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>if </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> is any </font></b>
+<i><b><font color=#000080 size=4>prime</font></b></i>
+<b><font color=#000080 size=4> number, </font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> is any integer </font></b>
+<i><b><font color=#000080 size=4>not</font></b></i>
+<b><font color=#000080 size=4> divisible by </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>then </font></b>
+<img src="images/NT+Cryptography Maths week176.gif" width=75 height=58 alt="a^(p-1)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>leaves remainder 1 on division by </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Example #1. Let </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> = 7 and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = 2, then </font></b>
+<img src="images/NT+Cryptography Maths week177.gif" width=112 height=58 alt="a^(p-1) = 2^6" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>= 64 = </font></b>
+<b><u><font color=#000080 size=4>7</font></u></b>
+<b><font color=#000080 size=4>*9 + </font></b>
+<b><u><font color=#000080 size=4>1</font></u></b>
+<b><font color=#000080 size=4>.<br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>Example #2. Let </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> = 7 and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = 9, then </font></b>
+<img src="images/NT+Cryptography Maths week178.gif" width=112 height=58 alt="a^(p-1) = 9^6" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>= 531441 = </font></b>
+<b><u><font color=#000080 size=4>7</font></u></b>
+<b><font color=#000080 size=4>*75920 + </font></b>
+<b><u><font color=#000080 size=4>1</font></u></b>
+<b><font color=#000080 size=4>.<br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>Example #3. Let </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> = 17 and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = 9, then </font></b>
+<img src="images/NT+Cryptography Maths week179.gif" width=120 height=58 alt="a^(p-1) = 9^16" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>= 1853020188851841 = </font></b>
+<b><u><font color=#000080 size=4>17</font></u></b>
+<b><font color=#000080 size=4>*109001187579520 + </font></b>
+<b><u><font color=#000080 size=4>1</font></u></b>
+<b><font color=#000080 size=4>.<br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>Example #4. Let </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> = 27 and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = 2, then </font></b>
+<img src="images/NT+Cryptography Maths week180.gif" width=120 height=58 alt="a^(p-1) = 2^26" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>= 67108864 = </font></b>
+<b><u><font color=#000080 size=4>27</font></u></b>
+<b><font color=#000080 size=4>*2485513 + </font></b>
+<b><u><font color=#000080 size=4>13</font></u></b>
+<b><font color=#000080 size=4>.<br>
+<br>
+Of course I'm hoping you may be thinking something like:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080 size=4>Oh! The remainder is not 1, rather it is 13; what's gone wrong</font></b></i>
+<b><font color=#000080 size=4> ... </font></b>
+<i><b><font color=#000080 size=4>?</font></b></i>
+<b><font color=#000080 size=4><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Nothing, you may also have noticed, has 'gone wrong'; it's simply that the '27' is </font></b>
+<i><b><font color=#000080 size=4>itself not prime</font></b></i>
+<b><font color=#000080 size=4> (it is 'composite', having at least one factor other than 1 and 27, the so-called 'trivial' factors of 27), and thus </font></b>
+<i><b><font color=#000080 size=4>fails a requirement</font></b></i>
+<b><font color=#000080 size=4> of Fermat's '</font></b>
+<i><b><font color=#000080 size=4>little</font></b></i>
+<b><font color=#000080 size=4>' theorem.</font></b>
+<b><font color=#000080><br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>Examples with larger primes.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := ithprime(1000);  # this gives the 1000-th prime<br>
+a := 2; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week181.gif" width=78 height=20 alt="p := 7919">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week182.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week183.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := ithprime(1000);  # the same prime<br>
+a := 3; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week184.gif" width=78 height=20 alt="p := 7919">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week185.gif" width=54 height=20 alt="a := 3">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week186.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := ithprime(1000);  # and again<br>
+a := 22; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week187.gif" width=78 height=20 alt="p := 7919">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week188.gif" width=62 height=20 alt="a := 22">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week189.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := ithprime(1000);  # and again<br>
+a := 12345; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week190.gif" width=78 height=20 alt="p := 7919">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week191.gif" width=86 height=20 alt="a := 12345">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week192.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>But see, for example, this:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := ithprime(1000);  # this gives the 1000-th prime<br>
+a := 15838; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week193.gif" width=78 height=20 alt="p := 7919">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week194.gif" width=86 height=20 alt="a := 15838">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week195.gif" width=24 height=20 alt="0">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>I hope you spotted that the remainder was not '1', and I hope also you can see a reason for that happening; it's simply that the value of '</font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4>' (namely 15838) is divisible by '</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>', and so </font></b>
+<i><b><font color=#000080 size=4>fails a requirement</font></b></i>
+<b><font color=#000080 size=4> of Fermat's theorem.<br>
+<br>
+Examples with much larger primes/numbers.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(1000000000);  <br>
+a := 2; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week196.gif" width=126 height=20 alt="p := 1000000007">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week197.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week198.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(1000000000); # the same prime <br>
+a := 3; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week199.gif" width=126 height=20 alt="p := 1000000007">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week200.gif" width=54 height=20 alt="a := 3">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week201.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(1000000000000000);  <br>
+a := 2; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week202.gif" width=174 height=20 alt="p := 1000000000000037">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week203.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week204.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(101010101010101010101010101010101010101010101010101010101010101010);  <br>
+a := 2; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week205.gif" width=574 height=20 alt="p := 1010101010101010101010101010101010101010101010...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week206.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week207.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Briefly, a </font></b>
+<i><b><font color=#000080 size=4>quite different</font></b></i>
+<b><font color=#000080 size=4> phenomenon. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Here I let '</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>' be  </font></b>
+<img src="images/NT+Cryptography Maths week208.gif" width=88 height=102 alt="(2^(7^2)-1)/(2^7-1)" align=middle>
+<b><font color=#000080 size=4>, namely  </font></b>
+<img src="images/NT+Cryptography Maths week209.gif" width=73 height=76 alt="(2^49-1)/(2^7-1)" align=middle>
+<b><font color=#000080 size=4>, which, incidentally, is also (</font></b>
+<img src="images/NT+Cryptography Maths week210.gif" width=286 height=50 alt="2^42+2^35+2^28+2^21+2^14+2^7+1" align=middle>
+<b><font color=#000080 size=4>), as you may be able to see for yourself. </font></b>
+<b><font color=#000080 size=4>(Hint. You have heard of 'geometric series'?)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := (2^(7^2) - 1)/(2^7 - 1);  <br>
+a := 2; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week211.gif" width=150 height=20 alt="p := 4432676798593">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week212.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week213.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := (2^(7^2) - 1)/(2^7 - 1);  <br>
+a := 3; a&amp;^(p-1) mod p;  # the same prime, but with another 'a'</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week214.gif" width=150 height=20 alt="p := 4432676798593">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week215.gif" width=54 height=20 alt="a := 3">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week216.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := (2^(7^2) - 1)/(2^7 - 1);  <br>
+a := 33; a&amp;^(p-1) mod p;  # the same prime, but with another 'a'</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week217.gif" width=150 height=20 alt="p := 4432676798593">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week218.gif" width=62 height=20 alt="a := 33">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week219.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Etc, etc. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Does it follow that </font></b>
+<img src="images/NT+Cryptography Maths week220.gif" width=73 height=76 alt="(2^49-1)/(2^7-1)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>is prime? Well, as it happens, it </font></b>
+<i><b><font color=#000080 size=4>is</font></b></i>
+<b><font color=#000080 size=4> prime, as the following Maple 'isprime' command shows (I confidently write 'shows', but you must understand I am not treating here the question: how does Maple 'know' that it </font></b>
+<i><b><font color=#000080 size=4>is</font></b></i>
+<b><font color=#000080 size=4> 'true' that the tested number </font></b>
+<i><b><font color=#000080 size=4>really is</font></b></i>
+<b><font color=#000080 size=4> prime? My St Patrick's College 3rd year students study that sort of question): </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(p); # the same 'p' as the previous computations</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week221.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>But observe what happens when I now allow '</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>' to be </font></b>
+<img src="images/NT+Cryptography Maths week222.gif" width=88 height=102 alt="(2^(7^3)-1)/(2^(7^2)-1)" align=middle>
+<b><font color=#000080 size=4>, namely  </font></b>
+<img src="images/NT+Cryptography Maths week223.gif" width=81 height=76 alt="(2^243-1)/(2^49-1)" align=middle>
+<b><font color=#000080 size=4>, </font></b>
+<b><font color=#000080 size=4>which, incidentally, is also (</font></b>
+<img src="images/NT+Cryptography Maths week224.gif" width=326 height=50 alt="2^294+2^245+2^196+2^147+2^98+2^49+1" align=middle>
+<b><font color=#000080 size=4>).<br>
+<br>
+Now that (89-digit) </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080 size=4>looks like</font></b></i>
+<b><font color=#000080 size=4> it is prime:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := (2^(7^3) - 1)/(2^(7^2) - 1);  <br>
+a := 2; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week225.gif" width=758 height=20 alt="p := 3182868713022640163705053678979551405971540449...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week226.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week227.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>but in fact it is not. It is immediately revealed as an impostor - it is known as a </font></b>
+<i><b><font color=#000080 size=4>pseudoprime</font></b></i>
+<b><font color=#000080 size=4> - by the following computation (in which the remainder is </font></b>
+<i><b><font color=#000080 size=4>most certainly</font></b></i>
+<b><font color=#000080 size=4> not '1'):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := (2^(7^3) - 1)/(2^(7^2) - 1);  <br>
+a := 3; a&amp;^(p-1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week228.gif" width=758 height=20 alt="p := 3182868713022640163705053678979551405971540449...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week229.gif" width=54 height=20 alt="a := 3">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week230.gif" width=728 height=20 alt="193982501985638287153639412342771076743377603850722...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>This is a vast subject... I have only scratched the surface...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The above  </font></b>
+<img src="images/NT+Cryptography Maths week231.gif" width=88 height=102 alt="(2^(7^2)-1)/(2^7-1)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4> and  </font></b>
+<img src="images/NT+Cryptography Maths week232.gif" width=88 height=102 alt="(2^(7^3)-1)/(2^(7^2)-1)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4> are examples of what I call </font></b>
+<i><b><font color=#000080 size=4>generalised Fermat numbers</font></b></i>
+<b><font color=#000080 size=4> { </font></b>
+<img src="images/NT+Cryptography Maths week233.gif" width=50 height=32 alt="F[n,r]" align=middle>
+<b><font color=#000080 size=4> } in my unpublished paper </font></b>
+<i><b><font color=#000080 size=4>Could there exist a sixth Fermat prime? I believe it is not impossible</font></b></i>
+<b><font color=#000080 size=4>, which is available in pdf format in the Fermat 6 corner of my web site.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The { </font></b>
+<img src="images/NT+Cryptography Maths week234.gif" width=50 height=32 alt="F[n,r]" align=middle>
+<b><font color=#000080 size=4> } - </font></b>
+<i><b><font color=#000080 size=4>every one of which is either a prime or a pseudoprime</font></b></i>
+<b><font color=#000080 size=4> (as I </font></b>
+<i><b><font color=#000080 size=4>prove</font></b></i>
+<b><font color=#000080 size=4> in my paper) - are given by:</font></b>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week235.gif" width=191 height=100 alt="F[n,r] = (2^(p[r]^(n+1))-1)/(2^(p[r]^n)-1)">
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>where </font></b>
+<i><b><font color=#000080 size=4>n</font></b></i>
+<b><font color=#000080 size=4> = 0, 1, 2, 3, 4, ... </font></b>
+<i><b><font color=#000080 size=4>ad infinitum</font></b></i>
+<b><font color=#000080 size=4>, and </font></b>
+<img src="images/NT+Cryptography Maths week236.gif" width=30 height=32 alt="p[r]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>is the </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4>-th prime (</font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> = 1, 2, 3, ... </font></b>
+<i><b><font color=#000080 size=4>ad infinitum</font></b></i>
+<b><font color=#000080 size=4>).</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>When </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> = 1, those numbers are the classic Fermat numbers { </font></b>
+<img src="images/NT+Cryptography Maths week237.gif" width=36 height=32 alt="F[n]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>} given by </font></b>
+<img src="images/NT+Cryptography Maths week238.gif" width=125 height=76 alt="F[n] = 2^(2^n)+1" align=middle>
+<b><font color=#000080 size=4>,</font></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080 size=4>n</font></b></i>
+<b><font color=#000080 size=4> = 0, 1, 2, 3, 4, ... </font></b>
+<b><font color=#000080> <br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>When </font></b>
+<i><b><font color=#000080 size=4>n</font></b></i>
+<b><font color=#000080 size=4> = 0, those numbers are the classic Mersenne numbers { </font></b>
+<img src="images/NT+Cryptography Maths week239.gif" width=37 height=32 alt="M[p]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>} given by </font></b>
+<img src="images/NT+Cryptography Maths week240.gif" width=102 height=50 alt="M[p] = 2^p-1" align=middle>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> = 2, 3, 5, 7, 11, ...</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>My German friend Wilfrid Keller (Hamburg university) between us, over a period of many years, determined all such numbers - having at most two million digits - that are prime. Apart from the much studied Mersenne primes, we determined that the only </font></b>
+<img src="images/NT+Cryptography Maths week241.gif" width=50 height=32 alt="F[n,r]" align=middle>
+<b><font color=#000080 size=4> primes are these:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>The five known Fermat primes { </font></b>
+<img src="images/NT+Cryptography Maths week242.gif" width=143 height=32 alt="F[0], F[1], F[2], F[3], F[4]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>}, that is { </font></b>
+<img src="images/NT+Cryptography Maths week243.gif" width=223 height=32 alt="F[0,1], F[1,1], F[2,1], F[3,1], F[4,1]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>}, namely 3, 5, 17, 257 and 65537<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>The five three primes { </font></b>
+<img src="images/NT+Cryptography Maths week244.gif" width=137 height=32 alt="F[0,2], F[1,2], F[2,2]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>}, namely 7 ( = </font></b>
+<img src="images/NT+Cryptography Maths week245.gif" width=89 height=50 alt="2^2+2+1" align=middle>
+<b><font color=#000080 size=4>), 73 ( = </font></b>
+<img src="images/NT+Cryptography Maths week246.gif" width=98 height=50 alt="2^6+2^3+1" align=middle>
+<b><font color=#000080 size=4>) and 262657 ( = </font></b>
+<img src="images/NT+Cryptography Maths week247.gif" width=106 height=50 alt="2^18+2^9+1" align=middle>
+<b><font color=#000080 size=4>)<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>The prime { </font></b>
+<img src="images/NT+Cryptography Maths week248.gif" width=51 height=32 alt="F[1,4]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>}, namely 44326767985937  ( = </font></b>
+<img src="images/NT+Cryptography Maths week249.gif" width=286 height=50 alt="2^42+2^35+2^28+2^21+2^14+2^7+1" align=middle>
+<b><font color=#000080 size=4>)<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>The single 1031-digit prime (independently found by Wilfrid and myself as a pseudoprime) { </font></b>
+<img src="images/NT+Cryptography Maths week250.gif" width=59 height=32 alt="F[1,17]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>}, whose decimal value, 133243...3473, is given below; it is also </font></b>
+<img src="images/NT+Cryptography Maths week251.gif" width=397 height=76 alt="(2^59)^58+(2^59)^57+(2^59)^56+`...`+(2^59)^2+2^59+1..." align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(the '59' is the 17-th prime)<br>
+<br>
+That number was proved to be prime by the French mathematician Francois Morain - following an email from me - in March 1999. The </font></b>
+<i><b><font color=#000080 size=4>proof</font></b></i>
+<b><font color=#000080 size=4> - which could not be given using certain methods, as explained in my paper - required the application of a very advanced method called the elliptic curve primality test. </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F := (n, r) -&gt; (2^(ithprime(r)^(n+1)) - 1)/(2^(ithprime(r)^n) - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week252.gif" width=295 height=93 alt="F := proc (n, r) options operator, arrow; (2^(ithpr...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(F(n, 1), n = 0..8); # the first 9 Fermat numbers</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week253.gif" width=724 height=20 alt="3, 5, 17, 257, 65537, 4294967297, 18446744073709551...">
+<br>
+<img src="images/NT+Cryptography Maths week254.gif" width=640 height=20 alt="3, 5, 17, 257, 65537, 4294967297, 18446744073709551...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(F(0, r), r = 1..19); # the first 19 Mersenne numbers</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week255.gif" width=852 height=20 alt="3, 7, 31, 127, 2047, 8191, 131071, 524287, 8388607,...">
+<br>
+<img src="images/NT+Cryptography Maths week256.gif" width=760 height=20 alt="3, 7, 31, 127, 2047, 8191, 131071, 524287, 8388607,...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F(1, 17); # what I call the 17-th of the 'level 1' generalised Fermat numbers; it is a 1031-digit prime</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week257.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week258.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week259.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week260.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week261.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week262.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week263.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week264.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week265.gif" width=912 height=20 alt="133243233098286206425895905655339230814837821503707...">
+<br>
+<img src="images/NT+Cryptography Maths week266.gif" width=200 height=20 alt="133243233098286206425895905655339230814837821503707...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+</body>
+</html>

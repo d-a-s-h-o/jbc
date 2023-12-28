@@ -1,0 +1,529 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 2 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Headi
+ng 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 128 1 2 1 2 2 2 2 1 1 
+1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "
+" -1 -1 "Times" 1 14 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 
+0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 
+0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Err
+or" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 
+1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 2 1 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Courier" 1 12 0 128 0 1 2 1 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 
+2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "
+R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 2" -1 
+257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 128 1 2 1 2 2 2 2 1 1 1 1 
+}1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Bullet Item" -1 259 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "No
+rmal" -1 260 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 
+1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 261 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 
+8 2 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 262 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 
+2 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "# decimal expansions
+.mws" }}}{EXCHG {PARA 258 "" 0 "" {TEXT -1 0 "" }{TEXT 256 18 "Decimal
+ expansions" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT 330 74 "Reminder to anyone using the 'pdexpand' command \+
+in the following worksheet" }{TEXT -1 6 ". You " }{TEXT 331 4 "must" }
+{TEXT -1 100 " first ensure you have loaded the Number Theory package,
+ by executing the 'with(numtheory)' command." }}}{SECT 1 {PARA 3 "" 0 
+"" {TEXT -1 12 "Introduction" }}{PARA 0 "" 0 "" {TEXT -1 44 "At school
+ everyone encounters the notion of " }{TEXT 257 5 "exact" }{TEXT -1 4 
+" or " }{TEXT 258 11 "approximate" }{TEXT -1 71 " decimal value. Some \+
+familiar examples of exact decimal values would be" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 259 "" 0 "" {TEXT -1 7 "  (i): " }{XPPEDIT 18 0 
+"3/8 = .375;" "6#/*&\"\"$\"\"\"\"\")!\"\"$\"$v$!\"$" }{TEXT -1 12 ",  \+
+   (ii): " }{XPPEDIT 18 0 "27/20 = 1.28;" "6#/*&\"#F\"\"\"\"#?!\"\"$\"
+$G\"!\"#" }{TEXT -1 18 ",     \n\nor (iii): " }{XPPEDIT 18 0 ".715 = 7
+/10+1/100+5/1000;" "6#/$\"$:(!\"$,(*&\"\"(\"\"\"\"#5!\"\"F**&F*F*\"$+
+\"F,F**&\"\"&F*\"%+5F,F*" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "715/1000;
+" "6#*&\"$:(\"\"\"\"%+5!\"\"" }{TEXT -1 21 ", which tidies up to " }
+{XPPEDIT 18 0 "143/200;" "6#*&\"$V\"\"\"\"\"$+#!\"\"" }{TEXT -1 11 "\n
+\nor (iv): " }{XPPEDIT 18 0 "1.13 = 1+1/10+3/100;" "6#/$\"$8\"!\"#,(\"
+\"\"F(*&F(F(\"#5!\"\"F(*&\"\"$F(\"$+\"F+F(" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "113/100;" "6#*&\"$8\"\"\"\"\"$+\"!\"\"" }{TEXT -1 36 " \+
+(where there is no 'cancellation')\n" }}{PARA 260 "" 0 "" {TEXT -1 45 
+"while examples of approximate values would be" }}{PARA 259 "" 0 "" 
+{TEXT -1 5 "(v): " }{XPPEDIT 18 0 "1/3 = .3333333333;" "6#/*&\"\"\"F%
+\"\"$!\"\"$\"+LLLLL!#5" }{TEXT -1 10 "...\n(vi): " }{XPPEDIT 18 0 "1/6
+ = .1666666666;" "6#/*&\"\"\"F%\"\"'!\"\"$\"+mmmm;!#5" }{TEXT -1 11 ".
+..\n(vii): " }{XPPEDIT 18 0 "1/15 = .666666666e-1;" "6#/*&\"\"\"F%\"#:
+!\"\"$\"*mmmm'!#5" }{TEXT -1 12 "...\n(viii): " }{XPPEDIT 18 0 "1/7 = \+
+.1428571428;" "6#/*&\"\"\"F%\"\"(!\"\"$\"+G9dG9!#5" }{TEXT -1 5 "...  \+
+" }}{PARA 260 "" 0 "" {TEXT -1 303 "At a very superficial level of stu
+dy one can unthinkingly say things like 'and so on ad infinitum' (with
+out really understanding just what that means), and it requires a real
+ly serious study to fully understand the meaning of the sum of an infi
+nite series to cope with (meaningfully) saying things like:" }}{PARA 
+15 "" 0 "" {XPPEDIT 18 0 "1/3;" "6#*&\"\"\"F$\"\"$!\"\"" }{TEXT -1 81 
+" has an infinite (number of terms) decimal expansion, all of whose di
+gits are '3'" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/6;" "6#*&\"\"\"F$\"
+\"'!\"\"" }{TEXT -1 102 " has an infinite (number of terms) decimal ex
+pansion, whose initial digit is 1, and all others are '6'" }}{PARA 15 
+"" 0 "" {XPPEDIT 18 0 "1/7;" "6#*&\"\"\"F$\"\"(!\"\"" }{TEXT -1 59 " h
+as an infinite (number of terms) decimal expansion, with " }{TEXT 259 
+14 "repeated block" }{TEXT -1 7 " 142857" }}{PARA 15 "" 0 "" {XPPEDIT 
+18 0 "4/7;" "6#*&\"\"%\"\"\"\"\"(!\"\"" }{TEXT -1 59 " has an infinite
+ (number of terms) decimal expansion, with " }{TEXT 260 14 "repeated b
+lock" }{TEXT -1 7 " 571428" }}{PARA 260 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 261 44 "Decimal (i.e. base 'base' 10) e
+xpansions of " }{TEXT 262 8 "rational" }{TEXT 263 8 " numbers" }{TEXT 
+-1 79 ". Every rational number (at a sophisticated level those may be \+
+viewed as being " }{TEXT 264 29 "algebraic numbers of degree 1" }
+{TEXT -1 55 ") has a decimal expansion which is one of three types:\n
+" }}{PARA 15 "" 0 "" {TEXT -1 54 "terminating (examples (i), (ii), (ii
+i) and (iv) above)" }}{PARA 15 "" 0 "" {TEXT -1 69 "pure periodic afte
+r the decimal point (examples (v) and (viii) above)" }}{PARA 15 "" 0 "
+" {TEXT -1 51 "eventually periodic (examples (vi) and (vii) above)" }}
+{PARA 260 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 429 "Let's \+
+see some better examples using Maple's 'pdexpand' command ('pd' for 'p
+eriodic decimal'). It requires first loading the Number Theory package
+ (Maple's help facility is totally unhelpful here; if one does a '?dec
+imal' or '?periodic' or '?expansion' search one uselessly gets \"Could
+ not find any help on...\". Of course, if you do a '?pdexpand' search \+
+you will get... , but how do the Maple folk expect a novice to know th
+at?):" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(numtheory);" }
+}{PARA 7 "" 1 "" {TEXT -1 69 "Warning, the protected name order has be
+en redefined and unprotected\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7P%&
+GIgcdG%)bigomegaG%&cfracG%)cfracpolG%+cyclotomicG%)divisorsG%)factorEQ
+G%*factorsetG%'fermatG%)imagunitG%&indexG%/integral_basisG%)invcfracG%
+'invphiG%*issqrfreeG%'jacobiG%*kroneckerG%'lambdaG%)legendreG%)mcombin
+eG%)mersenneG%*minkowskiG%(mipolysG%%mlogG%'mobiusG%&mrootG%&msqrtG%)n
+earestpG%*nthconverG%)nthdenomG%)nthnumerG%'nthpowG%&orderG%)pdexpandG
+%$phiG%#piG%*pprimrootG%)primrootG%(quadresG%+rootsunityG%*safeprimeG%
+&sigmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "pdexpand(1/21);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+-%)PDEXPANDG6&\"\"\"\"\"!7\"7(F'\"\"%\"\"(\"\"'F&\"\"*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pdexpand(41/74);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!7#\"\"&7%F)\"\"%F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 16 "In other words, " }{XPPEDIT 18 0 "41/74 = .5;" "6#/*&\"#T
+\"\"\"\"#u!\"\"$\"\"&F(" }{TEXT -1 20 " 540 540 540 540 ..." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "pdexpand(-41/742);" }}{PARA 12 "" 1 "" {XPPMATH 20 
+"6#-%)PDEXPANDG6&!\"\"\"\"!7#F'7jo\"\"&F*\"\"#F*\"\"'F'F,\"\"%F,\"\"*F
+'F'F+F,F.F*F-\"\"\"\"\"(F0\"\")F.F0F*F0F-F/F+\"\"$F.F1F.F+F/F1F2F+F1F1
+F-F'F.F0F'F2F*F'F-F'F-F2F/F+F,F,F1F-F,F2F,F/F/F1F*F.F1F2F1F+F0F-F.F2F+
+F,F/F-F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 60 "And Maple is (generally) sensitive to mat
+hematical subtlety:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "pdex
+pand(sqrt(2));" }}{PARA 8 "" 1 "" {TEXT -1 49 "Error, (in pdexpand) ex
+pecting a rational number\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "pdexpand(sqrt(64/441));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)PDEX
+PANDG6&\"\"\"\"\"!7\"7(\"\"$\"\")F'\"\"*\"\"&\"\"#" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 13 "pdexpand(Pi);" }}{PARA 8 "" 1 "" {TEXT -1 
+49 "Error, (in pdexpand) expecting a rational number\n" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 40 "Here, though, is an example where Maple " }{TEXT 303 5 "fails" 
+}{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "pdexpand(
+(8/27)^(1/3));" }}{PARA 8 "" 1 "" {TEXT -1 49 "Error, (in pdexpand) ex
+pecting a rational number\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }{TEXT -1 9 "?pdexpand" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "?pdexpand" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "It failed to see that " }
+{XPPEDIT 18 0 "(8/27)^(1/3) = 2/3;" "6#/)*&\"\")\"\"\"\"#F!\"\"*&F'F'
+\"\"$F)*&\"\"#F'F+F)" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 52 "Maple has a command for reversing the a
+bove process:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "convert(PD
+EXPAND(1, 0, [], [1,4,2,8,5,7]), rational);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"\"\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+51 "convert(PDEXPAND(1, 0, [], [1,4,2,8,5]), rational);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6##\"&&G9\"&*****" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "convert(PDEXPAND(1, 0, [], [1,4,2,8]), rational);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$w%\"%LL" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 47 "convert(PDEXPAND(1, 0, [], [1,4,2]), rational);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$U\"\"$***" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 2 "A " }
+{TEXT 332 7 "careful" }{TEXT -1 24 " analysis shows that if " }
+{XPPEDIT 18 0 "m/n;" "6#*&%\"mG\"\"\"%\"nG!\"\"" }{TEXT -1 50 " is a r
+ational number (in 'reduced form', meaning " }{XPPEDIT 18 0 "gcd(m,n) \+
+= 1;" "6#/-%$gcdG6$%\"mG%\"nG\"\"\"" }{TEXT -1 8 "), then " }{XPPEDIT 
+18 0 "m/n;" "6#*&%\"mG\"\"\"%\"nG!\"\"" }{TEXT -1 5 " has " }}{PARA 
+15 "" 0 "" {TEXT -1 35 "a terminating decimal expansion if " }
+{XPPEDIT 18 0 "n = 2^x*5^y;" "6#/%\"nG*&)\"\"#%\"xG\"\"\")\"\"&%\"yGF)
+" }{TEXT -1 27 " for non-negative integers " }{TEXT 333 1 "x" }{TEXT 
+-1 5 " and " }{TEXT 334 1 "y" }{TEXT -1 1 " " }}{PARA 15 "" 0 "" 
+{TEXT -1 55 "a pure periodic expansion (after the decimal point) if " 
+}{TEXT 335 1 "n" }{TEXT -1 35 " is not divisible by 2 nor 5 (i.e. " }
+{XPPEDIT 18 0 "gcd(10,n) = 1;" "6#/-%$gcdG6$\"#5%\"nG\"\"\"" }{TEXT 
+-1 1 ")" }}{PARA 15 "" 0 "" {TEXT -1 70 "an eventually periodic decima
+l expansion (after the decimal point) if " }{TEXT 336 1 "n" }{TEXT -1 
+23 " is divisible by 2 or 5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT 338 8 "Question" }{TEXT -1 98 ". Finally, if you think
+ you know how to multiply decimals together, then try you hand at this
+ one:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT -1 4 
+"let " }{TEXT 337 1 "x" }{TEXT -1 48 " have decimal expansion .0099 00
+99 0099 0099 ..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 33 "what is the decimal expansion of " }{XPPEDIT 18 0 "x^2;" 
+"6#*$%\"xG\"\"#" }{TEXT -1 45 "? (Later have a look at the final secti
+on...)" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 46 "Theory (for those who
+ know some Number Theory)" }}{PARA 0 "" 0 "" {TEXT -1 37 "In this sect
+ion I want to prove that " }{TEXT 265 4 "all " }{TEXT -1 64 "the follo
+wing rational numbers have periodic decimal expansions:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "1/3,1/7,1/9,1/11
+,1/13,1/17,1/19,1/21,1/23;" "6+*&\"\"\"F$\"\"$!\"\"*&F$F$\"\"(F&*&F$F$
+\"\"*F&*&F$F$\"#6F&*&F$F$\"#8F&*&F$F$\"#<F&*&F$F$\"#>F&*&F$F$\"#@F&*&F
+$F$\"#BF&" }{TEXT -1 5 ", ..." }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "2/3,
+2/7,2/9,2/11,2/13,2/17,2/19,2/21,2/23;" "6+*&\"\"#\"\"\"\"\"$!\"\"*&F$
+F%\"\"(F'*&F$F%\"\"*F'*&F$F%\"#6F'*&F$F%\"#8F'*&F$F%\"#<F'*&F$F%\"#>F'
+*&F$F%\"#@F'*&F$F%\"#BF'" }{TEXT -1 5 ", ..." }}{PARA 258 "" 0 "" 
+{XPPEDIT 18 0 "3/7,3/9,3/11,3/13,3/17,3/19,3/21,3/23;" "6**&\"\"$\"\"
+\"\"\"(!\"\"*&F$F%\"\"*F'*&F$F%\"#6F'*&F$F%\"#8F'*&F$F%\"#<F'*&F$F%\"#
+>F'*&F$F%\"#@F'*&F$F%\"#BF'" }{TEXT -1 5 ", ..." }}{PARA 258 "" 0 "" 
+{TEXT -1 7 "... ..." }}{PARA 0 "" 0 "" {TEXT 266 31 "Theorem (the expa
+nsion theorem)" }{TEXT -1 6 ". Let " }{TEXT 267 1 "n" }{TEXT -1 24 " b
+e any natural number, " }{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "gcd(10,n) = 1;" "6#/-%$gcdG6$\"#5%
+\"nG\"\"\"" }{TEXT -1 18 " (in other words, " }{TEXT 268 1 "n" }{TEXT 
+-1 4 " is " }{TEXT 269 3 "not" }{TEXT -1 17 " divisible by 2, " }
+{TEXT 270 3 "nor" }{TEXT -1 16 " by 5), and let " }{TEXT 271 1 "a" }
+{TEXT -1 28 " be any natural number with " }{XPPEDIT 18 0 "a <= n-1;" 
+"6#1%\"aG,&%\"nG\"\"\"F'!\"\"" }{TEXT -1 7 ", then " }{XPPEDIT 18 0 "a
+/n;" "6#*&%\"aG\"\"\"%\"nG!\"\"" }{TEXT -1 52 " has a periodic decimal
+ expansion. (In other words, " }{TEXT 304 5 "every" }{TEXT -1 144 " fr
+action, whose numerator is smaller than its denominator, and whose den
+ominator is not divisible by 2 or 5, has a periodic decimal expansion.
+)" }}{SECT 0 {PARA 4 "" 0 "" {TEXT 278 0 "" }{TEXT -1 41 "The idea beh
+ind the proof is quite simple" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+302 32 "To start the proof one needs to " }{TEXT 305 4 "know" }{TEXT 
+306 66 " (at some level, superficial or deep) the values of the follow
+ing " }{TEXT 307 8 "special " }{TEXT 308 8 "decimals" }{TEXT -1 1 ":" 
+}}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/9;" "6#*&\"\"\"F$\"\"*!\"\"" }
+{TEXT -1 38 " is .1 1 1 1 1 1 1 1 1 1 1 1 1 1 1... " }}{PARA 15 "" 0 "
+" {XPPEDIT 18 0 "1/99;" "6#*&\"\"\"F$\"#**!\"\"" }{TEXT -1 40 " is .01
+ 01 01 01 01 01 01 01 01 01 01..." }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1
+/999;" "6#*&\"\"\"F$\"$***!\"\"" }{TEXT -1 39 " is .001 001 001 001 00
+1 001 001 001..." }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/9999;" "6#*&\"\"
+\"F$\"%****!\"\"" }{TEXT -1 47 " is .0001 0001 0001 0001 0001 0001 000
+1 0001..." }}{PARA 15 "" 0 "" {TEXT -1 13 "In general,  " }{XPPEDIT 
+18 0 "1/(10^m-1);" "6#*&\"\"\"F$,&)\"#5%\"mGF$F$!\"\"F)" }{TEXT -1 5 "
+ has " }{TEXT 273 1 "m" }{TEXT -1 67 "-place periodic decimal expansio
+n .000...1 000...1 000...1 000...1 " }{TEXT 274 13 "ad infinitum\n" }
+{TEXT -1 33 "it is understood that there are (" }{XPPEDIT 18 0 "m-1;" 
+"6#,&%\"mG\"\"\"F%!\"\"" }{TEXT -1 54 ") 0's, followed by a single '1'
+ in the repeated block." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 275 21 "And why is that true?" }{TEXT -1 72 ". Well, at a s
+uperficial level this may satisfy: let's take the example " }{XPPEDIT 
+18 0 "m = 3;" "6#/%\"mG\"\"$" }{TEXT -1 32 " (corresponding to the fra
+ction " }{XPPEDIT 18 0 "1/999;" "6#*&\"\"\"F$\"$***!\"\"" }{TEXT -1 
+77 "). Let's 'find' the value of .001 001 001 001 001... by the standa
+rd 'trick':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" 
+{TEXT -1 4 "Set " }{XPPEDIT 18 0 "alpha = .1001001001001e-2;" "6#/%&al
+phaG$\".,5+,5+\"!#:" }{TEXT -1 11 "... , then " }{XPPEDIT 18 0 "1000*a
+lpha = 1.001001001001001;" "6#/*&\"%+5\"\"\"%&alphaGF&$\"1,5+,5+,5!#:
+" }{TEXT -1 5 "... ," }}{PARA 258 "" 0 "" {TEXT -1 7 "giving " }
+{XPPEDIT 18 0 "999*alpha = 1;" "6#/*&\"$***\"\"\"%&alphaGF&F&" }{TEXT 
+-1 11 ", and thus " }{XPPEDIT 18 0 "alpha = 1/999;" "6#/%&alphaG*&\"\"
+\"F&\"$***!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 28 "At a deeper level, the very " }{TEXT 277 
+7 "meaning" }{TEXT -1 86 " of .001 001 001 001 001... is that it is th
+e sum of the (convergent) infinite series " }{XPPEDIT 18 0 "Sum(1/(10^
+(3*n)),n = 1 .. infinity);" "6#-%$SumG6$*&\"\"\"F')\"#5*&\"\"$F'%\"nGF
+'!\"\"/F,;F'%)infinityG" }{TEXT -1 37 ", whose value (by general theor
+y) is " }{XPPEDIT 18 0 "1/(10^3);" "6#*&\"\"\"F$*$\"#5\"\"$!\"\"" }
+{TEXT -1 1 "." }{XPPEDIT 18 0 "1/(1-1/(10^3));" "6#*&\"\"\"F$,&F$F$*&F
+$F$*$\"#5\"\"$!\"\"F*F*" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/(10^3-1) \+
+= 1/999;" "6#/*&\"\"\"F%,&*$\"#5\"\"$F%F%!\"\"F**&F%F%\"$***F*" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 22 "Maple can handle that " }{TEXT 276 8 "infinite" }{TEXT -1 46 " \+
+sum (not bad going for a piece of software!):" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 36 "sum(1/(10^(3*n)),n = 1 .. infinity);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"$***" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 37 "Then, what one needs
+ to know is that " }{TEXT 279 5 "every" }{TEXT -1 1 " " }{TEXT 272 1 "
+n" }{TEXT -1 12 " - which is " }{TEXT 309 3 "not" }{TEXT -1 27 " divis
+ible by 2 or 5 (i.e. " }{XPPEDIT 18 0 "gcd(10,n) = 1;" "6#/-%$gcdG6$\"
+#5%\"nG\"\"\"" }{TEXT -1 12 ") - divides " }{TEXT 280 4 "some" }{TEXT 
+-1 25 " whole number consisting " }{TEXT 281 8 "entirely" }{TEXT -1 
+19 " of 9's. \nExamples:" }}{PARA 262 "" 0 "" {TEXT -1 11 "3 divides 9
+" }}{PARA 15 "" 0 "" {TEXT -1 48 "7 divides 999999 (count how many 9's
+ there are!)" }}{PARA 15 "" 0 "" {TEXT -1 11 "9 divides 9" }}{PARA 15 
+"" 0 "" {TEXT -1 13 "11 divides 99" }}{PARA 15 "" 0 "" {TEXT -1 17 "13
+ divides 999999" }}{PARA 15 "" 0 "" {TEXT -1 59 "17 divides 9999999999
+999999 (count how many 9's there are!)" }}{PARA 15 "" 0 "" {TEXT -1 
+61 "19 divides 999999999999999999 (count how many 9's there are!)" }}
+{PARA 15 "" 0 "" {TEXT -1 17 "21 divides 999999" }}{PARA 15 "" 0 "" 
+{TEXT -1 65 "23 divides 9999999999999999999999 (count how many 9's the
+re are!)" }}{PARA 15 "" 0 "" {TEXT -1 14 "27 divides 999" }}{PARA 15 "
+" 0 "" {TEXT -1 71 "29 divides 9999999999999999999999999999 (count how
+ many 9's there are!)" }}{PARA 15 "" 0 "" {TEXT -1 58 "31 divides 9999
+99999999999 (count how many 9's there are!)" }}{PARA 15 "" 0 "" {TEXT 
+-1 13 "33 divides 99" }}{PARA 15 "" 0 "" {TEXT -1 14 "37 divides 999" 
+}}{PARA 15 "" 0 "" {TEXT -1 17 "39 divides 999999" }}{PARA 15 "" 0 "" 
+{TEXT -1 16 "41 divides 99999" }}{PARA 15 "" 0 "" {TEXT -1 64 "43 divi
+des 999999999999999999999 (count how many 9's there are!)" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 285 30 "And the relevance
+ of all that?" }{TEXT -1 53 " It's quite simple, as I will convey by t
+wo examples:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{TEXT -1 41 "Find the decimal expansion of the number " }{XPPEDIT 18 
+0 "33/37;" "6#*&\"#L\"\"\"\"#P!\"\"" }{TEXT -1 2 ".\n" }{TEXT 286 8 "S
+olution" }{TEXT -1 65 ". 37 divides 999 (doing the division gives 999 \+
+= 37*27), and thus" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "1/37 = 27/999;
+" "6#/*&\"\"\"F%\"#P!\"\"*&\"#FF%\"$***F'" }{TEXT -1 31 " = .027 027 0
+27 027 ... (since " }{XPPEDIT 18 0 "1/999;" "6#*&\"\"\"F$\"$***!\"\"" 
+}{TEXT -1 25 " = .001 001 001 001 ... )" }}{PARA 258 "" 0 "" {TEXT -1 
+5 "thus " }{XPPEDIT 18 0 "33/37 = 33;" "6#/*&\"#L\"\"\"\"#P!\"\"F%" }
+{TEXT -1 7 " times " }{XPPEDIT 18 0 "27/999;" "6#*&\"#F\"\"\"\"$***!\"
+\"" }{TEXT -1 29 " = 33*(.027 027 027 027 ... )" }}{PARA 258 "" 0 "" 
+{TEXT -1 7 "giving " }{XPPEDIT 18 0 "33/37;" "6#*&\"#L\"\"\"\"#P!\"\"
+" }{TEXT -1 23 " = .891 891 891 891 ..." }}{PARA 0 "" 0 "" {TEXT -1 
+29 "   And see  what Maple gives:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "pdexpand(33/37);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%)PDEXPANDG6&\"\"\"\"\"!7\"7%\"\")\"\"*F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 15 "" 0 "" {TEXT -1 41 "Find the decimal \+
+expansion of the number " }{XPPEDIT 18 0 "13/21;" "6#*&\"#8\"\"\"\"#@!
+\"\"" }{TEXT -1 2 ".\n" }{TEXT 287 8 "Solution" }{TEXT -1 74 ". 21 div
+ides 999999 (doing the division gives 999999 = 21*47619), and thus" }}
+{PARA 258 "" 0 "" {XPPEDIT 18 0 "1/21 = 47619/999999;" "6#/*&\"\"\"F%
+\"#@!\"\"*&\"&>w%F%\"'******F'" }{TEXT -1 36 " = .047619 047619 047619
+ ... (since " }{XPPEDIT 18 0 "1/999999;" "6#*&\"\"\"F$\"'******!\"\"" 
+}{TEXT -1 37 " = .000001 000001 000001 000001 ... )" }}{PARA 258 "" 0 
+"" {TEXT -1 5 "thus " }{XPPEDIT 18 0 "13/21 = 13;" "6#/*&\"#8\"\"\"\"#
+@!\"\"F%" }{TEXT -1 7 " times " }{XPPEDIT 18 0 "47619/999999;" "6#*&\"
+&>w%\"\"\"\"'******!\"\"" }{TEXT -1 34 " = 13*(.047619 047619 047619 .
+.. )" }}{PARA 258 "" 0 "" {TEXT -1 7 "giving " }{XPPEDIT 18 0 "13/21;
+" "6#*&\"#8\"\"\"\"#@!\"\"" }{TEXT -1 36 " = .619047 619047 619047 619
+047 ... " }}{PARA 0 "" 0 "" {TEXT -1 36 "   And again see Maple's outp
+ut:    " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pdexpand(13/21);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!7\"7(\"\"
+'F&\"\"*F'\"\"%\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "13*4
+7619;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'Z!>'" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 66 "Returning to the all 9's claim above, we are simpl
+y claiming that " }{TEXT 282 1 "n" }{TEXT -1 61 " (one not divisible b
+y 2 or 5) divides a number of the form (" }{XPPEDIT 18 0 "10^m-1;" "6#
+,&)\"#5%\"mG\"\"\"F'!\"\"" }{TEXT -1 24 ") for some whole number " }
+{TEXT 283 1 "m" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "1 <= m;" "6#1\"\"\"%
+\"mG" }{TEXT -1 26 "). In congruence language:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 284 7 "Theorem" }{TEXT -1 6 ". L
+et " }{TEXT 288 1 "n" }{TEXT -1 24 " be any natural number, " }
+{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "gcd(10,n) = 1;" "6#/-%$gcdG6$\"#5%\"nG\"\"\"" }{TEXT -1 16 ", th
+en there is " }{TEXT 290 4 "some" }{TEXT -1 16 " natural number " }
+{TEXT 289 1 "m" }{TEXT -1 26 " (in fact one exists with " }{XPPEDIT 
+18 0 "m <= n-1;" "6#1%\"mG,&%\"nG\"\"\"F'!\"\"" }{TEXT -1 12 ") such t
+hat " }{XPPEDIT 18 0 "10^m = 1;" "6#/)\"#5%\"mG\"\"\"" }{TEXT -1 6 " (
+mod " }{TEXT 291 1 "n" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT 292 5 
+"Proof" }{TEXT -1 8 ". Since " }{XPPEDIT 18 0 "gcd(10,n) = 1;" "6#/-%$
+gcdG6$\"#5%\"nG\"\"\"" }{TEXT -1 6 " then " }{XPPEDIT 18 0 "gcd(10^r,n
+) = 1;" "6#/-%$gcdG6$)\"#5%\"rG%\"nG\"\"\"" }{TEXT -1 25 " for all nat
+ural numbers " }{TEXT 293 1 "r" }{TEXT -1 19 ". Thus none of the " }
+{TEXT 294 1 "n" }{TEXT -1 9 " numbers:" }}{PARA 258 "" 0 "" {XPPEDIT 
+18 0 "10,10^2,10^3,10^4;" "6&\"#5*$F#\"\"#*$F#\"\"$*$F#\"\"%" }{TEXT 
+-1 8 ", ... , " }{XPPEDIT 18 0 "10^n;" "6#)\"#5%\"nG" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 16 "is divisible by " }{TEXT 295 1 "n" }
+{TEXT -1 33 ", and thus (since there are only " }{XPPEDIT 18 0 "n-1;" 
+"6#,&%\"nG\"\"\"F%!\"\"" }{TEXT -1 62 " possible remainders) some two \+
+of those must be congruent mod " }{TEXT 296 1 "n" }{TEXT -1 36 "; that
+ is, some two of those powers " }{XPPEDIT 18 0 "10^u,10^v;" "6$)\"#5%
+\"uG)F$%\"vG" }{TEXT -1 9 " satisfy:" }}{PARA 258 "" 0 "" {XPPEDIT 18 
+0 "10^v = 10^u;" "6#/)\"#5%\"vG)F%%\"uG" }{TEXT -1 6 " (mod " }{TEXT 
+297 1 "n" }{TEXT -1 3 "), " }{XPPEDIT 18 0 "1 <= u;" "6#1\"\"\"%\"uG" 
+}{TEXT -1 2 ", " }{XPPEDIT 18 0 "u < v;" "6#2%\"uG%\"vG" }{TEXT -1 2 "
+, " }{XPPEDIT 18 0 "v <= n;" "6#1%\"vG%\"nG" }{TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 5 "Then " }{XPPEDIT 18 0 "10^v-10^u = 0;" "6#/,&)\"#5
+%\"vG\"\"\")F&%\"uG!\"\"\"\"!" }{TEXT -1 6 " (mod " }{TEXT 298 1 "n" }
+{TEXT -1 10 "), and so " }{XPPEDIT 18 0 "10^v*(10^(v-u)-1) = 0;" "6#/*
+&)\"#5%\"vG\"\"\",&)F&,&F'F(%\"uG!\"\"F(F(F-F(\"\"!" }{TEXT -1 6 " (mo
+d " }{TEXT 299 1 "n" }{TEXT -1 19 "), and thus (since " }{XPPEDIT 18 
+0 "gcd(10^u,n) = 1;" "6#/-%$gcdG6$)\"#5%\"uG%\"nG\"\"\"" }{TEXT -1 10 
+") we have " }{XPPEDIT 18 0 "10^(v-u)-1 = 0;" "6#/,&)\"#5,&%\"vG\"\"\"
+%\"uG!\"\"F)F)F+\"\"!" }{TEXT -1 6 " (mod " }{TEXT 300 1 "n" }{TEXT 
+-1 19 "). That is, we have" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "10^m = 1;" "6#/)\"#5%\"mG\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 301 1 "n" }{TEXT -1 3 "), " }}{PARA 0 "" 0 "" {TEXT -1 6 "where \+
+" }{XPPEDIT 18 0 "m = v-u;" "6#/%\"mG,&%\"vG\"\"\"%\"uG!\"\"" }{TEXT 
+-1 11 " satisfies " }{XPPEDIT 18 0 "1 <= m;" "6#1\"\"\"%\"mG" }{TEXT 
+-1 2 ", " }{XPPEDIT 18 0 "m <= n-1;" "6#1%\"mG,&%\"nG\"\"\"F'!\"\"" }
+{TEXT -1 19 ", as claimed above." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 
+4 "" 0 "" {TEXT -1 38 "Now we return to the expansion theorem" }}
+{PARA 0 "" 0 "" {TEXT 310 36 "Proof of (decimal expansion) theorem" }
+{TEXT -1 6 ". Let " }{TEXT 311 1 "r" }{TEXT -1 14 " be the least " }
+{TEXT 312 1 "m" }{TEXT -1 11 " for which " }{XPPEDIT 18 0 "10^m = 1;" 
+"6#/)\"#5%\"mG\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 313 1 "m" }{TEXT -1 
+3 ") [" }{TEXT 315 5 "Aside" }{TEXT -1 17 ". The 'least' is " }{TEXT 
+316 3 "not" }{TEXT -1 67 " essential, but in practice it is all one ne
+eds. For example, with " }{XPPEDIT 18 0 "n = 11;" "6#/%\"nG\"#6" }
+{TEXT -1 6 ", one " }{TEXT 314 5 "could" }{TEXT -1 22 " use that 11 di
+vides (" }{XPPEDIT 18 0 "10^4-1;" "6#,&*$\"#5\"\"%\"\"\"F'!\"\"" }
+{TEXT -1 63 ") (namely 9999), and then one would have 9999 = 11*909, g
+iving " }{XPPEDIT 18 0 "1/11 = 909/9999;" "6#/*&\"\"\"F%\"#6!\"\"*&\"$
+4*F%\"%****F'" }{TEXT -1 192 " = 909*(.0001 0001 0001 ... ), which wou
+ld be .0909 0909 0909 0909 ... , which is, of course, simply .09 09 09
+ 09 09 ... . In other words, the length of the period in the decimal e
+xpansion of " }{XPPEDIT 18 0 "1/11;" "6#*&\"\"\"F$\"#6!\"\"" }{TEXT 
+-1 46 " is not really '4', but is, more simply, '2'.]" }}{PARA 0 "" 0 
+"" {TEXT -1 5 "Then " }{XPPEDIT 18 0 "10^r-1 = n*w;" "6#/,&)\"#5%\"rG
+\"\"\"F(!\"\"*&%\"nGF(%\"wGF(" }{TEXT -1 26 ", for some natural number
+ " }{TEXT 317 1 "w" }{TEXT -1 10 ", and thus" }}{PARA 258 "" 0 "" 
+{XPPEDIT 18 0 "1/n = w/(10^r-1);" "6#/*&\"\"\"F%%\"nG!\"\"*&%\"wGF%,&)
+\"#5%\"rGF%F%F'F'" }{TEXT -1 3 " = " }{TEXT 318 1 "w" }{TEXT -1 25 "/9
+9...9 (where there are " }{TEXT 319 1 "r" }{TEXT -1 11 " 9's)   (i)" }
+}{PARA 0 "" 0 "" {TEXT -1 6 "Now   " }{XPPEDIT 18 0 "1/9;" "6#*&\"\"\"
+F$\"\"*!\"\"" }{TEXT -1 23 " = .1 1 1 1 1 1 1... , " }{XPPEDIT 18 0 "1
+/99;" "6#*&\"\"\"F$\"#**!\"\"" }{TEXT -1 25 " = .01 01 01 01 01 ... , \+
+" }{XPPEDIT 18 0 "1/999;" "6#*&\"\"\"F$\"$***!\"\"" }{TEXT -1 37 " = .
+001 001 001 001 ... , in general:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 258 "" 0 "" {TEXT -1 45 "1/99... 9 = .00...1 00...1 00...1 00...
+1 ... " }}{PARA 0 "" 0 "" {TEXT -1 9 "and thus " }{XPPEDIT 18 0 "1/n;
+" "6#*&\"\"\"F$%\"nG!\"\"" }{TEXT -1 3 " = " }{TEXT 320 1 "w" }{TEXT 
+-1 42 "/99...9, has periodic decimal expansion . " }{XPPEDIT 18 0 "a[1
+];" "6#&%\"aG6#\"\"\"" }{XPPEDIT 18 0 "a[2];" "6#&%\"aG6#\"\"#" }
+{TEXT -1 5 " ... " }{XPPEDIT 18 0 "a[r];" "6#&%\"aG6#%\"rG" }{TEXT -1 
+2 "  " }{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" }{XPPEDIT 18 0 "a[2];
+" "6#&%\"aG6#\"\"#" }{TEXT -1 5 " ... " }{XPPEDIT 18 0 "a[r];" "6#&%\"
+aG6#%\"rG" }{TEXT -1 2 "  " }{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" 
+}{XPPEDIT 18 0 "a[2];" "6#&%\"aG6#\"\"#" }{TEXT -1 5 " ... " }
+{XPPEDIT 18 0 "a[r];" "6#&%\"aG6#%\"rG" }{TEXT -1 6 " ... ," }}{PARA 
+0 "" 0 "" {TEXT -1 6 "where " }{TEXT 322 1 "w" }{TEXT -1 4 " = '" }
+{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" }{XPPEDIT 18 0 "a[2];" "6#&%
+\"aG6#\"\"#" }{TEXT -1 5 " ... " }{XPPEDIT 18 0 "a[r];" "6#&%\"aG6#%\"
+rG" }{TEXT -1 10 " ' is the " }{TEXT 321 1 "r" }{TEXT -1 89 "-digit na
+tural number (in base 10, possibly starting with some 0's) obtained by
+ dividing " }{TEXT 323 0 "" }{TEXT -1 0 "" }{TEXT 324 1 "n" }{TEXT -1 
+16 " into 99...9 (= " }{XPPEDIT 18 0 "10^r-1;" "6#,&)\"#5%\"rG\"\"\"F'
+!\"\"" }{TEXT -1 7 "). But " }}{PARA 258 "" 0 "" {TEXT -1 0 "" }
+{XPPEDIT 18 0 "1*w < nw;" "6#2*&\"\"\"F%%\"wGF%%#nwG" }{TEXT -1 3 " = \+
+" }{XPPEDIT 18 0 "10^r-1;" "6#,&)\"#5%\"rG\"\"\"F'!\"\"" }{TEXT -1 0 "
+" }}{PARA 258 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "2*w < nw;" "6#2*&
+\"\"#\"\"\"%\"wGF&%#nwG" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "10^r-1;" "6
+#,&)\"#5%\"rG\"\"\"F'!\"\"" }{TEXT -1 5 "\n...\n" }{XPPEDIT 18 0 "(n-1
+)*w < nw;" "6#2*&,&%\"nG\"\"\"F'!\"\"F'%\"wGF'%#nwG" }{TEXT -1 3 " = \+
+" }{XPPEDIT 18 0 "10^r-1;" "6#,&)\"#5%\"rG\"\"\"F'!\"\"" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 13 "and thus for " }{XPPEDIT 18 0 "1 <= a
+;" "6#1\"\"\"%\"aG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "a <= n;" "6#1%\"a
+G%\"nG" }{TEXT -1 9 ", we have" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "a/n
+ = a*w/(10^r-1);" "6#/*&%\"aG\"\"\"%\"nG!\"\"*(F%F&%\"wGF&,&)\"#5%\"rG
+F&F&F(F(" }{TEXT -1 3 " = " }{TEXT 325 2 "aw" }{TEXT -1 7 "/99...9" }}
+{PARA 0 "" 0 "" {TEXT -1 30 "has periodic decimal expansion" }}{PARA 
+258 "" 0 "" {TEXT -1 2 ". " }{XPPEDIT 18 0 "A[1];" "6#&%\"AG6#\"\"\"" 
+}{XPPEDIT 18 0 "A[2];" "6#&%\"AG6#\"\"#" }{TEXT -1 5 " ... " }
+{XPPEDIT 18 0 "A[r];" "6#&%\"AG6#%\"rG" }{TEXT -1 2 "  " }{XPPEDIT 18 
+0 "A[1];" "6#&%\"AG6#\"\"\"" }{XPPEDIT 18 0 "A[2];" "6#&%\"AG6#\"\"#" 
+}{TEXT -1 5 " ... " }{XPPEDIT 18 0 "A[r];" "6#&%\"AG6#%\"rG" }{TEXT 
+-1 2 "  " }{XPPEDIT 18 0 "A[1];" "6#&%\"AG6#\"\"\"" }{XPPEDIT 18 0 "A[
+2];" "6#&%\"AG6#\"\"#" }{TEXT -1 5 " ... " }{XPPEDIT 18 0 "A[r];" "6#&
+%\"AG6#%\"rG" }{TEXT -1 6 " ... ," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 327 1 "w" }{TEXT -1 4 " = '" }{XPPEDIT 18 0 "A[1
+];" "6#&%\"AG6#\"\"\"" }{XPPEDIT 18 0 "A[2];" "6#&%\"AG6#\"\"#" }
+{TEXT -1 5 " ... " }{XPPEDIT 18 0 "A[r];" "6#&%\"AG6#%\"rG" }{TEXT -1 
+10 " ' is the " }{TEXT 326 1 "r" }{TEXT -1 92 "-digit natural number (
+in base 10, possibly starting with some 0's) obtained by multiplying \+
+" }{TEXT 328 1 "w" }{TEXT -1 4 " (= " }{XPPEDIT 18 0 "a[1];" "6#&%\"aG
+6#\"\"\"" }{XPPEDIT 18 0 "a[2];" "6#&%\"aG6#\"\"#" }{TEXT -1 5 " ... \+
+" }{XPPEDIT 18 0 "a[r];" "6#&%\"aG6#%\"rG" }{TEXT -1 6 " ) by " }
+{TEXT 329 1 "a" }{TEXT -1 1 "." }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 
+55 "A return to the question at the end of the Introduction" }}{PARA 
+0 "" 0 "" {TEXT -1 13 "So, what is '" }{TEXT 339 1 "x" }{TEXT -1 3 "'?
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "convert(PDEXPAND(1,0,[]
+,[0,0,9,9]), rational);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"$,
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 54 "That's hardly a surprise, and it can be done by ha
+nd: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT -1 4 "
+let " }{XPPEDIT 18 0 "x = .9900990099e-2;" "6#/%\"xG$\"+*4!*4!**!#7" }
+{TEXT -1 6 "... , " }}{PARA 258 "" 0 "" {TEXT -1 5 "then " }{XPPEDIT 
+18 0 "10000*x = 99.0099009900990099;" "6#/*&\"&++\"\"\"\"%\"xGF&$\"3*4
+!*4!*4!*4!**!#;" }{TEXT -1 5 "... ," }}{PARA 258 "" 0 "" {TEXT -1 7 "g
+iving " }{XPPEDIT 18 0 "9999*x = 99;" "6#/*&\"%****\"\"\"%\"xGF&\"#**
+" }{TEXT -1 11 ", and thus " }{XPPEDIT 18 0 "x = 99/9999;" "6#/%\"xG*&
+\"#**\"\"\"\"%****!\"\"" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/101;" "6#
+*&\"\"\"F$\"$,\"!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 89 "But this might (?) surprise you (and, h
+opefully, give you something else to think about):" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 11 "x := 1/101;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"xG#\"\"\"\"$,\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "pdexpand(x^2);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"
+\"\"\"\"!7\"7`dlF'F'F'F'\"\"*\"\")F'\"\"#F*\"\"'F'\"\"%F*F.F'F-F*F,F'F
++F*F'F&F'F+F+F&F,F+F-F&F.F+F.F&F-F+F,F&F+F+F'F,F'\"\"(F+F,F,F/F-F,F.F/
+F.F,F-F/F,F,F+F/F'\"\"$F'F-F+F0F,F-F-F0F.F-F.F0F-F-F,F0F+F-F'F.F'\"\"&
+F+F.F,F1F-F.F.F1F.F.F-F1F,F.F+F1F'F1F'F.F+F1F,F.F-F1F.F.F.F1F-F.F,F1F+
+F.F'F-F'F0F+F-F,F0F-F-F.F0F.F-F-F0F,F-F+F0F'F/F'F,F+F/F,F,F-F/F.F,F.F/
+F-F,F,F/F+F,F'F+F'F&F+F+F,F&F-F+F.F&F.F+F-F&F,F+F+F&F'F*F'F'F+F*F,F'F-
+F*F.F'F.F*F-F'F,F*F+F'F'F*F*F*F*F'F&F*F/F'F0F*F1F'F1F*F0F'F/F*F&F'F*F+
+F*F&F&F+F/F&F0F+F1F&F1F+F0F&F/F+F&F&F*F/F*F,F&F/F/F,F0F/F1F,F1F/F0F,F/
+F/F&F,F*F-F*F0F&F-F/F0F0F-F1F0F1F-F0F0F/F-F&F0F*F1F*F.F&F1F/F.F0F1F1F.
+F1F1F0F.F/F1F&F.F*F.F*F1F&F.F/F1F0F.F1F1F1F.F0F1F/F.F&F1F*F0F*F-F&F0F/
+F-F0F0F1F-F1F0F0F-F/F0F&F-F*F,F*F/F&F,F/F/F0F,F1F/F1F,F0F/F/F,F&F/F*F&
+F*F+F&F&F/F+F0F&F1F+F1F&F0F+F/F&F&F+F*F'F*F*F&F'F/F*F0F'F1F*F1F'F0F*F/
+F'F&F*F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{MARK "2
+" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

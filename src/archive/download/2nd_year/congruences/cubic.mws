@@ -1,0 +1,180 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 0 0 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple O
+utput" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 
+0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "
+" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 
+19 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 
+128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "# cubic.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 17 "Cubic congruences" }}{PARA 0 "" 
+0 "" {TEXT -1 141 "The first procedure - 'search' - is designed to sea
+rch for a cubic polynomial congruence, to a composite modulus, with mo
+re than 3 solutions." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 130 "The big lesson to be learned is the difference in spee
+d between the procedures 'search' and 'SEARCH', and - more importantly
+ - the" }}{PARA 0 "" 0 "" {TEXT -1 88 "insight gained by looking at th
+e outputs (leading to a conjecture - with an easy proof)." }}{PARA 2 "
+" 0 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 512 "cubic_com
+1 := proc(M1, M2)    \nlocal m, b, c, d, marker:    \nfor m from M1 to
+ M2 do\nmarker := 0:\nif not isprime(m) then \nb := 0: while (b<m) and
+ (marker=0) do              \nc := 0: while (c<m) and (marker=0) do\nd
+ := 0: while (d<m) and (marker=0) do    \nif nops(\{msolve(x^3 + b*x^2
+ + c*x + d = 0, m)\}) > 3 \nthen print([m, nops(\{msolve(x^3 + b*x^2 +
+ c*x + d = 0, m)\})], 1, b, c, d);    \nmarker := 1: fi: \nd := d+1: o
+d:                 \nc := c+1: od:              \nb := b+1: od:       \+
+    \nfi: od:\nprint( `` ):\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "cubic_c
+om1(4, 20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"\"'\"\"%\"\"\"F&\"
+\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"\")\"\"%\"\"\"\"\"!F'F'" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"\"*\"\"%\"\"\"F&\"\"!F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#5\"\"'\"\"\"\"\"!F&F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#7\"\"'\"\"\"\"\"!\"\"#F'" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6'7$\"#9\"\"%\"\"\"\"\"!F&\"\"#" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6'7$\"#:\"\"'\"\"\"\"\"!\"\"#\"\"$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#;\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#=\"\"'\"\"\"\"\"!\"\"$F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#?\"\"*\"\"\"\"\"!F&\"#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Those came out quite quickly; just
+ a few seconds." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 38 "Now to test in the opposite direction:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }{MPLTEXT 1 0 528 "cubic_
+com2 := proc(M1, M2)      \nlocal m, b, c, d, marker:   \nfor m from M
+1 to M2 do\nmarker := 0:\nif not isprime(m) then \nd := 0: while (d<m)
+ and (marker=0) do              \nc := 0: while (c<m) and (marker=0) d
+o\nb := 0: while (b<m) and (marker=0) do    \nif nops(\{msolve(x^3 + b
+*x^2 + c*x + d = 0, m)\}) > 3\nthen print([m, nops(\{msolve(x^3 + b*x^
+2 + c*x + d = 0, m)\})],  1, b, c, d);    marker := 1: fi: \nb := b+1:
+ od:                                 \nc := c+1: od:              \nd \+
+:= d+1: od:           \nfi: od:\nprint( `` ):\nend:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "cubic_com2(4, 20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"\"'\"
+\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"\")\"\"%\"\"
+\"\"\"!F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"\"*\"\"%\"\"\"F&\"
+\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#5\"\"%\"\"\"F&\"\"!F'" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#7\"\"'\"\"\"F&\"\"!F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#9\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6'7$\"#:\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#;\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#=\"\")\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#?\"\"'\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "cubic
+_com1(21, 40);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#@\"\"'\"\"\"\"
+\"!\"\"#\"\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#A\"\"'\"\"\"\"\"
+!F&\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#C\"\"%\"\"\"\"\"!F'F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#D\"\"&\"\"\"\"\"!F'F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#E\"\"'\"\"\"\"\"!F&F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#F\"\"*\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6'7$\"#G\"\"'\"\"\"\"\"!F'\"\")" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#I\"\"'\"\"\"\"\"!F&F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#K\"\")\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#L\"\"*\"\"\"\"\"!\"\"#F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#M\"\"'\"\"\"\"\"!F&F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#N\"\"'\"\"\"\"\"!F&\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#O\"\"'\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#Q\"\"'\"\"\"\"\"!F&\"\")" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#R\"\"*\"\"\"\"\"!\"\"#\"\"'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#S\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "cubic
+_com2(21, 40);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#@\"\"%\"\"\"F&
+\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#A\"\"%\"\"\"F&\"\"!F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#C\"\"%\"\"\"\"\"!F'F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#D\"\"&\"\"\"\"\"!F'F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#E\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6'7$\"#F\"\"*\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#G\"\"'\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#I\"\")\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#K\"\")\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#L\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#M\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#N\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#O\"\"'\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#Q\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#R\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#S\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "How INTERESTING it is to " }{TEXT 
+256 7 "compare" }{TEXT -1 44 " the outputs from 'cubic_com1(21, 40)' a
+nd '" }{TEXT 258 18 "cubic_com2(21, 40)" }{TEXT -1 13 "' ... .  The " 
+}{TEXT 257 6 "latter" }{TEXT -1 32 " gives more of a CLUE (with all " 
+}}{PARA 0 "" 0 "" {TEXT -1 95 "those (1, 0, 0, 0) and (1, 1, 0, 0) out
+puts ... ).  And it leads one to make a CONJECTURE ... ." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "cubic_com2(4
+1, 60);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#U\"\")\"\"\"F&\"\"!F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#W\"\"'\"\"\"F&\"\"!F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#X\"\")\"\"\"F&\"\"!F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#Y\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6'7$\"#[\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#\\\"\"(\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#]\"\"&\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#^\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#_\"\"'\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#a\"\"*\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#b\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#c\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#d\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#e\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#g\"#7\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%!G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "Almost instant outpu
+t - just printing time ... ." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "cub
+ic_com1(41, 60);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#U\"\"%\"\"\"
+\"\"!F&\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#W\"\"*\"\"\"\"\"!
+F&\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#X\"\"'\"\"\"\"\"!\"\"#
+\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#Y\"\"'\"\"\"\"\"!F&\"\"#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#[\"\"%\"\"\"\"\"!F'F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#\\\"\"(\"\"\"\"\"!F'F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#]\"\"&\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6'7$\"#^\"\"*\"\"\"\"\"!\"\"#F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#_\"\"'\"\"\"\"\"!F'\"\")" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#a\"\"*\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#b\"\"*\"\"\"\"\"!F&\"#?" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#c\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#d\"\"*\"\"\"\"\"!\"\"#F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#e\"\"'\"\"\"\"\"!F&F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#g\"\"*\"\"\"\"\"!F&\"#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "Took much longer." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "cubic_com2(61, 1
+00);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#i\"\"%\"\"\"F&\"\"!F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#j\"\")\"\"\"F&\"\"!F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"#k\"#;\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6'7$\"#l\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#m\"\")\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#o\"\"'\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#p\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#q\"\")\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#s\"#7\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6'7$\"#u\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$
+\"#v\"\"&\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#w\"\"
+'\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#x\"\"%\"\"\"F
+&\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#y\"\")\"\"\"F&\"\"!F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#!)\"\"%\"\"\"\"\"!F'F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'7$\"#\")\"\"*\"\"\"\"\"!F'F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'7$\"##)\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6'7$\"#%)\"#7\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#&)\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#')\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#()\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#))\"\"%\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#!*\"#;\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#\"*\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"##*\"\"'\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#$*\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#%*\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#&*\"\"%\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#'*\"\")\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#)*\"\"(\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"#**\"\")\"\"\"F&\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'7$\"$+\"\"#5\"\"\"\"\"!F'F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "12 1 0" 77 }{VIEWOPTS 1 1 0 1 1 1803 }

@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>decimal expansions.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark2">
+<p align=left>
+<b><font color=#000080 size=5>Introduction</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>At school everyone encounters the notion of </font></b>
+<i><b><font color=#000080>exact</font></b></i>
+<b><font color=#000080> or </font></b>
+<i><b><font color=#000080>approximate</font></b></i>
+<b><font color=#000080> decimal value. Some familiar examples of exact decimal values would be</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>  (i): </font></b>
+<img src="images/decimal expansions1.gif" width=76 height=58 alt="3/8 = .375" align=middle>
+<b><font color=#000080>,     (ii): </font></b>
+<img src="images/decimal expansions2.gif" width=84 height=58 alt="27/20 = 1.28" align=middle>
+<b><font color=#000080>,     <br>
+<br>
+or (iii): </font></b>
+<img src="images/decimal expansions3.gif" width=188 height=58 alt=".715 = 7/10+1/100+5/1000" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions4.gif" width=52 height=58 alt="715/1000" align=middle>
+<b><font color=#000080>, which tidies up to </font></b>
+<img src="images/decimal expansions5.gif" width=44 height=58 alt="143/200" align=middle>
+<b><font color=#000080><br>
+<br>
+or (iv): </font></b>
+<img src="images/decimal expansions6.gif" width=160 height=58 alt="1.13 = 1+1/10+3/100" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions7.gif" width=44 height=58 alt="113/100" align=middle>
+<b><font color=#000080> (where there is no 'cancellation')<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>while examples of approximate values would be</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>(v): </font></b>
+<img src="images/decimal expansions8.gif" width=132 height=58 alt="1/3 = .3333333333" align=middle>
+<b><font color=#000080>...<br>
+(vi): </font></b>
+<img src="images/decimal expansions9.gif" width=132 height=58 alt="1/6 = .1666666666" align=middle>
+<b><font color=#000080>...<br>
+(vii): </font></b>
+<img src="images/decimal expansions10.gif" width=140 height=58 alt="1/15 = .666666666e-1" align=middle>
+<b><font color=#000080>...<br>
+(viii): </font></b>
+<img src="images/decimal expansions11.gif" width=132 height=58 alt="1/7 = .1428571428" align=middle>
+<b><font color=#000080>...  </font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>At a very superficial level of study one can unthinkingly say things like 'and so on ad infinitum' (without really understanding just what that means), and it requires a really serious study to fully understand the meaning of the sum of an infinite series to cope with (meaningfully) saying things like:</font></b>
+</p>
+<ul><li>
+<img src="images/decimal expansions12.gif" width=28 height=58 alt="1/3" align=middle>
+<b><font color=#000080> has an infinite (number of terms) decimal expansion, all of whose digits are '3'</font></b>
+</li>
+<li>
+<img src="images/decimal expansions13.gif" width=28 height=58 alt="1/6" align=middle>
+<b><font color=#000080> has an infinite (number of terms) decimal expansion, whose initial digit is 1, and all others are '6'</font></b>
+</li>
+<li>
+<img src="images/decimal expansions14.gif" width=28 height=58 alt="1/7" align=middle>
+<b><font color=#000080> has an infinite (number of terms) decimal expansion, with </font></b>
+<i><b><font color=#000080>repeated block</font></b></i>
+<b><font color=#000080> 142857</font></b>
+</li>
+<li>
+<img src="images/decimal expansions15.gif" width=28 height=58 alt="4/7" align=middle>
+<b><font color=#000080> has an infinite (number of terms) decimal expansion, with </font></b>
+<i><b><font color=#000080>repeated block</font></b></i>
+<b><font color=#000080> 571428</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Decimal (i.e. base 'base' 10) expansions of </font></u></b>
+<i><b><u><font color=#000080>rational</font></u></b></i>
+<b><u><font color=#000080> numbers</font></u></b>
+<b><font color=#000080>. Every rational number (at a sophisticated level those may be viewed as being </font></b>
+<i><b><font color=#000080>algebraic numbers of degree 1</font></b></i>
+<b><font color=#000080>) has a decimal expansion which is one of three types:<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>terminating (examples (i), (ii), (iii) and (iv) above)</font></b>
+</li>
+<li>
+<b><font color=#000080>pure periodic after the decimal point (examples (v) and (viii) above)</font></b>
+</li>
+<li>
+<b><font color=#000080>eventually periodic (examples (vi) and (vii) above)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let's see some better examples using Maple's 'pdexpand' command ('pd' for 'periodic decimal'). It requires first loading the Number Theory package (Maple's help facility is totally unhelpful here; if one does a '?decimal' or '?periodic' or '?expansion' search one uselessly gets "Could not find any help on...". Of course, if you do a '?pdexpand' search you will get... , but how do the Maple folk expect a novice to know that?):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory);</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the protected name order has been redefined and unprotected<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<img src="images/decimal expansions16.gif" width=681 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+<br>
+<img src="images/decimal expansions17.gif" width=723 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+<br>
+<img src="images/decimal expansions18.gif" width=739 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+<br>
+<img src="images/decimal expansions19.gif" width=587 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(1/21);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions20.gif" width=276 height=20 alt="PDEXPAND(1,0,[],[0, 4, 7, 6, 1, 9])">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(41/74);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions21.gif" width=232 height=20 alt="PDEXPAND(1,0,[5],[5, 4, 0])">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>In other words, </font></b>
+<img src="images/decimal expansions22.gif" width=68 height=58 alt="41/74 = .5" align=middle>
+<b><font color=#000080> 540 540 540 540 ...</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(-41/742);</font></b>
+</p>
+<p align=left>
+<img src="images/decimal expansions23.gif" width=739 height=20 alt="PDEXPAND(-1,0,[0],[5, 5, 2, 5, 6, 0, 6, 4, 6, 9, 0,...">
+<br>
+<img src="images/decimal expansions24.gif" width=710 height=20 alt="PDEXPAND(-1,0,[0],[5, 5, 2, 5, 6, 0, 6, 4, 6, 9, 0,...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And Maple is (generally) sensitive to mathematical subtlety:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(sqrt(2));</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, (in pdexpand) expecting a rational number<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(sqrt(64/441));</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions25.gif" width=276 height=20 alt="PDEXPAND(1,0,[],[3, 8, 0, 9, 5, 2])">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(Pi);</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, (in pdexpand) expecting a rational number<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Here, though, is an example where Maple </font></b>
+<i><b><font color=#000080>fails</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand((8/27)^(1/3));</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, (in pdexpand) expecting a rational number<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#000080>?pdexpand</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>?pdexpand</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>It failed to see that </font></b>
+<img src="images/decimal expansions26.gif" width=117 height=134 alt="(8/27)^(1/3) = 2/3" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Maple has a command for reversing the above process:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>convert(PDEXPAND(1, 0, [], [1,4,2,8,5,7]), rational);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions27.gif" width=24 height=45 alt="1/7">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>convert(PDEXPAND(1, 0, [], [1,4,2,8,5]), rational);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions28.gif" width=56 height=45 alt="14285/99999">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>convert(PDEXPAND(1, 0, [], [1,4,2,8]), rational);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions29.gif" width=48 height=45 alt="476/3333">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>convert(PDEXPAND(1, 0, [], [1,4,2]), rational);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions30.gif" width=40 height=45 alt="142/999">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>A </font></b>
+<i><b><font color=#000080>careful</font></b></i>
+<b><font color=#000080> analysis shows that if </font></b>
+<img src="images/decimal expansions31.gif" width=32 height=58 alt="m/n" align=middle>
+<b><font color=#000080> is a rational number (in 'reduced form', meaning </font></b>
+<img src="images/decimal expansions32.gif" width=110 height=32 alt="gcd(m,n) = 1" align=middle>
+<b><font color=#000080>), then </font></b>
+<img src="images/decimal expansions33.gif" width=32 height=58 alt="m/n" align=middle>
+<b><font color=#000080> has </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>a terminating decimal expansion if </font></b>
+<img src="images/decimal expansions34.gif" width=82 height=50 alt="n = 2^x*5^y" align=middle>
+<b><font color=#000080> for non-negative integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> </font></b>
+</li>
+<li>
+<b><font color=#000080>a pure periodic expansion (after the decimal point) if </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is not divisible by 2 nor 5 (i.e. </font></b>
+<img src="images/decimal expansions35.gif" width=114 height=32 alt="gcd(10,n) = 1" align=middle>
+<b><font color=#000080>)</font></b>
+</li>
+<li>
+<b><font color=#000080>an eventually periodic decimal expansion (after the decimal point) if </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is divisible by 2 or 5</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. Finally, if you think you know how to multiply decimals together, then try you hand at this one:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>let </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> have decimal expansion .0099 0099 0099 0099 ...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>what is the decimal expansion of </font></b>
+<img src="images/decimal expansions36.gif" width=33 height=50 alt="x^2" align=middle>
+<b><font color=#000080>? (Later have a look at the final section...)</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:06:53 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

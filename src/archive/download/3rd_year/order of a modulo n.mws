@@ -1,0 +1,535 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "Popup" -1 31 "" 0 1 0 128 128 1 1 0 1 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 256 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 14 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 262 "" 1 14 0 0 
+0 0 0 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 287 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 292 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 297 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 302 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 304 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 307 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+311 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 312 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+316 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 317 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 320 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 322 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 327 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 329 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 332 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 333 "" 0 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 337 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 338 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 339 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+341 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 342 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 344 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 345 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+346 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 347 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 348 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 350 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 352 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 353 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 357 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 358 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 360 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+361 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 362 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 363 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 367 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 368 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 370 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+371 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 372 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 373 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+376 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 377 "" 1 14 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 380 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+381 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 382 "" 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 383 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 385 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+386 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 387 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 388 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 389 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 390 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+391 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 392 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 393 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 394 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 395 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+396 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 397 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 400 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+401 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 402 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 405 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+406 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courie
+r" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 
+2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output
+" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 
+}3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }
+{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 128 1 2 1 1 
+2 2 2 1 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }{PSTYLE "Author" -1 
+256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 
+1 0 0 8 8 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 
+1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "# order of a modulo \+
+n.mws" }}}{EXCHG {PARA 18 "" 0 "" {XPPEDIT 18 0 "`mod`(a^m,n);" "6#-%$
+modG6$)%\"aG%\"mG%\"nG" }{TEXT -1 0 "" }{TEXT 256 14 ", for modulus " 
+}{XPPEDIT 18 0 "n = 2,3,4,5;" "6&/%\"nG\"\"#\"\"$\"\"%\"\"&" }{TEXT 
+-1 0 "" }{TEXT 259 23 ", ... , integer a, and " }{XPPEDIT 18 0 "m = 0,
+1,2,3,4;" "6'/%\"mG\"\"!\"\"\"\"\"#\"\"$\"\"%" }{TEXT -1 0 "" }{TEXT 
+262 37 ", ... , leading to the definition of " }{XPPEDIT 18 0 "ord[n];
+" "6#&%$ordG6#%\"nG" }{TEXT -1 0 "" }{TEXT 263 27 "a (the order of a m
+odulo n)" }{TEXT -1 0 "" }{TEXT 258 0 "" }}{PARA 256 "" 0 "" {TEXT 
+371 12 "Introduction" }{TEXT 376 1 "." }{TEXT -1 46 " The purpose of t
+hese notes is to introduce a " }{TEXT 270 16 "fundamental term" }
+{TEXT -1 19 " of Number Theory:\n" }}{PARA 0 "" 0 "" {TEXT -1 14 "    \+
+          " }{TEXT 269 23 "the order of a modulo n" }{TEXT -1 12 " [no
+tation: " }{XPPEDIT 18 0 "ord[n];" "6#&%$ordG6#%\"nG" }{TEXT -1 0 "" }
+{TEXT 271 1 "a" }{TEXT -1 1 "]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 6 "where " }{TEXT 272 1 "a" }{TEXT -1 20 " is
+ an integer, and " }{TEXT 273 1 "n" }{TEXT -1 22 " is a natural number
+ (" }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"nG" }{TEXT -1 1 ")" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "This term arise
+s from the following considerations. Consider the " }{TEXT 277 9 "beha
+viour" }{TEXT -1 32 " of positive integral powers of " }{TEXT 274 1 "a
+" }{TEXT -1 1 " " }{TEXT 275 3 "mod" }{TEXT -1 1 " " }{TEXT 276 1 "n" 
+}{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "    " }{XPPEDIT 18 0 "`mod`(a,n),`mod`(a^2,n),`mod`(a^3,n)
+,`mod`(a^4,n);" "6&-%$modG6$%\"aG%\"nG-F$6$*$F&\"\"#F'-F$6$*$F&\"\"$F'
+-F$6$*$F&\"\"%F'" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "`mod`(a^m,n);
+" "6#-%$modG6$)%\"aG%\"mG%\"nG" }{TEXT -1 6 ", ... " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "The fundamental point w
+hich I wish to draw attention to is that " }{TEXT 282 16 "such powers \+
+must" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 
+"" {TEXT -1 0 "" }{TEXT 256 5 "never" }{TEXT -1 17 " produce '1' for \+
+" }{TEXT 257 3 "any" }{TEXT -1 10 " value of " }{TEXT 284 1 "m" }
+{TEXT -1 4 ", or" }}{PARA 15 "" 0 "" {TEXT 278 10 "eventually" }{TEXT 
+-1 19 " lead to a '1' for " }{TEXT 280 4 "some" }{TEXT -1 1 " " }
+{TEXT 279 1 "m" }{TEXT -1 49 " (and consequently for infinitely many v
+alues of " }{TEXT 281 1 "m" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "Indeed it is elementary to see \+
+when the first of these must occur: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 15 "" 0 "" {TEXT -1 4 "Let " }{XPPEDIT 18 0 "1 < gcd(a,n);" "6
+#2\"\"\"-%$gcdG6$%\"aG%\"nG" }{TEXT -1 7 ", then " }{XPPEDIT 18 0 "a^m
+ = 1;" "6#/)%\"aG%\"mG\"\"\"" }{TEXT -1 2 " (" }{TEXT 285 5 "mod n" }
+{TEXT -1 40 ") is impossible for all natural numbers " }{TEXT 286 1 "m
+" }{TEXT -1 2 ".\n" }}{PARA 0 "" 0 "" {TEXT 287 7 "Example" }{TEXT -1 
+6 ". Let " }{XPPEDIT 18 0 "a = 6;" "6#/%\"aG\"\"'" }{TEXT -1 5 " and \+
+" }{XPPEDIT 18 0 "n = 63;" "6#/%\"nG\"#j" }{TEXT -1 7 ", then " }
+{XPPEDIT 18 0 "gcd(a,n) = 3;" "6#/-%$gcdG6$%\"aG%\"nG\"\"$" }{TEXT -1 
+39 ", then here are the first 20 powers of " }{TEXT 288 1 "a" }{TEXT 
+-1 1 " " }{TEXT 289 5 "mod n" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 26 "seq(6&^k mod 63, k=1..20);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "66\"\"'\"#O\"#FF$F%F$F%F$F%F$F%F$F%F$F%F$F%F$F%F$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 290 8 "Question" }{TEXT -1 52 ". But how can we b
+e certain that we never get a '1'?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 294 15 "It's elementary" }{TEXT -1 37 ". Suppose
+ we did, then we would have:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 29 "                             " }{XPPEDIT 18 0 "
+6^m = 63*w+1;" "6#/)\"\"'%\"mG,&*&\"#j\"\"\"%\"wGF*F*F*F*" }{TEXT -1 
+2 ", " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "
+for some natural number " }{TEXT 291 1 "m" }{TEXT -1 19 ", and some in
+teger " }{TEXT 292 2 "w." }{TEXT -1 68 " But that is (easily seen to b
+e) impossible, since it would lead to:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 22 "                      " }{XPPEDIT 18 
+0 "3*M = 3(21*w)+1;" "6#/*&\"\"$\"\"\"%\"MGF&,&-F%6#*&\"#@F&%\"wGF&F&F
+&F&" }{TEXT -1 2 ", " }{TEXT 293 1 "M" }{TEXT -1 12 " an integer," }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "and so to
+ " }{XPPEDIT 18 0 "3(M-21*w) = 1;" "6#/-\"\"$6#,&%\"MG\"\"\"*&\"#@F)%
+\"wGF)!\"\"F)" }{TEXT -1 29 ", which is impossible since (" }{XPPEDIT 
+18 0 "M-21*w;" "6#,&%\"MG\"\"\"*&\"#@F%%\"wGF%!\"\"" }{TEXT -1 26 ") i
+s an integer, and 1 is " }{TEXT 295 3 "not" }{TEXT -1 50 " divisible b
+y 3 (that's the whole point about the " }{TEXT 296 3 "gcd" }{TEXT -1 
+32 " [here 3] being greater than 1)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT 377 0 "" }{TEXT 297 11 "Development" }{TEXT 
+-1 28 ". Now, it is a theorem that " }{TEXT 298 2 "if" }{TEXT -1 1 " \+
+" }{XPPEDIT 18 0 "gcd(a,n) = 1;" "6#/-%$gcdG6$%\"aG%\"nG\"\"\"" }
+{TEXT -1 1 " " }{TEXT 300 4 "then" }{TEXT -1 10 " there is " }{TEXT 
+301 4 "some" }{TEXT -1 16 " natural number " }{TEXT 299 1 "m" }{TEXT 
+-1 12 " such that :" }}{PARA 0 "" 0 "" {TEXT -1 26 "                  \+
+        " }{XPPEDIT 18 0 "a^m = 1;" "6#/)%\"aG%\"mG\"\"\"" }{TEXT -1 
+2 " (" }{TEXT 302 5 "mod n" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "(It can be proved that such an \+
+'" }{TEXT 378 1 "m" }{TEXT -1 48 "' must occur somewhere between 1 and
+ (at most) (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"F%!\"\"" }{TEXT 
+-1 65 "), and it is then a trivial consequence that once there is some
+ '" }{TEXT 379 1 "m" }{TEXT -1 35 "', there are infinitely many such '
+" }{TEXT 380 1 "m" }{TEXT -1 56 "' (simply square, cube, etc the resul
+ting congruence...)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 304 22 "Some reminder examples" }{TEXT -1 26 ".               \+
+          " }{TEXT 31 0 "" }{TEXT 303 0 "" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "seq(2&^k mod 21, k=1..100); # Examp
+le 1" }}{PARA 12 "" 1 "" {XPPMATH 20 "6`q\"\"#\"\"%\"\")\"#;\"#6\"\"\"
+F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'
+F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&
+F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 40 "seq(23&^k mod 21, k=1..100); # Example 2" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6`q\"\"#\"\"%\"\")\"#;\"#6\"\"\"F#F$F%F&
+F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%
+F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$
+F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "seq((-19)&^k mod 21, k=1..100); # Example 3" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6`q\"\"#\"\"%\"\")\"#;\"#6\"\"\"F#F$F%F&F'F(F#
+F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(
+F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&F'
+F(F#F$F%F&F'F(F#F$F%F&F'F(F#F$F%F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "seq(64&^k mod 21, k=1..100); # Example 4" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6`q\"\"\"F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 86 "It shouldn't come as a surprise to
+ you that the outputs in Examples 1, 2, 3 and 4 are " }{TEXT 305 9 "id
+entical" }{TEXT -1 13 " (do you see " }{TEXT 306 3 "why" }{TEXT -1 88 
+"?), nor should it come as a surprise to you that if I extend the rang
+e of variation of '" }{TEXT 372 1 "k" }{TEXT -1 55 "' in any of those \+
+examples, then the following happens:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "seq(23&^k mod 21, k=1..50); \n   # extension of Examp
+le 2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 0 "" }{TEXT 307 11 "Observation" }{TEXT -1 56 ": the \+
+powers of 23 (commencing with the first power) of " }{TEXT 308 3 "mod
+" }{TEXT -1 12 " 21 go in a " }{TEXT 309 14 "repeated block" }{TEXT 
+-1 20 " - 2, 4, 8, 16, 11, " }{TEXT 310 1 "1" }{TEXT -1 25 " - termina
+ting with that " }{TEXT 315 1 "1" }{TEXT -1 24 " on (as it happens) th
+e " }{TEXT 311 1 "6" }{TEXT -1 16 "th power of 21. " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "That " }{TEXT 316 2 "'6
+" }{TEXT -1 13 "' is given a " }{TEXT 312 12 "special name" }{TEXT -1 
+46 " (which you will encounter in your studies in " }{TEXT 317 12 "Gro
+up Theory" }{TEXT -1 20 "), it is called the " }{TEXT 313 5 "order" }
+{TEXT -1 7 " of 23 " }{TEXT 314 6 "modulo" }{TEXT -1 16 " 21, namely t
+he " }{TEXT 319 6 "least " }{TEXT 381 23 "positive integral power" }
+{TEXT -1 30 " of 23 that is congruent to 1 " }{TEXT 318 6 "modulo" }
+{TEXT -1 5 " 21. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 35 "In general, we have the following: " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 320 10 "Definitio
+n" }{TEXT -1 6 ". Let " }{TEXT 321 1 "n" }{TEXT -1 24 " be any natural
+ number (" }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"nG" }{TEXT -1 11 "), a
+nd let " }{TEXT 322 1 "a" }{TEXT -1 34 " be an integer.  Suppose there
+ is " }{TEXT 324 4 "some" }{TEXT -1 16 " natural number " }{TEXT 373 
+2 "m " }{TEXT -1 10 "such that " }{XPPEDIT 18 0 "a^m = 1;" "6#/)%\"aG%
+\"mG\"\"\"" }{TEXT -1 2 " (" }{TEXT 323 5 "mod n" }{TEXT -1 40 "), the
+n the least such number is called " }{TEXT 325 23 "the order of a modu
+lo n" }{TEXT -1 18 " (alternatively - " }{TEXT 335 20 "the order of a \+
+mod n" }{TEXT -1 2 ". " }{TEXT 332 0 "" }{TEXT 333 0 "" }{TEXT 334 0 "
+" }{TEXT -1 0 "" }{TEXT 329 8 "Notation" }{TEXT -1 30 ". The symbol fo
+r the order of " }{TEXT 330 1 "a" }{TEXT -1 1 " " }{TEXT 331 5 "mod n
+" }{TEXT -1 4 " is " }{XPPEDIT 18 0 "ord[n];" "6#&%$ordG6#%\"nG" }
+{TEXT -1 0 "" }{TEXT 336 1 "a" }{TEXT 383 1 ";" }{TEXT 384 1 " " }
+{TEXT 382 1 "i" }{TEXT -1 19 "f there is no such " }{TEXT 326 1 "m" }
+{TEXT -1 32 " then we say that \"the order of " }{TEXT 327 1 "a" }
+{TEXT -1 1 " " }{TEXT 328 5 "mod n" }{TEXT -1 18 " does not exist.\")
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "You s
+hould be able to calculate " }{XPPEDIT 18 0 "ord[n];" "6#&%$ordG6#%\"n
+G" }{TEXT -1 0 "" }{TEXT 256 1 "a" }{TEXT -1 21 " for small values of \+
+" }{TEXT 337 1 "n" }{TEXT -1 5 " and " }{TEXT 338 1 "a" }{TEXT -1 1 ":
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 339 16 "Hand calculation" }{TEXT -1 6 ": Let " }{XPPEDIT 18 0 "n
+ = 7;" "6#/%\"nG\"\"(" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "a = 2;" "6#
+/%\"aG\"\"#" }{TEXT -1 7 ", then " }{XPPEDIT 18 0 "a = 2;" "6#/%\"aG\"
+\"#" }{TEXT -1 2 " (" }{TEXT 340 4 "mod " }{TEXT -1 15 "7) (is not 1),
+ " }{XPPEDIT 18 0 "a^2 = 4;" "6#/*$%\"aG\"\"#\"\"%" }{TEXT -1 2 " (" }
+{TEXT 256 4 "mod " }{TEXT -1 15 "7) (is not 1), " }{XPPEDIT 18 0 "a^3 \+
+= 8;" "6#/*$%\"aG\"\"$\"\")" }{TEXT -1 6 " = 1 (" }{TEXT 256 4 "mod " 
+}{TEXT -1 13 "7), and thus " }{XPPEDIT 18 0 "ord[7];" "6#&%$ordG6#\"\"
+(" }{XPPEDIT 18 0 "2 = 3;" "6#/\"\"#\"\"$" }{TEXT -1 1 "." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 342 13 "Maple command" }
+{TEXT -1 36 ". Maple has a command for computing " }{XPPEDIT 18 0 "ord
+[n];" "6#&%$ordG6#%\"nG" }{TEXT 343 1 "a" }{TEXT -1 83 ", which requir
+es loading the 'numtheory' package.                                  \+
+" }{TEXT 341 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(nu
+mtheory);" }}{PARA 7 "" 1 "" {TEXT -1 69 "Warning, the protected name \+
+order has been redefined and unprotected\n" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#7P%&GIgcdG%)bigomegaG%&cfracG%)cfracpolG%+cyclotomicG%)
+divisorsG%)factorEQG%*factorsetG%'fermatG%)imagunitG%&indexG%/integral
+_basisG%)invcfracG%'invphiG%*issqrfreeG%'jacobiG%*kroneckerG%'lambdaG%
+)legendreG%)mcombineG%)mersenneG%*minkowskiG%(mipolysG%%mlogG%'mobiusG
+%&mrootG%&msqrtG%)nearestpG%*nthconverG%)nthdenomG%)nthnumerG%'nthpowG
+%&orderG%)pdexpandG%$phiG%#piG%*pprimrootG%)primrootG%(quadresG%+roots
+unityG%*safeprimeG%&sigmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 344 4 "Note" }{TEXT -1 158 ". That 'Warning' is m
+erely alerting us that the term 'order' has another meaning elsewhere \+
+in Maple, different from that when used with the numtheory package." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 346 7 "Command
+" }{TEXT -1 36 ". The Maple command for calculating " }{XPPEDIT 18 0 "
+ord[n];" "6#&%$ordG6#%\"nG" }{TEXT -1 0 "" }{TEXT 347 1 "a" }{TEXT -1 
+10 " is order(" }{TEXT 374 1 "a" }{TEXT -1 2 ", " }{TEXT 375 1 "n" }
+{TEXT -1 22 "), which returns (for " }{XPPEDIT 18 0 "1 < n;" "6#2\"\"
+\"%\"nG" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "
+" 0 "" {TEXT -1 13 "the value of " }{XPPEDIT 18 0 "ord[n];" "6#&%$ordG
+6#%\"nG" }{TEXT -1 0 "" }{TEXT 348 1 "a" }{TEXT -1 6 " when " }
+{XPPEDIT 18 0 "gcd(a,n) = 1;" "6#/-%$gcdG6$%\"aG%\"nG\"\"\"" }}{PARA 
+15 "" 0 "" {TEXT -1 0 "" }{TEXT 349 10 "FAIL when " }{XPPEDIT 18 0 "1 \+
+< gcd(a,n);" "6#2\"\"\"-%$gcdG6$%\"aG%\"nG" }{TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 
+0 "n <= 1;" "6#1%\"nG\"\"\"" }{TEXT -1 11 " it returns" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 13 "'Error, ... '" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 345 8 "Examples
+" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "order(2
+, 7); # the example done by hand earlier" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "order(23, 21
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 15 "order(23, 217);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"#I" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "order(-23, 217);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#I" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "order(2673, 139999);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"')**R\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "order(-2673
+, 139999);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&***p" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "order(6, 63);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%FAILG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "o
+rder(23, 1);" }}{PARA 8 "" 1 "" {TEXT -1 64 "Error, (in mod/Power) mod
+ulus must be an integer greater than 1\n" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "order(23, 0);" }}{PARA 8 "" 1 "" {TEXT -1 34 "Error, \+
+(in order) wrong arguments\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "order(23, -11);" }}{PARA 8 "" 1 "" {TEXT -1 34 "Error, (in order
+) wrong arguments\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 350 3 "An " }{TEXT 389 10 
+"elementary" }{TEXT 390 6 ", but " }{TEXT 387 9 "important" }{TEXT 
+388 12 " property of" }{TEXT -1 1 " " }{XPPEDIT 18 0 "ord[n];" "6#&%$o
+rdG6#%\"nG" }{TEXT -1 0 "" }{TEXT 351 1 "a" }{TEXT -1 1 " " }{TEXT 
+352 0 "" }{TEXT -1 0 "" }{TEXT 353 24 "(when it exists) is this" }
+{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT 360 9 "Theorem 1" }{TEXT -1 6 "
+. Let " }{XPPEDIT 18 0 "r = ord[n];" "6#/%\"rG&%$ordG6#%\"nG" }{TEXT 
+-1 0 "" }{TEXT 354 1 "a" }{TEXT -1 19 ", and suppose that " }{XPPEDIT 
+18 0 "a^m = 1;" "6#/)%\"aG%\"mG\"\"\"" }{TEXT -1 2 " (" }{TEXT 355 5 "
+mod n" }{TEXT -1 7 ") then " }{TEXT 356 1 "m" }{TEXT -1 17 " is divisi
+ble by " }{TEXT 358 1 "r" }{TEXT -1 20 " (or, equivalently, " }{TEXT 
+359 1 "m" }{TEXT -1 18 " is a multiple of " }{TEXT 357 1 "r" }{TEXT 
+-1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 361 5 "Proof" }{TEXT -1 5 ". If " }{XPPEDIT 18 0 "r = 1;" 
+"6#/%\"rG\"\"\"" }{TEXT -1 49 " the result is immediate, so we now sup
+pose that " }{XPPEDIT 18 0 "1 < r;" "6#2\"\"\"%\"rG" }{TEXT -1 24 ", a
+nd proceed to divide " }{TEXT 385 1 "m" }{TEXT -1 4 " by " }{TEXT 386 
+1 "r" }{TEXT -1 68 " (our aim is to argue that the remainder must be 0
+); that is we let " }{XPPEDIT 18 0 "m = rw+R;" "6#/%\"mG,&%#rwG\"\"\"%
+\"RGF'" }{TEXT -1 8 ", where " }{TEXT 362 1 "w" }{TEXT -1 34 " is an i
+nteger, and the remainder " }{TEXT 363 1 "R" }{TEXT -1 42 " is chosen \+
+so that it lies between 0 and (" }{XPPEDIT 18 0 "r-1;" "6#,&%\"rG\"\"
+\"F%!\"\"" }{TEXT -1 47 ") inclusive (we argue it must be 0). Then fro
+m " }{XPPEDIT 18 0 "a^r = 1;" "6#/)%\"aG%\"rG\"\"\"" }{TEXT -1 2 " (" 
+}{TEXT 256 5 "mod n" }{TEXT -1 12 ") we obtain " }{XPPEDIT 18 0 "(a^r)
+^w = 1^w;" "6#/))%\"aG%\"rG%\"wG)\"\"\"F(" }{TEXT -1 19 " (mod m), and
+ thus " }{XPPEDIT 18 0 "a^rw = 1;" "6#/)%\"aG%#rwG\"\"\"" }{TEXT -1 
+130 " (mod m). Multiplying both sides of this congruence (bear in mind
+ that Maple doesn't have the traditional congruence notation) by " }
+{XPPEDIT 18 0 "a^R;" "6#)%\"aG%\"RG" }{TEXT -1 7 " gives " }{XPPEDIT 
+18 0 "a^rw*a^R;" "6#*&)%\"aG%#rwG\"\"\")F%%\"RGF'" }{TEXT -1 5 " = 1.
+" }{XPPEDIT 18 0 "a^R;" "6#)%\"aG%\"RG" }{TEXT -1 3 " = " }{XPPEDIT 
+18 0 "a^R" "6#)%\"aG%\"RG" }{TEXT -1 6 " (mod " }{TEXT 391 1 "n" }
+{TEXT -1 7 "). But " }{XPPEDIT 18 0 "a^rw*a^R = a^(rw+R);" "6#/*&)%\"a
+G%#rwG\"\"\")F&%\"RGF()F&,&F'F(F*F(" }{TEXT -1 3 " = " }{XPPEDIT 18 0 
+"a^m;" "6#)%\"aG%\"mG" }{TEXT -1 18 ", and thus, since " }{XPPEDIT 18 
+0 "a^m = 1;" "6#/)%\"aG%\"mG\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 392 1 
+"n" }{TEXT -1 19 "), it follows that " }{XPPEDIT 18 0 "a^R = 1;" "6#/)
+%\"aG%\"RG\"\"\"" }{TEXT -1 2 " (" }{TEXT 364 5 "mod n" }{TEXT -1 2 ")
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Now, \+
+" }{TEXT 365 1 "R" }{TEXT -1 29 " cannot be 1 or 2 or ... or (" }
+{XPPEDIT 18 0 "r-1;" "6#,&%\"rG\"\"\"F%!\"\"" }{TEXT -1 40 ") (since t
+hat would be in conflict with " }{TEXT 368 1 "r" }{TEXT -1 20 " being \+
+the order of " }{TEXT 369 1 "a" }{TEXT -1 1 " " }{TEXT 370 5 "mod n" }
+{TEXT -1 26 "), and so it must be that " }{XPPEDIT 18 0 "R = 0;" "6#/%
+\"RG\"\"!" }{TEXT -1 7 ". Thus " }{XPPEDIT 18 0 "m = rw;" "6#/%\"mG%#r
+wG" }{TEXT -1 9 ", and so " }{TEXT 366 1 "m" }{TEXT -1 18 " is a multi
+ple of " }{TEXT 367 1 "r" }{TEXT -1 40 " (a non-negative multiple, of \+
+course). [" }{TEXT 393 12 "end of proof" }{TEXT -1 1 "]" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 192 "Here is a simple ap
+plication (itself a famous theorem in Number Theory and but one of a w
+hole series of similar theorems - which sows a seed for following the \+
+central argument in the proof of " }{TEXT 397 20 "Proth's 1878 theorem
+" }{TEXT -1 57 ", that we study at a later stage) of the above Theorem
+ 1:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 258 9 "Th
+eorem 2" }{TEXT -1 6 ". Let " }{TEXT 259 1 "x" }{TEXT -1 24 " be an in
+teger, and let " }{TEXT 260 1 "p" }{TEXT -1 8 " be any " }{TEXT 261 3 
+"odd" }{TEXT -1 19 " prime divisor of (" }{XPPEDIT 18 0 "x^8+1;" "6#,&
+*$%\"xG\"\")\"\"\"F'F'" }{TEXT -1 8 "), then " }{XPPEDIT 18 0 "p = 1;
+" "6#/%\"pG\"\"\"" }{TEXT -1 10 " (mod 16)." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 262 5 "Proof" }{TEXT 
+-1 24 ". [The proof rests on a " }{TEXT 272 6 "single" }{TEXT -1 2 ", \+
+" }{TEXT 273 7 "crucial" }{TEXT -1 1 " " }{TEXT 269 4 "idea" }{TEXT 
+-1 26 ": argue that the order of " }{TEXT 270 1 "x" }{TEXT -1 5 " mod \+
+" }{TEXT 271 1 "p" }{TEXT -1 95 " is 16, from which the above automati
+cally follows - using Fermat's 'little' theorem.] We have " }{XPPEDIT 
+18 0 "x^8+1 = 0;" "6#/,&*$%\"xG\"\")\"\"\"F(F(\"\"!" }{TEXT -1 6 " (mo
+d " }{TEXT 263 1 "p" }{TEXT -1 11 "), and so  " }{XPPEDIT 18 0 "x^8 = \+
+-1;" "6#/*$%\"xG\"\"),$\"\"\"!\"\"" }{TEXT -1 6 " (mod " }{TEXT 264 1 
+"p" }{TEXT -1 12 ")    ... (i)" }}{PARA 0 "" 0 "" {TEXT -1 15 "Squarin
+g gives " }{XPPEDIT 18 0 "(x^8)^2 = (-1)^2;" "6#/*$*$%\"xG\"\")\"\"#*$
+,$\"\"\"!\"\"F(" }{TEXT -1 10 " = 1 (mod " }{TEXT 265 1 "p" }{TEXT -1 
+11 "), and so  " }{XPPEDIT 18 0 "x^16 = 1;" "6#/*$%\"xG\"#;\"\"\"" }
+{TEXT -1 6 " (mod " }{TEXT 266 1 "p" }{TEXT -1 16 ")    ...    (ii)" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "[Regard \+
+that as telling you that the " }{XPPEDIT 18 0 "16^th;" "6#)\"#;%#thG" 
+}{TEXT -1 10 " power of " }{TEXT 274 1 "x" }{TEXT -1 23 " is congruent
+ to 1 mod " }{TEXT 275 1 "p" }{TEXT -1 39 ", and start to wonder about
+ this: what " }{TEXT 398 2 "is" }{TEXT -1 5 " the " }{TEXT 399 8 "smal
+lest" }{TEXT -1 10 " power of " }{TEXT 276 1 "x" }{TEXT -1 29 " that i
+s congruent  to 1 mod " }{TEXT 277 1 "p" }{TEXT -1 12 ". In short, " }
+{TEXT 280 11 "think about" }{TEXT -1 6 " what " }{XPPEDIT 18 0 "ord[p]
+;" "6#&%$ordG6#%\"pG" }{TEXT -1 1 " " }{TEXT 279 1 "x" }{TEXT -1 1 " \+
+" }{TEXT 400 5 "could" }{TEXT -1 5 " be:]" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "Let " }{XPPEDIT 18 0 "R = ord[p];" 
+"6#/%\"RG&%$ordG6#%\"pG" }{TEXT -1 1 " " }{TEXT 278 1 "x" }{TEXT -1 
+29 "; then - from (ii) - we have " }{TEXT 281 1 "R" }{TEXT -1 20 " div
+ides 16, and so " }{TEXT 282 1 "R" }{TEXT -1 26 " must be 1, 2, 4, 8 o
+r 16." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "B
+ut it (" }{TEXT 284 1 "R" }{TEXT -1 2 ") " }{TEXT 293 8 "can't be" }
+{TEXT -1 39 " any of 1, 2, 4 or 8!! [Why? Suppose - " }{TEXT 286 1 "e
+" }{TEXT -1 1 "." }{TEXT 287 1 "g" }{TEXT -1 9 ". - that " }{XPPEDIT 
+18 0 "R = 4;" "6#/%\"RG\"\"%" }{TEXT -1 22 ". Then one would have " }
+{XPPEDIT 18 0 "x^4 = 1;" "6#/*$%\"xG\"\"%\"\"\"" }{TEXT -1 6 " (mod " 
+}{TEXT 285 1 "p" }{TEXT -1 52 "), and raising both sides to the power \+
+4 would give " }{XPPEDIT 18 0 "x^16 = 1;" "6#/*$%\"xG\"#;\"\"\"" }
+{TEXT -1 6 " (mod " }{TEXT 288 1 "p" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "But from (i) that would
+ give " }{XPPEDIT 18 0 "-1 = 1;" "6#/,$\"\"\"!\"\"F%" }{TEXT -1 6 " (m
+od " }{TEXT 289 1 "p" }{TEXT -1 48 "), and so - adding 1 to both sides
+ - would give " }{XPPEDIT 18 0 "2 = 0;" "6#/\"\"#\"\"!" }{TEXT -1 6 " \+
+(mod " }{TEXT 290 1 "p" }{TEXT -1 30 "), which is impossible for an " 
+}{TEXT 292 3 "odd" }{TEXT -1 7 " prime " }{TEXT 291 1 "p" }{TEXT -1 1 
+"." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "A " 
+}{TEXT 394 7 "similar" }{TEXT -1 72 " impossibility can be argued for \+
+any of the others of 1, 2 or 8, and so " }{XPPEDIT 18 0 "R = 16;" "6#/
+%\"RG\"#;" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 29 "Now we proceed to argue that " }{XPPEDIT 18 0 "
+p = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 10 " (mod 16):" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "Clearly " }{XPPEDIT 18 0 "
+x <> 0;" "6#0%\"xG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 267 1 "p" }{TEXT 
+-1 48 "), and thus by Fermat's 'little' theorem we have" }}{PARA 0 "" 
+0 "" {TEXT -1 26 "                          " }{XPPEDIT 18 0 "x^(p-1) \+
+= 1;" "6#/)%\"xG,&%\"pG\"\"\"F(!\"\"F(" }{TEXT -1 6 " (mod " }{TEXT 
+268 1 "p" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 6 "Since " }{XPPEDIT 18 0 "ord[p];" "6#&%$ordG6#%\"pG
+" }{TEXT -1 1 " " }{TEXT 294 1 "x" }{TEXT -1 35 " = 16, it follows tha
+t 16 divides (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"F%!\"\"" }{TEXT 
+-1 10 "), and so " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 
+49 " (mod 16). [end of proof of this simple theorem.]" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 295 20 "What s
+hould be clear" }{TEXT -1 54 " is that what made that proof 'work' was
+ that 16 is a " }{TEXT 296 5 "power" }{TEXT -1 35 " of 2, and that the
+ factors of any " }}{PARA 0 "" 0 "" {TEXT -1 12 "power of 2 (" }
+{XPPEDIT 18 0 "2^r;" "6#)\"\"#%\"rG" }{TEXT -1 19 " - in general) are \+
+" }{XPPEDIT 18 0 "1,2,2^2,2^3;" "6&\"\"\"\"\"#*$F$F$*$F$\"\"$" }{TEXT 
+-1 8 ", ... , " }{XPPEDIT 18 0 "2^(r-1),2^r;" "6$)\"\"#,&%\"rG\"\"\"F'
+!\"\")F$F&" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }{TEXT 297 35 "General form of that simple theor
+em" }{TEXT -1 6 ". Let " }{TEXT 395 1 "x" }{TEXT -1 24 " be an integer
+, and let " }{TEXT 256 1 "p" }{TEXT -1 8 " be any " }{TEXT 257 3 "odd
+" }{TEXT -1 19 " prime divisor of (" }{XPPEDIT 18 0 "x^(2^r)+1;" "6#,&
+)%\"xG)\"\"#%\"rG\"\"\"F)F)" }{TEXT -1 8 "), then " }{XPPEDIT 18 0 "p \+
+= 1;" "6#/%\"pG\"\"\"" }{TEXT -1 6 " (mod " }{XPPEDIT 18 0 "2^(r+1);" 
+"6#)\"\"#,&%\"rG\"\"\"F'F'" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 283 30 "Illustrative um
+erical examples" }{TEXT 396 1 "." }{TEXT 401 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "Example 1." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "x[1] := 3: r[1] := 2:\nn[1] := x[1]
+^(2^r[1]) + 1;\nifactor(n[1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%
+\"nG6#\"\"\"\"##)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%!G6#\"\"#\"\"
+\"-F%6#\"#TF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "41 mod 2^(
+r[1]+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 10 "Example 2." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 63 "x[2] := 6: r[2] := 3:\nn[2] := x[2]^(2^r[2]) + 1;\nifactor(n[2
+]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"nG6#\"\"#\"(<'z;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&-%!G6#\"#<\"\"\"-F%6#\"&,))*F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "17 mod 2^(r[2]+1);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "98801 mod 2^(r[2]+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 13 "Example 3 (a " }{TEXT 402 17 "dangerous example" }
+{TEXT -1 17 ", because of the " }{TEXT 403 32 "possible difficulty of \+
+factoring" }{TEXT -1 161 ", as I shall illustrate in class, saving bef
+ore executing, and then I'll resort to Maple's '(ifactor, easy) comman
+d. Bear in mind that the seventh Fermat number " }{XPPEDIT 18 0 "F[7] \+
+= 2^(2^7)+1;" "6#/&%\"FG6#\"\"(,&)\"\"#*$F*F'\"\"\"F,F," }{TEXT -1 17 
+" - that's where '" }{TEXT 404 1 "x" }{TEXT -1 13 "' is 2, and '" }
+{TEXT 405 1 "r" }{TEXT -1 11 "' is 7 in (" }{XPPEDIT 18 0 "x^(2^r)+1;
+" "6#,&)%\"xG)\"\"#%\"rG\"\"\"F)F)" }{TEXT -1 101 ") - wasn't factored
+ until 1971, by Brillhart (see my Oxford 1969 photo at my web site) an
+d Morrison)." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "x[3] := 5: \+
+r[3] := 6:\nn[3] := x[3]^(2^r[3]) + 1;\nifactor(n[3], easy);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"nG6#\"\"$\"NE1*Grb3(\\V+ks.q@_FC'3,@a" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(-%!G6#\"\"#\"\"\"-F%6#\"$p(F(%'_c4
+2_1GF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "769 mod 2^(r[3]+1
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 68 "You are familiar with that '_c42_1' output, and what it
+ means: that " }{XPPEDIT 18 0 "n[3];" "6#&%\"nG6#\"\"$" }{TEXT -1 23 "
+ is the product of the " }{TEXT 406 6 "primes" }{TEXT -1 93 " 2 and 76
+9, and a certain '42' digit composite number, whose value we can find \+
+by doing this:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "c := n[3]
+/(2*769);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG\"KxpKXqH`&ov-=?bO?
+\\Z9Z_$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(c);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#U" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "2&^(c-1) mod c; # this shows it is composite" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"K:q,<5AGV'[<^KWkqpT9a'H" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 25 }{VIEWOPTS 1 
+1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

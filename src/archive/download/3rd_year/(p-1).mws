@@ -1,0 +1,1044 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 0 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 277 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 301 
+"" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 309 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 313 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 317 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 321 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 325 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 332 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 333 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 337 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 340 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 341 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 344 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 345 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 348 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 349 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 357 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 361 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 362 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 365 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 368 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 372 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 373 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 376 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 377 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 380 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 381 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 382 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 384 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 385 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 386 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 387 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 388 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 389 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 391 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 392 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 393 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 395 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 396 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 397 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 400 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 401 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 402 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 404 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 405 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 406 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 407 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 408 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 409 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 411 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 412 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 413 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 416 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 417 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 418 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 419 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 420 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 421 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 422 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 424 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 425 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 426 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 427 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 428 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 429 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 430 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 431 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 432 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 433 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 434 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 436 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 437 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 438 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 439 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 440 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 441 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 442 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 443 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 444 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 445 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 446 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 447 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 448 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 449 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 450 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 451 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 128 0 0 1 0 1 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 
+-1 "" 0 1 255 0 255 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 
+128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "
+" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 
+"" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }
+{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 \+
+Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 128 1 2 1 2 0 
+0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 258 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 260 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# p-1_1999.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "These notes are about " }{TEXT 
+451 12 "John Pollard" }{TEXT -1 4 "'s '" }{XPPEDIT 18 0 "p-1;" "6#,&%
+\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 19 "' factoring method " }}{PARA 0 "
+" 0 "" {TEXT -1 64 "(which was first published in the 'Proceedings of \+
+the Cambridge " }}{PARA 0 "" 0 "" {TEXT -1 33 "Philosophical Society',
+ in 1974)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 32 "I let out immediately that the '" }{XPPEDIT 18 0 "p-1;" "6#,&%
+\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 16 "' of Pollard's '" }{XPPEDIT 18 0 
+"p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 12 "' factoring " }}
+{PARA 0 "" 0 "" {TEXT -1 35 "method is directly related to the '" }
+{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 31 "' of F
+ermat's 'little' theorem " }}{PARA 0 "" 0 "" {TEXT -1 6 "[Let '" }
+{TEXT 257 1 "p" }{TEXT -1 21 "' be prime, and let '" }{TEXT 256 1 "a" 
+}{TEXT -1 27 "' be any integer such that " }{XPPEDIT 18 0 "a <> 0;" "6
+#0%\"aG\"\"!" }{TEXT -1 10 " (mod p), " }}{PARA 0 "" 0 "" {TEXT -1 5 "
+then " }{XPPEDIT 18 0 "a^(p-1);" "6#)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"" }
+{TEXT -1 13 "= 1 (mod p)]." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 65 "John Pollard is a brilliant English mathematician
+ (he lives just " }}{PARA 0 "" 0 "" {TEXT -1 61 "outside Reading), who
+ has created three incredible factoring " }}{PARA 0 "" 0 "" {TEXT -1 
+30 "methods since the mid-1970's: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 9 "1.  the '" }{XPPEDIT 18 0 "p-1;" "6#,&%\"p
+G\"\"\"\"\"\"!\"\"" }{TEXT -1 28 "' method [dating from 1974]," }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "2.  The '
+" }{XPPEDIT 18 0 "rho;" "6#%$rhoG" }{TEXT -1 3 "- (" }{TEXT 328 3 "rho
+" }{TEXT -1 35 ")' method [dating from 1975] (also " }}{PARA 0 "" 0 "
+" {TEXT -1 44 "     known as the 'Monte-Carlo' method), and" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 55 "3.  the very, v
+ery advanced 'Number Field Sieve' (NFS) " }}{PARA 0 "" 0 "" {TEXT -1 
+61 "     method [dating from 1988].   This is currently the most " }}
+{PARA 0 "" 0 "" {TEXT -1 66 "     effective practical method for facto
+ring, setting all recent " }}{PARA 0 "" 0 "" {TEXT -1 61 "     factori
+ng 'records'.  [In 1994 the famous 'RSA_129' was " }}{PARA 0 "" 0 "" 
+{TEXT -1 65 "     factored using a very advanced method called the 'qu
+adratic " }}{PARA 0 "" 0 "" {TEXT -1 61 "     sieve' (due to the U.S. \+
+mathematician, Carl Pomerance), " }}{PARA 0 "" 0 "" {TEXT -1 64 "    a
+nd it was later factored using the NFS method. Since then, " }}{PARA 
+0 "" 0 "" {TEXT -1 52 "    the NFS method has factored an RSA_130 numb
+er.  " }}{PARA 0 "" 0 "" {TEXT -1 60 "    NFS has also factored other \+
+larger non-RSA type numbers " }}{PARA 0 "" 0 "" {TEXT -1 58 "    whose
+ factorisations had been long standing problems.]" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 258 45 "You will study the first
+ two of these methods" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 38 "Suppose one has a composite integer (
+'" }{TEXT 259 1 "n" }{TEXT -1 21 "', let's say), which " }}{PARA 0 "" 
+0 "" {TEXT -1 57 "has been shown to be composite by - perhaps - failin
+g to " }}{PARA 0 "" 0 "" {TEXT -1 56 "'pass a Fermat test'; can one fi
+nd a 'proper' factor of " }{TEXT 260 1 "n" }{TEXT -1 2 "? " }}{PARA 0 
+"" 0 "" {TEXT -1 35 "That is, can one find a factor of '" }{TEXT 262 
+1 "n" }{TEXT -1 19 "' other than 1 and " }{TEXT 261 1 "n" }{TEXT -1 1 
+"?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "Pol
+lard's '" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT 
+-1 14 "' method does " }{TEXT 329 3 "not" }{TEXT -1 23 " gaurantee a s
+uccesful " }}{PARA 0 "" 0 "" {TEXT -1 41 "factoring of a composite int
+eger, but it " }{TEXT 330 3 "can" }{TEXT -1 10 " be quite " }}{PARA 0 
+"" 0 "" {TEXT -1 51 "useful (with a bit of luck).  Basically Pollard's
+ '" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 2 "' \+
+" }}{PARA 0 "" 0 "" {TEXT -1 16 "method works IF:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 "'" }{TEXT 263 1 "n" }
+{TEXT -1 22 "' has a prime factor '" }{TEXT 264 1 "p" }{TEXT -1 16 "' \+
+(which may be " }{TEXT 331 11 "quite large" }{TEXT -1 3 "), " }}{PARA 
+0 "" 0 "" {TEXT -1 11 "for which (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"
+\"\"\"\"\"!\"\"" }{TEXT -1 16 ") has only got '" }{TEXT 332 5 "small" 
+}{TEXT -1 18 "' prime factors.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 275 8 "Examples" }{TEXT -1 2 ". " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 62 "The 'Euclidean prim
+e' 2*3*5*7* ... *29*31 + 1 \nis such a prime" }}{PARA 15 "" 0 "" 
+{TEXT -1 36 "so too is the (made up by me) prime " }{XPPEDIT 18 0 "2^2
+1*3^20*5^20*7^20+1;" "6#,&**\"\"#\"#@\"\"$\"#?\"\"&\"#?\"\"(\"#?\"\"\"
+\"\"\"F-" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 276 
+13 "IN A NUTSHELL" }{TEXT -1 13 ", Pollard's (" }{XPPEDIT 18 0 "p-1;" 
+"6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 18 ") method (and his " }}
+{PARA 0 "" 0 "" {TEXT -1 1 "'" }{XPPEDIT 18 0 "rho;" "6#%$rhoG" }
+{TEXT -1 4 "-' (" }{TEXT 323 3 "rho" }{TEXT -1 19 ") method) has this \+
+" }{TEXT 324 12 "central idea" }{TEXT -1 9 " in it:  " }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "one has a composite nu
+mber '" }{TEXT 265 1 "n" }{TEXT -1 15 "' and one then " }{TEXT 325 8 "
+attempts" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 57 "to find a pro
+per factor ot it by finding another natural " }}{PARA 0 "" 0 "" {TEXT 
+-1 8 "number '" }{TEXT 266 1 "M" }{TEXT -1 13 "' (think of '" }{TEXT 
+267 1 "M" }{TEXT -1 16 "' as being for '" }{TEXT 443 5 "magic" }{TEXT 
+-1 13 "') such that " }}{PARA 0 "" 0 "" {TEXT -1 31 "the greatest comm
+on divisor of " }{TEXT 268 1 "M" }{TEXT -1 5 " and " }{TEXT 444 1 "n" 
+}{TEXT -1 4 " is:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "[A]. " }{TEXT 445 7 "greater" }{TEXT -1 9 " that 1 (" }
+{TEXT 446 4 "Easy" }{TEXT -1 4 "!!  " }{TEXT 333 3 "Any" }{TEXT -1 1 "
+ " }{XPPEDIT 18 0 "M = n,2*n,3*n;" "6%/%\"MG%\"nG*&\"\"#\"\"\"F%F(*&\"
+\"$F(F%F(" }{TEXT -1 44 " ... \n                                      \+
+" }{TEXT 334 8 "would do" }{TEXT -1 2 ", " }{TEXT 335 3 "but" }{TEXT 
+-1 15 " uselessly!!), " }}{PARA 0 "" 0 "" {TEXT -1 5 "[B]. " }{TEXT 
+447 8 "and less" }{TEXT -1 6 " than " }{TEXT 269 1 "n" }{TEXT -1 26 " \+
+(that, of course, is the " }{TEXT 336 4 "hard" }{TEXT -1 9 " part!!).
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "[One \+
+should understand that there is no " }{TEXT 337 7 "precise" }{TEXT -1 
+1 " " }}{PARA 0 "" 0 "" {TEXT -1 15 "definition of '" }{TEXT 338 5 "sm
+all" }{TEXT -1 39 "' in this context.  'Small' means, ... " }}{PARA 0 
+"" 0 "" {TEXT -1 59 "well, small!!  2, 3, 5, 7, 11, 13, ... would be c
+onsidered " }}{PARA 0 "" 0 "" {TEXT -1 9 "'small', " }{TEXT 339 3 "but
+" }{TEXT -1 40 " some 84-digit (let us say) prime would " }}{PARA 0 "
+" 0 "" {TEXT 340 3 "not" }{TEXT -1 29 " be considered 'small' ... .]" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "Pollard
+'s device for creating such an elusive '" }{TEXT 270 1 "M" }{TEXT -1 
+8 "' is to " }}{PARA 0 "" 0 "" {TEXT -1 30 "create a sequence of integ
+ers " }{XPPEDIT 18 0 "a[1],a[2],a[3];" "6%&%\"aG6#\"\"\"&F$6#\"\"#&F$6
+#\"\"$" }{TEXT -1 16 " ... which have " }}{PARA 0 "" 0 "" {TEXT -1 26 
+"a built-in guarantee that " }{TEXT 341 10 "eventually" }{TEXT -1 18 "
+ one of them will " }}{PARA 0 "" 0 "" {TEXT -1 37 "satisfy [A] above, \+
+and for which one " }{TEXT 342 5 "hopes" }{TEXT -1 14 " that it will \+
+" }}{PARA 0 "" 0 "" {TEXT -1 17 "also satisfy [B]." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "To get you started on Pol
+lard's (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT 
+-1 19 ") factoring method " }}{PARA 0 "" 0 "" {TEXT -1 26 "I have chos
+en a value of '" }{TEXT 271 1 "n" }{TEXT -1 25 "' off the top of my he
+ad " }}{PARA 0 "" 0 "" {TEXT -1 23 "[do you believe that?]:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "n := 1556
+29;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"'Hc:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "I
+s it prime/composite?  Let's try a Fermat test to base 2:" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 49 "2&^(n - 1) mod n;  # NOTE the '&' before the
+ '^'." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"':l5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "The re
+mainder is " }{TEXT 343 3 "not" }{TEXT -1 31 " 1, and so 155629 is com
+posite " }}{PARA 0 "" 0 "" {TEXT -1 47 "as it has 'failed Fermat's tes
+t to the base 2'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 20 "I will now show you " }{TEXT 344 3 "how" }{TEXT -1 14 " a
+ factor of '" }{TEXT 274 1 "n" }{TEXT -1 18 "' can be found by " }}
+{PARA 0 "" 0 "" {TEXT -1 11 "Pollard's (" }{XPPEDIT 18 0 "p-1;" "6#,&%
+\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 26 ") factoring method.   The " }
+{TEXT 345 4 "idea" }{TEXT -1 11 " is this:  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 448 2 "If" }{TEXT -1 24 " (and it's a \+
+BIG 'IF') '" }{TEXT 273 1 "n" }{TEXT -1 22 "' has a prime factor '" }
+{TEXT 272 1 "p" }{TEXT -1 12 "' for which " }}{PARA 0 "" 0 "" {TEXT 
+-1 1 "(" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+15 ") has only got " }{TEXT 346 5 "small" }{TEXT -1 15 " prime factors
+ " }{TEXT 449 4 "then" }{TEXT -1 7 " there " }}{PARA 0 "" 0 "" {TEXT 
+-1 12 "is a fairly " }{TEXT 347 11 "good chance" }{TEXT -1 29 " of fin
+ding it by doing this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 56 "First, form the following numbers [these are essenti
+ally" }}{PARA 0 "" 0 "" {TEXT -1 12 "the numbers " }{XPPEDIT 18 0 "a[1
+],a[2],a[3];" "6%&%\"aG6#\"\"\"&F$6#\"\"#&F$6#\"\"$" }{TEXT -1 13 ", .
+.. ]: ... " }}{PARA 0 "" 0 "" {TEXT -1 26 "   \n                      \+
+" }{XPPEDIT 18 0 "2^k!-1;" "6#,&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"\"
+!\"\"" }{TEXT -1 3 "  (" }{XPPEDIT 18 0 "k = 1,2,3,etc;" "6&/%\"kG\"\"
+\"\"\"#\"\"$%$etcG" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "with '" }{TEXT 326 1 "
+k" }{TEXT -1 53 "' starting at 1, and at each stage calculate the gcd \+
+" }}{PARA 0 "" 0 "" {TEXT -1 4 "of (" }{XPPEDIT 18 0 "2^k!-1" "6#,&)\"
+\"#-%*factorialG6#%\"kG\"\"\"\"\"\"!\"\"" }{TEXT -1 6 ") and " }{TEXT 
+450 1 "n" }{TEXT -1 37 ".  [Later we will see that there are " }}
+{PARA 0 "" 0 "" {TEXT -1 60 "times when the '2' needs to be replaced b
+y a '3', and ... .]" }}{PARA 0 "" 0 "" {TEXT -1 26 "So, e.g., with the
+ above '" }{TEXT 327 1 "n" }{TEXT -1 28 "' (=155629), he suggests we \+
+" }}{PARA 0 "" 0 "" {TEXT -1 10 "calculate:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "[k=1:]  gcd(1, 155629)," }}
+{PARA 0 "" 0 "" {TEXT -1 23 "[k=2:]  gcd(3, 155629)," }}{PARA 0 "" 0 "
+" {TEXT -1 24 "[k=3:]  gcd(63, 155629)," }}{PARA 0 "" 0 "" {TEXT -1 
+30 "[k=4:]  gcd(16777215, 155629)," }}{PARA 0 "" 0 "" {TEXT -1 59 "[k=
+5:]  gcd(1329227995784915872903807060280344575, 155629)," }}{PARA 0 "
+" 0 "" {TEXT -1 13 "         etc." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 277 8 "QUESTION" }{TEXT -1 43 ": That might appe
+ar a strange thing to do, " }}{PARA 0 "" 0 "" {TEXT -1 16 "           \+
+  so " }{TEXT 348 3 "why" }{TEXT -1 40 " does Pollard suggest that we \+
+do this?  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+278 6 "ANSWER" }{TEXT -1 35 ":  Well, Pollard argues as follows:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "1.  Becau
+se '" }{TEXT 349 1 "n" }{TEXT -1 27 "' is composite then it has " }
+{TEXT 423 4 "some" }{TEXT -1 8 " proper " }}{PARA 0 "" 0 "" {TEXT -1 
+13 "     factor '" }{TEXT 350 1 "p" }{TEXT -1 49 "' which is prime, an
+d then, by Fermat's 'little' " }}{PARA 0 "" 0 "" {TEXT -1 27 "     the
+orem we will have  " }{XPPEDIT 18 0 "2^(p-1) = 1;" "6#/)\"\"#,&%\"pG\"
+\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 279 1 "p" }{TEXT 
+-1 59 "). \n     [We can use '2' because with 'n' being odd, then '" }
+{TEXT 351 1 "p" }{TEXT -1 55 "' \n     is automatically odd, and so do
+esn't divide 2.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 10 "2.  Once '" }{TEXT 352 1 "k" }{TEXT -1 5 "' is " }{TEXT 
+424 12 "large enough" }{TEXT -1 28 " we will automatically have " }}
+{PARA 0 "" 0 "" {TEXT -1 11 "     that (" }{XPPEDIT 18 0 "p-1;" "6#,&%
+\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 14 ") will divide " }{TEXT 353 1 "k" 
+}{TEXT -1 4 "!  [" }{TEXT 425 6 "Advice" }{TEXT -1 25 ": do some drill
+ examples " }}{PARA 0 "" 0 "" {TEXT -1 56 "     along the following li
+nes:   For a given value of '" }{TEXT 354 1 "p" }{TEXT -1 7 "', how " 
+}}{PARA 0 "" 0 "" {TEXT -1 15 "     big does '" }{TEXT 356 1 "k" }
+{TEXT -1 32 "' have to be to gaurantee that (" }{XPPEDIT 18 0 "p-1;" "
+6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 6 ") will" }}{PARA 0 "" 0 "" 
+{TEXT -1 13 "     divide (" }{TEXT 355 1 "k" }{TEXT -1 50 "!)?  See th
+e elementary worksheet 'divid_k!.mws'.]" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 26 "3.  It follows that once '" }{TEXT 
+357 1 "k" }{TEXT -1 29 "' is BIG ENOUGH then we will " }}{PARA 0 "" 0 
+"" {TEXT -1 10 "     have " }{XPPEDIT 18 0 "2^k! = 1;" "6#/)\"\"#-%*fa
+ctorialG6#%\"kG\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 282 1 "p" }{TEXT 
+-1 19 ").  That's because " }{TEXT 426 4 "once" }{TEXT -1 2 " '" }
+{TEXT 358 1 "k" }{TEXT -1 5 "' is " }}{PARA 0 "" 0 "" {TEXT -1 5 "    \+
+ " }{TEXT 427 12 "large enough" }{TEXT -1 7 " then (" }{XPPEDIT 18 0 "
+p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 10 ") divides " }{TEXT 
+359 1 "k" }{TEXT -1 21 "! (see the elementary" }}{PARA 0 "" 0 "" 
+{TEXT -1 38 "     worksheet 'divid_k!.mws), and so " }{XPPEDIT 18 0 "k
+! = (p-1)*K;" "6#/-%*factorialG6#%\"kG*&,&%\"pG\"\"\"\"\"\"!\"\"F+%\"K
+GF+" }{TEXT -1 11 ", for some " }}{PARA 0 "" 0 "" {TEXT -1 20 "     na
+tural number " }{TEXT 280 1 "K" }{TEXT -1 28 ", and then from we will \+
+have" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{XPPEDIT 18 0 "2^(p-1) = 1
+;" "6#/)\"\"#,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 40 " (mod p) on
+e will get - by raising both " }}{PARA 0 "" 0 "" {TEXT -1 36 "     sid
+es to the power of K - that:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 24 "                        " }{XPPEDIT 18 0 "(2^(p
+-1))^K = 1^K;" "6#/))\"\"#,&%\"pG\"\"\"\"\"\"!\"\"%\"KG)\"\"\"F," }
+{TEXT -1 6 " (mod " }{TEXT 281 1 "p" }{TEXT -1 2 ")," }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "     which gives:" }}
+{PARA 0 "" 0 "" {TEXT -1 29 "                             " }{XPPEDIT 
+18 0 "2^((p-1)*K) = 1;" "6#/)\"\"#*&,&%\"pG\"\"\"\"\"\"!\"\"F)%\"KGF)
+\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 286 1 "p" }{TEXT -1 3 "), " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "     i.e.
+                       " }{XPPEDIT 18 0 "2^k! = 1" "6#/)\"\"#-%*factor
+ialG6#%\"kG\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 283 1 "p" }{TEXT -1 1 "
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "     \+
+and " }{TEXT 428 4 "thus" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "2^k!-1;" "6
+#,&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ") " }
+{TEXT 429 7 "will be" }{TEXT -1 14 " divisible by " }{TEXT 284 1 "p" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "4.  " }{TEXT 360 1 "n" }{TEXT -1 14 ", however, is " }
+{TEXT 430 7 "already" }{TEXT -1 14 " divisible by " }{TEXT 285 1 "p" }
+{TEXT -1 17 ", and so the gcd " }}{PARA 0 "" 0 "" {TEXT -1 9 "     of \+
+(" }{XPPEDIT 18 0 "2^k!-1;" "6#,&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"
+\"!\"\"" }{TEXT -1 2 ") " }{TEXT 432 3 "and" }{TEXT -1 1 " " }{TEXT 
+361 1 "n" }{TEXT -1 9 " will be " }{TEXT 431 7 "greater" }{TEXT -1 16 
+" than 1 (that's " }}{PARA 0 "" 0 "" {TEXT -1 27 "     condition [A] a
+bove), " }{TEXT 433 3 "and" }{TEXT -1 16 ", with a bit of " }{TEXT 
+434 4 "LUCK" }{TEXT -1 6 " that " }}{PARA 0 "" 0 "" {TEXT -1 9 "     g
+cd " }{TEXT 435 5 "won't" }{TEXT -1 5 " be '" }{TEXT 362 1 "n" }{TEXT 
+-1 10 "', but be " }{TEXT 436 7 "smaller" }{TEXT -1 6 " than " }{TEXT 
+437 1 "n" }{TEXT -1 9 " (that's " }}{PARA 0 "" 0 "" {TEXT -1 39 "     \+
+condition [B] above), and so be a " }{TEXT 438 13 "proper factor" }
+{TEXT -1 4 " of " }{TEXT 363 1 "n" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "[Of course, all of this w
+ould be " }{TEXT 439 7 "useless" }{TEXT -1 17 " were it not for " }}
+{PARA 0 "" 0 "" {TEXT -1 56 "the fact that gcd's and 'modular exponent
+iation' can be " }}{PARA 0 "" 0 "" {TEXT -1 55 "calculated incredibly \+
+quickly.  See other worksheets - " }}{PARA 0 "" 0 "" {TEXT -1 47 "'fas
+t_gcd.mws' and 'mod_expo.mws' - for those.]" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "To get a feel for this, let us \+
+follow Pollard's suggestion" }}{PARA 0 "" 0 "" {TEXT -1 24 "for the ab
+ove value of '" }{TEXT 364 1 "n" }{TEXT -1 29 "' (155629), and to give
+ you a" }}{PARA 0 "" 0 "" {TEXT -1 54 "feeling for what is going on I \+
+will not take advantage" }}{PARA 0 "" 0 "" {TEXT -1 38 "of modular exp
+onentiation until later:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "igcd(2^
+(1!) - 1, 155629);  # k = 1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 16 "and so there is " }{TEXT 440 2 "no" }{TEXT -1 38 " i
+nteger greater than 1 which divides " }}{PARA 0 "" 0 "" {TEXT 441 4 "b
+oth" }{TEXT -1 49 " (2^(1!) - 1) and 155629.  That's not a surprise," 
+}}{PARA 0 "" 0 "" {TEXT -1 21 "since 2^(1!) - 1 = 1." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "Now we move on to:" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "igcd(3, 155629);   # k = 2" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "igcd(63, 155629);   # k = 3" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "ig
+cd(16777215, 155629);   # k = 4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "igcd(13292279957849
+15872903807060280344575, 155629);   # k = 5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "next_number := 2^(6!) - 1;
+  # k = 6" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%,next_numberG\"dxv07#p)
+4KFfjaex:J(e;?U$*H#*zr<;'[E79m1^4]6Je>Bto6>kqk;3$fL^N*[yLye3Q%>+g'G,#e
+@Cu)))>;iRps*GN7^34J63cz84V2#G(G()H()>5jAl:b" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 35 "igcd(next_number, 155629);  # k = 6" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#\"#>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 13 "WOW!!!  That " }{TEXT 372 
+5 "means" }{TEXT -1 25 " that 19 is a factor of (" }{XPPEDIT 18 0 "2^6
+!-1;" "6#,&)\"\"#-%*factorialG6#\"\"'\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ")
+ " }}{PARA 0 "" 0 "" {TEXT -1 4 "AND " }{TEXT 365 1 "n" }{TEXT -1 50 "
+, and, in particular, it means that we have found " }}{PARA 0 "" 0 "" 
+{TEXT -1 2 "a " }{TEXT 442 13 "proper factor" }{TEXT -1 9 " (19) of " 
+}{TEXT 366 1 "n" }{TEXT -1 15 ".  FANTASTIC!!!" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 "[" }{TEXT 373 25 "Anticipa
+ting a reasonable" }{TEXT -1 2 "] " }{TEXT 371 9 "OBJECTION" }{TEXT 
+-1 16 ":  Isn't this an" }}{PARA 0 "" 0 "" {TEXT -1 56 "awful lot of w
+ork just to discover that 155629 has 19 as" }}{PARA 0 "" 0 "" {TEXT 
+-1 40 "a proper factor?  Wouldn't it have been " }{TEXT 374 10 "much, \+
+much" }}{PARA 0 "" 0 "" {TEXT 375 6 "easier" }{TEXT -1 48 " just to ha
+ve done the classical trial-and-error" }}{PARA 0 "" 0 "" {TEXT -1 52 "
+checking possible (prime) factors one after another:" }}{PARA 0 "" 0 "
+" {TEXT -1 55 "(2), 3, 5, 7, 11, 13, 17, 19, [at which point a factor \+
+" }}{PARA 0 "" 0 "" {TEXT -1 23 "would have been found]?" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 376 5 "REPLY" }{TEXT -1 
+49 ":  Yes, of course it's true that in the specific " }}{PARA 0 "" 0 
+"" {TEXT -1 21 "example that I gave (" }{TEXT 367 1 "n" }{TEXT -1 32 "
+ = 155629), the factor 19 would " }}{PARA 0 "" 0 "" {TEXT -1 51 "have \+
+been more speedily found just by brute force, " }}{PARA 0 "" 0 "" 
+{TEXT -1 46 "BUT - and here's the CRUNCH - the same is NOT " }}{PARA 
+0 "" 0 "" {TEXT -1 29 "true of much larger numbers '" }{TEXT 368 1 "n
+" }{TEXT -1 21 "' having much larger " }}{PARA 0 "" 0 "" {TEXT -1 56 "
+prime factors.  This point will only become appreciated " }}{PARA 0 "
+" 0 "" {TEXT -1 24 "later in this worksheet." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 369 26 "The start of real PROGRESS" }
+{TEXT -1 28 ".  In the above calculations" }}{PARA 0 "" 0 "" {TEXT -1 
+38 "I deliberately used ACTUAL values of (" }{XPPEDIT 18 0 "2^k!-1;" "
+6#,&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"\"!\"\"" }{TEXT -1 6 "), and" 
+}}{PARA 0 "" 0 "" {TEXT -1 53 "as you see (and know) they get to be hu
+ge, even with " }}{PARA 0 "" 0 "" {TEXT -1 1 "'" }{TEXT 370 1 "k" }
+{TEXT -1 45 "' only getting up as far as '6'.  But '6' is " }{TEXT 
+377 7 "nothing" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 55 "in comp
+arison to the sort of values we will be dealing " }}{PARA 0 "" 0 "" 
+{TEXT -1 56 "with in much more serious settings.  We will be looking \+
+" }}{PARA 0 "" 0 "" {TEXT -1 57 "at cases in which if one were using o
+nly brute force (the" }}{PARA 0 "" 0 "" {TEXT -1 54 "classical Eratost
+henes checking up to the square-root)" }}{PARA 0 "" 0 "" {TEXT -1 55 "
+one would only find a factor after billions of billions" }}{PARA 0 "" 
+0 "" {TEXT -1 51 "of years, BUT the Pollard method will find a factor
+" }}{PARA 0 "" 0 "" {TEXT -1 19 "in a few seconds!!!" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "The two main mathematic
+al points we bring to our " }}{PARA 0 "" 0 "" {TEXT -1 7 "aid to " }
+{TEXT 378 14 "greatly reduce" }{TEXT -1 5 " the " }{TEXT 379 7 "massiv
+e" }{TEXT -1 11 " amount of " }}{PARA 0 "" 0 "" {TEXT -1 22 "computati
+on are these:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 380 3 "ONE" }{TEXT -1 3 "  [" }{TEXT 381 3 "TWO" }{TEXT -1 38 ",
+ below, is 'modular exponentiation'] " }}{PARA 0 "" 0 "" {TEXT -1 54 "
+           is what I would call the 'main step of the " }}{PARA 0 "" 
+0 "" {TEXT -1 40 "           Euclidean algorithm', namely:" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "If " }{TEXT 287 1 
+"a" }{TEXT -1 2 ", " }{TEXT 288 1 "b" }{TEXT -1 2 ", " }{TEXT 289 1 "q
+" }{TEXT -1 5 " and " }{TEXT 290 1 "r" }{TEXT -1 19 " are integers wit
+h " }{XPPEDIT 18 0 "a = b*q+r;" "6#/%\"aG,&*&%\"bG\"\"\"%\"qGF(F(%\"rG
+F(" }{TEXT -1 6 ", then" }}{PARA 0 "" 0 "" {TEXT -1 25 "              \+
+           " }}{PARA 0 "" 0 "" {TEXT -1 25 "                         \+
+" }{XPPEDIT 18 0 "gcd(a,b) = gcd(b,r);" "6#/-%$gcdG6$%\"aG%\"bG-F%6$F(
+%\"rG" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "
+from which we garner that with:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 12 "            " }{XPPEDIT 18 0 "a = 2^k!-1;
+" "6#/%\"aG,&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"\"!\"\"" }{TEXT -1 5 
+" and " }{XPPEDIT 18 0 "b = n;" "6#/%\"bG%\"nG" }{TEXT -1 9 ", we have
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "     \+
+        " }{XPPEDIT 18 0 "gcd(2^k!-1,n) = gcd(n,r);" "6#/-%$gcdG6$,&)
+\"\"#-%*factorialG6#%\"kG\"\"\"\"\"\"!\"\"%\"nG-F%6$F1%\"rG" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 14 "and, what is '
+" }{TEXT 291 1 "r" }{TEXT -1 40 "'?  Well it is simply the remainder t
+hat" }}{PARA 0 "" 0 "" {TEXT -1 1 "'" }{TEXT 292 1 "a" }{TEXT -1 25 "'
+ leaves on division by '" }{TEXT 293 1 "b" }{TEXT -1 19 "' (that is, i
+t is '" }{TEXT 294 1 "a" }{TEXT -1 5 " mod " }{TEXT 295 1 "b" }{TEXT 
+-1 3 "', " }}{PARA 0 "" 0 "" {TEXT -1 30 "which in the above setting i
+s " }{XPPEDIT 18 0 "2^k!-1;" "6#,&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"
+\"!\"\"" }{TEXT -1 5 " mod " }{TEXT 296 1 "n" }{TEXT -1 2 ")." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "Thus we h
+ave the " }{TEXT 382 17 "vitally important" }{TEXT -1 4 ":   " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "      " }
+{XPPEDIT 18 0 "gcd(2^k!-1,n) = gcd(n,`mod`(2^k!-1,n));" "6#/-%$gcdG6$,
+&)\"\"#-%*factorialG6#%\"kG\"\"\"\"\"\"!\"\"%\"nG-F%6$F1-%$modG6$,&)\"
+\"#-F+6#F-F.\"\"\"F0F1" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 383 6 "effect" }{TEXT -1 
+41 " of that is that instead of working with " }}{PARA 0 "" 0 "" 
+{TEXT 384 7 "massive" }{TEXT -1 41 " numbers like those above, we are \+
+instead" }}{PARA 0 "" 0 "" {TEXT 385 4 "only" }{TEXT -1 14 " working w
+ith " }{TEXT 386 17 "much smaller ones" }{TEXT -1 1 ":" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "next_number mo
+d 155629;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'9l5" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 33 "igcd(155629, 106514);  # as above" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#>" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "We now cut ou
+t all this hand calculation and write " }}{PARA 0 "" 0 "" {TEXT -1 52 
+"a simple programme using 'while', which I will then " }}{PARA 0 "" 0 
+"" {TEXT -1 48 "further simplify, and then convert to a general " }}
+{PARA 0 "" 0 "" {TEXT -1 41 "procedure (with some variation possible).
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 297 19 "Simp
+le programme #1" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 111 "for k while\nigcd(155629, 2^(k!) -
+ 1 mod 155629) = 1   \ndo k od; k;\nprint(igcd(155629, 2^(k!) - 1 mod \+
+155629)); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "You are familiar with this sort ot
+ thing: the '1' to '5' " }}{PARA 0 "" 0 "" {TEXT -1 55 "correspond to \+
+the gcd's being '1, the '6' to the first " }}{PARA 0 "" 0 "" {TEXT -1 
+26 "instance where the gcd is " }{TEXT 387 3 "not" }{TEXT -1 24 " 1, a
+nd the '19' is the " }}{PARA 0 "" 0 "" {TEXT -1 45 "value of igcd(1556
+29, 2^(6!) - 1 mod 155629)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 50 "We can get rid of all the distracting, irreleva
+nt " }}{PARA 0 "" 0 "" {TEXT -1 53 "output (the 1, 2, 3, 4 and 5), and
+ also the '6', and " }}{PARA 0 "" 0 "" {TEXT -1 51 "choose a nice 'lpr
+int' line with this minor change:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 298 19 "Simple programme #2" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 133 "fo
+r k while igcd(155629, 2^(k!) - 1 mod 155629) = 1   \ndo k od:\nlprint
+(igcd(155629, 2^(k!) - 1 mod 155629),`is a factor of`, 155629);" }}
+{PARA 6 "" 1 "" {TEXT -1 28 "19   is a factor of   155629" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 47 "and the other main mathematical technique which" }}{PARA 0 "" 
+0 "" {TEXT -1 48 "comes to our rescue is 'modular exponentiation'." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "We " }
+{TEXT 388 11 "really must" }{TEXT -1 28 " use modular exponentiation,
+" }}{PARA 0 "" 0 "" {TEXT -1 55 "otherwise we will find ourselves in s
+evere difficulties" }}{PARA 0 "" 0 "" {TEXT -1 50 "whenever 'k' gets t
+o be large.  For example, look " }}{PARA 0 "" 0 "" {TEXT -1 50 "what h
+appens if we tried to find a factor - using " }}{PARA 0 "" 0 "" {TEXT 
+-1 49 "Pollard's idea - of the following made-up number:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "prime_1 := n
+extprime(8765);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(prime_1G\"%z()" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "prime_2 := nextprime(3456
+7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(prime_2G\"&$eM" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "made_up := prime_1*prime_2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%(made_upG\"*dTg.$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 140 "for k \+
+while \nigcd(made_up, 2^(k!) - 1 mod made_up) = 1  \ndo k od: \nlprint
+(igcd(made_up, 2^(k!) - 1 mod made_up),\n`is a factor of`, made_up);" 
+}}{PARA 8 "" 1 "" {TEXT -1 23 "Error, object too large" }}{PARA 8 "" 
+1 "" {TEXT -1 23 "Error, object too large" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 24 "But now see
+ that we get " }{TEXT 299 14 "instant output" }{TEXT -1 9 " with the" 
+}}{PARA 0 "" 0 "" {TEXT -1 30 "use of modular exponentiation:" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 141 "for k while \nigcd(made_up, 2&^(k!
+) - 1 mod made_up) = 1   \ndo k od:lprint(igcd(made_up, 2&^(k!) - 1 mo
+d made_up),\n`is a factor of`, made_up);" }}{PARA 6 "" 1 "" {TEXT -1 
+33 "8779   is a factor of   303604157" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 66 "But even with
+ that speed, we should avoid (for reasons which will " }}{PARA 0 "" 0 
+"" {TEXT -1 69 "become clear later) using the following apparently per
+fect procedure:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 153 "seems_good_Poll
+ard := proc(n)\nlocal k;\nfor k while igcd(n, 2&^(k!) - 1 mod n) = 1  \+
+ \ndo k od:lprint(igcd(n, 2&^(k!) - 1 mod n),\n`is a factor of`, n);en
+d:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 28 "seems_good_Pollard(made_up);" }}{PARA 6 "" 1 
+"" {TEXT -1 33 "8779   is a factor of   303604157" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+37 "p77 := 77! + 1;  # a well known prime" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%$p77G\"]r,++++++++[7'y?l+3?k:\\8*>1)ou:yY)e$3UAz.u$)
+\\G3j3%yqSjpeGG?4$=X\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "l
+ength(p77);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$9\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 18 "and a made up one:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "q1 := \+
+nextprime(10^116 + 987654321);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#q
+1G\"`rVXl()4+++++++++++++++++++++++++++++++++++++++++++++++++++++\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(q1);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$<\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "n1 := p77*q1;  # h
+as 230 digits" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#n1G\"ayVXl()4++++k
+'\\3!4S!GEGp4v.@;iL#e$pJ1)f$>,ALtm')HFw\"[9k[ddzYOiB&3/%3RV,+++++[7'y?
+l+3?k:\\8*>1)ou:yY)e$3UAz.u$)\\G3j3%yqSjpeGG?4$=X\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "seems_good_Pollard(n1);" }}{PARA 6 "" 1 "
+" {TEXT -1 364 "145183092028285869634070784086308284983740379224208358
+846781574688061991349156420080065207861248000000000000000001   is a fa
+ctor of   145183092028285869634070784086308284983740379224208358846781
+5746880619913491564200800652078612480000000000014339084040852362364679
+5757486414481762729866673332201193598063169358233621621037509692826280
+400900849664000000000987654543" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "That took 41 seconds t
+o do on my 166MHz Pentium," }}{PARA 0 "" 0 "" {TEXT -1 21 "and althoug
+h that is " }{TEXT 389 15 "remarkably fast" }{TEXT -1 11 ", it simply
+" }}{PARA 0 "" 0 "" {TEXT -1 47 "pales into insignificance when compar
+ed to how " }}{PARA 0 "" 0 "" {TEXT -1 54 "quickly it can be done by m
+aking only a slight change " }}{PARA 0 "" 0 "" {TEXT -1 36 "to the abo
+ve procedure, namely this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 4 "The " }{TEXT 390 4 "best" }{TEXT -1 10 " Pollard (
+" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 75 ") p
+rocedure I can think of\n(though it can be improved by allowing variat
+ion" }}{PARA 0 "" 0 "" {TEXT -1 25 "on the starting value of " }
+{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" }{TEXT -1 24 "; don't keep it
+ fixed at" }}{PARA 0 "" 0 "" {TEXT -1 46 "'2' - which sometimes doesn'
+t lead to a proper" }}{PARA 0 "" 0 "" {TEXT -1 47 "factor being found \+
+- but allow it to vary. Also" }}{PARA 0 "" 0 "" {TEXT -1 46 "one can c
+ut out the text line, and just go for" }}{PARA 0 "" 0 "" {TEXT -1 37 "
+the production of the actual factor):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 318 "Pollard := proc(n)\nlocal a, k;\na[1] := 2:\nfor k from 2 while
+ igcd(n, a[k-1] - 1 mod n) = 1   \ndo a[k] := a[k-1]&^k mod n od;\nlpr
+int(`After`, k-1, `steps we find that`,                               \+
+                                                                   igc
+d(n, a[k-1] - 1 mod n), `is a factor of `, n)\nend:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 37 "Pollard(n1);  # the above 'n1' redone" }}{PARA 6 "" 1 "" {TEXT 
+-1 399 "After   77   steps we find that   1451830920282858696340707840
+8630828498374037922420835884678157468806199134915642008006520786124800
+0000000000000001   is a factor of    145183092028285869634070784086308
+2849837403792242083588467815746880619913491564200800652078612480000000
+0000143390840408523623646795757486414481762729866673332201193598063169
+358233621621037509692826280400900849664000000000987654543" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 31 "TWO SECONDS computation time!!!" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 391 25 "Comment on this proce
+dure" }{TEXT -1 15 ":  It has that " }{TEXT 392 5 "fixed" }{TEXT -1 5 
+" '2' " }}{PARA 0 "" 0 "" {TEXT -1 63 "in it - in the line \"a[1] := 2
+:\" - and so it might be better - " }}{PARA 0 "" 0 "" {TEXT -1 59 "if \+
+circumstances ever dictated it (because of a failure to " }}{PARA 0 "
+" 0 "" {TEXT -1 52 "find a proper factor) - to make a variation of thi
+s " }}{PARA 0 "" 0 "" {TEXT -1 58 "procedure, by allowing a second glo
+bal variable ('seed'), " }}{PARA 0 "" 0 "" {TEXT -1 60 "and simply alt
+er the line \"a[1] := 2:\" to \"a[1] := seed:\".  " }}{PARA 0 "" 0 "" 
+{TEXT -1 55 "We will see later that this is something we need to do." 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "For the
+ moment, let us look at a succesion of" }}{PARA 0 "" 0 "" {TEXT 312 8 
+"examples" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 310 10 "Example #1" }{TEXT -1 29 ".  The one we have just
+ seen:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Pollard(155629);" }}
+{PARA 6 "" 1 "" {TEXT -1 62 "After   6   steps we find that   19   is \+
+a factor of    155629" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 311 10 "Example
+ #2" }{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "Pollard(1556
+291);  # an extra '1' after the end '9'" }}{PARA 6 "" 1 "" {TEXT -1 
+63 "After   5   steps we find that   11   is a factor of    1556291" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT 309 10 "Example #3" }{TEXT -1 1 "." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "Pollard(15562911);  # an other '1' \+
+at the end" }}{PARA 6 "" 1 "" {TEXT -1 63 "After   2   steps we find t
+hat   3   is a factor of    15562911" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 393 7 "Comment" }
+{TEXT -1 41 ":  15562911 just happened to have '3' as " }}{PARA 0 "" 
+0 "" {TEXT -1 56 "a factor, and it got uncovered quickly. That's becau
+se, " }}{PARA 0 "" 0 "" {TEXT -1 42 "with k = 2, we have 2^k - 1 = 2^2
+ - 1 = 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+308 10 "Example #4" }{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+56 "Pollard(115562911);  # an another extra '1' at the start" }}{PARA 
+6 "" 1 "" {TEXT -1 67 "After   83   steps we find that   499   is a fa
+ctor of    115562911" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 307 10 "Example \+
+#5" }{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "Pollard(2*3*5
+*7 + 1);  # the 4th 'Euclidean number'" }}{PARA 6 "" 1 "" {TEXT -1 60 
+"After   7   steps we find that   211   is a factor of    211" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 56 "What's happened there?  It is simply that (2*3*5*7 + 1) \+
+" }}{PARA 0 "" 0 "" {TEXT -1 54 "happens to be a prime (211), and all \+
+we have found is " }}{PARA 0 "" 0 "" {TEXT -1 28 "that 211 is a factor
+ of 211." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+46 "The MORAL is that we should FIRST have used a " }}{PARA 0 "" 0 "" 
+{TEXT -1 49 "Fermat test (and NOT just on 2*3*5*7 + 1, but on " }}
+{PARA 0 "" 0 "" {TEXT -1 29 "ALL the earlier ones as well)" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 306 10 "Example #6" }
+{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Pollard(341);" }}
+{PARA 6 "" 1 "" {TEXT -1 60 "After   5   steps we find that   341   is
+ a factor of    341" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 54 "Is 341 like 211, a prime?  NO, it \+
+isn't!!  341 (which " }}{PARA 0 "" 0 "" {TEXT -1 46 "you should recogn
+ise) is a pseudoprime to the " }}{PARA 0 "" 0 "" {TEXT -1 44 "base 2 (
+i.e., it is a COMPOSITE number that " }}{PARA 0 "" 0 "" {TEXT -1 38 "'
+passes Fermat's test to the base 2), " }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 43 "2&^340 mod 341;   # so '341' MIGHT be prime" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 13 "BUT it ISN'T:" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 58 "3&^340 mod 341;  # showing that 341 fails to the b
+ase '3':" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#c" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "and t
+he REAL resaon that the above has NOT " }}{PARA 0 "" 0 "" {TEXT -1 56 
+"found a factor of 341 is the use of the '2'  throughout " }}{PARA 0 "
+" 0 "" {TEXT -1 50 "the procedure.  This, now, is the relevance of my \+
+" }}{PARA 0 "" 0 "" {TEXT -1 14 "comment above." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "So, let's make the TWO GL
+OBAL VARIABLE version " }}{PARA 0 "" 0 "" {TEXT -1 54 "of the above pr
+ocedure, and choose a simple procedure " }}{PARA 0 "" 0 "" {TEXT -1 
+57 "name, 'pollard' (also - though it is not needed - I have " }}
+{PARA 0 "" 0 "" {TEXT -1 52 "just used the brief 'divides' in the 'lpr
+int' line):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 231 "Pollard1 := proc(seed, n)\nlocal a, k;\na[1] := seed
+:\nfor k from 2 while igcd(n, a[k-1] - 1 mod n) = 1   \ndo a[k] := a[k
+-1]&^k mod n od;\nlprint(`After`, k-1, `steps we find that`, \nigcd(n,
+ a[k-1] - 1 mod n),`is a factor of `, n)\nend:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "
+Pollard1(2, 341);  # as we have already seen" }}{PARA 6 "" 1 "" {TEXT 
+-1 60 "After   5   steps we find that   341   is a factor of    341" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "Pollard1(3, 341);  # still
+ NO factor, even with 'seed' et to '3'" }}{PARA 6 "" 1 "" {TEXT -1 60 
+"After   5   steps we find that   341   is a factor of    341" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "Pollard1(4, 341);  # as expe
+cted (since '4' is 2^2), NO use" }}{PARA 6 "" 1 "" {TEXT -1 60 "After \+
+  5   steps we find that   341   is a factor of    341" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "Pollard1(5, 341);  # 'happiness is \+
+just around the corner' (D.H.Lehmer)" }}{PARA 6 "" 1 "" {TEXT -1 59 "A
+fter   3   steps we find that   31   is a factor of    341" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+394 7 "Comment" }{TEXT -1 48 ":  It's interesting to see that the fact
+or '31' " }}{PARA 0 "" 0 "" {TEXT -1 49 "(and 31 - 1 = 2*3*5) was foun
+d BEFORE the factor " }}{PARA 0 "" 0 "" {TEXT -1 24 "'11' (and 11 - 1 \+
+= 2*5)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+50 "Clearly the 'Pollard' procedure is SUPERIOR to the" }}{PARA 0 "" 
+0 "" {TEXT -1 56 "'Pollard_p_minus_1', since it allows room for manoeu
+vre," }}{PARA 0 "" 0 "" {TEXT -1 57 "and I could have gone for it righ
+t at the beginning, but " }}{PARA 0 "" 0 "" {TEXT -1 54 "I choose not \+
+to do so until you could SEE the benefit " }}{PARA 0 "" 0 "" {TEXT -1 
+12 "of doing so." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 53 "Even though it is superior, I will continue with the " }}
+{PARA 0 "" 0 "" {TEXT -1 26 "use of the fixed seed '2':" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 305 10 "Example #7" }{TEXT 
+-1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "Pollard(2*3*5*7*11*13 + \+
+1);" }}{PARA 6 "" 1 "" {TEXT -1 62 "After   29   steps we find that   \+
+59   is a factor of    30031" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 304 10 "
+Example #8" }{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "Polla
+rd(2*3*5*7*11*13*17 + 1);" }}{PARA 6 "" 1 "" {TEXT -1 64 "After   6   \+
+steps we find that   1843   is a factor of    510511" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT 303 10 "Example #9" }{TEXT -1 37 ". Asking ourselves a
+bout that '1843':" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "Pollard(1843);
+" }}{PARA 6 "" 1 "" {TEXT -1 62 "After   6   steps we find that   1843
+   is a factor of    1843" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 52 "Does that mean that 1843 is \+
+a prime?  Not at all!!  " }}{PARA 0 "" 0 "" {TEXT -1 3 "It " }{TEXT 
+400 5 "could" }{TEXT -1 39 " have been, but it isn't.  We can do a " }
+}{PARA 0 "" 0 "" {TEXT -1 49 "Fermat test (which shows that 1843 is no
+t prime):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "2&^1842 mod 1843;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$H(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 
+401 11 "real secret" }{TEXT -1 7 " as to " }{TEXT 402 3 "why" }{TEXT 
+-1 13 " the Pollard " }}{PARA 0 "" 0 "" {TEXT -1 23 "approach didn't f
+ind a " }{TEXT 403 6 "proper" }{TEXT -1 11 " factor of " }}{PARA 0 "" 
+0 "" {TEXT -1 27 "1843 for us is this:  1843 " }{TEXT 404 7 "happens" 
+}{TEXT -1 11 " to be the " }}{PARA 0 "" 0 "" {TEXT -1 47 "product of t
+he primes p (=19) and q (=97), and " }}{PARA 0 "" 0 "" {TEXT -1 49 "fo
+rming p - 1 and q - 1 gives the numbers 18 and " }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "96. " }{TEXT 405 3 "Now" }{TEXT -1 41 " those two numbers \+
+not only have 'small' " }}{PARA 0 "" 0 "" {TEXT -1 20 "prime divisors,
+ but " }{TEXT 406 6 "happen" }{TEXT -1 13 " to have the " }{TEXT 407 
+4 "same" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 37 "small prime di
+visors, namely 2 and 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "
+" 0 "" {TEXT -1 51 "A quotation from Pollard's own original 1974 paper
+:" }{TEXT 300 1 " " }}{PARA 260 "" 0 "" {TEXT -1 0 "" }}{PARA 259 "" 
+0 "" {TEXT 301 50 "\"Also [as an example of his method in action] ... \+
+" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "p = 27!+1;" "6#/%\"pG,&-%*factorial
+G6#\"#F\"\"\"\"\"\"F*" }{TEXT -1 33 " [a prime] has 29 digits, and if \+
+" }{TEXT 408 1 "q" }{TEXT -1 14 " is any other " }}{PARA 0 "" 0 "" 
+{TEXT -1 32 "prime of similar magnitude then " }{TEXT 409 2 "pq" }
+{TEXT -1 21 " is easily factored.\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 60 "[which in those days - 1974 - was a sign
+ificant achievement." }}{PARA 0 "" 0 "" {TEXT -1 20 "We will shortly u
+se " }{TEXT 396 11 "much larger" }{TEXT -1 22 " primes than 27! + 1.]
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 395 4 "NOTE
+" }{TEXT -1 7 ".  The " }{TEXT 397 5 "point" }{TEXT -1 17 " about the \+
+prime " }{TEXT 410 1 "p" }{TEXT -1 21 " (= 27! + 1) is that " }}{PARA 
+0 "" 0 "" {TEXT -1 14 "the value of (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"p
+G\"\"\"\"\"\"!\"\"" }{TEXT -1 44 ") is 27! ( = 27*26*25* ... *5*4*3*2)
+, which " }}{PARA 0 "" 0 "" {TEXT -1 4 "has " }{TEXT 398 4 "only" }
+{TEXT -1 33 " 'small' primes dividing it (the " }{TEXT 399 7 "largest
+" }{TEXT -1 4 " of " }}{PARA 0 "" 0 "" {TEXT -1 54 "them being only 23
+).  An example using that prime was " }}{PARA 0 "" 0 "" {TEXT -1 58 "s
+hown earlier, with computation times of 41 and 2 seconds." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 302 11 "Example #10" }
+{TEXT -1 16 ".  I will call '" }{TEXT 411 1 "p" }{TEXT -1 30 "' (= 27!
+ + 1) by the name p27:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "p27 := 27
+! + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$p27G\">,++o2;_$=/Xp)))3\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "length(p27);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 47 "q2 := nextprime(23431111289009876546548768549);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%#q2G\">z&o([law)4!*G66VB" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 11 "length(q2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"#H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n2 := p27*q2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n2G\"Zz&o2Ab96Cr!fslHs[\"RH^@AD/>JQ
+^D" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "Pollard(n2);" }}{PARA 6 "" 1 "" {TEXT -1 141 
+"After   27   steps we find that   10888869450418352160768000001   is \+
+a factor of    2551383119042522215129391487229657259071241114552207685
+79" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 48 "That factorization of n2 was performed in about " 
+}}{PARA 0 "" 0 "" {TEXT -1 30 "1 second on my 166MHz Pentium." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 44 "One might
+ wish to compare the speed of that " }}{PARA 0 "" 0 "" {TEXT -1 38 "fa
+ctorization with some other methods." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 43 "Maple has 4 built-in factorization meth
+ods:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "1
+.  The 'Morrison-Brillhart method' (first published in 1975 " }}{PARA 
+0 "" 0 "" {TEXT -1 64 "     in a leading journal of the American Mathe
+matical Society, " }}{PARA 0 "" 0 "" {TEXT -1 56 "     the 'Mathematic
+s of Computation'). This is Maple's " }}{PARA 0 "" 0 "" {TEXT -1 65 " \+
+    'default' method (i.e. the one it automatically uses unless " }}
+{PARA 0 "" 0 "" {TEXT -1 58 "     asked to do otherwise).  The command
+ is the familiar " }}{PARA 0 "" 0 "" {TEXT -1 18 "     'ifactor(n)'." 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "2.  The
+ Pollard 'Monte Carlo method' of 1975; the command " }}{PARA 0 "" 0 "
+" {TEXT -1 31 "      is 'ifactor(n, pollard)'." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "3.   The (Hendrik, as opp
+osed to Arjen (his brother)) Lenstra " }}{PARA 0 "" 0 "" {TEXT -1 69 "
+      'elliptic curve method' (first published in the famous 'Annals \+
+" }}{PARA 0 "" 0 "" {TEXT -1 68 "      of Mathematics', in 1987).  Thi
+s is - in fact - a development " }}{PARA 0 "" 0 "" {TEXT -1 20 "      \+
+of Pollard's '" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }
+{TEXT -1 43 "' factoring method, and is generally - but " }}{PARA 0 "
+" 0 "" {TEXT -1 73 "      NOT always - superior to it.  The command is
+ 'ifactor(n, lenstra)'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 63 "4.   A limited method which concentrates on the poss
+ibility of " }}{PARA 0 "" 0 "" {TEXT -1 61 "      the number having SM
+ALL prime factors.  The command is " }}{PARA 0 "" 0 "" {TEXT -1 26 "  \+
+    'ifactor(n, small)'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 69 "For the first two [for which the clock stayed on .
+.. ] I have placed " }}{PARA 0 "" 0 "" {TEXT -1 64 "the '#' sign befor
+e them for safety reasons, to prevent possible" }}{PARA 0 "" 0 "" 
+{TEXT -1 33 "re-execution at some later stage." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "# ifactor(n2, lenstra);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "# ifactor(n2, pollard);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "ifactor(n2, easy);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%%_c57G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 55 "That last one, with fast output '_c57', M
+EANS that the " }}{PARA 0 "" 0 "" {TEXT -1 60 "tested number 'n2' is c
+omposite (without finding a factor), " }}{PARA 0 "" 0 "" {TEXT -1 57 "
+something that can be shown by subjecting n1 to a Fermat " }}{PARA 0 "
+" 0 "" {TEXT -1 19 "test to the base 2:" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "2&^(n2 - 1) mod n2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"Z8`)y
+(*e`-qcF:c;Wh61VIYu]%=iSCZ#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "Let's attempt some more Po
+llard (p - 1) factorizations; " }}{PARA 0 "" 0 "" {TEXT -1 14 "we will
+ keep '" }{TEXT 412 1 "p" }{TEXT -1 38 "' FIXED at (27! + 1), and choo
+se some " }}{PARA 0 "" 0 "" {TEXT -1 32 "other prime values q2, q3, ..
+. ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 313 11 "E
+xample #11" }{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "q3 :=
+ nextprime(59337772890987665465487888877);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#q3G\">**)))y[lam()4*GxP$f" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 11 "length(q3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#
+H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n3 := p27*q3;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n3G\"Z**))))>*zf.>KH*zvxzYm2=j&y`)[
+i77Y'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "Pollard(n3);" }}{PARA 6 "" 1 "" {TEXT -1 
+141 "After   27   steps we find that   10888869450418352160768000001  \+
+ is a factor of    646121262488537856318076646797775799293219035979919
+888899" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 52 "Instantly.   See how the other methods compare \+
+... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 314 11 
+"Example #12" }{TEXT -1 43 ".  Here I will make the prime q4 have more
+ " }}{PARA 0 "" 0 "" {TEXT -1 27 "than 29 digits to see ... ." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 50 "q4 := nextprime(99887761128900987654654876854965);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q4G\"Ar\\&o([law)4!*G6w())**" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(q4);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#K" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 
+"n4 := p27*q4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n4G\"hnr\\&[gKmmd
+qVqRsZz81A:]stvri!zkw3\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Pollard(n4);" }}{PARA 
+6 "" 1 "" {TEXT -1 145 "After   27   steps we find that   108888694504
+18352160768000001   is a factor of    10876647906271757372501522061379
+47723970437057666632604854971" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Instantly." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 315 11 "Example #13" }
+{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "q5 := nextprime(99
+8877665544998877611289009876546548768549);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#q5G\"Kn&o([law)4!*G6w())*\\alw())**" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(q5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#U" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n5 :
+= p27*q5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n5G\"bon&oZ+Eb)Q5-DzXx
+c0w=r\"\\0y*\\H%3&Q\"eq\\[m(3\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Pollard(n5);" }}
+{PARA 6 "" 1 "" {TEXT -1 155 "After   27   steps we find that   108888
+69450418352160768000001   is a factor of    10876648497058138508429499
+780549171187605567745792502103885526004768567" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Instantl
+y." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 316 11 "Ex
+ample #14" }{TEXT -1 38 ".  Here I will make the prime q6 have " }
+{TEXT 413 4 "much" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 414 5 "fewe
+r" }{TEXT -1 37 " digits than p27 to see what happens." }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "q6 := nextprime(768549);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#q6G\"'j&o(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 11 "length(q6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n6 := p27*q6;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#n6G\"Cj&oZQOjt\"**z=Ur@yo$)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Po
+llard(n6);" }}{PARA 6 "" 1 "" {TEXT -1 118 "After   27   steps we find
+ that   10888869450418352160768000001   is a factor of    836878217142
+1879991736336384768563" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 13 "It found the " }{TEXT 415 6 "la
+rger" }{TEXT -1 8 " factor " }{TEXT 416 5 "first" }{TEXT -1 12 ".  I w
+onder " }{TEXT 417 3 "why" }{TEXT -1 6 " ... :" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "ifactor(q6 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*
+(-%!G6#\"\"#\"\"\"-F%6#\"$^#F(-F%6#\"%J:F(" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 317 11 "Example #1
+5" }{TEXT -1 42 ".  Here I will make the prime q7 be 65537 " }}{PARA 
+0 "" 0 "" {TEXT -1 53 "[the 4th. 'Fermat prime', the earlier ones bein
+g (3) " }}{PARA 0 "" 0 "" {TEXT -1 31 "(the 0-th one), 5, 17 and 257]:
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "q7 := 2^(2^4) + 1;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%#q7G\"&Pb'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "n7 := p27*q7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n
+7G\"BPb1;CDgban?<PQi8(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Pollard(n7);" }}{PARA 6 "
+" 1 "" {TEXT -1 92 "After   8   steps we find that   65537   is a fact
+or of    713623837172067545560252416065537" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "It found th
+e smaller factor first.  Do you know " }{TEXT 418 3 "why" }{TEXT -1 1 
+"?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "One
+ can have such fun with this method!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 55 "Let's jump back to the beginning of t
+his worksheet, to " }}{PARA 0 "" 0 "" {TEXT -1 53 "the (example of a) \+
+'Euclidean prime' 2*3*5*...*31 +1," }}{PARA 0 "" 0 "" {TEXT -1 25 "and
+ to the made-up prime " }{XPPEDIT 18 0 "2^21*3^20*5^20*7^20+1;" "6#,&*
+*\"\"#\"#@\"\"$\"#?\"\"&\"#?\"\"(\"#?\"\"\"\"\"\"F-" }{TEXT -1 1 "." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 318 11 "Example
+ #16" }{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "q8 := produ
+ct(ithprime(m), m=1..11) + 1;  # '11', as 31 is the 11th prime" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q8G\"-J,\\g0?" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 40 "n8 := nextprime(1234567890987654321)*q8;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n8G\"?>Gu-:'R&*ykJTbgZ#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "Pollard(n8);" }}{PARA 6 "" 1 "" {TEXT -1 97 "After   \+
+31   steps we find that   200560490131   is a factor of    24760554131
+6478953961502742819" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 319 11 "Example #17" }{TEXT -1 1 "." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "q9 := 2^21*3^20*5^20*7^20 + 1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q9G\"P,+++++++++-GRus4.R*)eoVc&" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n9 := p27*q9;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%#n9G\"fo,++o2;_$=/l\\\"G>$*3*y0!zc3g(Grt?%*yol
+*QJo*eg" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Pollard(n9);" }}{PARA 6 "" 1 "" 
+{TEXT -1 159 "After   27   steps we find that   1088886945041835216076
+8000001   is a factor of    605896831389656878942073712876008567900578
+908931928149650418352160768000001" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Instantly!!" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 55 "When Po
+llard mentioned the prime (27! + 1) in his 1974 " }}{PARA 0 "" 0 "" 
+{TEXT -1 55 "paper he probably intended to give an example close to " 
+}}{PARA 0 "" 0 "" {TEXT -1 56 "the then limits of computational power.
+  I am now going " }}{PARA 0 "" 0 "" {TEXT -1 56 "to take a huge leap \+
+forward in size to another prime of " }}{PARA 0 "" 0 "" {TEXT -1 49 "t
+he same form, namely one of the form (m! + 1).  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "As of April 1999 it is kn
+own that " }{XPPEDIT 18 0 "m!+1;" "6#,&-%*factorialG6#%\"mG\"\"\"\"\"
+\"F(" }{TEXT -1 18 " is prime for the " }}{PARA 0 "" 0 "" {TEXT -1 23 
+"following values of m: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 48 "1, 2, 3, 11, 27, 37, 41, 73, 77, 116, 154, 320, " 
+}}{PARA 0 "" 0 "" {TEXT -1 28 "340, 399, 427, 872 and 1477," }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "and it is an " 
+}{TEXT 419 8 "UNSOLVED" }{TEXT -1 16 " question as to " }{TEXT 420 8 "
+HOW MANY" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 22 "such primes t
+here are." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+53 "Also, as of April 1999 it is known that the following" }}{PARA 0 "
+" 0 "" {TEXT -1 34 "primes produce 'Euclidean' primes:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 54 "2, 3, 5, 7, 11, 31, \+
+379, 1019, 1021, 2657, 3229, 4547," }}{PARA 0 "" 0 "" {TEXT -1 36 "478
+7, 11549, 13649, 18523 and 23801." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 21 "Once again, it is an " }{TEXT 421 8 "UNSO
+LVED" }{TEXT -1 14 " problem as to" }}{PARA 0 "" 0 "" {TEXT 422 8 "HOW
+ MANY" }{TEXT -1 30 " 'Euclidean' primes there are." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 320 11 "Example #18" }{TEXT 
+-1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "p116 := 116! + 1;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%p116G\"jv,++++++++++++?265&e]qvz\"p
+/'*>hiBGR26,y2;%>*\\eo))pp6=27(f`aiLIj<9`EB\")3iO'>q2U*pbNmRK?t&)e$4c#
+)>,#)*=X%o3JR$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "length(p1
+16);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$\">" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 148 
+"q116 := nextprime(10^195 + 698765432123456789878765438877654434567809
+9090987654367543265789765432123456787654987654354678009876500011111111
+1199987);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%q116G\"_wF1?6666,+l()4
+!yYNaw)\\l(ycM7Kaw*ylKanVl()44*4ycMWlx)Qawy)*ycM7Kaw)p++++++++++++++++
+++++++++++++++++++++++\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 
+"length(q116);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$'>" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "n116 := p116*q116;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>%%n116G\"]clF1?6666,+l()4!y!p&)omTrV'eBXNfYNS+J_\\_dt]Ir**RI%4N(GmkB
+o)R(=>*4[O1_#Qk=c?JFw'pN'y.**GK8+snE=yO-%Q9!ptkzj\\Ms8f)=[&)42x/Cv,Ky-
+-i*o*e'Q[l3/#*z-#>\\*z60&4vFoGU-%y[D%o`G%e&)o1JB8qyTJlK7)3iO'>q2U*pbNm
+RK?t&)e$4c#)>,#)*=X%o3JR$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "Pollard(n116);" }}
+{PARA 6 "" 1 "" {TEXT -1 633 "After   116   steps we find that   33931
+0868445189820119825609358857320323966355569942077019636620881232653141
+7633033625453597120718116969886858499194160778011107392823626119960469
+1797570505851011072000000000000000000000000001   is a factor of    339
+3108684451898201198256093588573203239663555699420770196366208812326531
+4178701323310668855842853684254878402422868277509505117994919202799204
+0865483865896896202027832017524047707098548188591372344963796473690143
+8402367818266772001332289903786356967627312056186438252063648099191873
+9868236466287350943039997130507357524952310040354659354523586437141666
+885690780098765000111111111200627" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 46 "WOW!!!  That \+
+took ONLY (!!!!!!) EIGHT SECONDS " }}{PARA 0 "" 0 "" {TEXT -1 52 "on m
+y 166 MHz Pentium.  That is a truly spectacular " }}{PARA 0 "" 0 "" 
+{TEXT -1 14 "factorization." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT 321 10 "CONCLUSION" }{TEXT -1 35 ".  If nothing else, \+
+I hope you are " }}{PARA 0 "" 0 "" {TEXT -1 26 "convinced that Pollard
+'s '" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 19 
+"' factoring method " }}{PARA 0 "" 0 "" {TEXT -1 7 "merits " }{TEXT 
+322 20 "considerable respect" }{TEXT -1 23 ".  John Pollard will go" }
+}{PARA 0 "" 0 "" {TEXT -1 48 "down in the history of Mathematics as on
+e of the" }}{PARA 0 "" 0 "" {TEXT -1 49 "great, original thinkers, as \+
+far as factorisation" }}{PARA 0 "" 0 "" {TEXT -1 22 "methods are conce
+rned." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 279 "Poll_best := proc
+(seed, n)\nlocal a, k;\na[1] := seed:\nfor k from 2 while igcd(n, a[k-
+1] - 1 mod n) = 1   \ndo a[k] := a[k-1]&^k mod n od;\nif igcd(n, a[k-1
+] - 1 mod n) < n then \nlprint(igcd(n, a[k-1] - 1 mod n),`is a proper \+
+factor of `, n)\nelse\nlprint(`Try some other seed`)\nfi\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "Poll_best(2, 341);" }}{PARA 
+6 "" 1 "" {TEXT -1 19 "Try some other seed" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "Poll_best(3, 341);" }}{PARA 6 "" 1 "" {TEXT -1 19 "
+Try some other seed" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "Poll
+_best(5, 341);" }}{PARA 6 "" 1 "" {TEXT -1 33 "31   is a proper factor
+ of    341" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1
+43 1 0" 16 }{VIEWOPTS 1 1 0 1 1 1803 }

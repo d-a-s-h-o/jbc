@@ -1,0 +1,633 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark33">
+<p align=left>
+<b><font color=#000080 size=5>Alan Baker (1939-)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>What follows is in </font></b>
+<i><b><font color=#000080>no sense complete</font></b></i>
+<b><font color=#000080>, in fact it barely scratches the surface. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Alan Baker was awarded a Fields Medal at the 1970 International Congress of Mathematicians held in Nice, France. One day he will surely be awarded the Abel Prize (an annual award, introduced in 2003 by the The Norwegian Academy of Science and Letters to honour Norway's Niels Henrik Abel (1802-1829); J-P. Serre was the first recipient in 2003, and M. Atiyah &amp; I. Singer are the 2004 recipients. See www.abelprisen.no/en/). He is a towering figure who transformed the subject of transcendence, and related areas of Diophantine equations and approximations.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In the final paragraph of his classic book </font></b>
+<i><b><font color=#000080>Transcendental and Algebraic Numbers</font></b></i>
+<b><font color=#000080> Gelfond wrote: </font></b>
+<i><b><font color=#000080>' Non-trivial lower bounds for linear forms, with integral coefficients, of an arbitrary number of logarithms of algebraic numbers, obtained effectively by methods of the theory of transcendental numbers, will be of extraordinarily great significance in the solution of very difficult problems of modern number theory.Therefore, one may assume, as was already mentioned above, that </font></b></i>
+<i><b><font color=#000080 size=4>the most pressing problem in the theory of transcendental numbers is</font></b></i>
+<i><b><font color=#000080> the investigation of the measures of transcendence of finite sets of laogarithms of algebraic numbers.'</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>From Paul Turán's talk</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>1970 at the 1970 International Congress of Mathematicians I selectively quote: </font></b>
+<i><b><font color=#000080>The theory of transcendental numbers, initiated by Liouville in 1844, has been enriched greatly in recent years. Among the relevant profound contributions are those of A. Baker, W. M. Schmidt, and V. A. Sprindzuk. Their work moves in important directions which contrast with the traditional concentration on the deep problem of finding significant classes of finding functions assuming transcendental values for all non-zero algebraic values of the independent variable. Among these, Baker's have had the heaviest impact on other problems in mathematics. Perhaps the most significant of these impacts has been the application to diophantine equations. This theory, carrying a history of more than a thousand years, was, until the early years of this century, little more than a collection of isolated problems subjected to ingenious </font></b></i>
+<b><font color=#000080>ad hoc</font></b>
+<i><b><font color=#000080> methods. </font></b></i>
+<i><b><font color=#000080>It was A. Thue who made the breakthrough to general results by proving in 1909 that all diophantine equations of the form f(x, y) = m, where m is an integer and f is an irreducible homogeneous form of degree at least three, with integer coefficients, has at most a finite number of solutions in integers. This theorem was extended by C. L. Siegel and K. F. Roth (himself a Fields medallist) to much more general classes of algebraic diophantine equations in two variables of degree at least three. They even succeeded in establishing upper bounds on the number of such solutions. A </font></b></i>
+<b><font color=#000080>complete</font></b>
+<i><b><font color=#000080> resolution of such problems however, requiring a knowledge of </font></b></i>
+<b><font color=#000080>all</font></b>
+<i><b><font color=#000080> solutions, is basically beyond the reach of these methods, which are what are called "ineffective". </font></b></i>
+<i><b><font color=#000080 size=4>Here Baker made a brilliant advance</font></b></i>
+<i><b><font color=#000080>. ... </font></b></i>
+<b><font color=#000080>[Turán continues to list one development after another, and links to the work of others] </font></b>
+<i><b><font color=#000080>As another consequence of his </font></b></i>
+<b><font color=#000080>[Baker's]</font></b>
+<i><b><font color=#000080> results he gave an </font></b></i>
+<i><b><font color=#000080 size=4>effective</font></b></i>
+<i><b><font color=#000080> lower bound for the approximability of algebraic numbers by rationals, the first one which is better than Liouville's. </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>    As mentioned before, these results are all consequences of his main results on transcendental numbers. As is well known, the seventh problem of Hilbert asking whether or not </font></b></i>
+<img src="images/transcendental919.gif" width=40 height=52 alt="alpha^beta" align=middle>
+<i><b><font color=#000080> is transcendental whenever </font></b></i>
+<img src="images/transcendental920.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental921.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>are algebraic, certain obvious cases aside, was solved independently by Gelfond and Schneider in 1934. Shortly afterwards Gelfond found a stronger result by obtaining and </font></b></i>
+<b><font color=#000080>explicit</font></b>
+<i><b><font color=#000080> lower bound for </font></b></i>
+<img src="images/transcendental922.gif" width=200 height=32 alt="abs(beta[1]*log(alpha[1])+beta[2]*log(alpha[2]))" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>in terms of the alphas and the degrees and heights of the betas when the logarithms are linearly independent (JC comment: over the rationals, and thus over the algebraics). </font></b></i>
+<i><b><font color=#000080>After Gelfond realised in 1948, in collaboration with Ju. V. Linnik, the significance of an an </font></b></i>
+<b><font color=#000080>effective</font></b>
+<i><b><font color=#000080> lower bound for the three-term sum, and more generally for the n-term sum, he and N. I. Feldman soon discovered an </font></b></i>
+<b><font color=#000080>ineffective</font></b>
+<i><b><font color=#000080> lower bound for it. The transition from this important first step to </font></b></i>
+<b><font color=#000080>effective</font></b>
+<i><b><font color=#000080> lower bound for the three-term sum, and more generally for the n-term sum, resisted all efforts until Baker's success in 1966. This success enabled Baker to obtain a vast generalization of Gelfond-Schneider's theorem by showing that if  </font></b></i>
+<img src="images/transcendental923.gif" width=113 height=32 alt="alpha[1], alpha[2], `...`, alpha[n]" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>(none 0 or 1) are algebraic,</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental924.gif" width=110 height=32 alt="beta[1], beta[2], `...`, beta[n]" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>algebraic with</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental925.gif" width=126 height=32 alt="1, beta[1], beta[2], `...`, beta[n]" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>linearly independent over the rationals, then</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental926.gif" width=162 height=72 alt="alpha[1]^beta[1]*alpha[2]^beta[2]*`...`*alpha[n]^be..." align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>is transcendental. Some further appreciation of the </font></b></i>
+<i><b><font color=#000080 size=4>depth</font></b></i>
+<i><b><font color=#000080> of this result can be gained by recalling Hilbert's prediction that the Riemann hypothesis conjecture would be settled long before the transcendentality of </font></b></i>
+<img src="images/transcendental927.gif" width=40 height=52 alt="alpha^beta" align=middle>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>The analytic prowess displayed by Baker could hardly receive a higher testimonial... Among his other results generalizing transcendentality results of Siegel and Schneider I mention only one special case, </font></b></i>
+<i><b><font color=#000080 size=4>in itself sufficiently remarkable</font></b></i>
+<i><b><font color=#000080>, according to which the sum of circumferences of two ellipses, whose axes have algebraic lengths, is transcendental... </font></b></i>
+</p>
+<p align=center>
+<b><font color=#000080>__________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In the early 1960s, before Baker's stunning series of </font></b>
+<i><b><font color=#000080>linear forms in the logarithms of algebraic numbers</font></b></i>
+<b><font color=#000080> papers began to appear, Baker (while a PhD student at Cambridge) proved many remarkable results, of which I choose just one, and its consequence:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Baker's Theorem (1964). For all rational numbers </font></b>
+<img src="images/transcendental928.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> (</font></b>
+<img src="images/transcendental929.gif" width=52 height=32 alt="0 &lt; q" align=middle>
+<b><font color=#000080>) we have<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental930.gif" width=97 height=108 alt="abs(2^(1/3)-p/q)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>&gt;</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental931.gif" width=69 height=84 alt="10^(-6)/(q^2.995)" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Baker's immediate consequence. Let N be any non-zero integer, then all solutions in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> of the equation </font></b>
+</p>
+<p align=center>
+<img src="images/transcendental932.gif" width=113 height=50 alt="x^3-2*y^3 = N" align=middle>
+<b><font color=#000080> ... (3)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>satisfy max(|</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>|, |</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>|) </font></b>
+<b><font color=#000080 size=4>&lt;</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental933.gif" width=121 height=50 alt="(300000*abs(N))^23" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Appreciation. To feel the value of that result one should recall Thue's theorem would inform only that there are at most a </font></b>
+<i><b><font color=#000080>finite</font></b></i>
+<b><font color=#000080> number of integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y </font></b></i>
+<b><font color=#000080>satisfying (3). Also one should remind oneself of the fact that in the quadratic case of (3) (i.e. </font></b>
+<img src="images/transcendental934.gif" width=113 height=50 alt="x^2-2*y^2 = N" align=middle>
+<b><font color=#000080> ... (2)) matters are quite different: for any integer </font></b>
+<i><b><font color=#000080>N </font></b></i>
+<b><font color=#000080>the equation (2) either had </font></b>
+<i><b><font color=#000080>no</font></b></i>
+<b><font color=#000080> solutions (e.g., there are no integers x, y such that </font></b>
+<img src="images/transcendental935.gif" width=109 height=50 alt="x^2-2*y^2 = 3" align=middle>
+<b><font color=#000080>; that's a simple exercise) or </font></b>
+<i><b><font color=#000080>infinitely many</font></b></i>
+<b><font color=#000080> solutions (e.g., </font></b>
+<img src="images/transcendental936.gif" width=109 height=50 alt="x^2-2*y^2 = 1" align=middle>
+<b><font color=#000080> has infinitely many solutions).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now, a question related to the Gelfond-Schneider theorem.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem (Baker, 1966). If </font></b>
+<img src="images/transcendental937.gif" width=113 height=32 alt="alpha[1], alpha[2], `...`, alpha[n]" align=middle>
+<b><font color=#000080> are non-zero algebraic numbers such that </font></b>
+<img src="images/transcendental938.gif" width=215 height=32 alt="log(alpha[1]), log(alpha[2]), `...`, log(alpha[n])" align=middle>
+<b><font color=#000080> [no matter what values are chosen of the logarithms are chosen in the complex case] are linearly independent over the rationals, then </font></b>
+<img src="images/transcendental939.gif" width=231 height=32 alt="1, log(alpha[1]), log(alpha[2]), `...`, log(alpha[n..." align=middle>
+<b><font color=#000080> are linearly independent over the field of all algebraic numbers.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Consequences</font></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem (Baker, 1966). Any non-vanishing linear combination of logarithms of algebraic numbers with algebraic coefficients is transcendental. <br>
+    In other words, if </font></b>
+<img src="images/transcendental940.gif" width=113 height=32 alt="alpha[1], alpha[2], `...`, alpha[n]" align=middle>
+<b><font color=#000080> are non-zero algebraic numbers, and </font></b>
+<img src="images/transcendental941.gif" width=110 height=32 alt="beta[1], beta[2], `...`, beta[n]" align=middle>
+<b><font color=#000080> are algebraic numbers such that </font></b>
+<img src="images/transcendental942.gif" width=349 height=32 alt="beta[1]*log(alpha[1])+beta[2]*log(alpha[2])+`...`+b..." align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental943.gif" width=321 height=32 alt="beta[1]*log(alpha[1])+beta[2]*log(alpha[2])+`...`+b..." align=middle>
+<b><font color=#000080> is necessarily transcendental.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The first major point to note is that this theorem completely answers the particular question - and the completely general case of that question - that Siegel posed at the end of Chapter 3 of his book, and which I've already written about in the Siegel section.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Notice, by the way, that the transcendence of </font></b>
+<img src="images/transcendental944.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> is a </font></b>
+<i><b><font color=#000080>minor</font></b></i>
+<b><font color=#000080> consequence: simply choose </font></b>
+<img src="images/transcendental945.gif" width=169 height=32 alt="n = 1, alpha[1] = -1, beta[1] = 1" align=middle>
+<b><font color=#000080>, and use the fact that </font></b>
+<img src="images/transcendental946.gif" width=36 height=32 alt="Pi*i" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> value of the </font></b>
+<i><b><font color=#000080>complex</font></b></i>
+<b><font color=#000080> logarithm </font></b>
+<img src="images/transcendental947.gif" width=70 height=32 alt="log[e](-1)" align=middle>
+<b><font color=#000080> (that's just the old classic </font></b>
+<img src="images/transcendental948.gif" width=91 height=58 alt="e^(Pi*i) = -1" align=middle>
+<b><font color=#000080> , that was utilized by Lindemann in his proof of the transcendence of </font></b>
+<img src="images/transcendental949.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080>). Then </font></b>
+<img src="images/transcendental950.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> cannot be algebraic since otherwise </font></b>
+<img src="images/transcendental951.gif" width=36 height=32 alt="Pi*i" align=middle>
+<b><font color=#000080> would also be algebraic, contrary to Baker's theorem.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem (Baker, 1966). </font></b>
+<img src="images/transcendental952.gif" width=193 height=72 alt="e^beta[0]*alpha[1]^beta[1]*alpha[2]^beta[2]*`...`*a..." align=middle>
+<b><font color=#000080> is transcendental for </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> non-zero algebraic numbers</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental953.gif" width=113 height=32 alt="alpha[1], alpha[2], `...`, alpha[n]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental954.gif" width=137 height=32 alt="beta[0], beta[1], beta[2], `...`, beta[n]" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Examples. Simply make up your own!! Notice, in passing, that the transcendence of </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> is a minor consequence: simply choose </font></b>
+<img src="images/transcendental955.gif" width=107 height=32 alt="n, beta[0], alpha[1], beta[1]" align=middle>
+<b><font color=#000080> all to be 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem (Baker, 1966). </font></b>
+<img src="images/transcendental956.gif" width=162 height=72 alt="alpha[1]^beta[1]*alpha[2]^beta[2]*`...`*alpha[n]^be..." align=middle>
+<b><font color=#000080> is transcendental for any algebraic numbers </font></b>
+<img src="images/transcendental957.gif" width=113 height=32 alt="alpha[1], alpha[2], `...`, alpha[n]" align=middle>
+<b><font color=#000080>, other than 0 or 1, and any algebraic numbers  </font></b>
+<img src="images/transcendental958.gif" width=110 height=32 alt="beta[1], beta[2], `...`, beta[n]" align=middle>
+<b><font color=#000080> with </font></b>
+<img src="images/transcendental959.gif" width=126 height=32 alt="1, beta[1], beta[2], `...`, beta[n]" align=middle>
+<b><font color=#000080> linearly independent over the rationals.<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Obvious comment on the </font></b>
+<i><b><font color=#000080>'linearly independent'</font></b></i>
+<b><font color=#000080> condition. Recall the Gelfond-Schneider theorem tells us that </font></b>
+<img src="images/transcendental960.gif" width=56 height=72 alt="alpha[1]^beta[1]" align=middle>
+<b><font color=#000080> is transcendental where </font></b>
+<img src="images/transcendental961.gif" width=63 height=32 alt="alpha[1], beta[1]" align=middle>
+<b><font color=#000080> are any algebraic numbers with </font></b>
+<img src="images/transcendental962.gif" width=80 height=32 alt="alpha[1] &lt;&gt; 0, 1" align=middle>
+<b><font color=#000080>, and </font></b>
+<img src="images/transcendental963.gif" width=35 height=32 alt="beta[1]" align=middle>
+<b><font color=#000080> is irrational. Now consider two such numbers - </font></b>
+<img src="images/transcendental964.gif" width=56 height=72 alt="alpha[1]^beta[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental965.gif" width=56 height=72 alt="alpha[2]^beta[2]" align=middle>
+<b><font color=#000080>  - and consider their product and sum. What can be said about those numbers? (Bear in mind it is </font></b>
+<i><b><font color=#000080>completely elementary</font></b></i>
+<b><font color=#000080> that if </font></b>
+<img src="images/transcendental966.gif" width=50 height=32 alt="t[1], t[2]" align=middle>
+<b><font color=#000080> are two transcendental numbers then </font></b>
+<i><b><font color=#000080>at least one</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/transcendental967.gif" width=62 height=32 alt="t[1]+t[2]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental968.gif" width=46 height=32 alt="t[1]*t[2]" align=middle>
+<b><font color=#000080> must be transcendental; recall the remark concerning </font></b>
+<img src="images/transcendental969.gif" width=54 height=32 alt="e+Pi" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental970.gif" width=38 height=32 alt="e*Pi" align=middle>
+<b><font color=#000080> at the end of the Siegel section). In reality, nothing of any value can be said about their sum, and I won't dwell on it, but something profound can be said about their product. Essentially what I am going to say is that the product is transcendental, but one needs to rule out of consideration one obvious case, which I hope is made clear by these two cases: </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>Choose </font></b>
+<img src="images/transcendental971.gif" width=118 height=32 alt="alpha[1], beta[1], alpha[2], beta[2]" align=middle>
+<b><font color=#000080> to be </font></b>
+<img src="images/transcendental972.gif" width=126 height=64 alt="5, sqrt(3), 25, -sqrt(3)/2" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental973.gif" width=56 height=72 alt="alpha[1]^beta[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental974.gif" width=56 height=72 alt="alpha[2]^beta[2]" align=middle>
+<b><font color=#000080> are </font></b>
+<img src="images/transcendental975.gif" width=47 height=64 alt="5^sqrt(3)" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental976.gif" width=91 height=114 alt="25^(-sqrt(3)/2)" align=middle>
+<b><font color=#000080>,<br>
+and their product </font></b>
+<img src="images/transcendental977.gif" width=47 height=64 alt="5^sqrt(3)" align=middle>
+<b><font color=#000080>.</font></b>
+<img src="images/transcendental978.gif" width=91 height=114 alt="25^(-sqrt(3)/2)" align=middle>
+<b><font color=#000080>is clearly 1, is most certainly not transcendental!<br>
+Of course you see how I made that happen: I choose the 5 and 25 in the obvious way, and the two irrational powers </font></b>
+<img src="images/transcendental979.gif" width=86 height=64 alt="sqrt(3), -sqrt(3)/2" align=middle>
+<b><font color=#000080> are linearly dependent over the rationals in such a way as to make...</font></b>
+</li>
+<li>
+<b><font color=#000080>Here I make a choice that is like the previous one, but with one small change: choose </font></b>
+<img src="images/transcendental980.gif" width=118 height=32 alt="alpha[1], beta[1], alpha[2], beta[2]" align=middle>
+<b><font color=#000080> to be </font></b>
+<img src="images/transcendental981.gif" width=144 height=64 alt="5, sqrt(3), 25, 1/3-sqrt(3)/2" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental982.gif" width=56 height=72 alt="alpha[1]^beta[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental983.gif" width=56 height=72 alt="alpha[2]^beta[2]" align=middle>
+<b><font color=#000080> are </font></b>
+<img src="images/transcendental984.gif" width=47 height=64 alt="5^sqrt(3)" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental985.gif" width=109 height=114 alt="25^(1/3-sqrt(3)/2)" align=middle>
+<b><font color=#000080>and their product </font></b>
+<img src="images/transcendental986.gif" width=47 height=64 alt="5^sqrt(3)" align=middle>
+<b><font color=#000080>.</font></b>
+<img src="images/transcendental987.gif" width=109 height=114 alt="25^(1/3-sqrt(3)/2)" align=middle>
+<b><font color=#000080>is clearly </font></b>
+<img src="images/transcendental988.gif" width=63 height=108 alt="25^(1/3)" align=middle>
+<b><font color=#000080> , is clearly algebraic.<br>
+Of course you again see how I made that happen: this time the irrational powers </font></b>
+<img src="images/transcendental989.gif" width=104 height=64 alt="sqrt(3), 1/3-sqrt(3)/2" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> linearly <br>
+</font></b>
+<b><font color=#000080 size=4>in</font></b>
+<b><font color=#000080>dependent over the rationals, but the three numbers </font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental990.gif" width=104 height=64 alt="sqrt(3), 1/3-sqrt(3)/2" align=middle>
+<b><font color=#000080> are linearly dependent over the rationals.</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>To end, I quote directly from two papers of Alan Baker (the celebrated 1968 pair, published back-to-back in the same issue of the Philosophical Transactions of the Royal Society of London):</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>CONTRIBUTIONS TO THE THEORY OF DIOPHANTINE EQUATIONS<br>
+1. ON THE REPRESENTATION OF INTEGERS BY BINARY FORMS<br>
+By A. BAKER</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>1. Introduction</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It was proved by Thue (1909) that the Diophantine equation</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>f</font></b></i>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>) = </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>,           (1)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<i><b><font color=#000080>f</font></b></i>
+<b><font color=#000080> denotes an irreducible binary form with integer coefficients and degree at least 3, and </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> is any integer, possesses only a finite number of solutions in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>. Thue discovered the theorem by way of his fundamental studies on rational approximations to algebraic numbers, which were later profoundly developed in the celebrated works of Siegel (1921) and Roth (1955), and which formed the genesis of many other investigations. But Thue's theorem, like all subsequent developments, suffers from one basic limitation, that of its non-effectiveness... Indeed it would seem that even for cubic polynomials </font></b>
+<i><b><font color=#000080>f</font></b></i>
+<b><font color=#000080>, no generally effective algorithm for the complete solution of (1) has hitherto been established, although a wide variety of techniques have been successfully employed to treat particular equations of this kind.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    The present paper is devoted to a new proof of Thue's theorem, which proceeds by an argument that is effective, and therefore provides an algorithm for the complete solution of (1) in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>f</font></b></i>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>) denote a homogeneous polynomial in </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> with degree </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (at least 3) and with integer coefficients, irreducible over the rationals. Suppose that</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental991.gif" width=25 height=32 alt="kappa" align=middle>
+<b><font color=#000080> &gt; </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> + 1          (2)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and let </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> be any positive integer. The main result of this paper is as follows</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem 1. </font></b>
+<i><b><font color=#000080>All solutions of </font></b></i>
+<b><font color=#000080>(1)</font></b>
+<i><b><font color=#000080> in integers x, y satisfy</font></b></i>
+</p>
+<p align=center>
+<b><font color=#000080>max(|</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>|, |</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>|) &lt; </font></b>
+<img src="images/transcendental992.gif" width=109 height=76 alt="C*e^(log(m)^kappa)" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<i><b><font color=#000080>C</font></b></i>
+<b><font color=#000080> is an effectively computabe constant depending only on </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental993.gif" width=25 height=32 alt="kappa" align=middle>
+<b><font color=#000080>, and the coefficients of </font></b>
+<i><b><font color=#000080>f</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>... ... ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem 2. </font></b>
+<i><b><font color=#000080>Suppose </font></b></i>
+<img src="images/transcendental994.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>is an algebraic number with degree n (at least 3), and that </font></b></i>
+<img src="images/transcendental995.gif" width=25 height=32 alt="kappa" align=middle>
+<b><font color=#000080> &gt; </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> + 1. </font></b>
+<i><b><font color=#000080>Then there is an</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>effectively computable number</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>c </font></b></i>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental996.gif" width=66 height=32 alt="c(alpha,kappa)" align=middle>
+<b><font color=#000080> &gt; 0 </font></b>
+<i><b><font color=#000080>such that</font></b></i>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental997.gif" width=70 height=58 alt="abs(alpha-p/q)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>&gt;</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental998.gif" width=173 height=134 alt="c*q^(-n)*e^(log(q)^(1/kappa))" align=middle>
+<b><font color=#000080>       (3)</font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>for all integers p</font></b></i>
+<b><font color=#000080>,</font></b>
+<i><b><font color=#000080> q </font></b></i>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> &gt; 0)</font></b>
+<i><b><font color=#000080>.</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And later:</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>CONTRIBUTIONS TO THE THEORY OF DIOPHANTINE EQUATIONS<br>
+II. THE DIOPHANTINE EQUATION </font></b>
+<img src="images/transcendental999.gif" width=97 height=50 alt="y^2 = x^3+k" align=middle>
+<b><font color=#000080><br>
+By A. BAKER</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>1. Introduction</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The problem of finding the totality of integers whose cubes differ by a given integer from a square has interested mathematicians for several centuries. According to Dickson's </font></b>
+<i><b><font color=#000080>History of the theory of numbers</font></b></i>
+<b><font color=#000080> researches on the subject can be traced back at least as far as Bachet (1621), and numerous contributions to the general theory can be found in the works of Fermat, Euler, V. A. Lebesgue, Pepin, Jonquières and many others. More especially, during the past fifty or so years, the equation of the title has been extensively investigated by Mordell (1913, 1914, 1922, 1923, 1963, 1964 and see, in particular, 1947: </font></b>
+<i><b><font color=#000080>A chapter in the theory of numbers</font></b></i>
+<b><font color=#000080>), Nagell (1929, 1930), Delaunay (1929) (Footnote: See also Delone [Delaunay] &amp; Faddeev (1940)), Ljunggren (1942, 1963) and Hemer (1952, 1954) (Footnote: See also Skolem (1938), Marshall Hall (1953)), and a complete set of solutions has now been obtained for large classes of values of </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>; these include, for example, all </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080> satisfying 0 &lt; </font></b>
+<img src="images/transcendental1000.gif" width=78 height=32 alt="abs(k) &lt;= 100" align=middle>
+<b><font color=#000080>, except for 20 special cases. The methods of solution vary widely according to the specific </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080> under discussion, but they usually involve a combination of congruence techniques, together with a detailed study of the arithmetic of certain underlying number fields. In addition the argument often utilizes the well known connection between the equation of the title and equations of the kind</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>    f</font></b></i>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>) = </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>,           (1)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<i><b><font color=#000080>f</font></b></i>
+<b><font color=#000080> denotes an irreducible binary form with integer coefficients and degree at least 3, and </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> denotes a fixed integer. In particular Mordell (1922, 1923) (Footnote: See also Thue (1917), Landau &amp; Ostrowski (1920), Siegel (1926)) has employed this feature, together with the famous theorem of Thue (1909), to show that, for any </font></b>
+<img src="images/transcendental1001.gif" width=52 height=32 alt="k &lt;&gt; 0" align=middle>
+<b><font color=#000080>, the equation</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental1002.gif" width=97 height=50 alt="y^2 = x^3+k" align=middle>
+<b><font color=#000080>          (2)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>has only a finite number of solutions in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>. No general algorithm, however, has hitherto been established which would enable one to find all solutions of (2) for any prescribed </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    In a recent paper (Baker 1968 [JC: the first paper above]) a new proof of the finiteness of the number of solutions of (1) was given, which, in contrast to Thue's original proof, proceeds by an argument that is effective and provides therefore a process for determining all solutions of the equation in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>. Moreover, it was remarked that, in consequence of this result, one could now obtain an effective algorithm for the complete solution of (2) in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>, and it is the purpose of the present paper to supply the details of the demonstration. The precise result that will be established is as follows.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem 1. For any integer </font></b>
+<img src="images/transcendental1003.gif" width=52 height=32 alt="k &lt;&gt; 0" align=middle>
+<b><font color=#000080>, and integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y </font></b></i>
+<b><font color=#000080>with </font></b>
+<img src="images/transcendental1004.gif" width=97 height=50 alt="y^2 = x^3+k" align=middle>
+<b><font color=#000080>, we have max(|</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>|, |</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>|) &lt; </font></b>
+<img src="images/transcendental1005.gif" width=137 height=102 alt="e^(10^10*abs(k)^(10^4))" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>___________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I could report on later developments, but I need to end somewhere, and here is as good a place as any.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:10:00 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

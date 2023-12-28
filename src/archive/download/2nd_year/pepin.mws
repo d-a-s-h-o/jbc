@@ -1,0 +1,108 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 0 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 1 14 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 260 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Norm
+al" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 0 1 0 0 0 0 0 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bul
+let Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 
+0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "# pepin.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "2^(n+1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#)\"\"#,&%\"nG\"\"\"F'F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 256 "" 0 "" {TEXT 257 41 "Pepin's theorem for testing pri
+mality of " }{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT 256 1 "." 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "The n-t
+h. '" }{TEXT 259 13 "Fermat number" }{TEXT -1 16 "' is defined by " }
+{XPPEDIT 18 0 "F[n] = 2^(2^n)+1;" "6#/&%\"FG6#%\"nG,&)\"\"#)\"\"#%\"nG
+\"\"\"F.F." }{TEXT -1 6 ", for " }{TEXT 258 1 "n" }{TEXT -1 20 " = 0, \+
+1, 2, 3, ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 22 "They are the numbers  " }{XPPEDIT 18 0 "2^1+1;" "6#,&)\"
+\"#\"\"\"\"\"\"\"\"\"F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^2+1;" "6#,
+&)\"\"#\"\"#\"\"\"\"\"\"F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^4+1;" "
+6#,&)\"\"#\"\"%\"\"\"\"\"\"F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^8+1;
+" "6#,&)\"\"#\"\")\"\"\"\"\"\"F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^1
+6+1;" "6#,&)\"\"#\"#;\"\"\"\"\"\"F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "
+2^32+1;" "6#,&)\"\"#\"#K\"\"\"\"\"\"F'" }{TEXT -1 7 ", ... ." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "Fermat " }{TEXT 
+261 8 "believed" }{TEXT -1 15 " that they are " }{TEXT 260 9 "all prim
+e" }{TEXT -1 23 ", but he erred in that." }}{PARA 0 "" 0 "" {TEXT -1 
+56 "The first five of them are prime, but the 6th. of them -" }}{PARA 
+0 "" 0 "" {XPPEDIT 18 0 "F[5];" "6#&%\"FG6#\"\"&" }{TEXT -1 60 " ( = 4
+,294,967,297 ) - is, as was shown by Euler, composite." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 30 "The first several of
+ them are:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "seq(2^(2^n) +
+ 1, n=0..8);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6+\"\"$\"\"&\"#<\"$d#\"&
+Pb'\"+(Hn\\H%\"5<;b4P2WnW=\"Hd9@o<V2YPjMYQ4#pO#GS$\"ioP*R'HJ\"z+%ed%RS
+cScm%)*pK&y!zo3])4dBa>;tB*3#z:\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 262 53 "How can one \+
+tell if a Fermat number is a prime or not" }{TEXT -1 1 "?" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "Here there are thr
+ee stages of development (just as with the" }}{PARA 0 "" 0 "" {TEXT 
+-1 18 "Mersenne numbers):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 
+"" 0 "" {TEXT -1 36 "use the crude Eratosthenes approach\n" }}{PARA 
+15 "" 0 "" {TEXT -1 114 "use a certain improvement of Euler's:\n\njust
+ as Fermat discovered - and Euler proved - that\nany prime that divide
+s " }{XPPEDIT 18 0 "M[p];" "6#&%\"MG6#%\"pG" }{TEXT -1 28 " must be co
+ngruent to 1 mod " }{TEXT 263 1 "p" }{TEXT -1 41 ",\nEuler discovered,
+ and proved, that for " }{TEXT 264 2 "n " }{TEXT -1 28 "> 1, any prime
+\nthat divides " }{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 
+28 " must be congruent to 1 mod " }{XPPEDIT 18 0 "2^(n+1);" "6#*$\"\"#
+,&%\"nG\"\"\"\"\"\"F'" }{TEXT -1 2 ".\n" }}{PARA 15 "" 0 "" {TEXT -1 
+56 "the best improvement is one due to Pepin (1877), and\nit " }{TEXT 
+265 9 "resembles" }{TEXT -1 90 " the famous Lucas-Lehmer theorem\n(Luc
+as, 1874) in its philosophy, in that it asserts that\n" }{XPPEDIT 18 
+0 "F[n]" "6#&%\"FG6#%\"nG" }{TEXT -1 74 " is prime if it divides a cer
+tain number, and is\ncomposite if it doesn't.\n" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 266 14 "What is that '" }{TEXT 267 14 "certain nu
+mber" }{TEXT 268 2 "'?" }{TEXT -1 25 "  I am going to state the" }}
+{PARA 0 "" 0 "" {TEXT -1 56 "Pepin theorem so as to make it resemble t
+he L-L theorem:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 269 34 "(A way of stating) Pepin's theorem" }
+{TEXT -1 6 ". Let " }{TEXT 270 1 "n" }{TEXT -1 20 " be a natural numbe
+r" }}{PARA 0 "" 0 "" {TEXT -1 5 "with " }{TEXT 271 1 "n" }{TEXT -1 12 
+" > 1. Let \{ " }{XPPEDIT 18 0 "a[r];" "6#&%\"aG6#%\"rG" }{TEXT -1 30 
+" \} be the sequence defined by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "a[r];" "6#&%\"aG6#%\"r
+G" }{TEXT -1 9 " = 3, and" }}{PARA 15 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "a[r] = a[r-1]^2;" "6#/&%\"aG6#%\"rG*$)&F%6#,&F'\"\"\"!
+\"\"F-\"\"#\"\"\"" }{TEXT -1 6 ", for " }{TEXT 272 1 "r" }{TEXT -1 6 "
+ > 1.\n" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{XPPEDIT 18 0 "F[n];" "6
+#&%\"FG6#%\"nG" }{TEXT -1 14 "  is prime if " }{XPPEDIT 18 0 "F[n];" "
+6#&%\"FG6#%\"nG" }{TEXT -1 11 " divides  (" }{XPPEDIT 18 0 "a[2^n-1];
+" "6#&%\"aG6#,&)\"\"#%\"nG\"\"\"!\"\"F*" }{TEXT -1 23 " + 1), and is c
+omposite" }}{PARA 0 "" 0 "" {TEXT -1 14 "if it doesn't." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 273 12 "How \+
+is that " }{TEXT 274 4 "like" }{TEXT 275 17 " the L-L theorem?" }
+{TEXT -1 31 "  Well, just as the L-L theorem" }}{PARA 0 "" 0 "" {TEXT 
+-1 65 "involved a certain sequence (starting with 4, and then repeated
+ly" }}{PARA 0 "" 0 "" {TEXT -1 61 "squaring and subtracting 2), here o
+ne has a certain sequence," }}{PARA 0 "" 0 "" {TEXT -1 6 "which:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 15 "starts w
+ith 3, " }}{PARA 15 "" 0 "" {TEXT -1 94 "and then one repeatedly squar
+es a certain number of times,\nuntil - in fact - one gets to the (" }
+{XPPEDIT 18 0 "2^n-1" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 25 
+")th. term of the sequence" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "7 27 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 }

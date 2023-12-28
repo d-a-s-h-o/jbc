@@ -1,0 +1,574 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 256 "" 1 18 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+347 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 361 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+362 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+372 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 373 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 376 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+377 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 380 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 381 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+382 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 385 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 386 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+387 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 388 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 389 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 391 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+392 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 
+2 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"" 0 259 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "# some important lim
+its.mws" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 256 21 "Some
+ important limits" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "This \+
+entirely elementary worksheet\n" }}{PARA 15 "" 0 "" {TEXT -1 74 "recor
+ds some elementary limit results concerning sequences of real numbers
+" }}{PARA 15 "" 0 "" {TEXT -1 75 "records and proves some elementary (
+but non-trivial) standard limit results" }}{PARA 0 "" 0 "" {TEXT -1 1 
+"\n" }{TEXT 281 23 "Some elementary results" }{TEXT -1 7 ": Let \{" }
+{XPPEDIT 18 0 "a[n];" "6#&%\"aG6#%\"nG" }{TEXT -1 7 "\} and \{" }
+{XPPEDIT 18 0 "b[n];" "6#&%\"bG6#%\"nG" }{TEXT -1 9 "\} be two " }
+{TEXT 257 10 "convergent" }{TEXT -1 11 " sequences " }}{PARA 0 "" 0 "
+" {TEXT -1 6 "(i.e. " }{XPPEDIT 18 0 "limit(a[n],n = infinity) = a;" "
+6#/-%&limitG6$&%\"aG6#%\"nG/F*%)infinityGF(" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "limit(b[n],n = infinity) = b;" "6#/-%&limitG6$&%\"bG6#%
+\"nG/F*%)infinityGF(" }{TEXT -1 26 ", for some finite numbers " }
+{TEXT 258 1 "a" }{TEXT -1 5 " and " }{TEXT 259 1 "b" }{TEXT -1 8 "), t
+hen:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 19 "
+(sum)              " }{XPPEDIT 18 0 "limit(a[n]+b[n],n = infinity) = a
++b;" "6#/-%&limitG6$,&&%\"aG6#%\"nG\"\"\"&%\"bG6#F+F,/F+%)infinityG,&F
+)F,F.F," }{TEXT -1 17 "\n(difference)    " }{XPPEDIT 18 0 "limit(a[n]-
+b[n],n = infinity) = a-b;" "6#/-%&limitG6$,&&%\"aG6#%\"nG\"\"\"&%\"bG6
+#F+!\"\"/F+%)infinityG,&F)F,F.F0" }{TEXT -1 19 "\n(product)         " 
+}{XPPEDIT 18 0 "limit(a[n]*b[n],n = infinity) = a*b;" "6#/-%&limitG6$*
+&&%\"aG6#%\"nG\"\"\"&%\"bG6#F+F,/F+%)infinityG*&F)F,F.F," }{TEXT -1 
+21 "\n(ratio)             " }{XPPEDIT 18 0 "limit(a[n]/b[n],n = infini
+ty) = a/b;" "6#/-%&limitG6$*&&%\"aG6#%\"nG\"\"\"&%\"bG6#F+!\"\"/F+%)in
+finityG*&F)F,F.F0" }{TEXT -1 2 ", " }{TEXT 260 8 "provided" }{TEXT -1 
+1 " " }{XPPEDIT 18 0 "b <> 0;" "6#0%\"bG\"\"!" }{TEXT -1 2 "\n\n" }
+{TEXT 261 4 "Note" }{TEXT -1 20 ". In the case where " }{XPPEDIT 18 0 
+"b = 0;" "6#/%\"bG\"\"!" }{TEXT -1 2 ", " }{TEXT 262 8 "anything" }
+{TEXT -1 15 " can happen...\n" }}{PARA 0 "" 0 "" {TEXT 264 34 "An elem
+entary, but important limit" }{TEXT -1 6 ". Let " }{TEXT 263 1 "x" }
+{TEXT -1 26 " be any real number; then\n" }}{PARA 15 "" 0 "" {TEXT -1 
+4 "for " }{XPPEDIT 18 0 "0 < x;" "6#2\"\"!%\"xG" }{TEXT -1 9 " we have
+ " }{XPPEDIT 18 0 "limit(n*x,n = infinity) = infinity;" "6#/-%&limitG6
+$*&%\"nG\"\"\"%\"xGF)/F(%)infinityGF," }{TEXT -1 23 " (this has been c
+alled " }{TEXT 277 21 "Archimedes' principle" }{TEXT -1 1 ")" }}{PARA 
+15 "" 0 "" {TEXT -1 4 "for " }{XPPEDIT 18 0 "x < 0;" "6#2%\"xG\"\"!" }
+{TEXT -1 9 " we have " }{XPPEDIT 18 0 "limit(n*x,n = infinity) = -infi
+nity;" "6#/-%&limitG6$*&%\"nG\"\"\"%\"xGF)/F(%)infinityG,$F,!\"\"" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 4 "for " }{XPPEDIT 18 0 "x =
+ 0;" "6#/%\"xG\"\"!" }{TEXT -1 21 " we have (trivially) " }{XPPEDIT 
+18 0 "limit(n*x,n = infinity) = 0;" "6#/-%&limitG6$*&%\"nG\"\"\"%\"xGF
+)/F(%)infinityG\"\"!" }{TEXT -1 1 "\n" }}{PARA 0 "" 0 "" {TEXT 265 7 "
+Comment" }{TEXT -1 42 ". The first of these should not come as a " }
+{TEXT 266 8 "surprise" }{TEXT -1 41 ", since it is merely stating that
+ if one " }{TEXT 268 10 "repeatedly" }{TEXT -1 6 " adds " }{TEXT 267 
+1 "x" }{TEXT -1 12 " (no matter " }{TEXT 270 9 "how small" }{TEXT -1 
+1 " " }{TEXT 269 1 "x" }{TEXT -1 36 " might be) then one will eventual
+ly " }{TEXT 271 6 "exceed" }{TEXT -1 62 " whatever real number one wis
+hes. For example, if one were to " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 55 "choose the (moderately small) number 0.0
+00000151 (for '" }{TEXT 272 1 "x" }{TEXT -1 8 "'), and " }}{PARA 15 "
+" 0 "" {TEXT -1 58 "choose the (moderately large) number 12,345,654,32
+1 (for '" }{TEXT 273 1 "A" }{TEXT -1 2 "')" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }{TEXT 276 3 "all" }
+{TEXT -1 24 " terms of the sequence \{" }{XPPEDIT 18 0 "n*x;" "6#*&%\"
+nG\"\"\"%\"xGF%" }{TEXT -1 8 "\} would " }{TEXT 275 10 "eventually" }
+{TEXT -1 8 " exceed " }{TEXT 274 1 "A" }{TEXT -1 1 "." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 279 23 "Another important lim
+it" }{TEXT -1 16 " (which plays a " }{TEXT 278 11 "fundamental" }
+{TEXT -1 32 " role in deciding the sum of an " }{TEXT 366 25 "infinite
+ geometric series" }{TEXT -1 7 "). Let " }{TEXT 280 1 "x" }{TEXT -1 
+25 " be any real number; then" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 4 "for " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%
+\"xG" }{TEXT -1 9 " we have " }{XPPEDIT 18 0 "limit(x^n,n = infinity) \+
+= infinity;" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 5 "
+\nfor " }{XPPEDIT 18 0 "x < -1;" "6#2%\"xG,$\"\"\"!\"\"" }{TEXT -1 15 
+" the sequence \{" }{XPPEDIT 18 0 "x^n;" "6#)%\"xG%\"nG" }{TEXT -1 
+101 "\} oscillates infinitely (meaning that its \nterms become alterna
+tely large, positively and negatively)" }}{PARA 15 "" 0 "" {TEXT -1 4 
+"for " }{XPPEDIT 18 0 "-1 < x;" "6#2,$\"\"\"!\"\"%\"xG" }{TEXT -1 13 "
+ < 1 we have " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = 0;" "6#/-%&li
+mitG6$)%\"xG%\"nG/F)%)infinityG\"\"!" }{TEXT -1 2 "\n\n" }{TEXT 387 4 
+"Note" }{TEXT -1 107 ". There is an intimate link between those two re
+sults, as we will soon see. \nFor completeness we note that:" }}{PARA 
+15 "" 0 "" {TEXT -1 4 "for " }{XPPEDIT 18 0 "x = 1;" "6#/%\"xG\"\"\"" 
+}{TEXT -1 21 " we have (trivially) " }{XPPEDIT 18 0 "limit(x^n,n = inf
+inity) = 1;" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityG\"\"\"" }{TEXT 
+-1 10 ", and\nfor " }{XPPEDIT 18 0 "x = -1;" "6#/%\"xG,$\"\"\"!\"\"" }
+{TEXT -1 15 " the sequence \{" }{XPPEDIT 18 0 "x^n;" "6#)%\"xG%\"nG" }
+{TEXT -1 30 "\} alternates between -1 and 1\n" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 282 7 "Comment" }{TEXT -1 43 ". Later I will late
+r give a proof that for " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }
+{TEXT -1 9 " we have " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = infin
+ity" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 19 ". Of co
+urse we are " }{TEXT 283 13 "not surprised" }{TEXT -1 15 " that if (sa
+y) " }{XPPEDIT 18 0 "x = 2;" "6#/%\"xG\"\"#" }{TEXT -1 6 " then " }
+{XPPEDIT 18 0 "limit(x^n,n = infinity) = infinity;" "6#/-%&limitG6$)%
+\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 17 ", because we are " }{TEXT 
+284 11 "so familiar" }{TEXT -1 20 " with the sequence \{" }{XPPEDIT 
+18 0 "x^n;" "6#)%\"xG%\"nG" }{TEXT -1 108 "\}, whose terms are: 2, 4, \+
+8, 16, 32, 64, 128, 256, etc, etc. And, again, we are not surprised th
+at if (say) " }{XPPEDIT 18 0 "x = 93.80131;" "6#/%\"xG$\"(J,Q*!\"&" }
+{TEXT -1 6 " then " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = infinity
+" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 49 ", if only \+
+because the terms of that sequence are " }{TEXT 285 16 "termwise great
+er" }{TEXT -1 33 " than those of the earlier one..." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "However, one " }{TEXT 
+367 5 "ought" }{TEXT -1 35 " to realise it is not trivial that " }
+{TEXT 286 19 "no matter how close" }{TEXT -1 23 " to '1' (on the right
+) " }{TEXT 287 1 "x" }{TEXT -1 36 " may be, the terms of the sequence \+
+\{" }{XPPEDIT 18 0 "x^n;" "6#)%\"xG%\"nG" }{TEXT -1 2 "\} " }{TEXT 
+327 9 "gradually" }{TEXT -1 35 " pick up momentum... and get to be " }
+{TEXT 288 4 "huge" }{TEXT -1 3 "..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT 289 17 "Numerical example" }{TEXT -1 43 ". To m
+ake my point, I start by choosing an " }{TEXT 290 1 "x" }{TEXT -1 6 " \+
+just " }{TEXT 291 16 "slightly greater" }{TEXT -1 8 " than 1:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "x := 1 + 1/4321;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 49 "and let's have a look at the first few powers of " }{TEXT 292 
+1 "x" }{TEXT -1 2 ": " }{XPPEDIT 18 0 "x,x^2,x^3,x^4,x^5;" "6'%\"xG*$F
+#\"\"#*$F#\"\"$*$F#\"\"%*$F#\"\"&" }{TEXT -1 6 ", ... " }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "for k to 10 do a[k] := x^k od;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "for k to 10 do print(a[k], e
+valf(a[k])) od;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 53 "Now I am going to suppress the rat
+ional outputs (the " }{TEXT 296 11 "true values" }{TEXT -1 42 ", of co
+urse), and have a look at decimal (" }{TEXT 297 11 "approximate" }
+{TEXT -1 57 ") values only. Note that I've also altered the value of '
+" }{TEXT 298 1 "x" }{TEXT -1 16 "'; I've made it " }{TEXT 299 11 "much
+ nearer" }{TEXT -1 6 " to 1:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 88 "x := 1 + 1/987654321:\nfor k to 10 do a[k] := x^k od:\nfor k to \+
+10 do [k, evalf(a[k])] od;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "where we " }{TEXT 300 3 "se
+e" }{TEXT -1 25 "... But now look at this:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 100 "x := 1 + 1/151413121110987654321:\nfor k to 10 do \+
+a[k] := x^k od:\nfor k to 10 do [k, evalf(a[k])] od;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 177 "
+Of course you should realise what has happened... , so now let's alter
+ the number of decimal places (I will make the changes in front of you
+; I use 'np' for 'number of places'):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 114 "np := 20:\nx := 1 + 1/151413121110987654321:\nfor k \+
+to 10 do a[k] := x^k od:\nfor k to 10 do [k, evalf(a[k], np)] od;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 28 "So, we notice certain things" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 15 "" 0 "" {TEXT -1 11 "that it is " }{TEXT 301 4 "hard" 
+}{TEXT -1 45 " to see much from the explicit rational forms" }}{PARA 
+15 "" 0 "" {TEXT -1 81 "but - from the decimal approximations - we at \+
+least see that \nthe powers are (or " }{TEXT 302 12 "appear to be" }
+{TEXT -1 2 ") " }{TEXT 293 19 "creeping up in size" }{TEXT -1 2 ". " }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "The latt
+er " }{TEXT 294 10 "should not" }{TEXT -1 6 " be a " }{TEXT 295 8 "sur
+prise" }{TEXT -1 17 " since clearly: \n" }}{PARA 15 "" 0 "" {TEXT -1 
+5 "with " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 9 " we ha
+ve " }{XPPEDIT 18 0 "x.1 < x.x;" "6#2-%\".G6$%\"xG\"\"\"-F%6$F'F'" }
+{TEXT -1 9 ", and so " }{XPPEDIT 18 0 "x < x^2;" "6#2%\"xG*$F$\"\"#" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 5 "with " }{XPPEDIT 18 0 "x \+
+< x^2" "6#2%\"xG*$F$\"\"#" }{TEXT -1 9 " we have " }{XPPEDIT 18 0 "x.x
+ < x.(x^2);" "6#2-%\".G6$%\"xGF'-F%6$F'*$F'\"\"#" }{TEXT -1 9 ", and s
+o " }{XPPEDIT 18 0 "x^2 < x^3;" "6#2*$%\"xG\"\"#*$F%\"\"$" }{TEXT -1 
+0 "" }}{PARA 15 "" 0 "" {TEXT -1 5 "with " }{XPPEDIT 18 0 "x^2 < x^3" 
+"6#2*$%\"xG\"\"#*$F%\"\"$" }{TEXT -1 9 " we have " }{XPPEDIT 18 0 "x.(
+x^2) < x.(x^3);" "6#2-%\".G6$%\"xG*$F'\"\"#-F%6$F'*$F'\"\"$" }{TEXT 
+-1 9 ", and so " }{XPPEDIT 18 0 "x^3 < x^4;" "6#2*$%\"xG\"\"$*$F%\"\"%
+" }{TEXT -1 7 "\netc..." }}{PARA 257 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 303 27 "(at last) Standard result 1" }{TEXT -1 6 ". For \+
+" }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 9 " we have " }
+{XPPEDIT 18 0 "limit(x^n,n = infinity) = infinity;" "6#/-%&limitG6$)%
+\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "There are several ways in which th
+at can be proved, but " }{TEXT 308 21 "one standard approach" }{TEXT 
+-1 73 " is to make use - in a straightforward way - of a particular ca
+se of the " }{TEXT 304 16 "binomial theorem" }{TEXT -1 1 ":" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "1+a = 1+a;
+" "6#/,&\"\"\"F%%\"aGF%,&F%F%F&F%" }{TEXT -1 1 "\n" }{XPPEDIT 18 0 "(1
++a)^2 = 1+2*a+a^2;" "6#/*$,&\"\"\"F&%\"aGF&\"\"#,(F&F&*&F(F&F'F&F&*$F'
+F(F&" }{TEXT -1 1 "\n" }{XPPEDIT 18 0 "(1+a)^3 = 1+3*a+3*a^2+a^3;" "6#
+/*$,&\"\"\"F&%\"aGF&\"\"$,*F&F&*&F(F&F'F&F&*&F(F&*$F'\"\"#F&F&*$F'F(F&
+" }{TEXT -1 5 "\n...\n" }{XPPEDIT 18 0 "(1+a)^n = 1+n*a+n*(n-1)*a^2/2+
+n*(n-1)*(n-2)*a^3/6;" "6#/),&\"\"\"F&%\"aGF&%\"nG,*F&F&*&F(F&F'F&F&**F
+(F&,&F(F&F&!\"\"F&F'\"\"#F.F-F&*,F(F&,&F(F&F&F-F&,&F(F&F.F-F&F'\"\"$\"
+\"'F-F&" }{TEXT -1 25 " + \n... higher powers of " }{TEXT 305 1 "a" }
+{TEXT -1 7 " (with " }{TEXT 306 5 "known" }{TEXT -1 2 ", " }{TEXT 307 
+8 "positive" }{TEXT -1 14 " coefficients)" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "In fact, all we will " }{TEXT 312 
+4 "need" }{TEXT -1 41 " to make a proof of Standard result 1 is:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "(1+a)
+^n = 1+n*a;" "6#/),&\"\"\"F&%\"aGF&%\"nG,&F&F&*&F(F&F'F&F&" }{TEXT -1 
+24 " + ... higher powers of " }{TEXT 309 1 "a" }{TEXT -1 7 " (with " }
+{TEXT 310 5 "known" }{TEXT -1 2 ", " }{TEXT 311 8 "positive" }{TEXT 
+-1 14 " coefficients)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }{TEXT 313 26 "Proof of Standard result 1" }{TEXT -1 
+7 ". With " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 13 " we
+ may set  " }{XPPEDIT 18 0 "x = 1+a;" "6#/%\"xG,&\"\"\"F&%\"aGF&" }
+{TEXT -1 11 ", for some " }{TEXT 368 1 "a" }{TEXT -1 6 " with " }
+{XPPEDIT 18 0 "0 < a;" "6#2\"\"!%\"aG" }{TEXT -1 16 ". Then we have:\n
+" }}{PARA 256 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "x^n = (1+a)^n;" "
+6#/)%\"xG%\"nG),&\"\"\"F)%\"aGF)F&" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "
+1+n*a;" "6#,&\"\"\"F$*&%\"nGF$%\"aGF$F$" }{TEXT -1 20 " + higher power
+s of " }{TEXT 314 1 "a" }{TEXT -1 14 " (with known, " }{TEXT 388 8 "po
+sitive" }{TEXT -1 15 " coefficients) " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 16 "It follows that " }{XPPEDIT 18 0 "n*a
+ < x^n;" "6#2*&%\"nG\"\"\"%\"aGF&)%\"xGF%" }{TEXT -1 5 " for " }{TEXT 
+343 3 "all" }{TEXT -1 1 " " }{TEXT 342 1 "n" }{TEXT -1 36 " ( = 1, 2, \+
+3, 4, 5, ... ), and thus " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = i
+nfinity;" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 7 " si
+nce " }{XPPEDIT 18 0 "limit(n*a,n = infinity) = infinity;" "6#/-%&limi
+tG6$*&%\"nG\"\"\"%\"aGF)/F(%)infinityGF," }{TEXT -1 1 "." }}{PARA 0 "
+" 0 "" {TEXT 315 7 "Comment" }{TEXT -1 85 ". What one should appreciat
+e here is that the behaviour of the possibly unmanageable " }{XPPEDIT 
+18 0 "x^n;" "6#)%\"xG%\"nG" }{TEXT -1 85 " can easily be overcome by e
+xploiting the fact that its growth can be gleaned from a " }{TEXT 316 
+20 "simple underestimate" }{TEXT -1 13 " of its size." }}{PARA 0 "" 0 
+"" {TEXT -1 1 "\n" }{TEXT 317 17 "Standard result 2" }{TEXT -1 6 ". Fo
+r " }{XPPEDIT 18 0 "0 < x;" "6#2\"\"!%\"xG" }{TEXT -1 13 " < 1 we have
+ " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = 0;" "6#/-%&limitG6$)%\"xG
+%\"nG/F)%)infinityG\"\"!" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 318 7 "Comment" }{TEXT -1 19 ". Here too, we are " }{TEXT 
+319 13 "not surprised" }{TEXT -1 15 " that if (say) " }{XPPEDIT 18 0 "
+x = 1/2;" "6#/%\"xG*&\"\"\"F&\"\"#!\"\"" }{TEXT -1 6 " then " }
+{XPPEDIT 18 0 "limit(x^n,n = infinity) = 0;" "6#/-%&limitG6$)%\"xG%\"n
+G/F)%)infinityG\"\"!" }{TEXT -1 17 ", because we are " }{TEXT 320 11 "
+so familiar" }{TEXT -1 20 " with the sequence \{" }{XPPEDIT 18 0 "x^n;
+" "6#)%\"xG%\"nG" }{TEXT -1 20 "\}, whose terms are: " }{XPPEDIT 18 0 
+"1/2,1/(4.1*8),1/16,1/32,1/64,1/128;" "6(*&\"\"\"F$\"\"#!\"\"*&F$F$*&$
+\"#TF&F$\"\")F$F&*&F$F$\"#;F&*&F$F$\"#KF&*&F$F$\"#kF&*&F$F$\"$G\"F&" }
+{TEXT -1 59 ", etc, etc. And, again, we are not surprised that if (say
+) " }{XPPEDIT 18 0 "x = 1/93.80131;" "6#/%\"xG*&\"\"\"F&$\"(J,Q*!\"&!
+\"\"" }{TEXT -1 6 " then " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = 0
+" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityG\"\"!" }{TEXT -1 49 ", if on
+ly because the terms of that sequence are " }{TEXT 321 16 "termwise sm
+aller" }{TEXT -1 33 " than those of the earlier one..." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "However, one ought t
+o realise it is non trivial that " }{TEXT 322 19 "no matter how close
+" }{TEXT -1 22 " to '1' (on the left) " }{TEXT 323 1 "x" }{TEXT -1 36 
+" may be, the terms of the sequence \{" }{XPPEDIT 18 0 "x^n;" "6#)%\"x
+G%\"nG" }{TEXT -1 20 "\} slowly but surely " }{TEXT 324 4 "fade" }
+{TEXT -1 21 "... and get to be ..." }{TEXT 325 9 "small... " }{TEXT 
+-1 49 "Once again a numerical example may prove helpful:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 95 "np := 70:\nx := 1 - 1/21:\nfor k to
+ 10 do a[k] := x^k od:\nfor k to 10 do [k, evalf(a[k], np)] od;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 83 "np := 30:\nx := evalf(1 - 1/
+21):\nfor k from 200 to 210 do a[k] := evalf(x^k, np)\nod;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+326 26 "Proof of Standard result 2" }{TEXT -1 7 ". With " }{XPPEDIT 
+18 0 "0 < x;" "6#2\"\"!%\"xG" }{TEXT -1 13 " < 1 we have " }{XPPEDIT 
+18 0 "x = 1/X;" "6#/%\"xG*&\"\"\"F&%\"XG!\"\"" }{TEXT -1 10 " for some
+ " }{XPPEDIT 18 0 "1 < X;" "6#2\"\"\"%\"XG" }{TEXT -1 2 ". " }}{PARA 
+0 "" 0 "" {TEXT -1 22 "                 Then " }{XPPEDIT 18 0 "x^n = 1
+/(X^n);" "6#/)%\"xG%\"nG*&\"\"\"F()%\"XGF&!\"\"" }{TEXT -1 9 ", and so
+ " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = 0;" "6#/-%&limitG6$)%\"xG
+%\"nG/F)%)infinityG\"\"!" }{TEXT -1 8 " since  " }{XPPEDIT 18 0 "limit
+(1/(X^n),n = infinity) = 0;" "6#/-%&limitG6$*&\"\"\"F()%\"XG%\"nG!\"\"
+/F+%)infinityG\"\"!" }{TEXT -1 3 ".\n\n" }{TEXT 330 11 "Observation" }
+{TEXT -1 15 ". It should be " }{TEXT 390 17 "immediately clear" }
+{TEXT -1 8 " that:\n\n" }{TEXT 331 18 "Standard result 2'" }{TEXT -1 
+6 ". For " }{XPPEDIT 18 0 "-1 < x;" "6#2,$\"\"\"!\"\"%\"xG" }{TEXT -1 
+13 " < 1 we have " }{XPPEDIT 18 0 "limit(x^n,n = infinity) = 0" "6#/-%
+&limitG6$)%\"xG%\"nG/F)%)infinityG\"\"!" }{TEXT -1 1 "." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 374 4 "Note" }{TEXT -1 23 "
+. The latter result is " }{TEXT 375 11 "fundamental" }{TEXT -1 89 " to
+ identifying exactly the circumstances in which the general infinite g
+eometric series " }{TEXT 376 3 "has" }{TEXT -1 3 " a " }{TEXT 377 3 "s
+um" }{TEXT -1 28 " (and knowing what that sum " }{TEXT 391 2 "is" }
+{TEXT -1 7 "): let " }{TEXT 378 1 "x" }{TEXT -1 25 " be any real numbe
+r, then" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "Sum(x^(n-1
+),n = 1 .. infinity);" "6#-%$SumG6$)%\"xG,&%\"nG\"\"\"F*!\"\"/F);F*%)i
+nfinityG" }{TEXT -1 5 " ( = " }{XPPEDIT 18 0 "1+x+x^2+x^3;" "6#,*\"\"
+\"F$%\"xGF$*$F%\"\"#F$*$F%\"\"$F$" }{TEXT -1 9 " + ... + " }{XPPEDIT 
+18 0 "x^(n-1);" "6#)%\"xG,&%\"nG\"\"\"F'!\"\"" }{TEXT -1 3 " + " }
+{TEXT 379 12 "ad infinitum" }{TEXT -1 2 ") " }}{PARA 0 "" 0 "" {TEXT 
+-1 19 "converges only for " }{XPPEDIT 18 0 "-1 < x;" "6#2,$\"\"\"!\"\"
+%\"xG" }{TEXT -1 20 " < 1, and for those " }{TEXT 380 1 "x" }{TEXT -1 
+12 " its sum is " }{XPPEDIT 18 0 "1/(1-x);" "6#*&\"\"\"F$,&F$F$%\"xG!
+\"\"F'" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 381 14 
+"Standard proof" }{TEXT -1 6 ". Let " }{XPPEDIT 18 0 "s[n];" "6#&%\"sG
+6#%\"nG" }{TEXT -1 8 " be the " }{XPPEDIT 18 0 "n^th;" "6#)%\"nG%#thG
+" }{TEXT -1 27 " partial sum of the series " }{XPPEDIT 18 0 "Sum(x^(n-
+1),n = 1 .. infinity)" "6#-%$SumG6$)%\"xG,&%\"nG\"\"\"F*!\"\"/F);F*%)i
+nfinityG" }{TEXT -1 7 "; then:" }}{PARA 0 "" 0 "" {TEXT -1 58 "       \+
+                                                   " }{XPPEDIT 18 0 "s
+[n] = 1+x+x^2+x^3;" "6#/&%\"sG6#%\"nG,*\"\"\"F)%\"xGF)*$F*\"\"#F)*$F*
+\"\"$F)" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "x^(n-1);" "6#)%\"xG,&
+%\"nG\"\"\"F'!\"\"" }{TEXT -1 66 "\n                                  \+
+                             = " }{XPPEDIT 18 0 "(1-x^n)/(1-x);" "6#*&
+,&\"\"\"F%)%\"xG%\"nG!\"\"F%,&F%F%F'F)F)" }{TEXT -1 6 " (for " }
+{XPPEDIT 18 0 "x <> 1;" "6#0%\"xG\"\"\"" }{TEXT -1 1 ")" }}{PARA 0 "" 
+0 "" {TEXT -1 5 "Then " }{XPPEDIT 18 0 "limit(s[n],n = infinity) = 1/(
+1-x);" "6#/-%&limitG6$&%\"sG6#%\"nG/F*%)infinityG*&\"\"\"F.,&F.F.%\"xG
+!\"\"F1" }{TEXT -1 16 " precisely when " }{XPPEDIT 18 0 "-1 < x;" "6#2
+,$\"\"\"!\"\"%\"xG" }{TEXT -1 25 " < 1.                    " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 332 17 "Standard resul
+t 3" }{TEXT -1 2 " (" }{TEXT 359 6 "better" }{TEXT -1 57 " than Standa
+rd result 1; 'better' in the sense that it's " }{TEXT 357 12 "less obv
+ious" }{TEXT -1 2 ", " }{TEXT 358 11 "more subtle" }{TEXT -1 3 "). " }
+}{PARA 0 "" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%
+\"xG" }{TEXT -1 2 " (" }{TEXT 328 8 "not only" }{TEXT -1 4 " is " }
+{XPPEDIT 18 0 "limit(x^n,n = infinity) = infinity;" "6#/-%&limitG6$)%
+\"xG%\"nG/F)%)infinityGF+" }{TEXT -1 2 ", " }{TEXT 329 3 "but" }{TEXT 
+-1 18 ", in fact) we have" }{XPPEDIT 18 0 "limit(x^n/n,n = infinity) =
+ infinity;" "6#/-%&limitG6$*&)%\"xG%\"nG\"\"\"F*!\"\"/F*%)infinityGF.
+" }{TEXT -1 24 " (so that not only does " }{XPPEDIT 18 0 "x^n;" "6#)%
+\"xG%\"nG" }{TEXT -1 21 " get to be huge, but " }{XPPEDIT 18 0 "x^n/n;
+" "6#*&)%\"xG%\"nG\"\"\"F&!\"\"" }{TEXT -1 25 " also gets to be huge..
+.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 338 7 "Com
+ment" }{TEXT -1 25 ". That last result could " }{TEXT 337 0 "" }{TEXT 
+333 25 "not be said to be obvious" }{TEXT -1 28 "! Let us look at valu
+es of  " }{XPPEDIT 18 0 "x,x^2/2,x^3/3,x^4/4,x^5/5;" "6'%\"xG*&F#\"\"#
+F%!\"\"*&F#\"\"$F(F&*&F#\"\"%F*F&*&F#\"\"&F,F&" }{TEXT -1 16 ", ... , \+
+with an " }{TEXT 334 1 "x" }{TEXT -1 9 " chosen  " }{TEXT 335 13 "just
+ greater " }{TEXT -1 7 "than 1:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 64 "np := 30:\nx := 1.01:\nfor k to 20 do a[k] := evalf(x^k/k, np)
+\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 14 "It could even " }{TEXT 336 7 "appear " }{TEXT 
+-1 22 "(to the easily duped!)" }{TEXT 389 1 " " }{TEXT -1 35 "that the
+ sequence is tending to 0!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 52 "Let's have a look at some terms a bit further a
+long:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "np := 30:\nx := 1.
+01:\nfor k from 500 to 510 do a[k] := evalf(x^k/k, np)\nod;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 76 "see how the terms have picked up a bit... and now a bit f
+urther along again:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 78 "np :
+= 50:\nx := 1.01:\nfor k from 28200 to 28210 do a[k] := evalf(x^k/k, n
+p)\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 27 "I hope you are impressed..." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 339 26 "Proof of Standard
+ result 3" }{TEXT -1 74 ". (Here we once again make use of the binomia
+l theorem, but, this time, a " }{TEXT 340 8 "bit more" }{TEXT -1 10 " \+
+of it...)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+5 "With " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 13 " we m
+ay set  " }{XPPEDIT 18 0 "x = 1+a;" "6#/%\"xG,&\"\"\"F&%\"aGF&" }
+{TEXT -1 11 ", for some " }{TEXT 365 1 "a" }{TEXT -1 6 " with " }
+{XPPEDIT 18 0 "0 < a;" "6#2\"\"!%\"aG" }{TEXT -1 16 ". Then we have:\n
+" }}{PARA 256 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "x^n = (1+a)^n;" "
+6#/)%\"xG%\"nG),&\"\"\"F)%\"aGF)F&" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "
+1+n*a+n*(n-1)*a^2/2;" "6#,(\"\"\"F$*&%\"nGF$%\"aGF$F$**F&F$,&F&F$F$!\"
+\"F$F'\"\"#F+F*F$" }{TEXT -1 20 " + higher powers of " }{TEXT 341 1 "a
+" }{TEXT -1 37 " (with known, positive coefficients) " }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "It follows that " }
+{XPPEDIT 18 0 "n*(n-1)*a^2/2 < x^n;" "6#2**%\"nG\"\"\",&F%F&F&!\"\"F&%
+\"aG\"\"#F*F()%\"xGF%" }{TEXT -1 5 " for " }{TEXT 345 3 "all" }{TEXT 
+-1 1 " " }{TEXT 344 1 "n" }{TEXT -1 11 ", and thus " }{XPPEDIT 18 0 "(
+n-1)*a^2/2 < x^n/n;" "6#2*(,&%\"nG\"\"\"F'!\"\"F'*$%\"aG\"\"#F'F+F(*&)
+%\"xGF&F'F&F(" }{TEXT -1 5 " for " }{TEXT 347 3 "all" }{TEXT -1 1 " " 
+}{TEXT 346 1 "n" }{TEXT -1 2 ", " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 9 "and thus " }{XPPEDIT 18 0 "limit(x^n/n,n =
+ infinity) = infinity;" "6#/-%&limitG6$*&)%\"xG%\"nG\"\"\"F*!\"\"/F*%)
+infinityGF." }{TEXT -1 7 " since " }{XPPEDIT 18 0 "limit((n-1)*a^2/2,n
+ = infinity) = infinity;" "6#/-%&limitG6$*(,&%\"nG\"\"\"F*!\"\"F**$%\"
+aG\"\"#F*F.F+/F)%)infinityGF0" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 348 27 "General result of this t
+ype" }{TEXT -1 51 ". It should immediately occur to one that, in fact:
+" }}{PARA 15 "" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 0 "1 < x;" "6#2\"
+\"\"%\"xG" }{TEXT -1 2 " (" }{TEXT 349 8 "not only" }{TEXT -1 4 " is \+
+" }{XPPEDIT 18 0 "limit(x^n/n,n = infinity) = infinity;" "6#/-%&limitG
+6$*&)%\"xG%\"nG\"\"\"F*!\"\"/F*%)infinityGF." }{TEXT -1 2 ", " }{TEXT 
+350 3 "but" }{TEXT -1 18 ", in fact) we have" }{XPPEDIT 18 0 "limit(x^
+n/(n^2),n = infinity) = infinity;" "6#/-%&limitG6$*&)%\"xG%\"nG\"\"\"*
+$F*\"\"#!\"\"/F*%)infinityGF0" }}{PARA 15 "" 0 "" {TEXT -1 4 "For " }
+{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 2 " (" }{TEXT 351 8 
+"not only" }{TEXT -1 4 " is " }{XPPEDIT 18 0 "limit(x^n/(n^2),n = infi
+nity) = infinity;" "6#/-%&limitG6$*&)%\"xG%\"nG\"\"\"*$F*\"\"#!\"\"/F*
+%)infinityGF0" }{TEXT -1 2 ", " }{TEXT 352 3 "but" }{TEXT -1 18 ", in \+
+fact) we have" }{XPPEDIT 18 0 "limit(x^n/(n^3),n = infinity) = infinit
+y;" "6#/-%&limitG6$*&)%\"xG%\"nG\"\"\"*$F*\"\"$!\"\"/F*%)infinityGF0" 
+}{TEXT -1 10 "\n\netc etc." }}{PARA 15 "" 0 "" {TEXT -1 13 "In fact, f
+or " }{XPPEDIT 18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 9 " and any " 
+}{TEXT 364 5 "fixed" }{TEXT -1 1 " " }{TEXT 363 2 "r " }{TEXT -1 30 " \+
+( = 1, 2, 3, 4, ... ) we have" }{XPPEDIT 18 0 "limit(x^n/(n^r),n = inf
+inity) = infinity;" "6#/-%&limitG6$*&)%\"xG%\"nG\"\"\")F*%\"rG!\"\"/F*
+%)infinityGF0" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 353 17 "Standard result 4" }{TEXT -1 2 " (" }{TEXT 354 6 "better
+" }{TEXT -1 57 " than Standard result 2; 'better' in the sense that it
+'s " }{TEXT 355 12 "less obvious" }{TEXT -1 2 ", " }{TEXT 356 11 "more
+ subtle" }{TEXT -1 3 "). " }}{PARA 0 "" 0 "" {TEXT -1 4 "For " }
+{XPPEDIT 18 0 "0 < x;" "6#2\"\"!%\"xG" }{TEXT -1 6 " < 1 (" }{TEXT 
+360 8 "not only" }{TEXT -1 4 " is " }{XPPEDIT 18 0 "limit(x^n,n = infi
+nity) = 0;" "6#/-%&limitG6$)%\"xG%\"nG/F)%)infinityG\"\"!" }{TEXT -1 
+2 ", " }{TEXT 361 3 "but" }{TEXT -1 18 ", in fact) we have" }{XPPEDIT 
+18 0 "limit(n*x^n,n = infinity) = 0;" "6#/-%&limitG6$*&%\"nG\"\"\")%\"
+xGF(F)/F(%)infinityG\"\"!" }{TEXT -1 24 " (so that not only does " }
+{XPPEDIT 18 0 "x^n;" "6#)%\"xG%\"nG" }{TEXT -1 22 " get to be small, b
+ut " }{XPPEDIT 18 0 "n*x^n;" "6#*&%\"nG\"\"\")%\"xGF$F%" }{TEXT -1 26 
+" also gets to be small...)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT 362 85 "Proof (along identical lines to that of Standa
+rd result 2 above) of Standard result 4" }{TEXT -1 7 ". With " }
+{XPPEDIT 18 0 "0 < x;" "6#2\"\"!%\"xG" }{TEXT -1 13 " < 1 we have " }
+{XPPEDIT 18 0 "x = 1/X;" "6#/%\"xG*&\"\"\"F&%\"XG!\"\"" }{TEXT -1 10 "
+ for some " }{XPPEDIT 18 0 "1 < X;" "6#2\"\"\"%\"XG" }{TEXT -1 8 ". Th
+en  " }{XPPEDIT 18 0 "n*x^n = n/(X^n);" "6#/*&%\"nG\"\"\")%\"xGF%F&*&F
+%F&)%\"XGF%!\"\"" }{TEXT -1 9 ", and so " }{XPPEDIT 18 0 "limit(n*x^n,
+n = infinity) = 0;" "6#/-%&limitG6$*&%\"nG\"\"\")%\"xGF(F)/F(%)infinit
+yG\"\"!" }{TEXT -1 8 " since  " }{XPPEDIT 18 0 "limit(n/(X^n),n = infi
+nity) = 0;" "6#/-%&limitG6$*&%\"nG\"\"\")%\"XGF(!\"\"/F(%)infinityG\"
+\"!" }{TEXT -1 2 ".\n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }{TEXT 369 18 "Standard result 4'" }{TEXT -1 6 ". For
+ " }{XPPEDIT 18 0 "-1 < x;" "6#2,$\"\"\"!\"\"%\"xG" }{TEXT -1 13 " < 1
+ we have " }{XPPEDIT 18 0 "limit(n*x^n,n = infinity) = 0;" "6#/-%&limi
+tG6$*&%\"nG\"\"\")%\"xGF(F)/F(%)infinityG\"\"!" }{TEXT -1 2 ". " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 370 4 "Note" }
+{TEXT -1 23 ". The latter result is " }{TEXT 371 11 "fundamental" }
+{TEXT -1 81 " to identifying exactly the circumstances in which the ge
+neral Swineshead series " }{TEXT 372 3 "has" }{TEXT -1 3 " a " }{TEXT 
+373 3 "sum" }{TEXT -1 28 " (and knowing what that sum " }{TEXT 392 2 "
+is" }{TEXT -1 7 "): let " }{TEXT 382 1 "x" }{TEXT -1 25 " be any real \+
+number, then" }}{PARA 259 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "Sum(n
+*x^n,n = 1 .. infinity);" "6#-%$SumG6$*&%\"nG\"\"\")%\"xGF'F(/F';F(%)i
+nfinityG" }{TEXT -1 5 " ( = " }{XPPEDIT 18 0 "x+2*x^2+3*x^3;" "6#,(%\"
+xG\"\"\"*&\"\"#F%*$)F$F'F%F%F%*&\"\"$F%*$)F$F+F%F%F%" }{TEXT -1 9 " + \+
+... + " }{XPPEDIT 18 0 "n*x^n;" "6#*&%\"nG\"\"\")%\"xGF$F%" }{TEXT -1 
+3 " + " }{TEXT 383 12 "ad infinitum" }{TEXT -1 2 ") " }}{PARA 0 "" 0 "
+" {TEXT -1 19 "converges only for " }{XPPEDIT 18 0 "-1 < x;" "6#2,$\"
+\"\"!\"\"%\"xG" }{TEXT -1 20 " < 1, and for those " }{TEXT 384 1 "x" }
+{TEXT -1 12 " its sum is " }{XPPEDIT 18 0 "x/((1-x)^2);" "6#*&%\"xG\"
+\"\"*$,&F%F%F$!\"\"\"\"#F(" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 385 14 "Standard proof" }{TEXT -1 6 ". Let " }{XPPEDIT 
+18 0 "s[n];" "6#&%\"sG6#%\"nG" }{TEXT -1 8 " be the " }{XPPEDIT 18 0 "
+n^th;" "6#)%\"nG%#thG" }{TEXT -1 27 " partial sum of the series " }
+{XPPEDIT 18 0 "Sum(n*x^n,n = 1 .. infinity);" "6#-%$SumG6$*&%\"nG\"\"
+\")%\"xGF'F(/F';F(%)infinityG" }{TEXT -1 7 "; then:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "                       \+
+                                   " }{XPPEDIT 18 0 "s[n] = x+2*x^2+3*
+x^3+4*x^4;" "6#/&%\"sG6#%\"nG,*%\"xG\"\"\"*&\"\"#F**$F)F,F*F**&\"\"$F*
+*$F)F/F*F**&\"\"%F**$F)F2F*F*" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 
+"n*x^n;" "6#*&%\"nG\"\"\")%\"xGF$F%" }}{PARA 0 "" 0 "" {TEXT -1 52 "  \+
+                                             thus " }{XPPEDIT 18 0 "x*
+s[n];" "6#*&%\"xG\"\"\"&%\"sG6#%\"nGF%" }{TEXT -1 3 " = " }{TEXT 386 
+1 "x" }{TEXT -1 2 "( " }{XPPEDIT 18 0 "x+2*x^2+3*x^3+4*x^4;" "6#,*%\"x
+G\"\"\"*&\"\"#F%*$F$F'F%F%*&\"\"$F%*$F$F*F%F%*&\"\"%F%*$F$F-F%F%" }
+{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "n*x^n" "6#*&%\"nG\"\"\")%\"xGF$
+F%" }{TEXT -1 67 ")\n                                                 \+
+              = " }{XPPEDIT 18 0 "x^2+2*x^3+3*x^4+4*x^5;" "6#,**$%\"xG
+\"\"#\"\"\"*&F&F'*$F%\"\"$F'F'*&F*F'*$F%\"\"%F'F'*&F-F'*$F%\"\"&F'F'" 
+}{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "n*x^(n+1);" "6#*&%\"nG\"\"\")%
+\"xG,&F$F%F%F%F%" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 42 "     \+
+                                Thus " }{XPPEDIT 18 0 "s[n]-x*s[n] = x
++x^2+x^3+x^4;" "6#/,&&%\"sG6#%\"nG\"\"\"*&%\"xGF)&F&6#F(F)!\"\",*F+F)*
+$F+\"\"#F)*$F+\"\"$F)*$F+\"\"%F)" }{TEXT -1 7 " + ... " }{XPPEDIT 18 
+0 "x^n-n*x^(n+1);" "6#,&)%\"xG%\"nG\"\"\"*&F&F')F%,&F&F'F'F'F'!\"\"" }
+{TEXT -1 1 "," }{TEXT -1 44 "\n                                       \+
+ so " }{XPPEDIT 18 0 "s[n]*(1-x) = x;" "6#/*&&%\"sG6#%\"nG\"\"\",&F)F)
+%\"xG!\"\"F)F+" }{TEXT -1 1 "(" }{XPPEDIT 18 0 "1+x+x^2+x^3;" "6#,*\"
+\"\"F$%\"xGF$*$F%\"\"#F$*$F%\"\"$F$" }{TEXT -1 9 " + ... + " }
+{XPPEDIT 18 0 "x^(n-1);" "6#)%\"xG,&%\"nG\"\"\"F'!\"\"" }{TEXT -1 4 ")
+ - " }{XPPEDIT 18 0 "n*x^(n+1)" "6#*&%\"nG\"\"\")%\"xG,&F$F%F%F%F%" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "                                         \+
+                       = " }{XPPEDIT 18 0 "x*(1-x^n)/(1-x)-n*x^(n+1);
+" "6#,&*(%\"xG\"\"\",&F&F&)F%%\"nG!\"\"F&,&F&F&F%F*F*F&*&F)F&)F%,&F)F&
+F&F&F&F*" }{TEXT -1 6 " (for " }{XPPEDIT 18 0 "x <> 1;" "6#0%\"xG\"\"
+\"" }{TEXT -1 2 ")," }}{PARA 0 "" 0 "" {TEXT -1 55 "                  \+
+                              giving " }{XPPEDIT 18 0 "s[n] = x*(1-x^n
+)/((1-x)^2)-x*n*x^n/(1-x);" "6#/&%\"sG6#%\"nG,&*(%\"xG\"\"\",&F+F+)F*F
+'!\"\"F+*$,&F+F+F*F.\"\"#F.F+**F*F+F'F+)F*F'F+,&F+F+F*F.F.F." }}{PARA 
+0 "" 0 "" {TEXT -1 6 "\nThus " }{XPPEDIT 18 0 "limit(s[n],n = infinity
+) = x/((1-x)^2);" "6#/-%&limitG6$&%\"sG6#%\"nG/F*%)infinityG*&%\"xG\"
+\"\"*$,&F/F/F.!\"\"\"\"#F2" }{TEXT -1 16 " precisely when " }{XPPEDIT 
+18 0 "-1 < x;" "6#2,$\"\"\"!\"\"%\"xG" }{TEXT -1 5 " < 1." }}}}{MARK "
+30 25 6" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 
+1 }

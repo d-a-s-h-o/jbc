@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark23">
+<p align=left>
+<b><font color=#000080 size=4>Hermite (1822-1901) (</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>) and Lindemann (1852-1939) (</font></b>
+<img src="images/transcendental635.gif" width=27 height=36 alt="Pi" align=middle>
+<b><font color=#000080 size=4>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>While it is true that Liouville gave, with proof (how else!), the first examples of transcendental numbers, it would - I believe - be generally accepted that the first example of a seriously beautiful transcendental number is due to Charles Hermite, with his proof of the transcendence of </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080>, in 1873. (One can only imagine how delighted he must have felt to </font></b>
+<i><b><font color=#000080>know</font></b></i>
+<b><font color=#000080>, with complete certainty (in so far as such a thing exists), that Euler's number, </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080>, is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> a solution of </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> polynomial equation with integer coefficients, with non-zero leading coefficient.)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    His proof is actually </font></b>
+<i><b><font color=#000080>quite simple</font></b></i>
+<b><font color=#000080> from a technical point of view (it only required genius to frame it!), and can be easily followed. Here I present only the </font></b>
+<i><b><font color=#000080>ideas</font></b></i>
+<b><font color=#000080> behind his proof (the interested reader may follow the complete details by reading elsewhere, or in my Manchester 1972-1973 notes when I eventually put them up at my web site).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Basic idea of Hermite's proof of the transcendence of </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>. Suppose that </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> is algebraic. Then</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental636.gif" width=337 height=58 alt="a[m]*e^m+a[m-1]*e^(m-1)+`...`+a[1]*e+a[0] = 0" align=middle>
+<b><font color=#000080>    ... (i)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>for some integers </font></b>
+<img src="images/transcendental637.gif" width=172 height=32 alt="a[m], a[m-1], `...`+a[1], a[0]" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/transcendental638.gif" width=64 height=32 alt="a[m] &lt;&gt; 0" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Hermite's idea was to replace every power of </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>in (i) with </font></b>
+<i><b><font color=#000080>simultaneous</font></b></i>
+<b><font color=#000080> rational approximations (meaning they have the </font></b>
+<i><b><font color=#000080>same</font></b></i>
+<b><font color=#000080> denominator) of a </font></b>
+<i><b><font color=#000080>very special kind</font></b></i>
+<b><font color=#000080>; he showed how to construct single-variable rational number approximations </font></b>
+<img src="images/transcendental639.gif" width=193 height=58 alt="F(m)/F(0), F(m-1)/F(0), `...`, F(1)/F(0)" align=middle>
+<b><font color=#000080>  (with </font></b>
+<i><b><font color=#000080>increasingly large</font></b></i>
+<b><font color=#000080> common denominator </font></b>
+<img src="images/transcendental640.gif" width=47 height=32 alt="F(0)" align=middle>
+<b><font color=#000080>) to the numbers </font></b>
+<img src="images/transcendental641.gif" width=141 height=58 alt="e^m, e^(m-1), `...`, e" align=middle>
+<b><font color=#000080>, such that (i) became</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental642.gif" width=590 height=58 alt="a[m]*(F(m)/F(0)+epsilon[m])+a[m-1]*(F(m-1)/F(0)+eps..." align=middle>
+<b><font color=#000080>   </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>namely</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental643.gif" width=384 height=32 alt="a[m]*F(m)+a[m-1]*F(m-1)+`...`+a[1]*F(1)+a[0]*F(0)" align=middle>
+<b><font color=#000080><br>
+     + </font></b>
+<img src="images/transcendental644.gif" width=404 height=32 alt="F(0)*a[m]*epsilon[m]+F(0)*a[m-1]*epsilon[m-1]+`...`..." align=middle>
+<b><font color=#000080>  ... (ii)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Hermite was able to arrange the rational approximations in such a way that </font></b>
+<i><b><font color=#000080>not only</font></b></i>
+<b><font color=#000080> are all the epsilons </font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>small</font></b></i>
+<b><font color=#000080>, and become increasingly smaller as F(0) is made increasingly large (in itself that is an entirely trivial matter in a general setting: choose </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> real numbers </font></b>
+<img src="images/transcendental645.gif" width=116 height=32 alt="alpha[1], alpha[2], `...`, alpha[m]" align=middle>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> denominator </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> (and think of </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> as being made larger and larger), then each of those </font></b>
+<img src="images/transcendental646.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>'s is either a rational number with denominator </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080>, or lies between two consecutive rational numbers with denominator </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080>. Thus there are rational numbers </font></b>
+<img src="images/transcendental647.gif" width=149 height=58 alt="f(1)/q, f(2)/q, `...`, f(m)/q" align=middle>
+<b><font color=#000080> that are simultaneous rational approximations to </font></b>
+<img src="images/transcendental648.gif" width=116 height=32 alt="alpha[1], alpha[2], `...`, alpha[m]" align=middle>
+<b><font color=#000080>, with, in each case, an error term at most </font></b>
+<img src="images/transcendental649.gif" width=28 height=58 alt="1/q" align=middle>
+<b><font color=#000080> ), but </font></b>
+<i><b><font color=#000080>so small</font></b></i>
+<b><font color=#000080> that </font></b>
+<i><b><font color=#000080>every one</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/transcendental650.gif" width=244 height=32 alt="F(0)*epsilon[m], F(0)*epsilon[m-1], `...`, F(0)*eps..." align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>small</font></b></i>
+<b><font color=#000080>, and become increasingly smaller as F(0) is made increasingly large. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    You should now </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> how (ii) </font></b>
+<i><b><font color=#000080>reads</font></b></i>
+<b><font color=#000080>: it looks like (an integer, which varies) + (something small, that's getting smaller) = 0. That, however, would be impossible </font></b>
+<i><b><font color=#000080>if only</font></b></i>
+<b><font color=#000080> one could arrange matters so that the 'integer' is non-zero. In short, that's what Hermite did, but it in a quite complicated way... It was greatly simplified (by Klein?) with an </font></b>
+<i><b><font color=#000080>ad hoc</font></b></i>
+<b><font color=#000080> piece of trickery: arrange for (</font></b>
+<img src="images/transcendental651.gif" width=384 height=32 alt="a[m]*F(m)+a[m-1]*F(m-1)+`...`+a[1]*F(1)+a[0]*F(0)" align=middle>
+<b><font color=#000080>) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>to be non-zero by choosing a prime number </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> that does not divide </font></b>
+<img src="images/transcendental652.gif" width=32 height=32 alt="a[0]" align=middle>
+<b><font color=#000080>, and arrange the approximations such that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> does </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> divide the denominator F(0), but </font></b>
+<i><b><font color=#000080>does</font></b></i>
+<b><font color=#000080> divide every one of the numerators </font></b>
+<img src="images/transcendental653.gif" width=181 height=32 alt="F(m), F(m-1), `...`, F(1)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    A novice reader should seek out the actual detailed proof. Some versions are not for the faint hearted; the one I first read in Hardy &amp; Wright is quite frightful, and certainly does not aim to enlighten. My own recollection of understanding the proof for the first time was reading my school-bought copy of Felix Klein's (Dover edition, which I've lost) </font></b>
+<i><b><font color=#000080>Arithmetic</font></b></i>
+<b><font color=#000080>; that doesn't seem to be available anymore. I had hoped to type up my Manchester hand-written notes in time for this talk, but that will have to wait. Interested readers ought to find they follow the proof I gave there.      </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>_________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<img src="images/transcendental654.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> is so well known to everyone that it would not be sensible for me to write about it here. The following are classic, and well known: area of a circle (</font></b>
+<img src="images/transcendental655.gif" width=77 height=50 alt="A = Pi*r^2" align=middle>
+<b><font color=#000080>), circumference of a circle (</font></b>
+<img src="images/transcendental656.gif" width=80 height=32 alt="C = 2*pi*r" align=middle>
+<b><font color=#000080>), volume of a sphere </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(</font></b>
+<img src="images/transcendental657.gif" width=93 height=76 alt="V = 4*Pi*r^3/3" align=middle>
+<b><font color=#000080> ), surface area of a sphere (</font></b>
+<img src="images/transcendental658.gif" width=87 height=50 alt="S = 4*Pi*r^2" align=middle>
+<b><font color=#000080> ), etc</font></b>
+</p>
+<ul><li>
+<img src="images/transcendental659.gif" width=47 height=32 alt="zeta(2)" align=middle>
+<b><font color=#000080> := </font></b>
+<img src="images/transcendental660.gif" width=243 height=80 alt="Sum(1/(n^2),n = 1 .. infinity) = 1/(1^2)+1/(2^2)+1/..." align=middle>
+<b><font color=#000080> + ... , equals </font></b>
+<img src="images/transcendental661.gif" width=40 height=78 alt="Pi^2/6" align=middle>
+<b><font color=#000080>, as was first proved by Euler.</font></b>
+</li>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;<br>
+sum(1/n^2, n = 1..infinity);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental662.gif" width=48 height=45 alt="1/6*Pi^2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If you aren't familiar with what a CAS - like Maple - can do, I hope you are impressed with that last evaluation!</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>the probability (properly defined) that two random integers have greatest common divisor equal to 1 is </font></b>
+<img src="images/transcendental663.gif" width=40 height=58 alt="6/(Pi^2)" align=middle>
+<b><font color=#000080><br>
+(related to the previous infinite sum)</font></b>
+</li>
+<li>
+<b><font color=#000080>the zeroes of the function of a </font></b>
+<i><b><font color=#000080>complex</font></b></i>
+<b><font color=#000080> variable sin(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>), with infinite series expansion<br>
+<br>
+                                                </font></b>
+<img src="images/transcendental664.gif" width=357 height=84 alt="Sum((-1)^(n+1)*z^(2*n-1)/(2*n-1)!,n = 1 .. infinity..." align=middle>
+<b><font color=#000080> + ...<br>
+<br>
+are ... </font></b>
+<img src="images/transcendental665.gif" width=199 height=32 alt="-4*Pi, -2*Pi, 0, 2*Pi, 4*Pi, 6*Pi" align=middle>
+<b><font color=#000080>, ...</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The great Siegel began his classic 1949 Princeton University Press on Transcendental Numbers by writing </font></b>
+<i><b><font color=#000080>The most widely known result on transcendental numbers is the transcendency of </font></b></i>
+<img src="images/transcendental666.gif" width=27 height=32 alt="Pi" align=middle>
+<i><b><font color=#000080> proved by Lindemann in 1882.</font></b></i>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>If one is acquainted with the classic Greek ruler-and-compass construction problems (sadly not a topic that our modern school pupils are exposed to...) of the duplication of the cube, the trisection of a general angle, and the squaring of the circle, then one will know that a solution of the latter reduces to knowing whether or not </font></b>
+<img src="images/transcendental667.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> is not just algebraic, but is algebraic of a very particular kind... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    I think I should be frank and admit that there is no easy proof that </font></b>
+<img src="images/transcendental668.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> is transcendental. I did include a fairly clear proof of it in my Manchester 1972-73 course, and hope in time to put it up in the transcendental numbers corner of my web site. I will merely record that the honour of first proving its transcendence goes to Lindemann (1882), and recommend that interested readers consider obtaining a copy of the delightful </font></b>
+<b><font color=#000080 size=5>Pi</font></b>
+<b><font color=#000080 size=4>: A Source Book </font></b>
+<b><font color=#000080>(see References).                         </font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:58 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

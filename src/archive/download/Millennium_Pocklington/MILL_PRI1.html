@@ -1,0 +1,836 @@
+<html>
+<head>
+<title>MILL_PRI.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Theme" content="nature 100, default">
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="#FFFFCC" text="#333399" link="#990033" vlink="#006633" alink="#FF6600"><a href="http://www.johnbcosgrave.com">	&lt; Back to johnbcosgrave.com</a><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<a name="MapleAutoBookmark1">
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># pockling(ton).mws</font></b>
+</p>
+<p align="center">
+<b><u><font color="#000080" size="5">Using </font></u></b>
+<i><b><u><font color="#000080" size="5">Pocklington's </font></u></b></i>
+<b><u><font color="#000080" size="5">(1914) </font></u></b>
+<i><b><u><font color="#000080" size="5">theorem</font></u></b></i>
+<b><u><font color="#000080" size="5"> to test<br>
+primality of some specially constructed numbers</font></u></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">[</font></b>
+<b><u><font color="#000080">An initial carrot</font></u></b>
+<b><font color="#000080">. Below I present - with proof - the (quite fortuitous) discovery of a </font></b>
+<b><u><font color="#000080">2000-digit prime</font></u></b>
+<b><font color="#000080">.  I would like to call it a </font></b>
+<i><b><font color="#000080">millennium prime</font></b></i>
+<b><font color="#000080">.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Introduction</font></u></b>
+<b><font color="#000080">.  In a separate Maple worksheet (1914_pap.mws) I have worked through H.C.Pocklington's paper </font></b>
+<i><b><font color="#000080">The Determination of the <br>
+Prime or Composite Nature of Large Numbers by Fermat's theorem</font></b></i>
+<b><font color="#000080">, which was published in the </font></b>
+<i><b><font color="#000080">Proceedings of the Cambridge Philosophical </font></b></i>
+</p>
+<p align="left">
+<i><b><font color="#000080">Society</font></b></i>
+<b><font color="#000080"> in 1916 (it was only two pages long!), and &quot;Read&quot; by Pocklington on the 9th. of March 1914.  In modern expositions of Pocklington's paper</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">there is some lack of consistency as to what </font></b>
+<i><b><font color="#000080">is</font></b></i>
+<b><font color="#000080"> '</font></b>
+<i><b><font color="#000080">Pocklington's Theorem</font></b></i>
+<b><font color="#000080">' - possibly because at no point in his paper does Pocklington himself</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">actually state a theorem! - one has to weed it (actually them) out from his (beautiful) analysis of some consequences of Fermat's 'little' theorem.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">What I did in 1914_pap.mws was to go back to Pocklington's original paper, work through his presentation (changing some notation here and there -</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">I don't like his using '</font></b>
+<img src="images/MILL_PRI1.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">' as a symbol for a prime - and also try to make it more understandable), and weave in some illustrative Maple computations</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">(Pocklington's paper does not contain a single numerical illustration!).</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">My aim in this worksheet was to present some illustrations of his theorem  - or rather one version of one of his theorems - to some specially constructed numbers, to present to my third year B.Ed. and B.A. students in this year's </font></b>
+<i><b><font color="#000080">Number Theory and Cryptography </font></b></i>
+<b><font color="#000080">course.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Anyone well versed in number theoretical arts will </font></b>
+<b><font color="#000080">immediately recognise that the numbers I have chosen as </font></b>
+<b><u><font color="#000080">possible candidates</font></u></b>
+<b><font color="#000080"> for being prime stood </font></b>
+<i><b><u><font color="#000080">little chance of success</font></u></b></i>
+<b><font color="#000080">; rather they were chosen (from a huge range of other equally interesting possible ones) because of the beauty of their structure.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I have (like any number theorist) a deep personal attachment to the </font></b>
+<i><b><font color="#000080">Euclidean numbers</font></b></i>
+<b><font color="#000080"> - the numbers of the form </font></b>
+<img src="images/MILL_PRI2.gif" width="72" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ... </font></b>
+<img src="images/MILL_PRI3.gif" width="112" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - where </font></b>
+</p>
+<p align="left">
+<img src="images/MILL_PRI4.gif" width="80" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ... , </font></b>
+<img src="images/MILL_PRI5.gif" width="87" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> are the first </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080"> prime numbers, and what I have done here was to choose </font></b>
+<img src="images/MILL_PRI6.gif" width="62" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, and form its </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">-th power </font></b>
+<img src="images/MILL_PRI7.gif" width="72" height="36" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. That latter number - which is obviously greater than </font></b>
+<img src="images/MILL_PRI8.gif" width="72" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ... </font></b>
+<img src="images/MILL_PRI9.gif" width="83" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - is the '</font></b>
+<img src="images/MILL_PRI10.gif" width="37" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">' in the following theorem, as is the number </font></b>
+<img src="images/MILL_PRI11.gif" width="72" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ... </font></b>
+<img src="images/MILL_PRI12.gif" width="83" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> the </font></b>
+<i><b><font color="#000080">'U</font></b></i>
+<b><font color="#000080">' of it.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">A </font></u></b>
+<b><u><font color="#000080">Pocklington theorem</font></u></b>
+<b><font color="#000080">:  Let </font></b>
+<i><b><font color="#000080">N</font></b></i>
+<b><font color="#000080"> be a natural number and let </font></b>
+<img src="images/MILL_PRI13.gif" width="115" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, where </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> is prime, </font></b>
+<img src="images/MILL_PRI14.gif" width="37" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is the largest power of </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> dividing (</font></b>
+<img src="images/MILL_PRI15.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">), and </font></b>
+<img src="images/MILL_PRI16.gif" width="70" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.  Suppose also that</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">   </font></b>
+<img src="images/MILL_PRI17.gif" width="109" height="56" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (mod </font></b>
+<i><b><font color="#000080">N</font></b></i>
+<b><font color="#000080">) for some integer </font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">        ... (</font></b>
+<i><b><font color="#000080">i</font></b></i>
+<b><font color="#000080">) <br>
+<br>
+                                                 and </font></b>
+</p>
+<p align="left">
+<i><b><font color="#000080">  </font></b></i>
+<img src="images/MILL_PRI18.gif" width="211" height="104" alt="[Maple Math]" align="middle">
+<b><font color="#000080">                              ... (</font></b>
+<i><b><font color="#000080">ii</font></b></i>
+<b><font color="#000080">)<br>
+</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">then </font></u></b>
+<i><b><u><font color="#000080">N</font></u></b></i>
+<b><u><font color="#000080"> is prime</font></u></b>
+<b><font color="#000080">. [</font></b>
+<b><u><font color="#000080">end</font></u></b>
+<b><font color="#000080">]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">So, I now wish to apply that theorem to the sequence of numbers {</font></b>
+<img src="images/MILL_PRI19.gif" width="30" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">}, where:</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                      </font></b>
+<img src="images/MILL_PRI20.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 2*3 + 1,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                     </font></b>
+<img src="images/MILL_PRI21.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 2*3*</font></b>
+<img src="images/MILL_PRI22.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> + 1,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                     </font></b>
+<img src="images/MILL_PRI23.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 2*3*</font></b>
+<img src="images/MILL_PRI24.gif" width="24" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">*</font></b>
+<img src="images/MILL_PRI25.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> + 1,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                          .</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                          .</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                     </font></b>
+<img src="images/MILL_PRI26.gif" width="30" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = </font></b>
+<img src="images/MILL_PRI27.gif" width="72" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ... </font></b>
+<img src="images/MILL_PRI28.gif" width="172" height="36" alt="[Maple Math]" align="middle">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Nomenclature</font></u></b>
+<b><font color="#000080">. [&quot;</font></b>
+<i><b><font color="#000080">What's in a name? ... </font></b></i>
+<b><font color="#000080">&quot;] I would like to call the above numbers </font></b>
+<i><b><font color="#000080">'</font></b></i>
+<i><b><u><font color="#000080">L shaped Euclidean numbers</font></u></b></i>
+<b><font color="#000080">', the name being suggested by the following picture:</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                 </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                       7<br>
+                                                                       *</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                       7</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                       *</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                                       7                 </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                                     </font></b>
+<img src="images/MILL_PRI29.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 2*3*5* + 1</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">The L shaped Euclidean numbers can be computed by defining the function '</font></u></b>
+<i><b><u><font color="#000080">f</font></u></b></i>
+<b><u><font color="#000080"> ' as follows</font></u></b>
+<b><font color="#000080">:                         </font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f := n -&gt; product(ithprime(k), k=1..n)*ithprime(n+1)^n + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI30.gif" width="368" height="66" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(1);  # 2*3 + 1:</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI31.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(2);  # 2*3*5^2 + 1:</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI32.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(3);  # 2*3*5*7^3 + 1:</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI33.gif" width="56" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">These - and others - are the numbers that I wish to subject to the above Pocklington theorem to test for primality.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Before launching into a systematic search, I will illustrate </font></b>
+<b><u><font color="#000080">two</font></u></b>
+<b><font color="#000080"> individual </font></b>
+<b><u><font color="#000080">examples</font></u></b>
+<b><font color="#000080"> -  </font></b>
+<img src="images/MILL_PRI34.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> and </font></b>
+<img src="images/MILL_PRI35.gif" width="37" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - with </font></b>
+<b><font color="#000080">'</font></b>
+<i><b><font color="#000080">a</font></b></i>
+<b><font color="#000080">' chosen to be 2:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(9);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI36.gif" width="192" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(f(9) - 1) mod f(9);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI37.gif" width="192" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Thus </font></b>
+<img src="images/MILL_PRI38.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> has failed condition (</font></b>
+<i><b><font color="#000080">i</font></b></i>
+<b><font color="#000080">) of Pocklington - which, being </font></b>
+<i><b><font color="#000080">Fermat's </font></b></i>
+<i><b><font color="#000080">test to the base 2</font></b></i>
+<b><font color="#000080"> - means immediately that </font></b>
+<img src="images/MILL_PRI39.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is composite.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Now to test  </font></b>
+<img src="images/MILL_PRI40.gif" width="37" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(10);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI41.gif" width="216" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(f(10) - 1) mod f(10); </font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI42.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">igcd(2&amp;^((f(10)-1)/ithprime(11)) mod f(10) - 1, f(10));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI43.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Thus </font></b>
+<img src="images/MILL_PRI44.gif" width="37" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is </font></b>
+<b><u><font color="#000080">proved</font></u></b>
+<b><font color="#000080"> to be </font></b>
+<b><u><font color="#000080">prime</font></u></b>
+<b><font color="#000080"> by Pocklington's theorem.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Now to engage in a systematic search, </font></b>
+<b><u><font color="#000080">in which I fix '</font></u></b>
+<i><b><u><font color="#000080">a</font></u></b></i>
+<b><u><font color="#000080">' at 2</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I </font></b>
+<b><u><font color="#000080">first</font></u></b>
+<b><font color="#000080"> seek numbers which satisfy </font></b>
+<b><u><font color="#000080">condition (</font></u></b>
+<i><b><u><font color="#000080">i</font></u></b></i>
+<b><u><font color="#000080">)</font></u></b>
+<b><font color="#000080"> of Pocklington's theorem; that is, I simply look for values of </font></b>
+<b><font color="#000080">'</font></b>
+<i><b><font color="#000080">k</font></b></i>
+<b><font color="#000080">' for which  </font></b>
+<img src="images/MILL_PRI45.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">  </font></b>
+<i><b><font color="#000080">passes <br>
+Fermat's test to the base 2.</font></b></i>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Subsequently</font></u></b>
+<b><font color="#000080"> I will further subject the corresponding  </font></b>
+<i><b><font color="#000080">f</font></b></i>
+<b><font color="#000080"> 's to </font></b>
+<b><u><font color="#000080">condition (</font></u></b>
+<i><b><u><font color="#000080">ii</font></u></b></i>
+<b><u><font color="#000080">)</font></u></b>
+<b><font color="#000080"> of Pocklington's theorem. [Of course I realise that I could <br>
+have incorporated the two conditions into a single procedure.]</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates := proc(m, n)<br>
+local k;<br>
+for k from m to n do<br>
+if 2&amp;^(f(k)-1) mod f(k) = 1<br>
+then print(k)<br>
+fi<br>
+od<br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(1, 30);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI46.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/MILL_PRI47.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/MILL_PRI48.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="center">
+<img src="images/MILL_PRI49.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">So, we have four candidates out of the first thirty L shaped Euclidean numbers.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">The first two produce primes (</font></b>
+<img src="images/MILL_PRI50.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 2*3 + 1 = 7, and </font></b>
+<img src="images/MILL_PRI51.gif" width="29" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> = 2*3*</font></b>
+<img src="images/MILL_PRI52.gif" width="33" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> + 1 = 151, are prime). I have already shown </font></b>
+<img src="images/MILL_PRI53.gif" width="37" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime above, and so only </font></b>
+<img src="images/MILL_PRI54.gif" width="37" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> remains:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">igcd(2&amp;^((f(20)-1)/ithprime(21)) mod f(20) - 1, f(20));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI55.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">So </font></b>
+<img src="images/MILL_PRI56.gif" width="37" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is also prime, and here it is:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(20);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI57.gif" width="536" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(f(20));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI58.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">I now proceed to search for others:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(31, 60); # no output</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(61, 120); # no output</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(121, 180);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI59.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">igcd(2&amp;^((f(173)-1)/ithprime(174)) mod f(173) - 1, f(173));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI60.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(f(173));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI61.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Great!!! It follows that  </font></b>
+<img src="images/MILL_PRI62.gif" width="45" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime, and it has 952 digits!!</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I want a '</font></b>
+<i><b><font color="#000080">titanic</font></b></i>
+<b><font color="#000080">' prime (one with at least 1000 digits) though!!  </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">On we go:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(181, 240);  # no output</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(241, 300);  # no output</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(f(300));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI63.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">candidates(301, 330);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI64.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">At long last</font></u></b>
+<b><font color="#000080"> - another L shaped candidate!!</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let's subject it to condition (</font></b>
+<i><b><font color="#000080">ii</font></b></i>
+<b><font color="#000080">) of Pocklingtho's theorem:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">igcd(2&amp;^((f(325)-1)/ithprime(326)) mod f(325) - 1, f(325));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI65.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Great!!!   </font></b>
+<img src="images/MILL_PRI66.gif" width="45" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is prime!!!  And how many digits does it have?:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(f(325));</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI67.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Wow!!!  I'd like to call it a </font></b>
+<i><b><u><font color="#000080">millenium</font></u></b></i>
+<b><u><font color="#000080"> prime</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">And here it is:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(325);</font></b>
+</p>
+<p align="left">
+<img src="images/MILL_PRI68.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI69.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI70.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI71.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI72.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI73.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI74.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI75.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI76.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI77.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI78.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI79.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI80.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI81.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI82.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI83.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI84.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI85.gif" width="104" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">This is how</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/MILL_PRI86.gif" width="45" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">is constructed</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">First</font></u></b>
+<b><font color="#000080">, form the first 325 primes:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(ithprime(k), k=1..325);</font></b>
+</p>
+<p align="left">
+<img src="images/MILL_PRI87.gif" width="964" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI88.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI89.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI90.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI91.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI92.gif" width="964" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI93.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI94.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI95.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI96.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI97.gif" width="972" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI98.gif" width="888" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Next</font></u></b>
+<b><font color="#000080">, form their product:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">U := product(ithprime(k), k=1..325);</font></b>
+</p>
+<p align="left">
+<img src="images/MILL_PRI99.gif" width="954" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI100.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI101.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI102.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI103.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI104.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI105.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI106.gif" width="824" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Now</font></u></b>
+<b><font color="#000080">, let '</font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080">' be the 326-th. prime number:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">p := ithprime(326);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI107.gif" width="78" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Form</font></u></b>
+<b><font color="#000080"> the 325-th. power of that prime </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">p^325;</font></b>
+</p>
+<p align="left">
+<img src="images/MILL_PRI108.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI109.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI110.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI111.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI112.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI113.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI114.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI115.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI116.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI117.gif" width="264" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">Finally</font></u></b>
+<b><font color="#000080">, form the number </font></b>
+<i><b><font color="#000080">N</font></b></i>
+<b><font color="#000080">, defined by </font></b>
+<img src="images/MILL_PRI118.gif" width="127" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">That </font></b>
+<i><b><font color="#000080">N</font></b></i>
+<b><font color="#000080"> is the number 2000-digit prime </font></b>
+<img src="images/MILL_PRI119.gif" width="45" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, which I would like to</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">call '</font></b>
+<i><b><font color="#000080">millennium prime</font></b></i>
+<b><font color="#000080">'.  Here it is:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">millennium_prime := p^325*U + 1;</font></b>
+</p>
+<p align="left">
+<img src="images/MILL_PRI120.gif" width="954" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI121.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI122.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI123.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI124.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI125.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI126.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI127.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI128.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI129.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI130.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI131.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI132.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI133.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI134.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI135.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI136.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/MILL_PRI137.gif" width="248" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(millennium_prime);</font></b>
+</p>
+<p align="center">
+<img src="images/MILL_PRI138.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<!--mstheme--></font><!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<!--msthemeseparator--><p align="center"><img src="../../_themes/nature/narule.gif" width="600" height="10"></p>
+
+<p>This page was last updated 18 February 2005 15:08:18 -0000</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

@@ -1,0 +1,614 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark8">
+<p align=left>
+<b><font color=#000080 size=4>The (beautiful) cube-square relationship</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here would not be the place to detail all the ideas that occurred to me as </font></b>
+<i><b><font color=#000080>possible</font></b></i>
+<b><font color=#000080> proofs, though I can say that none of them worked... The good news for me, though, was that one of my failed attempts led me </font></b>
+<i><b><font color=#000080>quite by chance</font></b></i>
+<b><font color=#000080> to a lovely discovery (to me at any rate: I considered it then the most beautiful mathematiocal experience I had ever had </font></b>
+<i><b><font color=#000080>by myself</font></b></i>
+<b><font color=#000080>), with an </font></b>
+<i><b><font color=#000080>obviously powerful theoretical and computational consequence</font></b></i>
+<b><font color=#000080>, as I'll explain shortly. (For Dublin-based readers: the germ of the idea occurred to me while having coffee in </font></b>
+<i><b><font color=#000080>Panem</font></b></i>
+<b><font color=#000080>, on the north quays, beside the millennium bridge)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>At one point I became fixated with the belief that I would somehow get a proof through considering consecutive modular cubes (and their multiples...), meaning values of </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> (in the range 1 to </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005154.gif" width=56 height=58 alt="(p-1)/3" align=middle>
+<b><font color=#000080> ) such that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005155.gif" width=120 height=50 alt="(m+1)^3 = m^3" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and in connection with that I was hoping to get an insight by examining some actual cases... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Quite suddenly something jumped out at me in connection with the cubic residues for the prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 331 (here </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005156.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080> = (2) (3) (5) (11) ):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 331: seq(k^3 mod p, k = 1..(p-1)/3);</font></b>
+</p>
+<p align=left>
+<img src="images/reduced TCD talk 9th Feb 2005157.gif" width=964 height=20 alt="1, 8, 27, 64, 125, 216, 12, 181, 67, 7, 7, 73, 211,...">
+<br>
+<img src="images/reduced TCD talk 9th Feb 2005158.gif" width=940 height=20 alt="1, 8, 27, 64, 125, 216, 12, 181, 67, 7, 7, 73, 211,...">
+<br>
+<img src="images/reduced TCD talk 9th Feb 2005159.gif" width=948 height=20 alt="1, 8, 27, 64, 125, 216, 12, 181, 67, 7, 7, 73, 211,...">
+<br>
+<img src="images/reduced TCD talk 9th Feb 2005160.gif" width=376 height=20 alt="1, 8, 27, 64, 125, 216, 12, 181, 67, 7, 7, 73, 211,...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Those consecutive 7's are </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005161.gif" width=41 height=50 alt="10^3" align=middle>
+<b><font color=#000080> (mod 331) and </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005162.gif" width=41 height=50 alt="11^3" align=middle>
+<b><font color=#000080> (mod 331) (by the way it then follows that the modular ratio of one of them - either </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005163.gif" width=36 height=58 alt="10/11" align=middle>
+<b><font color=#000080> mod 331 or </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005164.gif" width=36 height=58 alt="11/10" align=middle>
+<b><font color=#000080> mod 331 - must be the value of P[1, 3](331), if </font></b>
+<b><font color=#000080 size=4>it</font></b>
+<b><font color=#000080> isn't 1), and what </font></b>
+<b><font color=#000080 size=4>struck me</font></b>
+<b><font color=#000080> was </font></b>
+<b><font color=#000080 size=4>their connection</font></b>
+<b><font color=#000080> to the </font></b>
+<b><font color=#000080 size=4>final cubic residue</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>that '49'</font></b>
+<b><font color=#000080> - </font></b>
+<b><font color=#000080 size=4>a square</font></b>
+<b><font color=#000080> - (which is of course </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005165.gif" width=49 height=50 alt="110^3" align=middle>
+<b><font color=#000080> mod 331) is </font></b>
+<b><font color=#000080 size=4>their product</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Of course I started checking all the Jacobi primes that I already had, and in every single case it happened that the above phenomenon held... (rush of blood to the head...)</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>__________________</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Aside</font></b>
+<b><font color=#000080>. I should relate that the occurrence of that </font></b>
+<b><font color=#000080 size=4>actual square</font></b>
+<b><font color=#000080> as the residue of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005166.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> struck me as being </font></b>
+<b><font color=#000080 size=4>highly significant</font></b>
+<b><font color=#000080>, as I'll try to explain: it happens to be immediate that for </font></b>
+<b><font color=#000080 size=4>all </font></b>
+<b><font color=#000080>primes p = 1 (mod 3) - and </font></b>
+<b><font color=#000080 size=4>not simply</font></b>
+<b><font color=#000080> the ones that are here of interest to us, the Jacobi ones - one </font></b>
+<b><font color=#000080 size=4>automatically</font></b>
+<b><font color=#000080> has</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005167.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080>= </font></b>
+<b><font color=#000080 size=4>some square</font></b>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Incidentally that's because (you'll have to ignore this if you don't know about </font></b>
+<i><b><font color=#000080>quadratic residues</font></b></i>
+<b><font color=#000080>, and the circumstances in which -1 is/isn't a quadratic residue a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) of a banality: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005168.gif" width=170 height=84 alt="((p-1)/3)^3 = ((p-1)/3)^2" align=middle>
+<b><font color=#000080>* ( </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005169.gif" width=56 height=58 alt="(p-1)/3" align=middle>
+<b><font color=#000080> )</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>from which it follows that (ignore this if you don't know about quadratic residues) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005170.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080>is automatically a quadratic residue for prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3), since it's precisely for such primes that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005171.gif" width=42 height=58 alt="-1/3" align=middle>
+<b><font color=#000080> is a quadratic residue... [end of Aside.]</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>____________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But my gut feeling would have been that the '</font></b>
+<b><font color=#000080 size=4>some square</font></b>
+<b><font color=#000080>' would have a numerical value </font></b>
+<b><font color=#000080 size=4>greater</font></b>
+<b><font color=#000080> than the dividing modulus </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, and be </font></b>
+<b><font color=#000080 size=4>most unusual</font></b>
+<b><font color=#000080> that it have an </font></b>
+<b><font color=#000080 size=4>actual value less</font></b>
+<b><font color=#000080> than </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The immediate (highly significant) question then was</font></b>
+<b><font color=#000080>: does this phenomenon characterise Jacobi primes (at that stage, only those of order 1 or 3; those of order 9 hadn't yet made their appearance...). </font></b>
+<b><font color=#000080 size=4>Meaning? </font></b>
+<b><font color=#000080>Can it be decided that a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) is a Jacobi prime of order 1 or 3 </font></b>
+<b><font color=#000080 size=4>merely by checking</font></b>
+<b><font color=#000080> if </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005172.gif" width=118 height=84 alt="((p-1)/3)^3 = r^2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>for some integer </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005173.gif" width=59 height=50 alt="r^2 &lt; p" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I thought that would be 'too good to be true', but nevertheless it needed investigating. In the following, then, this is what's going on:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>find primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) (that's the </font></b>
+<i><b><font color=#000080>if ithprime(k) mod 3 = 1</font></b></i>
+<b><font color=#000080>); those are in the first column below</font></b>
+</li>
+<li>
+<b><font color=#000080>check if the residue of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005174.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is an </font></b>
+<b><font color=#000080 size=4>actual</font></b>
+<b><font color=#000080> square (that's the </font></b>
+<i><b><font color=#000080>and issqr(((ithprime(k)-1)/3)^3 mod ithprime(k))</font></b></i>
+<b><font color=#000080>) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005175.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is automatically less than </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> because of Maple's own choice of remainder.<br>
+Those actual squares are then shown in the second column</font></b>
+</li>
+<li>
+<b><font color=#000080>the third column shows the value of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005176.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> (</font></b>
+<b><font color=#000080 size=4>will it/won't it be 1</font></b>
+<b><font color=#000080>?...)<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P[1,3] := proc(p) local r, k; r := 1;<br>
+for k from 2 to (p-1)/3 do<br>
+r := mods(r*k, p) od; r; end: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0:<br>
+for k from 2 to 1001 do<br>
+if ithprime(k) mod 3 = 1<br>
+and issqr(((ithprime(k)-1)/3)^3 mod ithprime(k)) <br>
+then count := count+1:<br>
+     p[count] := ithprime(k):<br>
+     N[count] := ((ithprime(k)-1)/3)^3:<br>
+fi; od;<br>
+array([[p, `((p-1)/3)^3 mod p`, `P[1,3](p)^3 mod p`],<br>
+seq([p[k], N[k] mod p[k], P[1,3](p[k])^3 mod p[k]], k=1..count)]); </font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005177.gif" width=327 height=650 alt="matrix([[p, `((p-1)/3)^3 mod p`, `P[1,3](p)^3 mod p...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Ah, those non 1's in the third column... Heartbreak or not? </font></b>
+<b><font color=#000080>Well, yes, but just for a fleeting moment... for it jumped out at me (what a happy moment that was!) that the </font></b>
+<b><font color=#000080 size=4>1's</font></b>
+<b><font color=#000080> and </font></b>
+<b><font color=#000080 size=4>non 1's</font></b>
+<b><font color=#000080> corresponded to the actual squares being </font></b>
+<b><font color=#000080 size=4>odd</font></b>
+<b><font color=#000080> and </font></b>
+<b><font color=#000080 size=4>even</font></b>
+<b><font color=#000080>!! </font></b>
+<b><font color=#000080 size=4>It was such a perfect fit it simply had to be true</font></b>
+<b><font color=#000080>...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>I thus had a new (to me) conjecture</font></b>
+<b><font color=#000080>: A prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) is a Jacobi prime of order 1 or 3 if and only if<br>
+</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005178.gif" width=118 height=84 alt="((p-1)/3)^3 = r^2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)  for some </font></b>
+<b><font color=#000080 size=4>odd</font></b>
+<b><font color=#000080> square </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005179.gif" width=59 height=50 alt="r^2 &lt; p" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>At the time, not having the remotest idea how to prove this, I nevertheless set about testing it beyond the range that I had already systematically tested, which at that time (Sat 11th Dec 2004) had taken several days to get up as far at </font></b>
+<b><font color=#000080 size=4>3.5 million</font></b>
+<b><font color=#000080>. Then, in one 24 hour period, I was able to use the above conjecture to test </font></b>
+<i><b><font color=#000080>ab initio</font></b></i>
+<b><font color=#000080> up to 33.675 million, and </font></b>
+<b><font color=#000080 size=4>every single one</font></b>
+<b><font color=#000080> of the 246 produced primes were Jacobi of order 1 or 3 [that's saved in #1 cube-sq.mws].</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>While this was certainly exciting to me, it didn't </font></b>
+<b><font color=#000080 size=4>satisfy me</font></b>
+<b><font color=#000080> with respect to the privately-named </font></b>
+<i><b><font color=#000080>inexplicable</font></b></i>
+<b><font color=#000080> primes, although such primes somehow came in under the cube-odd square umbrella... Only later - on the evening of Wed 15th Dec - did the fog finally lift on those primes.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>_____________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here's a modification to select only those corresponding to an </font></b>
+<b><font color=#000080 size=4>odd square</font></b>
+<b><font color=#000080> (that's achieved with the use of </font></b>
+<i><b><font color=#000080>and... mod 2 = 1</font></b></i>
+<b><font color=#000080>). Notice how I've been able to allow the </font></b>
+<i><b><font color=#000080>live</font></b></i>
+<b><font color=#000080> testing - during my talk - of the first ten thousand primes without getting into time difficulties). Notice that the odd squares increase monotonically...:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0:<br>
+for k from 2 to 10001 do<br>
+if ithprime(k) mod 3 = 1<br>
+and issqr(((ithprime(k)-1)/3)^3 mod ithprime(k))<br>
+and (((ithprime(k)-1)/3)^3 mod ithprime(k)) mod 2 = 1<br>
+then count := count+1:<br>
+     p[count] := ithprime(k):<br>
+     N[count] := ((ithprime(k)-1)/3)^3:<br>
+fi; od;<br>
+array([[p, `((p-1)/3)^3 mod p`, `P[1,3](p)^3 mod p`],<br>
+seq([p[k], N[k] mod p[k], P[1,3](p[k])^3 mod p[k]], k=1..count)]); </font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005180.gif" width=343 height=650 alt="matrix([[p, `((p-1)/3)^3 mod p`, `P[1,3](p)^3 mod p...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here's a modification to select only those primes corresponding to an </font></b>
+<b><font color=#000080 size=4>even square</font></b>
+<b><font color=#000080> (which it seemed to me must have some independent interest... they did...), achieved with the use of </font></b>
+<i><b><font color=#000080>and ... mod 2 = 0</font></b></i>
+<b><font color=#000080>). Notice that the even squares appear to fluctuate up and down, and indeed so too do the third column values of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005181.gif" width=83 height=84 alt="((p-1)/3)^3" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> (only later did I come to understand why that was happening: </font></b>
+<b><font color=#000080 size=4>seven quadratics</font></b>
+<b><font color=#000080> come into play...):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0:<br>
+for k from 2 to 10001 do<br>
+if ithprime(k) mod 3 = 1<br>
+and issqr(((ithprime(k)-1)/3)^3 mod ithprime(k))<br>
+and (((ithprime(k)-1)/3)^3 mod ithprime(k)) mod 2 = 0<br>
+then count := count+1:<br>
+     p[count] := ithprime(k):<br>
+     N[count] := ((ithprime(k)-1)/3)^3:<br>
+fi; od;<br>
+array([[p, `((p-1)/3)^3 mod p`, `P[1,3](p)^3 mod p`],<br>
+seq([p[k], N[k] mod p[k], P[1,3](p[k])^3 mod p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005182.gif" width=335 height=1010 alt="matrix([[p, `((p-1)/3)^3 mod p`, `P[1,3](p)^3 mod p...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Proposition 1</font></b>
+<b><font color=#000080>. A prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) satisfies  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005183.gif" width=118 height=84 alt="((p-1)/3)^3 = r^2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)  for some </font></b>
+<b><font color=#000080 size=4>odd</font></b>
+<b><font color=#000080> square </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005184.gif" width=59 height=50 alt="r^2 &lt; p" align=middle>
+<b><font color=#000080>  if, and only if, </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005185.gif" width=163 height=50 alt="p = 27*R^2+27*R+7" align=middle>
+<b><font color=#000080>  for some integer  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005186.gif" width=55 height=32 alt="0 &lt;= R" align=middle>
+<b><font color=#000080>.<br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>Proof</font></b>
+<b><font color=#000080>. Suppose prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) satisfies </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005187.gif" width=118 height=84 alt="((p-1)/3)^3 = r^2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)  for some odd square </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005188.gif" width=59 height=50 alt="r^2 &lt; p" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Then  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005189.gif" width=84 height=50 alt="-1 = 27*r^2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), giving </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005190.gif" width=122 height=50 alt="1+27*r^2 = p*w" align=middle>
+<b><font color=#000080>, some integer </font></b>
+<i><b><font color=#000080>w</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005191.gif" width=63 height=32 alt="w &lt;= 26" align=middle>
+<b><font color=#000080>. Now, since </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> is odd, </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005192.gif" width=59 height=50 alt="r^2 = 1" align=middle>
+<b><font color=#000080> (mod 8)  and </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005193.gif" width=143 height=50 alt="1+27*r^2 = 1+27" align=middle>
+<b><font color=#000080> = 4 (mod 8), giving 4 divides </font></b>
+<i><b><font color=#000080>pw</font></b></i>
+<b><font color=#000080>, but 8 not dividing </font></b>
+<i><b><font color=#000080>pw</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Hence </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005194.gif" width=122 height=50 alt="1+27*r^2 = p*w" align=middle>
+<b><font color=#000080> = </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>(4</font></b>
+<i><b><font color=#000080>W</font></b></i>
+<b><font color=#000080>), </font></b>
+<i><b><font color=#000080>W</font></b></i>
+<b><font color=#000080> odd and </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005195.gif" width=59 height=32 alt="W &lt;= 6" align=middle>
+<b><font color=#000080>. In fact </font></b>
+<i><b><font color=#000080>W</font></b></i>
+<b><font color=#000080> = 1, since any odd prime </font></b>
+<i><b><font color=#000080>q </font></b></i>
+<b><font color=#000080>dividin</font></b>
+<i><b><font color=#000080>g W</font></b></i>
+<b><font color=#000080> would divide </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005196.gif" width=79 height=50 alt="1+27*r^2" align=middle>
+<b><font color=#000080>, and so would satisfy </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> = 1 (mod 6).  Thus </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005197.gif" width=119 height=50 alt="1+27*r^2 = 4*p" align=middle>
+<b><font color=#000080>  (instantly recognisable to anyone who knows the Gauss representation theorem, for primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3)) and setting </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> = 2</font></b>
+<i><b><font color=#000080>R</font></b></i>
+<b><font color=#000080>+1 gives</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005198.gif" width=170 height=76 alt="p = (27*(2*R+1)^2+1)/4" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005199.gif" width=135 height=50 alt="27*R^2+27*R+7" align=middle>
+<b><font color=#000080><br>
+   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Conversely</font></b>
+<b><font color=#000080>, suppose </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005200.gif" width=163 height=50 alt="p = 27*R^2+27*R+7" align=middle>
+<b><font color=#000080>  for some integer </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005201.gif" width=55 height=32 alt="0 &lt;= R" align=middle>
+<b><font color=#000080>.  Then one has the following (beautiful) </font></b>
+<b><font color=#000080 size=4>identity</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005202.gif" width=534 height=84 alt="((p-1)/3)^3 = 729*R^6+2187*R^5+2673*R^4+1701*R^3+59..." align=middle>
+</p>
+<p align=center>
+<b><font color=#000080>  = </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005203.gif" width=370 height=50 alt="p*(27*R^4+54*r^3+38*R^2+11*R+1)+(2*R+1)^2" align=middle>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Proposition 2</font></b>
+<b><font color=#000080>. A prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) satisfies  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005204.gif" width=118 height=84 alt="((p-1)/3)^3 = r^2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) for some </font></b>
+<b><font color=#000080 size=4>even</font></b>
+<b><font color=#000080> square </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005205.gif" width=59 height=50 alt="r^2 &lt; p" align=middle>
+<b><font color=#000080>  if, and only if, </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005206.gif" width=79 height=32 alt="p = f[i](R)" align=middle>
+<b><font color=#000080> (where the { </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005207.gif" width=48 height=32 alt="f[i](x)" align=middle>
+<b><font color=#000080> } are </font></b>
+<b><font color=#000080 size=4>seven</font></b>
+<b><font color=#000080> quadratics (which I've placed in a special section at the end), all of which, incidentally, have discriminant </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005208.gif" width=50 height=32 alt="-432" align=middle>
+<b><font color=#000080>) for some integer  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005209.gif" width=55 height=32 alt="0 &lt;= R" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Remark</font></b>
+<b><font color=#000080>. The first (in a sense) of those seven quadratics is </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005210.gif" width=92 height=50 alt="108*R^2+1" align=middle>
+<b><font color=#000080>, and its prime values { </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> } have a very special property: they are </font></b>
+<i><b><font color=#000080>precisely</font></b></i>
+<b><font color=#000080> the primes for which </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005211.gif" width=151 height=84 alt="2*((p-1)/3)!^3 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Alternatively (and better expressed), they are precisely the primes for which</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005212.gif" width=152 height=84 alt="((p-1)/3)!^3 = -1/2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>where the ' </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005213.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> ' is interpreted in the normal modular way (the </font></b>
+<i><b><font color=#000080>multiplicative inverse</font></b></i>
+<b><font color=#000080> of 2, modulo </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I have an entire infinite chain of such results (with their corresponding quadratics, one for each </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> in the following), dealing with</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005214.gif" width=179 height=84 alt="((p-1)/3)!^3 = 1/(3*n+1)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) </font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> chosen from:  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005215.gif" width=185 height=32 alt="`...`, -3, -2, -1, 0, 1, 2, 3, `...`" align=middle>
+<b><font color=#000080> , so that the original question corresponds to n = 0, and  ' </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005216.gif" width=42 height=58 alt="-1/2" align=middle>
+<b><font color=#000080> ' corresponds to </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> = -1.</font></b>
+</p>
+</basefont>
+</body>
+</html>

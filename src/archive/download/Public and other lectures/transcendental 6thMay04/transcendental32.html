@@ -1,0 +1,641 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark32">
+<p align=left>
+<b><font color=#000080 size=5>Hilbert's seventh problem. Gelfond, Schneider</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>General background: Hilbert's famous (23) MATHEMATICAL PROBLEMS (</font></b>
+<b><font color=#000080 size=2>LECTURE DELIVERED BEFORE THE INTERNATIONAL CONGRESS OF MATHEMATICIANS AT PARIS IN 1900</font></b>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Hilbert's seventh problem</font></b>
+<b><font color=#000080> (after a preamble) asked for a proof that (</font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> value of) </font></b>
+<img src="images/transcendental811.gif" width=40 height=52 alt="alpha^beta" align=middle>
+<b><font color=#000080> (for algebraic </font></b>
+<img src="images/transcendental812.gif" width=72 height=32 alt="alpha &lt;&gt; 0, 1" align=middle>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>irrational</font></b></i>
+<b><font color=#000080> algebraic </font></b>
+<img src="images/transcendental813.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080>), e.g. </font></b>
+<img src="images/transcendental814.gif" width=47 height=64 alt="2^sqrt(2)" align=middle>
+<b><font color=#000080> or </font></b>
+<img src="images/transcendental815.gif" width=102 height=58 alt="e^Pi = i^(-2*i)" align=middle>
+<b><font color=#000080>, is transcendental (or at least an irrational number). Hilbert wrote: </font></b>
+<i><b><font color=#000080>" It is certain that the solution of these and similar problems must lead us to entirely new methods and to a new insight into the nature of special irrational and transcendental numbers."</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc(sqrt(-1)^(-2*sqrt(-1)));</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental816.gif" width=36 height=29 alt="exp(Pi)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc((-1)^(-sqrt(-1))); # alternatively</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental817.gif" width=36 height=29 alt="exp(Pi)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc(I^(-2*I)); # alternatively</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental818.gif" width=36 height=29 alt="exp(Pi)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Although Hilbert didn't specifically refer to (what I earlier called) Euler's surmise, he must have had it in mind...</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>__________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>From Constance Reid's biography of Hilbert (p.164) I quote: </font></b>
+<i><b><font color=#000080>"Siegel came to Göttingen as a student in 1919... he was always to remember a lecture on number theory which he heard from Hilbert at this time. Hilbert wanted to give his listeners examples of the characteristic problems of the theory of numbers which seem at first glance so very simple but turn out to be incredibly difficult to solve. He mentioned Riemann's hypothesis, Fermat's [Last] theorem, and the transcendence of</font></b></i>
+<i><b><font color=#000080 size=4> </font></b></i>
+<img src="images/transcendental819.gif" width=47 height=64 alt="2^sqrt(2)" align=middle>
+<i><b><font color=#000080>as examples of this type of problem. Then he went on to say that there had recently been much progress on Riemann's hypothesis and he was very hopeful that he would live to see it proved. Fermat's problem had been around for a very long time and apparently demanded entirely new methods for its solution - perhaps the youngest members of his audience would live to see it solved. But as for establishing the transcendence of</font></b></i>
+<i><b><font color=#000080 size=4> </font></b></i>
+<img src="images/transcendental820.gif" width=47 height=64 alt="2^sqrt(2)" align=middle>
+<i><b><font color=#000080>no one present in the lecture hall would live to see that!</font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>    The first two problems which Hilbert mentioned are still unsolved [JC comment. As everyone knows, Fermat's Last Theorem has been settled by Andrew Wiles]. But less than ten years later a young Russian mathematician named Gelfond established the transcendence of </font></b></i>
+<img src="images/transcendental821.gif" width=57 height=64 alt="2^sqrt(-2)" align=middle>
+<i><b><font color=#000080 size=4> </font></b></i>
+<i><b><font color=#000080>. </font></b></i>
+<i><b><font color=#000080>Utilising this work, Siegel himself was shortly able to establish the desired transcendence of</font></b></i>
+<i><b><font color=#000080 size=4> </font></b></i>
+<img src="images/transcendental822.gif" width=47 height=64 alt="2^sqrt(2)" align=middle>
+<i><b><font color=#000080>.</font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>    Siegel wrote to Hilbert about the proof. He reminded him of what he had said in his 1920 lecture and emphasised that the important work was that of Gelfond. Hilbert was frequently criticized for "acting as if everything had been done in Göttingen."</font></b></i>
+<i><b><font color=#000080> Now he responded with enthusiastic delight to Siegel's letter, but the made no mention of the young Russian's contribution. He wanted only to publish Siegel's solution. Siegel refused, certain that Gelfond himself would eventually solve this problem too. Hilbert immediately lost all interest in the matter."</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>As it happened, Gelfond didn't find a solution himself, and another Russian mathematician - Kuzmin - published a solution the following year. In 1933, K. Boehle, using Gelfond's method did manage to prove that if </font></b>
+<img src="images/transcendental823.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> is algebraic of degree </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (at least 3), then at least one of the numbers </font></b>
+<img src="images/transcendental824.gif" width=213 height=88 alt="alpha^beta, alpha^(beta^2), `...`, alpha^(beta^(n-1..." align=middle>
+<b><font color=#000080> is transcendental, and then in 1934, with some justice, Gelfond himself published a complete solution (April 1st 1934?) to the entire seventh problem of Hilbert. Within six weeks, a PhD student of Siegel's - the great Schneider - found another independent solution, which he submitted on May 28th 1934, and was published later that year.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Gelfond's (1929) Theorem. Let </font></b>
+<img src="images/transcendental825.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> be any algebraic number (</font></b>
+<img src="images/transcendental826.gif" width=72 height=32 alt="alpha &lt;&gt; 0, 1" align=middle>
+<b><font color=#000080>) and let </font></b>
+<img src="images/transcendental827.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> be any imaginary quadratic (i.e. a solution of a quadratic equation with negative discriminant), then (</font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> value of) </font></b>
+<img src="images/transcendental828.gif" width=40 height=52 alt="alpha^beta" align=middle>
+<b><font color=#000080> is transcendental.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I believe it is possible for a novice to follow at least the gist of Gelfond's 1929 proof (if I cut some big corners, and hand wave just a little). It is helpful, I believe, if one follows the proof of the following very beautiful result (though Analysis folk would probably regard it as being rather trivial):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem (Polya 1916). Let f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) be an entire function of </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> such that f(0), f(1), f(2), ... are all integers, and suppose </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) grows </font></b>
+<i><b><font color=#000080>slower</font></b></i>
+<b><font color=#000080> than </font></b>
+<img src="images/transcendental829.gif" width=31 height=50 alt="2^z" align=middle>
+<b><font color=#000080> (in the sense that </font></b>
+<img src="images/transcendental830.gif" width=140 height=58 alt="abs(f(z)) &lt;= C*2^(A*abs(z))" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>A </font></b></i>
+<b><font color=#000080>and</font></b>
+<i><b><font color=#000080> C</font></b></i>
+<b><font color=#000080> and are constants, and </font></b>
+<img src="images/transcendental831.gif" width=55 height=32 alt="A &lt; 1" align=middle>
+<b><font color=#000080>), then f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) is a polynomial [it's a trivial exercise that the polynomial f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) must have rational coefficients].</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Recall that an entire function f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) of the complex variable </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>, is one that is defined for all </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>, and is </font></b>
+<i><b><font color=#000080>differentiable</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>everywhere</font></b></i>
+<b><font color=#000080> (f '(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) exists). Simple examples are</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> polynomials (of finite degree) <br>
+</font></b>
+<img src="images/transcendental832.gif" width=149 height=76 alt="z*(z+1)/2 = z^2/2+z/2" align=middle>
+<b><font color=#000080>, is an integer for </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> = 0, 1, 2, 3, ...<br>
+<br>
+</font></b>
+<img src="images/transcendental833.gif" width=149 height=76 alt="z*(z+1)/3 = z^2/3+z/3" align=middle>
+<b><font color=#000080>, is an integer for some, but not all </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> = 0, 1, 2, 3, ... </font></b>
+</li>
+<li>
+<img src="images/transcendental834.gif" width=255 height=76 alt="sin(z), cos(z), e^z, 2^z, 3^z, (2^z+3^z)/2, `...`" align=middle>
+<b><font color=#000080> <br>
+sin(0) = 0, but none of sin(1), sin(2), sin(3), ... is an integer<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>(sketch of) Proof of Polya's theorem. The key is to expand f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) as a </font></b>
+<i><b><font color=#000080>Newton interpolation series</font></b></i>
+<b><font color=#000080> (which is different from the usual Taylor series) at the </font></b>
+<i><b><font color=#000080>points of interpolation</font></b></i>
+<b><font color=#000080> 0, 1, 2, 3, ... :</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental835.gif" width=549 height=32 alt="f(z) = A[0]+A[1]*(z-1)+A[2]*z*(z-1)+`...`+A[n]*z*(z..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now, express the coefficient </font></b>
+<img src="images/transcendental836.gif" width=36 height=32 alt="A[n]" align=middle>
+<b><font color=#000080> as a contour integral around </font></b>
+<img src="images/transcendental837.gif" width=36 height=32 alt="C[n]" align=middle>
+<b><font color=#000080> (where </font></b>
+<img src="images/transcendental838.gif" width=36 height=32 alt="C[n]" align=middle>
+<b><font color=#000080> is (say) </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> circle, containing all the points </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> = 0, 1, 2, ..., </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and described </font></b>
+<i><b><font color=#000080>in the positive sense</font></b></i>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental839.gif" width=92 height=58 alt="A[n] = 1/(2*Pi*i)" align=middle>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental840.gif" width=177 height=76 alt="int(f(z)/(z*(z-1)*`...`*(z-n)),z)" align=middle>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Then, by the </font></b>
+<i><b><font color=#000080>residue theorem</font></b></i>
+<b><font color=#000080>, we have</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<img src="images/transcendental841.gif" width=36 height=32 alt="A[n]" align=middle>
+<b><font color=#000080> = the residue of </font></b>
+<img src="images/transcendental842.gif" width=147 height=58 alt="f(z)/(z*(z-1)*`...`*(z-n))" align=middle>
+<b><font color=#000080> at </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> = 0 + the residue of </font></b>
+<img src="images/transcendental843.gif" width=147 height=58 alt="f(z)/(z*(z-1)*`...`*(z-n))" align=middle>
+<b><font color=#000080> at </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> = 1 </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>         + ... + the residue of </font></b>
+<img src="images/transcendental844.gif" width=147 height=58 alt="f(z)/(z*(z-1)*`...`*(z-n))" align=middle>
+<b><font color=#000080> at </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> = </font></b>
+<i><b><font color=#000080>n</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>      = </font></b>
+<img src="images/transcendental845.gif" width=195 height=58 alt="f(0)/((0-1)*(0-2)*`...`*(0-n))" align=middle>
+<b><font color=#000080> + </font></b>
+<img src="images/transcendental846.gif" width=207 height=58 alt="f(1)/(1*(1-2)*(1-3)*`...`*(1-n))" align=middle>
+<b><font color=#000080> + </font></b>
+<img src="images/transcendental847.gif" width=207 height=58 alt="f(2)/(2*(2-1)*(2-3)*`...`*(2-n))" align=middle>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>        </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>        + ... + </font></b>
+<img src="images/transcendental848.gif" width=253 height=58 alt="f(n)/(n*(n-1)*(n-2)*`...`*(n-(n-1)))" align=middle>
+<b><font color=#000080>  (all the </font></b>
+<i><b><font color=#000080>poles</font></b></i>
+<b><font color=#000080> are </font></b>
+<i><b><font color=#000080>simple</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Since all the f(0), f(1), ... , f(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) are integers then it is </font></b>
+<i><b><font color=#000080>clear</font></b></i>
+<b><font color=#000080> that </font></b>
+<img src="images/transcendental849.gif" width=54 height=32 alt="n!*A[n]" align=middle>
+<b><font color=#000080> is an integer (think about it).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now choose </font></b>
+<img src="images/transcendental850.gif" width=36 height=32 alt="C[n]" align=middle>
+<b><font color=#000080> to be the circle </font></b>
+<img src="images/transcendental851.gif" width=73 height=32 alt="abs(z) = 2*n" align=middle>
+<b><font color=#000080> and proceed to estimate the integrand on </font></b>
+<img src="images/transcendental852.gif" width=36 height=32 alt="C[n]" align=middle>
+<b><font color=#000080>. It emerges (here I cut a corner, but I point out that one uses </font></b>
+<img src="images/transcendental853.gif" width=145 height=58 alt="abs(f(z)) &lt;= C*2^(A*2*n)" align=middle>
+<b><font color=#000080>) that </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental854.gif" width=93 height=58 alt="abs(A[n]) &lt;= 1/(2*Pi)" align=middle>
+<b><font color=#000080> . </font></b>
+<img src="images/transcendental855.gif" width=192 height=84 alt="2*Pi*2*n*C*2^(A*2*n)/(2*n*(2*n-1)*`...`*(n+1)*n)" align=middle>
+<b><font color=#000080>, giving<br>
+<br>
+ </font></b>
+<img src="images/transcendental856.gif" width=260 height=84 alt="abs(n!*A[n]) &lt;= n!*2*n*C*2^(A*2*n)/(2*n*(2*n-1)*`....." align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental857.gif" width=147 height=84 alt="2*n!^2*C*2^(A*2*n)/(2*n)!" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and it's an easy school exercise that </font></b>
+<img src="images/transcendental858.gif" width=24 height=32 alt="%?" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/transcendental859.gif" width=64 height=32 alt="proc (n) options operator, arrow; infinity end proc..." align=middle>
+<b><font color=#000080>. (Hint. Use the ratio test, and note the relevance of the condition that </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> is less than 1). Thus </font></b>
+<img src="images/transcendental860.gif" width=54 height=32 alt="n!*A[n]" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>must be</font></b></i>
+<b><font color=#000080> 0 for sufficiently large </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>. In short, returning to the Newton interpolation series for f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>), one sees that f(</font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>) is a polynomial (a lovely proof, I hope you agree. Hardy, and others, gave refinements. E.g. it was possible to improve the growth restriction to </font></b>
+<img src="images/transcendental861.gif" width=118 height=58 alt="abs(f(z)) = o(2^abs(z))" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/transcendental862.gif" width=61 height=32 alt="proc (z) options operator, arrow; infinity end proc..." align=middle>
+<b><font color=#000080>, meaning </font></b>
+<img src="images/transcendental863.gif" width=24 height=32 alt="%?" align=middle>
+<b><font color=#000080> as </font></b>
+<img src="images/transcendental864.gif" width=61 height=32 alt="proc (z) options operator, arrow; infinity end proc..." align=middle>
+<b><font color=#000080>.)  [end]  I hope you can now follow the gist of:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Gelfond's Theorem</font></b>
+<b><font color=#000080> (1929). </font></b>
+<img src="images/transcendental865.gif" width=35 height=50 alt="e^Pi" align=middle>
+<b><font color=#000080>[understood to be </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> value of </font></b>
+<img src="images/transcendental866.gif" width=95 height=64 alt="(-1)^(-sqrt(-1))" align=middle>
+<b><font color=#000080> ] is transcendental. Actually the full version of his 1929 theorem </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Sketch proof</font></b>
+<b><font color=#000080>. Suppose </font></b>
+<img src="images/transcendental867.gif" width=24 height=32 alt="gamma" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental868.gif" width=134 height=64 alt="e^Pi = (-1)^(-sqrt(-1))" align=middle>
+<b><font color=#000080> is algebraic. Then (the first idea) the entire function </font></b>
+<img src="images/transcendental869.gif" width=59 height=58 alt="e^(Pi*z)" align=middle>
+<b><font color=#000080> would have an algebraic value for every </font></b>
+<img src="images/transcendental870.gif" width=87 height=32 alt="z = a+i*b" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> are any two (ordinary) integers </font></b>
+<img src="images/transcendental871.gif" width=159 height=32 alt="`...`, -2, -1, 0, 1, 2, 3, `...`" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>(Those </font></b>
+<img src="images/transcendental872.gif" width=61 height=32 alt="a+i*b" align=middle>
+<b><font color=#000080> are known as the </font></b>
+<i><b><font color=#000080>Gaussian integers</font></b></i>
+<b><font color=#000080>.) </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>For </font></b>
+<img src="images/transcendental873.gif" width=87 height=32 alt="z = 3+4*i" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental874.gif" width=59 height=58 alt="e^(Pi*z)" align=middle>
+<b><font color=#000080> would have value:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental875.gif" width=252 height=58 alt="e^(Pi*(3+4*i)) = (-1)^(-i*(3+4*i))" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental876.gif" width=230 height=58 alt="(-1)^(-3*i)*(-1)^(-i*4*i) = gamma^3*(-1)^4" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental877.gif" width=33 height=52 alt="gamma^3" align=middle>
+<b><font color=#000080>, is algebraic. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>For </font></b>
+<img src="images/transcendental878.gif" width=97 height=32 alt="z = -4-5*i" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental879.gif" width=59 height=58 alt="e^(Pi*z)" align=middle>
+<b><font color=#000080> would have value:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental880.gif" width=272 height=58 alt="e^(Pi*(-4-5*i)) = (-1)^(-i*(-4-5*i))" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental881.gif" width=234 height=60 alt="(-1)^(4*i)*(-1)^(i*5*i) = gamma^(-4)*(-1)^5" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental882.gif" width=67 height=60 alt="-gamma^(-4)" align=middle>
+<b><font color=#000080>, is also algebraic:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc((-1)^(-sqrt(-1))); </font></b>
+</p>
+<p align=center>
+<img src="images/transcendental883.gif" width=36 height=29 alt="exp(Pi)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc(((-1)^(-sqrt(-1)))^(3 + 4*sqrt(-1)));</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental884.gif" width=62 height=33 alt="exp(3*Pi)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc(((-1)^(-sqrt(-1)))^(-4 - 5*sqrt(-1))); </font></b>
+</p>
+<p align=center>
+<img src="images/transcendental885.gif" width=82 height=33 alt="-exp(-4*Pi)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Arrange the Gaussian integers - namely all complex numbers of the form </font></b>
+<img src="images/transcendental886.gif" width=61 height=32 alt="a+i*b" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> vary over the (ordinary) integers </font></b>
+<img src="images/transcendental887.gif" width=185 height=32 alt="`...`, -3, -2, -1, 0, 1, 2, 3, `...`" align=middle>
+<b><font color=#000080>) - in a sequence </font></b>
+<img src="images/transcendental888.gif" width=94 height=32 alt="z[0], z[1], z[2], `...`" align=middle>
+<b><font color=#000080> according to </font></b>
+<i><b><font color=#000080>increasing modulus</font></b></i>
+<b><font color=#000080>, and where several have the same modulus, by </font></b>
+<i><b><font color=#000080>increasing argument</font></b></i>
+<b><font color=#000080>, and then expand the (entire) function </font></b>
+<img src="images/transcendental889.gif" width=59 height=58 alt="e^(Pi*z)" align=middle>
+<b><font color=#000080> as a Newton interpolation series with the above points of interpolation:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental890.gif" width=731 height=40 alt="e^(Pi*z) = A[0]+A[1]*(z-z[0])*(z-z[1])+A[2]*(z-z[0]...">
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<img src="images/transcendental891.gif" width=36 height=32 alt="C[n]" align=middle>
+<b><font color=#000080> be a circle centered at the origin containing the points </font></b>
+<img src="images/transcendental892.gif" width=95 height=32 alt="z[0], z[1], `...`, z[n]" align=middle>
+<b><font color=#000080>, then</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental893.gif" width=92 height=58 alt="A[n] = 1/(2*Pi*i)" align=middle>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental894.gif" width=237 height=84 alt="int(f(z)/((z-z[0])*(z-z[1])*`...`*(z-z[n])),z)" align=middle>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>= </font></b>
+<img src="images/transcendental895.gif" width=231 height=72 alt="f(z[0])/((z[0]-z[1])*(z[0]-z[2])*`...`*(z[0]-z[n]))..." align=middle>
+<b><font color=#000080> + </font></b>
+<img src="images/transcendental896.gif" width=231 height=72 alt="f(z[1])/((z[1]-z[0])*(z[1]-z[2])*`...`*(z[1]-z[n]))..." align=middle>
+<b><font color=#000080> +  ... + </font></b>
+<img src="images/transcendental897.gif" width=195 height=72 alt="f(z[n])/((z[n]-z[0])*`...`*(z[n]-z[n-1]))" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Note that <br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>all those numerators are algebraic numbers</font></b>
+</li>
+<li>
+<b><font color=#000080>all those denominators are Gaussian integers</font></b>
+</li>
+<li>
+<b><font color=#000080>thus every term in that sum is an algebraic number</font></b>
+</li>
+<li>
+<b><font color=#000080>thus </font></b>
+<img src="images/transcendental898.gif" width=36 height=32 alt="A[n]" align=middle>
+<b><font color=#000080> is an algebraic number</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080 size=4> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>By choosing the circle </font></b>
+<img src="images/transcendental899.gif" width=36 height=32 alt="C[n]" align=middle>
+<b><font color=#000080> to be </font></b>
+<img src="images/transcendental900.gif" width=61 height=32 alt="abs(z) = n" align=middle>
+<b><font color=#000080> </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>it can be argued that </font></b>
+<img src="images/transcendental901.gif" width=36 height=32 alt="A[n]" align=middle>
+<b><font color=#000080> is at most </font></b>
+<img src="images/transcendental902.gif" width=159 height=58 alt="e^(-n*log(n)+O(n))" align=middle>
+<b><font color=#000080>, where "O(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>)" means a function of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> whose size is at most a constant times </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, whereas</font></b>
+</li>
+<li>
+<b><font color=#000080>it can also be argued (and here I have to cut a </font></b>
+<b><font color=#000080 size=4>very large corner</font></b>
+<b><font color=#000080>) that that whenever </font></b>
+<img src="images/transcendental903.gif" width=36 height=32 alt="A[n]" align=middle>
+<b><font color=#000080> is </font></b>
+<b><font color=#000080 size=4>not zero</font></b>
+<b><font color=#000080> it must be at least </font></b>
+<img src="images/transcendental904.gif" width=171 height=108 alt="e^(-n*log(n)/2+O(n))" align=middle>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Those minimum and maximum values are incompatible for large </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, and it follows that </font></b>
+<img src="images/transcendental905.gif" width=36 height=32 alt="A[n]" align=middle>
+<b><font color=#000080> is </font></b>
+<b><font color=#000080 size=4>eventually</font></b>
+<b><font color=#000080> zero. Thus</font></b>
+<img src="images/transcendental906.gif" width=59 height=58 alt="e^(Pi*z)" align=middle>
+<b><font color=#000080> is a polynomial, of </font></b>
+<i><b><font color=#000080>finite degree</font></b></i>
+<b><font color=#000080> (as a consequence of assuming that </font></b>
+<img src="images/transcendental907.gif" width=35 height=50 alt="e^Pi" align=middle>
+<b><font color=#000080> is algebraic). But </font></b>
+<img src="images/transcendental908.gif" width=59 height=58 alt="e^(Pi*z)" align=middle>
+<b><font color=#000080> is most definitely </font></b>
+<b><font color=#000080 size=4>not</font></b>
+<b><font color=#000080> a polynomial of finite degree. Thus </font></b>
+<img src="images/transcendental909.gif" width=35 height=50 alt="e^Pi" align=middle>
+<b><font color=#000080> is transcendental. [end]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Suffice it to say that complete proofs (Gelfond's or Schneider's) of the full version of Hilbert's seventh problem are really quite difficult, and have no place here. I will only remark that both proofs make use - as does the one above - of functions of a complex variable. An interested reader will find a very good exposition in Niven's MAA classic </font></b>
+<i><b><font color=#000080>Irrational Numbers</font></b></i>
+<b><font color=#000080>. Also a reader might ask: is it possible to give a proof that </font></b>
+<i><b><font color=#000080>avoids</font></b></i>
+<b><font color=#000080> the use of complex variable methods in the </font></b>
+<i><b><font color=#000080>real</font></b></i>
+<b><font color=#000080> case of Hilbert's seventh problem. In other words, if </font></b>
+<img src="images/transcendental910.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> (</font></b>
+<img src="images/transcendental911.gif" width=56 height=32 alt="0 &lt; alpha" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental912.gif" width=56 height=32 alt="alpha &lt;&gt; 1" align=middle>
+<b><font color=#000080>) and </font></b>
+<img src="images/transcendental913.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> are real algebraic numbers, </font></b>
+<img src="images/transcendental914.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> irrational, can </font></b>
+<img src="images/transcendental915.gif" width=40 height=52 alt="alpha^beta" align=middle>
+<b><font color=#000080> (namely </font></b>
+<img src="images/transcendental916.gif" width=106 height=72 alt="e^(beta*log[e](alpha))" align=middle>
+<b><font color=#000080>) be proved to be transcendental by using arguments </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> involving complex variable methods? Gelfond himself gave such a proof, which formed an entire chapter in the great Gelfond and Linnik classic, as I've already mentioned in an earlier section. Incidentally Gelfond also gave there an entirely elementary proof of the transcendence of </font></b>
+<img src="images/transcendental917.gif" width=36 height=50 alt="e^alpha" align=middle>
+<b><font color=#000080> for non-zero real algebraic </font></b>
+<img src="images/transcendental918.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:10:00 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

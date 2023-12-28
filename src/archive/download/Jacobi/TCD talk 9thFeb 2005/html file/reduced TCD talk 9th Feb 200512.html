@@ -1,0 +1,1174 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark12">
+<p align=left>
+<b><font color=#000080 size=4>Cube-square identities</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=center>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>Odd squares first</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># see ?polynomial for Maple's use of 'quo' and 'rem' with polynomials</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((27*x^2 + 27*x + 7 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005516.gif" width=429 height=29 alt="729*x^6+2187*x^5+2673*x^4+1701*x^3+594*x^2+108*x+8">
+</p>
+<p align=left>
+<b><font color=#000080>Now, this was a bit odd, to say the least:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(729*x^6+2187*x^5+2673*x^4+1701*x^3+594*x^2+108*x+8, <br>
+                                27*x^2+27*x+7, x, 'R0');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005517.gif" width=251 height=45 alt="27*x^4+54*x^3+38*x^2+11*x+31/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>R0;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005518.gif" width=32 height=45 alt="-1/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(31/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005519.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<b><font color=#000080>I had to resort to this to get the </font></b>
+<b><font color=#000080 size=4>odd square identity</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>(729*x^6+2187*x^5+2673*x^4+1701*x^3+594*x^2+108*x+8)<br>
+- expand((27*x^2+27*x+7)*(27*x^4+54*x^3+38*x^2+11*x+1));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005520.gif" width=113 height=29 alt="4*x^2+4*x+1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(4*x^2+4*x+1);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005521.gif" width=87 height=29 alt="(2*x+1)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(27*x^4+54*x^3+38*x^2+11*x+1);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005522.gif" width=243 height=29 alt="27*x^4+54*x^3+38*x^2+11*x+1">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005523.gif" width=671 height=67 alt="((27*x^2+27*x+7-1)/3)^3 = (27*x^2+27*x+7)*(27*x^4+5...">
+</p>
+<p align=center>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>Now the even squares (</font></b>
+<i><b><font color=#000080 size=4>seven</font></b></i>
+<b><font color=#000080 size=4> cases)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(0) The zero-th of the seven</font></b>
+<b><font color=#000080> even-square producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((108*x^2 + 1 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005524.gif" width=77 height=29 alt="46656*x^6">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(46656*x^6, 108*x^2+1, x, 'r0');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005525.gif" width=146 height=45 alt="432*x^4-4*x^2+1/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r0;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005526.gif" width=32 height=45 alt="-1/27">
+</p>
+<p align=left>
+<b><font color=#000080>I had to resort to this to get the </font></b>
+<b><font color=#000080 size=4>zero-th</font></b>
+<b><font color=#000080> of the </font></b>
+<b><font color=#000080 size=4>even square identities</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>(46656*x^6) - expand((108*x^2+1)*(432*x^4-4*x^2));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005527.gif" width=45 height=29 alt="4*x^2">
+</p>
+<p align=left>
+<b><font color=#000080>That, of course, is identically </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005528.gif" width=59 height=50 alt="(2*x)^2" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005529.gif" width=430 height=102 alt="((108*x^2+1-1)/3)^3 = (108*x^2+1)*(432*x^4-4*x^2)+(..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(1) The i = 1 case of the seven</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even-square</font></b>
+<b><font color=#000080> producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((756*x^2+648*x+139 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005530.gif" width=661 height=29 alt="16003008*x^6+41150592*x^5+44035488*x^4+25100928*x^3...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(16003008*x^6+41150592*x^5+44035488*x^4+25100928*x^3+8038224*x^2<br>
++1371168*x+97336, 756*x^2+648*x+139, x, 'r1');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005531.gif" width=363 height=45 alt="21168*x^4+36288*x^3+23252*x^2+6600*x+18907/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>16003008*x^6+41150592*x^5+44035488*x^4+25100928*x^3<br>
++8038224*x^2+1371168*x+97336 - expand((756*x^2+648*x+139)*<br>
+               (21168*x^4+36288*x^3+23252*x^2+6600*x+700));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005532.gif" width=153 height=29 alt="196*x^2+168*x+36">
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>constant term</font></b>
+<b><font color=#000080> '700' is obtained from the 'r1' quotient constant term:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(18907/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005533.gif" width=40 height=20 alt="700">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(196*x^2+168*x+36);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005534.gif" width=99 height=29 alt="4*(7*x+3)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is, in fact,</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005535.gif" width=95 height=50 alt="(14*x+6)^2" align=middle>
+<b><font color=#000080>. </font></b>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005536.gif" width=220 height=102 alt="((756*x^2+648*x+139-1)/3)^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>=</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005537.gif" width=623 height=50 alt="(756*x^2+648*x+139)*(21168*x^4+36288*x^3+23252*x^2+..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(21168*x^4+36288*x^3+23252*x^2+6600*x+700);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005538.gif" width=319 height=29 alt="4*(14*x+5)*(2*x+1)*(189*x^2+162*x+35)">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>That quadratic has discriminant:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>162^2 - 4*189*35;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005539.gif" width=45 height=20 alt="-216">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005540.gif" width=43 height=50 alt="-6^3" align=middle>
+<b><font color=#000080>. </font></b>
+<b><font color=#000080 size=4>Interesting...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(2) The i = 2 case of the seven</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even-square</font></b>
+<b><font color=#000080> producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((756*x^2+864*x+247 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005541.gif" width=677 height=29 alt="16003008*x^6+54867456*x^5+78327648*x^4+59595264*x^3...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(16003008*x^6+54867456*x^5+78327648*x^4+59595264*x^3+25487568*x^2+<br>
+5809536*x+551368, 756*x^2+864*x+247, x, 'r2');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005542.gif" width=371 height=45 alt="21168*x^4+48384*x^3+41396*x^2+15712*x+60271/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>16003008*x^6+54867456*x^5+78327648*x^4+59595264*x^3+25487568*x^2+<br>
+5809536*x+551368 - expand((756*x^2+864*x+247)*<br>
+               (21168*x^4+48384*x^3+41396*x^2+15712*x+2232));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005543.gif" width=153 height=29 alt="196*x^2+224*x+64">
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>constant term</font></b>
+<b><font color=#000080> '2232' is obtained from the 'r2' quotient constant term:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(60271/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005544.gif" width=48 height=20 alt="2232">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(196*x^2+224*x+64);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005545.gif" width=99 height=29 alt="4*(7*x+4)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is, in fact,</font></b>
+<b><font color=#000080> ... </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005546.gif" width=95 height=50 alt="(14*x+8)^2" align=middle>
+<b><font color=#000080>. </font></b>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005547.gif" width=220 height=102 alt="((756*x^2+864*x+247-1)/3)^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>=</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005548.gif" width=639 height=50 alt="(756*x^2+864*x+247)*(21168*x^4+48384*x^3+41396*x^2+..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(21168*x^4+48384*x^3+41396*x^2+15712*x+2232);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005549.gif" width=319 height=29 alt="4*(2*x+1)*(14*x+9)*(189*x^2+216*x+62)">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>That quadratic has discriminant:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>216^2 - 4*189*62;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005550.gif" width=45 height=20 alt="-216">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is also </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005551.gif" width=43 height=50 alt="-6^3" align=middle>
+<b><font color=#000080>...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(3) The i = 3 case of the seven</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even-square</font></b>
+<b><font color=#000080> producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((1404*x^2+864*x+133 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005552.gif" width=693 height=29 alt="102503232*x^6+189236736*x^5+145364544*x^4+59470848*...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(102503232*x^6+189236736*x^5+145364544*x^4+59470848*x^3+13666752*x^2<br>
++1672704*x+85184, 1404*x^2+864*x+133, x, 'r3');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005553.gif" width=363 height=45 alt="73008*x^4+89856*x^3+41324*x^2+8416*x+17293/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>102503232*x^6+189236736*x^5+145364544*x^4+59470848*x^3+13666752*x^2<br>
++1672704*x+85184 - expand((1404*x^2+864*x+133)*<br>
+               (73008*x^4+89856*x^3+41324*x^2+8416*x+640));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005554.gif" width=153 height=29 alt="676*x^2+416*x+64">
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>constant term</font></b>
+<b><font color=#000080> '640' is obtained from the 'r3' quotient constant term</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(17293/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005555.gif" width=40 height=20 alt="640">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(676*x^2+416*x+64);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005556.gif" width=107 height=29 alt="4*(13*x+4)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is, in fact,</font></b>
+<b><font color=#000080> ... </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005557.gif" width=95 height=50 alt="(26*x+8)^2" align=middle>
+<b><font color=#000080>.  </font></b>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005558.gif" width=228 height=102 alt="((1404*x^2+864*x+133-1)/3)^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>=<br>
+<br>
+</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005559.gif" width=631 height=50 alt="(1404*x^2+864*x+133)*(73008*x^4+89856*x^3+41324*x^2..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(73008*x^4+89856*x^3+41324*x^2+8416*x+640);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005560.gif" width=310 height=29 alt="4*(351*x^2+216*x+32)*(52*x^2+32*x+5)">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Ah! Interesting! Two quadratics. That's novel...<br>
+<br>
+The first dfiscriminant:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>216^2 - 4*351*32;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005561.gif" width=48 height=20 alt="1728">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Oh! That's </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005562.gif" width=41 height=50 alt="12^3" align=middle>
+<b><font color=#000080 size=4>...<br>
+<br>
+And the other one:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>32^2 - 4*52*5;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005563.gif" width=37 height=20 alt="-16">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Oh! That's </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005564.gif" width=43 height=50 alt="-2^4" align=middle>
+<b><font color=#000080>...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(4) The i = 4 case of the seven</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even-square</font></b>
+<b><font color=#000080> producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((1404*x^2+1944*x+673 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005565.gif" width=741 height=29 alt="102503232*x^6+425782656*x^5+736729344*x^4+679684608...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(102503232*x^6+425782656*x^5+736729344*x^4+679684608*x^3+352622592*x^2<br>
++97542144*x+11239424, 1404*x^2+1944*x+673, x, 'r4');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005566.gif" width=395 height=45 alt="73008*x^4+202176*x^3+209804*x^2+96696*x+450913/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>102503232*x^6+425782656*x^5+736729344*x^4+679684608*x^3+352622592*x^2<br>
++97542144*x+11239424 - expand((1404*x^2+1944*x+673)*<br>
+               (73008*x^4+202176*x^3+209804*x^2+96696*x+16700));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005567.gif" width=161 height=29 alt="676*x^2+936*x+324">
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>constant term</font></b>
+<b><font color=#000080> '2232' is obtained from the 'r4' quotient constant term:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(450913/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005568.gif" width=56 height=20 alt="16700">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(676*x^2+936*x+324);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005569.gif" width=107 height=29 alt="4*(13*x+9)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is, in fact,</font></b>
+<b><font color=#000080> ... </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005570.gif" width=103 height=50 alt="(26*x+18)^2" align=middle>
+<b><font color=#000080>.  </font></b>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005571.gif" width=236 height=102 alt="((1404*x^2+1944*x+673-1)/3)^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>=<br>
+<br>
+</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005572.gif" width=687 height=50 alt="(1404*x^2+1944*x+673)*(73008*x^4+202176*x^3+209804*..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(73008*x^4+202176*x^3+209804*x^2+96696*x+16700);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005573.gif" width=326 height=29 alt="4*(52*x^2+72*x+25)*(351*x^2+486*x+167)">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Again, two more quadratics...<br>
+<br>
+The first discriminant:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>486^2 - 4*351*167;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005574.gif" width=48 height=20 alt="1728">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is again </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005575.gif" width=41 height=50 alt="12^2" align=middle>
+<b><font color=#000080 size=4>,<br>
+<br>
+while the other one is:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>72^2 - 4*52*25;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005576.gif" width=37 height=20 alt="-16">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is once again </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005577.gif" width=43 height=50 alt="-2^4" align=middle>
+<b><font color=#000080>...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(5) The i = 5 case of the seven</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even-square</font></b>
+<b><font color=#000080> producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((2052*x^2+864*x+91 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005578.gif" width=677 height=29 alt="320013504*x^6+404227584*x^5+212308128*x^4+59346432*...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(320013504*x^6+404227584*x^5+212308128*x^4+59346432*x^3+9311760*x^2<br>
++777600*x+27000, 2052*x^2+864*x+91, x, 'r5');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005579.gif" width=371 height=45 alt="155952*x^4+131328*x^3+41252*x^2+5728*x+8011/27">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>320013504*x^6+404227584*x^5+212308128*x^4+59346432*x^3+9311760*x^2<br>
++777600*x+27000 - expand((2052*x^2+864*x+91)*<br>
+               (155952*x^4+131328*x^3+41252*x^2+5728*x+296));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005580.gif" width=161 height=29 alt="1444*x^2+608*x+64">
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>constant term</font></b>
+<b><font color=#000080> '2232' is obtained from the 'r4' quotient constant term:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(8011/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005581.gif" width=40 height=20 alt="296">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(1444*x^2+608*x+64);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005582.gif" width=107 height=29 alt="4*(19*x+4)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is, in fact,</font></b>
+<b><font color=#000080> ... </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005583.gif" width=95 height=50 alt="(38*x+8)^2" align=middle>
+<b><font color=#000080>.  </font></b>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005584.gif" width=220 height=102 alt="((2052*x^2+864*x+91-1)/3)^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>=<br>
+</font></b>
+<b><font color=#800080><br>
+  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005585.gif" width=639 height=50 alt="(2052*x^2+864*x+91)*(155952*x^4+131328*x^3+41252*x^..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(155952*x^4+131328*x^3+41252*x^2+5728*x+296);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005586.gif" width=363 height=29 alt="155952*x^4+131328*x^3+41252*x^2+5728*x+296">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Ah! It's irreducible...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(6) The i = 6 case of the seven</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even-square</font></b>
+<b><font color=#000080> producing quadratics:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(((2052*x^2+3240*x+1279 - 1)/3)^3);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005587.gif" width=781 height=29 alt="320013504*x^6+1515853440*x^5+2991372768*x^4+3147880...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>quo(320013504*x^6+1515853440*x^5+2991372768*x^4+3147880320*x^3<br>
++1863047952*x^2+587982240*x+77308776, 2052*x^2+3240*x+1279, x, 'r6');</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005588.gif" width=419 height=45 alt="155952*x^4+492480*x^3+582980*x^2+306600*x+1632007/2...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>320013504*x^6+1515853440*x^5+2991372768*x^4+3147880320*x^3<br>
++1863047952*x^2+587982240*x+77308776 - expand((2052*x^2+3240*x+1279)*<br>
+               (155952*x^4+492480*x^3+582980*x^2+306600*x+60444));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005589.gif" width=177 height=29 alt="1444*x^2+2280*x+900">
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>constant term</font></b>
+<b><font color=#000080> '2232' is obtained from the 'r4' quotient constant term:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(1632007/27);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005590.gif" width=56 height=20 alt="60444">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(1444*x^2+2280*x+900);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005591.gif" width=115 height=29 alt="4*(19*x+15)^2">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>is, in fact,</font></b>
+<b><font color=#000080> ... </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005592.gif" width=103 height=50 alt="(38*x+30)^2" align=middle>
+<b><font color=#000080>. </font></b>
+<b><font color=#000080 size=4>Thus one has the following </font></b>
+<i><b><font color=#000080 size=4>identity</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005593.gif" width=244 height=102 alt="((2052*x^2+3240*x+1279-1)/3)^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>=<br>
+</font></b>
+<b><font color=#800080><br>
+ </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005594.gif" width=711 height=50 alt="(2052*x^2+3240*x+1279)*(155952*x^4+492480*x^3+58298..." align=middle>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+</font></b>
+<b><font color=#000080 size=4>A look at the quotient quartic:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(155952*x^4+492480*x^3+582980*x^2+306600*x+60444);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005595.gif" width=403 height=29 alt="155952*x^4+492480*x^3+582980*x^2+306600*x+60444">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Again, also irreducible...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>The values of the even squares</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>poly0 := R -&gt; 108*R^2 + 1; # r = 2*R in 1+27*r^2</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005596.gif" width=188 height=29 alt="poly0 := proc (R) options operator, arrow; 108*R^2+...">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(1) Here </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> is defined by </font></b>
+<i><b><font color=#000080 size=4>r = 2W = 14R + 6 or 8</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 1:<br>
+poly||i := R -&gt; expand((1+27*(14*R+6)^2)/7): # r=14*R+6<br>
+sort(poly||i(R));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005597.gif" width=167 height=29 alt="756*R^2+648*R+139">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 2:<br>
+poly||i := R -&gt; expand((1+27*(14*R+8)^2)/7): # r=14*R+8<br>
+sort(poly||i(R));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005598.gif" width=167 height=29 alt="756*R^2+864*R+247">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(2) Here </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> is defined by </font></b>
+<i><b><font color=#000080 size=4>r = 2W = 26R + 8 or 18</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 3: poly||i := R -&gt; expand((1+27*(26*R+8)^2)/13): # r=26*R+8<br>
+sort(poly||i(R));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005599.gif" width=175 height=29 alt="1404*R^2+864*R+133">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 4: poly||i := R -&gt; expand((1+27*(26*R+18)^2)/13): # r=26*R+18<br>
+sort(poly||i(R));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005600.gif" width=183 height=29 alt="1404*R^2+1944*R+673">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(3) Here </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> is defined by </font></b>
+<i><b><font color=#000080 size=4>r = 2W = 38R + 8 or 30</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 5: poly||i := R -&gt; expand((1+27*(38*R+8)^2)/19): # r=38*R+8<br>
+sort(poly||i(R));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005601.gif" width=167 height=29 alt="2052*R^2+864*R+91">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 6: poly||i := R -&gt; expand((1+27*(38*R+30)^2)/19): # r = 38*R+30<br>
+sort(poly||i(R));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005602.gif" width=191 height=29 alt="2052*R^2+3240*R+1279">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for i from 0 to 6 do [i, poly||i(R)] od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005603.gif" width=122 height=29 alt="[0, 108*R^2+1]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005604.gif" width=197 height=29 alt="[1, 756*R^2+648*R+139]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005605.gif" width=197 height=29 alt="[2, 756*R^2+864*R+247]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005606.gif" width=205 height=29 alt="[3, 1404*R^2+864*R+133]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005607.gif" width=213 height=29 alt="[4, 1404*R^2+1944*R+673]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005608.gif" width=197 height=29 alt="[5, 2052*R^2+864*R+91]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005609.gif" width=221 height=29 alt="[6, 2052*R^2+3240*R+1279]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 0: poly||i(x);<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005610.gif" width=89 height=29 alt="108*x^2+1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005611.gif" width=24 height=20 alt="0">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005612.gif" width=24 height=20 alt="2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005613.gif" width=24 height=20 alt="4">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005614.gif" width=24 height=20 alt="6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005615.gif" width=24 height=20 alt="8">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005616.gif" width=32 height=20 alt="10">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005617.gif" width=32 height=20 alt="12">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005618.gif" width=32 height=20 alt="14">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005619.gif" width=32 height=20 alt="16">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005620.gif" width=32 height=20 alt="18">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005621.gif" width=32 height=20 alt="20">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 1: sort(poly||i(x));<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005622.gif" width=161 height=29 alt="756*x^2+648*x+139">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005623.gif" width=24 height=20 alt="6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005624.gif" width=32 height=20 alt="20">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005625.gif" width=32 height=20 alt="34">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005626.gif" width=32 height=20 alt="48">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005627.gif" width=32 height=20 alt="62">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005628.gif" width=32 height=20 alt="76">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005629.gif" width=32 height=20 alt="90">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005630.gif" width=40 height=20 alt="104">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005631.gif" width=40 height=20 alt="118">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005632.gif" width=40 height=20 alt="132">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005633.gif" width=40 height=20 alt="146">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 2: sort(poly||i(x));<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005634.gif" width=161 height=29 alt="756*x^2+864*x+247">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005635.gif" width=24 height=20 alt="8">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005636.gif" width=32 height=20 alt="22">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005637.gif" width=32 height=20 alt="36">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005638.gif" width=32 height=20 alt="50">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005639.gif" width=32 height=20 alt="64">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005640.gif" width=32 height=20 alt="78">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005641.gif" width=32 height=20 alt="92">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005642.gif" width=40 height=20 alt="106">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005643.gif" width=40 height=20 alt="120">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005644.gif" width=40 height=20 alt="134">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005645.gif" width=40 height=20 alt="148">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 3: sort(poly||i(x));<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005646.gif" width=169 height=29 alt="1404*x^2+864*x+133">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005647.gif" width=24 height=20 alt="8">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005648.gif" width=32 height=20 alt="34">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005649.gif" width=32 height=20 alt="60">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005650.gif" width=32 height=20 alt="86">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005651.gif" width=40 height=20 alt="112">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005652.gif" width=40 height=20 alt="138">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005653.gif" width=40 height=20 alt="164">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005654.gif" width=40 height=20 alt="190">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005655.gif" width=40 height=20 alt="216">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005656.gif" width=40 height=20 alt="242">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005657.gif" width=40 height=20 alt="268">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 4: sort(poly||i(x));<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005658.gif" width=177 height=29 alt="1404*x^2+1944*x+673">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005659.gif" width=32 height=20 alt="18">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005660.gif" width=32 height=20 alt="44">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005661.gif" width=32 height=20 alt="70">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005662.gif" width=32 height=20 alt="96">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005663.gif" width=40 height=20 alt="122">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005664.gif" width=40 height=20 alt="148">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005665.gif" width=40 height=20 alt="174">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005666.gif" width=40 height=20 alt="200">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005667.gif" width=40 height=20 alt="226">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005668.gif" width=40 height=20 alt="252">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005669.gif" width=40 height=20 alt="278">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 5: sort(poly||i(x));<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005670.gif" width=161 height=29 alt="2052*x^2+864*x+91">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005671.gif" width=24 height=20 alt="8">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005672.gif" width=32 height=20 alt="46">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005673.gif" width=32 height=20 alt="84">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005674.gif" width=40 height=20 alt="122">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005675.gif" width=40 height=20 alt="160">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005676.gif" width=40 height=20 alt="198">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005677.gif" width=40 height=20 alt="236">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005678.gif" width=40 height=20 alt="274">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005679.gif" width=40 height=20 alt="312">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005680.gif" width=40 height=20 alt="350">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005681.gif" width=40 height=20 alt="388">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 6: sort(poly||i(x));<br>
+for R from 0 to 10 do sqrt(((poly||i(R)-1)/3)^3 mod poly||i(R)) od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005682.gif" width=185 height=29 alt="2052*x^2+3240*x+1279">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005683.gif" width=32 height=20 alt="30">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005684.gif" width=32 height=20 alt="68">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005685.gif" width=40 height=20 alt="106">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005686.gif" width=40 height=20 alt="144">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005687.gif" width=40 height=20 alt="182">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005688.gif" width=40 height=20 alt="220">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005689.gif" width=40 height=20 alt="258">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005690.gif" width=40 height=20 alt="296">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005691.gif" width=40 height=20 alt="334">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005692.gif" width=40 height=20 alt="372">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005693.gif" width=40 height=20 alt="410">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+</body>
+</html>

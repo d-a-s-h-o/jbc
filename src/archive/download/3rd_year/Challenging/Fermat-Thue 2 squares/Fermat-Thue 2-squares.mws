@@ -1,0 +1,891 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 351 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+352 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 361 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+362 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+367 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 371 "" 1 18 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+372 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 373 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 376 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+377 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 380 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 381 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+382 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 385 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 386 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+387 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 388 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 389 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 391 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+392 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 393 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 395 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 396 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+397 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 400 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 401 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+402 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 405 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 406 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+407 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 408 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 409 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 411 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+412 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 413 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 416 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+417 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 418 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 419 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 420 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 421 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+422 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 424 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 425 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 426 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+427 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 428 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 429 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 430 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 431 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+432 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 433 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 434 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 436 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+437 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 438 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 439 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 440 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 441 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+442 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 443 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 444 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 445 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 446 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+447 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 448 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 449 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 450 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 451 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+452 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 453 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 454 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 455 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 456 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+457 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 458 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 459 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 460 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 461 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+462 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 463 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 464 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 465 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 466 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+467 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 468 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 469 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 470 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 471 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+472 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 473 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 474 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 475 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 476 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+477 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 478 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 479 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 480 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 481 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+482 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 483 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 484 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 485 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 486 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+487 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 488 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 489 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 490 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 491 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+492 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 493 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 494 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 495 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 496 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+497 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 498 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 499 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 500 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 501 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+502 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 503 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 504 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 505 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 506 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+507 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 508 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 509 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 510 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 511 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+512 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 513 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 514 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 515 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 516 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+517 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 518 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 519 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 520 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 
+1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 14 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }
+{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 2 2 2 1 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "R3 Font 0
+" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 2 2 2 
+1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 11 0 128 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "" 258 259 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 258 260 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "# Fermat's 2-squares
+.mws" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 112 "Note to anyone reading t
+his on the web in html format. Not having Maple you may not be familia
+r with its use of " }{TEXT 520 8 "Sections" }{TEXT -1 328 " (where you
+ see those [+]s). To read the contents of a section, simply click on t
+he [+] and it will expand into a [-], and you will see text, plus calc
+ulations (of course you cannot change the calculations, as you could w
+ith the active Maple worksheet). Later, by scrolling back up, you may \+
+close the box by clicking on the [-]." }}}{SECT 1 {PARA 3 "" 0 "" 
+{TEXT -1 5 "Title" }}{PARA 258 "" 0 "" {TEXT 371 26 "Fermat's 2-square
+s theorem" }{TEXT 372 24 "\n(proved here using the " }{TEXT 373 23 "Di
+richlet box principle" }{TEXT 374 36 ",\ntogether with an idea of Axel
+ Thue" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT 443 88 "Remark (aimed at number theorists who might read this
+) on the approach I've adopted here" }{TEXT -1 100 ". The proof that I
+ give here of Fermat's 2-squares theorem (as part of my 3rd year (BA o
+nly) course " }{TEXT 444 45 "Challenging Mathematical Puzzles and Prob
+lems" }{TEXT -1 150 ") is most certainly not the best, nor the most in
+sightful proof there is of Fermat's theorem; and the proof given here \+
+serves mainly to demonstrate a " }{TEXT 445 14 "particular use" }
+{TEXT -1 232 " (the Thue result) of the entirely elementary, but quite
+ profound, Dirichlet box principle (where would the work of - say - Ro
+th or Schmidt be without it?!) which my students will encounter is les
+s demanding areas (e.g. Choose any (" }{XPPEDIT 18 0 "n+1;" "6#,&%\"nG
+\"\"\"F%F%" }{TEXT -1 36 ") integers from [1, 2, 3, 4, ... , (" }
+{XPPEDIT 18 0 "2*n-1;" "6#,&*&\"\"#\"\"\"%\"nGF&F&F&!\"\"" }{TEXT -1 
+3 "), " }{XPPEDIT 18 0 "2*n;" "6#*&\"\"#\"\"\"%\"nGF%" }{TEXT -1 72 "]
+, then one of those divides another (different!) one of those. Prove.)
+ " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 207 "If \+
+you don't have Maple, and are reading this in html format then, of cou
+rse, you won't be able to execute your own commands, but if you do hav
+e Maple then you may make your own changes to value assignments." }}}
+{SECT 1 {PARA 3 "" 0 "" {TEXT -1 44 "Introduction to Fermat's 2-square
+s theorem (" }{TEXT 350 3 "how" }{TEXT -1 15 " it came about)" }}
+{PARA 0 "" 0 "" {TEXT -1 102 "One of the great classic theorems of Num
+ber Theory is the 'Fermat 2-square theorem' which states that " }
+{TEXT 256 5 "every" }{TEXT -1 187 " prime leaving remainder 1 on divis
+ion by 4 is a sum of two squares of integers (a unique sum, in fact, i
+f one ignores change of sign, or interchange of values). It is easy to
+ see how he " }{TEXT 258 5 "found" }{TEXT -1 1 "/" }{TEXT 259 10 "disc
+overed" }{TEXT -1 41 " this theorem (or more precisely came to " }
+{TEXT 257 7 "suspect" }{TEXT -1 157 " it was true, for he couldn't pro
+ve it), since he knew of the Greek result (due to Diophantus) giving a
+ll possible integer-sided right-angled triangles: Let " }{TEXT 260 1 "
+x" }{TEXT -1 2 ", " }{TEXT 261 1 "y" }{TEXT -1 5 " and " }{TEXT 262 1 
+"z" }{TEXT -1 73 " be integer (positive, of course) sides of a right-a
+ngled triangle, with " }{TEXT 263 1 "z" }{TEXT -1 21 " (the length of)
+ the " }{TEXT 264 11 "hypothenuse" }{TEXT -1 7 "; then " }{TEXT 265 1 
+"x" }{TEXT -1 2 ", " }{TEXT 266 1 "y" }{TEXT -1 0 "" }{TEXT 267 0 "" }
+{TEXT -1 6 ", and " }{TEXT 268 1 "z" }{TEXT -1 13 " are given by" }}
+{PARA 258 "" 0 "" {TEXT -1 1 "(" }{XPPEDIT 18 0 "2*lambda*m*n,lambda*(
+m^2-n^2),lambda*(m^2+n^2);" "6%**\"\"#\"\"\"%'lambdaGF%%\"mGF%%\"nGF%*
+&F&F%,&*$F'F$F%*$F(F$!\"\"F%*&F&F%,&*$F'F$F%*$F(F$F%F%" }{TEXT -1 2 ")
+ " }}{PARA 0 "" 0 "" {TEXT -1 29 "for some (positive) integers " }
+{XPPEDIT 18 0 "lambda;" "6#%'lambdaG" }{TEXT -1 2 " (" }{TEXT 407 6 "l
+ambda" }{TEXT -1 3 "), " }{TEXT 408 1 "m" }{TEXT -1 5 " and " }{TEXT 
+269 1 "n" }{TEXT -1 6 ", with" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }
+{TEXT 270 1 "m" }{TEXT -1 5 " and " }{TEXT 271 1 "n" }{TEXT -1 46 " of
+ 'opposite parity' (meaning one of them is " }{TEXT 274 4 "even" }
+{TEXT -1 12 ", the other " }{TEXT 275 3 "odd" }{TEXT -1 3 "), " }
+{XPPEDIT 18 0 "n < m;" "6#2%\"nG%\"mG" }{TEXT -1 5 ", and" }}{PARA 15 
+"" 0 "" {TEXT -1 0 "" }{TEXT 272 1 "m" }{TEXT -1 5 " and " }{TEXT 273 
+1 "n" }{TEXT -1 83 " are 'relatively prime' (meaning there is no prime
+ that divides both of them: i.e. " }{XPPEDIT 18 0 "gcd(m,n) = 1;" "6#/
+-%$gcdG6$%\"mG%\"nG\"\"\"" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT 
+276 6 "Remark" }{TEXT -1 26 ". The last two conditions " }{TEXT 277 4 
+"make" }{TEXT -1 13 " the triple (" }{XPPEDIT 18 0 "2*m*n,m^2-n^2,m^2+
+n^2;" "6%*(\"\"#\"\"\"%\"mGF%%\"nGF%,&*$F&F$F%*$F'F$!\"\",&*$F&F$F%*$F
+'F$F%" }{TEXT -1 22 ") form the sides of a " }{TEXT 409 9 "primitive" 
+}{TEXT -1 101 " right-angled triangle (here 'primitive' means the form
+ed triangle is not an integer 'multiple' of a " }{TEXT 278 7 "smaller
+" }{TEXT -1 89 " integer-sided right-angled triangle (in the way that \+
+- for example - (6, 8, 10) - where " }{XPPEDIT 18 0 "6^2+8^2 = 10^2;" 
+"6#/,&*$\"\"'\"\"#\"\"\"*$\"\")F'F(*$\"#5F'" }{TEXT -1 69 "- is simply
+ the 'double' of the triangle with sides (3, 4, 5) (where " }{XPPEDIT 
+18 0 "3^2+4^2 = 5^2;" "6#/,&*$\"\"$\"\"#\"\"\"*$\"\"%F'F(*$\"\"&F'" }
+{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT 279 16 "Trivial exercise" }
+{TEXT -1 41 ". Verify that the numbers in the triple (" }{XPPEDIT 18 
+0 "2*lambda*m*n,lambda*(m^2-n^2),lambda*(m^2+n^2);" "6%**\"\"#\"\"\"%'
+lambdaGF%%\"mGF%%\"nGF%*&F&F%,&*$F'F$F%*$F(F$!\"\"F%*&F&F%,&*$F'F$F%*$
+F(F$F%F%" }{TEXT -1 2 ") " }{TEXT 280 2 "do" }{TEXT -1 43 " form the s
+ides of a right-angled triangle." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 281 32 "Primitive right-angled triangles" }{TEXT -1 7 " (with " 
+}{TEXT 294 20 "particular attention" }{TEXT -1 20 " being given to the
+ " }{TEXT 295 11 "hypothenuse" }{TEXT -1 2 ", " }{TEXT 296 10 "underli
+ned" }{TEXT -1 17 "). Here are some " }{TEXT 282 2 "xs" }{TEXT -1 2 ",
+ " }{TEXT 283 1 "y" }{TEXT -1 0 "" }{TEXT 284 0 "" }{TEXT -1 6 "s and \+
+" }{TEXT 285 1 "z" }{TEXT -1 40 "s forming (or not forming) the sides \+
+of " }{TEXT 300 9 "primitive" }{TEXT -1 24 " right-angled triangles:" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 7 "(3, 4, \+
+" }{TEXT 291 1 "5" }{TEXT -1 13 ") (or (4, 3, " }{TEXT 292 1 "5" }
+{TEXT -1 30 "), we're not fussed about the " }{TEXT 290 5 "order" }
+{TEXT -1 52 " of the \ntwo shorter sides) coming from the choice (" }
+{TEXT 286 1 "m" }{TEXT -1 2 ", " }{TEXT 287 1 "n" }{TEXT -1 10 ") = (2
+, 1)" }}{PARA 15 "" 0 "" {TEXT -1 8 "(8, 15, " }{TEXT 293 2 "17" }
+{TEXT -1 26 ") coming from the choice (" }{TEXT 288 1 "m" }{TEXT -1 2 
+", " }{TEXT 289 1 "n" }{TEXT -1 10 ") = (4, 1)" }}{PARA 15 "" 0 "" 
+{TEXT -1 8 "(24, 7, " }{TEXT 299 2 "25" }{TEXT -1 26 ") coming from th
+e choice (" }{TEXT 297 1 "m" }{TEXT -1 2 ", " }{TEXT 298 1 "n" }{TEXT 
+-1 15 ") = (4, 3)\nbut " }{TEXT 303 3 "not" }{TEXT -1 21 " - say - the
+ choice (" }{TEXT 301 1 "m" }{TEXT -1 2 ", " }{TEXT 302 1 "n" }{TEXT 
+-1 17 ") = (3, 1), which" }}{PARA 15 "" 0 "" {TEXT 304 8 "although" }
+{TEXT -1 2 " (" }{XPPEDIT 18 0 "2*m*n,m^2-n^2,m^2+n^2;" "6%*(\"\"#\"\"
+\"%\"mGF%%\"nGF%,&*$F&F$F%*$F'F$!\"\",&*$F&F$F%*$F'F$F%" }{TEXT -1 22 
+") is (8, 6, 10) - and " }{XPPEDIT 18 0 "8^2+6^2 = 10^2;" "6#/,&*$\"\"
+)\"\"#\"\"\"*$\"\"'F'F(*$\"#5F'" }{TEXT -1 60 ", does not produce a pr
+imitive right-angled triangle (the '3" }{TEXT 305 0 "" }{TEXT -1 162 "
+' and '1' being of the same parity makes the sides all be even (thus d
+ivisible by 2, and so - in this case - is a multiple of the 'smaller' \+
+triangle (3, 4, 5)), \n" }{TEXT 306 3 "nor" }{TEXT -1 21 " - say - the
+ choice (" }{TEXT 307 1 "m" }{TEXT -1 2 ", " }{TEXT 308 1 "n" }{TEXT 
+-1 18 ") = (9, 6), which " }}{PARA 15 "" 0 "" {TEXT 309 8 "although" }
+{TEXT -1 2 " (" }{XPPEDIT 18 0 "2*m*n,m^2-n^2,m^2+n^2;" "6%*(\"\"#\"\"
+\"%\"mGF%%\"nGF%,&*$F&F$F%*$F'F$!\"\",&*$F&F$F%*$F'F$F%" }{TEXT -1 26 
+") is (108, 45, 117) - and " }{XPPEDIT 18 0 "108^2+45^2 = 117^2;" "6#/
+,&*$\"$3\"\"\"#\"\"\"*$\"#XF'F(*$\"$<\"F'" }{TEXT -1 65 ", does not pr
+oduce a primitive right-angled triangle (here the '9" }{TEXT 310 0 "" 
+}{TEXT -1 10 "' and '6' " }{TEXT 311 3 "are" }{TEXT -1 18 " of the opp
+osite, " }{TEXT 312 7 "but now" }{TEXT -1 159 " they are both divisibl
+e by 3 which makes the sides be divisible by 3 (in fact by 9, and - in
+ this case - is a multiple of the 'smaller' triangle (12, 5, 13))\n" }
+}{PARA 0 "" 0 "" {TEXT 313 36 "A question that Fermat asked himself" }
+{TEXT -1 2 ". " }{TEXT 314 5 "Which" }{TEXT -1 9 " numbers " }{TEXT 
+315 5 "occur" }{TEXT -1 64 " as the hypothenuse of an (integer-sided) \+
+right-angled triangle?" }}{PARA 0 "" 0 "" {TEXT 316 61 "The obvious th
+ing to do (as always) is to do some calculating" }{TEXT -1 44 ". Askin
+g the question: for which integers ('" }{TEXT 317 1 "h" }{TEXT -1 8 "'
+ say), " }{TEXT 320 2 "is" }{TEXT -1 1 " " }{XPPEDIT 18 0 "h = m^2+n^2
+;" "6#/%\"hG,&*$%\"mG\"\"#\"\"\"*$%\"nGF(F)" }{TEXT -1 10 " for some \+
+" }{TEXT 318 1 "m" }{TEXT -1 5 " and " }{TEXT 319 1 "n" }{TEXT -1 96 "
+ subject to the two conditions above, trial and error quickly uncovers
+ the early values of such " }{TEXT 321 1 "h" }{TEXT -1 3 "s: " }
+{XPPEDIT 18 0 "5 = 2^2+1^2;" "6#/\"\"&,&*$\"\"#F'\"\"\"*$F(F'F(" }
+{TEXT -1 2 " (" }{TEXT 322 1 "m" }{TEXT -1 2 ", " }{TEXT 323 1 "n" }
+{TEXT -1 17 " are even, odd), " }{XPPEDIT 18 0 "13 = 3^2+2^2;" "6#/\"#
+8,&*$\"\"$\"\"#\"\"\"*$F(F(F)" }{TEXT -1 2 " (" }{TEXT 324 1 "m" }
+{TEXT -1 2 ", " }{TEXT 325 1 "n" }{TEXT -1 17 " are odd, even), " }
+{XPPEDIT 18 0 "17 = 4^2+1^2;" "6#/\"#<,&*$\"\"%\"\"#\"\"\"*$F)F(F)" }
+{TEXT -1 2 " (" }{TEXT 326 1 "m" }{TEXT -1 2 ", " }{TEXT 327 1 "n" }
+{TEXT -1 17 " are even, odd), " }{XPPEDIT 18 0 "29 = 5^2+2^2;" "6#/\"#
+H,&*$\"\"&\"\"#\"\"\"*$F(F(F)" }{TEXT -1 2 " (" }{TEXT 328 1 "m" }
+{TEXT -1 2 ", " }{TEXT 329 1 "n" }{TEXT -1 17 " are odd, even), " }
+{XPPEDIT 18 0 "37 = 6^2+1^2;" "6#/\"#P,&*$\"\"'\"\"#\"\"\"*$F)F(F)" }
+{TEXT -1 2 " (" }{TEXT 330 1 "m" }{TEXT -1 2 ", " }{TEXT 331 1 "n" }
+{TEXT -1 17 " are even, odd), " }{XPPEDIT 18 0 "41 = 5^2+4^2;" "6#/\"#
+T,&*$\"\"&\"\"#\"\"\"*$\"\"%F(F)" }{TEXT -1 2 " (" }{TEXT 332 1 "m" }
+{TEXT -1 2 ", " }{TEXT 333 1 "n" }{TEXT -1 18 " are odd, even),  " }
+{XPPEDIT 18 0 "53 = 7^2+2^2;" "6#/\"#`,&*$\"\"(\"\"#\"\"\"*$F(F(F)" }
+{TEXT -1 2 " (" }{TEXT 334 1 "m" }{TEXT -1 2 ", " }{TEXT 335 1 "n" }
+{TEXT -1 17 " are odd, even), " }{XPPEDIT 18 0 "61 = 6^2+5^2;" "6#/\"#
+h,&*$\"\"'\"\"#\"\"\"*$\"\"&F(F)" }{TEXT -1 2 " (" }{TEXT 341 1 "m" }
+{TEXT -1 2 ", " }{TEXT 342 1 "n" }{TEXT -1 17 " are even, odd), " }
+{XPPEDIT 18 0 "65 = 8^2+1^2;" "6#/\"#l,&*$\"\")\"\"#\"\"\"*$F)F(F)" }
+{TEXT -1 2 " (" }{TEXT 336 1 "m" }{TEXT -1 2 ", " }{TEXT 337 1 "n" }
+{TEXT -1 24 " are even, odd), etc ..." }}{PARA 0 "" 0 "" {TEXT -1 37 "
+A numerically sensitive person would " }{TEXT 338 6 "notice" }{TEXT 
+-1 6 ", but " }{TEXT 339 17 "not be surprised " }{TEXT -1 27 "(why?) b
+y the occurence of " }{TEXT 345 2 "so" }{TEXT -1 1 " " }{TEXT 344 4 "m
+any" }{TEXT -1 2 " (" }{TEXT 346 11 "but not all" }{TEXT -1 2 ") " }
+{TEXT 340 6 "primes" }{TEXT -1 85 " (and would, of course, notice that
+ '65'...), and would begin to wonder about a new:\n" }{TEXT 343 8 "Que
+stion" }{TEXT -1 9 ". Which  " }{TEXT 347 6 "primes" }{TEXT -1 51 " ar
+e a sum of two integers? This is what one finds:" }}{PARA 15 "" 0 "" 
+{XPPEDIT 18 0 "2 = 1^2+1^2;" "6#/\"\"#,&*$\"\"\"F$F'*$F'F$F'" }{TEXT 
+-1 104 " is a sum of two squares (but does not, of course, lead to a p
+rimitive right-angled triangle because...)" }}{PARA 15 "" 0 "" {TEXT 
+-1 77 "none of 3, 7, 11, 19, 23, 31, 43, 47, 59, 67, 71, ... is a sum \+
+of two squares" }}{PARA 15 "" 0 "" {TEXT -1 70 "each of 5, 13, 17, 29,
+ 37, 41, 53, 61, 73, ... is a sum of two squares" }}{PARA 0 "" 0 "" 
+{TEXT -1 26 "and then the next obvious " }}{PARA 0 "" 0 "" {TEXT 348 
+8 "Question" }{TEXT -1 18 ". What is it that " }{TEXT 349 13 "distingu
+ishes" }{TEXT -1 96 " the last two sets of primes from each other? It \+
+was Fermat's great good fortune to notice that " }}{PARA 15 "" 0 "" 
+{TEXT -1 101 "the former all left remainder 3 on division by 4 (or at \+
+least did so as far as calculated...), while " }}{PARA 15 "" 0 "" 
+{TEXT -1 93 "the latter all left remainder 1 on division by 4 (or at l
+east did so as far as calculated...)" }}{PARA 0 "" 0 "" {TEXT -1 40 "I
+t is entirely elementary to prove that " }{TEXT 411 2 "no" }{TEXT -1 
+9 " integer " }{TEXT 410 1 "n" }{TEXT -1 29 " (whether prime or not) w
+ith " }{XPPEDIT 18 0 "n = 3;" "6#/%\"nG\"\"$" }{TEXT -1 80 " (mod 4) i
+s a sum of two squares of integers, but that left Fermat wondering if \+
+" }{TEXT 416 5 "every" }{TEXT -1 7 " prime " }{TEXT 412 1 "p" }{TEXT 
+-1 2 ", " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 92 " (mod
+ 4), is a sum of two squares of integers (and here one should bear thi
+s in mind: it is " }{TEXT 414 3 "not" }{TEXT -1 11 " true that " }
+{TEXT 415 5 "every" }{TEXT -1 9 " integer " }{TEXT 413 1 "n" }{TEXT 
+-1 6 " with " }{XPPEDIT 18 0 "n = 1;" "6#/%\"nG\"\"\"" }{TEXT -1 59 " \+
+(mod 4) is a sum of two squares of integers. Examples are " }{XPPEDIT 
+18 0 "n = 21,33,57,69,77,93,105;" "6)/%\"nG\"#@\"#L\"#d\"#p\"#x\"#$*\"
+$0\"" }{TEXT -1 386 ", ... ). Fermat couldn't prove his discovery, and
+ it had to wait until the following century when Euler gave the first \+
+proof. Many others have been created in the following centuries. The p
+roof that I give here (I don't know who put it together (I think it wa
+s in a book of Sierpinski's that I first read it, forty years ago) com
+bines two ideas, which we meet in the next two sections. " }}}{SECT 1 
+{PARA 3 "" 0 "" {TEXT -1 30 " A special property of primes " }{TEXT 
+352 1 "p" }{TEXT 351 3 ",  " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"" 
+}{TEXT -1 17 " (mod 4) (we use " }{TEXT 361 16 "Wilson's theorem" }
+{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT 353 32 "Theorem 1 (the special \+
+property)" }{TEXT -1 18 ". For every prime " }{TEXT 417 0 "" }{TEXT 
+354 1 "p" }{TEXT -1 6 " with " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"
+" }{TEXT -1 29 " (mod 4) there is an integer " }{TEXT 355 1 "a" }
+{TEXT -1 11 " such that " }{XPPEDIT 18 0 "a^2+1 = 0;" "6#/,&*$%\"aG\"
+\"#\"\"\"F(F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 356 1 "p" }{TEXT -1 
+30 ").  (In fact there are always " }{TEXT 360 11 "exactly two" }
+{TEXT -1 29 " such (mutually incongruent) " }{TEXT 357 1 "a" }{TEXT 
+-1 4 "'s.)" }}{PARA 0 "" 0 "" {TEXT 358 19 "Trying some by hand" }
+{TEXT -1 2 ". " }}{PARA 258 "" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 0 "
+p = 5;" "6#/%\"pG\"\"&" }{TEXT -1 17 ", one finds that " }{XPPEDIT 18 
+0 "a = 2;" "6#/%\"aG\"\"#" }{TEXT -1 10 " will do [" }{XPPEDIT 18 0 "a
+ = 3;" "6#/%\"aG\"\"$" }{TEXT -1 19 " is the other one] " }}{PARA 258 
+"" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 0 "p = 13;" "6#/%\"pG\"#8" }
+{TEXT -1 17 ", one finds that " }{XPPEDIT 18 0 "a = 5;" "6#/%\"aG\"\"&
+" }{TEXT -1 10 " will do [" }{XPPEDIT 18 0 "a = 8;" "6#/%\"aG\"\")" }
+{TEXT -1 19 " is the other one] " }}{PARA 258 "" 0 "" {TEXT -1 4 "For \+
+" }{XPPEDIT 18 0 "p = 17;" "6#/%\"pG\"#<" }{TEXT -1 17 ", one finds th
+at " }{XPPEDIT 18 0 "a = 4;" "6#/%\"aG\"\"%" }{TEXT -1 10 " will do [
+" }{XPPEDIT 18 0 "a = 13;" "6#/%\"aG\"#8" }{TEXT -1 19 " is the other \+
+one] " }}{PARA 258 "" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 0 "p = 29;" 
+"6#/%\"pG\"#H" }{TEXT -1 17 ", one finds that " }{XPPEDIT 18 0 "a = 12
+;" "6#/%\"aG\"#7" }{TEXT -1 10 " will do [" }{XPPEDIT 18 0 "a = 17;" "
+6#/%\"aG\"#<" }{TEXT -1 26 " is the other one] etc ..." }}{PARA 0 "" 
+0 "" {TEXT -1 46 "Of course a Maple command that will find such " }
+{TEXT 359 1 "a" }{TEXT -1 13 "'s is msolve:" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "msolve(a^2 + 1 = 0, 5);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "msolve(a^2 + 1 = 0, 13);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 24 "msolve(a^2 + 1 = 0, 17);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 89 "for p from 5 by 4 to 100 do\nif isprime(p) \nthe
+n print([p, msolve(a^2 + 1 = 0, p)])\nfi\nod;" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 232 "There are many ways of proving this famous theorem, a
+nd one very quick way to do it (I know it will appear very much like a
+ 'rabbit out of a hat', but we won't have time to divert too much) is \+
+to make use of another famous theorem, " }{TEXT 362 16 "Wilson's theor
+em" }{TEXT -1 176 " (whose proof I will not give here. Incidentally th
+ere are - as is often the case in Number Theory - many different proof
+s of this, one of which is my own, published in the UK " }{TEXT 363 
+20 "Mathematical Gazette" }{TEXT -1 20 " in February 1967). " }}{PARA 
+0 "" 0 "" {TEXT 364 51 "Wilson's theorem (which I will not be proving \+
+here)" }{TEXT -1 18 ". For every prime " }{TEXT 365 1 "p" }{TEXT -1 9 
+" one has " }{XPPEDIT 18 0 "(p-1)! = -1;" "6#/-%*factorialG6#,&%\"pG\"
+\"\"F)!\"\",$F)F*" }{TEXT -1 6 " (mod " }{TEXT 366 1 "p" }{TEXT -1 2 "
+)." }}{PARA 0 "" 0 "" {TEXT 367 8 "Examples" }{TEXT -1 2 ". " }}{PARA 
+258 "" 0 "" {TEXT -1 5 "When " }{XPPEDIT 18 0 "p = 5;" "6#/%\"pG\"\"&
+" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "(p-1)! = 5!;" "6#/-%*factorialG6#,&
+%\"pG\"\"\"F)!\"\"-F%6#\"\"&" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "5.4+4 \+
+= -1;" "6#/,&$\"#a!\"\"\"\"\"\"\"%F(,$F(F'" }{TEXT -1 8 " (mod 5)" }}
+{PARA 258 "" 0 "" {TEXT -1 5 "When " }{XPPEDIT 18 0 "p = 11;" "6#/%\"p
+G\"#6" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "(p-1)! = 10!;" "6#/-%*factoria
+lG6#,&%\"pG\"\"\"F)!\"\"-F%6#\"#5" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1
+1.329890+10 = -1;" "6#/,&$\")!*)H8\"!\"'\"\"\"\"#5F(,$F(!\"\"" }{TEXT 
+-1 9 " (mod 11)" }}{PARA 258 "" 0 "" {TEXT -1 5 "When " }{XPPEDIT 18 
+0 "p = 13;" "6#/%\"pG\"#8" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "(p-1)! = 1
+2!;" "6#/-%*factorialG6#,&%\"pG\"\"\"F)!\"\"-F%6#\"#7" }{TEXT -1 3 " =
+ " }{XPPEDIT 18 0 "13.36846276+12 = -1;" "6#/,&$\"+wi%oL\"!\")\"\"\"\"
+#7F(,$F(!\"\"" }{TEXT -1 9 " (mod 13)" }}{PARA 0 "" 0 "" {TEXT 418 6 "
+Remark" }{TEXT -1 123 ". Recall (from your second year studies that wh
+en proving Fermat's 'little' theorem one got to a point where one had \+
+(with " }{TEXT 420 1 "p" }{TEXT -1 11 " prime and " }{XPPEDIT 18 0 "a \+
+<> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 421 1 "p" }{TEXT 
+-1 2 "):" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "(p-1)!*(a^(p-1)-1) = 0;" 
+"6#/*&-%*factorialG6#,&%\"pG\"\"\"F*!\"\"F*,&)%\"aG,&F)F*F*F+F*F*F+F*
+\"\"!" }{TEXT -1 6 " (mod " }{TEXT 419 1 "p" }{TEXT -1 1 ")" }}{PARA 
+0 "" 0 "" {TEXT -1 34 "and then continued by saying that " }{TEXT 422 
+6 "either" }{TEXT -1 1 " " }{XPPEDIT 18 0 "(p-1)! = 0;" "6#/-%*factori
+alG6#,&%\"pG\"\"\"F)!\"\"\"\"!" }{TEXT -1 6 " (mod " }{TEXT 423 1 "p" 
+}{TEXT -1 2 ") " }{TEXT 425 2 "or" }{TEXT -1 1 " " }{XPPEDIT 18 0 "a^(
+p-1)-1 = 0;" "6#/,&)%\"aG,&%\"pG\"\"\"F)!\"\"F)F)F*\"\"!" }{TEXT -1 6 
+" (mod " }{TEXT 424 1 "p" }{TEXT -1 24 "). Then one argued that " }
+{XPPEDIT 18 0 "(p-1)! <> 0;" "6#0-%*factorialG6#,&%\"pG\"\"\"F)!\"\"\"
+\"!" }{TEXT -1 6 " (mod " }{TEXT 426 1 "p" }{TEXT -1 57 ") and thus ..
+. giving Fermat's little theorem. SO: that '" }{XPPEDIT 18 0 "(p-1)!;
+" "6#-%*factorialG6#,&%\"pG\"\"\"F(!\"\"" }{TEXT -1 28 "' is not congr
+uent to 0 mod " }{TEXT 427 1 "p" }{TEXT -1 50 ", ... and it is only if
+ one had the curiousity to " }{TEXT 428 6 "wonder" }{TEXT -1 22 " - wh
+at (if anything) " }{TEXT 430 2 "is" }{TEXT -1 21 " it congruent to mo
+d " }{TEXT 429 1 "p" }{TEXT -1 24 "? - that one could have " }{TEXT 
+431 10 "discovered" }{TEXT -1 22 " 'Wilson's theorem'..." }}{PARA 0 "
+" 0 "" {TEXT -1 43 "In the following I am not concerned by the " }
+{TEXT 481 11 "inefficient" }{TEXT -1 19 " computation of of " }
+{XPPEDIT 18 0 "(p-1)!;" "6#-%*factorialG6#,&%\"pG\"\"\"F(!\"\"" }
+{TEXT -1 5 " mod " }{TEXT 482 1 "p" }{TEXT -1 34 ", nor later when I h
+ave a look at " }{XPPEDIT 18 0 "((p-1)/2)!;" "6#-%*factorialG6#*&,&%\"
+pG\"\"\"F)!\"\"F)\"\"#F*" }{TEXT -1 5 " mod " }{TEXT 483 1 "p" }{TEXT 
+-1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "for p to 30 do\n
+if isprime(p) \nthen print(p, (p-1)!, mods((p-1)!, p))\nfi\nod;" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 143 "Here now is the simple idea that \+
+enables one to prove Theorem 1 above, by using Wilson's theorem, which
+ I will first illustrate with the prime " }{XPPEDIT 18 0 "p = 13;" "6#
+/%\"pG\"#8" }{TEXT -1 26 ": first note that we have " }{XPPEDIT 18 0 "
+12! = -1;" "6#/-%*factorialG6#\"#7,$\"\"\"!\"\"" }{TEXT -1 34 " (mod 1
+3), and then - noting that " }{XPPEDIT 18 0 "12 = -1;" "6#/\"#7,$\"\"
+\"!\"\"" }{TEXT -1 11 " (mod 13), " }{XPPEDIT 18 0 "11 = -2;" "6#/\"#6
+,$\"\"#!\"\"" }{TEXT -1 11 " (mod 13), " }{XPPEDIT 18 0 "10 = -3;" "6#
+/\"#5,$\"\"$!\"\"" }{TEXT -1 11 " (mod 13), " }{XPPEDIT 18 0 "9 = -4;
+" "6#/\"\"*,$\"\"%!\"\"" }{TEXT -1 11 " (mod 13), " }{XPPEDIT 18 0 "8 \+
+= -5;" "6#/\"\"),$\"\"&!\"\"" }{TEXT -1 11 " (mod 13), " }{XPPEDIT 18 
+0 "7 = -6;" "6#/\"\"(,$\"\"'!\"\"" }{TEXT -1 20 " (mod 13), we obtain
+" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "12!;" "6#-%*factorialG6#\"#7" }
+{TEXT -1 32 " = 12.11.10.9.8.7.6.5.4.3.2.1 = " }{XPPEDIT 18 0 "(-1)*(-
+2)*(-3)*(-4)*(-5)*(-6);" "6#*.,$\"\"\"!\"\"F%,$\"\"#F&F%,$\"\"$F&F%,$
+\"\"%F&F%,$\"\"&F&F%,$\"\"'F&F%" }{TEXT -1 26 ".6.5.4.3.2.1 = -1 (mod \+
+13)" }}{PARA 0 "" 0 "" {TEXT -1 9 "and thus " }{XPPEDIT 18 0 "6!^2 = -
+1;" "6#/*$-%*factorialG6#\"\"'\"\"#,$\"\"\"!\"\"" }{TEXT -1 18 " (mod \+
+13) (namely " }{XPPEDIT 18 0 "6!^2+1 = 0;" "6#/,&*$-%*factorialG6#\"\"
+'\"\"#\"\"\"F+F+\"\"!" }{TEXT -1 48 " mod 13). Thus a working value fo
+r the claimed '" }{TEXT 368 1 "a" }{TEXT -1 72 "' of the theorem is wh
+atever number one gets from calculation 6! mod 13:" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 15 "a := 6! mod 13;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "a^2 + 1 mod 13;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 14 "You should see" }{TEXT 484 4 " why" }{TEXT -1 44 " that then 'w
+orks' in the general case, and " }{TEXT 485 4 "what" }{TEXT -1 8 " is \+
+the " }{TEXT 369 9 "relevance" }{TEXT -1 4 " of " }{XPPEDIT 18 0 "p = \+
+1;" "6#/%\"pG\"\"\"" }{TEXT -1 9 " (mod 4)." }}{PARA 0 "" 0 "" {TEXT 
+370 49 "A famous unsolved problem in connection with this" }{TEXT -1 
+107 ". The above clever trick of replacing the end remainders with the
+ir negatives can also be done with primes " }{TEXT 432 1 "p" }{TEXT 
+-1 2 ", " }{XPPEDIT 18 0 "p = 3;" "6#/%\"pG\"\"$" }{TEXT -1 45 " (mod \+
+4), and there - instead of getting an '" }{TEXT 433 1 "a" }{TEXT -1 7 
+"' with " }{XPPEDIT 18 0 "a^2 = -1;" "6#/*$%\"aG\"\"#,$\"\"\"!\"\"" }
+{TEXT -1 6 " (mod " }{TEXT 434 1 "p" }{TEXT -1 17 ") - one gets an '" 
+}{TEXT 435 1 "a" }{TEXT -1 7 "' with " }{XPPEDIT 18 0 "a^2 = 1;" "6#/*
+$%\"aG\"\"#\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 436 1 "p" }{TEXT -1 11 
+"), in fact " }{XPPEDIT 18 0 "((p-1)/2)!^2 = 1;" "6#/*$-%*factorialG6#
+*&,&%\"pG\"\"\"F+!\"\"F+\"\"#F,F-F+" }{TEXT -1 6 " (mod " }{TEXT 437 
+1 "p" }{TEXT -1 19 "), and thus (why?) " }}{PARA 15 "" 0 "" {TEXT -1 
+8 "either  " }{XPPEDIT 18 0 "((p-1)/2)! = 1;" "6#/-%*factorialG6#*&,&%
+\"pG\"\"\"F*!\"\"F*\"\"#F+F*" }{TEXT -1 6 " (mod " }{TEXT 438 1 "p" }
+{TEXT -1 24 ") (and this happens for " }{XPPEDIT 18 0 "p = 3,23,31,71,
+83;" "6'/%\"pG\"\"$\"#B\"#J\"#r\"#$)" }{TEXT -1 5 ", ..." }}{PARA 15 "
+" 0 "" {TEXT -1 3 "or " }{XPPEDIT 18 0 "((p-1)/2)! = -1;" "6#/-%*facto
+rialG6#*&,&%\"pG\"\"\"F*!\"\"F*\"\"#F+,$F*F+" }{TEXT -1 6 " (mod " }
+{TEXT 439 1 "p" }{TEXT -1 24 ") (and this happens for " }{XPPEDIT 18 
+0 "p = 7,11,19,43,47,67,79;" "6)/%\"pG\"\"(\"#6\"#>\"#V\"#Z\"#n\"#z" }
+{TEXT -1 5 ", ..." }}{PARA 0 "" 0 "" {TEXT -1 13 "and it is an " }
+{TEXT 441 17 "unsolved question" }{TEXT -1 12 " as to what " }{TEXT 
+440 5 "makes" }{TEXT -1 55 " the remainder be PLUS 1, and what makes i
+t be MINUS 1." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 186 "for p fro
+m 3 by 4 to 100 do\nif isprime(p) and mods(((p-1)/2)!, p) = 1 \nthen p
+rint([p, ((p-1)/2)!, 1])\nelif isprime(p) and mods(((p-1)/2)!, p) = -1
+ \nthen print([p, ((p-1)/2)!, -1])\nfi\nod;" }}}}{SECT 1 {PARA 3 "" 0 
+"" {TEXT -1 40 "A 2-variable congruence result of Thue's" }}{PARA 0 "
+" 0 "" {TEXT 380 7 "Theorem" }{TEXT -1 6 ". Let " }{TEXT 446 1 "p" }
+{TEXT -1 4 " be " }{TEXT 447 5 "prime" }{TEXT -1 9 " and let " }{TEXT 
+375 1 "a" }{TEXT -1 21 " be any integer with " }{XPPEDIT 18 0 "a <> 0;
+" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 376 1 "p" }{TEXT -1 27 "
+), then there are integers " }{TEXT 377 2 "x " }{TEXT -1 5 "and  " }
+{TEXT 378 1 "y" }{TEXT -1 11 " such that " }{XPPEDIT 18 0 "a*x+y = 0;
+" "6#/,&*&%\"aG\"\"\"%\"xGF'F'%\"yGF'\"\"!" }{TEXT -1 6 " (mod " }
+{TEXT 379 1 "p" }{TEXT -1 7 ") with " }{XPPEDIT 18 0 "x <> 0;" "6#0%\"
+xG\"\"!" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "y <> 0;" "6#0%\"yG\"\"!" 
+}{TEXT -1 6 ", and " }{XPPEDIT 18 0 "abs(x) < sqrt(p);" "6#2-%$absG6#%
+\"xG-%%sqrtG6#%\"pG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "abs(y) < sqr
+t(p);" "6#2-%$absG6#%\"yG-%%sqrtG6#%\"pG" }{TEXT -1 2 ". " }}{PARA 0 "
+" 0 "" {TEXT -1 24 "(Note in the proof that " }{TEXT 448 1 "p" }{TEXT 
+-1 77 "'s primality is used only at one small point. Also note that on
+e could have '" }{XPPEDIT 18 0 "a*x-y;" "6#,&*&%\"aG\"\"\"%\"xGF&F&%\"
+yG!\"\"" }{TEXT -1 15 "' in place of '" }{XPPEDIT 18 0 "a*x+y;" "6#,&*
+&%\"aG\"\"\"%\"xGF&F&%\"yGF&" }{TEXT -1 10 "' (though " }{TEXT 500 9 "
+different" }{TEXT -1 158 " pairs of values may result when the signs a
+re changed), and later make the same use of the alternative version in
+ the proof of the Fermat 2-squares theorem.)" }}{PARA 0 "" 0 "" {TEXT 
+381 69 "Proof (which uses the Dirichlet box principle, and illustrated
+ below)" }{TEXT -1 6 ". Let " }{XPPEDIT 18 0 "c = ceil(sqrt(p));" "6#/
+%\"cG-%%ceilG6#-%%sqrtG6#%\"pG" }{TEXT -1 55 " ('ceil' (the Maple comm
+and used below) for 'ceiling', " }{TEXT 476 7 "meaning" }{TEXT -1 24 "
+ the integer satisfying " }{XPPEDIT 18 0 "c-1 < sqrt(p);" "6#2,&%\"cG
+\"\"\"F&!\"\"-%%sqrtG6#%\"pG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "sqrt(p)
+ < c;" "6#2-%%sqrtG6#%\"pG%\"cG" }{TEXT -1 18 " (in other words, " }
+{XPPEDIT 18 0 "(c-1)^2;" "6#*$,&%\"cG\"\"\"F&!\"\"\"\"#" }{TEXT -1 5 "
+ and " }{XPPEDIT 18 0 "c^2;" "6#*$%\"cG\"\"#" }{TEXT -1 17 " are the s
+quares " }{TEXT 486 6 "before" }{TEXT -1 5 " and " }{TEXT 487 5 "after
+" }{TEXT -1 11 " the prime " }{TEXT 477 1 "p" }{TEXT -1 20 "), and con
+sider the " }{XPPEDIT 18 0 "c^2;" "6#*$%\"cG\"\"#" }{TEXT -1 10 " inte
+gers:" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "a*1+1,a*1+2,a*1+3;" "6%,&*&%
+\"aG\"\"\"F&F&F&F&F&,&*&F%F&F&F&F&\"\"#F&,&*&F%F&F&F&F&\"\"$F&" }
+{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "a*1+c;" "6#,&*&%\"aG\"\"\"F&F&F&
+%\"cGF&" }{TEXT -1 1 "," }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "a*2+1,a*2+
+2,a*2+3;" "6%,&*&%\"aG\"\"\"\"\"#F&F&F&F&,&*&F%F&F'F&F&F'F&,&*&F%F&F'F
+&F&\"\"$F&" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "a*2+c;" "6#,&*&%\"a
+G\"\"\"\"\"#F&F&%\"cGF&" }{TEXT -1 1 "," }}{PARA 258 "" 0 "" {XPPEDIT 
+18 0 "a*3+1,a*3+2,a*3+3;" "6%,&*&%\"aG\"\"\"\"\"$F&F&F&F&,&*&F%F&F'F&F
+&\"\"#F&,&*&F%F&F'F&F&F'F&" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "a*3
++c;" "6#,&*&%\"aG\"\"\"\"\"$F&F&%\"cGF&" }{TEXT -1 1 "," }}{PARA 258 "
+" 0 "" {TEXT -1 7 "... ..." }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "a*c+1,a
+*c+2,a*c+3;" "6%,&*&%\"aG\"\"\"%\"cGF&F&F&F&,&*&F%F&F'F&F&\"\"#F&,&*&F
+%F&F'F&F&\"\"$F&" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "a*c+c;" "6#,&
+*&%\"aG\"\"\"%\"cGF&F&F'F&" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+6 "Since " }{XPPEDIT 18 0 "p < c^2;" "6#2%\"pG*$%\"cG\"\"#" }{TEXT -1 
+41 " then - by the Dirichlet box principle - " }{TEXT 383 8 "some two
+" }{TEXT -1 52 " (at least) of those integers must be congruent mod " 
+}{TEXT 382 1 "p" }{TEXT -1 23 "; that is, we have two " }{TEXT 442 9 "
+different" }{TEXT -1 8 " pairs (" }{XPPEDIT 18 0 "x[1],y[1];" "6$&%\"x
+G6#\"\"\"&%\"yG6#F&" }{TEXT -1 7 ") and (" }{XPPEDIT 18 0 "x[2],y[2];
+" "6$&%\"xG6#\"\"#&%\"yG6#F&" }{TEXT -1 12 ") such that " }{XPPEDIT 
+18 0 "a*x[1]+y[1] = a*x[2]+y[2];" "6#/,&*&%\"aG\"\"\"&%\"xG6#F'F'F'&%
+\"yG6#F'F',&*&F&F'&F)6#\"\"#F'F'&F,6#F2F'" }{TEXT -1 7 "  (mod " }
+{TEXT 384 1 "p" }{TEXT -1 11 ") for some " }{XPPEDIT 18 0 "x[1],y[1],x
+[2],y[2];" "6&&%\"xG6#\"\"\"&%\"yG6#F&&F$6#\"\"#&F(6#F," }{TEXT -1 15 
+" between 1 and " }{TEXT 385 1 "c" }{TEXT -1 11 ", and then " }
+{XPPEDIT 18 0 "a*(x[1]-x[2])+y[1]-y[2] = 0;" "6#/,(*&%\"aG\"\"\",&&%\"
+xG6#F'F'&F*6#\"\"#!\"\"F'F'&%\"yG6#F'F'&F16#F.F/\"\"!" }{TEXT -1 7 "  \+
+(mod " }{TEXT 386 1 "p" }{TEXT -1 9 ") ... (i)" }}{PARA 0 "" 0 "" 
+{TEXT -1 9 "Setting  " }{XPPEDIT 18 0 "x = x[1]-x[2];" "6#/%\"xG,&&F$6
+#\"\"\"F(&F$6#\"\"#!\"\"" }{TEXT -1 6 " and  " }{XPPEDIT 18 0 "y = y[1
+]-y[2];" "6#/%\"yG,&&F$6#\"\"\"F(&F$6#\"\"#!\"\"" }{TEXT -1 9 " we hav
+e " }{XPPEDIT 18 0 "a*x+y = 0;" "6#/,&*&%\"aG\"\"\"%\"xGF'F'%\"yGF'\"
+\"!" }{TEXT -1 6 " (mod " }{TEXT 449 1 "p" }{TEXT -1 15 "), and clearl
+y " }{XPPEDIT 18 0 "abs(x) < sqrt(p);" "6#2-%$absG6#%\"xG-%%sqrtG6#%\"
+pG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "abs(y) < sqrt(p);" "6#2-%$absG
+6#%\"yG-%%sqrtG6#%\"pG" }{TEXT -1 85 ". (But could it be - horror of h
+orrors!! - that all we've got for our efforts is the " }{TEXT 451 7 "t
+rivial" }{TEXT -1 1 " " }{XPPEDIT 18 0 "a.0+0 = 0;" "6#/,&-%\".G6$%\"a
+G\"\"!\"\"\"F)F*F)" }{TEXT -1 6 " (mod " }{TEXT 450 1 "p" }{TEXT -1 
+45 "); that's the last point to be settled:) Now " }{XPPEDIT 18 0 "x <
+> 0;" "6#0%\"xG\"\"!" }{TEXT -1 32 " because, if not, we would have " 
+}{XPPEDIT 18 0 "x[1] = x[2];" "6#/&%\"xG6#\"\"\"&F%6#\"\"#" }{TEXT -1 
+20 " and (i) would give " }{XPPEDIT 18 0 "y[1]-y[2] = 0;" "6#/,&&%\"yG
+6#\"\"\"F(&F&6#\"\"#!\"\"\"\"!" }{TEXT -1 6 " (mod " }{TEXT 452 1 "p" 
+}{TEXT -1 10 "), giving " }{XPPEDIT 18 0 "y[1] = y[2];" "6#/&%\"yG6#\"
+\"\"&F%6#\"\"#" }{TEXT -1 20 " (conflicting with (" }{XPPEDIT 18 0 "x[
+1],y[1];" "6$&%\"xG6#\"\"\"&%\"yG6#F&" }{TEXT -1 7 ") and (" }
+{XPPEDIT 18 0 "x[2],y[2];" "6$&%\"xG6#\"\"#&%\"yG6#F&" }{TEXT -1 31 ")
+ being different pairs). Also " }{XPPEDIT 18 0 "y <> 0;" "6#0%\"yG\"\"
+!" }{TEXT -1 32 " because, if not, we would have " }{XPPEDIT 18 0 "y[1
+] = y[2];" "6#/&%\"yG6#\"\"\"&F%6#\"\"#" }{TEXT -1 21 " and (i) would \+
+give  " }{XPPEDIT 18 0 "a*(x[1]-x[2]) = 0;" "6#/*&%\"aG\"\"\",&&%\"xG6
+#F&F&&F)6#\"\"#!\"\"F&\"\"!" }{TEXT -1 6 " (mod " }{TEXT 453 1 "p" }
+{TEXT -1 10 "), giving " }{XPPEDIT 18 0 "x[1]-x[2] = 0;" "6#/,&&%\"xG6
+#\"\"\"F(&F&6#\"\"#!\"\"\"\"!" }{TEXT -1 6 " (mod " }{TEXT 454 1 "p" }
+{TEXT -1 9 ") (since " }{TEXT 455 1 "p" }{TEXT -1 4 " is " }{TEXT 456 
+5 "prime" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!
+" }{TEXT -1 6 " (mod " }{TEXT 457 1 "p" }{TEXT -1 12 ")), giving  " }
+{XPPEDIT 18 0 "x[1] = x[2];" "6#/&%\"xG6#\"\"\"&F%6#\"\"#" }{TEXT -1 
+31 " (once again conflicting with (" }{XPPEDIT 18 0 "x[1],y[1];" "6$&%
+\"xG6#\"\"\"&%\"yG6#F&" }{TEXT -1 7 ") and (" }{XPPEDIT 18 0 "x[2],y[2
+];" "6$&%\"xG6#\"\"#&%\"yG6#F&" }{TEXT -1 27 ") being different pairs)
+. [" }{TEXT 458 12 "end of proof" }{TEXT -1 43 "]                     \+
+                     " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 387 6 "A
+dvice" }{TEXT -1 73 ". As always, some hand-performed calculations hel
+p to reinforce the idea." }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 52 "Maple
+ illustrations of the Thue (Dirichlet) theorem " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 268 "p := 23; a := 7; c := ceil(sqrt(p)); \nA := a
+rray(1..c,1..c):\nfor x to c do for y to c do\nA[x, y] := a*x + y mod \+
+p;\nod; od; \nprint(A);\nlprint(`Note. There are`, c^2, `entries, and \+
+thus, on division by`, p,`there must be AT LEAST TWO entries that are \+
+congruent mod`, p);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 139 "Looking at that Maple output one \+
+can see quite a few duplicates (3, 4, 5, 9, 10 and 11 in fact), and ch
+oosing any one of them - 9 say (the " }{TEXT 495 1 "2" }{TEXT -1 10 "n
+d in the " }{TEXT 496 1 "1" }{TEXT -1 16 "st row, and the " }{TEXT 
+497 1 "1" }{TEXT -1 10 "st in the " }{TEXT 498 1 "3" }{TEXT -1 18 "rd \+
+row) - one has:" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "7.1+2 = 7.3+1;" "6
+#/,&$\"#r!\"\"\"\"\"\"\"#F(,&$\"#tF'F(F(F(" }{TEXT -1 9 " (mod 13)" }}
+{PARA 259 "" 0 "" {TEXT -1 6 "giving" }}{PARA 258 "" 0 "" {XPPEDIT 18 
+0 "7.(1-3)+2-1 = 0;" "6#/,(-$\"\"(\"\"!6#,&\"\"\"F+\"\"$!\"\"F+\"\"#F+
+F+F-F(" }{TEXT -1 9 " (mod 13)" }}{PARA 0 "" 0 "" {TEXT -1 6 "namely" 
+}}{PARA 258 "" 0 "" {XPPEDIT 18 0 "7.(-2)+1 = 0;" "6#/,&-$\"\"(\"\"!6#
+,$\"\"#!\"\"\"\"\"F-F-F(" }{TEXT -1 9 " (mod 13)" }}{PARA 0 "" 0 "" 
+{TEXT -1 23 "and so it produces an '" }{TEXT 488 1 "x" }{TEXT -1 7 "' \+
+and '" }{TEXT 489 1 "y" }{TEXT -1 22 "' of the theorem with " }
+{XPPEDIT 18 0 "x = -2;" "6#/%\"xG,$\"\"#!\"\"" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "y = 1;" "6#/%\"yG\"\"\"" }{TEXT -1 64 ". And here's an \+
+example with a '0' (in fact two of them) in the " }{TEXT 490 8 "interi
+or" }{TEXT -1 14 " of the table:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 266 "p := 13; a := 6; c := ceil(sqrt(p)); A := array(1..c
+,1..c):\nfor x to c do for y to c do\nA[x, y] := a*x + y mod p;\nod; o
+d; print(A);\nlprint(`Note. There are`, c^2, `entries, and thus, on di
+vision by`, p,`there must be AT LEAST TWO entries that are congruent m
+od`, p);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 42 "That '0' in the 2nd row simply means that
+ " }{XPPEDIT 18 0 "6.2+1 = 0;" "6#/,&$\"#i!\"\"\"\"\"F(F(\"\"!" }
+{TEXT -1 19 " (mod 13) (and so  " }{XPPEDIT 18 0 "x = 2;" "6#/%\"xG\"
+\"#" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "y = 1;" "6#/%\"yG\"\"\"" }{TEXT 
+-1 67 " satisfy the Theorem), or the '0' in the 4th row simply means t
+hat " }{XPPEDIT 18 0 "6.4+2 = 0;" "6#/,&$\"#k!\"\"\"\"\"\"\"#F(\"\"!" 
+}{TEXT -1 11 " (mod 13). " }}{PARA 0 "" 0 "" {TEXT -1 64 "This result \+
+of Thue's makes no mention whatever of the value of " }{TEXT 491 1 "p
+" }{TEXT -1 21 " mod 4; it's true of " }{TEXT 492 3 "all" }{TEXT -1 
+93 " primes (but in the proof I give in the next section of the Fermat
+ 2-squares theorem we will " }{TEXT 493 4 "need" }{TEXT -1 13 " to use
+ that " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 11 " (mod 4
+)). " }}{PARA 0 "" 0 "" {TEXT -1 54 "Here is one last example, this ti
+me with a prime that " }{TEXT 494 7 "happens" }{TEXT -1 17 " to be 3 (
+mod 4)." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 266 "p := 79; a := 6
+; c := ceil(sqrt(p)); A := array(1..c,1..c):\nfor x to c do for y to c
+ do\nA[x, y] := a*x + y mod p;\nod; od; print(A);\nlprint(`Note. There
+ are`, c^2, `entries, and thus, on division by`, p,`there must be AT L
+EAST TWO entries that are congruent mod`, p);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 128 "You sho
+uldn't be surprised - in any example (Maple or otherwise) - by the way
+ the entries in the rows read from left to right..." }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 36 "Proof of the \+
+Fermat 2-square theorem" }}{PARA 0 "" 0 "" {TEXT -1 35 "All (finally!)
+ is now in place for:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 388 7 "T
+heorem" }{TEXT -1 6 ". Let " }{TEXT 389 1 "p" }{TEXT -1 19 " be any pr
+ime with " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 34 " (mo
+d 4), then there are integers " }{TEXT 390 1 "x" }{TEXT -1 5 " and " }
+{TEXT 391 1 "y" }{TEXT -1 11 " such that " }{XPPEDIT 18 0 "p = x^2+y^2
+;" "6#/%\"pG,&*$%\"xG\"\"#\"\"\"*$%\"yGF(F)" }{TEXT -1 1 "." }}{PARA 
+0 "" 0 "" {TEXT 392 5 "Proof" }{TEXT -1 8 ". Since " }{XPPEDIT 18 0 "p
+ = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 38 " (mod 4) then there exists an in
+teger " }{TEXT 393 1 "a" }{TEXT -1 10 " such that" }}{PARA 258 "" 0 "
+" {TEXT -1 1 " " }{XPPEDIT 18 0 "a^2+1 = 0;" "6#/,&*$%\"aG\"\"#\"\"\"F
+(F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 394 1 "p" }{TEXT -1 12 ")   ... \+
+(i) " }}{PARA 0 "" 0 "" {TEXT -1 25 "Also, there are integers " }
+{TEXT 395 2 "x " }{TEXT -1 5 "and  " }{TEXT 396 1 "y" }{TEXT -1 10 " s
+uch that" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "a*x+y = 0
+;" "6#/,&*&%\"aG\"\"\"%\"xGF'F'%\"yGF'\"\"!" }{TEXT -1 6 " (mod " }
+{TEXT 397 1 "p" }{TEXT -1 0 "" }{TEXT 398 0 "" }{TEXT -1 11 ")  ... (i
+i)" }}{PARA 0 "" 0 "" {TEXT -1 5 "with " }{XPPEDIT 18 0 "x <> 0;" "6#0
+%\"xG\"\"!" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "abs(x) < sqrt(p);" "6#
+2-%$absG6#%\"xG-%%sqrtG6#%\"pG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "y
+ <> 0;" "6#0%\"yG\"\"!" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "abs(y) < s
+qrt(p);" "6#2-%$absG6#%\"yG-%%sqrtG6#%\"pG" }{TEXT -1 34 ". Multiplyin
+g throughout (ii) by (" }{XPPEDIT 18 0 "a*x-y;" "6#,&*&%\"aG\"\"\"%\"x
+GF&F&%\"yG!\"\"" }{TEXT -1 7 ") gives" }}{PARA 258 "" 0 "" {TEXT -1 1 
+" " }{XPPEDIT 18 0 "a^2*x^2-y^2 = 0;" "6#/,&*&%\"aG\"\"#%\"xGF'\"\"\"*
+$%\"yGF'!\"\"\"\"!" }{TEXT -1 6 " (mod " }{TEXT 399 1 "p" }{TEXT -1 0 
+"" }{TEXT 400 0 "" }{TEXT -1 12 ")  ... (iii)" }}{PARA 260 "" 0 "" 
+{TEXT -1 22 "and throughout (i) by " }{XPPEDIT 18 0 "x^2;" "6#*$%\"xG
+\"\"#" }{TEXT -1 6 " gives" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "a^2*x^2+x^2 = 0;" "6#/,&*&%\"aG\"\"#%\"xGF'\"\"\"*$F(F'
+F)\"\"!" }{TEXT -1 6 " (mod " }{TEXT 402 1 "p" }{TEXT -1 12 ")   ... (
+iv)" }{TEXT 401 0 "" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 34 "Su
+btracting (iii) from (iv) gives " }{XPPEDIT 18 0 "x^2+y^2 = 0;" "6#/,&
+*$%\"xG\"\"#\"\"\"*$%\"yGF'F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 403 1 
+"p" }{TEXT -1 0 "" }{TEXT 404 0 "" }{TEXT -1 8 "). Thus " }{XPPEDIT 
+18 0 "x^2+y^2 = m*p;" "6#/,&*$%\"xG\"\"#\"\"\"*$%\"yGF'F(*&%\"mGF(%\"p
+GF(" }{TEXT -1 6 "  for " }{TEXT 406 4 "some" }{TEXT -1 9 " integer " 
+}{TEXT 405 1 "m" }{TEXT -1 46 " (and our aim is to argue it MUST be 1 \+
+giving " }{XPPEDIT 18 0 "p = x^2+y^2;" "6#/%\"pG,&*$%\"xG\"\"#\"\"\"*$
+%\"yGF(F)" }{TEXT -1 11 "). We have " }{XPPEDIT 18 0 "0 < x^2+y^2;" "6
+#2\"\"!,&*$%\"xG\"\"#\"\"\"*$%\"yGF(F)" }{TEXT -1 7 " (even " }{TEXT 
+461 8 "only one" }{TEXT -1 4 " of " }{TEXT 459 1 "x" }{TEXT -1 5 " and
+ " }{TEXT 460 1 "y" }{TEXT -1 51 " being non-zero would have gaurantee
+d that) and so " }{XPPEDIT 18 0 "0 < m;" "6#2\"\"!%\"mG" }{TEXT -1 12 
+", and since " }{XPPEDIT 18 0 "x^2+y^2 < p+p;" "6#2,&*$%\"xG\"\"#\"\"
+\"*$%\"yGF'F(,&%\"pGF(F,F(" }{TEXT -1 6 " then " }{XPPEDIT 18 0 "m*p <
+ 2*p;" "6#2*&%\"mG\"\"\"%\"pGF&*&\"\"#F&F'F&" }{TEXT -1 9 ", giving " 
+}{XPPEDIT 18 0 "m < 2;" "6#2%\"mG\"\"#" }{TEXT -1 7 ". Thus " }{TEXT 
+462 1 "m" }{TEXT -1 1 " " }{TEXT 499 2 "is" }{TEXT -1 5 " 1. [" }
+{TEXT 463 12 "end of proof" }{TEXT -1 2 "] " }}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 9 "See the '" }{TEXT 478 1 "x" }{TEXT -1 7 "' and '" }
+{TEXT 479 1 "y" }{TEXT -1 53 "' generated by combining (Wilson), Thue \+
+and Dirichlet" }}{PARA 0 "" 0 "" {TEXT -1 111 "Your understanding of t
+he above may be enhanced by seeing the following calculations, which s
+tart with a prime " }{TEXT 480 1 "p" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "
+p = 1;" "6#/%\"pG\"\"\"" }{TEXT -1 127 " (mod 4), and continue... I kn
+ow primes that are 1 mod 4 off by heart, but if you want some such pri
+mes then do something like:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+75 "for k from 150 to 200 do\nif k mod 4 = 1 and isprime(k)\nthen prin
+t(k) fi od;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "p := 173; " 
+}{TEXT -1 0 "" }{MPLTEXT 1 0 40 "a := ((p-1)/2)!; a mod p; a^2 + 1 mod
+ p;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 48 "Now to see (what one might call) the Thue table:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 249 "c := ceil(sqrt(p)); A := ar
+ray(1..c,1..c):\nfor x to c do for y to c do\nA[x, y] := a*x + y mod p
+;\nod; od; print(A);\nlprint(`Note. There are`, c^2, `entries, and thu
+s, on division by`, p,`there must be AT LEAST TWO entries that are con
+gruent mod`, p);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 183 "As it happens there is a convenient '0' \+
+that occurs in the table (so one doesn't have to look out for two repe
+ated entries (like 130 and 130), and so we can immediately read off th
+e '" }{TEXT 501 1 "x" }{TEXT -1 7 "' and '" }{TEXT 502 1 "y" }{TEXT 
+-1 82 "' values. But if you're too lazy to count along the rows and co
+lumns to find the '" }{TEXT 503 1 "x" }{TEXT -1 7 "' and '" }{TEXT 
+504 1 "y" }{TEXT -1 8 "' values" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 79 "for x to c do for y to c do
+\nif A[x, y] = 0 then print(x, y, x^2+y^2)\nfi od; od;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 21 "and so one sees that " }{XPPEDIT 18 0 "173 = 2^2+13^2;" "6#/\"$
+t\",&*$\"\"#F'\"\"\"*$\"#8F'F(" }{TEXT -1 1 "." }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 44 "Much, much more
+ can be done with these ideas" }}{PARA 0 "" 0 "" {TEXT -1 146 "There i
+s a great deal more that may be achieved in connection with the above \+
+ideas. For example one may prove in a similar fashion the following: \+
+" }}{PARA 0 "" 0 "" {TEXT 472 7 "Theorem" }{TEXT -1 6 ". Let " }{TEXT 
+469 1 "p" }{TEXT -1 19 " be any prime with " }{XPPEDIT 18 0 "p = 1;" "
+6#/%\"pG\"\"\"" }{TEXT -1 12 " (mod 8) or " }{XPPEDIT 18 0 "p = 3;" "6
+#/%\"pG\"\"$" }{TEXT -1 14 " (mod 8) then " }{XPPEDIT 18 0 "p = x^2+2*
+y^2;" "6#/%\"pG,&*$%\"xG\"\"#\"\"\"*&F(F)*$%\"yGF(F)F)" }{TEXT -1 19 "
+ for some integers " }{TEXT 470 1 "x" }{TEXT -1 5 " and " }{TEXT 471 
+1 "y" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 473 8 "Examples" }{TEXT 
+-1 2 ". " }{XPPEDIT 18 0 "3 = 1^2+2.1^2;" "6#/\"\"$,&*$\"\"\"\"\"#F'*$
+$\"#@!\"\"F(F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "11 = 3^2+2.1^2;" "6#/
+\"#6,&*$\"\"$\"\"#\"\"\"*$$\"#@!\"\"F(F)" }{TEXT -1 2 ", " }{XPPEDIT 
+18 0 "17 = 3^2+2.2^2;" "6#/\"#<,&*$\"\"$\"\"#\"\"\"*$$\"#A!\"\"F(F)" }
+{TEXT -1 2 ", " }{XPPEDIT 18 0 "19 = 1^2+2.3^2;" "6#/\"#>,&*$\"\"\"\"
+\"#F'*$$\"#B!\"\"F(F'" }{TEXT -1 5 ", ..." }}{PARA 0 "" 0 "" {TEXT -1 
+98 "To give a proof, though, one needs to have access to another class
+ic result: for every prime with " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"
+\"\"" }{TEXT -1 12 " (mod 8) or " }{XPPEDIT 18 0 "p = 3;" "6#/%\"pG\"
+\"$" }{TEXT -1 29 " (mod 8) there is an integer " }{TEXT 464 1 "a" }
+{TEXT -1 11 " such that " }{XPPEDIT 18 0 "a^2+2 = 0;" "6#/,&*$%\"aG\"
+\"#\"\"\"F'F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 465 1 "p" }{TEXT -1 
+53 "), and that can't be proved using Wilson's theorem..." }}{PARA 0 "
+" 0 "" {TEXT -1 32 "One may also prove this theorem:" }}{PARA 0 "" 0 "
+" {TEXT 474 7 "Theorem" }{TEXT -1 6 ". Let " }{TEXT 466 1 "p" }{TEXT 
+-1 19 " be any prime with " }{XPPEDIT 18 0 "p = 1;" "6#/%\"pG\"\"\"" }
+{TEXT -1 15 " (mod 6)  then " }{XPPEDIT 18 0 "p = x^2+3*y^2;" "6#/%\"p
+G,&*$%\"xG\"\"#\"\"\"*&\"\"$F)*$%\"yGF(F)F)" }{TEXT -1 19 " for some i
+ntegers " }{TEXT 467 1 "x" }{TEXT -1 5 " and " }{TEXT 468 1 "y" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 475 8 "Examples" }{TEXT -1 2 ".
+ " }{XPPEDIT 18 0 "7 = 2^2+3.1^2;" "6#/\"\"(,&*$\"\"#F'\"\"\"*$$\"#J!
+\"\"F'F(" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "13 = 1^2+3.2^2;" "6#/\"#8,&
+*$\"\"\"\"\"#F'*$$\"#K!\"\"F(F'" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "19 =
+ 4^2+3.1^2;" "6#/\"#>,&*$\"\"%\"\"#\"\"\"*$$\"#J!\"\"F(F)" }{TEXT -1 
+2 ", " }{XPPEDIT 18 0 "31 = 2^2+3.3^2;" "6#/\"#J,&*$\"\"#F'\"\"\"*$$\"
+#L!\"\"F'F(" }{TEXT -1 5 ", ..." }}{PARA 0 "" 0 "" {TEXT -1 43 "Really
+, really interesting things start at " }{XPPEDIT 18 0 "x^2+5*y^2;" "6#
+,&*$%\"xG\"\"#\"\"\"*&\"\"&F'*$%\"yGF&F'F'" }{TEXT -1 33 "... (Ah, if \+
+only one had time...)" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 54 "And much
+, much more is known about the two squares in " }{XPPEDIT 18 0 "p = x^
+2+y^2;" "6#/%\"pG,&*$%\"xG\"\"#\"\"\"*$%\"yGF(F)" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 46 "To start with it can be proved that the p
+air (" }{XPPEDIT 18 0 "x,y;" "6$%\"xG%\"yG" }{TEXT -1 5 ") is " }
+{TEXT 505 6 "unique" }{TEXT -1 45 " (apart from interchange, or change
+ of sign)." }}{PARA 0 "" 0 "" {TEXT -1 37 "Also, there are four quite \+
+beautiful " }{TEXT 512 10 "structured" }{TEXT -1 18 " ways for finding
+ " }{TEXT 506 1 "x" }{TEXT -1 5 " and " }{TEXT 507 1 "y" }{TEXT -1 1 "
+:" }}{PARA 15 "" 0 "" {TEXT -1 107 "Legendre (1808). Here one needs to
+ know about the (infinite, but periodic) continued fraction expansion \+
+of " }{XPPEDIT 18 0 "sqrt(p);" "6#-%%sqrtG6#%\"pG" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 54 "Gauss (1825). His construction is simple
+, but hard to " }{TEXT 514 5 "prove" }{TEXT -1 6 ": let " }{XPPEDIT 
+18 0 "p = 4*n+1;" "6#/%\"pG,&*&\"\"%\"\"\"%\"nGF(F(F(F(" }{TEXT -1 11 
+" and set:\n " }{XPPEDIT 18 0 "x = (2*n)!/(2*n!^2);" "6#/%\"xG*&-%*fac
+torialG6#*&\"\"#\"\"\"%\"nGF+F+*&F*F+*$-F'6#F,F*F+!\"\"" }{TEXT -1 6 "
+ (mod " }{TEXT 515 1 "p" }{TEXT -1 1 ")" }{TEXT 516 5 " and " }{TEXT 
+-1 0 "" }{XPPEDIT 18 0 "y = (2*n)!*x;" "6#/%\"yG*&-%*factorialG6#*&\"
+\"#\"\"\"%\"nGF+F+%\"xGF+" }{TEXT -1 6 " (mod " }{TEXT 519 1 "p" }
+{TEXT -1 7 ") with " }{XPPEDIT 18 0 "abs(x) < p/2;" "6#2-%$absG6#%\"xG
+*&%\"pG\"\"\"\"\"#!\"\"" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "abs(y) < \+
+p/2;" "6#2-%$absG6#%\"yG*&%\"pG\"\"\"\"\"#!\"\"" }{TEXT -1 7 ", then \+
+" }{XPPEDIT 18 0 "p = x^2+y^2;" "6#/%\"pG,&*$%\"xG\"\"#\"\"\"*$%\"yGF(
+F)" }{TEXT -1 2 " \n" }{TEXT 518 0 "" }{TEXT -1 0 "" }{TEXT 517 0 "" }
+}{PARA 15 "" 0 "" {TEXT -1 138 "Serret (1848). Here one needs to know \+
+about (finite) continued fraction expansions of rational numbers, and \+
+here the relevant rational is " }{XPPEDIT 18 0 "p/a;" "6#*&%\"pG\"\"\"
+%\"aG!\"\"" }{TEXT -1 8 ", where " }{XPPEDIT 18 0 "a^2+1 = 0;" "6#/,&*
+$%\"aG\"\"#\"\"\"F(F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 508 1 "p" }
+{TEXT -1 16 ") with positive " }{TEXT 509 1 "a" }{TEXT -1 11 " less th
+an " }{XPPEDIT 18 0 "p/2;" "6#*&%\"pG\"\"\"\"\"#!\"\"" }{TEXT -1 1 ".
+" }}{PARA 15 "" 0 "" {TEXT -1 157 "Jacobsthal (1906). Here one needs t
+o know about quadratic residues, and Jacobsthal's beautiful result inv
+olves a careful study of sums of Legendre symbols,  " }{XPPEDIT 18 0 "
+S[r] = Sum([n*(n^2-r)/p],n = 0 .. p-1);" "6#/&%\"SG6#%\"rG-%$SumG6$7#*
+(%\"nG\"\"\",&*$F-\"\"#F.F'!\"\"F.%\"pGF2/F-;\"\"!,&F3F.F.F2" }{TEXT 
+-1 96 " (here I have been forced to use square brackets for the Legend
+re symbol) for non-zero residues " }{TEXT 510 1 "r" }{TEXT -1 29 ". Re
+markably it emerges that " }{XPPEDIT 18 0 "S[r];" "6#&%\"SG6#%\"rG" }
+{TEXT -1 10 " has only " }{TEXT 511 3 "two" }{TEXT -1 53 " values, and
+ you've probably guessed what those are!!" }}{PARA 0 "" 0 "" {TEXT -1 
+47 "An outstanding reference is Harold Davenport's " }{TEXT 513 21 "Th
+e Higher Arithmetic" }{TEXT -1 173 " (I had the great good fortune (in
+ Feb 1995) to come upon a 1952 first edition - in a run-down bookshop \+
+near where I live - for \2433!!), though there are more recent edition
+s." }}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "9" 0 }{VIEWOPTS 1 1 0 
+1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

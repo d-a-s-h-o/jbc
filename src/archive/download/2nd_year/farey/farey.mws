@@ -1,0 +1,87 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 \+
+Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 
+257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 128 1 2 1 2 0 0 0 0 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 3 258 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "# farey.mws" }}}
+{EXCHG {PARA 258 "" 0 "" {TEXT -1 12 "Farey series" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 256 12 "Introduction" }{TEXT -1 7 ".  The " }
+{TEXT 257 12 "Farey series" }{TEXT -1 124 " - an entirely elementary n
+otion - is great fun (can be done with school children; try it: ... ),
+ but is also quite serious " }}{PARA 0 "" 0 "" {TEXT -1 45 "Mathematic
+s.  Let us remind ourselves of the:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 159 "Farey := proc(n)\nlocal L
+, k, a;\nL := [];\nfor k to n do\n  for a from 0 to k do\n    if igcd(
+a, k) = 1 then\n       L := [op(L), a/k]\n    fi\n  od\nod;\nsort(L);
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 9 "Farey(1);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#7$\"\"!\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "Farey(2)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"!#\"\"\"\"\"#F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "Farey(3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7'\"\"!#\"\"\"\"\"$#F&\"\"##F)F'F&" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "Farey(4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7)\"\"!#\"\"\"\"\"%#F&\"\"$#F&\"\"##F+F)#F)F'F&" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "Farey(10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7C\"\"!#\"\"\"\"#5#F&\"\"*#F&\"\")#F&\"\"(#F&\"\"'#F&\"\"&#\"\"#F)#F&
+\"\"%#F3F-#\"\"$F'#F&F8#F8F+#F3F1#F8F-#F5F)#F&F3#F1F)#F5F-#F8F1#F1F+#F
+3F8#F-F'#F1F-#F8F5#F-F)#F5F1#F1F/#F/F-#F-F+#F+F)#F)F'F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "L20 := Farey(20);" }}{PARA 12 "" 1 
+"" {XPPMATH 20 "6#>%$L20G7]s\"\"!#\"\"\"\"#?#F(\"#>#F(\"#=#F(\"#<#F(\"
+#;#F(\"#:#F(\"#9#F(\"#8#F(\"#7#F(\"#6#F(\"#5#\"\"#F+#F(\"\"*#F?F/#F(\"
+\")#F?F3#F(\"\"(#\"\"$F)#F?F7#FIF+#F(\"\"'#FIF/#F?F;#FIF1#F(\"\"&#\"\"
+%F+#FIF5#F?FA#FIF7#FTF/#F(FT#FRF+#FTF3#FIF;#FRF-#F?FG#FRF/#FIF=#FTF7#F
+RF1#FMF+#F(FI#FGF)#FMF/#FRF5#FTF;#FGF+#FIFD#FRF7#FGF-#F?FR#FGF/#FRF9#F
+DF+#FIFG#FGF1#FTFA#FAF)#FRF;#FMF7#FGF3#FDF/#FAF+#F(F?#F=F+#FAF/#FDF3#F
+GF7#FMF;#F;F)#FRFA#FAF1#FTFG#F;F+#FGF9#F=F/#FIFR#F;F-#FDF7#FRFD#F9F+#F
+GF;#FAF5#F;F/#F7F)#F?FI#F7F+#F;F1#FAF7#FGF=#F9F/#FRFG#F7F-#FDF;#F;F3#F
+5F+#FIFT#F7F/#F=F7#FGFA#F;F5#F3F+#FTFR#F7F1#FAF;#F5F/#FRFM#F1F+#F;F7#F
+/F)#FMFG#F7F3#FGFD#F3F/#FDFA#F/F+#FAF=#F=F;#F;F9#F9F7#F7F5#F5F3#F3F1#F
+1F/#F/F-#F-F+#F+F)F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "nop
+s(Farey(20));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$H\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "?list" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 258 46 "The elements of a set or list may be extracted" }{TEXT 
+-1 112 " via the selection operation. Thus, if S is a set or list then
+ the ith to jth elements of S can be obtained by: " }}{PARA 0 "" 0 "" 
+{TEXT -1 143 "S[i..j] or equivalently, op(i..j, S).  Negative selector
+s can also be used. The -1th element is the last, the -2th the second \+
+last, and so on. " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "L20[4];
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"#=" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 22 "seq(L20[k], k=1..129);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6]s\"\"!#\"\"\"\"#?#F%\"#>#F%\"#=#F%\"#<#F%\"#;#F%\"#:#F%
+\"#9#F%\"#8#F%\"#7#F%\"#6#F%\"#5#\"\"#F(#F%\"\"*#F<F,#F%\"\")#F<F0#F%
+\"\"(#\"\"$F&#F<F4#FFF(#F%\"\"'#FFF,#F<F8#FFF.#F%\"\"&#\"\"%F(#FFF2#F<
+F>#FFF4#FQF,#F%FQ#FOF(#FQF0#FFF8#FOF*#F<FD#FOF,#FFF:#FQF4#FOF.#FJF(#F%
+FF#FDF&#FJF,#FOF2#FQF8#FDF(#FFFA#FOF4#FDF*#F<FO#FDF,#FOF6#FAF(#FFFD#FD
+F.#FQF>#F>F&#FOF8#FJF4#FDF0#FAF,#F>F(#F%F<#F:F(#F>F,#FAF0#FDF4#FJF8#F8
+F&#FOF>#F>F.#FQFD#F8F(#FDF6#F:F,#FFFO#F8F*#FAF4#FOFA#F6F(#FDF8#F>F2#F8
+F,#F4F&#F<FF#F4F(#F8F.#F>F4#FDF:#F6F,#FOFD#F4F*#FAF8#F8F0#F2F(#FFFQ#F4
+F,#F:F4#FDF>#F8F2#F0F(#FQFO#F4F.#F>F8#F2F,#FOFJ#F.F(#F8F4#F,F&#FJFD#F4
+F0#FDFA#F0F,#FAF>#F,F(#F>F:#F:F8#F8F6#F6F4#F4F2#F2F0#F0F.#F.F,#F,F*#F*
+F(#F(F&F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "# seq(Farey(20
+)[k], k=1..129); this is WASTEFUL. Explain why." }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 33 "seq(L20[k+1] - L20[k], k=1..128);" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6\\s#\"\"\"\"#?#F$\"$!Q#F$\"$U$#F$\"$1$#F$\"$s##F
+$\"$S##F$\"$5##F$\"$#=#F$\"$c\"#F$\"$K\"#F$\"$5\"#F$\"$!>#F$\"$r\"#F$
+\"$`\"#F$\"$O\"#F$\"$?\"#F$\"$0\"#F$\"$S\"#F$\"$g##F$\"$Z##F$\"$9\"#F$
+\"$-\"#F$\"$(=#F$\"$w\"#F$\"#!)#F$\"#&*#F$\"$m##F$\"$E\"#F$\"$<\"#F$\"
+$@##F$\"#o#F$\"#w#F$\"$&G#F$\"$l\"#F$\"$)>FZ#F$\"$>\"#F$\"$q\"#F$\"$I
+\"#F$\"$3##F$\"$/$#F$\"#d#F$\"#g#F$\"$S$#F$\"$Q##F$\"$a\"#F$\"$4##F$\"
+$_\"#F$\"$/\"#F$\"$M##F$\"#!*#F$\"#&)#F$\"$/##F$\"$G##F$\"$L\"#F$\"$7
+\"#F$\"$W\"#F$\"$!=#F$\"$?##F$\"$V\"#F$\"$&>#F$\"$b##F$\"$B$#F$\"#QFjr
+FhrFfrFdrFbrF`rF^rF\\rFjqFhqFfqFdqFbqF`qF^qF\\qFjpFhpFfpFdpFbpF`pF^pF
+\\pFjoFhoFfoFdoFZFboF`oF^oF\\oFjnFhnFfnFZFXFVFTFRFPFNFLFJFHFFFDFBF@F>F
+<F:F8F6F4F2F0F.F,F*F(F&F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}}{MARK "12 1 0" 76 }{VIEWOPTS 1 1 0 1 1 1803 }

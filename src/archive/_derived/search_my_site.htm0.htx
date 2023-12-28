@@ -1,0 +1,83 @@
+<html>
+
+<head>
+<base href="http://services.spd.dcu.ie/johnbcos/search_my_site.htm">
+
+<title>Search my site</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Theme" content="nature 100, default">
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+
+<body bgcolor="#FFFFCC" text="#333399" link="#990033" vlink="#006633" alink="#FF6600"><a href="http://www.johnbcosgrave.com">	&lt; Back to johnbcosgrave.com</a><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p align="center"><font size="6"><strong><img src="_derived/search_my_site.htm_cmp_nature100_bnr.gif" width="600" height="60" border="0" alt="Search my site"></strong></font><br>
+<a href="./archive/index.htm"><img src="_derived/home_cmp_nature100_gbtn.gif" width="95" height="20" border="0" alt="Home" align="middle"></a></p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+      <p>&nbsp;</p>
+
+      <p>To search for any item on my site, please type an appropriate word in the space below
+and click on the Start Search button. Some searches will bring up perhaps only
+one or two references; some (e.g. Fermat) will bring up almost 100 references; while others (e.g. Maple) will bring up
+more than 100 references.</p>
+
+      <p align="center">&nbsp;</p>
+      <!--webbot bot="Search" S-Index="All" S-Scope="All" S-Fields="documentk,weight,"
+S-FieldsEx="size,rank," S-Text="Search for:" I-Size="20" S-Submit="Start Search"
+S-Clear="Reset" S-CiMaxRecordsPerPage="50" S-CiMaxRecordsInResultSet="200" TAG="BODY"
+b-useindexserver="1" startspan U-DOC-URL="search_my_site.htm" --><form action="_vti_script/search_my_site.htm0.idq" method="POST"><p><b>Search for: </b><input type="text" name="UserRestriction" size="20" value="<%if UserRestriction NE VT_EMPTY%><%if UserRestriction NE "UserRestriction"%><%UserRestriction%><%endif%><%endif%>"></p><p><input type="submit" value="Start Search"><input type="reset" value="Reset"></p></form><!--webbot bot="Search" endspan i-checksum="35925" -->
+      <!--mstheme--></font><table BORDER="0">
+        <tr>
+          <td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><%if CiContainsFirstRecord EQ 0%>
+            <form ACTION="_vti_script/search_my_site.htm0.idq" METHOD="POST">
+              <input TYPE="HIDDEN" NAME="CiBookmark" VALUE="<%CiBookmark%>"><input TYPE="HIDDEN" NAME="CiBookmarkSkipCount" VALUE="-<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="CiMaxRecordsPerPage" VALUE="<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="UserRestriction" VALUE="<%UserRestriction%>"><input TYPE="HIDDEN" NAME="CiScope" VALUE="<%CiScope%>"><%if CiMaxRecordsPerPage EQ 1%><input TYPE="SUBMIT" VALUE="Previous hit"><%else%><input TYPE="SUBMIT" VALUE="Previous <%CiMaxRecordsPerPage%> Hits"><%endif%>
+            </form>
+            <%endif%><!--mstheme--></font></td>
+          <td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><%if CiContainsLastRecord EQ 0%>
+            <form ACTION="_vti_script/search_my_site.htm0.idq" METHOD="POST">
+              <input TYPE="HIDDEN" NAME="CiBookmark" VALUE="<%CiBookmark%>"><input TYPE="HIDDEN" NAME="CiBookmarkSkipCount" VALUE="<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="CiMaxRecordsPerPage" VALUE="<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="UserRestriction" VALUE="<%UserRestriction%>"><input TYPE="HIDDEN" NAME="CiScope" VALUE="<%CiScope%>"><%if CiRecordsNextPage EQ 1%><input TYPE="SUBMIT" VALUE="Next hit"><%else%><input TYPE="SUBMIT" VALUE="Next <%CiRecordsNextPage%> Hits"><%endif%>
+            </form>
+            <%endif%><!--mstheme--></font></td>
+        </tr>
+      </table><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+      <%if CiMatchedRecordCount EQ 0%>
+      <p><b>No documents found. Please try again.</b></p>
+      <%else%>
+      <p><b>Number of documents found: <%CiMatchedRecordCount%>. Click on a
+      document to view it, or submit another search.</b></p>
+      <!--mstheme--></font><table BORDER>
+        <caption><b>Search Results</b></caption>
+        <tr>
+          <td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><b>Document</b><!--mstheme--></font></td>
+          <td align="right"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><b>Size</b><!--mstheme--></font></td>
+          <td align="right"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><b>Score</b><!--mstheme--></font></td>
+        </tr>
+        <%endif%><%begindetail%>
+        <tr>
+          <td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><a href="<%EscapeURL vpath%>"><%if DocTitle ISEMPTY%><%Filename%><%else%><%DocTitle%><%endif%></a><!--mstheme--></font></td>
+          <td align="right"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><%if size NE ""%><%size%><%else%>&nbsp<%endif%><!--mstheme--></font></td>
+          <td align="right"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><%if rank NE ""%><%rank%><%else%>&nbsp<%endif%><!--mstheme--></font></td>
+        </tr>
+        <%enddetail%><%if CiMatchedRecordCount GT 0%>
+      </table><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+      <%endif%>&nbsp;
+      <!--msthemeseparator--><p align="center"><img src="_themes/nature/narule.gif" width="600" height="10"></p>
+&nbsp;<!--mstheme--></font><!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<!--msthemeseparator--><p align="center"><img src="_themes/nature/narule.gif" width="600" height="10"></p>
+
+<p>This page was last updated 28 July 2003 14:01:40 -0000</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

@@ -1,0 +1,478 @@
+<html>
+<head>
+<title>Egyptian.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=4>One begins to wonder if...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Playing with more examples will make one wonder if one always gets a </font></b>
+<i><b><font color=#000080>final representation</font></b></i>
+<b><font color=#000080>, and one comes to realise that one particular approach (the '</font></b>
+<i><b><font color=#000080>greedy</font></b></i>
+<b><font color=#000080>' approach, first noted evidently by Fibonacci, 1202AD) stands out: something </font></b>
+<i><b><font color=#000080>rather special </font></b></i>
+<b><font color=#000080>and </font></b>
+<i><b><font color=#000080>fruitful</font></b></i>
+<b><font color=#000080> happens if one systematically determines the '?' substitutes by always chosing the '</font></b>
+<i><b><font color=#000080>first possible unit fraction</font></b></i>
+<b><font color=#000080>' (in the sense of what we did above). Here is the important, simple result:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem</font></u></b>
+<b><font color=#000080> (the first step of the </font></b>
+<i><b><font color=#000080>greedy algorithm</font></b></i>
+<b><font color=#000080>). Let </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> be natural numbers with </font></b>
+<img src="images/Egyptian59.gif" width=52 height=32 alt="a &lt; b" align=middle>
+<b><font color=#000080> (that's just to ensure that </font></b>
+<img src="images/Egyptian60.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080> lies between 0 and 1). If </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> divides </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080>, then (trivially) </font></b>
+<img src="images/Egyptian61.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080> is already a unit fraction, otherwise<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>let </font></b>
+<img src="images/Egyptian62.gif" width=29 height=58 alt="1/n" align=middle>
+<b><font color=#000080> be the </font></b>
+<i><b><font color=#000080>nearest</font></b></i>
+<b><font color=#000080> unit fraction to </font></b>
+<img src="images/Egyptian63.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080>  </font></b>
+<i><b><font color=#000080>from below</font></b></i>
+<b><font color=#000080> <br>
+(meaning: </font></b>
+<img src="images/Egyptian64.gif" width=61 height=58 alt="1/n &lt; a/b" align=middle>
+<b><font color=#000080>, while </font></b>
+<img src="images/Egyptian65.gif" width=89 height=58 alt="a/b &lt; 1/(n-1)" align=middle>
+<b><font color=#000080>, for some natural number </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, with </font></b>
+<img src="images/Egyptian66.gif" width=53 height=32 alt="2 &lt;= n" align=middle>
+<b><font color=#000080>); </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>then the numerator of the fraction </font></b>
+<img src="images/Egyptian67.gif" width=61 height=58 alt="a/b-1/n" align=middle>
+<b><font color=#000080> ( = </font></b>
+<img src="images/Egyptian68.gif" width=69 height=58 alt="(a*n-b)/(b*n)" align=middle>
+<b><font color=#000080>, which is, of course, positive) <br>
+is </font></b>
+<i><b><font color=#000080>smaller</font></b></i>
+<b><font color=#000080> than the numerator of the fraction </font></b>
+<img src="images/Egyptian69.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080> (in other words, </font></b>
+<i><b><font color=#000080>a &gt; </font></b></i>
+<img src="images/Egyptian70.gif" width=65 height=32 alt="a*n-b" align=middle>
+<b><font color=#000080> &gt; 0)<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Proof. (It's simply a matter of dividing </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> by </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>choosing</font></b></i>
+<b><font color=#000080> the remainder to be </font></b>
+<i><b><font color=#000080>positive</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>less</font></b></i>
+<b><font color=#000080> than </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>.) <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<i><b><font color=#000080>b </font></b></i>
+<b><font color=#000080>= </font></b>
+<i><b><font color=#000080>aq</font></b></i>
+<b><font color=#000080> + </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>, with quotient </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> and remainder </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>, chosen so that  0 &lt; </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> &lt; </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>. (The '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' of the theorem is simply the 'ceiling' (in Maple 'ceil') of </font></b>
+<img src="images/Egyptian71.gif" width=28 height=58 alt="b/a" align=middle>
+<b><font color=#000080>, which, since </font></b>
+<img src="images/Egyptian72.gif" width=88 height=58 alt="b/a = q+r/a" align=middle>
+<b><font color=#000080> , will be </font></b>
+<img src="images/Egyptian73.gif" width=52 height=32 alt="q+1" align=middle>
+<b><font color=#000080>.) Then<br>
+</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian74.gif" width=130 height=58 alt="a/b-1/n = (an-b)/bn" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian75.gif" width=110 height=58 alt="(a*(q+1)-b)/bn" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>and the numerator </font></b>
+<img src="images/Egyptian76.gif" width=175 height=32 alt="a*n-b = a*(q+1)-b" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian77.gif" width=214 height=32 alt="aq+a-b = aq+a-aq-r" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian78.gif" width=78 height=32 alt="a-r &lt; a" align=middle>
+<b><font color=#000080>, the numerator of </font></b>
+<img src="images/Egyptian79.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080>. [end of proof]<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Note these 'ceil' commands:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ceil(14/3);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian80.gif" width=24 height=20 alt="5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ceil(1/(3/14));</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian81.gif" width=24 height=20 alt="5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ceil(1/(1/14));</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian82.gif" width=32 height=20 alt="14">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>We want a nice working procedure, and it is easy to make one if one just works up to it from an actual example.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If one started with (e.g.) </font></b>
+<img src="images/Egyptian83.gif" width=36 height=58 alt="3/15" align=middle>
+<b><font color=#000080>, it would already be a unit fraction (</font></b>
+<img src="images/Egyptian84.gif" width=28 height=58 alt="1/5" align=middle>
+<b><font color=#000080>), and so we want to cover that kind of thing... , but if we started with (e.g.) </font></b>
+<img src="images/Egyptian85.gif" width=52 height=58 alt="171/3391" align=middle>
+<b><font color=#000080> (which lies between </font></b>
+<img src="images/Egyptian86.gif" width=36 height=58 alt="1/20" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Egyptian87.gif" width=36 height=58 alt="1/19" align=middle>
+<b><font color=#000080>) then we set:</font></b>
+</p>
+<p align=center>
+</p>
+<p align=center>
+<img src="images/Egyptian88.gif" width=92 height=58 alt="171/3391 = 1/20" align=middle>
+<b><font color=#000080> + (a bit extra) = </font></b>
+<img src="images/Egyptian89.gif" width=37 height=58 alt="1/n[1]" align=middle>
+<b><font color=#000080> + </font></b>
+<img src="images/Egyptian90.gif" width=30 height=32 alt="r[1]" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>and define </font></b>
+<img src="images/Egyptian91.gif" width=30 height=32 alt="r[0]" align=middle>
+<b><font color=#000080> (which we will use in place of </font></b>
+<img src="images/Egyptian92.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080> ) and </font></b>
+<img src="images/Egyptian93.gif" width=33 height=32 alt="n[1]" align=middle>
+<b><font color=#000080> by setting:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[0] := 171/3391;<br>
+n[1] := ceil(1/r[0]);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian94.gif" width=84 height=45 alt="r[0] := 171/3391">
+</p>
+<p align=center>
+<img src="images/Egyptian95.gif" width=71 height=27 alt="n[1] := 20">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>We now define </font></b>
+<img src="images/Egyptian96.gif" width=30 height=32 alt="r[1]" align=middle>
+<b><font color=#000080>, and from it, </font></b>
+<img src="images/Egyptian97.gif" width=33 height=32 alt="n[2]" align=middle>
+<b><font color=#000080>, the denominator of the second unit fraction:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[1]:= r[0] - 1/n[1];<br>
+n[2]:= ceil(1/r[1]);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian98.gif" width=92 height=45 alt="r[1] := 29/67820">
+</p>
+<p align=center>
+<img src="images/Egyptian99.gif" width=87 height=27 alt="n[2] := 2339">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Thus far we then have </font></b>
+<img src="images/Egyptian100.gif" width=182 height=58 alt="171/3391 = 1/20+1/2339+r[2]" align=middle>
+<b><font color=#000080>, and let's (unthinkingly) continue in the obvious manner:<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>define define </font></b>
+<img src="images/Egyptian101.gif" width=30 height=32 alt="r[2]" align=middle>
+<b><font color=#000080>, and from it, </font></b>
+<img src="images/Egyptian102.gif" width=33 height=32 alt="n[3]" align=middle>
+<b><font color=#000080>, the denominator of the third unit fraction</font></b>
+</li>
+<li>
+<b><font color=#000080>define </font></b>
+<img src="images/Egyptian103.gif" width=30 height=32 alt="r[3]" align=middle>
+<b><font color=#000080>, and from it, </font></b>
+<img src="images/Egyptian104.gif" width=33 height=32 alt="n[4]" align=middle>
+<b><font color=#000080>, the denominator of the fourth unit fraction<br>
+... until we find we've come to the end</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[2]:= r[1] - 1/n[2];<br>
+n[3]:= ceil(1/r[2]);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian105.gif" width=124 height=45 alt="r[2] := 11/158630980">
+</p>
+<p align=center>
+<img src="images/Egyptian106.gif" width=119 height=27 alt="n[3] := 14420999">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[3]:= r[2] - 1/n[3];<br>
+n[4]:= ceil(1/r[3]);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian107.gif" width=180 height=45 alt="r[3] := 9/2287617203949020">
+</p>
+<p align=center>
+<img src="images/Egyptian108.gif" width=175 height=27 alt="n[4] := 254179689327669">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[4]:= r[3] - 1/n[4];<br>
+n[5]:= ceil(1/r[4]);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian109.gif" width=292 height=45 alt="r[4] := 1/581465830200392717055551434380">
+</p>
+<p align=center>
+<img src="images/Egyptian110.gif" width=295 height=27 alt="n[5] := 581465830200392717055551434380">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[5]:= r[4] - 1/n[5];<br>
+n[6]:= ceil(1/r[5]);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian111.gif" width=60 height=27 alt="r[5] := 0">
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, division by zero<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Thus, the above led to </font></b>
+<img src="images/Egyptian112.gif" width=30 height=32 alt="r[0]" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian113.gif" width=291 height=58 alt="171/3391 = 1/n[1]+1/n[2]+1/n[3]+1/n[4]+1/n[5]+r[5]" align=middle>
+<b><font color=#000080> (with </font></b>
+<img src="images/Egyptian114.gif" width=58 height=32 alt="r[5] = 0" align=middle>
+<b><font color=#000080>, and )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That, clearly, is the point at which we STOP, since </font></b>
+<img src="images/Egyptian115.gif" width=30 height=32 alt="r[4]" align=middle>
+<b><font color=#000080> is a </font></b>
+<i><b><font color=#000080>unit</font></b></i>
+<b><font color=#000080> fraction, and we see that we have </font></b>
+<img src="images/Egyptian116.gif" width=52 height=58 alt="171/3391" align=middle>
+<b><font color=#000080> is: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>1/n[1] + 1/n[2] + 1/n[3] + 1/n[4] + 1/n[5];</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian117.gif" width=48 height=45 alt="171/3391">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>We now want Maple to </font></b>
+<i><b><font color=#000080>recognise</font></b></i>
+<b><font color=#000080> in a general setting that we have reached the stopping point... ; that's where the use of 'while' will come to our rescue. You've already seen that in other circumstances (gcd, binary, etc). It's clear  that the </font></b>
+<b><font color=#000080 size=4>appropriate program lines</font></b>
+<b><font color=#000080> are these (with 'k' starting at 1):<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>            r[k] := r[k-1] - 1/n[k];<br>
+n[k+1] := ceil(1/r[k]);</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The above single case </font></b>
+<i><b><font color=#000080>may</font></b></i>
+<b><font color=#000080> be tidied up as follows (first note the use of Maple's (type, integer) command):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>type(8.75, integer);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian118.gif" width=47 height=20 alt="false">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>type(27/4, integer);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian119.gif" width=47 height=20 alt="false">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>type(28/4, integer);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian120.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[0] := 171/3391; <br>
+n[1] := ceil(1/r[0]);<br>
+for k while type(1/r[k-1], integer) = false do<br>
+r[k] := r[k-1] - 1/n[k];<br>
+n[k+1] := ceil(1/r[k]);<br>
+od;<br>
+seq(1/n[m], m=1..k); </font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian121.gif" width=84 height=45 alt="r[0] := 171/3391">
+</p>
+<p align=center>
+<img src="images/Egyptian122.gif" width=71 height=27 alt="n[1] := 20">
+</p>
+<p align=center>
+<img src="images/Egyptian123.gif" width=92 height=45 alt="r[1] := 29/67820">
+</p>
+<p align=center>
+<img src="images/Egyptian124.gif" width=87 height=27 alt="n[2] := 2339">
+</p>
+<p align=center>
+<img src="images/Egyptian125.gif" width=124 height=45 alt="r[2] := 11/158630980">
+</p>
+<p align=center>
+<img src="images/Egyptian126.gif" width=119 height=27 alt="n[3] := 14420999">
+</p>
+<p align=center>
+<img src="images/Egyptian127.gif" width=180 height=45 alt="r[3] := 9/2287617203949020">
+</p>
+<p align=center>
+<img src="images/Egyptian128.gif" width=175 height=27 alt="n[4] := 254179689327669">
+</p>
+<p align=center>
+<img src="images/Egyptian129.gif" width=292 height=45 alt="r[4] := 1/581465830200392717055551434380">
+</p>
+<p align=center>
+<img src="images/Egyptian130.gif" width=295 height=27 alt="n[5] := 581465830200392717055551434380">
+</p>
+<p align=center>
+<img src="images/Egyptian131.gif" width=520 height=45 alt="1/20, 1/2339, 1/14420999, 1/254179689327669, 1/5814...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>If we suppress the semi-colons we will just see the unit fractions:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r[0] := 171/3391: <br>
+n[1] := ceil(1/r[0]):<br>
+for k while type(1/r[k-1], integer) = false do<br>
+r[k]:= r[k-1] - 1/n[k]:<br>
+n[k+1]:= ceil(1/r[k]):<br>
+od: <br>
+seq(1/n[m], m=1..k); </font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian132.gif" width=520 height=45 alt="1/20, 1/2339, 1/14420999, 1/254179689327669, 1/5814...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:06 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

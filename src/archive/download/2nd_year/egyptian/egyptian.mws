@@ -1,0 +1,320 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 
+1 0 1 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courie
+r" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 
+-1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 
+}{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Arial Rounded MT Bold
+" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 
+}{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# egyptian.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 18 "Egyptian Fractions" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 257 12 "Introduction" }
+{TEXT -1 44 ".  Recall that to express a rational number " }{TEXT 259 
+1 "R" }{TEXT -1 4 " in " }{TEXT 260 13 "egyptian form" }{TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 16 "- or to express " }{TEXT 264 1 "R" }
+{TEXT -1 13 " as a sum of " }{TEXT 265 9 "egyptian " }{TEXT -1 29 "fra
+ctions - means to express " }{TEXT 261 1 "R" }{TEXT -1 6 " as a " }}
+{PARA 0 "" 0 "" {TEXT -1 33 "sum of rational numbers all with " }
+{TEXT 262 4 "unit" }{TEXT -1 15 " numerator and " }{TEXT 263 9 "distin
+ct " }{TEXT -1 13 "denominators." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "So, " }{TEXT 266 1 "e" }{TEXT -1 1 "." }
+{TEXT 267 1 "g" }{TEXT -1 2 ".:" }}{PARA 0 "" 0 "" {TEXT -1 45 "      \+
+                       5/6 = 1/2 + 1/3," }}{PARA 0 "" 0 "" {TEXT -1 
+96 "                           29/6 = 4/1 + 1/2 + 1/3,                \+
+                              " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 19 "                   " }}{PARA 0 "" 0 "" 
+{TEXT -1 60 "This Maple worksheet is about expressing a rational numbe
+r '" }{TEXT 268 1 "R" }{TEXT -1 5 "' as " }{TEXT 256 0 "" }{TEXT -1 6 
+"a sum " }}{PARA 0 "" 0 "" {TEXT -1 72 "of 'egyptian fractions'.  The \+
+procedure that I write uses the so-called " }{TEXT 258 7 "greedy " }}
+{PARA 0 "" 0 "" {TEXT 269 9 "algorithm" }{TEXT -1 32 " (known to Fibon
+acci?), and the " }{TEXT 270 4 "idea" }{TEXT -1 30 " behind this algor
+ithm can be " }}{PARA 0 "" 0 "" {TEXT -1 42 "illustrated by the follow
+ing calculations:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "24/793
+ - 1/830;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"&F\">\"'!>e'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "24/793 - 1/831;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6##\"&^\">\"'$)*e'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "24/793 - 1/832;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##
+\"%v9\"&_2&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "seq(24/793 - 1/k, k=30..40);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6-#!#t\"&!zB#!#\\\"&$eC#!#D\"&w`##!\"\"
+\"&ph##\"#B\"&ip##\"#Z\"&bx##\"#r\"&[&G#\"#&*\"&T$H#\"$>\"\"&M,$#\"#6
+\"%zB#\"$n\"\"&?<$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "r[1] := 17/39;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>&%\"rG6#\"\"\"#\"#<\"#R" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "n[1] := ceil(1/r[1]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"nG6#\"\"\"\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "1/n[1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"\"
+$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "r[2]:=r[1] - 1/n[1];" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"rG6#\"\"##\"\"%\"#R" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "n[2]:=ceil(1/r[2]);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%\"nG6#\"\"#\"#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "1/n[2];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"#5
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "r[3]:=r[2] - 1/n[2];" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"rG6#\"\"$#\"\"\"\"$!R" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "1/n[1] + 1/n[2] + r[3];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#<\"#R" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "This is a f
+irst attempt at writing some working programme:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 238 "egypt1 := proc(R)
+\nlocal r, n, m, k;\nr[1]:=R;\nn[1]:=ceil(1/r[1]);\nif type(1/R, integ
+er) \nthen print(R)\nelse for k from 2 while not type(1/r[k-1], intege
+r) do\nr[k]:=r[k-1] - 1/n[k-1];\nn[k]:=ceil(1/r[k]);\nod;\nseq(1/n[m],
+ m=1..k-1); \nfi;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "egypt1(17/39);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%#\"\"\"\"\"$#F$\"#5#F$\"$!R" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 32 "I want to have a text line ... ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "The following works, but \+
+it is UNSATISFACTORY having those square " }}{PARA 0 "" 0 "" {TEXT -1 
+66 "brackets in the output (I WANT to have terms separated by commas).
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+416 "egypt2 := proc(R :: rational)\nlocal r, n, m, k;\nif R<=0 or R>=1
+ then \nlprint(`Error,`, `argument should be between 0 and 1`) \nelse
+\nr[1]:=R:\nn[1]:=ceil(1/r[1]):\nif type(1/R, integer) \nthen lprint(R
+, `is already in egyptian form`)\nelse \nfor k from 2 while not  type(
+1/r[k-1], integer) do\nr[k]:=r[k-1] - 1/n[k-1]:\nn[k]:=ceil(1/r[k]):\n
+od;\nlprint(R, `is the sum of`, seq(1/n[m], m=1..k-2), `and`,1/(n[k-1]
+));\nfi;\nfi;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "egypt2(1/31);" }}{PARA 6 "" 
+1 "" {TEXT -1 34 "1/31   is already in egyptian form" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "egypt2(2/3);" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "2/3   is the sum of   1/2   and   1/6" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "egypt2(17/39);" }}{PARA 6 "" 1 "" {TEXT -1 48 "17/3
+9   is the sum of   1/3   1/10   and   1/390" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 12 "egypt2(4/3);" }}{PARA 6 "" 1 "" {TEXT -1 43 "Err
+or,   argument should be between 0 and 1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "egypt2(12323/135797531);" }}{PARA 6 "" 1 "" {TEXT -1 
+208 "12323/135797531   is the sum of   1/11020   1/775784755   1/14980
+04116860861617   1/23188168786031596126656439181918970170   and   1/80
+6536757474235039647681534225072053628545286783150758353385012388105773
+180" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 50 "I want commas AND a text line ... .  This does it:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+465 "egypt3 := proc(R :: rational)\nlocal r, n, m, k;\nif R<=0 or R>=1
+ then \nlprint(`Error,`, `argument should be between 0 and 1`) \nelse
+\nr[1]:=R:\nn[1]:=ceil(1/r[1]):\nif type(1/R, integer) \nthen lprint(R
+, `is already in egyptian form`)\nelse \nfor k from 2 while not type(1
+/r[k-1], integer) do\nr[k]:=r[k-1] - 1/n[k-1]:\nn[k]:=ceil(1/r[k]):\no
+d;\nlprint(R, `is the sum of the following egyptian fractions:`);\npri
+nt(seq(1/n[m], m=1..k-2));\nlprint(`and`, 1/(n[k-1]));\nfi;\nfi;\nend:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "egypt3(17/39);" }}{PARA 6 "" 1 "" {TEXT -1 55 
+"17/39   is the sum of the following egyptian fractions:" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$#\"\"\"\"\"$#F$\"#5" }}{PARA 6 "" 1 "" {TEXT -1 
+11 "and   1/390" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "egypt3(1
+/31 + 1/41);" }}{PARA 6 "" 1 "" {TEXT -1 57 "72/1271   is the sum of t
+he following egyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%#
+\"\"\"\"#=#F$\"$;*#F$\"'dD&*" }}{PARA 6 "" 1 "" {TEXT -1 21 "and   1/3
+327003454356" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "seq(egypt3(
+1/n + 1/(n+1)), n=12..14);" }}{PARA 6 "" 1 "" {TEXT -1 56 "25/156   is
+ the sum of the following egyptian fractions:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%#\"\"\"\"\"(#F$\"#e#F$\"%Mj" }}{PARA 6 "" 1 "" {TEXT 
+-1 17 "and   1/100292556" }}{PARA 6 "" 1 "" {TEXT -1 56 "27/182   is t
+he sum of the following egyptian fractions:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"\"\"\"(" }}{PARA 6 "" 1 "" {TEXT -1 11 "and   1/18
+2" }}{PARA 6 "" 1 "" {TEXT -1 56 "29/210   is the sum of the following
+ egyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$#\"\"\"\"\")#F
+$\"#x" }}{PARA 6 "" 1 "" {TEXT -1 12 "and   1/9240" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 41 "seq(egypt3(1/n^2 + 1/(n+1)^2), n=10..14);" 
+}}{PARA 6 "" 1 "" {TEXT -1 59 "221/12100   is the sum of the following
+ egyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"#b" }
+}{PARA 6 "" 1 "" {TEXT -1 13 "and   1/12100" }}{PARA 6 "" 1 "" {TEXT 
+-1 59 "265/17424   is the sum of the following egyptian fractions:" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"#m" }}{PARA 6 "" 1 "" {TEXT 
+-1 13 "and   1/17424" }}{PARA 6 "" 1 "" {TEXT -1 59 "313/24336   is th
+e sum of the following egyptian fractions:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"\"\"#y" }}{PARA 6 "" 1 "" {TEXT -1 13 "and   1/243
+36" }}{PARA 6 "" 1 "" {TEXT -1 59 "365/33124   is the sum of the follo
+wing egyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"#
+\"*" }}{PARA 6 "" 1 "" {TEXT -1 13 "and   1/33124" }}{PARA 6 "" 1 "" 
+{TEXT -1 59 "421/44100   is the sum of the following egyptian fraction
+s:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"$0\"" }}{PARA 6 "" 1 "
+" {TEXT -1 13 "and   1/44100" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "seq(egypt3(1/n^2 +
+ 1/(n+1)^2 + 1/(n+2)^2), n=18..20);" }}{PARA 6 "" 1 "" {TEXT -1 64 "97
+741/11696400   is the sum of the following egyptian fractions:" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%#\"\"\"\"$?\"#F$\"&hJ%#F$\"+&)RS&=#" }
+}{PARA 6 "" 1 "" {TEXT -1 27 "and   1/8172250541800124400" }}{PARA 6 "
+" 1 "" {TEXT -1 65 "480001/63680400   is the sum of the following egyp
+tian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'#\"\"\"\"$L\"#F$\"&
+BI&#F$\",A:PT^\"#F$\"6\"QM*fp\\R2=[##F$\"K\\d:`:v?7mdpXv^Qn%[$Qv9" }}
+{PARA 6 "" 1 "" {TEXT -1 92 "and   1/133715037649256262103105020319860
+728830194039667895609505447629241581562115307600400" }}{PARA 6 "" 1 "
+" {TEXT -1 65 "145861/21344400   is the sum of the following egyptian \+
+fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%#\"\"\"\"$Z\"#F$\"&#HK#F
+$\"+*)4BE6" }}{PARA 6 "" 1 "" {TEXT -1 27 "and   1/1658672005791200400
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 52 "seq(egypt3(1/n^4 + 1/(n+1)^4 + 1/(n+2)^4), n=8
+..10);" }}{PARA 6 "" 1 "" {TEXT -1 69 "8340241/16796160000   is the su
+m of the following egyptian fractions:" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6(#\"\"\"\"%9?#F$\")Ym;J#F$\"1%yXAyV*e5#F$\"@^$QIg%[HBunTS4@E##F$
+\"inzH9+q`S8DWzcSm:&\\A=fpksfQo.Q!4c5#F$\"fr&Qv$y;%)pE&)[!Q4o@J0P$)o:&
+[y+x\"fdOt\")Rc0QC?%)p'e&*Qkw%R[))>w'RrI,'yn%oNB.%" }}{PARA 6 "" 1 "" 
+{TEXT -1 254 "and   1/422753007922088143147566326882974170960781109417
+7627619166727689815588314008090007802679996622529793800313893821296250
+7317756739912387960986785934563063092256376617586069093873656452695650
+1906156107374725438204338062641539780983608404064053760000" }}{PARA 6 
+"" 1 "" {TEXT -1 72 "308079601/960596010000   is the sum of the follow
+ing egyptian fractions:" }}{PARA 12 "" 1 "" {XPPMATH 20 "6*#\"\"\"\"%>
+J#F$\"(*)p%)*#F$\"0NX*\\nr>6#F$\">1*[\\Z=jvX0gjkGY#F$\"en1K&4[))*yYIe7
+(Q;IjW_R-1/AtC1;u))*#F$\"`riAWe2>RZMoQ*4#\\'ows`OG]`_B82<&*eW&\\'=>$Q(
+y:Gfe\"\\wydCe9vMlGedt$o6#F$\"dyG-/Oq#Q!))QC]!z%oTP+vB@;#\\'=O[&y8\\=M
+?X#3TU(GyCVlU(4;xLS%G(\\R2FrmxS:i8s&\\-D%H>n0ZQ'H+<fe<#R/9`&)pffh$Gp$o
+H/$R6z!fa.eh&yoI,am(=RR]L&#F$\"]hl`5V.p6p'p0aMU'px%=WU*Qdp9d\"4sK8*eSa
+\")3cM,woI9T>ZKG^)o?csyu$e:?oRr=\\*zoaePgRqcg1I*yHA<([uuq$pv\"[]kS))>D
+&Gx@Az[QXG0(**f+dpZ-Jw2)y\"zNn/p)y(ybHBG%*f7U$f)H\\b)4gI%o$Gj:m^]A*\\R
+&y8mvgp'Gy`i'*y48!QSC!fY8WOiA4[M`E)p#o:qPlxlB\\&G.1(>\\<bS\"4R23wh9!*e
+0d:lR'4b=1l37OQa/0]y$" }}{PARA 6 "" 1 "" {TEXT -1 940 "and   1/3888557
+1526554737879585261004424643594421862901997355700934405701979734281272
+3797411397681497099659930173195463929735242985210071090136785480246048
+4671959524671376149274692200103022377742896706242904291077577362817405
+1335658335726366619434689715567203998434880243118651302662940425512099
+8864722410706906441989829515728465354622923665342974156414430795199266
+9662432407682187342548303751103910344371727391314358241660358271393411
+5835808405271397114119051908147197934326771588455629976812374410077428
+5651977418486314116032684670776685922380744458933088044613086781263618
+9251516117446806675538999455049330851204011489258413319860591807948705
+7202513270238988900330390378857388745921368621323448961732338290259585
+5492263572421379679591038998173180024134015195265204309611273366093492
+5054091807220555390386793086278986636812974041733326507835440442566511
+0834594230935275053953608640502974035457644010671710625582627429527148
+475641235010000" }}{PARA 6 "" 1 "" {TEXT -1 71 "41085361/189747360000 \+
+  is the sum of the following egyptian fractions:" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6'#\"\"\"\"%>Y#F$\")#=5Q$#F$\"2G'\\_5A2QN#F$\"D4y&G*3')QO
+Eb%>AJwuw=#F$\"aovG$)*pc\"z+b?CSaB%)=$\\'pQVi`r'**)=`m%*R'\\w&**" }}
+{PARA 6 "" 1 "" {TEXT -1 149 "and   1/19592985783141311070103993847788
+6685208450849251935438456112768700814918282375783176443153107145634072
+801007539647755985018331301995891360000" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "egypt3(
+65/131);" }}{PARA 6 "" 1 "" {TEXT -1 56 "65/131   is the sum of the fo
+llowing egyptian fractions:" }}{PARA 12 "" 1 "" {XPPMATH 20 "6*#\"\"\"
+\"\"$#F$\"\"(#F$\"#^#F$\"%*f##F$\"(jJ5)#F$\"/\\D:bl2#)#F$\"=`16$*4*\\Z
+7w?\"3#)*)#F$\"Zh*=+msN8i'o(HVD,)GG8$flx@IUn;57" }}{PARA 6 "" 1 "" 
+{TEXT -1 121 "and   1/292900708834853052571707279163461315494334325260
+41820570286255057924204445456330131039739635641147751253099020081" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 37 "seq(egypt3((10^n - 1)/10^n), n=1..4);" }}{PARA 6 "
+" 1 "" {TEXT -1 54 "9/10   is the sum of the following egyptian fracti
+ons:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$#\"\"\"\"\"##F$\"\"$" }}{PARA 
+6 "" 1 "" {TEXT -1 10 "and   1/15" }}{PARA 6 "" 1 "" {TEXT -1 56 "99/1
+00   is the sum of the following egyptian fractions:" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6'#\"\"\"\"\"##F$\"\"$#F$\"\"(#F$\"#t#F$\"%=!*" }}
+{PARA 6 "" 1 "" {TEXT -1 17 "and   1/230409900" }}{PARA 6 "" 1 "" 
+{TEXT -1 58 "999/1000   is the sum of the following egyptian fractions
+:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'#\"\"\"\"\"##F$\"\"$#F$\"\"(#F$\"
+#W#F$\"&e@\"" }}{PARA 6 "" 1 "" {TEXT -1 18 "and   1/1404249000" }}
+{PARA 6 "" 1 "" {TEXT -1 60 "9999/10000   is the sum of the following \+
+egyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6(#\"\"\"\"\"##F$
+\"\"$#F$\"\"(#F$\"#V#F$\"%0A#F$\"(O^7&" }}{PARA 6 "" 1 "" {TEXT -1 22 
+"and   1/30371235615000" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "seq(egypt3(a/11), a=1..
+10);" }}{PARA 6 "" 1 "" {TEXT -1 34 "1/11   is already in egyptian for
+m" }}{PARA 6 "" 1 "" {TEXT -1 54 "2/11   is the sum of the following e
+gyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"\"'" }}
+{PARA 6 "" 1 "" {TEXT -1 10 "and   1/66" }}{PARA 6 "" 1 "" {TEXT -1 
+54 "3/11   is the sum of the following egyptian fractions:" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6##\"\"\"\"\"%" }}{PARA 6 "" 1 "" {TEXT -1 10 
+"and   1/44" }}{PARA 6 "" 1 "" {TEXT -1 54 "4/11   is the sum of the f
+ollowing egyptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"
+\"\"\"$" }}{PARA 6 "" 1 "" {TEXT -1 10 "and   1/33" }}{PARA 6 "" 1 "" 
+{TEXT -1 54 "5/11   is the sum of the following egyptian fractions:" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6$#\"\"\"\"\"$#F$\"\"*" }}{PARA 6 "" 1 
+"" {TEXT -1 10 "and   1/99" }}{PARA 6 "" 1 "" {TEXT -1 54 "6/11   is t
+he sum of the following egyptian fractions:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"\"\"\"#" }}{PARA 6 "" 1 "" {TEXT -1 10 "and   1/22
+" }}{PARA 6 "" 1 "" {TEXT -1 54 "7/11   is the sum of the following eg
+yptian fractions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$#\"\"\"\"\"##F$\"
+\")" }}{PARA 6 "" 1 "" {TEXT -1 10 "and   1/88" }}{PARA 6 "" 1 "" 
+{TEXT -1 54 "8/11   is the sum of the following egyptian fractions:" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6%#\"\"\"\"\"##F$\"\"&#F$\"#P" }}{PARA 
+6 "" 1 "" {TEXT -1 12 "and   1/4070" }}{PARA 6 "" 1 "" {TEXT -1 54 "9/
+11   is the sum of the following egyptian fractions:" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6%#\"\"\"\"\"##F$\"\"%#F$\"#:" }}{PARA 6 "" 1 "" 
+{TEXT -1 11 "and   1/660" }}{PARA 6 "" 1 "" {TEXT -1 55 "10/11   is th
+e sum of the following egyptian fractions:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%#\"\"\"\"\"##F$\"\"$#F$\"#9" }}{PARA 6 "" 1 "" {TEXT 
+-1 11 "and   1/231" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 650 "egypt4 := proc(R :: rationa
+l)\nlocal r, n, m, k, d;\nif R<=0 or R>=1 then \nlprint(`Error,`, `arg
+ument should be between 0 and 1`) \nelse\nr[1]:=R:\nn[1]:=ceil(1/r[1])
+:\nif type(1/R, integer) \nthen lprint(R, `is already in egyptian form
+`)\nelse \nfor k from 2 while not type(1/r[k-1], integer) do\nr[k]:=r[
+k-1] - 1/n[k-1]:\nn[k]:=ceil(1/r[k]):\nod;\nlprint(R, `is the sum of t
+he following egyptian fractions:`);\nprint(seq(1/n[m], m=1..k-2));\nlp
+rint(`and`, 1/(n[k-1]));\nfi;\nfi;\nd[1] := R - 1/n[1]:\nfor k from 2 \+
+while not type(1/r[k-1], integer) do\nd[k] := d[k-1] - 1/n[k]\nod;\nlp
+rint(`                Also, the 'greedy' differences are:`);\nseq(d[m]
+, m=1..k-1);\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "egypt4(17/39);" }}{PARA 6 "
+" 1 "" {TEXT -1 55 "17/39   is the sum of the following egyptian fract
+ions:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$#\"\"\"\"\"$#F$\"#5" }}{PARA 
+6 "" 1 "" {TEXT -1 11 "and   1/390" }}{PARA 6 "" 1 "" {TEXT -1 51 "   \+
+             Also, the 'greedy' differences are:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%#\"\"%\"#R#\"\"\"\"$!R\"\"!" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "egypt4(2/39);" }}{PARA 6 "" 1 "" {TEXT -1 54 "2/39 \+
+  is the sum of the following egyptian fractions:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"\"\"#?" }}{PARA 6 "" 1 "" {TEXT -1 11 "and   1/780
+" }}{PARA 6 "" 1 "" {TEXT -1 51 "                Also, the 'greedy' di
+fferences are:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$#\"\"\"\"$!y\"\"!" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "egypt4(1/39);" }}{PARA 6 "
+" 1 "" {TEXT -1 34 "1/39   is already in egyptian form" }}{PARA 6 "" 
+1 "" {TEXT -1 51 "                Also, the 'greedy' differences are:
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 69 "A problem t
+o investigate (already done somewhere?): what I might the " }}{PARA 0 
+"" 0 "" {TEXT -1 68 "'square-egyptian' problem.  To express a rational
+ number as a sum of" }}{PARA 0 "" 0 "" {TEXT -1 51 "distinct reciproca
+ls of squares.  Of course, since:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 58 "                  (Pi^2)/6 = 1/1 + 1/4 + \+
+1/9 + 1/16 + ... " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 61 "and thus 1/4 + 1/9 + 1/16 + ... = (Pi^2)/6 - 1/1 < .64493
+ ..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "evalf(Pi^2/6 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"*oS$\\k
+!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 67 "it follows that NOT every rational in (0, 1) coul
+d be so expressed;" }}{PARA 0 "" 0 "" {TEXT -1 67 "in fact, NO rationa
+l in (0.64493 ... , 1) can be so expressed ... ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "However it could sensibly
+ be asked IF every rational in (0, 0.64493)" }}{PARA 0 "" 0 "" {TEXT 
+-1 57 "can be expressed as a sum of DISTINCT square reciprocals." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "[My gut f
+eeling is that there are EXCEPTIONS ... ]" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "Anyway, for the moment, how about \+
+a 'greedy-square' algorithm:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 27 "I have gone elsewhere with:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "square_egyptian:=pr
+oc(R)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "local r, n, m, k;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "r[1]:=R;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "n[1]:=ceil(1/r[1]);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "if type(1/R, integer) " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "the
+n print(R)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "else for k from 2 whi
+le not type(1/r[k-1], integer) do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "r[k]:=r[k-1] - 1/n[k-1];" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "n[k
+]:=ceil(1/r[k]);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od;" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 23 "seq(1/n[m], m=1..k-1); " }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 3 "fi;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}}}
+{MARK "1 2 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

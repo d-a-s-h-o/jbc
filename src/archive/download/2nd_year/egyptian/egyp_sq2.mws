@@ -1,0 +1,117 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 
+-1 "" 0 0 255 0 0 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 
+128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "
+" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 
+"Arial Rounded MT Bold" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 
+"Courier" 1 11 0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 
+0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# egyp_sq2.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 356 "egypt_sq := proc(R :: ratio
+nal, Dig_set, k_bound)\nlocal r, n, m, k;\nDigits := Dig_set:\nr[1] :=
+ R:\nn[1] := ceil(sqrt(1/r[1])):\nif type(sqrt(1/R), integer) then pri
+nt(R)\nelse \nfor k from 2 while k < k_bound \n    and not type(1/sqrt
+(r[k-1]), integer) \ndo\n   r[k] := r[k-1] - 1/n[k-1]^2;   \n   n[k] :
+= ceil(sqrt(1/r[k]));\nod;\nseq(1/n[m]^2, m=1..k-1); \nfi;\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 22 "egypt_sq(2/5, 10, 10);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'#\"\"\"\"\"%#F$\"\"*#F$\"#O#F$\"$+\"#F$\"$+*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "convert([egypt_sq(2/5, 10, 1
+0)], `+`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"#\"\"&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 686 "Egypt_sq := proc(R :: rational, Dig_set, k_bound)\nl
+ocal r, n, m, k;\nDigits := Dig_set:\nr[1] := R:\nn[1] := ceil(sqrt(1/
+r[1])):\nif type(sqrt(1/R), integer) \nthen print(R)\nelse for k from \+
+2 while k < k_bound \n     and not type(1/sqrt(r[k-1]), integer) \ndo
+\n  r[k] := r[k-1] - 1/n[k-1]^2;   \n  n[k] := ceil(sqrt(1/r[k]));  \n
+od;  \nfi;\nif R = convert([seq(1/n[m]^2, m=1..k-1)], `+`)\nthen lprin
+t(R,`IS the sum of the following reciprocals of squares:`,            \+
+                  [seq(1/n[m]^2, m=1..k-1)]) \nelse lprint(`the sum of
+ the following reciprocals of squares:`,                [seq(1/n[m]^2,
+ m=1..k-1)],\n`DIFFERS from`, R, `by`, R - convert([seq(1/n[m]^2, m=1.
+.k-1)], `+`))\nfi;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "Egypt_sq(sqrt(4/9), 10,
+ 6);" }}{PARA 6 "" 1 "" {TEXT -1 114 "the sum of the following recipro
+cals of squares:   [1/4, 1/4, 1/9, 1/25, 1/81]   DIFFERS from   2/3   \+
+by   13/4050" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "Egypt_sq(sq
+rt(2/9), 10, 6);" }}{PARA 8 "" 1 "" {TEXT -1 93 "Error, Egypt_sq expec
+ts its 1st argument, R, to be of type rational, but received 1/3*2^(1/
+2)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Egypt_sq(1/5, 10, 6);
+" }}{PARA 6 "" 1 "" {TEXT -1 124 "the sum of the following reciprocals
+ of squares:   [1/9, 1/16, 1/49, 1/169, 1/15876]   DIFFERS from   1/5 \+
+  by   31/53660880" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Egypt
+_sq(2/5, 10, 6);" }}{PARA 6 "" 1 "" {TEXT -1 90 "2/5   IS the sum of t
+he following reciprocals of squares:   [1/4, 1/9, 1/36, 1/100, 1/900]
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "Egypt_sq(1/2, 10, 6);" }}{PARA 6 "" 1 "" 
+{TEXT -1 70 "1/2   IS the sum of the following reciprocals of squares:
+   [1/4, 1/4]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "An attempt to 'do' 1/2 with differ
+ent square reciprocals:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 29 "1/2 - 1/2^2 - 1/3^2 - 1/4^2; " }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6##\"#6\"$W\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 36 "1/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"$J\"\"%+O" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "ceil(sqrt(1/(131/3600))); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "1/2 - 1/2^2 - 1/3^2 - \+
+1/4^2 - 1/5^2 - 1/6^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#J\"%+O" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "ceil(sqrt(1/(31/3600))); \+
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#6" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "1/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2 - 1/6^2 - 1/11^2;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$^\"\"'+cV" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 28 "ceil(sqrt(1/(151/435600))); " }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#a" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 
+"1/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2 - 1/6^2 - 1/11^2 - 1/54^2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$J\"\")+OGN" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "Digits := 100;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%'DigitsG\"$+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "c
+eil(sqrt(1/(131/35283600))); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$>&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "1/2 - 1/2^2 - 1/3^2 - 1
+/4^2 - 1/5^2 - 1/6^2 - 1/11^2 - 1/54^2 - 1/519^2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"$*H\".+W'G+c5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 35 "ceil(sqrt(1/(299/1056002864400))); " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"&H%f" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 107 "d
+[9] := 1/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2 - 1/6^2 - 1/11^2 - 1/54^2  \+
+              - 1/519^2 - 1/59429^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>&%\"dG6#\"\"*#\"(f=9(\"7+/%QA,eH(fHP" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "c[9] := ceil(sqrt(1/d[9]));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"cG6#\"\"*\")f?&G#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 124 "d[10] := 1/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2 - 1/6^2
+ - 1/11^2 - 1/54^2                - 1/519^2 - 1/59429^2 - 1/22852059^2
+; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"dG6#\"#5#\".J0rjXj$\"E+O?\\
+)>X(4]'p]\\N-kS;#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "c[10] \+
+:= ceil(sqrt(1/d[10]));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"cG6#\"
+#5\"-!y@2,W#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 133 "d[11] := 1
+/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2 - 1/6^2 - 1/11^2 - 1/54^2          \+
+       - 1/519^2 - 1/59429^2 - 1/c[9]^2 - 1/c[10]^2; " }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%\"dG6#\"#6#\"4\\7a5#eYImB\"V+#GVb?\"oC&4r\"[0(3
+W^$=;mZD&*z$4A" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "c[11] := \+
+ceil(sqrt(1/d[11]));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"cG6#\"#6
+\"2\"ou*GoIFm*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 151 "d[12] := 1/2 - 1/2^2 - 1/3^
+2 - 1/4^2 - 1/5^2 - 1/6^2 - 1/11^2 - 1/54^2                       - 1/
+519^2 - 1/59429^2 - 1/c[9]^2 - 1/c[10]^2 - 1/c[11]^2; " }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%\"dG6#\"#7#\"D*GhAGb*=VP5U9h#>+[%)\"bp+-'>Q_\"*
+plPsH$R+p.gn$4-Os![*)Qr7!e9\\[;d7xdw@>'G1#" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 29 "c[12] := ceil(sqrt(1/d[12]));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"cG6#\"#7\";;Byc]B%4Ly\"\\T\\" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+150 "d[12] := 1/2 - 1/2^2 - 1/3^2 - 1/4^2 - 1/5^2 - 1/6^2 - 1/11^2 - 1
+/54^2          - 1/519^2 - 1/59429^2 - 1/c[9]^2 - 1/c[10]^2 - 1/c[11]^
+2 - 1/c[12]^2; " }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>&%\"dG6#\"#7#\"fn(
+p++r[xLPZ#4/*R))e=6;u]qv1[yk?n()\"cs+'zpI^&>I#[:W1h]V\")R!RTtXKXJQoTFV
+OzTl,yVO_uJ?yFcxA')\\qJSdX3aL$*['4#\\(Hrkg*p" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "9 1 0" 17 }{VIEWOPTS 1 1 0 1 1 1803 
+}

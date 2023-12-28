@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark14">
+<p align=left>
+<b><font color=#000080 size=4>Giuga's conjecture (a type of converse) . </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>This is a well-known, longstanding problem (one on which I spent a lot of time over the years). I first came upon it at school, in Sierpinski's wonderful 1964 collection of problems. There, on page 111, Sierpinski asks:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>Does there exist a composite number n which is a divisor of the number</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt401.gif" width=159 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/Flt402.gif" width=150 height=56 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and Sierpinski goes on to (trivially) remark: It is easy to prove that if </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is a prime number, then</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt403.gif" width=157 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/Flt404.gif" width=148 height=56 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>is divisible by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>. [and that is all Sierpinski had to say about it.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The point of Sierpinski's remark is that, for prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, one has:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt405.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), </font></b>
+<img src="images/Flt406.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod p), ... , </font></b>
+<img src="images/Flt407.gif" width=148 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod p)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and so, trivially:           </font></b>
+<img src="images/Flt408.gif" width=157 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/Flt409.gif" width=177 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Thus the thrust of Sierpinski's question is: does</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>  </font></b>
+<img src="images/Flt410.gif" width=159 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/Flt411.gif" width=179 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> )  ... (c)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>hold </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> for prime </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. It is well known (as indeed anyone will establish who tackles this question) that a composite </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> satisfying (c) must have these properties:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is odd and squarefree (so </font></b>
+<img src="images/Flt412.gif" width=97 height=78 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, for distinct odd primes </font></b>
+<img src="images/Flt413.gif" width=56 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Flt414.gif" width=30 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> , </font></b>
+<img src="images/Flt415.gif" width=51 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> )</font></b>
+</p>
+<p align=left>
+<img src="images/Flt416.gif" width=89 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> divides </font></b>
+<img src="images/Flt417.gif" width=126 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> for every </font></b>
+<img src="images/Flt418.gif" width=63 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<i><b><font color=#000080>r</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now, of course, one would like to show the latter is impossible...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>A comment</font></u></b>
+<b><font color=#000080>. An immediate consequence of the latter is that:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt419.gif" width=77 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/Flt420.gif" width=110 height=124 alt="[Maple Math]" align=middle>
+<b><font color=#000080>  is an integer  ... (e)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One might be tempted to argue that is impossible... , but one should be aware that it </font></b>
+<i><b><font color=#000080>will not be easy</font></b></i>
+<b><font color=#000080>. One cannot argue it is impossible </font></b>
+<i><b><font color=#000080>merely</font></b></i>
+<b><font color=#000080> for </font></b>
+<i><b><font color=#000080>distinct</font></b></i>
+<b><font color=#000080> primes, for one should be aware that:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt421.gif" width=164 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>So, is (e) impossible for distinct </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080> primes?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Recommended reading</font></u></b>
+<b><font color=#000080>. The January 1996 American Mathematical Monthly article by Borwein (D., J. M., and R.) and Girgensohn, R., who attribute the above question to G. Guiga (1950), where they list ten associated Open Problems.</font></b>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:43 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

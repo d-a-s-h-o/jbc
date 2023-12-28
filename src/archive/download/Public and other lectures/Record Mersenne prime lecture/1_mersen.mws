@@ -1,0 +1,896 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 128 0 0 1 0 1 0 0 0 1 3 0 
+3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 
+"" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 
+1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" 
+-1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "         This enti
+re document has been produced using 'MAPLE', the 'Computer" }}{PARA 0 
+"" 0 "" {TEXT -1 75 "         Algebra Software' which is installed on \+
+computers in St. Patrick's" }}{PARA 0 "" 0 "" {TEXT -1 77 "         co
+mputer laboratory.   Anyone who is interested in finding out about" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "         how to obtain MAPLE is welcome t
+o ask me about it." }}{PARA 0 "" 0 "" {TEXT -1 72 "                   \+
+                          ___________________________" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "                      \+
+   PUBLIC LECTURE.    WED. 23rd. OCTOBER 1996." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "                      ST.
+ PATRICK'S COLLEGE, DRUMCONDRA, DUBLIN 9." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "LE
+CTURE TITLE:              THE RECENTLY DISCOVERED " }}{PARA 0 "" 0 "" 
+{TEXT -1 71 "                                             WORLD RECORD
+ PRIME NUMBER." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 53 "LECTURER:                             JOHN COSGRAVE, " }}
+{PARA 0 "" 0 "" {TEXT -1 65 "                                         \+
+MATHEMATICS DEPARTMENT, " }}{PARA 0 "" 0 "" {TEXT -1 66 "             \+
+                               ST. PATRICK'S COLLEGE," }}{PARA 0 "" 0 
+"" {TEXT -1 63 "                                                    DR
+UMCONDRA," }}{PARA 0 "" 0 "" {TEXT -1 65 "                            \+
+                            DUBLIN 9," }}{PARA 0 "" 0 "" {TEXT -1 64 "
+                                                        IRELAND." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "INTRODUCT
+ION.   On 3rd. September 1996 Cray Research (Wisconsin, USA) " }}
+{PARA 0 "" 0 "" {TEXT -1 73 "announced  that one of their computers ha
+d just found a new world record " }}{PARA 0 "" 0 "" {TEXT -1 14 "prime
+ number: " }}{PARA 0 "" 0 "" {TEXT -1 58 "                            \+
+                              " }{XPPEDIT 18 0 "2^1257787-1;" "6#,&*$)
+\"\"#\"((yd7\"\"\"F(\"\"\"!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 46 "That is \"2 to the power of 1,257,787 min
+us 1\"." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+75 "It is obtained by taking one million, two hundred and fifty seven \+
+thousand," }}{PARA 0 "" 0 "" {TEXT -1 75 "seven hundred and eighty sev
+en 2's, multiplying all those 2's together, and" }}{PARA 0 "" 0 "" 
+{TEXT -1 19 "then subtracting 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 75 "It is a truly enormous number, with 378,6
+32 digits, and would take 4 days, " }}{PARA 0 "" 0 "" {TEXT -1 68 "9 h
+ours, 10 minutes and 32 seconds to read at one digit per second. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "[ Anyone \+
+with access to the World Wide Web may consult Cray's Home Page" }}
+{PARA 0 "" 0 "" {TEXT -1 77 "  and read an immense amount of material \+
+relating to this.  Their address is:" }}{PARA 0 "" 0 "" {TEXT -1 75 " \+
+                                http://www.cray.com ]                 \+
+    " }}{PARA 0 "" 0 "" {TEXT -1 68 "                                 \+
+  _________________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 21 "AIMS of this lecture:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "1.  The above number is
+ certainly not 'any old number'; it has got some" }}{PARA 0 "" 0 "" 
+{TEXT -1 68 "     structure to it, a certain shape.  So you probably w
+ant to know" }}{PARA 0 "" 0 "" {TEXT -1 66 "     WHERE that structure \+
+'came from'.  I attempt to explain that." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "2.  You probably want to know HOW \+
+the above number was shown to be a " }}{PARA 0 "" 0 "" {TEXT -1 44 "  \+
+   prime.  I also attempt to explain that." }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "                                   ____________________________
+_____" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "
+PLAN of lecture:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 67 "1. Some consideration of the size of numbers like the abo
+ve number." }}{PARA 0 "" 0 "" {TEXT -1 77 "2. The early historical bac
+kground. Euclid (~300 B.C.) and 'perfect' numbers." }}{PARA 0 "" 0 "" 
+{TEXT -1 57 "3. A fleeting glimpse at period between Euclid and Lucas.
+" }}{PARA 0 "" 0 "" {TEXT -1 73 "4. Lucas (1842-1891), his record prim
+e, the 'Lucas-lehmer' test, and the " }}{PARA 0 "" 0 "" {TEXT -1 15 " \+
+   modern era." }}{PARA 0 "" 0 "" {TEXT -1 65 "                       \+
+        __________________________________" }}{PARA 0 "" 0 "" {TEXT 
+-1 25 "                         " }}{PARA 0 "" 0 "" {TEXT -1 60 "     \+
+                  1. Some consideration of the size of " }{XPPEDIT 18 
+0 "2^1257787-1;" "6#,&*$)\"\"#\"((yd7\"\"\"F(\"\"\"!\"\"" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "To calculate its v
+alue one would have to take 1,257,787 two's, multiply them " }}{PARA 
+0 "" 0 "" {TEXT -1 77 "all together, and then subtract 1.  It is an en
+ormous number, having 378,632 " }}{PARA 0 "" 0 "" {TEXT -1 76 "digits.
+   I have used MAPLE V - RELEASE 4 to calculate the above prime, and \+
+" }}{PARA 0 "" 0 "" {TEXT -1 81 "have printed it out on A4 paper (plea
+se don't tell the College Bursar); it fills " }}{PARA 0 "" 0 "" {TEXT 
+-1 62 "about 107 and 1/2 pages, with about 3,500 digits on each page.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 79 "[Adde
+d afterwards: I brought the printed text of the prime into my lecture,
+ and" }}{PARA 0 "" 0 "" {TEXT -1 81 "passed it around the audience so \+
+that they could get a physical feel for the size" }}{PARA 0 "" 0 "" 
+{TEXT -1 14 "of the prime.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 85 "The following is intended only to give SOME ide
+a of the size of the above number.    " }}{PARA 0 "" 0 "" {TEXT -1 29 
+"                             " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "2^
+2; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 4 "2^3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "2^31;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"+[O[Z@" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "
+2^31 - 1;  # Euler, 1772 A.D.  Largest known until 1876 A.D." }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"+ZO[Z@" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "2^127;   " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"HGd5%)e
+r.toJ<Bp/Y$=T,<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "2^127 - \+
+1;  # Lucas, 1876 A.D.  Largest known until 1952 A.D." }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"HFd5%)er.toJ<Bp/Y$=T,<" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 74 "You see how powers of 2 increase in size \+
+very quickly as one increases to " }}{PARA 0 "" 0 "" {TEXT -1 76 "valu
+e of the 'exponent' (the power to which 2 is being 'raised', as we say
+)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "Let
+'s just look at one more power of 2, to get a feeling for its size:" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "2^
+1000;   # so, this is 1,000 two's multiplied together:" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#\"i]lw$p!oc?PoQCElJ)H/mn@a'oxk>rX\"H1xg%Ral\"fvw)R
+n7%>e$)\\ZYI:#=az(=9rB10Y2@a)4BC[xnX$R![d)puvd%)fVSJ#p&GXr=Do9`v\"Hn%f
+F\"eep:)y$)>$\\Ah$\\7^5Nq$)Q]PW2O`0<\"[Sh0\"=+g!\\]U[4Kni=2'3:2\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "                    2.   \+
+ The early historical background " }}{PARA 0 "" 0 "" {TEXT -1 63 "    \+
+                     (Euclid, ~300 B.C., 'perfect' numbers)" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "SOME TERMINOLOG
+Y" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "Firs
+t I need to establish the meanings of the following fundamental terms:
+" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 12 "1.  \+
+factor, " }}{PARA 0 "" 0 "" {TEXT -1 18 "2.  prime number, " }}{PARA 
+0 "" 0 "" {TEXT -1 22 "3.  composite number, " }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "4.  abundant number, " }}{PARA 0 "" 0 "" {TEXT -1 22 "5. \+
+ deficient number, " }}{PARA 0 "" 0 "" {TEXT -1 19 "6.  perfect number
+," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "and \+
+I will do so via simple examples." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 54 "CONVENTION.  By WHOLE numbers I will mean
+ the numbers:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 72 "                         1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1
+1, 12, 13, ... " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 78 "15 = 5 + 5 + 5, and we say that 15 is 5 'times' 3, and sa
+y that 5 is a FACTOR " }}{PARA 0 "" 0 "" {TEXT -1 69 "of 15, MEANING t
+hat 15 is obtainable from 5 by multiplying 5 by SOME " }}{PARA 0 "" 0 
+"" {TEXT -1 17 "whole number (3)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 79 "91 = 7 +  ... + 7 + 7, and we say that 91
+ is 7 'times' 13, and say that 7 is a " }}{PARA 0 "" 0 "" {TEXT -1 68 
+"FACTOR of 91, MEANING that 91 is obtainable from 7 by multiplying 7 \+
+" }}{PARA 0 "" 0 "" {TEXT -1 26 "by SOME whole number (13)." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "DEFINITION of '
+factor'.  If n is a whole number, then the whole number 'a' " }}{PARA 
+0 "" 0 "" {TEXT -1 81 "is called a 'factor' of n, if n is equal to a t
+imes b, for some whole number 'b'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 34 "Examples:     5 is a factor of 15," }}
+{PARA 0 "" 0 "" {TEXT -1 40 "                     7 is a factorof 91,
+" }}{PARA 0 "" 0 "" {TEXT -1 41 "                     6 is a factor of
+ 30," }}{PARA 0 "" 0 "" {TEXT -1 40 "                   13 is a factor
+ of 91," }}{PARA 0 "" 0 "" {TEXT -1 39 "                     1 is a fa
+ctorof 9," }}{PARA 0 "" 0 "" {TEXT -1 53 "                   25 is a f
+actor of 25,    etc, etc." }}{PARA 0 "" 0 "" {TEXT -1 31 "            \+
+                   " }}{PARA 0 "" 0 "" {TEXT -1 76 "However - for exam
+ple - 3 is NOT a factor of 35 in the sense that 35 is NOT " }}{PARA 0 
+"" 0 "" {TEXT -1 70 "3 times ANY whole number.  (35 is between 33 and \+
+36; the former being " }}{PARA 0 "" 0 "" {TEXT -1 41 "eleven 3's and t
+he latter is twelve 3's)." }}{PARA 0 "" 0 "" {TEXT -1 67 "            \+
+                        _______________________________" }}{PARA 0 "" 
+0 "" {TEXT -1 15 "               " }}{PARA 0 "" 0 "" {TEXT -1 65 "    \+
+                     LISTING THE FIRST SEVERAL WHOLE NUMBERS," }}
+{PARA 0 "" 0 "" {TEXT -1 64 "                                  THE FAC
+TORS OF THOSE NUMBERS, " }}{PARA 0 "" 0 "" {TEXT -1 60 "              \+
+         AND SOME RANDOMLY CHOSEN LARGER ONES." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "1 has only one factor: 1
+" }}{PARA 0 "" 0 "" {TEXT -1 26 "2 has two factors: 1 and 2" }}{PARA 
+0 "" 0 "" {TEXT -1 26 "3 has two factors: 1 and 3" }}{PARA 0 "" 0 "" 
+{TEXT -1 31 "4 has three factors: 1, 2 and 4" }}{PARA 0 "" 0 "" {TEXT 
+-1 26 "5 has two factors: 1 and 5" }}{PARA 0 "" 0 "" {TEXT -1 33 "6 ha
+s four factors: 1, 2, 3 and 6" }}{PARA 0 "" 0 "" {TEXT -1 26 "7 has tw
+o factors: 1 and 7" }}{PARA 0 "" 0 "" {TEXT -1 33 "8 has four factors:
+ 1, 2, 4 and 8" }}{PARA 0 "" 0 "" {TEXT -1 21 "                  . ." 
+}}{PARA 0 "" 0 "" {TEXT -1 38 "20 has two factors: 1, 2, 4, 5, 10, 20
+" }}{PARA 0 "" 0 "" {TEXT -1 35 "21 has four factors: 1, 3, 7 and 21" 
+}}{PARA 0 "" 0 "" {TEXT -1 36 "22 has four factors: 1, 2, 11 and 22" }
+}{PARA 0 "" 0 "" {TEXT -1 28 "23 has two factors: 1 and 23" }}{PARA 0 
+"" 0 "" {TEXT -1 21 "                  . ." }}{PARA 0 "" 0 "" {TEXT 
+-1 56 "225 has nine factors: 1, 3, 5, 9, 15, 25, 45, 75 and 225" }}
+{PARA 0 "" 0 "" {TEXT -1 21 "                  . ." }}{PARA 0 "" 0 "" 
+{TEXT -1 32 "1007 has two factors: 1 and 1007" }}{PARA 0 "" 0 "" 
+{TEXT -1 63 "1008 has thirty factors: 1, 2, 3, 4, 6, ... , 336, 504 an
+d 1008" }}{PARA 0 "" 0 "" {TEXT -1 10 "etc., etc." }}{PARA 0 "" 0 "" 
+{TEXT -1 71 "                               __________________________
+______________" }}{PARA 0 "" 0 "" {TEXT -1 45 "                       \+
+                      " }}{PARA 0 "" 0 "" {TEXT -1 63 "               \+
+                                   OBSERVATIONS " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 54 "There is just one whole n
+umber with ONLY ONE factor: 1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "There are SOME whole numbers each of whic
+h has EXACTLY TWO " }}{PARA 0 "" 0 "" {TEXT -1 80 "factors: 2, 3, 5, 7
+, 11, 13, 17, 19, 23, ... .    These are the 'PRIME' numbers." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "There are
+ SOME whole numbers each of which has MORE than  TWO " }}{PARA 0 "" 0 
+"" {TEXT -1 75 "factors: 4, 6, 8, 9, 10, 12, 14, ... .   These are the
+ 'COMPOSITE' numbers." }}{PARA 0 "" 0 "" {TEXT -1 72 "                \+
+                ________________________________________" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "                  \+
+                An early CLASSIFICATION of whole numbers." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "If you add togethe
+r ALL the factors of 12 then - of course - you get a " }}{PARA 0 "" 0 
+"" {TEXT -1 45 "number that is AUTOMATICALLY greater than 12." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "What happ
+ens though if you only add together the factors of 12, but " }}{PARA 
+0 "" 0 "" {TEXT -1 23 "EXCLUDING 12 itself?   " }}{PARA 0 "" 0 "" 
+{TEXT -1 63 "You get 1+2+3+4+6, which comes to 16, which is greater th
+an 12." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 
+"That sort of thing doesn't always happen.   For example if you choose
+ " }}{PARA 0 "" 0 "" {TEXT -1 78 "the number 15 - which has factors 1,
+ 3, 5 and 15 - then the sum of all of the " }}{PARA 0 "" 0 "" {TEXT 
+-1 64 "factors of 15, apart from 15, comes to 9, which is less than 15
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "Numb
+ers that behave LIKE 12 are called ABUNDANT, and" }}{PARA 0 "" 0 "" 
+{TEXT -1 49 "numbers that behave LIKE 15 are called DEFICIENT." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "A whole n
+umber is said to be ABUNDANT if the sum of all of its factors - " }}
+{PARA 0 "" 0 "" {TEXT -1 42 "excluding itself - is GREATER than itself
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "A wh
+ole number is said to be DEFICIENT if the sum of all of its factors - \+
+" }}{PARA 0 "" 0 "" {TEXT -1 39 "excluding itself - is LESS than itsel
+f." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "By \+
+hand you can start a systematic lists of both types, simply by testing
+" }}{PARA 0 "" 0 "" {TEXT -1 75 "each number in turn, find its factors
+, add all of them - except the number " }}{PARA 0 "" 0 "" {TEXT -1 34 
+"itself - and see what it comes to:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 41 "ABUNDANT: 12, 18, 20, 24, 30, 36, 40, ..
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "DEFI
+CIENT: 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, ... " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "Here is a simple 'pr
+ogramme' written in MAPLE's language which will " }}{PARA 0 "" 0 "" 
+{TEXT -1 54 "calculate ALL abundant numbers up to any chosen limit:" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "wi
+th(numtheory):  # needed to use the sigma command" }}{PARA 7 "" 1 "" 
+{TEXT -1 33 "Warning, new definition for order" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 112 "abundant :=proc(n)\nlocal S, k;\nS:=\{ \}:\nf
+or k to n do\nif sigma(k) > 2*k\nthen S:=S union \{k\}\nelse S:=S\nfi
+\nod;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 93 "[Added af
+terwards: I choose to have the output come out horizontally, rather th
+an vertically." }}{PARA 0 "" 0 "" {TEXT -1 45 "Otherwise I could have \+
+dispensed with S etc.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 74 "And so  -  for example  -  to find all abundant numb
+ers up as far as 100, " }}{PARA 0 "" 0 "" {TEXT -1 21 "all one has to \+
+do is:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "abundant(100);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<8\"#7\"#=\"
+#?\"#C\"#I\"#O\"#S\"#U\"#[\"#a\"#c\"#g\"#m\"#q\"#s\"#y\"#!)\"#%)\"#))
+\"#!*\"#'*\"$+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "An
+d here is a slight modification of the above which will enable us to c
+alculate " }}{PARA 0 "" 0 "" {TEXT -1 38 "all deficient numbers up to \+
+any limit:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 113 "deficient :=proc(n)\nlocal S, k;\nS:=\{ \}:\nfor k t
+o n do\nif sigma(k) < 2*k\nthen S:=S union \{k\}\nelse S:=S\nfi\nod;\n
+end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "And so  -  for ex
+ample  -  to find all deficient numbers up as far as 40, " }}{PARA 0 "
+" 0 "" {TEXT -1 21 "all one has to do is:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "deficient(100);" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6#<ho\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"(\"\")\"\"*\"#
+5\"#6\"#8\"#9\"#:\"#;\"#<\"#>\"#@\"#A\"#B\"#D\"#E\"#F\"#H\"#J\"#K\"#L
+\"#M\"#N\"#P\"#Q\"#R\"#T\"#V\"#W\"#X\"#Y\"#Z\"#\\\"#]\"#^\"#_\"#`\"#b
+\"#d\"#e\"#f\"#h\"#i\"#j\"#k\"#l\"#n\"#o\"#p\"#r\"#t\"#u\"#v\"#w\"#x\"
+#z\"#\")\"##)\"#$)\"#&)\"#')\"#()\"#*)\"#\"*\"##*\"#$*\"#%*\"#&*\"#(*
+\"#)*\"#**" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 57 "As you see there are many abundant and de
+ficient numbers." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 81 "Now I would like to make more slight alterations to both \+
+of the above programmes " }}{PARA 0 "" 0 "" {TEXT -1 77 "that will all
+ow me to actually COUNT how many abundant and deficient numbers " }}
+{PARA 0 "" 0 "" {TEXT -1 32 "there are up to any given limit:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 234 "ab
+undant_or_deficient:=proc(n)\nlocal count, k;\ncount:=0:\nfor k to n d
+o\nif sigma(k) < 2*k or sigma(k) > 2*k\nthen count:=count+1\nelse coun
+t:=count\nfi\nod;\nlprint(`There are`, count,\n`abundant and deficient
+ numbers up as far as`, n);\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 70 "There are 20 \+
+whole numbers up as far as 20.     Let's see how many of " }}{PARA 0 "
+" 0 "" {TEXT -1 38 "them are either abundant or deficient:" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "abundant_or
+_deficient(20);" }}{PARA 6 "" 1 "" {TEXT -1 65 "There are   19   abund
+ant and deficient numbers up as far as   20" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 75 "And so there is - as it were - one 'missing' nu
+mber, namely the number 6.  " }}{PARA 0 "" 0 "" {TEXT -1 80 "The facto
+rs of 6 are 1, 2, 3 and 6, and their sum  -  with 6 itself excluded  -
+ " }}{PARA 0 "" 0 "" {TEXT -1 11 "comes to 6." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "Let's do the same sort of
+ thing, but now we will test the first 400 whole numbers:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "abundant_or_
+deficient(400);" }}{PARA 6 "" 1 "" {TEXT -1 67 "There are   398   abun
+dant and deficient numbers up as far as   400" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "JUST 2 M
+ISSING ONES!!!      The extra missing one is 28." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "The factors of 28 are 1, \+
+2, 4, 7, 14 and 28, and their sum - with 28 itself " }}{PARA 0 "" 0 "
+" {TEXT -1 23 "excluded - comes to 28." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 70 "Numbers LIKE 6 and 28 - being so RARE
+ - were given a special place in " }}{PARA 0 "" 0 "" {TEXT -1 41 "the \+
+realm of the whole numbers by Euclid." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 33 "They were called PERFECT numbers." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 98 "per
+fect :=proc(n)\nlocal k;\nfor k to n do\nif sigma(k) = 2*k\nthen lprin
+t(k, `is PERFECT`)\nfi\nod\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "perfect(100);" }}{PARA 6 "" 1 "" {TEXT -1 14 "6   is \+
+PERFECT" }}{PARA 6 "" 1 "" {TEXT -1 15 "28   is PERFECT" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "perfect(1000);" }}{PARA 6 "" 1 "" {TEXT -1 14 "6   is
+ PERFECT" }}{PARA 6 "" 1 "" {TEXT -1 15 "28   is PERFECT" }}{PARA 6 "
+" 1 "" {TEXT -1 16 "496   is PERFECT" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 70 "Euclid's beau
+tiful observation was that these numbers were related by " }}{PARA 0 "
+" 0 "" {TEXT -1 53 "a PATTERN which anyone would quickly come to suspe
+ct:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+133 "the_factors_of:=proc(n)\nlocal S, k;\nS:=\{ \}:\nfor k to isqrt(n
+) do\nif irem(n, k)=0\nthen S:=S union \{k\} union \{n/k\}\nelse S:=S
+\nfi\nod\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "[A
+dded afterwards: I know that this is a very poor programme, and I coul
+d have" }}{PARA 0 "" 0 "" {TEXT -1 77 "resorted to using MAPLE's own i
+n-built command 'divisors'. I choose not to do" }}{PARA 0 "" 0 "" 
+{TEXT -1 84 "that since I make a distinction with my own students betw
+een 'factor' and 'divisor'," }}{PARA 0 "" 0 "" {TEXT -1 79 "and since \+
+I was giving these notes to my own students I wanted to be consistent
+" }}{PARA 0 "" 0 "" {TEXT -1 20 "in my use of terms.]" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "the_factors_of(6
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<&\"\"\"\"\"#\"\"$\"\"'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "the_factors_of(28);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<(\"\"\"\"\"#\"\"%\"\"(\"#9\"#G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "the_factors_of(496);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<,\"\"\"\"\"#\"\"%\"\")\"#;\"#J\"#i\"$
+C\"\"$'\\\"$[#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "Lo
+oking at the last of those - 496 - its factors, when written in increa
+sing order:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 70 "                                1, 2, 4, 8, 16, 31, 62, 124, 24
+8, 496," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+65 "can be rearranged in what one might call factor-pairs as follows:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "     \+
+                (1, 496), (2, 248), (4, 124), (8, 62) and (16, 31), " 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "and the
+ product of the members of each pair is equal to 496, and it should " 
+}}{PARA 0 "" 0 "" {TEXT -1 79 "be clear that as the value of the first
+ member of each pair is increased there " }}{PARA 0 "" 0 "" {TEXT -1 
+78 "is a decrease in the value of the second member of the pair.   The
+ final pair " }}{PARA 0 "" 0 "" {TEXT -1 42 "is especially significant
+, as we will see." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 73 "A mathematically sensitive eye (and Euclid had the great \+
+good fortune to " }}{PARA 0 "" 0 "" {TEXT -1 65 "have been the one who
+ first made the following observation) will " }}{PARA 0 "" 0 "" {TEXT 
+-1 66 "immediately notice something about the small early factors of 4
+96 " }}{PARA 0 "" 0 "" {TEXT -1 42 "(1, 2, 4, ... ): they are ALL powe
+rs of 2." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+81 "The last of them is 16 ( 2 to the power of 4), and the number 496 \+
+is the PRODUCT " }}{PARA 0 "" 0 "" {TEXT -1 67 "of that number and the
+ VERY NEXT factor of 496 after the factor 16." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "In summary, Euclid's grea
+t discovery was that if one had a prime that was " }}{PARA 0 "" 0 "" 
+{TEXT -1 20 "of the SPECIAL FORM:" }}{PARA 0 "" 0 "" {TEXT -1 53 "    \+
+                                                (" }{XPPEDIT 18 0 "2^n
+-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 1 ")" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "then from that prime
+ one could create a PERFECT number by forming the related number:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "         \+
+                                     " }{XPPEDIT 18 0 "2^(n-1)*(2^n-1)
+;" "6#*&)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"F(,&)\"\"#F'F(\"\"\"F*F(" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "                            _____________
+________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 90 "               3.  A fleeting glimpse at the perio
+d between Euclid and Lucas (1842-1891). " }}{PARA 0 "" 0 "" {TEXT -1 
+37 "                                     " }}{PARA 0 "" 0 "" {TEXT -1 
+49 "With Euclid's discovery the QUESTION then became:" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "For which whole number
+s " }{TEXT 256 1 "n" }{TEXT -1 16 " is the number (" }{XPPEDIT 18 0 "2
+^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 8 ") prime?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "If one ex
+periments one will find that:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"
+\"" }{TEXT -1 48 " is a PRIME number when n = 2, 3, 5, 7, ...  and" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "2^n-1;
+" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 51 " is a COMPOSITE num
+ber when n = 4, 6, 8, 9, 10, ..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "HISTORICAL FACT:   Until about the year 1
+536 A.D. it was WRONGLY " }}{PARA 0 "" 0 "" {TEXT -1 15 "BELIEVED that
+ (" }{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT 
+-1 44 ") is a prime whenever n is itself a prime.  " }}{PARA 0 "" 0 "
+" {TEXT -1 70 "In 1536 A.D. it was noted that this is not true:   when
+ n = 11, then (" }{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!
+\"\"" }{TEXT -1 2 ") " }}{PARA 0 "" 0 "" {TEXT -1 46 "has value 2047, \+
+and since 2047 = 23*89, then (" }{XPPEDIT 18 0 "2^11-1;" "6#,&*$)\"\"#
+\"#6\"\"\"F(\"\"\"!\"\"" }{TEXT -1 17 ") is NOT a prime." }}{PARA 0 "
+" 0 "" {TEXT -1 26 "                          " }}{PARA 0 "" 0 "" 
+{TEXT -1 29 "So a new QUESTION then arose:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "WHICH of the numbers (" }
+{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+30 ") are prime, and which aren't?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 80 "Well, in the case when the 'exponent' its
+elf is composite (as it is - e.g. - in " }}{PARA 0 "" 0 "" {TEXT -1 5 
+"the (" }{XPPEDIT 18 0 "2^21-1;" "6#,&*$)\"\"#\"#@\"\"\"F(\"\"\"!\"\"
+" }{TEXT -1 68 ") case) it is very straightforward. It is easy to give
+ a proof that:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "If " }{TEXT 257 1 "n" }{TEXT -1 27 " itself is COMPOSITE t
+hen (" }{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }
+{TEXT -1 20 ") is ALSO COMPOSITE." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 40 "MORAL: If you are looking for values of \+
+" }{TEXT 258 1 "n" }{TEXT -1 12 " for which (" }{XPPEDIT 18 0 "2^n-1;
+" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 17 ") is PRIME, then " 
+}}{PARA 0 "" 0 "" {TEXT -1 67 "you must search for such values ONLY am
+ongst the primes themselves." }}{PARA 0 "" 0 "" {TEXT -1 66 "         \+
+                     ____________________________________" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "So, we need only r
+estrict our search to testing these numbers:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "2^2-1;" "6#,&*$)\"\"#\"\"#\"
+\"\"F(\"\"\"!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^3-1;" "6#,&*$)\"
+\"#\"\"$\"\"\"F(\"\"\"!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^5-1;" 
+"6#,&*$\"\"#\"\"&\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2
+^7-1;" "6#,&*$\"\"#\"\"(\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 
+18 0 "2^11-1;" "6#,&*$\"\"#\"#6\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "2^13-1;" "6#,&*$\"\"#\"#8\"\"\"\"\"\"!\"\"" }{TEXT -1 
+2 ", " }{XPPEDIT 18 0 "2^17-1;" "6#,&*$\"\"#\"#<\"\"\"\"\"\"!\"\"" }
+{TEXT -1 11 ", ETC, ETC." }}{PARA 0 "" 0 "" {TEXT -1 60 "             \+
+           ____________________________________" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "HOW can one tell if any g
+iven one of those numbers is prime or not?" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "From the time of Eratosthenes (
+?276B.C. -  ?194 B.C.) up to Euler (1707- " }}{PARA 0 "" 0 "" {TEXT 
+-1 72 "1783 A.D.) there was only one way known to test ANY whole numbe
+r to see " }}{PARA 0 "" 0 "" {TEXT -1 85 "if it was a prime or not.   \+
+  It was no more than a simple 'trial-and-error' method, " }}{PARA 0 "
+" 0 "" {TEXT -1 81 "and only involved carrying out a systematic attemp
+t at finding a possible factor " }}{PARA 0 "" 0 "" {TEXT -1 83 "of the
+ given whole number.     Starting with the number-to-be-tested, one ju
+st did " }}{PARA 0 "" 0 "" {TEXT -1 84 "a succession of very routine c
+omputations, at the end of which one was able to say: " }}{PARA 0 "" 
+0 "" {TEXT -1 85 "\"this number is prime\" or \"this number is composi
+te\".     The method had the benefit " }}{PARA 0 "" 0 "" {TEXT -1 69 "
+of \"working\", but it had a CRITICAL drawback:    it was FAR TOO SLOW
+." }}{PARA 0 "" 0 "" {TEXT -1 30 "                              " }}
+{PARA 0 "" 0 "" {TEXT -1 79 "                          Euler's record \+
+prime of 1772 A.D. (Euler, 1707-1783)." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 73 "Historically the breakthrough came wi
+th some work of Euler, the greatest " }}{PARA 0 "" 0 "" {TEXT -1 65 "m
+athematician of the 18th. century.     For the special numbers (" }
+{XPPEDIT 18 0 "2^p-1;" "6#,&)\"\"#%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 6 
+")  -  " }}{PARA 0 "" 0 "" {TEXT -1 6 "with '" }{TEXT 259 1 "p" }
+{TEXT -1 72 "' being a prime  -  Euler proved that these could be test
+ed more quickly" }}{PARA 0 "" 0 "" {TEXT -1 86 "than 'ordinary' whole \+
+numbers which didn't have special structure. But even with this " }}
+{PARA 0 "" 0 "" {TEXT -1 88 "improvement, the largest number of the ab
+ove type that Euler (in 1772, then 65 years of " }}{PARA 0 "" 0 "" 
+{TEXT -1 80 "age, and sightless) was able to PROVE the primality of wa
+s the ten digit number:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 9 "2^31 - 1;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 41 "When Euler established the primality of (" }
+{XPPEDIT 18 0 "2^31-1;" "6#,&*$)\"\"#\"#J\"\"\"F(\"\"\"!\"\"" }{TEXT 
+-1 26 ") it was said (not by him)" }}{PARA 0 "" 0 "" {TEXT -1 55 "that
+ this would be the largest prime ever discovered!!!" }}{PARA 0 "" 0 "
+" {TEXT -1 80 "                                  _____________________
+_________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 85 "                    4. Lucas (1842-1891), his reco
+rd prime, the 'Lucas-lehmer' test, " }}{PARA 0 "" 0 "" {TEXT -1 66 "  \+
+                                             and the modern era." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "The recen
+tly discovered record prime, and all others of the same type, was " }}
+{PARA 0 "" 0 "" {TEXT -1 71 "discovered by using a profound new idea i
+ntroduced into Mathematics by " }}{PARA 0 "" 0 "" {TEXT -1 54 "the Fre
+nch mathematician Francois Lucas (1842 - 1891)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "In 1876 he established th
+at the 39-digit number (" }{XPPEDIT 18 0 "2^127-1;" "6#,&*$)\"\"#\"$F
+\"\"\"\"F(\"\"\"!\"\"" }{TEXT -1 16 ") was prime, and" }}{PARA 0 "" 0 
+"" {TEXT -1 76 "was able to do so by making a remarkable discovery tha
+t marked a revolution " }}{PARA 0 "" 0 "" {TEXT -1 19 "in 'Number Theo
+ry'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "P
+rior to Lucas the way in which a number was shown to be prime was to s
+how " }}{PARA 0 "" 0 "" {TEXT -1 75 "that it did NOT have any factor o
+ther than 1 and itself.  Lucas discovered " }}{PARA 0 "" 0 "" {TEXT 
+-1 26 "that the SPECIAL numbers (" }{XPPEDIT 18 0 "2^p-1;" "6#,&)\"\"#
+%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 9 ") - when " }{TEXT 260 1 "p" }
+{TEXT -1 36 " is an odd prime -  could be proved " }}{PARA 0 "" 0 "" 
+{TEXT -1 29 "to be prime by showing that (" }{XPPEDIT 18 0 "2^p-1;" "6
+#,&)\"\"#%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 42 ") IS a factor of one VE
+RY SPECIAL NUMBER, " }}{PARA 0 "" 0 "" {TEXT -1 34 "whose value DEPEND
+S on the number " }{TEXT 261 1 "p" }{TEXT -1 8 " itself." }}{PARA 0 "
+" 0 "" {TEXT -1 66 "                               ___________________
+________________" }}{PARA 0 "" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 0 "
+" {TEXT -1 62 "            LUCAS' GREAT DISCOVERY (in LEHMER's MODIFIE
+D FORM)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 
+"Let " }{TEXT 262 1 "p" }{TEXT -1 49 " be ANY odd prime number (3, 5, \+
+7, 11, 13, ... )." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 48 "Next, create the following sequence of numbers: " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "4, 14, 19
+4, 37634, 1416317954, 2005956546822746114, " }}{PARA 0 "" 0 "" {TEXT 
+-1 67 "4023861667741036022825635656102100994, ... ... ... ... ... ... \+
+... " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "i
+n which each term - after the first one (4) - is obtained from the pre
+vious one " }}{PARA 0 "" 0 "" {TEXT -1 85 "by 'squaring' it (that is, \+
+multiplying it by itself) and subtracting 2 (so, the '14' " }}{PARA 0 
+"" 0 "" {TEXT -1 3 "is " }{XPPEDIT 18 0 "4^2-2;" "6#,&*$)\"\"%\"\"#\"
+\"\"F(\"\"#!\"\"" }{TEXT -1 15 "; the '194' is " }{XPPEDIT 18 0 "14^2-
+2;" "6#,&*$)\"#9\"\"#\"\"\"F(\"\"#!\"\"" }{TEXT -1 8 "; ... )." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "THEN:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "2^p-1;
+" "6#,&)\"\"#%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 38 " is a PRIME if it I
+S a factor of the (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"
+" }{TEXT -1 33 ")-th term of the above sequence, " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "and" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "2^p-1;" "6#,&)\"\"#%\"p
+G\"\"\"\"\"\"!\"\"" }{TEXT -1 43 " is COMPOSITE if it ISN'T a factor o
+f the (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+32 ")-th term of the above sequence." }}{PARA 0 "" 0 "" {TEXT -1 67 " \+
+                                          ________________________" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "A small e
+xample to show what is involved:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "Take " }{XPPEDIT 18 0 "p = 5;" "6#/%\"pG\"
+\"&" }{TEXT -1 7 "; then " }{XPPEDIT 18 0 "2^p-1 = 2^5-1;" "6#/,&)\"\"
+#%\"pG\"\"\"\"\"\"!\"\",&*$)\"\"#\"\"&F(F(\"\"\"F*" }{TEXT -1 6 " = 31
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Then \+
+" }{XPPEDIT 18 0 "p-1 = 5-1;" "6#/,&%\"pG\"\"\"\"\"\"!\"\",&\"\"&F&\"
+\"\"F(" }{TEXT -1 59 " = 4, and so we need the fourth term of the abov
+e sequence." }}{PARA 0 "" 0 "" {TEXT -1 73 "The fourth term is 37634, \+
+and so we only need to see IF 31 is a factor of" }}{PARA 0 "" 0 "" 
+{TEXT -1 78 "37634.   Performing a simple calculation we find:  37634 \+
+= 31*1214, and so 31 " }}{PARA 0 "" 0 "" {TEXT -1 73 "IS a factor of t
+he fourth term of the above sequence, and so it is PRIME." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "[ One isn't sugges
+ting that one has needed this in order to establish that 31 " }}{PARA 
+0 "" 0 "" {TEXT -1 75 "is prime.  The Eratosthenes approach would esta
+blish it almost instantly. ]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 16 "Another example:" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 5 "Take " }{XPPEDIT 18 0 "p = 7;" "6#/%
+\"pG\"\"(" }{TEXT -1 7 "; then " }{XPPEDIT 18 0 "2^p-1 = 2^7-1;" "6#/,
+&)\"\"#%\"pG\"\"\"\"\"\"!\"\",&*$)\"\"#\"\"(F(F(\"\"\"F*" }{TEXT -1 7 
+" = 127." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+5 "Then " }{XPPEDIT 18 0 "p-1 = 7-1;" "6#/,&%\"pG\"\"\"\"\"\"!\"\",&\"
+\"(F&\"\"\"F(" }{TEXT -1 58 " = 6, and so we need the sixth term of th
+e above sequence." }}{PARA 0 "" 0 "" {TEXT -1 74 "The sixth term is 20
+05956546822746114, and so we only (!!) need to see IF " }}{PARA 0 "" 
+0 "" {TEXT -1 79 "127 is a factor of 2005956546822746114.     Performi
+ng a calculation we find:  " }}{PARA 0 "" 0 "" {TEXT -1 71 "2005956546
+822746114 = 127*15794933439549182, and so 127 IS a factor of " }}
+{PARA 0 "" 0 "" {TEXT -1 58 "the sixth term of the above sequence, and
+ so 127 is PRIME." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 72 "[ Once again, one isn't suggesting that one has needed th
+is in order to " }}{PARA 0 "" 0 "" {TEXT -1 74 "  establish that 127 i
+s prime.  The Eratosthenes approach would establish " }}{PARA 0 "" 0 "
+" {TEXT -1 20 "  it more quickly. ]" }}{PARA 0 "" 0 "" {TEXT -1 70 "  \+
+                                         ___________________________" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "Of cour
+se the terms of the above sequence are getting INCREDIBLY LARGE." }}
+{PARA 0 "" 0 "" {TEXT -1 75 "The following is only intended to give yo
+u some idea as to how quickly they" }}{PARA 0 "" 0 "" {TEXT -1 27 "sta
+rt to have large values:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 171 "show_L_L_sequence:=proc(n)\nlocal a, k, m;\n
+a[1]:=4:\nfor k from 2 to n do\na[k]:=a[k-1]^2 - 2\nod;\nseq(lprint(a[
+m], `is the`, m, `-th term of the L_L sequence`), m=1..n);\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 21 "show_L_L_sequence(7);" }}{PARA 6 "" 1 "" {TEXT -1 
+45 "4   is the   1   -th term of the L_L sequence" }}{PARA 6 "" 1 "" 
+{TEXT -1 46 "14   is the   2   -th term of the L_L sequence" }}{PARA 
+6 "" 1 "" {TEXT -1 47 "194   is the   3   -th term of the L_L sequence
+" }}{PARA 6 "" 1 "" {TEXT -1 49 "37634   is the   4   -th term of the \+
+L_L sequence" }}{PARA 6 "" 1 "" {TEXT -1 54 "1416317954   is the   5  \+
+ -th term of the L_L sequence" }}{PARA 6 "" 1 "" {TEXT -1 63 "20059565
+46822746114   is the   6   -th term of the L_L sequence" }}{PARA 6 "" 
+1 "" {TEXT -1 81 "4023861667741036022825635656102100994   is the   7  \+
+ -th term of the L_L sequence" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "Or, here is a simple pro
+gramme for calculating the number of digits" }}{PARA 0 "" 0 "" {TEXT 
+-1 48 "that each term of the Lucas-Lehmer sequence has:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 198 "digits_in_L_L
+_numbers:=proc(n)\nlocal a, k, m;\na[1]:=4:\nfor k from 2 to n do\na[k
+]:=a[k-1]^2 - 2\nod;\nseq(lprint(`the`, m, `-th term of the L_L sequen
+ce has`, \n   length(a[m]), `digits`), m=1..n);\nend:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "digits_in_L_L_numbers(16);" }}{PARA 6 "" 1 "" {TEXT 
+-1 55 "the   1   -th term of the L_L sequence has   1   digits" }}
+{PARA 6 "" 1 "" {TEXT -1 55 "the   2   -th term of the L_L sequence ha
+s   2   digits" }}{PARA 6 "" 1 "" {TEXT -1 55 "the   3   -th term of t
+he L_L sequence has   3   digits" }}{PARA 6 "" 1 "" {TEXT -1 55 "the  \+
+ 4   -th term of the L_L sequence has   5   digits" }}{PARA 6 "" 1 "" 
+{TEXT -1 56 "the   5   -th term of the L_L sequence has   10   digits
+" }}{PARA 6 "" 1 "" {TEXT -1 56 "the   6   -th term of the L_L sequenc
+e has   19   digits" }}{PARA 6 "" 1 "" {TEXT -1 56 "the   7   -th term
+ of the L_L sequence has   37   digits" }}{PARA 6 "" 1 "" {TEXT -1 56 
+"the   8   -th term of the L_L sequence has   74   digits" }}{PARA 6 "
+" 1 "" {TEXT -1 57 "the   9   -th term of the L_L sequence has   147  \+
+ digits" }}{PARA 6 "" 1 "" {TEXT -1 58 "the   10   -th term of the L_L
+ sequence has   293   digits" }}{PARA 6 "" 1 "" {TEXT -1 58 "the   11 \+
+  -th term of the L_L sequence has   586   digits" }}{PARA 6 "" 1 "" 
+{TEXT -1 59 "the   12   -th term of the L_L sequence has   1172   digi
+ts" }}{PARA 6 "" 1 "" {TEXT -1 59 "the   13   -th term of the L_L sequ
+ence has   2343   digits" }}{PARA 6 "" 1 "" {TEXT -1 59 "the   14   -t
+h term of the L_L sequence has   4686   digits" }}{PARA 6 "" 1 "" 
+{TEXT -1 59 "the   15   -th term of the L_L sequence has   9371   digi
+ts" }}{PARA 6 "" 1 "" {TEXT -1 60 "the   16   -th term of the L_L sequ
+ence has   18742   digits" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "To tackle the question of de
+ciding on the primality of (" }{XPPEDIT 18 0 "2^127-1;" "6#,&*$)\"\"#
+\"$F\"\"\"\"F(\"\"\"!\"\"" }{TEXT -1 16 ") by using this " }}{PARA 0 "
+" 0 "" {TEXT -1 81 "test would mean that one would need the 126-th ter
+m of the Lucas-Lehmer sequence." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 58 "The number of digits in THAT number is ST
+UPENDOUSLY LARGE." }}{PARA 0 "" 0 "" {TEXT -1 71 "As you can see - and
+ it is easy to explain why it happens - the number " }}{PARA 0 "" 0 "
+" {TEXT -1 70 "of digits doubles (almost) every time you move on from \+
+one term of the" }}{PARA 0 "" 0 "" {TEXT -1 70 "Lucas-Lehmer sequence \+
+to the next.  Thus the number of digits that the" }}{PARA 0 "" 0 "" 
+{TEXT -1 47 "126-th. term would have would be APPROXIMATELY:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "8742*2^11
+0;   # doubling the '18742', one hundred and ten times" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 79 "Even just to write out a number having that number of digits - \+
+at, let us say, " }}{PARA 0 "" 0 "" {TEXT -1 80 "one digit per second \+
+- would take over 770 thousand, million, million, million, " }}{PARA 
+0 "" 0 "" {TEXT -1 81 "million years.   [ I leave it as a simple arith
+metical exercise for you to check " }}{PARA 0 "" 0 "" {TEXT -1 77 "on \+
+that, at 3600 seconds per hour, 24 hours per day, and 365 days per yea
+r. ]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "A
+nd even if one wrote really quickly - at, let us say, one million digi
+ts per second " }}{PARA 0 "" 0 "" {TEXT -1 73 "- it would still take o
+ver 770 thousand, million, million, million years." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "[ Compare that with the a
+ge of the Universe, which is variously estimated at " }}{PARA 0 "" 0 "
+" {TEXT -1 44 "  between 10 billion and 20 billion years. ]" }}{PARA 
+0 "" 0 "" {TEXT -1 71 "                                 ______________
+________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 75 "                                         You are (
+I hope) surely wondering:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 42 "HOW did Lucas establish the primality of (" }
+{XPPEDIT 18 0 "2^127-1;" "6#,&*$)\"\"#\"$F\"\"\"\"F(\"\"\"!\"\"" }
+{TEXT -1 19 ") when the numbers " }}{PARA 0 "" 0 "" {TEXT -1 68 "invol
+ved are so incredibly large (AND he only had paper and pencil)?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "He did so
+ by using a standard technique called 'modular arithmetic'- well " }}
+{PARA 0 "" 0 "" {TEXT -1 70 "known to anyone who has made a rudimentar
+y study of 'Number Theory' - " }}{PARA 0 "" 0 "" {TEXT -1 86 "and it i
+s my aim to convey to you just the GIST of what that involves in this \+
+context." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+80 "I will do so by looking at a very early example of the test; in fa
+ct an example " }}{PARA 0 "" 0 "" {TEXT -1 22 "you have already seen:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Take \+
+" }{XPPEDIT 18 0 "p = 5;" "6#/%\"pG\"\"&" }{TEXT -1 7 "; then " }
+{XPPEDIT 18 0 "2^p-1 = 2^5-1;" "6#/,&)\"\"#%\"pG\"\"\"\"\"\"!\"\",&*$)
+\"\"#\"\"&F(F(\"\"\"F*" }{TEXT -1 6 " = 31." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "Also, " }{XPPEDIT 18 0 "p-1 = 5-
+1;" "6#/,&%\"pG\"\"\"\"\"\"!\"\",&\"\"&F&\"\"\"F(" }{TEXT -1 59 " = 4,
+ and so we need the fourth term of the above sequence." }}{PARA 0 "" 
+0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 73 "The fourth term i
+s 37634, and so we only need to see IF 31 is a factor of" }}{PARA 0 "
+" 0 "" {TEXT -1 81 "37634.   Performing a simple calculation we find: \+
+ 37634 = 31*1214, and so 31    " }}{PARA 0 "" 0 "" {TEXT -1 73 "IS a f
+actor of the fourth term of the above sequence, and so it is PRIME." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "There we
+ ACTUALLY worked out the value of the 4-th. term of the Lucas-Lehmer \+
+" }}{PARA 0 "" 0 "" {TEXT -1 82 "sequence, and it came to 37634.  One \+
+of the central ideas of 'modular arithmetic' " }}{PARA 0 "" 0 "" 
+{TEXT -1 83 "allows us to circumvent its actual calculation, by making
+ the following SIMPLE but " }}{PARA 0 "" 0 "" {TEXT -1 34 "INCREDIBLY \+
+IMPORTANT observations:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 79 "The 3rd. term of the L-L sequence is 194, and the 4t
+h. term is obtained from it" }}{PARA 0 "" 0 "" {TEXT -1 49 "by squarin
+g it, and subtracting 2 (giving 37634)." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 44 "But, instead of doing that, one can \+
+do this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+53 "DON'T actually multiply 194 by 194.   RATHER do this:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "FIRST, divide 194 \+
+by 31, to see how many times it 'goes', and note what's " }}{PARA 0 "
+" 0 "" {TEXT -1 12 "'left over':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 67 "194 = 31*6 + 8  (the '6' is the number of
+ times '31 goes into 194, " }}{PARA 0 "" 0 "" {TEXT -1 63 "           \+
+                  and the '8' is what's 'left over')" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "NOW (and I'll have to e
+xplain this at the board) it follows that the 4th. term" }}{PARA 0 "" 
+0 "" {TEXT -1 69 "of the L-L sequence comes out immediately to have 31
+ as a factor, and" }}{PARA 0 "" 0 "" {TEXT -1 69 "we have been able to
+ establish that WITHOUT having to find the ACTUAL" }}{PARA 0 "" 0 "" 
+{TEXT -1 33 "value of the 4th. term itself.   " }}{PARA 0 "" 0 "" 
+{TEXT -1 69 "                     ____________________________________
+____________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 86 "[Added afterwards: on the day of the lecture I decided on a las
+t minute change of plan" }}{PARA 0 "" 0 "" {TEXT -1 88 "as far as the \+
+above was concerned (I feared it might take too long to explain, and t
+hat " }}{PARA 0 "" 0 "" {TEXT -1 92 "it would lead to time difficultie
+s for me), and the following is what I actually did in the " }}{PARA 
+0 "" 0 "" {TEXT -1 8 "lecture:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 71 "I told my audience that I would show them
+ HOW it was a simple matter to" }}{PARA 0 "" 0 "" {TEXT -1 40 "establi
+sh (for example) that the number " }{XPPEDIT 18 0 "2^8000-1;" "6#,&*$)
+\"\"#\"%+!)\"\"\"F(\"\"\"!\"\"" }{TEXT -1 26 " has 3 as a factor WITHO
+UT" }}{PARA 0 "" 0 "" {TEXT -1 32 "actually calculating the number " }
+{XPPEDIT 18 0 "2^8000-1;" "6#,&*$)\"\"#\"%+!)\"\"\"F(\"\"\"!\"\"" }
+{TEXT -1 35 "!!!  (There were audible gasps from" }}{PARA 0 "" 0 "" 
+{TEXT -1 80 "some people in the audience; it was comforting to hear th
+at sort of reaction, as" }}{PARA 0 "" 0 "" {TEXT -1 52 "it showed real
+ sensitivity to what I was claiming.) " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 65 "I involved my audience in my demonstr
+ation, which went like this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 50 "Me: What remainder does 2 leave when divided by
+ 3?" }}{PARA 0 "" 0 "" {TEXT -1 11 "Several: 2." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "I wrote on the board: " }
+{XPPEDIT 18 0 "2^1;" "6#*$)\"\"#\"\"\"\"\"\"" }{TEXT -1 38 " = 2, leav
+es 2 over when divided by 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 84 "Me: What is 2 to the power of 2, and what remai
+nder does it leave when divided by 3?" }}{PARA 0 "" 0 "" {TEXT -1 35 "
+Several: 4, and the remainder is 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 22 "I wrote on the board: " }{XPPEDIT 18 0 "
+2^2;" "6#*$)\"\"#\"\"#\"\"\"" }{TEXT -1 48 " = 4 = 3*1 + 1, leaves 1 o
+ver when divided by 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 84 "Me: What is 2 to the power of 3, and what remainder \+
+does it leave when divided by 3?" }}{PARA 0 "" 0 "" {TEXT -1 35 "Sever
+al: 8, and the remainder is 2." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 22 "I wrote on the board: " }{XPPEDIT 18 0 "2
+^3;" "6#*$)\"\"#\"\"$\"\"\"" }{TEXT -1 48 " = 8 = 3*2 + 2, leaves 2 ov
+er when divided by 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 84 "Me: What is 2 to the power of 4, and what remainder do
+es it leave when divided by 3?" }}{PARA 0 "" 0 "" {TEXT -1 36 "Several
+: 16, and the remainder is 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 22 "I wrote on the board: " }{XPPEDIT 18 0 "2
+^4;" "6#*$)\"\"#\"\"%\"\"\"" }{TEXT -1 49 " = 16 = 3*5 + 1, leaves 1 o
+ver when divided by 3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 66 "Me: Do you notice anything about the way the remaind
+ers are going?" }}{PARA 0 "" 0 "" {TEXT -1 28 "Several: They go 2, 1, \+
+2, 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "
+Me: And how do you THINK they continue?" }}{PARA 0 "" 0 "" {TEXT -1 
+30 "Several: 2, 1, 2, 1, 2, 1, ..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 76 "Me: You are right, and it is a very simpl
+e mathematical point to prove ... ." }}{PARA 0 "" 0 "" {TEXT -1 41 "An
+d so what remainder do you expect that " }{XPPEDIT 18 0 "2^98;" "6#*$)
+\"\"#\"#)*\"\"\"" }{TEXT -1 29 " will leave on division by 3?" }}
+{PARA 0 "" 0 "" {TEXT -1 11 "Several: 1." }}{PARA 0 "" 0 "" {TEXT -1 
+14 "Me: Good! And " }{XPPEDIT 18 0 "2^191;" "6#*$)\"\"#\"$\">\"\"\"" }
+{TEXT -1 2 " ?" }}{PARA 0 "" 0 "" {TEXT -1 11 "Several: 2." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "Me: And 2^8000?" 
+}}{PARA 0 "" 0 "" {TEXT -1 11 "Several: 1." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "Me: Good!" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "And I wrote on the board:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "     \+
+" }{XPPEDIT 18 0 "2^8000;" "6#*$)\"\"#\"%+!)\"\"\"" }{TEXT -1 52 "    \+
+  =     (some multiple of 3) + 1, and so we have" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "     " }{XPPEDIT 18 0 "2^8000-1;" "6#,&*$)\"\"#\"%+!)\"\"
+\"F(\"\"\"!\"\"" }{TEXT -1 27 " =      some multiple of 3," }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 72 "Me: and so we hav
+e been able to show - WITHOUT ACTUALLY CALCULATING IT -" }}{PARA 0 "" 
+0 "" {TEXT -1 16 "that the number " }{XPPEDIT 18 0 "2^8000-1;" "6#,&*$
+)\"\"#\"%+!)\"\"\"F(\"\"\"!\"\"" }{TEXT -1 19 " has 3 as a factor." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "I put it \+
+to my audience that this SORT of calculation was TYPICAL of the kind o
+f" }}{PARA 0 "" 0 "" {TEXT -1 65 "thing that passed for what is known \+
+as 'modular arithmetic' ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 62 "Having made that simple point to them I c
+ontinued with: ]     " }}{PARA 0 "" 0 "" {TEXT -1 87 "                \+
+                 ___________________________________________          \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "The \+
+following programme merely combines the MATHEMATICAL IDEA" }}{PARA 0 "
+" 0 "" {TEXT -1 70 "of 'modular arithmetic' with computing facility, a
+nd allows us to test" }}{PARA 0 "" 0 "" {TEXT -1 55 "whether or not th
+e number (2^p - 1) is a prime.        " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 154 "Lucas_Lehmer_steps:=proc(p)\nl
+ocal a, M, k, m;\na[1]:=4:   \nM:=2^p - 1:   \nfor k from 2 to p-1 do
+\na[k]:=a[k-1]^2 - 2 mod M   \nod;\nseq(a[m], m=1..p-1); \nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "Lucas_Lehmer_steps(5); # the
+ example already seen" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"%\"#9\"\"
+)\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "The '0' at the \+
+end - in the 4th. term - corresponds to the ACTUAL 4th. term" }}{PARA 
+0 "" 0 "" {TEXT -1 58 "of the Lucas-lehmer sequence being divisible by
+ (2^5 - 1)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 73 "Lucas_Lehmer_steps(7); # the '0' at the end shows tha
+t (2^7 - 1) is prime" }}{PARA 11 "" 1 "" {XPPMATH 20 "6(\"\"%\"#9\"#n
+\"#U\"$6\"\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "Lucas_Le
+hmer_steps(11); # no '0' at the end, and so (2^11 - 1) is COMPOSITE" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6,\"\"%\"#9\"$%>\"$)y\"$,(\"$>\"\"%x=\"
+$S#\"$#G\"%O<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Lucas_Lehm
+er_steps(13); # so 2^13 - 1 is prime" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6.\"\"%\"#9\"$%>\"%q[\"%`R\"%qf\"%d=\"#O\"%%H\"\"%qM\"$G\"\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Lucas_Lehmer_steps(17); # so
+ 2^17 - 1 is prime" }}{PARA 11 "" 1 "" {XPPMATH 20 "62\"\"%\"#9\"$%>\"
+&Mw$\"&*z&*\"'@\">\"\"&zh'\"&XO&\"'=A7\"'?i7\"&!\\q\"&f&p\"&&e**\"&@#y
+\"'f08\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "Lucas_Lehmer
+_steps(19);  # so 2^19 - 1 is prime" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+4\"\"%\"#9\"$%>\"&Mw$\"'n(=#\"'m+^\"'WjQ\"'cJK\"'E&=#\"'ST]\"'pM5\"'1x
+T\"'<uI\"'*)HQ\"'UeF\"&E_)\"'jK_\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 52 "Lucas_Lehmer_steps(23); # here 2^23 - 1 is COMPOSITE
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "68\"\"%\"#9\"$%>\"&Mw$\"(y>.(\"(gO.(
+\"(Hk<\"\"(eLk(\"(V(zJ\"(oZp#\"'DNw\"(e@=%\"(,S+(\"(a9`\"\"(0)))e\"(A1
+9\"\"(J9K%\"(C8/(\"(#RcF\"(]+G\"\"(4Ic'\"(&*y5'" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 52 "Lucas_Lehmer_steps(29); # here 2^29 - 1 is COM
+POSITE" }}{PARA 12 "" 1 "" {XPPMATH 20 "6>\"\"%\"#9\"$%>\"&Mw$\"*KhdU$
+\"*'HM2D\"*-2IL%\")z9M;\")^(3)\\\")hh$z&\"*ZuY6#\")D2Kr\")Z/B\"*\"*sE$
+Q:\"*V9Z<#\"*FkjR#\"*5]kB#\")(>V-*\")$Rut#\"*,ut!\\\")R5WN\"*Uv#RI\"*O
+Xd-#\"*k'=]^\"*Y\"*GI$\"*6#>)[\"\"*u<<l$\"*V%Q(e%" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 73 "And \+
+here is a Lucas-Lehmer confirmation of what Euler had verified by his
+" }}{PARA 0 "" 0 "" {TEXT -1 50 "own refinement of the crude Eratosthe
+nes approach:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "Lucas_Lehmer_steps(31);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6@\"\"%\"#9\"$%>\"&Mw$\"+azJ;9\"*Q3np'\"+>%fs$>\"*-OTD%\"*wU,U)\")
+ECp7\"+A@]W?\"+2(Q%>6\"+q_2!>\"\"+hyv]9\"*Glmx)\"*`Q&3j\"*r7KS*\"*()e*
+H^\"*<7$Hp\"+:ci$)=\"+=dU#*>\"*n#H>s\")%f?s#\"+Ul3q:\"+7/Rw;\"+u;Df6\"
+*lw)>@\"+3n`\"=\"\"&Ob'\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 62 "And the following are th
+e numbers that arise with the number (" }{XPPEDIT 18 0 "2^127-1;" "6#,
+&*$)\"\"#\"$F\"\"\"\"F(\"\"\"!\"\"" }{TEXT -1 2 "):" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "Lucas_Lehmer_step
+s(127);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6jr\"\"%\"#9\"$%>\"&Mw$\"+azJ
+;9\"49huAoacf+#\"F%*45-hlNc#G-O5un;'Q-%\"H6HH>]X5D&**eG^qvA&eH[\"\"GpQ
+P4w&fO7?tMmw@M\"[$z\"\"GC<37YW<+\\-P'*)[fPY-f)\"HP<1bv_ip5>wC+\">`*eZ;
+\"\"G&Ru2Ymv7j*f5Q#Qm!zi(*\\\"HD\"*eh(4mjJi)o:G8h&Ro1;\"GCmJ<%[U\\co\"
+3A:BSY6G%*\"H?^oUZ1=E%e'fKXM#yo2!3\"\"GSwqTpAT&z,b&4lb#H\\M<$\"G)f&HMX
+X8P-&>(e1HJjH]S\"G#*G)yu\"ot%o`([wa_'f5)3%*\"H#o'e+FE(3\\2pyjwke*R\\W
+\"\"G7gMJjjll.L#\\@N?yHb4#\"HU**Q/?\"48zW$\\$fB_,4:*e\"\"G'H2$zmJ#RfpY
+u6Q3()RqG&\"HUG^>!f)G3W=*po=7.'3\\^\"\"GO;@3Xu4@X\"\\BO$*pV*33&*\"G/Lg
+I[#*4CKpH'HXc;bKo\"\"Ghod5Kn\">#=\"e][+=&\\S<]\"HA_0'*ph-7l@`Ok#zjcOV9
+\"H@<oeX^4CDP\\;_!)R*>A38\"HF#)*3Ewf$H)zMOm@O>#H`-\"\"Hn[-UmzV,!)zGz*y
+`e%4^8\"\"Ed()f]<s@\"RaT+`rIYw=)\"Gs!fjI6kw#HU5ue#[nnt))*\"Hx0F]!e`\\^
+3L,O=!fSr::\"\"G\"*[\\y[uY(\\q<sRvJB@K>'\"Hi\\viZ&*pXk'RMnyu>MNA;\"HMa
+'z_')*\\$='f0%3a]))3A#Q\"\"Gi%yO!Q7Og*Gf!GUO$fLVE\"\"H69b_kw\"ffkt9mW)
+*o!\\(y5\"Hl3>N<P*4!o6Ou\\$p.JF^5\"F()*[\"pJJ6N*\\(pv['e_&*)G*\"Gr))QK
+s+&\\%3Mrcc\"*yySaA\"H>(G2.wKFXHsxG/:<GI`9\"F%o4a6IHbp=ZD5%o[fS)H\"Gt
+\"G[p=nko74(49(R(GAdP\"H6v%H\"RJH@h)=\"o478QQ'y8\"G(e\\&pcF&)4%4ng(>q_
+Q9&p&\"G\"=qr6%fCR#G0Y@#)\\(RbUL\"HsmcG-?*GA1HxiDIIsKq5\"GB'*zX>Zfoqen
+R\"[w0Q`P&\"GP]c<(\\,51)=^'H%**)Q6*4Z\"G1!yc^cQvn')>KYP`!=Df**\"G,0())
+G1Zb)\\gxP,M0?VEr\"GDN-wQ?-\")Go5[^i-#e.L*\"Hp*4e*31pk.)fce#y1L(G-7\"H
+V;<a!3weX3H*y,i')[?.=\"\"FAS*f1byDN>3)o(z\"4()4l#\"Hi&=,)znUwV%)Gf$*>*
+*>f9X\"\"GmHzn$ed`-d,%[g`&yK(*H'\"Gn2'35wh7Cf&\\qDmi!o)4$)\"GsPUgUgjXf
+H'*eM07XF5Z\"GwhDM[Z$e2#fr\"zSnv.'3B\"F=#\\-q.)p0N-b3`V%R!*[;\"HU__)=h
+y5+AO$)e7X9%>+Y\"\"Gx-zx/Ff))*z;0S'o([bs!e\"G`K3p=X+5\"ejkxxAU(R=&)\"F
+NkC\"p\\5^HHg#>o`\"[uy@\"HRU_6'[kNS^,$[4Wn;+lU\"\"H^x:UmHL8VR^@!3CIH!=
+J\"\"G\"o!)>1S!f&)zn,>#pz4S'zB\"G]>Pf&=n/0E$z02Hm@8p%*\"Gh^tb9$e6^b&y$
+)f\"*HDJ'*G\"HS'eP$*zL%*\\42Vp^v'\\^9^\"\"GV^,$45/!*z_GXoc\\2>%Rw\"G`x
+!zZAIwTy(QV4(Gp.Dx%\"HwvL7&HTl\"RlQ1fwCMDJ/\"\"GC.QHLB&G3,x@(f$>(fe%*=
+\"H`H4h-#)*o!eiC,2Uy;T\\k\"\"Gm&y69V#zO^\"[^qW/9V7$>\"G-k\"o+=ieQr;(fv
+2>GltF\"F0[\\k.zg>K,bS5+/Y,I#\"H)oFIS\"*y[E&[,(3E\"o2<n[\"\"GFzN_n3LI3
+(3]j#pfW'*oW\"H:NQV+z(fF&f@%*Q#=#=DD9\"\"H:AWe0)>qOJl$G'Q<ywZB8\"Gi(fN
+K=BKxr9]D'=Xl\")*G)\"G8/v-Bfg*p,&3$[Sk?`]D)\"GR.)H+2>M?lEIb^)*)fIkv\"H
+Heiz*egCGl.q%)GUh)H)R7\"GX[XmD%f[d3Fgvp`V*=D#)\"HKtUj:J'*=O/&Ge:7l*HhQ
+\"\"GaX*3[u^r'HdMox+BU/6Q\"H*yz\"fp<I>!43R['*e()3C)R\"\"G^y3!>TA#R)*)o
+zG(y-$>%Q\"*\"H^g_mjOeI].>O\"4Pmm?&p\"\"HW-F<1iPr$fZS)RhFx_-p\"\"Gf\\9
+-3_j#RF^g`gzcend(\"G(34NcpQW_bUu&HVrZi&*\\\"ESbJh&Q.dku$)z2)[+!p$=\"He
+`$e/1HhQx;`&R'HE#Qqj\"\"HnI\")pW>f)zu9')3(4\"fW#3p\"\"FBS<&>lFk#QT^'ye
+m:<:W\"Hl\"RBbs\\MR&pNC%=x<Af+6\"Fw>qsx([s6b*Qz`h()[T1&\"G&*=B![P%>1c!
+[**phX7()Rj#\"G,6AO#)3KU<GURUJQE)e?*\"Gurl\"fs&zRTr,.k#G*H&e`#\"GL>w'y
+vGO%\\W5H'p.:h\"Rd\"F*fr??G#\\?ZtP#ocw*3%GY\"GLQPcVEmy%G$=>v6o+%))G'\"
+GkN***=(z/dZ%=r'3.m\"zaM)\"H<0eGUd(>;6FF+y)y/TUM\"\"G%4x!e&G'[))zk^Cqc
+O!y)*e\"\"HY8$3nxW?/'=OGz*eB&R8e\"\"FLhKi<WP**\\;M;\">Rl]@n\"EY]mTM&Q`
+malU#=)zVf#))\"H,u-5-1&GHfPVA*)QR^D>;\"GgohvUw!)fix%Qo?fS)*4.)\"H[Mk]]
+w/i5-a#=J.6Fh56\"F.h'*e$z\"yS%=+(f*)3a!=+$)\"HvAtP_>zg*3G*RU4&yO:D8\"G
+x`U],)oZ>id5sS:)4U'o%\"G?$353Mm6?EU<(zCwTmO^\"Hu\\/1:r6\"4(fsD!>]&[yzU
+\"\"Gl1?7%*[JLF_\"f=>)32jn()\"5;;b4P2WnW=\"\"!" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 67 "I can modify the above programme so that \+
+it only shows the ULTIMATE" }}{PARA 0 "" 0 "" {TEXT -1 8 "outcome:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 302 "Lu
+cas_Lehmer:=proc(p)\nlocal a, M, k, m;\na[1]:=4:   \nM:=2^p - 1:   \nf
+or k from 2 to p-1 do\na[k]:=a[k-1]^2 - 2 mod M   \nod;\nif a[p-1] mod
+ M = 0\nthen lprint(`when p equals`, p, `then 2^p - 1 equals`, M, `and
+ is prime`)\nelse lprint(`when p equals`, p, `then 2^p - 1 equals`, M,
+ `and is COMPOSITE`)\nfi;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Lucas_Lehmer(13)
+;" }}{PARA 6 "" 1 "" {TEXT -1 62 "when p equals   13   then 2^p - 1 eq
+uals   8191   and is prime" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+17 "Lucas_Lehmer(11);" }}{PARA 6 "" 1 "" {TEXT -1 66 "when p equals   \+
+11   then 2^p - 1 equals   2047   and is COMPOSITE" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 18 "Lucas_Lehmer(127);" }}{PARA 6 "" 1 "" 
+{TEXT -1 98 "when p equals   127   then 2^p - 1 equals   1701411834604
+69231731687303715884105727   and is prime" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "Lucas_Lehmer(113);" }}{PARA 6 "" 1 "" {TEXT -1 98 "
+when p equals   113   then 2^p - 1 equals   10384593717069655257060992
+658440191   and is COMPOSITE" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "                                                         \+
+ THE END." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+80 "Added afterwards: I emphasised the incredible dedication of Lucas \+
+in determining" }}{PARA 0 "" 0 "" {TEXT -1 18 "the primality of (" }
+{XPPEDIT 18 0 "2^127-1;" "6#,&*$)\"\"#\"$F\"\"\"\"F(\"\"\"!\"\"" }
+{TEXT -1 55 ") by hand; what a lonely occupation it had been; how a " 
+}}{PARA 0 "" 0 "" {TEXT -1 83 "SINGLE slip in his calculations would h
+ave completely undermined all his work ... ." }}{PARA 0 "" 0 "" {TEXT 
+-1 76 "This was something that seemed to make a great impression on se
+veral members" }}{PARA 0 "" 0 "" {TEXT -1 16 "of the audience." }}}}
+{MARK "9 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

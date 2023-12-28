@@ -1,0 +1,198 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 3 0 3 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE 
+"" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 3 0 
+3 0 2 2 0 1 }{PSTYLE "" 0 257 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "# a^((n-1)/2) = -1 (
+mod n).mws" }}}{EXCHG {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 256 43 "A
+ (sort of) background to Proth's theorem (" }{TEXT 277 18 "Euler pseud
+oprimes" }{TEXT 278 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 176 "Our starting point is that the (most obvious) con
+verse of Fermat's little theorem is simply not true, and here I assume
+ that we have been over that debate many times already..." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "But, how about som
+ething like this: Fermat's little theorem tells us that for " }{TEXT 
+257 1 "n" }{TEXT -1 12 " prime, and " }{TEXT 258 1 "a" }{TEXT -1 13 " \+
+an integer (" }{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (
+mod " }{TEXT 259 1 "n" }{TEXT -1 12 ")), we have " }{XPPEDIT 18 0 "a^(
+n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"F(!\"\"F(" }{TEXT -1 6 " (mod " }
+{TEXT 260 1 "n" }{TEXT -1 26 "). And from that, for odd " }{TEXT 261 
+1 "n" }{TEXT -1 10 ", follows:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 256 "" 0 "" {XPPEDIT 18 0 "(a^((n-1)/2)-1)*(a^((n-1)/2)+1) = 0;
+" "6#/*&,&)%\"aG*&,&%\"nG\"\"\"F+!\"\"F+\"\"#F,F+F+F,F+,&)F'*&,&F*F+F+
+F,F+F-F,F+F+F+F+\"\"!" }{TEXT -1 6 " (mod " }{TEXT 262 1 "n" }{TEXT 
+-1 2 ")," }}{PARA 0 "" 0 "" {TEXT -1 7 "giving:" }}{PARA 256 "" 0 "" 
+{XPPEDIT 18 0 "a^((n-1)/2) = 1;" "6#/)%\"aG*&,&%\"nG\"\"\"F)!\"\"F)\"
+\"#F*F)" }{TEXT -1 6 " (mod " }{TEXT 263 1 "n" }{TEXT -1 5 ") or " }
+{XPPEDIT 18 0 "a^((n-1)/2) = -1;" "6#/)%\"aG*&,&%\"nG\"\"\"F)!\"\"F)\"
+\"#F*,$F)F*" }{TEXT -1 6 " (mod " }{TEXT 264 1 "n" }{TEXT -1 1 ")" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "Now, migh
+t the condition " }{XPPEDIT 18 0 "a^((n-1)/2) = 1;" "6#/)%\"aG*&,&%\"n
+G\"\"\"F)!\"\"F)\"\"#F*F)" }{TEXT -1 6 " (mod " }{TEXT 265 1 "n" }
+{TEXT -1 4 ") - " }{TEXT 266 10 "on its own" }{TEXT -1 27 " - be good \+
+enough to force " }{TEXT 267 1 "n" }{TEXT -1 59 " to be prime? Once ag
+ain, clearly not!! For if one chooses " }{TEXT 268 1 "a" }{TEXT -1 4 "
+ to " }{TEXT 269 2 "be" }{TEXT -1 69 " '1', then clearly... . But - on
+e asks - might the choice of '2' for " }{TEXT 270 1 "a" }{TEXT -1 112 
+" be good enough? Once again, the answer is simply 'no', and our old f
+riend, the base 2 pseudoprime 341 shows it:" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 48 "a := 2: n[1] := 341: a&^((n[1] - 1)/2) mod n[1];" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 64 "How, though, \+
+about the other condition: in other words, suppose " }{XPPEDIT 18 0 "a
+^((n-1)/2) = -1;" "6#/)%\"aG*&,&%\"nG\"\"\"F)!\"\"F)\"\"#F*,$F)F*" }
+{TEXT -1 6 " (mod " }{TEXT 271 1 "n" }{TEXT -1 87 "), does n have to b
+e prime? Again the answer is 'no', and the smallest example is 3277:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "a := 2: n[2] := 3277: a&^
+((n[2] - 1)/2) mod n[2];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%wK" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 163 "A well-known Maple command to use (when one wants to han
+dle negative remainders, actually least absolute remainders) is 'mods'
+, as shown by the following examples:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "28 mod 15; mods(28, 15);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 79 "a := 2: n[3] := 257; a&^((n[
+3] - 1)/2) mod n[3]; mods(a&^((n[3] - 1)/2), n[3]);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%\"nG6#\"\"$\"$d#" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 79 "a := 3: n[3] := 257; a&^((n[3] - 1)/2) mod \+
+n[3]; mods(a&^((n[3] - 1)/2), n[3]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>&%\"nG6#\"\"$\"$d#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$c#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 52 "a := 2: n[2] := 3277: mods(a&^((n[2] - 1)/2), n[2]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "This is how
+ one can find examples like the '3277' above:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 121 "a := 2:\nfor n from 3 by 2 to 30000 do\nif ispr
+ime(n) = false and a&^((n-1)/2) mod n = n-1\nthen print(n, ifactor(n))
+\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"%xK*&-%!G6#\"#H\"\"\"-F
+&6#\"$8\"F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"&T$H*(-%!G6#\"#8\"\"
+\"-F&6#\"#PF)-F&6#\"#hF)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "The same, but using the negat
+ive remainder:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 123 "a := 2:
+\nfor n from 3 by 2 to 30000 do\nif isprime(n) = false and mods(a&^((n
+-1)/2), n) = -1\nthen print(n, ifactor(n))\nfi\nod;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$\"%xK*&-%!G6#\"#H\"\"\"-F&6#\"$8\"F)" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6$\"&T$H*(-%!G6#\"#8\"\"\"-F&6#\"#PF)-F&6#\"#hF)" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 123 "a := 3:\nfor n from 3 by 2 to 30000 do\nif isprime
+(n) = false and mods(a&^((n-1)/2), n) = -1\nthen print(n, ifactor(n))
+\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"$.(*&-%!G6#\"#>\"\"\"-F
+&6#\"#PF)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"%\"*=*&-%!G6#\"#J\"\"\"
+-F&6#\"#hF)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"%\"G$*&-%!G6#\"#<\"\"
+\"-F&6#\"$$>F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"%6*)*(-%!G6#\"\"(
+\"\"\"-F&6#\"#>F)-F&6#\"#nF)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"&.C
+\"*&-%!G6#\"#z\"\"\"-F&6#\"$d\"F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"&Jl\"*&-%!G6#\"#h\"\"\"-F&6#\"$r#F)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 123 "a := 5:\nfor n from 3 by 2 to 30000 do\nif isprime(n
+) = false and mods(a&^((n-1)/2), n) = -1\nthen print(n, ifactor(n))\nf
+i\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"%8y*&-%!G6#\"#8\"\"\"-F&6#
+\"$,'F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 123 "a := 6:\nfor n \+
+from 3 by 2 to 30000 do\nif isprime(n) = false and mods(a&^((n-1)/2), \+
+n) = -1\nthen print(n, ifactor(n))\nfi\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"%66*&-%!G6#\"#6\"\"\"-F&6#\"$,\"F)" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$\"%h7*&-%!G6#\"#8\"\"\"-F&6#\"#(*F)" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6$\"%,F*&-%!G6#\"#P\"\"\"-F&6#\"#tF)" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6$\"%*e$*&-%!G6#\"#P\"\"\"-F&6#\"#(*F)" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6$\"&,Z\"*&-%!G6#\"#h\"\"\"-F&6#\"$T#F)" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6$\"&T$H*(-%!G6#\"#8\"\"\"-F&6#\"#PF)-F&6#\"#hF)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 58 "Actually, there's a term related to pseudoprime, and
+ it's " }{TEXT 272 17 "Euler pseudoprime" }{TEXT -1 2 ": " }{TEXT 274 
+1 "n" }{TEXT -1 23 " is said to be a (base " }{TEXT 273 1 "a" }{TEXT 
+-1 23 ") Euler pseudoprime if " }{TEXT 279 1 "n" }{TEXT -1 25 " is com
+posite, and either" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 0 "
+" {TEXT -1 1 " " }{XPPEDIT 18 0 "a^((n-1)/2) = 1;" "6#/)%\"aG*&,&%\"nG
+\"\"\"F)!\"\"F)\"\"#F*F)" }{TEXT -1 6 " (mod " }{TEXT 275 1 "n" }
+{TEXT -1 5 ") or " }{XPPEDIT 18 0 "a^((n-1)/2) = -1;" "6#/)%\"aG*&,&%
+\"nG\"\"\"F)!\"\"F)\"\"#F*,$F)F*" }{TEXT -1 6 " (mod " }{TEXT 276 1 "n
+" }{TEXT -1 1 ")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 201 "a := 2
+:\nfor n from 3 by 2 to 30000 do\nif isprime(n) = false and (mods(a&^(
+(n-1)/2), n) = 1\nor mods(a&^((n-1)/2), n) = -1) # NOTICE THE BRACKETS
+!!\nthen print(mods(a&^((n-1)/2), n), n, ifactor(n))\nfi\nod;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"$T$*&-%!G6#\"#6F#-F'6#\"#JF#" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"$h&*(-%!G6#\"\"$F#-F'6#\"#6F
+#-F'6#\"#<F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%06*(-%!G6#\"
+\"&F#-F'6#\"#8F#-F'6#\"#<F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"
+\"%H<*(-%!G6#\"\"(F#-F'6#\"#8F#-F'6#\"#>F#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"%0>*(-%!G6#\"\"$F#-F'6#\"\"&F#-F'6#\"$F\"F#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%Z?*&-%!G6#\"#BF#-F'6#\"#*)F#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%lC*(-%!G6#\"\"&F#-F'6#\"#
+<F#-F'6#\"#HF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"%xK*&-%!G6#\"
+#H\"\"\"-F'6#\"$8\"F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%LS*&
+-%!G6#\"#PF#-F'6#\"$4\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%
+\"o%*&-%!G6#\"#JF#-F'6#\"$^\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"\"\"%ha*&-%!G6#\"#VF#-F'6#\"$F\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6%\"\"\"\"%,m*(-%!G6#\"\"(F#-F'6#\"#BF#-F'6#\"#TF#" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"\"\"\"%@$)*&-%!G6#\"#`F#-F'6#\"$d\"F#" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"\"\"%\"[)*(-%!G6#\"\"$F#-F'6#\"#6F#-F'6#\"$d
+#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&h-\"*&-%!G6#\"#JF#-F'6
+#\"$J$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&&e5*(-%!G6#\"\"&F
+#-F'6#\"#HF#-F'6#\"#tF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&,G
+\"*(-%!G6#\"\"$F#-F'6#\"#<F#-F'6#\"$^#F#" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"\"\"&4d\"*&-%!G6#\"#BF#-F'6#\"$$oF#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"&Te\"*(-%!G6#\"\"(F#-F'6#\"#JF#-F'6#\"#tF#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&0n\"*(-%!G6#\"\"&F#-F'6#\"#8F
+#-F'6#\"$d#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&0(=**-%!G6#
+\"\"$F#-F'6#\"\"&F#-F'6#\"#HF#-F'6#\"#VF#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"&hd#*(-%!G6#\"\"$F#-F'6#\"#JF#-F'6#\"$x#F#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"&T$H*(-%!G6#\"#8\"\"\"-F'6#\"#P
+F*-F'6#\"#hF*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 217 "a := 3:\n
+for n from 3 by 2 to 30000 do\nif isprime(n) = false and (mods(a&^((n-
+1)/2), n) = 1\nor mods(a&^((n-1)/2), n) = -1) # NOTICE THE BRACKETS AF
+TER THE 'AND'!!\nthen print(mods(a&^((n-1)/2), n), n, ifactor(n))\nfi
+\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"$@\"*$)-%!G6#\"#6\"\"
+#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"$.(*&-%!G6#\"#>\"\"\"-F'
+6#\"#PF*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%T:*&-%!G6#\"#BF#-
+F'6#\"#nF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%H<*(-%!G6#\"\"(
+F#-F'6#\"#8F#-F'6#\"#>F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"%\"
+*=*&-%!G6#\"#J\"\"\"-F'6#\"#hF*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"\"\"%lC*(-%!G6#\"\"&F#-F'6#\"#<F#-F'6#\"#HF#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"%@G*(-%!G6#\"\"(F#-F'6#\"#8F#-F'6#\"#JF#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"%\"G$*&-%!G6#\"#<\"\"\"-F'6#\"$
+$>F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%h\\*&)-%!G6#\"#6\"\"#
+F#-F(6#\"#TF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%\"Q(*&)-%!G6
+#\"#6\"\"#F#-F(6#\"#hF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"%,%
+)*&-%!G6#\"#JF#-F'6#\"$r#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"
+%6*)*(-%!G6#\"\"(\"\"\"-F'6#\"#>F*-F'6#\"#nF*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"&&e5*(-%!G6#\"\"&F#-F'6#\"#HF#-F'6#\"#tF#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"\"&.C\"*&-%!G6#\"#z\"\"\"-F'6#\"$
+d\"F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&da\"*(-%!G6#\"#8F#-F
+'6#\"#HF#-F'6#\"#TF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&Te\"*
+(-%!G6#\"\"(F#-F'6#\"#JF#-F'6#\"#tF#" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6%!\"\"\"&Jl\"*&-%!G6#\"#h\"\"\"-F'6#\"$r#F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"&@(=*&-%!G6#\"#(*F#-F'6#\"$$>F#" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"\"\"\"&X$>*(-%!G6#\"\"&F#-F'6#\"#`F#-F'6#\"#tF#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&@N#*&-%!G6#\"#VF#-F'6#\"$
+Z&F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&hY#*(-%!G6#\"\"(F#-F'
+6#\"#8F#-F'6#\"$r#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&4!G*&
+-%!G6#\"#PF#-F'6#\"$d(F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"&T
+$H*(-%!G6#\"#8F#-F'6#\"#PF#-F'6#\"#hF#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 30 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

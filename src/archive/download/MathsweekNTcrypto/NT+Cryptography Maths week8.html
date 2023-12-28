@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>NT+Cryptography Maths week.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark8">
+<p align=left>
+<b><font color=#000080 size=5>Cryptography, private and public-key. A </font></b>
+<i><b><font color=#000080 size=5>limited</font></b></i>
+<b><font color=#000080 size=5> aim</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Everyone has some rough idea that 'cryptography' is about disguising (encrypting) and recovering (decrypting) secret comminucation. It is used by governments, the military, big business, drugs barons, citizens, ... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A completely trivial - but nevertheless instructive - example to bear in mind is the so-called </font></b>
+<i><b><font color=#000080 size=4>Caesar method</font></b></i>
+<b><font color=#000080 size=4> (evidently used by Julius Caesar): replace the intended text with a disguised text where every letter has been shifted 3 places cyclically in the alphabet. One receipt of the encrypted message one recovers the original message by shifting backwards by 3 letters. </font></b>
+<b><font color=#000080 size=4>Thus </font></b>
+<i><b><font color=#000080 size=4>zebra </font></b></i>
+<b><font color=#000080 size=4>encrypts</font></b>
+<i><b><font color=#000080 size=4> </font></b></i>
+<b><font color=#000080 size=4>to</font></b>
+<i><b><font color=#000080 size=4> cheud</font></b></i>
+<b><font color=#000080 size=4>, which in turn</font></b>
+<i><b><font color=#000080 size=4> </font></b></i>
+<b><font color=#000080 size=4>decrypts to</font></b>
+<i><b><font color=#000080 size=4> zebra</font></b></i>
+<b><font color=#000080 size=4>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Before 1977 one needed to keep the encryption method secret ('</font></b>
+<i><b><font color=#000080 size=4>private</font></b></i>
+<b><font color=#000080 size=4>') otherwise an 'enemy' who intercepted/eavesdropped the encrypted message could recover the original message.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>T</font></b>
+<b><font color=#000080 size=4>hen, in 1977, a </font></b>
+<i><b><font color=#000080 size=4>revolution</font></b></i>
+<b><font color=#000080 size=4> occured: the </font></b>
+<i><b><font color=#000080 size=4>theoretical idea</font></b></i>
+<b><font color=#000080 size=4> of public-key cryptography - proposed by Diffie and Hellman in 1976 (in a nutshell they asked for an encryption method of such a nature that </font></b>
+<i><b><font color=#000080 size=4>even if one knew</font></b></i>
+<b><font color=#000080 size=4> how the message had been encrypted, </font></b>
+<i><b><font color=#000080 size=4>one could not decrypt </font></b></i>
+<b><font color=#000080 size=4>the intercepted message in a reasonable time: many years) - became a </font></b>
+<i><b><font color=#000080 size=4>reality</font></b></i>
+<b><font color=#000080 size=4> within one year, with the work of Rivest, Shamir and Adelman.<br>
+<br>
+I quote from David Kahn's PREFACE [1996] TO THE REVISED EDITION of his </font></b>
+<i><b><font color=#000080 size=4>The Codebreakers</font></b></i>
+<b><font color=#000080 size=4>:  </font></b>
+<i><b><font color=#000080 size=4>"The need to revise this book existed even before it was published on September 27, 1967. I had written what I hoped would be the definitive history of the subject. I did not know at the time of such great matters as the Polish-British-American mastery of the German Enigma cipher machine, which had such great effects on World Was II... Nor did I - or anyone else - know of things that had not yet been invented, such as public-key cryptography."</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A </font></b>
+<i><b><font color=#000080 size=4>painting</font></b></i>
+<b><font color=#000080 size=4> image that I use: Alice and Bob wish to communicate, and do so by using a paint and its related paint remover. Alice writes her message on a sheet, paints it over (encrypts), sends the painted sheet to Bob, who then removes the disguising paint using a coat of paint remover, and reads the underlying message. Clasically, Alice and Bob needed to keep their paints </font></b>
+<i><b><font color=#000080 size=4>secret</font></b></i>
+<b><font color=#000080 size=4> (this is the essence of private-key cryptography), in the sense that some ill-minded chemist, having access to one of the paints, </font></b>
+<i><b><font color=#000080 size=4>could</font></b></i>
+<b><font color=#000080 size=4> somehow manufacture the second.<br>
+<br>
+In terms of that simple image, what Diffie-Hellman were asking for in 1976 - in terms of Alice and Bob - was this: could one create (and vary from time-to-time) paints </font></b>
+<i><b><font color=#000080 size=4>public_Alice</font></b></i>
+<b><font color=#000080 size=4> ('public' in the sense that Alice </font></b>
+<i><b><font color=#000080 size=4>doesn't</font></b></i>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080 size=4>care</font></b></i>
+<b><font color=#000080 size=4> who has access to it) and </font></b>
+<i><b><font color=#000080 size=4>private_Alice</font></b></i>
+<b><font color=#000080 size=4> ('private' in the sense that only Alice has access to it) with these two properties:<br>
+<br>
+1. A</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>surface painted with </font></b>
+<i><b><font color=#000080 size=4>private_Alice</font></b></i>
+<b><font color=#000080 size=4> (disguising the surface), and subsequently painted over with paint removing </font></b>
+<i><b><font color=#000080 size=4>public_Alice</font></b></i>
+<b><font color=#000080 size=4>, restores the original surface (and vice-versa, although I will not pursue that here).</font></b>
+<i><b><font color=#000080 size=4><br>
+<br>
+</font></b></i>
+<b><font color=#000080 size=4>2. No ill-minded chemist </font></b>
+<b><font color=#000080 size=4>can </font></b>
+<i><b><font color=#000080 size=4>realistically</font></b></i>
+<b><font color=#000080 size=4> (meaning: in years, say) manufacture </font></b>
+<i><b><font color=#000080 size=4>private_Alice</font></b></i>
+<b><font color=#000080 size=4> from </font></b>
+<i><b><font color=#000080 size=4>public_Alice.</font></b></i>
+<b><font color=#000080 size=4><br>
+<br>
+Note that in this simplified picture I have </font></b>
+<i><b><font color=#000080 size=4>ignored</font></b></i>
+<b><font color=#000080 size=4> the possibility that an ill-minded interceptor could also read Alice's message if s/he had access to Alice's public paint; I am concentrating </font></b>
+<i><b><font color=#000080 size=4>solely</font></b></i>
+<b><font color=#000080 size=4> on the verification that Alice is/was the author of the her message (in the 'real world' this requires the use of 'certification authorities'...)<br>
+<br>
+</font></b>
+<b><font color=#000080>I</font></b>
+<b><font color=#000080 size=4>n my 1998 Clinton-Ahern public lecture - with more time on hand - I illustrated how two parties may securely comminucate with each other using public-key cryptography. 'Securely' meaning that Alice and Bob may communicate with each other, knowing with </font></b>
+<i><b><font color=#000080 size=4>certainty</font></b></i>
+<b><font color=#000080 size=4> that they </font></b>
+<i><b><font color=#000080 size=4>are</font></b></i>
+<b><font color=#000080 size=4> each other, and that no ill-intentioned eaves-dropper may determine the content of their messages in a reasonable time... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>In my Chicago (2003) my more modest aim was to illustrate how one party (Alice) may comminucate with another (Bob), so that Bob may </font></b>
+<i><b><font color=#000080 size=4>feel certain</font></b></i>
+<b><font color=#000080 size=4> that the received message </font></b>
+<i><b><font color=#000080 size=4>really has come</font></b></i>
+<b><font color=#000080 size=4> from Alice (she using her </font></b>
+<i><b><font color=#000080 size=4>digital signature</font></b></i>
+<b><font color=#000080 size=4>). <br>
+<br>
+(I leave it to you to ponder how Alice and Bob may securely communicate with each other so that both may know with certainty that each is the other, and no ill-intentioned eaves-dropper may determine the content of their messages in a reasonable time... You will find the details in my original, longer Clinton-Ahern talk.)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>In this Nov. 2006 talk my aim is simply to illustrate a private-key cryptographic method known as the Pohlig-Hellman method.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4> </font></b>
+</p>
+</basefont>
+</body>
+</html>

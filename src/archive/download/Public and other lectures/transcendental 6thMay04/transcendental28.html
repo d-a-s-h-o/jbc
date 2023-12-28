@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark28">
+<p align=left>
+<b><font color=#000080 size=4>Kurt Mahler (1903-1988)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Mahler contributed many, many beautiful results to transcendence theory. He also formulated his famous A-, S-, T-, U-classification of real and complex numbers, and proved that almost every real or complex number is an S-number. I can't remember where I read that he used 'S' as a tribute to Siegel (can anyone confirm that?), and simply used 'T' and 'U' since they follow alphabetically! 'A', of course, is for </font></b>
+<i><b><font color=#000080>algebraic</font></b></i>
+<b><font color=#000080>. Originally I had quite a bit typed up of his classification - especially on its motivation - but in a bad moment I removed it, as I could see no end in sight.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    So, just some of Mahler's results, and I begin with one - from 1937 - which is often mentioned, possibly because it is so eye-catching: the infinite decimal 0.1 2 3 4 5 6 7 8 9 10 11 12 13... is transcendental (can you see why it is certainly irrational?). Actually Mahler's full theorem is that if f(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>) is any non-constant polynomial such that f(1), f(2), f(3), ... are all natural numbers, then the decimal formed by concatenation of those values is transcendental. The result is true, in fact, not just in base 10, but in any base 2, 3, 4, ... . </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Msee := proc(f, r) local a, k; a[1]:=f(1):<br>
+for k from 2 to r do a[k]:=a[k-1]*10^length(f(k))+f(k)<br>
+od: print(a[r]*`...`); end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Thus, for example, choosing </font></b>
+<img src="images/transcendental743.gif" width=116 height=76 alt="f(x) = x^2/2+x/2" align=middle>
+<b><font color=#000080>, we have that the infinite decimal:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Msee(x -&gt; x^2/2 + x/2, 20);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental744.gif" width=384 height=20 alt="13610152128364555667891105120136153171190210*`...`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>is transcendental by Mahler's theorem. Incidentally the decimal number 0.1 2 3 4 5 6 7 8 9 10 11 12 13... is known as the Mahler-Champernowne number, with C's name incorporated, since it was he who proved in a 1933 paper that the above number is a </font></b>
+<i><b><font color=#000080>normal</font></b></i>
+<b><font color=#000080> number in the base 10.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Many will have heard of the famous Catalan problem (only recently solved): are 8 and 9 the only consecutive </font></b>
+<i><b><font color=#000080>proper</font></b></i>
+<b><font color=#000080> powers? In other words are (</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) = (3, 2, 2, 3) the only solutions of the Diophantine equation </font></b>
+<img src="images/transcendental745.gif" width=102 height=50 alt="x^m-y^n = 1" align=middle>
+<b><font color=#000080> in natural numbers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y,</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, with </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> both greater than 1. That there could be at most a finite number of solutions is a minor consequence (which I leave as an exercise) of the much more substantial:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Mahler's Theorem. Let </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be natural numbers - one of which is at least 2, the other at least 3 - and let </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> be any non-zero integers. Then the greatest prime factor of </font></b>
+<img src="images/transcendental746.gif" width=160 height=50 alt="f(x,y) = a*x^m+b*y^n" align=middle>
+<b><font color=#000080> tends to infinity as max(</font></b>
+<img src="images/transcendental747.gif" width=59 height=32 alt="abs(x), abs(y)" align=middle>
+<b><font color=#000080>) tends to infinity, subject to the restriction that gcd(x, y) = 1. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Note that one does need the </font></b>
+<i><b><font color=#000080>"at least 2, the other at least 3"</font></b></i>
+<b><font color=#000080>, as the example </font></b>
+<img src="images/transcendental748.gif" width=81 height=50 alt="x^2-2*y^2" align=middle>
+<b><font color=#000080> shows (it is '1' infinitely often). Note also the relevance of the </font></b>
+<i><b><font color=#000080>gcd(x, y) = 1</font></b></i>
+<b><font color=#000080> restriction: if, for example, one took </font></b>
+<img src="images/transcendental749.gif" width=143 height=50 alt="f(x,y) = x^3-2*y^3" align=middle>
+<b><font color=#000080> and set </font></b>
+<img src="images/transcendental750.gif" width=71 height=50 alt="x = 5.2^r" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental751.gif" width=70 height=50 alt="y = 4.2^r" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> any natural number), then one would have</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental752.gif" width=210 height=76 alt="f(x,y) = (5.2^r)^3-2*(3.2^r)^3" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental753.gif" width=275 height=58 alt="125.(2^(3*r))-54.(2^(3*r)) = 71.2^(3*r)" align=middle>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>whose largest prime factor (71) remains </font></b>
+<i><b><font color=#000080>static</font></b></i>
+<b><font color=#000080> as </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> is made increasingly large.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Mahler's proof of the latter theorem depended on his own </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>-adic version of the Thue-Siegel theorem.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Mahler's Theorem (1929). Let </font></b>
+<img src="images/transcendental754.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> be any non-zero algebraic number with </font></b>
+<img src="images/transcendental755.gif" width=66 height=32 alt="abs(alpha) &lt; 1" align=middle>
+<b><font color=#000080>, and let </font></b>
+<img src="images/transcendental756.gif" width=28 height=32 alt="omega" align=middle>
+<b><font color=#000080> be any real algebraic number of degree 2, then </font></b>
+<img src="images/transcendental757.gif" width=122 height=80 alt="sum([n*omega]*alpha^n,n = 1 .. infinity)" align=middle>
+<b><font color=#000080> is transcendental (where [</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>] denotes the integral part of </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Mahler's Theorem (1929). Let </font></b>
+<img src="images/transcendental758.gif" width=141 height=80 alt="f(z) = sum(z^(2^n),n = 0 .. infinity)" align=middle>
+<b><font color=#000080> (= </font></b>
+<img src="images/transcendental759.gif" width=161 height=50 alt="1+z^2+z^4+z^8+`...`" align=middle>
+<b><font color=#000080> ), and let </font></b>
+<img src="images/transcendental760.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> be any non-zero </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>algebraic number with </font></b>
+<img src="images/transcendental761.gif" width=66 height=32 alt="abs(alpha) &lt; 1" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental762.gif" width=47 height=32 alt="f(alpha)" align=middle>
+<b><font color=#000080> is transcendental. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>There is a very fine exposition of those two latter results, with many extensions, in a paper by Loxton and van der Poorten in the Baker &amp; Masser 1977 </font></b>
+<i><b><font color=#000080>Proceedings</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:59 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

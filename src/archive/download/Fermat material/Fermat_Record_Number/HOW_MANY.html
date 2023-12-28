@@ -1,0 +1,1098 @@
+<html>
+<head>
+<title>HOW_MANY.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Theme" content="nature 100, default">
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="#FFFFCC" text="#333399" link="#990033" vlink="#006633" alink="#FF6600"><a href="http://www.johnbcosgrave.com">	&lt; Back to johnbcosgrave.com</a><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<a name="MapleAutoBookmark1">
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># how_many.mws</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                             </font></b>
+<b><u><font color="#000080" size="5">How many, how big?</font></u></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Introduction</font></u></b>
+<b><font color="#000080">.  Let </font></b>
+<img src="images/HOW_MANY1.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> be the </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">-th </font></b>
+<i><b><font color="#000080">Fermat number</font></b></i>
+<b><font color="#000080">; that is, let:  </font></b>
+<img src="images/HOW_MANY2.gif" width="127" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> (</font></b>
+<img src="images/HOW_MANY3.gif" width="134" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, ... )</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">This </font></b>
+<i><b><u><font color="#000080">entirely elementary</font></u></b></i>
+<b><font color="#000080"> worksheet is solely concerned with </font></b>
+<b><u><font color="#000080">two questions</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Question #1</font></u></b>
+<b><font color="#000080">.</font></b>
+<i><b><font color="#000080"> How many </font></b></i>
+<b><font color="#000080">digits does </font></b>
+<img src="images/HOW_MANY4.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> have, when expressed in the base 10?<br>
+</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Question #2</font></u></b>
+<b><font color="#000080">. </font></b>
+<i><b><font color="#000080">How big</font></b></i>
+<b><font color="#000080"> (measured in </font></b>
+<i><b><font color="#000080">Light Years</font></b></i>
+<b><font color="#000080">!) a square board would be needed on which to write </font></b>
+<img src="images/HOW_MANY5.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, assuming digits were written at (say) '</font></b>
+<img src="images/HOW_MANY6.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ' <br>
+digits per inch? [in practice </font></b>
+<img src="images/HOW_MANY7.gif" width="57" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> might be a reasonable value, but we will also look at atomic levels, with (say) </font></b>
+<img src="images/HOW_MANY8.gif" width="82" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.]<br>
+<br>
+</font></b>
+<b><u><font color="#000080">and I leave it as an exercise to deal with</font></u></b>
+<b><font color="#000080"><br>
+</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Question #3</font></u></b>
+<b><font color="#000080">. </font></b>
+<i><b><font color="#000080">How long</font></b></i>
+<b><font color="#000080"> (measured in </font></b>
+<i><b><font color="#000080">years</font></b></i>
+<b><font color="#000080">) would it take to write out </font></b>
+<img src="images/HOW_MANY9.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> on the assumption that one wrote the digits of </font></b>
+<img src="images/HOW_MANY10.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> at (say) </font></b>
+<i><b><font color="#000080">'</font></b></i>
+<img src="images/HOW_MANY11.gif" width="24" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ' digits </font></b>
+<b><u><font color="#000080">per second</font></u></b>
+<b><font color="#000080">?</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080" size="4">Question #1: </font></u></b>
+<i><b><u><font color="#000080" size="4">how many</font></u></b></i>
+<b><u><font color="#000080" size="4">?</font></u></b>
+<b><font color="#000080"> Let </font></b>
+<img src="images/HOW_MANY12.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> have </font></b>
+<i><b><font color="#000080">m</font></b></i>
+<b><font color="#000080"> digits, when expressed in the base 10; then:<br>
+                                          </font></b>
+<img src="images/HOW_MANY13.gif" width="179" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> &lt; </font></b>
+<img src="images/HOW_MANY14.gif" width="45" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">In fact - since </font></b>
+<img src="images/HOW_MANY15.gif" width="179" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is clearly impossible (one is even, the other odd) - we have: </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                                          </font></b>
+<img src="images/HOW_MANY16.gif" width="150" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> &lt; </font></b>
+<img src="images/HOW_MANY17.gif" width="45" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Taking logarithms to the base 10, we have: </font></b>
+<img src="images/HOW_MANY18.gif" width="158" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> &lt; </font></b>
+<img src="images/HOW_MANY19.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">,</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and so: </font></b>
+<img src="images/HOW_MANY20.gif" width="172" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">where </font></b>
+<img src="images/HOW_MANY21.gif" width="38" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> is the '</font></b>
+<i><b><font color="#000080">integer part of  </font></b></i>
+<b><font color="#000080">'</font></b>
+<i><b><font color="#000080"> </font></b></i>
+<b><font color="#000080">mathematical function, which in </font></b>
+<b><u><font color="#000080">Maple</font></u></b>
+<b><font color="#000080"> goes by the name of '</font></b>
+<i><b><font color="#000080">floor</font></b></i>
+<b><font color="#000080"> '. Thus in Maple notation '</font></b>
+<i><b><font color="#000080">m</font></b></i>
+<b><font color="#000080">' is given by:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                                        </font></b>
+<b><font color="#000080">floor(2^n*log[10](2)) + 1</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Let's look at some calculations</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F := n -&gt; 2^(2^n) + 1;  # defining 'F' as a function</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY22.gif" width="156" height="41" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(F(n), n=0..5); # the first 6 Fermat numbers</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY23.gif" width="232" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(F(19)); # F(19) is big:</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY24.gif" width="64" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(F(20)); # F(20) </font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY25.gif" width="64" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(F(21)); # as one would expect:</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#FF00FF">Error, (in F) object too large</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">And that's </font></b>
+<i><b><font color="#000080">only</font></b></i>
+<b><font color="#000080"> </font></b>
+<img src="images/HOW_MANY26.gif" width="43" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">!!  But we will later be examining </font></b>
+<img src="images/HOW_MANY27.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">!!!!</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Question</font></u></b>
+<b><font color="#000080">. How can one do this?</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Answer</font></u></b>
+<b><font color="#000080">. </font></b>
+<i><b><u><font color="#000080">Simply by</font></u></b></i>
+<b><font color="#000080"> working with an approximate decimal value for </font></b>
+<img src="images/HOW_MANY28.gif" width="74" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, </font></b>
+<i><b><u><font color="#000080">and not</font></u></b></i>
+<b><font color="#000080"> compute explicit computation of actual values of </font></b>
+<img src="images/HOW_MANY29.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say1 := proc(n) <br>
+lprint(`The ACTUAL NUMBER ('m') of base <br>
+10 digits in the`,n,`-th. Fermat number is`, <br>
+floor((2^n)*log[10](2.0)) + 1)<br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><u><font color="#000080">Some comparative examples</font></u></b>
+<b><font color="#000080"> (</font></b>
+<b><u><font color="#000080">Note</font></u></b>
+<b><font color="#000080">: I have placed the comment sign '#' immediately before the command to prevent output, and to save space in this worksheet. All you have to do if you are interested is:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">first delete the '#' </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">then go to File and Save as a precaution </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and then execute the command<br>
+</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># length(2^(2^19) + 1);</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say1(19);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The ACTUAL NUMBER ('m') of base <br>
+10 digits in the   19   -th. Fermat number is   157827</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(2^(2^21) + 1);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#FF00FF">Error, object too large</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say1(21);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The ACTUAL NUMBER ('m') of base <br>
+10 digits in the   21   -th. Fermat number is   631306</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say1(200);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The ACTUAL NUMBER ('m') of base <br>
+10 digits in the   200   -th. Fermat number is   483736552500000000000000000000000000000000000000000000000001</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">One should bear in mind that 'ACTUAL VALUE' should be understood to be 'APPROXIMATE VALUE' for </font></b>
+<b><u><font color="#000080">large</font></u></b>
+<b><font color="#000080"> values of </font></b>
+<i><b><font color="#000080">n</font></b></i>
+<b><font color="#000080">, because of rounding </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">errors involving the 10-place approximate value Maple is using for </font></b>
+<img src="images/HOW_MANY30.gif" width="74" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">But the order of magnitude is certainly correct</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Now let's look at </font></b>
+<img src="images/HOW_MANY31.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> [</font></b>
+<b><u><font color="#000080">Note</font></u></b>
+<b><font color="#000080">: I have placed the comment  sign '#' immediately before the command to prevent output, and to save space in this worksheet. All you have to do if you are interested is:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">first delete the '#' </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">then go to File and Save as a precaution </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">and then execute the command ]<br>
+</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># say1(382477);</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">I think we would all agree that is a bit too much!!</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">That can easily be dealt with by making a </font></b>
+<i><b><font color="#000080">simple alteration</font></b></i>
+<b><font color="#000080"> to the procedure say1:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say2 := proc(n) local P1, P2, M;<br>
+P1 := n*log[10](2.0); <br>
+P2 := log[10](log[10](2.0));<br>
+M := P1 + P2;<br>
+lprint(`A good APPROXIMATE value of<br>
+the number of base 10 digits in the`, n, <br>
+`-th. Fermat number is 10 TO THE POWER of`, M)<br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">The </font></b>
+<i><b><font color="#000080">rationale</font></b></i>
+<b><font color="#000080"> behind the definitions of those </font></b>
+<i><b><font color="#000080">local variables</font></b></i>
+<b><font color="#000080"> should be clear [but would require some explanation for some students].</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">[I could omit those local variables altogether, but I have used them as a guide to </font></b>
+<i><b><font color="#000080">how</font></b></i>
+<b><font color="#000080"> the '</font></b>
+<b><font color="#000080">M</font></b>
+<b><font color="#000080">' is arrived at.]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Some examples</font></u></b>
+<b><font color="#000080">.</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say2(12);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">A good APPROXIMATE value of<br>
+the number of base 10 digits in the   12   -th. Fermat number is 10 TO THE POWER of   3.090969720</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">Remove the comment sign, and execute, to compute actual value:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># F(12); </font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(F(12));</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY32.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">10^3.090969720;</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY33.gif" width="100" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say2(1000);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">A good APPROXIMATE value of<br>
+the number of base 10 digits in the   1000   -th. Fermat number is 10 TO THE POWER of   300.5086055</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">say2(382447);  # the new record composite Fermat number</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">A good APPROXIMATE value of<br>
+the number of base 10 digits in the   382447   -th. Fermat number is 10 TO THE POWER of   115127.4974</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080" size="4">Thus the Fermat number </font></b>
+<img src="images/HOW_MANY34.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><font color="#000080" size="4">has a </font></b>
+<b><u><font color="#000080" size="4">huge</font></u></b>
+<b><font color="#000080" size="4"> number of digits, and so clearly it is going to require rather a large board on which to write it down. That, then, brings us to:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080" size="4">Question #2: </font></u></b>
+<i><b><u><font color="#000080" size="4">how big</font></u></b></i>
+<b><u><font color="#000080" size="4"> a board?</font></u></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let's think about writing </font></b>
+<img src="images/HOW_MANY35.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> in a </font></b>
+<i><b><u><font color="#000080">closest fit</font></u></b></i>
+<b><font color="#000080"> square board. Let's do an actual example:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">F(7);</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY36.gif" width="328" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(F(7));</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY37.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">We could write F(7) into the closest fit square by:<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">                               340282<br>
+                               366920<br>
+                               938463<br>
+                               463374<br>
+                               607431<br>
+                               768211<br>
+                               457 (here some </font></b>
+<b><u><font color="#000080">excess</font></u></b>
+<b><font color="#000080"> over the 6 by 6 square)<br>
+or by:<br>
+                               3402823<br>
+                               6692093<br>
+                               8463463<br>
+                               3746074<br>
+                               3176821<br>
+                               1457<br>
+                               (here some </font></b>
+<b><u><font color="#000080">shortfall</font></u></b>
+<b><font color="#000080"> under the 7 by 7 square)                                                             </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Okay, the individual digits are not occuping squares.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Now </font></b>
+<b><u><font color="#000080">define the variables</font></u></b>
+<b><font color="#000080">, and record their </font></b>
+<b><u><font color="#000080">approximate relationship</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Let </font></b>
+<img src="images/HOW_MANY38.gif" width="36" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - having </font></b>
+<i><b><u><font color="#000080">m</font></u></b></i>
+<b><u><font color="#000080"> digits</font></u></b>
+<b><font color="#000080"> when expressed in the base 10 - be written in a closest fit square board (with some possible excess or shortfall) <br>
+with side length </font></b>
+<img src="images/HOW_MANY39.gif" width="26" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><u><font color="#000080">inches<br>
+</font></u></b></i>
+</p>
+<p align="left">
+<b><font color="#000080">Let the digits (occuping equal height and width) be written at </font></b>
+<img src="images/HOW_MANY40.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<i><b><u><font color="#000080">digits per inch</font></u></b></i>
+<i><b><font color="#000080"><br>
+</font></b></i>
+</p>
+<p align="left">
+<i><b><u><font color="#000080">Approximate</font></u></b></i>
+<b><font color="#000080"> connection:  </font></b>
+<img src="images/HOW_MANY41.gif" width="98" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> giving: </font></b>
+<img src="images/HOW_MANY42.gif" width="76" height="62" alt="[Maple Math]" align="middle">
+<b><font color="#000080">.<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Now to compute the side length </font></b>
+<img src="images/HOW_MANY43.gif" width="26" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - first in inches - of the square</font></b>
+<i><b><font color="#000080"> </font></b></i>
+<b><font color="#000080">it would take to write out (really big) Fermat numbers.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">First, though, I wish to note this: I </font></b>
+<i><b><font color="#000080">could</font></b></i>
+<b><font color="#000080"> work with the following procedure - which is formed in the obvious way from the earlier ones:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># inches := proc(n, N) <br>
+# lprint(`The approximate side length - in INCHES -<br>
+# of the closest fit square in which to write the <br>
+# digits of the`, n,`-th. Fermat number is`, <br>
+# evalf(sqrt(floor((2^n)*log[10](2.0)) + 1))/N) <br>
+# end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">but </font></b>
+<b><u><font color="#000080">instead</font></u></b>
+<b><font color="#000080"> I am going to work with this </font></b>
+<b><u><font color="#000080">slight alteration</font></u></b>
+<b><font color="#000080"> of it:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">inches := proc(n, N) <br>
+lprint(`The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the`, n,`-th. Fermat <br>
+number at`, N, `digits per inch is`, <br>
+evalf(sqrt((2^n)*log[10](2.0)))/N, `INCHES`) <br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">in which I have </font></b>
+<b><u><font color="#000080">omitted</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">the ' +1 ' (that's of no real consequence)</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">the use of '</font></b>
+<b><font color="#000080">floor</font></b>
+<b><font color="#000080">' (that </font></b>
+<i><b><font color="#000080">is</font></b></i>
+<b><font color="#000080"> of consequence because there are computational time problems when large values of '</font></b>
+<b><font color="#000080">n</font></b>
+<b><font color="#000080">' are involved)</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><u><font color="#000080">Examples</font></u></b>
+<b><font color="#000080"> (Note. Remove the comment sign before the following command, and then execute).</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># length(F(19));</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">sqrt(157827.0);</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY44.gif" width="100" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">Thus to write </font></b>
+<img src="images/HOW_MANY45.gif" width="55" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> out in a square would essentially require a 397 by 397 grid, and so if the digits were written at </font></b>
+<img src="images/HOW_MANY46.gif" width="80" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> - </font></b>
+<b><u><font color="#000080">four digits per inch</font></u></b>
+<b><font color="#000080"> - then the </font></b>
+<b><u><font color="#000080">side length of the square</font></u></b>
+<b><font color="#000080"> would be about </font></b>
+<img src="images/HOW_MANY47.gif" width="101" height="56" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> inches</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">inches(19, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   19   -th. Fermat <br>
+number at   4   digits per inch is   99.31843183   INCHES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">inches(70, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   70   -th. Fermat <br>
+number at   4   digits per inch is   4712970738.   INCHES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">And, of course, if we double the number of digits per inch then it halves the length of the square:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">inches(70, 8);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   70   -th. Fermat <br>
+number at   8   digits per inch is   2356485369.   INCHES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">inches(70, 16);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   70   -th. Fermat <br>
+number at   16   digits per inch is   1178242684.   INCHES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">Those squares are BIG (which comes as no surprise, though it causes a problem to ones brain to visualise!)</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Let's convert to miles</font></u></b>
+<b><font color="#000080"> [I grew up with inches, feet, yards, ... , miles, and so apologies to anyone used to centimetres etc. Make your own conversions]. Recall there are:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">12 inches in a foot</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">3 feet in a yard</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">1760 yards in a mile<br>
+</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles := proc(n, N) <br>
+lprint(`The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the`, n,`-th. Fermat <br>
+number at`, N, `digits per INCH is`, <br>
+evalf(sqrt((2.0^n)*log[10](2.0)))/(N*12*3*1760), <br>
+`MILES`) <br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles(70, 16);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   70   -th. Fermat <br>
+number at   16   digits per INCH is   18596.00196   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles(700, 32);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   700   -th. Fermat <br>
+number at   32   digits per INCH is   .6206377985e99   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">And there - as you see - Maple has moved to the level of exponential notation, and this is the place to start converting to </font></b>
+<i><b><u><font color="#000080" size="4">Light Years</font></u></b></i>
+<b><font color="#000080" size="4">.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">First, though</font></u></b>
+<b><font color="#000080">, I want to make an </font></b>
+<b><u><font color="#000080">optical change</font></u></b>
+<b><font color="#000080"> to the '</font></b>
+<b><font color="#000080">lprint</font></b>
+<b><font color="#000080">' line in the </font></b>
+<b><font color="#000080">miles</font></b>
+<b><font color="#000080"> proc: instead of saying &quot;the number of miles is X ... &quot;, I want to alter it to: &quot;the number of miles is 10 to the power of ... &quot;,</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles2 := proc(n, N) <br>
+lprint(`The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the`, n,`-th. Fermat <br>
+number at`, N, `digits per INCH is 10 to <br>
+the POWER of`, <br>
+log[10](evalf(sqrt((2.0^n)*log[10](2.0)))/(N*12*3*1760)), <br>
+`MILES`) <br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles2(70, 16);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   70   -th. Fermat <br>
+number at   16   digits per INCH is 10 to <br>
+the POWER of   4.269419583   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles2(700, 16);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   700   -th. Fermat <br>
+number at   16   digits per INCH is 10 to <br>
+the POWER of   99.09386822   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><u><font color="#000080">Now, what I really want is to let</font></u></b>
+<font color="#000080"> </font>
+<img src="images/HOW_MANY48.gif" width="94" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, to see the </font></b>
+<b><u><font color="#000080">GIGANTIC</font></u></b>
+<b><font color="#000080"> size of the Fermat number </font></b>
+<img src="images/HOW_MANY49.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles2(382447, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   382447   -th. Fermat <br>
+number at   4   digits per INCH is 10 to <br>
+the POWER of   57558.34481   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><u><font color="#000080">Three final things to do</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">Convert to </font></b>
+<b><u><font color="#000080">light years<br>
+</font></u></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Greatly increase</font></u></b>
+<b><font color="#000080"> the value of </font></b>
+<img src="images/HOW_MANY50.gif" width="46" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> <br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Examine some </font></b>
+<b><u><font color="#000080">down-to-earth distances<br>
+</font></u></b>
+</p>
+<p align="left">
+<b><font color="#000080">First, recall the definition of a '</font></b>
+<i><b><font color="#000080">light year</font></b></i>
+<b><font color="#000080">':</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Definition</font></u></b>
+<b><font color="#000080">. A </font></b>
+<i><b><u><font color="#000080">light year</font></u></b></i>
+<b><font color="#000080"> is the </font></b>
+<i><b><font color="#000080">distance traversed by light in one year.</font></b></i>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Working assumption</font></u></b>
+<b><font color="#000080">s. </font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">The speed of light is 186,000 miles per second<br>
+</font></u></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">The year has 365 days</font></u></b>
+<b><font color="#000080"><br>
+</font></b>
+</p>
+<p align="left">
+<b><u><font color="#000080">Converting miles to light years</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">light_year := 186000*60*60*24*356;  # miles</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY51.gif" width="210" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">I want to express that as an approximate power of 10:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">log[10](5721062400000.0);</font></b>
+</p>
+<p align="center">
+<img src="images/HOW_MANY52.gif" width="100" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">And so a </font></b>
+<b><u><font color="#000080">light year is</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/HOW_MANY53.gif" width="117" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">miles</font></u></b>
+<b><font color="#000080">, which explains the following alteration of the </font></b>
+<b><font color="#000080">miles3</font></b>
+<b><font color="#000080"> procedure:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">LIGHT_YEARS := proc(n, N) <br>
+lprint(`The approximate length of <br>
+the closest fit square in which to write <br>
+the digits of the`, n,`-th. Fermat <br>
+number at`, <br>
+N, `digits per INCH is 10 to <br>
+the POWER of`, <br>
+log[10](evalf(sqrt((2.0^n)*log[10](2.0)))/(N*12*3*1760)) - 12.75747668, <br>
+`LIGHT YEARS`) <br>
+end:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">And thus - writing at 4 digits per inch - the Fermat number </font></b>
+<img src="images/HOW_MANY54.gif" width="75" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> would require a square whose size was give by:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">LIGHT_YEARS(382447, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate length of <br>
+the closest fit square in which to write <br>
+the digits of the   382447   -th. Fermat <br>
+number at   4   digits per INCH is 10 to <br>
+the POWER of   57545.58733   LIGHT YEARS</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">That is a very great distance (with which I cannot mentally come to terms), and it is linguistically meaningless to merely call it '</font></b>
+<b><u><font color="#000080">astronomically large</font></u></b>
+<b><font color="#000080">.'</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Just think for a moment of some of the great astronomical distances, from say the nearest star (apart from our own sun, which is a mere 9 light minutes away from us), through some nearby nebula (Andromeda at 2,000,000 light years), and so on ... .</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">And suppose we went to </font></b>
+<b><u><font color="#000080">atomic levels of writing</font></u></b>
+<b><font color="#000080">, let's say we set:  </font></b>
+<img src="images/HOW_MANY55.gif" width="82" height="48" alt="[Maple Math]" align="middle">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">LIGHT_YEARS(382477, 10^30);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate length of <br>
+the closest fit square in which to write <br>
+the digits of the   382477   -th. Fermat <br>
+number at   1000000000000000000000000000000   digits per INCH is 10 to <br>
+the POWER of   57520.70484   LIGHT YEARS</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">That </font></b>
+<b><u><font color="#000080">relatively small reduction</font></u></b>
+<b><font color="#000080"> in the length should </font></b>
+<b><u><font color="#000080">not</font></u></b>
+<b><font color="#000080"> come as a surprise. Finally, let's consider some examples nearer to home, and fix </font></b>
+<img src="images/HOW_MANY56.gif" width="28" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> at 4.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I grew up in a small town (Bailieboro), about </font></b>
+<b><u><font color="#000080">60 miles</font></u></b>
+<b><font color="#000080"> from here:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles(49, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   49   -th. Fermat <br>
+number at   4   digits per INCH is   51.36468395   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">The moon is about 250,000 miles away:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles(74, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   74   -th. Fermat <br>
+number at   4   digits per INCH is   297536.0313   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<p align="left">
+<b><font color="#000080">The sun is about 92,000,000 miles away:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">miles(90, 4);</font></b>
+</p>
+<p align="left">
+<b><tt><!--mstheme--></font><pre><font color="#800000">The approximate side length <br>
+of the closest fit square in which to <br>
+write the digits of the   90   -th. Fermat <br>
+number at   4   digits per INCH is   76169224.01   MILES</font></pre><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"></tt></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+</p>
+<!--mstheme--></font><!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/nature/narule.gif" width="600" height="10"></p>
+
+<p>This page was last updated 18 February 2005 15:07:40 -0000</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

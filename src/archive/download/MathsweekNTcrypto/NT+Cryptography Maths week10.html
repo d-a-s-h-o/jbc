@@ -1,0 +1,650 @@
+<html>
+<head>
+<title>NT+Cryptography Maths week.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark10">
+<p align=left>
+<b><font color=#000080 size=5>A demonstration of the Pohlig-Hellman </font></b>
+<i><b><font color=#000080 size=5>private</font></b></i>
+<b><font color=#000080 size=5>-key cryptographic method</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080 size=4>To communicate using the Pohlig-Hellman cryptographic method one needs:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>1. a 'large' prime </font></b>
+<i><b><font color=#000080 size=4>p </font></b></i>
+<b><font color=#000080 size=4>(here, for practical purposes, and for reasons that would take some time to understand, 'large' will mean having a greater value than the value of the numerical form of the text message)</font></b>
+<i><b><font color=#000080 size=4><br>
+<br>
+</font></b></i>
+<b><font color=#000080 size=4>2. </font></b>
+<b><font color=#000080 size=4>An integer '</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>' (the encryption power) such that gcd(</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<img src="images/NT+Cryptography Maths week278.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080 size=4>)</font></b>
+<b><font color=#000080> = </font></b>
+<b><font color=#000080 size=4>1. </font></b>
+<b><font color=#000080><br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>3. An integer '</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>' (the decryption power) such that </font></b>
+<i><b><font color=#000080 size=4>ed</font></b></i>
+<b><font color=#000080 size=4> leaves remainder 1 on division by (</font></b>
+<img src="images/NT+Cryptography Maths week279.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080 size=4>).<br>
+<br>
+In PH, (</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) and (</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) constitute the </font></b>
+<i><b><font color=#000080 size=4>shared</font></b></i>
+<b><font color=#000080 size=4> 'private-keys' (anyone who knows one of those keys may quickly calculate the other one, using the extended Euclidean algorithm).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Brief comments. <br>
+<br>
+For a given '</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>' and </font></b>
+<i><b><font color=#000080 size=4>'e</font></b></i>
+<b><font color=#000080 size=4>' there is ONLY ONE such '</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>' between 1 and (</font></b>
+<img src="images/NT+Cryptography Maths week280.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080 size=4>). <br>
+<br>
+That '</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>' is quickly found by using the so-called extended Euclidean algorithm. <br>
+<br>
+Requirement #3 is dictated by the mathematics of Fermat's so-called </font></b>
+<i><b><font color=#000080 size=4>little</font></b></i>
+<b><font color=#000080 size=4> theorem (that's what I mean by hand waving...). <br>
+<br>
+Without requirement #2, #3 could not even come into play...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Suppose Alice wishes to send the message '</font></b>
+<i><b><font color=#000080 size=4> Hi Bob, let's meet, Alice</font></b></i>
+<b><font color=#000080 size=4> ' to Bob using Pohlig-Hellman. This is what they do:  <br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>First of all, they share knowledge of </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4> <br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>Next (it being understood that the crypt/alphabet is agreed upon) Alice converts her text to numerical form (done below) by using the above </font></b>
+<i><b><font color=#000080 size=4>to_number</font></b></i>
+<b><font color=#000080 size=4> procedure (and here I have to mention, and then quickly pass on, a technical detail: for what then follows to be done </font></b>
+<i><b><font color=#000080 size=4>without complications</font></b></i>
+<b><font color=#000080 size=4>, the </font></b>
+<i><b><font color=#000080 size=4>numerical value</font></b></i>
+<b><font color=#000080 size=4> of the text must be SMALLER than the agreed prime...). Let us call that number </font></b>
+<i><b><font color=#000080 size=4>Alice_num</font></b></i>
+<b><font color=#000080 size=4>.<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>Then - symbolically calling the numerical value of her text ' </font></b>
+<i><b><font color=#000080 size=4>A_num</font></b></i>
+<b><font color=#000080 size=4> ' - Alice computes the remainder that </font></b>
+<i><b><font color=#000080 size=4>Alice_num</font></b></i>
+<b><font color=#000080 size=4> raised to the power of </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4> leaves on division by </font></b>
+<i><b><font color=#000080 size=4>p </font></b></i>
+<b><font color=#000080 size=4>(that is, she computes </font></b>
+<img src="images/NT+Cryptography Maths week281.gif" width=97 height=50 alt="Alice_num^e" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>mod </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>), and naming </font></b>
+<i><b><font color=#000080 size=4>that</font></b></i>
+<b><font color=#000080 size=4> number as </font></b>
+<i><b><font color=#000080 size=4>Alice_send</font></b></i>
+<b><font color=#000080 size=4>, she sends the number </font></b>
+<i><b><font color=#000080 size=4>Alice_send</font></b></i>
+<b><font color=#000080 size=4> to Bob.<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>Next, on receipt of </font></b>
+<i><b><font color=#000080 size=4>Alice_send</font></b></i>
+<b><font color=#000080 size=4>, Bob proceeds to </font></b>
+<i><b><font color=#000080 size=4>recover</font></b></i>
+<b><font color=#000080 size=4> the text Alice sent him: that is done by computing  the remainder that </font></b>
+<i><b><font color=#000080 size=4>Alice_send</font></b></i>
+<b><font color=#000080 size=4> to the power of </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4> leaves on division by </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> (that is, he computes </font></b>
+<img src="images/NT+Cryptography Maths week282.gif" width=98 height=50 alt="Alice_send^d" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>mod </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) (via the miracle of Fermat's little theorem) </font></b>
+</li>
+</ul>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Of course if somebody (the Security Agency, or whatever ...) </font></b>
+<i><b><font color=#000080 size=4>somehow</font></b></i>
+<b><font color=#000080 size=4> knows the agreed crypt/alphabet, and has </font></b>
+<i><b><font color=#000080 size=4>somehow</font></b></i>
+<b><font color=#000080 size=4> intercepted Alice's encrypted message to Bob, and </font></b>
+<i><b><font color=#000080 size=4>somehow</font></b></i>
+<b><font color=#000080 size=4> knows the agreed </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, then they may calculate - using the extended Euclidean Algorithm - the value of </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>, and thus decrypt Alice's message to Bob.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(10^70 + rand()^6);  # step 1</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week283.gif" width=614 height=20 alt="p := 1609715200612628402216604094310457725841341982...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(p);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week284.gif" width=32 height=20 alt="71">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>e := nextprime(rand());</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week285.gif" width=141 height=20 alt="e := 321110693273">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(e, p-1);  # testing that '2' holds</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week286.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcdex(e, p-1, 'x', 'y'):<br>
+d := x mod (p-1);  # Step 3, finding 'd'</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week287.gif" width=606 height=20 alt="d := 8517381235762536700211849775170479085259156588...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Here - just to let you see - is </font></b>
+<i><b><font color=#000080 size=4>ed</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>e*d;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week288.gif" width=672 height=20 alt="273502219348614962060613284727472172083111464696808...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And see that </font></b>
+<i><b><font color=#000080 size=4>ed</font></b></i>
+<b><font color=#000080 size=4> does leave remainder 1 on division by (</font></b>
+<img src="images/NT+Cryptography Maths week289.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080 size=4>):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>e*d mod (p-1);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week290.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Next, Alice converts her message to a number:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Alice_num := to_number(`Was John's talk any good? Alice`);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week291.gif" width=607 height=20 alt="Alice_num := 49011979361508148719792001121179011425...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(Alice_num);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week292.gif" width=32 height=20 alt="62">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Alice then encrypts that number (she lays on her coat of paint, as it were) by calculating the remainder that</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/NT+Cryptography Maths week293.gif" width=73 height=50 alt="A_num^e" align=middle>
+<b><font color=#000080>  </font></b>
+<b><font color=#000080 size=4>leaves on division by </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>.<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>I'll call the resulting number </font></b>
+<i><b><font color=#000080 size=4>A_send</font></b></i>
+<b><font color=#000080 size=4>, since it's that number Alice sends to Bob.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080 size=4>That</font></b></i>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080 size=4>remarkable</font></b></i>
+<b><font color=#000080 size=4> calculation, is performed as I explained earlier, using the so-called square-and-multiply method.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Alice_send := Alice_num&amp;^e mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week294.gif" width=671 height=20 alt="Alice_send := 6798652323442389992100408110909909454...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>In passing let us observe the </font></b>
+<i><b><font color=#000080 size=4>text equivalent</font></b></i>
+<b><font color=#000080 size=4> of that </font></b>
+<i><b><font color=#000080 size=4>encrypted </font></b></i>
+<b><font color=#000080 size=4>number (which could have been intercepted by an eavesdropper) is merely MEANINGLESS JUNK:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Alice_send);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week295.gif" width=272 height=20 alt="`@~wwRw"uN.j[iSSs&amp;i ny~w{y1jh[R=`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And this is what Bob does to read Alice's message: he decrypts (he strips off the disuising coat of paint, as it were) by calculating the remainder (again the least positive one) that</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/NT+Cryptography Maths week296.gif" width=74 height=50 alt="A_send^d" align=middle>
+<b><font color=#000080>  </font></b>
+<b><font color=#000080 size=4>leaves on division by </font></b>
+<i><b><font color=#000080 size=4>p.</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The connection between </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>, and (</font></b>
+<img src="images/NT+Cryptography Maths week297.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080 size=4>) in requirement #3, together with the mathematics of Fermat's </font></b>
+<i><b><font color=#000080 size=4>little</font></b></i>
+<b><font color=#000080 size=4> theorem (if </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> is any prime, and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> is any integer not divisible by </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>, then </font></b>
+<img src="images/NT+Cryptography Maths week298.gif" width=75 height=58 alt="a^(p-1)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>leaves remainder 1 on division by </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) - </font></b>
+<i><b><font color=#000080 size=4>gaurantees</font></b></i>
+<b><font color=#000080 size=4> that the outcome is the </font></b>
+<i><b><font color=#000080 size=4>numerical form</font></b></i>
+<b><font color=#000080 size=4> of the </font></b>
+<i><b><font color=#000080 size=4>original</font></b></i>
+<b><font color=#000080 size=4> text:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Bob_see := Alice_send&amp;^d mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week299.gif" width=589 height=20 alt="Bob_see := 4901197936150814871979200112117901142579...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Bob_see);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week300.gif" width=233 height=20 alt="`Was John's talk any good? Alice`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=5>Wonderful, yes?<br>
+</font></b>
+<b><font color=#000080 size=4>(actually it is </font></b>
+<i><b><font color=#000080 size=4>entirely elementary</font></b></i>
+<b><font color=#000080 size=4> when you </font></b>
+<i><b><font color=#000080 size=4>know</font></b></i>
+<b><font color=#000080 size=4> the mathematics)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>In responding to Alice, Bob may encrypt using </font></b>
+<i><b><font color=#000080 size=4>either</font></b></i>
+<b><font color=#000080 size=4> power (of course in practice Alice and Bob should agree in advance on this), meaning that he may encrypt using the decryption power, as I quickly demonstrate:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Bob_num := to_number(`Thanks Alice. Where? When? Bob`);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week301.gif" width=583 height=20 alt="Bob_num := 4608011411197927120903058179490805180585...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(Bob_num);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week302.gif" width=32 height=20 alt="60">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Bob_send := Bob_num&amp;^d mod p; # NOTE the 'd' power</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week303.gif" width=671 height=20 alt="Bob_send := 112354096245708917890923213510426045561...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Alice receives B_send, and then:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Alice_see := Bob_send&amp;^e mod p; # NOTE the 'e' power</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week304.gif" width=581 height=20 alt="Alice_see := 46080114111979271209030581794908051805...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Alice_see);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week305.gif" width=246 height=20 alt="`Thanks Alice. Where? When? Bob`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Three final, quick points: </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>S</font></b>
+<b><font color=#000080 size=4>ECURITY. It should be obvious that both Alice and Bob must keep their 'keys' - (</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) and (</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) - secret: anyone who </font></b>
+<i><b><font color=#000080 size=4>knows</font></b></i>
+<b><font color=#000080 size=4> (</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) may immediately compute </font></b>
+<i><b><font color=#000080 size=4>d </font></b></i>
+<b><font color=#000080 size=4>(using the extended Euclidean algorithm), or anyone who knows (</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) may immediately compute </font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4> <br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>SIZE OF TEXT. If the numerical form (</font></b>
+<i><b><font color=#000080 size=4>Alice_num</font></b></i>
+<b><font color=#000080 size=4> or </font></b>
+<i><b><font color=#000080 size=4>Bob_num</font></b></i>
+<b><font color=#000080 size=4>) of either text is greater than </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>, then it </font></b>
+<i><b><font color=#000080 size=4>must</font></b></i>
+<b><font color=#000080 size=4> be broken down into numbers each having numerical value less than </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> (think about that to see why...)</font></b>
+<b><font color=#000080><br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>WASTE OF TIME BY AN (unfriendly, let us say) INTERCEPTOR. Imagine a spy (named 'Spy') who electronically captures a copy of Alice's message to Bob, and let us suppose that Spy </font></b>
+<i><b><font color=#000080 size=4>somehow</font></b></i>
+<b><font color=#000080 size=4> knows that Alice and Bob are using the Pohlig-Hellman cryptographic method. Thus, Spy has the number </font></b>
+<i><b><font color=#000080 size=4>Alice_send</font></b></i>
+<b><font color=#000080 size=4> (the Pohlig-Hellman encrypted form of Alice's text):</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/NT+Cryptography Maths week306.gif" width=576 height=32 alt="679865232344238999210040811090990945451973097914256..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>What Spy could </font></b>
+<i><b><font color=#000080 size=4>attempt</font></b></i>
+<b><font color=#000080 size=4> to do in order to decrypt Alice's message to Bob? Spy could:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>Guess the '</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>' that Alice and Bob are using; let us call that </font></b>
+<i><b><font color=#000080 size=4>Spy_g_p</font></b></i>
+<b><font color=#000080 size=4><br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>Guess the '</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>' that Alice and Bob are using; let us call that </font></b>
+<i><b><font color=#000080 size=4>Spy_g_e</font></b></i>
+<b><font color=#000080 size=4><br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>Compute the '</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>' that is then mathematically </font></b>
+<i><b><font color=#000080 size=4>dictated</font></b></i>
+<b><font color=#000080 size=4> by the above guesses; let us call that </font></b>
+<i><b><font color=#000080 size=4>Spy_d</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Spy_has_num := 6798652323442389992100408110909909454519730979142565239225541008904464;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week307.gif" width=691 height=20 alt="Spy_has_num := 679865232344238999210040811090990945...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Spy_g_p := nextprime(rand()^7);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week308.gif" width=758 height=20 alt="Spy_g_p := 1694094102003384593690122869267282209247...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Spy_g_e := nextprime(rand());</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week309.gif" width=189 height=20 alt="Spy_g_e := 746753830637">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcdex(Spy_g_e, Spy_g_p - 1, 'Spy_x', 'Spy_y'):<br>
+Spy_d := Spy_x mod (Spy_g_p - 1);  # Step 3, finding 'Spy_d'</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week310.gif" width=742 height=20 alt="Spy_d := 134821424702124336979258559652110453078449...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The following let you see that the </font></b>
+<i><b><font color=#000080 size=4>product</font></b></i>
+<b><font color=#000080 size=4> of</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>the Spy's guessed '</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>' and </font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>the Spy's mathematically dictated '</font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4>' </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>does leave remainder 1 when divided by (</font></b>
+<img src="images/NT+Cryptography Maths week311.gif" width=100 height=32 alt="Spy_g_p-1" align=middle>
+<b><font color=#000080 size=4>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Spy_g_e*Spy_d mod (Spy_g_p - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week312.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Given all of that, this then is what Spy would do (have to do) to decrypt Alice's intercepted message:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Spy_see := Spy_has_num&amp;^Spy_d mod Spy_g_p;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week313.gif" width=746 height=20 alt="Spy_see := 4602326081577376731798216387140310969907...">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>This then is what Spy would read:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Spy_see);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week314.gif" width=332 height=20 alt="`TbF7.4&amp;)&amp;qu-'ncjgEpAgGEU7OcRdM%a_8v3`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+</body>
+</html>

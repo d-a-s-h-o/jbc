@@ -1,0 +1,715 @@
+<html>
+<head>
+<title>916773.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># 916773.mws</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=center>
+<b><u><font color=#000080 size=4>How many digits, how large the<br>
+space to write the decimal digits?</font></u></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>This worksheet is a simpler reworking of another of mine, which dealt with how many digits, and how large a space one needed to write out the decimal digits of the largest known composite Fermat number. For details please refer to the Fermat Number Record section of my web site at:<br>
+</font></b>
+</p>
+<p align=center>
+<b><u><font color=#000080>fermat.htm</font></u></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Introduction</font></u></b>
+<b><font color=#000080>.  The classic </font></b>
+<i><b><font color=#000080>Fermat numbers</font></b></i>
+<b><font color=#000080> are the {</font></b>
+<img src="images/9167731.gif" width=36 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>} with </font></b>
+<img src="images/9167732.gif" width=127 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and the </font></b>
+<i><b><font color=#000080>generalised Fermat numbers</font></b></i>
+<b><font color=#000080> to the base </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> are the {</font></b>
+<img src="images/9167733.gif" width=64 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>} with </font></b>
+<img src="images/9167734.gif" width=139 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/9167735.gif" width=85 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... . (Personally I don't </font></b>
+<i><b><font color=#000080>like</font></b></i>
+<b><font color=#000080> this </font></b>
+<i><b><font color=#000080>standard</font></b></i>
+<b><font color=#000080> definition of generalised Fermat numbers - although it is clearly </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> generalisation - and to see why I invite you to view the Fermat 6 section of my web site.)  In what follows I set </font></b>
+<img src="images/9167736.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and will estimate the size of square required to write out the just discovered record sized composite </font></b>
+<img src="images/9167737.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> - which has prime factor 3*</font></b>
+<img src="images/9167738.gif" width=102 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> - at, for example 4 digits per inch in the horizontal and vertical.  So, let </font></b>
+<img src="images/9167739.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> be the (base 10) </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-th </font></b>
+<i><b><font color=#000080>generalised Fermat number</font></b></i>
+<b><font color=#000080>;  that is, let: </font></b>
+</p>
+<p align=center>
+<img src="images/91677310.gif" width=171 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (</font></b>
+<img src="images/91677311.gif" width=134 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>This </font></b>
+<i><b><u><font color=#000080>entirely elementary</font></u></b></i>
+<b><font color=#000080> worksheet is solely concerned with </font></b>
+<b><u><font color=#000080>two questions</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question #1</font></u></b>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080> How many </font></b></i>
+<b><font color=#000080>digits does </font></b>
+<img src="images/91677312.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> have, when expressed in decimal form, i.e. in the base 10?</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question #2</font></u></b>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>How big</font></b></i>
+<b><font color=#000080> (measured in </font></b>
+<i><b><font color=#000080>Light Years</font></b></i>
+<b><font color=#000080>!) a square board would be needed on which to write <br>
+</font></b>
+<img src="images/91677313.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, assuming decimal digits were written at (say) '</font></b>
+<img src="images/91677314.gif" width=28 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> ' digits per inch? [in practice </font></b>
+<img src="images/91677315.gif" width=57 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> might be a <br>
+reasonable value, but we will also look at atomic levels, with (say) </font></b>
+<img src="images/91677316.gif" width=82 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.] </font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080 size=4>Question #1: </font></u></b>
+<i><b><u><font color=#000080 size=4>how many</font></u></b></i>
+<b><u><font color=#000080 size=4>?</font></u></b>
+<b><font color=#000080> This is entirely elementary, because we can </font></b>
+<b><u><font color=#000080>see</font></u></b>
+<b><font color=#000080> the decimal digits of </font></b>
+<img src="images/91677317.gif" width=171 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, and it has </font></b>
+</p>
+<p align=left>
+<img src="images/91677318.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> decimal digits, since it is 10000000000...........0000000000001 (having </font></b>
+<img src="images/91677319.gif" width=34 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> digits following that initial '1')</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Let's look at some Maple calculations</font></u></b>
+<b><font color=#000080>. First, though, I will abbreviate </font></b>
+<img src="images/91677320.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> to </font></b>
+<img src="images/91677321.gif" width=48 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (since the '10' is fixed, and only the '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' will vary).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>GF := n -&gt; 10^(2^n) + 1;  # defining 'GF' as a function</font></b>
+</p>
+<p align=center>
+<img src="images/91677322.gif" width=176 height=41 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(GF(n), n=0..5); # the first 6 base 10 generalised Fermat numbers</font></b>
+</p>
+<p align=center>
+<img src="images/91677323.gif" width=608 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(GF(10)); # give the number of digits GF(10) has:</font></b>
+</p>
+<p align=center>
+<img src="images/91677324.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Of course these numbers rapidly increase in size:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(GF(18));</font></b>
+</p>
+<p align=center>
+<img src="images/91677325.gif" width=64 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>which means that </font></b>
+<img src="images/91677326.gif" width=55 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> has 262,145 digits, and Maple cannot cope with the number of digits that </font></b>
+<img src="images/91677327.gif" width=55 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> has (being </font></b>
+<img src="images/91677328.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(GF(19)); </font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#FF00FF>Error, (in GF) object too large</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>say := proc(n) <br>
+lprint(`The number of decimal digits<br>
+in the base ten`,n,`-th. generalised <br>
+Fermat number is`, 2^n + 1)<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>say(13);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The number of decimal digits<br>
+in the base ten   13   -th. generalised <br>
+Fermat number is   8193</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(10^(2^13) + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/91677329.gif" width=48 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>say(21);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The number of decimal digits<br>
+in the base ten   21   -th. generalised <br>
+Fermat number is   2097153</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>say(2000);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The number of decimal digits<br>
+in the base ten   2000   -th. generalised <br>
+Fermat number is   114813069527425452423283320117768198402231770208869520047764273682576626139237031385665948631650626991844596463898746277344711896086305533142593135616665318539129989145312280000688779148240044871428926990063486244781615463646388363947317026040466353970904996558162398808944629605623311649536164221970332681344168908984458505602379484807914058900934776500429002716706625830522008132236281291761267883317206598995396418127021779858404042159853183251540889433902091920554957783589672039160081957216630582755380425583726015528348786419432054508915275783882625175435528800822842770817965453762184851149029377</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>To save space in the html version of this worksheet I do not execute the following command, but any reader with Maple who downloads the .mws version of this may safely remove the comment sign ('#') and execute the following command</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(2^916772 + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/91677330.gif" width=64 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># say(916772);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>The base 10 generalised Fermat number </font></b>
+<img src="images/91677331.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> has, in fact, 275976 digits, and so clearly it is going to require rather a large board on which to write it down. That, then, brings us to</font></b>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question #2: </font></u></b>
+<i><b><u><font color=#000080>how big</font></u></b></i>
+<b><u><font color=#000080> a board?</font></u></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>This is elementary, and to keep it at its absolute simplest I only consider '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' to be </font></b>
+<i><b><font color=#000080>even</font></b></i>
+<b><font color=#000080>, since then we can write out the decimal digits of </font></b>
+<img src="images/91677332.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> in a square having </font></b>
+<img src="images/91677333.gif" width=58 height=104 alt="[Maple Math]" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>digits along every line of writing, with just a single digit left over. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>For example, </font></b>
+<img src="images/91677334.gif" width=169 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 10,000,000,000,000,001</font></b>
+<b><font color=#000080> can be written out thus:<br>
+</font></b>
+<b><font color=#000080> </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>1000<br>
+0000<br>
+0000<br>
+0000<br>
+1</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now to compute the side length </font></b>
+<img src="images/91677335.gif" width=26 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> - first in inches - of the square</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>it would take to write out (really big) base 10 generalised Fermat numbers </font></b>
+<img src="images/91677336.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> for even </font></b>
+<i><b><font color=#000080>n.</font></b></i>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The following (obviously constructed Maple procedure) computes the side length of the square needed to write out the decimal digits of </font></b>
+<img src="images/91677337.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> at N digits per inch (and in the first examples that follow I choose N = 4):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches := proc(n, N) <br>
+lprint(`The side length of the square in which <br>
+to write the decimal digits of the`, n,`-th. <br>
+base 10 generalised Fermat number at`, N, `digits per <br>
+inch is`, evalf(sqrt(2^n)/N), `INCHES`) <br>
+end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Of course it's </font></b>
+<i><b><font color=#000080>obvious</font></b></i>
+<b><font color=#000080> (in advance) that the side length </font></b>
+<b><u><font color=#000080>doubles</font></u></b>
+<b><font color=#000080> for every increase in </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> of 2, and I only give the following outputs for illustrative purposes:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches(4, 4); # the above example:</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   4   -th. <br>
+base 10 generalised Fermat number at   4   digits per <br>
+inch is   1.   INCHES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches(6, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   6   -th. <br>
+base 10 generalised Fermat number at   4   digits per <br>
+inch is   2.   INCHES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches(8, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   8   -th. <br>
+base 10 generalised Fermat number at   4   digits per <br>
+inch is   4.   INCHES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches(10, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   10   -th. <br>
+base 10 generalised Fermat number at   4   digits per <br>
+inch is   8.   INCHES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches(18, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   18   -th. <br>
+base 10 generalised Fermat number at   4   digits per <br>
+inch is   128.   INCHES</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>Thus to write </font></b>
+<img src="images/91677338.gif" width=79 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> out in a square would require a page measuring 128 by 128 inches to write out its decimal digits at 4 digits per inch in the vertical and horizontal.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But let's jump ahead somewhat!!:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>inches(70, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   70   -th. <br>
+base 10 generalised Fermat number at   4   digits per <br>
+inch is   8589934592.   INCHES</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>That's just over 135,573 miles!! (Recall that 1 foot = 12 inches, 1 yard = 3 feet, 1 mile = 1760 yards, so 1 mile = 12*3*1760 inches):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>iquo(8589934592, 12*3*1760);</font></b>
+</p>
+<p align=center>
+<img src="images/91677339.gif" width=64 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><u><font color=#000080>Let's convert to miles</font></u></b>
+<b><font color=#000080> [I grew up with inches, feet, yards, ... , miles, and so apologies to anyone used to centimetres etc. Make your own conversions]. Recall there are:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>12 inches in a foot</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>3 feet in a yard</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1760 yards in a mile<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>#miles := proc(n, N) <br>
+#lprint(`The side length of the square in which <br>
+#to write the decimal digits of the`, n,`-th. <br>
+#base 10 generalised Fermat number at`, N, `digits <br>
+#per INCH is`, floor(evalf(sqrt(2^n))/(N*12*3*1760)), <br>
+#`MILES`) <br>
+#end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles := proc(n, N) <br>
+lprint(`The side length of the square in which <br>
+to write the decimal digits of the`, n,`-th. <br>
+base 10 generalised Fermat number at`, N, `digits <br>
+per INCH is`, sqrt(2.0^n)/(N*12*3*1760), <br>
+`MILES`) <br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles(70, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   70   -th. <br>
+base 10 generalised Fermat number at   4   digits <br>
+per INCH is   135573.4626   MILES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles(100, 32);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which <br>
+to write the decimal digits of the   100   -th. <br>
+base 10 generalised Fermat number at   32   digits <br>
+per INCH is   555308902.9   MILES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>This is the place to start converting to </font></b>
+<i><b><u><font color=#000080 size=4>Light Years</font></u></b></i>
+<b><font color=#000080 size=4>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>First, though</font></u></b>
+<b><font color=#000080>, I want to make an </font></b>
+<b><u><font color=#000080>optical change</font></u></b>
+<b><font color=#000080> to the '</font></b>
+<b><font color=#000080>lprint</font></b>
+<b><font color=#000080>' line in the </font></b>
+<b><font color=#000080>miles</font></b>
+<b><font color=#000080> proc: instead of saying "the number of miles is X ... ", I want to alter it to: "the number of miles is 10 to the power of ... ",</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles2 := proc(n, N) <br>
+lprint(`The side length of the square in which to <br>
+write the decimal digits of the base 10 `, n,`-th. <br>
+generalised Fermat number at`, N, `digits per INCH <br>
+is 10 to the power of`, <br>
+log[10](evalf(sqrt((2.0^n)))/(N*12*3*1760)), <br>
+`MILES`) <br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles2(70, 16);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which to <br>
+write the decimal digits of the base 10    70   -th. <br>
+generalised Fermat number at   16   digits per INCH <br>
+is 10 to the power of   4.530114697   MILES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles2(700, 16);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which to <br>
+write the decimal digits of the base 10    700   -th. <br>
+generalised Fermat number at   16   digits per INCH <br>
+is 10 to the power of   99.35456333   MILES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Now, what I really want is to let</font></u></b>
+<font color=#000080> </font>
+<img src="images/91677340.gif" width=94 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, to see the </font></b>
+<b><u><font color=#000080>GIGANTIC</font></u></b>
+<b><font color=#000080> size of the generalised Fermat number </font></b>
+<img src="images/91677341.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>miles2(916772, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The side length of the square in which to <br>
+write the decimal digits of the base 10    916772   -th. <br>
+generalised Fermat number at   4   digits per INCH <br>
+is 10 to the power of   137982.5317   MILES</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Two final things to do</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Convert to </font></b>
+<b><u><font color=#000080>light years<br>
+</font></u></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Greatly increase</font></u></b>
+<b><font color=#000080> the value of </font></b>
+<img src="images/91677342.gif" width=46 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>First, recall the definition of a '</font></b>
+<i><b><font color=#000080>light year</font></b></i>
+<b><font color=#000080>':</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Definition</font></u></b>
+<b><font color=#000080>. A </font></b>
+<i><b><u><font color=#000080>light year</font></u></b></i>
+<b><font color=#000080> is the </font></b>
+<i><b><font color=#000080>distance traversed by light in one year.</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Working assumption</font></u></b>
+<b><font color=#000080>s. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>The speed of light is 186,000 miles per second<br>
+</font></u></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>The year has 365 days</font></u></b>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Converting miles to light years</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>light_year := 186000*60*60*24*356;  # miles</font></b>
+</p>
+<p align=center>
+<img src="images/91677343.gif" width=210 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I want to express that as an approximate power of 10:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>log[10](5721062400000.0);</font></b>
+</p>
+<p align=center>
+<img src="images/91677344.gif" width=100 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And so a </font></b>
+<b><u><font color=#000080>light year is</font></u></b>
+<b><font color=#000080> </font></b>
+<img src="images/91677345.gif" width=117 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>miles</font></u></b>
+<b><font color=#000080>, which explains the following alteration of the </font></b>
+<b><font color=#000080>miles3</font></b>
+<b><font color=#000080> procedure:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>LIGHT_YEARS := proc(n, N) <br>
+lprint(`The length of square in which to write <br>
+the decimal digits of the base 10`, n,`-th. <br>
+generalised Fermat number at`, N, `digits per INCH <br>
+is 10 to the POWER of`, <br>
+log[10](evalf(sqrt((2.0^n)))/(N*12*3*1760)) - 12.75747668, <br>
+`LIGHT YEARS`) <br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And thus - writing at 4 digits per inch - the generalised Fermat number </font></b>
+<img src="images/91677346.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> would require a square whose size was give by:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>LIGHT_YEARS(916772, 4);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The length of square in which to write <br>
+the decimal digits of the base 10   916772   -th. <br>
+generalised Fermat number at   4   digits per INCH <br>
+is 10 to the POWER of   137969.7742   LIGHT YEARS</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That is a very great distance (with which I cannot mentally come to terms), and it is linguistically meaningless to merely call it '</font></b>
+<b><u><font color=#000080>astronomically large</font></u></b>
+<b><font color=#000080>.'</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Just think for a moment of some of the great astronomical distances, from say the nearest star (apart from our own sun, which is a mere 9 light minutes away from us), through some nearby nebula (Andromeda at 2,000,000 light years), and so on ... .</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>And suppose we went to </font></b>
+<b><u><font color=#000080>atomic levels of writing</font></u></b>
+<b><font color=#000080>, let's say we set:  </font></b>
+<img src="images/91677347.gif" width=82 height=48 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>LIGHT_YEARS(916772, 10^30);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>The length of square in which to write <br>
+the decimal digits of the base 10   916772   -th. <br>
+generalised Fermat number at   1000000000000000000000000000000   digits per INCH <br>
+is 10 to the POWER of   137940.3763   LIGHT YEARS</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:29 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

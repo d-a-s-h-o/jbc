@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws22.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<dl style="margin-left:40px"><a name="MapleAutoBookmark22" />
+<p align="left"><font color="#000000" size="4" face="Times New Roma"><strong><img src="images/TCD2017.mws_288.gif" width="55" height="18" alt="p = 13" align="center" border="0">(the order values appear to go: <img src="images/TCD2017.mws_289.gif" width="203" height="23" alt="gamma, `*`(gamma, `*`(p)), `*`(`^`(p, 2)), `*`(gamma, `*`(`^`(p, 3))), `*`(`^`(p, 4)), `*`(gamma, `*`(`^`(p, 5))), () .. ()" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong> &nbsp;&nbsp;&nbsp;p := 13:
+<br>
+<br>bound := 4:
+<br>
+<br> &nbsp;for alpha to bound do
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GF||alpha := PI(p^alpha, 4, 1):
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ord||alpha := order(GF||alpha, p^alpha):
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>od: print(``); 
+<br>
+<br>print(array([
+<br>
+<br>['p', ``, 'alpha', ``, ``, 'p^alpha', ``, ``, '(({p^alpha-1}/4))[p]!', ORDER],
+<br> 
+<br>seq([p, ``, alpha, ``, ``, ifactor(p^alpha), ``, ``, GF||alpha, ifactor(ord||alpha)], 
+<br>
+<br>alpha = 1..bound)])): print(``); </td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_290.gif" width="365" height="169" alt="array( 1 .. 5, 1 .. 10, [( 1, 5 ) = (``), ( 2, 7 ) = (``), ( 3, 3 ) = (2), ( 3, 9 ) = (72), ( 1, 10 ) = (ORDER), ( 5, 8 ) = (``), ( 5, 1 ) = (13), ( 3, 2 ) = (``), ( 3, 4 ) = (``), ( 1, 3 ) = (alpha),..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+<td width='5%' align='center'>(9.2.2.1)</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>gamma, 2*gamma*p, gamma*p^2, 2*gamma*p^3, `...`;</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_291.gif" width="128" height="23" alt="gamma, `+`(`*`(2, `*`(gamma, `*`(p)))), `*`(gamma, `*`(`^`(p, 2))), `+`(`*`(2, `*`(gamma, `*`(`^`(p, 3))))), `...`" align="center" border="0"></td>
+<td width='5%' align='center'>(9.2.2.2)</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</dl>
+
+</html>

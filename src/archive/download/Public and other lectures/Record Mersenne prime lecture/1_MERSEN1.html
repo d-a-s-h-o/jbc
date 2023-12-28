@@ -1,0 +1,1441 @@
+<html>
+<head>
+<title>1_MERSEN.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># 1_mersen.mws</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>This entire document has been produced using 'MAPLE', the 'Computer Algebra Software' which is installed on computers in St. Patrick's computer laboratory.   Anyone who is interested in finding out about how to obtain MAPLE is welcome to ask me about it.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                            </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>PUBLIC LECTURE.  WED. 23rd. OCTOBER 1996. ST. PATRICK'S COLLEGE, DRUMCONDRA, DUBLIN 9.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>LECTURE TITLE:     THE RECENTLY DISCOVERED WORLD RECORD PRIME NUMBER.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>LECTURER:   JOHN COSGRAVE, MATHEMATICS DEPARTMENT, ST. PATRICK'S COLLEGE, DRUMCONDRA, DUBLIN 9, IRELAND.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>INTRODUCTION.   On 3rd. September 1996 Cray Research (Wisconsin, USA) announced  that one of their computers had just found a new world record prime number: </font></b>
+<img src="images/1_MERSEN1.gif" width=110 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.  That is "2 to the power of 1,257,787 minus 1". It is obtained by taking one million, two hundred and fifty seven thousand, seven hundred and eighty seven 2's, multiplying all those 2's together, and then subtracting 1. It is a truly enormous number, with 378,632 digits, and would take 4 days, 9 hours, 10 minutes and 32 seconds to read at one digit per second. [Anyone with access to the World Wide Web may consult Cray's Home Page and read an immense amount of material relating to this.  Their address is: http://www.cray.com ]                 </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>AIMS of this lecture:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>1.  The above number is certainly not 'any old number'; it has got some structure to it, a certain shape.  So you probably want to know</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>     WHERE that structure 'came from'.  I attempt to explain that.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>2.  You probably want to know HOW the above number was shown to be a prime.  I also attempt to explain that.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>PLAN of lecture:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>1. Some consideration of the size of numbers like the above number.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>2. The early historical background. Euclid (~300 B.C.) and 'perfect' numbers.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>3. A fleeting glimpse at period between Euclid and Lucas.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>4. Lucas (1842-1891), his record prime, the 'Lucas-lehmer' test, and the </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    modern era.                                                    </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                        1. Some consideration of the size of </font></b>
+<img src="images/1_MERSEN2.gif" width=110 height=48 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>To calculate its value one would have to take 1,257,787 two's, multiply them all together, and then subtract 1.  It is an enormous number, having 378,632 digits.   I have used MAPLE V - RELEASE 4 to calculate the above prime, and have printed it out on A4 paper (please don't tell the College Bursar); it fills about 107 and 1/2 pages, with about 3,500 digits on each page.  [Added afterwards: I brought the printed text of the prime into my lecture, and passed it around the audience so that they could get a physical feel for the size of the prime.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The following is intended only to give SOME idea of the size of the above number.                                 </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^2; </font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN3.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^3;</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN4.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^31;</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN5.gif" width=96 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^31 - 1;  # Euler, 1772 A.D.  Largest known until 1876 A.D.</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN6.gif" width=96 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^127;   </font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN7.gif" width=328 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^127 - 1;  # Lucas, 1876 A.D.  Largest known until 1952 A.D.</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN8.gif" width=328 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>You see how powers of 2 increase in size very quickly as one increases to value of the 'exponent' (the power to which 2 is being 'raised', as we say).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Let's just look at one more power of 2, to get a feeling for its size:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^1000;   # so, this is 1,000 two's multiplied together:</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN9.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN10.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN11.gif" width=560 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>2.    The early historical background Euclid, ~300 B.C., 'perfect' numbers) SOME TERMINOLOGY</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>First I need to establish the meanings of the following fundamental terms:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1.  factor, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>2.  prime number, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>3.  composite number, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>4.  abundant number, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>5.  deficient number, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>6.  perfect number,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and I will do so via simple examples.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>CONVENTION.  By WHOLE numbers I will mean the numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, ... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>15 = 5 + 5 + 5, and we say that 15 is 5 'times' 3, and say that 5 is a FACTOR  of 15, MEANING that 15 is obtainable from 5 by multiplying 5 by SOME whole number (3).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>91 = 7 +  ... + 7 + 7, and we say that 91 is 7 'times' 13, and say that 7 is a FACTOR of 91, MEANING that 91 is obtainable from 7 by multiplying 7 </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>by SOME whole number (13).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>DEFINITION of 'factor'.  If </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is a whole number, then the whole number '</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>' is called a 'factor' of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, if </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is equal to </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> times </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080>, for some whole number ''.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Examples: 5 is a factor of 15, 7 is a factorof 91, 6 is a factor of 30, 13 is a factor of 91, 1 is a factorof 9, 25 is a factor of 25,    etc, etc.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                               </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>However 3 is NOT a factor of 35 in the sense that 35 is NOT 3 times ANY whole number.  (35 is between 33 and 36; the former being eleven 3's and the latter is twelve 3's).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                    </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>LISTING THE FIRST SEVERAL WHOLE NUMBERS, THE FACTORS OF THOSE NUMBERS, AND SOME RANDOMLY CHOSEN LARGER ONES.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>1 has only one factor: 1</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>2 has two factors: 1 and 2</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>3 has two factors: 1 and 3</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>4 has three factors: 1, 2 and 4</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>5 has two factors: 1 and 5</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>6 has four factors: 1, 2, 3 and 6</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>7 has two factors: 1 and 7</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>8 has four factors: 1, 2, 4 and 8</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                  . .</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>20 has two factors: 1, 2, 4, 5, 10, 20</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>21 has four factors: 1, 3, 7 and 21</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>22 has four factors: 1, 2, 11 and 22</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>23 has two factors: 1 and 23</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                  . .</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>225 has nine factors: 1, 3, 5, 9, 15, 25, 45, 75 and 225</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                  . .</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1007 has two factors: 1 and 1007</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1008 has thirty factors: 1, 2, 3, 4, 6, ... , 336, 504 and 1008</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>etc., etc.                                                                         </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                           OBSERVATIONS </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>There is just one whole number with ONLY ONE factor: 1</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>There are SOME whole numbers each of which has EXACTLY TWO factors: 2, 3, 5, 7, 11, 13, 17, 19, 23, ... .  These are the 'PRIME' numbers.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>There are SOME whole numbers each of which has MORE than  TWO factors: 4, 6, 8, 9, 10, 12, 14, ... .  These are the 'COMPOSITE' numbers.                                </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>      An early CLASSIFICATION of whole numbers.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If you add together ALL the factors of 12 then - of course - you get a number that is AUTOMATICALLY greater than 12.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>What happens though if you only add together the factors of 12, but EXCLUDING 12 itself?   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>You get 1+2+3+4+6, which comes to 16, which is greater than 12.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That sort of thing doesn't always happen.   For example if you choose the number 15 - which has factors 1, 3, 5 and 15 - then the sum of all of the </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>factors of 15, apart from 15, comes to 9, which is less than 15.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Numbers that behave LIKE 12 are called ABUNDANT, and</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>numbers that behave LIKE 15 are called DEFICIENT.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A whole number is said to be ABUNDANT if the sum of all of its factors - excluding itself - is GREATER than itself.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A whole number is said to be DEFICIENT if the sum of all of its factors - excluding itself - is LESS than itself.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>By hand you can start a systematic lists of both types, simply by testing each number in turn, find its factors, add all of them - except the number </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>itself - and see what it comes to:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>ABUNDANT: 12, 18, 20, 24, 30, 36, 40, ...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>DEFICIENT: 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, ... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here is a simple 'programme' written in MAPLE's language which will calculate ALL abundant numbers up to any chosen limit:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory):  # needed to use the sigma command</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#0000FF>Warning, new definition for order</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>abundant :=proc(n) local S, k;<br>
+S:={ }:<br>
+for k to n do<br>
+if sigma(k) &gt; 2*k<br>
+then S:=S union {k} else S:=S<br>
+fi od; end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>[Added afterwards: I choose to have the output come out horizontally, rather than vertically. Otherwise I could have dispensed with S etc.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And so  -  for example  -  to find all abundant numbers up as far as 100, all one has to do is:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>abundant(100);</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN12.gif" width=560 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>And here is a slight modification of the above which will enable us to calculate all deficient numbers up to any limit:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>deficient :=proc(n) local S, k;<br>
+S:={ }:<br>
+for k to n do<br>
+if sigma(k) &lt; 2*k<br>
+then S:=S union {k} else S:=S<br>
+fi od; end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>And so  -  for example  -  to find all deficient numbers up as far as 40, all one has to do is:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>deficient(100);</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN13.gif" width=988 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN14.gif" width=808 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>As you see there are many abundant and deficient numbers.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now I would like to make more slight alterations to both of the above programmes that will allow me to actually COUNT how many abundant and deficient numbers there are up to any given limit:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>abundant_or_deficient:=proc(n) local count, k;<br>
+count:=0:<br>
+for k to n do<br>
+if sigma(k) &lt; 2*k or sigma(k) &gt; 2*k then count:=count+1<br>
+else count:=count<br>
+fi od;<br>
+lprint(`There are`, count, `abundant and deficient numbers up as far as`, n);<br>
+end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>There are 20 whole numbers up as far as 20. Let's see how many of them are either abundant or deficient:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>abundant_or_deficient(20);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>There are   19   abundant and deficient numbers up as far as   20</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>And so there is - as it were - one 'missing' number, namely the number 6.  The factors of 6 are 1, 2, 3 and 6, and their sum  -  with 6 itself excluded  - </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>comes to 6. Let's do the same sort of thing, but now we will test the first 400 whole numbers:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>abundant_or_deficient(400);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>There are   398   abundant and deficient numbers up as far as   400</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>JUST 2 MISSING ONES!!!  The extra missing one is 28.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The factors of 28 are 1, 2, 4, 7, 14 and 28, and their sum - with 28 itself excluded - comes to 28.  Numbers LIKE 6 and 28 - being so RARE - were given a special place in the realm of the whole numbers by Euclid.  They were called PERFECT numbers.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>perfect :=proc(n) local k;<br>
+for k to n do<br>
+if sigma(k) = 2*k<br>
+then lprint(k, `is PERFECT`)<br>
+fi od end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>perfect(100);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>6   is PERFECT</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>28   is PERFECT</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>perfect(1000);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>6   is PERFECT</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>28   is PERFECT</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>496   is PERFECT</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>Euclid's beautiful observation was that these numbers were related by a PATTERN which anyone would quickly come to suspect:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>the_factors_of:=proc(n) local S, k;<br>
+S:={ }:<br>
+for k to isqrt(n) do<br>
+if irem(n, k)=0 then S:=S union {k} union {n/k}<br>
+else S:=S<br>
+fi od end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>[Added afterwards: I know that this is a very poor programme, and I could have resorted to using MAPLE's own in-built command 'divisors'. I choose not to do that since I make a distinction with my own students between 'factor' and 'divisor', and since I was giving these notes to my own students I wanted to be consistent in my use of terms.]</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>the_factors_of(6);</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN15.gif" width=88 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>the_factors_of(28);</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN16.gif" width=136 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>the_factors_of(496);</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN17.gif" width=256 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Looking at the last of those - 496 - its factors, when written in increasing order: 1, 2, 4, 8, 16, 31, 62, 124, 248, 496,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>can be rearranged in what one might call factor-pairs as follows: (1, 496), (2, 248), (4, 124), (8, 62) and (16, 31), </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and the product of the members of each pair is equal to 496, and it should be clear that as the value of the first member of each pair is increased there </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>is a decrease in the value of the second member of the pair.  The final pair is especially significant, as we will see.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A mathematically sensitive eye (and Euclid had the great good fortune to have been the one who first made the following observation) will </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>immediately notice something about the small early factors of 496 (1, 2, 4, ... ): they are ALL powers of 2.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The last of them is 16 ( 2 to the power of 4), and the number 496 is the PRODUCT of that number and the VERY NEXT factor of 496 after the factor 16.  In summary, Euclid's great discovery was that if one had a prime that was of the SPECIAL FORM: (</font></b>
+<img src="images/1_MERSEN18.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>then from that prime one could create a PERFECT number by forming the related number: </font></b>
+<img src="images/1_MERSEN19.gif" width=142 height=56 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>                            </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>               3.  A fleeting glimpse at the period between Euclid and Lucas (1842-1891). </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                     </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>With Euclid's discovery the QUESTION then became: For which whole numbers </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is the number (</font></b>
+<img src="images/1_MERSEN20.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) prime?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If one experiments one will find that:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<img src="images/1_MERSEN21.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is a PRIME number when n = 2, 3, 5, 7, ...  and</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN22.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is a COMPOSITE number when n = 4, 6, 8, 9, 10, ...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>HISTORICAL FACT:   Until about the year 1536 A.D. it was WRONGLY BELIEVED that (</font></b>
+<img src="images/1_MERSEN23.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is a prime whenever n is itself a prime.  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In 1536 A.D. it was noted that this is not true:   when n = 11, then (</font></b>
+<img src="images/1_MERSEN24.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) has value 2047, and since 2047 = 23*89, then (</font></b>
+<img src="images/1_MERSEN25.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is NOT a prime.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                          </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>So a new QUESTION then arose: WHICH of the numbers (</font></b>
+<img src="images/1_MERSEN26.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) are prime, and which aren't?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Well, in the case when the 'exponent' itself is composite (as it is - e.g. - in the (</font></b>
+<img src="images/1_MERSEN27.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) case) it is very straightforward. It is easy to give a proof that:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> itself is COMPOSITE then (</font></b>
+<img src="images/1_MERSEN28.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is ALSO COMPOSITE.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>MORAL: If you are looking for values of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> for which (</font></b>
+<img src="images/1_MERSEN29.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is PRIME, then you must search for such values ONLY amongst the primes themselves. So, we need only restrict our search to testing these numbers:  </font></b>
+<img src="images/1_MERSEN30.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/1_MERSEN31.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/1_MERSEN32.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/1_MERSEN33.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/1_MERSEN34.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/1_MERSEN35.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/1_MERSEN36.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ETC, ETC.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                       </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>HOW can one tell if any given one of those numbers is prime or not?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>From the time of Eratosthenes (?276B.C. -  ?194 B.C.) up to Euler (1707- 1783 A.D.) there was only one way known to test ANY whole number to see </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>if it was a prime or not.     It was no more than a simple 'trial-and-error' method, and only involved carrying out a systematic attempt at finding a possible factor of the given whole number.     Starting with the number-to-be-tested, one just did a succession of very routine computations, at the end of which one was able to say: "this number is prime" or "this number is composite". The method had the benefit of "working", but it had a CRITICAL drawback:    it was FAR TOO SLOW.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                              </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                          Euler's record prime of 1772 A.D. (Euler, 1707-1783).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Historically the breakthrough came with some work of Euler, the greatest mathematician of the 18th. century.     For the special numbers (</font></b>
+<img src="images/1_MERSEN37.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)  -  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>with '</font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>' being a prime  -  Euler proved that these could be tested more quickly than 'ordinary' whole numbers which didn't have special structure. But even with this improvement, the largest number of the above type that Euler (in 1772, then 65 years of age, and sightless) was able to PROVE the primality of was the ten digit number:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^31 - 1;</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN38.gif" width=96 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>When Euler established the primality of (</font></b>
+<img src="images/1_MERSEN39.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) it was said (not by him) that this would be the largest prime ever discovered!!!</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                    4. Lucas (1842-1891), his record prime, the 'Lucas-lehmer' test, and the modern era.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The recently discovered record prime, and all others of the same type, was discovered by using a profound new idea introduced into Mathematics by </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the French mathematician Francois Lucas (1842 - 1891). In 1876 he established that the 39-digit number (</font></b>
+<img src="images/1_MERSEN40.gif" width=78 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) was prime, and was able to do so by making a remarkable discovery that marked a revolution in 'Number Theory'.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Prior to Lucas the way in which a number was shown to be prime was to show that it did NOT have any factor other than 1 and itself.  Lucas discovered that the SPECIAL numbers (</font></b>
+<img src="images/1_MERSEN41.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) - when </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is an odd prime -  could be proved to be prime by showing that (</font></b>
+<img src="images/1_MERSEN42.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) IS a factor of one VERY SPECIAL NUMBER, whose value DEPENDS on the number </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> itself.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>            LUCAS' GREAT DISCOVERY (in LEHMER's MODIFIED FORM)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be ANY odd prime number (3, 5, 7, 11, 13, ... ). Next, create the following sequence of numbers: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>4, 14, 194, 37634, 1416317954, 2005956546822746114, 4023861667741036022825635656102100994, ... ... ... ... ... ... ... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>in which each term - after the first one (4) - is obtained from the previous one by 'squaring' it (that is, multiplying it by itself) and subtracting 2 (so, the '14' is </font></b>
+<img src="images/1_MERSEN43.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>; the '194' is </font></b>
+<img src="images/1_MERSEN44.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>; ... ). THEN:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<img src="images/1_MERSEN45.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is a PRIME if it IS a factor of the (</font></b>
+<img src="images/1_MERSEN46.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)-th term of the above sequence, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN47.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is COMPOSITE if it ISN'T a factor of the (</font></b>
+<img src="images/1_MERSEN48.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)-th term of the above sequence.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                        </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>A small example to show what is involved: Take </font></b>
+<img src="images/1_MERSEN49.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>; then </font></b>
+<img src="images/1_MERSEN50.gif" width=129 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 31.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Then </font></b>
+<img src="images/1_MERSEN51.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 4, and so we need the fourth term of the above sequence. The fourth term is 37634, and so we only need to see IF 31 is a factor of 37634.   Performing a simple calculation we find:  37634 = 31*1214, and so 31 IS a factor of the fourth term of the above sequence, and so it is PRIME.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>[One isn't suggesting that one has needed this in order to establish that 31 is prime.  The Eratosthenes approach would establish it almost instantly. ]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Another example:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Take </font></b>
+<img src="images/1_MERSEN52.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>; then </font></b>
+<img src="images/1_MERSEN53.gif" width=129 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 127.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Then </font></b>
+<img src="images/1_MERSEN54.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 6, and so we need the sixth term of the above sequence. The sixth term is 2005956546822746114, and so we only (!!) need to see IF 127 is a factor of 2005956546822746114. Performing a calculation we find: 2005956546822746114 = 127*15794933439549182, and so 127 IS a factor of the sixth term of the above sequence, and so 127 is PRIME.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>[ Once again, one isn't suggesting that one has needed this in order to   establish that 127 is prime.  The Eratosthenes approach would establish </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>  it more quickly. ]                                           </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Of course the terms of the above sequence are getting INCREDIBLY LARGE. The following is only intended to give you some idea as to how quickly they start to have large values:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>show_L_L_sequence:=proc(n) local a, k, m;<br>
+a[1]:=4:<br>
+for k from 2 to n do<br>
+a[k]:=a[k-1]^2 - 2<br>
+od;<br>
+seq(lprint(a[m], `is the`, m, `-th term of the L_L sequence`), m=1..n);<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>show_L_L_sequence(7);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>4   is the   1   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>14   is the   2   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>194   is the   3   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>37634   is the   4   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>1416317954   is the   5   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>2005956546822746114   is the   6   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>4023861667741036022825635656102100994   is the   7   -th term of the L_L sequence</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>Or, here is a simple programme for calculating the number of digits that each term of the Lucas-Lehmer sequence has:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>digits_in_L_L_numbers:=proc(n) local a, k, m;<br>
+a[1]:=4:<br>
+for k from 2 to n do<br>
+a[k]:=a[k-1]^2 - 2<br>
+od;<br>
+seq(lprint(`the`, m, `-th term of the L_L sequence has`, <br>
+   length(a[m]), `digits`), m=1..n);<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>digits_in_L_L_numbers(16);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   1   -th term of the L_L sequence has   1   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   2   -th term of the L_L sequence has   2   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   3   -th term of the L_L sequence has   3   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   4   -th term of the L_L sequence has   5   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   5   -th term of the L_L sequence has   10   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   6   -th term of the L_L sequence has   19   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   7   -th term of the L_L sequence has   37   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   8   -th term of the L_L sequence has   74   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   9   -th term of the L_L sequence has   147   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   10   -th term of the L_L sequence has   293   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   11   -th term of the L_L sequence has   586   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   12   -th term of the L_L sequence has   1172   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   13   -th term of the L_L sequence has   2343   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   14   -th term of the L_L sequence has   4686   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   15   -th term of the L_L sequence has   9371   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>the   16   -th term of the L_L sequence has   18742   digits</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>To tackle the question of deciding on the primality of (</font></b>
+<img src="images/1_MERSEN55.gif" width=78 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) by using this test would mean that one would need the 126-th term of the Lucas-Lehmer sequence. The number of digits in THAT number is STUPENDOUSLY LARGE. As you can see - and it is easy to explain why it happens - the number of digits doubles (almost) every time you move on from one term of the Lucas-Lehmer sequence to the next.  Thus the number of digits that the 126-th. term would have would be APPROXIMATELY:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>8742*2^110;   # doubling the '18742', one hundred and ten times</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN56.gif" width=320 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>Even just to write out a number having that number of digits - at, let us say, one digit per second - would take over 770 thousand, million, million, million, million years.   [ I leave it as a simple arithmetical exercise for you to check on that, at 3600 seconds per hour, 24 hours per day, and 365 days per year. ] And even if one wrote really quickly - at, let us say, one million digits per second - it would still take over 770 thousand, million, million, million years. [ Compare that with the age of the Universe, which is variously estimated at between 10 billion and 20 billion years. ]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                 </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>You are (I hope) surely wondering:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>HOW did Lucas establish the primality of (</font></b>
+<img src="images/1_MERSEN57.gif" width=78 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) when the numbers involved are so incredibly large (AND he only had paper and pencil)?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>He did so by using a standard technique called 'modular arithmetic'- well known to anyone who has made a rudimentary study of 'Number Theory' - </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and it is my aim to convey to you just the GIST of what that involves in this context.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I will do so by looking at a very early example of the test; in fact an example you have already seen:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Take </font></b>
+<img src="images/1_MERSEN58.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>; then </font></b>
+<img src="images/1_MERSEN59.gif" width=129 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 31.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Also, </font></b>
+<img src="images/1_MERSEN60.gif" width=111 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 4, and so we need the fourth term of the above sequence.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The fourth term is 37634, and so we only need to see IF 31 is a factor of 37634.   Performing a simple calculation we find:  37634 = 31*1214, and so 31    </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>IS a factor of the fourth term of the above sequence, and so it is PRIME. There we ACTUALLY worked out the value of the 4-th. term of the Lucas-Lehmer sequence, and it came to 37634.  One of the central ideas of 'modular arithmetic' allows us to circumvent its actual calculation, by making the following SIMPLE but INCREDIBLY IMPORTANT observations:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The 3rd. term of the L-L sequence is 194, and the 4th. term is obtained from it by squaring it, and subtracting 2 (giving 37634).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But, instead of doing that, one can do this:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>DON'T actually multiply 194 by 194.   RATHER do this:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>FIRST, divide 194 by 31, to see how many times it 'goes', and note what's 'left over':</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>194 = 31*6 + 8  (the '6' is the number of times '31 goes into 194, and the '8' is what's 'left over')</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>NOW (and I'll have to explain this at the board) it follows that the 4th. term of the L-L sequence comes out immediately to have 31 as a factor, and</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>we have been able to establish that WITHOUT having to find the ACTUAL value of the 4th. term itself.   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                   </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>[Added afterwards: on the day of the lecture I decided on a last minute change of plan as far as the above was concerned (I feared it might take too long to explain, and that it would lead to time difficulties for me), and the following is what I actually did in the lecture:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I told my audience that I would show them HOW it was a simple matter to establish (for example) that the number </font></b>
+<img src="images/1_MERSEN61.gif" width=86 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> has 3 as a factor WITHOUT actually calculating the number </font></b>
+<img src="images/1_MERSEN62.gif" width=86 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>!!!  (There were audible gasps from some people in the audience; it was comforting to hear that sort of reaction, as it showed real sensitivity to what I was claiming.) </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I involved my audience in my demonstration, which went like this:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: What remainder does 2 leave when divided by 3?  Several: 2.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I wrote on the board: </font></b>
+<img src="images/1_MERSEN63.gif" width=24 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 2, leaves 2 over when divided by 3.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: What is 2 to the power of 2, and what remainder does it leave when divided by 3? Several: 4, and the remainder is 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I wrote on the board: </font></b>
+<img src="images/1_MERSEN64.gif" width=33 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 4 = 3*1 + 1, leaves 1 over when divided by 3.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: What is 2 to the power of 3, and what remainder does it leave when divided by 3?  Several: 8, and the remainder is 2.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I wrote on the board: </font></b>
+<img src="images/1_MERSEN65.gif" width=33 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 8 = 3*2 + 2, leaves 2 over when divided by 3.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: What is 2 to the power of 4, and what remainder does it leave when divided by 3?  Several: 16, and the remainder is 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I wrote on the board: </font></b>
+<img src="images/1_MERSEN66.gif" width=33 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 16 = 3*5 + 1, leaves 1 over when divided by 3.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: Do you notice anything about the way the remainders are going?  Several: They go 2, 1, 2, 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: And how do you THINK they continue?  Several: 2, 1, 2, 1, 2, 1, ...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: You are right, and it is a very simple mathematical point to prove ... . And so what remainder do you expect that </font></b>
+<img src="images/1_MERSEN67.gif" width=41 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> will leave on division by 3?</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Several: 1.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Me: Good! And </font></b>
+<img src="images/1_MERSEN68.gif" width=49 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>?  Several: 2.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: And 2^8000?  Several: 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: Good!   And I wrote on the board:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>     </font></b>
+<img src="images/1_MERSEN69.gif" width=57 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>      =     (some multiple of 3) + 1, and so we have</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>     </font></b>
+<img src="images/1_MERSEN70.gif" width=86 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> =      some multiple of 3,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Me: and so we have been able to show - WITHOUT ACTUALLY CALCULATING IT - that the number </font></b>
+<img src="images/1_MERSEN71.gif" width=86 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> has 3 as a factor.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I put it to my audience that this SORT of calculation was TYPICAL of the kind of thing that passed for what is known as 'modular arithmetic' ... .</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Having made that simple point to them I continued with: ]     </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                            </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The following programme merely combines the MATHEMATICAL IDEA of 'modular arithmetic' with computing facility, and allows us to test</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>whether or not the number (2^p - 1) is a prime.       </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps:=proc(p) local a, M, k, m;<br>
+a[1]:=4:   <br>
+M:=2^p - 1:   <br>
+for k from 2 to p-1 do<br>
+a[k]:=a[k-1]^2 - 2 mod M   <br>
+od;<br>
+seq(a[m], m=1..p-1); <br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(5); # the example already seen</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN72.gif" width=80 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>The '0' at the end - in the 4th. term - corresponds to the ACTUAL 4th. term of the Lucas-lehmer sequence being divisible by (</font></b>
+<img src="images/1_MERSEN73.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(7); # the '0' at the end shows that (2^7 - 1) is prime</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN74.gif" width=144 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(11); # no '0' at the end, and so (2^11 - 1) is COMPOSITE</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN75.gif" width=320 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(13); # so 2^13 - 1 is prime</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN76.gif" width=392 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(17); # so 2^17 - 1 is prime</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN77.gif" width=704 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(19);  # so 2^19 - 1 is prime</font></b>
+</p>
+<p align=center>
+<img src="images/1_MERSEN78.gif" width=864 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(23); # here 2^23 - 1 is COMPOSITE</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN79.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN80.gif" width=328 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(29); # here 2^29 - 1 is COMPOSITE</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN81.gif" width=972 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN82.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN83.gif" width=88 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>And here is a Lucas-Lehmer confirmation of what Euler had verified by his own refinement of the crude Eratosthenes approach:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(31);</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN84.gif" width=972 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN85.gif" width=916 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN86.gif" width=328 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>And the following are the numbers that arise with the number (</font></b>
+<img src="images/1_MERSEN87.gif" width=78 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer_steps(127);</font></b>
+</p>
+<p align=left>
+<img src="images/1_MERSEN88.gif" width=684 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN89.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN90.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN91.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN92.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN93.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN94.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN95.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN96.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN97.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN98.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN99.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN100.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN101.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN102.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN103.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN104.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN105.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN106.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN107.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN108.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN109.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN110.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN111.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN112.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN113.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN114.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN115.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN116.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN117.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN118.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN119.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN120.gif" width=940 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN121.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN122.gif" width=940 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN123.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN124.gif" width=932 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN125.gif" width=964 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN126.gif" width=948 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN127.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/1_MERSEN128.gif" width=192 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>I can modify the above programme so that it only shows the ULTIMATE outcome:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer:=proc(p) local a, M, k, m;<br>
+a[1]:=4:   <br>
+M:=2^p - 1:   <br>
+for k from 2 to p-1 do<br>
+a[k]:=a[k-1]^2 - 2 mod M   <br>
+od;<br>
+if a[p-1] mod M = 0<br>
+then lprint(`when p equals`, p, `then 2^p - 1 equals`, M, `and is prime`)<br>
+else lprint(`when p equals`, p, `then 2^p - 1 equals`, M, `and is COMPOSITE`)<br>
+fi;<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer(13);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>when p equals   13   then 2^p - 1 equals   8191   and is prime</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer(11);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>when p equals   11   then 2^p - 1 equals   2047   and is COMPOSITE</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer(127);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>when p equals   127   then 2^p - 1 equals   170141183460469231731687303715884105727   and is prime</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Lucas_Lehmer(113);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>when p equals   113   then 2^p - 1 equals   10384593717069655257060992658440191   and is COMPOSITE</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>Added afterwards: I emphasised the incredible dedication of Lucas in determining the primality of (</font></b>
+<img src="images/1_MERSEN129.gif" width=78 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) by hand; what a lonely occupation it had been; how a SINGLE slip in his calculations would have completely undermined all his work ... . This was something that seemed to make a great impression on several members of the audience.</font></b>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:14 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

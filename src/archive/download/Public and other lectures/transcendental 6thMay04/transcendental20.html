@@ -1,0 +1,1132 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark20">
+<p align=left>
+<b><font color=#000080 size=4>Liouville (1809-1882)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080 size=4>What is now proved was once only imagin'd </font></b></i>
+<b><font color=#000080>(William Blake)</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>All authors credit Liouville with being the discoverer (creator?) of the first example of a transcendental number, but there is </font></b>
+<i><b><font color=#000080>definite confusion</font></b></i>
+<b><font color=#000080> with regard to </font></b>
+<i><b><font color=#000080>dates</font></b></i>
+<b><font color=#000080>. All are agreed on the date (1844), and even on the approximation theorem (again 1844) that he used, but not on the </font></b>
+<i><b><font color=#000080>actual number</font></b></i>
+<b><font color=#000080> that he first proved to be transcendental. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    In </font></b>
+<i><b><font color=#000080>seems</font></b></i>
+<b><font color=#000080> that in his 1844 paper he proved there were transcendental numbers by using his </font></b>
+<b><font color=#000080 size=4>approximation theorem</font></b>
+<b><font color=#000080> and </font></b>
+<b><font color=#000080 size=4>continued fractions</font></b>
+<b><font color=#000080> (indeed anyone who knows both can readily create their own private transcendental numbers at will), but, it</font></b>
+<i><b><font color=#000080> seems</font></b></i>
+<b><font color=#000080>, it wasn't until 1851 that he gave the following example (that many authors </font></b>
+<i><b><font color=#000080>state</font></b></i>
+<b><font color=#000080> he gave in 1844), the number now named the </font></b>
+<b><font color=#000080 size=4>Liouvillian number</font></b>
+<b><font color=#000080>, namely the sum of the infinite series </font></b>
+<img src="images/transcendental407.gif" width=112 height=80 alt="Sum(1/(10^m!),m = 1 .. infinity)" align=middle>
+<b><font color=#000080>  ), the decimal number:</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>0.</font></b>
+<b><font color=#000080 size=4>11</font></b>
+<b><font color=#000080>000</font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>00000000000000000</font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>0000... <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>'s occur at the </font></b>
+<img src="images/transcendental408.gif" width=187 height=50 alt="1^st, 2^nd, 6^th, 24^th, 120^th" align=middle>
+<b><font color=#000080>, ... places.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Here is one case (perhaps the </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> case) where a beginner may follow with little difficulty a transcendence </font></b>
+<i><b><font color=#000080>proof</font></b></i>
+<b><font color=#000080>. It all depends on a completely simple, but utterly important observation concerning </font></b>
+<i><b><font color=#000080>how well</font></b></i>
+<b><font color=#000080> algebraic numbers may be </font></b>
+<i><b><font color=#000080>approximated</font></b></i>
+<b><font color=#000080> by rational numbers: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Theorem (Liouville, 1844). Let </font></b>
+<img src="images/transcendental409.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> be any real algebraic number of degree </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/transcendental410.gif" width=53 height=32 alt="2 &lt;= n" align=middle>
+<b><font color=#000080>), then there is a positive constant </font></b>
+<img src="images/transcendental411.gif" width=76 height=32 alt="c = c(alpha)" align=middle>
+<b><font color=#000080> (i.e. the value of </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080> depends </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> on </font></b>
+<img src="images/transcendental412.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>) such that</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental413.gif" width=70 height=58 alt="abs(alpha-p/q)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>&gt;</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental414.gif" width=53 height=58 alt="c(alpha)/(q^n)" align=middle>
+<b><font color=#000080>   ... (i)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>for </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> rational numbers </font></b>
+<img src="images/transcendental415.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> integers, with </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> &gt; 0). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Remark 1. Liouville's theorem is also true when </font></b>
+<i><b><font color=#000080>n </font></b></i>
+<b><font color=#000080>= 1, in other words in the case where </font></b>
+<img src="images/transcendental416.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is itself a rational number. There is then an obvious modification that needs to be made in the statement of the theorem: instead of "for </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> rational numbers </font></b>
+<img src="images/transcendental417.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> ", one now needs the necessary restriction </font></b>
+<img src="images/transcendental418.gif" width=60 height=58 alt="p/q &lt;&gt; alpha" align=middle>
+<b><font color=#000080>. The validity of (i) is then a complete triviality, for suppose </font></b>
+<img src="images/transcendental419.gif" width=60 height=58 alt="alpha = a/b" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> integers, </font></b>
+<i><b><font color=#000080>b </font></b></i>
+<b><font color=#000080>&gt; 0) and that </font></b>
+<img src="images/transcendental420.gif" width=60 height=58 alt="alpha &lt;&gt; p/q" align=middle>
+<b><font color=#000080>. Then</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental421.gif" width=70 height=58 alt="abs(alpha-p/q)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental422.gif" width=70 height=58 alt="abs(a/b-p/q)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental423.gif" width=168 height=58 alt="abs((aq-bp)/bq) = abs(aq-bp)/bq" align=middle>
+<b><font color=#000080>, is at least </font></b>
+<img src="images/transcendental424.gif" width=36 height=58 alt="1/bq" align=middle>
+<b><font color=#000080>.<br>
+since the previous numerator, </font></b>
+<img src="images/transcendental425.gif" width=78 height=32 alt="abs(aq-bp)" align=middle>
+<b><font color=#000080>, is </font></b>
+<i><b><font color=#000080>at least</font></b></i>
+<b><font color=#000080> 1 (it can't be 0 since otherwise </font></b>
+<img src="images/transcendental426.gif" width=60 height=58 alt="a/b = p/q" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Thus (i) holds with (say) </font></b>
+<img src="images/transcendental427.gif" width=83 height=58 alt="c = 1/(b+1)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Remark 2. Inequality (i) is completely trivial if </font></b>
+<img src="images/transcendental428.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> is not close to </font></b>
+<img src="images/transcendental429.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>, since, in that case, the left hand side of (i) is not small, whereas </font></b>
+<img src="images/transcendental430.gif" width=38 height=58 alt="1/(q^n)" align=middle>
+<b><font color=#000080> has minimum value 1, and is quite small when </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> is large. In short, one should </font></b>
+<i><b><font color=#000080>appreciate</font></b></i>
+<b><font color=#000080> that the inequality (i) is only of </font></b>
+<i><b><font color=#000080>significance</font></b></i>
+<b><font color=#000080> for rationals </font></b>
+<img src="images/transcendental431.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> that are </font></b>
+<i><b><font color=#000080>close</font></b></i>
+<b><font color=#000080> to </font></b>
+<img src="images/transcendental432.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(The) Proof of Liouville's theorem (is easy). Let </font></b>
+<img src="images/transcendental433.gif" width=270 height=58 alt="f(x) = a[0]*x^n+a[1]*x^(n-1)+`...`+a[n]" align=middle>
+<b><font color=#000080> be the irreducible polynomial with integer coefficients such that </font></b>
+<img src="images/transcendental434.gif" width=75 height=32 alt="f(alpha) = 0" align=middle>
+<b><font color=#000080>, and let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> be integers with </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> &gt; 0. Then, by the mean value theorem,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental435.gif" width=157 height=58 alt="f(p/q) = f(p/q)-f(alpha)" align=middle>
+<b><font color=#000080> = ( </font></b>
+<img src="images/transcendental436.gif" width=60 height=58 alt="p/q-alpha" align=middle>
+<b><font color=#000080> )*f '(</font></b>
+<img src="images/transcendental437.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080>) ... (ii)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>for some </font></b>
+<img src="images/transcendental438.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> between </font></b>
+<img src="images/transcendental439.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental440.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> (where f '(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>) is the first derivative of f(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>)). </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>If </font></b>
+<img src="images/transcendental441.gif" width=98 height=58 alt="1 &lt;= abs(alpha-p/q)" align=middle>
+<b><font color=#000080> then (i) holds (trivially) with (e.g.) </font></b>
+<img src="images/transcendental442.gif" width=55 height=58 alt="c = 1/2" align=middle>
+<b><font color=#000080>, whereas if </font></b>
+<img src="images/transcendental443.gif" width=98 height=58 alt="abs(alpha-p/q) &lt; 1" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental444.gif" width=107 height=32 alt="abs(beta) &lt; abs(alpha)+1" align=middle>
+<b><font color=#000080>, and thus |f '(</font></b>
+<img src="images/transcendental445.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080>)| is bounded above by a constant </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>' whose value depends only on (numbers associated with) </font></b>
+<img src="images/transcendental446.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> |f '(</font></b>
+<img src="images/transcendental447.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080>)| = </font></b>
+<img src="images/transcendental448.gif" width=551 height=60 alt="abs(n*a[0]*beta^(n-1)+(n-1)*a[1]*beta^(n-2)+`...`+a..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+<i><b><font color=#000080>H </font></b></i>
+<b><font color=#000080>is the maximum of the absolute values of the coefficients </font></b>
+<img src="images/transcendental449.gif" width=129 height=32 alt="a[0], a[1], `...`, a[n-1]" align=middle>
+<b><font color=#000080>. Multiplying through (ii) by </font></b>
+<img src="images/transcendental450.gif" width=34 height=50 alt="q^n" align=middle>
+<b><font color=#000080>, and using </font></b>
+<img src="images/transcendental451.gif" width=79 height=58 alt="f(p/q) &lt;&gt; 0" align=middle>
+<b><font color=#000080> (since f(</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>) is irreducible of least degree 2, and so has no rational roots), gives</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental452.gif" width=111 height=58 alt="1 &lt;= q^n*abs(f(p/q))" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental453.gif" width=92 height=58 alt="q^n*abs(alpha-p/q)" align=middle>
+<b><font color=#000080>*|f '(</font></b>
+<img src="images/transcendental454.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080>)| &lt; </font></b>
+<img src="images/transcendental455.gif" width=92 height=58 alt="q^n*abs(alpha-p/q)" align=middle>
+<b><font color=#000080>*</font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>'</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(i) follows immediately.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>___________________</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>I include the following only to illustrate the </font></b>
+<i><b><font color=#000080>idea</font></b></i>
+<b><font color=#000080> behind the proof of Liouville's theorem. I choose an algebraic </font></b>
+<img src="images/transcendental456.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> of degree 3, one that is a solution of the (irreducible) equation </font></b>
+<img src="images/transcendental457.gif" width=185 height=50 alt="6*x^3-14*x-x+11 = 0" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f := x -&gt; 6*x^3 - 14*x^2 - x + 11;</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental458.gif" width=228 height=29 alt="f := proc (x) options operator, arrow; 6*x^3-14*x^2...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(f(x));</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental459.gif" width=166 height=29 alt="6*x^3-14*x^2-x+11">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>plot(f(x), x = -1..2);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental460.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I choose </font></b>
+<img src="images/transcendental461.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> to be the largest of those solutions (you can see it is </font></b>
+<i><b><font color=#000080>slightly more</font></b></i>
+<b><font color=#000080> than 1.925...)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fsolve(f(x) = 0);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental462.gif" width=289 height=20 alt="-.7929093027, 1.200922404, 1.925320232">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and a rational number </font></b>
+<img src="images/transcendental463.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> that is </font></b>
+<i><b><font color=#000080>near</font></b></i>
+<b><font color=#000080> to </font></b>
+<img src="images/transcendental464.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> (in the following diagram I have chosen </font></b>
+<b><font color=#000080 size=4>two</font></b>
+<b><font color=#000080> rational numbers that are close to </font></b>
+<img src="images/transcendental465.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>: </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<img src="images/transcendental466.gif" width=76 height=58 alt="p1/q1 = 19/10" align=middle>
+<b><font color=#000080>, slightly to the left of </font></b>
+<img src="images/transcendental467.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>, and</font></b>
+</li>
+<li>
+<img src="images/transcendental468.gif" width=76 height=58 alt="p2/q2 = 39/20" align=middle>
+<b><font color=#000080>, slightly to the right of </font></b>
+<img src="images/transcendental469.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Then, close in </font></b>
+<i><b><font color=#000080>near</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental470.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>, the graph of the function is </font></b>
+<i><b><font color=#000080>almost linear</font></b></i>
+<b><font color=#000080>, and thus (whether </font></b>
+<img src="images/transcendental471.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080> be </font></b>
+<img src="images/transcendental472.gif" width=36 height=58 alt="p1/q1" align=middle>
+<b><font color=#000080> or </font></b>
+<img src="images/transcendental473.gif" width=36 height=58 alt="p2/q2" align=middle>
+<b><font color=#000080> ):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental474.gif" width=61 height=58 alt="abs(f(p/q))" align=middle>
+<b><font color=#000080> (which is a non-zero rational number - with denominator </font></b>
+<img src="images/transcendental475.gif" width=33 height=50 alt="q^3" align=middle>
+<b><font color=#000080> - and so has minimum value </font></b>
+<img src="images/transcendental476.gif" width=37 height=58 alt="1/(q^3)" align=middle>
+<b><font color=#000080> ) </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>is </font></b>
+<i><b><font color=#000080>almost</font></b></i>
+<b><font color=#000080> equal to </font></b>
+<img src="images/transcendental477.gif" width=70 height=58 alt="abs(alpha-p/q)" align=middle>
+<b><font color=#000080>*|f '(</font></b>
+<img src="images/transcendental478.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>)| </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It should be clear, then, that </font></b>
+<img src="images/transcendental479.gif" width=70 height=58 alt="abs(alpha-p/q)" align=middle>
+<b><font color=#000080> is bounded, </font></b>
+<i><b><font color=#000080>from below</font></b></i>
+<b><font color=#000080>, by a constant multiplied by </font></b>
+<img src="images/transcendental480.gif" width=37 height=58 alt="1/(q^3)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(plots): with(plottools):<br>
+pl1 := plot(f(x), x = 1.89..1.955, thickness=2):<br>
+pl2 := textplot([1.93,-0.03,`alpha`],align=LEFT):<br>
+p1 := 19: q1 := 10:<br>
+l1 := line([p1/q1, 0], [p1/q1, f(p1/q1)], color=navy, thickness=2):<br>
+p2 := 39: q2 := 20:<br>
+l2 := line([p2/q2, 0], [p2/q2, f(p2/q2)], color=brown, thickness=2):<br>
+pl3 := textplot([1.9,0.06,`p1/q1`],align=ABOVE):<br>
+pl4 := textplot([1.9,-0.3,`f(p1/q1)`],align=RIGHT):<br>
+pl5 := textplot([1.95,-0.02,`p2/q2`],align=BELOW):<br>
+pl6 := textplot([1.95,0.35,`f(p2/q2)`],align=LEFT):<br>
+display([pl1, pl2, l1, l2, pl3, pl4, pl5, pl6]);</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the name changecoords has been redefined<br>
+</font></pre></tt>
+</p>
+<p align=center>
+<img src="images/transcendental481.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Once one is in possession of Liouville's theorem, transcendental numbers simply fall into ones lap (in fact, with Cantorian hindsight, one may construct an uncountable number of such Liouville-type numbers). Anyone who is familiar with continued fraction expansions of irrational numbers will see immediately that all one has to do - to produce transcendental numbers - is to </font></b>
+<i><b><font color=#000080>define</font></b></i>
+<b><font color=#000080> numbers whose partial quotients grow in size sufficiently rapidly... I think that is what Liouville did in his 1844 paper (I've never read the original paper, and stand to be corrected), whereas it was in a later (1851) paper that he gave (what many seem to think was in the 1844 one) his well-known decimal example mentioned earlier:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental482.gif" width=144 height=80 alt="alpha = Sum(1/(10^m!),m = 1 .. infinity)" align=middle>
+<b><font color=#000080>  = 0.</font></b>
+<b><font color=#000080 size=4>11</font></b>
+<b><font color=#000080>000</font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>00000000000000000</font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>0000...  </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Proof of transcendence of </font></b>
+<img src="images/transcendental483.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> (the real number </font></b>
+<img src="images/transcendental484.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>cannot</font></b></i>
+<b><font color=#000080> be algebraic since it possesses rational approximations that are </font></b>
+<i><b><font color=#000080>incompatible</font></b></i>
+<b><font color=#000080> with it being algebraic; the relevant rational approximations are simply the early, (first </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> terms, varying part), of the infinite sum). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental485.gif" width=498 height=80 alt="Sum(1/(10^m!),m = 1 .. infinity) = 1/(10^1!)+1/(10^..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now  </font></b>
+<img src="images/transcendental486.gif" width=236 height=58 alt="1/(10^1!)+1/(10^2!)+`...`+1/(10^m!)" align=middle>
+<b><font color=#000080> is a rational number </font></b>
+<img src="images/transcendental487.gif" width=40 height=72 alt="p[m]/q[m]" align=middle>
+<b><font color=#000080> with denominator </font></b>
+<img src="images/transcendental488.gif" width=104 height=58 alt="q[m] = 10^m!" align=middle>
+<b><font color=#000080>, and thus</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental489.gif" width=115 height=72 alt="alpha = p[m]/q[m]+R[m]" align=middle>
+<b><font color=#000080>, where the remainder term, </font></b>
+<img src="images/transcendental490.gif" width=39 height=32 alt="R[m]" align=middle>
+<b><font color=#000080>, is </font></b>
+<i><b><font color=#000080>positive</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>less</font></b></i>
+<b><font color=#000080> than </font></b>
+<img src="images/transcendental491.gif" width=209 height=72 alt="2/(10^(m+1)!) = 2/(q[m]^(m+1))" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental492.gif" width=169 height=72 alt="abs(alpha-p/q) &lt; 2/(q[m]^(m+1))" align=middle>
+<b><font color=#000080> (true for all </font></b>
+<i><b><font color=#000080>m </font></b></i>
+<b><font color=#000080>= 1, 2, 3, 4, ... )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That latter inequality is incompatible with </font></b>
+<img src="images/transcendental493.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> being an algebraic number: for if </font></b>
+<img src="images/transcendental494.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> were algebraic of degree </font></b>
+<i><b><font color=#000080>n </font></b></i>
+<b><font color=#000080>then one would have </font></b>
+<img src="images/transcendental495.gif" width=95 height=72 alt="2/(q[m]^(m+1))" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>&gt;</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental496.gif" width=53 height=58 alt="c(alpha)/(q[m]^n)" align=middle>
+<b><font color=#000080>, which is clearly impossible for </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> sufficiently large.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Cantor motivated observation. With Cantorian hindsight one may in fact observe that there are an uncountable number of transcendental numbers of Liouville type (meaning ones whose transcendence may be established by the Liouville approach). Simply let {</font></b>
+<img src="images/transcendental497.gif" width=33 height=32 alt="a[n]" align=middle>
+<b><font color=#000080>} be any infinite sequence in which </font></b>
+<img src="images/transcendental498.gif" width=61 height=32 alt="a[n] = 1" align=middle>
+<b><font color=#000080> or 2 for all </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>. There is an uncountable number of such sequences, and, for any one of those sequences, the number </font></b>
+<img src="images/transcendental499.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> defined by </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental500.gif" width=144 height=80 alt="alpha = Sum(a[m]/(10^m!),m = 1 .. infinity)" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>is transcendental, and no two such numbers are equal (different sequences produce different numbers, </font></b>
+<i><b><font color=#000080>in this case</font></b></i>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Actually, there is a way of seeing that the above number is transcendental, without knowing anything about the above approximation theorem. Indeed this alternative way could be understood by a </font></b>
+<b><font color=#000080 size=4>numerate school pupil</font></b>
+<b><font color=#000080> with some ability. All that is needed is that one should know - </font></b>
+<b><font color=#000080 size=4>really know!</font></b>
+<b><font color=#000080> - how to multiply decimals together, as I will now illustrate.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Question</font></b>
+<b><font color=#000080>. Which do you think is easier to work out:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>the </font></b>
+<b><font color=#000080 size=4>square</font></b>
+<b><font color=#000080> of the infinite decimal number </font></b>
+<b><font color=#000080 size=4>0.01010101</font></b>
+<b><font color=#000080>... ?, or</font></b>
+</li>
+<li>
+<b><font color=#000080>the </font></b>
+<b><font color=#000080 size=4>square</font></b>
+<b><font color=#000080> of the infinite Liouville decimal number </font></b>
+<b><font color=#000080 size=4>0.11000100</font></b>
+<b><font color=#000080>... ?</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If you tried to do the first one longhand (as we all learned at school) I think you would soon run into trouble. Try it! Ask your pupils to try it. The 'carrying' gets to be troublesome...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    It shouldn't surprise you to know that the squared decimal will be </font></b>
+<i><b><font color=#000080>periodic</font></b></i>
+<b><font color=#000080>: that's simply because the above decimal - which should be seen as the sum of the </font></b>
+<b><font color=#000080 size=4>infinite geometric series</font></b>
+<b><font color=#000080> with initial term </font></b>
+<img src="images/transcendental501.gif" width=44 height=58 alt="1/100" align=middle>
+<b><font color=#000080> and 'common ratio' </font></b>
+<img src="images/transcendental502.gif" width=44 height=58 alt="1/100" align=middle>
+<b><font color=#000080> - is, of course, the decimal expansion of the rational number </font></b>
+<img src="images/transcendental503.gif" width=36 height=58 alt="1/99" align=middle>
+<b><font color=#000080>, and thus the sought, squared decimal, will be whatever is the decimal expansion of </font></b>
+<img src="images/transcendental504.gif" width=45 height=58 alt="1/(99^2)" align=middle>
+<b><font color=#000080> .  But what are the digits in that expansion? First, here are the already seen digits in the infinite expansion of </font></b>
+<img src="images/transcendental505.gif" width=36 height=58 alt="1/99" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory):</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the protected name order has been redefined and unprotected<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(1/99);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental506.gif" width=212 height=20 alt="PDEXPAND(1,0,[],[0, 1])">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That final "[0, 1]" is to be repeated ad infinitum to produce the decimal expansion of </font></b>
+<img src="images/transcendental507.gif" width=36 height=58 alt="1/99" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Here are a few others before we see the decimal expansion of </font></b>
+<img src="images/transcendental508.gif" width=45 height=58 alt="1/(99^2)" align=middle>
+<b><font color=#000080> :</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(1/7);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental509.gif" width=276 height=20 alt="PDEXPAND(1,0,[],[1, 4, 2, 8, 5, 7])">
+</p>
+<p align=left>
+<b><font color=#000080>which means that </font></b>
+<img src="images/transcendental510.gif" width=155 height=58 alt="1/7 = .142857*`...ad inf`" align=middle>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(1/28);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental511.gif" width=296 height=20 alt="PDEXPAND(1,0,[0, 3],[5, 7, 1, 4, 2, 8])">
+</p>
+<p align=left>
+<b><font color=#000080>which means that </font></b>
+<img src="images/transcendental512.gif" width=179 height=58 alt="1/28 = .3571428e-1*`...ad inf`" align=middle>
+<b><font color=#000080> (with only the '571428' being repeated) </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(-97/26);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental513.gif" width=285 height=20 alt="PDEXPAND(-1,3,[7],[3, 0, 7, 6, 9, 2])">
+</p>
+<p align=left>
+<b><font color=#000080>which means that </font></b>
+<img src="images/transcendental514.gif" width=199 height=58 alt="(-97)/26 = -3.7307692*`...ad inf`" align=middle>
+<b><font color=#000080> (with only the '307692' being repeated) </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And finally, the decimal expansion of </font></b>
+<img src="images/transcendental515.gif" width=123 height=50 alt="(.1010101e-1*`...`)^2" align=middle>
+<b><font color=#000080> is (anyone like to guess before I reveal it?):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(1/99^2);</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental516.gif" width=714 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 5...">
+<br>
+<img src="images/transcendental517.gif" width=716 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 5...">
+<br>
+<img src="images/transcendental518.gif" width=716 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 5...">
+<br>
+<img src="images/transcendental519.gif" width=716 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 5...">
+<br>
+<img src="images/transcendental520.gif" width=534 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 5...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>There are 198 digits in the repeating cycle. Don't try - by hand! - working out the decimal expansion of the cube of </font></b>
+<img src="images/transcendental521.gif" width=36 height=58 alt="1/99" align=middle>
+<b><font color=#000080>: there are 19602 digits in the cycle. Anyone familiar with the relevant Number Theory will know it's to do with the fact that </font></b>
+<img src="images/transcendental522.gif" width=93 height=50 alt="ord[10](99^3)" align=middle>
+<b><font color=#000080> = 19602 (= 2*</font></b>
+<img src="images/transcendental523.gif" width=41 height=50 alt="99^2" align=middle>
+<b><font color=#000080>), and the above decimal expansion is to do with the fact that </font></b>
+<img src="images/transcendental524.gif" width=93 height=50 alt="ord[10](99^2)" align=middle>
+<b><font color=#000080> = 198 (= 2*99):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>order(10, 99^2);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental525.gif" width=40 height=20 alt="198">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and thus that the periodic block of the decimal expansion of </font></b>
+<img src="images/transcendental526.gif" width=45 height=58 alt="1/(99^2)" align=middle>
+<b><font color=#000080> commences with three 0s, followed by:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>(10^198 - 1)/99^2;</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental527.gif" width=688 height=20 alt="102030405060708091011121314151617181920212223242526...">
+<br>
+<img src="images/transcendental528.gif" width=688 height=20 alt="102030405060708091011121314151617181920212223242526...">
+<br>
+<img src="images/transcendental529.gif" width=232 height=20 alt="102030405060708091011121314151617181920212223242526...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>It might initially surprise the unsuspecting that it's much easier to work out - by hand! - the decimal value of the square of the above Liouvillian decimal. And its cube, and its fourth power, and ... . Of course one sees why it's easier... : those huge blocks of 0's between the 1's. That alone - without having to use Liouville's approximation theorem - allows one to argue that the Louville decimal is transcendental, as I now illustrate.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    First I</font></b>
+<i><b><font color=#000080> manufacture</font></b></i>
+<b><font color=#000080> a certain quadratic polynomial, </font></b>
+<img src="images/transcendental530.gif" width=161 height=50 alt="50*x^2+4949*x-545" align=middle>
+<b><font color=#000080>, for which the above Liouville number (</font></b>
+<img src="images/transcendental531.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>) is </font></b>
+<i><b><font color=#000080>almost</font></b></i>
+<b><font color=#000080> a root (i.e. </font></b>
+<img src="images/transcendental532.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>almost</font></b></i>
+<b><font color=#000080> a solution of </font></b>
+<img src="images/transcendental533.gif" width=189 height=50 alt="50*x^2+4949*x-545 = 0" align=middle>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    This is </font></b>
+<i><b><font color=#000080>how</font></b></i>
+<b><font color=#000080> I arrived at that quadratic (don't worry if you don't follow the continued fraction reasoning behind it): I began by forming the rational number corresponding to the initial part of the Liouville number; in fact simply the third partial sum </font></b>
+<img src="images/transcendental534.gif" width=200 height=58 alt="1/(10^1!)+1/(10^2!)+1/(10^3!)" align=middle>
+<b><font color=#000080> , which is a rational number, and so has a terminating continued fraction expansion:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>alpha3 := add(1/(10)^(n!), n = 1..3);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental535.gif" width=115 height=45 alt="alpha3 := 110001/1000000">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>cfrac(alpha3, quotients);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental536.gif" width=158 height=20 alt="[0, 9, 11, 99, 1, 10, 9]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Anyone who knows about continued fractions, and knows the effect of a large partial quotient, will spot that '99', and realise why I now define the infinite periodic continued fraction with partial quotients [0, 9, 11, 99, 9, 11, 99, ... ], having initial 0, followed by the infinitely </font></b>
+<i><b><font color=#000080>repeated</font></b></i>
+<b><font color=#000080> block [9, 11, 99]:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>cf3 := [[0], [9, 11, 99]];</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental537.gif" width=172 height=20 alt="cf3 := [[0], [9, 11, 99]]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>beta3 := invcfrac(cf3);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental538.gif" width=230 height=45 alt="beta3 := -4949/100+1/100*sqrt(24601601)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Digits := 10:<br>
+evalf(beta3); # you see the 'extra' bit:</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental539.gif" width=84 height=20 alt=".11000101">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That number, beta3 (which is close to alpha3, which is close to </font></b>
+<img src="images/transcendental540.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080>), is the solution of a quadratic equation, and that equation is recovered by setting</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental541.gif" width=196 height=64 alt="x = -4949/100+sqrt(24601601)/100" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental542.gif" width=202 height=38 alt="100*x+4949 = sqrt(24601601)" align=middle>
+<b><font color=#000080>,  </font></b>
+<img src="images/transcendental543.gif" width=211 height=50 alt="(100*x+4949)^2 = 24601601" align=middle>
+<b><font color=#000080>, etc:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>(expand((100*x + 4949)^2) - 24601601);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental544.gif" width=80 height=20 alt="19607600">
+</p>
+<p align=left>
+<b><font color=#000080>The coefficients obviously have gcd = 200:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(10000, 989800, 109000);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental545.gif" width=40 height=20 alt="200">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>solve(50*x^2 + 4949*x - 545 = 0); # the first is L3</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now observe how close </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = alpha3 is to being a solution of the equation </font></b>
+<img src="images/transcendental546.gif" width=189 height=50 alt="50*x^2+4949*x-545 = 0" align=middle>
+<b><font color=#000080>. I will calculate the value of<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental547.gif" width=117 height=50 alt="50*x^2+4949*x" align=middle>
+<b><font color=#000080> at  </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = alpha3, first to 7 decimal places, and then</font></b>
+</li>
+<li>
+<img src="images/transcendental548.gif" width=117 height=50 alt="50*x^2+4949*x" align=middle>
+<b><font color=#000080> at  </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = alpha3, to 8 decimal places<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>and observe </font></b>
+<b><font color=#000080 size=4>proximity to 545</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(50*alpha3^2 + 4949*alpha3, 7); <br>
+evalf(50*alpha3^2 + 4949*alpha3, 8); <br>
+</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental549.gif" width=76 height=20 alt="545.0000">
+</p>
+<p align=center>
+<img src="images/transcendental550.gif" width=84 height=20 alt="544.99996">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Thus </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = alpha3 is </font></b>
+<i><b><font color=#000080>almost</font></b></i>
+<b><font color=#000080> a solution of the equation </font></b>
+<img src="images/transcendental551.gif" width=189 height=50 alt="50*x^2+4949*x-545 = 0" align=middle>
+<b><font color=#000080>, and we reasonably ask: <br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>could </font></b>
+<img src="images/transcendental552.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>be</font></b></i>
+<b><font color=#000080> a solution?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Without using Liouville's approximation theorem we may easily see that it isn't. I'm not going to </font></b>
+<i><b><font color=#000080>'dot every i and cross every t'</font></b></i>
+<b><font color=#000080>, but rather give pointers and invite you to ponder on your own.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>What one wants to do is to somehow calculate </font></b>
+<img src="images/transcendental553.gif" width=169 height=52 alt="50*alpha^2+4949*alpha-545" align=middle>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> that it isn't 0.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Note first of all that Maple can't do that </font></b>
+<i><b><font color=#000080>exact</font></b></i>
+<b><font color=#000080> calculation for us (though it </font></b>
+<i><b><font color=#000080>can</font></b></i>
+<b><font color=#000080> do many infinite sums):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;<br>
+alpha := sum(1/10^(n!), n = 1..infinity); # 'add' won't 'work'</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental554.gif" width=140 height=69 alt="alpha := sum(1/(10^n!),n = 1 .. infinity)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>50*alpha^2 + 4949*alpha - 545;</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental555.gif" width=361 height=82 alt="50*sum(1/(10^n!),n = 1 .. infinity)^2+4949*sum(1/(1...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>But one can calculate, or rather </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> the </font></b>
+<i><b><font color=#000080>essential</font></b></i>
+<b><font color=#000080> part of the decimal expansion of </font></b>
+<img src="images/transcendental556.gif" width=169 height=52 alt="50*alpha^2+4949*alpha-545" align=middle>
+<b><font color=#000080> by hand, and in the process </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> that </font></b>
+<img src="images/transcendental557.gif" width=197 height=52 alt="50*alpha^2+4949*alpha-545 &lt;&gt; 0" align=middle>
+<b><font color=#000080>. The essential point is that it's actually quite easy to square </font></b>
+<img src="images/transcendental558.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> - </font></b>
+<i><b><font color=#000080>much easier</font></b></i>
+<b><font color=#000080> than squaring the earlier challenge decimal .0101010101... - in the sense that one can </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> what its decimal expansion </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> (this is difficult to type up, since I want vertical holds on the place values in the good old-fashioned way of multiplying and 'carrying'). For each line you should keep in mind where the next '1' is occurs, and the next, and the next, ... :</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                       .11000100000000000000000100000000... multiplied by</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                       .11000100000000000000000100000000... is</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                       .011000100000000000000000100000000... plus</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                       .0011000100000000000000000100000000... plus</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                       .00000011000100000000000000000100000000... plus</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                       .00000000000000000000000011000100000000000000000</font></b>
+<b><u><font color=#000080 size=4>1</font></u></b>
+<b><font color=#000080>00000000... plus</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                        </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080>, which adds up to</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>             </font></b>
+<img src="images/transcendental559.gif" width=37 height=52 alt="alpha^2" align=middle>
+<b><font color=#000080> =  .01210022000100000000000022000200000000000000000</font></b>
+<b><u><font color=#000080 size=4>1</font></u></b>
+<b><font color=#000080>00000000... , thus</font></b>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental560.gif" width=57 height=52 alt="50*alpha^2" align=middle>
+<b><font color=#000080>   =       .6050110000500000000000110001000000000000000000</font></b>
+<b><u><font color=#000080 size=4>50</font></u></b>
+<b><font color=#000080>0000000...</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental561.gif" width=64 height=32 alt="4949*alpha" align=middle>
+<b><font color=#000080>  = 544.3949490000000000000049490000000000000000000000000000... , which adds up to</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                 544.9999600000500000000049600001000000000000000000</font></b>
+<b><u><font color=#000080 size=4>50</font></u></b>
+<b><font color=#000080>0000... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and what I am attempting to draw your eye's attention to is the occurence of that </font></b>
+<b><u><font color=#000080 size=4>50</font></u></b>
+<b><font color=#000080>, which is going to occur over and over again (as a consequence of which it is obvious that </font></b>
+<img src="images/transcendental562.gif" width=125 height=52 alt="50*alpha^2+4949*alpha" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>cannot</font></b>
+<b><font color=#000080> be equal to 545, a whole number). I invite you to think about </font></b>
+<i><b><font color=#000080>why</font></b></i>
+<b><font color=#000080> that kind of thing happens, not just in </font></b>
+<i><b><font color=#000080>this</font></b></i>
+<b><font color=#000080> particular case but in the general case. The above kind of numerical play is only to give one a feeling for this, but you need to start thinking about the question: where, in </font></b>
+<i><b><font color=#000080>place</font></b></i>
+<b><font color=#000080>, do we get 1s occuring in the decimal expansion of (not just) </font></b>
+<img src="images/transcendental563.gif" width=37 height=52 alt="alpha^2" align=middle>
+<b><font color=#000080>(but </font></b>
+<img src="images/transcendental564.gif" width=86 height=52 alt="alpha^3, alpha^4, `...`" align=middle>
+<b><font color=#000080> ), and what then if the effect of multiplying by coefficients, and adding, ... Can we end up getting '0' after it's all totted up?</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    The numerical play has a more formal aspect to it (which should be preceded by play), and that formal aspect is the </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> version of (e.g.) </font></b>
+<img src="images/transcendental565.gif" width=466 height=36 alt="(a[1]+a[2]+a[3])^2 = a[1]^2+a[2]^2+a[3]^2+2*a[1]*a[..." align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>namely </font></b>
+<img src="images/transcendental566.gif" width=562 height=36 alt="(a[1]+a[2]+a[3]+`...`)^2 = a[1]^2+a[2]^2+a[3]^2+`....." align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>+ </font></b>
+<img src="images/transcendental567.gif" width=232 height=32 alt="2*a[2]*a[3]+2*a[2]*a[4]+2*a[2]*a[5]+`...`" align=middle>
+<b><font color=#000080> + </font></b>
+<img src="images/transcendental568.gif" width=232 height=32 alt="2*a[3]*a[4]+2*a[3]*a[5]+2*a[3]*a[6]+`...`" align=middle>
+<b><font color=#000080> + </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>so as to see where 1s occur in </font></b>
+<img src="images/transcendental569.gif" width=334 height=50 alt="(.110001000*`...`)^2 = `.1`^2+`.01`^2+`.000001`^2+`..." align=middle>
+<b><font color=#000080> (each of those contributes a '</font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>' to the decimal expansion) + the 'cross terms', each of which contributes a '</font></b>
+<b><font color=#000080 size=4>2</font></b>
+<b><font color=#000080>' to the decimal, and to see how isolated those </font></b>
+<b><font color=#000080 size=4>1</font></b>
+<b><font color=#000080>s are in terms of their </font></b>
+<i><b><font color=#000080>neighbouring non-zero</font></b></i>
+<b><font color=#000080> digits. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    I will end with a lovely example from Conway &amp; Guy's </font></b>
+<i><b><font color=#000080>The Book of Numbers</font></b></i>
+<b><font color=#000080>. They observe that the Liouville number is </font></b>
+<i><b><font color=#000080>almost</font></b></i>
+<b><font color=#000080> a solution of the 6th degree polynomial equation </font></b>
+<img src="images/transcendental570.gif" width=230 height=50 alt="10*x^6-75*x^3-190*x+21 = 0" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Digits := 24: alp := evalf(add(1/(10)^(n!), n = 1..4)):<br>
+10*alp^6 - 75*alp^3 - 190*alp;</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental571.gif" width=217 height=20 alt="-21.0000000059484221132340">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>They don't tell their readers how that polynomial was arrived at, and I leave it to my reader to speculate.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:57 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

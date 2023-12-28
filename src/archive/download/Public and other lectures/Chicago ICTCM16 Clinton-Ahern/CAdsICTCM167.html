@@ -1,0 +1,415 @@
+<html>
+<head>
+<title>CAdsICTCM16.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark7">
+<p align=left>
+<b><font color=#000080 size=4>A PH </font></b>
+<i><b><font color=#000080 size=4>private</font></b></i>
+<b><font color=#000080 size=4>-key demonstration</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Suppose 'Alice' wishes to send the message '</font></b>
+<i><b><font color=#000080>Hi Bob, let's meet</font></b></i>
+<b><font color=#000080>' to 'Bob' using P-H. This is what they do: </font></b>
+<b><font color=#000080 size=4> </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(10^70 + rand());  # step 1</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1624.gif" width=614 height=20 alt="p := 1000000000000000000000000000000000000000000000...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>e := nextprime(10^15);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1625.gif" width=173 height=20 alt="e := 1000000000000037">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(e, p-1);  # testing that '2' holds</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1626.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcdex(e, p-1, 'x', 'y'):<br>
+d := x mod (p-1);  # Step 3, finding 'd'</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1627.gif" width=606 height=20 alt="d := 9382748813408072838293903901304983125555651715...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Here - just to let you see - is </font></b>
+<i><b><font color=#000080>ed</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>e*d;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1628.gif" width=696 height=20 alt="938274881340842000000000000000000000000000000000000...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And see that </font></b>
+<i><b><font color=#000080>ed</font></b></i>
+<b><font color=#000080> does leave remainder 1 on division by</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>(</font></b>
+<img src="images/CAdsICTCM1629.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>e*d mod (p-1);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1630.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Next, Alice converts her message to a number:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Anum := to_number(`Hi Bob, let's meet. Alice`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1631.gif" width=479 height=20 alt="Anum := 3409802815028180120520881980130505208280271...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(Anum);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1632.gif" width=32 height=20 alt="50">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Alice then encrypts that number (she lays on her coat of paint, as it were) by calculating the remainder (the least positive one) that</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1633.gif" width=65 height=50 alt="Anum^e" align=middle>
+<b><font color=#000080>  leaves</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>on division by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>. I'll call the resulting number </font></b>
+<i><b><font color=#000080>Asend</font></b></i>
+<b><font color=#000080>, since it's that number Alice sends to Bob. </font></b>
+<i><b><font color=#000080>That</font></b></i>
+<b><font color=#000080> is a </font></b>
+<i><b><font color=#000080>remarkable</font></b></i>
+<b><font color=#000080> calculation, as I would like to demonstrate. First see how Maple</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>computes powers; I'll illustrate with </font></b>
+<img src="images/CAdsICTCM1634.gif" width=57 height=50 alt="13^900" align=middle>
+<b><font color=#000080> (which has 1003 digits;</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>in my live presentation I'll vary</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>that to </font></b>
+<img src="images/CAdsICTCM1635.gif" width=73 height=50 alt="13^90000" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>- which has 100,255 digits - but won't leave that output when placing this worksheet on my web site):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>13^900;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM1636.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1637.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1638.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1639.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1640.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1641.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1642.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1643.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1644.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1645.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1646.gif" width=712 height=20 alt="354011260283159548761403020847710190905720457568009...">
+<br>
+<img src="images/CAdsICTCM1647.gif" width=384 height=20 alt="354011260283159548761403020847710190905720457568009...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>But see what happens if we try to compute</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1648.gif" width=73 height=50 alt="A_num^e" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Anum^e;</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, integer too large in context<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Hardly a surprise, since </font></b>
+<img src="images/CAdsICTCM1649.gif" width=65 height=50 alt="Anum^e" align=middle>
+<b><font color=#000080> has billions upon billions of digits, and Maple can only compute powers up to a couple of million digits. It is something of a </font></b>
+<i><b><font color=#000080>minor miracle</font></b></i>
+<b><font color=#000080> that one can quickly compute</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>the remainder that</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1650.gif" width=65 height=50 alt="Anum^e" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>leaves on division by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>without</font></b></i>
+<b><font color=#000080> computing </font></b>
+<img src="images/CAdsICTCM1651.gif" width=65 height=50 alt="Anum^e" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>itself (the mathematics involved uses </font></b>
+<i><b><font color=#000080>congruences</font></b></i>
+<b><font color=#000080>,</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>together with the so-called </font></b>
+<i><b><font color=#000080>square-and-multiply </font></b></i>
+<b><font color=#000080>method,</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>invoked by the '&amp;' in the following Maple command):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Asend := Anum&amp;^e mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1652.gif" width=639 height=20 alt="Asend := 608047871512661339768821786557377364214953...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>In passing let us observe the text equivalent of that </font></b>
+<i><b><font color=#000080>encrypted </font></b></i>
+<b><font color=#000080>number; it is just meaningless junk (I may have to recompute with another 'p' should there be a '00' in that string in the wrong position):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Asend);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1653.gif" width=295 height=20 alt="`7 U;ol~mM('u_=4K^-uW\`I/NY)@J}s'_Jgq`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And this is what Bob does to read Alice's message: he decrypts (he strips off the disuising coat of paint, as it were) by calculating the remainder (again the least positive one) that</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1654.gif" width=66 height=50 alt="Asend^d" align=middle>
+<b><font color=#000080> leaves on division by </font></b>
+<i><b><font color=#000080>p.</font></b></i>
+<b><font color=#000080> The</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>connection between </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, and</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>(</font></b>
+<img src="images/CAdsICTCM1655.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>)</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>in requirement #3, together with the mathematics of Fermat's</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080>little</font></b></i>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>theorem (if </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is any prime, and </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> is any integer not divisible by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, then</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1656.gif" width=75 height=58 alt="a^(p-1)" align=middle>
+<b><font color=#000080> leaves remainder 1 on division by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) -</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080>gaurantees</font></b></i>
+<b><font color=#000080> that the outcome is the numerical form of the </font></b>
+<i><b><font color=#000080>original</font></b></i>
+<b><font color=#000080> text:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Bsee := Asend&amp;^d mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1657.gif" width=469 height=20 alt="Bsee := 3409802815028180120520881980130505208280271...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Bsee);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1658.gif" width=177 height=20 alt="`Hi Bob, let's meet. Alice`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>Wonderful, yes?<br>
+</font></b>
+<b><font color=#000080>(actually it's entirely elementary when you know the mathematics)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In responding to Alice, Bob may encrypt using </font></b>
+<i><b><font color=#000080>either</font></b></i>
+<b><font color=#000080> power (of course in practice Alice and Bob should agree in advance on this), meaning that he may encrypt using the decryption power, as I'll quickly demonstrate:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Bnum := to_number(`Thanks Alice. Where? When? Bob`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1659.gif" width=559 height=20 alt="Bnum := 4608011411198027120903058280490805180586804...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(Bnum);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1660.gif" width=32 height=20 alt="60">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Bsend := Bnum&amp;^d mod p; #NOTE the 'd' power</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1661.gif" width=639 height=20 alt="Bsend := 322980065472853758693965025712179652761818...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Alice receives B_send, and then:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Asee := Bsend&amp;^e mod p; # NOTE the 'e' power</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1662.gif" width=549 height=20 alt="Asee := 4608011411198027120903058280490805180586804...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(Asee);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1663.gif" width=246 height=20 alt="`Thanks Alice. Where? When? Bob`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Two final, quick points: </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>SECURITY.   It should be obvious that both Alice and Bob must keep their 'keys' - (</font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) and (</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) - secret: anyone who </font></b>
+<i><b><font color=#000080>knows</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) may immediately compute </font></b>
+<i><b><font color=#000080>d </font></b></i>
+<b><font color=#000080>(using the extended Euclidean algorithm), or anyone who knows (</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) may immediately compute </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> </font></b>
+</li>
+<li>
+<b><font color=#000080>SIZE OF TEXT.  If the numerical form (Anum or Bnum) of either text is greater than </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, then it </font></b>
+<i><b><font color=#000080>must</font></b></i>
+<b><font color=#000080> be broken down into numbers each having numerical value less than </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> (think about that to see why...)</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:23 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

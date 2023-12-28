@@ -1,0 +1,440 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 284 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 296 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 304 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 308 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 332 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 336 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Norm
+al" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bul
+let Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 
+0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "
+" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }
+{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 \+
+Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 128 1 2 1 2 0 
+0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "# pockling(ton).mws
+" }}}{EXCHG {PARA 18 "" 0 "" {TEXT -1 6 "Using " }{TEXT 328 14 "Pockli
+ngton's " }{TEXT -1 7 "(1914) " }{TEXT 329 7 "theorem" }{TEXT -1 56 " \+
+to test\nprimality of some specially constructed numbers" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 "[" }{TEXT 282 17 "A
+n initial carrot" }{TEXT -1 66 ". Below I present - with proof - the (
+quite fortuitous) discovery " }}{PARA 0 "" 0 "" {TEXT -1 6 " of a " }
+{TEXT 326 16 "2000-digit prime" }{TEXT -1 29 ".  I would like to call \+
+it a " }{TEXT 327 16 "millennium prime" }{TEXT -1 2 ".]" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 265 12 "Introduction" }
+{TEXT -1 55 ".  In a separate Maple worksheet (1914_pap.mws) I have " 
+}}{PARA 0 "" 0 "" {TEXT -1 39 "worked through H.C.Pocklington's paper \+
+" }{TEXT 256 88 "The Determination of the \nPrime or Composite Nature \+
+of Large Numbers by Fermat's theorem" }{TEXT -1 1 "," }}{PARA 0 "" 0 "
+" {TEXT -1 27 "which was published in the " }{TEXT 257 43 "Proceedings
+ of the Cambridge Philosophical " }}{PARA 0 "" 0 "" {TEXT 266 7 "Socie
+ty" }{TEXT -1 65 " in 1916 (it was only two pages long!), and \"Read\"
+ by Pocklington" }}{PARA 0 "" 0 "" {TEXT -1 72 "on the 9th. of March 1
+914.  In modern expositions of Pocklington's paper" }}{PARA 0 "" 0 "" 
+{TEXT -1 45 "there is some lack of consistency as to what " }{TEXT 
+267 2 "is" }{TEXT -1 2 " '" }{TEXT 268 21 "Pocklington's Theorem" }
+{TEXT -1 1 "'" }}{PARA 0 "" 0 "" {TEXT -1 68 "- possibly because at no
+ point in his paper does Pocklington himself" }}{PARA 0 "" 0 "" {TEXT 
+-1 72 "actually state a theorem! - one has to weed it (actually them) \+
+out from " }}{PARA 0 "" 0 "" {TEXT -1 75 "his (beautiful) analysis of \+
+some consequences of Fermat's 'little' theorem." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "What I did in 1914_pap.mw
+s was to go back to Pocklington's original paper," }}{PARA 0 "" 0 "" 
+{TEXT -1 70 "work through his presentation (changing some notation her
+e and there -" }}{PARA 0 "" 0 "" {TEXT -1 24 "I don't like his using '
+" }{XPPEDIT 18 0 "Pi;" "6#%#PiG" }{TEXT -1 51 "' as a symbol for a pri
+me - and also try to make it" }}{PARA 0 "" 0 "" {TEXT -1 71 "more unde
+rstandable), and weave in some illustrative Maple computations" }}
+{PARA 0 "" 0 "" {TEXT -1 72 "(Pocklington's paper does not contain a s
+ingle numerical illustration!)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "My aim in this worksheet was to present s
+ome illustrations of his theorem" }}{PARA 0 "" 0 "" {TEXT -1 79 " - or
+ rather one version of one of his theorems - to some specially constru
+cted" }}{PARA 0 "" 0 "" {TEXT -1 76 "numbers, to present to my third y
+ear B.Ed. and B.A. students in this year's " }{TEXT 331 32 "\nNumber T
+heory and Cryptography " }{TEXT -1 7 "course." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "Anyone well versed in num
+ber theoretical arts will " }{TEXT 330 0 "" }{TEXT -1 21 "immediately \+
+recognise" }}{PARA 0 "" 0 "" {TEXT -1 34 "that the numbers I have chos
+en as " }{TEXT 270 19 "possible candidates" }{TEXT -1 23 " for being p
+rime stood " }}{PARA 0 "" 0 "" {TEXT 269 24 "little chance of success
+" }{TEXT 271 0 "" }{TEXT -1 54 "; rather they were chosen (from a huge
+ range of other " }}{PARA 0 "" 0 "" {TEXT -1 76 "equally interesting p
+ossible ones) because of the beauty of their structure." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "I have (like any num
+ber theorist) a deep personal attachment to the " }{TEXT 272 10 "Eucli
+dean " }}{PARA 0 "" 0 "" {TEXT 275 7 "numbers" }{TEXT -1 27 " - the nu
+mbers of the form " }{XPPEDIT 18 0 "p[1]*p[2]*p[3];" "6#*(&%\"pG6#\"\"
+\"\"\"\"&F%6#\"\"#F(&F%6#\"\"$F(" }{TEXT -1 5 " ... " }{XPPEDIT 18 0 "
+p[n-1]*p[n]+1;" "6#,&*&&%\"pG6#,&%\"nG\"\"\"\"\"\"!\"\"F*&F&6#F)F*F*\"
+\"\"F*" }{TEXT -1 9 " - where " }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "p[1],
+p[2],p[3];" "6%&%\"pG6#\"\"\"&F$6#\"\"#&F$6#\"\"$" }{TEXT -1 8 ", ... \+
+, " }{XPPEDIT 18 0 "p[n-1],p[n];" "6$&%\"pG6#,&%\"nG\"\"\"\"\"\"!\"\"&
+F$6#F'" }{TEXT -1 15 " are the first " }{TEXT 273 1 "n" }{TEXT -1 36 "
+ prime numbers, and what I have done" }}{PARA 0 "" 0 "" {TEXT -1 19 "h
+ere was to choose " }{XPPEDIT 18 0 "p[n+1];" "6#&%\"pG6#,&%\"nG\"\"\"
+\"\"\"F(" }{TEXT -1 15 ", and form its " }{TEXT 274 1 "n" }{TEXT -1 
+10 "-th power " }{XPPEDIT 18 0 "p[n+1]^n;" "6#)&%\"pG6#,&%\"nG\"\"\"\"
+\"\"F)F(" }{TEXT -1 20 ". That latter number" }}{PARA 0 "" 0 "" {TEXT 
+-1 34 "- which is obviously greater than " }{XPPEDIT 18 0 "p[1]*p[2]*p
+[3];" "6#*(&%\"pG6#\"\"\"\"\"\"&F%6#\"\"#F(&F%6#\"\"$F(" }{TEXT -1 5 "
+ ... " }{XPPEDIT 18 0 "p[n-1]*p[n];" "6#*&&%\"pG6#,&%\"nG\"\"\"\"\"\"!
+\"\"F)&F%6#F(F)" }{TEXT -1 11 " - is the '" }{XPPEDIT 18 0 "p^alpha;" 
+"6#)%\"pG%&alphaG" }{TEXT -1 8 "' in the" }}{PARA 0 "" 0 "" {TEXT -1 
+36 "following theorem, as is the number " }{XPPEDIT 18 0 "p[1]*p[2]*p[
+3];" "6#*(&%\"pG6#\"\"\"\"\"\"&F%6#\"\"#F(&F%6#\"\"$F(" }{TEXT -1 5 " \+
+... " }{XPPEDIT 18 0 "p[n-1]*p[n];" "6#*&&%\"pG6#,&%\"nG\"\"\"\"\"\"!
+\"\"F)&F%6#F(F)" }{TEXT -1 5 " the " }{TEXT 276 2 "'U" }{TEXT -1 8 "' \+
+of it." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }{TEXT 258 2 "A " }{TEXT -1 0 "" }{TEXT 259 19 "Pocklington theorem
+" }{TEXT -1 7 ":  Let " }{TEXT 277 1 "N" }{TEXT -1 29 " be a natural n
+umber and let " }{XPPEDIT 18 0 "N-1 = p^alpha*U;" "6#/,&%\"NG\"\"\"\"
+\"\"!\"\"*&)%\"pG%&alphaGF&%\"UGF&" }{TEXT -1 2 ", " }}{PARA 0 "" 0 "
+" {TEXT -1 6 "where " }{TEXT 278 1 "p" }{TEXT -1 11 " is prime, " }
+{XPPEDIT 18 0 "p^alpha;" "6#)%\"pG%&alphaG" }{TEXT -1 25 " is the larg
+est power of " }{TEXT 279 1 "p" }{TEXT -1 11 " dividing (" }{XPPEDIT 
+18 0 "N-1;" "6#,&%\"NG\"\"\"\"\"\"!\"\"" }{TEXT -1 7 "), and " }
+{XPPEDIT 18 0 "U < p^alpha;" "6#2%\"UG)%\"pG%&alphaG" }{TEXT -1 3 ".  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "     \+
+                                     Suppose also that" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 3 "   " }{XPPEDIT 18 0 
+"a^(N-1) = 1;" "6#/)%\"aG,&%\"NG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 "
+ (mod " }{TEXT 281 1 "N" }{TEXT -1 19 ") for some integer " }{TEXT 
+257 1 "a" }{TEXT -1 13 "        ... (" }{TEXT 287 1 "i" }{TEXT -1 57 "
+) \n\n                                                 and " }}{PARA 
+15 "" 0 "" {TEXT 260 2 "  " }{XPPEDIT 18 0 "gcd(a^((N-1)/p)-1,N) = 1;
+" "6#/-%$gcdG6$,&)%\"aG*&,&%\"NG\"\"\"\"\"\"!\"\"F-%\"pGF/F-\"\"\"F/F,
+\"\"\"" }{TEXT -1 35 "                              ... (" }{TEXT 288 
+2 "ii" }{TEXT -1 2 ")\n" }}{PARA 0 "" 0 "" {TEXT 261 0 "" }{TEXT 262 
+5 "then " }{TEXT 263 1 "N" }{TEXT 280 9 " is prime" }{TEXT -1 3 ". [" 
+}{TEXT 283 3 "end" }{TEXT -1 1 "]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "So, I now wish to apply that theorem to t
+he sequence of numbers \{" }{XPPEDIT 18 0 "f[n];" "6#&%\"fG6#%\"nG" }
+{TEXT -1 2 "\}," }}{PARA 0 "" 0 "" {TEXT -1 6 "where:" }}{PARA 0 "" 0 
+"" {TEXT -1 38 "                                      " }{XPPEDIT 18 
+0 "f[1];" "6#&%\"fG6#\"\"\"" }{TEXT -1 11 " = 2*3 + 1," }}{PARA 0 "" 
+0 "" {TEXT -1 37 "                                     " }{XPPEDIT 18 
+0 "f[2];" "6#&%\"fG6#\"\"#" }{TEXT -1 7 " = 2*3*" }{XPPEDIT 18 0 "5^2;
+" "6#*$\"\"&\"\"#" }{TEXT -1 5 " + 1," }}{PARA 0 "" 0 "" {TEXT -1 37 "
+                                     " }{XPPEDIT 18 0 "f[3];" "6#&%\"f
+G6#\"\"$" }{TEXT -1 7 " = 2*3*" }{XPPEDIT 18 0 "5;" "6#\"\"&" }{TEXT 
+-1 1 "*" }{XPPEDIT 18 0 "7^3;" "6#*$\"\"(\"\"$" }{TEXT -1 5 " + 1," }}
+{PARA 0 "" 0 "" {TEXT -1 43 "                                         \+
+ ." }}{PARA 0 "" 0 "" {TEXT -1 43 "                                   \+
+       ." }}{PARA 0 "" 0 "" {TEXT -1 37 "                             \+
+        " }{XPPEDIT 18 0 "f[n];" "6#&%\"fG6#%\"nG" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "p[1]*p[2]*p[3];" "6#*(&%\"pG6#\"\"\"\"\"\"&F%6#\"\"#F(&
+F%6#\"\"$F(" }{TEXT -1 5 " ... " }{XPPEDIT 18 0 "p[n-1]*p[n]*p[n+1]^n+
+1;" "6#,&*(&%\"pG6#,&%\"nG\"\"\"\"\"\"!\"\"F*&F&6#F)F*)&F&6#,&F)F*\"\"
+\"F*F)F*F*\"\"\"F*" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 310 12 "Nomenclature" }{TEXT -1 
+4 ". [\"" }{TEXT 311 22 "What's in a name? ... " }{TEXT -1 27 "\"] I w
+ould like to call the" }}{PARA 0 "" 0 "" {TEXT -1 14 "above numbers " 
+}{TEXT 312 1 "'" }{TEXT 313 26 "L shaped Euclidean numbers" }{TEXT -1 
+17 "', the name being" }}{PARA 0 "" 0 "" {TEXT -1 35 "suggested by the
+ following picture:" }}{PARA 0 "" 0 "" {TEXT -1 65 "                  \+
+                                               " }}{PARA 0 "" 0 "" 
+{TEXT -1 145 "                                                        \+
+               7\n                                                    \+
+                   *" }}{PARA 0 "" 0 "" {TEXT -1 72 "                 \+
+                                                      7" }}{PARA 0 "" 
+0 "" {TEXT -1 72 "                                                    \+
+                   *" }}{PARA 0 "" 0 "" {TEXT -1 89 "                 \+
+                                                      7               \+
+  " }}{PARA 0 "" 0 "" {TEXT -1 53 "                                   \+
+                  " }{XPPEDIT 18 0 "f[3];" "6#&%\"fG6#\"\"$" }{TEXT 
+-1 13 " = 2*3*5* + 1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 285 49 "The L shaped Euclidean numbers can be computed by" }}
+{PARA 0 "" 0 "" {TEXT 332 23 "defining the function '" }{TEXT 284 1 "f
+" }{TEXT 286 13 " ' as follows" }{TEXT -1 26 ":                       \+
+  " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "f := n -> product(ith
+prime(k), k=1..n)*ithprime(n+1)^n + 1;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"fGR6#%\"nG6\"6$%)operatorG%&arrowGF(,&*&-%(productG6$-%)ithp
+rimeG6#%\"kG/F4;\"\"\"9$F7)-F26#,&F8F7F7F7F8F7F7F7F7F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "f(1);  # 2*3 + 1:" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "
+f(2);  # 2*3*5^2 + 1:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$^\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "f(3);  # 2*3*5*7^3 + 1:" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&\"H5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "These - and o
+thers - are the numbers that I wish to subject to the " }}{PARA 0 "" 
+0 "" {TEXT -1 48 "above Pocklington theorem to test for primality." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Before la
+unching into a systematic search, I will illustrate " }{TEXT 333 3 "tw
+o" }{TEXT -1 11 " individual" }}{PARA 0 "" 0 "" {TEXT 334 8 "examples
+" }{TEXT -1 4 " -  " }{XPPEDIT 18 0 "f[9];" "6#&%\"fG6#\"\"*" }{TEXT 
+-1 5 " and " }{XPPEDIT 18 0 "f[10];" "6#&%\"fG6#\"#5" }{TEXT -1 8 " - \+
+with " }{TEXT 292 0 "" }{TEXT -1 1 "'" }{TEXT 293 1 "a" }{TEXT -1 17 "
+' chosen to be 2:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "f(9);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"7JS&fcl7$3WOK" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 23 "2&^(f(9) - 1) mod f(9);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"7(**>,(odk*fP1$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 5 "Thus " }
+{XPPEDIT 18 0 "f[9];" "6#&%\"fG6#\"\"*" }{TEXT -1 23 " has failed cond
+ition (" }{TEXT 289 1 "i" }{TEXT -1 32 ") of Pocklington - which, bein
+g " }{TEXT 290 8 "Fermat's" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+291 18 "test to the base 2" }{TEXT -1 26 " - means immediately that " 
+}{XPPEDIT 18 0 "f[9];" "6#&%\"fG6#\"\"*" }{TEXT -1 14 " is composite.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "Now t
+o test  " }{XPPEDIT 18 0 "f[10];" "6#&%\"fG6#\"#5" }{TEXT -1 1 ":" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f(10);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\":Jsnp`='RzNu-`" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 26 "2&^(f(10) - 1) mod f(10); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "igcd(2&^((f(10)-1
+)/ithprime(11)) mod f(10) - 1, f(10));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 5 "Thus " }{XPPEDIT 18 0 "f[10];" "6#&%\"fG6#
+\"#5" }{TEXT -1 4 " is " }{TEXT 294 6 "proved" }{TEXT -1 7 " to be " }
+{TEXT 335 5 "prime" }{TEXT -1 26 " by Pocklington's theorem." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "Now to engage i
+n a systematic search, " }{TEXT 297 16 "in which I fix '" }{TEXT 296 
+1 "a" }{TEXT 298 6 "' at 2" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "I " }{TEXT 302 5 "first" }{TEXT 
+-1 28 " seek numbers which satisfy " }{TEXT 306 11 "condition (" }
+{TEXT 295 1 "i" }{TEXT 307 1 ")" }{TEXT -1 18 " of Pocklington's " }}
+{PARA 0 "" 0 "" {TEXT -1 46 "theorem; that is, I simply look for value
+s of " }{TEXT 299 0 "" }{TEXT -1 1 "'" }{TEXT 300 1 "k" }{TEXT -1 13 "
+' for which  " }{XPPEDIT 18 0 "f[k];" "6#&%\"fG6#%\"kG" }{TEXT -1 1 " \+
+" }{TEXT 301 35 "passes\nFermat's test to the base 2." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 305 12 "Subsequently" }{TEXT 
+-1 43 " I will further subject the corresponding  " }{TEXT 303 1 "f" }
+{TEXT -1 7 " 's to " }}{PARA 0 "" 0 "" {TEXT 308 11 "condition (" }
+{TEXT 304 2 "ii" }{TEXT 309 1 ")" }{TEXT -1 47 " of Pocklington's theo
+rem. [Of course I realise" }}{PARA 0 "" 0 "" {TEXT -1 56 "that I could
+ have incorporated the two conditions into a" }}{PARA 0 "" 0 "" {TEXT 
+-1 18 "single procedure.]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+107 "candidates := proc(m, n)\nlocal k;\nfor k from m to n do\nif 2&^(
+f(k)-1) mod f(k) = 1\nthen print(k)\nfi\nod\nend:" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+18 "candidates(1, 30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#?" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "So, we
+ have four candidates out of the first thirty L shaped" }}{PARA 0 "" 
+0 "" {TEXT -1 18 "Euclidean numbers." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 30 "The first two produce primes (" }
+{XPPEDIT 18 0 "f[1];" "6#&%\"fG6#\"\"\"" }{TEXT -1 20 " = 2*3 + 1 = 7,
+ and " }{XPPEDIT 18 0 "f[2];" "6#&%\"fG6#\"\"#" }{TEXT -1 7 " = 2*3*" 
+}{XPPEDIT 18 0 "5^2;" "6#*$\"\"&\"\"#" }{TEXT -1 12 " + 1 = 151, " }}
+{PARA 0 "" 0 "" {TEXT -1 33 "are prime). I have already shown " }
+{XPPEDIT 18 0 "f[10];" "6#&%\"fG6#\"#5" }{TEXT -1 29 " is prime above,
+ and so only " }{XPPEDIT 18 0 "f[20];" "6#&%\"fG6#\"#?" }{TEXT -1 9 " \+
+remains:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "igcd(2&^((f(20)
+-1)/ithprime(21)) mod f(20) - 1, f(20));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 3 "So " }{XPPEDIT 18 0 "f[20];" "6#&%\"fG6#\"
+#?" }{TEXT -1 31 " is also prime, and here it is:" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 6 "f(20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\\o\"RBUD%>M#*e(3\"Q4#4!o.m$R<6.Rw.$oLr$\\I5" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 14 "length(f(20));" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"#l" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 35 "I now proceed to search for others:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "candidates(31, 60); # no output" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "candidates(61, 120); # no o
+utput" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "candidates(121, 18
+0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$t\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 59 "igcd(2&^((f(173)-1)/ithprime(174)) mod f(173) - \+
+1, f(173));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "length(f(173));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"$_*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "Great!!! It follows that  " }
+{XPPEDIT 18 0 "f[173];" "6#&%\"fG6#\"$t\"" }{TEXT -1 34 " is prime, an
+d it has 952 digits!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 10 "I want a '" }{TEXT 264 7 "titanic" }{TEXT -1 50 "' pri
+me (one with at least 1000 digits) though!!  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "On we go:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "candidates(181, 240);  # no output
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "candidates(241, 300);  \+
+# no output" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "length(f(300
+));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%B=" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 21 "candidates(301, 330);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$D$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT 336 12 "At long last" }{TEXT -1 31 " - a
+nother L shaped candidate!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 31 "Let's subject it to condition (" }{TEXT 314 2 "
+ii" }{TEXT -1 27 ") of Pocklingtho's theorem:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 59 "igcd(2&^((f(325)-1)/ithprime(326)) mod f(325) - \+
+1, f(325));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 11 "Great!!!   " }{XPPEDIT 18 0 "f[325];" "6#&%\"fG6#\"$D$" }{TEXT 
+-1 48 " is prime!!!  And how many digits does it have?:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "length(f(325));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"%+?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 30 "Wow!!!  I'd like to call it a \+
+" }{TEXT 315 9 "millenium" }{TEXT 337 6 " prime" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "And here \+
+it is:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "f(325);" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#\"[hr\"pS\"3Al4xxF\"[x\"y(\\qfI4&GY?/OfC(3?#
+ygY$)z._MG!fXn!fg!\\'=yTy1U*\\Qw1Pq_\">#*o]0!z_*\\8z/-'z?V_3&eb;$oU(R'
+)Qfv7M^pXxFDIDOk$Q'GsxfjYt%>l^tKj_\"*p,f/;G'zUD1\"QA;^'Qi7t8%R33hT+egZ
+8P\\vzUgIZ?2F'e4sKpjm%epO[/%>2m-&*ehk/$RC!)e)y#H!Q(z[lct&Rc&R6XJJ=0!**
+4\\&)44OYK8dWHATvn0$3/Hu)zEMR8m$y>*H>Yk<`B>B\"GwDj[spE%>w$G$pE!fftR/-N
+0az%H>d;j*y/?2w=x\"=nHb*=(**G/\")Ha,d9aeV;#H6m%*yF<o[bEGi$*H4E46*e(enR
+R86))e<rv?O6(QdFma?ty*)ym3K:$oJ;LPe%QJ%)pPGd`!*G\"3ux;(p9#Hg?l[!eQF#)H
+g=.\"[hV'H-))=d/LB#)f*4PXlfOkxO&zbI0Qk7T!\\.Ynt)o?IW[Jx+))>X)4*pM;V]l#
+G)z2!f[Y*)eM3=A(enASY`@Vd0<.1UU)z9OS7rS0dF7([]!*zBp6lx:(R#*=(pGHao%GtK
+wI-V_!)QtCe^'p\\#3=Vn;b'opd<%H%*47A?a`\\iy0G![nJHu![(H\"4@MgpwJ.oDke!Q
+Bbyi]?#y2d+lor#R.L(*zHRh[;=S!>(y\"3Qy&G)[A$zV\\ZCJT%f8Y\"*>k[mSI[2CMM
+\\'eo30Kc`M')o)>y4No#G\"*)*Q%>qrHfasp<**=J<[[PXQ_h_a]_yc'o\"\\#evyYc#R
+%*)Gp;E5$\\Ob*fcAEn/DpU*3<R!y\">6,_?['pbuqg`8B,hXSlNH8?P\"[$*oD'GK!=`a
+T!3dv<4m\"fEI&pN\"Q@=&)3zI'p%3.*=8')>T77T+[9>i9#4x8[sDyp6za&yN\"*z?D.*
+3'R$>Vg2\"[&pB0+?7NW`J<)>i'>Zo<vq!y%fdE]0=mn2GULDXuA1?(4rJ!4Q\\)fi\"*G
+)R2;D'3JJ@%[>QO2(ym\">W&o(fgH=s))eH6\\0f&))fF$Q)y$R*))4G\"p9\"*HNb4#fg
+vw/,1Xh\"ysW'*Gw;Q#R%>gF&4+e/f[wn(=lw,:RWWRYvAGSe_@<J5(=a9LdAKR+u)yuo!
+)GrAcp\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 317 11 "This is how" }{TEXT -1 1 " " }{XPPEDIT 
+18 0 "f[325];" "6#&%\"fG6#\"$D$" }{TEXT -1 1 " " }{TEXT 319 14 "is con
+structed" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 316 5 "First" }{TEXT -1 28 ", form the first 325 primes:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "seq(ithprime(k), k=1..3
+25);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6a_l\"\"#\"\"$\"\"&\"\"(\"#6\"#8
+\"#<\"#>\"#B\"#H\"#J\"#P\"#T\"#V\"#Z\"#`\"#f\"#h\"#n\"#r\"#t\"#z\"#$)
+\"#*)\"#(*\"$,\"\"$.\"\"$2\"\"$4\"\"$8\"\"$F\"\"$J\"\"$P\"\"$R\"\"$\\
+\"\"$^\"\"$d\"\"$j\"\"$n\"\"$t\"\"$z\"\"$\"=\"$\">\"$$>\"$(>\"$*>\"$6#
+\"$B#\"$F#\"$H#\"$L#\"$R#\"$T#\"$^#\"$d#\"$j#\"$p#\"$r#\"$x#\"$\"G\"$$
+G\"$$H\"$2$\"$6$\"$8$\"$<$\"$J$\"$P$\"$Z$\"$\\$\"$`$\"$f$\"$n$\"$t$\"$
+z$\"$$Q\"$*Q\"$(R\"$,%\"$4%\"$>%\"$@%\"$J%\"$L%\"$R%\"$V%\"$\\%\"$d%\"
+$h%\"$j%\"$n%\"$z%\"$([\"$\"\\\"$*\\\"$.&\"$4&\"$@&\"$B&\"$T&\"$Z&\"$d
+&\"$j&\"$p&\"$r&\"$x&\"$(e\"$$f\"$*f\"$,'\"$2'\"$8'\"$<'\"$>'\"$J'\"$T
+'\"$V'\"$Z'\"$`'\"$f'\"$h'\"$t'\"$x'\"$$o\"$\"p\"$,(\"$4(\"$>(\"$F(\"$
+L(\"$R(\"$V(\"$^(\"$d(\"$h(\"$p(\"$t(\"$(y\"$(z\"$4)\"$6)\"$@)\"$B)\"$
+F)\"$H)\"$R)\"$`)\"$d)\"$f)\"$j)\"$x)\"$\"))\"$$))\"$())\"$2*\"$6*\"$>
+*\"$H*\"$P*\"$T*\"$Z*\"$`*\"$n*\"$r*\"$x*\"$$)*\"$\"**\"$(**\"%45\"%85
+\"%>5\"%@5\"%J5\"%L5\"%R5\"%\\5\"%^5\"%h5\"%j5\"%p5\"%(3\"\"%\"4\"\"%$
+4\"\"%(4\"\"%.6\"%46\"%<6\"%B6\"%H6\"%^6\"%`6\"%j6\"%r6\"%\"=\"\"%(=\"
+\"%$>\"\"%,7\"%87\"%<7\"%B7\"%H7\"%J7\"%P7\"%\\7\"%f7\"%x7\"%z7\"%$G\"
+\"%*G\"\"%\"H\"\"%(H\"\"%,8\"%.8\"%28\"%>8\"%@8\"%F8\"%h8\"%n8\"%t8\"%
+\"Q\"\"%*R\"\"%49\"%B9\"%F9\"%H9\"%L9\"%R9\"%Z9\"%^9\"%`9\"%f9\"%r9\"%
+\"[\"\"%$[\"\"%([\"\"%*[\"\"%$\\\"\"%*\\\"\"%6:\"%B:\"%J:\"%V:\"%\\:\"
+%`:\"%f:\"%n:\"%r:\"%z:\"%$e\"\"%(f\"\"%,;\"%2;\"%4;\"%8;\"%>;\"%@;\"%
+F;\"%P;\"%d;\"%j;\"%n;\"%p;\"%$p\"\"%(p\"\"%*p\"\"%4<\"%@<\"%B<\"%L<\"
+%T<\"%Z<\"%`<\"%f<\"%x<\"%$y\"\"%(y\"\"%*y\"\"%,=\"%6=\"%B=\"%J=\"%Z=
+\"%h=\"%n=\"%r=\"%t=\"%x=\"%z=\"%*)=\"%,>\"%2>\"%8>\"%J>\"%L>\"%\\>\"%
+^>\"%t>\"%z>\"%()>\"%$*>\"%(*>\"%**>\"%.?\"%6?\"%<?\"%F?\"%H?\"%R?\"%`
+?\"%j?\"%p?\"%\"3#\"%$3#\"%(3#\"%*3#\"%*4#\"%6@\"%8@\"%H@\"%J@\"%P@\"%
+T@\"%V@\"%`@" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 318 4 "Next" }{TEXT -1 21 ", form their product:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "U := product(ithprime(k
+), k=1..325);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"UG\"_dn!pg\"Q:?\"
+H'=@]gH*o.Zr!fMb'*R3dUho*R)[!3p7cm]7CeAN\">d[F>S<Z_J\\y,S+#ok2`0,p$*e`
+$*p:c+#[p$>^L!y@\"o!3N7a$oqx@ma!)p8u>;d!pD'GMw\\A\\jVwiKt/['p#G\\:,JWX
+fwL0])G)pI=C9))**QD%yHr]L]*RN))pfS6k<U*G&=V@mH%p;ZrYR*GZO2!>/av)*\\]+z
+Zj\"o`-^RxG!*)oE%35-(HKd$3U<Lt,,1*[2B-*H4o#oq$[l\"\\uwI([hh'fKDt$\\g8B
+.ZxU>3034J\\Cyr&)[@D4\"Q'=S9$zC@!f')*Q]AJ9nx.1?Kgb*>wA+wh[)=D!Hd2Qn0O:
+Z'y]CyS4#=J1ztk$pnjm1i,I3*)G`&o3byIY]V$Qmzl@$RH![HvYL*e>;8V$[X3xE--I*z
+uqf3I,:jETiDPncRxWBS@sp6]3!QmVT&eq\"=cGleK#Q1M*=(H)G;c]4.;D0i^q]RlB(>+
+8xLtv1+p^'*G!=M&)=DIsFH" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 338 3 "Now" }{TEXT -1 7 ", let '" }
+{TEXT 320 1 "p" }{TEXT -1 30 "' be the 326-th. prime number:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "p := ithprime(326);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"%h@" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 339 4 "Form" }
+{TEXT -1 33 " the 325-th. power of that prime " }{TEXT 321 1 "p" }
+{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "p^325;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#\"g^o,?%4dRzz+L3N1.XA^p?ytzBm(oLHv_[C3
+F5'p[C&3Z)e(HJg/S/Wvx3ac!f[Q7%oas8;8eh#oM$R'\\YUi@$)Q>P.O?)o`3([ihu(zE
+75/hSk$Q)[rv+Hm)))*z]p3e^p7N%z9[,X.w1,h#R\\8h1=+Q7#[x7FZ$*pGxq\\r)[7![
+(Q$3:m&GkHT!y@n.fPv)HInwd4V[W\\=/V$38+9uoah9(Q*G\")f\\W(ot!=$z.SK(GPPQ
+o]`506if3%[I)4+GUaX,'o%=yqi)p#\\k=(z-#*p+\\!*f(3\"*=;l9R9R8x(GC\\`[X$o
+@Lh'*y>4)[Bm%f7FLNEhz-QjK\\&3C<<t`!ecV'Q]b*[NmO&yvDS$)\\oKM'=:U2,=0xfP
+j\"QzhbZhTzhIwiW\"48\")*ol-?%=F:)e+'GBEeMNJd1meK!4+'Q3@idqtw*e'*)fedNT
+)RO'4<=b!G%)4yv)=B:y5\"3f/l'=Z#\\O5-AdnW1[@t[?zo:0>$pA4WXfvx6[QWdeNY52
+e.Z]jha])Qtvm-F%=Iy8_<kXaYkm&yIJt8x$f)*=Mvd_%)[0yO.Tm?WlH=H`Crb,%zVs,]
+zh$R1%z`Fm>0mTO!4;z&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT 322 7 "Finally" }{TEXT -1 18 ", form the
+ number " }{TEXT 323 1 "N" }{TEXT -1 13 ", defined by " }{XPPEDIT 18 
+0 "N = p^325*U+1;" "6#/%\"NG,&*&%\"pG\"$D$%\"UG\"\"\"F*\"\"\"F*" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "That " }{TEXT 324 1 "N" }{TEXT -1 32 " is the number 2000-
+digit prime " }{XPPEDIT 18 0 "f[325];" "6#&%\"fG6#\"$D$" }{TEXT -1 23 
+", which I would like to" }}{PARA 0 "" 0 "" {TEXT -1 6 "call '" }
+{TEXT 325 16 "millennium prime" }{TEXT -1 15 "'.  Here it is:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 32 "millennium_prime := p^325*U + 1;" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%1millennium_primeG\"[hr\"pS\"3Al4xxF\"[x\"y(\\qfI4&GY?/OfC(3?#
+ygY$)z._MG!fXn!fg!\\'=yTy1U*\\Qw1Pq_\">#*o]0!z_*\\8z/-'z?V_3&eb;$oU(R'
+)Qfv7M^pXxFDIDOk$Q'GsxfjYt%>l^tKj_\"*p,f/;G'zUD1\"QA;^'Qi7t8%R33hT+egZ
+8P\\vzUgIZ?2F'e4sKpjm%epO[/%>2m-&*ehk/$RC!)e)y#H!Q(z[lct&Rc&R6XJJ=0!**
+4\\&)44OYK8dWHATvn0$3/Hu)zEMR8m$y>*H>Yk<`B>B\"GwDj[spE%>w$G$pE!fftR/-N
+0az%H>d;j*y/?2w=x\"=nHb*=(**G/\")Ha,d9aeV;#H6m%*yF<o[bEGi$*H4E46*e(enR
+R86))e<rv?O6(QdFma?ty*)ym3K:$oJ;LPe%QJ%)pPGd`!*G\"3ux;(p9#Hg?l[!eQF#)H
+g=.\"[hV'H-))=d/LB#)f*4PXlfOkxO&zbI0Qk7T!\\.Ynt)o?IW[Jx+))>X)4*pM;V]l#
+G)z2!f[Y*)eM3=A(enASY`@Vd0<.1UU)z9OS7rS0dF7([]!*zBp6lx:(R#*=(pGHao%GtK
+wI-V_!)QtCe^'p\\#3=Vn;b'opd<%H%*47A?a`\\iy0G![nJHu![(H\"4@MgpwJ.oDke!Q
+Bbyi]?#y2d+lor#R.L(*zHRh[;=S!>(y\"3Qy&G)[A$zV\\ZCJT%f8Y\"*>k[mSI[2CMM
+\\'eo30Kc`M')o)>y4No#G\"*)*Q%>qrHfasp<**=J<[[PXQ_h_a]_yc'o\"\\#evyYc#R
+%*)Gp;E5$\\Ob*fcAEn/DpU*3<R!y\">6,_?['pbuqg`8B,hXSlNH8?P\"[$*oD'GK!=`a
+T!3dv<4m\"fEI&pN\"Q@=&)3zI'p%3.*=8')>T77T+[9>i9#4x8[sDyp6za&yN\"*z?D.*
+3'R$>Vg2\"[&pB0+?7NW`J<)>i'>Zo<vq!y%fdE]0=mn2GULDXuA1?(4rJ!4Q\\)fi\"*G
+)R2;D'3JJ@%[>QO2(ym\">W&o(fgH=s))eH6\\0f&))fF$Q)y$R*))4G\"p9\"*HNb4#fg
+vw/,1Xh\"ysW'*Gw;Q#R%>gF&4+e/f[wn(=lw,:RWWRYvAGSe_@<J5(=a9LdAKR+u)yuo!
+)GrAcp\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "length(millenni
+um_prime);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%+?" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "43 0 0" 0 }{VIEWOPTS 1 1 0 1 
+1 1803 }

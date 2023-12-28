@@ -1,0 +1,492 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=4>How Fermat discovered his theorem. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I refer my reader to Andr&#233; Weil (Section 4, Chapter 2, of his Number Theory) or Harold Edwards (Section 1, Chapter 1, of his Fermat's Last Theorem).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Fermat's discovery of his </font></b>
+<i><b><font color=#000080>little</font></b></i>
+<b><font color=#000080> theorem was a </font></b>
+<i><b><font color=#000080>direct outcome</font></b></i>
+<b><font color=#000080> of his investigations concerning Euclid's theorem on perfect numbers. More specifically it originated from his investigations into the question of the primality or otherwise of (</font></b>
+<img src="images/Flt58.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>On occasion we say things to our students </font></b>
+<i><b><font color=#000080>like</font></b></i>
+<b><font color=#000080>: I'm not sure how such-and-such first happened, was discovered, but I </font></b>
+<i><b><font color=#000080>think</font></b></i>
+<b><font color=#000080> it happened like this... For example, I find myself telling my students how I think Euclid </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> have discovered his famous theorem on perfect numbers. Also, many years ago, I used to (wrongly) tell how I thought Fermat had discovered his 'little' theorem... ; I </font></b>
+<i><b><font color=#000080>thought</font></b></i>
+<b><font color=#000080> he had found it by thinking about the decimal expansions of rational numbers. In Section 2 I consider decimal and other expansions, and there you will see how anyone could have formulated Fermat's little theorem had he/she simply asked the right questions having investigated decimal expansions of </font></b>
+<i><b><font color=#000080>certain</font></b></i>
+<b><font color=#000080> rational numbers.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Fermat was led to formulate his theorem via Euclid's theorem on perfect numbers: <br>
+</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>if</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/Flt59.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is prime then </font></b>
+<img src="images/Flt60.gif" width=142 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is perfect</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One of my Maple delivered public lectures - The recently discovered record Mersenne prime (from 1995, and available at my web site) - treats the subject of abundant, deficient and perfect numbers, the Euclid theorem, etc - but here suffice it to say that before the mid 1450's it was believed that (</font></b>
+<img src="images/Flt61.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is prime if and only if </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> itself is prime, a result blown away by the observation that:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt62.gif" width=123 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = 23*89  ... ( i )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Of course it is trivial that (</font></b>
+<img src="images/Flt63.gif" width=63 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is composite if </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is composite, and so the real interest is in the </font></b>
+<i><b><font color=#000080>Mersenne</font></b></i>
+<b><font color=#000080> numbers {</font></b>
+<img src="images/Flt64.gif" width=37 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>}, where </font></b>
+<img src="images/Flt65.gif" width=104 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> prime. </font></b>
+<img src="images/Flt66.gif" width=37 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is prime for </font></b>
+<img src="images/Flt67.gif" width=173 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , and is composite for </font></b>
+<img src="images/Flt68.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... Before Fermat (1640) nothing had been investigated beyond those </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>'s just shown, and it was Fermat who noted that:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt69.gif" width=120 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Flt70.gif" width=109 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*178481  ... ( ii )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One would need to be incredibly numerically insensitive </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> to notice that '47' is so obviously related to '23':</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt71.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt72.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Ones eye gets pulled back to the earlier ( i ) and notices </font></b>
+<i><b><font color=#000080>exactly the same phenomenon</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt73.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt74.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But a </font></b>
+<i><b><font color=#000080>great mistake</font></b></i>
+<b><font color=#000080> for anyone to make, looking at this </font></b>
+<i><b><font color=#000080>ab initio</font></b></i>
+<b><font color=#000080>, would be to rush in and wonder/declare:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>whenever </font></b>
+<img src="images/Flt75.gif" width=37 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is composite, its least prime divisor </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> satisfies </font></b>
+<img src="images/Flt76.gif" width=94 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>For see what happens with the next prime after 23:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 29;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt77.gif" width=62 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>M[p] := 2^p - 1;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt78.gif" width=139 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(M[p]);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt79.gif" width=166 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and so what did Fermat notice? Simply that not only is (returning to (i)) </font></b>
+<img src="images/Flt80.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt81.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, but also</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Flt82.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt83.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and, with (ii), not only is (returning to (i)) </font></b>
+<img src="images/Flt84.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt85.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, but also</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt86.gif" width=117 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt87.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In short, one might say that Fermat discovered (then conjectured) what one might call the Fermat-Euler theorem on prime divisors of the Mersenne numbers: for </font></b>
+<i><b><font color=#000080>prime</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> every </font></b>
+<i><b><font color=#000080>prime</font></b></i>
+<b><font color=#000080> divisor </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/Flt88.gif" width=104 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> satisfies:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt89.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But it wasn't that alone that Fermat noticed, for he went one step further (he didn't have congruence terminology, but in that language this is what he observed):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One has </font></b>
+<img src="images/Flt90.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 23), and so (squaring, cubing, etc) one has:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt91.gif" width=107 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> etc (are all) = 1 (mod 23)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One has </font></b>
+<img src="images/Flt92.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 89), and so (squaring, cubing, etc) one has:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt93.gif" width=107 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Flt94.gif" width=115 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> etc (are all) = 1 (mod 89)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One also has (looking at case (ii))  </font></b>
+<img src="images/Flt95.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 47), and so (squaring, cubing, etc) one has:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt96.gif" width=107 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> etc (are all) = 1 (mod 47)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One also has (looking at case (ii))  </font></b>
+<img src="images/Flt97.gif" width=70 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod 178481), and so (squaring, cubing, etc) one has:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Flt98.gif" width=107 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Flt99.gif" width=138 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, etc (are all) = 1 (mod 178481)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>What I am trying to draw attention to is that for </font></b>
+<i><b><font color=#000080>each</font></b></i>
+<b><font color=#000080> of the above primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> one has </font></b>
+<img src="images/Flt100.gif" width=66 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) for </font></b>
+<i><b><font color=#000080>various</font></b></i>
+<b><font color=#000080> values of </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, but that in </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> cases </font></b>
+<i><b><font color=#000080>one </font></b></i>
+<b><font color=#000080>of those </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>'s is (</font></b>
+<img src="images/Flt101.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In short, for the primes </font></b>
+<img src="images/Flt102.gif" width=165 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> one has<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Flt103.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But, is this true for </font></b>
+<i><b><font color=#000080>other</font></b></i>
+<b><font color=#000080> primes? Yes, of course it is (or </font></b>
+<i><b><font color=#000080>appears</font></b></i>
+<b><font color=#000080> to be), </font></b>
+<img src="images/Flt104.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, of course:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for r to 15 do<br>
+[ithprime(r), 2^(ithprime(r)-1), 2^(ithprime(r)-1) mod ithprime(r)]<br>
+od;<br>
+# the reason for the '0' in the 1st output is obvious:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt105.gif" width=70 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt106.gif" width=70 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt107.gif" width=78 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt108.gif" width=78 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt109.gif" width=102 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt110.gif" width=102 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt111.gif" width=110 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt112.gif" width=118 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt113.gif" width=126 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt114.gif" width=142 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt115.gif" width=150 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt116.gif" width=158 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt117.gif" width=174 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt118.gif" width=174 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt119.gif" width=182 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And what about changing that '2' to </font></b>
+<img src="images/Flt120.gif" width=72 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, etc? </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for r to 15 do<br>
+[ithprime(r), 3^(ithprime(r)-1), 3^(ithprime(r)-1) mod ithprime(r)]<br>
+od;<br>
+# the reason for the '0' in the 2nd output is obvious:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt121.gif" width=70 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt122.gif" width=70 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt123.gif" width=78 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt124.gif" width=86 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt125.gif" width=110 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt126.gif" width=118 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt127.gif" width=134 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt128.gif" width=142 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt129.gif" width=158 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt130.gif" width=182 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt131.gif" width=190 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt132.gif" width=214 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt133.gif" width=230 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt134.gif" width=238 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt135.gif" width=246 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>etc. In short, one comes to </font></b>
+<i><b><font color=#000080>suspect</font></b></i>
+<b><font color=#000080> that </font></b>
+<img src="images/Flt136.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) providing, of course, that </font></b>
+<img src="images/Flt137.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), namely </font></b>
+<i><b><font color=#000080>Fermat's little theorem</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:45 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

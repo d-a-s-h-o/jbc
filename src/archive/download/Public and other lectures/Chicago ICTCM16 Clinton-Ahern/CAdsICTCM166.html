@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>CAdsICTCM16.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=4>Pohlig-Hellman </font></b>
+<i><b><font color=#000080 size=4>private</font></b></i>
+<b><font color=#000080 size=4>-key. Rivest-Shamir-Adelman </font></b>
+<i><b><font color=#000080 size=4>public-key.</font></b></i>
+</p>
+<p align=left>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>For PH one needs:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1. a 'large' prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<i><b><font color=#000080 size=4><br>
+<br>
+</font></b></i>
+<b><font color=#000080>2. An integer '</font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>' (the encryption power) such that gcd(</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<img src="images/CAdsICTCM1616.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>) = 1.</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080><br>
+<br>
+3. An integer '</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>' (the decryption power) such that </font></b>
+<i><b><font color=#000080>ed</font></b></i>
+<b><font color=#000080> leaves remainder 1</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>on division by</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>(</font></b>
+<img src="images/CAdsICTCM1617.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>).</font></b>
+<b><font color=#000080 size=4><br>
+<br>
+</font></b>
+<b><font color=#000080>In PH, (</font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) and (</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) constitute the </font></b>
+<i><b><font color=#000080>shared</font></b></i>
+<b><font color=#000080> 'private-keys' (anyone who knows one of those keys may quickly calculate the other one, using the extended Euclidean algorithm).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Brief comments. <br>
+<br>
+</font></b>
+<b><font color=#000080>For a given '</font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>' and </font></b>
+<i><b><font color=#000080>'e</font></b></i>
+<b><font color=#000080>' there is ONLY ONE such '</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>' between 1 and (</font></b>
+<img src="images/CAdsICTCM1618.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>).</font></b>
+<b><font color=#000080 size=4> <br>
+<br>
+</font></b>
+<b><font color=#000080>That '</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>' is quickly found by using the so-called extended Euclidean algorithm. </font></b>
+<b><font color=#000080 size=4><br>
+<br>
+</font></b>
+<b><font color=#000080>Requirement #3 is dictated by the mathematics of Fermat's so-called </font></b>
+<i><b><font color=#000080>little</font></b></i>
+<b><font color=#000080> theorem (that's what I mean by hand waving...). </font></b>
+<b><font color=#000080 size=4><br>
+<br>
+</font></b>
+<b><font color=#000080>Without requirement #2, #3 could not even come into play...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>For RSA one needs:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1. Two 'large' primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q </font></b></i>
+<b><font color=#000080>(in the </font></b>
+<i><b><font color=#000080>real world</font></b></i>
+<b><font color=#000080>, 'large' is not good enough, as I will demonstrate in a later section),      and then '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' - Alice's public modulus - is </font></b>
+<i><b><font color=#000080>defined</font></b></i>
+<b><font color=#000080> by </font></b>
+<i><b><font color=#000080>n = pq</font></b></i>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080 size=4><br>
+<br>
+</font></b></i>
+<b><font color=#000080>2. An integer '</font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>' (the </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>ncryption power) such that gcd(</font></b>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<img src="images/CAdsICTCM1619.gif" width=120 height=32 alt="(p-1)*(q-1)" align=middle>
+<b><font color=#000080>) = 1. </font></b>
+<b><font color=#000080 size=4><br>
+    </font></b>
+<b><font color=#000080>That '</font></b>
+<img src="images/CAdsICTCM1620.gif" width=120 height=32 alt="(p-1)*(q-1)" align=middle>
+<b><font color=#000080>' is '</font></b>
+<img src="images/CAdsICTCM1621.gif" width=49 height=32 alt="phi(n)" align=middle>
+<b><font color=#000080>', the so called (Euler) </font></b>
+<i><b><font color=#000080>phi-value of n</font></b></i>
+<b><font color=#000080>, plays a </font></b>
+<i><b><font color=#000080>fundamental</font></b></i>
+<b><font color=#000080> role...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+3. An integer '</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>' (the </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>ecryption power) such that </font></b>
+<i><b><font color=#000080>ed</font></b></i>
+<b><font color=#000080> leaves remainder 1 on division by </font></b>
+<img src="images/CAdsICTCM1622.gif" width=120 height=32 alt="(p-1)*(q-1)" align=middle>
+<b><font color=#000080>.</font></b>
+<b><font color=#000080 size=4><br>
+<br>
+</font></b>
+<b><font color=#000080>In RSA, (</font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) is the </font></b>
+<i><b><font color=#000080>public</font></b></i>
+<b><font color=#000080>-key, while (</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) is the </font></b>
+<i><b><font color=#000080>private</font></b></i>
+<b><font color=#000080>-key (and here the </font></b>
+<i><b><font color=#000080>absolute crux</font></b></i>
+<b><font color=#000080> of the matter, the entire rock on which the whole system stands, is that someone who knows the public-key may NOT quickly quickly calculate the private one, </font></b>
+<i><b><font color=#000080>providing</font></b></i>
+<b><font color=#000080> the constructor of the </font></b>
+<i><b><font color=#000080>public modulus</font></b></i>
+<b><font color=#000080>, '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>', has done so with </font></b>
+<i><b><font color=#000080>due</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>caution</font></b></i>
+<b><font color=#000080> (e.g., it is NOT enough merely to choose </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> to be 'large', as I will later demonstrate)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Brief comments. <br>
+<br>
+</font></b>
+<b><font color=#000080>For a given '</font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>', '</font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080>', and </font></b>
+<i><b><font color=#000080>'e</font></b></i>
+<b><font color=#000080>' there is ONLY ONE such '</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>' between 1 and</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1623.gif" width=120 height=32 alt="(p-1)*(q-1)" align=middle>
+<b><font color=#000080>.</font></b>
+<b><font color=#000080 size=4> <br>
+<br>
+</font></b>
+<b><font color=#000080>That '</font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>' is quickly found - </font></b>
+<i><b><font color=#000080>knowing</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> (that '</font></b>
+<i><b><font color=#000080>knowing</font></b></i>
+<b><font color=#000080>' is a </font></b>
+<i><b><font color=#000080>fundamental</font></b></i>
+<b><font color=#000080> point, and is the </font></b>
+<i><b><font color=#000080>entire basis</font></b></i>
+<b><font color=#000080> for the security of the public-key method...) - by using the so-called extended Euclidean algorithm. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Requirement #3 is dictated by the mathematics of 2-prime case of Euler's generalization of Fermat's </font></b>
+<i><b><font color=#000080>little</font></b></i>
+<b><font color=#000080> theorem (more hand waving...).<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Again, without requirement #2, #3 could not even come into play...</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:23 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

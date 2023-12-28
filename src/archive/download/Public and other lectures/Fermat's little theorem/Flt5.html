@@ -1,0 +1,420 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=4>The theorem itself.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>According to Dickson (and others; see Bibliography) Fermat first announced his theorem in a letter to Mersenne, June (?), 1640.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Fermat's 'little'</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>theorem. Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be prime, and </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer with </font></b>
+<img src="images/Flt10.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), then</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080> </font></b></i>
+<img src="images/Flt11.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+<i><b><font color=#000080> </font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In non-congruence language: let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be any prime, and </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer not divisible by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, then </font></b>
+<img src="images/Flt12.gif" width=76 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> leaves remainder</font></b>
+<b><font color=#000080> 1 on division by </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>A small hand performed illustration. Let </font></b>
+<img src="images/Flt13.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Flt14.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/Flt15.gif" width=114 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Flt16.gif" width=61 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Flt17.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Maple examples (the meaning of each command should be clear).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p[1] := nextprime(120);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt18.gif" width=78 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[1] := 2;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt19.gif" width=62 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>57 mod 5; # the remainder 57 leaves on division by 5</font></b>
+</p>
+<p align=center>
+<img src="images/Flt20.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[1]^(p[1] - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt21.gif" width=320 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[1]^(p[1] - 1) mod p[1];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt22.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p[2] := nextprime(10^20 + rand());</font></b>
+</p>
+<p align=center>
+<img src="images/Flt23.gif" width=222 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[2] := rand(); # Maple has a 12-digit random number generator:</font></b>
+</p>
+<p align=center>
+<img src="images/Flt24.gif" width=150 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[2] mod p[2];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt25.gif" width=112 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[2]^(p[2] - 1);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#FF0000>Error, integer too large in context</font></pre></tt></b>
+</p>
+<p align=left>
+<b><font color=#000080>That expected, and intentional output can be overcome by using the so-called </font></b>
+<i><b><font color=#000080>square-and-multiply</font></b></i>
+<b><font color=#000080> method which is incorporated into a Maple command by the use of '&amp;' as follows. (The mathematics of that command, the so-called square-and-multiply method - </font></b>
+<i><b><font color=#000080>modular exponentiation</font></b></i>
+<b><font color=#000080> - is covered in a Maple worksheet at my web site. It forms part of my 3rd year course on Number Theory and Cryptography.)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[2]&amp;^(p[2] - 1) mod p[2];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt26.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>And let's just see the values </font></b>
+<img src="images/Flt27.gif" width=85 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(p[2] - 1) mod p[2];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt28.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3&amp;^(p[2] - 1) mod p[2];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt29.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>5&amp;^(p[2] - 1) mod p[2];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt30.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Anyone who already knows some Number Theory will understand why I didn't </font></b>
+<i><b><font color=#000080>check</font></b></i>
+<b><font color=#000080> that</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Flt31.gif" width=113 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/Flt32.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>It is an </font></b>
+<i><b><font color=#000080>automatic</font></b></i>
+<b><font color=#000080> consequence of</font></b>
+</p>
+<p align=center>
+<img src="images/Flt33.gif" width=113 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/Flt34.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>as indeed</font></b>
+</p>
+<p align=center>
+<img src="images/Flt35.gif" width=113 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/Flt36.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>is a consequence of</font></b>
+</p>
+<p align=center>
+<img src="images/Flt37.gif" width=113 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/Flt38.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080>and</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Flt39.gif" width=113 height=68 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/Flt40.gif" width=32 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and now consider this:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 10^80*rand()^2 + 20! + 2*rand() + 127;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt41.gif" width=878 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(p);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt42.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<i><b><font color=#000080>Could</font></b></i>
+<b><font color=#000080> that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>be</font></b></i>
+<b><font color=#000080> a prime? Let's see: </font></b>
+<i><b><font color=#000080>if</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is prime </font></b>
+<i><b><font color=#000080>then</font></b></i>
+<b><font color=#000080> automatically we have </font></b>
+<img src="images/Flt43.gif" width=105 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), etc.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>So, let's calculate;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^(p - 1) mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt44.gif" width=848 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Ah! So it isn't, since the output was </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> 1. I hope you realise how powerful that calculation is, for in a microsecond it has determined that the above </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is composite.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. But what if the output had been '1'? What then? Would it follow that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is prime? If you don't already know the answer to that question, then you might like to think about it before you read Section 4 (Primality Testing).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Software Note</font></u></b>
+<b><font color=#000080>. The above fast computation might </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> impressive, but for </font></b>
+<i><b><font color=#000080>seriously large</font></b></i>
+<b><font color=#000080> numbers - ones with hundreds of thousands, or </font></b>
+<i><b><font color=#000080>several million</font></b></i>
+<b><font color=#000080> digits - Maple is, </font></b>
+<i><b><font color=#000080>quite simply</font></b></i>
+<b><font color=#000080>,</font></b>
+<i><b><font color=#000080> absolutely useless</font></b></i>
+<b><font color=#000080>. For seriously large numbers a user </font></b>
+<i><b><font color=#000080>must</font></b></i>
+<b><font color=#000080> avail of remarkable public-domain programs like:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>prime95.exe (George Woltman's GIMPS project)<br>
+<br>
+Everyone will know that George's program has found - on </font></b>
+<i><b><font color=#000080>desktop</font></b></i>
+<b><font color=#000080> computers - the last four record sized Mersenne primes (most earlier ones had been found on CRAY supercomputers), the most recent of which is the only known prime with more than a million digits.<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>proth.exe (Yves Gallot's Proth project)<br>
+<br>
+In July 1999 - using Yves' program - I had the good fortune to find the 115130 digit prime 3*</font></b>
+<img src="images/Flt45.gif" width=102 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (the </font></b>
+<i><b><font color=#000080>then</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Flt46.gif" width=47 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> largest known prime), and a factor of the (then, and </font></b>
+<i><b><font color=#000080>still</font></b></i>
+<b><font color=#000080>) largest known composite Fermat number:                        <br>
+                                        </font></b>
+<img src="images/Flt47.gif" width=205 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080><br>
+<br>
+That prime proved to be a divisor of the </font></b>
+<i><b><font color=#000080>generalised </font></b></i>
+<b><font color=#000080>Fermat numbers:<br>
+<br>
+                                        </font></b>
+<img src="images/Flt48.gif" width=233 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>,<br>
+                                        </font></b>
+<img src="images/Flt49.gif" width=233 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>,<br>
+                                 and </font></b>
+<img src="images/Flt50.gif" width=249 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080><br>
+<br>
+each of which were new records for their type (of which the last two still stand).<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Prime Form (Chris Nash's original version, based on Yves Gallot's Proth library)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>NewPGen (Paul Jobling's sieve program, based on Yves Gallot's Proth library)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>PRP (George Woltman's probabilistic primality program - which actually uses Fermat's little theorem - to be used in conjunction with NewPGen, and Proth.exe). A faster version - PRP2 - also by GW, exploits the recent Intel Pentium IV chip<br>
+<br>
+In May 2001 - using a combination of Yves Gallot's proth, Paul Jobling's NewPGen, and George Woltman's PRP - I also had the good fortune to find the 275,977 digit prime 3*</font></b>
+<img src="images/Flt51.gif" width=102 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (the </font></b>
+<i><b><font color=#000080>then</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Flt52.gif" width=39 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> largest known prime; it may still be, but these prime rankings have a habit of not lasting for a long time!) That prime proved to be a divisor of the generalised Fermat numbers:<br>
+                                   </font></b>
+<img src="images/Flt53.gif" width=233 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080><br>
+                           and </font></b>
+<img src="images/Flt54.gif" width=249 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080><br>
+<br>
+The first of those broke the previous record (above), and the second established a new record for its type.<br>
+                                                          <br>
+Last month - here in Klagenfurt - Manfred Toplic found the 246767 digit prime 5*</font></b>
+<img src="images/Flt55.gif" width=102 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (the </font></b>
+<img src="images/Flt56.gif" width=39 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> largest known prime), and a divisor of the generalised Fermat number:<br>
+                                                   </font></b>
+<img src="images/Flt57.gif" width=233 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>                                                        </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>pfgw (the Chris Nash managed program; the 'pf' is 'Prime Form,' the 'g' is 'Gallot,' and the 'w' is 'Woltman.')</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That list is not complete; one should consult the web sites of Chris Caldwell (exclusively devoted to prime numbers) or Keith Matthews (which covers Number Theory in general). Those two sites are the "cream of the cream."</font></b>
+</p>
+<p align=left>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:45 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

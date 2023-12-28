@@ -1,0 +1,17 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "divisors(15);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(numtheory);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "divisors(15);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 6 "sigma;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "tau;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sigma(10);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sigma(12);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "sigma(6);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 54 "for k to 100 do\nif sigma(k) > 2*k\nthen print(k)
+\nfi\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "for k to 100 d
+o\nif sigma(k) < 2*k\nthen print(k)\nfi\nod;" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 55 "for k to 1000 do\nif sigma(k) = 2*k\nthen print(
+k)\nfi\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "
+12" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

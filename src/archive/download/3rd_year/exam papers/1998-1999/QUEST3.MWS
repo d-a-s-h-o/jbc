@@ -1,0 +1,119 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 
+1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 1 0 1 0 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 
+0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "# quest3.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }{MPLTEXT 1 
+0 138 "`crypt/alphabet` := `abcdefghijklmnopqrstuvwxyz`\n||`ABCDEFGHIJ
+KLMNOPQRSTUVWXYZ`\n||```1234567890-=~!@#$\243%^&*()_+`\n||` ,./<>?;':
+\"[]\{\}|    `:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 232 "to_number := proc(st, strin
+g) \nlocal ll, nn, ss, ii;  \nll := length(st);\nif ll = 0 then RETURN
+(0) fi; \nnn := 1;\nfor ii to ll do \nss := SearchText(substring(st, i
+i .. ii),`crypt/alphabet`);\nnn := 100*nn + ss \nod;\nnn - 10^(2*ll) \+
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 272 "from_number := proc(nn, integer) \nlocal
+ ss, mm, ll, pp, ii, ans; mm := nn;\nll := floor(1/2*trunc(evalf(log10
+(mm))))+1;\nans := ``; for ii to ll do mm := mm/100;\npp := 100*frac(m
+m);\nss := substring(`crypt/alphabet`, pp..pp);\nans := cat(ss, ans); \+
+mm := trunc(mm)\nod; ans end:" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(
+a)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "Making up RSA keys for A:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "pA:=nextprime(78687685765
+48654785448765785676576578);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#pAG
+\"F@mdwcyl([aya'[ldo(oy" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+length(pA);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#P" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 48 "qA:=nextprime(986987978987987987987979879
+87987);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#qAG\"A4!))z)zz)z)z)z)*yz
+)p)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(qA);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#K" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "nA:=pA*qA;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#nAG
+\"`o*ePxr!fY5.u!fy[3B/X:n\\ZqW(>RQ%>\\%**zjw(" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 11 "length(nA);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"#p" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "eA:=nextprime(56778
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#eAG\"&zn&" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 11 "length(eA);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "phi_nA:=(pA-
+1)*(qA-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'phi_nAG\"`ogH<`q+#[$y
+*[089L]<wOm\\ZqW(>RQ%>\\%**zjw(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 26 "igcdex(eA,phi_nA,'x','y');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "dA:= x mod phi_nA
+;" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#dAG\"`o*4_]V@%Q
+Pf0]T&epzX2.;cf#f&QH2\")zk7T*fU$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+24 "Making up RSA keys fo B:" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "pB:=nextprime(76578658765765
+4675467546754675786897689768768768);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%#pBG\"Q$yo(o(*o(*oyvYvYvYvYldwe'yl(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "length(pB);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#[" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "qB:=nextprime(98798798798
+798797987768765876868768767657546);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%#qBG\"MHxln(o(oo(ewox)zz)z)z)z)z)*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "length(qB);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#W" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "nB:=pB*qB;" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#>%#nBG\"gp2Q(Q3B*3$46l](e3Bb-%3Fe=6H%R*yL@H0L\"f
+#Qj8<Bt!o*\\zec(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(
+nB);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"##*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "eB:=nextprime(5676);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#eBG\"%$o&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "length(eB);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "phi_nB:=(pB-1)*(qB-1);" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%'phi_nB
+G\"gp'HZuakCaX%4sAC`'4y'Q9=ZEKmQ*yL@H0L\"f#Qj8<Bt!o*\\zec(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "igcdex(eB,phi_nB,'x','y');" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "dB:= x mod phi_nB;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>%#dBG\"gpN5nbEB(*pn?o]>1S9GOXW!**e9%Q'y%R?8P3z1D1hBDL\"ok@:#p" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "(b)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(nA);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#p" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 11 "length(nB);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"##*" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 52 "As A's public modulus is less than
+ B's A goes first." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Messa
+ge:=to_number(`The deal is off. A.`);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%(MessageG\"G#y-Gog],)>4!G6]S+e!3Y" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "length(Message);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"#Q" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "encrypt1:=Message&^
+dA mod nA;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)encrypt1G\"`o([$))*y2
+seqb`/oSP\"endr#HnwE9xN/8_Ft8b\\" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "send1:=encrypt1&^eB mod nB;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%&send1G\"gpZyf'G2zw>p4_jKwe#445`0Yu\\w$=pDkg?*)\\@8-q
+Y7%GFBKfY" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "A would send 'send1'
+ to B:" }}{PARA 0 "" 0 "" {TEXT -1 64 "B receives 'send 1' and reads A
+'s message by doing the following" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+3 "(c)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "receive1:=send1&^
+dB mod nB;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)receive1G\"`o([$))*y2
+seqb`/oSP\"endr#HnwE9xN/8_Ft8b\\" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "decrypt1:=receive1&^eA mod nA;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%)decrypt1G\"G#y-Gog],)>4!G6]S+e!3Y" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 33 "original1:=from_number(decrypt1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*original1G%4The~deal~is~off.~A.G" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(d)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "length(nA);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#p" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(nB);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"##*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "B \+
+would do the following to sign the following message to A." }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 59 "A's public modulus is less than B's there
+fore A goes first." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "messa
+ge2:=to_number(`I don't care.B.`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%)message2G\"?#)G#e!=,.!3#)[^T+e$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "length(message2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"#I" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "encrypt2:=message2&
+^eA mod nA;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)encrypt2G\"`o2\"4)*)
+yI!Gzo!*[AjcHJ/<0O>(*f:HjR[SlmX0J" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "send2:=encrypt2&^dB mod nB;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%&send2G\"gpyn#=#pUbizf(>j,yddGHR)*[9AHv!3W(4))H.W-+8a
+kiHCSD8(H" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "A would do the follo
+wing to read B's message." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+27 "receive2:=send2&^eB mod nB;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)
+receive2G\"`o2\"4)*)yI!Gzo!*[AjcHJ/<0O>(*f:HjR[SlmX0J" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "decrypt2:=receive2&^dA mod nA; " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)decrypt2G\"?#)G#e!=,.!3#)[^T+e$" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "original2:=from_number(decr
+ypt2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*original2G%0I~don't~care.
+B.G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 
+8 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

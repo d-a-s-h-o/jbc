@@ -1,0 +1,647 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark12">
+<p align=left>
+<b><font color=#000080 size=4>Definitions of algebraic and transcendental numbers</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Motivation</font></b>
+<b><font color=#000080> of the definition of the term </font></b>
+<i><b><font color=#000080>algebraic number</font></b></i>
+<b><font color=#000080>. The numbers </font></b>
+<img src="images/transcendental155.gif" width=28 height=58 alt="7/5" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental156.gif" width=87 height=108 alt="2^(1/3)+1/5" align=middle>
+<b><font color=#000080>, and </font></b>
+<img src="images/transcendental157.gif" width=117 height=70 alt="1/2+sqrt(1-sqrt(2))/2" align=middle>
+<b><font color=#000080> are, in one sense, quite different: </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>the first is a rational number</font></b>
+</li>
+<li>
+<b><font color=#000080>the second is a real irrational number, and </font></b>
+</li>
+<li>
+<b><font color=#000080>the third is (clearly) a complex number (with non-zero 'imaginary' part) <br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc(1/2 + sqrt(1 - sqrt(2)));</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental158.gif" width=119 height=45 alt="1/2+I*sqrt(sqrt(2)-1)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>I^2; # in Maple 'I' is sqrt(-1)</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental159.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But in another sense they are not so different: all three are solutions of equations of the </font></b>
+<i><b><font color=#000080>same kind</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<img src="images/transcendental160.gif" width=28 height=58 alt="7/5" align=middle>
+<b><font color=#000080> is a solution of the equation </font></b>
+<img src="images/transcendental161.gif" width=92 height=32 alt="a*x+b = 0" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> are integers: </font></b>
+<img src="images/transcendental162.gif" width=122 height=32 alt="(a, b) = (5, -7)" align=middle>
+</li>
+<li>
+<img src="images/transcendental163.gif" width=87 height=108 alt="2^(1/3)-1/5" align=middle>
+<b><font color=#000080> is a solution of the equation </font></b>
+<img src="images/transcendental164.gif" width=189 height=50 alt="a*x^3+b*x^2+c*x+d = 0" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080> are integers: </font></b>
+<img src="images/transcendental165.gif" width=233 height=32 alt="(a, b, c, d) = (125, 75, 15, -249)" align=middle>
+</li>
+<li>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental166.gif" width=117 height=70 alt="1/2+sqrt(1-sqrt(2))/2" align=middle>
+<b><font color=#000080> is a solution of the equation </font></b>
+<img src="images/transcendental167.gif" width=237 height=50 alt="a*x^4+b*x^3+c*x^2+d*x+e = 0" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>b, c</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> are integers: </font></b>
+<img src="images/transcendental168.gif" width=229 height=32 alt="(a, b, c, d, e) = (8, -16, 8, 0, -1)" align=middle>
+<b><font color=#000080><br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>solve(8*x^4 - 16*x^3 + 8*x^2 - 1 = 0);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental169.gif" width=460 height=45 alt="1/2-1/2*sqrt(1+sqrt(2)), 1/2+1/2*sqrt(1+sqrt(2)), 1...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalc(1/2 + sqrt(1-sqrt(2))/2);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental170.gif" width=131 height=45 alt="1/2+1/2*I*sqrt(sqrt(2)-1)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=2>DEFINITION</font></b>
+<b><font color=#000080>. A real or complex number </font></b>
+<img src="images/transcendental171.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is said to be </font></b>
+<b><font color=#000080 size=4>algebraic</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>('over the </font></b>
+<b><font color=#000080 size=4>integers</font></b>
+<b><font color=#000080>') if </font></b>
+<img src="images/transcendental172.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is a solution of </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> polynomial equation </font></b>
+<img src="images/transcendental173.gif" width=251 height=58 alt="a[0]*x^n+a[1]*x^(n-1)+`...`+a[n] = 0" align=middle>
+<b><font color=#000080>, where the </font></b>
+<img src="images/transcendental174.gif" width=101 height=32 alt="a[0], a[1], `...`, a[n]" align=middle>
+<b><font color=#000080> are integers, </font></b>
+<img src="images/transcendental175.gif" width=60 height=32 alt="a[0] &lt;&gt; 0" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=2>REMARK </font></b>
+<b><font color=#000080>on that </font></b>
+<b><font color=#000080 size=2>DEFINITION. </font></b>
+<b><font color=#000080> You can sometimes see an algebraic number defined as follows: a real or complex number </font></b>
+<img src="images/transcendental176.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is said to be </font></b>
+<b><font color=#000080 size=4>algebraic</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>('over the </font></b>
+<b><font color=#000080 size=4>rationals</font></b>
+<b><font color=#000080>') if </font></b>
+<img src="images/transcendental177.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is a solution of </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> polynomial equation </font></b>
+<img src="images/transcendental178.gif" width=251 height=58 alt="a[0]*x^n+a[1]*x^(n-1)+`...`+a[n] = 0" align=middle>
+<b><font color=#000080>, where the </font></b>
+<img src="images/transcendental179.gif" width=101 height=32 alt="a[0], a[1], `...`, a[n]" align=middle>
+<b><font color=#000080> are rationals, </font></b>
+<img src="images/transcendental180.gif" width=60 height=32 alt="a[0] &lt;&gt; 0" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    One should appreciate that it doesn't matter which of these definitions is adopted as the basis for defining the term </font></b>
+<i><b><font color=#000080>algebraic</font></b></i>
+<b><font color=#000080>, for - trivially - a number that is algebraic according to one of these definitions is automatically algebraic according to the other definition, and vice versa. (For example, </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental181.gif" width=126 height=64 alt="alpha = 8/3-2*sqrt(21)/3" align=middle>
+<b><font color=#000080>  is a solution of the equation </font></b>
+<img src="images/transcendental182.gif" width=149 height=76 alt="3*x^2/4-4*x-5/3 = 0" align=middle>
+<b><font color=#000080>, and so </font></b>
+<img src="images/transcendental183.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is algebraic according to the latter definition. But clearly that same </font></b>
+<img src="images/transcendental184.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is a solution of the equation </font></b>
+<img src="images/transcendental185.gif" width=157 height=50 alt="9*x^2-48*x-20 = 0" align=middle>
+<b><font color=#000080> (the earlier one multiplied by the product of the denominators of the rational coefficients) :  </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>solve(3/4*x^2 - 4*x - 5/3 = 0);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental186.gif" width=164 height=45 alt="8/3+2/3*sqrt(21), 8/3-2/3*sqrt(21)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>solve(9*x^2 - 48*x - 20 = 0);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental187.gif" width=164 height=45 alt="8/3+2/3*sqrt(21), 8/3-2/3*sqrt(21)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=2>DEFINITION</font></b>
+<b><font color=#000080>. An algebraic number </font></b>
+<img src="images/transcendental188.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is said to be of </font></b>
+<b><font color=#000080 size=4>degree</font></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> if </font></b>
+<img src="images/transcendental189.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is a solution of </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> polynomial equation </font></b>
+<img src="images/transcendental190.gif" width=251 height=58 alt="a[0]*x^n+a[1]*x^(n-1)+`...`+a[n] = 0" align=middle>
+<b><font color=#000080>, where the </font></b>
+<img src="images/transcendental191.gif" width=101 height=32 alt="a[0], a[1], `...`, a[n]" align=middle>
+<b><font color=#000080> are integers (</font></b>
+<img src="images/transcendental192.gif" width=60 height=32 alt="a[0] &lt;&gt; 0" align=middle>
+<b><font color=#000080>), but </font></b>
+<img src="images/transcendental193.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is not a solution of any polynomial equation (with integer coefficients, not all zero) of smaller degree.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Example 1. </font></b>
+<img src="images/transcendental194.gif" width=28 height=58 alt="7/5" align=middle>
+<b><font color=#000080> is clearly an algebraic number of degree 1.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Example 2. </font></b>
+<img src="images/transcendental195.gif" width=70 height=64 alt="(sqrt(7)+3)/5" align=middle>
+<b><font color=#000080> is clearly an algebraic number (set </font></b>
+<img src="images/transcendental196.gif" width=102 height=64 alt="alpha = (sqrt(7)+3)/5" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental197.gif" width=110 height=38 alt="5*alpha-3 = sqrt(7)" align=middle>
+<b><font color=#000080>, and thus</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental198.gif" width=142 height=50 alt="(5*alpha-3)^2 = sqrt(7)^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental199.gif" width=165 height=52 alt="25*alpha^2-30*alpha+9 = 7" align=middle>
+<b><font color=#000080>, and so </font></b>
+<img src="images/transcendental200.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is a solution of the equation </font></b>
+<img src="images/transcendental201.gif" width=157 height=50 alt="25*x^2-30*x+2 = 0" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Also, </font></b>
+<img src="images/transcendental202.gif" width=70 height=64 alt="(sqrt(7)+3)/5" align=middle>
+<b><font color=#000080>, being irrational, cannot be of the first degree, and thus is of degree 2.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Example 3. </font></b>
+<img src="images/transcendental203.gif" width=80 height=38 alt="sqrt(2)+sqrt(3)" align=middle>
+<b><font color=#000080> is clearly an algebraic number (but do not jump to the hasty conclusion that it is of degree 2 on the flimsy grounds that </font></b>
+<img src="images/transcendental204.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental205.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> are both algebraic, and of the second degree): set </font></b>
+<img src="images/transcendental206.gif" width=112 height=38 alt="alpha = sqrt(2)+sqrt(3)" align=middle>
+<b><font color=#000080>, then </font></b>
+</p>
+<p align=left>
+<img src="images/transcendental207.gif" width=144 height=52 alt="alpha^2 = (sqrt(2)+sqrt(3))^2" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental208.gif" width=78 height=38 alt="5+2*sqrt(6)" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental209.gif" width=165 height=78 alt="(alpha^2-5)^2 = (2*sqrt(6))^2" align=middle>
+<b><font color=#000080>= 24, giving </font></b>
+<img src="images/transcendental210.gif" width=170 height=52 alt="alpha^4-10*alpha^2+25 = 24" align=middle>
+<b><font color=#000080>, and finally</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental211.gif" width=154 height=52 alt="alpha^4-10*alpha^2+1 = 0" align=middle>
+<b><font color=#000080>. Thus </font></b>
+<img src="images/transcendental212.gif" width=108 height=38 alt="x = sqrt(2)+sqrt(3)" align=middle>
+<b><font color=#000080> is a solution of the fourth degree equation </font></b>
+<img src="images/transcendental213.gif" width=146 height=50 alt="x^4-10*x^2+1 = 0" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>However, it is not that </font></b>
+<img src="images/transcendental214.gif" width=80 height=38 alt="sqrt(2)+sqrt(3)" align=middle>
+<b><font color=#000080> is of degree 4 simply because of the fact that the equation is of degree 4. After all, if one set </font></b>
+<img src="images/transcendental215.gif" width=70 height=38 alt="alpha = sqrt(5)" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/transcendental216.gif" width=88 height=52 alt="alpha^4 = sqrt(5)^4" align=middle>
+<b><font color=#000080> = 25, giving </font></b>
+<img src="images/transcendental217.gif" width=101 height=52 alt="alpha^4-25 = 0" align=middle>
+<b><font color=#000080>, and so </font></b>
+<img src="images/transcendental218.gif" width=56 height=32 alt="x = alpha" align=middle>
+<b><font color=#000080> is a solution of the fourth degree equation </font></b>
+<img src="images/transcendental219.gif" width=97 height=50 alt="x^4-25 = 0" align=middle>
+<b><font color=#000080>. But, the polynomial </font></b>
+<img src="images/transcendental220.gif" width=69 height=50 alt="x^4-25" align=middle>
+<b><font color=#000080> happens to factor as the product of two polynomials with integer coefficients, of smaller degree: </font></b>
+<img src="images/transcendental221.gif" width=211 height=50 alt="x^4-25 = (x^2-5)*(x^2+5)" align=middle>
+<b><font color=#000080>, and it's the </font></b>
+<img src="images/transcendental222.gif" width=61 height=50 alt="x^2-5" align=middle>
+<b><font color=#000080> that is the fundamental polynomial associated with </font></b>
+<img src="images/transcendental223.gif" width=38 height=38 alt="sqrt(5)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Without going any further, let me simply remark that </font></b>
+<img src="images/transcendental224.gif" width=118 height=50 alt="x^4-10*x^2+1" align=middle>
+<b><font color=#000080> doesn't factor as the product of two polynomials in a similar fashion (and thus </font></b>
+<img src="images/transcendental225.gif" width=80 height=38 alt="sqrt(2)+sqrt(3)" align=middle>
+<b><font color=#000080> is of degree 4):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(x^4 - 25);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental226.gif" width=138 height=29 alt="(x^2-5)*(x^2+5)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>factor(x^4 - 10*x^2 + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental227.gif" width=118 height=29 alt="x^4-10*x^2+1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Elementary properties of algebraic numbers (which are easily proved).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1. If </font></b>
+<img src="images/transcendental228.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental229.gif" width=27 height=32 alt="beta" align=middle>
+<b><font color=#000080> are algebraic numbers then so too are </font></b>
+<img src="images/transcendental230.gif" width=145 height=32 alt="alpha+beta, alpha-beta, alpha*beta" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental231.gif" width=32 height=58 alt="alpha/beta" align=middle>
+<b><font color=#000080> (</font></b>
+<img src="images/transcendental232.gif" width=55 height=32 alt="beta &lt;&gt; 0" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>2. If </font></b>
+<img src="images/transcendental233.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> is algebraic then so also is every one of </font></b>
+<img src="images/transcendental234.gif" width=181 height=110 alt="alpha^(1/2), alpha^(1/3), alpha^(1/4), `...`" align=middle>
+</p>
+<p align=center>
+<b><font color=#000080>__________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Concerning Hardy &amp; Wright</font></b>
+<b><font color=#000080>'s </font></b>
+<i><b><font color=#000080>It is not immediately obvious that there are any transcendental numbers</font></b></i>
+<b><font color=#000080>...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Why was it natural at one time to wonder about the possibility that </font></b>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> real (or complex) number is algebraic? (Of course one has to put out of one's mind the world view after Cantor, with his clarification that there are only a </font></b>
+<i><b><font color=#000080>countable</font></b></i>
+<b><font color=#000080> number of algebraic numbers, but an </font></b>
+<i><b><font color=#000080>uncountable</font></b></i>
+<b><font color=#000080> number of non-algebraic (=transcendental) ones. The interested reader might wish to consult at my web site my 2nd year BA summary course notes on </font></b>
+<i><b><font color=#000080>The Real Numbers and Cantorian Set Theory</font></b></i>
+<b><font color=#000080>.) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    So, imagine starting with a completely empty complex plane, and imagine it being filled up, bit by bit, with every kind of number one can think of... every time one thinks of a new number or numbers (especially an infinite number of numbers) a light comes on at each of those numbers. The plane begins to be lit up with those tiny point specks of light... slowly at first... The integers, even all of them, hardly make any impression, but certainly the rationals fill up a lot of the real line (itself, of course, swamped by the vastness of the entire complex plane), though not, of course, the entire real line: there are all those real irrational numbers... all those ones that are algebraic of the second degree, but they don't fill the entire real line, there are all those of the third, fourth, fifth, sixth, ... degrees (Do they - perhaps - fill the entire real line?). And then there are all those complex numbers with non-zero imaginary parts... all those ones of the form (</font></b>
+<img src="images/transcendental235.gif" width=73 height=32 alt="r[1]+r[2]*i" align=middle>
+<b><font color=#000080>), where </font></b>
+<img src="images/transcendental236.gif" width=30 height=32 alt="r[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental237.gif" width=30 height=32 alt="r[2]" align=middle>
+<b><font color=#000080> vary in all possible ways over the rational numbers... Every one of those is a solution of a quadratic equation with integer coefficients (and so is of degree 2). They fill up a lot of the complex plane, but not, of course, all of it. But then we imagine switching on lights at all the complex solutions of third, fourth, fifth, sixth, ... degree algebraic numbers. Have we now filled up the entire complex plane; or, at the very least, earlier, the entire real line?</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Suppose, </font></b>
+<i><b><font color=#000080>just for the moment</font></b></i>
+<b><font color=#000080>, that we hadn't filled the entire complex plane, and let us return to the above definition of the actual term </font></b>
+<i><b><font color=#000080>algebraic</font></b></i>
+<b><font color=#000080>, with its reference to 'integer' (or 'rational') coefficients. Let's now make the observation that those coefficients are </font></b>
+<i><b><font color=#000080>merely</font></b></i>
+<b><font color=#000080> (with hindsight) algebraic numbers of the first degree, and, in the light of that, let us now </font></b>
+<i><b><font color=#000080>speculate</font></b></i>
+<b><font color=#000080> that we might - perhaps - get our hands on a real or complex number that isn't an algebraic number (according to our earlier definition) by doing attempting </font></b>
+<i><b><font color=#000080>like</font></b></i>
+<b><font color=#000080> this: let's </font></b>
+<b><font color=#000080 size=4>try</font></b>
+<b><font color=#000080> to find a polynomial equation that doesn't have an algebraic solution by choosing some (or possibly all) of its coefficients not to be integers (or rational numbers)... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Note that every such polynomial equation has solutions (as many, in fact, as the degree of the polynomial, thought some may be repeated), every one of which is a complex number: that's because of the so-called</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080>Fundamental Theorem of Algebra</font></b></i>
+<b><font color=#000080> (remarkable itself in its day, and still so...), namely that </font></b>
+<b><font color=#000080 size=4>every</font></b>
+<b><font color=#000080> polynomial equation with </font></b>
+<b><font color=#000080 size=4>real/complex</font></b>
+<b><font color=#000080> coefficients has </font></b>
+<b><font color=#000080 size=4>exclusively complex solutions</font></b>
+<b><font color=#000080> (some of which may be real). </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Thus (we wonder) could we find/construct a polynomial, all of whose coefficients are algebraic numbers (but where some/all of them are of degree greater than 1), such that the corresponding equation (all of whose solutions we know from the Fundamental Theorem of Algebra must be complex numbers) possesses at least one solution that is </font></b>
+<b><font color=#000080 size=4>not</font></b>
+<b><font color=#000080> an algebraic number? For example, consider the following equation in which all of the coefficients are algebraic numbers (not all rational):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental238.gif" width=221 height=64 alt="sqrt(7)*x^2-9*x/11+3/4-sqrt(5/3) = 0" align=middle>
+<b><font color=#000080>  ... (E)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>with coefficients </font></b>
+<img src="images/transcendental239.gif" width=38 height=38 alt="sqrt(7)" align=middle>
+<b><font color=#000080> (2nd degree), </font></b>
+<img src="images/transcendental240.gif" width=50 height=58 alt="-9/11" align=middle>
+<b><font color=#000080> (1st degree), and </font></b>
+<img src="images/transcendental241.gif" width=86 height=64 alt="3/4-sqrt(5/3)" align=middle>
+<b><font color=#000080>  (2nd degree algebraic).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The solutions of that equation are:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>solve(sqrt(7)*x^2 - 9*x/11 + 3/4 - sqrt(5/3) = 0);</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental242.gif" width=381 height=45 alt="1/1848*sqrt(7)*(108+4*sqrt(729-3267*sqrt(7)+1452*sq...">
+<br>
+<img src="images/transcendental243.gif" width=377 height=45 alt="1/1848*sqrt(7)*(108+4*sqrt(729-3267*sqrt(7)+1452*sq...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A beginner might not immediately notice, but those two solutions </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> algebraic numbers according to the standard definition of being algebraic '</font></b>
+<i><b><font color=#000080>over the integers</font></b></i>
+<b><font color=#000080>'.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Incidentally, it is an entirely elementary matter to prove - independent of actual calculation - that the two solutions of the above equation are algebraic numbers (my 2nd year BA students do that sort of thing). In fact, it is an entirely elementary standard result (this is not the place in which to prove it) that no matter what polynomial equation one takes of whatever degree (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>), in which all of the coefficients are algebraic numbers of whatever degrees, then not only does that equation have </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> complex solutions (some of which may be real numbers), possibly with some 'repeated' solutions, but every one of those solutions is an algebraic number (according to the standard definition). In other words, if</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental244.gif" width=260 height=58 alt="b[0]*x^m+b[1]*x^(m-1)+`...`+b[m] = 0" align=middle>
+<b><font color=#000080>  ... (B)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>is a polynomial equation of degree </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> in which every coefficient </font></b>
+<img src="images/transcendental245.gif" width=104 height=32 alt="b[0], b[1], `...`, b[m]" align=middle>
+<b><font color=#000080> is an algebraic number (according to the standard definition, and </font></b>
+<img src="images/transcendental246.gif" width=60 height=32 alt="b[0] &lt;&gt; 0" align=middle>
+<b><font color=#000080>) then every solution of (B) is a solution of:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental247.gif" width=251 height=58 alt="a[0]*x^n+a[1]*x^(n-1)+`...`+a[n] = 0" align=middle>
+<b><font color=#000080>   ... (A)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>in which every coefficient </font></b>
+<img src="images/transcendental248.gif" width=101 height=32 alt="a[0], a[1], `...`, a[n]" align=middle>
+<b><font color=#000080> is an integer, and </font></b>
+<img src="images/transcendental249.gif" width=60 height=32 alt="a[0] &lt;&gt; 0" align=middle>
+<b><font color=#000080>. (The standard way of expressing the above succinctly is to say that the field of algebraic numbers is </font></b>
+<i><b><font color=#000080>algebraically closed</font></b></i>
+<b><font color=#000080>.)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    In short, any hope of creating/finding/... a non-algebraic number by merely tinkering with the coefficients (in the manner suggested above) is </font></b>
+<b><font color=#000080 size=4>doomed to failure</font></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    The question then, in Euler's time (or possibly earlier than Euler?), was: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>are there </font></b>
+<i><b><font color=#000080 size=4>any</font></b></i>
+<b><font color=#000080 size=4> (real or complex) numbers that are not algebraic?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>    Euler (or someone earlier?) defined a </font></b>
+<b><font color=#000080 size=4>transcendental number</font></b>
+<b><font color=#000080> to be a (real or complex) number that is not algebraic; it "transcendended the power of the algebraic". </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Of course </font></b>
+<b><font color=#000080 size=4>if</font></b>
+<b><font color=#000080> there were any, </font></b>
+<b><font color=#000080 size=4>then</font></b>
+<b><font color=#000080> there would automatically be infinitely many. That's a matter that a novice might like to think about.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I return to Euler in another subsection.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>_____________________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A final word about computer computation/demonstration. I'd like to return briefly to the example (E) above, just in case a novice (using Maple or whatever) attempts to vary the coefficients, and wonders about why sometimes things don't appear to work out nicely... Consider the example:</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental250.gif" width=221 height=64 alt="sqrt(7)*x^5-9*x/11+3/4-sqrt(5/3) = 0" align=middle>
+<b><font color=#000080>  ... (E')</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>in which I have merely changed in (E) the </font></b>
+<img src="images/transcendental251.gif" width=33 height=50 alt="x^2" align=middle>
+<b><font color=#000080> to </font></b>
+<img src="images/transcendental252.gif" width=33 height=50 alt="x^5" align=middle>
+<b><font color=#000080>, but otherwise kept everything else unaltered. Now try 'solving', and you get:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>solve(sqrt(7)*x^5 - 9*x/11 + 3/4 - sqrt(5/3) = 0);</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental253.gif" width=462 height=29 alt="RootOf(924*_Z^5-108*sqrt(7)*_Z+99*sqrt(7)-44*sqrt(7...">
+<br>
+<img src="images/transcendental254.gif" width=462 height=29 alt="RootOf(924*_Z^5-108*sqrt(7)*_Z+99*sqrt(7)-44*sqrt(7...">
+<br>
+<img src="images/transcendental255.gif" width=462 height=29 alt="RootOf(924*_Z^5-108*sqrt(7)*_Z+99*sqrt(7)-44*sqrt(7...">
+<br>
+<img src="images/transcendental256.gif" width=462 height=29 alt="RootOf(924*_Z^5-108*sqrt(7)*_Z+99*sqrt(7)-44*sqrt(7...">
+<br>
+<img src="images/transcendental257.gif" width=458 height=29 alt="RootOf(924*_Z^5-108*sqrt(7)*_Z+99*sqrt(7)-44*sqrt(7...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>The software appears to fail, and with good mathematical reason... Here a beginner needs to know that one has now come up against a barrier: the classical result (Abel and Galois) concerning the non-existence of a solution 'using radicals' for general polynomial equations of degree at least 5... But that is </font></b>
+<i><b><font color=#000080>"another day's work"...</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>You can of course do things like:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>plot(sqrt(7)*x^5 - 9*x/11 + 3/4 - sqrt(5/3), x = -2..2);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental258.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>plot(sqrt(7)*x^5 - 9*x/11 + 3/4 - sqrt(5/3), x = -1..1);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental259.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fsolve(sqrt(7)*x^5 - 9*x/11 + 3/4 - sqrt(5/3) = 0);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental260.gif" width=100 height=20 alt=".8599996750">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080> Enough of this.</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:55 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

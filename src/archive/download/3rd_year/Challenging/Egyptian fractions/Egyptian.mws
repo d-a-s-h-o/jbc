@@ -1,0 +1,953 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 256 "" 1 18 0 0 0 0 1 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 1 14 0 0 0 0 1 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 1 14 
+0 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 2 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 361 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+362 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+372 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 373 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 376 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+377 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 380 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 381 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+382 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 385 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 386 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+387 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 388 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 389 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 391 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+392 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 393 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 395 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 396 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+397 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 1 10 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 400 "" 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 401 "" 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+402 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 1 10 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 405 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 406 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+407 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 408 "" 1 14 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 409 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 411 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+412 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 413 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 416 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+417 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Time
+s" 1 18 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 128 1 2 
+1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" 
+-1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }
+1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" 
+-1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 
+0 1 0 2 2 0 1 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier
+" 1 11 0 128 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 
+2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 259 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 260 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 
+1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "# Egyptian fractions
+.mws" }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 5 "Title" }}{PARA 258 "" 0 "
+" {TEXT -1 0 "" }{TEXT 256 18 "Egyptian Fractions" }{TEXT 259 1 "\n" }
+{TEXT 257 0 "" }{TEXT 258 47 "(a beautiful topic to suit all ages and \+
+tastes)" }{TEXT -1 0 "" }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 12 "Introd
+uction" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 
+"The topic of " }{TEXT 260 18 "Egyptian fractions" }{TEXT -1 45 " sati
+sfies all mathematical tastes, from the " }{TEXT 280 19 "entirely elem
+entary" }{TEXT -1 15 " to the really " }{TEXT 281 14 "quite advanced" 
+}{TEXT -1 213 " (see later the Erd\366s-Strauss conjecture, or the uns
+olved odd-greedy algorithm problem). The renowned US mathematician Ron
+ Graham did his PhD on Egyptian fractions (his supervisor D.H. Lehmer)
+; see Paul Hoffman's " }{TEXT 282 30 "The Man Who Loved Only Numbers" 
+}{TEXT -1 84 ", pages 153-157. \n\n(Incidentally, Erd\366s, Strauss, G
+raham, and Lehmer are all in the " }{TEXT 283 11 "Oxford 1969" }{TEXT 
+-1 97 " photograph in my web site; click on the Oxford 1969 box in my \+
+homepage: www.spd.dcu.ie/johnbcos)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 23 "All that is needed for " }{TEXT 279 7 "in
+itial" }{TEXT -1 140 " engagement is to be numerically competent in ha
+ndling 'fractions'. Specifically one must be able to carry out numeric
+al computations like:\n" }}{PARA 258 "" 0 "" {TEXT -1 6 "      " }
+{XPPEDIT 18 0 "3/7+1/9 = (3.9+1.7)/7.9;" "6#/,&*&\"\"$\"\"\"\"\"(!\"\"
+F'*&F'F'\"\"*F)F'*&,&$\"#RF)F'$\"#<F)F'F'$\"#zF)F)" }{TEXT -1 3 " = " 
+}{XPPEDIT 18 0 "(27+7)/63 = 34/63;" "6#/*&,&\"#F\"\"\"\"\"(F'F'\"#j!\"
+\"*&\"#MF'F)F*" }{TEXT -1 2 ", " }}{PARA 258 "" 0 "" {TEXT -1 3 "or " 
+}{XPPEDIT 18 0 "3/7-1/9 = (3.9-1.7)/7.9;" "6#/,&*&\"\"$\"\"\"\"\"(!\"
+\"F'*&F'F'\"\"*F)F)*&,&$\"#RF)F'$\"#<F)F)F'$\"#zF)F)" }{TEXT -1 3 " = \+
+" }{XPPEDIT 18 0 "(27-7)/63 = 20/63;" "6#/*&,&\"#F\"\"\"\"\"(!\"\"F'\"
+#jF)*&\"#?F'F*F)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 80 "or (at a later stage, when proofs are con
+sidered) their algebraic counterparts:\n" }}{PARA 258 "" 0 "" {TEXT 
+-1 6 "      " }{XPPEDIT 18 0 "a/b+c/d = (ad+cb)/bd;" "6#/,&*&%\"aG\"\"
+\"%\"bG!\"\"F'*&%\"cGF'%\"dGF)F'*&,&%#adGF'%#cbGF'F'%#bdGF)" }{TEXT 
+-1 3 " , " }}{PARA 0 "" 0 "" {TEXT -1 4 "or  " }}{PARA 258 "" 0 "" 
+{TEXT -1 2 "  " }{XPPEDIT 18 0 "a/b-c/d = (ad-cb)/bd;" "6#/,&*&%\"aG\"
+\"\"%\"bG!\"\"F'*&%\"cGF'%\"dGF)F)*&,&%#adGF'%#cbGF)F'%#bdGF)" }{TEXT 
+-1 1 "\n" }}{PARA 0 "" 0 "" {TEXT -1 185 "In a school (or college, or \+
+at home) all one would have to do - to arouse interest (and interest i
+s everything; without it one can do nothing) - is to start from an a s
+imple 'exercise' " }{TEXT 272 4 "like" }{TEXT -1 129 ": express in sim
+pler terms.../find the simpler fractional form of.../add up the follow
+ing sum.../(whatever language you choose):\n" }}{PARA 258 "" 0 "" 
+{XPPEDIT 18 0 "1/2+1/6+1/7;" "6#,(*&\"\"\"F%\"\"#!\"\"F%*&F%F%\"\"'F'F
+%*&F%F%\"\"(F'F%" }{TEXT -1 9 " ... (i)\n" }}{PARA 0 "" 0 "" {TEXT -1 
+37 "One might be offered many solutions. " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "1/2+1/6+1/7 = (6
+.7+2.7+2.6)/((2.6).7);" "6#/,(*&\"\"\"F&\"\"#!\"\"F&*&F&F&\"\"'F(F&*&F
+&F&\"\"(F(F&*&,($\"#nF(F&$\"#FF(F&$\"#EF(F&F&-%\".G6$$F4F(F,F(" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "(42+14+12)/84 = 68/84;" "6#/*&,(\"#U
+\"\"\"\"#9F'\"#7F'F'\"#%)!\"\"*&\"#oF'F*F+" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "17/21;" "6#*&\"#<\"\"\"\"#@!\"\"" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/2+1/6+1/7 = (3.7+7+6)/6.7;" "6#/,(*&
+\"\"\"F&\"\"#!\"\"F&*&F&F&\"\"'F(F&*&F&F&\"\"(F(F&*&,($\"#PF(F&F,F&F*F
+&F&$\"#nF(F(" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(21+7+6)/42 = 34/42;" 
+"6#/*&,(\"#@\"\"\"\"\"(F'\"\"'F'F'\"#U!\"\"*&\"#MF'F*F+" }{TEXT -1 3 "
+ = " }{XPPEDIT 18 0 "17/21;" "6#*&\"#<\"\"\"\"#@!\"\"" }{TEXT -1 0 "" 
+}}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/2+1/6 = (3+1)/6;" "6#/,&*&\"\"\"F&
+\"\"#!\"\"F&*&F&F&\"\"'F(F&*&,&\"\"$F&F&F&F&F*F(" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "4/6 = 2/3;" "6#/*&\"\"%\"\"\"\"\"'!\"\"*&\"\"#F&\"\"$F(
+" }{TEXT -1 9 ", and so " }{XPPEDIT 18 0 "1/2+1/6+1/7 = 2/3+1/7;" "6#/
+,(*&\"\"\"F&\"\"#!\"\"F&*&F&F&\"\"'F(F&*&F&F&\"\"(F(F&,&*&F'F&\"\"$F(F
+&*&F&F&F,F(F&" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(2.7+3)/3.7 = 17/21;
+" "6#/*&,&$\"#F!\"\"\"\"\"\"\"$F)F)$\"#PF(F(*&\"#<F)\"#@F(" }{TEXT -1 
+1 "\n" }{TEXT 273 3 "etc" }{TEXT -1 2 ", " }{TEXT 274 3 "etc" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "(Of course one could so easily \+
+be given: " }{XPPEDIT 18 0 "1/2+1/6+1/7 = (1+1+1)/(2+6+7);" "6#/,(*&\"
+\"\"F&\"\"#!\"\"F&*&F&F&\"\"'F(F&*&F&F&\"\"(F(F&*&,(F&F&F&F&F&F&F&,(F'
+F&F*F&F,F&F(" }{TEXT -1 44 " ... Time to apply for early rerirement...
+ )" }}{PARA 0 "" 0 "" {TEXT -1 32 "Then one may pose the question: " }
+{TEXT 275 3 "can" }{TEXT -1 14 " the fraction " }{XPPEDIT 18 0 "13/15;
+" "6#*&\"#8\"\"\"\"#:!\"\"" }{TEXT -1 21 " be expressed in the " }
+{TEXT 276 6 "manner" }{TEXT -1 113 " of (i) above? (one might prefer -
+ given the level of the individual/group - to start with simpler examp
+les like " }{XPPEDIT 18 0 "2/3,2/5,2/7,2/9;" "6&*&\"\"#\"\"\"\"\"$!\"
+\"*&F$F%\"\"&F'*&F$F%\"\"(F'*&F$F%\"\"*F'" }{TEXT -1 128 ", ... and pe
+rhaps see patterns emerge (and formulate precise statements, and prove
+ those statements), and then take others like " }{XPPEDIT 18 0 "3/4,3/
+5,3/7,3/8;" "6&*&\"\"$\"\"\"\"\"%!\"\"*&F$F%\"\"&F'*&F$F%\"\"(F'*&F$F%
+\"\")F'" }{TEXT -1 7 ", ... )" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 26 "In a nutshell, the above (" }{TEXT 278 3 
+"can" }{TEXT -1 1 " " }{XPPEDIT 18 0 "13/15;" "6#*&\"#8\"\"\"\"#:!\"\"
+" }{TEXT -1 51 " be ... ) is just a particular case of the general " }
+{TEXT 277 25 "Egyptian fraction problem" }{TEXT -1 1 "." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "Terminology. By a  \+
+" }{TEXT 266 8 "fraction" }{TEXT -1 25 " we will mean a positive " }
+{TEXT 261 8 "rational" }{TEXT -1 28 " fraction, meaning a number " }
+{TEXT 262 5 "like " }{TEXT -1 1 " " }}{PARA 258 "" 0 "" {TEXT -1 0 "" 
+}{XPPEDIT 18 0 "3/4,24/68,1/19,5/1,1982/37,13/987654321;" "6(*&\"\"$\"
+\"\"\"\"%!\"\"*&\"#CF%\"#oF'*&F%F%\"#>F'*&\"\"&F%F%F'*&\"%#)>F%\"#PF'*
+&\"#8F%\"*@Vl()*F'" }{TEXT -1 5 ", ..." }}{PARA 0 "" 0 "" {TEXT -1 30 
+"that is, a number of the form " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"
+\"%\"bG!\"\"" }{TEXT -1 2 "  " }{TEXT 263 0 "" }{TEXT -1 6 "where " }
+{TEXT 264 1 "a" }{TEXT -1 5 " and " }{TEXT 265 1 "b" }{TEXT -1 51 " ar
+e natural numbers (i.e. positive whole numbers)." }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "By a " }{TEXT 268 13 "unit fraction" }{TEXT -1 30 " we wil
+l mean a fraction like " }{XPPEDIT 18 0 "1/4,1/9,1/987654321;" "6%*&\"
+\"\"F$\"\"%!\"\"*&F$F$\"\"*F&*&F$F$\"*@Vl()*F&" }{TEXT -1 23 ", ... (a
+ fraction with " }{TEXT 267 4 "unit" }{TEXT -1 13 " numerator).\n" }}
+{PARA 0 "" 0 "" {TEXT -1 72 "A trivial observation and a simple questi
+on (to start with). Trivially, " }{TEXT 270 5 "every" }{TEXT -1 87 " f
+raction may be expressed as a sum of (repeated) unit fractions - meani
+ng that (e.g.) " }{XPPEDIT 18 0 "4/7 = 1/7+1/7+1/7+1/7;" "6#/*&\"\"%\"
+\"\"\"\"(!\"\",**&F&F&F'F(F&*&F&F&F'F(F&*&F&F&F'F(F&*&F&F&F'F(F&" }
+{TEXT -1 33 " - but can such a representation " }{TEXT 271 6 "always" 
+}{TEXT -1 17 " be found if one " }{TEXT 269 13 "doesn't allow" }{TEXT 
+-1 76 " any unit fraction to be repeated? We are interested only in th
+e case where " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"\"%\"bG!\"\"" }
+{TEXT -1 28 " lies between 0 and 1 (thus " }{XPPEDIT 18 0 "a < b;" "6#
+2%\"aG%\"bG" }{TEXT -1 17 " in what follows)" }}}{SECT 1 {PARA 3 "" 0 
+"" {TEXT -1 19 "Fibonacci (1202 AD)" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+-1 12 "Fibonacci's " }{TEXT 361 6 "greedy" }{TEXT -1 10 " algorithm" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 260 "" 0 "" {TEXT -1 41 "What I
+  write here is meant only to be a " }{TEXT 340 23 "summary after the \+
+event" }{TEXT -1 2 ", " }{TEXT 351 40 "after the playing/experimentimg
+/teaching" }{TEXT -1 29 " has been done in some way..." }}{PARA 0 "" 
+0 "" {TEXT -1 48 "Let's start with a (well-chosen!) example like '" }
+{XPPEDIT 18 0 "3/25;" "6#*&\"\"$\"\"\"\"#D!\"\"" }{TEXT -1 69 "'. Let'
+s try to fill in the question marks on the right-hand side of:" }}
+{PARA 258 "" 0 "" {XPPEDIT 18 0 "3/25;" "6#*&\"\"$\"\"\"\"#D!\"\"" }
+{TEXT -1 26 " = ? + ? + ... + ?     [e]" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 5 "with " }{TEXT 341 23 "distinct unit f
+ractions" }{TEXT -1 40 ". What unit fractions might one try? An " }
+{TEXT 344 7 "obvious" }{TEXT -1 39 " initial observation is that one c
+ould " }{TEXT 342 7 "not use" }{TEXT -1 1 " " }{XPPEDIT 18 0 "1/2,1/3,
+1/4;" "6%*&\"\"\"F$\"\"#!\"\"*&F$F$\"\"$F&*&F$F$\"\"%F&" }{TEXT -1 29 
+", ... (Why? Because they are " }{TEXT 343 7 "too big" }{TEXT -1 16 " \+
+in relation to " }{XPPEDIT 18 0 "3/25;" "6#*&\"\"$\"\"\"\"#D!\"\"" }
+{TEXT -1 7 "). And " }{TEXT 345 5 "where" }{TEXT -1 42 " does the '...
+' end? Of course it ends at " }{XPPEDIT 18 0 "1/8;" "6#*&\"\"\"F$\"\")
+!\"\"" }{TEXT -1 9 " because " }{XPPEDIT 18 0 "3/25 < 1/8;" "6#2*&\"\"
+$\"\"\"\"#D!\"\"*&F&F&\"\")F(" }{TEXT -1 11 " (which is " }{XPPEDIT 
+18 0 "3/24;" "6#*&\"\"$\"\"\"\"#C!\"\"" }{TEXT -1 9 "), while " }
+{XPPEDIT 18 0 "1/9 < 3/25;" "6#2*&\"\"\"F%\"\"*!\"\"*&\"\"$F%\"#DF'" }
+{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 14 "So, [e] could " }}{PARA 15 "" 0 "" {TEXT 356 3 "not" }
+{TEXT -1 15 " commence with " }{XPPEDIT 18 0 "3/25 = 1/2;" "6#/*&\"\"$
+\"\"\"\"#D!\"\"*&F&F&\"\"#F(" }{TEXT -1 16 " + ? + ... + ?, " }}{PARA 
+15 "" 0 "" {TEXT 357 3 "nor" }{TEXT -1 6 " with " }{XPPEDIT 18 0 "3/25
+ = 1/3;" "6#/*&\"\"$\"\"\"\"#D!\"\"*&F&F&F%F(" }{TEXT -1 16 " + ? + ..
+. + ?, " }}{PARA 15 "" 0 "" {TEXT 358 3 "nor" }{TEXT -1 10 " with ... \+
+" }}{PARA 15 "" 0 "" {TEXT 359 3 "nor" }{TEXT -1 6 " with " }{XPPEDIT 
+18 0 "3/25 = 1/8;" "6#/*&\"\"$\"\"\"\"#D!\"\"*&F&F&\"\")F(" }{TEXT -1 
+18 " + ? + ... + ?, \n\n" }{TEXT 360 3 "but" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 3 "it " }{TEXT 346 5 "could" }
+{TEXT -1 15 " commence with " }{XPPEDIT 18 0 "3/25 = 1/9;" "6#/*&\"\"$
+\"\"\"\"#D!\"\"*&F&F&\"\"*F(" }{TEXT -1 27 " + ? + ... + ?   [e9], and
+ " }}{PARA 15 "" 0 "" {TEXT -1 3 "it " }{TEXT 347 10 "could also" }
+{TEXT -1 15 " commence with " }{XPPEDIT 18 0 "3/25 = 1/10;" "6#/*&\"\"
+$\"\"\"\"#D!\"\"*&F&F&\"#5F(" }{TEXT -1 27 " + ? + ... + ?   [e10], an
+d" }}{PARA 15 "" 0 "" {TEXT -1 3 "it " }{TEXT 348 10 "could also" }
+{TEXT -1 15 " commence with " }{XPPEDIT 18 0 "3/25 = 1/11;" "6#/*&\"\"
+$\"\"\"\"#D!\"\"*&F&F&\"#6F(" }{TEXT -1 23 " + ? + ... + ?   [e11] " }
+{TEXT 352 3 "etc" }{TEXT -1 2 ", " }{TEXT 353 3 "etc" }}{PARA 259 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "So " }{TEXT 349 11 "m
+uch choice" }{TEXT -1 87 "! An infinite amount of choice, in fact... w
+hich is what makes it all so interesting..." }}{PARA 0 "" 0 "" {TEXT 
+-1 52 "Suppose one made the choice in [e9]; then one would " }{TEXT 
+350 20 "do the obvious thing" }{TEXT -1 11 ": subtract " }{XPPEDIT 18 
+0 "1/9;" "6#*&\"\"\"F$\"\"*!\"\"" }{TEXT -1 40 " from the right-hand s
+ide of [e9] giving" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "3/25-1/9 = (3.9
+-1.25)/25.9;" "6#/,&*&\"\"$\"\"\"\"#D!\"\"F'*&F'F'\"\"*F)F)*&,&$\"#RF)
+F'$\"$D\"!\"#F)F'$\"$f#F)F)" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(27-25)
+/225 = 2/225;" "6#/*&,&\"#F\"\"\"\"#D!\"\"F'\"$D#F)*&\"\"#F'F*F)" }
+{TEXT -1 34 " = ? + ... ?  [e9', is unfinished]" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "But if one made the choic
+e in [e10] then one would have\n" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "3/25-1/10 = (3.10-1.25)/25.10;" "6#/,&*&\"\"$\"\"\"\"#D
+!\"\"F'*&F'F'\"#5F)F)*&,&$\"$5$!\"#F'$\"$D\"F0F)F'$\"%5DF0F)" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "(30-25)/250 = 5/250;" "6#/*&,&\"#I\"\"\"\"#
+D!\"\"F'\"$]#F)*&\"\"&F'F*F)" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/50;
+" "6#*&\"\"\"F$\"#]!\"\"" }{TEXT -1 21 "  [e10', is finished]" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "Thus " }{XPPEDIT 18 0 "3/25 = 1/10+1/50;" 
+"6#/*&\"\"$\"\"\"\"#D!\"\",&*&F&F&\"#5F(F&*&F&F&\"#]F(F&" }{TEXT -1 1 
+"." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "If \+
+one were to continue with the '" }{XPPEDIT 18 0 "2/225;" "6#*&\"\"#\"
+\"\"\"$D#!\"\"" }{TEXT -1 21 "' in [e9'] by setting" }}{PARA 258 "" 0 
+"" {TEXT -1 1 " " }{XPPEDIT 18 0 "2/225;" "6#*&\"\"#\"\"\"\"$D#!\"\"" 
+}{TEXT -1 22 " = ? + ... + ?  [e9'']" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 9 "then the " }{TEXT 354 28 "first possible
+ unit fraction" }{TEXT -1 44 " (as we did earlier to produce the initi
+al '" }{XPPEDIT 18 0 "1/9;" "6#*&\"\"\"F$\"\"*!\"\"" }{TEXT -1 14 "'; \+
+this is an " }{TEXT 355 16 "important detail" }{TEXT -1 59 " which I w
+ill return to in a moment) that one could use is " }{XPPEDIT 18 0 "1/1
+13;" "6#*&\"\"\"F$\"$8\"!\"\"" }{TEXT -1 10 ", giving: " }{XPPEDIT 18 
+0 "2/225 = 1/113;" "6#/*&\"\"#\"\"\"\"$D#!\"\"*&F&F&\"$8\"F(" }{TEXT 
+-1 20 " + ... + ?   [e9''']" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 5 "Thus " }{XPPEDIT 18 0 "2/225-1/113 = (2.113-1.22
+5)/113.225;" "6#/,&*&\"\"#\"\"\"\"$D#!\"\"F'*&F'F'\"$8\"F)F)*&,&$\"%8@
+!\"$F'$\"%D7F0F)F'$\"'DK6F0F)" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(226-
+225)/113.225 = 1/25425;" "6#/*&,&\"$E#\"\"\"\"$D#!\"\"F'$\"'DK6!\"$F)*
+&F'F'\"&Da#F)" }{TEXT -1 32 " , and so the initial choice of " }
+{XPPEDIT 18 0 "1/9;" "6#*&\"\"\"F$\"\"*!\"\"" }{TEXT -1 11 " has led t
+o" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "
+3/25 = 1/9+1/113+1/25425;" "6#/*&\"\"$\"\"\"\"#D!\"\",(*&F&F&\"\"*F(F&
+*&F&F&\"$8\"F(F&*&F&F&\"&Da#F(F&" }{TEXT -1 0 "" }}}{SECT 1 {PARA 4 "
+" 0 "" {TEXT -1 26 "One begins to wonder if..." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "Playing with more example
+s will make one wonder if one always gets a " }{TEXT 308 20 "final rep
+resentation" }{TEXT -1 62 ", and one comes to realise that one particu
+lar approach (the '" }{TEXT 307 6 "greedy" }{TEXT -1 78 "' approach, f
+irst noted evidently by Fibonacci, 1202AD) stands out: something " }
+{TEXT 325 15 "rather special " }{TEXT -1 4 "and " }{TEXT 326 8 "fruitf
+ul" }{TEXT -1 85 " happens if one systematically determines the '?' su
+bstitutes by always chosing the '" }{TEXT 309 28 "first possible unit \+
+fraction" }{TEXT -1 76 "' (in the sense of what we did above). Here is
+ the important, simple result:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 311 7 "Theorem" }{TEXT -1 24 " (the first step o
+f the " }{TEXT 310 16 "greedy algorithm" }{TEXT -1 7 "). Let " }{TEXT 
+312 1 "a" }{TEXT -1 5 " and " }{TEXT 313 1 "b" }{TEXT -1 25 " be natur
+al numbers with " }{XPPEDIT 18 0 "a < b;" "6#2%\"aG%\"bG" }{TEXT -1 
+29 " (that's just to ensure that " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"
+\"\"%\"bG!\"\"" }{TEXT -1 27 " lies between 0 and 1). If " }{TEXT 329 
+1 "a" }{TEXT -1 9 " divides " }{TEXT 330 1 "b" }{TEXT -1 19 ", then (t
+rivially) " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"\"%\"bG!\"\"" }{TEXT 
+-1 39 " is already a unit fraction, otherwise\n" }}{PARA 15 "" 0 "" 
+{TEXT -1 4 "let " }{XPPEDIT 18 0 "1/n;" "6#*&\"\"\"F$%\"nG!\"\"" }
+{TEXT -1 8 " be the " }{TEXT 331 7 "nearest" }{TEXT -1 18 " unit fract
+ion to " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"\"%\"bG!\"\"" }{TEXT -1 
+2 "  " }{TEXT 332 10 "from below" }{TEXT -1 12 " \n(meaning: " }
+{XPPEDIT 18 0 "1/n < a/b;" "6#2*&\"\"\"F%%\"nG!\"\"*&%\"aGF%%\"bGF'" }
+{TEXT -1 8 ", while " }{XPPEDIT 18 0 "a/b < 1/(n-1);" "6#2*&%\"aG\"\"
+\"%\"bG!\"\"*&F&F&,&%\"nGF&F&F(F(" }{TEXT -1 26 ", for some natural nu
+mber " }{TEXT 335 1 "n" }{TEXT -1 7 ", with " }{XPPEDIT 18 0 "2 <= n;
+" "6#1\"\"#%\"nG" }{TEXT -1 3 "); " }}{PARA 259 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 259 "" 0 "" {TEXT -1 35 "then the numerator of the fraction " 
+}{XPPEDIT 18 0 "a/b-1/n;" "6#,&*&%\"aG\"\"\"%\"bG!\"\"F&*&F&F&%\"nGF(F
+(" }{TEXT -1 5 " ( = " }{XPPEDIT 18 0 "(a*n-b)/(b*n);" "6#*&,&*&%\"aG
+\"\"\"%\"nGF'F'%\"bG!\"\"F'*&F)F'F(F'F*" }{TEXT -1 37 ", which is, of \+
+course, positive) \nis " }{TEXT 327 7 "smaller" }{TEXT -1 36 " than th
+e numerator of the fraction " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"\"%
+\"bG!\"\"" }{TEXT -1 18 " (in other words, " }{TEXT 334 4 "a > " }
+{XPPEDIT 18 0 "a*n-b;" "6#,&*&%\"aG\"\"\"%\"nGF&F&%\"bG!\"\"" }{TEXT 
+-1 6 " > 0)\n" }}{PARA 0 "" 0 "" {TEXT -1 41 "Proof. (It's simply a ma
+tter of dividing " }{TEXT 315 1 "b" }{TEXT -1 4 " by " }{TEXT 316 1 "a
+" }{TEXT -1 6 ", and " }{TEXT 328 8 "choosing" }{TEXT -1 21 " the rema
+inder to be " }{TEXT 314 8 "positive" }{TEXT -1 5 " and " }{TEXT 333 
+4 "less" }{TEXT -1 6 " than " }{TEXT 317 1 "a" }{TEXT -1 4 ".) \n" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "Let " }{TEXT 318 2 "b " }{TEXT -1 2 "= " }
+{TEXT 319 2 "aq" }{TEXT -1 3 " + " }{TEXT 320 1 "r" }{TEXT -1 16 ", wi
+th quotient " }{TEXT 321 1 "q" }{TEXT -1 15 " and remainder " }{TEXT 
+322 1 "r" }{TEXT -1 22 ", chosen so that  0 < " }{TEXT 323 1 "r" }
+{TEXT -1 3 " < " }{TEXT 324 1 "a" }{TEXT -1 8 ". (The '" }{TEXT 336 1 
+"n" }{TEXT -1 62 "' of the theorem is simply the 'ceiling' (in Maple '
+ceil') of " }{XPPEDIT 18 0 "b/a;" "6#*&%\"bG\"\"\"%\"aG!\"\"" }{TEXT 
+-1 15 ", which, since " }{XPPEDIT 18 0 "b/a = q+r/a;" "6#/*&%\"bG\"\"
+\"%\"aG!\"\",&%\"qGF&*&%\"rGF&F'F(F&" }{TEXT -1 11 " , will be " }
+{XPPEDIT 18 0 "q+1;" "6#,&%\"qG\"\"\"F%F%" }{TEXT -1 8 ".) Then\n" }}
+{PARA 258 "" 0 "" {XPPEDIT 18 0 "a/b-1/n = (an-b)/bn;" "6#/,&*&%\"aG\"
+\"\"%\"bG!\"\"F'*&F'F'%\"nGF)F)*&,&%#anGF'F(F)F'%#bnGF)" }{TEXT -1 3 "
+ = " }{XPPEDIT 18 0 "(a*(q+1)-b)/bn;" "6#*&,&*&%\"aG\"\"\",&%\"qGF'F'F
+'F'F'%\"bG!\"\"F'%#bnGF+" }}{PARA 259 "" 0 "" {TEXT -1 18 "and the num
+erator " }{XPPEDIT 18 0 "a*n-b = a*(q+1)-b;" "6#/,&*&%\"aG\"\"\"%\"nGF
+'F'%\"bG!\"\",&*&F&F',&%\"qGF'F'F'F'F'F)F*" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "aq+a-b = aq+a-aq-r;" "6#/,(%#aqG\"\"\"%\"aGF&%\"bG!\"\"
+,*F%F&F'F&F%F)%\"rGF)" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "a-r < a;" "6#
+2,&%\"aG\"\"\"%\"rG!\"\"F%" }{TEXT -1 19 ", the numerator of " }
+{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"\"%\"bG!\"\"" }{TEXT -1 17 ". [end \+
+of proof]\n" }}{PARA 0 "" 0 "" {TEXT -1 27 "Note these 'ceil' commands
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "ceil(14/3);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "ceil(1/(3/14));" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 15 "ceil(1/(1/14));" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 111 "We want a nice working procedure, and it is easy to ma
+ke one if one just works up to it from an actual example." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "If one started wit
+h (e.g.) " }{XPPEDIT 18 0 "3/15;" "6#*&\"\"$\"\"\"\"#:!\"\"" }{TEXT 
+-1 39 ", it would already be a unit fraction (" }{XPPEDIT 18 0 "1/5;" 
+"6#*&\"\"\"F$\"\"&!\"\"" }{TEXT -1 81 "), and so we want to cover that
+ kind of thing... , but if we started with (e.g.) " }{XPPEDIT 18 0 "17
+1/3391;" "6#*&\"$r\"\"\"\"\"%\"R$!\"\"" }{TEXT -1 21 " (which lies bet
+ween " }{XPPEDIT 18 0 "1/20;" "6#*&\"\"\"F$\"#?!\"\"" }{TEXT -1 5 " an
+d " }{XPPEDIT 18 0 "1/19;" "6#*&\"\"\"F$\"#>!\"\"" }{TEXT -1 14 ") the
+n we set:" }}{PARA 258 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" 
+{TEXT -1 0 "" }{XPPEDIT 18 0 "171/3391 = 1/20;" "6#/*&\"$r\"\"\"\"\"%
+\"R$!\"\"*&F&F&\"#?F(" }{TEXT -1 19 " + (a bit extra) = " }{XPPEDIT 
+18 0 "1/n[1];" "6#*&\"\"\"F$&%\"nG6#F$!\"\"" }{TEXT -1 3 " + " }
+{XPPEDIT 18 0 "r[1];" "6#&%\"rG6#\"\"\"" }}{PARA 0 "" 0 "" {TEXT -1 
+11 "and define " }{XPPEDIT 18 0 "r[0];" "6#&%\"rG6#\"\"!" }{TEXT -1 
+32 " (which we will use in place of " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG
+\"\"\"%\"bG!\"\"" }{TEXT -1 7 " ) and " }{XPPEDIT 18 0 "n[1];" "6#&%\"
+nG6#\"\"\"" }{TEXT -1 12 " by setting:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "r[0] := 171/3391;\nn[1] := ceil(1/r[0]);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 14 "We now define " }{XPPEDIT 18 0 "r[1];" "6#&%\"rG6#\"\"\"" }
+{TEXT -1 15 ", and from it, " }{XPPEDIT 18 0 "n[2];" "6#&%\"nG6#\"\"#
+" }{TEXT -1 46 ", the denominator of the second unit fraction:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "r[1]:= r[0] - 1/n[1];\nn[2]:
+= ceil(1/r[1]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "Thus far we then have " }{XPPEDIT 
+18 0 "171/3391 = 1/20+1/2339+r[2];" "6#/*&\"$r\"\"\"\"\"%\"R$!\"\",(*&
+F&F&\"#?F(F&*&F&F&\"%RBF(F&&%\"rG6#\"\"#F&" }{TEXT -1 59 ", and let's \+
+(unthinkingly) continue in the obvious manner:\n" }}{PARA 15 "" 0 "" 
+{TEXT -1 14 "define define " }{XPPEDIT 18 0 "r[2];" "6#&%\"rG6#\"\"#" 
+}{TEXT -1 15 ", and from it, " }{XPPEDIT 18 0 "n[3];" "6#&%\"nG6#\"\"$
+" }{TEXT -1 44 ", the denominator of the third unit fraction" }}{PARA 
+15 "" 0 "" {TEXT -1 7 "define " }{XPPEDIT 18 0 "r[3];" "6#&%\"rG6#\"\"
+$" }{TEXT -1 15 ", and from it, " }{XPPEDIT 18 0 "n[4];" "6#&%\"nG6#\"
+\"%" }{TEXT -1 85 ", the denominator of the fourth unit fraction\n... \+
+until we find we've come to the end" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "r[2]:= r[1] - 1/n[2];\nn[3]:= ceil(1/r[2]);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "r[3]:= r[2] - 1/n[3];\nn[4]:
+= ceil(1/r[3]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "r[4]:= r
+[3] - 1/n[4];\nn[5]:= ceil(1/r[4]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "r[5]:= r[4] - 1/n[5];\nn[6]:= ceil(1/r[5]);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 23 "Thus, the above led to " }{XPPEDIT 18 0 "r[0];" "6#&%\"rG
+6#\"\"!" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "171/3391 = 1/n[1]+1/n[2]+1/
+n[3]+1/n[4]+1/n[5]+r[5];" "6#/*&\"$r\"\"\"\"\"%\"R$!\"\",.*&F&F&&%\"nG
+6#F&F(F&*&F&F&&F,6#\"\"#F(F&*&F&F&&F,6#\"\"$F(F&*&F&F&&F,6#\"\"%F(F&*&
+F&F&&F,6#\"\"&F(F&&%\"rG6#F=F&" }{TEXT -1 7 " (with " }{XPPEDIT 18 0 "
+r[5] = 0;" "6#/&%\"rG6#\"\"&\"\"!" }{TEXT -1 7 ", and )" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "That, clearly, is th
+e point at which we STOP, since " }{XPPEDIT 18 0 "r[4];" "6#&%\"rG6#\"
+\"%" }{TEXT -1 6 " is a " }{TEXT 306 4 "unit" }{TEXT -1 35 " fraction,
+ and we see that we have " }{XPPEDIT 18 0 "171/3391;" "6#*&\"$r\"\"\"
+\"\"%\"R$!\"\"" }{TEXT -1 5 " is: " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "1/n[1] + 1/n[2] + 1/n[3] + 1/n[4] + 1/n[5];" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 21 "We now want Maple to " }{TEXT 337 9 "recognise" }{TEXT 
+-1 213 " in a general setting that we have reached the stopping point.
+.. ; that's where the use of 'while' will come to our rescue. You've a
+lready seen that in other circumstances (gcd, binary, etc). It's clear
+  that the " }{TEXT 396 25 "appropriate program lines" }{TEXT -1 37 " \+
+are these (with 'k' starting at 1):\n" }}{PARA 258 "" 0 "" {TEXT -1 
+60 "            r[k] := r[k-1] - 1/n[k];\nn[k+1] := ceil(1/r[k]);" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "The above
+ single case " }{TEXT 338 3 "may" }{TEXT -1 81 " be tidied up as follo
+ws (first note the use of Maple's (type, integer) command):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "type(8.75, integer);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "type(27/4, integer);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "type(28/4, integer);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 162 "r[0] := 171/3391; \nn[1] :=
+ ceil(1/r[0]);\nfor k while type(1/r[k-1], integer) = false do\nr[k] :
+= r[k-1] - 1/n[k];\nn[k+1] := ceil(1/r[k]);\nod;\nseq(1/n[m], m=1..k);
+ " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 67 "If we suppress the semi-colons we will just see the \+
+unit fractions:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 161 "r[0] :=
+ 171/3391: \nn[1] := ceil(1/r[0]):\nfor k while type(1/r[k-1], integer
+) = false do\nr[k]:= r[k-1] - 1/n[k]:\nn[k+1]:= ceil(1/r[k]):\nod: \ns
+eq(1/n[m], m=1..k); " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 30 
+"Some useful working procedures" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 62 "The following simple procedure is easily \+
+built upon the above:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 193 "eg
+ypt := proc(R) \nlocal r, n, k;\nr[0] := R: \nn[1] := ceil(1/r[0]):\nf
+or k while type(1/r[k-1], integer) = false do\nr[k] := r[k-1] - 1/n[k]
+:\nn[k+1] := ceil(1/r[k]):\nod: \nseq(1/n[m], m=1..k);\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "egypt(1/7);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "egypt(3/15); # here '3/15' is alrea
+dy a unit fraction" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "egypt
+(3/5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "egypt(17/39);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "egypt(171/3391); # the orig
+inal example" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "A dramatic exampl
+e due to Stan Wagon is " }{XPPEDIT 18 0 "31/311;" "6#*&\"#J\"\"\"\"$6$
+!\"\"" }{TEXT -1 40 " (which I'm not executing for printing):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "# egypt(31/311);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 106 "A way of checking (if you wish) is to make the output into a L
+ist, and then add the elements of that list:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 35 "L := [egypt(17/39)];\nadd(x, x = L);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "a := ithprime(100);\nb := ithprime(
+200);\negypt(a/b);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "a := \+
+9!+1:\nb := 10!+1:\negypt(a/b);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+57 "Here's a simple variation which will allow us to see the " }{TEXT 
+376 11 "decreasing " }{TEXT -1 75 "numerators (the last of which will \+
+always be '1', for we have arrived at a " }{TEXT 398 11 "terminating" 
+}{TEXT -1 16 " unit fraction):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 266 "stages := proc(R) \nlocal r, n, k, m;\nr[0] := R: \nn[1] := c
+eil(1/r[0]):\nfor k while type(1/r[k-1], integer) = false do\nr[k] := \+
+r[k-1] - 1/n[k]:\nn[k+1] := ceil(1/r[k]):\nod: \nprint(seq(1/n[m], m=1
+..k));\nlprint(`Decreasing numerators:`);\nseq(numer(r[m]), m=0..k-1);
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 13 "stages(4/17);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "The '3, 2, \+
+1' in the output are last " }{TEXT 397 5 "three" }{TEXT -1 26 " numera
+tors on the RHS in:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 
+"" {XPPEDIT 18 0 "4/17 = 1/5+3/85;" "6#/*&\"\"%\"\"\"\"#<!\"\",&*&F&F&
+\"\"&F(F&*&\"\"$F&\"#&)F(F&" }{TEXT -1 1 "\n" }{XPPEDIT 18 0 "3/85 = 1
+/29+2/2465;" "6#/*&\"\"$\"\"\"\"#&)!\"\",&*&F&F&\"#HF(F&*&\"\"#F&\"%lC
+F(F&" }{TEXT -1 1 "\n" }{XPPEDIT 18 0 "2/2465 = 1/1233+1/3039345;" "6#
+/*&\"\"#\"\"\"\"%lC!\"\",&*&F&F&\"%L7F(F&*&F&F&\"(X$RIF(F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 52 "a := ithprime(100);\nb := ithprime(200);\nstages(a/b)
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "a := 9!+1:\nb := 10!+1
+:\nstages(a/b);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "If we wanted only to see " }{TEXT 
+339 8 "how many" }{TEXT -1 89 " steps there were when the greedy algor
+ithm was applied, we could do something like this:" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 177 "howmany := proc(R) local r, n, k, m;\nr[0]
+ := R: n[1] := ceil(1/r[0]):\nfor k while type(1/r[k-1], integer) = fa
+lse do\nr[k] := r[k-1] - 1/n[k]:\nn[k+1] := ceil(1/r[k]):\nod: k; end:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "howmany(4/19);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 55 "howmany(4/17); # the maximum number with numerator '4
+':" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 10 "Numerators" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "By hand w
+e investigated " }{XPPEDIT 18 0 "2/b;" "6#*&\"\"#\"\"\"%\"bG!\"\"" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "3/b;" "6#*&\"\"$\"\"\"%\"bG!\"\"" }
+{TEXT -1 27 ", which led to considering " }}{PARA 15 "" 0 "" {XPPEDIT 
+18 0 "2/(2*k+1);" "6#*&\"\"#\"\"\",&*&F$F%%\"kGF%F%F%F%!\"\"" }{TEXT 
+-1 19 " (2 unit fractions)" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "3/(3*k+1
+);" "6#*&\"\"$\"\"\",&*&F$F%%\"kGF%F%F%F%!\"\"" }{TEXT -1 19 " (3 unit
+ fractions)" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "3/(3*k+2);" "6#*&\"\"$
+\"\"\",&*&F$F%%\"kGF%F%\"\"#F%!\"\"" }{TEXT -1 19 " (2 unit fractions)
+" }}{PARA 259 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "and
+ one was then interested in numerators: 4, 5, 6, 7, ...\n" }}{PARA 
+258 "" 0 "" {TEXT -1 11 "Looking at " }{XPPEDIT 18 0 "4/n;" "6#*&\"\"%
+\"\"\"%\"nG!\"\"" }{TEXT -1 7 ", with " }{XPPEDIT 18 0 "n = 4*k+1,3;" 
+"6$/%\"nG,&*&\"\"%\"\"\"%\"kGF(F(F(F(\"\"$" }{TEXT -1 15 " (we notice.
+..)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(4/(4*k+1)
+), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 45 "Note those k's (up to whatever...) for wh
+ich " }{XPPEDIT 18 0 "4/(4*k+1);" "6#*&\"\"%\"\"\",&*&F$F%%\"kGF%F%F%F
+%!\"\"" }{TEXT -1 28 " requires 4 unit fractions):" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 88 "L4 := []: \nfor k to 90 do \nif howmany(4/(
+4*k+1)) = 4 \nthen L4 := [op(L4), k] \nfi od; L4;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(4/(4*k+3)), k=1..45);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 258 "" 0 "
+" {TEXT -1 11 "Looking at " }{XPPEDIT 18 0 "5/n;" "6#*&\"\"&\"\"\"%\"n
+G!\"\"" }{TEXT -1 7 ", with " }{XPPEDIT 18 0 "n = 5*k+1,2,3,4;" "6&/%
+\"nG,&*&\"\"&\"\"\"%\"kGF(F(F(F(\"\"#\"\"$\"\"%" }{TEXT -1 15 " (we no
+tice...)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(5/(
+5*k+1)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 89 "L5 :=
+ []: \nfor k to 150 do \nif howmany(5/(5*k+1)) = 5 \nthen L5 := [op(L5
+), k] \nfi od; L5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(h
+owmany(5/(5*k+2)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 33 "seq(howmany(5/(5*k+3)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "seq(howmany(5/(5*k+4)), k=1..45);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 258 "" 0 "" {TEXT -1 11 "L
+ooking at " }{XPPEDIT 18 0 "6/n;" "6#*&\"\"'\"\"\"%\"nG!\"\"" }{TEXT 
+-1 7 ", with " }{XPPEDIT 18 0 "n = 6*k+1,5;" "6$/%\"nG,&*&\"\"'\"\"\"%
+\"kGF(F(F(F(\"\"&" }{TEXT -1 15 " (we notice...)" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 33 "seq(howmany(6/(6*k+1)), k=1..45);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 89 "L6 := []: \nfor k to 360 do \nif ho
+wmany(6/(6*k+1)) = 6 \nthen L6 := [op(L6), k] \nfi od; L6;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(6/(6*k+5)), k=1..45);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 258 "" 
+0 "" {TEXT -1 11 "Looking at " }{XPPEDIT 18 0 "7/n;" "6#*&\"\"(\"\"\"%
+\"nG!\"\"" }{TEXT -1 7 ", with " }{XPPEDIT 18 0 "n = 7*k+1,2,3,4,5,6;
+" "6(/%\"nG,&*&\"\"(\"\"\"%\"kGF(F(F(F(\"\"#\"\"$\"\"%\"\"&\"\"'" }
+{TEXT -1 15 " (we notice...)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 33 "seq(howmany(7/(7*k+1)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 89 "L7 := []: \nfor k to 400 do \nif howmany(7/(7*k+1)) =
+ 7 \nthen L7 := [op(L7), k] \nfi od; L7;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "seq(howmany(7/(7*k+2)), k=1..45);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(7/(7*k+3)), k=1..45);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(7/(7*k+4)), k=1.
+.45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(7/(7*k
++5)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howm
+any(7/(7*k+6)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 258 "" 0 "" {TEXT -1 11 "Looking at " }{XPPEDIT 18 
+0 "8/n;" "6#*&\"\")\"\"\"%\"nG!\"\"" }{TEXT -1 7 ", with " }{XPPEDIT 
+18 0 "n = 8*k+1,3,5,7;" "6&/%\"nG,&*&\"\")\"\"\"%\"kGF(F(F(F(\"\"$\"\"
+&\"\"(" }{TEXT -1 15 " (we notice...)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "seq(howmany(8/(8*k+1)), k=1..45);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 89 "L8 := []: \nfor k to 400 do \nif howmany(8/
+(8*k+1)) = 8 \nthen L8 := [op(L8), k] \nfi od; L8;" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(8/(8*k+3)), k=1..45);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(8/(8*k+5)), k=1.
+.45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "seq(howmany(8/(8*k
++7)), k=1..45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT 284 0 
+"" }{TEXT -1 4 "The " }{TEXT 285 24 "Erd\366s-Strauss conjecture" }}
+{PARA 0 "" 0 "" {TEXT -1 56 "Introduction. The greedy-algorithm result
+ tells one that" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{XPPEDIT 18 0 "a/b = 1/n[1]+a[1]/b[1];" "6#/*&%\"aG\"\"\"%\"bG!\"\",&*
+&F&F&&%\"nG6#F&F(F&*&&F%6#F&F&&F'6#F&F(F&" }{TEXT -1 7 " where " }
+{XPPEDIT 18 0 "a[1]/b[1];" "6#*&&%\"aG6#\"\"\"F'&%\"bG6#F'!\"\"" }
+{TEXT -1 31 " is a fraction whose numerator " }{XPPEDIT 18 0 "a[1];" "
+6#&%\"aG6#\"\"\"" }{TEXT -1 4 " is " }{TEXT 289 4 "less" }{TEXT -1 6 "
+ than " }{TEXT 288 1 "a" }{TEXT -1 2 ". " }}{PARA 15 "" 0 "" {XPPEDIT 
+18 0 "a[1]/b[1] = 1/n[2]+a[2]/b[2];" "6#/*&&%\"aG6#\"\"\"F(&%\"bG6#F(!
+\"\",&*&F(F(&%\"nG6#\"\"#F,F(*&&F&6#F2F(&F*6#F2F,F(" }{TEXT -1 8 "  wh
+ere " }{XPPEDIT 18 0 "a[2]/b[2];" "6#*&&%\"aG6#\"\"#\"\"\"&%\"bG6#F'!
+\"\"" }{TEXT -1 31 " is a fraction whose numerator " }{XPPEDIT 18 0 "a
+[2];" "6#&%\"aG6#\"\"#" }{TEXT -1 4 " is " }{TEXT 290 4 "less" }{TEXT 
+-1 6 " than " }{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" }{TEXT -1 0 "
+" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "a[2]/b[2] = 1/n[3]+a[3]/b[3];" "6#
+/*&&%\"aG6#\"\"#\"\"\"&%\"bG6#F(!\"\",&*&F)F)&%\"nG6#\"\"$F-F)*&&F&6#F
+3F)&F+6#F3F-F)" }{TEXT -1 8 "  where " }{XPPEDIT 18 0 "a[3]/b[3];" "6#
+*&&%\"aG6#\"\"$\"\"\"&%\"bG6#F'!\"\"" }{TEXT -1 31 " is a fraction who
+se numerator " }{XPPEDIT 18 0 "a[3];" "6#&%\"aG6#\"\"$" }{TEXT -1 4 " \+
+is " }{TEXT 291 4 "less" }{TEXT -1 6 " than " }{XPPEDIT 18 0 "a[2];" "
+6#&%\"aG6#\"\"#" }{TEXT -1 5 "\n\netc" }}{PARA 259 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 13 "The sequence " }{XPPEDIT 18 0 "a[1],
+a[2],a[3],`...`;" "6&&%\"aG6#\"\"\"&F$6#\"\"#&F$6#\"\"$%$...G" }{TEXT 
+-1 4 " is " }{TEXT 292 8 "strictly" }{TEXT -1 64 " monotonic decreasin
+g, which eventually terminates when one has " }{XPPEDIT 18 0 "a[r] = 1
+;" "6#/&%\"aG6#%\"rG\"\"\"" }{TEXT -1 11 ", for some " }{TEXT 293 1 "r
+" }{TEXT -1 15 ".  For a given " }{TEXT 294 1 "a" }{TEXT -1 29 ", ther
+e will then be at most " }{TEXT 295 1 "a" }{TEXT -1 42 " terms in the \+
+sequence of unit fractions: " }{XPPEDIT 18 0 "1/n[1],1/n[2],1/n[3],`..
+.`;" "6&*&\"\"\"F$&%\"nG6#F$!\"\"*&F$F$&F&6#\"\"#F(*&F$F$&F&6#\"\"$F(%
+$...G" }{TEXT -1 69 " , and clearly the maximum can happen in the even
+t that the sequence " }{XPPEDIT 18 0 "a[1], a[2], a[3], `...`" "6&&%\"
+aG6#\"\"\"&F$6#\"\"#&F$6#\"\"$%$...G" }{TEXT -1 45 " happens to be the
+ natural numbers less than " }{TEXT 296 1 "a" }{TEXT -1 3 ":  " }
+{XPPEDIT 18 0 "a-1,a-2,a-3,`...`,2,1;" "6(,&%\"aG\"\"\"F%!\"\",&F$F%\"
+\"#F&,&F$F%\"\"$F&%$...GF(F%" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 " Thus, " }{TEXT 297 26 "using th
+e greedy algorithm" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {XPPEDIT 18 0 "2/b;" "6#*&\"\"#\"\"\"%\"bG!\"\"" }
+{TEXT -1 38 " will require at most 2 unit fractions" }}{PARA 15 "" 0 "
+" {XPPEDIT 18 0 "3/b;" "6#*&\"\"$\"\"\"%\"bG!\"\"" }{TEXT -1 38 " will
+ require at most 3 unit fractions" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "4
+/b;" "6#*&\"\"%\"\"\"%\"bG!\"\"" }{TEXT -1 38 " will require at most 4
+ unit fractions" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "5/b;" "6#*&\"\"&\"
+\"\"%\"bG!\"\"" }{TEXT -1 40 " will require at most 5 unit fractions\n
+\n" }{TEXT 298 3 "etc" }}{PARA 259 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 53 "Conjecture (Erd\366s-Strauss). For every natural num
+ber " }{TEXT 303 1 "n" }{TEXT -1 173 ", greater than 3, there is an Eg
+yptian fraction representation that is better than the one ensured by \+
+the greedy algorithm representation; in other words: for every integer
+ " }{TEXT 299 1 "n" }{TEXT -1 44 " (greater than 3) there are natural \+
+numbers " }{TEXT 300 1 "x" }{TEXT -1 2 ", " }{TEXT 301 1 "y" }{TEXT 
+-1 5 " and " }{TEXT 302 1 "z" }{TEXT -1 11 " such that\n" }}{PARA 258 
+"" 0 "" {XPPEDIT 18 0 "4/n = 1/x+1/y+1/z;" "6#/*&\"\"%\"\"\"%\"nG!\"\"
+,(*&F&F&%\"xGF(F&*&F&F&%\"yGF(F&*&F&F&%\"zGF(F&" }}{PARA 259 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 259 "" 0 "" {TEXT -1 55 "Interested readers may \+
+consult Chapter 30 of Mordell's " }{TEXT 304 21 "Diophantine Equations
+" }{TEXT -1 1 "." }{TEXT 287 0 "" }{TEXT -1 0 "" }{TEXT 286 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Some elem
+entary ideas (which could be at school level). Using" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "4/(3*x+2) = 1/(x+1)
++1/(3*x+2)+1/((x+1)*(3*x+2));" "6#/*&\"\"%\"\"\",&*&\"\"$F&%\"xGF&F&\"
+\"#F&!\"\",(*&F&F&,&F*F&F&F&F,F&*&F&F&,&*&F)F&F*F&F&F+F&F,F&*&F&F&*&,&
+F*F&F&F&F&,&*&F)F&F*F&F&F+F&F&F,F&" }}{PARA 0 "" 0 "" {TEXT -1 15 "\nT
+hus, setting " }{TEXT 371 2 "n " }{TEXT -1 3 "= 3" }{TEXT 372 1 "x" }
+{TEXT -1 6 " + 2 (" }{TEXT 374 1 "x" }{TEXT -1 103 " = 0, 1, 2, 3, 4, \+
+5, ... ), we have that the Erd\366s-Strauss conjecture is (trivially) \+
+true for all such " }{TEXT 373 1 "n" }{TEXT -1 1 "." }}}{SECT 1 {PARA 
+3 "" 0 "" {TEXT -1 4 "The " }{TEXT 305 28 "odd-greedy algorithm proble
+m" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "We s
+tart with a simple numerical observation:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "2/7 = 1/4+1/28;
+" "6#/*&\"\"#\"\"\"\"\"(!\"\",&*&F&F&\"\"%F(F&*&F&F&\"#GF(F&" }{TEXT 
+-1 12 " represents " }{XPPEDIT 18 0 "2/7;" "6#*&\"\"#\"\"\"\"\"(!\"\"
+" }{TEXT -1 15 " (which has an " }{TEXT 362 3 "odd" }{TEXT -1 42 " den
+ominator) \nas a sum of unit fractions " }{TEXT 365 3 "all" }{TEXT -1 
+27 " of whose denominators are " }{TEXT 363 4 "even" }}{PARA 15 "" 0 "
+" {XPPEDIT 18 0 "2/7 = 1/5+1/13+1/115+1/10465;" "6#/*&\"\"#\"\"\"\"\"(
+!\"\",**&F&F&\"\"&F(F&*&F&F&\"#8F(F&*&F&F&\"$:\"F(F&*&F&F&\"&l/\"F(F&
+" }{TEXT -1 21 " represents the same " }{XPPEDIT 18 0 "2/7;" "6#*&\"\"
+#\"\"\"\"\"(!\"\"" }{TEXT -1 30 "  \nas a sum of unit fractions " }
+{TEXT 366 3 "all" }{TEXT -1 27 " of whose denominators are " }{TEXT 
+364 3 "odd" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 38 "A natural question to ask is this: if " }
+{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"\"\"%\"bG!\"\"" }{TEXT -1 201 " is a \+
+fraction with an odd denominator, does it have an egyptian fraction re
+presentation with all denominators odd? (It is automatic that a fracti
+on - in reduced form - with an even denominator, could " }{TEXT 404 3 
+"not" }{TEXT -1 29 " have such a representation.)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "It has been proved (R. Br
+eusch; see References) that every " }{XPPEDIT 18 0 "a/b;" "6#*&%\"aG\"
+\"\"%\"bG!\"\"" }{TEXT -1 7 ", with " }{TEXT 417 1 "b" }{TEXT -1 1 " \+
+" }{TEXT 378 3 "odd" }{TEXT -1 77 ", has an egyptian fraction represen
+tation in which every denominator is also " }{TEXT 379 3 "odd" }{TEXT 
+-1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+42 "The first of the above representations of " }{XPPEDIT 18 0 "2/7;" 
+"6#*&\"\"#\"\"\"\"\"(!\"\"" }{TEXT -1 37 " is clearly obtained by appl
+ying the " }{TEXT 405 15 "standard greedy" }{TEXT -1 78 " algorithm, b
+ut the second representation is obtained by making the following " }
+{TEXT 406 10 "odd-greedy" }{TEXT -1 51 " modification. Start by asking
+ if we may represent " }{XPPEDIT 18 0 "2/7;" "6#*&\"\"#\"\"\"\"\"(!\"
+\"" }{TEXT -1 4 " by:" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "2/7 = 1/n[1]
++1/n[2]+`...`+1/n[r];" "6#/*&\"\"#\"\"\"\"\"(!\"\",**&F&F&&%\"nG6#F&F(
+F&*&F&F&&F,6#F%F(F&%$...GF&*&F&F&&F,6#%\"rGF(F&" }{TEXT -1 6 " with " 
+}{TEXT 380 3 "all" }{TEXT -1 5 " the " }{XPPEDIT 18 0 "n[1],n[2],`...`
+,n[r];" "6&&%\"nG6#\"\"\"&F$6#\"\"#%$...G&F$6#%\"rG" }{TEXT -1 1 " " }
+{TEXT 381 3 "odd" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 30 "and see how far we can get by " }{TEXT 
+382 10 "attempting" }{TEXT -1 38 " to use the standard greedy algorith
+m:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "
+r[0] = 2/7;" "6#/&%\"rG6#\"\"!*&\"\"#\"\"\"\"\"(!\"\"" }{TEXT -1 8 " a
+nd we " }{TEXT 383 7 "attempt" }{TEXT -1 1 " " }{XPPEDIT 18 0 "n[1] = \+
+ceil(1/r[0]);" "6#/&%\"nG6#\"\"\"-%%ceilG6#*&F'F'&%\"rG6#\"\"!!\"\"" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "ceil(7/2) = 4;" "6#/-%%ceilG6#*&\"\"(
+\"\"\"\"\"#!\"\"\"\"%" }{TEXT -1 4 " is " }{TEXT 384 4 "even" }{TEXT 
+-1 21 ". Now we attempt the " }{TEXT 407 14 "second closest" }{TEXT 
+-1 56 " unit fraction, the one with denominator 5. So we set:  " }
+{XPPEDIT 18 0 "n[1] = 5;" "6#/&%\"nG6#\"\"\"\"\"&" }{TEXT -1 16 ". Tha
+t leads to " }{XPPEDIT 18 0 "r[0] = 2/7;" "6#/&%\"rG6#\"\"!*&\"\"#\"\"
+\"\"\"(!\"\"" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/5+r[1];" "6#,&*&\"\"
+\"F%\"\"&!\"\"F%&%\"rG6#F%F%" }{TEXT -1 13 " which gives " }{XPPEDIT 
+18 0 "r[1] = 2/7-1/5;" "6#/&%\"rG6#\"\"\",&*&\"\"#F'\"\"(!\"\"F'*&F'F'
+\"\"&F,F," }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(2.5-7.1)/7.5 = 3/35;" "6
+#/*&,&$\"#D!\"\"\"\"\"$\"#rF(F(F)$\"#vF(F(*&\"\"$F)\"#NF(" }{TEXT -1 
+31 ", and the thing to note is the " }{TEXT 385 9 "increased" }{TEXT 
+-1 17 " numerator (that " }{TEXT 413 5 "novel" }{TEXT -1 74 " behaviou
+r means we now have a problem on our hands...). However, we have " }
+{XPPEDIT 18 0 "2/7 = 1/5+3/35;" "6#/*&\"\"#\"\"\"\"\"(!\"\",&*&F&F&\"
+\"&F(F&*&\"\"$F&\"#NF(F&" }{TEXT -1 28 ", and we plough on with the " 
+}{XPPEDIT 18 0 "3/35;" "6#*&\"\"$\"\"\"\"#N!\"\"" }{TEXT -1 8 " to see
+:" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "r[1] = 3/35;" "6#/&%\"rG6#\"\"\"*
+&\"\"$F'\"#N!\"\"" }{TEXT -1 8 " and we " }{TEXT 386 7 "attempt" }
+{TEXT -1 1 " " }{XPPEDIT 18 0 "n[2] = ceil(1/r[1]);" "6#/&%\"nG6#\"\"#
+-%%ceilG6#*&\"\"\"F,&%\"rG6#F,!\"\"" }{TEXT -1 3 " = " }{XPPEDIT 18 0 
+"ceil(35/3) = 12;" "6#/-%%ceilG6#*&\"#N\"\"\"\"\"$!\"\"\"#7" }{TEXT 
+-1 4 " is " }{TEXT 387 4 "even" }{TEXT -1 16 ". So we attempt " }
+{XPPEDIT 18 0 "n[2] = 13;" "6#/&%\"nG6#\"\"#\"#8" }{TEXT -1 43 ", the \+
+next best denominator. That leads to " }{XPPEDIT 18 0 "r[1] = 3/35;" "
+6#/&%\"rG6#\"\"\"*&\"\"$F'\"#N!\"\"" }{TEXT -1 3 " = " }{XPPEDIT 18 0 
+"1/13+r[2];" "6#,&*&\"\"\"F%\"#8!\"\"F%&%\"rG6#\"\"#F%" }{TEXT -1 13 "
+ which gives " }{XPPEDIT 18 0 "r[2] = 3/35-1/13;" "6#/&%\"rG6#\"\"#,&*
+&\"\"$\"\"\"\"#N!\"\"F+*&F+F+\"#8F-F-" }{TEXT -1 3 " = " }{XPPEDIT 18 
+0 "(3.13-35.1)/35.13 = 4/455;" "6#/*&,&$\"$8$!\"#\"\"\"$\"$^$!\"\"F,F)
+$\"%8NF(F,*&\"\"%F)\"$b%F," }{TEXT -1 35 ", and we note there is yet a
+nother " }{TEXT 388 9 "increased" }{TEXT -1 20 " numerator. So far  " 
+}{XPPEDIT 18 0 "2/7 = 1/5+1/13+4/455;" "6#/*&\"\"#\"\"\"\"\"(!\"\",(*&
+F&F&\"\"&F(F&*&F&F&\"#8F(F&*&\"\"%F&\"$b%F(F&" }{TEXT -1 24 ", and we \+
+plough on with " }{XPPEDIT 18 0 "4/455;" "6#*&\"\"%\"\"\"\"$b%!\"\"" }
+{TEXT -1 9 " to see:\n" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "r[2] = 4/455
+;" "6#/&%\"rG6#\"\"#*&\"\"%\"\"\"\"$b%!\"\"" }{TEXT -1 8 " and we " }
+{TEXT 389 7 "attempt" }{TEXT -1 1 " " }{XPPEDIT 18 0 "n[3] = ceil(1/r[
+2]);" "6#/&%\"nG6#\"\"$-%%ceilG6#*&\"\"\"F,&%\"rG6#\"\"#!\"\"" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "ceil(455/4) = 114;" "6#/-%%ceilG6#*&\"$b%\"
+\"\"\"\"%!\"\"\"$9\"" }{TEXT -1 4 " is " }{TEXT 390 4 "even" }{TEXT 
+-1 16 ". So we attempt " }{XPPEDIT 18 0 "n[3] = 115;" "6#/&%\"nG6#\"\"
+$\"$:\"" }{TEXT -1 43 ", the next best denominator. That leads to " }
+{XPPEDIT 18 0 "r[2] = 4/455;" "6#/&%\"rG6#\"\"#*&\"\"%\"\"\"\"$b%!\"\"
+" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/115+r[3];" "6#,&*&\"\"\"F%\"$:\"
+!\"\"F%&%\"rG6#\"\"$F%" }{TEXT -1 13 " which gives " }{XPPEDIT 18 0 "r
+[4] = 4/455-1/115;" "6#/&%\"rG6#\"\"%,&*&F'\"\"\"\"$b%!\"\"F**&F*F*\"$
+:\"F,F," }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(4.115-455.1)/455.115 = 5/5
+2325;" "6#/*&,&$\"%:T!\"$\"\"\"$\"%^X!\"\"F,F)$\"':^XF(F,*&\"\"&F)\"&D
+B&F," }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/10465;" "6#*&\"\"\"F$\"&l/\"
+!\"\"" }{TEXT -1 29 ", is a unit fraction (that's " }{XPPEDIT 18 0 "1/
+n[4];" "6#*&\"\"\"F$&%\"nG6#\"\"%!\"\"" }{TEXT -1 28 ") with an odd de
+nominator!!\n" }}{PARA 259 "" 0 "" {TEXT -1 28 "Thus we have ended up \+
+with  " }{XPPEDIT 18 0 "2/7 = 1/5+1/13+1/115+1/10465;" "6#/*&\"\"#\"\"
+\"\"\"(!\"\",**&F&F&\"\"&F(F&*&F&F&\"#8F(F&*&F&F&\"$:\"F(F&*&F&F&\"&l/
+\"F(F&" }{TEXT -1 2 ".\n" }}{PARA 0 "" 0 "" {TEXT -1 95 "Advice. Do so
+me examples to get the hang of this modification to the standard greed
+y algorithm." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 8 "'Doing' " }{XPPEDIT 18 0 "2/3;" "6#*&\"\"#\"\"\"\"\"$!\"\"" }
+{TEXT -1 29 " leads to the representation " }{XPPEDIT 18 0 "1/3+1/5+1/
+9+1/45;" "6#,**&\"\"\"F%\"\"$!\"\"F%*&F%F%\"\"&F'F%*&F%F%\"\"*F'F%*&F%
+F%\"#XF'F%" }{TEXT -1 19 ". Don't allow that " }{XPPEDIT 18 0 "1/3;" "
+6#*&\"\"\"F$\"\"$!\"\"" }{TEXT -1 16 " to put you off." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "Do these examples: \+
+" }{XPPEDIT 18 0 "2/5,2/9;" "6$*&\"\"#\"\"\"\"\"&!\"\"*&F$F%\"\"*F'" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "3/25;" "6#*&\"\"$\"\"\"\"#D!\"\"" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 393 61 "The odd-greedy algorithm (unanswered) que
+stion is simply this" }{TEXT -1 2 ": " }{TEXT 394 31 "\ndoes the above
+ process always " }{TEXT 408 9 "terminate" }{TEXT 409 1 "?" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 410 
+5 "point" }{TEXT -1 37 " of that question should be obvious: " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 56 "With the
+ regular greedy algorithm there is the (proven) " }{TEXT 411 8 "decrea
+se" }{TEXT -1 84 " in the successive numerators; it's precisely that w
+hich gaurantees the termination\n" }}{PARA 259 "" 0 "" {TEXT -1 11 "  \+
+ HOWEVER\n" }}{PARA 15 "" 0 "" {TEXT -1 114 "When one attempts the odd
+-greedy modification, the behaviour of successive denominators can be,
+ and generally is, " }{TEXT 412 15 "quite different" }{TEXT -1 39 ". A
+nd while the sequence of successive " }{TEXT 414 1 "r" }{TEXT -1 93 "'
+s is decreasing (but their integral numerators may not be), there is t
+he prospect that that " }{TEXT 416 5 "could" }{TEXT -1 29 " exist some
+ initial fraction " }{XPPEDIT 18 0 "r[0];" "6#&%\"rG6#\"\"!" }{TEXT 
+-1 19 " which leads to an " }{TEXT 415 8 "infinite" }{TEXT -1 11 " seq
+uence: " }{XPPEDIT 18 0 "r[1],r[2],r[3],`ad inf`;" "6&&%\"rG6#\"\"\"&F
+$6#\"\"#&F$6#\"\"$%'ad~infG" }{TEXT -1 31 " \nSee Stan Wagon's email b
+elow." }}{PARA 259 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+199 "   (An interesting elementary question to investigate is: how man
+y fractions (with odd numerator) can one produce for which the greedy \+
+and odd-greedy algorithms produce the same output. For example, " }
+{XPPEDIT 18 0 "3/7 = 1/3+1/11+1/231;" "6#/*&\"\"$\"\"\"\"\"(!\"\",(*&F
+&F&F%F(F&*&F&F&\"#6F(F&*&F&F&\"$J#F(F&" }{TEXT -1 22 " is produced by \+
+both.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 
+"I have adapted our earlier ordinary greedy algorithm to put the above
+ " }{TEXT 392 10 "odd greedy" }{TEXT -1 25 " approach into effect. I \+
+" }{TEXT 391 5 "could" }{TEXT -1 161 " write a more sophisticated one \+
+(one, for example that would reject an input 'R' which didn't have an \+
+odd numerator), but I want to keep everything to a minimum." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 " The thinking b
+ehing the lines should be obvious to anyone who has done hand examples
+." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 410 "odd_egypt := proc(R) \+
+\nlocal r, n, k; r[0] := R:\nif ceil(1/r[0]) mod 2 = 1 then n[1] := ce
+il(1/r[0]); \n   else n[1] := ceil(1/r[0]) + 1; \nfi: r[1] := r[0] - 1
+/n[1]; \nfor k from 2 while r[k-1] <> 0 do\nif ceil(1/r[k-1]) <= n[k-1
+] then n[k] := n[k-1] + 2;\n   elif ceil(1/r[k-1]) mod 2 = 1 then n[k]
+ := ceil(1/r[k-1]); \n   else n[k] := ceil(1/r[k-1])+1;\nfi;  r[k] := \+
+r[k-1] - 1/n[k];\nod: seq(1/n[j], j=1..k-1); end:" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+43 "odd_egypt(2/7); # the above initial example" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "odd_egypt(8/9);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "odd_egypt(14/15);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "odd_egypt(3/13);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "Some small nu
+merator examples (producing smallish denominators) are:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 96 "odd_egypt(2/3);\nodd_egypt(2/5);\no
+dd_egypt(2/9);\nodd_egypt(3/5);\nodd_egypt(3/7);\nodd_egypt(3/11);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 66 "Some small numerator examples that produce large denomina
+tors are:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 84 "odd_egypt(2/11
+);\nodd_egypt(2/19);\nodd_egypt(2/23);\nodd_egypt(3/17);\nodd_egypt(3/
+23);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "In October 1996, Stan W
+agon announced a " }{TEXT 395 39 "quite extraordinary numerical discov
+ery" }{TEXT -1 103 ": Here are two emails of Wagon's (in the public do
+main) which capture the excitement of his discovery:\n" }}{PARA 0 "" 
+0 "" {TEXT -1 1035 "Date:       Sat, 12 Oct 1996 17:05:31 -0700 (PDT)
+\nFrom:       WAGON@thuban.ac.hmc.edu\nSubject:    Odd Greediness\nTo:
+            eppstein@ics.uci.edu\n------------------------------------
+-----------------------------\nI am busily updating my Egyptian fracti
+on algorithms for a revision of MinA. I was testing your heuristic for
+ the Odd Greedy, when I discovered  3/179. Odd Greedy does not do well
+ on this at all. In fact, I have not completed the representation. So \+
+far I am at a term with 55,000 digits. The number of digits is doublei
+ng at each stage. I hesitate to suggest that this might be a counterex
+ample...... stan wagon\n\nDate:       Sun, 13 Oct 1996 12:11:32 -0700 \+
+(PDT)\nFrom:       WAGON@thuban.ac.hmc.edu\nSubject:   an amazing Egyp
+tian fraction\nTo:           Klee, Campbell, Guy, Eppstein, Wellin\n--
+----------------------------------------------------------------\nThe \+
+number 3/179 has a rather amazing output when the greedy odd Egyptian \+
+fraction algorithm is tried out on it. Recall that it is a famous open
+ question whether " }{TEXT 399 10 "ODD GREEDY" }{TEXT -1 154 " always \+
+halts. On 3/179 the algorithm produces 19 terms, the last of which has
+ 439492 digits!!! Takes a little under an hour for my computer to get \+
+this. " }{TEXT 400 3 "AND" }{TEXT -1 49 " the sequence of numerators o
+f the remainders is " }{TEXT 402 16 "somewhat amazing" }{TEXT -1 1 ":
+" }}{PARA 0 "" 0 "" {TEXT -1 232 "                                    \+
+     3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 1\n
+Of course, when I saw the 3, 4, 5, 6... I thought I was on to somethin
+g....could this continue forever? Well, I don't think so." }}{PARA 0 "
+" 0 "" {TEXT -1 35 "-----------------------------------" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 116 "Wagon's 439492 digi
+ts may be verified with the program above (obviously I won't save it f
+or placing on web site!!): " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "# odd_egypt(3/179);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "I ha
+ve modified the earlier odd_egypt procedure to make it stop after a ce
+rtain number of steps, " }{TEXT 401 6 "BOUND " }{TEXT -1 76 "(I've sim
+ply removed the 'while' line and replaced it with \"for k from 2 to " 
+}{TEXT 403 5 "BOUND" }{TEXT -1 6 " do\"):" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 510 "stop_odd_egypt := proc(R, BOUND) \nlocal r, n, k; r[
+0] := R:\nif ceil(1/r[0]) mod 2 = 1 then n[1] := ceil(1/r[0]); \n   el
+se n[1] := ceil(1/r[0]) + 1; \nfi: r[1] := r[0] - 1/n[1]; \nfor k from
+ 2 to BOUND do\nif ceil(1/r[k-1]) <= n[k-1] then n[k] := n[k-1] + 2;\n
+   elif ceil(1/r[k-1]) mod 2 = 1 then n[k] := ceil(1/r[k-1]); \n   els
+e n[k] := ceil(1/r[k-1])+1;\nfi; r[k] := r[k-1] - 1/n[k];\nod: \nprint
+(seq(1/n[j], j = 1..k-1));\nlprint(`See the numerators, including the \+
+initial one:`);\nseq(numer(r[j]), j=0..BOUND); end:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 25 "stop_odd_egypt(3/179, 5);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 37 "You may verify the first few by hand:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "ceil(1/(3/179)) = ceil(179/
+3);" "6#/-%%ceilG6#*&\"\"\"F(*&\"\"$F(\"$z\"!\"\"F,-F%6#*&F+F(F*F," }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "ceil(59+2/3) = 60;" "6#/-%%ceilG6#,&
+\"#f\"\"\"*&\"\"#F)\"\"$!\"\"F)\"#g" }{TEXT -1 40 ", is even, so go to
+ denominator 61\nThen " }{XPPEDIT 18 0 "3/179-1/61 = (3.61-179.1)/179.
+61;" "6#/,&*&\"\"$\"\"\"\"$z\"!\"\"F'*&F'F'\"#hF)F)*&,&$\"$h$!\"#F'$\"
+%\"z\"F)F)F'$\"&hz\"F0F)" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(183-179)/
+10919 = 4/10919;" "6#/*&,&\"$$=\"\"\"\"$z\"!\"\"F'\"&>4\"F)*&\"\"%F'F*
+F)" }{TEXT -1 5 ", etc" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "3
+/179 - 1/61;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "4/10919 - 1
+/2731;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "5/29819789 - 1/59
+63959;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "stop_odd_egypt(3/
+2879, 4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "stop_odd_egypt
+(5/5809, 4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 
+1 {PARA 3 "" 0 "" {TEXT -1 8 "Problems" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 58 "Problem(s) 1. An integer can be the s
+um of reciprocals of " }{TEXT 368 8 "distinct" }{TEXT -1 65 " integers
+ (do you see how these ones come from perfect numbers?):" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1 = 1/2+1/3+1/6
+;" "6#/\"\"\",(*&F$F$\"\"#!\"\"F$*&F$F$\"\"$F(F$*&F$F$\"\"'F(F$" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1 = 1/2+1/4+1/7+1/14+1
+/28;" "6#/\"\"\",,*&F$F$\"\"#!\"\"F$*&F$F$\"\"%F(F$*&F$F$\"\"(F(F$*&F$
+F$\"#9F(F$*&F$F$\"#GF(F$" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 74 "Can you make up some more? And how a
+bout triply-perfect numbers producing:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "2 = 1/n[1]+1/n[2]
++1/n[3]+`...`;" "6#/\"\"#,**&\"\"\"F'&%\"nG6#F'!\"\"F'*&F'F'&F)6#F$F+F
+'*&F'F'&F)6#\"\"$F+F'%$...GF'" }{TEXT -1 32 " , with distinct unit fra
+ctions " }{XPPEDIT 18 0 "1/n[1],1/n[2],1/n[3],`...`;" "6&*&\"\"\"F$&%
+\"nG6#F$!\"\"*&F$F$&F&6#\"\"#F(*&F$F$&F&6#\"\"$F(%$...G" }{TEXT -1 2 "
+  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 193 "Wr
+ite a program that would enable you to find some triply-perfect, quadr
+uply-perfect numbers, etc (with a view to finding sums of distinct uni
+t fractions that add up to (1), (2), 3, 4, 5, ... )" }}{PARA 259 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 "Problem 2. Prove that \+
+no integer can be expressed as a sum of reciprocals of distinct " }
+{TEXT 367 6 "primes" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 17 "Problem 3. Prove " }{XPPEDIT 18 0 "1/2+1
+/3+1/4+1/5+`...`+1/n;" "6#,.*&\"\"\"F%\"\"#!\"\"F%*&F%F%\"\"$F'F%*&F%F
+%\"\"%F'F%*&F%F%\"\"&F'F%%$...GF%*&F%F%%\"nGF'F%" }{TEXT -1 21 " is ne
+ver an integer." }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 10 "References" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "1. Morde
+ll, L.J., " }{TEXT 369 21 "Diophantine Equations" }{TEXT -1 54 " (his \+
+Chapter 30 treats the Erd\366s-Strauss conjecture)." }}{PARA 0 "" 0 "
+" {TEXT -1 12 "2. Guy, R., " }{TEXT 370 34 "Unsolved Problems in Numbe
+r Theory" }{TEXT -1 64 " (contains over three 3 pages of Egyptian Frac
+tions references)." }}{PARA 0 "" 0 "" {TEXT -1 28 "3. Klee, V., and Wa
+gon, S., " }{TEXT 375 65 "Old and New Unsolved Problems in Plane Geome
+try and Number Theory" }{TEXT -1 8 " (MAA). " }}{PARA 0 "" 0 "" {TEXT 
+-1 138 "4. Breusch, R.,  A special case of Egyptian fractions, solutio
+n to advanced problem 4512, Amer. Math. Monthly, Vol 61, 1954, pp. 200
+\255201. " }}{PARA 0 "" 0 "" {TEXT -1 53 "5. A Google search on egypti
+an fractions brings up a " }{TEXT 377 4 "huge" }{TEXT -1 103 " number \+
+of references (some of which I've mentioned at my web site; David Epps
+tein's is really superb)." }}}}{MARK "5" 0 }{VIEWOPTS 1 1 0 1 1 1803 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

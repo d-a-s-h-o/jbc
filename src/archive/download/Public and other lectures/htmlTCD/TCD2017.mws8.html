@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws8.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<dl style="margin-left:40px"><a name="MapleAutoBookmark8" />
+<p align="left"><font color="#000000" size="4" face="Times New Roma"><strong>An exercise concerning <img src="images/TCD2017.mws_70.gif" width="55" height="51" alt="Sum(`/`(1, `*`(i)), i = 1 .. `+`(p, `-`(1)))" align="center" border="0">, and the <font style="background-color: #ff9900">half</strong></font> and <font style="background-color: #ff9900">quarter</strong></font> sums <img src="images/TCD2017.mws_71.gif" width="84" height="66" alt="Sum(`/`(1, `*`(i)), i = 1 .. `+`(`*`(`/`(1, 2), `*`({`+`(p, `-`(1))}))))" align="center" border="0"> and <img src="images/TCD2017.mws_72.gif" width="84" height="66" alt="Sum(`/`(1, `*`(i)), i = 1 .. `+`(`*`(`/`(1, 4), `*`({`+`(p, `-`(1))}))))" align="center" border="0"> </strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>First, an exercise for you: prove, for an <font style="background-color: #ffcc99">odd prime</strong></font> <img src="images/TCD2017.mws_73.gif" width="18" height="18" alt="p" align="center" border="0">, that the numerator (of the fraction) in the sum:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_74.gif" width="270" height="51" alt="Sum(`/`(1, `*`(i)), i = 1 .. `+`(p, `-`(1))) = `+`(`+`(`+`(`*`(1, 1), `/`(1, 2)), `/`(1, 3)), `...`, `/`(1, `*`(`+`(p, `-`(1)))))" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>is <img src="images/TCD2017.mws_75.gif" width="95" height="18" alt="" align="center" border="0"> (i.e., is divisible by <img src="images/TCD2017.mws_76.gif" width="18" height="18" alt="p" align="center" border="0">).</strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font><font color="#000080" size="7" face="Times New Roman"><strong>_________________</strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>But now, two less obvious sums, the first due to Eisenstein (early 1800s), the second to Lerch-Glaisher (~ 1900):</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong>for any <font style="background-color: #ffcc99">odd prime</strong></font> <img src="images/TCD2017.mws_77.gif" width="18" height="18" alt="p" align="center" border="0">, the ' half ' sum:</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_78.gif" width="423" height="79" alt="`and`(Sum[half](p) = Sum(`/`(1, `*`(i)), i = 1 .. `+`(`*`(`/`(1, 2), `*`({`+`(p, `-`(1))})))), Sum(`/`(1, `*`(i)), i = 1 .. `+`(`*`(`/`(1, 2), `*`({`+`(p, `-`(1))})))) = `+`(`+`(`+`(`*`(1, 1), `/`(1, ..." align="center" border="0"></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>satisfies <img src="images/TCD2017.mws_79.gif" width="228" height="25" alt="" align="center" border="0">.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []: for p from 3 to 50 do if isprime(p) then 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q||p := (2^(p-1) - 1)/p: ### the Fermat quotient base 2
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S||p := add(1/i, i = 1..(p-1)/2): ### the half sum
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L := [op(L), p]: fi od:
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(``);
+<br>
+<br>p := 'p': print(``);
+<br>
+<br>print(array([['p', ``, ``, 'S[half]', ``, q['p'](2), ``, S[half], ``, -2*q[p](2)], 
+<br>
+<br>seq([p, ``, ``, S||p, ``, q||p, ``, S||p mod p, ``, -2*q||p mod p], p = L)])): print(``);
+<br>
+<br>lprint(`The last two columns are mod p reductions.`);</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_80.gif" width="376" height="601" alt="array( 1 .. 15, 1 .. 10, [( 1, 4 ) = (S[half]), ( 3, 2 ) = (``), ( 14, 4 ) = (`/`(18858053, 5173168)), ( 11, 10 ) = (19), ( 15, 6 ) = (1497207322929), ( 1, 5 ) = (``), ( 5, 7 ) = (``), ( 5, 1 ) = (11)..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#993300" size="4" face="Times New Roman"><strong>`The last two columns are mod p reductions.`</td>
+<td width='5%' align='center'></td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong>for any <font style="background-color: #ffcc99">prime</strong></font> <img src="images/TCD2017.mws_81.gif" width="103" height="18" alt="" align="center" border="0">, the ' quarter ' sum:</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_82.gif" width="437" height="79" alt="`and`(Sum[quarter](p) = Sum(`/`(1, `*`(i)), i = 1 .. `+`(`*`(`/`(1, 4), `*`({`+`(p, `-`(1))})))), Sum(`/`(1, `*`(i)), i = 1 .. `+`(`*`(`/`(1, 4), `*`({`+`(p, `-`(1))})))) = `+`(`+`(`+`(`*`(1, 1), `/`(..." align="center" border="0"></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>satisfies <img src="images/TCD2017.mws_83.gif" width="242" height="25" alt="" align="center" border="0">.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []: for p from 5 by 4 to 100 do if isprime(p) then 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q||p := (2^(p-1) - 1)/p: ### the Fermat quotient base 2
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S||p := add(1/i, i = 1..(p-1)/4): ### the QUARTER sum
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L := [op(L), p]: fi od:
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(``);
+<br>
+<br>p := 'p': print(``);
+<br>
+<br>print(array([['p', ``, ``, 'S[quarter]', ``, q['p'](2), ``, S[quarter], ``, -3*q[p](2)], 
+<br>
+<br>seq([p, ``, ``, S||p, ``, q||p, ``, S||p mod p, ``, -3*q||p mod p], p = L)])): print(``);
+<br>
+<br>lprint(`The last two columns are mod p reductions.`);</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_84.gif" width="497" height="475" alt="array( 1 .. 12, 1 .. 10, [( 9, 9 ) = (``), ( 12, 7 ) = (``), ( 5, 3 ) = (``), ( 7, 2 ) = (``), ( 3, 4 ) = (`/`(11, 6)), ( 9, 4 ) = (`/`(1195757, 360360)), ( 11, 3 ) = (``), ( 6, 7 ) = (``), ( 2, 9 ) =..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#993300" size="4" face="Times New Roman"><strong>`The last two columns are mod p reductions.`</td>
+<td width='5%' align='center'></td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Remark. This congruence holds for primes <img src="images/TCD2017.mws_85.gif" width="103" height="18" alt="" align="center" border="0">; all that is required is <img src="images/TCD2017.mws_86.gif" width="137" height="38" alt="floor(`+`(`*`(`/`(1, 4), `*`({`+`(p, `-`(1))}))))" align="center" border="0"> instead of <img src="images/TCD2017.mws_87.gif" width="87" height="38" alt="`+`(`*`(`/`(1, 4), `*`({`+`(p, `-`(1))})))" align="center" border="0">.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</dl>
+
+</html>

@@ -1,0 +1,10 @@
+[Query]
+cirestriction=(%UserRestriction%) & ! #vpath *\_vti* & ! #vpath *\_private\* & ! #vpath *\_derived\* & ! #vpath *\_themes\* & ! #vpath *\_overlay\* & ! #vpath *\_fpclass\* & ! #vpath *\_borders\* 
+ciscope=/johnbcos
+citemplate=/johnbcos/_derived/search_my_site.htm0.htx
+cimaxrecordsperpage=50
+cicolumns=DocTitle,filename,vpath,size,rank
+ciflags=DEEP
+cisort=Rank[d]
+cicatalog=C:\Microsoft Site Server\Data\Publishing
+cimaxrecordsinresultset=200

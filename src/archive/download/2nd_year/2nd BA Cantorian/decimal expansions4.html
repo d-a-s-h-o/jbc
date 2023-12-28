@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>decimal expansions.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=5>A return to the question at the end of the Introduction</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>So, what is '</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>'?:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>convert(PDEXPAND(1,0,[],[0,0,9,9]), rational);</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions149.gif" width=40 height=45 alt="1/101">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That's hardly a surprise, and it can be done by hand: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>let </font></b>
+<img src="images/decimal expansions150.gif" width=144 height=32 alt="x = .9900990099e-2" align=middle>
+<b><font color=#000080>... , </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>then </font></b>
+<img src="images/decimal expansions151.gif" width=236 height=32 alt="10000*x = 99.0099009900990099" align=middle>
+<b><font color=#000080>... ,</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>giving </font></b>
+<img src="images/decimal expansions152.gif" width=96 height=32 alt="9999*x = 99" align=middle>
+<b><font color=#000080>, and thus </font></b>
+<img src="images/decimal expansions153.gif" width=80 height=58 alt="x = 99/9999" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/decimal expansions154.gif" width=44 height=58 alt="1/101" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But this might (?) surprise you (and, hopefully, give you something else to think about):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>x := 1/101;</font></b>
+</p>
+<p align=center>
+<img src="images/decimal expansions155.gif" width=70 height=45 alt="x := 1/101">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pdexpand(x^2);</font></b>
+</p>
+<p align=left>
+<img src="images/decimal expansions156.gif" width=744 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions157.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions158.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions159.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions160.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions161.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions162.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions163.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions164.gif" width=732 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+<br>
+<img src="images/decimal expansions165.gif" width=150 height=20 alt="PDEXPAND(1,0,[],[0, 0, 0, 0, 9, 8, 0, 2, 9, 6, 0, 4...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:06:53 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

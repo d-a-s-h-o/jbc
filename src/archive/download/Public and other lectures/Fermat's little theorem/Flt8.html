@@ -1,0 +1,290 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark8">
+<p align=left>
+<b><font color=#000080 size=5>Section 3. Quadratic and other congruences. Mersenne and Fermat numbers.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Here I begin with a famous empirical discovery of Fermat's: <br>
+</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> odd prime divisor of (</font></b>
+<img src="images/Flt230.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) leaves remainder 1 on division by 4</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In the following, this is what I am doing: I first form a random </font></b>
+<img src="images/Flt231.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, factor it, and then verify that every odd prime divisor leaves remainder 1 on division by 4. Bear in mind that</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>if </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> is odd then one of the primes dividing </font></b>
+<img src="images/Flt232.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> will be 2 itself (and it is trivial that </font></b>
+<img src="images/Flt233.gif" width=33 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> will not be a factor), otherwise all the other prime factors will be odd (and, in extremis, there might only be one: </font></b>
+<img src="images/Flt234.gif" width=91 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>*5)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>if </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> is even then all primes dividing </font></b>
+<img src="images/Flt235.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> will be odd (and, in extremis, there might only be one: </font></b>
+<img src="images/Flt236.gif" width=91 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>x := rand();</font></b>
+</p>
+<p align=center>
+<img src="images/Flt237.gif" width=142 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := x^2 + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt238.gif" width=239 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>m := ifactor(n);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt239.gif" width=334 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L := [op(m)];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt240.gif" width=358 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r := nops(L); # how many prime factors there are</font></b>
+</p>
+<p align=center>
+<img src="images/Flt241.gif" width=52 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for k to r do<br>
+p[k] := op(L[k])<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt242.gif" width=62 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt243.gif" width=62 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt244.gif" width=198 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt245.gif" width=94 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for k to r do<br>
+p[k] mod 4<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt246.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt247.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt248.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt249.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>All those odd primes (which will change every time the two commands are re-executed) are congruent to 1 mod 4. Euler gave a proof based on Fermat's little theorem (see Section 8).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>An extension of that result is that</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> odd prime divisor of (</font></b>
+<img src="images/Flt250.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) leaves remainder 1 on division by 4</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here, numerical experimentation like the above (using rand()) would be problematic, since Maple - almost certainly - would have difficulty in performing the resulting factorisations (and, in fact, it is precisely the difficulty of factoring that is the basis of RSA public-key cryptography).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Instead, I choose more modestly sized </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>'s to factor:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>x := rand() mod 1234321; # to reduce the size of 'x':</font></b>
+</p>
+<p align=center>
+<img src="images/Flt251.gif" width=86 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := x^4 + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt252.gif" width=207 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>m := ifactor(n);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt253.gif" width=272 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L := [op(m)];</font></b>
+</p>
+<p align=center>
+<img src="images/Flt254.gif" width=292 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r := nops(L); # how many prime factors there are</font></b>
+</p>
+<p align=center>
+<img src="images/Flt255.gif" width=52 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for k to r do<br>
+p[k] := op(L[k])<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt256.gif" width=70 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt257.gif" width=158 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt258.gif" width=94 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for k to r do<br>
+p[k] mod 8    # note the change to mod 8<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt259.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt260.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/Flt261.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That result - </font></b>
+<i><b><font color=#000080>re</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/Flt262.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) - may be proved in the same way as the (</font></b>
+<img src="images/Flt263.gif" width=62 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) result. In general one has:</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> odd prime divisor of (</font></b>
+<img src="images/Flt264.gif" width=89 height=74 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) leaves remainder 1 on division by </font></b>
+<img src="images/Flt265.gif" width=80 height=56 alt="[Maple Math]" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>This result enables trial factoring of Fermat numbers to be eased, and there is another simple extension of it that saves a further 50%...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Yet another </font></b>
+<i><b><font color=#000080>application </font></b></i>
+<b><font color=#000080>of Fermat's little theorem is to the trial factoring of Mersenne numbers (</font></b>
+<img src="images/Flt266.gif" width=104 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> prime): Theorem. Every prime divisor </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/Flt267.gif" width=37 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> satisfies </font></b>
+<img src="images/Flt268.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It is pleasing that that Theorem can be proved by </font></b>
+<i><b><font color=#000080>using</font></b></i>
+<b><font color=#000080> Fermat's little theorem, when it was precisely the very discovery of that theorem which led Fermat to discover his little theorem in the first instance.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. A great deal more about Mersenne numbers (including the Lucas-Lehmer test) is available in my 1995 Maple public lecture "The recently discovered record largest known prime," and a great deal more  more about Fermat numbers (including the Pepin test) is available in my 1999 Maple public lecture"The history of Fermat numbers from August 1641," both at my web site.</font></b>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:45 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

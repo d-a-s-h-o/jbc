@@ -1,0 +1,52 @@
+From: owner-historia-matematica@chasque.apc.org on behalf of Roger Cooke
+[ckrglj@adelphia.net]
+Sent: 26 April 2004 13:12
+To: historia-matematica@chasque.apc.org
+Subject: Re: [HM] Leibniz on Pi
+
+
+
+Leibniz must have had some idea that not all irrational numbers are
+algebraic. In the preface to his "Arithmetical Quadrature of the
+Circle" (which I think was written in 1678 or 1679), he wrote,
+I corrected my math in a previous note, but---not to be *too* compulsive
+about this---I realize that my Latin also needs some fine tuning.
+Is there a competent Latinist among us who can get this exactly right?
+Here's my second effort:
+
+"Perfecta autem quadratura illa erit, quae simul sit Analytica et linearis,
+sive quae lineis aequalibus, ad certarum dimensionum aequationes
+revocabilibus construatur.  Hanc impossibilem esse asseruit ingeniosissimus
+Gregorius in libro de Vera Circuli quadratura, sed demonstrationem tunc
+quidem, ni fallor, non absolvit.  Ego nondum video, quid impediat
+circumferentiam ipsam aut aliquam determinatam eius portionum mensurari, et
+cuiusdam arcus rationem ad suum sinum, certae dimensionis aequatione
+exprimi.  Sed relationem arcus ad sinum in universum aequatione certae
+dimensionis explicari impossibile est, quemadmodem in ipso opusculo
+demonstrabo."
+
+"A complete quadrature would be one that is simultaneously analytic and
+linear, that is, it would be constructed by equivalent curves reducible to
+equations of certain [finite] degrees.  The brilliant Gregory, in his book
+"On the true quadrature of the circle" has claimed that this is impossible,
+but, unless I am mistaken, has given no proof.  I still do not see what
+prevents the circumference itself from being measured, or some definite part
+of it,
+an arc having a ratio to its sine [half-chord] that can be expressed by an
+equation of finite degree.  But to express the ratio of
+the arc to the sine in general by an equation of finite degree is
+impossible, as I shall prove in this little work."
+
+That last sentence says that the arcsine *function* is not algebraic.  The
+sentence before indicates that he isn't certain whether the same is true of
+the number pi, which is (for example) six times its value at the point 1/2.
+Or he might be thinking that since pi satisfies the equation of infinite
+degree
+
+0 = sin(pi) = 1 - pi + pi^3/3! - pi^5/5! + ,
+
+that is its "minimal polynomial" and it can't satisfy a polynomial of finite
+degree.
+
+Roger Cooke
+

@@ -1,0 +1,90 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 0 1 0 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 -1 "" 0 1 255 0 255 1 0 0 0 0 
+0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 
+11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(numtheory);" }}
+{PARA 7 "" 1 "" {TEXT -1 33 "Warning, new definition for order" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7gn%\"BG%\"FG%&GIgcdG%\"JG%\"LG%\"MG%*
+bernoulliG%)bigomegaG%&cfracG%)cfracpolG%+cyclotomicG%)divisorsG%&eule
+rG%)factorEQG%*factorsetG%'fermatG%(ifactorG%)ifactorsG%)imagunitG%&in
+dexG%/integral_basisG%)invcfracG%'invphiG%'isolveG%(isprimeG%*issqrfre
+eG%)ithprimeG%'jacobiG%*kroneckerG%'lambdaG%)legendreG%)mcombineG%)mer
+senneG%*minkowskiG%(mipolysG%%mlogG%'mobiusG%&mrootG%&msqrtG%)nearestp
+G%*nextprimeG%*nthconverG%)nthdenomG%)nthnumerG%'nthpowG%&orderG%)pdex
+pandG%$phiG%*pprimrootG%*prevprimeG%)primrootG%(quadresG%+rootsunityG%
+*safeprimeG%&sigmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 105 "abund := proc(n)\nlocal L, k;\nL :
+= [];\nfor k to n do\nif sigma(k) > 2*k then\nL := [op(L), k]\nfi\nod;
+\nL;\nend;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&abundGR6#%\"nG6$%\"LG
+%\"kG6\"F+C%>8$7\"?(8%\"\"\"F29$%%trueG@$2,$F1\"\"#-%&sigmaG6#F1>F.7$-
+%#opG6#F.F1F.F+F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "abun
+d(40);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7)\"#7\"#=\"#?\"#C\"#I\"#O\"
+#S" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 203 "sum_abund := proc(n)
+\nlocal L, k, a1, a2;\nL := [];\nfor k to n do\nif sigma(k) > 2*k then
+\nL := [op(L), k]\nfi\nod;\nfor a1 in L do\nfor a2 in L do\nif sigma(a
+1+a2) <= 2*(a1+a2)\nthen print(a1, a2)\nfi\nod;\nod;\nend:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "sum_abund(20);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#7\"#?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#=\"#?" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#?\"#7" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#?\"#=" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 203 
+"sum_defic := proc(n)\nlocal L, k, a1, a2;\nL := [];\nfor k to n do\ni
+f sigma(k) < 2*k then\nL := [op(L), k]\nfi\nod;\nfor a1 in L do\nfor a
+2 in L do\nif sigma(a1+a2) >= 2*(a1+a2)\nthen print(a1, a2)\nfi\nod;\n
+od;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "sum_defic(15);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"\"\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"
+%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"\"*" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"#:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"%\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"%\"\"
+)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"%\"#9" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"&\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"&\"
+\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"&\"#8" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"&\"#:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"(\"\"&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"(\"#6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"(\"#8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\")\"\"%
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\")\"#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"*\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"*F#" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"*\"#6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"*\"#:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#5\"\"#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#5\"\")" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#5F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#5\"#9" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#6\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#6\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#6\"\"*
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#6\"#8" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#8\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#8\"\"(
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#8\"#6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#8\"#:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#9\"\"%" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#9\"#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#9F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#:\"\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#:\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#:\"\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#:\"#8" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#:F#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 201 "sum_comp := proc(n)\nlocal L, k, a1, a2, List;\nL :=
+ [];\nfor k from 4 to n do\nif not isprime(k) then\nL := [op(L), k]\nf
+i\nod;\nList := [];\nfor a1 in L do\nfor a2 in L do\nList := [op(List)
+, a1+a2]\nod\nod;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "
+sum_comp(20);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7er\"\")\"#5\"#7\"#8
+\"#9\"#;\"#=\"#>\"#?\"#A\"#CF%F&F(\"#:F)F*F,\"#@F-F.\"#EF&F(F)\"#<F*F,
+F-\"#BF.F1\"#GF'F/F2F*F+F0F3F.\"#D\"#F\"#HF(F)F*F+F,F-F.F5F1F4\"#IF)F*
+F,F0F-F.F1F6F4F8\"#KF*F,F-F3F.F1F4F7F8F9\"#MF+F0F3F.F5F6F7F8\"#J\"#L\"
+#NF,F-F.F5F1F4F8F;F9F:\"#OF-F.F1F6F4F8F9F<F:F>\"#QF.F1F4F7F8F9F:F=F>F?
+\"#S" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 211 "comp := proc(n)\nl
+ocal S, k, a1, a2, Set;\nS := \{\};\nfor k from 4 to n do\nif not ispr
+ime(k) then\nS := S union \{k\}\nfi\nod;\nSet := \{\};\nfor member(a1,
+ Set) do\nfor member(a2, Set) do\nSet := Set union \{a1+a2\}\nod\nod;
+\nend:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "comp(20);" }}{PARA 8 "" 1 "" {TEXT -1 64 "Error, \+
+(in comp) controlling variable of for loop must be a name" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "11 0 0" 0 }{VIEWOPTS 1 
+1 0 1 1 1803 }

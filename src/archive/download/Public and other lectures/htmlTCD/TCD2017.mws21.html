@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws21.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<dl style="margin-left:40px"><a name="MapleAutoBookmark21" />
+<p align="left"><font color="#000000" size="4" face="Times New Roma"><strong><img src="images/TCD2017.mws_282.gif" width="47" height="18" alt="p = 5" align="center" border="0">(the order values </strong></font><font color="#000000" size="4" face="Times New Roma"><strong><em>appear</em></strong></font><font color="#000000" size="4" face="Times New Roma"><strong> to go: <img src="images/TCD2017.mws_283.gif" width="231" height="23" alt="gamma, `+`(`*`(2, `*`(gamma, `*`(p)))), `*`(`^`(p, 2)), `+`(`*`(2, `*`(gamma, `*`(`^`(p, 3))))), `*`(`^`(p, 4)), `+`(`*`(2, `*`(gamma, `*`(`^`(p, 5))))), `...`" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong> &nbsp;&nbsp;&nbsp;p := 5:
+<br>
+<br>bound := 6:
+<br>
+<br> &nbsp;for alpha to bound do
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GF||alpha := PI(p^alpha, 4, 1):
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ord||alpha := order(GF||alpha, p^alpha):
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>od: print(``); 
+<br>
+<br>print(array([
+<br>
+<br>['p', ``, 'alpha', ``, ``, 'p^alpha', ``, ``, '(({p^alpha-1}/4))[p]!', ORDER],
+<br> 
+<br>seq([p, ``, alpha, ``, ``, ifactor(p^alpha), ``, ``, GF||alpha, ifactor(ord||alpha)], 
+<br>
+<br>alpha = 1..bound)])): print(``); </td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_284.gif" width="315" height="223" alt="array( 1 .. 7, 1 .. 10, [( 3, 2 ) = (``), ( 5, 2 ) = (``), ( 4, 6 ) = (`*`(`^`(``(5), 3))), ( 7, 9 ) = (5744), ( 5, 3 ) = (4), ( 7, 4 ) = (``), ( 5, 9 ) = (119), ( 5, 10 ) = (`*`(``(2), `*`(`^`(``(5),..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+<td width='5%' align='center'>(9.2.1.1)</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>gamma, 2*gamma*p, gamma*p^2, 2*gamma*p^3, `...`;</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_285.gif" width="128" height="23" alt="gamma, `+`(`*`(2, `*`(gamma, `*`(p)))), `*`(gamma, `*`(`^`(p, 2))), `+`(`*`(2, `*`(gamma, `*`(`^`(p, 3))))), `...`" align="center" border="0"></td>
+<td width='5%' align='center'>(9.2.1.2)</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</dl>
+
+</html>

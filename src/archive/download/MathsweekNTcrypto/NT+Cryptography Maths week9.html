@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>NT+Cryptography Maths week.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark9">
+<p align=left>
+<b><font color=#000080 size=5>Converting text to number and number to text</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Doing cryptography, we will</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<i><b><font color=#000080 size=4>convert</font></b></i>
+<b><font color=#000080 size=4> text into numerical form according to an agreed convention</font></b>
+</li>
+<li>
+<i><b><font color=#000080 size=4>disguise</font></b></i>
+<b><font color=#000080 size=4> (encrypt) the resulting number</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>the recipient will </font></b>
+<i><b><font color=#000080 size=4>recover</font></b></i>
+<b><font color=#000080 size=4> (decrypt) the original number</font></b>
+</li>
+<li>
+<i><b><font color=#000080 size=4>convert</font></b></i>
+<b><font color=#000080 size=4> that number into the </font></b>
+<i><b><font color=#000080 size=4>original</font></b></i>
+<b><font color=#000080 size=4> text</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A convention</font></b>
+<b><font color=#000080 size=4> concerning ordering </font></b>
+<b><font color=#000080 size=4>alphabetic and other symbols</font></b>
+<b><font color=#000080 size=4>. We allow all 94 symbols (apart from the use of ' ` ', the backward quotes symbol within a text: here, in Maple, there are reasons for that </font></b>
+<i><b><font color=#000080 size=4>sole</font></b></i>
+<b><font color=#000080 size=4> exclusion) on the keyboard [a, b, c, ... , z, A, B, C, ... Z, ``, 1, 2, 3, ... , 9, 0, -, =, ~, ... , (, ), _, +, ):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>`crypt/alphabet` := <br>
+   `abcdefghijklmnopqrstuvwxyz`<br>
+   ||`ABCDEFGHIJKLMNOPQRSTUVWXYZ`<br>
+   ||`0123456789-=~!@#$£%^&amp;*()_+`<br>
+   ||` ,./&lt;&gt;?;':"[]{}|`:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The function of the following </font></b>
+<i><b><font color=#000080 size=4>to_number</font></b></i>
+<b><font color=#000080 size=4> 'procedure' is to convert a string of text into a number, according to the following conventions:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>' a ' will be 01, ' b ' will be 02, ... ' z ' will be 26</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>' A ' will be 27, ' B ' will be 28, ... , ' Z ' will be 52</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>' 0 ' will be 53, ' 1 ' will be 54, ... , ' 8 ' will be 61, ' 9 ' will be 62</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>' - ' will be 63, ' = ' will be 64, ... , ' _ ' will be 77, ' +'  will be 78 </font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>the empty space (for use between consecutive words) will be 79</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>' , ' will be 80, ' . ' will be 81, ... , ' } ' will be 93, and finally ` | ` will be 94):</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number := proc(st) local l, n, ss, k;  <br>
+l := length(st); n := 0;<br>
+for k to l do <br>
+ss := SearchText(substring(st, k..k), `crypt/alphabet`);<br>
+n := 100*n + ss; od; n; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Example (</font></b>
+<b><u><font color=#000080 size=4>Note</font></u></b>
+<b><font color=#000080 size=4> to anyone - with Maple - trying this: text </font></b>
+<i><b><font color=#000080 size=4>must</font></b></i>
+<b><font color=#000080 size=4> be included within </font></b>
+<i><b><font color=#000080 size=4>backward quotes</font></b></i>
+<b><font color=#000080 size=4>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(`Welcome to St Patrick's College, Drumcondra`);  </font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week267.gif" width=704 height=20 alt="490512031513057920157945207942012018090311871979291...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Finally, this recovers text from a number:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number := proc(n) local L, m, pow, bl, txt, k, r, ss;<br>
+m := n; L := [00, 95, 96, 97, 98, 99]: pow := length(m) - 1:<br>
+bl := floor(pow/2 + 1): txt := ``: <br>
+for k to bl do r := m mod 100;<br>
+if member(r, L) = false then<br>
+ss := substring(`crypt/alphabet`, r..r);<br>
+txt := cat(ss, txt); fi;<br>
+m := (m - r)/100; od; txt; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(102030405);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week268.gif" width=54 height=20 alt="abcde">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(0102030405);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week269.gif" width=54 height=20 alt="abcde">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(2728293031);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week270.gif" width=72 height=20 alt="ABCDE">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(53545556575859606162);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week271.gif" width=96 height=20 alt="`0123456789`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(4608051805790118057901207912050119207954567916051516120579012079132579200112117975230920087901790209207915067912210311667681);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week272.gif" width=406 height=20 alt="`There are at least 13 people at my talk (with a bi...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(32051813012087197987120920201205877920080515180513791920012005197920080120790906791679091979011425791618091305791421130205188079011404798701877909197901142579230815120579142113020518792008012079091979404146790409220919090212057902257916807920080514790172751663547679120501220519791805130109140405187954792308051479040922090405047902257916797509147919251302151219887901727516635476796479161379787954807906151879191513057923081512057914211302051879137681);</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week273.gif" width=936 height=20 alt="`Fermat's 'little' theorem states that if p is any ...">
+<br>
+<img src="images/NT+Cryptography Maths week274.gif" width=592 height=20 alt="`Fermat's 'little' theorem states that if p is any ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(3579081516057925152179011805790615121215230914077913151920791506792308012079358722057919010904791915790601188179301514872079231518182580790815230522051880790906792515217901180579141520790615121215230914077905220518252008091407867910211920792018257920157907052079200805790709192079150679230801207935790113792001121109140779010215212081794608057909131615182001142079130120200518790919792015792018257901140479180520010914791915130579751615191909021225792201072105767915220518011212790913161805191909151480790114047925152179030114791201200518790415231412150104791325790514200918057920011211790618151379200805794221021209037901140479412008051879380503202118051979031518140518791506791325792305027919092005807901140479180501047901121279150679200809197901207925152118791205091921180581);</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week275.gif" width=928 height=20 alt="`I hope you are following most of what I've said so...">
+<br>
+<img src="images/NT+Cryptography Maths week276.gif" width=937 height=20 alt="`I hope you are following most of what I've said so...">
+<br>
+<img src="images/NT+Cryptography Maths week277.gif" width=719 height=20 alt="`I hope you are following most of what I've said so...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Now it's time to do some cryptography. </font></b>
+</p>
+</basefont>
+</body>
+</html>

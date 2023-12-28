@@ -1,0 +1,424 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark7">
+<p align=left>
+<b><font color=#000080 size=4>The </font></b>
+<i><b><font color=#000080 size=4>alpha question</font></b></i>
+<b><font color=#000080 size=4> became the </font></b>
+<i><b><font color=#000080 size=4>alpha conjecture</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The </font></b>
+<i><b><font color=#000080 size=4>alpha</font></b></i>
+<b><font color=#000080 size=4> question</font></b>
+<b><font color=#000080>. Let</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005107.gif" width=32 height=32 alt="q[1]" align=middle>
+<b><font color=#000080> be a prime (greater than 3, to </font></b>
+<i><b><font color=#000080>prevent</font></b></i>
+<b><font color=#000080> it from being 3) such that</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>(the ' -1' case) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005108.gif" width=121 height=50 alt="q[2] = 2^alpha*q[1]-1" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>and </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005109.gif" width=181 height=50 alt="p = 2^alpha.3*q[1]*q[2]+1" align=middle>
+<b><font color=#000080> are both prime, or </font></b>
+</li>
+<li>
+<b><font color=#000080>(the '+1' case)</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005110.gif" width=121 height=50 alt="q[2] = 2^alpha*q[1]+1" align=middle>
+<b><font color=#000080> and</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005111.gif" width=181 height=50 alt="p = 2^alpha.3*q[1]*q[2]+1" align=middle>
+<b><font color=#000080> are both prime</font></b>
+<b><font color=#000080 size=4> </font></b>
+</li>
+</ul>
+<p align=center>
+<b><font color=#000080>is it then true that</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005112.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>(mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)?</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(Private terminology</font></b>
+<b><font color=#000080>. I took to calling the other primes '</font></b>
+<i><b><font color=#000080>inexplicable</font></b></i>
+<b><font color=#000080>' for the time being. Other later examples, when I extended my searching were:  25117 - 1 = (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005113.gif" width=33 height=50 alt="2^2" align=middle>
+<b><font color=#000080>) (3) (7) (13) (23),  60919 - 1 = (2) (3) (11) (13) (71),</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>92401 - 1 = (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005114.gif" width=33 height=50 alt="2^4" align=middle>
+<b><font color=#000080>) (3) (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005115.gif" width=33 height=50 alt="5^2" align=middle>
+<b><font color=#000080>) (7) (11),  115827 - 1 =(</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005116.gif" width=33 height=50 alt="2^2" align=middle>
+<b><font color=#000080>) (3) (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005117.gif" width=33 height=50 alt="7^2" align=middle>
+<b><font color=#000080>) (197), </font></b>
+<i><b><font color=#000080>etc etc.</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>There were two first cases to examine, with unimportant order: </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005118.gif" width=56 height=32 alt="alpha = 1" align=middle>
+<b><font color=#000080> with '+1' or '-1'.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let's say we begin, as I did, with </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005119.gif" width=56 height=32 alt="alpha = 1" align=middle>
+<b><font color=#000080> and '-1': thus we are trying to find primes { </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> } made up as follows:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005120.gif" width=132 height=32 alt="p = 2.3*q[1]*q[2]+1" align=middle>
+<b><font color=#000080>, where </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005121.gif" width=56 height=32 alt="q[1], q[2]" align=middle>
+<b><font color=#000080> are primes with </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005122.gif" width=108 height=32 alt="q[2] = 2*q[1]-1" align=middle>
+<b><font color=#000080>, (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005123.gif" width=60 height=32 alt="3 &lt; q[1]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and are </font></b>
+<i><b><font color=#000080>hoping</font></b></i>
+<b><font color=#000080> that such primes satisfy:</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005124.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>(mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Such </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>'s are like this:</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005125.gif" width=186 height=32 alt="p = 2.3*q[1]*(2*q[1]-1)+1" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005126.gif" width=137 height=36 alt="12*q[1]^2-6*q[1]+1" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>which is, as I observed at the time, a quadratic whose discriminant is </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005127.gif" width=42 height=32 alt="-12" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here I show</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005128.gif" width=56 height=32 alt="alpha = 1" align=middle>
+<b><font color=#000080> and '-1' for forming some primes { </font></b>
+<i><b><font color=#000080>p </font></b></i>
+<b><font color=#000080>}. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I abbreviate 'alpha' to 'a' in the following to reduce the program lines in the following, in which:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>ithprime(k) is the ithprime, 'k' starting at 3 ("from 3"): 5, 7, 11, 13, 17, ...<br>
+So, that produces the candidates for </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005129.gif" width=32 height=32 alt="q[1]" align=middle>
+</li>
+<li>
+<b><font color=#000080>isprime(2^a*ithprime(k)+SIGN) produces the candidates 2^a*ithprime(k)+SIGN for </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005130.gif" width=32 height=32 alt="q[2]" align=middle>
+</li>
+<li>
+<b><font color=#000080>isprime(2^a*3*ithprime(k)*(2^a*ithprime(k)+SIGN)+1) produces the desired primes { </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> },<br>
+the 2^a*3*ithprime(k)*(2^a*ithprime(k)+SIGN)+1</font></b>
+</li>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 1: SIGN := -1: <br>
+count:= 0: for k from 3 to 100 do<br>
+if isprime(2^a*ithprime(k)+SIGN) and    isprime(2^a*3*ithprime(k)*(2^a*ithprime(k)+SIGN)+1)                     then count := count+1:<br>
+ q1[count] := ithprime(k):<br>
+ q2[count] := 2^a*q1[count]+SIGN:<br>
+  p[count] := 2^a*3*q1[count]*q2[count]+1:  <br>
+fi od;<br>
+array([[q[1], q[2], p], seq([q1[k], q2[k], p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005131.gif" width=166 height=267 alt="matrix([[q[1], q[2], p], [7, 13, 547], [19, 37, 421...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>At the time at which I tested the above, I had systematically tested for </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005132.gif" width=107 height=58 alt="((p-1)/3)! = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), for </font></b>
+<b><font color=#000080 size=4>all</font></b>
+<b><font color=#000080> primes up to the 30,000th (note to myself: all that is saved in a Maple worksheet that I had called '</font></b>
+<b><font color=#000080 size=4>Wilson play</font></b>
+<b><font color=#000080>.mws', the name of which gives an indication of my attitude up until then). The </font></b>
+<b><font color=#000080 size=4>largest</font></b>
+<b><font color=#000080> such prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> I had found at that stage had been 347821 (an 'inexplicable' prime,  </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005133.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080> being </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005134.gif" width=33 height=50 alt="2^2" align=middle>
+<b><font color=#000080>*3*5*11*17*31), and thus those three last </font></b>
+<b><font color=#000080 size=4>new</font></b>
+<b><font color=#000080> primes - </font></b>
+<b><font color=#000080 size=4>627919, 879667, and 2310019</font></b>
+<b><font color=#000080> - in the above table were </font></b>
+<b><font color=#000080 size=4>first tester candidates of my alpha observation</font></b>
+<b><font color=#000080>... (</font></b>
+<b><font color=#000080 size=4>heart beating...</font></b>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Well, I wouldn't be here talking to you if it hadn't turned out that:<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p1 := 627919: P[1,3](p1) mod p1; # didn't produce a '1'</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005135.gif" width=48 height=20 alt="1372">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>1372^3 mod p1; # but its cube did</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005136.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p2 := 879667: P[1,3](p2) mod p2;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005137.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p3 := 2310019: P[1,3](p3) mod p3;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005138.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The reader may imagine how I felt seeing those 1's...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 1: SIGN := -1: <br>
+count:= 0: for k from 501 to 1000 do<br>
+if isprime(2^a*ithprime(k)+SIGN) and    isprime(2^a*3*ithprime(k)*(2^a*ithprime(k)+SIGN)+1)                     then count := count+1:<br>
+ q1[count] := ithprime(k):<br>
+ q2[count] := 2^a*q1[count]+SIGN:<br>
+  p[count] := 2^a*3*q1[count]*q2[count]+1:  <br>
+fi od;<br>
+array([[q[1], q[2], p], seq([q1[k], q2[k], p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005139.gif" width=206 height=327 alt="matrix([[q[1], q[2], p], [3607, 7213, 156103747], [...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here I show</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005140.gif" width=56 height=32 alt="alpha = 1" align=middle>
+<b><font color=#000080> and '+1' for forming some primes { </font></b>
+<i><b><font color=#000080>p </font></b></i>
+<b><font color=#000080>}:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 1: SIGN := +1: <br>
+count:= 0: for k from 3 to 100 do<br>
+if isprime(2^a*ithprime(k)+SIGN) and    isprime(2^a*3*ithprime(k)*(2^a*ithprime(k)+SIGN)+1)                     then count := count+1:<br>
+ q1[count] := ithprime(k):<br>
+ q2[count] := 2^a*q1[count]+SIGN:<br>
+  p[count] := 2^a*3*q1[count]*q2[count]+1:  <br>
+fi od;<br>
+array([[q[1], q[2], p], seq([q1[k], q2[k], p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005141.gif" width=158 height=117 alt="matrix([[q[1], q[2], p], [5, 11, 331], [29, 59, 102...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I tested alpha up to 10 with both '-1' and '+1' choices, and checked if </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005142.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>(mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) held, </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> for all the produced primes { </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> }, but </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> because of </font></b>
+<b><font color=#000080 size=4>computation time constraints</font></b>
+<b><font color=#000080>: for example, the</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>prime 18711862657</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>(see below: </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005143.gif" width=56 height=32 alt="alpha = 7" align=middle>
+<b><font color=#000080 size=4>, </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005144.gif" width=76 height=32 alt="q[1] = 617" align=middle>
+<b><font color=#000080 size=4>, </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005145.gif" width=92 height=32 alt="q[2] = 78977" align=middle>
+<b><font color=#000080 size=4>)</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>took 80.5 hours to test on a 2.8GHz Pentium 4</font></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here I show</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005146.gif" width=56 height=32 alt="alpha = 7" align=middle>
+<b><font color=#000080> and '+1' for forming some primes { </font></b>
+<i><b><font color=#000080>p </font></b></i>
+<b><font color=#000080>}:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 7: SIGN := +1: <br>
+count:= 0: for k from 3 to 200 do<br>
+if isprime(2^a*ithprime(k)+SIGN) and    isprime(2^a*3*ithprime(k)*(2^a*ithprime(k)+SIGN)+1)                     then count := count+1:<br>
+ q1[count] := ithprime(k):<br>
+ q2[count] := 2^a*q1[count]+SIGN:<br>
+  p[count] := 2^a*3*q1[count]*q2[count]+1:  <br>
+fi od;<br>
+array([[q[1], q[2], p], seq([q1[k], q2[k], p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005147.gif" width=230 height=117 alt="matrix([[q[1], q[2], p], [149, 19073, 1091280769], ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Of course I knew I was onto something:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The </font></b>
+<i><b><font color=#000080 size=4>alpha</font></b></i>
+<b><font color=#000080 size=4> conjecture. </font></b>
+<b><font color=#000080>Let</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005148.gif" width=32 height=32 alt="q[1]" align=middle>
+<b><font color=#000080> be a prime (greater than 3, to </font></b>
+<i><b><font color=#000080>prevent</font></b></i>
+<b><font color=#000080> it from being 3) such that</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>(the ' -1' case) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005149.gif" width=121 height=50 alt="q[2] = 2^alpha*q[1]-1" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>and</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005150.gif" width=132 height=32 alt="p = 2.3*q[1]*q[2]+1" align=middle>
+<b><font color=#000080> are both prime, or </font></b>
+</li>
+<li>
+<b><font color=#000080>(the '+1' case) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005151.gif" width=121 height=50 alt="q[2] = 2^alpha*q[1]+1" align=middle>
+<b><font color=#000080> and</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005152.gif" width=132 height=32 alt="p = 2.3*q[1]*q[2]+1" align=middle>
+<b><font color=#000080> are both prime</font></b>
+<b><font color=#000080 size=4> </font></b>
+</li>
+</ul>
+<p align=center>
+<b><font color=#000080>then</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005153.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>(mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>But the problem then became: how can one </font></b>
+<i><b><font color=#000080>prove</font></b></i>
+<b><font color=#000080> this (</font></b>
+<i><b><font color=#000080>almost certainly tru</font></b></i>
+<b><font color=#000080>e) conjecture? That brings me to the next natural section:</font></b>
+</p>
+</basefont>
+</body>
+</html>

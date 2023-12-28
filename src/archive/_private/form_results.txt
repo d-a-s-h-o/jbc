@@ -1,0 +1,668 @@
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>John G</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>ttt@iol.ie</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>6/24/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>5:31:29 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.204.176</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.5 [en] (Win95; I)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Is this a surprise?</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>myself</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>johnbcos@iol.ie</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>7/18/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>12:18:04 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>194.125.2.129</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/2.0 (compatible; MSIE 3.02; AK; Windows 95)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>This is a test</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>J Graham Horton</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>the.horties@ virgin.net</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>7/24/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>1:29:39 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>194.168.253.14</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 4.01; Windows 98; VNIE4 3.1.814)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Love your website It's riveting Love to Mary</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>JC</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>johnbcos@iol.ie</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>7/24/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>2:10:05 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>194.125.2.129</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/2.0 (compatible; MSIE 3.02; AK; Windows 95)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Testing from the Contact us part of site</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Gerry McDonnell</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>geraldush@ireland.com</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>8/31/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>2:22:35 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>194.125.207.79</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 4.01; Windows NT)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Dear Dr. Cosgrave 
+
+<p> Belated congratulations on your discovery. 
+
+<p> The recent article in The Irish Times referred to a forthcoming lecture later this
+year. I would appreciate details of same as soon as they are available. 
+
+<p> Regards 
+
+<p> Gerry McDonnell</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Che' Graham</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>cxg@jps.net</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>9/11/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>6:57:04 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>208.235.93.90</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/3.0 (compatible; MSIE 3.01; Mac_PowerPC; Mac OS8)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Aug. 1969 Computers in Number Theory Conference photo identification: I was the child
+on Erdos' lap. (Probably my father already forwarded a message to you about this.) 
+
+<p> </p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Keith Matthews</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>krm@maths.uq.edu.au</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>9/13/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>11:55:59 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>130.102.2.60</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.61 [en] (X11; I; SunOS 5.7 sun4u)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Above photo: Back Row, 4th from left=Marvin Wunderlich 
+
+<p> Below Photo: 3rd row from front: 2nd from left=Peter Pleasants 2d row from back: 4th
+from left (short guy with glasses)=Bob Laxton Front Row, 5th from the left (with
+glasses)=Jane Pitman ~ </p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>john brillhart</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>jdb@math.arizona.edu</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Maple worksheet</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>10/6/99</dd>
+  <dt><b>Time: </b></dt>
+  <dd>9:29:06 AM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>208.2.167.117</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.51 [en] (Win98; I)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Ask Ron Graham is the child in Erdos' lap isn't his daughter. The person next to Harold
+Stark is Hans Riesel. You might contact him, because there a group of people in the
+picture from Sweden and Norway and he may know them. The man next to Horst Zimmer is
+Marvin Wunderlich. </p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd></dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd></dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Maple worksheet</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>1/11/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>3:56:06 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.1.19</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.5 [en] (Win95; I)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p></p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd></dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd></dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Maple worksheet</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>1/11/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>3:56:35 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.1.19</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.5 [en] (Win95; I)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>testing</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd></dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd></dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Maple worksheet</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>1/11/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>3:57:13 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.1.19</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.5 [en] (Win95; I)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>no name or e-mail given</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>David Joyner</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>wdj@usna.edu</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>1/24/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>6:05:02 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>131.122.76.52</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.7 [en] (X11; I; Linux 2.2.12 i686)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>John: As I was xeroxing one of your maple worksheets as assigned reading for one of my
+classes, something you told me some time ago over the phone and and by email finally
+dawned on me. You had mentioned how upset you were about maple's lack of diplomacy. It
+didn't occur to me that perhaps you wanted your maple worksheets which you allowed me to
+put on my crypto page to be taken down. It would be a shame for my students and for others
+as well, but if that is what you want I will do so. And sorry it took me so long to make
+the connection. Students here readdy like the topic and your discussion cannot be beat,
+IMHO, so I would prefer to leave them up if it is okay with you. - David </p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>bruce scott</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>bruce_scott@plugpower.com</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Courses</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>1/28/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>2:23:24 AM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>152.163.207.64</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 5.0; AOL 5.0; Windows 98; DigExt)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>want to purchase maple software for calculus 1</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Olivier Craig Dupont</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>craigharou@hotmail.com</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Nilhil Banerjee</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>2/2/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>9:28:54 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>205.236.35.10</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/3.01Gold [fr] (Win16; I)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>Thank you for the beautiful pictures of the Artist. 
+
+<p> That's all! 
+
+<p> Oh! The K is missing in Nikhil in &quot;choose a subject&quot;. 
+
+<p> Good day, 
+
+<p> A fan.</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>bbbbb</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>a@iol.ie</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>2/21/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>2:16:10 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.1.19</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>testing to see</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Dr. David Dowsett</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>medphys@indigo.ie</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Maple worksheet</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>2/22/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>1:26:34 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>194.125.133.245</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>May I (as a humble poor physicist) congratulate you on (a) your magnificent important
+work and (b) a damn good web page - so many are irritatingly unhelpful. I am at the moment
+trying to write out your prime number using IBM's technique of writing with atoms using a
+tunnel electron principle. It will save all that infinite universe of paper (forest size!)</p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Barry Wolahan</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>only1barry@eircom.net</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>2/26/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>2:19:05 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>159.134.228.207</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 5.0; Windows 95; DigExt)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p>You don't know me but I was at your open lecture in St. Patrick's College. My name is
+Barry Wolahan, and I am 17. I am very interested in mathematics and I was just wondering
+if there is a site or place where people with an interest in maths or science. I am at
+present supposed to be studying for my Leaving Certificate, and I had some ideas and when
+I asked my maths teacher and my applied maths teacher. Although very friendly there were
+not able to be of much use since very little of my ideas were in relation to the L.C. Not
+being exactly at the fore-front of mathematical developments or being anywhere near
+informed enough to complete my ideas solo! Chances are they are vey basic and of no true
+relevance, but I would like to get your opinion on them if you don't mind. Please reply if
+this is possible or if you can lead my in the right direction. Thank you </p>
+
+<hr>
+
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd></dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd></dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Nilhil Banerjee</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>3/19/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>8:00:02 PM</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>62.104.218.81</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)</dd>
+</dl>
+
+<h3>Comments</h3>
+
+<p></p>
+<hr>
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>moi</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>John.Cosgrave@spd.ie</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>27/03/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>14:20:42</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.1.19</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)</dd>
+</dl>
+<h3>Comments</h3>
+<p>just testing to see if this works</p>
+<hr>
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Sheema Mukherjee</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>Sheema@Mukherjee.co.uk</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Nilhil Banerjee</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>27/04/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>20:30:55</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>195.147.246.147</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)</dd>
+</dl>
+<h3>Comments</h3>
+<p>Hi John,
+I hope you, Mary, Catherine and Marie are well - it's a very long time since we've 
+had contact, the girls must be working etc. by now.  I really loved the website, Mum 
+and Dad have got a print of it and they both say 'thank you' and send their regards.  
+I am in the process of designing my own website, I am now playing sitar full time and 
+will be using it as a promotional tool.  Naturally I will be talking about Nikhil Mama 
+and I was wondering if it would be OK to mention or make a link to your website.
+I have just come back off tour from India and South Africa and will also be going to 
+play as part of the entertainment for the Olympics in Sydney - a real honour.  
+I am very glad you still remember Nikhil Mama as we do, I hope to here from you soon, 
+love and best wishes, Sheema.</p>
+<hr>
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>Clair Donegan</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd>clairdonegan@hotmail.com</dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Other</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>22/05/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>15:09:58</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.1.19</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.07 [en] (Win95; I ;Nav)</dd>
+</dl>
+<h3>Comments</h3>
+<p>Monday, 22/05/00
+John,
+I know you're very busy at the moment but I was wondering if you could
+be a referee for me? I am applying to London for the equivalent of the
+H.Dip in mathematics. I would really appreciate it.
+Will you be around during the week so that I could pop in to see you?
+<p>
+Clair Donegan</p>
+<hr>
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd></dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd></dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Exams</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>24/06/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>08:16:40</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>212.108.178.137</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.61 [en] (X11; I; Linux 2.2.10 i586)</dd>
+</dl>
+<h3>Comments</h3>
+<p></p>
+<hr>
+<dl>
+  <dt><b>Usersname: </b></dt>
+  <dd>olivia</dd>
+  <dt><b>emailaddress: </b></dt>
+  <dd></dd>
+  <dt><b>Subject: </b></dt>
+  <dd>Maple worksheet</dd>
+  <dt><b>B1: </b></dt>
+  <dd>Click here to send form</dd>
+  <dt><b>Date: </b></dt>
+  <dd>30/06/00</dd>
+  <dt><b>Time: </b></dt>
+  <dd>11:50:58</dd>
+  <dt><b>Remote Name: </b></dt>
+  <dd>136.206.206.11</dd>
+  <dt><b>Remote User: </b></dt>
+  <dd></dd>
+  <dt><b>HTTP User Agent: </b></dt>
+  <dd>Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)</dd>
+</dl>
+<h3>Comments</h3>
+<p>Hello, I am just seeing if this works
+best wishes Olivia</p>
+<!--webbot BOT="FormInsertHere"
+DESCR="The FrontPage FormInsertHere Component indicates the point in an HTML file where you want a default, Registration, or Discussion Component to insert new results."
+-->

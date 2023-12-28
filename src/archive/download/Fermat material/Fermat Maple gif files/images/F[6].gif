@@ -1,0 +1,8 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {XPPEDIT 18 0 "2^(2^5)+1;" "6#,&)\"\"#*
+$\"\"#\"\"&\"\"\"\"\"\"F)" }}}}{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 }

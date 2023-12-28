@@ -1,0 +1,44 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 
+0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 
+3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 
+-1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 
+}{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 \+
+Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 0 1 2 2 2 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# exp_cong.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 24 "Exponential congruences." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "Not only \+
+can Maple can solve polynomial congruences:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "msolve(2*x*3 - x^2 + x + \+
+2 = 0, 7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$<#/%\"xG\"\"$<#/F%\"\"%
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "but it can also solv
+e exponential congruences:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 25 "msolve(3*2^n + 1 = 0, 7);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#<#/%\"nG,&\"\"\"F'%&_NN1|irG\"\"$" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "msolve(78557*2^n + 1 = 0, 3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#<#/%\"nG,$%&_NN1|irG\"\"#" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "msolve(78557*2^n + 1 = 0, 5);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#<#/%\"nG,&\"\"\"F'%&_NN1|irG\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "msolve(78557*2^n + 1 = 0, 7)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#/%\"nG,&\"\"\"F'%&_NN1|irG\"\"$
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "msolve(78557*2^n + 1 = \+
+0, 11);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#/%\"nG,&\"\"'\"\"\"%&_NN1
+|irG\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "msolve(78557*2^
+n + 1 = 0, 13);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#/%\"nG,&\"#6\"\"
+\"%&_NN1|irG\"#7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "msolve(
+78557*2^n + 1 = 0, 17);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "
+msolve(78557*2^n + 1 = 0, 19);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<#/%
+\"nG,&\"#:\"\"\"%&_NN1|irG\"#=" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 30 "msolve(78557*2^n + 1 = 0, 37);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#<#/%\"nG,&\"#F\"\"\"%&_NN1|irG\"#O" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "msolve(78557*2^n + 1 = 0, 73);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#<#/%\"nG,&\"\"$\"\"\"%&_NN1|irG\"\"*" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "13 0 0" 0 }{VIEWOPTS 1 1 0 1 
+1 1803 }

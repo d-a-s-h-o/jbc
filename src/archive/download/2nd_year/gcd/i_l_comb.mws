@@ -1,0 +1,276 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 273 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 274 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 286 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 305 "" 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+306 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+314 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+318 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+326 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+330 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 333 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+334 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+338 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 341 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 353 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+354 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 356 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+358 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 361 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+362 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 365 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+366 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+370 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 372 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 373 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+374 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 
+1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 
+1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" 
+-1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 128 1 2 1 2 0 0 0 0 0 
+0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 3 258 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# i_l_comb.mws" }}}
+{EXCHG {PARA 258 "" 0 "" {TEXT -1 15 "Expressing the " }{TEXT 331 3 "g
+cd" }{TEXT -1 23 " of two integers as an\n" }{TEXT 332 27 "integral li
+near combination" }{TEXT -1 18 " of those integers" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "This worksheet (w
+hich assumes familiarity with gcd.mws) " }{TEXT 339 8 "is about" }
+{TEXT -1 68 " showing how one can write one's own Maple procedure for \+
+expressing " }}{PARA 0 "" 0 "" {TEXT -1 50 "the greatest common diviso
+r of two integers as an " }{TEXT 333 15 "integral linear" }{TEXT 363 
+1 " " }{TEXT 338 11 "combination" }{TEXT -1 19 " of those integers." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "Let us r
+emind ourselves of the:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }{TEXT 341 10 "Definition" }{TEXT -1 7 ".  Let " }
+{TEXT 342 4 "a, b" }{TEXT -1 5 " and " }{TEXT 343 1 "c" }{TEXT -1 19 "
+ be integers, then " }{TEXT 344 1 "c" }{TEXT -1 18 " is said to be an \+
+" }{TEXT 362 27 "integral linear combination" }{TEXT -1 4 " of " }
+{TEXT 345 1 "a" }{TEXT -1 5 " and " }{TEXT 346 1 "b" }{TEXT -1 4 " if \+
+" }{TEXT 347 2 "c " }{TEXT -1 2 "= " }{TEXT 348 7 "ax + by" }{TEXT -1 
+20 ", for some integers " }{TEXT 349 1 "x" }{TEXT -1 5 " and " }{TEXT 
+350 1 "y" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 11 "and of the " }{TEXT 364 18 "fundamental result" }
+{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 351 7 "Theorem" }{TEXT -1 7 ".  Let " }{TEXT 258 
+1 "a" }{TEXT -1 4 " and" }{TEXT 352 2 " b" }{TEXT -1 22 " be integers,
+ and let " }{TEXT 354 1 "d" }{TEXT -1 39 " be their greatest common di
+visor;then " }{TEXT 353 1 "d" }{TEXT -1 55 " can be expressed as an in
+tegral linear combination of " }{TEXT 263 1 "a" }{TEXT -1 5 " and " }
+{TEXT 262 1 "b" }{TEXT -1 13 ". [That is,  " }{TEXT 256 2 "d " }{TEXT 
+-1 2 "= " }{TEXT 257 7 "ax + by" }{TEXT -1 20 ", for some integers " }
+{TEXT 258 1 "x" }{TEXT -1 5 " and " }{TEXT 259 1 "y" }{TEXT -1 2 ".]" 
+}}{PARA 0 "" 0 "" {TEXT -1 74 "                                       \+
+              _____________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 62 "The method for doing this (expressing) -
+ which first uses the " }{TEXT 334 21 "Euclidean algorithm, " }{TEXT 
+-1 22 "and then puts it into " }{TEXT 335 7 "reverse" }{TEXT -1 19 " -
+ is known as the " }{TEXT 336 8 "extended" }{TEXT 337 20 " Euclidean a
+lgorithm" }{TEXT -1 38 ", and let us remind ourselves with an:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+264 7 "Example" }{TEXT -1 102 ".  Let's find the gcd of 186 and 162, a
+nd express it as an integral linear combination of 186 and 162." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+265 49 "Solution [by hand, and then we write a procedure]" }{TEXT -1 
+6 ".  We " }{TEXT 355 5 "first" }{TEXT -1 9 " use the " }{TEXT 266 21 
+"Euclidean algorithm, " }{TEXT -1 31 "which - as you know - utilises \+
+" }{TEXT 274 20 "repeated application" }{TEXT -1 1 " " }}{PARA 0 "" 0 
+"" {TEXT -1 7 "of the " }{TEXT 275 6 "simple" }{TEXT -1 6 ", but " }
+{TEXT 276 11 "fundamental" }{TEXT -1 13 " result:  if " }{TEXT 277 1 "
+a" }{TEXT -1 2 ", " }{TEXT 278 1 "b" }{TEXT -1 0 "" }{TEXT 279 0 "" }
+{TEXT -1 2 ", " }{TEXT 280 1 "q" }{TEXT -1 5 " and " }{TEXT 281 1 "r" 
+}{TEXT -1 24 " are integers such that " }{TEXT 282 1 "a" }{TEXT -1 3 "
+ = " }{TEXT 283 1 "b" }{TEXT -1 1 "*" }{TEXT 284 1 "q" }{TEXT -1 3 " +
+ " }{TEXT 285 1 "r" }{TEXT 286 0 "" }{TEXT -1 11 ", then gcd(" }{TEXT 
+287 1 "a" }{TEXT -1 2 ", " }{TEXT 288 1 "b" }{TEXT -1 8 ") = gcd(" }
+{TEXT 289 1 "b" }{TEXT -1 2 ", " }{TEXT 290 1 "r" }{TEXT -1 1 ")" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "So, our s
+tarting values for " }{TEXT 291 1 "a" }{TEXT -1 5 " and " }{TEXT 292 
+1 "b" }{TEXT -1 103 " are 186 and 162, and we perform the following su
+ccessive divisions (all of which are familiar to you):" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{TEXT 361 3 "
+186" }{TEXT -1 2 " (" }{TEXT 298 7 "initial" }{TEXT -1 1 " " }{TEXT 
+300 1 "a" }{TEXT -1 6 ")  =  " }{TEXT 268 3 "162" }{TEXT -1 0 "" }
+{TEXT 299 0 "" }{TEXT -1 2 " (" }{TEXT 316 0 "" }{TEXT -1 0 "" }{TEXT 
+315 0 "" }{TEXT -1 0 "" }{TEXT 314 7 "initial" }{TEXT -1 1 " " }{TEXT 
+317 1 "b" }{TEXT -1 6 ")*1 + " }{TEXT 293 2 "24" }{TEXT -1 7 " (with \+
+" }{TEXT 294 8 "non-zero" }{TEXT -1 11 " remainder " }{TEXT 307 1 "r" 
+}{TEXT -1 2 ")," }{TEXT 260 0 "" }{TEXT -1 0 "" }{TEXT 261 0 "" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "     162 (" }{TEXT 295 3 
+"new" }{TEXT -1 1 " " }{TEXT 301 1 "a" }{TEXT -1 3 " = " }{TEXT 296 8 
+"previous" }{TEXT -1 1 " " }{TEXT 297 1 "b" }{TEXT -1 6 ")  =  " }
+{TEXT 269 2 "24" }{TEXT -1 6 " (new " }{TEXT 303 1 "b" }{TEXT -1 3 " =
+ " }{TEXT 302 8 "previous" }{TEXT -1 1 " " }{TEXT 304 1 "r" }{TEXT -1 
+6 ")*6 + " }{TEXT 306 2 "18" }{TEXT -1 12 " (non-zero)," }{TEXT 305 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 6 "      " }{TEXT 267 2 "24" }{TEXT -1 
+6 " (new " }{TEXT 259 1 "a" }{TEXT -1 3 " = " }{TEXT 308 8 "previous" 
+}{TEXT -1 1 " " }{TEXT 258 1 "b" }{TEXT -1 7 ")   =  " }{TEXT 271 2 "1
+8" }{TEXT -1 7 " ( new " }{TEXT 258 1 "b" }{TEXT -1 3 " = " }{TEXT 
+257 8 "previous" }{TEXT -1 1 " " }{TEXT 259 1 "r" }{TEXT -1 6 ")*1 + \+
+" }{TEXT 272 1 "6" }{TEXT -1 11 " (non-zero)" }}{PARA 0 "" 0 "" {TEXT 
+-1 6 "      " }{TEXT 270 2 "18" }{TEXT -1 6 " (new " }{TEXT 258 1 "a" 
+}{TEXT -1 3 " = " }{TEXT 309 8 "previous" }{TEXT -1 1 " " }{TEXT 257 
+1 "b" }{TEXT -1 6 ")  =  " }{TEXT 273 1 "6" }{TEXT -1 5 "*3 + " }
+{TEXT 310 1 "0" }{TEXT -1 2 " (" }{TEXT 311 7 "finally" }{TEXT -1 19 "
+ producing the gcd)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 356 3 "Now" }{TEXT -1 135 " we reverse those calculations to e
+xpress '6' as an integral linear combination of '186' and '162'.  Thos
+e steps are well known to you:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 14 "              " }{TEXT 318 1 "6" }{TEXT 
+-1 5 "  =  " }{TEXT 319 2 "24" }{TEXT -1 7 "  -  1*" }{TEXT 320 2 "18
+" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "                  =  \+
+" }{TEXT 321 2 "24" }{TEXT -1 8 "  -  1*(" }{TEXT 322 3 "162" }{TEXT 
+-1 6 "  - 6*" }{TEXT 323 2 "24" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" 
+{TEXT -1 22 "                  = 7*" }{TEXT 324 2 "24" }{TEXT -1 6 "  \+
+- 1*" }{TEXT 325 3 "162" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 
+"                  = 7*(" }{TEXT 326 3 "186" }{TEXT -1 6 "  - 1*" }
+{TEXT 327 3 "162" }{TEXT -1 8 ")  -  1*" }{TEXT 328 3 "162" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "                  = 7*" }{TEXT 
+329 3 "186" }{TEXT -1 7 "  -  8*" }{TEXT 330 3 "162" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+312 8 "Question" }{TEXT -1 61 ".  How does one make a programme to do \+
+all that for oneself ?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }{TEXT 313 6 "Answer" }{TEXT -1 64 ".  We remind ou
+rselves of one of our procedures for calculating " }{TEXT 340 3 "gcd" 
+}{TEXT -1 64 ", and make that the basis for a procedure which finds va
+lues for" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 357 1 "x" }{TEXT -1 
+5 " and " }{TEXT 358 1 "y" }{TEXT -1 43 " in the above Theorem, for gi
+ven values of " }{TEXT 359 1 "a" }{TEXT -1 5 " and " }{TEXT 360 1 "b" 
+}{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 467 "find_gcd := proc(a, b)   \nlocal A, B, q, r, \+
+k, n, K, X, Y;\nA[1] := a;\nB[1] := b;\nq[1] := iquo(A[1], B[1]);\nr[1
+] := A[1] mod B[1];\nif r[1] = 0 then \nlprint(`The gcd of`, a, `and`,
+ b, `is`, b);\nRETURN();   \nelse for k from 2 while r[k-1] <> 0 do\nA
+[k] := B[k-1];\nB[k] := r[k-1];\nq[k] := iquo(A[k], B[k]);\nr[k] := A[
+k] mod B[k];\nod;\nfi;\nn := k-2;\nseq(lprint(A[K],`= (`, B[K],`*`, q[
+K],`) +`, r[K]), K = 1..n+1);\nlprint(`\n        the gcd of`, a, `and`
+, b,`is`, r[n]);\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 569 "ilc := proc(a, b)   \nlo
+cal A, B, q, r, k, n, K, X, Y;\nA[1] := a;\nB[1] := b;\nq[1] := iquo(A
+[1], B[1]);\nr[1] := A[1] mod B[1];\nif r[1] = 0 then \nlprint(`The gc
+d of`, a, `and`, b,`has a trivial representation\nas an integral linea
+r combination of`, a, `and`, b);\nRETURN();   \nelse for k from 2 whil
+e r[k-1] <> 0 do\nA[k] := B[k-1];\nB[k] := r[k-1];\nq[k] := iquo(A[k],
+ B[k]);\nr[k] := A[k] mod B[k];\nod;\nfi;\nn := k-2;  \nX[n] := 1;\nY[
+n] := -q[n];\nfor K from n by -1 to 2 do\nX[K-1] := Y[K]:\nY[K-1] := X
+[K] - q[K-1]*Y[K];\nod;\nprint(X[1]);\nprint(Y[1]);\nprint(X[1]*a + Y[
+1]*b);\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 8 "Now for " }{TEXT 365 13 "some examples" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 366 5 "First" }{TEXT -1 49 ", a simple example, where the gcd is
+ found on the" }}{PARA 0 "" 0 "" {TEXT -1 59 "first division: the gcd \+
+of 24 and 12. 12 divides 12 and 24," }}{PARA 0 "" 0 "" {TEXT -1 48 "an
+d so - trivially - 12 is the gcd of 24 and 12." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "find_gcd(24
+, 12);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "ilc(24, 12);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 367 4 "Next" }{TEXT -1 107 ", a simple example, where the gcd is
+ not found immediately, but quickly nevertheless: the gcd of 12 and 30
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "find_gcd(30, 12);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "ilc(30, 12);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "One should know what tho
+se outputs - the '1', '-2' and '6' - " }{TEXT 368 4 "mean" }{TEXT -1 
+17 ". They mean that " }{TEXT 369 1 "1" }{TEXT -1 7 "*30 + (" }{TEXT 
+370 2 "-2" }{TEXT -1 7 ")*12 = " }{TEXT 371 1 "6" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 "And now f
+or " }{TEXT 372 19 "a few more examples" }{TEXT -1 1 ":" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "find_gcd(304, 128);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "ilc(304, 128);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "find_gcd(3048, 1285);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "ilc(3048, 1285);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 567 "ILC := proc(a, b)   \nloca
+l A, B, q, r, k, n, K, X, Y;\nA[1] := a;\nB[1] := b;\nq[1] := iquo(A[1
+], B[1]);\nr[1] := A[1] mod B[1];\nif r[1] = 0 then \nlprint(`The gcd \+
+of`, a, `and`, b,`has a trivial representation\nas an integral linear \+
+combination of`, a, `and`, b);\nRETURN();   \nelse for k from 2 while \+
+r[k-1] <> 0 do\nA[k] := B[k-1];\nB[k] := r[k-1];\nq[k] := iquo(A[k], B
+[k]);\nr[k] := A[k] mod B[k];\nod;\nfi;\nn := k-2;  \nX[1] := 1;\nY[1]
+ := -q[n];\nfor K from 2 to n do\nX[K] := Y[K-1]:\nY[K] := X[K-1] - q[
+n-K+1]*Y[K-1];\nod;\nprint(X[n]);\nprint(Y[n]);\nprint(X[n]*a + Y[n]*b
+);\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "ILC(24, 12);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "ilc(30, 12);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "ILC(30, 12);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "ilc(3048, 1285);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "I
+LC(3048, 1285);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 55 "And finally, just to compare the a
+bove procedures with " }{TEXT 374 5 "Maple" }{TEXT -1 7 "'s own " }
+{TEXT 373 6 "igcdex" }{TEXT -1 9 " command:" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 48 "igcdex(12345675438273635241, 71092171005, x, y);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "x;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 2 "y;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+39 "ilc(12345675438273635241, 71092171005);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 39 "ILC(12345675438273635241, 71092171005);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "37" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 }

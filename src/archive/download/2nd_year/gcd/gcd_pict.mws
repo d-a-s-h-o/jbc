@@ -1,0 +1,57 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 0 1 0 0 0 0 0 0 0 }0 0 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 
+-1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 3 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# gcd_pict.mws" }}}
+{EXCHG {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 256 4 "gcd " }{TEXT -1 
+8 "pictures" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 93 "This worksheet is about plotting - in the form of crossword-typ
+e pictures - the behaviour of " }{XPPEDIT 18 0 "gcd(i,j);" "6#-%$gcdG6
+$%\"iG%\"jG" }{TEXT 257 0 "" }{TEXT -1 6 ", as '" }{TEXT 263 1 "i" }
+{TEXT -1 7 "' and '" }{TEXT 264 1 "j" }{TEXT -1 33 "' vary between 1 a
+nd some given '" }{TEXT 262 1 "n" }{TEXT -1 2 "'." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "In essence it is about " 
+}{TEXT 258 33 "illustrating answers the question" }{TEXT -1 78 ":  wha
+t is the probability (chance) of two integers being 'relatively prime'
+ (" }{TEXT 259 1 "i" }{TEXT -1 1 "." }{TEXT 260 1 "e" }{TEXT -1 9 ". h
+aving " }{TEXT 261 3 "gcd" }{TEXT -1 13 " equal to 1)?" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "seq([i+j], i=1..3);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "seq(seq([i+j], i=1..3), j=1..3);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "seq(seq([[i,j], [i-1,j], [
+i-1,j-1], [i,j-1]], i=1..2),j=1..2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 91 "seq(seq(POLYGONS([[i,j], [i-1,j], [i-1,j-1], [i,j-1]]
+, COLOUR(RGB,1,0,0)), i=1..2),j=1..2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 99 "PLOT(seq(seq(POLYGONS([[i,j], [i-1,j], [i-1,j-1], [i,
+j-1]], COLOUR(RGB,1,0,0)), i=1..20),j=1..20));" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 129 "PLOT(seq(seq(POLYGONS([[i,j], [i-1,j], [i-1,j
+-1], [i,j-1]], COLOUR(RGB,igcd(i,j)-1,igcd(i,j)-1,igcd(i,j)-1)), i=1..
+21),j=1..21));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "colour1 :
+= proc(i, j)\nif igcd(i, j) = 1 then 1\nelse 0\nfi\nend;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "colour2 := proc(i, j)\nif igcd(i, j
+) = 1 then 0\nelse 1\nfi\nend;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "colour1(15, 19);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"colour2(15, 19);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 121 "PLOT(
+seq(seq(POLYGONS([[i,j], [i-1,j], [i-1,j-1], [i,j-1]], COLOUR(RGB,colo
+ur1(i,j),colour2(i,j),0)), i=1..21),j=1..21));" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 127 "It is
+ easy to animate a sequence of such pictures (though wasteful, and so \+
+I have placed the comment sign before the commands):" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 43 "# with(plots):   # for use of 'display' i
+n:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 157 "# for k to 4 do\n# p
+.k := PLOT(seq(seq(POLYGONS([[i,j], [i-1,j], [i-1,j-1], [i,j-1]], # CO
+LOUR(RGB,colour1(i,j),colour2(i,j),0)), i=1..10*k),j=1..10*k))\n# od:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "# display([p.(1..4)], i
+nsequence=true);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "19" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

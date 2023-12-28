@@ -1,0 +1,58 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 
+0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output
+" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 14 128 0 0 1 2 1 2 2 2 1 2 1 3 
+1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 3 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "He
+lvetica" 1 12 128 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 
+128 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "H
+eading 1" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 128 1 2 1 2 2 2 
+2 1 1 1 1 }3 1 0 0 8 4 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "# see_gcd_steps.mws
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 492 "see_gcd_steps := proc(
+A, B)\nlocal a, b, r, k, K;\na[1] := A: b[1] := B: r[1] := a[1] mod b[
+1]:\nif r[1] = 0 then \nlprint( `the greatest common divisor of `, A, \+
+`and `, B,`is`, b[1])\nelse for k from 2 while r[k-1] <> 0 do\na[k] :=
+ b[k-1]: b[k] := r[k-1]: r[k] := a[k] mod b[k]:\nod;\nprint(array([[a,
+ `divided by b` , `goes q times`, `leaves remainder r`],\n   seq([a[K]
+, b[K], iquo(a[K], b[K]), r[K]], K = 1..k-1) ]));\nlprint(`The greates
+t common divisor of `, A, `and `, B,`is`, r[k-2]);\nfi; \nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "see_gcd_steps(28, 18);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7'7&%\"aG%-divided~by~bG%-
+goes~q~timesG%3leaves~remainder~rG7&\"#G\"#=\"\"\"\"#57&F.F0F/\"\")7&F
+0F2F/\"\"#7&F2F4\"\"%\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 56 "`The greate
+st common divisor of `, 28, `and `, 18, is, 2" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 22 "see_gcd_steps(28, 14);" }}{PARA 6 "" 1 "" {TEXT 
+-1 57 "`the greatest common divisor of `, 28, `and `, 14, is, 14" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "see_gcd_steps(rand()^2, 18!)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7I7&%\"aG%-divided~by
+~bG%-goes~q~timesG%3leaves~remainder~rG7&\"9hXQZ:J<Nd(o#=\"1+!GdqtBS'
+\")]V`G\"1hXe!zrsO\"7&F.F0\"\"%\"0c(*QVlGL*7&F0F3\"\"\"\"00[>Z_)RV7&F3
+F6\"\"#\"/Y,+\\gJl7&F6F9\"\"'\"/HR>`*)3U7&F9F<F5\"/<i!e4FK#7&F<F>F5\"/
+7xQd=')=7&F>F@F5\".0&=%Q_O%7&F@FBF2\".#p8P!4S\"7&FBFD\"\"$\"-HuFFD;7&F
+DFG\"\")\"-gU\\&o+\"7&FGFJF5\",pJyT='7&FJFLF5\",\"46P%)Q7&FLFNF5\",y?2
+)*H#7&FNFPF5\",8!Rc%e\"7&FPFRF5\"+lIV_r7&FRFTF8\"+$)GxS:7&FTFVF2\"*L:M
+*)*7&FVFXF5\"*]8V^&7&FXFZF5\"*$=5zV7&FZFfnF5\"*n6_8\"7&FfnFhnFF\")#oYt
+*7&FhnFjnF5\")&[uh\"7&FjnF\\oF;\"'s(*H7&F\\oF^o\"#`\"'plG7&F^oFaoF5\"&
+.K\"7&FaoFco\"#@\"%1$*7&FcoFfoF5\"%(*Q7&FfoFhoF8\"%7:7&FhoFjoF8\"$t)7&
+FjoF\\pF5\"$R'7&F\\pF^pF5\"$M#7&F^pF`pF8\"$r\"7&F`pFbpF5\"#j7&FbpFdpF8
+\"#X7&FdpFfpF5\"#=7&FfpFhpF8\"\"*7&FhpFjpF8\"\"!" }}{PARA 6 "" 1 "" 
+{TEXT -1 92 "`The greatest common divisor of `, 1826875735173115473845
+61, `and `, 6402373705728000, is, 9" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "see_gcd_steps(rand(), rand());" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'matrixG6#7<7&%\"aG%-divided~by~bG%-goes~q~timesG%3le
+aves~remainder~rG7&\"-qKp56K\"-(ptIjV$\"\"!F-7&F.F-\"\"\"\",F/QAD#7&F-
+F2\"#9\"+#Hntz&7&F2F5\"\"$\"+^&y-8&7&F5F8F1\"*T()3n'7&F8F:\"\"(\"*ktlg
+%7&F:F=F1\"*x8V1#7&F=F?\"\"#\")5YzZ7&F?FB\"\"%\")PHD:7&FBFEF7\"(*zN?7&
+FEFGF<\"(WB+\"7&FGFIFA\"&66$7&FIFK\"#K\"%#z'7&FKFNFD\"%VR7&FNFPF1\"%\\
+G7&FPFRF1\"%%4\"7&FRFTFA\"$h'7&FTFVF1\"$L%7&FVFXF1\"$G#7&FXFZF1\"$0#7&
+FZFfnF1\"#B7&FfnFhn\"\")\"#@7&FhnF[oF1FA7&F[oFA\"#5F17&FAF1FAF/" }}
+{PARA 6 "" 1 "" {TEXT -1 76 "`The greatest common divisor of `, 321110
+693270, `and `, 343633073697, is, 1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "6 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

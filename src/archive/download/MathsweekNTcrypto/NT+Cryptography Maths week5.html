@@ -1,0 +1,635 @@
+<html>
+<head>
+<title>NT+Cryptography Maths week.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=4>Modular exponentiation</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>'</font></b>
+<i><b><font color=#000080 size=4>Modular exponentiation</font></b></i>
+<b><font color=#000080 size=4>' is concerned with computations like</font></b>
+<i><b><font color=#000080 size=4> </font></b></i>
+<b><font color=#000080 size=4>these:<br>
+<br>
+(a) What remainder does </font></b>
+<img src="images/NT+Cryptography Maths week1.gif" width=33 height=50 alt="2^5" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(that is 2 to the power of 5, namely 2*2*2*2*2, which is 32)</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>leave when divided by 9?<br>
+<br>
+(b) What remainder does </font></b>
+<img src="images/NT+Cryptography Maths week2.gif" width=41 height=50 alt="7^12" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(that is 7 to the power of 12, namely 7*7*7*7*7*7*7*7*7*7*7*7, which is 13841287201) leave when divided by 97?<br>
+<br>
+(c) What remainder does </font></b>
+<img src="images/NT+Cryptography Maths week3.gif" width=73 height=50 alt="4321^123" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(namely 4321*4321*4321*4321*... ... *4321*4321 (so there are 123 appearances of 4321)) leave when divided by 987654321?<br>
+<br>
+Hand-performed computations. All of us can (I trust!) immediately provide the answer to (a): 9 divided into 32 'goes' 3 times, and leaves a remainder of 5:<br>
+<br>
+                                                                   32 = 9*3 + 5<br>
+<br>
+Most people </font></b>
+<i><b><font color=#000080 size=4>could</font></b></i>
+<b><font color=#000080 size=4> provide - if pushed - an answer to (b): simply divide 97 into 13841287201, see how many times 'it goes', and see what the remainder is. Assuming you/I did it, we would find that:<br>
+<br>
+                                                                    13841287201 = 97*142693682 + 47<br>
+<br>
+Thus the remainder that </font></b>
+<img src="images/NT+Cryptography Maths week4.gif" width=41 height=50 alt="7^12" align=middle>
+<b><font color=#000080 size=4> (namely </font></b>
+<i><b><font color=#000080 size=4>7 to the power of 12</font></b></i>
+<b><font color=#000080 size=4>) leaves, on division by 97, is 47.<br>
+<br>
+Computer-performed computation. While we could - in principle - provide an answer to question (c), it would certainly take a long time to do IF one was attempting to do it by hand, and in a </font></b>
+<i><b><font color=#000080 size=4>naive way</font></b></i>
+<b><font color=#000080 size=4>. Meaning? <br>
+<br>
+Before I perform all three computations using Maple, I would like to introduce some notation; all the above computations are of the general form:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>find/compute the remainder that </font></b>
+<img src="images/NT+Cryptography Maths week5.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080 size=4> leaves on division by </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4>, where </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4>, and </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4> have given values</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Now, three Maple matters:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>#1</font></b>
+<b><font color=#000080 size=4>. </font></b>
+<b><font color=#000080 size=4>Maple can divide one number into another and determine how many times 'it goes'.<br>
+<br>
+To illustrate, I initially choose an example that you may do quickly in your head as you watch this<br>
+<br>
+With </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4> = 5 and </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = 38, how many times does </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4> divide into </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4>?</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4> </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 38; m := 5; iquo(a, m);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week6.gif" width=62 height=20 alt="a := 38">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week7.gif" width=58 height=20 alt="m := 5">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week8.gif" width=24 height=20 alt="7">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus 5 divided into 38 goes 7 times. <br>
+<br>
+</font></b>
+<b><font color=#000080 size=5>#2.</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080 size=4>And what is the remainder that the above </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> (38) leaves on division by the above </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4> (5)?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>That is determined by using the 'mod' command (there is another one - like 'iquo' - but I would rather not get diverted...) as follows:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 38; m := 5; a mod m;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week9.gif" width=62 height=20 alt="a := 38">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week10.gif" width=58 height=20 alt="m := 5">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week11.gif" width=24 height=20 alt="3">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And the </font></b>
+<i><b><font color=#000080 size=4>remainder</font></b></i>
+<b><font color=#000080 size=4> is '3'. Thus, overall, 38 = 5*7 + 3:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>5*7 + 3;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week12.gif" width=32 height=20 alt="38">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>#3. </font></b>
+<b><font color=#000080 size=4>Maple has a command for calculation ' to the power of '; it is ' ^ ' ('hat'; it is above the '6' on the keyboard)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus </font></b>
+<img src="images/NT+Cryptography Maths week13.gif" width=33 height=50 alt="2^3" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(namely 2 to the power of 3, also known as 2 cubed) - which you can do in your head (I hope!) is given by:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^3;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week14.gif" width=24 height=20 alt="8">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>While I expect you would </font></b>
+<i><b><font color=#000080 size=4>know</font></b></i>
+<b><font color=#000080 size=4> what (e.g.) </font></b>
+<img src="images/NT+Cryptography Maths week15.gif" width=62 height=56 alt="10^500" align=middle>
+<b><font color=#000080 size=4> is, I do not expect you would be able to tell me what </font></b>
+<img src="images/NT+Cryptography Maths week16.gif" width=53 height=56 alt="9^500" align=middle>
+<b><font color=#000080 size=4> or </font></b>
+<img src="images/NT+Cryptography Maths week17.gif" width=62 height=56 alt="11^500" align=middle>
+<b><font color=#000080 size=4> are?<br>
+<br>
+Let us have a quick peek (much larger examples will have to be omitted from the saved html version at my web site to reduce file size):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>10^500;</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week18.gif" width=912 height=20 alt="100000000000000000000000000000000000000000000000000...">
+<br>
+<img src="images/NT+Cryptography Maths week19.gif" width=912 height=20 alt="100000000000000000000000000000000000000000000000000...">
+<br>
+<img src="images/NT+Cryptography Maths week20.gif" width=912 height=20 alt="100000000000000000000000000000000000000000000000000...">
+<br>
+<img src="images/NT+Cryptography Maths week21.gif" width=912 height=20 alt="100000000000000000000000000000000000000000000000000...">
+<br>
+<img src="images/NT+Cryptography Maths week22.gif" width=440 height=20 alt="100000000000000000000000000000000000000000000000000...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>9^500;</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week23.gif" width=912 height=20 alt="132207081948080663689045525975214436596542203275214...">
+<br>
+<img src="images/NT+Cryptography Maths week24.gif" width=912 height=20 alt="132207081948080663689045525975214436596542203275214...">
+<br>
+<img src="images/NT+Cryptography Maths week25.gif" width=912 height=20 alt="132207081948080663689045525975214436596542203275214...">
+<br>
+<img src="images/NT+Cryptography Maths week26.gif" width=912 height=20 alt="132207081948080663689045525975214436596542203275214...">
+<br>
+<img src="images/NT+Cryptography Maths week27.gif" width=256 height=20 alt="132207081948080663689045525975214436596542203275214...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>11^500;</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week28.gif" width=912 height=20 alt="496984196731226689628694316552455623160476469730987...">
+<br>
+<img src="images/NT+Cryptography Maths week29.gif" width=912 height=20 alt="496984196731226689628694316552455623160476469730987...">
+<br>
+<img src="images/NT+Cryptography Maths week30.gif" width=912 height=20 alt="496984196731226689628694316552455623160476469730987...">
+<br>
+<img src="images/NT+Cryptography Maths week31.gif" width=912 height=20 alt="496984196731226689628694316552455623160476469730987...">
+<br>
+<img src="images/NT+Cryptography Maths week32.gif" width=600 height=20 alt="496984196731226689628694316552455623160476469730987...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Combining all of those elements we may now perform the earlier (a), (b) and (c) examples.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (a).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 2; b := 5; m := 9; [a^b];  <br>
+q := iquo(a^b, m); r := a^b mod m; [m*q + r];</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week33.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week34.gif" width=54 height=20 alt="b := 5">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week35.gif" width=58 height=20 alt="m := 9">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week36.gif" width=46 height=20 alt="[32]">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week37.gif" width=54 height=20 alt="q := 3">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week38.gif" width=52 height=20 alt="r := 5">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week39.gif" width=46 height=20 alt="[32]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (b).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 7; b := 12; m := 97; [a^b];  <br>
+q := iquo(a^b, m); r := a^b mod m; [m*q + r];</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week40.gif" width=54 height=20 alt="a := 7">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week41.gif" width=62 height=20 alt="b := 12">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week42.gif" width=66 height=20 alt="m := 97">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week43.gif" width=118 height=20 alt="[13841287201]">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week44.gif" width=118 height=20 alt="q := 142693682">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week45.gif" width=60 height=20 alt="r := 47">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week46.gif" width=118 height=20 alt="[13841287201]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (c).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 4321; b := 123; m := 987654321; [a^b];  <br>
+q := iquo(a^b, m); r := a^b mod m; [m*q + r];</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week47.gif" width=78 height=20 alt="a := 4321">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week48.gif" width=70 height=20 alt="b := 123">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week49.gif" width=122 height=20 alt="m := 987654321">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week50.gif" width=919 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+<br>
+<img src="images/NT+Cryptography Maths week51.gif" width=912 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+<br>
+<img src="images/NT+Cryptography Maths week52.gif" width=912 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+<br>
+<img src="images/NT+Cryptography Maths week53.gif" width=919 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week54.gif" width=910 height=20 alt="q := 1521457369567817912913177522968963499946400999...">
+<br>
+<img src="images/NT+Cryptography Maths week55.gif" width=912 height=20 alt="q := 1521457369567817912913177522968963499946400999...">
+<br>
+<img src="images/NT+Cryptography Maths week56.gif" width=912 height=20 alt="q := 1521457369567817912913177522968963499946400999...">
+<br>
+<img src="images/NT+Cryptography Maths week57.gif" width=872 height=20 alt="q := 1521457369567817912913177522968963499946400999...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week58.gif" width=116 height=20 alt="r := 100016515">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week59.gif" width=919 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+<br>
+<img src="images/NT+Cryptography Maths week60.gif" width=912 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+<br>
+<img src="images/NT+Cryptography Maths week61.gif" width=912 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+<br>
+<img src="images/NT+Cryptography Maths week62.gif" width=919 height=20 alt="[15026739452709492642299014784003735496133462156314...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And while one might be impressed by the latter almost instantaneous computation, I would like to mention here that the sort of computation that one needs to do in cryptographic applications generally involve MUCH LARGER values of </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4>, and </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Ones - as you will see later - like these:</font></b>
+<b><font color=#000080><br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>Computation (d).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 49011980361508148819802001121180011425800715150486802712090305;<br>
+ <br>
+b := 77665544332223;<br>
+ <br>
+m := 10000000000000000000000000987654321876543217654321654321543214321321323; <br>
+<br>
+[a^b];<br>
+  <br>
+# q := iquo(a^b, m); <br>
+# r := a^b mod m; <br>
+# [m*q + r];</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week63.gif" width=542 height=20 alt="a := 4901198036150814881980200112118001142580071515...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week64.gif" width=158 height=20 alt="b := 77665544332223">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week65.gif" width=618 height=20 alt="m := 1000000000000000000000000098765432187654321765...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#FF00FF>Error, numeric exception: overflow<br>
+</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Such computations may be carried out - using a (minor miracle) method known as the </font></b>
+<i><b><font color=#000080 size=4>square-and-multiply</font></b></i>
+<b><font color=#000080 size=4> technique - and for that method to be invoked in Maple one needs to use the ampersand (&amp;), which is on the keyboard above the '7'.<br>
+<br>
+Then, to calculate the remainder that </font></b>
+<img src="images/NT+Cryptography Maths week66.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>leaves on division by m, </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>instead of using the command a^b mod m</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>one uses the command a&amp;^b mod m</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>I illustrate with the examples that we have already performed, and then the example that could not be performed.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (a) redone with use of square-and-multiply method.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 2; b := 5; m := 9; r := a^b mod m;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week67.gif" width=54 height=20 alt="a := 2">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week68.gif" width=54 height=20 alt="b := 5">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week69.gif" width=58 height=20 alt="m := 9">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week70.gif" width=52 height=20 alt="r := 5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (b) redone with use of square-and-multiply method.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 7; b := 12; m := 97; r := a^b mod m;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week71.gif" width=54 height=20 alt="a := 7">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week72.gif" width=62 height=20 alt="b := 12">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week73.gif" width=66 height=20 alt="m := 97">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week74.gif" width=60 height=20 alt="r := 47">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (c) redone with use of square-and-multiply method.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 4321; b := 123; m := 987654321; r := a&amp;^b mod m;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week75.gif" width=78 height=20 alt="a := 4321">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week76.gif" width=70 height=20 alt="b := 123">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week77.gif" width=122 height=20 alt="m := 987654321">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week78.gif" width=116 height=20 alt="r := 100016515">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And now the one that failed earlier.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Computation (d), performed using the square-and-multiply method.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 49011980361508148819802001121180011425800715150486802712090305;<br>
+ <br>
+b := 77665544332223;<br>
+ <br>
+m := 10000000000000000000000000987654321876543217654321654321543214321321323; <br>
+<br>
+r := a&amp;^b mod m; </font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week79.gif" width=542 height=20 alt="a := 4901198036150814881980200112118001142580071515...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week80.gif" width=158 height=20 alt="b := 77665544332223">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week81.gif" width=618 height=20 alt="m := 1000000000000000000000000098765432187654321765...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week82.gif" width=604 height=20 alt="r := 7525734149701685447039933182216797346235206893...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>I hope you are impressed not only at the speed at which that computation was effected, but that it was even performed at all, bearing in mind that the remainder was found without computing, what could not be computed, namely the actual value of </font></b>
+<img src="images/NT+Cryptography Maths week83.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080 size=4>.<br>
+<br>
+That kind of computation is simply bread-and-butter, and I give a final example, in which I have 'suppressed' the output values for </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>m</font></b></i>
+<b><font color=#000080 size=4>, by the standard use of </font></b>
+<i><b><font color=#000080 size=4>colons</font></b></i>
+<b><font color=#000080 size=4>, rather than </font></b>
+<i><b><font color=#000080 size=4>semi-colons</font></b></i>
+<b><font color=#000080 size=4>, at the end of the defining command lines:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 490119803615081488198020011211800114258007151504868027120903056666666666666666666666666666666666666666666666666666666666666666666666666665555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555544444444444444444444444444444444444444444444444433333333333333333333333333333333333333333333333333333333322222222222222222222222222222221111111111111111111111111111111:<br>
+ <br>
+b := 7766554433222355555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555557777777777777777777777777777777777777777777777777777777777777777777777777666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666:<br>
+ <br>
+m := 100000000000000000000000009876543218765432176543216543215432143213213239999999999999999999999999999999999999999999999999999999999999999999999999999999999999444444444444444444444444444444444444444444444444444444444444444444444444444422222222222222222222222222222222222222222222222222222222222222222222222222254321: <br>
+<br>
+r := a&amp;^b mod m; </font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week84.gif" width=916 height=20 alt="r := 6626170361121548755529938504596803818332303460...">
+<br>
+<img src="images/NT+Cryptography Maths week85.gif" width=912 height=20 alt="r := 6626170361121548755529938504596803818332303460...">
+<br>
+<img src="images/NT+Cryptography Maths week86.gif" width=736 height=20 alt="r := 6626170361121548755529938504596803818332303460...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+</body>
+</html>

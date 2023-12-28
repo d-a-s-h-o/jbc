@@ -1,0 +1,609 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 1 24 0 0 5 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 1 18 0 0 104 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 1 18 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 261 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 1 
+18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 1 18 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 1 18 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 269 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 270 "" 1 14 0 0 5 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 1 14 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 273 "" 1 14 0 0 1 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 274 "" 1 18 50 1 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+275 "" 1 18 0 0 97 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 1 18 0 0 22 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 278 "" 1 14 44 0 68 0 0 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 279 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 1 
+18 187 0 79 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 1 14 44 0 68 0 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 1 18 44 0 68 0 0 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 1 14 189 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 284 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 1 14 
+44 0 68 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 1 24 189 0 12 0 0 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 1 24 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+289 "" 1 14 0 0 22 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 14 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 292 "" 1 14 0 0 104 0 0 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 293 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 1 
+18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 1 14 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 297 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+298 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 1 18 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 301 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 302 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 1 14 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 305 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 1 18 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 310 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 311 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 312 "" 1 18 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 314 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 315 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+316 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 319 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 320 "" 1 14 44 0 68 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 1 
+18 189 0 12 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" 
+-1 -1 "Times" 0 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 
+12 255 0 0 1 0 1 0 0 0 1 3 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "
+" -1 -1 "Times" 0 0 0 128 0 1 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 
+0 0 0 11 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 
+13 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 
+0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "A
+uthor" 0 19 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 
+0 -1 8 8 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 
+-1 "" 0 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "" 0 12 0 128 0 1 
+2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 18 258 
+1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 260 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 0 261 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 262 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 0 263 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 264 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 0 265 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 266 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 0 267 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 268 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 18 "" 0 "" {TEXT 291 26 "CIT, Tuesday 19th May 19
+98" }}{PARA 258 "" 0 "" {TEXT -1 86 "On the use of MAPLE in the\nunder
+graduate programme in\nSt. Patrick' College, Drumcondra" }}{PARA 19 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 257 29 "                 \+
+            " }{TEXT 292 35 "Speaker:  John Cosgrave, St. Pat's." }}
+{PARA 259 "" 0 "" {TEXT 258 29 "                             " }{TEXT 
+-1 106 "   e-mail:   John.Cosgrave@spd.ie\n                           \+
+                             johnbcos@iol.ie\n" }}{PARA 0 "" 0 "" 
+{TEXT 267 52 "Pat's staff: JC, OB (Olivia Bree) and MD (Mark Daly)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 293 34 "First Ye
+ar.  2 year-long courses:\n" }{TEXT 259 47 "1. Finite Mathematics (som
+e use of MAPLE). [OB]" }}{PARA 0 "" 0 "" {TEXT 266 46 "2. Calculus/Ana
+lysis (intensive use of MAPLE)\n" }{TEXT 294 3 "   " }{TEXT 295 48 "in
+ lectures, plus one lab. class per week. [JC]\n" }}{PARA 0 "" 0 "" 
+{TEXT 296 39 "Second Year. 4 half-year long courses:\n" }{TEXT 297 24 
+"1. Linear Algebra.  [OB]" }{TEXT 263 2 " \n" }{TEXT 298 42 "2. Real A
+nalysis (intensive use of MAPLE)\n" }{TEXT 299 3 "   " }{TEXT 300 48 "
+in lectures, plus one lab. class per week.  [MD]" }{TEXT 264 1 "\n" }
+{TEXT 301 42 "3. Number Theory (intensive use of MAPLE)\n" }{TEXT 302 
+3 "   " }{TEXT 303 48 "in lectures, plus one lab. class per week.  [JC
+]" }{TEXT 265 1 "\n" }{TEXT 304 49 "4. Differential equations and Nume
+rical Analysis\n" }{TEXT 305 3 "   " }{TEXT 306 53 "(intensive use of \+
+MAPLE) in lectures, plus one lab. \n" }{TEXT 307 3 "   " }{TEXT 308 
+24 "class per week.  [MD]   " }{TEXT -1 0 "" }{TEXT 268 5 "     " }}
+{PARA 0 "" 0 "" {TEXT 309 46 "       \nThird Year. 4 half-year long co
+urses:\n" }{TEXT 310 24 "1. Modern Algebra.  [OB]" }{TEXT 260 2 " \n" 
+}{TEXT 311 51 "2. Multivariable Analysis (intensive use of MAPLE)\n" }
+{TEXT 312 3 "   " }{TEXT 313 48 "in lectures, plus one lab. class per \+
+week.  [MD]" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 261 35 "3. Number \+
+Theory and Cryptography \n" }{TEXT 314 3 "   " }{TEXT 315 53 "(intensi
+ve use of MAPLE) in lectures, plus one lab. \n" }{TEXT 316 3 "   " }
+{TEXT 317 21 "class per week.  [JC]" }{TEXT 262 1 "\n" }{TEXT 318 57 "
+4. Statistics (intensive use of EXCEL) in lectures, plus " }}{PARA 0 "
+" 0 "" {TEXT 269 3 "   " }{TEXT 319 30 "one lab. class per week.  [MD]
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 282 33 "Examples of some first year \+
+work\n" }{TEXT 320 8 "1.  Area" }}{PARA 0 "" 0 "" {TEXT 285 18 "2.  Ne
+wton-Raphson" }}}{EXCHG {PARA 260 "" 0 "" {TEXT 286 1 " " }{TEXT 321 
+7 "1. AREA" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(student)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7F%\"DG%%DiffG%*DoubleintG%$IntG%
+&LimitG%(LineintG%(ProductG%$SumG%*TripleintG%*changevarG%(combineG%/c
+ompletesquareG%)distanceG%'equateG%(extremaG%*integrandG%*interceptG%)
+intpartsG%(isolateG%(leftboxG%(leftsumG%)makeprocG%)maximizeG%*middleb
+oxG%*middlesumG%)midpointG%)minimizeG%(powsubsG%)rightboxG%)rightsumG%
+,showtangentG%(simpsonG%&slopeG%(summandG%*trapezoidG%&valueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "leftbox(x^2, x=0..1, 20);  #
+ I have removed the output for printing" }}{PARA 13 "" 1 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "rightbox(x^2, x=0..1
+, 20);  # I have removed the output for printing" }}{PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "Next we need to l
+oad in the 'plots package' " }}{PARA 0 "" 0 "" {TEXT -1 36 "(so as to \+
+have access to 'display'):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 12 "with(plots);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#7U%(animateG%*animate3dG%-animatecurveG%-changecoordsG%,complexp
+lotG%.complexplot3dG%*conformalG%,contourplotG%.contourplot3dG%*coordp
+lotG%,coordplot3dG%-cylinderplotG%,densityplotG%(displayG%*display3dG%
+*fieldplotG%,fieldplot3dG%)gradplotG%+gradplot3dG%-implicitplotG%/impl
+icitplot3dG%(inequalG%-listcontplotG%/listcontplot3dG%0listdensityplot
+G%)listplotG%+listplot3dG%+loglogplotG%(logplotG%+matrixplotG%(odeplot
+G%'paretoG%*pointplotG%,pointplot3dG%*polarplotG%,polygonplotG%.polygo
+nplot3dG%4polyhedra_supportedG%.polyhedraplotG%'replotG%*rootlocusG%,s
+emilogplotG%+setoptionsG%-setoptions3dG%+spacecurveG%1sparsematrixplot
+G%+sphereplotG%)surfdataG%)textplotG%+textplot3dG%)tubeplotG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 223 "for i from 2 to 6 do     \npl1 := leftbox(x^2, x=0
+..1, 2^(i)): \npl2 := rightbox(x^2, x=0..1, 2^(i)): \npl[i]:=display([
+pl1, pl2]): \nod:\ndisplay([seq(pl[i], i=2..6)], insequence=true);\n# \+
+I have removed the output for printing:" }}{PARA 13 "" 1 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "Those pictures give us the FEELING
+ for what is going on;" }}{PARA 0 "" 0 "" {TEXT -1 21 "now for some nu
+mbers:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "value(leftsum(x^2
+, x=0..1, 2000));\nvalue(rightsum(x^2, x=0..1, 2000));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6##\"(nYm#\"(+++)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+##\"(n'oE\"(+++)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "evalf(l
+eftsum(x^2, x=0..1, 2000));\nevalf(rightsum(x^2, x=0..1, 2000));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+]P$3L$!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+]P$eL$!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 24 "leftsum(x^2, x=0..1, n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%
+$SumG6$*&*$)%\"jG\"\"#\"\"\"F,*$)%\"nG\"\"#F,!\"\"/F*;\"\"!,&F/\"\"\"!
+\"\"F6F,F/F1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "expand(valu
+e(leftsum(x^2, x=0..1, n)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(#\"
+\"\"\"\"$F%*&\"\"\"F(%\"nG!\"\"#!\"\"\"\"#*&F(F(*$)F)\"\"#F(F*#F%\"\"'
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "expand(value(rightsum(x
+^2, x=0..1, n)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(#\"\"\"\"\"$F%*
+&\"\"\"F(%\"nG!\"\"#F%\"\"#*&F(F(*$)F)\"\"#F(F*#F%\"\"'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "expand(value(leftsum(t^2, t=0..x, n
+)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"$\"\"\"#\"\"\"F'
+*&*$F%F(F(%\"nG!\"\"#!\"\"\"\"#*&*$F%F(F(*$)F-\"\"#F(F.#F*\"\"'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "expand(value(rightsum(t^2, t
+=0..x, n)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"$\"\"\"#
+\"\"\"F'*&*$F%F(F(%\"nG!\"\"#F*\"\"#*&*$F%F(F(*$)F-\"\"#F(F.#F*\"\"'" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "limit(expand(value(leftsu
+m(t^2, t=0..x, n))), n=infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+$*$)%\"xG\"\"$\"\"\"#\"\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 59 "limit(expand(value(rightsum(t^2, t=0..x, n))), n=infinity);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$)%\"xG\"\"$\"\"\"#\"\"\"F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 261 "" 0 "
+" {TEXT 283 17 "2. Newton-Raphson" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 91 "plot(x^2 - 2, x = -2..2); # I have removed the output
+s for printing                        " }}{PARA 13 "" 1 "" {TEXT -1 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "showtangent(x^2 - 2, x
+=2, x=-2..3);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 44 "showtangent(x^2 - 2, x=2, x=-2..3, y=-2..4);" 
+}}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 42 "showtangent(x^2 - 2, x=1.5, x=1.39..1.51);" }}{PARA 13 "" 1 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 87 "f := x ->
+ x^2 - 2:\nx[0] := 2;\nfor k to 5 do\nx[k] := x[k-1] - f(x[k-1])/D(f)(
+x[k-1])\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"!\"\"#" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"\"#\"\"$\"\"#" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"##\"#<\"#7" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"xG6#\"\"$#\"$x&\"$3%" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%\"xG6#\"\"%#\"'dem\"'K3Z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+&%\"xG6#\"\"&#\"-(*))3Jn))\"-[gc8qi" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "seq(evalf(x[k]), k=1..5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'$\"+++++:!\"*$\"+nmm;9F%$\"+'o:UT\"F%$\"+iN@99F%F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(sqrt(2));" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#$\"+iN@99!\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 87 "f := x -> x^2 - 2:\nx[0] := 2;\nfor k to 7 do\nx[k] :
+= x[k-1] - f(x[k-1])/D(f)(x[k-1])\nod;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%\"xG6#\"\"!\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#
+\"\"\"#\"\"$\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"##\"
+#<\"#7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"$#\"$x&\"$3%" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"%#\"'dem\"'K3Z" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"&#\"-(*))3Jn))\"-[gc8qi" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"'#\":<KNL'=H.[Ses:\":7\"Q
+z8o)\\V%[)>6\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"xG6#\"\"(#\"Rx
+\")\\o*=91^Ld(['3v(y=?bi<Tg%\\\"R3E@kzV>Hcq?&=&3-s6%zvb#zt\\$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "seq(evalf(x[k], 30), k=1..8)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6*$\"?++++++++++++++:!#H$\"?nmmmmmm
+mmmmmm;9F%$\"?XF'o:#R!)4XF'o:UT\"F%$\"?*)ybHE1\"**ouBc8UT\"F%$\"?]B'*o
+,)[]4tBc8UT\"F%$\"?@C()o,)[]4tBc8UT\"F%F.&%\"xG6#\"\")" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "evalf(sqrt(2), 30);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#$\"?@C()o,)[]4tBc8UT\"!#H" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 278 35 "An exam
+ple of some second year work" }{TEXT -1 0 "" }}{PARA 262 "" 0 "" 
+{TEXT 284 24 "The Lucas-Lehmer theorem" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 56 "The Lucas-Lehmer Test for primality of Mersenne numbers.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "Let's
+ start off by just looking at a simple Maple programme for calculating
+ " }}{PARA 0 "" 0 "" {TEXT -1 48 "some early terms of the 'Lucas-Lehme
+r sequence'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 34 "Let's do just the first 8 of them:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 57 "a[1]:= 4;   \nfor k from 2 to 8 do\na[k]:= a[k-1]^2
+ - 2\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\"\"\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\"#\"#9" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%\"aG6#\"\"$\"$%>" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>&%\"aG6#\"\"%\"&Mw$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"
+\"&\"+azJ;9" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\"'\"49huAoa
+cf+#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\"(\"F%*45-hlNc#G-O
+5un;'Q-%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\")\"eoM!)yv4u3
+$HV^e\"*\\D,fe\\m807q!fvx\"yrc6@FY\">;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "Now let's mak
+e a Maple procedure, with name L-L:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "L_L_test := proc(p)" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }
+{MPLTEXT 1 0 213 "local Mp, a, k;\n  Mp := 2^p - 1:\n  a[1]:= 4;\n  fo
+r k from 2 to p do\n  a[k]:= a[k-1]^2 - 2 mod Mp\n  od;\n  if a[p-1] m
+od Mp = 0 then\n  lprint(Mp,`is a Mersenne prime`)\n  else\n  lprint(M
+p,`is composite`)\n  fi;\n  end:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "L_L_test(113);" }}{PARA 6 "" 1 "" {TEXT -1 50 "103845
+93717069655257060992658440191   is composite" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 49 "The largest know prime until 1953 was Lucas' own:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "L_L_test(127);" }}{PARA 6 "
+" 1 "" {TEXT -1 61 "170141183460469231731687303715884105727   is a Mer
+senne prime" }}}{EXCHG {PARA 0 "" 1 "" {TEXT 280 24 "This is from the \+
+1950's:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "nextprime(521);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$B&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "L_L_test(523);" }}{PARA 6 "" 1 "" {TEXT -1 173 "274
+5919064052243885992760319632557286907774120057322163757785383674217273
+3590624208490238562645818219909185245565923432148487951998866575250296
+113164460228607   is composite" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 281 33 "Examples of some thir
+d year work\n" }}{PARA 0 "" 0 "" {TEXT -1 78 "1. Fast gcd.\n2. Pollard
+ p-1 factoring method (1974)\n3. Public-key cryptography" }}}{EXCHG 
+{PARA 263 "" 0 "" {TEXT 287 1 " " }{TEXT 279 11 "1. Fast gcd" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "In the Pollard 'Monte Carlo' (also
+ known as 'rho') and 'p - 1' factoring methods, " }}{PARA 0 "" 0 "" 
+{TEXT -1 83 "the Euclidean algorithm for calculating gcd's plays a fun
+damental role.  These two " }}{PARA 0 "" 0 "" {TEXT -1 82 "remarkable \+
+methods have beautiful ideas at their roots, but they would be utterly
+ " }}{PARA 0 "" 0 "" {TEXT -1 78 "useless (from a computational point \+
+of view) were it not for the SPEED of the " }}{PARA 0 "" 0 "" {TEXT 
+-1 79 "Euclidean algorithm, the SPEED at which the gcd calculation can
+ be carried out." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 271 52 "The purpose of this worksheet is to demonstrate the " }
+{TEXT -1 13 "SPEED of the " }}{PARA 0 "" 0 "" {TEXT -1 68 "Euclidean a
+lgorithm, and SEE the successive divisions of the method:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 463 "gcd_and_ste
+ps := proc(A, B)\nlocal a, b, r, k, K;\na[1] := A:  \nb[1] := B:  \nr[
+1] := a[1] mod b[1]:\nif r[1] = 0 then \nlprint(`the greatest common d
+ivisor of`, \n        A,`and`, B,`is`, b[1])\nelse \nfor k from 2 whil
+e r[k-1]<>0 do\na[k] := b[k-1]:  \nb[k] := r[k-1]:  \nr[k] := a[k] mod
+ b[k]:\nod;\nlprint(`the greatest common divisor of`, \n         A,`an
+d`, B,`is`, r[k-2]);\nseq([a[K], b[K], iquo(a[K], b[K]), r[K]], \n    \+
+                        K = 1..k - 1); \nfi; \nend:" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 42 "Maple has its own built-in (i)gcd command:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "igcd(1809887765443356, 14786
+85544);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "gcd_
+and_steps(1809887765443356, 1478685544);" }}{PARA 6 "" 1 "" {TEXT -1 
+77 "the greatest common divisor of   1809887765443356   and   14786855
+44   is   4" }}{PARA 12 "" 1 "" {XPPMATH 20 "697&\"1cLWlx))4=\"+Wboy9
+\"(%)RA\"\"*ggb=$7&F%F'\"\"%\"*/8Y/#7&F'F*\"\"\"\"*cZ49\"7&F*F-F,\")[l
+O!*7&F-F/F,\")3#GP#7&F/F1\"\"$\")C>=>7&F1F4F,\"(%GYX7&F4F6F)\"')y'**7&
+F6F8F)\"'K\"f&7&F8F:F,\"'cwV7&F:F<F,\"'w977&F<F>F3\"&GK(7&F>F@F,\"&[#[
+7&F@FBF,\"&!)\\#7&FBFDF,\"&oK#7&FDFFF,\"%7<7&FFFH\"#8\"%757&FHFKF,\"$+
+(7&FKFMF,\"$7$7&FMFO\"\"#\"#w7&FOFRF)\"\")7&FRFT\"\"*F)7&FTF)FQ\"\"!" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 264 "" 
+0 "" {TEXT 256 1 " " }{TEXT 270 48 "2. The Pollard 'p-1' factorization
+ method (1974)" }{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 303 "P
+ollard := proc(seed, n)\nlocal a, k;\na[1] := seed:\nfor k from 2 whil
+e \nigcd(n, a[k-1]-1 mod n) = 1 do \na[k] := a[k-1]&^k mod n \nod:\nif
+ igcd(n, a[k-1]-1 mod n) < n then\nlprint(`After`,k-1,`steps we find t
+hat`, \ngcd(n, a[k-1]-1 mod n),`is a PROPER factor of`, n)\nelse lprin
+t(`Try some other seed`)\nfi\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "Pollard
+(2, 1234321);" }}{PARA 6 "" 1 "" {TEXT -1 69 "After   5   steps we fin
+d that   11   is a PROPER factor of   1234321" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "Pollard(2, 341);" }}{PARA 6 "" 1 "" {TEXT -1 19 
+"Try some other seed" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Pol
+lard(3, 341);" }}{PARA 6 "" 1 "" {TEXT -1 19 "Try some other seed" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Pollard(5, 341);" }}{PARA 6 
+"" 1 "" {TEXT -1 65 "After   3   steps we find that   31   is a PROPER
+ factor of   341" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "p1 := 27! + 1; length(p1); isprime(
+p1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p1G\">,++o2;_$=/Xp)))3\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#H" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%%trueG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 46 "q1 := nextprime(10^34 + 98765432); length(q
+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q1G\"D^aw)4++++++++++++5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#N" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "n1 := p1*q1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n1G\"jn^awmk-w]$)*o!p]@5Wa3,+o2;_$=
+/Xp)))3\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 15 "Pollard(2, n1);" }}{PARA 6 "" 1 "" {TEXT -1 
+153 "After   27   steps we find that   10888869450418352160768000001  \+
+ is a PROPER factor of   108888694504183521607680001085444102150690689
+835076026466765451" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "p2 := 77! + 1;  length(p2);  isprim
+e(p2);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#p2G\"]r,++++++++[7'y?l+3?
+k:\\8*>1)ou:yY)e$3UAz.u$)\\G3j3%yqSjpeGG?4$=X\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$9\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "q2 := nextprime(10^120 + 123
+43200000098765432); length(q2);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#
+q2G\"dr\"el()4++?VB,+++++++++++++++++++++++++++++++++++++++++++++++++5
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$@\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "n2 := p2*q2;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#
+n2G\"ey\"el()4++?V.50h#>Is.-W?O\"Gx=ng)o]#QkXi^+O$[-48y^2/9nf\"o>E[CE
+\"G]Qs()Q:%R-#z,++[7'y?l+3?k:\\8*>1)ou:yY)e$3UAz.u$)\\G3j3%yqSjpeGG?4$
+=X\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "Pollard(2, n2);" }}{PARA 6 "" 1 "" {TEXT -1 409 
+"After   77   steps we find that   14518309202828586963407078408630828
+4983740379224208358846781574688061991349156420080065207861248000000000
+000000001   is a PROPER factor of   1451830920282858696340707840863082
+8498374037922420835884678157468806199134915642008006520786124800000179
+2023941538877238502812624482619681596714040751781309024833600516245643
+825068860671877281362044020372301926105100343200000098765581" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 265 "" 0 "
+" {TEXT 272 26 "3. Public-key cryptography" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 62 "We see how two parties - A and B - can co
+mmunicate and 'sign':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 139 "`crypt/alphabet` := \n`abcdefghijklmnopqrstuvwx
+yz`\n.`ABCDEFGHIJKLMNOPQRSTUVWXYZ`\n .```1234567890-=~!@#$\243%^&*()_+
+`\n .` ,./<>?;':\"[]\{\}|     `:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 228 "to_num
+ber := proc(st, string) \nlocal ll, nn, ss, ii;  ll := length(st);\nif
+ ll = 0 then RETURN(0) fi; nn := 1;\nfor ii to ll do \nss := SearchTex
+t(substring(st, ii .. ii),`crypt/alphabet`);\nnn := 100*nn + ss od;\nn
+n - 10^(2*ll) end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 272 "from_number := proc(nn, int
+eger) \nlocal ss, mm, ll, pp, ii, ans; mm := nn;\nll := floor(1/2*trun
+c(evalf(log10(mm))))+1;\nans := ``; for ii to ll do mm := mm/100;\npp \+
+:= 100*frac(mm);\nss := substring(`crypt/alphabet`, pp..pp);\nans := c
+at(ss, ans); mm := trunc(mm)\nod; ans end:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 141 "to_n
+umber(`Fermat's 'little' theorem states: let p be any prime number, an
+d a be any integer not divisible by p, then a^(p-1) = 1 (mod p).`);" }
+}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"iz#yn,[]Jh2[0e1yZXmhP<+[^!3?!=o,eA+
+e?@!4>4A4/!3_T,)=020?94!eU6+e?+=+[S6+=)=0-8@9!eI\"4=;!eU6+e?+o,3_?,)*)
+>0?,?>!Q^!=:03?!))e?,-#47)3)>)37I\"=0K" }}}{EXCHG {PARA 12 "> " 1 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 270 "from_n
+umber(2935468009198001800718050120801612010305800914802308090308802015
+8007092205800180200112116767804608058001210409051403058009198045418001
+2020051420092205828091282120802309121280200805258005220518800914220920
+0580130580020103118180151880091980200809198009208692);" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#%[sCIT~is~a~great
+~place~in~which~to~give~a~talk!!~The~audience~is~SO~attentive.~[But~wi
+ll~they~ever~invite~me~back,~or~is~this~it?]G" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "I will c
+reate public and private keys for myself (John):" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "pj := nextprime(10^49 + 654321);  #50 digit prime" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#pjG\"SjVl+++++++++++++++++++++5" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "qj := nextprime(10^69 + 654
+321654321); #70 digit prime" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#qjG
+\"ao^Wl@Vl++++++++++++++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "nj := pj*qj;  # my public modulus" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%#njG\"br8(>:x!)Q;G/+++++++++++++++^Wl@Vl++++jVl++++
++++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "ej :=
+ nextprime(1234321);  # my public encryption power" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#ejG\"(LVB\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Now to calculate my PR
+IVATE decryption power, dj:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "phi_
+nj := (pj-1)*(qj-1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%'phi_njG\"br
++4@\\kAj\"G/+++++++++++++++]Wl@Vl++++iVl+++++++++++++++++++++5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "igcdex(ej, phi_nj, xj, yj);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 38 "dj := xj mod phi_nj;  # my private key" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6#>%#djG\"ar(p\"=TY>+xy:&[EXdr/Cm%)[!zy61!yyjF68&
+\\]%4n9!41)\\>85'=L\")=dwcMS+S\\$G)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Checking that
+ ej*dj = 1 (mod phi_nj):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "ej*dj m
+od phi_nj;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 59 "M
+aking my public keys public, I am now set up to receive - " }}{PARA 0 
+"" 0 "" {TEXT -1 34 "and SEND - messages.  For example:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "Let's say that you (
+Mary) wish to send me this message: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 266 "" 0 "" {TEXT 273 31 "Meet at cinema, 9.30 P.M. Mary\n" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "num1 := to_number(`Meet at cinema, \+
+9.30 P.M. Mary`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%num1G\"gnD=,R!
+G)R#G/QmDG1==I^S\"4.!37+3_]!R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 24 "enc1 := num1&^ej mod nj;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%e
+nc1G\"ar@@*)*e[c$4KTX[\"QwzY37Pm/g9M--(o&>`]&>Xhx2:nl\"*))oEZ6mnkyK]i?
+zs8wo" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "dec1 := enc1&^dj m
+od nj;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%dec1G\"gnD=,R!G)R#G/QmDG1
+==I^S\"4.!37+3_]!R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "text1
+ := from_number(dec1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&text1G%?M
+eet~at~cinema,~9.30~P.M.~MaryG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "All SEEMS fine, but wh
+y 'seems'?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 76 "Well, you have used my public key to send me that message, BUT \+
+anyone could " }}{PARA 0 "" 0 "" {TEXT -1 69 "have sent me that messag
+e.  Anyone, that is, who knows my public key." }}{PARA 0 "" 0 "" 
+{TEXT -1 33 "'You' could be someone else ... ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "Equally I can send you a \+
+message.  I could do it by using your PUBLIC key (if you " }}{PARA 0 "
+" 0 "" {TEXT -1 63 "had one which I knew), BUT 'I' also could be someo
+ne else ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 52 "HOWEVER, I can also send you a message using my own " }
+{TEXT 288 8 "PRIVATE " }{TEXT -1 14 "key (assuming " }}{PARA 0 "" 0 "
+" {TEXT -1 25 "you know my public keys)," }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "NOT by encrypting using my public \+
+encryption power (which would require that you " }}{PARA 0 "" 0 "" 
+{TEXT -1 35 "knew MY PRIVATE decryption power), " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "BUT by encrypting using m
+y own PRIVATE decryption power to encrypt.  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 "For example:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "Suppose I want to send \+
+you the message:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 267 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 289 35 "Can't make it. Too much work. John\n" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "num2 := to_number(`Can't make it. T
+oo much work. John`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%num2G\"_o9
+3:O!G=\"=:B!)3.@8!e^h/G3#4!e56I,3#)[6!H" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "enc2 := num2&^dj mod nj;  # NOTE that I use dj" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%enc2G\"ar(eg6_;0I&*\\BX<!\\P,o>H4Ol
+O(p2LmA7?W^M@v7!Q#)f\"3o9-$fw')RTWf%plzf5%Q" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 48 "dec2 := enc2&^ej mod nj;  # NOTE that YOU use ej" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%dec2G\"_o93:O!G=\"=:B!)3.@8!e^h/G
+3#4!e56I,3#)[6!H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "text2 :
+= from_number(dec2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&text2G%CCan
+'t~make~it.~Too~much~work.~JohnG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "Once again, a
+ll SEEMS fine, but why 'seems'?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 74 "Well, at least you KNOW the message has c
+ome from me (since - in theory - " }}{PARA 0 "" 0 "" {TEXT -1 70 "ONLY
+ I know MY private key), BUTANYONE could also read that message.  " }}
+{PARA 0 "" 0 "" {TEXT -1 52 "Anyone, that is, who (like you) knows my \+
+public key." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 78 "Of course, if you had your public and private keys then that pr
+oblem would be " }}{PARA 0 "" 0 "" {TEXT -1 79 "avoided by my sending \+
+you the above message using your public encryption power." }}{PARA 0 "
+" 0 "" {TEXT -1 53 "BUT then you couldn't be sure the message is from \+
+me." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 290 19 "C
+OMING TO THE POINT" }{TEXT -1 47 ".  One of the MAJOR applications of \+
+public-key " }}{PARA 0 "" 0 "" {TEXT -1 52 "cryptography is that it al
+lows SECURE 2-way 'signed'" }{TEXT 275 1 " " }{TEXT -1 27 "communicati
+on  between two " }}{PARA 0 "" 0 "" {TEXT -1 83 "parties who each have
+ their own public and private keys (with, of course, an agreed" }}
+{PARA 0 "" 0 "" {TEXT -1 48 "system for converting text into numerical
+ form)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+88 "Let us have parties A and B with public and private keys (ea, na, \+
+da) and (eb, nb, db); " }}{PARA 0 "" 0 "" {TEXT -1 80 "then these part
+ies can communicate securely with each other [IMPLICIT in ALL of " }}
+{PARA 0 "" 0 "" {TEXT -1 83 "this - of course - is the ASSUMPTION that
+ na and nb have been created so that they " }}{PARA 0 "" 0 "" {TEXT 
+-1 18 "cannot be factored" }{TEXT 274 1 " " }{TEXT -1 35 "QUICKLY!!]. \+
+This is how it is done:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 89 "First let's create public and private keys for A and
+ B [I am not going to be fussy about " }}{PARA 0 "" 0 "" {TEXT -1 62 "
+the choice of primes. I am merely choosing them to be 'big']:\n" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "pa := nextprime(10^99 + 87654321098
+76543211234567834567); #100 digits" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#
+>%#paG\"_q4^$ycM7@Vl()4@Vl(3+++++++++++++++++++++++++++++++++5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "qa := nextprime(10^119 + 876
+5432109876543211234567834567); # 120 digits" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%#qaG\"crF_$ycM7@Vl()4@Vl(3+++++++++++++++++++++++++++
+++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "na := \+
+pa*qa;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#naG\"fxVZe<?S\">ep(*\\lU@
+=Sn)G78**yuaG2+G$o2++++++++++++++++++F_$ycM7@Vlx?c@AA8@Vl()4@Vl(3+++++
+++++++++++++++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "ea := nextprime(12321);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ea
+G\"&BB\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "phi_na := (pa -
+ 1)*(qa - 1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%'phi_naG\"fx3W\">)G
+$*o<(QAIBc!H%Qn)G78**yuaG2+G$o2++++++++++++++++++E_$ycM7@Vln?c@AA8@Vl(
+)4@Vl(3+++++++++++++++++++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "igcdex(ea, phi_na, xa, ya);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "da
+ := xa mod phi_na;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#daG\"exNi6jcV
+/M8mWx[o/\\.ob3D44!=+-?2+!)zl(oiDa=02(pqcW'f]b?*G&y:)4Kw.!R8cq*o0(eWG1
+<&*=8m#**\\]*pgS_aZn&4F2[7%z=3<l.]e<rB'=No*H4)*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "Checki
+ng that ea*da = 1 (mod phi_na):\n" }{MPLTEXT 1 0 17 "ea*da mod phi_na;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "Now to do t
+he same for B:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "pb := nextprime(1
+0^109 + 2228765432109876543211234567834000); #110 digits" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#>%#pbG\"iqtT$ycM7@Vl()4@Vl(GA+++++++++++++++++++
+++++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "qb :
+= nextprime(10^129 + 2228765432109876543211234567834000); #130 digits
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#qbG\"]sxS$ycM7@Vl()4@Vl(GA+++++
+++++++++++++++++++++++++++++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "nb := pb*qb;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%
+#nbG\"jy@L^9N4c&>y]Z`/Ir6kBT71y0mqCzO^`Rn\\+++++++++++++++++++++xS$ycM
+7@Vl<Fb@AANBVl()4@Vl(GA+++++++++++++++++++++++++++++++++++++5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "eb := nextprime(54321);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ebG\"&BV&" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 28 "phi_nb := (pb - 1)*(qb - 1);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%'phi_nbG\"jys]%)yViLJtax7\"=*ff'fBT71y0mqCzO^`Rn\\+
+++++++++++++++++++++wS$ycM7@Vl2Fb@AANBVl()4@Vl(GA+++++++++++++++++++++
+++++++++++++++++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "igcdex
+(eb, phi_nb, xb, yb);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "db := xb mod phi_nb;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#dbG\"iyjz$H_C@;_G7$>db+99<'=.Ctstqw
+C1D?+/B$)3[*R8F?c.bhoi*[uX]IB!Qrw?(pxA7l'=T^'*\\*pXQX(Q![&yQ_-(p)ocNtP
+u_wOOG/^ks>3*oHkk3h#zTRph#3W6&z4t" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Checking that
+ eb*db = 1 (mod phi_nb):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "eb*db m
+od phi_nb;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 41 "S
+o, A and B have public and private keys." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "Now let B send a 'signed' message:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 268 "" 0 "" {TEXT 276 63 "If
+ we give you \2431,000,000 will we get the government contract? " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "to A." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "KEEP IN M
+IND that A's public modulus is LESS than B's (na < nb), and that " }}
+{PARA 0 "" 0 "" {TEXT -1 42 "one always uses the SMALLER modulus FIRST
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+86 "B_num := to_number(`If we give you \2431,000,000 will we get the g
+overnment contract?`); " }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&B_numG\"
+gr'3K5!=?9:.!3U^IT\"=0A:2!e!3?!3_q+eI-G@\"4B!QOO;QOO;[:2=_^-e?#42!eI-o
+]$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "length(B_num);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$C\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Because lengt
+h(B_num) < na, then the message can be sent as a single block " }}
+{PARA 0 "" 0 "" {TEXT -1 76 "(I could have made a much longer message,
+ as there is quite a bit to spare)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 65 "B now does a DOUBLE encryption, FIRST us
+ing A's smaller modulus, " }}{PARA 0 "" 0 "" {TEXT -1 64 "with A's PUB
+LIC encryption power, SECOND using B's own modulus, " }}{PARA 0 "" 0 "
+" {TEXT -1 35 "with B's PRIVATE decryption power:\n" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 62 "B_first := B_num&^ea mod na; # using the SMALLER m
+odulus FIRST" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%(B_firstG\"ex3Eo-V9`
+,)*)=*pLs/[dr#p]'[AJ5:j$Rhc4r#=3!Q)>T(G9:r:zKIx77!)*GbAXbej0#e'zwm*zuc
+5I^?cwI22e#e(*3;^Tul^^H'G*)e%o&z\\A.we&RS8#HIA(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 31 "B_second := B_first&^db mod nb;" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#>%)B_secondG\"iyQ/$)zeq]u%))4ku!eC;$*))=kaKp$*Rh
+ig#=/CY'pipc-\\SE\\Fi(oh)*y/g4B%>OxcAW3%p4#>,bCb1X:$fh/$o1C\"=#4\"Qkx(
+4FV]?]p**ef#[cv-Mr^vp$etk-Km`egK:hGa" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 86 "B_second is w
+hat A receives, and A now proceeds to do the double decryption as foll
+ows" }{TEXT 277 1 " " }}{PARA 0 "" 0 "" {TEXT -1 38 "(simply reversing
+ the last two steps):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 80 "FIRST using B's modulus, with B's PUBLIC encryption po
+wer, SECOND using A's own " }}{PARA 0 "" 0 "" {TEXT -1 43 "modulus, wi
+th A's PRIVATE decryption power:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 
+"A_first := B_second&^eb mod nb;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%
+(A_firstG\"ex3Eo-V9`,)*)=*pLs/[dr#p]'[AJ5:j$Rhc4r#=3!Q)>T(G9:r:zKIx77!
+)*GbAXbej0#e'zwm*zuc5I^?cwI22e#e(*3;^Tul^^H'G*)e%o&z\\A.we&RS8#HIA(" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "A_second := A_first&^da mo
+d na;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%)A_secondG\"gr'3K5!=?9:.!3U
+^IT\"=0A:2!e!3?!3_q+eI-G@\"4B!QOO;QOO;[:2=_^-e?#42!eI-o]$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "from_number(A_second);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#%inIf~we~give~you~|^u1,000,000~will~we~get~the~
+government~contract?G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Now let A reply with the message
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 99 "You'
+re joking! \2432,000,000 and it's yours. You'll recoup all with contra
+ct. Leave cash usual place.\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 121 "A
+_num := to_number(`You're joking! \2432,000,000 and it's yours. You'll
+ recoup all with contract. Leave cash usual place.`);" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#>%&A_numG\"_w#eI5?h,G65#>@!)3>,.!e?7]!Q!G3K5!=?9:.
+!)3?4B!G@6+o6_J]!=!G@\")=_60G)>=@:D!)>)3#4![S6+QOO;QOO;e:2ywS\"46:5!e!
+=)=_6&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "length(A_num);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$'>" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "length(na);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$>#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 77 "Again, because length(A_num) < na, the message can b
+e sent as a single block." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "A_firs
+t := A_num&^da mod na;  # SMALLER modulus first" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%(A_firstG\"exhV0eb/D@+aQwnjO?(ok?Q)R&HIq1!\\nD1Q?uNZW
+*y/l0s9Dy%Qdy81#\\@$>%=27dEhZhHpI9%Q(*z\"RaJ\"f!yfE9-;wNOR<pP$zhK,j15d
+OJ'[WBY?w&*>%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "A_second :
+= A_first&^eb mod nb;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%)A_secondG
+\"iyc(**eB`U0SW'R&p%>$oNt4OJ:'z(R=o7T7:1\\gz=*))p\"y+-r(o(y')[%yV$oF)3
+kuF#Qlma*40!RPq/&y'\\Ug71NA9><h_H+)H2+;wdw'*3y!f3rr7a_n2R%3'G-.\"GyoC3
+,ji" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 82 "A_second is what B receives, and B now proceeds to
+ decrypt A's message as follows " }}{PARA 0 "" 0 "" {TEXT -1 38 "(simp
+ly reversing the last two steps):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+31 "B_first := A_second&^db mod nb;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>%(B_firstG\"exhV0eb/D@+aQwnjO?(ok?Q)R&HIq1!\\nD1Q?uNZW*y/l0s9Dy%Qdy8
+1#\\@$>%=27dEhZhHpI9%Q(*z\"RaJ\"f!yfE9-;wNOR<pP$zhK,j15dOJ'[WBY?w&*>%
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "B_second := B_first&^ea
+ mod na;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%)B_secondG\"_w#eI5?h,G65
+#>@!)3>,.!e?7]!Q!G3K5!=?9:.!)3?4B!G@6+o6_J]!=!G@\")=_60G)>=@:D!)>)3#4!
+[S6+QOO;QOO;e:2ywS\"46:5!e!=)=_6&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "from_number(B_second);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%]qYou're~joking!~|^u2,000,000~and~it's~yours.~You'll~recoup~all
+~with~contract.~Leave~cash~usual~place.G" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "22 0 0" 67 }{VIEWOPTS 1 1 0 1 1 1803 }

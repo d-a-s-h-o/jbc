@@ -1,0 +1,368 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 277 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 282 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier" 
+1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE 
+"" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 
+15 2 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 
+128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 
+1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "# 2_3.mws           \+
+          " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 54 "The point of this p
+rogram is to take a natural number " }{TEXT 256 1 "n" }{TEXT -1 64 " (
+'posint') as input, and remove all 2's and 3's that divide it." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "So, input
+ of 60 (=2*2*3*5) leads to output of 5, and input of 36 (=2*2*3*3) lea
+ds to output of 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 257 42 "What's going on in the following procedur
+e" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 50 "All will be clear if one keeps in mind what one's " }
+{TEXT 260 8 "ambition" }{TEXT -1 9 " is: one " }{TEXT 258 5 "wants" }
+{TEXT -1 12 " to express " }{TEXT 259 1 "n" }{TEXT -1 4 " as " }
+{XPPEDIT 18 0 "2^2*3^b;" "6#*&)\"\"#\"\"#\"\"\")\"\"$%\"bGF'" }{TEXT 
+-1 15 "*(the rest...)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 159 "One can do that by simply successively dividing by \+
+2 for as long as possible, and then do the same with the 3.  \nWhat is
+ left is what one wants.  For example,\n" }}{PARA 15 "" 0 "" {TEXT -1 
+48 "60 would lead to 30, to 15, to 5, and then stop." }}{PARA 15 "" 0 
+"" {TEXT -1 53 "36 would lead to 18, to 9, to 3 to 1, and then stop. \+
+" }}{PARA 15 "" 0 "" {TEXT -1 31 "35 would lead immediately to 35" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+263 11 "Procedure 1" }{TEXT -1 61 ".  I use 'r_2_3' as an abbreviation
+ for 'remove 2's and 3's.'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+339 "r_2_3 := proc(n :: posint)  # another version, 'R', later\nlocal \+
+t, a, n_new, T, A;\nt := n:\na := 0:\n  while t mod 2 = 0 do \n    t :
+= t/2:  \n    a := a+1:  \nod:\nn_new := n/2^a:  # factors out largest
+ power of 2\nT := n_new:\nA := 0:\n  while T mod 3 = 0 do  \n    T := \+
+T/3:  \n    A := A+1:  \nod:\nn_new/3^A;  # factors out largest power \+
+of 3\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "r_2_3(2^60*3^97*103);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$.\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "2^60*3^97*103;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"^okk%3(G.F?*
+[sz(3-)pNNNf=z/R/%*p&*[`TsmA" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 17 "r_2_3(2^60*3^97);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "a30 := r_2_3(30!);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$a30G\"3D\"Gj,t`QE)" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 13 "ifactor(a30);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#*2)-%!G6#\"\"&\"\"(\"\"\")-F&6#F)\"\"%F*)-F&6#\"#6\"\"#F*)-F&6#\"#8
+F3F*-F&6#\"#<\"\"\"-F&6#\"#>F;-F&6#\"#BF;-F&6#\"#HF;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "a50 := r_2_3(50!);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$a50G\"I
+vVtxY/3&eR#pGq;T%)G[')o" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "
+ifactor(a50);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*<)-%!G6#\"\"&\"#7\"
+\"\")-F&6#\"\"(\"\")F*)-F&6#\"#6\"\"%F*)-F&6#\"#8\"\"$F*)-F&6#\"#<\"\"
+#F*)-F&6#\"#>F>F*)-F&6#\"#BF>F*-F&6#\"#H\"\"\"-F&6#\"#JFJ-F&6#\"#PFJ-F
+&6#\"#TFJ-F&6#\"#VFJ-F&6#\"#ZFJ" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 19 "Now to investigate " }
+{TEXT 274 33 "forming numbers of the above form" }{TEXT -1 142 " (that
+ is, numbers that have NO 2 or 3 in their factorisation), and \nadding
+/subtracting 1, to see if any of them are made up from 2's and 3's " }
+{TEXT 273 5 "only." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 11 "So, what I " }{TEXT 275 4 "want" }{TEXT -1 15 " to do is \+
+this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "
+1.  Form the number " }{TEXT 277 1 "k" }{TEXT -1 42 "!, and remove all
+ the 2's and 3's from it," }}{PARA 0 "" 0 "" {TEXT -1 44 "2.  Then add
+/subtract 1 to/from that number," }}{PARA 0 "" 0 "" {TEXT -1 67 "3.  C
+heck to see if that number is a power of 2 times a power of 3." }}
+{PARA 0 "" 0 "" {TEXT -1 4 "4.  " }{TEXT 276 62 "Of course, because I \+
+will want to do other similar tests later" }{TEXT -1 2 " -" }}{PARA 0 
+"" 0 "" {TEXT -1 29 "     (so, varying the use of " }{TEXT 278 1 "k" }
+{TEXT -1 14 "!, and having " }{TEXT 279 14 "Euclidean type" }{TEXT -1 
+11 " numbers) -" }}{PARA 0 "" 0 "" {TEXT -1 67 "     then I make a pro
+cedure that allows me to make such variations" }}{PARA 0 "" 0 "" 
+{TEXT -1 48 "     internally (that's what the 'f ' is about):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 148 "test_2_3 := proc(m, n, f ::
+ procedure)\nlocal L, k;\nL := [];\nfor k from m to n do\nif r_2_3(r_2
+_3(f(k)) + 1) = 1 \nthen L := [op(L), k] \nfi\nod;\nL;\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 268 7 "Comment" }{TEXT -1 79 ".  Maple wouldn't (strangely) acce
+pt 'x -> x!' as a procedure in the following:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 41 "test_2_3(1, 50, x -> product(k, k=1..x));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7+\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(
+\"\")\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "test_2_3(51, \+
+100, x -> product(k, k=1..x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "test_2_3(101, 150, x ->
+ product(k, k=1..x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "test_2_3(151, 200, x -> prod
+uct(k, k=1..x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "test_2_3(201, 250, x -> product(k, \+
+k=1..x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 264 7 "Comme
+nt" }{TEXT -1 30 " (an obvious conjecture): the " }{TEXT 280 4 "only" 
+}{TEXT -1 11 " values of " }{TEXT 265 1 "k" }{TEXT -1 11 " for which:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "     \+
+                                      r_2_3(" }{TEXT 266 1 "k" }{TEXT 
+-1 9 "!) + 1 = " }{XPPEDIT 18 0 "2^a*3^b;" "6#*&)\"\"#%\"aG\"\"\")\"\"
+$%\"bGF'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+33 "are 1, 2, 3, 4, 5, 6, 7, 8 and 9." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 6 "Can I " }{TEXT 292 5 "prove" }{TEXT 
+-1 4 " it?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 39 "Here, now, is the Euclidean case, where" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 51 "test_2_3(1, 50, x -> product(ithprime(k), k=1.
+.x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&\"\"\"\"\"#\"\"$\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "test_2_3(51, 100, x -> produ
+ct(ithprime(k), k=1..x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 270 7 "Comment" }{TEXT -1 54 ".  It is a theorem of mine that 1,
+ 2, 3 and 4 are the " }{TEXT 293 4 "only" }{TEXT 269 0 "" }{TEXT -1 7 
+" cases." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+51 "What about removing 2 (say) only?  In general one '" }{TEXT 271 1 
+"p" }{TEXT -1 2 "'." }}{PARA 0 "" 0 "" {TEXT -1 17 "Investigate that:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 179 "r := proc(n :: posint,
+ p)  # 'r' for 'remove'\nlocal t, a;\nt := n:\na := 0:\n  while t mod \+
+p = 0 do \n    t := t/p:  \n    a := a+1:  \nod:\nn/p^a;  # factors ou
+t largest power of p\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "r(16, 2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "r(5!, 2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "r(2^1600, 2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "r(2^1600, 3);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"]ilw`kkjighHd
+4(*Q&flC)yY#H>^W^xtkT3g$>KV=k*Q+.'*4]wk&=eq9)p1uuE?\\-A'H!H@dEGQ)y*f?#
+*)[@%*oC'oO6`\">+K:Y!pHq4#*)y&zx(=T([A;;x)HSJ]oCHB/F;*R6)*))yN]o_O<=a1
+'f0aEFQ3v7wIf.Rq3X$)p02twfT?'y]ei&>,\"Gh,n,&Q;$zRGbk02^u$Q\\59@N&f[<%p
+R<wDy%)*QA:p(pIo`P4B#=%>$Ry87XB>eJkt^lS\"o,?Y/%4xkTiW%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 118 "see_2_3 := proc(m, n)\nlocal L, k;\nL := []:\nfor k \+
+from m to n do\nif r_2_3(k) = 1 \nthen L := [op(L), k] \nfi;\nod;\nL;
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "see_2_3(1, 600);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7E\"\"\"\"\"#\"\"$\"\"%\"\"'\"\")
+\"\"*\"#7\"#;\"#=\"#C\"#F\"#K\"#O\"#[\"#a\"#k\"#s\"#\")\"#'*\"$3\"\"$G
+\"\"$W\"\"$i\"\"$#>\"$;#\"$V#\"$c#\"$)G\"$C$\"$%Q\"$K%\"$'[\"$7&\"$w&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 127 "Originally I had made a set instead of a list, and \+
+the output did not come out in increasing order when large values were
+ used." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 
+"Now I want to be able to compute the " }{TEXT 282 12 "partial sums" }
+{TEXT -1 8 " of the " }{TEXT 283 15 "infinite series" }{TEXT -1 3 ": \+
+\n" }}{PARA 0 "" 0 "" {TEXT -1 63 "                    1 + 1/2 + 1/3 +
+ 1/4 + 1/6 + 1/8 + 1/9 + ..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 55 "that is, the sum of reciprocals of numbers of t
+he form " }{XPPEDIT 18 0 "2^a*3^b;" "6#*&)\"\"#%\"aG\"\"\")\"\"$%\"bGF
+'" }{TEXT -1 8 ", where " }{TEXT 287 1 "a" }{TEXT -1 5 " and " }{TEXT 
+288 1 "b" }{TEXT -1 39 " have values 0, 1, 2, 3, 4, 5, 6, ... ." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 289 4 "Note" }
+{TEXT -1 44 "  'arp' for 'add reciprocal powers of ... ':" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 126 "arp_2_3 := proc(n)\nlocal total, k
+;  \ntotal := 0:\nfor k to n do\nif r_2_3(k) = 1 \nthen total := total
+ + 1/k \nfi;\nod;\ntotal;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "arp_2_3(4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#D\"#7" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "arp_2_3(5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#
+D\"#7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "arp_2_3(6);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"*\"\"%" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 13 "arp_2_3(100);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##
+\"&@^\"\"%%=&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "s1000 := a
+rp_2_3(1000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&s1000G#\"(la6\"\"'
+[KP" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(s1000);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+sd`))H!\"*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "evalf(arp_2_3(2000));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+:?e$*H!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 38 "actaul_sum := 1/((1 - 1/2)*(1 - 1/3));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%+actaul_sumG\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 1 " " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 90 "And now to g
+eneralize; to not just remove powers of 2 and 3, but - in general - po
+wers of " }{TEXT 290 1 "p" }{TEXT -1 5 " and " }{TEXT 291 1 "q" }
+{TEXT -1 40 "  [this will allow me to investigate my " }}{PARA 0 "" 0 
+"" {TEXT -1 29 "Euclid leave-out-two-primes (" }{TEXT 261 1 "p" }
+{TEXT -1 5 " and " }{TEXT 262 1 "q" }{TEXT -1 11 ") problem.]" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 247 "r_two := proc(n :: posint, \+
+p, q)\nlocal a, t, n_new, A, T;\nt := n: \na := 0: \n  while t mod p =
+ 0 do  \n    t := t/p:  \n    a := a+1: \nod:\nn_new := n/p^a:\nT := n
+_new:\nA := 0:\n  while T mod q = 0 do  \n    T := T/q:  \n    A := A+
+1: \nod:\nn_new/q^A;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "r_two(30!, 5, 13);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\";w`O2(*Ri&Hu:!4?" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 27 "ifactor(r_two(30!, 5, 13));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*2)-%!G6#\"\"#\"#E\"\"\")-F&6#\"\"$\"#9F*)-F&6#
+\"\"(\"\"%F*)-F&6#\"#6F(F*-F&6#\"#<\"\"\"-F&6#\"#>F<-F&6#\"#BF<-F&6#\"
+#HF<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 154 "arp_two := proc(n :: posint, p, q)\nlocal \+
+total, k;  \ntotal := 0:\nfor k to n do\n  if r_two(k, p, q) = 1 \n  t
+hen total := total + 1/k \n  fi;\nod;\ntotal;\nend:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 17 "arp_two(4, 2, 5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"(\"\"%
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "arp_two(5, 2, 5);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#R\"#?" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "7/4 + 1/5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#R
+\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "arp_two(1000, 2, 5)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"'(Q(z\"'++K" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 27 "evalf(arp_two(1000, 2, 5));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#$\"+vV$=\\#!\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "1/((1 - 1/2)*(1 - 1/5));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"&\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 29 "The following is interesti
+ng:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "arp_two(200, 4, 6);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#**\"#k" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 12 "GREAT!
+!! ..." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 281 "Euclid_two_prime
+ := proc(n)\nlocal i, j, N, k;\nN := product(ithprime(k), k=1..n):\nfo
+r i from 2 to n do for j to (i-1) do\nif r_two(N/(ithprime(i)*ithprime
+(j))+1,ithprime(i),ithprime(j)) = 1\n   then \n   print(ithprime(j),it
+hprime(i),N/(ithprime(i)*ithprime(j))+1, [n])\nfi\nod;\nod;\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "Euclid_two_prime(2);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6&\"\"#\"\"$F#7#F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "E
+uclid_two_prime(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"$\"\"'
+7#F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"&\"\"%7#\"\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"$\"\"&F#7#F#" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "Euclid_two_prime(4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&\"\"#\"\"$\"#O7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6&\"\"$\"\"&\"#:7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"(
+\"#;7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"&\"\"(F$7#\"\"%" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "Euclid_two_prime(5);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "seq(Euclid_two_prime(k), k=2
+..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"$F#7#F#" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"$\"\"'7#F$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&\"\"#\"\"&\"\"%7#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6&\"\"$\"\"&F#7#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"$\"#O7
+#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"$\"\"&\"#:7#\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"#\"\"(\"#;7#\"\"%" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6&\"\"&\"\"(F$7#\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "And the three
+-prime case:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 370 "r_three :=
+ proc(n :: posint, p, q, r)\nlocal a1, t1, n1, a2, t2, n2, a3, t3;\nt1
+ := n: \na1 := 0: \n  while t1 mod p = 0 do  \n    t1 := t1/p:  \n    \+
+a1 := a1+1: \nod:\nn1 :=n/p^a1:\nt2 := n1:\na2 := 0:\n  while t2 mod q
+ = 0 do  \n    t2 := t2/q:  \n    a2 := a2+1: \nod:\nn2 := n1/q^a2:\nt
+3 := n2:\na3 := 0:\n  while t3 mod r = 0 do  \n    t3 := t3/r:  \n    \+
+a3 := a3+1: \nod:\nn2/r^a3;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "ifactor
+(r_three(30!, 2, 3, 5));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*0)-%!G6#
+\"\"(\"\"%\"\"\")-F&6#\"#6\"\"#F*)-F&6#\"#8F/F*-F&6#\"#<\"\"\"-F&6#\"#
+>F7-F&6#\"#BF7-F&6#\"#HF7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+37 "r_three(2^17*3^13*5^8*19^2, 2, 3, 5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$h$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT 272 26 "Now to do a Euclid 3-prime" }
+{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 401 "E3p := pr
+oc(n)\nlocal i, j, k, N, K;\nN := product(ithprime(K), K=1..n):\nfor i
+ from 3 to n do \n for j from 2 to (i-1) do\n  for k to (j-1) do\n   i
+f r_three(N/(ithprime(i)*ithprime(j)*ithprime(k)) + 1, \n             \+
+      ithprime(i), ithprime(j), ithprime(k)) = 1\n   then print(ithpri
+me(k), ithprime(j), ithprime(i),               N/(ithprime(i)*ithprime
+(j)*ithprime(k)) + 1, [n])\n   fi\n  od\n od\nod;\nend:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "E3p(3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"#\"\"$\"\"&F#7#F$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "E3p(4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"$
+\"\"&\"\")7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"$\"\"(\"
+\"'7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"&\"\"(\"\"%7#F&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"$\"\"&\"\"(F#7#\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "E3p(5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"#\"\"$\"\"(\"#c7#\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"#\"\"$\"#6\"#O7#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6'\"\"#\"\"&\"#6\"#A7#F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"$
+\"\"&\"#6\"#:7#F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"(\"#6\"#
+;7#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"$\"\"(\"#6F%7#\"\"&" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"&\"\"(\"#6F$7#F#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "E3p(6);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"#\"\"(\"#6\"$'>7#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 7 "E3p(7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"&\"#6
+\"#8\"$:(7#\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"#8\"#<\"%c6
+7#\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "E3p(8);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "seq(E3p(m), m=3..20);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"$\"\"&F#7#F$" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6'\"\"#\"\"$\"\"&\"\")7#\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"#\"\"$\"\"(\"\"'7#\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"#\"\"&\"\"(\"\"%7#F&" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6'\"\"$\"\"&\"\"(F#7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"
+#\"\"$\"\"(\"#c7#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"$\"
+#6\"#O7#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"&\"#6\"#A7#F
+$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"$\"\"&\"#6\"#:7#F$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"(\"#6\"#;7#\"\"&" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6'\"\"$\"\"(\"#6F%7#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6'\"\"&\"\"(\"#6F$7#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"
+\"(\"#6\"$'>7#\"\"'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"&\"#6\"#8\"
+$:(7#\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"#8\"#<\"%c67#\"\"
+(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 16 "Several seconds." }}{PARA 0 "" 0 "
+" {TEXT -1 62 "                        _______________________________
+_______" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 
+13 "A tail ender:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "A time trial between 'r_2_3' and 'R_2_3':" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 193 "R_2_3 := proc
+(n)\nlocal t, a2, a3;\nt := n:\na2 := 0:\n  while t mod 2 = 0 do\n    \+
+t := t/2:\n    a2 := a2+1:\nod:\na3 := 0:\n  while t mod 3 = 0 do\n   \+
+ t := t/3:\n    a3 := a3+1:\nod:\nn/(2^a2*3^a3);\nend:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "ifactor(R_2_3(10!));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*&)-%!G6#\"\"&\"\"#\"\"\"-F&6#\"\"(\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "ifactor(r_2_3(10!));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&)-%!G6#\"\"&\"\"#\"\"\"-F&6#\"\"(\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 21 "ifactor(R_2_3(500!));" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#*fv)-%!G6#\"\"&\"$C\"\"\"\")-F&6#\"\"(\"##)F*)-F&6#\"#6
+\"#\\F*)-F&6#\"#8\"#SF*)-F&6#\"#<\"#IF*)-F&6#\"#>\"#FF*)-F&6#\"#B\"#@F
+*)-F&6#\"#HF=F*)-F&6#\"#J\"#;F*)-F&6#\"#PF8F*)-F&6#\"#T\"#7F*)-F&6#\"#
+VF3F*)-F&6#\"#Z\"#5F*)-F&6#\"#`\"\"*F*)-F&6#\"#f\"\")F*)-F&6#\"#hFgoF*
+)-F&6#\"#nF.F*)-F&6#\"#rF.F*)-F&6#\"#t\"\"'F*)-F&6#\"#zFhpF*)-F&6#\"#$
+)FhpF*)-F&6#\"#*)F(F*)-F&6#\"#(*F(F*)-F&6#\"$,\"\"\"%F*)-F&6#\"$.\"F]r
+F*)-F&6#\"$2\"F]rF*)-F&6#\"$4\"F]rF*)-F&6#\"$8\"F]rF*)-F&6#\"$F\"\"\"$
+F*)-F&6#\"$J\"FbsF*)-F&6#\"$P\"FbsF*)-F&6#\"$R\"FbsF*)-F&6#\"$\\\"FbsF
+*)-F&6#\"$^\"FbsF*)-F&6#\"$d\"FbsF*)-F&6#\"$j\"FbsF*)-F&6#\"$n\"\"\"#F
+*)-F&6#\"$t\"FcuF*)-F&6#\"$z\"FcuF*)-F&6#\"$\"=FcuF*)-F&6#\"$\">FcuF*)
+-F&6#\"$$>FcuF*)-F&6#\"$(>FcuF*)-F&6#\"$*>FcuF*)-F&6#\"$6#FcuF*)-F&6#
+\"$B#FcuF*)-F&6#\"$F#FcuF*)-F&6#\"$H#FcuF*)-F&6#\"$L#FcuF*)-F&6#\"$R#F
+cuF*)-F&6#\"$T#FcuF*-F&6#\"$^#\"\"\"-F&6#\"$d#F_y-F&6#\"$j#F_y-F&6#\"$
+p#F_y-F&6#\"$r#F_y-F&6#\"$x#F_y-F&6#\"$\"GF_y-F&6#\"$$GF_y-F&6#\"$$HF_
+y-F&6#\"$2$F_y-F&6#\"$6$F_y-F&6#\"$8$F_y-F&6#\"$<$F_y-F&6#\"$J$F_y-F&6
+#\"$P$F_y-F&6#\"$Z$F_y-F&6#\"$\\$F_y-F&6#\"$`$F_y-F&6#\"$f$F_y-F&6#\"$
+n$F_y-F&6#\"$t$F_y-F&6#\"$z$F_y-F&6#\"$$QF_y-F&6#\"$*QF_y-F&6#\"$(RF_y
+-F&6#\"$,%F_y-F&6#\"$4%F_y-F&6#\"$>%F_y-F&6#\"$@%F_y-F&6#\"$J%F_y-F&6#
+\"$L%F_y-F&6#\"$R%F_y-F&6#\"$V%F_y-F&6#\"$\\%F_y-F&6#\"$d%F_y-F&6#\"$h
+%F_y-F&6#\"$j%F_y-F&6#\"$n%F_y-F&6#\"$z%F_y-F&6#\"$([F_y-F&6#\"$\"\\F_
+y-F&6#\"$*\\F_y" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "ifactor(
+r_2_3(500!));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#*fv)-%!G6#\"\"&\"$C\"
+\"\"\")-F&6#\"\"(\"##)F*)-F&6#\"#6\"#\\F*)-F&6#\"#8\"#SF*)-F&6#\"#<\"#
+IF*)-F&6#\"#>\"#FF*)-F&6#\"#B\"#@F*)-F&6#\"#HF=F*)-F&6#\"#J\"#;F*)-F&6
+#\"#PF8F*)-F&6#\"#T\"#7F*)-F&6#\"#VF3F*)-F&6#\"#Z\"#5F*)-F&6#\"#`\"\"*
+F*)-F&6#\"#f\"\")F*)-F&6#\"#hFgoF*)-F&6#\"#nF.F*)-F&6#\"#rF.F*)-F&6#\"
+#t\"\"'F*)-F&6#\"#zFhpF*)-F&6#\"#$)FhpF*)-F&6#\"#*)F(F*)-F&6#\"#(*F(F*
+)-F&6#\"$,\"\"\"%F*)-F&6#\"$.\"F]rF*)-F&6#\"$2\"F]rF*)-F&6#\"$4\"F]rF*
+)-F&6#\"$8\"F]rF*)-F&6#\"$F\"\"\"$F*)-F&6#\"$J\"FbsF*)-F&6#\"$P\"FbsF*
+)-F&6#\"$R\"FbsF*)-F&6#\"$\\\"FbsF*)-F&6#\"$^\"FbsF*)-F&6#\"$d\"FbsF*)
+-F&6#\"$j\"FbsF*)-F&6#\"$n\"\"\"#F*)-F&6#\"$t\"FcuF*)-F&6#\"$z\"FcuF*)
+-F&6#\"$\"=FcuF*)-F&6#\"$\">FcuF*)-F&6#\"$$>FcuF*)-F&6#\"$(>FcuF*)-F&6
+#\"$*>FcuF*)-F&6#\"$6#FcuF*)-F&6#\"$B#FcuF*)-F&6#\"$F#FcuF*)-F&6#\"$H#
+FcuF*)-F&6#\"$L#FcuF*)-F&6#\"$R#FcuF*)-F&6#\"$T#FcuF*-F&6#\"$^#\"\"\"-
+F&6#\"$d#F_y-F&6#\"$j#F_y-F&6#\"$p#F_y-F&6#\"$r#F_y-F&6#\"$x#F_y-F&6#
+\"$\"GF_y-F&6#\"$$GF_y-F&6#\"$$HF_y-F&6#\"$2$F_y-F&6#\"$6$F_y-F&6#\"$8
+$F_y-F&6#\"$<$F_y-F&6#\"$J$F_y-F&6#\"$P$F_y-F&6#\"$Z$F_y-F&6#\"$\\$F_y
+-F&6#\"$`$F_y-F&6#\"$f$F_y-F&6#\"$n$F_y-F&6#\"$t$F_y-F&6#\"$z$F_y-F&6#
+\"$$QF_y-F&6#\"$*QF_y-F&6#\"$(RF_y-F&6#\"$,%F_y-F&6#\"$4%F_y-F&6#\"$>%
+F_y-F&6#\"$@%F_y-F&6#\"$J%F_y-F&6#\"$L%F_y-F&6#\"$R%F_y-F&6#\"$V%F_y-F
+&6#\"$\\%F_y-F&6#\"$d%F_y-F&6#\"$h%F_y-F&6#\"$j%F_y-F&6#\"$n%F_y-F&6#
+\"$z%F_y-F&6#\"$([F_y-F&6#\"$\"\\F_y-F&6#\"$*\\F_y" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 267 7 "Com
+ment" }{TEXT -1 36 ":  Each took about two seconds ... ." }}}}{MARK "8
+3 0 1" 1 }{VIEWOPTS 1 1 0 1 1 1803 }

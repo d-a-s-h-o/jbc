@@ -1,0 +1,272 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 128 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 
+1 0 0 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning
+" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 -1 "" 0 0 
+128 0 0 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+256 "" 0 "" {TEXT 260 43 "First Year Introduction to Maple, 1999-2000
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 379 "For \+
+those of you who attended classes it should be clear what discussion a
+ccompanied each of the following Maple commands. You should also know \+
+what each of the 'unexpected' or 'Error' outputs is about. On some occ
+asions I will make a note or comment. Also note there are instances wh
+ere I have placed '#' (the Maple 'comment sign') before a command: for
+ example, # 2^(2^15) + 1;" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 141 "It ought always to be clear why I have done such \+
+a thing, and in the above example it was to save space when I want to \+
+print out these notes." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 257 12 "7th October:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "3*5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 140 "7777777777777666666666655555555555555555
+555554444444909876543300098*111111111111112222222229999999000098976543
+98765544433445656677778888888;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"ds
+C5^\"=VE[*GLa<ugMf22bf]7*GcP#*zUkRRE2xw-6Lb9.eiWjzwR&fuG>&)G'3`0;FQ>k3
+`(>k)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "2^3;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "And what about the number \+
+'" }{TEXT 261 2 "a " }{TEXT -1 16 "to the power of " }{TEXT 262 1 "b" 
+}{TEXT -1 17 " to the power of " }{TEXT 263 1 "c" }{TEXT -1 2 "'?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "One has t
+o be careful as to what one has in mind:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "2^2^3 + 1;" }}{PARA 8 "" 1 "" {TEXT -1 14 "`^` unexpe
+cted" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 100 "That happened because Maple appreciates (and you
+ must also!) that there is a huge difference between" }}{PARA 0 "" 0 "
+" {XPPEDIT 18 0 "(a^b)^c;" "6#))%\"aG%\"bG%\"cG" }{TEXT -1 4 "and " }
+{XPPEDIT 18 0 "a^(b^c);" "6#)%\"aG)%\"bG%\"cG" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "I told yo
+u about the famous " }{TEXT 265 14 "Fermat numbers" }{TEXT -1 2 " \{" 
+}{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 14 "\}, defined by \+
+" }{XPPEDIT 18 0 "F[n] = 2^(2^n)+1;" "6#/&%\"FG6#%\"nG,&)\"\"#)\"\"#F'
+\"\"\"\"\"\"F-" }{TEXT -1 6 ", for " }{XPPEDIT 18 0 "n = 0,1,2,3,4,5,6
+,7;" "6*/%\"nG\"\"!\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(" }{TEXT -1 
+113 ", ... , and were introduced into Mathematics by the famous French
+ mathematician Pierre de Fermat in August 1640. " }}{PARA 0 "" 0 "" 
+{TEXT -1 63 "(In July of this year I found - using Yves Gallot's remar
+kable " }{TEXT 264 9 "Proth.exe" }{TEXT -1 65 " program) a new record \+
+for a composite Fermat number, the number " }{XPPEDIT 18 0 "F[382447] \+
+= 2^(2^382447)+1;" "6#/&%\"FG6#\"'ZCQ,&)\"\"#*$\"\"#\"'ZCQ\"\"\"\"\"\"
+F." }{TEXT -1 2 ".)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "(2^2
+)^3 + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#l" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "2^(2^3) + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"$d#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "2^(2^4) + 1;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&Pb'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "length(2^(2^4) + 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "2^(2^336) + 1;
+" }}{PARA 8 "" 1 "" {TEXT -1 35 "Error, integer too large in context" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "# 2^(2^15) + 1;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "length(2^(2^15) + 1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%l)*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "# 2^(2^17) + 1;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "length(2^(2^17) + 1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"&d%R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "# 2^(2^20) \+
++ 1;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "length(2^(2^20) + 1
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'`cJ" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 21 "length(2^(2^21) + 1);" }}{PARA 8 "" 1 "" {TEXT 
+-1 23 "Error, object too large" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "factor(x^2 - y^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"x
+G\"\"\"%\"yG!\"\"F&,&F%F&F'F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "factor(x^3 - y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"x
+G\"\"\"%\"yG!\"\"F&,(*$)F%\"\"#\"\"\"F&*&F%F&F'F&F&*$)F'F,F-F&F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^3 + y^3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"%\"yGF&F&,(*$)F%\"\"#\"\"\"F&
+*&F%F&F'F&!\"\"*$)F'F+F,F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "expand((x+y)^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$)%\"xG\"
+\"$\"\"\"\"\"\"*&)F&\"\"#F(%\"yGF)F'*&F&F))F-F,F(F'*$)F-F'F(F)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "# expand((x+y+z)^60);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(x^3, x);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,$*$)%\"xG\"\"#\"\"\"\"\"$" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "diff(x^64, x);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,$*$)%\"xG\"#j\"\"\"\"#k" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "diff(x^3 + 5*y, \+
+x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$)%\"xG\"\"#\"\"\"\"\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "diff(x^3 + 5*y, y);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 258 14 "Inequalities
+. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 131 "He
+re I began with a question (which led to a certain discussion): which \+
+is the larger number (if indeed one of them is the larger) " }
+{XPPEDIT 18 0 "9831245^2+9831248^2;" "6#,&*$\"(X7$)*\"\"#\"\"\"*$\"([7
+$)*\"\"#F'" }{TEXT -1 5 " or  " }{XPPEDIT 18 0 "9831246^2+9831247^2;" 
+"6#,&*$\"(Y7$)*\"\"#\"\"\"*$\"(Z7$)*\"\"#F'" }{TEXT -1 1 "?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "9
+831245^2 + 9831248^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"0Hv[:oI$>" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "9831246^2 + 9831247^2;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"0Dv[:oI$>" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "is(4 = 6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&
+falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "is(4 = 4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "is(4 < 6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "is(9831245^2 + 9831248^
+2 < 9831246^2 + 9831247^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "is(9831245^2 + 9831248
+^2 > 9831246^2 + 9831247^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%true
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "is(9831246^2 + 9831249
+^2 > 9831247^2 + 9831248^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%true
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 65 "and here was a related, gentle introduction to writi
+ng a program:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 94 "for k from
+ 9831245 to 9831254 do\nif is(k^2 + (k+3)^2 > (k+1)^2 + (k+2)^2)\nthen
+ print(k)\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(X7$)*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(Y7$)*" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"(Z7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"([7$)*" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"(\\7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"(]7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(^7$)*" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"(_7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(`7$
+)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(a7$)*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "Here y
+ou met 'copy and paste,' and make changes:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 94 "for k from 9831245 to 9831254 do\nif is(k^3 + (k+3)
+^3 > (k+1)^3 + (k+2)^3)\nthen print(k)\nfi\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(X7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(Y7$)*" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(Z7$)*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"([7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(\\7$)*" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(]7$)*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(^7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(_7$)*" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(`7$)*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(a7$)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 94 "
+for k from 9831245 to 9831254 do\nif is(k^3 + (k+3)^3 > (k+1)^3 + (k+2
+)^3)\nthen print(k)\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(X7$
+)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(Y7$)*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(Z7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"([7$)*" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(\\7$)*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(]7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(^7$)*" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(_7$)*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"(`7$)*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(a7$)*" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "for n to 7 do\nif is((n+1)
+^4 > 2^n)\nthen print(n)\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"(" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 63 "for n from 8 to 17 do\nif is((n+1)^4 > 2^n)
+\nthen print(n)\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#8" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#9" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#:
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 65 "for n from 18 to 27 do\nif is((n+1)^4 >= 2^n)\nthen p
+rint(n)\nfi\nod;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 34 "In the latter there was no output.
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "for n from 18 to 27 do
+\nif is((n+1)^4 < 2^n)\nthen print(n)\nfi\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#>" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#@
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#A" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#B" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#C" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#D" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#E" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#F" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 256 13 "14th October
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "ifactor(12);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&)-%!G6#\"\"#F(\"\"\"-F&6#\"\"$\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "ifactor(120);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*()-%!G6#\"\"#\"\"$\"\"\"-F&6#F)\"\"\"-F&6#\"\"&
+F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "# 1200!;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "length(1200!);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"%wJ" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pre
+vprime(1200);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%$>\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "ifactor(1202!);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#*fcl)-%!G6#\"\"#\"%(>\"\"\"\")-F&6#\"\"$\"$'fF*)-F&6#
+\"\"&\"$)HF*)-F&6#\"\"(\"$)>F*)-F&6#\"#6\"$=\"F*)-F&6#\"#8\"#**F*)-F&6
+#\"#<\"#uF*)-F&6#\"#>\"#mF*)-F&6#\"#B\"#aF*)-F&6#\"#H\"#UF*)-F&6#\"#J
+\"#RF*)-F&6#\"#P\"#KF*)-F&6#\"#TFVF*)-F&6#\"#V\"#FF*)-F&6#\"#Z\"#DF*)-
+F&6#\"#`\"#AF*)-F&6#\"#f\"#?F*)-F&6#\"#hFLF*)-F&6#\"#nFGF*)-F&6#\"#r\"
+#;F*)-F&6#\"#tF`qF*)-F&6#\"#z\"#:F*)-F&6#\"#$)\"#9F*)-F&6#\"#*)FBF*)-F
+&6#\"#(*\"#7F*)-F&6#\"$,\"F=F*)-F&6#\"$.\"F=F*)-F&6#\"$2\"F=F*)-F&6#\"
+$4\"F=F*)-F&6#\"$8\"\"#5F*)-F&6#\"$F\"\"\"*F*)-F&6#\"$J\"FatF*)-F&6#\"
+$P\"\"\")F*)-F&6#\"$R\"FjtF*)-F&6#\"$\\\"FjtF*)-F&6#\"$^\"F8F*)-F&6#\"
+$d\"F8F*)-F&6#\"$j\"F8F*)-F&6#\"$n\"F8F*)-F&6#\"$t\"\"\"'F*)-F&6#\"$z
+\"FgvF*)-F&6#\"$\"=FgvF*)-F&6#\"$\">FgvF*)-F&6#\"$$>FgvF*)-F&6#\"$(>Fg
+vF*)-F&6#\"$*>FgvF*)-F&6#\"$6#F3F*)-F&6#\"$B#F3F*)-F&6#\"$F#F3F*)-F&6#
+\"$H#F3F*)-F&6#\"$L#F3F*)-F&6#\"$R#F3F*)-F&6#\"$T#\"\"%F*)-F&6#\"$^#F
+\\zF*)-F&6#\"$d#F\\zF*)-F&6#\"$j#F\\zF*)-F&6#\"$p#F\\zF*)-F&6#\"$r#F\\
+zF*)-F&6#\"$x#F\\zF*)-F&6#\"$\"GF\\zF*)-F&6#\"$$GF\\zF*)-F&6#\"$$HF\\z
+F*)-F&6#\"$2$F.F*)-F&6#\"$6$F.F*)-F&6#\"$8$F.F*)-F&6#\"$<$F.F*)-F&6#\"
+$J$F.F*)-F&6#\"$P$F.F*)-F&6#\"$Z$F.F*)-F&6#\"$\\$F.F*)-F&6#\"$`$F.F*)-
+F&6#\"$f$F.F*)-F&6#\"$n$F.F*)-F&6#\"$t$F.F*)-F&6#\"$z$F.F*)-F&6#\"$$QF
+.F*)-F&6#\"$*QF.F*)-F&6#\"$(RF.F*)-F&6#\"$,%F(F*)-F&6#\"$4%F(F*)-F&6#
+\"$>%F(F*)-F&6#\"$@%F(F*)-F&6#\"$J%F(F*)-F&6#\"$L%F(F*)-F&6#\"$R%F(F*)
+-F&6#\"$V%F(F*)-F&6#\"$\\%F(F*)-F&6#\"$d%F(F*)-F&6#\"$h%F(F*)-F&6#\"$j
+%F(F*)-F&6#\"$n%F(F*)-F&6#\"$z%F(F*)-F&6#\"$([F(F*)-F&6#\"$\"\\F(F*)-F
+&6#\"$*\\F(F*)-F&6#\"$.&F(F*)-F&6#\"$4&F(F*)-F&6#\"$@&F(F*)-F&6#\"$B&F
+(F*)-F&6#\"$T&F(F*)-F&6#\"$Z&F(F*)-F&6#\"$d&F(F*)-F&6#\"$j&F(F*)-F&6#
+\"$p&F(F*)-F&6#\"$r&F(F*)-F&6#\"$x&F(F*)-F&6#\"$(eF(F*)-F&6#\"$$fF(F*)
+-F&6#\"$*fF(F*)-F&6#\"$,'F(F*-F&6#\"$2'\"\"\"-F&6#\"$8'Fdhl-F&6#\"$<'F
+dhl-F&6#\"$>'Fdhl-F&6#\"$J'Fdhl-F&6#\"$T'Fdhl-F&6#\"$V'Fdhl-F&6#\"$Z'F
+dhl-F&6#\"$`'Fdhl-F&6#\"$f'Fdhl-F&6#\"$h'Fdhl-F&6#\"$t'Fdhl-F&6#\"$x'F
+dhl-F&6#\"$$oFdhl-F&6#\"$\"pFdhl-F&6#\"$,(Fdhl-F&6#\"$4(Fdhl-F&6#\"$>(
+Fdhl-F&6#\"$F(Fdhl-F&6#\"$L(Fdhl-F&6#\"$R(Fdhl-F&6#\"$V(Fdhl-F&6#\"$^(
+Fdhl-F&6#\"$d(Fdhl-F&6#\"$h(Fdhl-F&6#\"$p(Fdhl-F&6#\"$t(Fdhl-F&6#\"$(y
+Fdhl-F&6#\"$(zFdhl-F&6#\"$4)Fdhl-F&6#\"$6)Fdhl-F&6#\"$@)Fdhl-F&6#\"$B)
+Fdhl-F&6#\"$F)Fdhl-F&6#\"$H)Fdhl-F&6#\"$R)Fdhl-F&6#\"$`)Fdhl-F&6#\"$d)
+Fdhl-F&6#\"$f)Fdhl-F&6#\"$j)Fdhl-F&6#\"$x)Fdhl-F&6#\"$\"))Fdhl-F&6#\"$
+$))Fdhl-F&6#\"$())Fdhl-F&6#\"$2*Fdhl-F&6#\"$6*Fdhl-F&6#\"$>*Fdhl-F&6#
+\"$H*Fdhl-F&6#\"$P*Fdhl-F&6#\"$T*Fdhl-F&6#\"$Z*Fdhl-F&6#\"$`*Fdhl-F&6#
+\"$n*Fdhl-F&6#\"$r*Fdhl-F&6#\"$x*Fdhl-F&6#\"$$)*Fdhl-F&6#\"$\"**Fdhl-F
+&6#\"$(**Fdhl-F&6#\"%45Fdhl-F&6#\"%85Fdhl-F&6#\"%>5Fdhl-F&6#\"%@5Fdhl-
+F&6#\"%J5Fdhl-F&6#\"%L5Fdhl-F&6#\"%R5Fdhl-F&6#\"%\\5Fdhl-F&6#\"%^5Fdhl
+-F&6#\"%h5Fdhl-F&6#\"%j5Fdhl-F&6#\"%p5Fdhl-F&6#\"%(3\"Fdhl-F&6#\"%\"4
+\"Fdhl-F&6#\"%$4\"Fdhl-F&6#\"%(4\"Fdhl-F&6#\"%.6Fdhl-F&6#\"%46Fdhl-F&6
+#\"%<6Fdhl-F&6#\"%B6Fdhl-F&6#\"%H6Fdhl-F&6#\"%^6Fdhl-F&6#\"%`6Fdhl-F&6
+#\"%j6Fdhl-F&6#\"%r6Fdhl-F&6#\"%\"=\"Fdhl-F&6#\"%(=\"Fdhl-F&6#\"%$>\"F
+dhl-F&6#\"%,7Fdhl" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "length
+(1202!);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%#=$" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 25 "nextprime(1234567891011);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\".85*ycM7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 259 13 "21st October:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "1+2+3+4+5+6+7+8;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#O" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "add(k, k=1..8);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#O" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "add(k^3, k=1..8);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"%'H\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "add(k, k=1..8000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\")+S+K" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "add(k, k=1..n);
+" }}{PARA 8 "" 1 "" {TEXT -1 28 "Error, unable to execute add" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "sum(k, k=1..n);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,(*$),&%\"nG\"\"\"F(F(\"\"#\"\"\"#F(F)F'#!\"\"F
+)F,F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "expand(sum(k, k=1.
+.n));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)%\"nG\"\"#\"\"\"#\"\"\"F
+'F&F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "factor(expand(sum(
+k, k=1..n));" }}{PARA 8 "" 1 "" {TEXT -1 14 "`;` unexpected" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "factor(expand(sum(k, k=1..n)
+));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%\"nG\"\"\",&F%F&F&F&F&#F&
+\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "factor(expand(sum(
+k^2, k=1..n)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(%\"nG\"\"\",&F%
+F&F&F&F&,&F%\"\"#F&F&F&#F&\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 33 "factor(expand(sum(k^3, k=1..n)));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*&)%\"nG\"\"#\"\"\"),&F&\"\"\"F+F+F'F(#F+\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "factor(expand(sum(k^4, k=1..
+n)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$**%\"nG\"\"\",&F%F&F&F&F&,&
+F%\"\"#F&F&F&,(*$)F%F)\"\"\"\"\"$F%F.!\"\"F&F&#F&\"#I" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "factor(expand(sum(k^30, k=1..n)));
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,$**%\"nG\"\"\",&F%\"\"#F&F&F&,&F%
+F&F&F&F&,fnF%!/:!GQ_Ze#*$)F%F(\"\"\"\".7eXD4i$*$)F%\"\"$F.\"/%f)GrA$3%
+*$)F%\"\"%F.!/lA#4;Py\"*$)F%\"\"&F.!/$R5)fI:G\".0gFTeh)F&*$)F%\"\"'F.
+\"/a-'*)H]\\\"*$)F%\"\"(F.\"/C+uA_X6*$)F%\"\")F.!.bld6Jf'*$)F%\"\"*F.!
+.$Q]26JJ*$)F%\"#5F.\".3?x]4)=*$)F%\"#6F.\"-UZ=p$>'*$)F%\"#7F.!-<])['=Q
+*$)F%\"#8F.!,LWrVJ**$)F%\"#9F.\",I>)zTe*$)F%\"#:F.\",wI[L5\"*$)F%\"#;F
+.!+8@..q*$)F%\"#<F.!+8)py0\"*$)F%\"#=F.\"*!ecsn*$)F%\"#>F.\")'))pR)*$)
+F%\"#?F.!)Vq4a*$)F%\"#@F.!(V'[c*$)F%\"#AF.\"(]Ol$*$)F%\"#BF.\"'OjL*$)F
+%\"#CF.!'<s@*$)F%\"#DF.!&@5#*$)F%\"#EF.\"&OH\"*$)F%\"#FF.\"%MK*$)F%\"#
+GF.\"$J#F&#F&\"&AV\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{MARK "53 0 0" 34 }{VIEWOPTS 1 1 0 1 1 1803 }

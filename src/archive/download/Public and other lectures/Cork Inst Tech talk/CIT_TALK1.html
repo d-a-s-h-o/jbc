@@ -1,0 +1,1497 @@
+<html>
+<head>
+<title>CIT_TALK.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark1">
+<p align=center>
+<b><u><font color=#000080 size=4>CIT, Tuesday 19th May 1998</font></u></b>
+</p>
+<p align=center>
+<b><u><font color=#000080 size=4>On the use of MAPLE in the<br>
+undergraduate programme in<br>
+St. Patrick' College, Drumcondra</font></u></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>                             </font></b>
+<b><font color=#000080 size=4>Speaker:  John Cosgrave, St. Pat's.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>                             </font></b>
+<b><font color=#000080 size=4>   e-mail:   John.Cosgrave@spd.ie<br>
+                                                        johnbcos@iol.ie<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Pat's staff: JC, OB (Olivia Bree) and MD (Mark Daly)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>First Year.  2 year-long courses:<br>
+</font></b>
+<b><font color=#000080 size=4>1. Finite Mathematics (some use of MAPLE). [OB]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>2. Calculus/Analysis (intensive use of MAPLE)<br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>in lectures, plus one lab. class per week. [JC]<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>Second Year. 4 half-year long courses:<br>
+</font></b>
+<b><font color=#000080 size=4>1. Linear Algebra.  [OB]</font></b>
+<b><font color=#000080 size=5> <br>
+</font></b>
+<b><font color=#000080 size=4>2. Real Analysis (intensive use of MAPLE)<br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>in lectures, plus one lab. class per week.  [MD]</font></b>
+<b><font color=#000080 size=5><br>
+</font></b>
+<b><font color=#000080 size=4>3. Number Theory (intensive use of MAPLE)<br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>in lectures, plus one lab. class per week.  [JC]</font></b>
+<b><font color=#000080 size=5><br>
+</font></b>
+<b><font color=#000080 size=4>4. Differential equations and Numerical Analysis<br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>(intensive use of MAPLE) in lectures, plus one lab. <br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>class per week.  [MD]   </font></b>
+<b><font color=#000080 size=5>     </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>       <br>
+Third Year. 4 half-year long courses:<br>
+</font></b>
+<b><font color=#000080 size=4>1. Modern Algebra.  [OB]</font></b>
+<b><font color=#000080 size=5> <br>
+</font></b>
+<b><font color=#000080 size=4>2. Multivariable Analysis (intensive use of MAPLE)<br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>in lectures, plus one lab. class per week.  [MD]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>3. Number Theory and Cryptography <br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>(intensive use of MAPLE) in lectures, plus one lab. <br>
+</font></b>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>class per week.  [JC]</font></b>
+<b><font color=#000080 size=5><br>
+</font></b>
+<b><font color=#000080 size=4>4. Statistics (intensive use of EXCEL) in lectures, plus </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>   </font></b>
+<b><font color=#000080 size=4>one lab. class per week.  [MD]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>Examples of some first year work<br>
+</font></b>
+<b><font color=#000080 size=4>1.  Area</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>2.  Newton-Raphson</font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=6> </font></b>
+<b><font color=#000080 size=5>1. AREA</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(student);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK1.gif" width=949 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK2.gif" width=936 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK3.gif" width=397 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>leftbox(x^2, x=0..1, 20);  # I have removed the output for printing</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>rightbox(x^2, x=0..1, 20);  # I have removed the output for printing</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>Next we need to load in the 'plots package' </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(so as to have access to 'display'):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(plots);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK4.gif" width=972 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK5.gif" width=926 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK6.gif" width=966 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK7.gif" width=929 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK8.gif" width=352 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for i from 2 to 6 do     <br>
+pl1 := leftbox(x^2, x=0..1, 2^(i)): <br>
+pl2 := rightbox(x^2, x=0..1, 2^(i)): <br>
+pl[i]:=display([pl1, pl2]): <br>
+od:<br>
+display([seq(pl[i], i=2..6)], insequence=true);<br>
+# I have removed the output for printing:</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Those pictures give us the FEELING for what is going on;</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>now for some numbers:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>value(leftsum(x^2, x=0..1, 2000));<br>
+value(rightsum(x^2, x=0..1, 2000));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK9.gif" width=72 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK10.gif" width=72 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(leftsum(x^2, x=0..1, 2000));<br>
+evalf(rightsum(x^2, x=0..1, 2000));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK11.gif" width=100 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK12.gif" width=100 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>leftsum(x^2, x=0..1, n);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK13.gif" width=84 height=90 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(value(leftsum(x^2, x=0..1, n)));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK14.gif" width=125 height=52 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(value(rightsum(x^2, x=0..1, n)));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK15.gif" width=125 height=52 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(value(leftsum(t^2, t=0..x, n)));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK16.gif" width=154 height=61 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>expand(value(rightsum(t^2, t=0..x, n)));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK17.gif" width=154 height=61 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>limit(expand(value(leftsum(t^2, t=0..x, n))), n=infinity);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK18.gif" width=45 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>limit(expand(value(rightsum(t^2, t=0..x, n))), n=infinity);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK19.gif" width=45 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>2. Newton-Raphson</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>plot(x^2 - 2, x = -2..2); # I have removed the outputs for printing                        </font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>showtangent(x^2 - 2, x=2, x=-2..3);</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>showtangent(x^2 - 2, x=2, x=-2..3, y=-2..4);</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>showtangent(x^2 - 2, x=1.5, x=1.39..1.51);</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f := x -&gt; x^2 - 2:<br>
+x[0] := 2;<br>
+for k to 5 do<br>
+x[k] := x[k-1] - f(x[k-1])/D(f)(x[k-1])<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK20.gif" width=62 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK21.gif" width=62 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK22.gif" width=70 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK23.gif" width=78 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK24.gif" width=102 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK25.gif" width=150 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(evalf(x[k]), k=1..5);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK26.gif" width=468 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2));</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK27.gif" width=100 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f := x -&gt; x^2 - 2:<br>
+x[0] := 2;<br>
+for k to 7 do<br>
+x[k] := x[k-1] - f(x[k-1])/D(f)(x[k-1])<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK28.gif" width=62 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK29.gif" width=62 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK30.gif" width=70 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK31.gif" width=78 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK32.gif" width=102 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK33.gif" width=150 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK34.gif" width=254 height=43 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK35.gif" width=446 height=43 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(evalf(x[k], 30), k=1..8);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK36.gif" width=768 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK37.gif" width=768 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK38.gif" width=284 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 30);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK39.gif" width=260 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>An example of some second year work</font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>The Lucas-Lehmer theorem</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The Lucas-Lehmer Test for primality of Mersenne numbers.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let's start off by just looking at a simple Maple programme for calculating </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>some early terms of the 'Lucas-Lehmer sequence'.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let's do just the first 8 of them:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a[1]:= 4;   <br>
+for k from 2 to 8 do<br>
+a[k]:= a[k-1]^2 - 2<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK40.gif" width=62 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK41.gif" width=70 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK42.gif" width=78 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK43.gif" width=94 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK44.gif" width=134 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK45.gif" width=206 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK46.gif" width=350 height=25 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK47.gif" width=646 height=25 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now let's make a Maple procedure, with name L-L:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L_L_test := proc(p)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>     </font></b>
+<b><font color=#800080>local Mp, a, k;<br>
+  Mp := 2^p - 1:<br>
+  a[1]:= 4;<br>
+  for k from 2 to p do<br>
+  a[k]:= a[k-1]^2 - 2 mod Mp<br>
+  od;<br>
+  if a[p-1] mod Mp = 0 then<br>
+  lprint(Mp,`is a Mersenne prime`)<br>
+  else<br>
+  lprint(Mp,`is composite`)<br>
+  fi;<br>
+  end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L_L_test(113);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>10384593717069655257060992658440191   is composite</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The largest know prime until 1953 was Lucas' own:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L_L_test(127);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>170141183460469231731687303715884105727   is a Mersenne prime</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=5>This is from the 1950's:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>nextprime(521);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK48.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L_L_test(523);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>27459190640522438859927603196325572869077741200573221637577853836742172733590624208490238562645818219909185245565923432148487951998866575250296113164460228607   is composite</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Examples of some third year work<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>1. Fast gcd.<br>
+2. Pollard p-1 factoring method (1974)<br>
+3. Public-key cryptography</font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=6> </font></b>
+<b><font color=#000080 size=4>1. Fast gcd</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In the Pollard 'Monte Carlo' (also known as 'rho') and 'p - 1' factoring methods, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the Euclidean algorithm for calculating gcd's plays a fundamental role.  These two </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>remarkable methods have beautiful ideas at their roots, but they would be utterly </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>useless (from a computational point of view) were it not for the SPEED of the </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Euclidean algorithm, the SPEED at which the gcd calculation can be carried out.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The purpose of this worksheet is to demonstrate the </font></b>
+<b><font color=#000080>SPEED of the </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Euclidean algorithm, and SEE the successive divisions of the method:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_and_steps := proc(A, B)<br>
+local a, b, r, k, K;<br>
+a[1] := A:  <br>
+b[1] := B:  <br>
+r[1] := a[1] mod b[1]:<br>
+if r[1] = 0 then <br>
+lprint(`the greatest common divisor of`, <br>
+        A,`and`, B,`is`, b[1])<br>
+else <br>
+for k from 2 while r[k-1]&lt;&gt;0 do<br>
+a[k] := b[k-1]:  <br>
+b[k] := r[k-1]:  <br>
+r[k] := a[k] mod b[k]:<br>
+od;<br>
+lprint(`the greatest common divisor of`, <br>
+         A,`and`, B,`is`, r[k-2]);<br>
+seq([a[K], b[K], iquo(a[K], b[K]), r[K]], <br>
+                            K = 1..k - 1); <br>
+fi; <br>
+end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Maple has its own built-in (i)gcd command:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(1809887765443356, 1478685544);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK49.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_and_steps(1809887765443356, 1478685544);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>the greatest common divisor of   1809887765443356   and   1478685544   is   4</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK50.gif" width=942 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK51.gif" width=774 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK52.gif" width=876 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK53.gif" width=930 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK54.gif" width=926 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK55.gif" width=86 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=6> </font></b>
+<b><font color=#000080 size=4>2. The Pollard 'p-1' factorization method (1974)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard := proc(seed, n)<br>
+local a, k;<br>
+a[1] := seed:<br>
+for k from 2 while <br>
+igcd(n, a[k-1]-1 mod n) = 1 do <br>
+a[k] := a[k-1]&amp;^k mod n <br>
+od:<br>
+if igcd(n, a[k-1]-1 mod n) &lt; n then<br>
+lprint(`After`,k-1,`steps we find that`, <br>
+gcd(n, a[k-1]-1 mod n),`is a PROPER factor of`, n)<br>
+else lprint(`Try some other seed`)<br>
+fi<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(2, 1234321);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>After   5   steps we find that   11   is a PROPER factor of   1234321</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(2, 341);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>Try some other seed</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(3, 341);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>Try some other seed</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(5, 341);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>After   3   steps we find that   31   is a PROPER factor of   341</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p1 := 27! + 1; length(p1); isprime(p1);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK56.gif" width=286 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK57.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK58.gif" width=43 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q1 := nextprime(10^34 + 98765432); length(q1);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK59.gif" width=334 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK60.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n1 := p1*q1;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK61.gif" width=559 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(2, n1);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>After   27   steps we find that   10888869450418352160768000001   is a PROPER factor of   108888694504183521607680001085444102150690689835076026466765451</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p2 := 77! + 1;  length(p2);  isprime(p2);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK62.gif" width=966 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK63.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK64.gif" width=43 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q2 := nextprime(10^120 + 12343200000098765432); length(q2);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK65.gif" width=54 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK66.gif" width=984 height=19 alt="[Maple Math]">
+</p>
+<p align=center>
+<img src="images/CIT_TALK67.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n2 := p2*q2;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK68.gif" width=951 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK69.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK70.gif" width=56 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(2, n2);</font></b>
+</p>
+<p align=left>
+<b><font color=#FF0000>After   77   steps we find that   145183092028285869634070784086308284983740379224208358846781574688061991349156420080065207861248000000000000000001   is a PROPER factor of   145183092028285869634070784086308284983740379224208358846781574688061991349156420080065207861248000001792023941538877238502812624482619681596714040751781309024833600516245643825068860671877281362044020372301926105100343200000098765581</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>3. Public-key cryptography</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>We see how two parties - A and B - can communicate and 'sign':</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>`crypt/alphabet` := <br>
+`abcdefghijklmnopqrstuvwxyz`<br>
+.`ABCDEFGHIJKLMNOPQRSTUVWXYZ`<br>
+ .```1234567890-=~!@#$&#163;%^&amp;*()_+`<br>
+ .` ,./&lt;&gt;?;':"[]{}|     `:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number := proc(st, string) <br>
+local ll, nn, ss, ii;  ll := length(st);<br>
+if ll = 0 then RETURN(0) fi; nn := 1;<br>
+for ii to ll do <br>
+ss := SearchText(substring(st, ii .. ii),`crypt/alphabet`);<br>
+nn := 100*nn + ss od;<br>
+nn - 10^(2*ll) end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number := proc(nn, integer) <br>
+local ss, mm, ll, pp, ii, ans; mm := nn;<br>
+ll := floor(1/2*trunc(evalf(log10(mm))))+1;<br>
+ans := ``; for ii to ll do mm := mm/100;<br>
+pp := 100*frac(mm);<br>
+ss := substring(`crypt/alphabet`, pp..pp);<br>
+ans := cat(ss, ans); mm := trunc(mm)<br>
+od; ans end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(`Fermat's 'little' theorem states: let p be any prime number, and a be any integer not divisible by p, then a^(p-1) = 1 (mod p).`);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK71.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK72.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK73.gif" width=176 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(2935468009198001800718050120801612010305800914802308090308802015800709220580018020011211676780460805800121040905140305800919804541800120200514200922058280912821208023091212802008052580052205188009142209200580130580020103118180151880091980200809198009208692);</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/CIT_TALK74.gif" width=830 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I will create public and private keys for myself (John):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pj := nextprime(10^49 + 654321);  #50 digit prime</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK75.gif" width=450 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>qj := nextprime(10^69 + 654321654321); #70 digit prime</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK76.gif" width=610 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>nj := pj*qj;  # my public modulus</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK77.gif" width=51 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK78.gif" width=968 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ej := nextprime(1234321);  # my public encryption power</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK79.gif" width=105 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now to calculate my PRIVATE decryption power, dj:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>phi_nj := (pj-1)*(qj-1);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK80.gif" width=81 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK81.gif" width=968 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcdex(ej, phi_nj, xj, yj);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK82.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>dj := xj mod phi_nj;  # my private key</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK83.gif" width=50 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK84.gif" width=960 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Checking that ej*dj = 1 (mod phi_nj):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ej*dj mod phi_nj;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK85.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Making my public keys public, I am now set up to receive - </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and SEND - messages.  For example:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let's say that you (Mary) wish to send me this message: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>Meet at cinema, 9.30 P.M. Mary<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>num1 := to_number(`Meet at cinema, 9.30 P.M. Mary`);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK86.gif" width=556 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>enc1 := num1&amp;^ej mod nj;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK87.gif" width=69 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK88.gif" width=960 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>dec1 := enc1&amp;^dj mod nj;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK89.gif" width=548 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>text1 := from_number(dec1);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK90.gif" width=281 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>All SEEMS fine, but why 'seems'?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Well, you have used my public key to send me that message, BUT anyone could </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>have sent me that message.  Anyone, that is, who knows my public key.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>'You' could be someone else ... .</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Equally I can send you a message.  I could do it by using your PUBLIC key (if you </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>had one which I knew), BUT 'I' also could be someone else ... .</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>HOWEVER, I can also send you a message using my own </font></b>
+<b><font color=#000080 size=4>PRIVATE </font></b>
+<b><font color=#000080>key (assuming </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>you know my public keys),</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>NOT by encrypting using my public encryption power (which would require that you </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>knew MY PRIVATE decryption power), </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>BUT by encrypting using my own PRIVATE decryption power to encrypt.  </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>For example:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Suppose I want to send you the message:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>Can't make it. Too much work. John<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>num2 := to_number(`Can't make it. Too much work. John`);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK91.gif" width=620 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>enc2 := num2&amp;^dj mod nj;  # NOTE that I use dj</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK92.gif" width=69 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK93.gif" width=960 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>dec2 := enc2&amp;^ej mod nj;  # NOTE that YOU use ej</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK94.gif" width=612 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>text2 := from_number(dec2);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK95.gif" width=315 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Once again, all SEEMS fine, but why 'seems'?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Well, at least you KNOW the message has come from me (since - in theory - </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>ONLY I know MY private key), BUTANYONE could also read that message.  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Anyone, that is, who (like you) knows my public key.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Of course, if you had your public and private keys then that problem would be </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>avoided by my sending you the above message using your public encryption power.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>BUT then you couldn't be sure the message is from me.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>COMING TO THE POINT</font></u></b>
+<b><font color=#000080>.  One of the MAJOR applications of public-key </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>cryptography is that it allows SECURE 2-way 'signed'</font></b>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>communication  between two </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>parties who each have their own public and private keys (with, of course, an agreed</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>system for converting text into numerical form).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let us have parties A and B with public and private keys (ea, na, da) and (eb, nb, db); </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>then these parties can communicate securely with each other [IMPLICIT in ALL of </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>this - of course - is the ASSUMPTION that na and nb have been created so that they </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>cannot be factored</font></b>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>QUICKLY!!]. This is how it is done:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>First let's create public and private keys for A and B [I am not going to be fussy about </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the choice of primes. I am merely choosing them to be 'big']:<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pa := nextprime(10^99 + 8765432109876543211234567834567); #100 digits</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK96.gif" width=854 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>qa := nextprime(10^119 + 8765432109876543211234567834567); # 120 digits</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK97.gif" width=54 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK98.gif" width=976 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>na := pa*qa;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK99.gif" width=951 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK100.gif" width=872 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ea := nextprime(12321);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK101.gif" width=93 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>phi_na := (pa - 1)*(qa - 1);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK102.gif" width=957 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK103.gif" width=896 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcdex(ea, phi_na, xa, ya);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK104.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>da := xa mod phi_na;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK105.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK106.gif" width=864 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Checking that ea*da = 1 (mod phi_na):<br>
+</font></b>
+<b><font color=#800080>ea*da mod phi_na;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK107.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now to do the same for B:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>pb := nextprime(10^109 + 2228765432109876543211234567834000); #110 digits</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK108.gif" width=934 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>qb := nextprime(10^129 + 2228765432109876543211234567834000); #130 digits</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK109.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK110.gif" width=160 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>nb := pb*qb;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK111.gif" width=951 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK112.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK113.gif" width=96 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>eb := nextprime(54321);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK114.gif" width=93 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>phi_nb := (pb - 1)*(qb - 1);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK115.gif" width=957 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK116.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK117.gif" width=120 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcdex(eb, phi_nb, xb, yb);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK118.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>db := xb mod phi_nb;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK119.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK120.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK121.gif" width=88 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Checking that eb*db = 1 (mod phi_nb):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>eb*db mod phi_nb;</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK122.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>So, A and B have public and private keys.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now let B send a 'signed' message:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>If we give you &#163;1,000,000 will we get the government contract? </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>to A.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>KEEP IN MIND that A's public modulus is LESS than B's (na &lt; nb), and that </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>one always uses the SMALLER modulus FIRST.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>B_num := to_number(`If we give you &#163;1,000,000 will we get the government contract?`); </font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK123.gif" width=951 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK124.gif" width=144 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(B_num);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK125.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Because length(B_num) &lt; na, then the message can be sent as a single block </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(I could have made a much longer message, as there is quite a bit to spare).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>B now does a DOUBLE encryption, FIRST using A's smaller modulus, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>with A's PUBLIC encryption power, SECOND using B's own modulus, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>with B's PRIVATE decryption power:<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>B_first := B_num&amp;^ea mod na; # using the SMALLER modulus FIRST</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK126.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK127.gif" width=888 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>B_second := B_first&amp;^db mod nb;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK128.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK129.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK130.gif" width=136 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>B_second is what A receives, and A now proceeds to do the double decryption as follows</font></b>
+<b><font color=#000080 size=5> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(simply reversing the last two steps):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>FIRST using B's modulus, with B's PUBLIC encryption power, SECOND using A's own </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>modulus, with A's PRIVATE decryption power:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A_first := B_second&amp;^eb mod nb;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK131.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK132.gif" width=888 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A_second := A_first&amp;^da mod na;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK133.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK134.gif" width=160 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(A_second);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK135.gif" width=434 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now let A reply with the message:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>You're joking! &#163;2,000,000 and it's yours. You'll recoup all with contract. Leave cash usual place.<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A_num := to_number(`You're joking! &#163;2,000,000 and it's yours. You'll recoup all with contract. Leave cash usual place.`);</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK136.gif" width=951 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK137.gif" width=720 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(A_num);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK138.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(na);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK139.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Again, because length(A_num) &lt; na, the message can be sent as a single block.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A_first := A_num&amp;^da mod na;  # SMALLER modulus first</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK140.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK141.gif" width=888 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>A_second := A_first&amp;^eb mod nb;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK142.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK143.gif" width=952 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK144.gif" width=136 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>A_second is what B receives, and B now proceeds to decrypt A's message as follows </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(simply reversing the last two steps):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>B_first := A_second&amp;^db mod nb;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK145.gif" width=956 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK146.gif" width=888 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>B_second := B_first&amp;^ea mod na;</font></b>
+</p>
+<p align=left>
+<img src="images/CIT_TALK147.gif" width=950 height=19 alt="[Maple Math]">
+<br>
+<img src="images/CIT_TALK148.gif" width=736 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(B_second);</font></b>
+</p>
+<p align=center>
+<img src="images/CIT_TALK149.gif" width=658 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:37 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

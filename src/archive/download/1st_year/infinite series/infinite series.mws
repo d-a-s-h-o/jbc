@@ -1,0 +1,410 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 
+0 0 0 0 128 1 0 1 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "Title" 0 18 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 1 }3 0 0 -1 12 12 
+0 0 0 0 0 0 19 0 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "# infinite_series.mw
+s" }}}{EXCHG {PARA 18 "" 0 "" {TEXT -1 15 "Infinite Series" }}{PARA 0 
+"" 0 "" {TEXT -1 23 "These notes are only a " }{TEXT 311 7 "summary" }
+{TEXT -1 247 " of ideas discussed (with a certain amount of handwaving
+!) in lectures, and represent no more than the bones. They also briefl
+y summarise the type of numerical computations I performed in lectures
+, or that you practiced in the computer laboratory." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "A central concern was t
+he " }{TEXT 310 8 "meaning " }{TEXT -1 95 "of the sum of an infinite s
+eries. Our discussion was helped (I believe) by keeping in mind the " 
+}{TEXT 312 46 "historic first occurence of an infinite series" }{TEXT 
+-1 9 ", namely:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" 
+{XPPEDIT 18 0 "1+1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/(4^5);" "6#,.\"\"\"F$*&
+F$F$\"\"%!\"\"F$*&F$F$*$F&\"\"#F'F$*&F$F$*$F&\"\"$F'F$*&F$F$*$F&F&F'F$
+*&F$F$*$F&\"\"&F'F$" }{TEXT -1 7 " + ... " }{TEXT 257 18 "ad infinitum
+      " }{TEXT -1 5 "( i )" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 392 "which occured in a completely natural way in the
+ work of the renowned Greek mathematician Archimedes (that work - the \+
+determination of the exact area of a parabolic segment - is discussed \+
+elsewhere; see the Maple worksheet Archimedes_area.mws, also Archimede
+s_diagrams.mws, and area_of_triangle.mws), and which - in modern notat
+ion - is:\n                                                      " }
+{XPPEDIT 18 0 "Sum(1/(4^(k-1)),k = 1 .. infinity);" "6#-%$SumG6$*&\"\"
+\"F')\"\"%,&%\"kGF'F'!\"\"F,/F+;F'%)infinityG" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "In summary, our
+ aim in these notes is to:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+15 "" 0 "" {TEXT -1 32 "Give a formal definition of the " }{TEXT 258 
+25 "sum of an infinite series" }{TEXT -1 59 " (convergence, divergence
+, ... )\nThat definition will come " }{TEXT 262 10 "at the end" }
+{TEXT -1 35 ", by which time - I hope - it will " }{TEXT 260 10 "make \+
+sense" }}{PARA 15 "" 0 "" {TEXT -1 93 "Determine the sums of some stan
+dard infinite series, including\n\n1. Archimedes' classic sum:  " }
+{XPPEDIT 18 0 "1+1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/(4^5)" "6#,.\"\"\"F$*&F
+$F$\"\"%!\"\"F$*&F$F$*$F&\"\"#F'F$*&F$F$*$F&\"\"$F'F$*&F$F$*$F&F&F'F$*
+&F$F$*$F&\"\"&F'F$" }{TEXT -1 9 " + ... = " }{XPPEDIT 18 0 "4/3;" "6#*
+&\"\"%\"\"\"\"\"$!\"\"" }{TEXT -1 115 "\n\n2. The sum of the reciproca
+ls of the products of consecutive natural numbers:\n\n                \+
+                  " }{XPPEDIT 18 0 "1/1.2+1/2.3+1/3.4;" "6#,(*&\"\"\"F
+%$\"#7!\"\"F(F%*&F%F%$\"#BF(F(F%*&F%F%$\"#MF(F(F%" }{TEXT -1 9 " + ...
+ + " }{XPPEDIT 18 0 "1/(n*(n+1));" "6#*&\"\"\"F$*&%\"nGF$,&F&F$F$F$F$!
+\"\"" }{TEXT -1 3 " + " }{TEXT 270 12 "ad infinitum" }{TEXT -1 3 " = \+
+" }{XPPEDIT 18 0 "1;" "6#\"\"\"" }{TEXT -1 56 "\n\nThus one knows that
+ the sum of the reciprocals of the " }{TEXT 269 11 "triangular " }
+{TEXT -1 87 "numbers (1, 3, 6, 10, 15, ... ) is 2.\n[ Note. The 'trian
+gular' numbers are the numbers " }{XPPEDIT 18 0 "1,1+2,1+2+3,1+2+3+4;
+" "6&\"\"\",&F#F#\"\"#F#,(F#F#F%F#\"\"$F#,*F#F#F%F#F'F#\"\"%F#" }
+{TEXT -1 19 ", ... , and so the\n" }{XPPEDIT 18 0 "n^th;" "6#)%\"nG%#t
+hG" }{TEXT -1 22 " triangular number is " }{XPPEDIT 18 0 "n*(n+1)/2;" 
+"6#*(%\"nG\"\"\",&F$F%F%F%F%\"\"#!\"\"" }{TEXT -1 118 ". ] An especial
+ly striking feature of that infinite series is how easily its sum can \+
+be obtained (and, indeed, can be " }{TEXT 271 15 "quickly guessed" }
+{TEXT -1 249 " when one has done certain calculations that you have se
+en), especially when one compares it to the historic difficulty of att
+empting to find the sum of the (similar looking) infinite series in 3.
+\n\n3. The sum of the reciprocals of the squares:\n\n    " }{XPPEDIT 
+18 0 "1/1.1+1/2.2+1/3.3;" "6#,(*&\"\"\"F%$\"#6!\"\"F(F%*&F%F%$\"#AF(F(
+F%*&F%F%$\"#LF(F(F%" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "1/n.n;" "
+6#-%\".G6$*&\"\"\"F'%\"nG!\"\"F(" }{TEXT -1 18 " + ad infinitum = " }
+{XPPEDIT 18 0 "1/(1^2)+1/(2^2)+1/(3^2);" "6#,(*&\"\"\"F%*$F%\"\"#!\"\"
+F%*&F%F%*$F'F'F(F%*&F%F%*$\"\"$F'F(F%" }{TEXT -1 9 " + ... + " }
+{XPPEDIT 18 0 "1/(n^2);" "6#*&\"\"\"F$*$%\"nG\"\"#!\"\"" }{TEXT -1 3 "
+ + " }{TEXT 272 12 "ad infinitum" }{TEXT -1 140 " \n\nFinding the sum \+
+of that series resisted solution for many, many years, until the great
+ Leonard Euler showed that its sum is (remarkably) " }{XPPEDIT 18 0 "P
+i^2/6;" "6#*&%#PiG\"\"#\"\"'!\"\"" }{TEXT -1 2 ".\n" }}{PARA 15 "" 0 "
+" {TEXT -1 110 "Establish the divergence of some standard infinite ser
+ies, including Nicole Oresme's classic\nproof that the ' " }{TEXT 261 
+15 "harmonic series" }{TEXT -1 3 " ' " }{XPPEDIT 18 0 "1/1+1/2+1/3+1/4
++1/5;" "6#,,*&\"\"\"F%F%!\"\"F%*&F%F%\"\"#F&F%*&F%F%\"\"$F&F%*&F%F%\"
+\"%F&F%*&F%F%\"\"&F&F%" }{TEXT -1 110 " + ... \" diverges to (plus) in
+finity \"\nPronunciation. Oresme (French, 1320 (?) - 1382) is pronounc
+ed \" Ore'm \"" }}{PARA 15 "" 0 "" {TEXT -1 75 "Comment on some diverg
+ent series whose divergence is not easily established" }}{PARA 15 "" 
+0 "" {TEXT -1 82 "Discuss the convergence of certain infinite series w
+hose sums are not easily found" }}{PARA 15 "" 0 "" {TEXT -1 68 "Remark
+ on some unsolved problems in connection with infinite series\n" }}
+{PARA 0 "" 0 "" {TEXT 268 47 "Our starting point, Archimedes' infinite
+ series" }{TEXT -1 55 ". That series is an infinite geometric series, \+
+and one " }{TEXT 263 19 "might naively think" }{TEXT -1 37 " that its \+
+sum can be easily obtained " }{TEXT 273 19 "without any trouble" }
+{TEXT -1 45 " by simply saying/doing something like this:\n" }}{PARA 
+0 "" 0 "" {TEXT -1 18 "Let               " }{XPPEDIT 18 0 "S;" "6#%\"S
+G" }{TEXT -1 4 "  = " }{XPPEDIT 18 0 "1+1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/
+(4^5);" "6#,.\"\"\"F$*&F$F$\"\"%!\"\"F$*&F$F$*$F&\"\"#F'F$*&F$F$*$F&\"
+\"$F'F$*&F$F$*$F&F&F'F$*&F$F$*$F&\"\"&F'F$" }{TEXT -1 7 " + ... " }
+{TEXT 264 12 "ad infinitum" }}{PARA 0 "" 0 "" {TEXT -1 14 "then       \+
+   " }{XPPEDIT 18 0 "1/4;" "6#*&\"\"\"F$\"\"%!\"\"" }{XPPEDIT 18 0 "S;
+" "6#%\"SG" }{TEXT -1 5 "  =  " }{XPPEDIT 18 0 "1/4;" "6#*&\"\"\"F$\"
+\"%!\"\"" }{TEXT -1 3 " ( " }{XPPEDIT 18 0 "1+1/4+1/(4^2)+1/(4^3)+1/(4
+^4)+1/(4^5);" "6#,.\"\"\"F$*&F$F$\"\"%!\"\"F$*&F$F$*$F&\"\"#F'F$*&F$F$
+*$F&\"\"$F'F$*&F$F$*$F&F&F'F$*&F$F$*$F&\"\"&F'F$" }{TEXT -1 46 " + ...
+ ad infinitum)\n                        =" }{TEXT 265 8 "        " }
+{XPPEDIT 18 0 "1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/(4^5)+1/(4^6);" "6#,.*&\"
+\"\"F%\"\"%!\"\"F%*&F%F%*$F&\"\"#F'F%*&F%F%*$F&\"\"$F'F%*&F%F%*$F&F&F'
+F%*&F%F%*$F&\"\"&F'F%*&F%F%*$F&\"\"'F'F%" }{TEXT -1 7 " + ... " }
+{TEXT 266 12 "ad infinitum" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+11 "thus       " }{XPPEDIT 18 0 "S-1/4;" "6#,&%\"SG\"\"\"*&F%F%\"\"%!
+\"\"F(" }{XPPEDIT 18 0 "S;" "6#%\"SG" }{TEXT -1 3 " = " }{XPPEDIT 18 
+0 "1;" "6#\"\"\"" }{TEXT -1 4 " + (" }{XPPEDIT 18 0 "1/4-1/4;" "6#,&*&
+\"\"\"F%\"\"%!\"\"F%*&F%F%F&F'F'" }{TEXT -1 5 ") + (" }{XPPEDIT 18 0 "
+1/(4^2)-1/(4^2);" "6#,&*&\"\"\"F%*$\"\"%\"\"#!\"\"F%*&F%F%*$F'F(F)F)" 
+}{TEXT -1 5 ") + (" }{XPPEDIT 18 0 "1/(4^3)-1/(4^3);" "6#,&*&\"\"\"F%*
+$\"\"%\"\"$!\"\"F%*&F%F%*$F'F(F)F)" }{TEXT -1 9 ") +  ... " }{TEXT 
+267 12 "ad infinitum" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "giv
+ing " }{XPPEDIT 18 0 "S(1-1/4) = 1;" "6#/-%\"SG6#,&\"\"\"F(*&F(F(\"\"%
+!\"\"F+F(" }{TEXT -1 9 ", and so " }{XPPEDIT 18 0 "S;" "6#%\"SG" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/(1-1/4) = 1/(3/4);" "6#/*&\"\"\"F%,
+&F%F%*&F%F%\"\"%!\"\"F)F)*&F%F%*&\"\"$F%F(F)F)" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "4/3;" "6#*&\"\"%\"\"\"\"\"$!\"\"" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 91 "That's fine, isn't it? Well, yes and no..
+.:\n\nIf that is fine, then why not this as well?:\n\n" }{TEXT 274 5 "
+Claim" }{TEXT -1 10 ". For all " }{XPPEDIT 18 0 "r <> 1;" "6#0%\"rG\"
+\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "1+r+r^2+r^3+r^4;" "6#,,\"\"\"F$
+%\"rGF$*$F%\"\"#F$*$F%\"\"$F$*$F%\"\"%F$" }{TEXT -1 7 " + ... " }
+{TEXT 275 12 "ad infinitum" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/(1-r);
+" "6#*&\"\"\"F$,&F$F$%\"rG!\"\"F'" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT 276 8 "Argument" }{TEXT -1 54 " (identical to above, except that
+ the particular case " }{XPPEDIT 18 0 "r = 1/4;" "6#/%\"rG*&\"\"\"F&\"
+\"%!\"\"" }{TEXT -1 26 " is replaced with general " }{XPPEDIT 18 0 "r \+
+<> 1;" "6#0%\"rG\"\"\"" }{TEXT -1 41 ", and the reason forhaving to in
+sist on '" }{XPPEDIT 18 0 "r <> 1;" "6#0%\"rG\"\"\"" }{TEXT -1 23 "' i
+s entirely evident)." }}{PARA 0 "" 0 "" {TEXT -1 14 "Let           " }
+{XPPEDIT 18 0 "S;" "6#%\"SG" }{TEXT -1 4 "  = " }{XPPEDIT 18 0 "1+r+r^
+2+r^3+r^4+r^5;" "6#,.\"\"\"F$%\"rGF$*$F%\"\"#F$*$F%\"\"$F$*$F%\"\"%F$*
+$F%\"\"&F$" }{TEXT -1 7 " + ... " }{TEXT 257 12 "ad infinitum" }}
+{PARA 0 "" 0 "" {TEXT -1 12 "then        " }{XPPEDIT 18 0 "rS;" "6#%#r
+SG" }{TEXT -1 5 "  =  " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 2 " (
+" }{XPPEDIT 18 0 "1+r+r^2+r^3+r^4+r^5" "6#,.\"\"\"F$%\"rGF$*$F%\"\"#F$
+*$F%\"\"$F$*$F%\"\"%F$*$F%\"\"&F$" }{TEXT -1 44 "  + ... ad infinitum)
+\n                     =" }{TEXT 258 11 "           " }{XPPEDIT 18 0 "
+r+r^2+r^3+r^4+r^5+r^6;" "6#,.%\"rG\"\"\"*$F$\"\"#F%*$F$\"\"$F%*$F$\"\"
+%F%*$F$\"\"&F%*$F$\"\"'F%" }{TEXT 277 2 "  " }{TEXT -1 6 "  ... " }
+{TEXT 259 12 "ad infinitum" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+5 "thus " }{XPPEDIT 18 0 "S-rS;" "6#,&%\"SG\"\"\"%#rSG!\"\"" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "1;" "6#\"\"\"" }{TEXT -1 4 " + (" }
+{XPPEDIT 18 0 "r-r;" "6#,&%\"rG\"\"\"F$!\"\"" }{TEXT -1 5 ") + (" }
+{XPPEDIT 18 0 "r^2-r^2;" "6#,&*$%\"rG\"\"#\"\"\"*$F%F&!\"\"" }{TEXT 
+-1 5 ") + (" }{XPPEDIT 18 0 "r^3-r^3;" "6#,&*$%\"rG\"\"$\"\"\"*$F%F&!
+\"\"" }{TEXT -1 9 ") +  ... " }{TEXT 260 12 "ad infinitum" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "giving " }{XPPEDIT 18 0 "S(1-r) = 1
+;" "6#/-%\"SG6#,&\"\"\"F(%\"rG!\"\"F(" }{TEXT -1 20 ", and so, providi
+ng " }{XPPEDIT 18 0 "r <> 1;" "6#0%\"rG\"\"\"" }{TEXT -1 9 ", we get \+
+" }{XPPEDIT 18 0 "S;" "6#%\"SG" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/(1
+-r);" "6#*&\"\"\"F$,&F$F$%\"rG!\"\"F'" }{TEXT -1 2 ". " }}{PARA 0 "" 
+0 "" {TEXT 278 8 "Question" }{TEXT -1 69 ". What's wrong with that 'ar
+gument' (why don't I call it a 'proof'?) " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 279 6 "Answer" }{TEXT -1 72 ". It should be immediately ev
+ident that all is not well, that something " }{TEXT 280 6 "stinks" }
+{TEXT -1 7 ". Just " }{TEXT 281 5 "think" }{TEXT -1 39 " about what ha
+ppens when, for example, " }{XPPEDIT 18 0 "r = 2;" "6#/%\"rG\"\"#" }
+{TEXT -1 7 ". When " }{XPPEDIT 18 0 "r = 2;" "6#/%\"rG\"\"#" }{TEXT 
+-1 2 ", " }{XPPEDIT 18 0 "1/(1-r) = 1/(1-2);" "6#/*&\"\"\"F%,&F%F%%\"r
+G!\"\"F(*&F%F%,&F%F%\"\"#F(F(" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/(-1
+) = -1;" "6#/*&\"\"\"F%,$F%!\"\"F',$F%F'" }{TEXT -1 15 ". So? Well one
+ " }{TEXT 290 20 "could hardly believe" }{TEXT -1 7 " that '" }
+{XPPEDIT 18 0 "-1;" "6#,$\"\"\"!\"\"" }{TEXT -1 35 "' is the value of \+
+the infinite sum " }{XPPEDIT 18 0 "1+2+2^2+2^3+2^4" "6#,,\"\"\"F$\"\"#
+F$*$F%F%F$*$F%\"\"$F$*$F%\"\"%F$" }{TEXT -1 108 " + ... (or even any p
+artial sum formed from it)!! That a sum, whether it be a finite or an \+
+infinite sum, of " }{TEXT 282 8 "positive" }{TEXT -1 31 " numbers shou
+ld come out to be " }{TEXT 283 8 "negative" }{TEXT -1 49 "!! [As an as
+ide let me briefly remark that there " }{TEXT 287 2 "is" }{TEXT -1 57 
+" a system of very, very strange, and remarkable numbers '" }{XPPEDIT 
+18 0 "Q[2];" "6#&%\"QG6#\"\"#" }{TEXT -1 79 "'- well, strange at first
+, but then one almost takes them for granted - called " }{TEXT 284 6 "
+2-adic" }{TEXT -1 18 " numbers, and, in " }{TEXT 288 4 "that" }{TEXT 
+-1 9 " system, " }{XPPEDIT 18 0 "-1;" "6#,$\"\"\"!\"\"" }{TEXT -1 4 " \+
+is " }{TEXT 285 6 "indeed" }{TEXT -1 32 " the sum of the infinite seri
+es " }{XPPEDIT 18 0 "1+2+2^2+2^3+2^4;" "6#,,\"\"\"F$\"\"#F$*$F%F%F$*$F
+%\"\"$F$*$F%\"\"%F$" }{TEXT -1 85 " + ... !! Not many mathematicians w
+ould be familiar with these numbers, or even have " }{TEXT 286 5 "hear
+d" }{TEXT -1 15 " of them.] So, " }{TEXT 289 26 "something is clearly \+
+wrong" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 51 "Consider, again just as an example, the case where " }
+{XPPEDIT 18 0 "r = -1;" "6#/%\"rG,$\"\"\"!\"\"" }{TEXT -1 7 ". Then " 
+}{XPPEDIT 18 0 "1/(1-r) = 1/(1-(-1));" "6#/*&\"\"\"F%,&F%F%%\"rG!\"\"F
+(*&F%F%,&F%F%,$F%F(F(F(" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/2;" "6#*&
+\"\"\"F$\"\"#!\"\"" }{TEXT -1 15 ". So? Well one " }{TEXT 291 20 "coul
+d hardly believe" }{TEXT -1 7 " that '" }{XPPEDIT 18 0 "1/2;" "6#*&\"
+\"\"F$\"\"#!\"\"" }{TEXT -1 40 "' is the value of the infinite sum 1 +
+ (" }{XPPEDIT 18 0 "-1;" "6#,$\"\"\"!\"\"" }{TEXT -1 4 ") + " }
+{XPPEDIT 18 0 "(-1)^2;" "6#*$,$\"\"\"!\"\"\"\"#" }{TEXT -1 3 " + " }
+{XPPEDIT 18 0 "(-1)^3;" "6#*$,$\"\"\"!\"\"\"\"$" }{TEXT -1 158 " + ...
+ (or even any partial sum formed from it)!! That a sum, whether it be \+
+a finite or an infinite sum, of whole numbers ('integers') should come
+ out to be '" }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"F$\"\"#!\"\"" }{TEXT 
+-1 67 "' (which isn't a whole number)!! Again, something is clearly wr
+ong." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 292 32 "
+Letting something out of the bag" }{TEXT -1 178 ". I want to be 'up-fr
+ont' with this as quickly as possible and declare that we (mathematici
+ans) do not 'throw out the baby with the bathwater.' What needs to be \+
+studied is this:\n" }}{PARA 0 "" 0 "" {TEXT -1 8 "What is " }{TEXT 
+293 5 "meant" }{TEXT -1 8 " by the " }{TEXT 294 3 "sum" }{TEXT -1 185 
+" of an infinite series? What emerges is simply this (historically thi
+s didn't happen overnight; it was some time before this clarification \+
+emerged...): not all infinite series actually " }{TEXT 295 4 "have" }
+{TEXT -1 4 " a '" }{TEXT 296 3 "sum" }{TEXT -1 25 ".' Some infinite se
+ries '" }{TEXT 306 8 "converge" }{TEXT -1 11 "' (have a '" }{TEXT 307 
+3 "sum" }{TEXT -1 12 "'), others '" }{TEXT 308 7 "diverge" }{TEXT -1 
+17 "' (don't have a '" }{TEXT 309 3 "sum" }{TEXT -1 68 "'). The above \+
+Archimedean example survives all of this: that series " }{TEXT 298 4 "
+does" }{TEXT -1 20 " have a sum, and it " }{TEXT 297 2 "is" }{TEXT -1 
+1 " " }{XPPEDIT 18 0 "4/3;" "6#*&\"\"%\"\"\"\"\"$!\"\"" }{TEXT -1 14 "
+; in fact the " }{TEXT 300 7 "general" }{TEXT -1 11 " infinite '" }
+{TEXT 299 9 "geometric" }{TEXT -1 11 "' series \n(" }{XPPEDIT 18 0 "1+
+r+r^2+r^3+r^4+r^5" "6#,.\"\"\"F$%\"rGF$*$F%\"\"#F$*$F%\"\"$F$*$F%\"\"%
+F$*$F%\"\"&F$" }{TEXT -1 8 "  + ... " }{TEXT 301 12 "ad infinitum" }
+{TEXT -1 2 ") " }{TEXT 342 4 "does" }{TEXT -1 19 " have a sum, which \+
+" }{TEXT 302 7 "happens" }{TEXT -1 7 " to be " }{XPPEDIT 18 0 "1/(1-r)
+;" "6#*&\"\"\"F$,&F$F$%\"rG!\"\"F'" }{TEXT -1 25 " (our friend above),
+ but " }{TEXT 304 4 "only" }{TEXT -1 5 " for " }{TEXT 303 1 "r" }
+{TEXT -1 13 " satisfying  " }{XPPEDIT 18 0 "-1 < r;" "6#2,$\"\"\"!\"\"
+%\"rG" }{TEXT -1 1 " " }{TEXT 305 3 "and" }{TEXT -1 1 " " }{XPPEDIT 
+18 0 "r < 1;" "6#2%\"rG\"\"\"" }{TEXT -1 61 ".\nSince these are summar
+y notes, I will record here what the " }{TEXT 339 14 "ultimate point" 
+}{TEXT -1 16 " of all of this " }{TEXT 331 2 "is" }{TEXT -1 21 ": an i
+nfinite series " }{XPPEDIT 18 0 "sum(a[n],n = 1 .. infinity);" "6#-%$s
+umG6$&%\"aG6#%\"nG/F);\"\"\"%)infinityG" }{TEXT -1 12 " is said to " }
+{TEXT 333 8 "converge" }{TEXT -1 14 ", and to have " }{TEXT 334 3 "sum
+" }{TEXT -1 1 " " }{TEXT 332 1 "s" }{TEXT -1 34 ", if the sequence of \+
+partial sums " }{XPPEDIT 18 0 "\{s[n]\},n = 1,2,3;" "6&<#&%\"sG6#%\"nG
+/F'\"\"\"\"\"#\"\"$" }{TEXT -1 6 ", ... " }{TEXT 335 12 "ad infinitum
+" }{TEXT -1 9 " - where " }{XPPEDIT 18 0 "s[n] = a[1]+a[2]+a[3];" "6#/
+&%\"sG6#%\"nG,(&%\"aG6#\"\"\"F,&F*6#\"\"#F,&F*6#\"\"$F," }{TEXT -1 9 "
+ + ... + " }{XPPEDIT 18 0 "a[n];" "6#&%\"aG6#%\"nG" }{TEXT -1 9 " - ha
+s a " }{TEXT 338 6 "finite" }{TEXT -1 7 " limit " }{TEXT 336 1 "s" }
+{TEXT -1 4 " as " }{TEXT 337 1 "n" }{TEXT -1 96 " tends to infinity. A
+n expression that I often used was that one might like to think of thi
+s by " }{TEXT 340 6 "saying" }{TEXT -1 24 " that an infinite series" }
+{XPPEDIT 18 0 "sum(a[n],n = 1 .. infinity);" "6#-%$sumG6$&%\"aG6#%\"nG
+/F);\"\"\"%)infinityG" }{TEXT -1 9 " has sum " }{TEXT 256 1 "s" }
+{TEXT -1 1 " " }{TEXT 343 5 "means" }{TEXT -1 88 " that the series' pa
+rtial sums gravitate towards (are pulled towards) the finite number " 
+}{TEXT 341 1 "s" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 100 "Our class discussions were informed by l
+ots of computer lab practice with numerical investigations, " }{TEXT 
+313 6 "seeing" }{TEXT -1 48 " the first 50 (say) partial sums of serie
+s like:" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "Sum(1/(4^(n-
+1)),n = 1 .. infinity);" "6#-%$SumG6$*&\"\"\"F')\"\"%,&%\"nGF'F'!\"\"F
+,/F+;F'%)infinityG" }{TEXT -1 25 " (the Archimedean series)" }}{PARA 
+15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "Sum(1/(n^2),n = 1 .. infinity
+);" "6#-%$SumG6$*&\"\"\"F'*$%\"nG\"\"#!\"\"/F);F'%)infinityG" }{TEXT 
+-1 9 " (namely " }{XPPEDIT 18 0 "1/(1^2)+1/(2^2)+1/(3^2)+1/(4^2);" "6#
+,**&\"\"\"F%*$F%\"\"#!\"\"F%*&F%F%*$F'F'F(F%*&F%F%*$\"\"$F'F(F%*&F%F%*
+$\"\"%F'F(F%" }{TEXT -1 7 " + ... " }}{PARA 15 "" 0 "" {TEXT -1 0 "" }
+{XPPEDIT 18 0 "Sum(1/(n*(n+1)),n = 1 .. infinity);" "6#-%$SumG6$*&\"\"
+\"F'*&%\"nGF',&F)F'F'F'F'!\"\"/F);F'%)infinityG" }{TEXT -1 9 " (namely
+ " }{XPPEDIT 18 0 "1/1.2+1/2.3+1/3.4+1/4.5;" "6#,**&\"\"\"F%$\"#7!\"\"
+F(F%*&F%F%$\"#BF(F(F%*&F%F%$\"#MF(F(F%*&F%F%$\"#XF(F(F%" }{TEXT -1 9 "
+ + ... = " }{XPPEDIT 18 0 "1/2+1/6+1/12+1/20;" "6#,**&\"\"\"F%\"\"#!\"
+\"F%*&F%F%\"\"'F'F%*&F%F%\"#7F'F%*&F%F%\"#?F'F%" }{TEXT -1 8 " + ... )
+" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "Sum(1/n,n = 1 .. in
+finity);" "6#-%$SumG6$*&\"\"\"F'%\"nG!\"\"/F(;F'%)infinityG" }{TEXT 
+-1 9 " (namely " }{XPPEDIT 18 0 "1/1+1/2+1/3+1/4;" "6#,**&\"\"\"F%F%!
+\"\"F%*&F%F%\"\"#F&F%*&F%F%\"\"$F&F%*&F%F%\"\"%F&F%" }{TEXT -1 38 " + \+
+... , the famous 'harmonic' series)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 107 "To save space in the printed hard copy \+
+version of this worksheet I only let 'k' up to '6' in the following:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "s[1] := 1/1^2;\nfor k fro
+m 2 to 6 do\ns[k] := s[k-1] + 1/k^2\nod;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 106 "Of course, b
+y appropriate use of colons in command lines, rather than semi-colons,
+ one may do things like:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 
+"s[1] := 1/1:\nfor k from 2 to 120 do\ns[k] := s[k-1] + 1/k\nod:\ns[12
+0];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "s[120] - s[119];" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT 314 17 "Some observations" }{TEXT -1 3 "
+. \n" }}{PARA 15 "" 0 "" {TEXT -1 80 "Generally it is difficult (and m
+ore often that not it's impossible) to detect a " }{TEXT 325 5 "trend
+" }{TEXT -1 115 " in the partial sums, except to note - and this is ob
+vious without any computations anyway - that the partial sums " }
+{TEXT 326 8 "increase" }{TEXT -1 53 " in value for series with positiv
+e terms. Of course, " }{TEXT 327 2 "if" }{TEXT -1 31 " one can determi
+ne in some way " }{TEXT 330 29 "a nice closed form expression" }{TEXT 
+-1 119 " for the general partial sum of a particular series - so, for \+
+example, with the classic Archimedean series, one has:\n  " }{XPPEDIT 
+18 0 "s[n] = sum(1/(4^(k-1)),k = 1 .. n);" "6#/&%\"sG6#%\"nG-%$sumG6$*
+&\"\"\"F,)\"\"%,&%\"kGF,F,!\"\"F1/F0;F,F'" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "(1-1/(4^n))/(1-1/4) = 1/(1-1/4)-1/(4^n*(1-1/4));" "6#/*
+&,&\"\"\"F&*&F&F&)\"\"%%\"nG!\"\"F+F&,&F&F&*&F&F&F)F+F+F+,&*&F&F&,&F&F
+&*&F&F&F)F+F+F+F&*&F&F&*&)F)F*F&,&F&F&*&F&F&F)F+F+F&F+F+" }{TEXT -1 3 
+" = " }{XPPEDIT 18 0 "4/3-1/(4^n*(1-1/4));" "6#,&*&\"\"%\"\"\"\"\"$!\"
+\"F&*&F&F&*&)F%%\"nGF&,&F&F&*&F&F&F%F(F(F&F(F(" }{TEXT -1 4 "\n\n- " }
+{TEXT 328 4 "then" }{TEXT -1 90 " it is an easy matter to determine th
+e trend, and say what the sum of the infinite series " }{TEXT 329 2 "i
+s" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 81 "The following, which includes Arch
+imedes' classic sum, is a satisfying geometric " }{TEXT 323 12 "illust
+ration" }{TEXT -1 68 " (which I explain in some detail elsewhere) that
+:\n                  " }{XPPEDIT 18 0 "1+r+r^2+r^3;" "6#,*\"\"\"F$%\"r
+GF$*$F%\"\"#F$*$F%\"\"$F$" }{TEXT -1 8 " + ... =" }{XPPEDIT 18 0 "Sum(
+r^(k-1),k = 1 .. infinity) = 1/(1-r);" "6#/-%$SumG6$)%\"rG,&%\"kG\"\"
+\"F+!\"\"/F*;F+%)infinityG*&F+F+,&F+F+F(F,F," }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 4 "for " }{XPPEDIT 18 0 "0 < r;" "6#2\"\"!%\"rG" }
+{TEXT -1 6 "  < 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 317 11 "Attribution" }{TEXT -1 79 ". I came to know of this geom
+etric illustration from a Bill Casselman article, " }{TEXT 318 19 "Pic
+tures and Proofs" }{TEXT -1 36 ", in the November 2000 issue of the " 
+}{TEXT 319 8 "Notices " }{TEXT -1 67 "of the American Mathematical Soc
+iety. Casselman's article begins: \"" }{TEXT 320 42 "One look is bette
+r than a hundred hearings" }{TEXT -1 66 " is what the proverb [he had \+
+earlier quoted a Japanese proverb in " }{TEXT 322 5 "Kanji" }{TEXT -1 
+79 " script] says in a somewhat literal translation. More colloquially
+ in English, " }{TEXT 321 36 "A picture is worth a thousand words." }
+{TEXT -1 107 "\" Casselman also writes: \"A few years ago an undergrad
+uate student of mine came up with a way to illustrate" }{TEXT 324 3 ".
+.." }{TEXT -1 30 " [the infinite geometric sum]\"" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "Of course, the diagrams, \+
+and the " }{TEXT 316 7 "meaning" }{TEXT -1 69 " of those diagrams, req
+uire some explanation... (discussed in class)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "Note that 'd' is for 'dia
+gram' and 'ps' is for 'partial sum.' One should play with " }{TEXT 
+315 7 "varying" }{TEXT -1 243 " the assigned values of 'r', the geomet
+ric ratio, and 'n', the number of partial sums. One should also use 'P
+rojection' set at 'Constrained' (to see true scaling), and one should \+
+reduce the frame speed to see the partiald sums build up slowly." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "with(plots): # needed for us
+e of 'display' in what follows" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 652 "r := .7: n := 12: \nx1 := 1: y1 := 1: x2 := 1+r: y2 := r:  \n
+m := (y2 - y1)/(x2 - x1): # slope\nf := x -> m*(x-x1)+y1:    # line\nc
+ut := 1/(1-r):           # cut x-axis\ncurve := plot(f(x), x=0..cut):
+\nd||1 := PLOT(POLYGONS(\n       [[0, 0], [1, 0],[1, 1], [0, 1]], \n  \+
+      COLOUR(RGB,1/2,1/2,1))) : \nfor i from 2 to n do\nd||i := PLOT(P
+OLYGONS(\n  [[add(r^(k-1), k=1..i-1), 0], \n  [add(r^(k-1), k=1..i), 0
+], \n  [add(r^(k-1), k=1..i), r^(i-1)], \n  [add(r^(k-1), k=1..i-1), r
+^(i-1)]\n   ], COLOUR(RGB,1/2,1/2,1/i))):\n# the 4 'add' form the corn
+ers of the squares\nod:\nfor k to n do\nps||k := display([curve, d||(1
+..k)])\nod:\ndisplay([ps||(1..n)], insequence=true);\n" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 17 }{VIEWOPTS 1 
+1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

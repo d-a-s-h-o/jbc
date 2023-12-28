@@ -1,0 +1,15 @@
+meta:
+    navtitle: true
+    title: true
+    description: true
+    heroimage: true
+    heroimagealt: true
+    hide: true
+    noindex: true
+    owner: true
+    author: true
+    manualdate: true
+    modified: true
+    created: true
+    time: true
+    glossary: true

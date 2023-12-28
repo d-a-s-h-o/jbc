@@ -1,0 +1,20 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 
+1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "# quest2.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 135 "`crypt/alphabet` := `abcdef
+ghijklmnopqrstuvwxyz`\n.`ABCDEFGHIJKLMNOPQRSTUVWXYZ`\n.```1234567890-=
+~!@#$\243%^&*()_+`\n.` ,./<>?;':\"[]\{\}|    `:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 232 
+"to_number := proc(st, string) \nlocal ll, nn, ss, ii;  \nll := length
+(st);\nif ll = 0 then RETURN(0) fi; \nnn := 1;\nfor ii to ll do \nss :
+= SearchText(substring(st, ii .. ii),`crypt/alphabet`);\nnn := 100*nn \+
++ ss \nod;\nnn - 10^(2*ll) \nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 272 "from_n
+umber := proc(nn, integer) \nlocal ss, mm, ll, pp, ii, ans; mm := nn;
+\nll := floor(1/2*trunc(evalf(log10(mm))))+1;\nans := ``; for ii to ll
+ do mm := mm/100;\npp := 100*frac(mm);\nss := substring(`crypt/alphabe
+t`, pp..pp);\nans := cat(ss, ans); mm := trunc(mm)\nod; ans end:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 135 }
+{VIEWOPTS 1 1 0 1 1 1803 }

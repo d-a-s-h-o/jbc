@@ -1,0 +1,794 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{PSTYLE "
+Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 -1 "" 0 1 255 0 255 1 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" 
+-1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# 2_crypto.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 76 "         This entire document has \+
+been produced using 'MAPLE', the 'Computer" }}{PARA 0 "" 0 "" {TEXT 
+-1 75 "         Algebra Software' which is installed on computers in S
+t. Patrick's" }}{PARA 0 "" 0 "" {TEXT -1 76 "         computer laborat
+ory.  Anyone who is interested in finding out about" }}{PARA 0 "" 0 "
+" {TEXT -1 71 "         how to obtain MAPLE is welcome to ask me about
+ it.            " }}{PARA 0 "" 0 "" {TEXT -1 72 "                     \+
+                        ___________________________" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "                       \+
+   PUBLIC LECTURE.   WED. 6th. NOVEMBER 1996." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "                         \+
+ST. PATRICK'S COLLEGE, DRUMCONDRA, DUBLIN 9." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 
+"LECTURE TITLE:                  PRIME NUMBERS and" }}{PARA 0 "" 0 "" 
+{TEXT -1 61 "                                      PUBLIC-KEY CRYPTOGR
+APHY" }}{PARA 0 "" 0 "" {TEXT -1 45 "                                 \+
+            " }}{PARA 0 "" 0 "" {TEXT -1 56 "LECTURER:                \+
+            Dr. JOHN COSGRAVE, " }}{PARA 0 "" 0 "" {TEXT -1 65 "      \+
+                                   MATHEMATICS DEPARTMENT, " }}{PARA 
+0 "" 0 "" {TEXT -1 66 "                                            ST.
+ PATRICK'S COLLEGE," }}{PARA 0 "" 0 "" {TEXT -1 63 "                  \+
+                                  DRUMCONDRA," }}{PARA 0 "" 0 "" 
+{TEXT -1 65 "                                                        D
+UBLIN 9," }}{PARA 0 "" 0 "" {TEXT -1 64 "                             \+
+                           IRELAND." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 59 "E-mail:                              joh
+nbcos@iol.ie (home)" }}{PARA 0 "" 0 "" {TEXT -1 65 "                  \+
+    ___________________________________________" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "AIM of LECTURE:  To expla
+in the fundamental concept of 'public-key cryptography' " }}{PARA 0 "
+" 0 "" {TEXT -1 88 "(a revolutionary development of the past twenty ye
+ars), and to show how 'prime' numbers " }}{PARA 0 "" 0 "" {TEXT -1 48 
+"have played an integral role in its development." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "PLAN of LECTURE:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "1.  What \+
+is 'Cryptography'?  A very brief history for the period to 1976 A.D." 
+}}{PARA 0 "" 0 "" {TEXT -1 5 "     " }}{PARA 0 "" 0 "" {TEXT -1 79 "2.
+  The fundamental idea of public-key cryptography (Diffie and Hellman,
+ 1976)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+62 "3.  A brief mathematical interlude ('modular exponentiation')." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "4.  The r
+ealization of public-key cryptography (Rivest, Shamir and Adleman, 197
+7)." }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 50 "
+5.  Fundamental mathematical ideas for public-key." }}{PARA 0 "" 0 "" 
+{TEXT -1 69 "                          _______________________________
+____________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 72 "                             1.  What is Cryptography?  A brief
+ history." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+87 "[ Etymology: from the Greek 'kryptos logos', meaning 'hidden word'
+.  So 'cryptography' " }}{PARA 0 "" 0 "" {TEXT -1 36 "  is 'secret' or
+ 'hidden' writing. ]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 95 "I will speak on this (and am not making it part of my t
+ext, which I only regard as the 'bones' " }}{PARA 0 "" 0 "" {TEXT -1 
+95 "of my talk) for about five/ten minutes.    At the end of this part
+ of my lecture the key terms " }}{PARA 0 "" 0 "" {TEXT -1 26 "(no pun \+
+intended) will be:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 33 "a.  plaintext (the ordinary text)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "b.  encryption key (what \+
+someone applies to plaintext to disguise it)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "c.  ciphertext (the encrypted f
+orm of the text)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 76 "d.  decryption key (what one applies to ciphertext to rec
+over the plaintext)" }}{PARA 0 "" 0 "" {TEXT -1 69 "                  \+
+        ___________________________________________" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "                       \+
+2.  The fundamental idea of public-key cryptography " }}{PARA 0 "" 0 "
+" {TEXT -1 77 "                              (Diffie and Hellman, Stan
+ford University, 1976)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 24 "Their fundamental paper:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "'New Directions in Cryptography
+', IEEE Transactions on Information Theory," }}{PARA 0 "" 0 "" {TEXT 
+-1 80 "Vol. IT-22, No. 6, November 1976, 644-654. (IEEE is the Institu
+te of Electronic " }}{PARA 0 "" 0 "" {TEXT -1 26 "and Electrical Engin
+eers.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 
+"The opening sentence from their paper read: \"We stand today on the b
+rink " }}{PARA 0 "" 0 "" {TEXT -1 34 "of a revolution in cryptography.
+\" " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "In
+ this paper they proposed the IDEA (and much, much more as well) of" }
+}{PARA 0 "" 0 "" {TEXT -1 70 "'public-key' (as opposed to the classica
+l 'private-key') cryptography." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 37 "I will talk about this in my lecture." }}
+{PARA 0 "" 0 "" {TEXT -1 77 "                                 ________
+____________________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 88 "                           3.  A brief \+
+mathematical interlude ('modular exponentiation')" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "Question: What remainder \+
+does the number 34 'leave' when divided by 13?  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 90 "That's easy.  34 = 13*2 +
+ 8, and so on division by 13 the number 34 'leaves' remainder 8. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 94 "Dividing \+
+numbers by 13 is called 'doing modular arithmetic' with 'modulus' 13, \+
+and this is how" }}{PARA 0 "" 0 "" {TEXT -1 89 "one does it (in MAPLE)
+ with the above example, followed rapidly with some other examples " }
+}{PARA 0 "" 0 "" {TEXT -1 61 "(which I will ask YOU to do in your head
+ before I use MAPLE):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "35 mod 13;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "12343765259695916194
+1949 mod 5461385845;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"+%y$Rw8" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "100000000000000 mod 10000000
+0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 38 "10000000000000000018 mod 100000000000;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#=" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 93 "Another question: What
+ remainder does the number 3 to the power of 5 leave on division by 13
+?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "That
+'s also easy.  3^5 = 243 = 13*18 + 9, and so on division by 13 the num
+ber 3 to the power of 5" }}{PARA 0 "" 0 "" {TEXT -1 278 "leaves remain
+der 9.  Dividing numbers by 13 is - as you know - 'doing modular arith
+metic' with 'modulus' 13; dividing powers of numbers by 13 is called '
+doing modular exponentiation' with modulus 13, and it can of course be
+ done by the MAPLE command which you have already seen:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "3^5 mod 13;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "5^3 mod 13;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "12321^3 mod 873;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$'R" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 92 "But how about
+ finding - for example - the remainder that the number 123456789123456
+781234567" }}{PARA 0 "" 0 "" {TEXT -1 84 "to the power of 987654321987
+654321987654321 leaves on division by 122333444455555?  " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "Let's try it:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "123
+456789123456781234567^987654321987654321987654321 mod 122333444455555;
+" }}{PARA 8 "" 1 "" {TEXT -1 35 "Error, integer too large in context" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 48 "What does that \"Error,
+ object too large\" mean?  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 306 "It means that the number 123456789123456781234
+567^987654321987654321987654321 is too large for MAPLE to handle.  But
+ not only is it too large for MAPLE to handle, it is in fact SO large \+
+that even if it were calculated it would require years to write it out
+ even at a rate of billions of digits per second. " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 103 "But - as you will see la
+ter - this (the finding of the remainder) is precisely the sort of cal
+culation " }}{PARA 0 "" 0 "" {TEXT -1 93 "that one needs to be able to
+ do in 'public-key' cryptograhy.  Number theorists have known for" }}
+{PARA 0 "" 0 "" {TEXT -1 296 "many years how to do this sort of calcul
+ation.  It is done by a combination of methods: ordinary 'modular' ari
+thmetic, together with what is called the 'square and multiply' method
+.  The details of this would take some time to explain, and so you mus
+t allow me to skip gently by them (the details" }}{PARA 0 "" 0 "" 
+{TEXT -1 60 "are actually quite simple, and I teach them to my student
+s)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 101 "M
+APLE has an inbuilt facility for doing 'modular exponentiation', and h
+ere I illustrate it with a few" }}{PARA 0 "" 0 "" {TEXT -1 95 "example
+s, starting with the ones with which you are already familiar, and the
+n moving on to the" }}{PARA 0 "" 0 "" {TEXT -1 46 "one that led to the
+ \"Error, object too large\":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "3&^5 mod 13;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "5&^
+3 mod 13;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 17 "12321&^3 mod 873;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$'R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "A
+nd now - much more dramatically - the earlier \"Error\" one, and onoth
+er one:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 74 "123456789123456781234567&^987654321987654321987654321 mod 1223
+33444455555;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"/n1+`>LI" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 12 "Instantly!!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 44 "You see the difference in the 'commands'?   " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 "The earlier com
+mand was of the form a^b mod m.  In that form MAPLE was being asked to
+ " }}{PARA 0 "" 0 "" {TEXT -1 73 "FIRST calculate a^b, and THEN calcul
+ate the remainder on division by m.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 85 "The latter command was of the form a&
+^b mod m.  In that form MAPLE was being asked to" }}{PARA 0 "" 0 "" 
+{TEXT -1 86 "use modular arithmetic TOGETHER with the (INCREDIBLY FAST
+) square-and-multiply method." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 17 "One more example:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 79 "2086822056296502560
+265&^3548276254987776266 mod 931987294968252720194941649999;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"?c]blI-p'zmbV/vo&" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "        \+
+                         " }}{PARA 0 "" 0 "" {TEXT -1 192 "Later you w
+ill see why we need to be able to do such calculations.               \+
+                                                                   ___
+_________________________________________" }}{PARA 0 "" 0 "" {TEXT -1 
+28 "                            " }}{PARA 0 "" 0 "" {TEXT -1 77 "     \+
+                       4.  The realization of public-key cryptography \+
+by" }}{PARA 0 "" 0 "" {TEXT -1 76 "                                   \+
+ Rivest, Shamir and Adleman of MIT, 1977." }}{PARA 0 "" 0 "" {TEXT -1 
+77 "                            (MIT = the Massachusetts Institute of \+
+Technology)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 24 "Their fundamental paper:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 88 "'A method for obtaining digital signature
+s and public-key cryptosystems', Communications" }}{PARA 0 "" 0 "" 
+{TEXT -1 74 "of the ACM (Association for Computing Machines), Vol. 21,
+ (1978), 120-126." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 90 "Their paper began: \"An encryption method is presented wi
+th the novel property that publcly" }}{PARA 0 "" 0 "" {TEXT -1 91 "rev
+ealing an encryption key does not thereby reveal the corresponding dec
+ryption key. This " }}{PARA 0 "" 0 "" {TEXT -1 31 "has two important c
+onsequences:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 73 "(1) Couriers or other secure means ane not needed to transmit k
+eys, ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 201 "(2) A message can be \"signed\" using a privately held encrypt
+ion key. Anyone can verify this                   signature using the \+
+corresponding piblicly revealed encryption key.   Signatures cannot be
+ " }}{PARA 0 "" 0 "" {TEXT -1 190 "     forged, and a signer cannot le
+ter deny the validity of his signature.    This has obvious           \+
+     applications in \"electronic mail\" and \"electronic funds transf
+er\" systems. ... ." }}{PARA 0 "" 0 "" {TEXT -1 79 "                  \+
+                  ___________________________________________" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 187 "The work
+ of Rivest, Shamir and Adleman first gained widespread public attentio
+n when it was brilliantly explained by Martin Garnder in his 'Scientif
+ic American' Mathematical Games column " }}{PARA 0 "" 0 "" {TEXT -1 
+60 "in the August 1977 issue.  The header for that article read:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "         \+
+           \"A new kind of cipher that would take millions of years to
+ break\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+93 "It was in that article that the famous RSA_129 'challenge number' \+
+first made its appearance. " }}{PARA 0 "" 0 "" {TEXT -1 48 "I will hav
+e things to say about that later ... ." }}{PARA 0 "" 0 "" {TEXT -1 79 
+"                                    _________________________________
+__________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 290 "WHAT IT'S ALL GOING TO BE ABOUT.  In a nutshell, what I am goi
+ng to attempt to explain to you reduces to this: You know what a prime
+ number is (2, 3, 5, 7, 11, 13, ... ).  There are an 'infinite' number
+ of them (Euclid), and if I were to choose two SMALL primes and NOT re
+veal them to you, " }}{PARA 0 "" 0 "" {TEXT -1 96 "BUT told you their \+
+product, THEN you would have NO difficulty in telling me what the two \+
+primes " }}{PARA 0 "" 0 "" {TEXT -1 163 "were.  Say, for example, I to
+ld you their product was 91; then after a moment's reflection you woul
+d be able to tell me that the primes I had chosen were 7 and 13." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 188 "BUT if I
+ were to choose two 'LARGE' primes and not reveal them to you, and I t
+old you their product, then you (and not only you, but - for example -
+ the US National Security Agency) would " }}{PARA 0 "" 0 "" {TEXT -1 
+325 "find it VIRTUALLY IMPOSSIBLE (in a sense which I will be more exp
+licit about later) to tell me what the two primes were.   It is this (
+current) VIRTUAL IMPOSSIBILITY that Rivest, Shamir and Adleman exploit
+ed to create an \"unbreakable cryptographic protocol\" (there are rese
+rvations which I will explain later in the lecture)." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "So, keep your eye open \+
+for the PRODUCT of TWO prime numbers in what follows ... ." }}{PARA 0 
+"" 0 "" {TEXT -1 64 "                                 ________________
+_______________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 91 "Here I will throw you in at the deep end, and then embark
+ on a mathematical journey at the " }}{PARA 0 "" 0 "" {TEXT -1 36 "end
+ of which I hope you will 'know'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 68 "                               \" We shal
+l not cease from exploration" }}{PARA 0 "" 0 "" {TEXT -1 65 "         \+
+                        And the end of all our exploring" }}{PARA 0 "
+" 0 "" {TEXT -1 67 "                                 Will be to arrive
+ where we started" }}{PARA 0 "" 0 "" {TEXT -1 73 "                    \+
+             And know the place for the first time. \"" }}{PARA 0 "" 
+0 "" {TEXT -1 81 "                                                    \+
+                 (T.S. Eliot)" }}{PARA 0 "" 0 "" {TEXT -1 63 "        \+
+                       ________________________________" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 202 "The first thing I d
+o (and this is elementary) is to give instructions for converting plai
+ntext into numerical form, according to the associations: a with 1, b \+
+with 2, ... , z with 26, A with 27, B with " }}{PARA 0 "" 0 "" {TEXT 
+-1 109 "28, ... , Z with 52, ` (the 'backward quote' sign) with 53, 1 \+
+with 54, 2 with 55, ... , 9 with 62, 0 with 63," }}{PARA 0 "" 0 "" 
+{TEXT -1 113 "- (the minus sign) with 64, ... , ( - the left round bra
+cket - with 75, ... , a 'space' with 79, ... , and so on." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 284 "[ These instructi
+ons were communicated to me - via the Internet - by Joe Riel, an engin
+eer working      in California. I sent out an enquiry via the 'Maple U
+sers Group' asking for help with this, and within    hours I had sever
+al helpful responses, the best of which was Joe Riel's. ]" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 95 "The following is s
+imply to instruct MAPLE as to which letters (small and large case), nu
+merals," }}{PARA 0 "" 0 "" {TEXT -1 38 "punctuation marks, etc. I wish
+ to use:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 135 "`crypt/alphabet` := \n`abcdefghijklmnopqrstuvwxyz`\n
+ .`ABCDEFGHIJKLMNOPQRSTUVWXYZ`\n .```1234567890-=~!@#$\243%^&*()_+`\n \+
+.` ,./<>?;':\"[]\{\}|`:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+79 "The following sets up the association between the terms of the 'cr
+ypt/alphabet'" }}{PARA 0 "" 0 "" {TEXT -1 24 "and the numbers 1 to 95.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+369 "to_number := proc(st, string) local ll, nn, ss, ii;\nglobal `cryp
+t/alphabet`; ll := length(st);\nif ll = 0 then RETURN(0) fi; nn := 1;
+\nfor ii to ll do ss := SearchText(substring(st, ii .. ii),\n`crypt/al
+phabet`);\nif not type(ss, numeric) or ss = 0 then\nERROR(`the letter \+
+`.(substring(st, ii .. ii))\n.` is not in the alphabet`)\nfi; nn := 10
+0*nn + ss od;\nnn - 10^(2*ll) end:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "Some examples
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+46 "to_number(`Welcome to St. Patrick's College`);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"[o02077:H!)>)=J!4=?,U!G3_/e,-eI^J?^!\\" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 22 "And a much longer one:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "[Added afterwards for people to whom I se
+nd this worksheet: This next one" }}{PARA 0 "" 0 "" {TEXT -1 82 "may l
+ead to an 'Error' message ('strings') for you, and you may need to cha
+nge it." }}{PARA 0 "" 0 "" {TEXT -1 70 "I just wanted to write a messa
+ge with a great variety of signs in it.]" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 282 "to_number(`There are - at t
+he moment - US$1.60 to IR\2431 (the Irish 'punt').  In one of George O
+rwell's letters (in the 4-volume Penguin edition) you may read that at
+ one time the rate was US$5 to St\2431.  Do you remember the term 'hal
+f a dollar'? It was two shillings and sixpence!!`);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#\"c\\mnn0.90;C4>![S6+)>2947743>!eJ--)>,B!3_.o)))=,77:
+/!=+o?6!3)3Q\"=0?!e!3?!)=0-8080=!=_^-e,.3G[:2_/e,-)eqXZ!)>,B!e+7!=!e!3
+?!eI\"4?!eS^,37+37!3?![5]!=!e7I,=_^-yZ^\"4?4/0![\"4@290U!eI6A^@Uw0e!3?
+![\"4w!)>=0??07!)>)G@^I#=T!eq!=:0L!o],eS^,[^.3Gy()3U6i\")3)3>4=N!e!3?w
+![:Za.e,-Q'f#[0du/[13U^I^J,e!3?!37+[1e!=,!e!=03Y" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 2 "  " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 81 "The
+ '6767' at the end of the output represents '!!', the double exclamati
+on mark." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+68 "And now some instructions to recover a text from its numerical for
+m:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+527 "from_number := proc(nn, integer) \nlocal ss, mm, ll, pp, ii, ans;
+\nglobal `crypt/alphabet`; mm := nn;\nll := floor(1/2*trunc(evalf(log1
+0(mm))))+1;\nans := ``; for ii to ll do mm := mm/100;\npp := 100*frac(
+mm);\nif pp > length(`crypt/alphabet`) then ERROR\n#(`there is no lett
+er in the alphabet corresponding `\n#.`to the number `.(convert(pp, st
+ring))) fi;\n(`there is NO meaningful text corresponding`\n.` to the n
+umber you have inputted`) fi;\nss := substring(`crypt/alphabet`, pp..p
+p);\nans := cat(ss, ans); mm := trunc(mm)\nod; ans end:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 14 "Some examples:" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "from_number(9501
+02030495);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'|grabcd|grG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 60 "And now I take the number you have just seen, and adjoin \+
+an " }}{PARA 0 "" 0 "" {TEXT -1 20 "extra 96 at the end:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "from_number(
+95010203049596);" }}{PARA 8 "" 1 "" {TEXT -1 97 "Error, (in from_numbe
+r) there is NO meaningful text corresponding to the number you have in
+putted" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 82 "from_number(30050118803615081481805115211
+880120503202118058023011980191580828282);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%CDear~John,~Your~lecture~was~so~...G" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 104 "
+So much for just taking a text and recasting it in numerical form acco
+rding to the above associations.  " }}{PARA 0 "" 0 "" {TEXT -1 69 "Now
+ to get down to the real business of sending public-key encrypted " }}
+{PARA 0 "" 0 "" {TEXT -1 31 "messages, and their decryption:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "               \+
+               A Cookbook for public-key encryption and decryption." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "I am goi
+ng to show you how SOMEONE can send ME a message that THEY encrypt by \+
+the " }}{PARA 0 "" 0 "" {TEXT -1 95 "'RSA cryptographic protocol' (as \+
+it is called, after its creators, Rivest, Shamir and Adleman)," }}
+{PARA 0 "" 0 "" {TEXT -1 79 "and which THEY do NOT ANYONE TO UNDERSTAN
+D BUT ME, and show you what I then do " }}{PARA 0 "" 0 "" {TEXT -1 25 
+"to decrypt THEIR message." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 85 "It is to be understood that the above numerical a
+ssociations are already agreed upon." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 77 "BEFORE anyone can send me an RSA-encryp
+ted message they have to know what is " }}{PARA 0 "" 0 "" {TEXT -1 94 
+"called my 'public-key'.  My public key is a pair of numbers (n, e).  \+
+The 'n' is what is called" }}{PARA 0 "" 0 "" {TEXT -1 94 "my 'public m
+odulus', and the 'e' is my 'public encryption power'. These are formed
+ as follows:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 91 "The first step is to choose a (reasonably big - more on how big
+ later) random prime number:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 62 "p:=nextprime(5678289499759252694659696599
+9565948474734464644);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"P*pkW
+tu%[fc**f'pfYp_#f(*\\*Gyc" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 47 "and then similarly choose an
+other prime number:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 65 "q:=nextprime(7529658762856826582828448562554749438
+4373773574447);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG\"SfWdtPP%Q%
+\\Zbi&[%GGeEo&Gwe'Hv" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "THOSE 2 PRIME NUMBERS ARE KEPT SE
+CRET." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "
+And then I multiply those two prime numbers together:" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "n:=p*q;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"\\qTG_$=DuLq3&Gf\">)=')[w$[2gYF5u$G2
+Ai&3i4_>weIJL;+**G#ebF%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "That number 'n' is my PUBLIC \+
+MODULUS ('public' in the sense that I do NOT care who" }}{PARA 0 "" 0 
+"" {TEXT -1 17 "knows its value)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "Next I form my a certain number 'e', my '
+public encryption power'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 26 "That is formed as follows:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "First I form a VERY SPECI
+AL number called 'phi_n' which, like p and q above," }}{PARA 0 "" 0 "
+" {TEXT -1 20 "is ALSO KEPT SECRET:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "phi_n:=(p - 1)*(q - 1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%&phi_nG\"\\q%o$[vmd/+\"QI,!4r&4`1z\"R[&4uc
+m$G2Ai&3i4_>weIJL;+**G#ebF%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 86 "Having formed phi_n I then
+ form my 'public encryption exponent' 'e'. That is specially" }}{PARA 
+0 "" 0 "" {TEXT -1 81 "chosen so that there is NO whole number larger \+
+than 1 which is a factor of BOTH e" }}{PARA 0 "" 0 "" {TEXT -1 82 "AND
+ phi_n. [ And so - for example - IF p and q had been 19 and 23, then o
+ne would " }}{PARA 0 "" 0 "" {TEXT -1 86 "NOT choose e to be 15 becaus
+e 3 is a factor of BOTH 15 AND (19 - 1)*(23 - 1). Whereas " }}{PARA 0 
+"" 0 "" {TEXT -1 63 "IF e had been chosen to be 7 (say), then it would
+ be alright. ]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 59 "In practice I choose e to be a large randomly chosen prim
+e:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+38 "e:=nextprime(75859825925924926296969);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"eG\"8LqHE\\#f#f#)fe(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 86 "I have to be \+
+CERTAIN that there is NO whole number larger than 1 which is a factor \+
+of " }}{PARA 0 "" 0 "" {TEXT -1 81 "BOTH e and phi_n. That involves so
+me standard mathematics (called the 'Euclidean " }}{PARA 0 "" 0 "" 
+{TEXT -1 76 "algorithm') - the details of which need not concern you -
+ and is checked by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 70 "igcd(e, phi_n);  # 'igcd' stands for 'integer grea
+test common divisor'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 81 "The MEANING of that '1' is that the ONLY factor of BOTH e
+ and phi_n is 1, and so " }}{PARA 0 "" 0 "" {TEXT -1 15 "here I am saf
+e." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "[ A
+side: here two examples for you to see, with smaller whole numbers inv
+olved: ]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "igcd(15, 22);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "igcd(15, 21);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 87 "Having chosen
+ my PUBLIC encryption exponent e, I then  proceed to calculate my 'PRI
+VATE" }}{PARA 0 "" 0 "" {TEXT -1 81 "decryption exponent' 'd'.  That n
+umber d is the UNIQUE number BETWEEN 1 and phi_n" }}{PARA 0 "" 0 "" 
+{TEXT -1 88 "such that the product of e and d leaves remainder 1 on di
+vision by phi_n.  A FUNDAMENTAL" }}{PARA 0 "" 0 "" {TEXT -1 85 "mathem
+atical point is that d can ONLY be calculated by someone who KNOWS the
+ value of" }}{PARA 0 "" 0 "" {TEXT -1 65 "phi_n, or, what amounts to t
+he same thing, the values of p and q." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 90 "Now that I have chosen - and made kno
+wn my RSA 'public-key' (n, e) - I am ready to receive" }}{PARA 0 "" 0 
+"" {TEXT -1 23 "RSA-encrypted messages." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 82 "So, suppose someone (YOU, let us say
+) wanted to send ME an RSA-encrypted message, " }}{PARA 0 "" 0 "" 
+{TEXT -1 64 "whose plaintext was:   The money is now in your Swiss acc
+ount.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+26 "This is what you would do:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 90 "First you would cast your text into numer
+ical form, using the above agreed instructions:  " }}{PARA 0 "" 0 "" 
+{TEXT -1 18 "                  " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 76 "
+numerical_form_of_text:=to_number(`The money is now in your Swiss acco
+unt`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%7numerical_form_of_textG\"
+go?9@:..,!)>>4BX!)=@:D![\"4!Q_T,)>4!e_S^J,e!3Y" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 87 "and th
+en you would check to see how many digits are in the numerical form of
+ your text:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "length(numerical_form_of_text);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#w" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "You also check how many digits my \+
+'public modulus' n has:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "length(n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"#(*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 90 "With the number which is the numerical form of \+
+your text being LESS than my public modulus" }}{PARA 0 "" 0 "" {TEXT 
+-1 95 "you are now ready to send me your message (I will explain in my
+ lecture what you do otherwise)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 20 "This is what you do:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "You take the number which
+ is the numerical form of your text, and apply 'modular exponentiation
+' " }}{PARA 0 "" 0 "" {TEXT -1 96 "to it, using MY PUBLICLY DECLARED E
+NCRYPTION EXPONENT (e) with MY PUBLICLY DECLARED MODULUS (n):" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 99 "num
+erical_form_of_cipher_text:=numerical_form_of_text&^e mod n;   \n     \+
+     # the transformed text" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%>nume
+rical_form_of_cipher_textG\"[q.[E94y%*=JnD[tNz)R*eQ\\Mo]()\\'f6:c#\\v#
+=oxr&)4E]3T@K'eQ$)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "You then send me the number numeri
+cal_form_of_cipher_text." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 72 "On receipt of your encrypted message I proceed to \+
+decrypt it as follows:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 87 "I would ALREADY have calculated my 'decryption expon
+ent' d. That number d is the UNIQUE" }}{PARA 0 "" 0 "" {TEXT -1 87 "nu
+mber between 1 and phi_n (which is HUGE when p and q are large) such t
+hat the PRODUCT" }}{PARA 0 "" 0 "" {TEXT -1 62 "of e and d leaves rema
+inder 1 on division by the number phi_n." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 92 "The value of 'd' is calculated by \+
+using a method called the 'extended Euclidean algorithm', " }}{PARA 0 
+"" 0 "" {TEXT -1 90 "a simple, but remarkably powerful idea which date
+s from Euclid (300 B.C.).  (This is also " }}{PARA 0 "" 0 "" {TEXT -1 
+40 "something which I teach to my students.)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "igcdex(e, phi_n, x, y);  \+
+ # the 'ex' is the 'extended Euclidean ... '" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 91 "You need not be concerned with w
+hat that 'x' and 'y' is about (thought I will explain it to" }}{PARA 
+0 "" 0 "" {TEXT -1 93 "anyone who wishes to know what's going on); suf
+fice it to say that some powerful Mathematics " }}{PARA 0 "" 0 "" 
+{TEXT -1 91 "is going on behind the scenes, which enables me (the one \+
+who CHOOSE the primes 'p' and 'q' " }}{PARA 0 "" 0 "" {TEXT -1 56 "som
+e time ago) to calculate the 'decryption exponent' d:" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "d:=x mod phi_n;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"dG\"\\q*eKR:<R1#\\S+#)3$o\"p[J
+3$[i+%\\;(G%)oJvS:'feJMB%R%))zCLL*[dU" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 89 "Now that I ha
+ve the value of 'd', the numerical form of the ORIGINAL text is recove
+red by" }}{PARA 0 "" 0 "" {TEXT -1 87 "MY applying modular exponentiat
+ion to the received numerical_form_of_cipher_text, using" }}{PARA 0 "
+" 0 "" {TEXT -1 68 "my PUBLIC modulus n, together with my PRIVATE decr
+yption exponent d:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 73 "numerical_form_of_decoded_text:=numerical_form_of_c
+ipher_text&^d mod n;  " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%?numerical
+_form_of_decoded_textG\"go?9@:..,!)>>4BX!)=@:D![\"4!Q_T,)>4!e_S^J,e!3Y
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 89 "And I now recover the text of the message YOU sent t
+o ME, by transforming the last string" }}{PARA 0 "" 0 "" {TEXT -1 23 "
+of digits into text by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 59 "original_text:=from_number(numerical_form_of_d
+ecoded_text);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.original_textG%GTh
+e~money~is~now~in~your~Swiss~accountG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 85 "Suppose someo
+ne somehow eavesdropped on the above message.   Could they decrypt it?
+  " }}{PARA 0 "" 0 "" {TEXT -1 57 "They could if they knew my PRIVATE \+
+decryption exponent d." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 57 "Let's see what happens if they try GUESSING my PRIVA
+TE d:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "d_guess:=682569569269;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(d_g
+uessG\"-p#p&pDo" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "That guessed value of d would resu
+lt in the following attempted decryption:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 87 "numerical_form_of_attempted_
+decryption := numerical_form_of_cipher_text&^d_guess mod n;" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#>%Gnumerical_form_of_attempted_decryptionG\"
+[q\"p'prdk,b0^Fe07LIB1&oc8T>!poi)**[w6,#Rg`bUU\"[hUyL>$4D" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 79 "which would now result in the following attempt at restoring th
+e original text:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 79 "attempted_original_text := from_number(numerical_form
+_of_attempted_decryption);" }}{PARA 8 "" 1 "" {TEXT -1 97 "Error, (in \+
+from_number) there is NO meaningful text corresponding to the number y
+ou have inputted" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 146 "Of course IF someone did correctl
+y guess my PRIVATE decryption exponent d, then they would be able to r
+ecover the text of the message you sent me." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 95 "I wish to remind you that there
+ is a UNIQUE value for d in the range 1 to phi_n, and so when p " }}
+{PARA 0 "" 0 "" {TEXT -1 100 "and q are large then phi_n ( = (p - 1)*(
+q - 1) ) is large, and so the chances of correctly guessing " }}{PARA 
+0 "" 0 "" {TEXT -1 14 "it are remote." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 99 "And it's not even the case that if on
+e quessed close to d that an eavesdropper would do any better." }}
+{PARA 0 "" 0 "" {TEXT -1 122 "I will illustrate by choosing a guessed \+
+decryption exponent which is 1 less, and then 1 more, than the correct
+ value of d:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "d - 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\\q)eKR:<R
+1#\\S+#)3$o\"p[J3$[i+%\\;(G%)oJvS:'feJMB%R%))zCLL*[dU" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 94 "numerical_form_of_another_attempted_decryption:=\nnum
+erical_form_of_cipher_text&^(d - 1) mod n;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%Onumerical_form_of_another_attempted_decryptionG\"\\q
+zIeeHXS6dT.6%)y<m;`\\?]9!fLupK!=g\"=6f?4a+`dK3*z\\P=u$Q" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 85 "another_attempted_original_text:=from_number(numerica
+l_form_of_attempted_decryption);" }}{PARA 8 "" 1 "" {TEXT -1 97 "Error
+, (in from_number) there is NO meaningful text corresponding to the nu
+mber you have inputted" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "And now let's try the other sid
+e of d:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 6 "d + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\\q!fKR:<R1#\\S+#)3
+$o\"p[J3$[i+%\\;(G%)oJvS:'feJMB%R%))zCLL*[dU" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "nu
+merical_form_of_yet_another_attempted_decryption:=" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 45 "numerical_form_of_cipher_text&^(d + 1) mod n;" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%Snumerical_form_of_yet_another_attem
+pted_decryptionG\"\\qa7\\6KR#fQ!G3>/tw=6Qo!=Q0M&3Y-FsDVAbK***eOX%)=lxD
+3%4z^#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 37 "yet_another_attempted_original_text:=" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "from_number(numerical_form_of_yet_a
+nother_attempted_decryption);" }}{PARA 8 "" 1 "" {TEXT -1 97 "Error, (
+in from_number) there is NO meaningful text corresponding to the numbe
+r you have inputted" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 83 "QUESTION:  Wouldn't a decryption b
+e possible if someone KNEW the values of p and q?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 181 "ANSWER:  Of course.  Any
+one who knew p and q (and who is familiar with the mathematics of calc
+ulating d from phi_n (namely (p - 1)*(q - 1)) would be immediately abl
+e to calculate d." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 96 "QUESTION:  So, isn't it just a question of recovering the
+ values of p and q from the value of n?" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 303 "[Added afterwards: When I was plann
+ing this lecture I had mentally allowed that I would only devote about
+ five minutes to section 1 - the 'private-key' period. To my horror I \+
+found that I spent almost twenty minutes on it, and as a result I only
+ got to this point after almost one hour. I decided not to" }}{PARA 0 
+"" 0 "" {TEXT -1 89 "try the patience of my audience too much, and bro
+ught my lecture to an end at that point." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 92 "As I had printed the text, and mad
+e about fifty photocopies, I was able to give out texts to" }}{PARA 0 
+"" 0 "" {TEXT -1 79 "everyone who was interested (all my copies went, \+
+and I had to post more later)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "There followed a period of about forty mi
+nutes of questions and answers.]" }}{PARA 0 "" 0 "" {TEXT -1 72 "     \+
+                                      _____________________________" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "        \+
+                        5.  Fundamental mathematical ideas for public-
+key." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "I
+t is only possible to touch briefly on these." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "Besides familarity with '
+modular arithmetic' (also known as 'clock' arithmetic, or 'congruences
+')" }}{PARA 0 "" 0 "" {TEXT -1 93 "and the Euclidean algorithm and its
+ 'extension', the key ideas involve the work of two famous" }}{PARA 0 
+"" 0 "" {TEXT -1 76 "mathematicians: Pierre de Fermat (1601-1667) and \+
+Leonhard Euler (1707-1783)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 69 "One of the very many wonderful discoveries that
+ Fermat made was this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 91 "Fermat's 'little' theorem:   If p is any prime numbe
+r and a is any whole number that is NOT" }}{PARA 0 "" 0 "" {TEXT -1 
+96 "divisible by p, then the number a to the power of (p-1), when divi
+ded by p, will leave remainder" }}{PARA 0 "" 0 "" {TEXT -1 5 "of 1." }
+}{PARA 0 "" 0 "" {TEXT -1 70 "                                        \+
+______________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 37 "Some examples to help you understand:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "(1)  Let \+
+" }{XPPEDIT 18 0 "p = 5;" "6#/%\"pG\"\"&" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "a = 2;" "6#/%\"aG\"\"#" }{TEXT -1 8 ", then (" }
+{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 4 ") = " }
+{XPPEDIT 18 0 "5-1;" "6#,&\"\"&\"\"\"\"\"\"!\"\"" }{TEXT -1 55 " = 4, \+
+and so 2 to the power of 4 will leave 1 over when" }}{PARA 0 "" 0 "" 
+{TEXT -1 22 "      divided by 5:   " }{XPPEDIT 18 0 "2^4;" "6#*$\"\"#
+\"\"%" }{TEXT -1 41 " = 16 = 5*3 + 1.   So the remainder is 1." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "(2)  Let \+
+" }{XPPEDIT 18 0 "p = 7;" "6#/%\"pG\"\"(" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "a = 10;" "6#/%\"aG\"#5" }{TEXT -1 8 ", then (" }
+{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 4 ") = " }
+{XPPEDIT 18 0 "7-1;" "6#,&\"\"(\"\"\"\"\"\"!\"\"" }{TEXT -1 56 " = 6, \+
+and so 10 to the power of 6 will leave 1 over when" }}{PARA 0 "" 0 "" 
+{TEXT -1 22 "      divided by 7:   " }{XPPEDIT 18 0 "10^6;" "6#*$\"#5
+\"\"'" }{TEXT -1 51 " = 1000000 = 7*142857 + 1.   So the remainder is \+
+1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "You
+ should verify some examples for yourself in your own time." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "Let's just quic
+kly see some examples with much larger numbers:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "p:=nextprime(123456
+4264327);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\".zVEkXB\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 54 "And now I'll choose an 'a
+' that is NOT divisible by p:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "a:=8675645534;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"aG\"+Mbkv')" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 62 "And now let us check t
+o see what remainder a to the power of (" }{XPPEDIT 18 0 "p-1;" "6#,&%
+\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 26 ") leaves on division by p:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "a&^
+(p - 1) mod p;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 37 "And the next number after a is (a+1):" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "(a+1)&^(p-1) mod p;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 31 "But let me ju
+st show you these:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 42 "30&^10 mod 11;   # here p = 11 and a = 30." }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 59 "31&^10 mod 11;   # p is still 11, but I've changed a \+
+to 31." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 59 "32&^10 mod 11;   # p is still 11, but I've ch
+anged a to 32." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "33&^10 mod 11;   # p is still 11, b
+ut I've changed a to 33." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 85 "The remainder has now come to be 0, because - as you see \+
+- the value of a (33) IS now" }}{PARA 0 "" 0 "" {TEXT -1 16 "divisible
+ by 11." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+81 "Fermat discovered this beautiful theorem in connection with his wo
+rk on primes of" }}{PARA 0 "" 0 "" {TEXT -1 10 "the form (" }{XPPEDIT 
+18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 69 ") (the \+
+subject of my other public lecture, on the recently discovered" }}
+{PARA 0 "" 0 "" {TEXT -1 13 "record prime " }{XPPEDIT 18 0 "2^1257787-
+1;" "6#,&*$\"\"#\"((yd7\"\"\"\"\"\"!\"\"" }{TEXT -1 60 ", but he was u
+nable to give a proof that it was always true." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "The first proof was given
+ by Euler (there were many subsequent ones - including one of " }}
+{PARA 0 "" 0 "" {TEXT -1 41 "my own in 1966 for the special case when \+
+" }{XPPEDIT 18 0 "a = 2;" "6#/%\"aG\"\"#" }{TEXT -1 39 "), and it was \+
+he who went on to give a " }}{PARA 0 "" 0 "" {TEXT -1 37 "'generalizat
+ion' of Fermat's theorem:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 101 "Euler's generalization of Fermat's 'little' theor
+em:  If n is any whole number greater than 1 (prime " }}{PARA 0 "" 0 "
+" {TEXT -1 94 "or not) and a is any whole number such that a and n are
+ NOT both divisible by any whole number" }}{PARA 0 "" 0 "" {TEXT -1 
+84 "greater than 1, then there is a whole number WHOSE VALUE DEPENDS O
+NLY ON THE NUMBER " }}{PARA 0 "" 0 "" {TEXT -1 102 "n itself (which Eu
+ler called phi_n) such that the number a to the power of phi_n will le
+ave remainder " }}{PARA 0 "" 0 "" {TEXT -1 20 "1 when divided by n." }
+}{PARA 0 "" 0 "" {TEXT -1 74 "                                        \+
+ _________________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 64 "When n is itself a prime (the Fermat case
+), then phi_n = n - 1. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 70 "But when n is NOT a prime it is NO longer the case t
+hat phi_n = n - 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 94 "For example: Let n = 4 (the very first example of a NON-P
+RIME greater than 1); then n - 1 = 3." }}{PARA 0 "" 0 "" {TEXT -1 95 "
+Now, choosing a = 7, we have a and n are NOT both divisible by any who
+le number greater than 1." }}{PARA 0 "" 0 "" {TEXT -1 121 "And now let
+ us calculate 7 (namely a) to the power of n - 1 (namely 3), to see wh
+at remainder it leaves on division by n:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "7^3;" "6#*$\"\"(\"\"$" }{TEXT 
+-1 84 " = 7*7*7 = 49*7 = 343 = 4*85 + 3, so it leaves 3 (and NOT 1) ov
+er when divided by 4." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 51 "I could give infinitely many similar examples ... ." }
+}{PARA 0 "" 0 "" {TEXT -1 76 "                                        \+
+____________________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 64 "So, QUESTION:  WHAT is the value of phi
+_n when n is NOT a prime?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 97 "Euler was able to give a COMPLETE answer to this, \+
+but I am going to limit myself to the following" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 407 "PARTIAL ANSWER:  When a \+
+number is NOT a prime then there are an INFINITE number of different p
+ossible shapes that it might have.  It could be the product of two pri
+mes (which might be different or not: 15 = 3*5, 49 = 7*7, etc); it cou
+ld be the product of three primes (which might be different or not: 42
+ = 2*3*7, 12 = 2*2*3, 125 = 5*5*5, etc); it could be the product of fo
+ur (five, six, ... ) primes ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 94 "In the simplest possible case - when n is
+ the product of two DIFFERENT primes, p and q - Euler" }}{PARA 0 "" 0 
+"" {TEXT -1 93 "discovered, and was able to prove, that the value of p
+hi_n was (p - 1)*(q - 1).  So, we have:" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 97 "The simplest case of Euler's general
+ization of Fermat's 'little' theorem:  Let p and q be any two" }}
+{PARA 0 "" 0 "" {TEXT -1 95 "DISTINCT primes, and let phi_n = (p - 1)*
+(q - 1).  Let a be any whole number such that a and n " }}{PARA 0 "" 
+0 "" {TEXT -1 187 "are NOT both divisible by any whole number greater \+
+than 1 (and it can be shown that that is EQUIVALENT to saying that a i
+s NOT divisible by p, and a is NOT divisible by q).  Then a to the" }}
+{PARA 0 "" 0 "" {TEXT -1 56 "power of phi_n will leave remainder 1 whe
+n divided by n." }}{PARA 0 "" 0 "" {TEXT -1 79 "                      \+
+                         ________________________________" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 96 "An example to help
+ you gain some understanding: Let p = 3 and q = 5, and set n = p*q = 3
+*5 = 15." }}{PARA 0 "" 0 "" {TEXT -1 101 "Then phi_n = phi_15 = (3 - 1
+)*(5 - 1) = 2*4 = 8.  Let us choose a = 4.  Then a (4) and n (15) are \+
+NOT" }}{PARA 0 "" 0 "" {TEXT -1 63 "both divisible by any whole number
+ greater than 1, and we have:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 84 "a^phi_n = 4^8 = 4*4*4*4*4*4*4*4 = 65536 =
+ 15*4369 + 1, and so leaves remainder 1 on " }}{PARA 0 "" 0 "" {TEXT 
+-1 26 "division by 15 (namely n)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 49 "You should do some similar examples for y
+ourself." }}{PARA 0 "" 0 "" {TEXT -1 76 "                             \+
+           ____________________________________" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 92 "It is this special case o
+f Euler's theorem (the two distinct primes case) that underpins the" }
+}{PARA 0 "" 0 "" {TEXT -1 55 "Rivest, Shamir and Adleman cryptographic
+ protocol ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 96 "According to an article in the April 1995 issue of 'Math \+
+Horizons' (available from Mathematical " }}{PARA 0 "" 0 "" {TEXT -1 
+94 "Association of America at: 1529 Eighteenth Street, N.W., Washingto
+n, D.C., 20036), on reading " }}{PARA 0 "" 0 "" {TEXT -1 97 "the Diffi
+e-Hellman paper, Rivest and Shamir (of MIT) started to work on attempt
+ing a realization " }}{PARA 0 "" 0 "" {TEXT -1 98 "of the public-key i
+dea.  At that time they had a new colleague, Adleman.  Rivest and Sham
+ir would " }}{PARA 0 "" 0 "" {TEXT -1 103 "come up with a proposal, pa
+ss it on to Adleman, and he would find a flaw in it ... . Their forty-
+third " }}{PARA 0 "" 0 "" {TEXT -1 60 "proposal was the now famous RSA
+ cryptographic protocol ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "                                         \+
+RECOMMENDED READING LIST" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 89 "Besides the original papers mentioned above (which
+ a good library could obtain for you), " }}{PARA 0 "" 0 "" {TEXT -1 
+69 "a basic list would be vast, and so I limit my list to just two boo
+ks:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "1.
+  Title: Cryptology" }}{PARA 0 "" 0 "" {TEXT -1 35 "     Author: Albre
+cht Beutelspacher" }}{PARA 0 "" 0 "" {TEXT -1 62 "     Publisher: The \+
+Mathematical Association of America (1994)" }}{PARA 0 "" 0 "" {TEXT 
+-1 24 "     ISBN: 0-88385-504-6" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 86 "[ This is a sound basic text, and covers \+
+the history from Caesar up to modern times. ]" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "2.  Title: PGP: Pretty Go
+od Privacy" }}{PARA 0 "" 0 "" {TEXT -1 29 "     Author: Simson Garfink
+el" }}{PARA 0 "" 0 "" {TEXT -1 50 "     Publisher: O'Reilly & Associat
+es, Inc. (1995)" }}{PARA 0 "" 0 "" {TEXT -1 24 "     ISBN: 1-56592-098
+-8" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 96 "[ T
+he best recommendation for this book is surely that of Phil Zimmerman'
+s (the creator of PGP)," }}{PARA 0 "" 0 "" {TEXT -1 96 "   who said of
+ it: \"I even learned a few new things about PGP from Simson's informa
+tive book.\" ]" }}{PARA 0 "" 0 "" {TEXT -1 41 "                       \+
+                  " }}{PARA 0 "" 0 "" {TEXT -1 90 "Both these books ha
+ve extensive bibliographies, and Garfinkel's book includes many useful
+ " }}{PARA 0 "" 0 "" {TEXT -1 90 "e-mail addresses (e.g. for the Elect
+ronic Privacy Information Center (US spelling) and the" }}{PARA 0 "" 
+0 "" {TEXT -1 96 "Electronic Frontier Foundation.  Both these organisa
+tions issue regular free documents on legal " }}{PARA 0 "" 0 "" {TEXT 
+-1 90 "and political issues relating to cryptography, and are obtainab
+le by e-mail subscription)," }}{PARA 0 "" 0 "" {TEXT -1 87 "Web addres
+ses of Usenet newsgroups, and Web addresses for 'ftp-ing' free copies \+
+of PGP " }}{PARA 0 "" 0 "" {TEXT -1 9 "software." }}{PARA 0 "" 0 "" 
+{TEXT -1 76 "                                          _______________
+___________________" }}}}{MARK "1 87 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

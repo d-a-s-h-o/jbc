@@ -1,0 +1,220 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+288 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+293 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 298 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+299 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 
+0 1 2 1 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple P
+lot" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 
+1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Nor
+mal" -1 259 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 
+1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "# A basic proth work
+sheet.mws" }}}{EXCHG {PARA 257 "" 0 "" {TEXT -1 0 "" }{TEXT 288 28 "A \+
+very basic Proth worksheet" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT 256 40 "Proth's theorem (1878, original version)" }
+{TEXT -1 6 ": Let " }{XPPEDIT 18 0 "n = s*2^r+1;" "6#/%\"nG,&*&%\"sG\"
+\"\")\"\"#%\"rGF(F(F(F(" }{TEXT -1 8 ", where " }{TEXT 257 1 "s" }
+{TEXT -1 5 " and " }{TEXT 258 1 "r" }{TEXT -1 22 " are natural numbers
+, " }{TEXT 289 1 "s" }{TEXT -1 13 " is odd, and " }{XPPEDIT 18 0 "s < \+
+2^r;" "6#2%\"sG)\"\"#%\"rG" }{TEXT -1 34 ", and suppose there is an in
+teger " }{TEXT 259 1 "a" }{TEXT -1 11 " such that:" }}{PARA 258 "" 0 "
+" {XPPEDIT 18 0 "a^((n-1)/2) = -1;" "6#/)%\"aG*&,&%\"nG\"\"\"F)!\"\"F)
+\"\"#F*,$F)F*" }{TEXT -1 6 " (mod " }{TEXT 260 1 "n" }{TEXT -1 10 ")  \+
+... (i)" }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }{TEXT 261 1 "n" }{TEXT 
+-1 10 " is prime." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 290 38 "JBC's slightly improved version (1999)" }{TEXT -1 6 ": L
+et " }{XPPEDIT 18 0 "n = s*2^r+1;" "6#/%\"nG,&*&%\"sG\"\"\")\"\"#%\"rG
+F(F(F(F(" }{TEXT -1 8 ", where " }{TEXT 291 1 "s" }{TEXT -1 5 " and " 
+}{TEXT 292 1 "r" }{TEXT -1 22 " are natural numbers, " }{XPPEDIT 18 0 
+"s <= 2^r+1;" "6#1%\"sG,&)\"\"#%\"rG\"\"\"F)F)" }{TEXT -1 34 ", and su
+ppose there is an integer " }{TEXT 293 1 "a" }{TEXT -1 11 " such that:
+" }}{PARA 259 "" 0 "" {XPPEDIT 18 0 "a^((n-1)/2) = -1;" "6#/)%\"aG*&,&
+%\"nG\"\"\"F)!\"\"F)\"\"#F*,$F)F*" }{TEXT -1 6 " (mod " }{TEXT 294 1 "
+n" }{TEXT -1 10 ")  ... (i)" }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }
+{TEXT 295 1 "n" }{TEXT -1 10 " is prime." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 157 "a := 2:\nfor r to 10 do\nfor s to (2^r+1) do\nif mod
+s(a&^(s*2^(r-1)), s*2^r + 1) = -1\nthen print(s, r, s*2^r + 1)   # the
+ 3rd of which will be prime\nfi \nod;\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"F#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#
+\"\"\"\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"#\"\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"#\"#8" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 298 20 "Note \+
+(without proof)" }{TEXT -1 7 ". When " }{TEXT 297 1 "a" }{TEXT -1 63 "
+ = 2, those are the only generated primes (just three of them!)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "But matte
+rs change " }{TEXT 299 11 "drastically" }{TEXT -1 110 " if one moves '
+a' up to 3 (play with changing 'a' to '5', '6', '7', '10', ...); in fa
+ct one gets far too many:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+193 "a := 3: # change this to see what happens...\nfor r to 10 do\nfor
+ s to (2^r+1) do\nif mods(a&^(s*2^(r-1)), s*2^r + 1) = -1\nthen print(
+s, r, s*2^r + 1)   # the 3rd of which will be prime\nfi \nod\nod;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"\"\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"$\"\"\"\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"\"\"\"#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"#\"#<" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"$\"#<" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"&\"\"$\"#T" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"
+\"\"\"%\"#<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"(\"\"%\"$8\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#;\"\"%\"$d#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\")\"\"&\"$d#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#6
+\"\"&\"$`$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#9\"\"&\"$\\%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#?\"\"&\"$T'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#H\"\"&\"$H*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%
+\"\"'\"$d#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"(\"\"'\"$\\%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#5\"\"'\"$T'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#>\"\"'\"%<7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#A
+\"\"'\"%49" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#D\"\"'\"%,;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"#V\"\"'\"%`F" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"#\\\"\"'\"%PJ" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#_\"\"'\"%H
+L" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"(\"$d#" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6%\"\"&\"\"(\"$T'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"#6\"\"(\"%49" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#E\"\"(\"%HL" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#N\"\"(\"%\"[%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#i\"\"(\"%Pz" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#u
+\"\"(\"%t%*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#x\"\"(\"%d)*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#*)\"\"(\"&$R6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"##*\"\"(\"&x<\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+#&*\"\"(\"&h@\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$/\"\"\"(\"&8L\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$2\"\"\"(\"&(p8" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"$5\"\"\"(\"&\"39" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"$>\"\"\"(\"&L_\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$D\"\"\"
+(\"&,g\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\")\"$d#" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"#8\"\")\"%HL" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"#J\"\")\"%Pz" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#P\"\")\"%t%
+*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#Y\"\")\"&x<\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"#_\"\")\"&8L\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6%\"#b\"\")\"&\"39" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#q\"\")\"&@z\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#w\"\")\"&d%>" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"#\"*\"\")\"&(HB" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"$+\"\"\")\"&,c#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$@\"\"\")\"&x4$
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$U\"\"\")\"&`j$" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"$[\"\"\")\"&*)y$" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"$d\"\"\")\"&$>S" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$g\"\"\")
+\"&h4%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$j\"\"\")\"&H<%" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"$y\"\"\")\"&pb%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$\"=\"\")\"&Pj%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+$$>\"\")\"&4%\\" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$'>\"\")\"&x,&" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$-#\"\")\"&8<&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$B#\"\")\"&*3d" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+K#\"\")\"&$Rf" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$N#\"\")\"&h,'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$c#\"\")\"&Pb'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#B\"\"*\"&x<\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#
+E\"\"*\"&8L\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#N\"\"*\"&@z\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#Q\"\"*\"&d%>" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#]\"\"*\"&,c#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#r
+\"\"*\"&`j$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#u\"\"*\"&*)y$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#!)\"\"*\"&h4%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#*)\"\"*\"&pb%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#
+)*\"\"*\"&x,&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$,\"\"\"*\"&8<&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$;\"\"\"*\"&$Rf" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$G\"\"\"*\"&Pb'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+$J\"\"\"*\"&tq'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$\\\"\"\"*\"&*Gw
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$e\"\"\"*\"&(*3)" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"$k\"\"\"*\"&pR)" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6%\"$q\"\"\"*\"&Tq)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$@#\"\"*\"'`
+J6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$C#\"\"*\"'*o9\"" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"$L#\"\"*\"'(H>\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"$O#\"\"*\"'L37" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$X#\"\"*\"
+'Ta7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$g#\"\"*\"'@J8" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"$m#\"\"*\"'$>O\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"$\"G\"\"*\"'tQ9" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$'H\"\"*
+\"'`::" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$*H\"\"*\"'*3`\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"$6$\"\"*\"'L#f\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$?$\"\"*\"'TQ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+H$\"\"*\"'\\%o\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$W$\"\"*\"'Hh<" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$f$\"\"*\"'4Q=" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"$o$\"\"*\"'<%)=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"$8%\"\"*\"'d9@" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$J%\"\"*\"'t1A" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$V%\"\"*\"'<oA" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"$Y%\"\"*\"'`$G#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"$b%\"\"*\"'hHB" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$q%\"\"*\"'T1C" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$)[\"\"*\"'d)\\#" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6%\"$\"\\\"\"*\"'$R^#" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6%\"$4&\"\"*\"'41E" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#8\"#5\"&8L\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#>\"#5\"&d%>" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"#D\"#5\"&,c#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#
+P\"#5\"&*)y$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#S\"#5\"&h4%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#\\\"#5\"&x,&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#e\"#5\"&$Rf" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#k
+\"#5\"&Pb'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#z\"#5\"&(*3)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"##)\"#5\"&pR)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#&)\"#5\"&Tq)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$7
+\"\"#5\"'*o9\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$=\"\"#5\"'L37" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$I\"\"#5\"'@J8" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$L\"\"#5\"'$>O\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"$[\"\"#5\"'`::" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$g\"\"#5\"'TQ;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$s\"\"#5\"'Hh<" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"$%=\"#5\"'<%)=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"$B#\"#5\"'`$G#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$N#\"#5\"'T1C" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$W#\"#5\"'d)\\#" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"$!G\"#5\"'@nG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+$*G\"#5\"'PfH" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$8$\"#5\"'80K" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$>$\"#5\"'dmK" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$A$\"#5\"'H(H$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+P$\"#5\"'*3X$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$\\$\"#5\"'xtN" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$e$\"#5\"'$fm$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$&Q\"#5\"'TUR" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$:
+%\"#5\"'h\\U" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$=%\"#5\"'L!G%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$X%\"#5\"'\"ob%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$a%\"#5\"'(*[Y" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+g%\"#5\"'T5Z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$%[\"#5\"'<c\\" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$([\"#5\"'*o)\\" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$-&\"#5\"'\\S^" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+3&\"#5\"'$>?&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$W&\"#5\"'dqb" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$`&\"#5\"'tic" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$f&\"#5\"'<Cd" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$i
+&\"#5\"'*[v&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$G'\"#5\"'tIk" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$M'\"#5\"'<#\\'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$V'\"#5\"'L%e'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+_'\"#5\"'\\wm" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$e'\"#5\"'$zt'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$z'\"#5\"'(H&p" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$I(\"#5\"'@vu" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$[
+(\"#5\"'`fw" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$a(\"#5\"'(4s(" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$g(\"#5\"'T#y(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$s(\"#5\"'H0z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$v
+(\"#5\"',Oz" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$y(\"#5\"'tmz" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$!z\"#5\"'h*3)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$$z\"#5\"'L?\")" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+$9)\"#5\"'PN$)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$<)\"#5\"'4m$)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$Q)\"#5\"'8\"e)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$f)\"#5\"'<'z)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+$))\"#5\"'$>/*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$/*\"#5\"'(pD*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$2*\"#5\"'p(G*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$P*\"#5\"'*[f*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$
+S*\"#5\"'hD'*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$_*\"#5\"'\\[(*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"$%**\"#5\"(dy,\"" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 5 "Much
+ " }{TEXT 300 15 "more preferable" }{TEXT -1 89 " is to have 'r' be la
+rge, and 's' be small, and this kind of program will do that for us:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 198 "a := 3: # change this to
+ see what happens...\nfor r from 120 to 150 do\nfor s to 20 do\nif mod
+s(a&^(s*2^(r-1)), s*2^r + 1) = -1\nthen print(s, r, s*2^r + 1)   # the
+ 3rd of which will be prime\nfi \nod\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"(\"$?\"\"FL?Ti>U\\mK56T%\\qff/$*" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"#6\"$D\"\"H`2H\"o=_3S@E(Q!H;XD))yY" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"#?\"$D\"\"HT'G0Uz&=lVe'ehM-t\"fq])" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"#5\"$E\"\"HT'G0Uz&=lVe'ehM-t\"fq])" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"\"&\"$F\"\"HT'G0Uz&=lVe'ehM-t\"fq])" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#6\"$F\"\"I4I;DZ(3Mg&[!\\:;l!=Ibr=" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#<\"$Z\"\"OxlL8[;x,3&od)[suk,+Z8!H
+.$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "9 0 0" 0 
+}{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

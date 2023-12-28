@@ -1,0 +1,420 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 18 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 280 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 288 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 300 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 324 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 332 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 336 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 341 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 348 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 352 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 357 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 361 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 362 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 368 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 372 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 373 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 376 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 377 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 380 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 381 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 382 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 385 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 386 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 387 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 388 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 389 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 391 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 392 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 
+-1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 
+0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "Title" 0 
+18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 
+12 0 0 0 0 0 0 19 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# 1914_pap.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 44 "Thinking through Pocklington's 19
+14-16 paper" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 281 36 "Henry Cabo
+urn Pocklington, 1870-1952" }{TEXT -1 32 ". St. John's College, Cambri
+dge." }}{PARA 0 "" 0 "" {TEXT -1 25 "Wrote a paper with title " }
+{TEXT 282 87 "The Determination of the Prime or Composite\nNature of L
+arge Numbers by Fermat's theorem" }{TEXT -1 26 ". It was published in \+
+the\n" }{TEXT 283 50 "Proceedings of the Cambridge Philosophical Socie
+ty" }{TEXT -1 18 " (the mathematical" }}{PARA 0 "" 0 "" {TEXT -1 71 "s
+ection of it) in 1916 (it was only two pages long!), but it was \"Read
+\"" }}{PARA 0 "" 0 "" {TEXT -1 26 "on the 9th. of March 1914." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 26 "Paragrap
+h I of Pocklington" }{TEXT -1 43 ". He starts by making the obvious co
+mments " }}{PARA 0 "" 0 "" {TEXT -1 70 "about how one should use Ferma
+t's little theorem when wondering about " }}{PARA 0 "" 0 "" {TEXT -1 
+37 "the status of a given natural number " }{TEXT 257 1 "n" }{TEXT -1 
+68 " (I change all of his symbols, and \nsome of his ways of expressio
+n):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 42 "  \+
+                              calculate " }{XPPEDIT 18 0 "a^(n-1);" "6
+#)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 5 " mod " }{TEXT 258 1 "n" 
+}{TEXT -1 5 ", and" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "
+" {TEXT -1 8 "if that " }{TEXT 280 6 "is not" }{TEXT -1 8 " 1 then " }
+{TEXT 259 1 "n" }{TEXT -1 32 " is automatically composite, but" }}
+{PARA 15 "" 0 "" {TEXT -1 6 "if it " }{TEXT 260 2 "is" }{TEXT -1 37 " \+
+1, then it's time to start thinking:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 52 "Pocklington then proceeds to make an ex
+amination of " }{TEXT 279 15 "consequences of" }{TEXT -1 1 ":" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "         \+
+                                    " }{XPPEDIT 18 0 "a^(n-1) = 1;" "6
+#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 5 " mod " }{TEXT 
+261 1 "n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 
+4 "Let " }{TEXT 262 1 "p" }{TEXT -1 49 " be a prime factor (\"preferab
+ly the largest\") of " }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"
+\"" }{TEXT -1 12 ", \nand let  " }{XPPEDIT 18 0 "p^alpha;" "6#)%\"pG%&
+alphaG" }{TEXT -1 25 " be the largest power of " }{TEXT 263 2 "p " }
+{TEXT -1 8 "dividing" }{TEXT 267 1 " " }{XPPEDIT 18 0 "n-1;" "6#,&%\"n
+G\"\"\"\"\"\"!\"\"" }{TEXT -1 18 " (so one \nnow has " }{XPPEDIT 18 0 
+"n = p^alpha*w+1;" "6#/%\"nG,&*&)%\"pG%&alphaG\"\"\"%\"wGF*F*\"\"\"F*
+" }{TEXT -1 11 ", for some " }{TEXT 264 1 "w" }{TEXT -1 2 " (" }{TEXT 
+266 1 "w" }{TEXT -1 18 " not divisible by " }{TEXT 265 1 "p" }{TEXT 
+-1 11 ").\n\nHe now " }{TEXT 268 18 "suggests computing" }{TEXT -1 1 "
+ " }{XPPEDIT 18 0 "a^((n-1)/p);" "6#)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F(
+%\"pGF*" }{TEXT -1 5 " mod " }{TEXT 293 1 "n" }{TEXT -1 33 ", and he g
+oes on to \nremark that " }{TEXT 270 17 "in the event that" }{TEXT -1 
+1 " " }{XPPEDIT 18 0 "a^((n-1)/p) <> 1;" "6#0)%\"aG*&,&%\"nG\"\"\"\"\"
+\"!\"\"F)%\"pGF+\"\"\"" }{TEXT -1 5 " mod " }{TEXT 269 1 "n" }{TEXT 
+-1 38 " (he later considers\nthe case when it " }{TEXT 294 2 "is" }
+{TEXT -1 52 " 1) , one should then compute:\n\n                    " }
+{XPPEDIT 18 0 "gcd(a^((n-1)/p)-1,n) = delta;" "6#/-%$gcdG6$,&)%\"aG*&,
+&%\"nG\"\"\"\"\"\"!\"\"F-%\"pGF/F-\"\"\"F/F,%&deltaG" }{TEXT -1 16 " (
+definition of " }{XPPEDIT 18 0 "delta;" "6#%&deltaG" }{TEXT -1 4 ")\n
+\n[" }{TEXT 274 5 "Aside" }{TEXT -1 35 ": for Maple computations one w
+ould " }{TEXT 275 3 "not" }{TEXT -1 6 " use i" }{XPPEDIT 18 0 "gcd(a^(
+(n-1)/p)-1,n)" "6#-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F,%\"pGF.
+F,\"\"\"F.F+" }{TEXT -1 97 ", \n as it leads (when large value were in
+volved) to \"Error, object too large\";\n\nrather one uses i" }
+{XPPEDIT 18 0 "gcd(`mod`(a^((n-1)/p)-1,n),n);" "6#-%$gcdG6$-%$modG6$,&
+)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F/%\"pGF1F/\"\"\"F1F.F." }{TEXT -1 29 
+", which causes no problems.]\n" }}{PARA 15 "" 0 "" {TEXT -1 19 "He re
+marks that if " }{XPPEDIT 18 0 "1 < delta;" "6#2\"\"\"%&deltaG" }
+{TEXT -1 22 " then one has found a " }{TEXT 272 13 "proper factor" }
+{TEXT -1 4 " of " }{TEXT 271 2 "n." }{TEXT -1 2 "\n\n" }{TEXT 295 11 "
+For example" }{TEXT -1 6 ", let " }{TEXT 273 1 "n" }{TEXT -1 14 " be g
+iven by:\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "n := 21523028
+98747;  # from Pinch's Nov.'93 AMS Notices article" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"nG\".Z()*GI_@" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 37 "2&^(n-1) mod n;  # taking 'a' to be 2" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "ifactor(n-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*4-%!G6#\"\"#\"\"
+\"-F%6#\"\"$F()-F%6#\"\"(F'\"\"\"-F%6#\"#6F(-F%6#\"#8F(-F%6#\"#>F(-F%6
+#\"#BF(-F%6#\"#JF(-F%6#\"%zPF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "p := 31;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"#J" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "2&^((n-1)/p) mod n;  # p = 3
+779 gave a '1' here:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"-Xq1W(y'" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 5 "     " }{TEXT 284 3 "not" }{TEXT -1 35 " '1', and so we pr
+oceed to compute:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 41 "delta := igcd(2&^((n-1)/p) mod n - 1, n);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&deltaG\"),/(=(" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 5 "    \+
+ " }{TEXT 276 2 "is" }{TEXT -1 20 " a proper factor of " }{TEXT 277 1 
+"n" }{TEXT -1 1 ":" }{TEXT 278 0 "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "n/delta;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&Z*H" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "     and then
+ he goes on to comment on the " }{TEXT 285 10 "case where" }{TEXT -1 
+1 " " }{XPPEDIT 18 0 "delta = 1;" "6#/%&deltaG\"\"\"" }{TEXT -1 1 ":" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 23 "He sim
+ply remarks that " }{TEXT 296 4 "when" }{TEXT -1 1 " " }{XPPEDIT 18 0 
+"gcd(a^((n-1)/p)-1,n) = 1;" "6#/-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"
+!\"\"F-%\"pGF/F-\"\"\"F/F,\"\"\"" }{TEXT -1 1 " " }{TEXT 297 4 "then" 
+}{TEXT -1 4 ":\n\n " }{XPPEDIT 18 0 "a^((n-1)/p)-1;" "6#,&)%\"aG*&,&%
+\"nG\"\"\"\"\"\"!\"\"F)%\"pGF+F)\"\"\"F+" }{TEXT -1 16 " is (obviously
+) " }{TEXT 286 3 "not" }{TEXT -1 14 " divisible by " }{TEXT 298 3 "any
+" }{TEXT -1 17 " prime factor of " }{TEXT 287 1 "n" }{TEXT -1 7 ",\n\n
+and " }{TEXT 288 9 "from that" }{TEXT -1 26 " he manages to squeeze an
+ " }{TEXT 292 21 "important observation" }{TEXT -1 7 " about\n" }
+{TEXT 289 16 "any prime factor" }{TEXT -1 1 " " }{TEXT 290 1 "q" }
+{TEXT -1 15 " of the number " }{TEXT 291 1 "n" }{TEXT -1 3 ".\n\n" }
+{TEXT 299 9 "But first" }{TEXT -1 13 ", let us see " }{TEXT 300 13 "so
+me examples" }{TEXT -1 7 " where " }{XPPEDIT 18 0 "gcd(a^((n-1)/p)-1,n
+) = 1" "6#/-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F-%\"pGF/F-\"\"
+\"F/F,\"\"\"" }{TEXT -1 21 ",\n\nfollowing on from " }{TEXT 301 18 "ha
+ving already had" }{TEXT -1 1 " " }{XPPEDIT 18 0 "a^((n-1)/p) <> 1;" "
+6#0)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F)%\"pGF+\"\"\"" }{TEXT -1 33 " mod
+ n:\n\n[So, in the following I " }{TEXT 302 12 "want to have" }{TEXT 
+-1 1 " " }{XPPEDIT 18 0 "delta = 1;" "6#/%&deltaG\"\"\"" }{TEXT -1 3 "
+.]\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "ifactor(n-1);  # re
+call primes dividing n-1:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*4-%!G6#
+\"\"#\"\"\"-F%6#\"\"$F()-F%6#\"\"(F'\"\"\"-F%6#\"#6F(-F%6#\"#8F(-F%6#
+\"#>F(-F%6#\"#BF(-F%6#\"#JF(-F%6#\"%zPF(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "p1 := 23;  # high to low, first one giving:" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#p1G\"#B" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "2&^((n-1)/p1) mod n;  # NOT 1:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"-tB$3K4)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+52 "delta1 := igcd(2&^((n-1)/p1) mod n - 1, n);  # IS 1:" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%'delta1G\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 100 "    and I am
+ letting the cat out of the bag in revealing what it is that Pocklingt
+on\n    notes as a " }{TEXT 305 11 "consequence" }{TEXT -1 20 ": he no
+tes that for " }{TEXT 304 6 "such a" }{TEXT -1 2 " '" }{TEXT 303 1 "p
+" }{TEXT -1 56 "' [in the computation it is 'p1']\n    one then has th
+at " }{XPPEDIT 18 0 "q = 1;" "6#/%\"qG\"\"\"" }{TEXT -1 6 " (mod " }
+{XPPEDIT 18 0 "p^alpha;" "6#)%\"pG%&alphaG" }{TEXT -1 6 ") for " }
+{TEXT 306 3 "all" }{TEXT -1 15 " prime factors " }{TEXT 307 1 "q" }
+{TEXT -1 5 " of (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"" 
+}{TEXT -1 47 ").\n\n    In the above numerical example we have:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 11 "ifactor(n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(-%!G6#\"&Z*H\"
+\"\"-F%6#\"&F1\"F(-F%6#\"%jnF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "     and so the prime \+
+factors of " }{TEXT 308 1 "n" }{TEXT -1 5 " are:" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 11 "q1 := 6763;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%#q1G\"%jn" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "q2 := 1062
+7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q2G\"&F1\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "q3 := 29947;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#q3G\"&Z*H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "ifactor(q1-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**-%!G6#\"\"#\"
+\"\"-F%6#\"\"$F()-F%6#\"\"(F'\"\"\"-F%6#\"#BF(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "ifactor(q2-1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*,-%!G6#\"\"#\"\"\"-F%6#\"\"$F(-F%6#\"\"(F(-F%6#\"#6F(-F%6#\"#BF
+(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "ifactor(q3-1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*,-%!G6#\"\"#\"\"\"-F%6#\"\"$F(-F%6#\"
+\"(F(-F%6#\"#BF(-F%6#\"#JF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "     all of which have 23 \+
+(here " }{XPPEDIT 18 0 "alpha = 1;" "6#/%&alphaG\"\"\"" }{TEXT -1 21 "
+) as a factor.\n\n     " }{TEXT 309 19 "Mathematical proof?" }{TEXT 
+-1 33 "  How, though, can one prove the " }{TEXT 310 7 "general" }
+{TEXT -1 54 " claim?\n\n     A proof can be furnished by considering \+
+" }{XPPEDIT 18 0 "ord[q];" "6#&%$ordG6#%\"qG" }{TEXT 311 1 "a" }{TEXT 
+-1 32 ", and, for brevity, we\n     let " }{TEXT 312 0 "" }{TEXT -1 0 
+"" }{XPPEDIT 18 0 "r = ord[q];" "6#/%\"rG&%$ordG6#%\"qG" }{TEXT -1 0 "
+" }{TEXT 313 1 "a" }{TEXT -1 9 ".  Then, " }}{PARA 15 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 314 1 "r" }{TEXT -1 1 " " }{TEXT 315 7 "divides" }
+{TEXT -1 2 " (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"" }
+{TEXT -1 31 ")        [that's because, with " }{XPPEDIT 18 0 "a^(n-1) \+
+= 1;" "6#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 64 " mod n, \+
+then \n                                    automatically " }{XPPEDIT 
+18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT 
+-1 5 " mod " }{TEXT 318 1 "q" }{TEXT -1 6 ", for " }{TEXT 324 3 "any" 
+}{TEXT -1 51 " prime \n                                    factor " }
+{TEXT 320 1 "q" }{TEXT -1 4 " of " }{TEXT 319 1 "n" }{TEXT -1 14 " (in
+deed, for " }{TEXT 323 3 "any" }{TEXT -1 8 " factor " }{TEXT 321 1 "q
+" }{TEXT -1 4 " of " }{TEXT 322 1 "n" }{TEXT -1 8 ").]\n\nbut" }}
+{PARA 15 "" 0 "" {TEXT 317 1 "r" }{TEXT -1 6 " does " }{TEXT 316 10 "n
+ot divide" }{TEXT -1 1 " " }{XPPEDIT 18 0 "(n-1)/p;" "6#*&,&%\"nG\"\"
+\"\"\"\"!\"\"F&%\"pGF(" }{TEXT -1 18 " [that's because, " }{TEXT 325 
+2 "if" }{TEXT -1 1 " " }{TEXT 326 1 "r" }{TEXT -1 12 " did divide " }
+{XPPEDIT 18 0 "(n-1)/p" "6#*&,&%\"nG\"\"\"\"\"\"!\"\"F&%\"pGF(" }
+{TEXT -1 113 " then we would\n                                        \+
+ have:\n                                                   " }
+{XPPEDIT 18 0 "a^r = 1;" "6#/)%\"aG%\"rG\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 327 1 "q" }{TEXT -1 69 "), from which would follow that\n       \+
+                              " }{XPPEDIT 18 0 "a^((n-1)/p) = 1;" "6#/
+)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F)%\"pGF+\"\"\"" }{TEXT -1 6 " (mod " 
+}{TEXT 328 1 "q" }{TEXT -1 62 "), from which would follow that\n      \+
+                        " }{XPPEDIT 18 0 "a^((n-1)/p)-1 = 0;" "6#/,&)%
+\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F*%\"pGF,F*\"\"\"F,\"\"!" }{TEXT -1 6 " \+
+(mod " }{TEXT 329 1 "q" }{TEXT -1 59 "), from which would follow that
+\n                           " }{XPPEDIT 18 0 "gcd(a^((n-1)/p)-1,n);" 
+"6#-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F,%\"pGF.F,\"\"\"F.F+" }
+{TEXT -1 4 " is " }{TEXT 331 8 "at least" }{TEXT -1 1 " " }{TEXT 330 
+1 "q" }{TEXT -1 15 " (>1), whereas " }{TEXT 332 5 "it is" }{TEXT -1 4 
+" 1.\n" }}{PARA 0 "" 0 "" {TEXT -1 21 "     It follows that " }{TEXT 
+333 1 "r" }{TEXT -1 1 " " }{TEXT 334 4 "must" }{TEXT -1 9 " contain " 
+}{XPPEDIT 18 0 "p^alpha;" "6#)%\"pG%&alphaG" }{TEXT -1 53 " as a facto
+r (since the prime factorisation\n     of (" }{XPPEDIT 18 0 "n-1;" "6#
+,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 11 ") contains " }{XPPEDIT 18 0 "p
+^alpha;" "6#)%\"pG%&alphaG" }{TEXT -1 22 " as a factor, whereas " }
+{XPPEDIT 18 0 "(n-1)/p;" "6#*&,&%\"nG\"\"\"\"\"\"!\"\"F&%\"pGF(" }
+{TEXT -1 59 " doesn't.\n\nHere, then, is a theorem of Pocklington's wh
+ich " }{TEXT 336 10 "summarises" }{TEXT -1 20 " the above analysis:" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+335 7 "Theorem" }{TEXT -1 6 ". Let " }{TEXT 337 1 "n" }{TEXT -1 30 " b
+e a natural number, and let " }{XPPEDIT 18 0 "n-1 = p^alpha*U;" "6#/,&
+%\"nG\"\"\"\"\"\"!\"\"*&)%\"pG%&alphaGF&%\"UGF&" }{TEXT -1 8 ", where \+
+" }{TEXT 338 1 "p" }{TEXT -1 12 " is a prime," }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "and " }{TEXT 339 1 "U" }{TEXT -1 21 " is not divisible by \+
+" }{TEXT 344 1 "p" }{TEXT -1 22 ".    [In other words, " }{XPPEDIT 18 
+0 "p^alpha;" "6#)%\"pG%&alphaG" }{TEXT -1 25 " is the largest power of
+ " }{TEXT 345 1 "p" }{TEXT -1 5 " that" }}{PARA 0 "" 0 "" {TEXT -1 9 "
+divides (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT 
+-1 11 ").  I use '" }{TEXT 340 1 "U" }{TEXT -1 7 "' for '" }{TEXT 341 
+1 "u" }{TEXT 342 9 "nfactored" }{TEXT -1 84 "' - this is a good notati
+on, for it suggests \nthat one need not know how the number " }{TEXT 
+343 1 "U" }{TEXT -1 37 " actually factors; if one happens to " }}
+{PARA 0 "" 0 "" {TEXT -1 57 "actually know, then regard that as a bonu
+s.] Suppose that" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{TEXT -1 1 " " }{XPPEDIT 18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"\"
+\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 346 1 "n" }{TEXT -1 19 ")
+ for some integer " }{TEXT 347 1 "a" }{TEXT -1 10 "     ... (" }{TEXT 
+363 1 "i" }{TEXT -1 8 ") \n\nand " }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "g
+cd(a^((n-1)/p)-1,n) = 1;" "6#/-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!
+\"\"F-%\"pGF/F-\"\"\"F/F,\"\"\"" }{TEXT -1 10 "     ... (" }{TEXT 364 
+2 "ii" }{TEXT -1 2 ")\n" }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }{TEXT 
+350 5 "every" }{TEXT -1 14 " prime factor " }{TEXT 349 1 "q" }{TEXT 
+-1 4 " of " }{TEXT 348 1 "n" }{TEXT -1 15 " has the form (" }{XPPEDIT 
+18 0 "p^alpha*m+1;" "6#,&*&)%\"pG%&alphaG\"\"\"%\"mGF(F(\"\"\"F(" }
+{TEXT -1 4 "). [" }{TEXT 365 3 "end" }{TEXT -1 1 "]" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 353 42 "Proth's
+ 1878 theorem (follows immediately)" }{TEXT -1 6 ". Let " }{TEXT 354 
+1 "n" }{TEXT -1 20 " be a natural number" }}{PARA 0 "" 0 "" {TEXT -1 
+10 "such that " }{XPPEDIT 18 0 "n = s*2^r+1;" "6#/%\"nG,&*&%\"sG\"\"\"
+)\"\"#%\"rGF(F(\"\"\"F(" }{TEXT -1 8 ", where " }{XPPEDIT 18 0 "s < 2^
+r;" "6#2%\"sG)\"\"#%\"rG" }{TEXT -1 2 " (" }{TEXT 355 1 "s" }{TEXT -1 
+33 " need not be odd).  Suppose there" }}{PARA 0 "" 0 "" {TEXT -1 14 "
+is an integer " }{TEXT 356 1 "a" }{TEXT -1 56 " such that\n           \+
+                                  " }{XPPEDIT 18 0 "a^((n-1)/2) = -1;
+" "6#/)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F)\"\"#F+,$\"\"\"F+" }{TEXT -1 
+6 " (mod " }{TEXT 357 1 "n" }{TEXT -1 11 ")     ... (" }{TEXT 360 3 "i
+ii" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }{TEXT 358 1 
+"n" }{TEXT -1 11 " is prime.\n" }}{PARA 0 "" 0 "" {TEXT 359 14 "Proof \+
+of Proth" }{TEXT -1 8 ".  Let  " }{TEXT 380 0 "" }{TEXT -1 0 "" }
+{XPPEDIT 18 0 "p = 2;" "6#/%\"pG\"\"#" }{TEXT -1 6 ", and " }{XPPEDIT 
+18 0 "n = S*2^alpha+1;" "6#/%\"nG,&*&%\"SG\"\"\")\"\"#%&alphaGF(F(\"\"
+\"F(" }{TEXT -1 8 ", where " }{XPPEDIT 18 0 "2^alpha;" "6#)\"\"#%&alph
+aG" }{TEXT -1 22 " is the largest power " }}{PARA 0 "" 0 "" {TEXT -1 
+15 "of 2 dividing (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"
+" }{TEXT -1 9 ").  Then " }{XPPEDIT 18 0 "r <= alpha;" "6#1%\"rG%&alph
+aG" }{TEXT -1 5 ", so " }{XPPEDIT 18 0 "S <= s;" "6#1%\"SG%\"sG" }
+{TEXT -1 11 ", and thus " }{XPPEDIT 18 0 "S < 2^alpha;" "6#2%\"SG)\"\"
+#%&alphaG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 30 "Next, squaring both sides of (" }{TEXT 361 3 "iii
+" }{TEXT -1 8 ") gives " }{XPPEDIT 18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"
+nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 362 1 "n" }
+{TEXT -1 11 ") [namely (" }{TEXT 366 1 "i" }{TEXT -1 2 ")]" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "Finally, (" }
+{TEXT 367 2 "ii" }{TEXT -1 36 ") must also hold.  To see that, let\n" 
+}}{PARA 0 "" 0 "" {TEXT -1 37 "                                     " 
+}{XPPEDIT 18 0 "gcd(a^((n-1)/2)-1,n) = d;" "6#/-%$gcdG6$,&)%\"aG*&,&%
+\"nG\"\"\"\"\"\"!\"\"F-\"\"#F/F-\"\"\"F/F,%\"dG" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "But, from
+ (" }{TEXT 368 3 "iii" }{TEXT -1 12 ") we obtain " }{XPPEDIT 18 0 "a^(
+(n-1)/2)+1 = 0;" "6#/,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F*\"\"#F,F*\"\"
+\"F*\"\"!" }{TEXT -1 6 " (mod " }{TEXT 391 1 "n" }{TEXT -1 17 "), from
+ which we " }}{PARA 0 "" 0 "" {TEXT -1 24 "immediately obtain that " }
+{XPPEDIT 18 0 "d = 1 or 2;" "6#5/%\"dG\"\"\"\"\"#" }{TEXT -1 7 ".  But
+ " }{XPPEDIT 18 0 "d = 2;" "6#/%\"dG\"\"#" }{TEXT -1 22 " is impossibl
+e, since " }{TEXT 369 1 "n" }{TEXT -1 4 " is " }}{PARA 0 "" 0 "" 
+{TEXT -1 12 "odd, and so " }{XPPEDIT 18 0 "d = 1;" "6#/%\"dG\"\"\"" }
+{TEXT -1 2 " (" }{TEXT 382 1 "i" }{TEXT -1 1 "." }{TEXT 383 1 "e" }
+{TEXT -1 3 ". (" }{TEXT 381 2 "ii" }{TEXT -1 9 ") holds)." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Thus " }{TEXT 387 
+5 "every" }{TEXT -1 17 " prime factor of " }{TEXT 384 1 "n" }{TEXT -1 
+17 " is of the form (" }{XPPEDIT 18 0 "2^alpha*m+1;" "6#,&*&)\"\"#%&al
+phaG\"\"\"%\"mGF(F(\"\"\"F(" }{TEXT -1 10 "), and if " }{TEXT 385 1 "n
+" }{TEXT -1 5 " was " }}{PARA 0 "" 0 "" {TEXT -1 49 "composite then it
+ would be a product of at least " }{TEXT 386 3 "two" }{TEXT -1 17 " su
+ch primes (not" }}{PARA 0 "" 0 "" {TEXT -1 68 "necessarily distinct, t
+hough it doesn't matter), whose minimum value" }}{PARA 0 "" 0 "" 
+{TEXT -1 19 "would be at least (" }{XPPEDIT 18 0 "2^alpha+1;" "6#,&)\"
+\"#%&alphaG\"\"\"\"\"\"F'" }{TEXT -1 2 ")(" }{XPPEDIT 18 0 "2^alpha+1;
+" "6#,&)\"\"#%&alphaG\"\"\"\"\"\"F'" }{TEXT -1 25 "), which is greater
+ than " }{TEXT 388 1 "n" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 5 
+"Thus " }{TEXT 389 1 "n" }{TEXT -1 17 " must be prime. [" }{TEXT 390 
+3 "end" }{TEXT -1 2 "] " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 68 "[I am able to give a proof of Proth's theorem which \+
+avoids the above" }}{PARA 0 "" 0 "" {TEXT -1 25 "analysis of Pocklingt
+on.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 351 24 "An immediate consequence" }{TEXT -1 0 "" }{TEXT 352 25 
+" of Pocklington's theorem" }{TEXT -1 6 ": Let " }{TEXT 370 1 "n" }
+{TEXT -1 13 " be a natural" }}{PARA 0 "" 0 "" {TEXT -1 16 "number, and
+ let " }{XPPEDIT 18 0 "n-1 = F*U;" "6#/,&%\"nG\"\"\"\"\"\"!\"\"*&%\"FG
+F&%\"UGF&" }{TEXT -1 8 ", where " }{TEXT 371 1 "F" }{TEXT -1 37 " is f
+actored ['factored' in the sense" }}{PARA 0 "" 0 "" {TEXT -1 45 "that \+
+one knows its prime factorisation, say: " }{XPPEDIT 18 0 "F = p[1]^alp
+ha[1]*p[2]^alpha[2];" "6#/%\"FG*&)&%\"pG6#\"\"\"&%&alphaG6#\"\"\"\"\"
+\")&F(6#\"\"#&F,6#\"\"#F/" }{TEXT -1 11 "... ], and " }{TEXT 372 1 "U
+" }{TEXT -1 3 " is" }}{PARA 0 "" 0 "" {TEXT -1 70 "unfactored ['unfact
+ored' in the sense that one neednt know exactly how" }}{PARA 0 "" 0 "
+" {TEXT -1 26 "it factors].  Suppose that" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 15 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "a^(n-1) = 1;" "
+6#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+392 1 "n" }{TEXT -1 19 ") for some integer " }{TEXT 257 1 "a" }{TEXT 
+-1 10 "     ... (" }{TEXT 374 1 "I" }{TEXT -1 8 ") \n\nand " }}{PARA 
+15 "" 0 "" {TEXT 373 0 "" }{XPPEDIT 18 0 "gcd(a^((n-1)/p[i])-1,n) = 1;
+" "6#/-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F-&%\"pG6#%\"iGF/F-\"
+\"\"F/F,\"\"\"" }{TEXT -1 18 ", for every prime " }{XPPEDIT 18 0 "p[i]
+;" "6#&%\"pG6#%\"iG" }{TEXT -1 11 " factor of " }{TEXT 375 1 "F" }
+{TEXT -1 9 "    ... (" }{TEXT 377 2 "II" }{TEXT -1 2 ")\n" }}{PARA 0 "
+" 0 "" {TEXT 376 0 "" }{TEXT -1 5 "then " }{TEXT 378 1 "n" }{TEXT -1 
+10 " is prime." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 379 51 "The Proof is immediate, and is left as an
+ exercise." }{TEXT -1 1 " " }}}}{MARK "31 45 8" 3 }{VIEWOPTS 1 1 0 1 
+1 1803 }

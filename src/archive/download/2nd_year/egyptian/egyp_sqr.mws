@@ -1,0 +1,170 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 
+0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Outp
+ut" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 
+0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Arial Rounded MT Bold" 
+1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 
+3 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# egyp_sqr.mws" }}}
+{EXCHG {PARA 258 "" 0 "" {TEXT -1 23 "Square egyptian problem" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 24 "A proble
+m to investigate" }{TEXT -1 47 ": what I might the 'square-egyptian' p
+roblem.  " }}{PARA 0 "" 0 "" {TEXT -1 41 "To express a rational number
+ as a sum of " }{TEXT 257 31 "distinct reciprocals of squares" }{TEXT 
+-1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+17 "Of course, since:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 58 "                  (Pi^2)/6 = 1/1 + 1/4 + 1/9 + 1/16 + \+
+... " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "a
+nd thus 1/4 + 1/9 + 1/16 + ... = (Pi^2)/6 - 1/1 < .64493 ..." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "evalf(Pi^
+2/6 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"*oS$\\k!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 71 "An attempt at a 'greedy' form of egyptian-square (and it \+
+is interesting" }}{PARA 0 "" 0 "" {TEXT -1 75 "to note - it should be \+
+expected - that one doesn't get a descent happening." }}{PARA 0 "" 0 "
+" {TEXT -1 39 "It is interesting to analyse why ... ) " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "[Of course I realize
+ that Pi^2/6 = etc., and so not all ... ]" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "IMPORTANT NOTE:  Observe the (some
+thing like) 'k<10' (otherwise ... )" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 296 "egypt_sq := proc(R :: rat
+ional)\nlocal r, n, m, k;\nr[1]:=R;\nn[1]:=ceil(sqrt(1/r[1]));\nif typ
+e(sqrt(1/R), integer) then print(R)\nelse \nfor k from 2 while k < 10 \+
+and not type(1/sqrt(r[k-1]), integer) \ndo\nr[k]:=r[k-1] - 1/n[k-1]^2;
+     n[k]:=ceil(sqrt(1/r[k]));\nod;\nseq(1/n[m]^2, m=1..k-1); \nfi;\ne
+nd:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 67 "It follows that NOT every rational in (0, 1) could be so \+
+expressed;" }}{PARA 0 "" 0 "" {TEXT -1 67 "in fact, NO rational in (0.
+64493 ... , 1) can be so expressed ... ." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "However it could sensibly be asked
+ IF every rational in (0, 0.64493)" }}{PARA 0 "" 0 "" {TEXT -1 57 "can
+ be expressed as a sum of DISTINCT square reciprocals." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "[My gut feeling is t
+hat there are EXCEPTIONS ... ]" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 54 "egypt_sq(2/3);   # Note: 2/3 > Pi^2/6 - 1, and so ... " }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6)#\"\"\"\"\"%F##F$\"\"*#F$\"#D#F$\"#\")#F$\"$
+C$#F$\"%+\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "convert([eg
+ypt_sq(2/3)], `+`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"#\"\"$" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "egypt_sq(2/5);   " }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'#\"\"\"\"\"%#F$\"\"*#F$\"#O#F$\"$+\"#F$\"$+*
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "convert([egypt_sq(2/5)]
+, `+`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"#\"\"&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 17 "is fine, but now:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "egypt_sq(2/7);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6+#\"\"\"\"\"%#F$\"#O#F$\"$W\"#F$\"%C5#F$\"&;X'*&\"\"\"F/*$)-%%cei
+lG6#,$*$-%%sqrtG6#\"\"(F/\"&#>7\"\"#F/!\"\"*&F/F/*$)-F36#*$-F86#*&F/F/
+,&#F$\"+[S^S5F$F.!\"\"F=F/\"\"#F/F=*&F/F/*$)-F36#*$-F86#*&F/F/,(FHF$F.
+FJF>FJF=F/\"\"#F/F=*&F/F/*$)-F36#*$-F86#*&F/F/,*FHF$F.FJF>FJFLFJF=F/\"
+\"#F/F=" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 37 "Trying to understand what's going on:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "2/7
+ - 1/4 - 1/36 - 1/144 - 1/1024 - 1/64516;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"\"\"+[S^S5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "(12192^2*7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"+[S^S5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "ceil(12192*sqrt(7));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%ceilG6#,$*$-%%sqrtG6#\"\"(\"\"\"\"&
+#>7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 14 "I wonder ... :" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "ceil(2192*sqrt(7));    # knocking o
+ff the leading '1' to reduce size" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"%+e" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 9 "Ah hah!!:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Digits := 20:" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "ceil(12192*sqrt(7));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"&dA$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "Ah!!! So it is - as I suspected \+
+- to do with the 'Digits' setting!!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 56 "Now redo the above, but first set the '
+Digits' level to:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "Digits := 50:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "egypt_sq(2/7);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6+#\"
+\"\"\"\"%#F$\"#O#F$\"$W\"#F$\"%C5#F$\"&;X'#F$\"+\\S^S5#F$\"4,WPmh[pE3
+\"#F$\"=Di()*e$z(3(p4G`E6#F$\"J*3<Q>yo`G9&oJvv'=M)\\5y$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "convert([egypt_sq(2/7)], `+`);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"dph4?XF\"4;&=&RRA\"3mHDDpyb4f&e]3+'
+y\"3[v=C-azDV#*RA\\8\"dp+;[RNk8'zz,DQX9Q&QQUDX$o&\\q(H+^iG=kl%y!RGS^tR
+GAZ" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 64 "That isn't - of course - 2/7, and what has happene
+d is that the " }}{PARA 0 "" 0 "" {TEXT -1 43 "restriction 'k<10' has \+
+come into play ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 35 "Actually, what I should do is this:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Redo the programme so as \+
+to allow me to incorporate BOTH the " }}{PARA 0 "" 0 "" {TEXT -1 59 "'
+Digits' setting AND the 'k<10' to a 'k<whatever I choose' " }}{PARA 0 
+"" 0 "" {TEXT -1 19 "(call it 'k_bound):" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 358 "Egypt_Square := proc(R :: r
+ational, Dig_set, k_bound)\nlocal r, n, m, k;\nDigits := Dig_set:\nr[1
+] := R;\nn[1] := ceil(sqrt(1/r[1]));\nif type(sqrt(1/R), integer) then
+ print(R)\nelse \nfor k from 2 while k < k_bound \n      and not type(
+1/sqrt(r[k-1]), integer) \ndo\nr[k] := r[k-1] - 1/n[k-1]^2;     \nn[k]
+ := ceil(sqrt(1/r[k]));\nod;\nseq(1/n[m]^2, m=1..k-1); \nfi;\nend:" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 26 "Egypt_Square(1/3, 10, 10);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6+#\"\"\"\"\"%#F$\"#;#F$\"#\\#F$\"%,C#F$\"'+c6#F$\")4%fy$
+#F$\"-Dc<V78*&\"\"\"F3*$)-%%ceilG6#,$*$-%%sqrtG6#\"3YltGl$>#**>F3#\"(]
+GP&\")LED5\"\"#F3!\"\"*&F3F3*$)-F76#*$-F<6#*&F3F3,&#FA\"9+]%))4DH`vT!H
+cF$F2!\"\"FCF3\"\"#F3FC" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "
+convert([Egypt_Square(2/5, 10, 10)], `+`);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"\"#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Egypt_Square(2/7, 10
+, 10);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6+#\"\"\"\"\"%#F$\"#O#F$\"$W\"
+#F$\"%C5#F$\"&;X'*&\"\"\"F/*$)-%%ceilG6#,$*$-%%sqrtG6#\"\"(F/\"&#>7\"
+\"#F/!\"\"*&F/F/*$)-F36#*$-F86#*&F/F/,&#F$\"+[S^S5F$F.!\"\"F=F/\"\"#F/
+F=*&F/F/*$)-F36#*$-F86#*&F/F/,(FHF$F.FJF>FJF=F/\"\"#F/F=*&F/F/*$)-F36#
+*$-F86#*&F/F/,*FHF$F.FJF>FJFLFJF=F/\"\"#F/F=" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "As befor
+e; now:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 26 "Egypt_Square(2/7, 30, 10);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6+
+#\"\"\"\"\"%#F$\"#O#F$\"$W\"#F$\"%C5#F$\"&;X'#F$\"+\\S^S5#F$\"4,WPmh[p
+E3\"#F$\"=Di()*e$z(3(p4G`E6#F$\"J*3<Q>yo`G9&oJvv'=M)\\5y$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "convert([Egypt_Square(2/7, 30, 10)]
+, `+`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"dph4?XF\"4;&=&RRA\"3mHDD
+pyb4f&e]3+'y\"3[v=C-azDV#*RA\\8\"dp+;[RNk8'zz,DQX9Q&QQUDX$o&\\q(H+^iG=
+kl%y!RGS^tRGAZ" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "is NOT 2/7, and so should try uppi
+ng the k_bound:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "Egypt_Square(2/7, 30, 15);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "60#\"\"\"\"\"%#F$\"#O#F$\"$W\"#F$\"%C5#F$\"&;X'#F$\"+\\S^
+S5#F$\"4,WPmh[pE3\"#F$\"=Di()*e$z(3(p4G`E6#F$\"J*3<Q>yo`G9&oJvv'=M)\\5
+y$*&\"\"\"F7*$)-%%ceilG6#,$*$-%%sqrtG6#\"\\q^@3\"e$4#e,txQ\"4mq!)ebb1Z
+y<<c#)3m?\\USR'\\QLb+6#QSwyTIK]'F7#\"*Sqat'\"<n3m]^?j,9$fx&p\"\"\"#F7!
+\"\"*&F7F7*$)-F;6#*$-F@6#*&F7F7,&#\"=tkbiy*35j'pU(>A$\"ep+7PwZ]&Hde7vn
+<,n(po'znTypMR3-dP+G\\f#\\N()>)f9y)f0LF$F6!\"\"FGF7\"\"#F7FG*&F7F7*$)-
+F;6#*$-F@6#*&F7F7,(FRF$F6FUFHFUFGF7\"\"#F7FG*&F7F7*$)-F;6#*$-F@6#*&F7F
+7,*FRF$F6FUFHFUFWFUFGF7\"\"#F7FG*&F7F7*$)-F;6#*$-F@6#*&F7F7,,FRF$F6FUF
+HFUFWFUF\\oFUFGF7\"\"#F7FG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "Egypt_Square(2/7, 90, 15);" }}{PARA 12 "" 1 "" {XPPMATH 20 "60#\"
+\"\"\"\"%#F$\"#O#F$\"$W\"#F$\"%C5#F$\"&;X'#F$\"+\\S^S5#F$\"4,WPmh[pE3
+\"#F$\"=Di()*e$z(3(p4G`E6#F$\"J*3<Q>yo`G9&oJvv'=M)\\5y$#F$\"jn,k`zV6co
+omjFQlD^2j^\"zUj>#o4>Vaf-\"#F$\"hpT!o-,_B#4U$))G)o6uxo`#*o^$H3Ec:H?jNb
+I.%3qc*HJ)*G,8Rzo#F$\"gsTAFff!e*=squGf#Qv@\"\\\\FyVEK\">W8D'yrJYv\\gGI
+Jck*3'GIUB#**eOIV%GKrl$)4St</cFnL$>F$*&\"\"\"F=*$)-%%ceilG6#,$*$-%%sqr
+tG6#\"a\\mzWObc$GH#=r=K'*GYAS*oZ!RU)>qtS\"y2&[\\$)[uO*>'Q&H'=wRSUu2#Gf
+N3CK8$)**R01REvI(>>wVCgtrB(>Rjfwd=\\::Ji3GF9HtGpKfNS?0#)yr7YsO?q\\CN([
+];AaB;!>'o[pB43q!=$4d2+NZ'y[/9,Yg8/$\\GB!*z/=nq))))[8WJK73>*\\l0i&p(Gg
+5`P&R**f!3M))[j)\\#o3-jfMQ_.$RM5+5kF#\\N3&>n%HZEN=.H#4j5n*G;VQARjXBv]5
+k!)yT1Hy#p.SL$[%*>Z$[<8@m\"[#o;(z*o'GPDF=#\".?Zz9_#H\"ju8tJ&)ywt%e$z\"
+fL7v]h3nD23ThXw#>Cz8&p!fC&HA%QMQ`O!e*zmvQamZ'f(4^,GS=HquP#zlO6Df\"Q!>q
+j\\i]G6.cs(G\\T%G\"\"#F=!\"\"*&F=F=*$)-FA6#*$-FF6#*&F=F=,&#FK\"[cl+s!>
+#HIcgu)*3(\\XGZykoZ0'opI#z`6q(>kr_42#>Ag!4)*yX.\"y$QAB<ck&[\"GpCWGoC!e
+!4`R5vCUyoTD5gQ&[]*p?<0%>3'zmE6'eVus8l\"px)>ut*3$o8)fy9%Q(piaf3&3bOJ([
+eMnv(H#G$eo0+9QD\"*pXfX'ylo#)Q,)\\/N>F5AJ$z[LS5:t2gV$ydfG2CK_]o=8=6G9G
+JedOj(F$F<!\"\"FMF=\"\"#F=FM" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 6 "Wow!!!" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "I need to go to the pro
+fessional version (Release 3 or 4) ... ." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "I did, and have much better proced
+ures there as well." }}}}{MARK "46 4 0" 53 }{VIEWOPTS 1 1 0 1 1 1803 }
+

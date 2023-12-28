@@ -1,0 +1,206 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Norm
+al" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 
+18 0 0 0 0 0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }
+{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 \+
+Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 128 1 2 1 2 0 
+0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "# pohlig_h.ms" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 4 "The " }{TEXT 257 35 "Pohlig-Hellma
+n cryptographic method" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 61 "These notes describe the Pohlig-Hellman cryptographi
+c method." }}{PARA 0 "" 0 "" {TEXT -1 62 "This method is a good exampl
+e of a 'private-key' cryptographic" }}{PARA 0 "" 0 "" {TEXT -1 51 "met
+hod; that is, it is a method in which the users " }{TEXT 258 16 "must \+
+keep secret" }}{PARA 0 "" 0 "" {TEXT -1 71 " the 'keys'.  [As you will
+ see eventually, it is similar to the famous " }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "RSA (after Rivest, Shamir and Adleman) 'public-key' crypt
+osystem.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+61 "The Pohlig-Hellman method relies on Fermat's little theorem: " }}
+{PARA 0 "" 0 "" {TEXT -1 4 "Let " }{TEXT 259 1 "p" }{TEXT -1 19 " be p
+rime, and let " }{TEXT 260 1 "a" }{TEXT -1 21 " be any integer with " 
+}{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 
+256 1 "p" }{TEXT -1 3 "), " }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }
+{XPPEDIT 18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"
+" }{TEXT -1 6 " (mod " }{TEXT 261 1 "p" }{TEXT -1 3 "). " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "1. " }{TEXT 264 6 "
+Choose" }{TEXT -1 9 " a prime " }{TEXT 262 1 "p" }{TEXT -1 32 " (which
+, in practice, should be " }{TEXT 263 5 "large" }{TEXT -1 2 ")." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "2. " }
+{TEXT 265 6 "Choose" }{TEXT -1 1 " " }{TEXT 266 1 "e" }{TEXT -1 3 " ('
+" }{TEXT 267 1 "e" }{TEXT -1 6 "' for " }{TEXT 268 1 "e" }{TEXT -1 21 
+"ncryption) such that " }{XPPEDIT 18 0 "gcd(e,p-1) = 1.;" "6#/-%$gcdG6
+$%\"eG,&%\"pG\"\"\"\"\"\"!\"\"$\"\"\"\"\"!" }}{PARA 0 "" 0 "" {TEXT 
+-1 17 "    (In practice " }{TEXT 270 6 "almost" }{TEXT -1 11 " any pri
+me " }{TEXT 269 1 "e" }{TEXT -1 3 " - " }{TEXT 271 31 "which is which \+
+is not too small" }}{PARA 0 "" 0 "" {TEXT -1 16 "     - will do.)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "3. " }
+{TEXT 272 9 "Calculate" }{TEXT -1 1 " " }{TEXT 273 1 "d" }{TEXT -1 3 "
+ ('" }{TEXT 275 1 "d" }{TEXT -1 6 "' for " }{TEXT 274 1 "d" }{TEXT -1 
+14 "ecryption) so " }{XPPEDIT 18 0 "ed = 1;" "6#/%#edG\"\"\"" }{TEXT 
+-1 6 " (mod " }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }
+{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 68 "One now uses any standard agreement for converting text t
+o numerical" }}{PARA 0 "" 0 "" {TEXT -1 7 "form ('" }{TEXT 276 1 "a" }
+{TEXT -1 10 "' is 01, '" }{TEXT 277 1 "b" }{TEXT -1 15 "' is 02, etc.)
+," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "[ " }
+{TEXT 278 8 "QUESTION" }{TEXT -1 55 ":  WHY '01', '02', ... , and not \+
+just '1', '2', ... ?  " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 
+0 "" {TEXT 279 6 "ANSWER" }{TEXT -1 65 ":  That would lead to confusio
+n; would '12' be 'ab', or would it " }}{PARA 0 "" 0 "" {TEXT -1 73 "be
+ 'l'? etc.  So every letter, lower or upper case, every punctuation or
+ " }}{PARA 0 "" 0 "" {TEXT -1 82 "special mark (, . ; : # ' \" ~ @ ^ !
+ \243 $ % * - _ + = ? > < 1 2 3 ... ) has to have " }}{PARA 0 "" 0 "" 
+{TEXT -1 42 "its own AGREED 2-digit numerical value). ]" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "and now 'encryption'
+ and 'decryption' are performed as follows:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "4. Messages are " }{TEXT 280 9 
+"encrypted" }{TEXT -1 27 " by using numerical blocks " }{XPPEDIT 18 0 
+"B[1],B[2];" "6$&%\"BG6#\"\"\"&F$6#\"\"#" }{TEXT -1 6 ", ... " }}
+{PARA 0 "" 0 "" {TEXT -1 16 "    with values " }{TEXT 281 4 "less" }
+{TEXT -1 6 " than " }{TEXT 282 1 "p" }{TEXT -1 38 " by forming: \n\n  \+
+                     " }{XPPEDIT 18 0 "B[1]^e;" "6#)&%\"BG6#\"\"\"%\"e
+G" }{TEXT -1 5 " mod " }{TEXT 283 1 "p" }{TEXT -1 2 ", " }{XPPEDIT 18 
+0 "B[2]^e;" "6#)&%\"BG6#\"\"#%\"eG" }{TEXT -1 5 " mod " }{TEXT 256 1 "
+p" }{TEXT -1 2 ", " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 39 "    [Let's call those C[1], C[2], ... ]" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "5. A received message (
+C[1], C[2], ... ) is DECRYPTED by forming" }}{PARA 0 "" 0 "" {TEXT -1 
+35 "    C[1]^d mod p, C[2]^d mod p, ..." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 64 "AND MATHEMATICAL IDEAS (involving Fe
+rmat's 'little' theorem) now" }}{PARA 0 "" 0 "" {TEXT -1 69 "guarantee
+ that those numbers are the numerical blocks of the ORIGINAL" }}{PARA 
+0 "" 0 "" {TEXT -1 9 "message!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 27 "Let's do an example to see." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "Step 1.  Choose 'p
+'." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "p := nextprime(98768765438765
+432888888844444444549874);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"
+G^+bWWWW))))))GVl(Qawo()*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+68 "Step 2.  Choose 'e'.  [I will have more to say about this in class
+.]" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "e := nextprime(10000);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eG\"&2+\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 25 "Step 3.  Calculate 'd'.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 71 "[So, one is trying to solve the congruenc
+e e*d = 1 (mod (p - 1)), where" }}{PARA 0 "" 0 "" {TEXT -1 71 "the 'e'
+ and 'p - 1' are KNOWN, and the 'd' is to be found.  It ('d') is" }}
+{PARA 0 "" 0 "" {TEXT -1 69 "found by rewriting the above congruence a
+s e*d = (p - 1)*Q + 1, which" }}{PARA 0 "" 0 "" {TEXT -1 11 "is:      \+
+  " }}{PARA 0 "" 0 "" {TEXT -1 67 "                                   \+
+  e*d - (p - 1)*Q = 1    ... (i)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "One does this so as to exploit the 'exten
+ded Euclidean Algorithm':" }}{PARA 0 "" 0 "" {TEXT -1 64 "\"The gcd of
+ two integers can be expressed as an integral linear " }}{PARA 0 "" 0 
+"" {TEXT -1 73 "combination of those two integers.\"  So, if 'a' and '
+b' are the integers," }}{PARA 0 "" 0 "" {TEXT -1 57 "then a*x + b*y = \+
+gcd(a, b) for some integers 'x' and 'y'." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "In (i), (a, b) = (e, p - 1) and gc
+d(a, b) = 1." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "igcdex(e, p - 1, 'x
+', 'y');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 50 "and
+ the values of 'x' and 'y' are now obtained by:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "x;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!G26!\\aHdY\">&)
+)R<hKrw<_#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "y;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"%bD" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "The value of 'd' is ob
+tained by:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "d := x mod (p - 1);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"dG\"GV*['**[rytp.Ip`hI)*4bt" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 22 "\"Seeing is believing\":" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "e*d mod (p - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 66 "Now that Steps 1, 2 and 3 are in place we can encrypt and
+ decrypt." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+67 "Suppose you and I have SHARED the above values of 'p', 'e' and 'd'
+," }}{PARA 0 "" 0 "" {TEXT -1 61 "then we can exchange messages.  Mere
+ly to ILLUSTRATE, suppose" }}{PARA 0 "" 0 "" {TEXT -1 68 "you wanted t
+o send me the message \"hi, ... \", which for the purposes" }}{PARA 0 
+"" 0 "" {TEXT -1 39 "of illustration I'm shortening to \"hi\"." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "We find t
+he numerical form of \"hi\". It's 0809." }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 28 "num_form_of_message := 0809;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%4num_form_of_messageG\"$4)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 47 "Step 4.  This is now what you would send to me:" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 37 "send := num_form_of_message&^e mod p;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%sendG\"G/yj&\\q)R9`[7.\">8!>\\ts" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 15 "send&^d  mod p;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"$4)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 71 "is the numerical form of the ORIGINAL message; \+
+it is, of course (0)809." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 37 "Now let's do more realistic examples:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 135 "`crypt/alph
+abet` := `abcdefghijklmnopqrstuvwxyz`\n.`ABCDEFGHIJKLMNOPQRSTUVWXYZ`\n
+.```1234567890-=~!@#$\243%^&*()_+`\n.` ,./<>?;':\"[]\{\}|    `:" }
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 232 "to_number := proc(st, string) \nlo
+cal ll, nn, ss, ii;  \nll := length(st);\nif ll = 0 then RETURN(0) fi;
+ \nnn := 1;\nfor ii to ll do \nss := SearchText(substring(st, ii .. ii
+),`crypt/alphabet`);\nnn := 100*nn + ss \nod;\nnn - 10^(2*ll) \nend:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "to_number(`a`);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "to_number(`b`)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "to_number(`ab`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"$-\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "to_number(`12321
+`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"+abcba" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 25 "to_number(`Hello there`);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"70=03?!e@@^S$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 69 "The '34' at the beginn
+ing is 'H', the '05' following the '34' is 'e'," }}{PARA 0 "" 0 "" 
+{TEXT -1 79 "the following '12' is the first 'l' in the double 'l', ..
+. , and the final '05'" }}{PARA 0 "" 0 "" {TEXT -1 26 "is the last 'e'
+ in 'there'" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "to_number(`Fermat's \+
+'little' theorem states ... `);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"e
+o!GGG3)>0?,?>!Q^!=:03?!))e?,-#47)3)>)37I\"=0K" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 72 "The 'to_
+number' procedure takes text and changes it into numerical form." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Now we ne
+ed another procedure to reverse that:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 272 "from_number := proc(nn, integer) \nlocal ss, mm, ll,
+ pp, ii, ans; mm := nn;\nll := floor(1/2*trunc(evalf(log10(mm))))+1;\n
+ans := ``; for ii to ll do mm := mm/100;\npp := 100*frac(mm);\nss := s
+ubstring(`crypt/alphabet`, pp..pp);\nans := cat(ss, ans); mm := trunc(
+mm)\nod; ans end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "from_n
+umber(809);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#hiG" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 18 "from_number(0809);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#hiG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 64 "Let's go back to the above 'to_nu
+mber'(`Fermat's 'little' ... ):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 62 "message := to_number(`Fermat's 'little' theorem states ... `);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(messageG\"eo!GGG3)>0?,?>!Q^!=:0
+3?!))e?,-#47)3)>)37I\"=0K" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "from_number(message);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%FFermat's~'little'~theorem~states
+~...~G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "19 0 \+
+0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

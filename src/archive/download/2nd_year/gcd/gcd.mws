@@ -1,0 +1,261 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 262 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 278 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 282 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 293 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 298 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 302 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 313 "" 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+314 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+318 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 333 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+334 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+338 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 
+{CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" 
+-1 -1 "Courier" 1 11 0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 3 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "# gcd.mws" }}}{EXCHG 
+{PARA 258 "" 0 "" {TEXT -1 23 "Greatest common divisor" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "[ " }{TEXT 334 10 "Re
+call my " }{TEXT -1 0 "" }{TEXT 332 5 "motto" }{TEXT 333 0 "" }{TEXT 
+-1 2 ": " }{TEXT 331 35 " No procedure is ever quite perfect" }{TEXT 
+-1 3 " - " }{TEXT 335 16 "there is always " }{TEXT 337 9 "something" }
+{TEXT 336 30 " about it that can be improved" }{TEXT -1 65 ". It all d
+epends on what one wants one procedure to do for one. ]" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 256 12 "Intr
+oduction" }{TEXT -1 135 ".  This worksheet is about writing a Maple pr
+ocedure for  calculating the greatest common divisor of two integers, \+
+and note that it is " }{TEXT 258 4 "igcd" }{TEXT -1 5 " and " }{TEXT 
+260 3 "not" }{TEXT -1 1 " " }{TEXT 261 3 "gcd" }{TEXT -1 5 ". [ `" }
+{TEXT 262 3 "gcd" }{TEXT -1 53 " ` is Maple's command for calculating \+
+the gcd of two " }{TEXT 263 11 "polynomials" }{TEXT -1 12 ", whereas  \+
+`" }{TEXT 264 1 "i" }{TEXT 265 3 "gcd" }{TEXT -1 45 " ` is its command
+ for finding the gcd of two " }{TEXT 266 1 "i" }{TEXT -1 9 "ntegers.]
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 351 4 "Note" }{TEXT -1 175 ".  At the end of this worksheet I dr
+aw your attention to a criticism (which can be made not just here, but
+ in other similar situations), and show you how it can be dealt with.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 267 8 "Examp
+les" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "igcd
+(100, 42);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "igcd(2^20, 3^
+7);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "igcd(987654321234567
+89877665544433328, 90876543000556);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 55 "What is Maple
+'s own internal procedure for calculating " }{TEXT 268 5 "igcd " }
+{TEXT -1 1 "?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 43 "We try the standard approach for accessing:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "interface(verboseproc=2);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "print(igcd);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 30 "This happens to be one of the " }{TEXT 269 4 "rare" }{TEXT -1 
+55 " occasions when Maple doesn't reveal its internal code." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 270 23 "This worksheet
+ is about" }{TEXT -1 103 " showing you how one can write one's own Map
+le procedure for calculating the greatest common divisor of" }}{PARA 
+0 "" 0 "" {TEXT -1 118 "two integers. I start by showing you how to do
+ a particular example, and from that will formulate a general procedur
+e." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 271 7 "Example" }{TEXT -1 37 ".  Let's find the gcd of 186 and 1
+62." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 272 33 "Solution [by hand, and then ... ]" }{TEXT -1 14 ".  We u
+se the " }{TEXT 273 21 "Euclidean algorithm, " }{TEXT -1 31 "which - a
+s you know - utilises " }{TEXT 282 20 "repeated application" }{TEXT 
+-1 8 " of the " }{TEXT 283 6 "simple" }{TEXT -1 5 ", but" }}{PARA 0 "
+" 0 "" {TEXT 284 11 "fundamental" }{TEXT -1 13 " result:  if " }{TEXT 
+285 1 "a" }{TEXT -1 2 ", " }{TEXT 286 1 "b" }{TEXT -1 0 "" }{TEXT 287 
+0 "" }{TEXT -1 2 ", " }{TEXT 288 1 "q" }{TEXT -1 5 " and " }{TEXT 289 
+1 "r" }{TEXT -1 24 " are integers such that " }{TEXT 290 1 "a" }{TEXT 
+-1 3 " = " }{TEXT 291 1 "b" }{TEXT -1 1 "*" }{TEXT 292 1 "q" }{TEXT 
+-1 3 " + " }{TEXT 293 1 "r" }{TEXT 294 0 "" }{TEXT -1 11 ", then gcd(
+" }{TEXT 295 1 "a" }{TEXT -1 2 ", " }{TEXT 296 1 "b" }{TEXT -1 8 ") = \+
+gcd(" }{TEXT 297 1 "b" }{TEXT -1 2 ", " }{TEXT 298 1 "r" }{TEXT -1 1 "
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "So, \+
+our starting values for " }{TEXT 299 1 "a" }{TEXT -1 5 " and " }{TEXT 
+300 1 "b" }{TEXT -1 103 " are 186 and 162, and we perform the followin
+g successive divisions (all of which are familiar to you):" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 274 3 "186" }{TEXT -1 2 
+" (" }{TEXT 306 7 "initial" }{TEXT -1 1 " " }{TEXT 308 1 "a" }{TEXT 
+-1 6 ")  =  " }{TEXT 275 3 "162" }{TEXT -1 0 "" }{TEXT 307 0 "" }
+{TEXT -1 2 " (" }{TEXT 325 0 "" }{TEXT -1 0 "" }{TEXT 324 0 "" }{TEXT 
+-1 0 "" }{TEXT 323 7 "initial" }{TEXT -1 1 " " }{TEXT 326 1 "b" }
+{TEXT -1 6 ")*1 + " }{TEXT 301 2 "24" }{TEXT -1 7 " (with " }{TEXT 
+302 8 "non-zero" }{TEXT -1 11 " remainder " }{TEXT 315 1 "r" }{TEXT 
+-1 2 ")," }{TEXT 261 0 "" }{TEXT 266 0 "" }{TEXT -1 0 "" }{TEXT 265 0 
+"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 3 "162" }{TEXT -1 2 " (
+" }{TEXT 303 3 "new" }{TEXT -1 1 " " }{TEXT 309 1 "a" }{TEXT -1 3 " = \+
+" }{TEXT 304 8 "previous" }{TEXT -1 1 " " }{TEXT 305 1 "b" }{TEXT -1 
+6 ")  =  " }{TEXT 276 2 "24" }{TEXT -1 2 " (" }{TEXT 256 3 "new" }
+{TEXT -1 1 " " }{TEXT 311 1 "b" }{TEXT -1 3 " = " }{TEXT 310 8 "previo
+us" }{TEXT -1 1 " " }{TEXT 312 1 "r" }{TEXT -1 6 ")*6 + " }{TEXT 314 
+2 "18" }{TEXT -1 7 " (with " }{TEXT 256 8 "non-zero" }{TEXT -1 12 " re
+mainder)," }{TEXT 313 0 "" }}{PARA 0 "" 0 "" {TEXT 277 2 "24" }{TEXT 
+-1 2 " (" }{TEXT 256 3 "new" }{TEXT -1 1 " " }{TEXT 259 1 "a" }{TEXT 
+-1 3 " = " }{TEXT 316 8 "previous" }{TEXT -1 1 " " }{TEXT 258 1 "b" }
+{TEXT -1 7 ")   =  " }{TEXT 278 2 "18" }{TEXT -1 3 " ( " }{TEXT 256 3 
+"new" }{TEXT -1 1 " " }{TEXT 258 1 "b" }{TEXT -1 3 " = " }{TEXT 257 8 
+"previous" }{TEXT -1 1 " " }{TEXT 259 1 "r" }{TEXT -1 6 ")*1 + " }
+{TEXT 279 1 "6" }{TEXT -1 7 " (with " }{TEXT 256 8 "non-zero" }{TEXT 
+-1 11 " remainder)" }}{PARA 0 "" 0 "" {TEXT 280 2 "18" }{TEXT -1 2 " (
+" }{TEXT 256 3 "new" }{TEXT -1 1 " " }{TEXT 258 1 "a" }{TEXT -1 3 " = \+
+" }{TEXT 317 8 "previous" }{TEXT -1 1 " " }{TEXT 257 1 "b" }{TEXT -1 
+6 ")  =  " }{TEXT 281 1 "6" }{TEXT -1 5 "*3 + " }{TEXT 318 1 "0" }
+{TEXT -1 2 " (" }{TEXT 319 4 "zero" }{TEXT -1 12 " remainder, " }
+{TEXT 320 7 "finally" }{TEXT -1 19 " producing the gcd)" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 321 8 "Quest
+ion" }{TEXT -1 61 ".  How does one make a programme to do all that for
+ oneself ?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 322 6 "Answer" }
+{TEXT -1 14 ".  As follows:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+289 "a := 186;     # initial 'a'\nb := 162;     # initial 'b'\nwhile b
+ <> 0 do\nr := a mod b; # how 'r' is found from 'a' and 'b'\na := b;  \+
+     # the new 'a' equals the previous 'b'\nb := r;       # the new 'b
+' equals the previous NON-ZERO 'r'\nod;\nprint(a,`is the gcd of the tw
+o original numbers`);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 6 "It is " }{TEXT 256 5 "vital" }
+{TEXT -1 44 " that you understand what is going on above." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "Now to modify it s
+o as to get a " }{TEXT 349 7 "general" }{TEXT -1 1 " " }{TEXT 350 3 "g
+cd" }{TEXT -1 13 " computation." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 36 "I am going to do a number of things:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Procedure
+ #1 [find_great].  Simply output the " }{TEXT 327 3 "gcd" }{TEXT -1 
+35 " of two given integers.  No frills." }}{PARA 0 "" 0 "" {TEXT -1 
+39 "Procedure #2. [say_great].  Output the " }{TEXT 329 3 "gcd" }
+{TEXT -1 39 " of two given integers, with some text." }}{PARA 0 "" 0 "
+" {TEXT -1 40 "Procedure #3. [all].  Not only find the " }{TEXT 328 3 
+"gcd" }{TEXT -1 35 ", but show all the succesive stages" }}{PARA 0 "" 
+0 "" {TEXT -1 83 "                         that one would see onesself
+ when doing a hand calculation," }}{PARA 0 "" 0 "" {TEXT -1 58 "      \+
+                   ending with a declaration of the " }{TEXT 330 3 "gc
+d" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 338 6 "Note 1" }{TEXT -1 22 ".  You should observ
+e " }{TEXT 342 3 "how" }{TEXT -1 47 " I produced the output effects in
+ Procedure #3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 343 6 "Note 2" 
+}{TEXT -1 7 ".  One " }{TEXT 347 6 "cannot" }{TEXT -1 6 " give " }
+{TEXT 348 3 "any" }{TEXT -1 20 " procedure the name " }{TEXT 344 3 "gc
+d" }{TEXT -1 4 " or " }{TEXT 345 4 "igcd" }{TEXT -1 18 " because these
+ are" }}{PARA 0 "" 0 "" {TEXT -1 22 "               Maple `" }{TEXT 
+346 15 "protected names" }{TEXT -1 3 " `." }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }{MPLTEXT 1 0 136 "find_great := pr
+oc(A, B)   # Procedure 1\nlocal a, b, r;\na := A;\nb := B;\nwhile b <>
+ 0 do\nr := a mod b;\na := b;\nb := r;\nod;\nprint(a);\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 19 "find_great(18, 14);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "find_great(-18, 14);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "find_great(-18, -14);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "find_great(18, -14);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "find_great(2^30 - 1, 2^15 - 1);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 41 "find_great(8191, 127);  # two primes here" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "find_great(37*8191, 97*127)
+; # but not here" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "find_gr
+eat(2^23 - 1, 47);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 97 "Finally, a randomly chosen example
+, followed by the same computation performed using Maple's own " }
+{TEXT 339 4 "igcd" }{TEXT -1 39 " command (I copied and pasted the fir
+st" }}{PARA 0 "" 0 "" {TEXT -1 22 "example, and replaced " }{TEXT 340 
+10 "find_great" }{TEXT -1 6 " with " }{TEXT 341 4 "igcd" }{TEXT -1 1 "
+)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 225 "find_great(9876655555
+5555555555555555544444444444444444444333333333333333333333333333333322
+3222222222222222222211111111111111111111274364523920394847565653534242
+45, 6666666666662755555555555000000000002222222222222999999996);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 219 "igcd(9876655555555555555555
+5555544444444444444444444333333333333333333333333333333322322222222222
+222222221111111111111111111127436452392039484756565353424245, 66666666
+66662755555555555000000000002222222222222999999996);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 168 "say_great := proc(A, B)   # Procedure 2\nlocal a, b, r;\na := A
+;\nb := B;\nwhile b <> 0 do\nr := a mod b;\na := b;\nb := r;\nod;\nlpr
+int(`the gcd of`, A, `and`, B,`is`, a);\nend:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "sa
+y_great(18, 14);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "say_gre
+at(-18, -14);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "say_great(
+2^30 - 1, 2^15 - 1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "say
+_great(8191, 127);  # two primes here" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "say_great(37*8191, 97*127); # but not here" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 511 "all := proc(A, B)   # Procedure 3\nlocal a, b, q, \+
+r, k, K;\na[1] := A;\nb[1] := B;\nq[1] := iquo(a[1], b[1]);\nr[1] := a
+[1] mod b[1];\nif r[1] = 0 then \nlprint(a[1],`= (`, b[1],`*`, q[1],`)
+ +`, r[1]);\nlprint(`\n        the gcd of`, A, `and`, B,`is`, b[1]);\n
+RETURN ();\nelse for k from 2 while r[k-1]<>0 do\na[k] := b[k-1];\nb[k
+] := r[k-1];\nq[k] := iquo(a[k], b[k]);\nr[k] := a[k] mod b[k];\nod;\n
+fi;\nseq(lprint(a[K],`= (`, b[K],`*`, q[K],`) +`, r[K]), K=1..k-1);\nl
+print(`\n        the gcd of`, A, `and`, B,`is`, r[k-2]);\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "all(24, 12);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "all(30, 12);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "all(8191, 127);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "Finally, an e
+xample with a large pair, just for fun (vary it yourself):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "all(9876655555555555555555555552, 6
+666666666662755555555);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "find_great(18, -0);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "say_great(18, -0);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "all(18, 0);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "49" 0 }{VIEWOPTS 1 1 0 
+1 1 1803 }

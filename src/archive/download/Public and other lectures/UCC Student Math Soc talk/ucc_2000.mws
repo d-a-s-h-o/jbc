@@ -1,0 +1,2511 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+}{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 256 
+"" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 292 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 296 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+309 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 14 0 0 
+0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 14 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "" -1 312 "" 0 14 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "
+" -1 313 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 14 
+0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 14 0 0 0 0 1 0 2 0 
+0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }
+{CSTYLE "" -1 317 "" 0 14 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 
+318 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 329 "" 0 14 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 330 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 14 0 
+0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 332 "" 0 14 0 0 0 0 0 0 2 0 0 
+0 0 0 0 }{CSTYLE "" -1 333 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE 
+"" -1 334 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 338 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 350 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 358 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 361 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 362 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 370 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 372 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 373 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 374 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 376 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 377 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 378 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 380 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 381 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 382 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 385 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 386 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 387 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 388 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 389 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 390 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 391 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 392 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 393 "" 1 14 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 394 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 395 "" 1 14 0 
+0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 396 "" 0 14 0 0 0 0 0 0 2 0 0 
+0 0 0 0 }{CSTYLE "" -1 397 "" 1 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE 
+"" -1 398 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 400 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 401 "" 0 14 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE 
+"" -1 402 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 }{CSTYLE "" -1 405 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "
+" -1 406 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 407 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 408 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 409 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 410 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 411 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 412 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 413 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 414 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 416 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 417 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 418 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 419 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 420 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 421 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 422 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 424 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 425 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 426 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 427 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 428 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 429 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 430 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 431 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 432 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 433 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 434 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 436 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 437 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 438 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 439 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 440 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 441 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 442 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 443 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 444 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 445 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 446 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 447 "" 1 14 0 
+0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 448 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 449 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 450 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 451 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 452 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 453 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 454 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 455 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 456 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 457 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 458 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 459 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 460 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 461 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 462 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 463 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 464 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 465 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 466 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 467 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 468 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 469 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 470 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 471 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 472 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 473 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 474 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 475 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 476 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 477 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 478 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 479 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 480 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 481 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 482 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 483 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 484 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 486 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 487 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 488 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 489 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 490 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 491 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 492 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 493 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 494 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 495 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 496 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 497 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 498 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 499 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 500 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 501 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 502 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 503 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 504 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 505 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 506 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 507 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 508 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 509 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 510 "" 0 14 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 511 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 512 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 513 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 514 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 515 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 516 "" 1 14 0 
+0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 517 "" 1 14 0 0 0 0 0 0 2 0 0 
+0 0 0 0 }{CSTYLE "" -1 518 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE 
+"" -1 519 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 520 "" 0 
+14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 521 "" 1 14 0 0 0 0 0 0 2 
+0 0 0 0 0 0 }{CSTYLE "" -1 522 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }
+{CSTYLE "" -1 523 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 524 
+"" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 525 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 526 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }
+{CSTYLE "" -1 527 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 528 
+"" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 529 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 530 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 531 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 533 
+"" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 534 "" 1 14 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 535 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+}{CSTYLE "" -1 536 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+537 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 538 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 539 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 540 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+541 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 542 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 543 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 544 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+545 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 546 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 547 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 548 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+549 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 550 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 551 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 552 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+553 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 554 "" 0 14 0 0 0 
+0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 555 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "" -1 556 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 557 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 558 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 559 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 560 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 561 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 562 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 563 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 564 "" 0 14 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 565 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 566 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 567 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 
+3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "
+" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 
+0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 -1 "" 0 0 128 0 0 1 0 1 0 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 
+0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 
+3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 260 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 261 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 262 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 263 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 264 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 265 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 266 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 267 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 268 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 269 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 270 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 271 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 272 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 273 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 274 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 275 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# UCC_2000.mws" }}}
+{EXCHG {PARA 256 "" 0 "" {TEXT 308 115 "A Prime For The Millennium -\n
+primality testing with particular emphasis \non Henry Cabourn Pockling
+ton (1875 - 1952)" }{TEXT -1 107 "\n\nA talk given to the student math
+ematical society of \nUniversity College Cork on Thursday 23rd. March \+
+2000" }{TEXT 393 1 "\n" }{TEXT 510 0 "" }{TEXT 447 1 "\n" }{TEXT 394 
+69 "John Cosgrave, St. Patrick's College,\nDrumcondra, Dublin 9, IRELA
+ND.\n" }{TEXT 395 1 "\n" }{TEXT 396 53 "John.Cosgrave@spd.ie \nhttp://
+www.spd.dcu.ie/johnbcos\n" }{TEXT 397 1 "\n" }{TEXT 564 4 "For " }
+{TEXT -1 1 "T" }{TEXT 518 3 "im " }{TEXT -1 3 "and" }{TEXT 520 1 " " }
+{TEXT -1 1 "M" }{TEXT 522 19 "airead Robinson of " }{TEXT -1 1 "F" }
+{TEXT 524 7 "olding " }{TEXT -1 1 "L" }{TEXT 526 9 "andscapes" }{TEXT 
+517 1 "\n" }{TEXT 256 28 "(http://www.iol.ie/~tandmfl)" }{TEXT 516 1 "
+\n" }{TEXT 519 29 "whose idea it was to publish " }{TEXT 401 26 "A Pri
+me For The Millennium" }{TEXT 402 53 "\n(an explanatory email to my ni
+ece Jo and nephew Ben)" }{TEXT 521 1 "\n" }{TEXT 554 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 92 "I have adopted, as the title of my talk tonight, t
+he title of my recently published booklet " }{TEXT 400 26 "A Prime For
+ The Millennium" }{TEXT -1 256 " (my royalties for the Irish Cancer So
+ciety). This booklet began its life as an email written to my young ni
+ece and nephew, Jo and Ben Hartley. Just how that private email came t
+o pass into the public domain as a booklet may be read about in the Mi
+llennium" }{TEXT 527 1 " " }{TEXT -1 56 "prime booklet section of my w
+eb site. How a painting by " }{TEXT 403 10 "Tom Marine" }{TEXT -1 58 "
+ (a Leeds-based artist) of the booklet cover (designed by " }{TEXT 
+483 28 "Simon Cutts and Tim Robinson" }{TEXT -1 22 ") came to be sold \+
+ to " }{TEXT 404 16 "Turlough Sheehan" }{TEXT -1 142 " of Consolidated
+ Distribution Systems for the benefit of the Irish Cancer Society and \+
+the NSPCC (UK), may also be read about at my web site. \n" }}{PARA 
+266 "" 0 "" {TEXT -1 120 "The cover of the booklet - a gif file copied
+ and pasted into\nthis Maple worksheet - is best viewed in the html ve
+rsion:\n" }}{PARA 263 "" 0 "" {TEXT -1 0 "" }{BITMAP 230 317 317 1 "?T
+MoE[?:;JUL:K;sT:vt;j:>;>:::@Z:>Z::>[B>;[B>[B:kB@kjJ@lJF_cF?]SF]kV`mVNb
+<OBOdLOLcDOcNeTOEAuRAmohpoVhmWHquXqM@mR@_lN`LsFasnLQtLgoghOeWgeoXquXor
+@qRWhmWPeUWeouXqUIysIqqyxqwxqyXyyyyqyyI:::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::V[CvZ@^Z?^Z?^Z>fZ>f:^:
+j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:
+E:C:f:^:j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:E:C:f:^:j<J<:E:CZ?
+Z>^Z<F:YR=Qb<MB<KR<KR<KB<KR<F;J>j>:K:M:>;F;J>j>:K:M:>;F;J>j>:K:M:>;F;J
+>j>:K:M:>;F;J>j>:K:M:>;F;J>j>:K:M:>;F;J>j>:K:M:>;F;J>j>:K:M:>;F;J>j>:K
+:M:>;F;J>j>:K:M:>;F;J>j>:K:M:>[BvZ@^Z;F\\Jv[Hf[F^[F^;:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::J?`J=DJCDkBXkF`kFdkF`kF`KGjFd;`K
+GjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`K
+GjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`K
+GjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`KGjFd;`K
+GjFd;`KGjFd;`;ar<IB;aB?er@uRAwRAubAtkHp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wj
+HbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wj
+HbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wj
+HbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbAp;wjHbApKFlJ>LjCPk
+ElKItkHtKItKIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp
+;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp
+;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp
+;tkHJIp;tkHJIp;tkHJIp;tkHJIp;tkHJIp[WF]F>[>b?kBAwRAwbAt;::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::pKGlJ>PjCPKFlKItKIt;:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::f]XF]F>[?:bA::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::ZWF=:bA::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::ZWN=b?kZWbAt;>:<::JItKIt;::::::::::
+:::::::::::::::::::::::::::::::::::::::::pkFF[>V\\O>=t[X:>:<::JIbA::::
+:::::::::::::::::::::::::::::::::::::::::::::::RAoZ>R?ZX::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::pkF:ZX::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::p;K:RAbA::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::RAoZ?R?bAt;::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::RAmj>:bA:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::ZWN=L:ZX::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::pkF>;T;p;t;:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::pKGR;P;t[X:::::::::::::<JItK:bA:Z:JItK::;bAwB:n]XB:>:JI:>:>:;bAJ
+:t[X:<:;bAt[X:<J:>ZXJIZXn=;B:<JIJIbAB::;J:JItKI>:<:<Z:n=B:wZX:J:>ZX>Z:
+B:wbAt;n]X::::::::::::ZWF=:bA::::::::::::J:<JI<:wZX:Z:JItK:>ZX:wB:n]XB
+:>:JI:<ZX>:tKI<Z:bAB:tK::wbA>:J:n=wB:<ZX>:tKI>:Z:JIt;<:J:>:n]Xn=;J:n]:
+JItK:>:w:;JI<:>:wbA<:tK:tK:n]:JIt;::::::::::::pKG:ZX:::::::::::::;J:<J
+::w:B:<JIbA<JI<JItK:>Z:n=wbA<ZX>:;:wZXJ:<:;bAtKI<Z:n]XZ:bA;J:n]Xn=>:J:
+n=wB:<:;bAn=;B:;B:w:wbAt;<:J:<JI<:wbAwJ:>:<JIn]X>:;Z:n=;JIB:t[XB:;B:wZ
+X>ZXbA<JIbA::::::::::::RAm:T;p;t;::::::::::::;:<JItK:bA:<:wbA<Z:bA;B:J
+It[:n=;B:JIn=J:>:wbAwB:<ZXZ:bA;J:n]Xn=>:J:n=wB:<J:bAwJI>:<:>:wbAwZ::>Z
+:J:n]Xn=;bA<Z:n]Xn]X>:;JI<:J:>:n=w:tK:>Z:JIt[X::::::::::::ZWN=R?bAt;::
+::::::::::>:;JI<:>Z:>Z:bAtKIJIt[:>ZXn=B:bA<JI>Z:Z:>Z:>:w:;bAwZX>ZXn=<J
+:tKIn=J:tK:>Z:>Z:bAtKIbA:bAwJ:>Z:n]X>ZX>:wbAwB:;J:n]:J:t;;bAwbAwJ:>Z:n
+=;JI<:>Z:n]XbA>ZX>:;B::n]X:n]X::::::::::::ZWF=M:ZX::::::::::::::J:t;JI
+::::Z::bAZ:ZX::B:>:t;n=<:t;:::<:ZX:::>:n=::>:n=;:w::::::::::::::pKGB;:
+t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>b?RAbA::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ?R?bAt;::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::RAmj>:bA:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::ZWN=L:ZX::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::pkF>;T;p;t;:::::::::::::::::::::::
+::::::::::::::::::::::::::::::::pKGR;P;t[X::::::::::::<J:<J:tKIn=J:B:t
+;w:;Z:n]:>:;bAwJI>:<JI>:wJIt;:>:;B:bAn=>:wZX:J:>Z:n=t;B:>:wZX:;Z:bAn=B
+:>:t;wZ:J:t[::wbA;Z:n]:J:tKIn=>:wZX:;J:<:t;w::::::::::::ZWF=:bA:::::::
+::::J:n=;:wbAB::bAB::bAB:B:<:wbA:Z:bA:t;;:t;Z::t;w:;B::n=<::t;;::w:;:;
+J:bAwZ:bA:t;>:;:w:<ZXZXJI::::::::::::RAo::t;:::::::::::>Z:J:JIt;;:t[::
+wZ::ZXZ:Z:B:n]X::<ZX:bA::>:bA:<:n=;:t[:n=tK:<:t[::wB:JIJ:B:n=w:<::t;<Z
+:>ZXJIZ:bAn]:n=t;:::::::::::ZWF=b?RAbA:::::::::::>Z:J:JIt;;:t[::wZ::ZX
+Z:J:>Z:n]XbA:Z:bA:t;::;:t;Z::wJ:ZXZ:B:;JIbA<ZX:;B:wZXJ:B:n=t;>:<ZXJIZ:
+bA;ZXbAB:B:wJIt;::::::::::::pKGZOZXbA::::::::::::>Z:ZXJ:ZXB:JIB:<J:JIb
+AB:tK:tK:<ZXbA:Z:B:;ZXJI::J:n=t;Z::wJ:ZXB:<J:bAn=<ZXJI:J::JIJ:B:n=w:<:
+;ZXbAB:<J:n=t;::::::::::::pkF:ZX::::::::::::J:n=t;;:t[::wZ::ZXZ:B:;bA;
+JIt[X::<::t;::;:tK:ZXB:JI>:bA<Z::wbAt[:>ZXJI<:n=>::n=>:<:wJIJ::JIB:B:w
+B:wbAwbA::::::::::::pKG:ZX::::::::::::J:<:t;<::t;<::t;<Z:>ZX>Z:n]XbA:Z
+::ZX::Z:Z:ZXn=>::n=<::t;;::w:;::w:<Z:ZX:;JI:n=<::t;:::::::::::ZWF=MZPZ
+WZX::::::::::::<Z:>ZXJIJ:B:t;w:;Z:n]:J:tKIn=;Z:n]:J:tKIn=:>:<:t;w:::>:
+<ZXJIZ:J:n=t;>:<ZXJIZ:J:n=t;<:;:wZX:<:bAB:>ZX>:<JIt[X>:<:t;w::::::::::
+::ZWN=L:bAt;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAm
+J>:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=P:ZX::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:<:bA<ZXJIJ:t;wJ:<J
+:<JIbA<ZXJIB:<:t;;bAn=<:t;<J:t;w::>ZXJIB:bAB:bA>Z:>Z:n=t;;bAn=<:t;<:t;
+:>Z:B:wZXJ:t;wZ:>:bA<JIbAB:bAB:bAB:bAB:bAB:;bAn=>ZXJIB:;B:bA<:bA<:bA<:
+bA<ZXJI>:;B:wZXJ:t;w::<J:t;wZ:B:bA>ZXJIJ:JI:ZWN=P:ZX:Z:ZX>:<:wbA<J:ZXZ
+:n=tK:B:n]XZ:ZXB:;:t[:n=t;;Z:JIt[:>ZXJIB:<:t[:n=t;<:t;;Z:JIt;;:wZ:ZXZ:
+ZXZ:>ZXJI>ZXB:n]XJ:JIJ:JIB:bAB:bAB:bAB:bAB:bA>:<:wbA<J:<:tK:t[:JIt;<:t
+;;:w:;:wJ:B:n]X>:<:wbA>:n=<J:t;wJ:t[:JItK:B:n]XB:;B:bA>ZXJI:ZWF=b?RAbA
+:;B:wZX>ZXB:n]X>:<:wbA>:n=;Z:JIt;;B:bA;bA<:wbA>:n=;Z:JItK:>ZXn=wJ:B:n]
+XJ:JIJ:JIB:;:w:;bAn=>:n=>:n=;J:n=wZ:>:n=>ZXJIZ:ZXJ:JIJ:JIJ:JIJ:JIJ:JI>
+:<:wbA;Z:JItK:<J:<JIbA>:wZXZ:n=t;<:tK:B:n]XB:;:w:;bAn=;J:n=wJ:B:n]X>Z:
+>Z:n=tK:t[:JIt;;:w::pKGZOZXbA:<:t;;Z:JItK:B:n]XZ:ZX>:<:wbA<:t;;Z:JIt;;
+:wJ:B:n]XB:;bAn=;bA<:wbA>:n=>:n=;Z:JIt;;:w:;:w:;:wZ:>:n=;bA<:wbA>:n=;Z
+:JIt;;:w:;:w:;:w:;:w:;:wJ:B:n]X>:<:wbA;B:bAB:wZXJ:B:n]X>:<:wbA;Z:JItK:
+B:n]XJ:JIB:;:wJ:t[:JItK:<:t;;bA<:wbA>:n=:RAm::t;Z:>Z:ZXB:t;wZ::wZ::wZ:
+:wZ:B:bA<ZXJIB:<:t[:bAn=>ZXJIB:;:wZ:B:bA<:bA<ZXJIJ:t;wZ:>Z:ZXB:ZXJ:t;w
+Z:>ZXJIJ:t;wZ:>:n=<Z:ZXB:ZXB:ZXB:ZXB:ZXB:t;wZ::w:;bAn=<J:<:t[:bAn=<:n=
+<:n=<:n=>ZXJIJ:JIB:;:w:;bAn=<J:JIJ:t;w::pKG:ZX::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::::::::::::::::::::::::
+::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::RAmJ>:bA:>:n=<J:JIB:<:tK:B:wZX>:<JIbA:B:ZXB:ZXB:t
+;wJ:>Z:n=t[:n=t;>:n=;B:<JIbA;Z:n=t;:<:bA<:bA<ZXJIB:wZXJ:<J:<JIbA<:bA<:
+bA<ZXJIB:JI>:;B:wZXB:wZXZ:>:bA:B:ZXJ:t;wJ:<Z:n=t[::t[:bAn=:B:<:t[:bAn=
+:B:<:t[::tK:B:wZX:ZWN=P:ZX:B:ZX>ZXB:n]XJ:JI>:<:wbAB:bA<J:t;w:<JIbA>:n=
+;Z:JIt;<:t[:ZXZ:>Z:ZX>ZXB:n]XZ:ZXB:;bAn=;bA<:wbA;Z:JItK:B:n]XB:bA>:<:w
+bA>:n=>:n=;Z:JItK:B:n]X>:<:wbA<:t;>:n=<J:JIZ:n=t[:>Z:ZXZ:n=tK:B:n]X>:<
+:wbA<J:t;w:;bAn=;Z:JIt[:>:n=;bA<:wbA>:n=;Z:JIt;:pkFZPZWZX:;Z:JItK:B:n]
+XZ:ZXB:;:w:;bAn=;J:n=w:;B:bAB:wZX>:<:wbA>:n=>:n=;Z:JIt[:>:n=>ZXJI>:;JI
+n=;B:;B:wZX>:<JIbA;bA<:wbA>:n=<J:t;w:<JIbAB:bA;Z:JItK:B:n]XB:;:w:;bAn=
+B:bA;J:n=w:;B:bA;bA<:wbA>:n=;B:;B:wZX>ZXB:n]X>:;JIn=B:bA;Z:JItK:>:wJI>
+Z:B:wZXZ:n=t[:>ZXJI:ZWN=R?bAt;J:t[:JItK:B:n]X>:<:wbA;Z:JIt;<:t[:>:n=<J
+IbA>:<:wbA;Z:JIt;<:t;;:wJ:B:n]X>:<:wbAB:bA<J:JI>:bA>:bA>ZXB:n]XJ:JI>:<
+:wbA;Z:JItK:B:n]X>:<:wbA;Z:JItK:B:n]XJ:JI>:<:wbA<J:JIB:wZXJ:B:n]XZ:ZX>
+Z:ZXJ:t[:JIt[:>:n=;bA<:wbA;Z:JIt[:>:n=;:t;;bA<:wbA;Z:JIt;:pkF:ZX:B:;:w
+Z::wZ::wZ::wZ::w:;bAn=<J:<:t[:bAn=<:n=<:n=<Z:ZXB:t;wZ::wZ::w:;bAn=>:n=
+>:n=<J:JIB:<:t[:bAn=<:n=<:n=<:n=<:n=<:n=<Z:ZXB:t;w:;bAn=<J:<:t[:bAn=<:
+n=>ZXJIB:;:w:;bAn=<J:JIB:JIJ:t;w:;:wZ:>:n=<:n=:RAo::t;::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::
+::::::::::::::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::ZWF=K:ZX:B:<:t[:n=t;<J:t;wJ:>Z:n=t[:n=t;<J
+:t;wZ:B:bA<JIbAB:;:tK:B:wZX>:<JIbA:J:t;w:;:w::<J:ZXB:t;wZ:B:bA<JIbA>Z:
+B:wZX::;bAn=<:t;;B:<JIbA>ZXJI>Z:B:wZXB:ZX::;bAn=<J:t;wZ:B:bA<ZXJIB:<:t
+;;bAn=<J:t;wZ:B:bA<JIbA:Z:>:bA<:bA:RAoZ?:bA:>ZXJIB:bA>:<:wbAB:bA<:t;;Z
+:JItK:B:n]XB:bA>:<:wbAB:bA;Z:JIt[:>ZXJIB:<:t[::t[:bAn=>ZXJI>:<:wbA;Z:J
+It[:ZXJ:B:n]XB:;:w:;bAn=<:t;;Z:JIt;;:wJ:B:n]X>:<:wbA<J:JIB:<:tK:t[:JIt
+K:B:n]X>:<:wbAB:bA<J:ZX>ZXB:n]X>:<:wbA<:t;<J:t;w:<JIbAB:bA:RAm:T;p;t;Z
+:ZXJ:JI>:<:wbA>:n=>:n=;Z:JItK:<J:<JIbA>ZXJI>Z:B:wZXJ:t;wZ:>ZXJI>ZX>:wJ
+I>:<:wbA;Z:JItK:>:wJIZ:ZX>:<:wbA;B:;B:wZXJ:t;wZ:>ZXJI>ZX>:wJIJ:JIJ:JIB
+:;:w:;bAn=<J:JI>:;B:wZX>ZX>:wJI>:<:wbA;Z:JItK:<Z:n=tK:t[:JIt;;B:wZX>ZX
+B:n]X>:<:wbA;B:;B:wZXJ:t;wJ:>:wJIJ:<JIbA>:bA:RAo:P;t[X:>ZXB:n]XJ:JI>:<
+:wbAB:bA>:n=;Z:JItK:<:t;>ZXJI>Z:ZX:<JIbA;Z:JIt[:>:n=;bA<:wbA;Z:JIt[:>:
+n=;bA<:wbA;Z:JItK:<:t;>ZXJI>:<:wbA<J:JIJ:t;w:;:wJ:B:n]XJ:JI>:<:wbA;B:b
+AB:JI>ZXB:n]X>:<:wbA;B:bA>ZXB:n]XB:bA>:<:wbA;Z:JItK:<:t;>ZXJIB:;:wZ:n=
+t;<:t;:RAm::t;Z:>:n=<Z:ZXB:t;wZ::wZ:B:bA<ZXJIJ:t;wZ:>Z:ZXJ:t;wZ:>ZXJIB
+:JIJ:t;wZ:>:n=<:n=>ZXJIB:;:wZ::w:;bAn=<J:<:t[:bAn=>ZXJIJ:JIB:;B:bA<ZXJ
+IJ:t;wZ:>:n=>ZXJIJ:JIB:;:wZ::w:;bAn=<J:JIB:<:t[:bAn=<:n=>ZXJIB:;B:bA>Z
+XJIB:;:t[::t;:pKG:ZX::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::pkFF;ZWZX:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ZWN=L:bAt;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>
+:bA:<:bA<ZXJI>:;B:wZXB:ZXB:ZX:J:B:wZXB:ZXB:t;wZ:n=t;>:n=<J:<:t[:bAn=<Z
+:ZXB:t;w::<JIbAJ:JIJ:JI>Z:>Z:n=t;:>ZXJIJ:JIB:;:t[::t[:n=t;>:n=<J:t;wZ:
+:wZ:B:bA<:bA<ZXJIB:<:tK:B:wZXJ:t;wZ:>:bA>ZXJIJ:JIJ:JIB:;:t;:pKGR;:t;:<
+JIbA;Z:JItK:B:n]XZ:ZXJ:JIB:;bAn=B:wZXJ:JI>:<:wbA<:t;<J:<:tK:t[:JItK:B:
+n]XJ:JI>:<:wbA<J:t;wZ:n=t;<J:<:t;;bAn=B:bA<J:t;wZ:B:bA<:bAB:wZXJ:JIB:b
+AB:;:tK:t[:JItK:B:n]XZ:ZXZ:ZX>:<:wbA;Z:JItK:B:n]XB:;:t;;bAn=>:n=<J:ZXJ
+:t;w:<:t;:pkFZPZWZX:>Z:n=tK:t[:JIt[:>:n=>:bAB:wZX>:;JIn=>:n=B:bA;Z:JIt
+;;:wJ:B:n]X>Z:>Z:n=tK:t[:JIt;<:tK:B:n]X>:;JIn=>:n=;Z:JIt;;:w:;:wJ:>:wJ
+I>:<:wbA;Z:JIt;;B:wZXZ:n=t;;:wJ:B:n]X>:<:wbA;Z:JIt;;B:bA>:bA;bA<:wbA;B
+:;B:wZXB:t;wJ:t[:JIt;<:t;;:wJ:B:n]XJ:JIJ:<:t;:pKGZOZXbA:<JIbA>:<:wbA;Z
+:JIt[:ZXJ:B:n]XB:;:w:<JIbA;Z:JItK:B:n]XJ:JI>:<:wbA;B:bA>ZXB:n]X>:<:wbA
+;Z:JIt[:>:n=>ZXJI>:<:wbA>:n=B:bA<J:JI>ZXB:n]X>:<:wbA<:t;;Z:JIt;;:wJ:B:
+n]X>:<:wbA;Z:JIt[:ZXZ:ZXJ:B:n]X>Z:ZXJ:t[:JItK:B:n]X>:<:wbA>:n=;Z:JIt;;
+:wZ:ZX::pkF:ZX:B:;B:bA<ZXJIB:JIB:<:t[:bAn=>ZXJIB:;:wZ::wZ::wZ:B:bA<ZXJ
+IJ:t;wZ:>:n=<:n=<:n=>ZXJIB:;B:bA<ZXJIJ:t;wZ:>:n=>ZXJIB:;:wZ::wZ:B:bA<Z
+XJIB:<:t[:bAn=<:n=<:n=<Z:ZXB:ZXB:t;w:;bAn=<J:JIB:JIB:JIJ:t;wZ:>:n=>ZXJ
+IB:;B:bA:RAo::t;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::pKGB
+;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=K:ZX:>
+:<JIbA<ZXJIB:<:t[::t[::t[:n=t;<:t;<:t;:B:;:t[::t;;bAn=<J:ZXJ:t;wJ:<Z:n
+=t;:>ZXJIB:;:t[:n=t;<J:ZXB:ZXJ:t;wJ:<Z:n=tK:B:wZX>:<JIbA<:bA;Z:n=t;;bA
+n=<:t;:B:;:t[::tK:B:wZX>:<JIbA>ZXJIB:;:t[::t[::t[::tK:B:wZX:ZWN=P:ZX:Z
+:n=tK:B:n]XJ:JIZ:ZXJ:JIB:bAB:bAB:bAB:;bAn=B:wZX>:<:wbA<J:<:t;<JIbA>:n=
+B:bA<J:t;w:;bAn=>:n=<:t;B:bAB:bA<J:<:t;<JIbA;Z:JItK:B:n]X>:<:wbAB:bA<J
+:ZXB:wZXZ:>ZXJIJ:t;wJ:B:n]X>:<:wbAB:bA>:n=;Z:JIt;<:t;<:t;<:tK:B:n]X:ZW
+F=b?RAbA:;:wJ:B:n]XZ:ZXJ:<:t;<JIbA>:n=>:n=>:n=;J:n=w:;B:bA;J:<JIbA;bA<
+:wbA>Z:n=t;;bAn=>:n=;J:n=w:;:w:<:t;;:w:;B:bA>:bA;bA<:wbA>:n=<J:JIB:JI>
+:;B:wZXJ:t;wJ:B:n]XJ:JI>:;JIn=B:bA;B:<JIbA<ZXJIJ:t;w:;:wJ:<J:<JIbA>:wZ
+XJ:ZXJ:ZXB:JI:ZWN=R?bAt;:<JIbA;Z:JItK:B:n]XB:bA>:<:wbA>:n=>:n=>:n=<J:J
+IB:wZXJ:<:t;;bA<:wbA<:t;>:n=B:bA<J:JIJ:t;wJ:B:n]XJ:JIB:bAB:bA>:<:wbAB:
+bA;Z:JItK:B:n]X>Z:ZX:<JIbA;Z:JIt;;:wZ:>:n=;bA<:wbA;B:bA>ZXB:n]XZ:ZXJ:J
+I>Z:ZXZ:n=t;<:t;<:t;;Z:JIt;:pkF:ZX:B:;:wZ::wZ::wZ:B:bA<ZXJIB:<:t[::t[:
+:t;;bAn=<J:ZXJ:t;wZ:>ZXJIB:<:t;;bAn=<J:t;w:;bAn=>:n=<J:JIB:<:t[::t[::t
+[:bAn=<:n=<:n=<:n=>ZXJIB:;:wZ::wZ:B:bA>ZXJIB:;bAn=>ZXJIB:;:wZ::w:;bAn=
+>:n=<J:<:t[::t[::t[:bAn=:RAo::t;::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::::
+::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::ZWF=K:ZX:J:t;wZ:>Z:ZXB:ZXB:ZX>:<JIbA;Z:n=t[::t[:n=t;;B:<JIbA<:bA
+>ZXJIB:;:t[::t;;bAn=>:n=:B:bA>Z:B:wZX:Z::t[::tK:B:wZXB:ZXJ:t;wZ:ZXZ:ZX
+Z:ZXZ:>:bA<:bA;Z:n=t[::tK:B:wZX>:<JIbA;Z:n=t[::t;:;Z:n=t[::t[::t[::t;:
+pKGR;:t;:;bAn=B:bA>:n=;Z:JIt;<:t;<:t;;:wZ:ZX:<:t;<:t;;:wJ:B:n]XZ:ZXJ:J
+IB:;:t[:bAn=<JIbAZ:ZXB:;:wJ:t[:JItK:B:n]XZ:ZXZ:ZXB:;B:bA<JIbAB:bAB:bAJ
+:JIJ:JI>:<:wbA;Z:JIt;<:tK:B:n]XZ:ZX>:<:wbA<J:t;w:<JIbA;Z:JIt;;:w:<:t;:
+pkFZPZWZX:>:n=>Z:ZXZ:n=tK:<J:<JIbA>ZXJIJ:JIZ:ZXJ:JIJ:JIJ:<JIbA>ZXJI>Z:
+>Z:n=t;;JIbA>ZXJI>:<:wbA;J:n=w:;:w:;:wJ:>:wJI>Z:>Z:n=tK:B:wZXJ:t;w:;B:
+wZX>ZXB:n]XJ:JIJ:JIJ:JIZ:ZXZ:ZXB:;:wJ:>Z:n=t;;bAn=<J:t;w:;bAn=;B:;B:wZ
+X>ZX>:wJIJ:JI>Z:B:wZXZ:n=t;;B:wZX:ZWN=R?bAt;:;bAn=<:t;;Z:JItK:<:t;B:wZ
+XZ:ZX>:<:wbA>:n=B:bA<:t;>:n=;B:bAB:wZX:;:wJ:B:n]XB:;:w:;bAn=B:bA<J:JI>
+:bA>:bAZ:n=t[:ZXJ:B:n]XJ:JIJ:JIJ:JI>:<:wbA;Z:JItK:B:n]X>Z:ZX:<JIbA;Z:J
+It;<:tK:<:t;<:n=B:wZX>Z:ZXJ:t[:JIt[:ZX::pkF:ZX:J:JIB:;B:bA<ZXJIJ:t;wZ:
+>:n=<:n=<:n=<Z:ZXB:t;wZ:B:bA>ZXJIJ:JIB:;:t;;bAn=<J:t;w:;bAn=<J:<:t[:bA
+n=>ZXJIJ:JIJ:JIB:;:wZ:B:bA<ZXJIB:<:t[::t[::t[:bAn=<:n=<:n=>ZXJIB:;:wZ:
+:wZ::w:;bAn=>:n=<J:JIJ:t;wZ:>:n=<Z:ZX:ZWN=:bA:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::ZWF=M:RAbA::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::RAoZ>:t[X::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::pkF>;:t;Z:n=t;;B:<JIbA>ZXJIB:;:t[::t[::tK:B:wZX>:<
+JIbA<:bA<:bA>ZXJIJ:JIB:;:t[::t[::tK:B:wZX>:<JIbA>ZXJIB:;bAn=<Z:ZXB:ZXB
+:ZX:Z::t[:n=t;>:n=<J:ZXB:ZX>:<JIbA>ZXJIB:;:t[:bAn=:B:<:t;;bAn=<J:t;w:;
+bAn=<J:<:t;;bAn=>:n=:RAoZ?:bA:<:t;B:bA>:n=>:n=;Z:JIt;;:w:<:tK:B:n]X>:<
+:wbAB:bA>:n=>:n=;Z:JIt;;:w:;:w:<:tK:B:n]XJ:JI>:<:wbA;Z:JIt;;:w:<:t[:>Z
+XJIJ:t;wZ:ZXZ:>Z:ZX>ZXB:n]XJ:JI>:<:wbA>:n=;Z:JItK:B:n]XB:;bAn=B:wZXB:;
+B:bA;bA<:wbA>:n=;Z:JIt[:>:bA<:bA:RAm:T;p;t;J:t;w:;:w:;:w:<:tK:<Z:n=t;<
+JIbA>:n=<J:t;wJ:>Z:n=t;;JIbA>ZXJIJ:JI>Z:>Z:n=t;<JIbAB:bA>:n=<J:t;w:;bA
+n=;Z:JItK:<J:<JIbAB:wZXJ:<JIbA;bA;JIn=B:bA>:n=;Z:JItK:<J:<JIbAB:wZXB:;
+bAn=>ZXJI>Z:>Z:n=tK:t[:JItK:>:wJIJ:<JIbA;bA<:wbA;Z:JIt;;:wJ:<J:<JIbA;b
+A<:wbA;Z:JIt;:pKGZOZXbA:>:n=B:bA>:n=;Z:JItK:<JIbA>ZXB:n]XZ:ZX>:<:wbA;B
+:bAB:wZX:;:w:;:wJ:<:t;;bA<:wbA;Z:JIt;<:tK:B:n]XJ:JI>:<:wbA;B:bA>ZXB:n]
+XB:bAB:;:wJ:t[:JIt;;:wJ:B:n]X>Z:ZXJ:t[:JItK:B:n]XJ:JI>Z:ZXJ:t[:JIt[:>:
+n=<JIbA>:<:wbA;Z:JIt;;:wJ:<:t;;bA<:wbA;Z:JIt;:pkF:ZX:B:;B:bA<ZXJIJ:t;w
+Z:>:n=>ZXJIB:;:wZ::wZ::w:;bAn=<J:<:t;;bAn=>:n=>:n=<J:t;wZ::wZ::wZ::w:;
+bAn=<J:JIJ:t;wZ:>:n=<Z:ZXJ:t;wZ:>ZXJIB:<:t[:bAn=>ZXJIB:;:wZ::w:;bAn=>:
+n=<J:JIJ:t;wZ:>Z:ZXB:t;wZ::w:;bAn=>:n=<J:JIB:JI:ZWN=:bA:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::RAoZ>:t[X::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::pkF>;:t;Z::w::<JIbA>Z:>Z:n=t[:bAn=<Z:ZXB
+:t;w::<Z:ZXB:wZX:;:wZ:ZXZ:>:bA:J:t;wJ:<Z:n=t[:n=t;>:n=;B:<JIbA:B:wZXZ:
+>:bA<ZXJIB:<:tK:B:wZXB:t;wZ::w::>ZXJIB:;B:bA>ZXJIB:;bAn=;J:<JIbA<ZXJI>
+:;B:wZX>:<JIbA>ZXJI::;:wJ:<Z:n=t;:pKGR;:t;J:t[:JIt[:>ZXJIB:wZX:<:tK:B:
+n]X>:<:wbA;Z:JIt[:>:n=>ZXJIB:bAB:;B:bA<JIbAZ:ZXB:;bAn=<Z:ZXZ:n=t[:ZX:;
+:w:<:t[:>ZXJIB:wZXJ:B:n]X>:<:wbAB:bA;Z:JItK:B:n]X>:<:wbA<J:JIJ:t;wJ:B:
+n]XJ:JI>:<:wbA;Z:JItK:B:n]X>:<:wbAB:bA<J:<:t[:bAn=>ZXJIZ:ZX:ZWF=b?RAbA
+J:B:n]X>:;JIn=>:n=>:n=;Z:JItK:<J:<JIbA;bA<:wbA;J:n=w:<:t;;:wJ:B:n]XJ:J
+IJ:<JIbA;bA;JIn=;Z:JIt;;:w:;:w:;:w:;:wJ:>:wJIJ:JI>Z:>Z:n=tK:t[:JIt;;B:
+wZXB:JI>ZXB:n]X>:<:wbA;J:n=w:;:wJ:<J:<JIbA>ZXJI>:<:wbA<J:t;wJ:t[:JIt[:
+>:n=>ZXJI>:<:wbA;J:n=w:;:w:;:w::pKGZOZXbA:;Z:JIt[:>:n=>ZXJIZ:ZX>:<:wbA
+;B:bA>ZXB:n]XB:;:wJ:t[:JIt;;:wJ:B:n]XJ:JIB:bAB:;:wJ:t[:JIt;<:t;;:w:;:w
+:<:t[:>:n=>ZXJI>Z:ZXJ:t[:JIt[:ZXJ:B:n]X>:<:wbA;Z:JIt[:>:n=>ZXJI>Z:ZX:;
+bAn=;Z:JItK:B:n]X>:<:wbA;Z:JIt;<:tK:B:n]XB:;:w:;bAn=B:bA:RAm::t;Z:>:n=
+>ZXJIB:;B:bA<ZXJIB:JIJ:t;wZ:>:n=>ZXJIB:;:wZ:B:bA<ZXJIB:<:t[::t;;bAn=<J
+:t;wZ::wZ:B:bA>ZXJIB:;bAn=>ZXJIB:;B:bA>ZXJIB:;bAn=<Z:ZXB:t;wZ::wZ::w:;
+bAn=>:n=>:n=>:n=<J:JIB:JIB:JIB:JIB:JIB:JIJ:t;w:;:wZ:>:n=:RAo::t;::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::RAmj>:p;t;:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::ZWF=K:ZX:B:JIB:<:t[::t[::t[:bAn=
+<JIbAJ:JIJ:JI:Z:>:n=::J:>Z:n=tK:B:wZXB:ZXB:ZXJ:t;wZ:>:bA;Z:n=t;:<:bA<:
+bA<:bA;Z:n=t[::t;;bAn=;B:<JIbA<:bA<JIbAB:;:t[:bAn=>ZXJIB:;B:bA;Z:n=t[:
+:t[::t[:n=t;<J:t;wZ:n=t;<J:<:t;:pKGR;:t;J:t[:JIt;;:wJ:B:n]X>:<:wbA;Z:J
+It[:ZX:;:wZ:>:bA<ZXJI>ZXB:n]XB:;:wZ::wJ:t[:JIt;<:tK:B:n]X>:<:wbA<J:<:t
+;<JIbA;Z:JIt[:>ZXJI>ZXB:n]X>:<:wbA;Z:JIt;<:tK:B:n]XB:;B:bAB:wZXJ:JIB:b
+AJ:JI>:<:wbA<J:ZXZ:n=tK:B:n]X>:<:wbA>:n=<:t;;Z:JIt[:ZX:;:w::pkFZPZWZX:
+;Z:JIt;<:tK:<Z:n=tK:B:wZX>ZXB:n]XJ:JIJ:JI>:<:wbA;J:n=wJ:B:n]X>:;JIn=;J
+:n=wZ:>ZXJIJ:t;wJ:<J:<JIbA;Z:n=tK:t[:JIt;;B:wZXB:JI>ZX>:wJI>Z:>Z:n=tK:
+B:wZX>:<JIbA>ZXJI>Z:B:wZX>ZXB:n]XJ:JIZ:ZXJ:JIZ:ZX>:<:wbA;Z:JIt;;B:wZXB
+:JI>:;B:wZXZ:n=t;;:wJ:B:n]XJ:JIZ:ZX:ZWN=R?bAt;J:B:n]X>:<:wbA;B:wZXJ:ZX
+J:t[:JIt;;:w:;:wJ:B:n]XB:;:wJ:t[:JIt[:>:n=<:n=;bA<:wbAB:bA;B:bA>:bA>ZX
+B:n]XB:bA>:<:wbA<J:JI>:bA>:bA>:bAZ:n=tK:<:t;;bA<:wbAB:bA;Z:JIt;;:wJ:B:
+n]X>:<:wbA;Z:JIt[:ZXJ:B:n]X>Z:ZXJ:t[:JIt;;:wJ:B:n]XJ:JI>:<:wbA:RAm::t;
+Z:>:n=<:n=>ZXJIJ:JIB:;:wZ:B:bA>ZXJIB:;bAn=>ZXJIB:;:w:;bAn=>:n=<J:JIB:J
+IJ:t;w:;:wZ:>:n=<Z:ZXB:t;w:;bAn=>:n=>:n=>:n=<J:JIJ:t;wZ:>:n=<:n=<:n=<Z
+:ZXB:t;wZ::wZ::wZ:B:bA<ZXJIJ:t;wZ:>:n=<Z:ZXB:t;wZ:B:bA<ZXJI:ZWN=:bA:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::pkF>;:t;Z:B:bA<JIbA>Z:B:wZXB
+:ZXB:ZXB:ZXB:ZX:J:B:wZXB:wZX:;:wZ:ZXJ:<Z:n=tK:B:wZXB:t;wZ:B:bA>ZXJIB:;
+:t[:n=t;;B:<JIbA;Z:n=t[::tK:B:wZX>:<JIbA<ZXJIB:<:t;:;Z:n=t;;bAn=;B:<JI
+bA<ZXJI:Z:B:bA:B:ZXJ:t;wZ:>:bA;Z:n=t;;bAn=<J:ZX:ZWN=P:ZX:Z:n=t[:ZX:<:t
+;<:tK:B:n]X>:<:wbAB:bA<J:t;wJ:t[:JIt[:ZXZ:>Z:ZXB:wZX:<:tK:B:n]X>:<:wbA
+>:n=<J:ZXJ:t;wZ:ZXJ:B:n]X>:<:wbAB:bA;Z:JItK:B:n]X>:<:wbA>:n=<J:t;w:<JI
+bA<J:<:t;<JIbA;Z:JIt[:>ZXJI>ZXB:n]XB:;:wJ:t[:JIt;;:w:<:tK:B:n]XB:;B:bA
+B:wZX:ZWF=b?RAbA:;B:wZXJ:t;w:;:w:;B:bA;J:<JIbA;Z:n=t;;JIbA;bA;JIn=<J:J
+IJ:t;wJ:B:n]XJ:JIJ:JIB:;:wJ:t[:JIt;<:tK:B:n]XZ:ZXJ:JIB:;:wZ::w:;:t[::w
+Z::wJ:t[:JIt;<:tK:>:wJIJ:JI>:<:wbA>:n=;Z:JItK:>:wJI>Z:>Z:n=tK:tK:n=wJ:
+<Z:n=t;;bAn=>Z:n=t[::wJ:t[:JIt;;B:bA:RAo:P;t[X:B:wZX:;:w:<:t[:ZXJ:<:t;
+;:t;<JIbAB:;:wJ:t[:JIt;;:wJ:B:n]XJ:JIZ:ZX>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z
+:JIt;;:wJ:B:n]X>:<:wbA<:t;;Z:JItK:B:n]X>:<:wbA;Z:JIt[:>:n=B:wZX>:<:wbA
+B:bA;Z:JIt[:>:n=;:t;<:n=;:t;>ZXJIB:bA>:<:wbA;Z:JIt[:ZX::pkF:ZX:B:;B:bA
+<:bA<ZXJIB:<:t;;bAn=>:n=<J:ZXJ:t;wZ:>ZXJIB:<:t[:bAn=<Z:ZXB:t;wZ::wZ::w
+Z::wZ::wZ::wZ:B:bA<ZXJIB:JIB:<:t[:bAn=<:n=<:n=<:n=>ZXJIB:;:wZ::wZ::wZ:
+:w:;bAn=>:n=>:n=>:n=>:n=<J:<:t[:bAn=<:n=<Z:ZX:ZWN=:bA:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::RAoZ>:t[X::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::pkF>;:t;:;bAn=;B:<JIbA;Z:n=t[::t;:<:bA;Z:n
+=t[::t[:bAn=>ZXJIB:;:w:;bAn=;B:;B:wZXB:ZX::;bAn=<J:t;w:;bAn=>:n=>:n=<J
+:JIB:JIB:<:t;;bAn=;B:<JIbA;Z:n=t;;bAn=;B:<JIbA>ZXJI:Z:>:bA>ZXJIJ:JI>Z:
+B:wZXJ:t;wZ:>:bA<:bA<:bA;Z:n=t;;bAn=:RAoZ?:bA:>:n=B:bAB:bA>:n=<J:t;wJ:
+t[:JIt;<:tK:B:n]X>:<:wbA<J:<:tK:t[:JIt[:>:bA;bA<:wbAB:bA<J:t;wZ:B:bA;b
+A<:wbA<J:ZXB:ZXB:ZX>ZXB:n]X>:<:wbAB:bA>:n=;Z:JIt;<:t;;:w:<:t;;:wZ:>ZXJ
+IZ:n=t;;:w:;:w:<:t[:>Z:ZXZ:n=t;<:tK:B:n]XZ:ZXB:;:t;:pkFZPZWZX:>ZXJIJ:J
+IJ:JIZ:ZX>:;JIn=;B:<JIbA>ZXJI>Z:B:wZX>ZXB:n]X>:<:wbA;Z:JItK:B:n]XB:;bA
+n=>:bA;bA;JIn=;Z:JItK:B:n]X>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z:JIt;;B:bA>ZXJ
+IB:;:w:;bAn=>:n=>:n=>:n=;J:n=w:;B:bA>ZXJIJ:JIJ:JI>:<:wbA>Z:ZXJ:ZX>:;B:
+wZXJ:t;wJ:B:n]X:ZWN=R?bAt;:;:w:<:t;<:tK:B:n]XB:;bAn=;:t;B:wZX>Z:ZXJ:t[
+:JItK:B:n]X>:<:wbA;Z:JItK:B:n]XB:bAB:;:wJ:t[:JItK:B:n]X>:<:wbA;Z:JItK:
+B:n]X>:<:wbA;Z:JIt[:ZX:;:wJ:B:n]XZ:ZXJ:JIZ:ZXJ:JIB:;:wZ:n=t;>:n=>:n=B:
+bA;Z:JIt[:ZXZ:ZXJ:<:t;B:wZX>:<:wbA:RAm::t;:;:wZ:>:n=<:n=<:n=>ZXJIJ:JIB
+:;:w:;bAn=<J:JIB:JIB:JIB:JIB:JIB:<:t;;bAn=<J:t;wZ::wZ::wZ::wZ::wZ::wZ:
+:wZ:B:bA>ZXJIB:;bAn=<:n=>ZXJIB:;:w:;bAn=>:n=<J:<:t;;bAn=>:n=<J:t;wZ::w
+Z:B:bA<:bA>ZXJIB:;bAn=<:n=:RAo::t;::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::
+::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::ZWF=K:ZX:>:;B:wZX>:<JIbA<:bA<:bA>ZXJI>Z:B:wZX>:<JIbA>ZXJI>Z:B:
+wZX:Z::t[::t[:n=t;>:n=;B:<JIbA<JIbA:Z:>:bA>ZXJIB:;bAn=:B:JI>:;B:wZX>:<
+JIbA<ZXJIB:<:t[::t[:n=t;<:t;<J:ZX::;bAn=<J:ZXB:ZXB:ZXJ:t;w:::B:;:t[:n=
+t;:RAoZ?:bA:;Z:JIt;<:tK:B:n]X>:<:wbA>:n=B:bAB:bA<J:ZXZ:n=t[:>ZXJIJ:t;w
+J:B:n]XB:bAB:;B:bA;bA<:wbA<:t;<J:t;w:;bAn=<J:<:tK:t[:JIt[:>ZXJI>ZXB:n]
+X>:<:wbAB:bA;Z:JIt;<:tK:B:n]XB:bAB:bAZ:ZXB:;:w:;bAn=>:n=>:n=>:n=<J:<:t
+[:bAn=<:n=B:wZXB:bA:ZWF=b?RAbAZ:>:n=>ZXJI>Z:>Z:n=tK:B:wZXJ:t;w:;:w:;:w
+J:B:n]XJ:JI>:;JIn=B:bA;B:<JIbA>ZXJI>:<:wbA<J:t;w:;bAn=;J:n=w:<:tK:B:n]
+X>:<:wbA;J:n=wJ:B:n]XB:;:w:;bAn=;Z:JIt;;B:bA;J:<JIbA>ZXJIJ:JIJ:<JIbA;b
+A;JIn=>:n=B:bAB:bAB:bA;Z:JItK:>:wJI>:;JIn=>Z:ZXJ:t;w::pKGZOZXbA:;Z:JIt
+;<:tK:<:t;;:t;>ZXJIZ:ZXZ:ZX>:<:wbAB:bA<J:JI>ZXB:n]X>Z:ZX:;bAn=;Z:JItK:
+B:n]XJ:JIB:;:wJ:t[:JItK:B:n]X>:<:wbA<J:JI>ZXB:n]X>:<:wbAB:bA;Z:JIt[:ZX
+J:<:t;>ZXJIJ:JIB:bAB:;:w:;bAn=;Z:JItK:B:n]X>:<:wbA;Z:JIt[:>:n=<:n=<JIb
+AJ:JI:ZWF=:bA:<J:JIB:JIJ:t;w:;:w:;:wZ:>:n=<:n=<:n=<:n=>ZXJIB:;:w:;bAn=
+<J:<:t[:bAn=<:n=<Z:ZXJ:t;wZ:>ZXJIB:JIB:JIJ:t;wZ:>:n=<:n=<:n=<:n=<Z:ZXJ
+:t;wZ:>:bA<:bA<:bA>ZXJIJ:JIB:;bAn=<:n=<:n=<:n=>ZXJIJ:JIB:;B:bA<:bA:RAo
+::t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAmj>:p;t;:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::pKGB;ZXbA:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::ZWF=K:ZX::Z::t[::t[::t
+;;bAn=<:t;<J:ZX:J:B:wZXB:ZX>:<JIbA<:bA<:bA<JIbAB:;:t[::tK:B:wZXJ:t;wZ:
+>:bA;Z:n=t;;bAn=>:n=<J:ZX>:<JIbA<:bA;Z:n=t;;bAn=<:t;<J:ZX:::<:bA>ZXJIJ
+:JIB:;:t;;bAn=>:n=>:n=>:n=<:t;:RAoZ?:bA:<J:t;w:;bAn=;Z:JItK:B:n]XB:;B:
+bA<JIbAJ:JIB:;bAn=;bA<:wbA;Z:JIt;<:t;;:w:<:t[:ZXJ:B:n]XJ:JI>:<:wbA>:n=
+>:n=B:bA>:n=<J:<:t;;bAn=B:bAB:bAB:bA>:n=<:t;;Z:JIt[:>ZXJIB:JI>ZXB:n]XJ
+:JIB:;B:bA>ZXJIB:;:t[::t;;bAn=<J:ZXB:wZX::pkFZPZWZX:;J:n=w:<:tK:<Z:n=t
+K:B:wZX>ZXB:n]XJ:JIZ:ZX>:;JIn=<J:t;wJ:>Z:n=t;;bAn=B:bA>Z:n=t;;bAn=;B:;
+B:wZXZ:n=t[:>ZXJIJ:t;w:<:t;;:w:;:wJ:B:n]XZ:ZXJ:JIJ:<:t;;bAn=>:n=>:n=;B
+:;B:wZX>ZX>:wJI>:;JIn=;B:<JIbA>ZXJI>:<:wbAB:bA;Z:JItK:B:n]XJ:JI>:<:wbA
+>:n=:RAo:P;t[X:B:;bAn=;bA<:wbA;B:bA>:bA>ZXB:n]XJ:JI>:<:wbA<J:JI>ZXB:n]
+X>Z:ZX:<JIbA;Z:JIt[:ZX:;:wJ:<:t;;bA<:wbA;Z:JIt;;:wJ:B:n]XZ:ZXJ:JI>:<:w
+bA;Z:JIt;<:t[:ZX:<:t;;:w:;:wJ:<:t;<:n=<:n=;:t;>ZXJI>:<:wbA;Z:JItK:B:n]
+X>:<:wbA>:n=;Z:JIt;;:w::pkF:ZX:J:JIB:;:w:;bAn=>:n=<J:JIB:<:t[:bAn=>ZXJ
+IB:;:w:;bAn=<J:JIB:JIB:<:t[::t;;bAn=<J:t;wZ::w:;bAn=<J:JIB:JIJ:t;wZ:>:
+n=<:n=<:n=<Z:ZXB:t;w:;bAn=<J:<:t;;bAn=>:n=>:n=>:n=>:n=<J:t;wZ::wZ::wZ:
+:w:;bAn=<J:JIB:<:t;:pKG:ZX::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::pkFF;ZWZX:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::ZWN=L:bAt;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:RAmJ>:bA:<:bA<JIbAJ:JIJ:JIB:;:t;;bAn=:B:bAJ:JIB:;:t;:<ZXJIB:<:tK:B:wZ
+XB:ZXB:t;wZ:B:bA<ZXJI:J:>Z:n=t;;bAn=<:t;;B:<JIbA<:bA>ZXJIB:;:t;;bAn=<J
+:t;wZ:B:bA<:bA<:bA>ZXJI>Z:B:wZXB:ZX>:<JIbA;Z:n=t[:n=t;<J:ZXJ:t;w:;:w::
+pKGR;:t;:<:t[:ZX:;:wZ:>:bA>ZXJIB:;:t[:bAn=<JIbAB:;B:bAB:wZXB:;bAn=;bA<
+:wbAB:bAB:bAB:bA;Z:JIt;;:wJ:B:n]XB:;:w:<JIbA<J:<:t[:n=t;B:bAB:bA<J:ZXZ
+:n=t[:>:bA;bA<:wbA>:n=;Z:JItK:B:n]XB:;:t;<JIbA>:n=;Z:JIt;<:t[:ZXJ:B:n]
+XJ:JIB:;:t;:pkFZPZWZX:>:wZXJ:t;w:;:wJ:B:n]XZ:ZX>:<:wbA;J:n=w:;:wJ:B:n]
+XJ:<:tK:tK:n=wJ:B:n]XJ:<:t;;bAn=>Z:ZX>ZXB:n]XZ:ZX>:<:wbA;J:n=w:;:wJ:B:
+n]XJ:JIJ:JIJ:<:tK:t[:JIt;;B:bA;bA<:wbA;Z:JIt;<:tK:<J:<JIbA;Z:n=tK:t[:J
+It;;:w:<:t[:>ZXJIJ:t;w:;:wJ:<J:<JIbA>ZXJI>:<:wbA:RAo:P;t[X:B:bAJ:JIJ:J
+I>:<:wbA;Z:JItK:B:n]XB:;bAn=>ZXJI>:<:wbA<:t;<J:JI>ZXB:n]XB:bAZ:ZXB:bA>
+:<:wbA;Z:JItK:B:n]XB:;:w:<JIbA;Z:JIt;;:w:<:t[:ZXJ:B:n]XB:bA>:<:wbA;Z:J
+ItK:B:n]X>Z:ZXJ:ZXJ:t[:JIt;<:tK:B:n]X>:<:wbAB:bA>:n=;B:bAJ:t;wJ:B:n]X:
+ZWF=:bA:<J:<:t[::t;;bAn=<J:t;wZ::wZ::w:;bAn=<J:<:t[:bAn=<Z:ZXJ:t;wZ:>Z
+XJIB:<:t[:bAn=<Z:ZXB:t;wZ::wZ::w:;bAn=<J:JIB:JIB:<:t[:bAn=<Z:ZXB:t;wZ:
+B:bA<ZXJIB:JIB:JIJ:t;w:;:wZ:>:n=<:n=<:n=<:n=<:n=<Z:ZXJ:t;w:;:wZ:>ZXJI:
+ZWN=:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:RA
+bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;J:>Z:n=t;;
+bAn=<J:t;w::<Z:ZX>:<JIbA>ZXJIJ:JIB:bAJ:JI>Z:B:wZXJ:t;wZ:>:bA<:bA<:bA>Z
+XJIB:;:t[:n=t;>:n=;B:<JIbA>ZXJIB:bAB:bAJ:JI>Z:B:wZXB:wZXZ:>:bA<ZXJIB:w
+ZXZ:>Z:ZXB:t;wZ::w::<JIbA>Z:>Z:n=t;;bAn=<J:ZX>:<JIbA>ZXJIB:;:t;:pKGR;:
+t;J:t[:JIt;;:wJ:B:n]XB:;bAn=>ZXJI>:<:wbA<J:<:t[::t[:n=t;>:n=;Z:JIt[:>:
+bAB:wZXZ:ZXJ:JIB:;:tK:t[:JIt[:ZX:;:wJ:B:n]XJ:JIB:bAB:bAJ:JI>:<:wbA<:t;
+;Z:JItK:B:n]XB:bAJ:JI>:<:wbA;Z:JIt[:>ZXJIB:wZXJ:B:n]XB:;B:bA;bA<:wbAB:
+bA>:n=;Z:JIt;:pkFZPZWZX:<J:t;w:;bAn=;Z:JItK:>:wJIZ:ZXB:;:wJ:t[:JItK:B:
+n]XJ:JIJ:JIB:;:wJ:t[:JIt;;B:bA>:bAB:wZX>:<:wbA;B:;B:wZXJ:t;w:;:wZ:>ZXJ
+IJ:t;w:;:w:;:w:;:wZ:>:n=>ZXJI>Z:>Z:n=tK:t[:JIt;;:w:<:tK:B:n]X>:<:wbA;J
+:n=w:;:wZ:>ZXJI>ZXB:n]X>Z:>Z:n=t;;bAn=>:n=;B:<JIbA:RAo:P;t[X:>ZXB:n]XJ
+:JI>:<:wbA<J:t;wJ:t[:JItK:B:n]X>:<:wbA;Z:JIt;;:w:;:wJ:B:n]X>:<:wbA<:t;
+<:t;;Z:JItK:B:n]X>Z:ZX:;bAn=>:n=;Z:JIt;;:w:;:w:;:w:;:wJ:B:n]XJ:JI>Z:ZX
+J:t[:JIt;;:wJ:B:n]X>:<:wbA;Z:JIt[:>:n=>ZXJI>:<:wbA;Z:JItK:<:t;B:wZXJ:J
+I>Z:ZX::pkF:ZX:B:JIJ:t;wZ:>:n=>ZXJIB:;:wZ::wZ::wZ::wZ:B:bA>ZXJIB:;bAn=
+<:n=<Z:ZXB:ZXB:t;wZ::w:;bAn=<J:<:t;;bAn=<J:t;w:;bAn=<J:<:t[::t;;bAn=<J
+:t;wZ:B:bA>ZXJIB:;bAn=<Z:ZXB:t;wZ::wZ::w:;bAn=<J:<:t[:bAn=<:n=>ZXJIB:;
+:w:;bAn=>:n=:RAo::t;::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=K:
+ZX:B:;B:bA<:bA<:bA:>:<JIbA<:bA;Z:n=t;;bAn=<:t;<J:ZXB:wZXZ:ZXJ:<Z:n=t;;
+bAn=:B:;:t[::t;;bAn=>:n=<J:ZXJ:t;wZ:>:bA>ZXJIB:;:t;:;Z:n=t[::tK:B:wZXB
+:ZX::;bAn=:B:;:t[:n=t;<J:t;w:;bAn=<J:<:t;:<:bA>ZXJI:ZWN=P:ZX:>:<:wbAB:
+bAB:bA<J:t;wJ:t[:JItK:B:n]X>:<:wbA>:n=<:t;>:n=<:t;<:t;;Z:JIt[:>Z:ZXB:t
+;wJ:t[:JItK:B:n]XJ:JIJ:JIJ:JIB:;B:bA>ZXJIJ:JI>:<:wbA<J:t;w:<JIbAB:bA;Z
+:JIt;<:t[:>:n=>ZXJIB:;:w:<JIbA<:t;;Z:JIt;;:w:<:t[:>:n=>ZXJIB:;B:bA:RAm
+:T;p;t;>:<JIbA>:wZXJ:ZX>ZX>:wJIB:;:wJ:>Z:n=t[:bAn=>ZXJIJ:JIZ:ZXJ:JIJ:J
+IB:;:wJ:t[:JItK:>:wJI>Z:>Z:n=tK:B:wZXJ:t;w:;:w:<:tK:B:n]XZ:ZXJ:JI>Z:B:
+wZX>ZX>:wJIJ:JIJ:<JIbA<:n=>:bA;bA;JIn=>:n=;J:n=w:;B:bA>ZXJI>:<:wbA>:n=
+>Z:ZX>ZX>:wJIZ:ZX>:<:wbA:RAo:P;t[X:>Z:ZXZ:n=t;<:t;<J:JI>ZXB:n]X>Z:ZXJ:
+t[:JIt;;:w:;:wJ:B:n]XJ:JIJ:JI>:<:wbA;Z:JIt[:>:n=;:t;;:t;>ZXJIJ:JI>:<:w
+bA;Z:JItK:B:n]XJ:JI>Z:ZXZ::w:<JIbA<:t;;Z:JIt[:ZXZ:>:n=>ZXJIB:;:wZ:n=t;
+>:n=;Z:JIt;;:wZ:ZXZ:>:n=;bA<:wbA;Z:JIt;:pkF:ZX:J:JIB:;B:bA<:bA>ZXJIB:;
+bAn=>ZXJIB:;:w:;bAn=<J:<:t[:bAn=<Z:ZXB:ZXB:t;wZ::w:;bAn=>:n=>:n=>:n=>:
+n=<J:JIB:JIB:JIJ:t;w:;:w:;:wZ:>:n=<Z:ZXB:t;wZ:B:bA>ZXJIJ:JIJ:JIB:;:t[:
+:t[:bAn=>ZXJIB:;B:bA>ZXJIB:;bAn=<:n=:RAo::t;::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::
+::::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::ZWF=K:ZX:J:t;w:;:wZ:ZXZ:>Z:ZX>:<JIbA;Z:n=tK:B:wZXJ:t
+;w:;:w:;:wJ:<Z:n=tK:B:wZXJ:t;wJ:<Z:n=t;;bAn=<J:ZXB:wZXZ:>:bA;Z:n=t[:n=
+t;<J:ZX>:<JIbA>ZXJIJ:JIJ:JIB:;bAn=>ZXJIB:;B:bA<:bA<ZXJIJ:t;wZ:>Z:ZXJ:t
+;w:;:wJ:<Z:n=t[::t[::t[::tK:B:wZXB:ZX:ZWN=P:ZX:J:t;w:;:wZ:ZX:<:tK:B:n]
+X>:<:wbA;Z:JIt;;:w:;:w:;:w:<:t;<:t[:>:bAB:wZXB:;:tK:t[:JIt[:ZX:<:tK:B:
+n]XB:bAZ:ZX>:<:wbA<J:ZXJ:t;w:;:wJ:B:n]XB:;:t;;bAn=;Z:JItK:B:n]XB:;:t;;
+bAn=<J:ZXB:ZXZ:n=tK:B:n]XJ:JIJ:JI>:<:wbA>:n=:RAm:T;p;t;J:JIJ:JIJ:JIJ:<
+JIbA<:n=<:n=<:n=>ZXJIJ:JIJ:JIJ:JIJ:JI>:<:wbA>:n=;Z:JItK:<J:<JIbA>ZXJIJ
+:<JIbA<:n=>ZXJIJ:<:t[::wJ:t[:JIt;;:w:;:wJ:B:n]X>:<:wbAB:bA;B:;B:wZX>ZX
+B:n]X>:<:wbAB:bA;Z:JItK:B:n]XJ:JI>Z:B:wZXZ:n=t;<:t[:>ZXJIZ:n=t;:pKGZOZ
+XbA:>:n=>:n=>:n=<:t;;Z:JItK:B:n]X>:<:wbA>:n=>:n=>:n=B:bAB:bA;Z:JIt;<:t
+K:B:n]X>Z:ZX:;bAn=<:t;;Z:JIt;;:wZ:ZXJ:B:n]X>:<:wbA>:n=>:n=;Z:JItK:B:n]
+X>:<:wbA;B:bA>ZXB:n]X>:<:wbA;Z:JItK:B:n]X>:<:wbAB:bA;B:bA>ZXB:n]X>:<:w
+bA;Z:JItK:B:n]X:ZWF=:bA:>:n=>:n=<J:<:t[::t[:bAn=<:n=<:n=>ZXJIJ:JIJ:JIB
+:;:wZ::wZ::wZ::wZ::w:;bAn=<J:<:t[::t[:bAn=<Z:ZXB:ZXB:t;wZ::w:;bAn=>:n=
+<J:JIB:JIB:JIJ:t;wZ:>:n=<:n=<:n=<:n=<:n=<:n=>ZXJIB:;:wZ::wZ::wZ::w::pK
+G:ZX::::::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:;J:<JIbA;Z:n
+=t;;bAn=<J:ZX>:<JIbA<:bA<ZXJI>:;B:wZXB:ZXB:ZXB:wZXJ:<Z:n=tK:B:wZXJ:t;w
+Z:ZXJ:<Z:n=t[:n=t;;B:<JIbA<:bA<ZXJIB:<:t;:<:bA<:bA<:bA<JIbAB:;:t[:n=t;
+;B:<JIbA;Z:n=t[:n=t;>:n=>:n=;B:<JIbA<:bA<:bA<ZXJIB:wZXZ:>Z:ZXB:wZX::pK
+GR;:t;J:B:n]XZ:ZXJ:JIZ:ZXZ:ZXJ:JI>:<:wbA;Z:JItK:B:n]X>:<:wbA<:t;;Z:JIt
+K:B:n]XB:;:t[:n=t;;Z:JIt[:ZX:<:t;;:wJ:B:n]XZ:ZXB:;bAn=;bA<:wbA;Z:JIt;;
+:wZ:ZX:<:t[:ZX:<:tK:B:n]XB:bAJ:JIJ:JIZ:ZX>:<:wbA>:n=;Z:JIt[:ZX:<:t[:ZX
+::pkFZPZWZX:<J:JIJ:t;w:;:w:;B:bA>ZXJIZ:ZX>:<:wbA<J:JI>:;B:wZX>:<JIbA>Z
+XJIB:;bAn=<:n=;bA<:wbA>:n=<J:JIJ:t;w:;:w:<:tK:B:n]XJ:<:tK:tK:n=wJ:<J:<
+JIbA;Z:n=t;<JIbA>:n=>Z:n=t;;bAn=>:n=<J:JIJ:t;w:;:w:;:w:;:wJ:<J:<JIbAB:
+wZX>:<:wbA>:n=>Z:n=t;;bAn=:RAo:P;t[X:>:<:wbAB:bA>:n=<:t;B:bA;Z:JItK:B:
+n]X>:<:wbA;B:bA>:bAJ:t;wJ:B:n]X>:<:wbA;Z:JIt;;:wJ:B:n]XJ:JIZ:ZX>:<:wbA
+;Z:JIt[:ZXZ:>:n=;:t;;:t;;bA<:wbA>:n=<:t;>:n=B:bA;Z:JIt;;:w:;:w:;:w:<:t
+K:<:t;;bA<:wbA;Z:JIt;;:wZ:ZX:;:w::pkF:ZX:B:;:wZ::w:;bAn=<J:<:t[:bAn=<:
+n=<:n=<:n=>ZXJIJ:JIB:;B:bA<ZXJIB:JIB:JIB:<:t[:bAn=<Z:ZXB:t;wZ::wZ::wZ:
+B:bA>ZXJIJ:JIJ:JIB:;bAn=<Z:ZXB:ZXB:ZXB:t;wZ::wZ:B:bA>ZXJIJ:JIB:;bAn=>Z
+XJIB:;:wZ::wZ:B:bA<:bA<:bA:RAo::t;::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::
+::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::ZWF=K:ZX:B:ZXB:wZXZ:ZXZ:ZX::<J:t;wJ:>Z:n=t;;bAn=<J:ZX>:<JIbA>Z
+XJIB:;bAn=<Z:ZX>:<JIbA<:bA<JIbAB:;:tK:B:wZX>:<JIbA<JIbAB:;:t;;bAn=;B:<
+JIbA:>:<JIbA>ZXJI>Z:B:wZX>:<JIbA:B:ZX>:<JIbA;Z:n=t[:n=t;;B:<JIbA;Z:n=t
+;;bAn=<J:ZX>:<JIbA>ZXJIB:;:t;:pKGR;:t;J:t[:JIt[:ZXZ:ZXZ:ZXZ:>ZXJI>ZXB:
+n]X>:<:wbA>:n=>:n=;Z:JIt[:>Z:ZX>ZXB:n]XZ:ZXZ:ZXZ:ZXB:bAJ:JI>:<:wbAB:bA
+<:t;;Z:JIt[:>:bA;bA<:wbA<J:t;w:<JIbA>:n=B:bA;Z:JIt[:>:n=B:wZX>:<:wbAB:
+bA<:t;B:bAB:bA>:n=;Z:JIt;<:t;;:wJ:B:n]X:ZWF=b?RAbAJ:<J:<JIbA>ZXJIJ:JIJ
+:JI>:;JIn=;Z:JIt[:>ZXJIJ:t;w:<:t[:>:n=;bA<:wbA;Z:JIt;;B:bA>ZXJIJ:<:t;;
+bAn=B:bA<J:JIJ:t;w:;:wJ:<J:<JIbA;bA<:wbA<J:t;wJ:tK:n=w:;:w:;:w:;:wZ:>:
+n=;bA;JIn=>Z:ZXB:JIJ:t;w:;:w:;:w:;:w:;:wJ:<J:<JIbA>ZXJIJ:JI>Z:B:wZX:ZW
+N=R?bAt;J:n=t;>ZXJIJ:JIJ:JIB:;:wJ:t[:JItK:B:n]XJ:JI>:<:wbA;Z:JItK:B:n]
+X>:<:wbA<:t;B:bA<:t;>:n=;Z:JItK:B:n]XZ:ZXJ:JI>Z:ZXJ:t[:JItK:B:n]XB:;:w
+:<JIbA>:n=B:bA;Z:JIt[:>:n=<JIbA>:<:wbAB:bA>:n=B:bAB:bA>:n=;B:bAZ:n=t;;
+:wJ:<:t;:RAm::t;:;bAn=<J:<:t[::t[::t;;bAn=<J:t;wZ::w:;bAn=<J:JIB:JIB:J
+IB:JIB:<:t[:bAn=<Z:ZXB:ZXB:t;wZ::wZ::wZ:B:bA>ZXJIB:;bAn=<:n=>ZXJIB:;:w
+:;bAn=<J:JIB:JIJ:t;wZ:>Z:ZXB:t;wZ::wZ:B:bA<ZXJIB:JIJ:t;w:;:wZ:>:n=>ZXJ
+IJ:JI:ZWN=:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZW
+F=M:RAbA:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t
+[X::::::::::::::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;J:<J
+:<JIbA<:bA>ZXJI:J:<Z:n=t;;bAn=<J:t;wJ:>Z:n=t;;bAn=;B:<JIbA<:bA<ZXJIB:<
+:t;;bAn=;B:<JIbA<:bA<:bA<JIbA>Z:B:wZX>:<JIbA<:bA;Z:n=t[:bAn=:>:;B:wZXB
+:ZXB:ZXB:ZXB:t;wZ:B:bA<ZXJIB:<:t;;bAn=<J:ZXJ:t;w::<J:ZXJ:t;wZ:ZX:;:w::
+pKGR;:t;:<:tK:B:n]XJ:JIB:;bAn=;bA<:wbA>:n=;Z:JIt;<:t;;:wJ:B:n]X>:<:wbA
+;Z:JIt;;:wZ:>Z:ZX>ZXB:n]XJ:JIJ:JIB:bAZ:ZX>:<:wbAB:bA;Z:JItK:B:n]XB:;bA
+n=;bA<:wbA;Z:JIt;<:t;;:wJ:B:n]X>:<:wbA;Z:JIt;;:wZ:>Z:ZXJ:t;w:;:wZ:>ZXJ
+I>ZXB:n]XB:;B:bA<JIbAJ:JI:ZWF=b?RAbA:;:wJ:<Z:n=t;;bAn=;J:n=wZ:>ZXJIJ:t
+;wJ:B:n]XJ:JIJ:JIB:;:wJ:>Z:n=tK:t[:JIt;<:tK:B:n]XB:;bAn=B:wZXZ:ZXJ:JIJ
+:JIB:;:w:;:t[::wJ:t[:JItK:>:wJIB:;:wJ:>Z:n=t;;JIbAB:wZX>:<:wbA;B:;B:wZ
+X>ZXB:n]XZ:ZX>:<:wbAB:bA>:n=;J:n=wJ:<Z:n=tK:t[:JIt;;:w:;:w::pKGZOZXbA:
+B:bA;B:wZX:;bAn=<J:JI>ZXB:n]XJ:JI>:<:wbAB:bA>:n=;Z:JItK:<:t;;bA<:wbA;Z
+:JItK:B:n]X>:<:wbA;Z:JItK:B:n]XJ:JIZ:ZX>:<:wbA<:t;;Z:JItK:B:n]XB:;:wJ:
+t[:JItK:<:t;<JIbA>:<:wbA;Z:JItK:<:t;;bA<:wbA;Z:JItK:B:n]X>:<:wbA>:n=<J
+:JI>:bA>ZXB:n]XJ:JIJ:JI:ZWF=:bA:<J:JIJ:t;w:;:w:;:wZ:>:n=>ZXJIB:;:wZ::w
+:;bAn=<J:JIJ:t;wZ:>:n=<:n=<:n=<:n=<:n=<:n=<Z:ZXB:t;wZ::wZ:B:bA<ZXJIB:J
+IJ:t;wZ:>:n=>ZXJIB:;B:bA<ZXJIB:JIJ:t;wZ:>:n=<:n=<:n=<:n=>ZXJIJ:JIJ:JIB
+:;:wZ:B:bA>ZXJI:ZWN=:bA:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::ZWF=M:RAbA::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::RAoZ>:t[X::::::::::::::::::::::::::::::::::::::::::::::::::::::::pk
+F>;:t;Z:>:bA<JIbAB:bAB:;:t;:;Z:n=t[::t[::t;;bAn=<J:ZXB:ZX:Z::tK:B:wZXB
+:wZXZ:>ZXJIJ:t;w:;:wZ:>Z:ZXJ:t;wJ:<Z:n=t[::t[::tK:B:wZX>:<JIbA;Z:n=t[:
+bAn=:B:<:t[:n=t;>:n=;B:<JIbA;Z:n=tK:B:wZXB:t;wZ:B:bA<:bA>ZXJIB:;:t;::R
+AoZ?:bA:;bA<:wbA<:t;<:t;;Z:JIt[:>ZXJIZ:n=tK:B:n]XZ:ZXB:;B:bA;bA<:wbAB:
+bA<J:t;w:<JIbAB:bA<:t;;Z:JIt[:>Z:ZXB:ZXZ:n=t[:>:bA;bA<:wbA>:n=>:n=B:bA
+B:bAB:bA;Z:JIt[:>ZXJIZ:n=t[:ZX:;:wJ:B:n]X>:<:wbA;Z:JItK:B:n]XJ:JIJ:JIB
+:;B:bA;bA<:wbA<J:t;w::pkFZPZWZX:;J:<JIbA>ZXJIJ:JI>Z:B:wZX>ZX>:wJIJ:JI>
+Z:B:wZXJ:n=tK:t[:JItK:<J:<JIbA>:wZX>ZX>:wJIJ:<:t;;bAn=>:n=;Z:JItK:B:n]
+X>:<:wbA>Z:ZX>ZXB:n]XB:;:w:<JIbAB:bA>:n=>:n=>:n=;Z:JItK:>:wJIJ:<:t;;bA
+n=>:n=<J:JIB:JIB:JI>ZXB:n]XZ:ZXZ:ZX>:<:wbA;B:;B:wZX>ZX>:wJI:ZWN=R?bAt;
+J:<JIbAJ:t;w:;:wJ:<:t;<:n=B:wZX>Z:ZXZ:n=t;;Z:JItK:<:t;<JIbAB:;:wZ:n=t;
+B:bA>:n=;Z:JItK:B:n]X>:<:wbA<:t;;Z:JItK:B:n]X>:<:wbA;Z:JIt;<:t;<:t;<:t
+K:B:n]XB:;:wZ:n=t;>:n=>:n=;Z:JItK:B:n]X>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z:J
+ItK:<:t;<:n=:RAm::t;:;bAn=<J:<:t[::t;;bAn=>:n=<J:t;w:;bAn=<J:<:t[:bAn=
+>ZXJIB:;B:bA>ZXJIB:;:t[:bAn=<Z:ZXB:t;wZ::wZ::wZ:B:bA<ZXJIB:JIB:JIB:JIB
+:JIB:JIB:JIB:JIJ:t;wZ:>Z:ZXB:ZXJ:t;wZ:>ZXJIB:JIB:JIB:JIB:JIB:JIB:JIJ:t
+;w:;:w::pKG:ZX::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+pkFF;ZWZX:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:
+bAt;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA::>
+Z:>Z:n=t;::>:<JIbA<ZXJIB:<:t[:bAn=<Z:ZX>:<JIbA;Z:n=t[:n=t;;B:<JIbA<:bA
+<JIbA:Z:>:bA<ZXJI>:;B:wZX::;bAn=<J:t;w::>ZXJIJ:JIB:;B:bA<:bA:>:<JIbA;Z
+:n=t[:bAn=<Z:ZX>:<JIbA<ZXJIB:<:t[::t[:n=t;>:n=<J:ZX>:<JIbA:RAoZ?:bA:<Z
+XJI>ZXB:n]XB:;:wZ::w:<JIbA;Z:JIt;;:wJ:B:n]X>:<:wbA;Z:JItK:B:n]XB:bAZ:Z
+X>:<:wbA<:t;<J:JI>ZXB:n]X>:<:wbAB:bA<J:JIB:<:tK:t[:JIt[:>ZXJIJ:t;w:;:w
+:;:wJ:B:n]XB:;:w:<JIbA;Z:JItK:B:n]XZ:ZXZ:ZX>:<:wbAB:bAB:bA<:t;<J:<:t;<
+JIbAB:bA:RAm:T;p;t;>:;JIn=<J:t;wJ:tK:n=wJ:>:wJIJ:JI>:<:wbAB:bA;Z:JItK:
+<J:<JIbA<ZXJIB:JIJ:t;w:;:wJ:<J:<JIbA>ZXJI>:;JIn=;B:<JIbA;bA<:wbA>:n=;J
+:n=wJ:B:n]X>:<:wbA;J:n=w:;:w:;:w:<:tK:<Z:n=tK:tK:n=w:;:wZ:>ZXJI>ZXB:n]
+XJ:<:t;;bAn=;Z:JIt;;B:bA>:bA>ZXJI>:<:wbA>Z:ZXJ:t;w::pKGZOZXbA:<J:JI>ZX
+B:n]XB:;:wZ::w:<JIbA;Z:JItK:B:n]X>:<:wbA;B:bA>ZXB:n]X>:<:wbA>:n=B:bA;B
+:bAJ:t;wZ:>:n=;:t;;bA<:wbAB:bA<J:JI>ZXB:n]X>:<:wbA<J:JIJ:t;w:;:wJ:B:n]
+X>Z:ZXZ::w:<JIbA;Z:JItK:B:n]XB:bAZ:ZX>:<:wbA<:t;<:t;>:n=;Z:JIt[:ZX:<:t
+;:pkF:ZX:J:JIB:;:w:;bAn=>:n=<J:JIB:JIB:JIB:JIJ:t;wZ:>:n=<:n=<Z:ZXB:t;w
+:;bAn=<J:<:t;;bAn=>:n=<J:t;wZ::w:;bAn=<J:JIB:JIJ:t;w:;:w:;:wZ:>:n=>ZXJ
+IJ:JIB:;:wZ::wZ::wZ:B:bA<ZXJIB:JIB:<:t[::t[::t[:bAn=<Z:ZXB:t;w::pKG:ZX
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:;J:<JIbA<:bA>ZXJ
+IB:;bAn=<:n=<JIbAB:bAJ:JI>Z:>Z:n=t[::tK:B:wZXB:ZXB:ZXB:ZXB:ZXB:t;w::;J
+:<JIbA>ZXJIB:;:tK:B:wZX:Z::t;;bAn=>:n=<J:t;w:;bAn=;B:;B:wZX:Z::t;;bAn=
+>:n=;B:<JIbA;Z:n=t[:bAn=<:n=<JIbAB:bA>Z:>Z:n=t;;bAn=:RAoZ?:bA:;Z:JIt;<
+:t[:>:bA;bA<:wbA;Z:JIt[:ZXZ:ZXZ:>:bA;bA<:wbA>:n=;Z:JIt;;:wJ:B:n]XZ:ZXZ
+:ZX>:<:wbA<J:t;w:<JIbA>:n=;Z:JIt;<:t[:>:n=;bA<:wbA<J:<:t[::tK:t[:JIt[:
+>:bA;bA<:wbA<J:t;w:<JIbA>:n=<J:<:tK:t[:JItK:B:n]X>:<:wbA;Z:JIt[:ZXZ:ZX
+:<:t;;:w::pkFZPZWZX:<J:t;w:;:tK:t[:JItK:B:n]X>:<:wbA>:n=>:n=;Z:JIt[:>:
+n=B:wZXB:;:w:<JIbA;B:;B:wZXJ:n=t;;:tK:t[:JItK:>:wJIJ:JIJ:JI>Z:>Z:n=t;;
+bAn=;J:n=wJ:<Z:n=tK:t[:JItK:B:n]X>:<:wbA;Z:JIt[:>ZXJI>ZX>:wJIJ:<:t;;bA
+n=;Z:JIt[:>:n=<:n=;bA<:wbA;Z:JIt;;:w:;:w:;:w:;:w::pKGZOZXbA:;Z:JIt[:ZX
+J:B:n]X>:<:wbA;Z:JIt;;:w:;:wJ:B:n]X>:<:wbA;Z:JItK:B:n]X>:<:wbA;B:bAB:w
+ZXZ:ZXJ:B:n]XB:;:w:<JIbA>:n=;B:bAZ:n=t[:>:n=;:t;;bA<:wbA;Z:JItK:B:n]X>
+:<:wbA;Z:JIt[:>:n=<JIbAJ:JI>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z:JIt;;:w:;:w:<
+:t;;:w::pkF:ZX:B:;:wZ:B:bA<ZXJIB:JIB:JIB:<:t[::t[:bAn=<:n=<:n=<:n=<:n=
+>ZXJIB:;B:bA<:bA<ZXJIJ:t;wZ:>:n=>ZXJIJ:JIB:;:w:;bAn=>:n=<J:JIB:JIB:JIB
+:JIB:JIJ:t;wZ:>Z:ZXJ:t;wZ:>ZXJIB:JIB:JIB:JIB:JIB:<:t[::t[:bAn=>ZXJI:ZW
+N=:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;Z:>:n=;J:<JI
+bA>ZXJIB:bAB:;bAn=<Z:ZXB:ZXB:wZX::;B:<JIbA<:bA>ZXJIB:;:tK:B:wZX:Z::t;:
+<ZXJIB:<:t[::t[::t[:n=t;<J:ZX>:<JIbA<JIbAB:;:t[::t;;bAn=;B:<JIbA<ZXJI>
+:;B:wZX>:<JIbA:B:ZX>:<JIbA;Z:n=t;;bAn=:B:;:t;::RAoZ?:bA:;bA<:wbAB:bA>:
+n=<:t;;Z:JIt;<:t;<:t[:ZXZ:>ZXJIZ:n=t;;:w:;:w:<:t;<:t[:>:n=;bA<:wbA<J:J
+I>ZXB:n]XJ:JIJ:JI>:<:wbA<:t;B:bA;Z:JIt[:ZX:;:w:;:w:;:wJ:B:n]X>:<:wbA;Z
+:JIt;<:t[:>:n=B:wZX>:<:wbA;Z:JIt[:>Z:ZXB:t;wJ:t[:JIt[:>:n=:RAm:T;p;t;>
+ZXB:n]XJ:JIJ:JIJ:JI>:<:wbA>Z:ZXJ:ZXJ:t;wJ:>:wJIJ:JIZ:ZXJ:JIJ:<:t;;bAn=
+;J:n=wJ:<J:<JIbA;bA;JIn=;Z:JIt;<:t;<:tK:<Z:n=t;;bAn=>Z:n=t[::w:;bAn=B:
+bAB:bA>:n=<J:JI>ZXB:n]XB:;:w:;bAn=;J:n=w:;B:bA<:n=<:n=;bA<:wbA;J:n=wJ:
+<J:<JIbA;bA;JIn=:RAo:P;t[X:>:<:wbAB:bA>:n=>:n=;Z:JIt[:ZXZ:ZX:;:wZ:>ZXJ
+IZ:n=tK:B:n]XJ:JIB:bAZ:ZXB:;:wJ:ZXZ::wJ:t[:JItK:B:n]X>:<:wbA;B:bAJ:t;w
+Z:ZXJ:B:n]XJ:JI>:<:wbA;Z:JIt;;:wJ:B:n]X>:<:wbA;Z:JIt;<:t[:>:n=<JIbA>:<
+:wbA;Z:JItK:B:n]XB:;:wJ:ZXZ::w::pkF:ZX:B:JIB:JIJ:t;wZ:>Z:ZXB:t;wZ:B:bA
+<:bA<:bA>ZXJIB:;bAn=<:n=>ZXJIB:;B:bA<ZXJIJ:t;w:;:w:;:wZ:>:n=<:n=<:n=>Z
+XJIB:;B:bA<:bA<ZXJIB:<:t[:bAn=<:n=>ZXJIB:;:wZ::wZ::wZ::w:;bAn=<J:<:t[:
+bAn=<:n=<:n=>ZXJIJ:JIJ:JI:ZWN=:bA:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::ZWF=M:RAbA::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::RAoZ>:t[X::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::pkF>;:t;Z:>Z:ZX>:<JIbA<JIbAJ:JIJ:JIB:;bAn=<Z:ZXB:t;w::;J:<JIbA
+<JIbAJ:JIB:;:t[::t[:n=t;<J:ZXB:wZXZ:>ZXJIB:<:t;:<ZXJIB:wZX:;:w:;:wZ:>Z
+:ZX:Z:bAn=;J:<JIbA<:bA>ZXJI:Z:ZX:;:wJ:<Z:n=t;:<:bA:B:ZXB:t;wZ:B:bA:RAo
+Z?:bA:>ZXJIZ:ZXB:bAB:;:t[::tK:t[:JIt;<:tK:B:n]XB:;bAn=;bA<:wbA<:t;>:n=
+>:n=>:n=<:t;B:bA<:t;;Z:JIt;<:t[:>:n=;bA<:wbA<:t;>:n=>:n=>:n=<J:JI>ZXB:
+n]XZ:ZX>:<:wbA>:n=<J:JIB:wZXZ:>Z:ZX>ZXB:n]XB:;bAn=>ZXJIB:;:w:;bAn=;Z:J
+ItK:B:n]X:ZWF=b?RAbA:<:t;;:w:;:wJ:B:n]X>:<:wbA;Z:JIt;;B:bA;bA<:wbA;J:n
+=wZ:>:n=>ZXJIJ:JIZ:ZXZ:ZXJ:JIJ:<:t;;bAn=;Z:JIt;;B:bA;bA;JIn=;Z:JIt;;:w
+:;:w:;:w:<:tK:>:wJI>:<:wbA>:n=;B:;B:wZXJ:t;wJ:>:wJIJ:JI>:<:wbA<J:t;wJ:
+tK:n=w:<:tK:>:wJIZ:ZX>:<:wbA;B:;B:wZX:ZWN=R?bAt;J:t[:JIt;<:t;;:wJ:B:n]
+X>:<:wbA;Z:JIt[:ZXJ:B:n]XB:;bAn=;bA<:wbA>:n=>:n=;Z:JItK:B:n]XJ:JIB:bAJ
+:JI>:<:wbA<:t;<J:JI>ZXB:n]XJ:JIJ:JIJ:JI>:<:wbA<J:JI>ZXB:n]XZ:ZX>Z:ZX:;
+bAn=<J:JIJ:t;wJ:B:n]X>:<:wbA<J:JI>ZXB:n]XB:;:wJ:t[:JItK:B:n]X>Z:ZX::pk
+F:ZX:B:JIB:JIB:<:t[:bAn=<:n=<:n=<Z:ZXB:t;w:;bAn=<J:JIB:<:t;;bAn=<J:t;w
+Z::wZ:B:bA<:bA<:bA<ZXJIB:<:t;;bAn=<J:t;wZ:B:bA>ZXJIJ:JIB:;bAn=>ZXJIB:;
+:wZ::w:;bAn=>:n=>:n=<J:<:t[:bAn=<:n=>ZXJIB:;:w:;bAn=<J:JIB:JIJ:t;w::pK
+G:ZX::::::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:<J:<:tK:B:wZ
+XB:t;wZ:n=t;<J:<:tK:B:wZXB:ZXB:wZXJ:<Z:n=t[::tK:B:wZX:Z::tK:B:wZXB:ZX:
+Z::t;;bAn=<J:ZX>:<JIbA<:bA>ZXJIB:bAJ:JI>Z:B:wZXJ:t;wZ:>:bA;Z:n=t;;bAn=
+<:t;>:n=<J:ZXB:wZXZ:ZXZ:>:bA<:bA>ZXJIJ:JIB:;:t;;bAn=:RAoZ?:bA:>:n=B:bA
+;Z:JIt[:ZXJ:B:n]XZ:ZXJ:JIB:bAZ:ZXJ:JI>:<:wbA<J:t;wJ:t[:JItK:B:n]XZ:ZXB
+:;:w:;bAn=<J:<:t;;bAn=;Z:JItK:B:n]XB:;:t[:n=t;>:n=;Z:JIt[:>:bA>ZXJIZ:Z
+XB:;:t[:n=t;>:n=B:bA<:t;<:t;;Z:JIt;<:t;;:w:;:wJ:B:n]XB:;:t;:pkFZPZWZX:
+B:wZXJ:JI>:<:wbA>:n=;B:<JIbA>ZXJIZ:ZXJ:JIJ:JIZ:ZXB:;bAn=;bA;JIn=;B:;B:
+wZXB:t;w:;:tK:tK:n=w:<:tK:B:n]XZ:ZXB:;:wJ:>Z:n=tK:t[:JIt;;:w:;:wZ:>ZXJ
+I>ZXB:n]XZ:ZXJ:JI>:<:wbA>:n=>:n=>Z:ZXJ:t;w:;:wJ:<J:<JIbA>:wZXJ:t;w:;:w
+J:<J:<JIbA;bA<:wbA:RAo:P;t[X:>:<:wbAB:bA;Z:JIt;;:wJ:<JIbAZ:n=tK:B:n]XJ
+:JIZ:ZX>:<:wbA;Z:JIt[:>:n=;:t;;bA<:wbA<:t;<J:JI>ZXB:n]X>:<:wbA;Z:JItK:
+B:n]X>Z:ZXJ:t[:JIt;;:w:;:wJ:B:n]X>:<:wbA;Z:JIt;<:tK:B:n]XJ:JIJ:JIB:bAJ
+:JIJ:JI>Z:ZXZ:n=t;>:n=>:n=;B:bA>ZXB:n]X:ZWF=:bA:<J:JIB:JIB:JIB:<:t;;bA
+n=<J:t;wZ::wZ:B:bA<ZXJIB:JIB:JIJ:t;w:;:wZ:>:n=<Z:ZXJ:t;wZ:>ZXJIB:JIB:J
+IB:JIJ:t;wZ:>:n=<Z:ZXJ:t;wZ:>ZXJIB:JIB:JIB:JIB:JIB:<:t;;bAn=<J:ZXB:ZXB
+:ZXJ:t;wZ:>:bA>ZXJIJ:JIJ:JIB:;bAn=:RAo::t;::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::ZWF=K:ZX:B:<:t;;bAn=<J:ZX>:<JIbA<:bA<:bA<:bA>ZXJIB:;:t
+[::t[:n=t;:>Z:B:wZXJ:t;wJ:<Z:n=t[:bAn=;J:<JIbA<:bA:J:t;wZ:>:bA>ZXJIB:;
+:t[::t;;bAn=<J:ZX>:<JIbA<:bA:B:wZXJ:<Z:n=tK:B:wZX>:<JIbA;Z:n=t[:bAn=<Z
+:ZXB:ZX:J:B:wZXB:t;w::pKGR;:t;J:t[:JIt[:>Z:ZX>ZXB:n]X>:<:wbA;Z:JIt;<:t
+;<:t;;:wJ:B:n]X>:<:wbA<:t;<J:t;w:<JIbA>:n=;Z:JItK:B:n]X>:<:wbA>:n=<J:J
+IB:<:tK:t[:JIt[:>:bA;bA<:wbAB:bA>:n=B:bA;Z:JIt;;:wZ:>ZXJIB:wZX:<:t;<:t
+K:B:n]X>:<:wbA;Z:JIt;<:t;;:wZ:>:n=B:wZX>:<:wbA:RAm:T;p;t;>Z:>Z:n=tK:t[
+:JItK:<Z:n=t[:bAn=;J:<JIbA>:wZXJ:ZXJ:t;wJ:<J:<JIbA;Z:n=t;;bAn=;J:n=w:;
+:w:;:wZ:>ZXJI>ZXB:n]XB:;:w:<JIbA;J:n=wJ:B:n]X>Z:>Z:n=tK:t[:JItK:<Z:n=t
+;;JIbA>ZXJIJ:<:t[::w:<JIbA;J:n=w:;:w:;:w:;:wZ:>:n=<:n=;bA<:wbA>Z:ZXZ:n
+=tK:>:wJIJ:JI>:<:wbA:RAo:P;t[X:>Z:ZXJ:t[:JItK:<:t;;bA<:wbA;B:bAB:wZXZ:
+ZX:;:wJ:<:t;;:t;>ZXJIB:;:w:<JIbA>:n=;Z:JItK:B:n]X>:<:wbA;Z:JIt[:>:n=;b
+A<:wbA;B:bA>ZXB:n]X>Z:ZXZ:n=t;>:n=<:t;;Z:JItK:B:n]XB:;:w:;bAn=B:bAB:bA
+;Z:JItK:B:n]X>:<:wbA<:t;;Z:JIt[:>:n=B:wZX>:<:wbA:RAm::t;:;:wZ:>:n=>ZXJ
+IB:;:w:;bAn=<J:<:t[::t;;bAn=>:n=>:n=<J:ZXJ:t;wZ:>ZXJIJ:t;wZ:>:n=<:n=<:
+n=<:n=>ZXJIB:;:w:;bAn=<J:JIJ:t;wZ:>Z:ZXJ:t;wZ:>:bA<ZXJIB:JIJ:t;wZ:>Z:Z
+XB:t;wZ::wZ::wZ::wZ::wZ:B:bA<ZXJIJ:t;wZ:>:n=<:n=:RAo::t;::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::ZWF=K:ZX:B:<:t;;bAn=;B:<JIbA>ZXJIB:;:t[:
+n=t;:>Z:B:wZXB:t;wZ:B:bA;Z:n=t[:bAn=<Z:ZXB:wZXJ:<Z:n=t[::t[::t;:>ZXJIB
+:;:tK:B:wZXB:ZX:Z::t[:bAn=<Z:ZXB:ZXJ:t;wZ:>:bA<ZXJIJ:t;w:;:w::<J:<:t;;
+bAn=:J:JIB:bAB:;:t[:n=t;:RAoZ?:bA:>:n=<J:ZXZ:n=t;;:wJ:B:n]XB:bAB:;bAn=
+;bA<:wbA;Z:JIt;;:wJ:B:n]X>:<:wbAB:bA<:t;;Z:JItK:B:n]XJ:JIB:;:wZ:B:bAB:
+wZXZ:ZXZ:ZXB:;bAn=>ZXJI>:<:wbA>:n=>:n=>:n=>:n=;Z:JIt[:>Z:ZXB:ZXB:t;w:;
+bAn=<J:<:t[:bAn=>ZXJIB:bAZ:ZXB:bA:ZWF=b?RAbA:<:tK:B:n]XJ:JIJ:JI>Z:>Z:n
+=t;;bAn=;J:n=wZ:>ZXJI>ZXB:n]XZ:ZXB:;:wJ:t[:JIt;;B:bA>ZXJIB:;:wJ:>Z:n=t
+;<JIbA;J:n=wJ:B:n]XJ:<JIbA>ZXJIJ:<:tK:tK:n=w:<:tK:B:n]XZ:ZXZ:ZXJ:JIZ:Z
+X>:<:wbA;Z:JItK:B:n]X>:;JIn=B:bA;Z:JItK:>:wJIJ:JIJ:JIJ:<:t;;bAn=:RAo:P
+;t[X:>:<:wbA;Z:JIt;<:t;;:wJ:<:t;>ZXJIB:;:wJ:t[:JItK:B:n]X>:<:wbA;Z:JIt
+K:B:n]XB:bAJ:JI>:<:wbA;B:bA>ZXB:n]XB:;:wJ:t[:JIt[:ZX:<:t[:ZXZ:>:n=;bA<
+:wbA;Z:JItK:B:n]X>:<:wbA>:n=;Z:JItK:B:n]X>:<:wbA;Z:JIt[:>:n=;bA<:wbA;Z
+:JIt[:>:n=>ZXJIJ:JIB:bAJ:JI:ZWF=:bA:<J:JIB:JIB:JIJ:t;w:;:wZ:>Z:ZXJ:t;w
+Z:>ZXJIB:JIB:JIB:JIB:JIB:<:t[::t[:bAn=>ZXJIB:;:w:;bAn=<J:JIB:<:t[:bAn=
+<Z:ZXJ:t;wZ:>ZXJIB:JIB:JIB:JIJ:t;wZ:>:n=<:n=<:n=<:n=>ZXJIB:;:wZ::w:;bA
+n=>:n=<J:<:t[::t[::t;:pKG:ZX::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::pkFF;ZWZX:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::ZWN=L:bAt;::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::RAmJ>:bA:<:bA<:bA<:bA;Z:n=tK:B:wZX>:<JIbA<ZXJIB:<:tK:B:wZXB:ZX:Z::t
+[::t[::tK:B:wZXB:t;wJ:>Z:n=tK:B:wZXJ:t;wZ:ZXZ:>:bA<:bA>ZXJIB:;:t[:bAn=
+;J:<JIbA:B:ZXJ:t;wZ:>ZXJIJ:t;w:;:wZ:>Z:ZXJ:t;wZ:ZX::;B:<JIbA<ZXJIB:wZX
+:::RAoZ?:bA:B:bAB:bA>:n=B:bAB:bA;Z:JItK:B:n]XZ:ZX>:<:wbA;Z:JIt[:>:n=>Z
+XJIZ:ZX>:<:wbA;Z:JItK:B:n]XZ:ZXZ:ZXJ:JIB:bA>:<:wbA;Z:JIt[:>Z:ZX>ZXB:n]
+X>:<:wbAB:bA<J:t;w:;bAn=>:n=;Z:JIt[:>Z:ZXJ:t;w:;:wZ:>:bA<JIbAB:;bAn=;b
+A<:wbA;Z:JIt[:ZXZ:>:n=:RAm:T;p;t;J:ZXJ:ZXZ:n=t;;:w:;:wZ:>:n=;bA<:wbA>Z
+:ZXB:JI>:;B:wZX>ZX>:wJIZ:ZXJ:<JIbA;J:<JIbA<ZXJI>ZXB:n]XJ:JIJ:JIJ:JIJ:J
+I>Z:>Z:n=tK:B:wZX>ZXB:n]X>Z:B:wZX>ZXB:n]XJ:JI>:;JIn=B:bA>:n=;Z:JItK:B:
+n]XJ:JIZ:ZX>:<:wbA>:n=;J:n=wZ:>ZXJI>ZXB:n]XJ:JI>:;JIn=:RAo:P;t[X:B:bAB
+:bA>:<:wbAB:bAB:bA;Z:JItK:B:n]XB:bA>:<:wbA;B:bAB:JI>ZXB:n]XB:bA>Z:ZXJ:
+t[:JItK:B:n]XZ:ZXZ:ZXJ:JIJ:JI>Z:ZXJ:ZXJ:t[:JItK:<:t;;bA<:wbAB:bA<J:JI>
+ZXB:n]XJ:JI>:<:wbA;Z:JIt;;:wJ:B:n]X>:<:wbA>:n=<J:JI>ZXB:n]X>:<:wbA>:n=
+<J:JI:ZWF=:bA:<Z:ZXB:ZXB:t;wZ::wZ::wZ::wZ::wZ:B:bA<ZXJIJ:t;w:;:wZ:>:n=
+<Z:ZXJ:t;wZ:>ZXJIB:JIB:JIB:JIJ:t;wZ:>Z:ZXJ:t;w:;:wZ:>ZXJIJ:t;wZ:>:n=<:
+n=>ZXJIB:;:w:;bAn=<J:JIB:JIJ:t;wZ:>:n=<:n=<Z:ZXJ:t;wZ:>ZXJIB:JIB:<:t;;
+bAn=:RAo::t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAm
+j>:p;t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::pKGB;ZXb
+A:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=K:ZX:B:;:t
+;;bAn=;B:<JIbA>ZXJIB:;:t;;bAn=<:t;>:n=>:n=<:t;;B:<JIbA;Z:n=t[:bAn=;J:<
+JIbA;Z:n=t;;bAn=<J:ZXB:wZX:;:wZ:>:bA;Z:n=t[::t[::t[:bAn=<:n=<Z:ZXB:wZX
+Z:>ZXJIB:wZXZ:ZXJ:<J:<JIbA<:bA<:bA<ZXJIB:<:t[:bAn=<Z:ZXB:ZXB:wZXJ:<Z:n
+=t;:pKGR;:t;J:t[:JIt;;:w:<:t[:>:bA>ZXJIB:;:t[:n=t;<J:ZXB:ZXB:wZX:<:t;<
+:tK:B:n]XZ:ZXZ:ZXB:;:t;;bAn=<:t;>:n=;Z:JItK:B:n]X>:<:wbAB:bA;Z:JItK:B:
+n]XZ:ZXB:bA>:<:wbA<:t;<:t;;Z:JIt;;:w:;:wJ:B:n]XZ:ZX>:<:wbA;Z:JIt;;:wZ:
+ZXJ:B:n]X:ZWF=b?RAbAJ:<Z:n=t;;bAn=>:n=;Z:JIt;<:tK:B:n]XJ:JI>:<:wbA;Z:J
+It;;:w:;:w:;:wJ:B:n]XJ:JIJ:JI>:<:wbAB:bA>:n=>:n=;B:<JIbA<ZXJI>:;B:wZXJ
+:n=tK:t[:JItK:B:n]XJ:<:t;;bAn=;Z:JIt;;:w:;:wZ:>:n=B:wZXZ:ZX>:<:wbA>Z:Z
+X>ZXB:n]X>Z:>Z:n=t;<JIbA>:n=<J:t;w::pKGZOZXbA:;:t;>ZXJIZ:ZX>:<:wbA;Z:J
+ItK:B:n]XJ:JI>:<:wbA;Z:JIt;;:w:<:t;<:tK:B:n]XZ:ZXZ:ZX>:<:wbA;Z:JIt;;:w
+:;:wJ:<:t;;bA<:wbA;B:bAB:wZXJ:B:n]X>:<:wbA<:t;>:n=;Z:JIt;;:w:;:wJ:B:n]
+X>:<:wbA;Z:JItK:B:n]XB:bA>:<:wbA;B:bA>ZXB:n]XJ:JI>:<:wbA:RAm::t;:;:w:;
+:wZ:>:n=<:n=<:n=<:n=<Z:ZXB:t;wZ::wZ:B:bA<ZXJIB:JIB:JIB:JIB:JIB:JIB:JIB
+:<:t;;bAn=>:n=<J:t;w:;bAn=<J:<:t[:bAn=<:n=<Z:ZXB:ZXB:t;wZ:B:bA<:bA<ZXJ
+IB:JIB:JIB:JIB:<:t[:bAn=>ZXJIB:;:wZ:B:bA<ZXJI:ZWN=:bA:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::RAoZ>:t[X::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::pkF>;:t;Z:B:bA::Z:n=t;:J:JI:J:<Z:n=t[:n=t;
+>:n=;B:<JIbA<:bA<:bA:>:<JIbA;Z:n=t[::tK:B:wZXB:ZXB:wZXJ:<Z:n=tK:B:wZX>
+:<JIbA<ZXJI>:;B:wZXJ:t;wZ:ZXJ:<Z:n=t[:n=t;>:n=>:n=<J:t;w::<:n=>ZXJI>Z:
+>Z:n=t;;bAn=<J:ZX:J:B:wZX:ZWN=P:ZX:J:t;wZ:>ZXJIB:JIB:wZXZ:>:n=<Z:ZXB:t
+;w:<JIbA<:t;<J:<:t;<JIbA>:n=>:n=<J:t;wJ:t[:JItK:B:n]XJ:JI>:<:wbAB:bA<:
+t;;Z:JIt;<:tK:B:n]X>:<:wbA;Z:JIt;;:wZ:ZXJ:B:n]XB:bAJ:JIB:;B:bA;bA<:wbA
+<J:t;wJ:t[:JIt;;:wJ:B:n]XJ:JI>:<:wbA<J:JI>ZXB:n]X:ZWF=b?RAbA:<:tK:>:wJ
+I>:;JIn=>:n=;J:n=wJ:B:n]X>:;JIn=>:n=>:n=;Z:JIt;;:w:<:t;<:tK:>:wJIB:;:w
+Z::w:<JIbA<J:JIJ:ZXJ:t;wZ:>:n=>ZXJIB:;:wJ:t[:JIt[:>:n=>ZXJIJ:JIB:;:w:;
+bAn=>:n=;Z:JItK:B:n]X>:;JIn=;Z:JIt;;:wZ:>:n=>ZXJI>Z:>Z:n=tK:tK:n=wZ:>Z
+XJI:ZWN=R?bAt;J:t[:JIt[:>:n=<:n=>ZXJIB:;:wJ:t[:JIt[:>:n=B:wZXJ:JI>:<:w
+bAB:bA;Z:JItK:B:n]XB:;:wJ:t[:JItK:B:n]X>:<:wbA;Z:JIt[:ZX:;:wJ:B:n]XZ:Z
+X>:<:wbA;Z:JItK:B:n]XJ:JIJ:JI>:<:wbA>:n=>:n=;Z:JItK:B:n]XB:;:wJ:t[:JIt
+;;:wJ:B:n]XJ:JI>Z:ZXZ::wJ:t[:JIt;:pkF:ZX:B:;:w:;bAn=>:n=<J:<:t;;bAn=<J
+:t;w:;bAn=<J:JIB:<:t[:bAn=<:n=<:n=<:n=>ZXJIB:;:wZ::wZ::wZ::wZ:B:bA<:bA
+<ZXJIB:JIB:JIB:JIB:JIJ:t;wZ:>Z:ZXB:t;wZ:B:bA>ZXJIB:;bAn=<:n=>ZXJIB:;:w
+:;bAn=<J:JIJ:t;w:;:w:;:wZ:>:n=:RAo::t;::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::
+::::::::::::ZWF=K:ZX:B:<:tK:B:wZXB:ZX::;bAn=;B:<JIbA:>:<JIbA:B:ZX:Z:bA
+n=<JIbA:J:<J:<JIbA;Z:n=t[:bAn=:B:JIB:<:t[::t;:;Z:n=t[::t;:>ZXJIJ:JIJ:J
+IJ:JI:Z:>:bA>ZXJI>Z:B:wZXB:ZXJ:t;w:::J:JI>Z:B:wZXJ:t;w::pKGR;:t;:<:tK:
+B:n]X>:<:wbA<J:t;wZ:B:bAB:wZXB:;bAn=B:wZXB:;:w:;bAn=<J:JI>ZXB:n]XB:bAB
+:;:wJ:t[:JIt;<:tK:B:n]XB:;:wJ:t[:JItK:B:n]X>:<:wbA<J:JI>ZXB:n]X>:<:wbA
+<J:JIJ:t;wZ:>Z:ZXB:ZXJ:t;wZ:>ZXJI>ZXB:n]XJ:JIZ:ZXZ:ZXB:;B:bA<ZXJIB:JIJ
+:t;w:<:t;;:w::pkFZPZWZX:>Z:ZXB:JI>:;B:wZX>ZX>:wJI>:<:wbA>:n=;J:n=w:;:w
+J:>:wJIZ:ZX>:;JIn=;Z:JIt;;:wJ:>:wJIB:;bAn=>ZXJI>:<:wbA;J:n=wJ:B:n]X>Z:
+>Z:n=tK:B:wZX>ZX>:wJIB:;bAn=;J:<JIbA;bA;JIn=>:n=;Z:JItK:B:n]XJ:JI>:;JI
+n=;B:<JIbA>ZXJIJ:JIJ:<JIbA;bA<:wbA;J:n=wJ:>:wJIJ:JIJ:JIJ:JI:ZWN=R?bAt;
+Z:ZXJ:B:n]X>Z:ZXZ::wJ:t[:JIt;<:t[:>:n=B:wZXB:;:wJ:t[:JIt[:>:n=;bA<:wbA
+>:n=<J:JI>ZXB:n]XZ:ZX>:<:wbA<J:JI>ZXB:n]X>Z:ZXJ:ZXZ::wJ:t[:JItK:<:t;<:
+n=>ZXJI>:<:wbA;Z:JIt;;:wZ:>:n=;:t;>ZXJIZ:ZXB:bA>:<:wbA<J:JIB:JIJ:t;w:<
+:t;;:w::pkF:ZX:B:;B:bA<ZXJIJ:t;w:;:wZ:>:n=<:n=>ZXJIB:;:w:;bAn=<J:JIJ:t
+;wZ:>:n=<Z:ZXJ:t;wZ:>ZXJIB:JIB:JIJ:t;wZ:>:n=>ZXJIJ:JIJ:JIB:;:w:;bAn=>:
+n=>:n=<J:JIB:JIJ:t;w:;:w:;:w:;:wZ:>:n=<Z:ZXB:t;w:;bAn=>:n=>:n=<J:JIJ:t
+;w::pKG:ZX::::::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF
+;ZWZX:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:>:n=:>
+Z:>Z:n=tK:B:wZXJ:t;wJ:<Z:n=t;;bAn=>:n=<J:ZX>:<JIbA<:bA<:bA;Z:n=tK:B:wZ
+XB:ZXB:t;w:;bAn=<:t;;B:;B:wZXJ:t;w:;:wJ:<Z:n=t[::tK:B:wZX>:<JIbA<:bA;Z
+:n=t;:<:bA;Z:n=t[::t[::tK:B:wZXB:ZXB:t;wZ:B:bA<ZXJI>:;B:wZXB:ZX>:<JIbA
+:RAoZ?:bA:<:bA<ZXJIZ:n=tK:B:n]XB:;B:bA;bA<:wbA<J:ZXJ:t;w:;:wJ:B:n]XJ:J
+I>:<:wbA;Z:JIt;<:t;<:tK:B:n]XB:;:t[:n=t;;Z:JIt;;:wZ:>:bA;bA<:wbA;Z:JIt
+K:B:n]X>:<:wbA;Z:JIt;<:t[:>ZXJIZ:n=t;<:t;<:tK:B:n]XZ:ZXJ:JI>:<:wbAB:bA
+;Z:JItK:B:n]X>:<:wbA;Z:JIt;:pkFZPZWZX:;Z:JItK:>:wJIJ:JIB:;:wJ:t[:JIt[:
+>:n=;bA<:wbA>:n=B:bA<J:JIZ:n=tK:<J:<JIbA<ZXJIJ:t;w:;B:bA;bA<:wbA;Z:JIt
+;;:wZ:>:n=>ZXJI>:<:wbA<J:JI>:;B:wZXB:t;wZ::wJ:>Z:n=t;;bAn=;J:n=w:;B:wZ
+XJ:t;w:;B:bA;J:<JIbA>ZXJIZ:ZX>:<:wbA>Z:n=tK:t[:JIt[:>:n=;J:<JIbA<ZXJI:
+ZWN=R?bAt;J:t[:JIt[:>:n=B:wZX>:<:wbA;Z:JItK:B:n]X>:<:wbA>:n=;Z:JItK:B:
+n]X>:<:wbA;B:bA>ZXB:n]XZ:ZXB:bA>:<:wbA;Z:JIt;;:wJ:B:n]XJ:JI>:<:wbA;Z:J
+ItK:<:t;;bA<:wbA;Z:JItK:<:t;B:wZXB:;:wZ:n=t;B:bA<:t;;B:bAZ:n=tK:B:n]X>
+:<:wbA<:t;;Z:JItK:B:n]X>Z:ZXJ:t[:JIt;:pkF:ZX:B:;:w:;bAn=<J:JIB:JIB:JIB
+:JIB:JIJ:t;wZ:>:n=<:n=<:n=>ZXJIB:;:wZ::wZ:B:bA<ZXJIB:JIB:<:t[:bAn=>ZXJ
+IB:;:wZ::w:;bAn=<J:JIB:JIJ:t;wZ:>:n=>ZXJIB:;B:bA<ZXJIB:<:t;;bAn=<J:t;w
+Z::wZ::wZ:B:bA<ZXJIB:JIJ:t;wZ:>:n=:RAo::t;::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::ZWF=K:ZX:B:<:t[::t;;bAn=<J:ZXB:ZX>:<JIbA;Z:n=t;:<:bA;Z
+:n=t[:n=t;:>Z:B:wZX:J:B:wZXJ:t;wZ:ZXJ:<Z:n=t;;bAn=>:n=;B:<JIbA>ZXJIJ:J
+IJ:JIB:bAB:;:t;;bAn=<:t;<J:ZXB:ZX:Z::t;;bAn=<J:ZXJ:t;wZ:ZX:;:wZ:ZXZ:>Z
+XJIJ:t;w::pKGR;:t;:;:wJ:B:n]XJ:JIZ:ZXJ:JIZ:ZX>:<:wbA<J:JIZ:n=t;<:t[:ZX
+Z:>:n=;bA<:wbA<J:JI>ZXB:n]XJ:JIB:bAZ:ZXJ:JIJ:JI>:<:wbA<J:<:t[::t;;bAn=
+<:t;;Z:JIt[:>:bA<JIbAJ:JIZ:ZXB:;bAn=B:wZXB:;B:bA>ZXJIB:;:t[:n=t;>:n=<:
+t;;Z:JIt;;:w::pkFZPZWZX:B:bA;B:<JIbA>ZXJIJ:<JIbAB:wZXJ:JIB:;:wJ:tK:n=w
+:;B:bA>ZXJIJ:JI>:;JIn=<J:JI>ZX>:wJIB:;:w:;bAn=>:n=>:n=>:n=>:n=<J:JI>ZX
+B:n]X>:<:wbA>:n=>:n=;B:;B:wZX>ZXB:n]XJ:JIZ:ZXJ:<JIbA;bA;JIn=>Z:ZX>ZXB:
+n]XZ:ZX>:<:wbA>:n=>:n=>:n=;Z:JIt;;:w::pKGZOZXbA:;Z:JItK:<:t;>ZXJIB:bA>
+:<:wbAB:bA;Z:JIt[:>:n=<JIbAZ:ZXJ:JIB:;:wJ:t[:JIt[:>:n=;bA<:wbA>:n=>:n=
+B:bA>:n=>:n=;Z:JItK:B:n]X>:<:wbA>:n=>:n=;B:bA>ZXB:n]XJ:JI>:<:wbA<:t;<J
+:JIB:wZXJ:B:n]X>:<:wbA;Z:JIt;;:w:;:w:;:wJ:B:n]XJ:JI:ZWF=:bA:<J:JIJ:t;w
+:;:wZ:>Z:ZXB:t;wZ::wZ::w:;bAn=<J:<:t[:bAn=<Z:ZXJ:t;wZ:>ZXJIJ:t;wZ:>:n=
+>ZXJIB:;B:bA<ZXJIJ:t;w:;:wZ:>:n=<:n=<:n=>ZXJIB:;B:bA>ZXJIB:;bAn=<Z:ZXB
+:t;wZ:B:bA>ZXJIB:;:t[:bAn=<:n=<:n=<Z:ZXJ:t;wZ:>:bA<ZXJIJ:t;w::pKG:ZX::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:>:n=<J:<:t[::t;;bA
+n=<J:ZX>:<JIbA;Z:n=t;;bAn=:>Z:B:wZXJ:t;wZ:>:bA<:bA<:bA:B:ZXB:wZXJ:<Z:n
+=t[:n=t;<J:ZXB:ZX>:<JIbA<:bA:J:t;w:;:wZ:>:bA;Z:n=t[::t[::t[::t[:n=t;;B
+:<JIbA<:bA<:bA<:bA<ZXJIB:<:t;:<:bA:RAoZ?:bA:>ZXJI>:<:wbA;Z:JIt[:>:bA>Z
+XJI>:<:wbA;Z:JIt[:>:bA<ZXJIZ:n=t[:>Z:ZXJ:t;w:<:tK:B:n]XB:;bAn=;bA<:wbA
+<:t;;Z:JIt[:ZX:<:t;<:tK:B:n]XJ:JIB:;:wZ:B:bA>ZXJI>:<:wbA;Z:JItK:B:n]XZ
+:ZX>:<:wbA<:t;;Z:JIt;<:t;;:w:<:tK:B:n]XZ:ZXB:;bAn=B:wZX:ZWF=b?RAbA:;:w
+J:<J:<JIbA;Z:n=tK:t[:JIt;<:t[:>ZXJIB:JI>ZXB:n]X>:;JIn=>:n=;Z:JIt;<:t;;
+B:bA;J:<JIbA;bA;JIn=;B:<JIbA>ZXJIB:;bAn=>ZXJIJ:<:t;;:t[::w:<JIbA;J:n=w
+J:B:n]XJ:JI>Z:>Z:n=t[:bAn=;J:<JIbA>:wZX>:;B:wZXJ:t;wZ:>ZXJIJ:ZXZ:n=t;;
+B:bA;bA<:wbA>Z:ZX>ZX>:wJIJ:<:t;:pKGZOZXbA:>ZXJI>Z:ZXJ:ZXJ:t[:JItK:B:n]
+X>:<:wbA;Z:JItK:B:n]XB:;:w:<JIbA;Z:JItK:B:n]XB:bA>Z:ZXZ::wJ:ZX:;bAn=;Z
+:JIt;;:wZ:ZXZ:ZXJ:B:n]X>:<:wbA<J:JI>ZXB:n]XJ:JI>Z:ZXJ:t[:JItK:<:t;<JIb
+A>Z:ZX:;bAn=;Z:JIt[:ZXJ:B:n]XB:bA>:<:wbA<:t;<J:JIB:wZX::pkF:ZX:J:JIJ:J
+IJ:JIB:;:wZ::wZ::wZ::wZ::w:;bAn=<J:JIB:JIB:JIB:<:t;;bAn=>:n=>:n=<J:ZXB
+:t;wZ:B:bA<:bA<:bA<ZXJIB:JIJ:t;wZ:>:n=>ZXJIJ:JIB:;:w:;bAn=<J:<:t;;bAn=
+<J:ZXB:t;wZ:B:bA<ZXJIB:<:t[:bAn=<Z:ZXJ:t;wZ:>:bA:RAo::t;::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::RAmj>:p;t;:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::ZWF=K:ZX:B:wZXJ:<Z:n=t[:bAn=;J:<JIbA>ZXJ
+IJ:JIB:bAB:;bAn=;J:<JIbA>ZXJI:Z:>:bA<:bA>ZXJIB:;:t[::t[:bAn=:B:<:t[:n=
+t;<J:ZXB:ZXB:ZXB:ZXB:ZXB:ZXB:ZXJ:t;w:;:wZ:>:bA<:bA;Z:n=t[::t;:>ZXJI>Z:
+B:wZXJ:t;wZ:>ZXJIB:<:t[::t;:pKGR;:t;Z:n=t;;Z:JItK:B:n]XZ:ZXB:;:t;;bAn=
+<:t;;Z:JItK:B:n]XB:;:t[:bAn=>ZXJI>:<:wbA<J:<:t;;bAn=B:bA;Z:JIt[:>ZXJI>
+ZXB:n]XB:bAJ:JI>:<:wbA>:n=>:n=B:bA;Z:JIt;<:t[:>Z:ZXB:ZXZ:n=t;<:t;<:tK:
+B:n]XB:;bAn=<Z:ZXZ:n=t;;:wJ:B:n]XJ:JI>:<:wbA:RAm:T;p;t;J:JIB:;bAn=;bA<
+:wbA>:n=;Z:JIt;;:w:;:wJ:B:n]XB:;:wJ:t[:JItK:>:wJIZ:ZX>Z:>Z:n=tK:t[:JIt
+;<:t;;B:wZX>ZXB:n]X>:;JIn=;B:;B:wZXJ:t;w:<:tK:<Z:n=t;<JIbAB:bA>Z:n=tK:
+>Z:n=t;;JIbA;bA<:wbA;Z:JIt;;B:bA>:bA>ZXJI>Z:>Z:n=tK:tK:n=wJ:B:n]XJ:JIJ
+:JI>:<:wbAB:bA;B:<JIbA:RAo:P;t[X:J:t;wJ:B:n]X>:<:wbAB:bA;Z:JIt;;:w:;:w
+J:B:n]X>:<:wbA;Z:JIt[:>ZXJI>ZXB:n]X>Z:ZXJ:t[:JItK:B:n]XB:bA>:<:wbA<J:J
+I>:bAJ:t;wJ:B:n]X>Z:ZXJ:t[:JItK:B:n]XB:bA>Z:ZXZ:n=t;;Z:JItK:B:n]XB:bAB
+:bAZ:ZX>Z:ZXZ::wJ:t[:JIt;<:t;;:wJ:B:n]X>:<:wbA;B:bA:ZWF=:bA:<Z:ZXB:t;w
+Z::wZ::wZ::w:;bAn=<J:<:t[:bAn=<:n=<:n=>ZXJIB:;:w:;bAn=<J:JIB:JIB:<:t[:
+bAn=>ZXJIJ:JIB:;B:bA<ZXJIJ:t;wZ:>:n=<:n=<Z:ZXJ:t;wZ:>:bA<ZXJIB:JIB:<:t
+[::t[:bAn=>ZXJIJ:JIB:;:wZ::w:;bAn=<J:JIB:JIJ:t;w::pKG:ZX::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::RAmJ>:bA:<J:<:t[::t;:<ZXJI:Z:B:bA<:bA>Z
+XJIB:;bAn=>ZXJIB:;B:bA;Z:n=t;;bAn=;B:<JIbA<:bA;Z:n=t[::t[:bAn=<JIbAB:;
+:wZ:n=t;:B:;B:bA<:bA<:bA>ZXJIB:;:t;:;Z:n=t[::t[:bAn=<Z:ZXB:ZXB:t;w:;bA
+n=>:n=>:n=>:n=>:n=>:n=:RAoZ?:bA:;Z:JIt;<:t[:>:n=;bA<:wbA<J:JIZ:n=tK:B:
+n]XJ:JI>:<:wbA>:n=>:n=B:bA>:n=B:bAB:bAB:bA;Z:JItK:B:n]XB:bA>:<:wbA<:t;
+<J:JIZ:n=t;<:tK:B:n]XB:;B:bA;bA<:wbA<J:t;wJ:t[:JIt;;:wJ:B:n]XZ:ZXJ:JI>
+:<:wbA>:n=>:n=>:n=>:n=<J:<:t;;bAn=:RAm:T;p;t;>Z:B:wZXJ:n=tK:tK:n=wJ:B:
+n]X>:;JIn=>Z:ZX>:;B:wZXJ:t;wJ:B:n]XJ:JIZ:ZXJ:JIJ:JIJ:JIJ:<JIbA>ZXJI>Z:
+>Z:n=tK:t[:JIt;;:wJ:B:n]XJ:JI>:;JIn=>Z:n=t;;:tK:>Z:n=tK:t[:JItK:<Z:n=t
+K:tK:n=wZ:>ZXJIZ:n=tK:B:n]XJ:<:t;<JIbA;Z:JIt;;:w:;:w:;:w:;:wJ:B:n]XJ:J
+I:ZWN=R?bAt;J:<:t;<JIbAB:;:wJ:t[:JIt[:>:n=<JIbA>Z:ZX:;bAn=;Z:JIt;;:wJ:
+B:n]XZ:ZXJ:JIZ:ZXB:bAZ:ZX>Z:ZXJ:t[:JIt;;:wJ:B:n]XJ:JIB:;:wZ:n=t;<:t;;B
+:bA>ZXB:n]X>Z:ZXZ::wJ:t[:JItK:B:n]X>:<:wbA<:t;;Z:JItK:B:n]XJ:JIJ:JIJ:J
+IJ:JI>:<:wbA>:n=:RAm::t;:;:wZ:>Z:ZXJ:t;wZ:>ZXJIJ:t;wZ:>Z:ZXJ:t;w:;:wZ:
+>ZXJIJ:t;wZ:>:n=<:n=>ZXJIB:;:wZ:B:bA<ZXJIJ:t;wZ:>:n=<Z:ZXB:t;wZ:B:bA>Z
+XJIB:;:t[::t;;bAn=<J:t;w:;bAn=>:n=<J:JIB:JIB:JIB:<:t[:bAn=<:n=>ZXJIJ:J
+IJ:JIJ:JIB:;:w:;bAn=:RAo::t;::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::ZWF=K:ZX:B:bAB:;B:bA<:bA<JIbAB:;bAn=;J:<JIbA<ZXJI::;bAn=<J:<:t;:<:bA
+;Z:n=t;;bAn=;B:<JIbA<ZXJI>:;B:wZXB:ZXB:ZX>:<JIbA<:bA<:bA<:bA<:bA;Z:n=t
+;;bAn=;B:<JIbA:>:<JIbA>ZXJI>Z:B:wZXB:wZXZ:>:bA<ZXJIJ:t;wJ:<J:<JIbA<:bA
+>ZXJI>Z:B:wZXB:ZX:ZWN=P:ZX:B:wZX:<:t;<:t[:ZXJ:B:n]X>:<:wbA;Z:JIt[:>ZXJ
+IJ:t;w:<:t[:>:n=B:wZXZ:ZXJ:JI>:<:wbA;Z:JIt;<:t;;:w:;:wJ:B:n]X>:<:wbA>:
+n=B:bA;Z:JItK:B:n]XB:;B:bAB:wZXB:;bAn=;bA<:wbA>:n=B:bA<:t;>:n=;Z:JIt;;
+:w:<:t;;:wZ:>Z:ZXZ:n=t;<:t;:pkFZPZWZX:>:n=>Z:n=t;;:t;;bAn=;Z:JIt[:>:n=
+;bA<:wbA;J:n=w:;:w:;B:bA;bA;JIn=>Z:ZXJ:t;w:;:wZ:>:n=;bA<:wbA>:n=B:bAB:
+bA<J:JI>:;B:wZXZ:n=t;;B:wZX>:;B:wZXB:t;wJ:t[:JIt;;:wJ:>:wJIB:;:w:;bAn=
+>:n=>:n=B:bA;Z:JIt;;:w:;:w:<:tK:B:n]XJ:JIJ:<:t;:pKGZOZXbA:>ZXJIB:bAB:b
+AJ:JI>:<:wbA;Z:JItK:B:n]XB:;:w:;bAn=<:t;<J:JIB:wZX:<:t;;:wJ:B:n]X>:<:w
+bAB:bA;Z:JItK:B:n]X>:<:wbA;B:bA>ZXB:n]XB:bA>Z:ZXJ:t[:JItK:B:n]XZ:ZXB:;
+:wJ:t[:JIt;;:w:<:t;;:wJ:B:n]X>:<:wbA>:n=B:bA;Z:JItK:B:n]XZ:ZXB:bA:ZWF=
+:bA:<J:<:t[::t[::t[::t[:bAn=<:n=<:n=>ZXJIJ:JIB:;B:bA>ZXJIB:;:t[:bAn=>Z
+XJIB:;:wZ::wZ::wZ::wZ::wZ::w:;bAn=<J:JIB:<:t;;bAn=<J:t;wZ::wZ::w:;bAn=
+<J:JIJ:t;wZ:>:n=<Z:ZXB:t;wZ::w:;bAn=<J:JIB:JIB:JIB:JIB:<:t;:pKG:ZX::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:;Z:n=t[:bAn=;J:<JIbA
+:B:ZXJ:t;wZ:>:bA;Z:n=t[:bAn=<JIbAJ:JIB:;:wJ:>Z:n=tK:B:wZXB:ZXJ:t;wJ:<Z
+:n=t[::t;;bAn=;B:<JIbA;Z:n=t;;bAn=;B:<JIbA<:bA<:bA>ZXJIB:;:tK:B:wZXB:t
+;wZ:B:bA<:bA<:bA>ZXJIJ:JIB:;:t[::t[:bAn=>ZXJIJ:JIB:bA:ZWN=P:ZX:Z:ZX>:<
+:wbA;Z:JIt[:>:n=;bA<:wbA<J:<:tK:t[:JIt;<:tK:B:n]XB:bAB:;:tK:t[:JItK:B:
+n]X>:<:wbAB:bA>:n=;Z:JIt;;:w:;:w:<:tK:B:n]XJ:JIZ:ZXZ:ZX>:<:wbA<J:ZXZ:n
+=t;<:tK:B:n]XJ:JI>:<:wbAB:bA<J:ZXJ:t;wJ:B:n]X>:<:wbA;Z:JIt[:>:bA>ZXJIB
+:bA:ZWF=b?RAbA:;:wJ:B:n]XB:;bAn=;bA;JIn=;B:;B:wZX>ZXB:n]X>Z:B:wZXJ:t;w
+J:B:n]XJ:JI>:<:wbA;Z:JIt[:>ZXJIB:JIJ:ZXJ:t;wZ:>:n=B:wZXJ:JIJ:JIB:;:w:;
+bAn=>:n=>Z:ZX>:;B:wZX>ZXB:n]XJ:<JIbA>ZXJI>:<:wbAB:bA;B:;B:wZXJ:n=tK:t[
+:JIt;;:wJ:<J:<JIbA;Z:n=tK:t[:JItK:B:n]XJ:JIJ:JI:ZWN=R?bAt;:<:tK:B:n]X>
+:<:wbA<J:t;wJ:ZXJ:t[:JItK:<:t;B:wZX>:<:wbA>:n=;Z:JItK:B:n]X>:<:wbA;Z:J
+It[:ZX:;:wJ:B:n]X>:<:wbA>:n=B:bA;Z:JIt;;:w:<:t[:ZXJ:<:t;;bA<:wbA<:t;B:
+bA;Z:JItK:B:n]X>Z:ZXZ:n=t;;Z:JIt;;:wJ:<:t;;:t;;bA<:wbA;Z:JIt;;:w:;:w::
+pkF:ZX:B:;:wZ::wZ::w:;bAn=>:n=<J:JIJ:t;wZ:>:n=<:n=<Z:ZXB:t;wZ::wZ::wZ:
+:wZ:B:bA>ZXJIB:;bAn=<:n=>ZXJIB:;:wZ::w:;bAn=<J:JIB:<:t;;bAn=<J:t;wZ:B:
+bA<ZXJIB:JIB:JIJ:t;wZ:>Z:ZXB:t;w:;bAn=>:n=>:n=<J:JIB:JIJ:t;wZ:>Z:ZX:ZW
+N=:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;Z::t;:;Z:n=t
+;;bAn=;B:<JIbA<JIbAB:bAB:;bAn=>ZXJIB:;B:bA>ZXJI:Z:>:bA<:bA>ZXJIJ:JIJ:J
+I:::;B:<JIbA<ZXJIB:JI::;bAn=>:n=<J:<:t;;bAn=<J:ZX::;bAn=>:n=>:n=;B:<JI
+bA<:bA>ZXJI>Z:B:wZXJ:t;wJ:<Z:n=t;;bAn=<J:t;w::pKGR;:t;:;bAn=<J:JI>ZXB:
+n]XJ:JIZ:ZXB:bAB:bA>:<:wbA<J:<:t;;bAn=>:n=<J:t;wJ:t[:JIt;;:w:;:wZ:>Z:Z
+XJ:t;wZ:>ZXJIB:JI>ZXB:n]X>:<:wbA;Z:JIt[:>:n=>ZXJIJ:JIJ:JIJ:JIJ:JIB:;:w
+:;bAn=>:n=<J:<:tK:t[:JItK:B:n]XJ:JIZ:ZXJ:JI>:<:wbA<J:ZX>ZXB:n]X:ZWF=b?
+RAbA:<:tK:>:wJIB:;bAn=>ZXJIJ:JIJ:JIJ:JI>:<:wbA;Z:JIt;<:t;;:wJ:>:wJI>Z:
+>Z:n=t;<JIbA>:n=;Z:JIt;;:wJ:>:wJI>:;JIn=<J:t;wJ:t[:JItK:B:n]X>:;JIn=>:
+n=>:n=B:bA>:n=B:bA;J:n=w:;:w:;:wJ:B:n]XB:;:wJ:>Z:n=t;;bAn=>:n=>:n=<J:t
+;wJ:t[:JItK:B:n]X:ZWN=R?bAt;J:B:n]XB:;:wJ:t[:JIt;;:w:<:t;;:w:;:wJ:B:n]
+X>:<:wbA;Z:JIt;;:wZ:>:n=;:t;;bA<:wbA>:n=;Z:JIt;;:wZ:>:n=<:n=;bA<:wbA;Z
+:JItK:B:n]XB:;:w:;bAn=>:n=;Z:JIt;;:wJ:B:n]XB:;:w:;bAn=>:n=;Z:JItK:B:n]
+X>Z:ZX:;bAn=B:bA>:n=;Z:JItK:B:n]X>:<:wbA:RAm::t;Z:>:n=>ZXJIB:;:w:;bAn=
+<J:JIB:<:t[::t[:bAn=<:n=<:n=>ZXJIJ:JIJ:JIB:;:w:;bAn=<J:JIJ:t;w:;:w:;:w
+Z:>:n=<:n=<:n=>ZXJIJ:JIJ:JIB:;:w:;bAn=<J:JIJ:t;w:;:w:;:wZ:>:n=<:n=>ZXJ
+IJ:JIB:;:w:;bAn=<J:JIB:JIB:JI:ZWN=:bA:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::ZWF=M:RAbA::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::RAoZ>:t[X::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::pkF>;:t;Z::w::;J:<JIbA>ZXJIJ:JI>Z:B:wZX>:<JIbA>ZXJIB:;:t[:
+bAn=;J:<JIbA>ZXJIB:;bAn=;J:<JIbA<:bA<:bA<:bA<ZXJIB:wZX:;:w:;:w:;:wJ:<J
+:<JIbA<:bA<JIbA>Z:B:wZXB:ZXB:ZX:Z:n=t;>:n=>:n=>:n=<J:ZXJ:t;wZ:ZXJ:<Z:n
+=t[::t[::t[:n=t;:RAoZ?:bA:;Z:JIt[:>ZXJIZ:n=t;;:wZ:>Z:ZXZ:n=t;<:t[:>:bA
+;bA<:wbA;Z:JItK:B:n]XB:;:tK:t[:JIt;<:t;;:w:<:t;;:wJ:B:n]XB:bAB:;:t[::t
+;;bAn=B:bAB:bA<:t;;Z:JIt;<:t;<:t[:>ZXJIB:wZXZ:>Z:ZXJ:t;w:;:wJ:B:n]XB:;
+:t[:n=t;;Z:JIt;;:w:<:t[:ZX::pkFZPZWZX:;Z:JItK:>:wJIJ:JIJ:JI>:<:wbA>:n=
+>:n=;Z:JItK:<Z:n=tK:t[:JIt[:>ZXJI>ZXB:n]X>:<:wbA>:n=B:bA>Z:ZXZ:n=tK:B:
+n]XJ:JI>:<:wbA;Z:JIt;;:w:;:w:;B:bA>ZXJIB:;:w:;:t;;:tK:tK:n=w:;:wJ:B:n]
+XJ:JIJ:JI>Z:>Z:n=tK:t[:JIt;;:wZ:>ZXJIZ:n=t;;B:bA>ZXJI:ZWN=R?bAt;J:B:n]
+XB:;:w:<JIbA>:n=;Z:JIt;<:t;<:tK:B:n]X>Z:ZXJ:t[:JItK:B:n]X>:<:wbA;Z:JIt
+;<:tK:B:n]XB:bA>:<:wbA;Z:JIt;;:wJ:B:n]X>:<:wbA>:n=B:bA<:t;>:n=;Z:JIt[:
+ZXZ:ZXZ:>:n=>ZXJI>:<:wbA>:n=>:n=;B:bA>ZXB:n]XJ:JI>:<:wbA;Z:JIt[:ZX:;:w
+::pkF:ZX:B:;:w:;bAn=<J:JIJ:t;wZ:>:n=<:n=<:n=<:n=>ZXJIB:;:wZ::wZ::wZ::w
+Z::wZ::wZ:B:bA<ZXJIB:JIB:<:t[:bAn=<:n=>ZXJIB:;:wZ:B:bA<:bA<ZXJIB:<:t[:
+:t;;bAn=<J:ZXB:t;w:;bAn=>:n=>:n=<J:JIB:<:t[:bAn=<:n=<Z:ZXB:ZX:ZWN=:bA:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;J:B:wZX:Z:n=t;>:n=
+>:n=<J:ZXB:ZXB:ZXJ:t;w:;:wJ:<Z:n=t;;bAn=<:t;;B:<JIbA>ZXJIB:;:tK:B:wZX:
+::;Z:n=t[::t;;bAn=<J:ZXB:ZXB:t;wZ::wZ::wZ::wZ:B:bA<:bA;Z:n=t[::t;;bAn=
+<J:ZX:J:B:wZXJ:t;wZ:>ZXJIB:wZXZ:>Z:ZX:ZWN=P:ZX:>ZXB:n]XB:;bAn=<JIbAJ:J
+IB:;B:bA;bA<:wbA;Z:JIt;;:w:;:wZ:>:bA;bA<:wbA>:n=<:t;B:bA>:n=B:bAB:bA<J
+:t;wZ::w:<JIbAB:bA>:n=>:n=>:n=;Z:JItK:B:n]X>:<:wbA;Z:JIt;<:t;;:w:<:tK:
+B:n]XB:;B:bAB:wZXB:;bAn=;bA<:wbA>:n=;Z:JIt[:ZXJ:B:n]X:ZWF=b?RAbAZ:>:n=
+;bA;JIn=>:n=>:n=;Z:JItK:<J:<JIbA;Z:n=t;<JIbA>:n=;Z:JIt[:>ZXJIJ:t;w:;:w
+:;:w:;:w:;B:bA>ZXJI>:;JIn=;J:n=w:;:w:;B:bA>ZXJIZ:ZXZ:ZX>:<:wbA;Z:JItK:
+B:n]X>:<:wbA>Z:ZXZ:n=t;;:wJ:<J:<JIbA;bA<:wbA>Z:n=tK:tK:n=wZ:>:n=>ZXJI>
+:<:wbA>:n=;B:;B:wZX:ZWN=R?bAt;J:t[:JIt[:>ZXJIJ:t;w:;:wJ:B:n]X>Z:ZXJ:ZX
+J:t[:JIt;;:wJ:B:n]X>:<:wbA>:n=>:n=B:bA>:n=<:t;B:bA<J:JIB:JIZ:n=t[:ZX:;
+:wJ:B:n]X>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z:JIt[:ZXJ:B:n]XZ:ZX>Z:ZXJ:t[:JIt
+[:ZXZ:>:n=;bA<:wbA>:n=;Z:JIt;;:wJ:<:t;:RAm::t;Z::w:;bAn=<J:<:t;;bAn=<J
+:t;w:;bAn=>:n=<J:JIJ:t;wZ:>:n=<:n=>ZXJIB:;B:bA<ZXJIJ:t;wZ:>Z:ZXB:t;w:;
+bAn=>:n=<J:JIB:<:t;;bAn=<J:t;wZ::wZ::wZ::wZ::wZ::wZ:B:bA<ZXJIB:JIJ:t;w
+Z:>:n=<Z:ZXJ:t;wZ:>ZXJIJ:t;wZ:>:n=<Z:ZXJ:t;w::pKG:ZX::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::::::::::::::::::
+::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::RAmJ>:bA:::Z:>:bA<:bA<:bA;Z:n=tK:B:wZX:Z::t
+[::tK:B:wZXB:t;wZ:n=t;<J:<:t[:n=t;<J:ZXB:ZXJ:t;wJ:<Z:n=t[:bAn=<Z:ZXB:Z
+XB:t;wZ:B:bA<:bA<:bA<JIbAB:;:t;;bAn=:B:bA>Z:B:wZXB:t;wZ:n=t;<J:JIB:wZX
+Z:>Z:ZXJ:t;wZ:ZXZ:>:bA:RAoZ?:bA:<ZXJIB:JIZ:n=t;;:w:<:t;<:t;<:t[:>:n=>Z
+XJIJ:JI>:<:wbA;Z:JIt[:ZXJ:B:n]XB:bA>:<:wbA;Z:JIt;;:wJ:B:n]X>:<:wbAB:bA
+B:bA;Z:JIt;;:wJ:B:n]XZ:ZXB:bAZ:ZXB:;B:bA<ZXJIB:wZXJ:B:n]X>:<:wbA<:t;;Z
+:JIt[:ZX:<:t;;:wZ:ZXJ:B:n]X:ZWF=b?RAbAJ:>:wJI>:;JIn=>Z:ZXZ:n=t;;B:bA>Z
+XJIJ:JI>:;JIn=B:bAB:bA<J:JI>ZXB:n]XJ:JI>Z:>Z:n=t;;bAn=;B:<JIbA;Z:n=t;;
+bAn=<J:t;wJ:t[:JIt;;B:bA>:bA;bA<:wbAB:bA;B:;B:wZXJ:n=t;;bAn=>Z:ZX>ZXB:
+n]X>:;JIn=>:n=<J:JI>ZXB:n]XJ:JI>:<:wbA>:n=>Z:ZXJ:t;w:;:wJ:<J:<JIbA:RAo
+:P;t[X:B:t;wZ::wZ:n=t;;Z:JIt[:ZX:<:t;<:t[:>:n=;bA<:wbA;Z:JItK:B:n]X>:<
+:wbA>:n=;B:bAJ:t;wJ:<:t;;:t;>ZXJI>:<:wbA;Z:JIt[:ZXZ:ZXJ:B:n]X>:<:wbA;B
+:bAB:wZX:;:wZ:ZXJ:B:n]XB:;:w:;bAn=;Z:JItK:B:n]XJ:JI>:<:wbA>:n=<:t;>:n=
+>:n=;B:bA:ZWF=:bA:>ZXJIJ:JIB:;B:bA<ZXJIB:<:t[:bAn=<:n=>ZXJIB:;:wZ::wZ:
+:wZ::wZ:B:bA>ZXJIB:;:t;;bAn=>:n=>:n=<J:t;wZ::wZ:B:bA<:bA<ZXJIB:JIJ:t;w
+Z:>Z:ZXB:ZXB:ZXB:t;w:;bAn=<J:<:t[:bAn=<:n=<Z:ZXB:t;wZ:B:bA<:bA>ZXJIB:;
+:t;;bAn=:RAo::t;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::::::::::::::::pKGB
+;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=K:ZX:B
+:;:t[::t[::t;;bAn=<J:ZXB:t;wZ:n=t;;B:;B:wZXJ:t;wJ:<Z:n=t[::tK:B:wZXJ:t
+;w:;:wZ:>:bA<:bA<:bA>ZXJI>Z:B:wZX::;bAn=;B:<JIbA;Z:n=t[:bAn=>ZXJIB:;:w
+J:>Z:n=t;;bAn=<:t;>:n=<J:t;w:;bAn=<:t;<J:<:t[:bAn=<:n=<Z:ZXB:ZXB:ZXB:w
+ZX::pKGR;:t;J:B:n]XJ:JIZ:ZXJ:JI>:<:wbA;Z:JIt[:ZX:<:t[:>:bA;bA<:wbA>:n=
+;Z:JIt[:>:bA>ZXJI>:<:wbA>:n=B:bA<J:ZX>ZXB:n]XB:;bAn=<Z:ZXZ:n=tK:B:n]X>
+:<:wbA<J:ZX>ZXB:n]XZ:ZXJ:JIB:bAJ:JI>:<:wbA<J:ZXB:wZX:;:wJ:B:n]X>:<:wbA
+;Z:JIt;;:w:;:wZ:ZX::pkFZPZWZX:;B:<JIbAB:wZXJ:<JIbA>ZXJI>Z:>Z:n=tK:t[:J
+It;;:w:;:wJ:B:n]XB:;bAn=B:wZXB:;:wJ:t[:JIt;;:wJ:<J:<JIbAB:wZXJ:<JIbA;b
+A<:wbA<J:JI>ZX>:wJI>:<:wbA>:n=<J:JI>ZXB:n]X>:<:wbA;Z:JIt;;:w:;:w:;:w:;
+:wJ:B:n]X>:<:wbA>:n=B:bA;Z:JItK:B:n]X>Z:>Z:n=t;<JIbAB:bA>:n=:RAo:P;t[X
+:>Z:n=t;;bA<:wbA<:t;>:n=;B:bA>ZXB:n]XJ:JIZ:ZX>:<:wbA;Z:JItK:B:n]X>:<:w
+bA;Z:JIt;;:wJ:<:t;;bA<:wbA<:t;;Z:JItK:B:n]XB:;:wJ:t[:JIt;<:tK:B:n]X>:<
+:wbA;Z:JItK:B:n]XZ:ZXJ:JIJ:JIJ:JI>:<:wbA;Z:JIt;;:wJ:B:n]X>:<:wbA;Z:JIt
+K:<:t;;bA<:wbA;Z:JIt;;:w::pkF:ZX:J:JIB:;:wZ:B:bA>ZXJIJ:JIB:;bAn=<Z:ZXB
+:t;wZ::wZ::wZ::wZ::wZ::w:;bAn=>:n=<J:JIB:<:t[:bAn=<:n=>ZXJIB:;:wZ::wZ:
+:wZ::wZ::wZ::wZ::w:;bAn=<J:<:t;;bAn=<J:t;wZ::wZ:B:bA<ZXJIB:JIB:JIJ:t;w
+Z:>:n=<:n=<Z:ZX:ZWN=:bA:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::ZWF=M:RAbA::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::RAoZ>:t[X::::::::::::::::::::::::::::::::::::::::::::::::::::::::pk
+F>;:t;J:B:wZXB:ZXJ:t;wZ:>:bA<ZXJIB:<:t;;bAn=<:t;<J:ZX>:<JIbA<:bA:::;bA
+n=>:n=>:n=<J:ZXB:ZXB:wZXJ:<Z:n=t[:n=t;<J:t;wZ:n=t;;B:;B:wZXB:ZX>:<JIbA
+;Z:n=t;;bAn=>:n=:>Z:B:wZX:Z::t;;bAn=;B:<JIbA>ZXJI>Z:B:wZXJ:t;wZ:>ZXJI>
+:;B:wZX:ZWN=P:ZX:>ZXB:n]XJ:JIB:;:tK:t[:JItK:B:n]XZ:ZXB:;:t[:n=t;;Z:JIt
+K:B:n]XZ:ZXB:;bAn=<:n=>ZXJIB:;B:bA>ZXJI>:<:wbA;Z:JIt[:ZXJ:B:n]XB:bA>:<
+:wbA<:t;B:bA;Z:JIt;<:tK:B:n]XJ:JIB:;:t[:bAn=;bA<:wbA<J:JIJ:t;w:;:w:<:t
+;;:w:<:t;;:wJ:B:n]X>:<:wbA:RAm:T;p;t;B:;:w:<JIbA;Z:JItK:<J:<JIbA;bA<:w
+bA>Z:n=tK:t[:JIt;;:wJ:<J:<JIbA<ZXJIJ:ZX>ZX>:wJI>:;JIn=>:n=;Z:JIt;;:wJ:
+<J:<JIbA;Z:n=t;;bAn=<J:t;w:;bAn=;Z:JIt;;:w:;:wJ:<J:<JIbA>ZXJIB:;bAn=>Z
+XJI>:<:wbA;J:n=wZ:>:n=;bA;JIn=B:bA>:n=>:n=>:n=>:n=>:n=;Z:JIt[:>:n=:RAo
+:P;t[X:>ZXB:n]X>:<:wbA;Z:JItK:<:t;;bA<:wbA<:t;;Z:JIt;;:wJ:<:t;;bA<:wbA
+<:t;<J:JIB:JIJ:t;wJ:B:n]XJ:JI>Z:ZXJ:ZX:;bAn=;Z:JIt;;:wJ:B:n]XJ:JIZ:ZX>
+Z:ZX:<JIbA;Z:JIt;;:wJ:B:n]XB:;:wJ:t[:JIt[:>:n=;bA<:wbA>:n=B:bA>:n=B:bA
+>:n=;Z:JItK:B:n]X:ZWF=:bA:<J:JIB:JIB:JIJ:t;wZ:>:n=<Z:ZXB:t;wZ:B:bA>ZXJ
+IB:;bAn=<Z:ZXJ:t;w:;:w:;:wZ:>ZXJIJ:t;w:;:w:;:wZ:>Z:ZXB:t;wZ:B:bA<ZXJIB
+:<:t[:bAn=>ZXJIB:;:wZ::w:;bAn=<J:JIJ:t;wZ:>:n=>ZXJIB:;:w:;bAn=<J:JIJ:t
+;wZ:>:n=>ZXJIB:;:wZ::w::pKG:ZX::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::pkFF;ZWZX:::::::::::::::::::::::::::::::::::::::::::::
+::::::::::ZWN=L:bAt;::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::RAmJ>:bA:<Z:ZX>:<JIbA<ZXJIJ:t;wJ:<J:<JIbA;Z:n=t;;bAn=;B:<JIbA>ZXJ
+I>Z:B:wZXB:wZXJ:<Z:n=tK:B:wZX>:<JIbA;Z:n=tK:B:wZXB:ZXB:wZXZ:>:bA>ZXJI>
+Z:B:wZX>:<JIbA<:bA<:bA>ZXJIB:;bAn=<Z:ZX::;bAn=>:n=>:n=<J:ZXJ:t;wZ:>:bA
+;Z:n=tK:B:wZX>:<JIbA<JIbAB:;:t;;bAn=:RAoZ?:bA:>:n=;Z:JItK:B:n]XB:;:tK:
+t[:JItK:B:n]XB:;:t;<JIbA<J:ZXZ:n=t[:ZXJ:B:n]X>:<:wbAB:bA;Z:JIt;<:t;;:w
+Z:ZX:<:t[:>:bA;bA<:wbA;Z:JIt;<:t;<:t[:>:bA;bA<:wbAB:bA<J:t;wZ:B:bA>ZXJ
+IJ:JIJ:JIB:;:t;<JIbA;Z:JItK:B:n]X>:<:wbA<:t;>:n=>:n=:RAm:T;p;t;Z:ZXB:;
+bAn=;bA<:wbA;Z:JIt[:>:n=<:n=;bA<:wbA>:n=;Z:JIt;;:w:;:wZ:>:n=<:n=>ZXJIB
+:;:w:;bAn=B:bA>:n=>Z:ZX>ZXB:n]XB:;:wZ::w:;:t;;:tK:t[:JItK:B:n]XJ:<:tK:
+tK:n=wJ:B:n]XJ:JIJ:JIZ:ZX>:<:wbA>Z:ZXB:JIB:JIB:JIJ:t;w:<:t;;:w::pKGZOZ
+XbA:;Z:JItK:B:n]X>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z:JIt;<:tK:B:n]XZ:ZXJ:JI>
+:<:wbA;Z:JIt;<:tK:B:n]XZ:ZX>:<:wbA>:n=<:t;;Z:JItK:B:n]X>:<:wbA<:t;<:t;
+;Z:JItK:B:n]XB:bAB:;:wJ:t[:JIt;;:w:;:wJ:B:n]X>:<:wbA<:t;;Z:JItK:B:n]X>
+:<:wbA>:n=;Z:JIt;;:w::pkF:ZX:B:;:wZ::wZ::wZ::wZ::wZ::wZ::wZ::wZ::wZ::w
+Z:B:bA<ZXJIB:JIB:JIB:JIB:JIB:JIB:<:t[::t[:bAn=<:n=<:n=<Z:ZXB:ZXB:t;wZ:
+:wZ:B:bA>ZXJIB:;bAn=>ZXJIJ:JIB:;:wZ::wZ:B:bA<ZXJIB:JIB:JIB:<:t[:bAn=>Z
+XJI:ZWN=:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=
+M:RAbA:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;::<:t;
+<J:<:t[:n=t;;B:<JIbA>ZXJIB:;:t;;bAn=:B:;:t[:bAn=<Z:ZXB:t;w:;bAn=<J:JI:
+Z:n=t;<J:<:t[:n=t;<J:ZXB:ZXB:t;wZ:B:bA>ZXJIB:;:t[:bAn=>ZXJIB:;B:bA<:bA
+;Z:n=t[::t[::t;;bAn=>:n=>:n=>:n=:B:;:t;;bAn=>:n=:RAoZ?:bA:<J:t;wZ:n=t;
+>:n=<:t;;Z:JIt;;:wJ:B:n]XJ:JIB:;:w:<JIbA;Z:JItK:B:n]X>:<:wbA>:n=;Z:JIt
+[:>:n=<JIbA>:<:wbA<:t;B:bA;Z:JItK:B:n]XZ:ZXB:;B:bA>ZXJI>:<:wbA<J:ZXZ:n
+=t;<:t;<:t;<:t;;:wZ:>:bA<:bA>ZXJIJ:JIB:;bAn=;bA<:wbA<J:<:t;;bAn=:RAm:T
+;p;t;>:;JIn=>:n=B:bA>:n=<J:t;w:;bAn=;B:;B:wZXJ:t;wJ:>:wJIJ:<JIbA;bA<:w
+bA;B:;B:wZX>ZXB:n]XJ:JI>:<:wbA;J:n=w:;:wJ:<Z:n=t;;bAn=>Z:n=tK:>Z:n=tK:
+t[:JIt;;B:wZX>ZXB:n]XZ:ZX>:<:wbA;Z:JIt;;B:bA>:bA>ZXJIJ:<:t;<JIbA;Z:JIt
+K:B:n]XJ:JIJ:JI>:;JIn=;B:;B:wZX>ZXB:n]XJ:JI:ZWN=R?bAt;Z:>ZXJIJ:t;wJ:B:
+n]XJ:JI>:<:wbA>:n=;B:bAJ:t;wZ:>:n=<JIbA>:<:wbA;B:bA>ZXB:n]XJ:JI>:<:wbA
+<J:JIJ:t;wJ:<:t;>ZXJIB:bA>Z:ZXJ:t[:JIt[:ZXJ:B:n]X>:<:wbA;Z:JItK:B:n]XB
+:bAB:bAZ:ZXB:bA>:<:wbA;Z:JItK:B:n]XJ:JIJ:JIB:;:wJ:ZXJ:t[:JIt;;:w::pkF:
+ZX:J:JIB:;B:bA<ZXJIB:<:t[:bAn=>ZXJIJ:JIJ:JIJ:JIB:;B:bA<ZXJIJ:t;wZ:>:n=
+>ZXJIB:;:w:;bAn=<J:<:t;;bAn=<J:ZXB:ZXJ:t;wZ:>ZXJIB:<:t[:bAn=<:n=<:n=<:
+n=<Z:ZXB:ZXB:t;wZ:B:bA<ZXJIB:JIB:JIJ:t;w:;:w:;:w:;:wZ:>:n=>ZXJI:ZWN=:b
+A:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:RAbA::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::RAoZ>:t[X::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::pkF>;:t;J:<J:<JIbA<JIbAB
+:;:t[:n=t;<:t;<J:ZX:J:B:wZXB:ZXJ:t;wZ:>ZXJI:Z:B:bA;Z:n=t[:bAn=<:n=<:n=
+>ZXJIB:;B:bA<:bA<JIbAB:;:t[:bAn=>ZXJIJ:JI:J:<J:<JIbA>ZXJIB:;:tK:B:wZX>
+:<JIbA>ZXJIB:;:t[:n=t;<J:ZXB:ZX>:<JIbA>ZXJIB:;:t;::RAoZ?:bA:;bA<:wbA<:
+t;;Z:JIt[:ZXZ:ZXJ:B:n]XB:;bAn=;bA<:wbAB:bA<J:<:tK:t[:JIt[:>ZXJIZ:n=tK:
+B:n]X>:<:wbA;Z:JItK:B:n]XB:;B:bAB:wZXJ:JIB:bA>:<:wbA;Z:JIt;;:wZ:>:bA<Z
+XJIZ:n=t[:>Z:ZXJ:t;w:<:tK:B:n]XJ:JI>:<:wbA<:t;;Z:JIt;;:wJ:B:n]XB:;:tK:
+t[:JIt[:>ZXJI:ZWF=b?RAbAZ::w:;bAn=;B:;B:wZXJ:t;w:;:wJ:<Z:n=tK:tK:n=wZ:
+>ZXJIJ:ZX>ZXB:n]X>:<:wbA;J:n=w:;B:bA<:n=;bA<:wbA;Z:JItK:B:n]X>:<:wbA>Z
+:ZXZ:n=t;;:wJ:<J:<JIbA;bA<:wbA>:n=;Z:JItK:>:wJIJ:JI>:<:wbAB:bA>:n=<J:t
+;w:;bAn=;B:;B:wZXJ:t;wJ:<Z:n=t;<JIbA<J:t;wJ:t[:JItK:<J:<JIbA;bA;JIn=:R
+Ao:P;t[X:>:<:wbA>:n=;B:wZX:;bAn=>:n=;B:bAB:JI>ZXB:n]XB:bA>:<:wbA;Z:JIt
+[:>:n=<JIbA>:<:wbA;Z:JItK:B:n]X>:<:wbA;Z:JIt[:ZXJ:B:n]XJ:JI>Z:ZXJ:t[:J
+It;;:wJ:B:n]XB:;:w:<JIbA;Z:JItK:B:n]XZ:ZX>:<:wbA>:n=;B:bAJ:t;wJ:<:t;;b
+A<:wbA;Z:JItK:B:n]X>Z:ZXZ::w::pkF:ZX:B:JIB:<:t;;bAn=<J:ZXB:ZXJ:t;w:;:w
+Z:>ZXJIB:<:t[:bAn=<:n=>ZXJIB:;B:bA<ZXJIB:JIB:JIB:JIB:JIB:<:t[:bAn=<Z:Z
+XJ:t;wZ:>ZXJIJ:t;wZ:>:n=>ZXJIB:;:wZ::wZ::wZ::wZ::w:;bAn=>:n=<J:<:t;;bA
+n=<J:t;wZ::wZ::w:;bAn=>:n=:RAo::t;::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::
+::::::::::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::ZWF=K:ZX:B:bAJ:JIB:;:wJ:>Z:n=t;;bAn=>:n=<:t;<J:ZXJ:t;wZ:>:bA<:
+bA<:bA;Z:n=t;:<ZXJIB:<:tK:B:wZXB:ZXB:ZXB:wZXZ:>:bA:B:ZX>:<JIbA>ZXJI:::
+::J:<Z:n=t;;bAn=>:n=<J:ZXB:t;w:;bAn=<:t;<J:<:t[::t[::t;;bAn=:RAoZ?:bA:
+<:t;>:n=;Z:JIt;<:t;;:w:;:wZ:ZX:;:w:;:w:<:t;;:w:<:tK:B:n]XB:;bAn=;bA<:w
+bA>:n=;Z:JIt;;:w:;:wZ:ZX:<:t[:>:n=;bA<:wbAB:bA<J:<:t[:bAn=<:n=<:n=<:n=
+B:wZXB:;B:bA>ZXJIZ:ZX>:<:wbA>:n=<:t;;Z:JItK:B:n]XZ:ZXJ:JI:ZWF=b?RAbA:;
+:w:;:wJ:B:n]XJ:JIJ:JIJ:JIJ:JIZ:ZXJ:JIJ:<JIbAB:wZXJ:<:t[::wJ:tK:n=wJ:B:
+n]XZ:ZXB:;:w:<JIbAB:bA>:n=>Z:ZX>ZX>:wJI>Z:>Z:n=t;;bAn=;Z:JItK:>:wJI>:;
+JIn=;J:n=wJ:>:wJIJ:JI>:<:wbA>:n=>Z:n=tK:t[:JIt;;:w:;:wJ:<J:<JIbA;Z:n=t
+;;JIbA>ZXJI:ZWN=R?bAt;:;:w:;:wJ:B:n]XZ:ZXJ:JIJ:JIJ:JI>:<:wbA>:n=<:t;;Z
+:JIt[:ZXJ:B:n]XB:;:wJ:t[:JItK:B:n]X>:<:wbA;Z:JItK:B:n]XJ:JIB:bAB:;:wJ:
+ZX:<JIbA;Z:JIt[:>:n=<:n=<:n=<:n=B:wZX>:<:wbA>:n=<:t;;Z:JIt;;:w:;:wJ:<:
+t;;:t;<JIbAJ:JI:ZWF=:bA:<J:<:t;;bAn=<J:t;wZ::w:;bAn=>:n=<J:<:t[:bAn=>Z
+XJIB:;B:bA<ZXJIB:<:t[:bAn=>ZXJIB:;:wZ::wZ::wZ::wZ::wZ:B:bA<:bA>ZXJIJ:J
+IB:;bAn=<:n=>ZXJIJ:JIJ:JIJ:JIB:;:wZ::w:;bAn=<J:<:t[:bAn=>ZXJIB:;B:bA>Z
+XJIJ:JIB:;:t;;bAn=:RAo::t;::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::RAmj>:p;t;:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::pKGB;ZXbA:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ZWF=K:ZX:J:JIB:;:t;;bAn=<J:ZXB:ZXB:ZXB:ZXB:wZX:;:wZ:>:bA;Z:n=tK:B:wZXB
+:t;wZ:B:bA;Z:n=t[:n=t;:B:bA>Z:B:wZX>:<JIbA<JIbA:Z:>ZXJIB:JI>:;B:wZXJ:t
+;wJ:<Z:n=t[::t[::t[::t[::t[:n=t;;B:<JIbA;Z:n=t;;bAn=:B:;:t;:>ZXJI>Z:B:
+wZX:ZWN=P:ZX:J:t;wJ:B:n]XB:;:t;<JIbA;Z:JIt;;:w:;:wZ:ZX:;:w:;:wJ:B:n]X>
+:<:wbA;Z:JItK:B:n]X>:<:wbA<:t;<J:t;wZ:n=t;;Z:JItK:B:n]XB:bAB:;:wJ:t[:J
+ItK:B:n]XZ:ZXB:;B:bAB:wZXJ:JIJ:JIJ:JIZ:ZXB:bAZ:ZXZ:ZXJ:JIB:;bAn=B:wZXB
+:;:w:;bAn=;Z:JIt;:pkFZPZWZX:>:n=;B:;B:wZX>ZXB:n]XJ:<JIbA;J:<JIbAB:wZXZ
+:ZXJ:JIJ:JIZ:ZXB:;bAn=<:n=;bA<:wbA;B:;B:wZXB:t;w:;bAn=;J:n=w:;:wZ:>:n=
+<:n=>ZXJI>:;JIn=;Z:JItK:B:n]XJ:JI>:<:wbA>:n=B:bAB:bAB:bA>Z:ZXJ:t;w:;:w
+:;:w:;:wJ:>:wJIJ:<:tK:tK:n=w:;:wZ:>:n=:RAo:P;t[X:J:t;wJ:<:t;;bA<:wbA<:
+t;;B:bA>ZXB:n]X>:<:wbA>:n=>:n=;Z:JItK:B:n]X>:<:wbA;Z:JItK:<:t;;bA<:wbA
+>:n=<J:JIJ:t;wJ:B:n]X>:<:wbA>:n=<J:JI>ZXB:n]X>:<:wbAB:bA;Z:JIt;<:tK:B:
+n]X>:<:wbA;Z:JIt[:ZX:;:w:<:t;<:t;;:wZ:>:n=<JIbAB:;:w:;bAn=;Z:JIt;:pkFF
+;P;bA:>:n=>:n=<J:JIB:<:t;;bAn=<J:t;wZ::wZ:B:bA>ZXJIB:;bAn=<:n=<:n=<:n=
+>ZXJIB:;:wZ:B:bA>ZXJIB:;:t[:bAn=<:n=<Z:ZXJ:t;wZ:>ZXJIB:JIB:JIB:JIB:JIB
+:JIB:JIB:JIB:<:t[::t[:bAn=<:n=>ZXJIJ:JIB:;B:bA>ZXJIJ:JIB:;bAn=:RAoZ>:b
+A:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWF=KZPZWZX:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=PZOZXbA:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::ZWF=M:ZX::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::pKGB;:t;:;J:<JI<J:>ZXn=w::;Z
+:n=t;>:<JI>:bAwB:>ZXJI>:<JI<JI<J:>ZXn=wJ:B:bAn=:J:B:wZX:>:<ZXJIJ:B:wJ:
+ZXn=:J:B:wZXJ:B:wB:>ZXn=wJ:B:bAn=:J:B:wB:wJ:>ZXn=wJ:B:wZXB:>:t;wZ:J:bA
+n=<:;:wZXJ:B:wJ:n=wbA<Z:>ZXB:t[Xn=;J:<JIbAB:>ZXJIJ:B:wB:wJ:>ZXn=w::RAm
+J>b?RAbA:<ZX:bA:Z::w:B:B:<:wbA>:wZXZ:Z:n]XB:n]XZ::t;w::B:;:w:B::bAB:B:
+<:wbA::<ZXJIZ::ZXZ::t;w::B:;Z:n=<:wbAB:JIJ:J:JIt;;:;:wbA>:JIbAB:;Z:B:n
+]XJ:n=;J:bAwZ:bAn=>:>:n]XZ:Z:n=<:wbA::pKGR;P;t[X:Z::ZX::<:n=Z:J:bAt;>:
+bAB:>:;:wbAt;<:n]:n=t;:B:;:w:>:bA<:n=<:;ZXbA::B:JIZ::ZXZ::wB:wZX::<J:>
+:;:wbAt;<:n=>:JIbA>Z::wZXJ:<:tK:t;wZ:>:<Z:JIt;;JI>:;ZXn=<ZXJIJ:J:JIt;<
+:;J:JIt[X::RAm::t;:>:;B:t;w::B:>:wZXZ:J:bAn=>:wZXZ:J:>:n]XbAB:B:wJIt;:
+Z:>:;bAn=>:t[XB:JIB:<J:bAn=::<ZXJIZ::ZXZ:Z:n=wbA::<J:>Z:>:n]XbAB:JIJ:Z
+X:>:bA:;:;bAtKIZ:>:;J:<JIt[XJ:n]:B:;bAwJIB:t;w:;:;:wbAB:>:;:wbAt;:ZWN=
+:bA:J:B:n=w::B:B:bAwZ::ZXJ:ZXZ:J:>:n]XbAB:<J:n=t;:Z:J:t;w:;JIbA<:n=<::
+t;:Z::w:<Z:>:n=t;<:;JIbA::<ZX>:;:wbAt;<:n=>:bA:;:t;J:>Z:bAn=B:tK:tK:<Z
+XbA>:<JI>:wJIB:JIJ:J:JIt;<:;J:JIt[X::RAm:T;p;t;:;Z:JIn=:Z:Z:ZXn=<::t;;
+:t;<Z:>ZX>:<JIt[XZ:bA<JIn]Xn]X::<J:>:n=>:t[XB:JIB::bA:J:t[:>:n=wbA<J::
+bAB:B:wB:tKIt;:B:;B:;bA;B:<JIt[XZ:bAn=>:bA:;:t;J:J:tK:tKItKIB:;B:;bA;B
+:wbAt;;J:<JI<ZXn=wZ::w:;:;:wbAB:<J:tK:B:wbAt;:ZWN=R?bAt;:B:ZX::B:t[:ZX
+n=<::t;;:t;<Z:>ZX>:<JIt[XZ:bA:t;:B::bA<::t;<::t;:>:<:bAt[::ZXZ::ZX::<Z
+:>ZX>:<JIt[XZ:bAn=>:bA:;:t;J::JIB:<J:tK:n]XbA>:;B:wB:tKIn=<:n=>:>:n]XZ
+:B:;bA;Z:n]XbA::pkF:ZX::<:bA::;Z:JIbA>:<:t;wZ:J:t;wJ:B:w:>ZXJI>:<:t;w:
+:>:<:t;w:;Z:bAn=>:<:t;w::B:>:t;wJ:B:wB:>ZXn=wJ:B:bAn=:J:B:w:>ZXJI>:<JI
+bA<:;bAn=B:>ZXJIZ:J:JIbA>:<JI<:;bAwJI<:;bA;Z:n]XbA;Z:n=t[:J:ZXJI>:<JI:
+;bAn=:ZWN=:bA:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZW
+F=MZPZWZX:::::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=L:
+bAt;:::::::::::::::::::::::::::::::::::::::::::::::::::::::RAmJ>:bA:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::ZWN=P:ZX::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::pkFF;ZWZX:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::ZWN=L:bAt;::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::RAmJ>:bA:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::ZWN=P:ZX::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::pkFF;ZWZX:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::ZWN=L:bAt;::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::RAmJ>:bA:::::::::::::::::::::::::::::::::::::::::::::::::::
+::::ZWN=PZPRAwRAwZX:ZWn=t;:ZWZX::RAbA::p;t;:ZWZX::RAbA::p;t;:ZWZX::RAb
+A::p;t;:ZWZX::RAbA::p;t;:ZWZX::RAbA::p;t;:ZWZX::RAbA::pkFZQ^]Wf]Xn]Wn]
+WbAf=JIRAZXjH:wZW:t;u:n=p;bAf=JIRAZXjH:wZW:t;u:n=p;bAf=JIRAZXjH:wZW:t;
+u:n=p;bAf=JIRAZXjH:wZW:t;u:n=p;bAf=JIRAZXjH:wZW:t;u:n=p;bAf=JIRAZXjH:w
+ZW:t;u:n=p;bAf=RAmR=MR;cb@wbAwBAsBAsRAsBAu::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::^]Uv\\HN[?n\\Xn]XV]S>]R>]R:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::jEPkBxj?XjEtKIdkETkDPkDP;:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::LKC<k@`jEXkDLkCHkCH;::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::JC<kAh5:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "I wish to
+ thank " }{TEXT 484 37 "Turlough Crowe of Allied Irish Banks," }{TEXT 
+-1 1 " " }{TEXT 561 32 "Elaine Bragg of Adept Scientific" }{TEXT -1 
+34 " (http://www.adeptscience.co.uk), " }{TEXT 562 25 "Charlie Hipwell
+ of Pfizer" }{TEXT -1 6 ", and " }{TEXT 563 21 "Gerry McGovern of Nua
+" }{TEXT -1 452 " (http://www.nua.ie) who generously sponsored copies \+
+of the booklet for distribution this evening. \n\nAnyone reading this \+
+abroad (or here in Ireland) may obtain a copy (or copies!) by contacti
+ng Folding Landscapes at their web site (http://www.iol.ie/~tandmfl). \+
+There was a print run of 2000, so hurry hurry while stocks last! Of pu
+blic reaction to the booklet I was especially pleased with an email fo
+rwarded to me by Tim Robinson last December 23rd:\n\n" }{TEXT 259 689 
+"Dear Tim Robinson,\n>\n>As a mother of two small kids you would think
+ (quite rightly) \n>that I would be mad busy on the eve of Christmas E
+ve; well \n>since we found the time from nowhere to greet the dawn at \+
+\n>Newgrange on Tuesday I thought I would steal some time \n>to read y
+our beautiful publication 'A Prime For The Millennium'\n>which I bough
+t for my brother-in-law who is a number whiz..\n>\n>What a delight; I \+
+thought that I was numerically illiterate \n>but I saw the poetry in J
+ohn Cosgrave's work. If I was a \n>number I would definitely want to b
+e a Prime. Please convey \n>my thanks to him for his enthusiasm; I now
+ have something \n>numerical to feed my babies with when they are olde
+r.\n" }{TEXT -1 108 "\nThe MapleV5 file of this talk may be accessed i
+n the Public and other lectures section of my web site. The " }{TEXT 
+486 4 "html" }{TEXT -1 235 " text version of that file - for anyone wh
+o doesn't have Maple - may also be accessed (note that because Maple s
+aves outputs and in-line mathematical expressions as gif files, then t
+here are hundreds of gif files in the html version).\n" }}{PARA 0 "" 
+0 "Top" {TEXT -1 79 "                                                 \+
+                        [Top]\n" }}{PARA 0 "" 0 "" {HYPERLNK 17 "The f
+utility of Eratosthenes' method" 1 "" "The futility of Eratosthenes' m
+ethod" }{TEXT -1 2 ".\n" }{HYPERLNK 17 "A technical preliminary" 1 "" 
+"A technical preliminary" }{TEXT -1 2 " (" }{TEXT 276 22 "modular expo
+nentiation" }{TEXT -1 3 ").\n" }{HYPERLNK 17 "Fermat" 1 "" "Fermat" }
+{TEXT -1 82 "'s (1601 - 1667) 'little' theorem. Identifying composites
+. Pseudoprimes. A moral.\n" }{HYPERLNK 17 "The modern study" 1 "" "The
+ modern study" }{TEXT -1 4 " of " }{TEXT 411 18 "primality proving " }
+{TEXT -1 41 "starts with Edouard Lucas (1842 - 1891).\n" }{HYPERLNK 
+17 "D. H. Lehmer and John Selfridge" 1 "" "D. H. Lehmer and John Selfr
+idge" }{TEXT -1 2 ".\n" }{HYPERLNK 17 "H. C. Pocklington (1870 - 1952)
+ again" 1 "" "H.C.Pocklington" }{TEXT -1 3 ".\n\n" }{HYPERLNK 17 "Appe
+ndix 1" 1 "" "Appendix 1" }{TEXT -1 17 ". The factors of " }{XPPEDIT 
+18 0 "c = 1195068768795265792518361315725116351898245581;" "6#/%\"cG\"
+O\"eX#)*=N;^s:8O=Dzl_zo(o]>\"" }{TEXT -1 2 ".\n" }{HYPERLNK 17 "Append
+ix 2" 1 "" "Appendix 2" }{TEXT -1 61 ". John Selfridge's improvement o
+f D.H. Lehmer's 1927 result.\n" }{HYPERLNK 17 "Appendix 3" 1 "" "Appen
+dix 3" }{TEXT -1 34 ". Francois Proth. (1852 - 1879). \n" }{HYPERLNK 
+17 "Appendix 4" 1 "" "Appendix 4" }{TEXT -1 48 ". Other examples of Eu
+clid-Pocklington primes. \n" }{HYPERLNK 17 "Recommended reading" 1 "" 
+"Recommended reading" }{TEXT -1 287 ".\n\nIn my talk I may not get to \+
+cover all that I would like, I may have to cut some corners, but you c
+an always look up the full text version at my web site. My ambition is
+ to give you a flavour of what is at stake; it is not possible to cove
+r anything other than a small fraction... . \n\n" }{TEXT 309 107 "Intr
+oduction to Pocklington. On January 7th. 1999 - in the course of prepa
+ring some work to illustrate the " }{TEXT 331 5 "power" }{TEXT 332 22 
+" of some ideas due to " }{TEXT 333 25 "Henry Cabourn Pocklington" }
+{TEXT 334 193 " (from a 1914-16 paper of his) for my 3rd. year student
+s in connection with my Number Theory and Cryptography course - I happ
+ened to find a prime number with exactly 2000 digits (I dubbed it a " 
+}{TEXT 329 10 "millennium" }{TEXT 330 73 " prime). The size of that pr
+ime is not especially significant (though it " }{TEXT 310 15 "would ha
+ve been" }{TEXT 311 61 " the largest known prime in early 1963); there
+ are, in fact, " }{TEXT 315 12 "rather a lot" }{TEXT 316 101 " of prim
+es with 2000 digits: the exact number of such primes happens to be unk
+nown, but it is of the " }{TEXT 312 5 "order" }{TEXT 313 11 " of 1.954
+2*" }{XPPEDIT 18 0 "10^1996;" "6#*$\"#5\"%'*>" }{TEXT -1 110 " (expres
+sed another way, the probability of a randomly chosen 2000-digit numbe
+r being prime is about 1 in 455)" }{TEXT 314 49 ". \n\nTwo things are \+
+of interest about this prime:\n" }}{PARA 0 "" 0 "" {TEXT 555 7 "1. the
+ " }{TEXT 317 3 "way" }{TEXT 318 48 " in which it is constructed. It i
+s the number:  " }{XPPEDIT 18 0 "p[1]*p[2]*p[3];" "6#*(&%\"pG6#\"\"\"
+\"\"\"&F%6#\"\"#F(&F%6#\"\"$F(" }{TEXT -1 6 " *...*" }{XPPEDIT 18 0 "p
+[325]*p[326]^325;" "6#*&&%\"pG6#\"$D$\"\"\"*$&F%6#\"$E$\"$D$F(" }
+{TEXT -1 18 " + 1, namely, the " }{TEXT 413 7 "product" }{TEXT -1 8 " \+
+of the " }{TEXT 412 16 "first 325 primes" }{TEXT -1 30 " (2, 3, 5, 7, \+
+... , 2153) and " }{TEXT 414 34 "the 325th power of the 326th prime" }
+{TEXT -1 9 " (2161), " }{TEXT 415 6 "plus 1" }{TEXT -1 25 ".\n\n2. tha
+t its primality " }{TEXT 335 3 "can" }{TEXT -1 55 " be established so \+
+readily (there is currently no fast " }{TEXT 336 7 "general" }{TEXT 
+-1 112 " way to establish primality for primes of large size, and the \+
+quest for - or proof of the non-existence of - a '" }{TEXT 337 25 "pol
+ynomial time algorithm" }{TEXT -1 28 "' to establish primality is " }
+{TEXT 340 3 "the" }{TEXT -1 102 " great unsolved problem of primality \+
+testing) by Pocklington's method. (Indeed for prime numbers of a " }
+{TEXT 338 17 "certain structure" }{TEXT -1 26 ", Pocklington's method \+
+is " }{TEXT 339 15 "vastly superior" }{TEXT -1 27 " to other later met
+hods.) \n" }}{PARA 0 "" 0 "" {TEXT -1 12 "Here it is :" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "millennium_prime := \nproduct(ithpr
+ime(k), k=1..325)*ithprime(326)^325 + 1;" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%1millennium_primeG\"[hr\"pS\"3Al4xxF\"[x\"y(\\qfI4&GY?/OfC(3?#
+ygY$)z._MG!fXn!fg!\\'=yTy1U*\\Qw1Pq_\">#*o]0!z_*\\8z/-'z?V_3&eb;$oU(R'
+)Qfv7M^pXxFDIDOk$Q'GsxfjYt%>l^tKj_\"*p,f/;G'zUD1\"QA;^'Qi7t8%R33hT+egZ
+8P\\vzUgIZ?2F'e4sKpjm%epO[/%>2m-&*ehk/$RC!)e)y#H!Q(z[lct&Rc&R6XJJ=0!**
+4\\&)44OYK8dWHATvn0$3/Hu)zEMR8m$y>*H>Yk<`B>B\"GwDj[spE%>w$G$pE!fftR/-N
+0az%H>d;j*y/?2w=x\"=nHb*=(**G/\")Ha,d9aeV;#H6m%*yF<o[bEGi$*H4E46*e(enR
+R86))e<rv?O6(QdFma?ty*)ym3K:$oJ;LPe%QJ%)pPGd`!*G\"3ux;(p9#Hg?l[!eQF#)H
+g=.\"[hV'H-))=d/LB#)f*4PXlfOkxO&zbI0Qk7T!\\.Ynt)o?IW[Jx+))>X)4*pM;V]l#
+G)z2!f[Y*)eM3=A(enASY`@Vd0<.1UU)z9OS7rS0dF7([]!*zBp6lx:(R#*=(pGHao%GtK
+wI-V_!)QtCe^'p\\#3=Vn;b'opd<%H%*47A?a`\\iy0G![nJHu![(H\"4@MgpwJ.oDke!Q
+Bbyi]?#y2d+lor#R.L(*zHRh[;=S!>(y\"3Qy&G)[A$zV\\ZCJT%f8Y\"*>k[mSI[2CMM
+\\'eo30Kc`M')o)>y4No#G\"*)*Q%>qrHfasp<**=J<[[PXQ_h_a]_yc'o\"\\#evyYc#R
+%*)Gp;E5$\\Ob*fcAEn/DpU*3<R!y\">6,_?['pbuqg`8B,hXSlNH8?P\"[$*oD'GK!=`a
+T!3dv<4m\"fEI&pN\"Q@=&)3zI'p%3.*=8')>T77T+[9>i9#4x8[sDyp6za&yN\"*z?D.*
+3'R$>Vg2\"[&pB0+?7NW`J<)>i'>Zo<vq!y%fdE]0=mn2GULDXuA1?(4rJ!4Q\\)fi\"*G
+)R2;D'3JJ@%[>QO2(ym\">W&o(fgH=s))eH6\\0f&))fF$Q)y$R*))4G\"p9\"*HNb4#fg
+vw/,1Xh\"ysW'*Gw;Q#R%>gF&4+e/f[wn(=lw,:RWWRYvAGSe_@<J5(=a9LdAKR+u)yuo!
+)GrAcp\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "length(millenni
+um_prime);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%+?" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 8 "So, let " }{TEXT 263 1 "U" }{TEXT -1 40 " be the
+ product of the first 325 prime, " }{TEXT 264 1 "F" }{TEXT -1 44 " be \+
+the 325th power of the 326th prime, and " }{XPPEDIT 18 0 "n = U*F+1;" 
+"6#/%\"nG,&*&%\"UG\"\"\"%\"FGF(F(\"\"\"F(" }{TEXT -1 7 ", then " }
+{TEXT 265 1 "n" }{TEXT -1 23 " is a 2000-digit prime." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "U := product(ithprime(k), k=1..325)
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "F := ithprime(326)^325
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n := U*F + 1:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(n);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"%+?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "
+isprime(17);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "isprime(21);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 108 "I am not executing the comma
+nd 'isprime(n)' - to attempt to establish the primality of the above 2
+000-digit " }{TEXT 288 1 "n" }{TEXT -1 172 " - for two reasons:\n\n1. \+
+it would take Maple far too long (hours, possibly, depending on the sp
+eed of the computer being used) (and in this respect, and in many othe
+rs, the " }{TEXT 267 4 "free" }{TEXT -1 116 " program PrimeForm - crea
+ted by Chris Nash, and based on the library of Yves Gallot's remarkabl
+e Proth program - is " }{TEXT 268 15 "vastly superior" }{TEXT -1 87 ",
+\n\n2. using Maple, the output could not be relied upon (because Maple
+ - in common with " }{TEXT 398 10 "all other " }{TEXT -1 42 "commercia
+l mathematical software - uses a " }{TEXT 399 20 "probabilistic method
+" }{TEXT -1 85 " for testing primality, and is only reliable for numbe
+rs with up to about 400 digits)" }}{PARA 0 "" 0 "" {TEXT -1 29 "\nHow \+
+can the above number be " }{TEXT 357 6 "proved" }{TEXT -1 133 " to be \+
+prime using Pocklington's theorem(s)? What, in fact, is (are) Pockling
+ton's theorem(s)?  Here, to start with, is a version of " }{TEXT 416 
+21 "Pocklington's theorem" }{TEXT -1 1 " " }{TEXT 341 20 "in its simpl
+est form" }{TEXT -1 128 " (a full working through of Pocklington's ana
+lysis may be found in the 3rd year part of the Maple section of my web
+ site):\n\nLet " }{XPPEDIT 18 0 "n = U*p^m+1;" "6#/%\"nG,&*&%\"UG\"\"
+\")%\"pG%\"mGF(F(\"\"\"F(" }{TEXT -1 4 " (' " }{TEXT 417 2 "U " }
+{TEXT -1 8 "' for ' " }{TEXT 418 10 "unfactored" }{TEXT -1 17 " ', mea
+ning that " }{TEXT 419 12 "one doesn't " }{TEXT 420 4 "need" }{TEXT 
+421 8 " to know" }{TEXT -1 93 " its actual factorisation - this is a v
+ery significant point: many earlier and later methods " }{TEXT 423 16 
+"required knowing" }{TEXT -1 5 " the " }{TEXT 424 22 "complete factori
+sation" }{TEXT -1 4 " of " }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"
+\"!\"\"" }{TEXT -1 65 " as a preliminary step to possibly establishing
+ the primality of " }{TEXT 422 1 "n" }{TEXT -1 16 "), where\n\n1.    \+
+" }{TEXT 342 0 "" }{TEXT -1 0 "" }{XPPEDIT 18 0 "p^m;" "6#)%\"pG%\"mG
+" }{TEXT -1 23 " is a prime power\n2.   " }{TEXT 343 2 "U " }{TEXT -1 
+25 "is a natural number with " }{TEXT 351 1 "p" }{TEXT -1 14 " not div
+iding " }{TEXT 344 1 "U" }{TEXT -1 11 ", and\n3.   " }{XPPEDIT 18 0 "U
+ < p^m;" "6#2%\"UG)%\"pG%\"mG" }}{PARA 0 "" 0 "" {TEXT -1 1 "\n" }
+{TEXT 349 5 "then " }{TEXT 345 1 "n" }{TEXT 350 13 " is prime if\n" }
+{TEXT -1 1 "\n" }{TEXT 556 40 "Condition 1 (the Fermat-Lucas condition
+)" }{TEXT -1 12 " \n\nthere is " }{TEXT 354 4 "some" }{TEXT -1 9 " int
+eger " }{TEXT 346 1 "a" }{TEXT -1 11 " such that " }{XPPEDIT 18 0 "a^(
+n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mo
+d " }{TEXT 347 1 "n" }{TEXT -1 3 ") (" }{TEXT 352 7 "meaning" }{TEXT 
+-1 38 " - for those of you not familiar with " }{TEXT 353 11 "congruen
+ces" }{TEXT -1 8 " - that " }{XPPEDIT 18 0 "a^(n-1);" "6#)%\"aG,&%\"nG
+\"\"\"\"\"\"!\"\"" }{TEXT -1 36 " leaves remainder 1 when divided by \+
+" }{TEXT 348 1 "n" }{TEXT -1 7 ", and\n\n" }{TEXT 558 63 "Condition 2 \+
+(what I would like to call Pocklington's condition)" }{TEXT -1 3 " \n
+\n" }{XPPEDIT 18 0 "gcd(a^((n-1)/p)-1,n) = 1;" "6#/-%$gcdG6$,&)%\"aG*&
+,&%\"nG\"\"\"\"\"\"!\"\"F-%\"pGF/F-\"\"\"F/F,\"\"\"" }{TEXT -1 8 " (wh
+ere " }{XPPEDIT 18 0 "gcd(A,B);" "6#-%$gcdG6$%\"AG%\"BG" }{TEXT -1 35 
+" is the greatest common divisor of " }{TEXT 355 1 "A" }{TEXT -1 5 " a
+nd " }{TEXT 356 2 "B." }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 1 "
+\n" }{TEXT 358 13 "Some comments" }{TEXT -1 32 ". For a novice these c
+onditions " }{TEXT 368 12 "might appear" }{TEXT -1 117 " strange, but \+
+- as with all things - with some background they are entirely natural.
+ Of course, the second condition " }{TEXT 359 5 "could" }{TEXT -1 50 "
+ appear useless since - again, for a novice - one " }{TEXT 361 5 "migh
+t" }{TEXT -1 35 " think that the finding of the gcd " }{TEXT 362 6 "sh
+ould" }{TEXT -1 8 " entail " }{TEXT 360 9 "more work" }{TEXT -1 52 " t
+han is neccessary to establish primality; but one " }{TEXT 372 4 "must
+" }{TEXT -1 46 " realise that in practice the gcd is computed " }
+{TEXT 369 3 "not" }{TEXT -1 12 " by finding " }{TEXT 363 3 "all" }
+{TEXT -1 13 " divisors of " }{XPPEDIT 18 0 "a^((n-1)/p)-1;" "6#,&)%\"a
+G*&,&%\"nG\"\"\"\"\"\"!\"\"F)%\"pGF+F)\"\"\"F+" }{TEXT -1 5 " and " }
+{TEXT 364 1 "n" }{TEXT -1 78 " (which in any case would mean that one \+
+would have established whether or not " }{TEXT 365 1 "n" }{TEXT -1 28 
+" had any factors other than " }{TEXT 366 0 "" }{TEXT -1 6 "1 and " }
+{TEXT 367 1 "n" }{TEXT -1 3 "), " }{TEXT 370 3 "but" }{TEXT -1 58 " ra
+ther by using the remarkable (and entirely elementary) " }{TEXT 371 
+19 "Euclidean algorithm" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 375 23 "An illustrative example" }{TEXT -1 80 ". I will dem
+onstrate how Pocklington's theorem establishes that 5347 is prime. \n
+" }{TEXT 376 4 "Note" }{TEXT -1 103 ". I will include some unneccessar
+y calculations just to let you see the size of the numbers involved.\n
+\n" }{TEXT 373 46 "A Pocklington demonstration that 5347 is prime" }
+{TEXT -1 12 ": 5347 = 22*" }{TEXT 377 0 "" }{XPPEDIT 18 0 "3^5+1;" "6#
+,&*$\"\"$\"\"&\"\"\"\"\"\"F'" }{TEXT -1 5 ", so " }{XPPEDIT 18 0 "p^m;
+" "6#)%\"pG%\"mG" }{TEXT -1 4 " is " }{XPPEDIT 18 0 "3^5;" "6#*$\"\"$
+\"\"&" }{TEXT -1 6 ", and " }{TEXT 374 1 "U" }{TEXT -1 7 " is 22." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "n := 22*3^5 + 1;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"%Z`" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 24 "We will start
+ by trying " }{XPPEDIT 18 0 "a = 2;" "6#/%\"aG\"\"#" }{TEXT -1 23 ", a
+nd test Condition 1:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "2^(n
+-1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"e_qk'4E%[l3*)=J)oA2BaII@GgAM
+7$yOKt\"G(**)Gvp;U=YAMh>&z_Q%e`o#Q7H`P_y285!fRC&*>L$))f#pB@aqvjG#=d)\\
+=$fLMP?m;6\"oic,aYT.`$3%)=N<9$*H&)G#pTmUXn?P#e))=rdZN*=!QTiN9)\\'4lEvb
+MRgZ$>mUph]D&=#fx\"Rkx#*3)ypz1SN!o;R;NYQ+*ph/AFo;X_?qz>We(fi9,yir#z!>B
+LH<Uv\">)*oN)=_SN#>xj4$zI=(>2QgW!=&pP2)*))*Qih%f$z1B8fwUy[8JhP=TB@?&>f
+DS`dpR5nmlucM=m1$)fZ5\\))Q['HD>-]F+\"p+0)R::SnVV\"fo9?rV64,c;3ImU(Q6)
+\\.Qz<5eO)\\<q[%*[D(*=8!eF8+R^Q,C@'>@T$>Sj><R&*3ok]QN5FB@\"=VDf5**QNpJ
+vGin!f@0o:/cB![1\"eDK\"3s\"4UP,(o?7s^+O')RxG-O\"=TL\"GqKK$fZF7&e%znE3(
+ycMB+=PD@?c:\"o%>:z+;*fYe&Q&>p'[stC<[VmQE`[LKjm&>!G&RakXkGhhZy_8rlyS?!
+p>egNE>&>%RdyoG82t]zn$GFd6*H\"GX3J*)4x0<EJ)>e/:%[#e^6EQZR2dU.S2w`xAe#>
+$38u\"=9YY$*=m[?L'fVe4W7Stj:G+``\")4n%f)\\2_OJY\")=JzTji@ys,eA]%fss]qM
+Q076#HXWk#)33^ZPnx+.Fsh%)R?1`@axAo@.%4qEt(*p)e&zn(e!p*[jfvkxa*=JbXz1NF
+#o_ck<+U3p!fXk7g4O.![IWGE!3A'QJPK*\\y)zuK$3'Qp5@6:*eyU*oK6,&=1f&p\\m.%
+[4))H\\$yKG5dZdx'fF#p/u#3)\\hrzc.GR>#z`+fT*[,#**>4h*e*)>oC?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "2^(n-1) mod n; # computes th
+e remainder on division by n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 24 "Now to test Condition 2:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "2^((n-1)/3) - 1;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#\"d\\m.Fv2+$poM*Go)z:7#>`cM$eJ/@:P8m5b3vE_S6b-'\\N^'e\"eh!>FR!Q`n#eY:
+8U$o7rYq'oqw]:K1V^)zvr*[/MUl;o.ig*4z^Ryxl6r'[O#z\\')*=ZM]n?Yg;hk4z?S%z
+q&[7M(4K%p\"fT;\">dc<Et(y$R*[z;]OBhDw'ps18sO50vN&[!4\\E0zK&z+vT9!ypb5n
+vYAJEw#3dz#)or>ai9&Gj,#3fd2!**eX_=TmPgbwhIk!pic/=[<VA!p(Q#4m*G]7lAIX/M
+'*4'o=c'fFU5\")**HVwNjeu!\\*>Qbs#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "igcd(2^((n-1)/3) - 1, n);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"%Z`" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "is " }{TEXT 379 6 "no use" }{TEXT 
+-1 15 ", since it is '" }{TEXT 378 1 "n" }{TEXT -1 2 "' " }{TEXT 380 
+6 "itself" }{TEXT -1 20 ".  Now we try using " }{XPPEDIT 18 0 "a = 3;
+" "6#/%\"aG\"\"$" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "3^(n-1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"bjtH*4)R
+-v>/5L7%Gx:QH9#p*QOrrYs&*>3!e?t4\\Po;h,v/1PdnM%*[n[!=N)pW%[K`-/HkU-!)[
+RyV')[d**pMw&*>EL&RV,W3\"\\n2yT(eM*pSMUDH:/&eO.:$*os1kjJTf@\"=rz\\'*e&
+z)\\[S+%eG+&*Qdl*Hcx')311I%f+)p&33_yC?Am-x[$p9?vj5ASG=q.(43()=,$R$fF%H
+mW`WWEc5`E/s=(oL1(>p9?S5gknRf2]\\5toT&\\Q;;]fG5/$H6#\\>]m)y9v*)R\\V'z!
+*z(R]%*fzh4b_t_WF*ey/$e$Q5gtmc?:8cB=t8bRmGJ#)**=S0Xa?.V-s&\\6*\\b,%)eW
+nN*G!)eRfx#p'>Y$[&Go3@A2hpXq(yTaP73gtHC2Q!)*yJt==$*e$RJ*H-Z*4X$**\\G8D
+RNd2u+#4!>&3`*G,-xW-+B+'>Wf=s6([$y]0#e_\"Rca&4#*>WeM+(3j,<q?b%)\\sB_(
+\\Z[E<Es$=Aw3=\"H8>'f+>BMw+W2%owV\\$*[EGI%*o;xh5YTSOAK[gl]B#4Nro2&zA7@
+lrA!pS$4=_L\\K$R%=#)*))[nchIE=9%*[kT%R>QX#zY\\4=aEnZ\"*y6+-,a33'z[y8YA
+#e$\\#e7uRh`x<@!*=MxF@-3/@nD1)p1<M#Gr<'eo;xMibNhED#46i].3Y/K/I1ot.NW\"
+Gu$o\\*4h`u_fE%4h`v!Q4=!4Id&*R`UP^54iH&y9'>tPdp')[^!f]oegT6u+86'3osN:N
+bB'Q(HHer*Gj+!\\8BPzS)zL2)G@M^o4b^4bC?l\"ow8wW!>ArOU)o%>s'\\!e,-8-lXb)
+pm*pCJT<\"yCWGFi+\"[;b!3a3#\\?f!RN'\\**))\\\"op#>clHg*GZMYOU)zf?MKZ'**
+3))o,Y0%))f;\"Q([[y4l]/d35N-%*4mh1o:O2f:#*)fr!en`6u%zhsgYgq?2'[N-:)G?p
+K=-\")\\`*Q%*y&43;aR.3(>&\\`YzLr&phr\"\\[_KSD%=K&zhW$*=L0dA5LBbtNMJ8.!
+fNCPRu%obE#Hn5Q\"*o.Yc0'p$3'>]%><L/0c')>mbrJXUZUxH!\\wqb#*)Ro&4()zT!ey
+u`YK9=zo`TsP&3g(Gi1#=l*G58@=0(\\Eq-X2[lfk<!**4J^*=/J0vk!eqUMCqt(=y\")H
+BSlnH!H^E#4/wk/-Pi.t6\"=SRp!*R'\\fa15lG)yiRp4Ym6?Y+hj$o,/9/mg$>]y:cP%)
+RGWy3pf:Yq*[1)*))[x0t'*>V@ya6pm;(RGr4^48IHOv'>xlm9LdzgK$y())=zUgthxf'*
+f[6b#*=nHVe.cYD?*)fZ*oTuU-E&\\oCW)ea#yUI^[<Ez^&)\\R@h1HQ\">#H^;SA>K5j*
+[*R9Io[L1OV_>`mRd9Zqa#>4FZaAe$4y)\\1.Ym*Qi@U%QTqQ7%4a2)\\3q*p+'4%>%R7d
+.!\\" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "3^(n-1) mod n; # co
+mputes the remainder on division by n" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 24 "Now to test Conditio
+n 2:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "3^((n-1)/3) - 1;" }
+}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"^`n3W9Q'47Tm#z)fZ?20E`:pk^)H(\\b1?*
+y=0QZ**[zQkMuars3fC^/haLXw=iP)4864o'pY+Ja\\^D.0E#*3?)o8[AvP,&p2#G&[.'o
+krEH)z\"p)f&o#4[]#edb\"o-')zI.IH+N,c#)z/(QMZ71gx2$RN=#G&z18!43c%GFTN)y
+^k\"Ra1mC5sknFR$)fmR%>aOvAX\"=*eFF:PG-Y\"[9V/UkMIQk5/'4n]#p/=Z$>4IL%G(
+3-%HyO7jq$)>w-scnY(z*4eZ2Skv/J-%*o(o&)ou()zqNDkiCW7M)H;Py)QZ*p0gLSi4BM
+!yvN&\\!)z9#H()eZr;Q_Z\"=sXp(HNJA\"ykd0e$>#*yBU![W)QMO0!y6j&HH0NsIUn]:
+H'\\:#z#\\#fA&*)[9o%[NPnkkWpbpIAwJGNH)[(4*yihlp<0E]3Qqg6/V;/Jn^,7k='*y
+c)=.f8+'yO`Xrtmd+&pHH)Hs8.rF[^S&)p\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "igcd(3^((n-1)/3) - 1, n);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 "which establishes the primality \+
+of 5347 by Pocklington's theorem." }}}{EXCHG {PARA 261 "" 0 "" 
+{HYPERLNK 17 "Return to Top" 1 "" "Top" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 124 "I will return to Pocklington later, but first a big step
+ backwards in time, to the classic elementary test of Eratosthenes.\n
+" }}{PARA 0 "" 0 "The futility of Eratosthenes' method" {TEXT -1 151 "
+The futility of Eratosthenes' method. The classic (and entirely elemen
+tary) Eratosthenes test for primality, namely: to test if a given natu
+ral number " }{TEXT 270 1 "n" }{TEXT -1 22 " is prime or not, one " }
+{TEXT 272 9 "need only" }{TEXT -1 10 " test for " }{TEXT 273 8 "possib
+le" }{TEXT -1 54 " prime factors up to and including the square root o
+f " }{TEXT 271 1 "n" }{TEXT -1 72 ". This test is easily used for smal
+l numbers, or for large numbers that " }{TEXT 274 6 "happen" }{TEXT 
+-1 11 " to have a " }{TEXT 275 29 "relatively small prime factor" }
+{TEXT -1 90 ".  Otherwise it is entirely useless from a computational \+
+point of view.\n\nExamples: \n\n1.   " }{XPPEDIT 18 0 "sqrt(127);" "6#
+-%%sqrtG6#\"$F\"" }{TEXT -1 199 " lies between 11 and 12, and to test \+
+127 for primality one need only test for possible prime factors up to \+
+and including 11. Then, since 127 is not divisible by 2, 3, 5, 7 or 11
+, it follows that 127 " }{TEXT 405 8 "is prime" }{TEXT -1 8 ".\n\n2.  \+
+ " }{XPPEDIT 18 0 "sqrt(1665436393);" "6#-%%sqrtG6#\"+$ROam\"" }{TEXT 
+-1 282 " lies between 40809 and 40810, and to test 1665436393 for prim
+ality one need only test for possible prime factors up to and includin
+g 40801 (being the largest prime at most 40809).  1665436393 is not di
+visible by 2, 3, 5, 7, 11, 13, 17, but it is divisible by 19, and so 1
+665436393 " }{TEXT 406 12 "is not prime" }{TEXT -1 8 ".\n\n3.   " }
+{XPPEDIT 18 0 "sqrt(the_millennium_prime);" "6#-%%sqrtG6#%5the_millenn
+ium_primeG" }{TEXT -1 6 " lies " }{TEXT 320 7 "between" }{TEXT -1 1 " \+
+" }{XPPEDIT 18 0 "10^999;" "6#*$\"#5\"$***" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "10^1000;" "6#*$\"#5\"%+5" }{TEXT -1 6 ", and " }{TEXT 
+407 3 "to " }{TEXT -1 5 "prove" }{TEXT 408 10 " that the " }{TEXT -1 
+11 "millennium " }{TEXT 409 6 "prime " }{TEXT -1 2 "is" }{TEXT 410 6 "
+ prime" }{TEXT -1 44 " - using the method of Eratosthenes - would " }
+{TEXT 278 3 "not" }{TEXT -1 101 " be a feasible computation: using the
+ famous 'Prime Number Theorem' (that the number of primes up to " }
+{TEXT 443 1 "x" }{TEXT -1 5 " is '" }{TEXT 444 10 "asymptotic" }{TEXT 
+-1 5 "' to " }{XPPEDIT 18 0 "x/ln(x);" "6#*&%\"xG\"\"\"-%#lnG6#F$!\"\"
+" }{TEXT -1 8 ", where " }{XPPEDIT 18 0 "ln(x);" "6#-%#lnG6#%\"xG" }
+{TEXT -1 21 " is the logarithm of " }{TEXT 445 1 "x" }{TEXT -1 13 " to
+ the base " }{TEXT 446 1 "e" }{TEXT -1 29 ") the number of primes up t
+o " }{XPPEDIT 18 0 "10^999;" "6#*$\"#5\"$***" }{TEXT -1 38 " is approx
+imately approximately 4.347*" }{XPPEDIT 18 0 "10^995;" "6#*$\"#5\"$&**
+" }{TEXT -1 55 ", and so even with a computer that could perform 4.347
+*" }{XPPEDIT 18 0 "10^15;" "6#*$\"#5\"#:" }{TEXT -1 85 " trial divisio
+ns per second (such a computer doesn't exist), it would take more than
+ " }{XPPEDIT 18 0 "10^980;" "6#*$\"#5\"$!)*" }{TEXT -1 241 " seconds t
+o establish the primality of the millennium prime using the method of \+
+Eratosthenes. That is rather a long time (!!), given that the age of t
+he universe - using the estimate of 15 thousand million years - is of \+
+the order of between " }{XPPEDIT 18 0 "10^17;" "6#*$\"#5\"#<" }{TEXT 
+-1 5 " and " }{XPPEDIT 18 0 "10^18;" "6#*$\"#5\"#=" }{TEXT -1 9 " seco
+nds." }}}{EXCHG {PARA 258 "" 0 "" {HYPERLNK 17 "Return to Top" 1 "" "T
+op" }}}{EXCHG {PARA 0 "" 0 "A technical preliminary" {TEXT 289 25 "A t
+echnical preliminary (" }{TEXT 280 22 "modular exponentiation" }{TEXT 
+290 48 " using the powerful - but entirely elementary - " }{TEXT 386 
+19 "square-and-multiply" }{TEXT 387 8 " method)" }{TEXT -1 21 ". In wh
+at follows, a " }{TEXT 307 15 "very important " }{TEXT -1 39 "computat
+ion we will need to perform is " }{TEXT 279 22 "modular exponentiation
+" }{TEXT -1 1 " " }{TEXT 382 23 "involving large numbers" }{TEXT -1 
+39 ", namely: computing the remainder that " }{XPPEDIT 18 0 "a^b;" "6#
+)%\"aG%\"bG" }{TEXT -1 23 " leaves on division by " }{TEXT 281 1 "n" }
+{TEXT -1 7 ", with " }{TEXT 384 1 "b" }{TEXT -1 8 " and/or " }{TEXT 
+385 1 "n" }{TEXT -1 1 " " }{TEXT 277 5 "large" }{TEXT -1 108 ". You ha
+ve already seen, in my introduction to Pocklington, the computation of
+ - for example - the remainder" }{TEXT 383 1 " " }{XPPEDIT 18 0 "2^534
+6;" "6#*$\"\"#\"%Y`" }{TEXT -1 124 " leaves on division by 5347, but w
+e will need to perform much more demanding computations.\n\nBy way of \+
+example I begin with: " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 97 "2
+^57171 mod 797979; # computes the remainder 2 to the power of 57171 le
+aves on division by 797979" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&:2(" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 113 "I would like to point out how remarkable - relatively \+
+speaking - a computation that was!! \n\nTo perform it, Maple " }{TEXT 
+321 18 "actually evaluated" }{TEXT -1 1 " " }{XPPEDIT 18 0 "2^57171;" 
+"6#*$\"\"#\"&rr&" }{TEXT -1 6 ", and " }{TEXT 322 4 "then" }{TEXT -1 
+69 " divided by 797979 to produce the remainder 70715. \n\nAnd here is
+ the " }{TEXT 282 12 "actual value" }{TEXT -1 4 " of " }{XPPEDIT 18 0 
+"2^57171;" "6#*$\"\"#\"&rr&" }{TEXT -1 24 " (a 17211 digit number):" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "2^57171;" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#\"f^^o[[d5)QGqljk!3V0F%*)zCvE3>'))3&\\T`+\\+5q\\*HG#Q
+#\\=uo\\95E2f)Q4'z***)zn&)H+'=Wd2lC=Qy-*GlP]CWc+=iUp]x))>m`)**oo*oe1l5
+$z*GAjfWMJ)pkYSCfK>Q&[NB!y?VW[)H?5:='3w.kOm[]&yyhMSQx:@lj_p,s-h\")*3*)
+)[/h.?\"f!RyUO\")Hb4gf#eaIXm&el&[3D<(y&3%e\\'Gm%f&3D')4C7Ny,UYN1WlQ'=P
+,4::+ci9R'ef2v[5kv&3y5y)pIGy/9?HH&f5QP^pn+LH]\\f\")=\"p%odt&\\!o%H4#p#
+Gf'=8(=jL;6dIQmvtE:jxa1)pO!o>m>gf*\\))z857]-&3A3Vvk)>v*Qkg'f$*)z*H\"*e
+$*f**R4L5!*3')p6v'fxNQySeJDx-!>uKk8tec,%GG>3#fp=.p&G&H2T'eV!)465%**ye`
+wI,')\\(QPw2DM_4rIBk1D<(y%R*p1wD/))R:$4VnI0J/ttXKnr;$G4bYIW&eI$GUo:oii
+aU4+NWb%4oxFPz\\EJ<')pf+iP%4Rz1X!)H^hC^+Wz(Gm:vn.F\"ymCt0gy@Qfw!=W$4rQ
+#>j)o[9Q'fE\")*3<,UFQiJ6_RtCn'f-H&*3#>fOje_H!)z3Y*>guO^87'ftyFDAnZBnL
+\"QCp=vj3oBKYc1r<oon'*ye1kkuqqZ5um]aIZ:(\\tk_FFNrH?-#p#3YG2gdq3*)z-\\g
+jF!*>UBr*RmtF:Qk2F+a/!=M/)>^ld\\$**>OGWt4&*\\]&e#zfgxb$f'zmy&H4q6,**>3
+>j\")f.-)GQ5wW5J7HN)*G-eX#H^V)pi]&G=HxI_0))f*)>XenzQ]h*GCVxd$*=4C`TL2q
+vc![ll$G!QJ8)\\81;HYpcl%Q.YF@8=d'\\<^7$z8v&)*o3/[48!\\$y1lE*ft&*G$>'ff
+gwYK#[gh\"R[*>V+R=v\"p%pr.K\"G[kt>qsbRzwRB2?&QTmolp.sre]*\\<&***)*\\?c
+!e@]`:XC\"Hm8?B$*pW@c0UH:3;d$>V)RTYsE=V#*y'*[hz>c_QWP5_cPW9WU*fTr37#zv
+kh5;]A;:TXt0i2E-*)e2nm%)GO^OLC@%4)z<Auvn\"*)=Jy'\\WZ$>\"R#RaXWFz&o!=Q;
+&*RVJJ$*)ob\"HRutxtm`X/t')[#R4X9v=yM,@O'p>X.;WdZGgT,yfY2Wj]!)=)>y&>H-v
+%yz9O#GpR>v;cpgF#*\\**Q5N&)[2C]h8JYy&QmHKDMQG')G@oLnW3yu2t55!4#**pL#f)
+\\a;14))y*fg;x9j*z+Aux$**oxLFX^No^t,/X#RQqA*=nAcsxWSs]jev](HcvEN:emg(z
+_ftDgC&zLDnmgS4'*)p?7XVUWr#4[Al*>&)3/T!)4CRXWouD)G=V,:))R*QZw7\"*RZ'Ra
+l#R'H!4W+aCD>$>W([kZ\\R\\#[^ol[&pWJb'3!\\zp'o$p!*y2RTOK/8rDdH1an9\\:zE
+Qj#Gf^.=R%)='R-M5p+'fq=FNuIV;@3%4UkWBOB'QEU2&o-UHq](\\y@d:W`5^t)Q)R8Cw
+*4a9@%fL0\\*H0aiAJB&zHB)4[#\\4D[c(=tzA)R_XUDT[W)H)pgA:CrvM$H<N6mS0mD*)
+e0kL:foi&Rh-)Q=G0(G_T*=LKs.&>ibSe\"G1CmeXRlBf_c`oZb2*GS#=YG+!*p_ak.?B7
+=j=)HU$o.u,A?lJ^TH')*\\x5S!\\6ESZT(3*f=$zTO'=u'p%Hf_.*p'f8R\"HuD/hn]nu
+37!o\"o??P[MnFKFR&*f_HTp\"[#H%*zH&*ow<t*)\\M-SiU6)H)32m?CFq;)z^\"e48&z
+f/F-!Rx^ywDqhsV`*f,Fd3w2))y%e%G7f;^sRmFQ+#QE#eIW#*fD!4K`j**>Px#yb))*eV
+Fvl?UG%[`o`a'R0TN6?SUm3)Qh%oeR#=G(*e'Gb/lZU*)Hj;?/0M7\\))zLo\")eo.Ix(3
+cXQ.(**H%4(*\\<9<j5lCe8soP(3m0(Gz=/N,QgZXJ0uw\"Hn^eV6[>*pWsm')RkKmAT%z
+k,EE/Z0ky>#3@-KMd**H@/R&ySKY\"e$3hT0*p)zA'G!3Mkah-**z#\\^o'p5Pi-#*\\Ar
+\"3gkCsUZ5ao5>D/]hc%\\)=%fhotH@E?`;nBg]GkmJ'Gem\"e1DtM0xi;?'3KZv#e\"pE
+b%\\V\\bfk'3[qi%f#e\"R3=zJ!\\i&>+:#z#4(Gljxar**)*Gd)fuwQcm+dn[#GO#)H'=
+3a:v`j*HzeRD\"))*QE$>>v;lExiTo'*[PdWUb'z*e\"HZOr=(4tSeE<$)4ub(=,;>g%[O
+-Y;t2+O!3Sp*Gf`C!pl=?&)*Hk;Y3=SLE!pBo%pvDcVS)3\"\\JR*zHZ+gd=F@Wbs<Mtqq
+=&R^Ku1?8\\$3YdG'4P1W^O`&>%)=ES/x`EV\"*oSc\"4H$R93yzsG)*o3$R<Ie.7eTJVA
+o_8WE\"f&=$)HCFZ+!301Qf.ykpXD&)=[U&4dB5r9$e1/9eBD\"=v_8,zDuLE+=+`PK1'3
+'yL#)R!G$GvdpFyYW2EPJNQ=v16iBzBqsB#HPW7h]'4^L\"Hd/n]!H,wp=8Z8m(y/GnV$[
+2!zX:UE[KhSd^v%o2iyJ^ElLC$48+zLVr3[([qJgXZ8@Y3Dj(\\*oExO[nhF)QUO4?+\"3
+iP]pqt17]QCE.%)z<\\efPQF=G8L!)e;hn\\+21y\"eSh$p8F9)p@^=8njKXe)HHnrbc<.
+5\"*R'fLd&GsK<U]g$4.i=]6IPp\\%\\b3bTi`!*)y>N$4-0@A(*Quf^J5wjV8T2Ps%HFM
+zN^,NV8.d6,Z1(\\!3LN,ym86-&)f*>7X&yU6n-'[I[f#=sz/<:)e#)*y-^%pF_kFvh[^'
+f(QG#o[6v#RPRT%4w-OX\"e\\#43B$)G5'4aKBH_)3du#>FMbiw'[N+dSDO$>q!zjWb(zo
+NgLV`B\\O0X/AYbmkug$GL&Gu$H2d-*4h&[X7,@74^x6UqvdQn:HVL3@*3@=;g8p%*\\Q1
+(3'\\n]6cwF!*4_f'fq%>D(\\W!yarrma3[QI%=1r7Cg!Q8`y9Iw5*3W^uS,Su;cUr9&*[
+s!RQ<ZEHRy)))p$QJ0*y$3[V\\Ft5i\\q:Z!R&[Oi&y#y8'p\\6T]@\"[BCF)f+F\"G`hR
+wT%3WawZavkjz'G\\.k9=)))*=dJR3)Q2IKtT<#Gl'3hf')\\VZKS5[(GD'*Gus'fS6KLP
+f75B&ox-xB\"Qltj9J]=Sod:O;FMO$RdZF&Gis@AN*fWa)=W<DZXc^EO%=zdTZ2/Y#3+&R
+F:))RMVi%3)Q*4&=wUG:H^A)Hy(o\"yy3uLKL>E'fS2gh1*4z\\'Q%fG#z(zbp;'ee`*43
+@%GBS$*fMns#4,0R/c*fTQ_h(oyld;RAz*f\"RKOS]7ETQ0\\x\")G#ehv,<'4qHK!Q1t5
+55K%>b(4r\"ef$Rm))3l/#3w1lV13b>h$R,&psxQ7/vNO%=<q&H3ehyw*H\\,n/LC]_$>>
+.%z*HHF)f#\\es<7O5pX6_*[,1S!o)=^2$zl<4\"p`pl5RMt(4Y8:JP'\\f#3z9R;Ntt#e
+A(3()))y$)zVryJ9cz/`)zn,ag_%))HQI)=@I$**3Akd,-JVma,cVee;r[A@&3xuFD-/)R
+.rlWxB.)>(yaXS[],UW;w%*fNz@rPK:>]OX*=?5h*RLUp*GWHN#4'R&RhV$QF/3W>T3@I*
+[$e0XF8K5ljES,cqj98Wpl**p$f[0SY-`yhv2+grd2\\u.%oae,SWhy=d`3,RmSeC07&3K
+U$[U*y#3p^!G(GVw?rN)39l**z&)Gp1PG&*Ryfl@okI.wx*zIOQRu\\O=LK_x!*yL*y&)3
+$QJ*=Pz)47TJ4H$efa?$))*[;s.=\\O)>![!pak2Z([#[#Qb/0T+@97!e@A8R^g3%[**=<
+JokS6RGU%3Ln*=D42][\\XR3b#**oWbHC78qC8%3Qz)*GOkne1!y<9)>=ZL*G$G_LYc+\"
+)G;'f#z%y3mS**yVIP.<f(*Rb2w`BsIk.^J.D;H#)=f&3n:+Ctf!zYVhJv'Gb(\\];c*)e
+V*4ZR3CSQ)*==Ob\"*=!e-$32Ggp-AMp[@UPrr'QI'*)ePZ@4@N['\\rH`b!*>N$f5Z\"4
+kQ[B9\\v<euK2oPwF1voBDb\\.#R=%)GHws0xmx'y'QKZ2<yS`#yub)G?>!pKl0Dh#)Q<z
+zN$HrtzmI^')oA2,1`J3FC7Bd]--&\\7%>QWU8Fm.s&o3nXO&\\ovR9'3%)4\"ek@:y\"
+\\qp,rl'>fec72yL_Vsr.V4U:B6O&4k.t2`x)=V$*o.;g#)4hpjjcU^r.U\\R$e>Z+PXfN
+\"=(el\"Q([A_C0O5xk!p*[#)\\%p#*)[fElCh0<G[prq5@GgnF&[O*ew=-@Pfo6*oT[9b
+c%p8*p!om![l(>*HbTJ#35?FUa;qPCG2P+&e(G#G^iBz\"3&HiBl;(fO#=p/*\\ai2wNU+
+W&*RS)*G:))>(eu=:5Q$[Y#**\\vZ;\"eKTUkLA,y,\\l5WY%\\%HHL/K*)>w=W$Q6N*f(
+*z(4u\\h-%GM'4WczPk4@U9:[wTw>,L%z\"z1\"**o+w&>5l@L+RI@4a/8Qb(>Z!zwEbPv
+6LQ#[\\3M<i?DeFgddgf$fn,Y))\\hFUTf'RY'*\\\")GXvv(=y)))oT/Ln'*)Qa%o&R5^
+9&p3=)>p:Qq([P)*y_2'QddE%3qVs]HM:s)ySs(3$RkS`]c#>M<GWtgwl8?z#GB1&G$**)
+y'H\"*4s'o7F%fP(z)ow)4+\\Q+=h8hN=Om#>e!)*>?*fd0xK_G&3nZ4:O/g3p%\\df.Pd
+\"GZ\"e'f\"*o`:-+B!zb,uS<m%RLa2\"e-KLRZgzFRFEj7ze&H%>O\"*Q7w&o76Xdas7*
+>J3v!HP^mS\"**f-PL%>')HJJoQA#3Mf'ecwo&>gw6:!Q^PUH24`7+>UAp11$e!z9>%GF(
+oGpY#4rk:EY#pZ2h=z^#)[+V#fIJ$yKKE;*)\\C\")osg#fbiA1Zr4%>Jzq;\\iubS[*H+
+%H*zU5LlZy\"yQ$4#3TKUMY5(f'y<scd5spD`)>-'zx.ey77p<>0593]pmpQ*fa/8$QiiE
+&=#Hu;fjf&yqXR5#z^o!*RD2?,N\"px2&3,*zyo%faCO37Cj_s*o&e;5cogp&*GJcHYz;;
+L%p@u$30b_am(oT\\m%o+.>>vAY$z8+T\"\\^GJaB(ov#))**4CyJ&f$GpvD%Q^ob(>Yp)
+GU4HWm2`\\u-(o**\\Xk9<rf8P&y*)>`xV&eDPoPyOLD1Dd79=t\"o&GR^&y,q;A#RgU([
+Ou0=x%QD[\"H\\!4A2s#)yC:nCq5ZP>Tuw$[;7u[@Wkg5$z5?)=L.4VoC9aSEB6?OJEG/3
+u;$yq0?j/6hX2/$pVX7/t7ym@s_$\\>#Q'*Q%o)o$\\)fux3!*[7l>,(eJ54o_1Ovt9.>o
+c,=@LcnN?kf-7W)4\"zHPthOD>$Q@3B>/tGBPn\"Q%HMvQI$4/fiN?Ir'pJ0OKW)\\X'3O
+^=RCb#*[6T0e&*3O3*4SWgIna[Qp3dZ(=I[\"fd<c*zg9\"R.4Y3mFm,^?>=AG)Gl>LjeU
+(otKH'oR-vSx3A<P&3Y'y,hOP6wVKG=Ptao)p`2C=EBSVN,'\\DUWPMssdjLmbtUk$f4()
+[#)G$zHm]oN\"3YHikj1b![U3bQm7g<kd)HmJ\"*R:QoP)RO![6:#zg%><Rx2QI&)fAW77
+:y&f1!)=OcM)*omT^P?lfwg'*QIT@r%QBY\"*Hhja1\\1Lu=U6.H')Hd(z'Hj_!zTHC-X?
+;a'**Rr%\\XfM$QxTLm$H#\\g:newZ<**p8)fC')pa!>=$G:FwS`Kf01l*eJ$QpE(=>Q'p
+Qs8/<lkQBj\"3?k^%[SVzUb'pb>Rh))Q$HcRweDmx\\[x,`v<5@lL*\\>)>R\"oQ]Bx$H6
+\\AtV%e\\-R[3)Q$R,Is&)>D:?v>rJz5S>())\\pv()p8$))Qv!RMx*z:%zgze/Sf`0c1R
+>\"4=8m?5_XX41`Ojp9'zA#o6VFu81ZtwW7%47pZ'>\"=C![/!e!f8#\\P'od;Kp_.OdXG
+=5L.h$[9VXUWC2eunFZw$)QP8D='*y\"*HrJk<6Qw2*[cM*y.'4)p@q^\"GvUBEC#f[L$
+\\H[*3lV%Q@UD+8')o7\"[2n6(R0^v#4R'Q(G$*p1!f2d\"\\4Dk9U!>$e;GK\\%otww/m
+-%p2)*zvRWyw&[]yFFThD`3'G.oS-mCK.<gD#G'QD8OS.3cKG]HrNy8r`'QE)=_**[:a\\
+)H7a)*HZ-@\"o(\\qm%RH)f.@rhs8;dsTml%*GfrL8z)f!ptU*\\29Z%>'G[*G(=o\"G$*
+Hcz.cdTA0Bvf7)HOk*=<Si^vWgbsQ@=H_k?(z8:e!4,o(e\"=_0N8;OE%4l=GARFy&Q(fI
+[vFP(zvYLbT\\VpHKn%*\\SNwRQW>#faa$[+([x%RrbWrY)Q>iwm8\"*ypD3FtS\"yx1kp
+-Glg'es</r!3Zz3\\kP7L.i)[dE0;4AIhPo!RoFgCmQ$3B!>1\\)pXHG-AZ7@'3`gTg*o$
+)psD^nQH#>_,?cQt1Zigu.!H5gY;[]@#\\s78)pJkq%*\\FO\">WNKis')*R\\GE>nHDK,
+*QwSvb:#ffVN<[Il<,hfG\"odHD)H&[gJqvp*=[(G9>)pZUS&zL?A;hp,$ynzUuJU9@R9
+\"*z;5t;A9$RUTOVT3>9W&GJ.yTXI3clQH3)y'4%)>]O3a)p`xL)o/R&)*H4=`$[?\\B^3
+tK$om;(4rQ\"z811E+9RD*yQcA1-)e[xM6ahk&4Q(yd&))fFL8Y%)pLv+Fr;z7'H'GsqW)
+fd`C7$>ED,q_f]8E&RD!=ek6z$eO&*)>xPX7YlFE3bIK!\\$p-$>?G-LPMM#*e*Qb)))3=
+r;zz%[y1::UW\"e)G))f#y(oP#=9c*orl!zRa,0$eU&\\9&[$3v#[EmsMS#efeh(p&4C'R
+8N0pq=uT\\=e#Gw,e[&[gWyR-0\")pgg3JeZ+ff%Q>+CNFKQT#R1&e&*=P#Qa?es'yiu'3
+%=W7qVh*R<7w*=;+pV%3dV%*z387l#pgIw>mRJ#f+K*[_8e%ee(*)Q,IJ8vb6f\"3`#*[s
+>Q))3Kd.y$Q)f-W:0#Q`ZO3'f%)>z$3nmKWS4b;d([/oF(>*R2G#yWXL[w?/H:/=.v.:s7
+@K0&>y')GpYu1*QOe!\\4)>G#yX1!RkU,B70@KV12;&3>S$=wZ-z$=ZEcALR+$=%o=ci>I
+Y[s%[GxfPuvJ@uy6*\\Z!QljH@.Vx![QkzT*zO=$*oOK/x39XM.^\\u_.\\9DlvO<DB[7v
+rq6['fcJp!)\\&zP$G=eF>;oEn[8YShA^)QqzQ@u.b&GH&oA=w1=STz9p>+$QKHWlJSW5C
+=36TL+D1MqzC!G'*G8lpJ#\\3)42W]W'yd>yu*>W,c;c&>>9M^\"f!=lvOg;q)*eGFmu,*
+e6Xbo&H=LM5@#*\\L[zC!)o1v-*ec_0>9'Ha/*\\2*H!3Bhb1$*3!)p#Gj?S\\Z\"3TM\\
+U%Qb]k%***)4o4J*p2AYQ*zdR*='G[&4cize!y:jpvolKELKB?WMCC2]W9lvBROoZJg^:
+\\YOxXI&yI,2\"=$HQO))*4\\7.25'Qx#zy=X#HIRIchKIz^64sfy+q%e4T\"Hb<nVil3?
+fI7\\kd;7<Ku$4$zzJT+y)o*G=,PjpFZk.xw'e04iK#)\\o^H3')e3:#3]&)z`7xWz6_@c
+XsKSg3OFps#[*eJeQt!)y+x!>(4J&pOGH)pR'Gsn&pMEZ4\"=@Mi6QW'QnA.r+-3/*H&R1
+*>)\\M!zhrKYtV&*[-D+Q*H!)o$*fp#HD5\\sGhq\\*H/c8\"yLfu&Gx]vqWOz%*p*=r4T
+ECh]HC%RyA,n;&Hs**3W<B$[$)>'=Au.nDt7*e[-:`xvJhw(zl[&HsDq(\\*3xV:p!yE=[
+h-cw$R=\\GobBQ]7Tg_\"=[x.(G+ZmaFNfI!GSn!['[TlER2LEj$RmU#y,?z\"\\?5y27G
+:(R'fnGLM'\\&zOQk<<c>65$eL'*)GVc\\1bU!)QF2us.x>\"\\1m'R,ZwAi-G`kvm;P$o
+`\")*=[Q!QJ#*ze\\CF@oYdRJJ9Vq$>G\"y!)\\`RY+ot8,IELzAlHUw;\\DXt[1aje&ed
+**3Me[#\\U/RY>97)R_*ov-\"*=)4G\"4$3)zy?)p&Q)=5eH/g1To&\\w)3?:Nlgk[LH<#
+RQGyU`^%*pz3OvNZy*)ow:#y*GA*GW3-7v\"\\<pN:X[3;mcQ[$z[N$*H4Z/N/x<IzS!e:
+*[f*RUYD]'H9](G)[P))))e:)=l__&yF2nzCbM76pK$\\G$[rre8OYH1\">[uVK'4f'oDG
+HgD=!>RQ\"QzmwMpf)[AjPh*>DNf[hl&3t=@TTrh8,d+v&e_4C@<pT_L?o+lMb$GNC4knf
+/c=$e&RC(o'Ghw\\Rnjsr\")fb')\\$p**oKER'pQ/zR3@<`B\\V-?a7T%4n*eW1)Hi#QW
+/_)*)\\#yB9L+TW%4MeI>)RT5[oC&zx\"eZc3OWv,!['y=<pqC/\"p.;j#*QKF*)Q(Q,]4
+.Zo#[ApQrDsV6VzHToK1q>7E_Kh]T7$)>hWZIVknb'=:%y+#*H\")QcP6O[Z.x)4)*fSEv
+pljhT&Ru!pky*)GSvH(GPK,k`CJ1\"\\Uba!>q8&)3#G*=1yvuN$>q\"z&*GI$GPF`t'o0
+B:\"fb9'e06N#[vH6c)plY3Eq7liArG'pF5#e1`P<28xu97rbn%>Kh^%py%\\&fg^<,pW'
+oo?L!>wSAJ!fYDfbU\\O'\\2Yzf4`Q!)*[^EZAVjJf#Q1(=>,9;Fx+mu6=NJ1<I\\Ss&ye
+4_!pv\"HO1)p#)4t$)o`2MAV%\\DA<qgV^.ZL*Q:XK:qBK&po1Jt<]jh/<\\qtkCzYFus!
+oIp$yip6)=&*=DVZ\\ebsrm5Hi6>T.SYt5T'*y&[@3yc5K+[kd')>6W_Fy\"3NB:O'H\"*
+G<&puA_H?zT'zYCw1_fODms8XTXf/Y!f(R')oz%eu&)4Q+uAfhr$RNgG9eU&*o7=W;PO:,
+6i@>7XC/x\"f)z:wb0&GVd8m3n0&p8J]Z5n1iz%*[ffP77>_UKq;T>zUx(z3D-pq`)=Ckn
+=H'yi!pK@vtg9F#G'o$40D-Vm_>!pn=bW$QzwiOlya6kh!oW\\xL&3B1rxeMu_r(*pSx4&
+G!R:)prXI?t#3W6MC:i52Wc:uiTUN$GWlaZ!4#Q4zi`*\\-9`Vh`Q*>#3\\?5U%)e2&z!Q
+ae?H0D\"y]Z))>BSm8OV+@COMiq4w5h$=v7$>FAoXy7)Q)*3r^2&RQC9qggEQ'ol)>E8)=
+?.o*[@Aal'=)Q-@%\\-o.VZ%R&o)>%[-W]PDsnQG\")zw\\r^ItQ#GCyFD)Q`LG%[pQnH^
+d3b#=\\`uufkyZ#3ut-5B&*>YQ*4\\pB*f+d.S&p\\nhXiICy:&Qmz[vN^9/5j\"RC7-Vq
+#f8(p9F#))=q_$)o!z>Q#)))pjwy$p.\\qm/MLZv[\\hv54J<ULs0+3Qul\"eP^$HMDmo-
+sj>q`*pU'z-XnV$e1)\\Ke(4UC$zJRA&4dDK!pMNE1D!4@qfeia`thb+SdV]yerWV%eV$=
+dS/c7Kh-$)oVVB[&y/YWj5Gb8ONLuG(e\\J%)>BdSMeE(3`L$H')4dUA)f!e\"R\"[S=y)
+H]\"o!yG)eD*3U&>fwGqc0W\\CVl1Kkt*eY&p+npOrSO(H%=!z(*o#GG&)4a#GX-_t+WZ
+\"[-vG9z.w^)[/?M:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 84 "However I will soon wish to carry \+
+out modular exponentiation computations involving " }{TEXT 325 19 "muc
+h larger numbers" }{TEXT -1 69 ", computations like these:\n          \+
+                                " }{XPPEDIT 18 0 "a^(n-1);" "6#)%\"aG,
+&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 5 " mod " }{TEXT 323 1 "n" }{TEXT 
+-1 3 ", (" }{XPPEDIT 18 0 "a = 2,3,4,5,6;" "6'/%\"aG\"\"#\"\"$\"\"%\"
+\"&\"\"'" }{TEXT -1 12 ", ... ) and " }{TEXT 326 11 "quite large" }
+{TEXT -1 11 " values of " }{TEXT 324 1 "n" }{TEXT -1 15 ". \nFor examp
+le:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "a := 2;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"aG\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "n := 987654321234567898765432111111111111111111111111
+11;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"S6666666666666Kaw)*ycM7
+Kaw)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "a^(n-1) mod n;" }}
+{PARA 8 "" 1 "" {TEXT -1 35 "Error, integer too large in context" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 81 "However there is a very elementary, but incredibly powerf
+ul method (known as the " }{TEXT 327 19 "square-and-multiply" }{TEXT 
+-1 138 " method) which enables such calculations to be done extremely \+
+quickly, and here is the Maple command for the above computation to be
+ done:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "a&^(n-1) mod n;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"S%)HX$z'fBbk:b%)fRnnH'\\Um$o+0D" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 21 "You will see shortly " }{TEXT 425 3 "why" }{TEXT -1 
+158 " such computations are so vital (and, incidentally, see - instant
+ly, and remarkably - that as a result of the just performed computatio
+n we may conclude that " }{XPPEDIT 18 0 "n = 9876543212345678987654321
+1111111111111111111111111;" "6#/%\"nG\"S6666666666666Kaw)*ycM7Kaw)*" }
+{TEXT -1 4 " is " }{TEXT 328 3 "not" }{TEXT -1 139 " prime).\n\n[Remar
+k. Maple's apparent speed of modular exponentiation is completely outc
+lassed by much more powerful (and free!) programs as " }{TEXT 426 23 "
+Yves Gallot's Proth.exe" }{TEXT -1 5 ", or " }{TEXT 427 30 "Chris Nash
+'s related PrimeForm" }{TEXT -1 2 ".]" }}}{EXCHG {PARA 259 "" 0 "" 
+{HYPERLNK 17 "Return to Top" 1 "" "Top" }}}{EXCHG {PARA 0 "" 0 "Fermat
+" {TEXT 291 10 "Fermat's '" }{TEXT 269 6 "little" }{TEXT 292 23 "' the
+orem. Pseudoprimes" }{TEXT -1 3 ".\n\n" }{TEXT 295 40 "The remarkable \+
+Fermat's 'little' theorem" }{TEXT -1 58 " (so powerful in Number Theor
+y, and in Cryptography): Let " }{TEXT 283 1 "p" }{TEXT -1 23 " be any \+
+prime, and let " }{TEXT 284 1 "a" }{TEXT -1 16 " be any integer " }
+{TEXT 285 3 "not" }{TEXT -1 14 " divisible by " }{TEXT 286 1 "p" }
+{TEXT -1 7 "; then " }{XPPEDIT 18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG\"
+\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 428 1 "p" }{TEXT 
+-1 19 ") (in other words, " }{XPPEDIT 18 0 "a^(p-1);" "6#)%\"aG,&%\"pG
+\"\"\"\"\"\"!\"\"" }{TEXT -1 35 " leaves remainder 1 on division by " 
+}{TEXT 287 1 "p" }{TEXT -1 5 "). \n\n" }{TEXT 296 7 "Comment" }{TEXT 
+-1 17 ". This is one of " }{TEXT 297 3 "the" }{TEXT -1 171 " most impo
+rtant theorems in all of Number Theory. It has countless computational
+, theoretical, and real-world (cryptography) applications.\n\nSome exa
+mples and observations." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "
+p1 := 71; # a small prime" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p1G\"#
+r" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "103^(p1 - 1);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#\"hs\\o@hxmLS:1dz8Fl0,.M#4/3w<@^D,@Td<
+Ae]L4;'fUNB6Og<4bD9Nv0(=<W'eAnrkt@@\">#y\"z" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 21 "103&^(p1 - 1) mod p1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "2&
+^(p1 - 1) mod p1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "10&^(p1 - 1) mod p1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "142&^(p1 - 1) mod p1;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 114 "(I hope you see why that '0' appeared.) \+
+ Now I would like you to see how Fermat's 'little' theorem may be used
+ to " }{TEXT 298 17 "quickly establish" }{TEXT -1 96 " that a number i
+s composite (i.e., is not prime). I will deliberately make up a number
+ which is " }{TEXT 299 3 "not" }{TEXT -1 77 " prime, by multiplying tw
+o large primes together (the resulting number could " }{TEXT 429 3 "no
+t" }{TEXT -1 24 " be quickly shown to be " }{TEXT 430 3 "not" }{TEXT 
+-1 44 " prime by using the method of Eratosthenes):" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 40 "p2 := nextprime(9876543009887765498720);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p2G\"7V))\\lx))4Iaw)*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "q2 := nextprime(10000*p2 + 9
+99999999999999);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q2G\";8+V))\\lx
+)*4Iaw)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "n2 := p2*q2;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n2G\"Qf\\(zL%)[t,]ZaPN_kO0:F=5Yv*
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 40 "and then the instantaneous computation: " }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "2&^(n2 - 1) mod n2;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"Q^>mW/\"44]8%=\"R5U+.k?.\"3F_%)" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 52 "shows that n2 is not prime. You see why?
+\n\nIn fact a " }{TEXT 301 16 "non unity output" }{TEXT -1 6 " will " 
+}{TEXT 302 16 "almost certainly" }{TEXT -1 33 " result from (almost!) \+
+any large " }{TEXT 300 6 "random" }{TEXT -1 363 " choice (the probabil
+ity of a large random number being prime is quite small; that's an int
+erpretation of the Prime Number Theorem). In the saved text I can only
+ have one 'choice' shown, but during my live lecture I will re-execute
+ the the 'rand' commands to see a few different 'choice' values (this \+
+cannot be reproduced by someone having only the html version):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "?random" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 7 "rand();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"-
+ua:Q;**" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "rand();" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"-4V(3h_%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 40 "In the following - where there are five " }{TEXT 434 9 "differe
+nt" }{TEXT -1 70 " random numbers being used - the coefficients c1 and
+ c2 are simply to " }{TEXT 438 6 "ensure" }{TEXT -1 37 " (and you see \+
+how?) that 'choice' is " }{TEXT 437 3 "not" }{TEXT -1 54 " divisible b
+y any prime from 2 to 97 (the 25th prime):" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 36 "c1 := product(ithprime(k), k=1..25);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%#c1G\"FqgvJt9-JvC%=b%R'zc0B" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 11 "c2 := c1^2;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#c2G\"do+\\%=)*pmi/jQpLBt#4]_UJzcI3iz'pM$)=POOk:`" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "choice := c1*rand()*rand()*rand() +
+ c2*rand()*rand() + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'choiceG\"
+\\q,waO*=tWBP-!*G:-6?PPW>Q[JACKmX&e)\\&f/gTQR$pyDDWl^+UC" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "2&^(choice - 1) mod choice;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\\qQq(\\WcVT2YYA4*yX&Q;ua01`v_>6_>3Y
+kEE[4yS1u5Rk9Y_q/6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "and so - as you will see, " }
+{TEXT 435 16 "almost certainly" }{TEXT -1 15 " - 'choice' is " }{TEXT 
+439 9 "not prime" }{TEXT -1 118 " (I hope I don't have bad luck on the
+ night!).  \n[Of course, if we successively re-executed the previous t
+wo commands " }{TEXT 431 12 "often enough" }{TEXT -1 10 " we would " }
+{TEXT 433 10 "eventually" }{TEXT -1 3 " - " }{TEXT 432 16 "almost cert
+ainly" }{TEXT -1 87 " - get a second output of '1.' And so? Well, you \+
+have to see what's coming up next...]\n" }}{PARA 0 "" 0 "" {TEXT -1 
+20 "Now I give another (" }{TEXT 436 10 "not random" }{TEXT -1 60 "!) \+
+computational example [see Appendix for further details]:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "c := 119506876879526579251836131572
+5116351898245581;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG\"O\"eX#)*=
+N;^s:8O=Dzl_zo(o]>\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "Let us ob
+serve how it fairs with respect to Fermat's little theorem:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "2&^(c - 1) mod c;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "3&^(c - 1) mod c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "5&^(c - 1) mod c;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "7&^(c - 1) mod c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "11&^(c - 1) mod
+ c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 18 "13&^(c - 1) mod c;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Those 1's " }
+{TEXT 440 8 "continue" }{TEXT -1 16 " being produced " }{TEXT 441 5 "u
+ntil" }{TEXT -1 13 " one reaches:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "37&^(c - 1) mod c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"OQdXGjiA$fw`j#=Dzl_zo(o]>\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 16 "at which point '" }
+{TEXT 388 1 "c" }{TEXT -1 23 "' is revealed as being " }{TEXT 442 9 "n
+ot prime" }{TEXT -1 3 ". [" }{HYPERLNK 17 "See Appendix 1" 1 "" "Appen
+dix 1" }{TEXT -1 4 ".]\n\n" }{TEXT 448 7 "A moral" }{TEXT -1 17 ". The
+ following, " }{TEXT 453 10 "too hasty " }{TEXT -1 39 "converse of Fer
+mat's little theorem is " }{TEXT 449 3 "not" }{TEXT -1 70 " true (it i
+s, of course, obviously not true in the trivial case where " }
+{XPPEDIT 18 0 "a = 1;" "6#/%\"aG\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+454 1 "n" }{TEXT -1 8 ")): Let " }{TEXT 450 1 "n" }{TEXT -1 34 " be a \+
+natural number, and suppose " }{XPPEDIT 18 0 "a^(n-1) = 1;" "6#/)%\"aG
+,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 451 1 "n" 
+}{TEXT -1 6 ") for " }{TEXT 456 4 "some" }{TEXT -1 1 " " }{TEXT 455 1 
+"a" }{TEXT -1 7 ", then " }{TEXT 452 1 "n" }{TEXT -1 159 " is prime. [
+The following is trivially - but uselessly (from a computational point
+ of view it would be far, far worse than Eratosthenes' approach) - tru
+e: Let " }{TEXT 457 1 "n" }{TEXT -1 22 " be a natural number (" }
+{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }{TEXT -1 15 "), and suppose \+
+" }{XPPEDIT 18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"\"\"
+\"" }{TEXT -1 6 " (mod " }{TEXT 462 1 "n" }{TEXT -1 6 ") for " }{TEXT 
+461 3 "all" }{TEXT -1 1 " " }{TEXT 458 1 "a" }{TEXT -1 6 " with " }
+{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 
+459 1 "n" }{TEXT -1 8 "), then " }{TEXT 460 1 "n" }{TEXT -1 159 " is p
+rime.]  However one should not abandon all hope, and it to Lucas that \+
+falls the credit of first obtaining a partial converse of Fermat's lit
+tle theorem.  " }}}{EXCHG {PARA 260 "" 0 "" {HYPERLNK 17 "Return to To
+p" 1 "" "Top" }}}{EXCHG {PARA 0 "" 0 "The modern study" {TEXT 293 37 "
+The modern study of primality testing" }{TEXT -1 456 ". It was Edouard
+ Lucas (1842-1891) who first (in 1876) provided a partial converse to \+
+Fermat's 'little' theorem (a very weak converse, but one that was succ
+essively improved upon, and varied by Lucas himself (in 1878), by Theo
+phile Pepin (1877), Proth (1878), Pocklington (1914, and apparently un
+aware of earlier work), D. H. Lehmer (1927, and later), John Selfridge
+ (1967), and others).\n\nI will be brief. In 1876 Lucas observed this \+
+partial converse: Let " }{TEXT 465 1 "n" }{TEXT -1 54 " be a natural n
+umber, and suppose there is an integer " }{TEXT 466 1 "a" }{TEXT -1 
+18 " such that\n\n1.    " }{XPPEDIT 18 0 "a^(n-1) = 1" "6#/)%\"aG,&%\"
+nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 467 1 "n" }
+{TEXT -1 13 "), and\n2.    " }{XPPEDIT 18 0 "a^r <> 1;" "6#0)%\"aG%\"r
+G\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 468 1 "n" }{TEXT -1 6 ") for " }
+{TEXT 469 3 "all" }{TEXT -1 1 " " }{TEXT 473 1 "r" }{TEXT -1 6 " with \+
+" }{XPPEDIT 18 0 "1 <= r;" "6#1\"\"\"%\"rG" }{TEXT -1 3 " < " }
+{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 1 "\n" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "then " }{TEXT 470 1 "n" }{TEXT -1 36 " is \+
+prime.  An illustrative example:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "example1 := 29:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "a1 := 2:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 
+"a1^(example1 - 1) mod example1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "seq(a1^r mod exampl
+e1, r = 1..(example1 - 2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6=\"\"#\"
+\"%\"\")\"#;\"\"$\"\"'\"#7\"#C\"#>\"\"*\"#=\"\"(\"#9\"#G\"#F\"#D\"#@\"
+#8\"#E\"#B\"#<\"\"&\"#5\"#?\"#6\"#A\"#:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "Those computa
+tions show that:\n\n1.    " }{XPPEDIT 18 0 "2^28 = 1;" "6#/*$\"\"#\"#G
+\"\"\"" }{TEXT -1 21 " (mod 29), and\n2.    " }{TEXT 472 4 "none" }
+{TEXT -1 4 " of " }{XPPEDIT 18 0 "2,2^2,2^3,2^4;" "6&\"\"#*$\"\"#\"\"#
+*$\"\"#\"\"$*$\"\"#\"\"%" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "2^25,
+2^26,2^27;" "6%*$\"\"#\"#D*$\"\"#\"#E*$\"\"#\"#F" }{TEXT -1 38 " leave
+s remainder 1 on division by 29\n" }}{PARA 0 "" 0 "" {TEXT -1 81 "and \+
+thus 29 is a prime.  However it is obvious that the amount of computat
+ion is " }{TEXT 471 5 "worse" }{TEXT -1 102 " that would be required w
+ith Eratosthenes!!  Lucas observed (in 1878) the following improvement
+:  Let " }{TEXT 381 1 "n" }{TEXT -1 54 " be a natural number, and supp
+ose there is an integer " }{TEXT 257 1 "a" }{TEXT -1 18 " such that\n
+\n1.    " }{XPPEDIT 18 0 "a^(n-1) = 1" "6#/)%\"aG,&%\"nG\"\"\"\"\"\"!
+\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 258 1 "n" }{TEXT -1 13 "), and
+\n2.    " }{XPPEDIT 18 0 "a^r <> 1;" "6#0)%\"aG%\"rG\"\"\"" }{TEXT -1 
+6 " (mod " }{TEXT 259 1 "n" }{TEXT -1 10 ") for all " }{TEXT 475 8 "di
+visors" }{TEXT 474 2 " r" }{TEXT -1 5 " of (" }{XPPEDIT 18 0 "n-1;" "6
+#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 7 ") with " }{XPPEDIT 18 0 "1 <= \+
+r;" "6#1\"\"\"%\"rG" }{TEXT -1 3 " < " }{XPPEDIT 18 0 "n-1;" "6#,&%\"n
+G\"\"\"\"\"\"!\"\"" }{TEXT -1 2 " \n" }}{PARA 0 "" 0 "" {TEXT -1 5 "th
+en " }{TEXT 557 1 "n" }{TEXT -1 36 " is prime.  An illustrative exampl
+e:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "example2 := 83:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "a2 := 2:" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 40 "with(numtheory): # needed for 'divisors'" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "S := divisors(example2 - 1)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"SG<&\"\"\"\"\"#\"#T\"##)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Test := S minus \{example2 -
+ 1\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%TestG<%\"\"\"\"\"#\"#T" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "a2^(example2 - 1) mod examp
+le2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 33 "seq(a2^r mod example2, r = Test);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6%\"\"#\"\"%\"##)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Those computa
+tions show that:\n\n1.   " }{XPPEDIT 18 0 "2^82 = 1;" "6#/*$\"\"#\"##)
+\"\"\"" }{TEXT -1 20 " (mod 83), and\n2.   " }{TEXT 476 4 "none" }
+{TEXT -1 4 " of " }{XPPEDIT 18 0 "2,2^2,2^41;" "6%\"\"#*$\"\"#\"\"#*$
+\"\"#\"#T" }{TEXT -1 37 " leaves remainder 1 on division by 83" }}
+{PARA 0 "" 0 "" {TEXT -1 96 "\nand thus 83 is prime.  It is obvious, o
+f course, that the improvement is significant only when " }{XPPEDIT 
+18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 136 " has a small n
+umber of divisors. It would be futile to use it to establish the prima
+lity of - for example - the 8-digit prime (11! + 1):" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "11! + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"),o\"*R" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "since 11! has 540 \+
+divisors:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "divisors(11!);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#<h\\m\"\"\"\"\"#\"\"$\"\"%\"\"&\"
+\"'\"\"(\"\")\"\"*\"#5\"#6\"#7\"#9\"#:\"#;\"#=\"#?\"#@\"#A\"#C\"#D\"#F
+\"#G\"#I\"#K\"#L\"#N\"#O\"#S\"#U\"#W\"#X\"#[\"#]\"#a\"#b\"#c\"#g\"#j\"
+#k\"#m\"#q\"#s\"#v\"#x\"#!)\"#\")\"#%)\"#))\"#!*\"#'*\"#**\"$+\"\"$0\"
+\"$3\"\"$5\"\"$7\"\"$?\"\"$E\"\"$G\"\"$K\"\"$N\"\"$S\"\"$W\"\"$]\"\"$a
+\"\"$g\"\"$i\"\"$l\"\"$o\"\"$v\"\"$w\"\"&+#z\"$?(\"%SE\"%!o\"\"$g$\"%S
+]\"$_#\"%?z\"$!=\"$S#\"&Sa&\"&![=\"$c#\"$D)\"$!))\"$\"*)\"$C*\"$!**\"%
+c5\"%+6\"%b6\"%)=\"\"%K7\"%?8\"%'Q\"\"%39\"%&[\"\"%S:\"%%e\"\"%];\"%g<
+\"%#y\"\"%[=\"%D>\"%gR\"%sF\"%!)>\"%;G\"(+[\\#\"(+uC\"\"'+Pi\"']=J\"'D
+f:\")+cI8\"(+_V%\"(+%y9\"'+G\\\"(gL)z\"(smf\"\"(+Cq&\"'S-d\"(+7&G\"'[S
+6\"''4G#\"'+#y\"\"'+)=\"\"'+kN\"'+wB\"'gD9\"'+Gr\"'+%e\"\"'+_Z\"'?^G\"
+(+cU\"\"'+oJ\"'!3!>\"'+/&*\"'+7@\"(![S6\"(!o\"*R\"'O$)z\"%kN\"%wB\"&cU
+\"\"%Gr\"%_Z\"%oJ\"%/&*\"%7@\"%Oj\"%CU\"&7&G\"&3!>\"&Cq&\"&sE\"\"%[%)
+\"%+A\"%vC\"%+L\"%+W\"%]\\\"%+m\"%Du\"&;!Q\"&W`#\"&Kg(\"%+))\"%+**\"%q
+H\"%?N\"%bW\"%!G&\"&+K\"\"&][\"\"&+w\"\"&+)>\"&vA#\"&+k#\"&+(H\"&+_$\"
+&+'R\"&]X%\"%Sf\"%Sq\"%5*)\"&!39\"&+/(\"&?y\"\"&+\"*)\"&!)=\"\"&+%f\"&
+Sc$\"&gP#\"&!Gr\"&Se\"\"&?v%\"&g0\"\"&+G&\"&!oJ\"&S]*\"&?6#\"'+c5\"&gL
+'\"&SA%\"%z?\"%5B\"%kC\"%!3$\"'?n7\"'+Oj\"'g,Q\"(+3!>\"'%e*>\"'cI8\"'o
+\"*R\"'7hE\"'3u<\"'CA`\"'+K7\"'+'Q\"\"'+[=\"'+z?\"'+kC\"'+sF\"'+;$)\"(
++Km\"\"'?z**\"(+)36\"(+kK$\"(Se*>\"(+w@#\"(g0L\"\"(+Gl'\"'Sq))\"(?6m#
+\"'SZ7\"'+eT\"'![\\#\"'?j;\"'g*)\\\"'!)36\"%lM\"%'p$\"%]Q\"%eT\"%?Y\"%
+G\\\"%Wb\"%vd\"%gh\"%Pi\"%Ip\"%#R(\"&&R5\"%+x\"%;$)\"%S#*\"%c)*\"&)36
+\"&]:\"\"&?B\"\"&uC\"\"&?x#\"&gQ\"\"&7(>\"&[\\#\"&Km\"\"&'*)\\\"&kK$\"
+&#z**\"&w@#\"&Gl'\"&%y9\"&_V%\"&o&H\"&/())\"&O\"f\"&+a\"\"&Dt\"\"&+J#
+\"&+3$\"&]Y$\"&+i%\"&v>&\"&+;'\"&+$p\"&+C*\"&!z?\"']R5\"&SY#\"&&=J\"&g
+p$\"&!eT\"&!G\\\"&qB'\"&g&)*\"&gJ)\"&?R(\"'+Wb\"'SEL\"'+'p$\"'g<A\"'!G
+l'\"'Sy9\"'+#R(\"'?NW\"'!o&H\")+o\"*R\"'+OX\"(+)GO\"(+W\"=\"'+s!*\"'+o
+A\"'+M6\"&+n&\"&]$G\"&vT\"\"(+'47\"'+KS\"'+W8\"&+[%\"'gds\"'_^9\"'+%=&
+\"(+#z**\")+%e*>\"&S=&\"'+#f#\"$C$\"$;#\"$['\"$K%\"%'H\"\"$)G\"$k)\"%#
+f#\"&o.\"\"&O2#\"$#>\"$w&\"%G<\"%%=&\"$%Q\"%_6\"%cM\"$o(\"%/B\"%7p\"$+
+#\"$D#\"$+$\"$+%\"$]%\"$+'\"$v'\"$+)\"$+*\"%+7\"$q#\"%]8\"$?$\"%+;\"%+
+=\"$0%\"%D?\"$![\"%+C\"$S&\"%+F\"$S'\"%+K\"%+O\"$5)\"%]S\"&+i\"\"&+3\"
+\"&+C$\"&+;#\"&gH\"\"%!G\"\"%+k\"%?;\"%+\")\"%!3\"\"%+a\"%SK\"%g@\"%![
+'\"%S9\"%+s\"%?V\"&+['\"&+W\"\"&+K%\"&?f#\"'+'H\"\"&+)G\"&!G<\"&+k)\"&
++#>\"'!o.\"\"'!)GO\"&wD(\"$g*\"%+[\"%!)G\"%S')\"%?>\"%+'*\"%gd\"%SQ\"&
+?:\"\"&+w&\"&gX$\"'+G<\"$*=\"$5#\"$C#\"$!G\"$:$\"$O$\"$]$\"$y$\"$?%\"$
+[%\"$/&\"$D&\"$g&\"$n&\"$I'\"$s'\"$+(\"$c(\"$S)\"$'*)\"$X*\"%35\"%]5\"
+%?6\"%M6\"%?D\"%g7\"%#z\"\"%oA\"%7:\"%OX\"%CI\"%s!*\"%;?\"%[g\"&W\"=\"
+%W8\"%KS\"%)o#\"%k!)\"%w`\"%+9\"%v:\"&'47\"&)GO\"&#>C\"&Gh\"\"&%Q[\"%+
+@\"%+G\"%]J\"%+U\"%DZ\"%+c\"%+j\"%+%)\"%!*=\"%]%*\"%SA\"&+7\"\"&+E\"\"
+%NG\"%gL\"%!y$\"%![%\"%qc\"&+o\"\"&+*=\"&+C#\"&+_#\"&+c(\"'+7:\"&?2*\"
+'+35\"'+CI\"'S9=\"'+;?\"'g47\"'+[g\"&S1)\"'?>C\"(+'*)\\\"%g*)\"%gv\"&S
+8\"\"&+y$\"&!oA\"&?^\"\"&g`%\"&!35\"&+/&\"&S-$\"%?n\"&+O$\"&g,#\"&![g
+\"&SM\"\"&+s'\"&?.%\"&!)o#\"$)>\"$?#\"$J#\"$k#\"$v#\"$(H\"$3$\"$I$\"$_
+$\"$&Q\"$'R\"$S%\"$i%\"$&\\\"$G&\"$]&\"$%f\"$;'\"$g'\"$$p\"$/(\"$q(\"$
+#z" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 172 "A really great improvement later came with D.H. L
+ehmer (though Kraitchik seems to know the result, but with no stated p
+roof...). It is a mystery to me that Lucas missed it." }}}{EXCHG 
+{PARA 262 "" 0 "" {TEXT -1 0 "" }{TEXT 463 0 "" }{HYPERLNK 17 "Return \+
+to Top" 1 "" "Top" }}}{EXCHG {PARA 0 "" 0 "D. H. Lehmer and John Selfr
+idge" {TEXT 294 50 "D. H. Lehmer (and later John Selfridge, and others
+" }{TEXT -1 2 ") " }{TEXT 478 30 "D. H. Lehmer's theorem of 1927" }
+{TEXT -1 7 ".  Let " }{XPPEDIT 18 0 "n-1 = p[1]^alpha[1]*p[2]^alpha[2]
+*p[3]^alpha[3];" "6#/,&%\"nG\"\"\"\"\"\"!\"\"*()&%\"pG6#\"\"\"&%&alpha
+G6#\"\"\"F&)&F,6#\"\"#&F06#\"\"#F&)&F,6#\"\"$&F06#\"\"$F&" }{TEXT -1 
+4 "... " }{XPPEDIT 18 0 "p[r]^alpha[r];" "6#)&%\"pG6#%\"rG&%&alphaG6#F
+'" }{TEXT -1 13 ",  where the " }{XPPEDIT 18 0 "p[1],p[2],p[3];" "6%&%
+\"pG6#\"\"\"&F$6#\"\"#&F$6#\"\"$" }{TEXT -1 59 ", ... are distinct pri
+mes, and suppose there is an integer " }{TEXT 304 1 "a" }{TEXT -1 17 "
+ such that\n\n1.   " }{XPPEDIT 18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"nG\"
+\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 5 " mod " }{TEXT 392 1 "n" }{TEXT -1 
+16 ", and \n2.   for " }{TEXT 390 3 "all" }{TEXT -1 1 " " }{TEXT 389 
+3 "i, " }{XPPEDIT 18 0 "a^((n-1)/p[i]);" "6#)%\"aG*&,&%\"nG\"\"\"\"\"
+\"!\"\"F(&%\"pG6#%\"iGF*" }{TEXT -1 6 " does " }{TEXT 391 3 "not" }
+{TEXT -1 34 " leave remainder 1 on division by " }{TEXT 305 1 "n" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "\nthen " }{TEXT 306 1 "n" 
+}{TEXT -1 12 " is prime.  " }{TEXT 477 8 "In short" }{TEXT -1 39 ", D.
+H. Lehmer's theorem means that one " }{TEXT 479 27 "need only be conce
+rned with" }{TEXT -1 19 " those divisors of " }{XPPEDIT 18 0 "n-1;" "6
+#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 22 " that are of the form " }
+{XPPEDIT 18 0 "(n-1)/p[i];" "6#*&,&%\"nG\"\"\"\"\"\"!\"\"F&&%\"pG6#%\"
+iGF(" }{TEXT -1 5 ", as " }{XPPEDIT 18 0 "p[i];" "6#&%\"pG6#%\"iG" }
+{TEXT -1 34 " varies over the prime factors of " }{XPPEDIT 18 0 "n-1;
+" "6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ". " }{TEXT 480 65 "This is
+ a really significant, and computationally serious advance" }{TEXT -1 
+3 ".\n\n" }{TEXT 481 86 "An illustrative example (which shows the stre
+ngths and weaknesses of Lehmer's theorem)" }{TEXT -1 58 ". I'll use Le
+hmer's theorem to establish the primality of " }{XPPEDIT 18 0 "N = 11!
++1;" "6#/%\"NG,&-%*factorialG6#\"#6\"\"\"\"\"\"F*" }{TEXT -1 30 ", whe
+re the prime divisors of " }{XPPEDIT 18 0 "N-1;" "6#,&%\"NG\"\"\"\"\"
+\"!\"\"" }{TEXT -1 23 " are 2, 3, 5, 7 and 11:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 13 "N := 11! + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"NG\"),o\"*R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "47&^(
+N-1) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "47&^((N-1)/2) mod N;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\")+o\"*R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 20 "47&^((N-1)/3) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")hGP
+@" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "47&^((N-1)/5) mod N;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")CC@E" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "47&^((N-1)/7) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\")*z`$H" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "473&^((N-
+1)/11) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")t>$)G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 94 "While that looks impressive, I have bypassed a lot of fruitless
+ earlier computations (smaller " }{TEXT 482 1 "a" }{TEXT -1 218 "'s th
+an '47'). Other, better examples may be seen in the 3rd year section o
+f the Maple section of my web site. Also, I have moved to an appendix \+
+John Selfridge's 1967 valuable improvement of D.H. Lehmer's 1927 theor
+em." }}}{EXCHG {PARA 265 "" 0 "" {HYPERLNK 17 "Return to Top" 1 "" "To
+p" }}}{EXCHG {PARA 0 "" 0 "H.C.Pocklington" {TEXT -1 255 "H.C. Pocklin
+gton again (and the millennium prime is found).  Because of their occu
+rence in Euclid's classic proof of the infinitude of primes, the infin
+ite sequence of numbers: \n\n          2+1, 2*3+1, 2*3*5+1, 2*3*5*7+1,
+ 2*3*5*7*11+ 1, etc, \n \nare called " }{TEXT 487 17 "Euclidean number
+s" }{TEXT -1 534 ". Several of them are prime, and it is a daunting un
+solved question as to how many of them are prime (I believe that is a \+
+problem that will never be answered).  In January 1999, starting on th
+e 5th, and ending (temporarily) on the 7th, I began searching for what
+ I would like to call primes of Euclid-Pocklington type, meaning prime
+s in the infinite equence:\n\n 2*(3)+1 = 7, 2*3*5^2+1 = 151, 2*3*5*7^3
++1 = 10291, etc.\n\nAs you can see, all I was doing - in terms of the \+
+simplest version of Pocklington's theorem - was choosing:\n\n1.   ' " 
+}{XPPEDIT 18 0 "p^m;" "6#)%\"pG%\"mG" }{TEXT -1 13 " ' to be the " }
+{TEXT 489 1 "n" }{TEXT -1 17 "th power of the (" }{XPPEDIT 18 0 "n+1;
+" "6#,&%\"nG\"\"\"\"\"\"F%" }{TEXT -1 34 ")th prime, and then choose\n
+2.   ' " }{TEXT 488 1 "U" }{TEXT -1 34 " ' to be the product of the fi
+rst " }{TEXT 490 1 "n" }{TEXT -1 61 " prime numbers, thus\n3.   automa
+tically having the condition " }{XPPEDIT 18 0 "U < p^m;" "6#2%\"UG)%\"
+pG%\"mG" }{TEXT -1 19 " being satisfied.  " }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 59 "f := n -> product(ithprime(k), k=1..n)*ithprime(n+1
+)^n + 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fGR6#%\"nG6\"6$%)opera
+torG%&arrowGF(,&*&-%(productG6$-%)ithprimeG6#%\"kG/F4;\"\"\"9$F7)-F26#
+,&F8F7F7F7F8F7F7F7F7F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+5 "f(1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"(" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 5 "f(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$^
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "f(3);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"&\"H5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "f(100);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"iil\"46'4y@a@9mZ+>%)>+
+D0eI'39$pT&=o1(GmCIp>O%)oU2la*p.<Lz&G=z'RX**QD9T'Hr*ehRIEh\"oXJG6YtG'H
+o#)3^Crd'f4+fHqYZ.00N9!oV['Q@A#pB3\">&\\b&\\b@='zW-'*>g)[>GP3(fo^o:()4
+O\"pg$*fOvV:LrU&>%yo0^-Ah]SpC5%*pV+smIPjxmm%z+PE)=Gyz'>u^>OH'['e%GQ@e
+\\,,8UJIs)eKbwPH`;_$[PmBM\\zH2r_!*eg&)\\5$o*GhZu3?:XSOkH" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 159 "It is explained in simple language in my booklet what I did, b
+ut here I just remark that what I needed to do, to identify primes in \+
+the above sequence, was to " }{TEXT 491 5 "first" }{TEXT -1 10 " ident
+ify " }{TEXT 492 15 "some candidates" }{TEXT -1 54 " for primality (me
+aning ones that at least passed the " }{TEXT 493 12 "first hurdle" }
+{TEXT -1 41 " of the Fermat-Lucas test to the base 2):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 113 "candidates := proc(m, n) local k;
+\nfor k from m to n do\nif 2&^(f(k)-1) mod f(k) = 1\nthen print(k, f(k
+))\nfi od end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "candidate
+s(1, 30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"\"\"(" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$\"\"#\"$^\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"#5\":Jsnp`='RzNu-`" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#?\"\\o\"RBU
+D%>M#*e(3\"Q4#4!o.m$R<6.Rw.$oLr$\\I5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 204 "And thus, ou
+t of the first 30 of the above numbers, the 1st, 2nd, 10th, and 10th a
+re possible primes.\n\nIn fact, those four are all prime (the first tw
+o - 7 and 151 - can be done by hand!), but, how do we " }{TEXT 496 4 "
+know" }{TEXT -1 18 " that; how can we " }{TEXT 495 5 "prove" }{TEXT 
+-1 87 " that? Using Pocklington, that is.  Let's have a look at the 3r
+d of them, the 25 digit " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "
+f(10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\":Jsnp`='RzNu-`" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 20 "and just to let you " }{TEXT 494 3 "see" 
+}{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "ifactor(f
+(10) - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*8-%!G6#\"\"#\"\"\"-F%6#
+\"\"$F(-F%6#\"\"&F(-F%6#\"\"(F(-F%6#\"#6F(-F%6#\"#8F(-F%6#\"#<F(-F%6#
+\"#>F(-F%6#\"#BF(-F%6#\"#HF()-F%6#\"#J\"#5\"\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 21 "We al
+ready have that " }{XPPEDIT 18 0 "2^(f(10)-1) = 1;" "6#/)\"\"#,&-%\"fG
+6#\"#5\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{XPPEDIT 18 0 "f(
+10);" "6#-%\"fG6#\"#5" }{TEXT -1 47 "), and so, using Pocklington, the
+ primality of " }{XPPEDIT 18 0 "f(10);" "6#-%\"fG6#\"#5" }{TEXT -1 28 
+" would be established if we " }{TEXT 497 4 "also" }{TEXT -1 10 " had \+
+that " }{XPPEDIT 18 0 "gcd(2^((f(10)-1)/31)-1,f(10)) = 1;" "6#/-%$gcdG
+6$,&)\"\"#*&,&-%\"fG6#\"#5\"\"\"\"\"\"!\"\"F0\"#JF2F0\"\"\"F2-F-6#\"#5
+\"\"\"" }{TEXT -1 83 ".  Now, the computation of the gcd of two number
+s - even really large ones - is a  " }{TEXT 499 16 "fast computation" 
+}{TEXT -1 39 " (this is part of the greatness of the " }{TEXT 498 19 "
+Euclidean algorithm" }{TEXT -1 3 "): " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "igcd(10^200 + 84, 10^150 + 14);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#Y" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "igcd
+(100! + 8765432, 10^150 + 13);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 21 "So, let's calculate: " }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 46 "igcd(2^((f(10) - 1)/ithprime(11)) - 1, f(10));" }}
+{PARA 8 "" 1 "" {TEXT -1 35 "Error, integer too large in context" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 41 "Which integer is \"too large\"?   It's the " }{XPPEDIT 
+18 0 "2^((f(10)-1)/31)-1;" "6#,&)\"\"#*&,&-%\"fG6#\"#5\"\"\"\"\"\"!\"
+\"F,\"#JF.F,\"\"\"F." }{TEXT -1 35 ".  That number (easy exercise) has
+ " }{TEXT 500 4 "more" }{TEXT -1 96 " than ten thousand, million, mill
+ion, million digits!! And Maple can only handle integers up to " }
+{TEXT 501 5 "about" }{TEXT -1 151 " 500,000 digits. (And that's just f
+or f(10); the millennium prime is f(325)).  So, what can one do?   To \+
+our rescue comes the Euclidean algorithm, the " }{TEXT 511 8 "key step
+" }{TEXT -1 87 " of which is the utterly elementary - but oh! so incre
+dibly powerful result! - that if " }{TEXT 502 1 "A" }{TEXT -1 5 " and \+
+" }{TEXT 503 1 "B" }{TEXT -1 33 " are any two whole numbers, then " }
+{XPPEDIT 18 0 "gcd(A,B) = gcd(B,R);" "6#/-%$gcdG6$%\"AG%\"BG-F%6$F(%\"
+RG" }{TEXT -1 8 ", where " }{TEXT 504 1 "R" }{TEXT -1 30 " is the inte
+ger obtained from " }{TEXT 505 1 "A" }{TEXT -1 19 " by dividing it by \+
+" }{TEXT 506 1 "B" }{TEXT -1 9 ", as in: " }{XPPEDIT 18 0 "A = BQ+R;" 
+"6#/%\"AG,&%#BQG\"\"\"%\"RGF'" }{TEXT -1 8 ", where " }{TEXT 507 1 "Q
+" }{TEXT -1 24 " is the 'quotient', and " }{TEXT 508 1 "R" }{TEXT -1 
+63 " is the 'remainder'.\n\nIn particular it means that the value of \+
+" }{XPPEDIT 18 0 "gcd(2^((f(10)-1)/31)-1,M);" "6#-%$gcdG6$,&)\"\"#*&,&
+-%\"fG6#\"#5\"\"\"\"\"\"!\"\"F/\"#JF1F/\"\"\"F1%\"MG" }{TEXT -1 49 " m
+ay be obtained by computing the remainder that " }{XPPEDIT 18 0 "2^((f
+(10)-1)/31)-1;" "6#,&)\"\"#*&,&-%\"fG6#\"#5\"\"\"\"\"\"!\"\"F,\"#JF.F,
+\"\"\"F." }{TEXT -1 60 " leaves on division by f(10):  \n\n(and the Ma
+ple command for " }{TEXT 509 4 "that" }{TEXT -1 98 " is the modular ex
+ponential one:  2&^((f(10) - 1)/ithprime(11)) - 1 mod F(10)  )\n\nthus
+ obtaining: " }{XPPEDIT 18 0 "gcd(2^((f(10)-1)/31)-1,f(10)) = gcd(f(10
+),2^((f(10)-1)/31)-1*modf(10));" "6#/-%$gcdG6$,&)\"\"#*&,&-%\"fG6#\"#5
+\"\"\"\"\"\"!\"\"F0\"#JF2F0\"\"\"F2-F-6#\"#5-F%6$-F-6#\"#5,&)\"\"#*&,&
+-F-6#\"#5F0\"\"\"F2F0\"#JF2F0*&\"\"\"F0-%%modfG6#\"#5F0F2" }{TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "igcd(f(10), 2&^((f(1
+0) - 1)/ithprime(11)) - 1 mod f(10));" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 15 "Instantly, and " }{TEXT 512 7 "proving" }
+{TEXT -1 21 " that f(10) is prime." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 57 "igcd(f(20), 2&^((f(20) - 1)/ithprime(21)) - 1 mod f(2
+0));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 6 "which " }{TEXT 513 6 "proves" }{TEXT -1 250 " that f(
+20) is prime.  Returning to my search of last January 1999 I continued
+ looking for candidates, and checking bit by bit up to f(180) these we
+re the outputs (to re-execute them you must first delete the comment s
+ign ' # ' before 'candidates'): " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "# candidates(31, 60); # no output" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 34 "# candidates(61, 120); # no output" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "# candidates(121, 180); # he
+re just one output, '173'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$t\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "length(f(173));" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"$_*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 351 "and applying Pockling
+ton to f(173) it turned out to be prime, and I might have stopped at t
+hat point but decided to plough on as my ambition then was to find - i
+f there was one! (it was quite possible that there might not have been
+ another one) - a Euclid-Pocklington prime with at least 1000 digits (
+any prime with at least 1000 digits is known as a " }{TEXT 514 7 "tita
+nic" }{TEXT -1 50 " prime, and its finder is entitled to be called a \+
+" }{TEXT 515 5 "Titan" }{TEXT -1 344 "; it's just a bit of fun.)\n\nWe
+ll, you have probably guessed the outcome: the first candidate after f
+(180) turned out to be f(325) (the '325' was the output from 'candidat
+es(301, 330)'). Then the Pocklington condition was satisfied, proving \+
+that f(325) was prime, and then, checking to see how many digits it ha
+d, it happened to be exactly 2000." }}}{EXCHG {PARA 267 "" 0 "" 
+{HYPERLNK 17 "Return to Top" 1 "" "Top" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 257 "" 0 "Appendix 1" {TEXT 319 10 "
+Appendix 1" }}{PARA 0 "" 0 "" {TEXT -1 72 "\nHere is the structure of \+
+the number 'c' from within the Fermat section:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 52 "n := 11950687687952657925183613157251163518982
+45581;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"O\"eX#)*=N;^s:8O=Dzl
+_zo(o]>\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "p := 244445164
+48431392447461;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"8huW#RJ%[k^
+WW#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "q := 488890328968627
+84894921;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG\"8@\\*[yio*G.*))[
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "is(n = c);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 273 "" 0 "" {HYPERLNK 17 "Return to Top\n" 1 
+"" "Top" }}{PARA 270 "" 0 "Appendix 2" {TEXT -1 0 "" }{TEXT 533 10 "Ap
+pendix 2" }}{PARA 0 "" 0 "" {TEXT -1 40 "\nJohn Selfridge's theorem of
+ 1967.  Let " }{XPPEDIT 18 0 "n-1 = p[1]^alpha[1]*p[2]^alpha[2]*p[3]^a
+lpha[3];" "6#/,&%\"nG\"\"\"\"\"\"!\"\"*()&%\"pG6#\"\"\"&%&alphaG6#\"\"
+\"F&)&F,6#\"\"#&F06#\"\"#F&)&F,6#\"\"$&F06#\"\"$F&" }{TEXT -1 4 "... \+
+" }{XPPEDIT 18 0 "p[r]^alpha[r];" "6#)&%\"pG6#%\"rG&%&alphaG6#F'" }
+{TEXT -1 12 ", where the " }{XPPEDIT 18 0 "p[1],p[2],p[3];" "6%&%\"pG6
+#\"\"\"&F$6#\"\"#&F$6#\"\"$" }{TEXT -1 43 ", ... are distinct primes, \+
+and suppose for " }{TEXT 259 4 "each" }{TEXT -1 1 " " }{TEXT 258 1 "i
+" }{TEXT -1 21 " there is an integer " }{XPPEDIT 18 0 "a[i];" "6#&%\"a
+G6#%\"iG" }{TEXT -1 150 " (which may or may not vary as i varies, thou
+gh in practice it does - it is this freedom that makes it superior to \+
+Lehmer's theorem) such that:\n\n1.   " }{XPPEDIT 18 0 "a[i]^(n-1) = 1;
+" "6#/)&%\"aG6#%\"iG,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod
+ " }{TEXT 566 1 "n" }{TEXT -1 8 ") (i.e. " }{XPPEDIT 18 0 "a[i]^(n-1)
+" "6#)&%\"aG6#%\"iG,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 35 " leaves rem
+ainder 1 on division by " }{TEXT 523 1 "n" }{TEXT -1 34 "; \n      in \+
+other words, suppose \"" }{TEXT 525 1 "n" }{TEXT -1 42 " passes the Fe
+rmat-Lucas test to the base " }{TEXT 565 1 "a" }{TEXT -1 9 "\"]\n\n2. \+
+  " }{XPPEDIT 18 0 "a[i]^((n-1)/p[i]) <> 1;" "6#0)&%\"aG6#%\"iG*&,&%\"
+nG\"\"\"\"\"\"!\"\"F,&%\"pG6#F(F.\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+567 1 "n" }{TEXT -1 9 ") (i.e., " }{XPPEDIT 18 0 "a[i]^((n-1)/p[i])" "
+6#)&%\"aG6#%\"iG*&,&%\"nG\"\"\"\"\"\"!\"\"F+&%\"pG6#F'F-" }{TEXT -1 6 
+" does " }{TEXT 262 3 "not" }{TEXT -1 34 " leave remainder 1 on divisi
+on by " }{TEXT 559 1 "n" }{TEXT -1 1 ")" }{TEXT -1 1 "," }}{PARA 0 "" 
+0 "" {TEXT -1 6 "\nthen " }{TEXT 257 1 "n" }{TEXT -1 91 " is prime.  A
+nd here, for example, is the primality of 11! + 1 established using Se
+lfridge:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "N := 11! + 1;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"NG\"),o\"*R" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 10 "First fix " }{TEXT 263 1 "a" }{TEXT -1 13 " at 2 t
+o see:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "2&^(N-1) mod N;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 45 "2&^((N-1)/2) mod N; # need to try another 'a'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "2&^((N-1)/3) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\")hGP@" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "2&^((N-1)/5) m
+od N; # need to try another 'a'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "2&^((N-1)/7) mod N;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")j,>D" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 20 "2&^((N-1)/11) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\")\")=(y#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "3&^(N-1) mod N;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 45 "3&^((N-1)/2) mod N; # need to try another 'a'" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "
+3&^((N-1)/5) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(%4lJ" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "13&^(N-1) mod N;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "13&^((N-1)/2) mo
+d N; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")+o\"*R" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 66 "Tha
+t last, non-unity output, finally establishes the primality of " }
+{XPPEDIT 18 0 "N = 11!+1;" "6#/%\"NG,&-%*factorialG6#\"#6\"\"\"\"\"\"F
+*" }{TEXT -1 115 ". Other examples of Selfridge's theorem may be viewe
+d in the 3rd year section of the Maple section of my web site.\n" }}
+{PARA 269 "" 0 "" {HYPERLNK 17 "Return to Top\n" 1 "" "Top" }}{PARA 
+268 "" 0 "Appendix 3" {TEXT 528 41 "Appendix 3 \nFrancois Proth (1852 \+
+- 1879)\n" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 138 "Francois Pro
+th - a self taught French farmer - was the first mathematician to disc
+over a wide ranging primality test for a natural number " }{TEXT 529 
+1 "n" }{TEXT -1 6 " that " }{TEXT 535 15 "did not require" }{TEXT -1 
+13 " knowing the " }{TEXT 536 22 "complete factorisation" }{TEXT -1 4 
+" of " }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+148 ". Since his test is something that featured prominently in my ear
+lier talk this afternoon (\"Could there exist a sixth Fermat prime? I \+
+believe it is " }{TEXT 531 14 "not impossible" }{TEXT -1 131 "\"), the
+n I do not intend saying very much about it here, except to record it,
+ and point out its relation to Pocklington's theorem. " }{TEXT 530 0 "
+" }{TEXT -1 168 "\n\nThe usual statement of Proth's (Dec. 1878) theore
+m (I keep the notation as close as possible to the already seen simple
+st form of Pocklington's 1914-16 theorem). Let " }{XPPEDIT 18 0 "n = U
+*2^m+1;" "6#/%\"nG,&*&%\"UG\"\"\")\"\"#%\"mGF(F(\"\"\"F(" }{TEXT -1 7 
+" where " }{TEXT 537 1 "U" }{TEXT -1 12 " is odd and " }{XPPEDIT 18 0 
+"U < 2^m;" "6#2%\"UG)\"\"#%\"mG" }{TEXT -1 30 ". Suppose there is an i
+nteger " }{TEXT 538 1 "a" }{TEXT -1 64 " such that:\n                 \+
+                                   " }{XPPEDIT 18 0 "a^((n-1)/2) = -1;
+" "6#/)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F)\"\"#F+,$\"\"\"F+" }{TEXT -1 
+6 " (mod " }{TEXT 539 1 "n" }{TEXT -1 8 "),\nthen " }{TEXT 540 1 "n" }
+{TEXT -1 12 " is prime.\n\n" }{TEXT 541 7 "Comment" }{TEXT -1 46 ". Th
+e principal point of interest is that one " }{TEXT 543 13 "need not kn
+ow" }{TEXT -1 29 " the actual factorisation of " }{TEXT 542 1 "U" }
+{TEXT -1 75 ", though in practice one usually experiments with small (
+and thus entirely " }{TEXT 545 5 "known" }{TEXT -1 16 ") odd values of
+ " }{TEXT 544 1 "U" }{TEXT -1 224 ".\n\nI have two very personal reaso
+ns for being grateful to Proth:\n\n1.   Early in 1999, while attemptin
+g to simplify the statement and proof of Proth's theorem to present to
+ my 3rd year students, I rediscovered a little known " }{TEXT 546 42 "
+unification of Mersenne and Fermat numbers" }{TEXT -1 174 ". That was \+
+one of the most satisfying times in my mathematical life, and formed t
+he basis of my talk earlier this afternoon.\n\n2.   Between July 23rd \+
+and 25th 1999, and using " }{TEXT 560 11 "Yves Gallot" }{TEXT -1 122 "
+'s remarkable Proth.exe program, I was the lucky discoverer of the the
+n (and still) largest known composite Fermat number " }{XPPEDIT 18 0 "
+F[382447] = 2^(2^382447)+1;" "6#/&%\"FG6#\"'ZCQ,&)\"\"#*$\"\"#\"'ZCQ\"
+\"\"\"\"\"F." }{TEXT -1 57 ", by finding that it had the 115130-digit \+
+prime factor 3*" }{XPPEDIT 18 0 "2^382449+1;" "6#,&*$\"\"#\"'\\CQ\"\"
+\"\"\"\"F'" }{TEXT -1 81 ". You may read all about that in the Fermat \+
+number record section of my web site." }}}{EXCHG {PARA 272 "" 0 "" 
+{HYPERLNK 17 "Return to Top\n" 1 "" "Top" }}{PARA 271 "" 0 "Appendix 4
+" {TEXT -1 0 "" }{TEXT 534 10 "Appendix 4" }}{PARA 0 "" 0 "" {TEXT -1 
+212 "\nOther examples of Euclid-Pocklington (or simply Pocklington) ty
+pe primes.\nA very beautiful (because of its structure, and its resist
+ance to a classical primality proof) prime, one with 1031 digits, is t
+he prime " }{XPPEDIT 18 0 "(2^(59^2)-1)/(2^59-1);" "6#*&,&)\"\"#*$\"#f
+\"\"#\"\"\"\"\"\"!\"\"F*,&*$\"\"#\"#fF*\"\"\"F,F," }{TEXT -1 40 ". Thi
+s number was first identified as a " }{TEXT 547 14 "probable prime" }
+{TEXT -1 211 " several years ago (in an unpublished paper) by Wilfrid \+
+Keller, and was rediscovered by me on March 10th 1999 (see my earlier,
+ afternoon talk), again as a probable prime. For my purposes it was cr
+itical that it " }{TEXT 548 2 "be" }{TEXT -1 320 " a prime, and follow
+ing circulation of a note about it to about 35 mathematicians I receiv
+ed a note from Francois Morain on March 25th 1999 that a two day compu
+tation by him - using the elliptic curve method - had resulted in its \+
+primality being established. This prime has been dubbed the 'Keller-Co
+sgrave-Morain' prime" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "KCM
+ := (2^(59^2) - 1)/(2^59 - 1):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "length(KCM);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%J5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 120 "Some weeks ago, with this talk in mind, I thought it mig
+ht be interesting to find a Pocklington-type prime of the form (" }
+{XPPEDIT 18 0 "U*3^m+1;" "6#,&*&%\"UG\"\"\")\"\"$%\"mGF&F&\"\"\"F&" }
+{TEXT -1 8 "), with " }{XPPEDIT 18 0 "U = KCM-1;" "6#/%\"UG,&%$KCMG\"
+\"\"\"\"\"!\"\"" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "U < 3^m;" "6#2%
+\"UG)\"\"$%\"mG" }{TEXT -1 73 ". Using Chris Nash's PrimeForm program \+
+I found a 2613-digit one one with " }{XPPEDIT 18 0 "m = 3316;" "6#/%\"
+mG\"%;L" }{TEXT -1 56 ". This prime is especially interesting since th
+e number " }{TEXT 549 1 "U" }{TEXT -1 25 " is currently unfactored." }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "p := (KCM - 1)*3^3316 + 1:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(p);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#\"%8E" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 105 "On December 30th 1999, \+
+again using Chris Nash's PrimeForm I found the 15756-digit Pocklington
+ type prime " }{XPPEDIT 18 0 "p[1]*p[2]*p[3];" "6#*(&%\"pG6#\"\"\"\"\"
+\"&F%6#\"\"#F(&F%6#\"\"$F(" }{TEXT -1 5 "*...*" }{XPPEDIT 18 0 "p[2000
+]*p[2001]^1951+1;" "6#,&*&&%\"pG6#\"%+?\"\"\"*$&F&6#\"%,?\"%^>F)F)\"\"
+\"F)" }{TEXT -1 49 ".\nThe general form of Pocklington's theorem. Let \+
+" }{XPPEDIT 18 0 "n-1 = U*p[1]^alpha[1]*p[2]^alpha[2]*p[3]^alpha[3];" 
+"6#/,&%\"nG\"\"\"\"\"\"!\"\"**%\"UGF&)&%\"pG6#\"\"\"&%&alphaG6#\"\"\"F
+&)&F-6#\"\"#&F16#\"\"#F&)&F-6#\"\"$&F16#\"\"$F&" }{TEXT -1 4 "... " }
+{XPPEDIT 18 0 "p[r]^alpha[r];" "6#)&%\"pG6#%\"rG&%&alphaG6#F'" }{TEXT 
+-1 13 ",  where the " }{XPPEDIT 18 0 "p[1],p[2],p[3];" "6%&%\"pG6#\"\"
+\"&F$6#\"\"#&F$6#\"\"$" }{TEXT -1 48 ", ... are distinct primes, none \+
+of which divide " }{TEXT 550 1 "U" }{TEXT -1 7 ", and  " }{XPPEDIT 18 
+0 "U < p[1]^alpha[1]*p[2]^alpha[2]*p[3]^alpha[3];" "6#2%\"UG*()&%\"pG6
+#\"\"\"&%&alphaG6#\"\"\"\"\"\")&F(6#\"\"#&F,6#\"\"#F/)&F(6#\"\"$&F,6#
+\"\"$F/" }{TEXT -1 6 " ...  " }{XPPEDIT 18 0 "p[r]^alpha[r];" "6#)&%\"
+pG6#%\"rG&%&alphaG6#F'" }{TEXT 552 2 ". " }{TEXT -1 4 "Then" }{TEXT 
+553 2 " n" }{TEXT -1 55 " is prime if:\n\nCondition 1 (the Fermat-Luca
+s condition)" }{TEXT 260 1 " " }{TEXT -1 10 " there is " }{TEXT 264 4 
+"some" }{TEXT -1 9 " integer " }{TEXT 257 1 "a" }{TEXT -1 11 " such th
+at " }{XPPEDIT 18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"\"\"\"!\"\"
+\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 258 1 "n" }{TEXT -1 19 "), and\n\n
+Condition 2" }{TEXT 266 1 " " }{TEXT -1 37 "(the general Pocklington's
+ condition)" }{TEXT 261 1 " " }{XPPEDIT 18 0 "gcd(a^((n-1)/p[i])-1,n) \+
+= 1;" "6#/-%$gcdG6$,&)%\"aG*&,&%\"nG\"\"\"\"\"\"!\"\"F-&%\"pG6#%\"iGF/
+F-\"\"\"F/F,\"\"\"" }{TEXT -1 9 " for all " }{TEXT 551 1 "i" }{TEXT 
+-1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 13 "\nAn example: " }{XPPEDIT 18 
+0 "p[1]*p[2]*p[3];" "6#*(&%\"pG6#\"\"\"\"\"\"&F%6#\"\"#F(&F%6#\"\"$F(
+" }{TEXT -1 5 "*...*" }{XPPEDIT 18 0 "p[346]*p[347]^346*p[348]^346+1;
+" "6#,&*(&%\"pG6#\"$Y$\"\"\"*$&F&6#\"$Z$\"$Y$F)&F&6#\"$[$\"$Y$F)\"\"\"
+F)" }{TEXT -1 24 " is a 3318-digit prime.\n" }}{PARA 274 "" 0 "" 
+{HYPERLNK 17 "Return to Top\n" 1 "" "Top" }}{PARA 264 "" 0 "Recommende
+d reading" {TEXT 464 19 "Recommended reading" }}{PARA 0 "" 0 "" {TEXT 
+-1 566 "\nThe literature is vast, and I will keep it brief by saying t
+hat anyone wishing to really study this subject would greatly benefit \+
+from a reading of Hugh C. Williams' Edouard Lucas and Primality Testin
+g [ISBN 0-471-14852-0], Canadian Mathematical Society Series of Monogr
+aphs and Advanced Texts, Volume 22, John Wiley & Sons, 1998. Williams'
+ book is a real treasure, and ought to become a classic. I got my copy
+ from Undercover Books (http://www.undercoverbooks.com); please tell J
+oel Turner (who, with his sister and mother, runs this great company) \+
+I told you so.\n" }}{PARA 275 "" 0 "" {HYPERLNK 17 "Return to Top" 1 "
+" "Top" }}}}{MARK "1 7 27" 284 }{VIEWOPTS 1 1 0 1 1 1803 }

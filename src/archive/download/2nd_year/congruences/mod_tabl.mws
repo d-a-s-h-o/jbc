@@ -1,0 +1,26 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "MS Serif" 1 14 0 0 0 1 2 2 
+2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output
+" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE 
+"" -1 -1 "Helvetica" 1 12 0 0 255 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Couri
+er" 1 14 0 0 0 1 2 2 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "Work suggested after seein
+g page 120 of First Leaves (6th. May 1995)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 101 "A6 := array(1..6, 1..6):
+\nfor i to 6 do\nfor j to 6 do\n  A6[i, j] := i^2+j^2 mod 7\n  od:\nod
+;\nprint(A6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7(7(\"\"#
+\"\"&\"\"$F*F)F(7(F)\"\"\"\"\"'F-F,F)7(F*F-\"\"%F/F-F*F.F+F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 150 "m := 7:\nA.m := array(1..m,1..m):       # multipli
+cation table mod m\nfor i to 7 do\nfor j to 7 do\nA.m[i, j] := (i - 1)
+*(j - 1) mod 7\nod:\nod;\nprint(A.m);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#-%'matrixG6#7)7)\"\"!F(F(F(F(F(F(7)F(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"
+'7)F(F+F-F/F*F,F.7)F(F,F/F+F.F*F-7)F(F-F*F.F+F/F,7)F(F.F,F*F/F-F+7)F(F
+/F.F-F,F+F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "
+1 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

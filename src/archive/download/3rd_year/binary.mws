@@ -1,0 +1,239 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 
+0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 288 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 300 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 308 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 255 0 0 
+1 0 1 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courie
+r" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE 
+"" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 
+15 2 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 
+0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "R3 Font 0" -1 
+256 1 {CSTYLE "" -1 -1 "" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 
+-1 "" 1 12 0 128 0 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# binary.mws  " }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT 285 11 "Binary form" }{TEXT 286 20 " of \+
+a natural number" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 287 3 "Aim" }
+{TEXT -1 25 ". We (quickly) study the " }{TEXT 288 11 "binary form" }
+{TEXT -1 21 " of a natural number," }}{PARA 0 "" 0 "" {TEXT -1 57 "pri
+ncipally because of its connection with the problem of" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }{TEXT 289 22 "modular exponentiation" }{TEXT -1 
+37 " (the problem of computing the value " }}{PARA 0 "" 0 "" {TEXT -1 
+3 "of " }{XPPEDIT 18 0 "`mod`(a^b,n);" "6#-%$modG6$)%\"aG%\"bG%\"nG" }
+{TEXT -1 8 ", where " }{TEXT 290 1 "a" }{TEXT -1 2 ", " }{TEXT 291 1 "
+b" }{TEXT -1 5 " and " }{TEXT 292 1 "n" }{TEXT -1 20 " are integers, w
+ith " }{TEXT 293 1 "b" }{TEXT -1 5 " and " }{TEXT 294 1 "n" }{TEXT -1 
+11 " positive)." }}{PARA 0 "" 0 "" {TEXT -1 38 "[See the Maple workshe
+et mod_expo.mws]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 256 8 "Question" }{TEXT -1 25 ".  What is meant by the '" }
+{TEXT 257 11 "binary form" }{TEXT -1 5 "' of " }{TEXT 258 1 "b" }
+{TEXT -1 1 "?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 261 6 "Answer" }{TEXT -1 5 ". If " }{TEXT 295 1 "
+b" }{TEXT -1 27 " is a natural number, then " }{TEXT 262 1 "b" }{TEXT 
+-1 28 " is said to be expressed in " }}{PARA 0 "" 0 "" {TEXT -1 1 "'" 
+}{TEXT 263 11 "binary form" }{TEXT -1 5 "' if " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }{XPPEDIT 18 0 "b = d
+[r]*2^r+d[r-1]*2^(r-1);" "6#/%\"bG,&*&&%\"dG6#%\"rG\"\"\")\"\"#F*F+F+*
+&&F(6#,&F*F+\"\"\"!\"\"F+)\"\"#,&F*F+\"\"\"F3F+F+" }{TEXT -1 9 " + ...
+ + " }{XPPEDIT 18 0 "d[2]*2^2+d[1]*2+d[0];" "6#,(*&&%\"dG6#\"\"#\"\"\"
+*$\"\"#\"\"#F)F)*&&F&6#\"\"\"F)\"\"#F)F)&F&6#\"\"!F)" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 8 "      = " }{XPPEDIT 18 0 "d[r]*d[r-1];" "
+6#*&&%\"dG6#%\"rG\"\"\"&F%6#,&F'F(\"\"\"!\"\"F(" }{TEXT -1 5 " ... " }
+{XPPEDIT 18 0 "d[2]*d[1]*d[0];" "6#*(&%\"dG6#\"\"#\"\"\"&F%6#\"\"\"F(&
+F%6#\"\"!F(" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 6 "where " }{XPPEDIT 18 0 "d[i] = 0;" "6#/&%\"dG6#%\"
+iG\"\"!" }{TEXT -1 15 " or 1 for each " }{TEXT 259 1 "i" }{TEXT -1 15 
+" between 0 and " }{TEXT 260 1 "r" }{TEXT -1 6 ".     " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 297 11 "Term
+inology" }{TEXT -1 9 ". Those \{" }{XPPEDIT 18 0 "d[i];" "6#&%\"dG6#%
+\"iG" }{TEXT -1 17 "\} are called the " }{TEXT 298 13 "binary digits" 
+}{TEXT -1 4 " of " }{TEXT 299 1 "b" }{TEXT -1 5 ".    " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 264 8 "Examp
+les" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 23 "1.  The binary form of " }{TEXT -1 21 "16 (base 10) is \+
+10000" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 23 "2.  The binary f
+orm of " }{TEXT -1 16 "20 (base 10) is " }{TEXT -1 6 "10100," }}{PARA 
+0 "" 0 "" {TEXT -1 23 "3.  The binary form of " }{TEXT -1 16 "31 (base
+ 10) is " }{TEXT -1 6 "11111." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 265 81 "Calculate (by the repeate
+d division by 2 method)\nthe binary form of the number 73" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 266 8 "Solution" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 34 
+"                           73 = 2*" }{TEXT 268 2 "36" }{TEXT -1 3 " +
+ " }{TEXT 267 1 "1" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 34 "   \+
+                        36 = 2*" }{TEXT 269 2 "18" }{TEXT -1 3 " + " }
+{TEXT 270 1 "0" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 35 "       \+
+                    18 =  2*" }{TEXT 271 1 "9" }{TEXT -1 4 "  + " }
+{TEXT 272 1 "0" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 36 "       \+
+                      9 =  2*" }{TEXT 273 1 "4" }{TEXT -1 4 "  + " }
+{TEXT 274 1 "1" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 36 "       \+
+                      4 =  2*" }{TEXT 275 1 "2" }{TEXT -1 4 "  + " }
+{TEXT 276 1 "0" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 36 "       \+
+                      2 =  2*" }{TEXT 277 1 "1" }{TEXT -1 4 "  + " }
+{TEXT 278 1 "0" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 36 "       \+
+                      1 =  2*" }{TEXT 279 1 "0" }{TEXT -1 4 "  + " }
+{TEXT 280 1 "1" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 281 7 "Comment" }{TEXT -1 52 ". T
+hat simple example illustrates how - in general -" }}{PARA 0 "" 0 "" 
+{TEXT -1 49 "one computes the binary form of a natural number " }
+{TEXT 282 1 "b" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 21 "       \+
+              " }}{PARA 0 "" 0 "" {TEXT -1 12 "            " }
+{XPPEDIT 18 0 "b = 2*q[0]+d[0];" "6#/%\"bG,&*&\"\"#\"\"\"&%\"qG6#\"\"!
+F(F(&%\"dG6#F,F(" }{TEXT -1 10 ",   [this " }{TEXT 307 6 "starts" }
+{TEXT -1 8 " us off]" }}{PARA 0 "" 0 "" {TEXT -1 10 "          " }
+{XPPEDIT 18 0 "q[0] = 2*q[1]+d[1];" "6#/&%\"qG6#\"\"!,&*&\"\"#\"\"\"&F
+%6#\"\"\"F+F+&%\"dG6#\"\"\"F+" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" 
+{TEXT -1 10 "          " }{XPPEDIT 18 0 "q[1] = 2*q[2]+d[2];" "6#/&%\"
+qG6#\"\"\",&*&\"\"#\"\"\"&F%6#\"\"#F+F+&%\"dG6#\"\"#F+" }{TEXT -1 1 ",
+" }}{PARA 0 "" 0 "" {TEXT -1 10 "          " }{XPPEDIT 18 0 "q[2] = 2*
+q[3]+d[3];" "6#/&%\"qG6#\"\"#,&*&\"\"#\"\"\"&F%6#\"\"$F+F+&%\"dG6#\"\"
+$F+" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 23 "                  \+
+    ." }}{PARA 0 "" 0 "" {TEXT -1 23 "                      ." }}
+{PARA 0 "" 0 "" {TEXT -1 3 "   " }{XPPEDIT 18 0 "q[k-1] = 2*q[k]+d[k];
+" "6#/&%\"qG6#,&%\"kG\"\"\"\"\"\"!\"\",&*&\"\"#F)&F%6#F(F)F)&%\"dG6#F(
+F)" }{TEXT -1 9 ",  [note " }{TEXT 308 3 "how" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "q[k];" "6#&%\"qG6#%\"kG" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "d[k];" "6#&%\"dG6#%\"kG" }{TEXT -1 4 " are" }}{PARA 0 "" 0 "" 
+{TEXT -1 39 "                                       " }{TEXT 309 7 "re
+lated" }{TEXT -1 4 " to " }{XPPEDIT 18 0 "q[k-1];" "6#&%\"qG6#,&%\"kG
+\"\"\"\"\"\"!\"\"" }{TEXT -1 2 ".]" }}{PARA 0 "" 0 "" {TEXT -1 23 "   \+
+                   ." }}{PARA 0 "" 0 "" {TEXT -1 23 "                 \+
+     ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 
+"     until, " }{TEXT 283 10 "eventually" }{TEXT -1 17 ", one arrives \+
+at:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "   \+
+" }{XPPEDIT 18 0 "q[r-1] = 2*q[r]+d[r];" "6#/&%\"qG6#,&%\"rG\"\"\"\"\"
+\"!\"\",&*&\"\"#F)&F%6#F(F)F)&%\"dG6#F(F)" }{TEXT -1 2 " ," }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "with " }{XPPEDIT 
+18 0 "q[r] = 0;" "6#/&%\"qG6#%\"rG\"\"!" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "d[r] = 1;" "6#/&%\"dG6#%\"rG\"\"\"" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "The binar
+y form of " }{TEXT 284 1 "b" }{TEXT -1 10 " is then (" }{XPPEDIT 18 0 
+"d[r]*d[r-1];" "6#*&&%\"dG6#%\"rG\"\"\"&F%6#,&F'F(\"\"\"!\"\"F(" }
+{TEXT -1 5 " ... " }{XPPEDIT 18 0 "d[2]*d[1]*d[0];" "6#*(&%\"dG6#\"\"#
+\"\"\"&F%6#\"\"\"F(&F%6#\"\"!F(" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "Before seeing a Maple pro
+cedure for calculating the" }}{PARA 0 "" 0 "" {TEXT -1 36 "binary digi
+ts of the natural number " }{TEXT 296 1 "b" }{TEXT -1 15 ", let us rem
+ind" }}{PARA 0 "" 0 "" {TEXT -1 26 "ourselves of two commands:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 11 "iquo (fo
+r '" }{TEXT 300 1 "i" }{TEXT -1 7 "nteger " }{TEXT 301 3 "quo" }{TEXT 
+-1 12 "tient'), and" }}{PARA 15 "" 0 "" {TEXT -1 11 "irem (for '" }
+{TEXT 302 1 "i" }{TEXT -1 7 "nteger " }{TEXT 303 3 "rem" }{TEXT -1 9 "
+ainder')\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "iquo(25, 7); # comput
+es the quotient of 25 on division by 7" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "iquo(25, 2);
+ # computes the quotient of 25 on division by 2" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "irem
+(25, 7); # computes the remainder of 25 on division by 7" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+60 "irem(25, 2); # computes the remainder of 25 on division by 2" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 304 4 "Note" }{TEXT 
+-1 46 ". I could equally use 'mod' instead of 'irem':" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "25 mod 7;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "25 m
+od 2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Here i
+s a " }{TEXT 305 15 "Maple procedure" }{TEXT -1 30 " for finding the b
+inary digits" }}{PARA 0 "" 0 "" {TEXT -1 26 "of a given natural number
+ " }{TEXT 306 1 "b" }{TEXT -1 1 ":" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+230 "binary_digits := proc(b)\nlocal q, d, k, r, K;\n   q[0] := iquo(b
+, 2):\n   d[0] := irem(b, 2):\n   for k while q[k-1] <> 0 do\n      q[
+k] := iquo(q[k-1], 2):  \n      d[k] := irem(q[k-1], 2):\n   od;\nr :=
+ k-1:\nseq(d[r-K], K = 0..r):\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "binary_
+digits(128);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6*\"\"\"\"\"!F$F$F$F$F$F
+$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "binary_digits(1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "binary_digits(5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"\"\"\"\"!F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "binary_dig
+its(2^20 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "66\"\"\"F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 47 "By the way, here is the built
+-in Maple command:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "convert(10, binary);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%55" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "convert(32, binary);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"'++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "convert(3^10, \+
+binary);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"1,5555,56" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "binary_digits(3^10);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "62\"\"\"F#F#\"\"!F$F#F#F$F#F$F#F$F#F$F$F#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "convert(3^100, binary);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#\"jt,+,66+,++56+66+6,,,,,66,+,,55,,6,,6,6,66,++,65,,5,,
+,+55,6,6+6,5,55+66+,,5,+,55,\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 21 "binary_digits(3^100);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6[u\"\"
+\"\"\"!F#F#F$F#F$F$F#F$F$F$F#F#F$F$F#F$F#F$F$F#F#F#F#F$F$F#F$F#F$F$F#F
+#F$F$F#F#F#F$F$F#F#F$F#F#F#F$F#F#F$F#F$F$F$F$F#F$F#F$F#F#F$F$F#F$F#F#F
+$F#F#F$F#F$F$F$F$F$F#F#F#F#F#F$F#F#F#F$F#F#F#F$F#F$F#F#F#F$F#F$F#F#F$F
+#F$F$F#F$F#F$F$F$F#F#F#F#F#F$F#F$F#F$F#F$F#F$F#F#F#F$F$F#F#F#F#F$F$F#F
+#F#F$F$F$F$F$F$F#F$F$F#F#F#F#F$F#F$F$F$F#" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "The followi
+ng is for illustration purposes only (just to let " }}{PARA 0 "" 0 "" 
+{TEXT -1 50 "you see how you can arrange for a text statement):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 278 "say_sum_of_powers := proc(b
+)\nlocal q, d, k, r, K;\nq[0] := iquo(b, 2):\nd[0] := irem(b, 2):\nfor
+ k while q[k-1] <> 0 do\n   q[k] := iquo(q[k-1], 2):  \n   d[k] := ire
+m(q[k-1], 2):\nod;\nr := k-1:\nlprint(b, `is the sum of the following \+
+powers of 2:`,\nseq(d[r-K]*2^(r-K), K = 0..r))\nend:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "say_sum_of_powers(10);" }}{PARA 6 "" 1 "" {TEXT -1 61 "10   is t
+he sum of the following powers of 2:   8   0   2   0" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 22 "say_sum_of_powers(50);" }}{PARA 6 "" 1 "
+" {TEXT -1 71 "50   is the sum of the following powers of 2:   32   16
+   0   0   2   0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "say_sum
+_of_powers(1024);" }}{PARA 6 "" 1 "" {TEXT -1 94 "1024   is the sum of
+ the following powers of 2:   1024   0   0   0   0   0   0   0   0   0
+   0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "say_sum_of_powers(1
+030);" }}{PARA 6 "" 1 "" {TEXT -1 94 "1030   is the sum of the followi
+ng powers of 2:   1024   0   0   0   0   0   0   0   4   2   0" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 23 0" 23 }
+{VIEWOPTS 1 1 0 1 1 1803 }

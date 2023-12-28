@@ -1,0 +1,81 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 0 0 128 1 2 
+1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output
+" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 
+"Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 
+11 0 128 0 1 2 2 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalf(6/Pi^2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+;5Fzg!#5" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "pr
+ime_prod:=proc(n)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "evalf(product(
+ 1 - 1/ithprime(k), k=1..n))" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;
+" }}{PARA 2 "" 1 "" {TEXT -1 71 "\nprime_prod := proc(n) evalf(product
+(1-1/ithprime(k),k = 1 .. n)) end\n\n" }}}{EXCHG {PARA 2 "" 0 "" 
+{TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "prime_prod(20);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+/o(zF\"!#5" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 15 "prime_prod(60);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"+t#4R\")*!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pr
+ime_prod(120);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+$Gf^e)!#6" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "prime_prod(180);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"+P7S.!)!#6" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "prime_prod(300);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"+FICyt!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "prime_prod(5
+00);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+[!R#\\o!#6" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "square_prime_prod:=proc(n)" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "evalf(product( 1 - 1/ithprime(k)^2, k=1..n))" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 2 "" 1 "" {TEXT -1 80 
+"\nsquare_prime_prod := proc(n) evalf(product(1-1/ithprime(k)^2,k = 1 \+
+.. n)) end\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "square_pr
+ime_prod(200);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+_H))zg!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "# square_prime_prod(700);  D
+igits set to 30 gave this:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?*Q9
+\")Q9)4;Wl]?Rzg!#I" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "squar
+e_prime_prod(700);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+^?Rzg!#5" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "relat_prime:=proc(n)" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 11 "local a, b;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "for a to n d
+o" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "for b to n do" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "if igcd(a, b)=1" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "then print(a, b)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "fi" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "od" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 2 "od" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 1 "" 
+{TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "relat_prime(4);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6$\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"
+\"\"\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"\"\"$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$\"\"\"\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"\"#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"$" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6$\"\"$\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"\"$\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"\"%" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$\"\"%\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"\"%\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "how_many_relat_prime:=proc(n)" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "local count, a, b;" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "count:=0:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "f
+or a to n do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "for b to n do" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "if igcd(a, b)=1" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 19 "then count:=count+1" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "else count:=count;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "fi" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "od" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 3 "od;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "count/n^2;" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "how_many_relat_prime(4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#6\"#;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 25 "how_many_relat_prime(20);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"#^\"#!)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+33 "evalf(how_many_relat_prime(100));" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#$\"++++(3'!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalf(6
+/Pi^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+;5Fzg!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "evalf(how_many_relat_prime(200));" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+++v:h!#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 33 "evalf(how_many_relat_prime(400));" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#$\"++vo%3'!#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

@@ -1,0 +1,376 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 18 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 260 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 263 "" 1 14 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "
+" -1 264 "" 1 14 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 1 14 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 1 14 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 1 14 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 281 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 285 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 289 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "Courier" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "Courier" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+294 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+298 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "Courier" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 310 "" 1 14 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 318 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 1 12 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 1 12 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 321 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 322 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 1 
+12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 1 12 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 1 0 1 0 0 0 0 0 0 0 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 
+-1 "Times" 1 12 128 0 0 1 0 1 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 0 0 0 
+0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 -1 "" 0 1 255 0 
+255 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Map
+le Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE 
+"" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 
+15 2 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "# 916773.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 
+256 "" 0 "" {TEXT 257 65 "How many digits, how large the\nspace to wri
+te the decimal digits?" }{TEXT 285 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 283 "This worksheet is a simpler reworkin
+g of another of mine, which dealt with how many digits, and how large \+
+a space one needed to write out the decimal digits of the largest know
+n composite Fermat number. For details please refer to the Fermat Numb
+er Record section of my web site at:\n" }}{PARA 258 "" 0 "" {TEXT -1 
+0 "" }{TEXT 314 0 "" }{TEXT 315 41 "fer
+mat.htm" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 258 12 "Introduction" 
+}{TEXT -1 15 ".  The classic " }{TEXT 312 14 "Fermat numbers" }{TEXT 
+-1 10 " are the \{" }{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT 
+-1 7 "\} with " }{XPPEDIT 18 0 "F[n] = 2^(2^n)+1;" "6#/&%\"FG6#%\"nG,&
+)\"\"#)\"\"#F'\"\"\"\"\"\"F-" }{TEXT -1 10 ", and the " }{TEXT 313 26 
+"generalised Fermat numbers" }{TEXT -1 13 " to the base " }{TEXT 306 
+1 "b" }{TEXT -1 10 " are the \{" }{XPPEDIT 18 0 "GF[n,b];" "6#&%#GFG6$
+%\"nG%\"bG" }{TEXT -1 7 "\} with " }{XPPEDIT 18 0 "GF[n] = b^(2^n)+1;
+" "6#/&%#GFG6#%\"nG,&)%\"bG)\"\"#F'\"\"\"\"\"\"F-" }{TEXT -1 7 ", with
+ " }{XPPEDIT 18 0 "b = 2,3,4;" "6%/%\"bG\"\"#\"\"$\"\"%" }{TEXT -1 28 
+", ... . (Personally I don't " }{TEXT 309 4 "like" }{TEXT -1 6 " this \+
+" }{TEXT 307 8 "standard" }{TEXT -1 67 " definition of generalised Fer
+mat numbers - although it is clearly " }{TEXT 308 1 "a" }{TEXT -1 115 
+" generalisation - and to see why I invite you to view the Fermat 6 se
+ction of my web site.)  In what follows I set " }{XPPEDIT 18 0 "b = 10
+;" "6#/%\"bG\"#5" }{TEXT -1 104 ", and will estimate the size of squar
+e required to write out the just discovered record sized composite " }
+{XPPEDIT 18 0 "GF[916772,10];" "6#&%#GFG6$\"'sn\"*\"#5" }{TEXT -1 28 "
+ - which has prime factor 3*" }{XPPEDIT 18 0 "2^916773+1;" "6#,&*$\"\"
+#\"'tn\"*\"\"\"\"\"\"F'" }{TEXT -1 78 " - at, for example 4 digits per
+ inch in the horizontal and vertical.  So, let " }{XPPEDIT 18 0 "GF[n,
+10];" "6#&%#GFG6$%\"nG\"#5" }{TEXT -1 18 " be the (base 10) " }{TEXT 
+259 1 "n" }{TEXT -1 4 "-th " }{TEXT 305 25 "generalised Fermat number
+" }{TEXT -1 17 ";  that is, let: " }}{PARA 257 "" 0 "" {XPPEDIT 18 0 "
+GF[n,10] = 10^(2^n)+1;" "6#/&%#GFG6$%\"nG\"#5,&)\"#5)\"\"#F'\"\"\"\"\"
+\"F." }{TEXT -1 2 " (" }{XPPEDIT 18 0 "n = 0,1,2,3,4,5;" "6(/%\"nG\"\"
+!\"\"\"\"\"#\"\"$\"\"%\"\"&" }{TEXT -1 7 ", ... )" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "This " }{TEXT 260 19 "enti
+rely elementary" }{TEXT -1 36 " worksheet is solely concerned with " }
+{TEXT 286 13 "two questions" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 15 "" 0 "" {TEXT 267 11 "Question #1" }{TEXT -1 1 "." 
+}{TEXT 261 10 " How many " }{TEXT -1 12 "digits does " }{XPPEDIT 18 0 
+"GF[n,10];" "6#&%#GFG6$%\"nG\"#5" }{TEXT -1 59 " have, when expressed \+
+in decimal form, i.e. in the base 10?" }}{PARA 15 "" 0 "" {TEXT 269 
+11 "Question #2" }{TEXT -1 2 ". " }{TEXT 268 0 "" }{TEXT -1 0 "" }
+{TEXT 256 7 "How big" }{TEXT -1 14 " (measured in " }{TEXT 262 11 "Lig
+ht Years" }{TEXT -1 53 "!) a square board would be needed on which to \+
+write \n" }{XPPEDIT 18 0 "GF[n,10];" "6#&%#GFG6$%\"nG\"#5" }{TEXT -1 
+49 ", assuming decimal digits were written at (say) '" }{XPPEDIT 18 0 
+"N;" "6#%\"NG" }{TEXT -1 33 " ' digits per inch? [in practice " }
+{XPPEDIT 18 0 "N = 4;" "6#/%\"NG\"\"%" }{TEXT -1 82 " might be a \nrea
+sonable value, but we will also look at atomic levels, with (say) " }
+{XPPEDIT 18 0 "N = 10^30;" "6#/%\"NG*$\"#5\"#I" }{TEXT -1 3 ".] " }}
+{PARA 0 "" 0 "" {TEXT 310 13 "Question #1: " }{TEXT 263 8 "how many" }
+{TEXT 264 1 "?" }{TEXT -1 45 " This is entirely elementary, because we
+ can " }{TEXT 316 3 "see" }{TEXT -1 23 " the decimal digits of " }
+{XPPEDIT 18 0 "GF[n,10] = 10^(2^n)+1;" "6#/&%#GFG6$%\"nG\"#5,&)\"#5)\"
+\"#F'\"\"\"\"\"\"F." }{TEXT -1 13 ", and it has " }}{PARA 0 "" 0 "" 
+{XPPEDIT 18 0 "2^n+1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"F'" }{TEXT -1 73 " \+
+decimal digits, since it is 10000000000...........0000000000001 (havin
+g " }{XPPEDIT 18 0 "2^n;" "6#)\"\"#%\"nG" }{TEXT -1 35 " digits follow
+ing that initial '1')" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }{TEXT 265 37 "Let's look at some Maple calculations
+" }{TEXT -1 35 ". First, though, I will abbreviate " }{XPPEDIT 18 0 "G
+F[n,10];" "6#&%#GFG6$%\"nG\"#5" }{TEXT -1 4 " to " }{XPPEDIT 18 0 "GF[
+n];" "6#&%#GFG6#%\"nG" }{TEXT -1 41 " (since the '10' is fixed, and on
+ly the '" }{TEXT 311 1 "n" }{TEXT -1 13 "' will vary)." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "GF := n -> 10^(2^n) + 1;  # definin
+g 'GF' as a function" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#GFGR6#%\"nG
+6\"6$%)operatorG%&arrowGF(,&)\"#5)\"\"#9$\"\"\"F2F2F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "seq(GF(n), n=0..5); # the first 6 b
+ase 10 generalised Fermat numbers" }}{PARA 11 "" 1 "" {XPPMATH 20 "6(
+\"#6\"$,\"\"&,+\"\"*,+++\"\"2,+++++++\"\"B,+++++++++++++++\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "length(GF(10)); # give the n
+umber of digits GF(10) has:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%D5" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Of course these numbers rapidly
+ increase in size:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "lengt
+h(GF(18));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'X@E" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 17 "which means that " }{XPPEDIT 18 0 "GF[18];" "6#
+&%#GFG6#\"#=" }{TEXT -1 74 " has 262,145 digits, and Maple cannot cope
+ with the number of digits that " }{XPPEDIT 18 0 "GF[19];" "6#&%#GFG6#
+\"#>" }{TEXT -1 12 " has (being " }{XPPEDIT 18 0 "2^19+1;" "6#,&*$\"\"
+#\"#>\"\"\"\"\"\"F'" }{TEXT -1 2 "):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "length(GF(19)); " }}{PARA 8 "" 1 "" {TEXT -1 31 "Erro
+r, (in GF) object too large" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+123 "say := proc(n) \nlprint(`The number of decimal digits\nin the bas
+e ten`,n,`-th. generalised \nFermat number is`, 2^n + 1)\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "say(13);" }}{PARA 6 "" 1 "" 
+{TEXT -1 93 "The number of decimal digits\nin the base ten   13   -th.
+ generalised \nFermat number is   8193" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "length(10^(2^13) + 1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"%$>)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "say(21);" }}
+{PARA 6 "" 1 "" {TEXT -1 96 "The number of decimal digits\nin the base
+ ten   21   -th. generalised \nFermat number is   2097153" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "say(2000);" }}{PARA 6 "" 1 "" {TEXT -1 694 "The numbe
+r of decimal digits\nin the base ten   2000   -th. generalised \nFerma
+t number is   11481306952742545242328332011776819840223177020886952004
+7764273682576626139237031385665948631650626991844596463898746277344711
+8960863055331425931356166653185391299891453122800006887791482400448714
+2892699006348624478161546364638836394731702604046635397090499655816239
+8808944629605623311649536164221970332681344168908984458505602379484807
+9140589009347765004290027167066258305220081322362812917612678833172065
+9899539641812702177985840404215985318325154088943390209192055495778358
+9672039160081957216630582755380425583726015528348786419432054508915275
+783882625175435528800822842770817965453762184851149029377" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 231 "To save space in the html version of thi
+s worksheet I do not execute the following command, but any reader wit
+h Maple who downloads the .mws version of this may safely remove the c
+omment sign ('#') and execute the following command" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "length(2^916772 + 1);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"'wfF" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "
+# say(916772);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "The base 10 generalised Fermat num
+ber " }{XPPEDIT 18 0 "GF[916772,10];" "6#&%#GFG6$\"'sn\"*\"#5" }{TEXT 
+-1 140 " has, in fact, 275976 digits, and so clearly it is going to re
+quire rather a large board on which to write it down. That, then, brin
+gs us to" }{TEXT 266 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 270 
+13 "Question #2: " }{TEXT 271 7 "how big" }{TEXT 272 9 " a board?" }
+{TEXT -1 1 " " }{TEXT 317 0 "" }{TEXT -1 0 "" }{TEXT 318 77 "This is e
+lementary, and to keep it at its absolute simplest I only consider '" 
+}{TEXT 319 1 "n" }{TEXT 320 8 "' to be " }{TEXT 323 4 "even" }{TEXT 
+324 52 ", since then we can write out the decimal digits of " }
+{XPPEDIT 18 0 "GF[n,10];" "6#&%#GFG6$%\"nG\"#5" }{TEXT 325 20 " in a s
+quare having " }{XPPEDIT 18 0 "2^(n/2);" "6#)\"\"#*&%\"nG\"\"\"\"\"#!
+\"\"" }{TEXT -1 1 " " }{TEXT 321 72 "digits along every line of writin
+g, with just a single digit left over. " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT 326 13 "For example, " }{XPPEDIT 18 0 "GF[4
+,10] = 10^(2^4)+1;" "6#/&%#GFG6$\"\"%\"#5,&)\"#5*$\"\"#\"\"%\"\"\"\"\"
+\"F/" }{TEXT -1 25 " = 10,000,000,000,000,001" }{TEXT 322 26 " can be \+
+written out thus:\n" }{TEXT -1 1 " " }}{PARA 259 "" 0 "" {TEXT -1 21 "
+1000\n0000\n0000\n0000\n1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 31 "Now to compute the side length " }{XPPEDIT 18 0 "L
+;" "6#%\"LG" }{TEXT -1 34 " - first in inches - of the square" }{TEXT 
+273 1 " " }{TEXT -1 75 "it would take to write out (really big) base 1
+0 generalised Fermat numbers " }{XPPEDIT 18 0 "GF[n,10];" "6#&%#GFG6$%
+\"nG\"#5" }{TEXT -1 10 " for even " }{TEXT 327 2 "n." }{TEXT -1 1 " " 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 135 "The fo
+llowing (obviously constructed Maple procedure) computes the side leng
+th of the square needed to write out the decimal digits of " }
+{XPPEDIT 18 0 "GF[n,10];" "6#&%#GFG6$%\"nG\"#5" }{TEXT -1 77 " at N di
+gits per inch (and in the first examples that follow I choose N = 4):
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 216 "inches := proc(n, N) \+
+\nlprint(`The side length of the square in which \nto write the decima
+l digits of the`, n,`-th. \nbase 10 generalised Fermat number at`, N, \+
+`digits per \ninch is`, evalf(sqrt(2^n)/N), `INCHES`) \nend:" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Of course it's " }{TEXT 329 7 "obv
+ious" }{TEXT -1 35 " (in advance) that the side length " }{TEXT 330 7 
+"doubles" }{TEXT -1 23 " for every increase in " }{TEXT 328 1 "n" }
+{TEXT -1 71 " of 2, and I only give the following outputs for illustra
+tive purposes:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "inches(4,
+ 4); # the above example:" }}{PARA 6 "" 1 "" {TEXT -1 163 "The side le
+ngth of the square in which \nto write the decimal digits of the   4  \+
+ -th. \nbase 10 generalised Fermat number at   4   digits per \ninch i
+s   1.   INCHES" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "inches(6
+, 4);" }}{PARA 6 "" 1 "" {TEXT -1 163 "The side length of the square i
+n which \nto write the decimal digits of the   6   -th. \nbase 10 gene
+ralised Fermat number at   4   digits per \ninch is   2.   INCHES" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "inches(8, 4);" }}{PARA 6 "" 
+1 "" {TEXT -1 163 "The side length of the square in which \nto write t
+he decimal digits of the   8   -th. \nbase 10 generalised Fermat numbe
+r at   4   digits per \ninch is   4.   INCHES" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 14 "inches(10, 4);" }}{PARA 6 "" 1 "" {TEXT -1 164 "
+The side length of the square in which \nto write the decimal digits o
+f the   10   -th. \nbase 10 generalised Fermat number at   4   digits \+
+per \ninch is   8.   INCHES" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "inches(18, 4);" }}{PARA 6 "" 1 "" {TEXT -1 166 "The side length of
+ the square in which \nto write the decimal digits of the   18   -th. \+
+\nbase 10 generalised Fermat number at   4   digits per \ninch is   12
+8.   INCHES" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "Thus to write " }
+{XPPEDIT 18 0 "GF[18,10];" "6#&%#GFG6$\"#=\"#5" }{TEXT -1 150 " out in
+ a square would require a page measuring 128 by 128 inches to write ou
+t its decimal digits at 4 digits per inch in the vertical and horizont
+al." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "Bu
+t let's jump ahead somewhat!!:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "inches(70, 4);" }}{PARA 6 "" 1 "" {TEXT -1 173 "The side lengt
+h of the square in which \nto write the decimal digits of the   70   -
+th. \nbase 10 generalised Fermat number at   4   digits per \ninch is \+
+  8589934592.   INCHES" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 134 "That's
+ just over 135,573 miles!! (Recall that 1 foot = 12 inches, 1 yard = 3
+ feet, 1 mile = 1760 yards, so 1 mile = 12*3*1760 inches):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "iquo(8589934592, 12*3*1760);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'tb8" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 287 22 "Let's convert to miles" }{TEXT -1 148 " [
+I grew up with inches, feet, yards, ... , miles, and so apologies to a
+nyone used to centimetres etc. Make your own conversions]. Recall ther
+e are:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 
+19 "12 inches in a foot" }}{PARA 15 "" 0 "" {TEXT -1 16 "3 feet in a y
+ard" }}{PARA 15 "" 0 "" {TEXT -1 21 "1760 yards in a mile\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 241 "#miles := proc(n, N) \n#lpr
+int(`The side length of the square in which \n#to write the decimal di
+gits of the`, n,`-th. \n#base 10 generalised Fermat number at`, N, `di
+gits \n#per INCH is`, floor(evalf(sqrt(2^n))/(N*12*3*1760)), \n#`MILES
+`) \n#end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 222 "miles := pro
+c(n, N) \nlprint(`The side length of the square in which \nto write th
+e decimal digits of the`, n,`-th. \nbase 10 generalised Fermat number \+
+at`, N, `digits \nper INCH is`, sqrt(2.0^n)/(N*12*3*1760), \n`MILES`) \+
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 13 "miles(70, 4);" }}{PARA 6 "" 1 "" {TEXT 
+-1 172 "The side length of the square in which \nto write the decimal \+
+digits of the   70   -th. \nbase 10 generalised Fermat number at   4  \+
+ digits \nper INCH is   135573.4626   MILES" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "mile
+s(100, 32);" }}{PARA 6 "" 1 "" {TEXT -1 174 "The side length of the sq
+uare in which \nto write the decimal digits of the   100   -th. \nbase
+ 10 generalised Fermat number at   32   digits \nper INCH is   5553089
+02.9   MILES" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 41 "This is the place to start converting to \+
+" }{TEXT 274 0 "" }{TEXT 275 0 "" }{TEXT 276 11 "Light Years" }{TEXT 
+277 0 "" }{TEXT 278 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 288 13 "First, though" }{TEXT -1 20 ", I want to make an \+
+" }{TEXT 289 14 "optical change" }{TEXT -1 9 " to the '" }{TEXT 290 6 
+"lprint" }{TEXT -1 14 "' line in the " }{TEXT 291 5 "miles" }{TEXT -1 
+130 " proc: instead of saying \"the number of miles is X ... \", I wan
+t to alter it to: \"the number of miles is 10 to the power of ... \",
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 262 "miles2 := proc(n, N) \+
+\nlprint(`The side length of the square in which to \nwrite the decima
+l digits of the base 10 `, n,`-th. \ngeneralised Fermat number at`, N,
+ `digits per INCH \nis 10 to the power of`, \nlog[10](evalf(sqrt((2.0^
+n)))/(N*12*3*1760)), \n`MILES`) \nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "miles2(
+70, 16);" }}{PARA 6 "" 1 "" {TEXT -1 193 "The side length of the squar
+e in which to \nwrite the decimal digits of the base 10    70   -th. \+
+\ngeneralised Fermat number at   16   digits per INCH \nis 10 to the p
+ower of   4.530114697   MILES" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "miles2(700, 16);" }}{PARA 6 "" 1 "" {TEXT -1 194 "The side lengt
+h of the square in which to \nwrite the decimal digits of the base 10 \+
+   700   -th. \ngeneralised Fermat number at   16   digits per INCH \n
+is 10 to the power of   99.35456333   MILES" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+292 33 "Now, what I really want is to let" }{TEXT -1 0 "" }{TEXT 293 
+1 " " }{XPPEDIT 18 0 "n = 916772;" "6#/%\"nG\"'sn\"*" }{TEXT -1 13 ", \+
+to see the " }{TEXT 294 8 "GIGANTIC" }{TEXT -1 39 " size of the genera
+lised Fermat number " }{XPPEDIT 18 0 "GF[916772,10];" "6#&%#GFG6$\"'sn
+\"*\"#5" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "
+miles2(916772, 4);" }}{PARA 6 "" 1 "" {TEXT -1 196 "The side length of
+ the square in which to \nwrite the decimal digits of the base 10    9
+16772   -th. \ngeneralised Fermat number at   4   digits per INCH \nis
+ 10 to the power of   137982.5317   MILES" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 297 22 "Two final \+
+things to do" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+15 "" 0 "" {TEXT -1 11 "Convert to " }{TEXT 295 12 "light years\n" }}
+{PARA 15 "" 0 "" {TEXT 296 16 "Greatly increase" }{TEXT -1 14 " the va
+lue of " }{XPPEDIT 18 0 "NDI;" "6#%$NDIG" }{TEXT -1 2 " \n" }}{PARA 0 
+"" 0 "" {TEXT -1 35 "First, recall the definition of a '" }{TEXT 279 
+10 "light year" }{TEXT -1 2 "':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 280 10 "Definition" }{TEXT -1 4 "
+. A " }{TEXT 281 10 "light year" }{TEXT -1 8 " is the " }{TEXT 282 40 
+"distance traversed by light in one year." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT 283 18 "Working assumption" }{TEXT -1 3 "
+s. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT 284 47 "
+The speed of light is 186,000 miles per second\n" }}{PARA 15 "" 0 "" 
+{TEXT 298 21 "The year has 365 days" }{TEXT -1 1 "\n" }}{PARA 0 "" 0 "
+" {TEXT 299 31 "Converting miles to light years" }{TEXT -1 1 ":" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "light_year := 186000*60*60*24*356; \+
+ # miles" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+light_yearG\".++Si5s&" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 53 "I want to express that as an approximate power of 10:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "log[10](5721062400000.0);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+owuv7!\")" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "And s
+o a " }{TEXT 300 13 "light year is" }{TEXT -1 1 " " }{XPPEDIT 18 0 "10
+^12.75747669;" "6#)\"#5$\"+pwuv7!\")" }{TEXT -1 1 " " }{TEXT 301 5 "mi
+les" }{TEXT -1 49 ", which explains the following alteration of the " 
+}{TEXT 302 6 "miles3" }{TEXT -1 11 " procedure:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 277 "LIGHT_YEARS := proc(n, N) \nlprint(`The lengt
+h of square in which to write \nthe decimal digits of the base 10`, n,
+`-th. \ngeneralised Fermat number at`, N, `digits per INCH \nis 10 to \+
+the POWER of`, \nlog[10](evalf(sqrt((2.0^n)))/(N*12*3*1760)) - 12.7574
+7668, \n`LIGHT YEARS`) \nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 72 "And thus - writing at 4 \+
+digits per inch - the generalised Fermat number " }{XPPEDIT 18 0 "GF[9
+16772,10];" "6#&%#GFG6$\"'sn\"*\"#5" }{TEXT -1 47 " would require a sq
+uare whose size was give by:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "LIGHT_YEARS(916772, 4);" }}{PARA 6 "" 1 "" {TEXT -1 192 "The len
+gth of square in which to write \nthe decimal digits of the base 10   \+
+916772   -th. \ngeneralised Fermat number at   4   digits per INCH \ni
+s 10 to the POWER of   137969.7742   LIGHT YEARS" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 132 "That
+ is a very great distance (with which I cannot mentally come to terms)
+, and it is linguistically meaningless to merely call it '" }{TEXT 
+304 20 "astronomically large" }{TEXT -1 2 ".'" }}{PARA 0 "" 0 "" 
+{TEXT -1 247 "Just think for a moment of some of the great astronomica
+l distances, from say the nearest star (apart from our own sun, which \+
+is a mere 9 light minutes away from us), through some nearby nebula (A
+ndromeda at 2,000,000 light years), and so on ... ." }}{PARA 0 "" 0 "
+" {TEXT -1 23 "And suppose we went to " }{TEXT 303 24 "atomic levels o
+f writing" }{TEXT -1 21 ", let's say we set:  " }{XPPEDIT 18 0 "N = 10
+^30;" "6#/%\"NG*$\"#5\"#I" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "LIGHT_YEARS(916772, \+
+10^30);" }}{PARA 6 "" 1 "" {TEXT -1 222 "The length of square in which
+ to write \nthe decimal digits of the base 10   916772   -th. \ngenera
+lised Fermat number at   1000000000000000000000000000000   digits per \+
+INCH \nis 10 to the POWER of   137940.3763   LIGHT YEARS" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 2 }{VIEWOPTS 1 
+1 0 1 1 1803 }

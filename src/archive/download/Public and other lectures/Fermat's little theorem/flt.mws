@@ -1,0 +1,1851 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 1 12 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 1 12 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 267 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 268 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 271 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 272 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 1 
+12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 1 12 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 1 12 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 289 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 293 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 309 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 313 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 333 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 353 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 360 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 361 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 362 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 366 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 369 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 372 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 373 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 376 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 377 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 380 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 381 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 382 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 385 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 386 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 387 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 388 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 389 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 391 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 392 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 393 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 395 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 396 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 397 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 400 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 401 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 402 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 405 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 406 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 407 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 408 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 409 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 411 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 412 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 413 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 416 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 417 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 418 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 419 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 420 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 421 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 422 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 424 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 425 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 426 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 427 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 428 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 429 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 430 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 431 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 432 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 433 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 434 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 436 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 437 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 438 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 439 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 440 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 441 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 442 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 443 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 444 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 445 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 446 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 447 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 448 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 449 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 450 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 451 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 452 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 453 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 454 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 455 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 456 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 457 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 458 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 459 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 460 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 461 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 462 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 463 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 464 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 465 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 466 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 467 "" 1 12 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 468 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 469 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 470 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 471 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 472 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 473 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 474 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 475 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 476 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 477 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 478 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 479 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 480 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 481 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 482 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 483 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 484 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 485 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 486 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 487 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 488 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 489 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 490 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 491 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 492 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 493 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 494 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 495 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 496 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 497 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 498 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 499 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 500 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 501 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 502 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 503 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 504 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 505 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 506 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 507 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 508 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 509 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 510 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 511 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 512 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 513 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 514 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 515 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 516 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 517 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 518 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 519 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 520 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 521 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 522 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 523 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 524 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 525 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 526 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 527 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 528 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 529 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 530 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 531 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 532 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 533 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 534 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 535 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 536 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 537 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 538 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 539 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 540 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 541 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 542 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 543 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 544 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 545 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 546 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 547 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 548 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 549 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 550 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 551 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 552 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 553 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 554 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 555 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 556 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 557 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 558 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 559 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 560 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 561 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 562 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 563 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 564 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 565 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 566 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 567 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 568 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 569 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 570 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 571 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 572 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 573 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 574 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 575 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 1 0 1 0 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 128 0 0 1 0 1 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" 
+-1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 
+}{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 0 128 0 0 1 0 0 0 0 
+0 0 1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 
+{CSTYLE "" -1 -1 "" 0 0 255 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "
+" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 
+"" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }
+{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 
+0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "Author" 0 19 1 {CSTYLE 
+"" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 8 8 0 0 0 0 0 0 
+-1 0 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 260 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 261 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 262 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 263 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 264 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 265 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 266 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 267 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 268 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 269 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 270 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 271 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 272 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 273 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 274 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 275 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 276 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 277 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 278 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 279 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 280 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 281 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 282 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 283 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 284 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 285 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 286 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 287 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 288 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 289 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 290 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 291 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 292 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 293 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 294 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 295 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 296 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 297 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 298 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 299 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 300 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 301 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 302 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 303 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "# ICTMT5talk.mws" }}
+}{SECT 1 {PARA 3 "" 0 "" {TEXT 280 0 "" }{TEXT -1 9 "Fermat's " }
+{TEXT 282 7 "little " }{TEXT -1 49 "theorem, ICTMT5, Klagenfurt Univer
+sity, Austria. " }{XPPEDIT 18 0 "7^th;" "6#)\"\"(%#thG" }{TEXT -1 12 "
+August 2001." }}{PARA 18 "" 0 "" {TEXT -1 9 "Fermat's " }{TEXT 281 6 "
+little" }{TEXT -1 8 " theorem" }}{PARA 257 "" 0 "" {TEXT 279 0 "" }
+{TEXT 466 102 "For Mark Daly - former colleague and friend -\nwho help
+ed me (and still does) when I was really stuck\n\n" }{TEXT -1 101 "Joh
+n Cosgrave, Mathematics Department,\nSt. Patrick's College, Drumcondra
+, \nDublin 9, IRELAND.\nemail: " }{TEXT 283 20 "John.Cosgrave@spd.ie" 
+}{TEXT -1 11 "\nweb site: " }{TEXT 284 30 "http://www.spd.dcu.ie/johnb
+cos" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 168 
+"A thing of beauty is a joy for ever.\nIts loveliness increases; it wi
+ll never\nPass into nothingness.                        \n[John Keats \+
+(1795-1821), Endymion (1818)]  \n" }}{PARA 0 "" 0 "" {TEXT -1 81 "Ferm
+at's 'little' theorem is one of the jewels of Number Theory, and to ma
+rk the " }{XPPEDIT 18 0 "400^th;" "6#)\"$+%%#thG" }{TEXT -1 32 " anniv
+ersary of Fermat's birth (" }{XPPEDIT 18 0 "17^th;" "6#)\"#<%#thG" }
+{TEXT -1 606 " August 2001), I offer this talk. My talk is not intende
+d as an introduction to Number Theory, nor indeed even as an introduct
+ion to Maple, although in both cases it could serve as such. Indeed in
+ the time available (some 30 minutes) it will be possible for me to co
+ver only a very small selection of the topics listed below. Anyone who
+ is interested may access the this Maple .mws file at my web site, and
+ also a html text conversion (which may be read by anyone who has a we
+b browser, and does not require having Maple); they are in the Public \+
+and Other Lectures section of the Maple section of my site. " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 100 "Because of the
+ widely reported work of Andrew Wiles, many non-mathematicians have he
+ard of Fermat's " }{TEXT 256 4 "Last" }{TEXT -1 16 " Theorem - that " 
+}{XPPEDIT 18 0 "x^n+y^n = z^n;" "6#/,&)%\"xG%\"nG\"\"\")%\"yGF'F()%\"z
+GF'" }{TEXT -1 39 " has no solutions in non-zero integers " }{TEXT 
+257 1 "x" }{TEXT -1 2 ", " }{TEXT 258 1 "y" }{TEXT -1 5 " and " }
+{TEXT 259 1 "z" }{TEXT -1 6 ", for " }{XPPEDIT 18 0 "n = 3,4,5;" "6%/%
+\"nG\"\"$\"\"%\"\"&" }{TEXT -1 91 ", ... - and it is probable that mor
+e significant mathematical ideas have been developed in " }{TEXT 542 
+10 "attempting" }{TEXT -1 4 " to " }{TEXT 541 5 "prove" }{TEXT -1 58 "
+ that result than any other single mathematical question. " }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 "But, is the " }
+{TEXT 260 4 "Last" }{TEXT -1 135 " theorem one of any consequence? Has
+ anyone (yet!) found an application for it? Such-and-such is true beca
+use of Fermat's Last Theorem?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 22 "On the other hand his " }{TEXT 543 6 "lit
+tle" }{TEXT -1 81 " theorem - which was relatively easy to prove (but \+
+how many could create a proof " }{TEXT 544 9 "ab initio" }{TEXT -1 11 
+"?) - has a " }{TEXT 545 10 "vast range" }{TEXT -1 260 " of mathematic
+al consequences, and one major practical application. The purpose of m
+y talk is to identify in a single document a number of those consequen
+ces, but I am aware that I have not covered all of them; for example I
+ have not touched upon the topic of " }{TEXT 572 10 "Carmichael" }
+{TEXT -1 91 " numbers (even though they are there in the background of
+ Guiga's conjecture in Section 7)." }}}{SECT 1 {PARA 3 "" 0 "" {TEXT 
+-1 23 "Section 1. The use of '" }{TEXT 498 6 "little" }{TEXT -1 45 "',
+ the theorem itself, and how it originated." }}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 5 "The '" }{TEXT 487 6 "little" }{TEXT -1 17 "' of the theo
+rem." }}{PARA 0 "" 0 "" {TEXT -1 51 "When did this theorem start to be
+ called 'Fermat's " }{TEXT 488 6 "little" }{TEXT -1 46 " theorem? Who \+
+(in English) first called it so?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 89 "Actually not everyone calls it so. In Vol
+ I [1919] of Dickson's monumental three volume [" }{TEXT 489 7 "Histor
+y" }{TEXT -1 1 " " }{TEXT 490 6 "of the" }{TEXT -1 1 "]" }{TEXT 491 
+18 " Theory of Numbers" }{TEXT -1 210 " there is an entire chapter dev
+oted to 'Fermat's and Wilson's Theorems.' Hardy and Wright, Davenport,
+ Nagell, ... , simply use 'Fermat's theorem.' And Sierpinski calls it \+
+'Simple Theorem of Fermat' in his 1964 " }{TEXT 496 48 "A Selection of
+ problems in the Theory of Numbers" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "Of course everyone knows \+
+what 'Wilson's theorem' is - since there is only " }{TEXT 492 3 "one" 
+}{TEXT -1 192 " such theorem (but, no doubt, someone will write and te
+ll me of another!) - but 'Fermat's theorem'? Well there are several cl
+aimants: the beautiful result - to name but one - that every prime " }
+{TEXT 493 1 "p" }{TEXT -1 7 ", with " }{XPPEDIT 18 0 "p = 1;" "6#/%\"p
+G\"\"\"" }{TEXT -1 30 " (mod 4), is representable by " }{XPPEDIT 18 0 
+"p = a^2+b^2;" "6#/%\"pG,&*$%\"aG\"\"#\"\"\"*$%\"bG\"\"#F)" }{TEXT -1 
+83 " for some (unique; ignoring, of course, change of signs, and inter
+change) integers " }{TEXT 494 1 "a" }{TEXT -1 5 " and " }{TEXT 495 1 "
+b" }{TEXT -1 44 ", could well claim to be 'Fermat's theorem.'" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "On June " 
+}{XPPEDIT 18 0 "20^th;" "6#)\"#?%#thG" }{TEXT -1 386 " 2001 I sent an \+
+email to the Number Theory Mailing List enquiring if anyone could answ
+er the above questions. I received several responses (some public, som
+e private), and I will place them in the Fermat's little theorem secti
+on of my web site. Briefly, however, I note that a probable answer is \+
+that the 'little' came into English from German, but there was no defi
+nitive answer as to " }{TEXT 497 3 "who" }{TEXT -1 21 " first used 'li
+ttle.'" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 19 "The theorem itself." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 278 0 "" }{TEXT -1 127 "Accordin
+g to Dickson (and others; see Bibliography) Fermat first announced his
+ theorem in a letter to Mersenne, June (?), 1640." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 271 17 "Fermat's 'little'" }
+{TEXT 360 1 " " }{TEXT 272 13 "theorem. Let " }{TEXT 257 1 "p" }{TEXT 
+-1 15 " be prime, and " }{TEXT 258 1 "a" }{TEXT -1 21 " be any integer
+ with " }{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " 
+}{TEXT 468 1 "p" }{TEXT -1 7 "), then" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 279 "" 0 "" {TEXT 256 1 " " }{XPPEDIT 18 0 "a^(p-1) = 1;" "6
+#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+469 1 "p" }{TEXT -1 1 ")" }{TEXT 263 1 " " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT 467 32 "In non-congruence language: let \+
+" }{TEXT 265 1 "p" }{TEXT 273 19 " be any prime, and " }{TEXT 266 1 "a
+" }{TEXT 274 33 " be any integer not divisible by " }{TEXT 267 1 "p" }
+{TEXT 275 7 ", then " }{XPPEDIT 18 0 "a^(p-1);" "6#)%\"aG,&%\"pG\"\"\"
+\"\"\"!\"\"" }{TEXT -1 17 " leaves remainder" }{TEXT 276 18 " 1 on div
+ision by " }{TEXT 268 1 "p" }{TEXT 277 2 ". " }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 41 "A small hand performed illustration. Let " }
+{XPPEDIT 18 0 "p = 7;" "6#/%\"pG\"\"(" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "a = 2;" "6#/%\"aG\"\"#" }{TEXT -1 7 ", then " }{XPPEDIT 18 0 "a^
+(p-1) = 2^6;" "6#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"*$\"\"#\"\"'" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "64 = 7;" "6#/\"#k\"\"(" }{TEXT -1 1 "*" }
+{XPPEDIT 18 0 "9+1;" "6#,&\"\"*\"\"\"\"\"\"F%" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Maple exa
+mples (the meaning of each command should be clear)." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "p[1] := nextprime(120);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%\"pG6#\"\"\"\"$F\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "a[1] := 2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\"\"\"\"#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "57 mod 5; # the remaind
+er 57 leaves on division by 5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "a[1]^(p[1] - 1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"GkG0Uz&=lVe'ehM-t\"fq])" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "a[1]^(p[1] - 1) mod p[1];" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "p[2] := nextprime(10^20 + rand());" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%\"pG6#\"\"#\"6\"4p'>uU++++\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 63 "a[2] := rand(); # Maple has a 12-digit random
+ number generator:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"aG6#\"\"#\"
+-qKp56K" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "a[2] mod p[2];" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"-qKp56K" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 16 "a[2]^(p[2] - 1);" }}{PARA 8 "" 1 "" {TEXT -1 35 "E
+rror, integer too large in context" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 77 "That expected, and intentional output can be overcome by using \+
+the so-called " }{TEXT 361 19 "square-and-multiply" }{TEXT -1 158 " me
+thod which is incorporated into a Maple command by the use of '&' as f
+ollows. (The mathematics of that command, the so-called square-and-mul
+tiply method - " }{TEXT 362 22 "modular exponentiation" }{TEXT -1 122 
+" - is covered in a Maple worksheet at my web site. It forms part of m
+y 3rd year course on Number Theory and Cryptography.)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "a[2]&^(p[2] - 1) mod p[2];" }{TEXT 
+-1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 30 "And let's just see the values " }{XPPEDIT 18 0 "a \+
+= 2,3,5;" "6%/%\"aG\"\"#\"\"$\"\"&" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 23 "2&^(p[2] - 1) mod p[2];" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "
+3&^(p[2] - 1) mod p[2];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "5&^(p[2] - 1) mod p[2];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 73 "Anyone who al
+ready knows some Number Theory will understand why I didn't " }{TEXT 
+444 5 "check" }{TEXT -1 5 " that" }}{PARA 275 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "4^(p[2]-1) = 1;" "6#/)\"\"%,&&%\"pG6#\"\"#\"\"\"\"\"\"!
+\"\"\"\"\"" }{TEXT -1 6 " (mod " }{XPPEDIT 18 0 "p[2];" "6#&%\"pG6#\"
+\"#" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 9 "It is an " }{TEXT 
+470 9 "automatic" }{TEXT -1 15 " consequence of" }}{PARA 276 "" 0 "" 
+{TEXT -1 0 "" }{XPPEDIT 18 0 "2^(p[2]-1) = 1;" "6#/)\"\"#,&&%\"pG6#\"
+\"#\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{XPPEDIT 18 0 "p[2];
+" "6#&%\"pG6#\"\"#" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 9 "as i
+ndeed" }}{PARA 277 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "6^(p[2]-1) = \+
+1;" "6#/)\"\"',&&%\"pG6#\"\"#\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (m
+od " }{XPPEDIT 18 0 "p[2];" "6#&%\"pG6#\"\"#" }{TEXT -1 1 ")" }}{PARA 
+0 "" 0 "" {TEXT -1 19 "is a consequence of" }}{PARA 278 "" 0 "" {TEXT 
+-1 0 "" }{XPPEDIT 18 0 "2^(p[2]-1) = 1;" "6#/)\"\"#,&&%\"pG6#\"\"#\"\"
+\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{XPPEDIT 18 0 "p[2];" "6#&%
+\"pG6#\"\"#" }{TEXT -1 2 ") " }{TEXT 445 3 "and" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "3^(p[2]-1) = 1;" "6#/)\"\"$,&&%\"pG6#\"\"#\"\"\"\"\"\"!
+\"\"\"\"\"" }{TEXT -1 6 " (mod " }{XPPEDIT 18 0 "p[2];" "6#&%\"pG6#\"
+\"#" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 22 "and now consider t
+his:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "p := 10^80*rand()^2
+ + 20! + 2*rand() + 127;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"cq
+`s#*)ocH!HV-++++++++++++++++++++++++++++++4yCLyWQ$*o$3=\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$/\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 452 5 "Could" }
+{TEXT -1 6 " that " }{TEXT 446 1 "p" }{TEXT -1 1 " " }{TEXT 453 2 "be
+" }{TEXT -1 21 " a prime? Let's see: " }{TEXT 448 2 "if" }{TEXT -1 1 "
+ " }{TEXT 449 1 "p" }{TEXT -1 10 " is prime " }{TEXT 450 4 "then" }
+{TEXT -1 23 " automatically we have " }{XPPEDIT 18 0 "2^(p-1) = 1;" "6
+#/)\"\"#,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+451 1 "p" }{TEXT -1 7 "), etc." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 20 "So, let's calculate;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 17 "2&^(p - 1) mod p;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"cqGD@/]R!>7f,sW6IpOpFSLC()G:]@(3M$=C[FkJC?a7\">0)zQ\\
+'H'G=#=R" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 38 "Ah! So it isn't, since the output was " }
+{TEXT 447 3 "not" }{TEXT -1 111 " 1. I hope you realise how powerful t
+hat calculation is, for in a microsecond it has determined that the ab
+ove " }{TEXT 454 1 "p" }{TEXT -1 14 " is composite." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 455 8 "Question" }{TEXT -1 71 
+". But what if the output had been '1'? What then? Would it follow tha
+t " }{TEXT 456 1 "p" }{TEXT -1 150 " is prime? If you don't already kn
+ow the answer to that question, then you might like to think about it \+
+before you read Section 4 (Primality Testing)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 457 13 "Software Note" }{TEXT 
+-1 35 ". The above fast computation might " }{TEXT 459 6 "appear" }
+{TEXT -1 21 " impressive, but for " }{TEXT 462 15 "seriously large" }
+{TEXT -1 47 " numbers - ones with hundreds of thousands, or " }{TEXT 
+463 15 "several million" }{TEXT -1 20 " digits - Maple is, " }{TEXT 
+458 12 "quite simply" }{TEXT -1 1 "," }{TEXT 460 19 " absolutely usele
+ss" }{TEXT -1 37 ". For seriously large numbers a user " }{TEXT 461 4 
+"must" }{TEXT -1 50 " avail of remarkable public-domain programs like:
+\n" }}{PARA 15 "" 0 "" {TEXT -1 102 "prime95.exe (George Woltman's GIM
+PS project)\n\nEveryone will know that George's program has found - on
+ " }{TEXT 483 7 "desktop" }{TEXT -1 197 " computers - the last four re
+cord sized Mersenne primes (most earlier ones had been found on CRAY s
+upercomputers), the most recent of which is the only known prime with \+
+more than a million digits.\n" }}{PARA 15 "" 0 "" {TEXT -1 134 "proth.
+exe (Yves Gallot's Proth project)\n\nIn July 1999 - using Yves' progra
+m - I had the good fortune to find the 115130 digit prime 3*" }
+{XPPEDIT 18 0 "2^382449+1;" "6#,&*$\"\"#\"'\\CQ\"\"\"\"\"\"F'" }{TEXT 
+-1 6 " (the " }{TEXT 482 4 "then" }{TEXT -1 1 " " }{XPPEDIT 18 0 "10^t
+h;" "6#)\"#5%#thG" }{TEXT -1 54 " largest known prime), and a factor o
+f the (then, and " }{TEXT 484 5 "still" }{TEXT -1 105 ") largest known
+ composite Fermat number:                        \n                   \+
+                     " }{XPPEDIT 18 0 "F[382447] = 2^(2^382447)+1;" "6
+#/&%\"FG6#\"'ZCQ,&)\"\"#*$\"\"#\"'ZCQ\"\"\"\"\"\"F." }{TEXT -1 43 "\n
+\nThat prime proved to be a divisor of the " }{TEXT 485 12 "generalise
+d " }{TEXT -1 57 "Fermat numbers:\n\n                                 \+
+       " }{XPPEDIT 18 0 "GF[382447,3] = 3^(2^382447)+1;" "6#/&%#GFG6$
+\"'ZCQ\"\"$,&)\"\"$*$\"\"#\"'ZCQ\"\"\"\"\"\"F/" }{TEXT -1 42 ",\n     \+
+                                   " }{XPPEDIT 18 0 "GF[382443,6] = 6^
+(2^382443)+1;" "6#/&%#GFG6$\"'VCQ\"\"',&)\"\"'*$\"\"#\"'VCQ\"\"\"\"\"
+\"F/" }{TEXT -1 39 ",\n                                 and " }
+{XPPEDIT 18 0 "GF[382447,12] = 12^(2^382447)+1;" "6#/&%#GFG6$\"'ZCQ\"#
+7,&)\"#7*$\"\"#\"'ZCQ\"\"\"\"\"\"F/" }{TEXT -1 85 "\n\neach of which w
+ere new records for their type (of which the last two still stand).\n
+" }}{PARA 15 "" 0 "" {TEXT -1 80 "Prime Form (Chris Nash's original ve
+rsion, based on Yves Gallot's Proth library)" }}{PARA 15 "" 0 "" 
+{TEXT -1 76 "NewPGen (Paul Jobling's sieve program, based on Yves Gall
+ot's Proth library)" }}{PARA 15 "" 0 "" {TEXT -1 410 "PRP (George Wolt
+man's probabilistic primality program - which actually uses Fermat's l
+ittle theorem - to be used in conjunction with NewPGen, and Proth.exe)
+. A faster version - PRP2 - also by GW, exploits the recent Intel Pent
+ium IV chip\n\nIn May 2001 - using a combination of Yves Gallot's prot
+h, Paul Jobling's NewPGen, and George Woltman's PRP - I also had the g
+ood fortune to find the 275,977 digit prime 3*" }{XPPEDIT 18 0 "2^9167
+72+1;" "6#,&*$\"\"#\"'sn\"*\"\"\"\"\"\"F'" }{TEXT -1 6 " (the " }
+{TEXT 486 4 "then" }{TEXT -1 1 " " }{XPPEDIT 18 0 "7^th;" "6#)\"\"(%#t
+hG" }{TEXT -1 214 " largest known prime; it may still be, but these pr
+ime rankings have a habit of not lasting for a long time!) That prime \+
+proved to be a divisor of the generalised Fermat numbers:\n           \+
+                        " }{XPPEDIT 18 0 "GF[916771,3] = 3^(2^916771)+
+1;" "6#/&%#GFG6$\"'rn\"*\"\"$,&)\"\"$*$\"\"#\"'rn\"*\"\"\"\"\"\"F/" }
+{TEXT -1 32 "\n                           and " }{XPPEDIT 18 0 "GF[916
+772,10] = 10^(2^916772)+1;" "6#/&%#GFG6$\"'sn\"*\"#5,&)\"#5*$\"\"#\"'s
+n\"*\"\"\"\"\"\"F/" }{TEXT -1 249 "\n\nThe first of those broke the pr
+evious record (above), and the second established a new record for its
+ type.\n                                                          \nLa
+st month - here in Klagenfurt - Manfred Toplic found the 246767 digit \+
+prime 5*" }{XPPEDIT 18 0 "2^819739+1;" "6#,&*$\"\"#\"'R(>)\"\"\"\"\"\"
+F'" }{TEXT -1 6 " (the " }{XPPEDIT 18 0 "9^th;" "6#)\"\"*%#thG" }
+{TEXT -1 122 " largest known prime), and a divisor of the generalised \+
+Fermat number:\n                                                   " }
+{XPPEDIT 18 0 "GF[819738,3] = 3^(2^819738)+1;" "6#/&%#GFG6$\"'Q(>)\"\"
+$,&)\"\"$*$\"\"#\"'Q(>)\"\"\"\"\"\"F/" }{TEXT -1 56 "                 \+
+                                       " }}{PARA 15 "" 0 "" {TEXT -1 
+111 "pfgw (the Chris Nash managed program; the 'pf' is 'Prime Form,' t
+he 'g' is 'Gallot,' and the 'w' is 'Woltman.')" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 221 "That list is not complet
+e; one should consult the web sites of Chris Caldwell (exclusively dev
+oted to prime numbers) or Keith Matthews (which covers Number Theory i
+n general). Those two sites are the \"cream of the cream.\"" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 35 "How Fe
+rmat discovered his theorem. " }}{PARA 0 "" 0 "" {TEXT -1 148 "I refer
+ my reader to Andr\351 Weil (Section 4, Chapter 2, of his Number Theor
+y) or Harold Edwards (Section 1, Chapter 1, of his Fermat's Last Theor
+em)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "F
+ermat's discovery of his " }{TEXT 270 6 "little" }{TEXT -1 15 " theore
+m was a " }{TEXT 471 14 "direct outcome" }{TEXT -1 179 " of his invest
+igations concerning Euclid's theorem on perfect numbers. More specific
+ally it originated from his investigations into the question of the pr
+imality or otherwise of (" }{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"
+\"\"\"\"\"!\"\"" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 42 "On occasion we say things to our students
+ " }{TEXT 363 4 "like" }{TEXT -1 71 ": I'm not sure how such-and-such \+
+first happened, was discovered, but I " }{TEXT 364 5 "think" }{TEXT 
+-1 92 " it happened like this... For example, I find myself telling my
+ students how I think Euclid " }{TEXT 365 5 "could" }{TEXT -1 167 " ha
+ve discovered his famous theorem on perfect numbers. Also, many years \+
+ago, I used to (wrongly) tell how I thought Fermat had discovered his \+
+'little' theorem... ; I " }{TEXT 366 7 "thought" }{TEXT -1 299 " he ha
+d found it by thinking about the decimal expansions of rational number
+s. In Section 2 I consider decimal and other expansions, and there you
+ will see how anyone could have formulated Fermat's little theorem had
+ he/she simply asked the right questions having investigated decimal e
+xpansions of " }{TEXT 464 7 "certain" }{TEXT -1 18 " rational numbers.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "Ferma
+t was led to formulate his theorem via Euclid's theorem on perfect num
+bers: \n" }}{PARA 280 "" 0 "" {TEXT 465 2 "if" }{TEXT -1 2 " (" }
+{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+16 ") is prime then " }{XPPEDIT 18 0 "2^(n-1)*(2^n-1);" "6#*&)\"\"#,&%
+\"nG\"\"\"\"\"\"!\"\"F(,&)\"\"#F'F(\"\"\"F*F(" }{TEXT -1 11 " is perfe
+ct" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 299 "On
+e of my Maple delivered public lectures - The recently discovered reco
+rd Mersenne prime (from 1995, and available at my web site) - treats t
+he subject of abundant, deficient and perfect numbers, the Euclid theo
+rem, etc - but here suffice it to say that before the mid 1450's it wa
+s believed that (" }{XPPEDIT 18 0 "2^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"
+\"!\"\"" }{TEXT -1 26 ") is prime if and only if " }{TEXT 472 1 "n" }
+{TEXT -1 62 " itself is prime, a result blown away by the observation \+
+that:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 281 "" 0 "" {XPPEDIT 
+18 0 "2^11-1 = 2047;" "6#/,&*$\"\"#\"#6\"\"\"\"\"\"!\"\"\"%Z?" }{TEXT 
+-1 19 " = 23*89  ... ( i )" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 30 "Of course it is trivial that (" }{XPPEDIT 18 0 "2
+^n-1;" "6#,&)\"\"#%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 18 ") is composite
+ if " }{TEXT 473 1 "n" }{TEXT -1 50 " is composite, and so the real in
+terest is in the " }{TEXT 474 8 "Mersenne" }{TEXT -1 10 " numbers \{" 
+}{XPPEDIT 18 0 "M[p];" "6#&%\"MG6#%\"pG" }{TEXT -1 9 "\}, where " }
+{XPPEDIT 18 0 "M[p] = 2^p-1;" "6#/&%\"MG6#%\"pG,&)\"\"#F'\"\"\"\"\"\"!
+\"\"" }{TEXT -1 2 ", " }{TEXT 475 1 "p" }{TEXT -1 8 " prime. " }
+{XPPEDIT 18 0 "M[p];" "6#&%\"MG6#%\"pG" }{TEXT -1 14 " is prime for " 
+}{XPPEDIT 18 0 "p = 2,3,5,7,13,17,19;" "6)/%\"pG\"\"#\"\"$\"\"&\"\"(\"
+#8\"#<\"#>" }{TEXT -1 29 ", ... , and is composite for " }{XPPEDIT 18 
+0 "p = 11;" "6#/%\"pG\"#6" }{TEXT -1 70 ", ... Before Fermat (1640) no
+thing had been investigated beyond those " }{TEXT 476 1 "p" }{TEXT -1 
+48 "'s just shown, and it was Fermat who noted that:" }}{PARA 282 "" 
+0 "" {XPPEDIT 18 0 "M[23] = 2^23-1;" "6#/&%\"MG6#\"#B,&*$\"\"#\"#B\"\"
+\"\"\"\"!\"\"" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "8388607 = 47;" "6#/\"
+(2')Q)\"#Z" }{TEXT -1 19 "*178481  ... ( ii )" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "One would need to be incr
+edibly numerically insensitive " }{TEXT 477 3 "not" }{TEXT -1 53 " to \+
+notice that '47' is so obviously related to '23':" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 283 "" 0 "" {XPPEDIT 18 0 "47 = 2;" "6#/\"#Z\"\"
+#" }{TEXT -1 1 "*" }{XPPEDIT 18 0 "23+1;" "6#,&\"#B\"\"\"\"\"\"F%" }
+{TEXT -1 0 "" }{TEXT 478 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 59 "Ones eye gets pulled back to the earlier ( i ) \+
+and notices " }{TEXT 479 27 "exactly the same phenomenon" }{TEXT -1 1 
+":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 284 "" 0 "" {XPPEDIT 18 0 
+"23 = 2;" "6#/\"#B\"\"#" }{TEXT -1 1 "*" }{XPPEDIT 18 0 "11+1;" "6#,&
+\"#6\"\"\"\"\"\"F%" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "But a " }{TEXT 480 13 "great mistake" }{TEXT -1 37 " for a
+nyone to make, looking at this " }{TEXT 481 9 "ab initio" }{TEXT -1 
+41 ", would be to rush in and wonder/declare:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 285 "" 0 "" {TEXT -1 9 "whenever " }{XPPEDIT 18 
+0 "M[p];" "6#&%\"MG6#%\"pG" }{TEXT -1 39 " is composite, its least pri
+me divisor " }{TEXT 517 1 "q" }{TEXT -1 11 " satisfies " }{XPPEDIT 18 
+0 "q = 2*p+1;" "6#/%\"qG,&*&\"\"#\"\"\"%\"pGF(F(\"\"\"F(" }{TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "For \+
+see what happens with the next prime after 23:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "p := 29;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"#H" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "M[p] := 2^p - 1;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"MG6#\"#H\"*64(o`" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "ifactor(M[p]);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*(-%!G6#\"$L#\"\"\"-F%6#\"%.6F(-F%6#\"%*3#F(" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 74 "and
+ so what did Fermat notice? Simply that not only is (returning to (i))
+ " }{XPPEDIT 18 0 "23 = 2;" "6#/\"#B\"\"#" }{TEXT -1 1 "*" }{XPPEDIT 
+18 0 "11+1;" "6#,&\"#6\"\"\"\"\"\"F%" }{TEXT -1 10 ", but also" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 290 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "89 = 8;" "6#/\"#*)\"\")" }{TEXT -1 1 "*" }{XPPEDIT 18 
+0 "11+1;" "6#,&\"#6\"\"\"\"\"\"F%" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "and, with (ii), not only \+
+is (returning to (i)) " }{XPPEDIT 18 0 "47 = 2;" "6#/\"#Z\"\"#" }
+{TEXT -1 1 "*" }{XPPEDIT 18 0 "23+1;" "6#,&\"#B\"\"\"\"\"\"F%" }{TEXT 
+-1 10 ", but also" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 291 "" 0 "
+" {XPPEDIT 18 0 "178481 = 7760;" "6#/\"'\"[y\"\"%gx" }{TEXT -1 1 "*" }
+{XPPEDIT 18 0 "23+1;" "6#,&\"#B\"\"\"\"\"\"F%" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 158 "In short, one \+
+might say that Fermat discovered (then conjectured) what one might cal
+l the Fermat-Euler theorem on prime divisors of the Mersenne numbers: \+
+for " }{TEXT 520 5 "prime" }{TEXT -1 1 " " }{TEXT 518 1 "p" }{TEXT -1 
+7 " every " }{TEXT 521 5 "prime" }{TEXT -1 9 " divisor " }{TEXT 519 1 
+"q" }{TEXT -1 4 " of " }{XPPEDIT 18 0 "M[p] = 2^p-1;" "6#/&%\"MG6#%\"p
+G,&)\"\"#F'\"\"\"\"\"\"!\"\"" }{TEXT -1 11 " satisfies:" }}{PARA 292 "
+" 0 "" {XPPEDIT 18 0 "q = 1;" "6#/%\"qG\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 522 1 "p" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 162 "But it wasn't that alone that Fermat not
+iced, for he went one step further (he didn't have congruence terminol
+ogy, but in that language this is what he observed):" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "One has " }{XPPEDIT 18 
+0 "2^11 = 1;" "6#/*$\"\"#\"#6\"\"\"" }{TEXT -1 50 " (mod 23), and so (
+squaring, cubing, etc) one has:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 293 "" 0 "" {XPPEDIT 18 0 "2^11,2^22,2^33;" "6%*$\"\"#\"#6*$\"\"
+#\"#A*$\"\"#\"#L" }{TEXT -1 27 " etc (are all) = 1 (mod 23)" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "One has " }
+{XPPEDIT 18 0 "2^11 = 1;" "6#/*$\"\"#\"#6\"\"\"" }{TEXT -1 50 " (mod 8
+9), and so (squaring, cubing, etc) one has:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "2^11,2^22,2^33;" "6%*$\"\"#
+\"#6*$\"\"#\"#A*$\"\"#\"#L" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "2^8
+8,2^99,2^110;" "6%*$\"\"#\"#))*$\"\"#\"#***$\"\"#\"$5\"" }{TEXT -1 27 
+" etc (are all) = 1 (mod 89)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 37 "One also has (looking at case (ii))  " }
+{XPPEDIT 18 0 "2^23 = 1;" "6#/*$\"\"#\"#B\"\"\"" }{TEXT -1 50 " (mod 4
+7), and so (squaring, cubing, etc) one has:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "2^23,2^46,2^69;" "6%*$\"\"#
+\"#B*$\"\"#\"#Y*$\"\"#\"#p" }{TEXT -1 27 " etc (are all) = 1 (mod 47)
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "One a
+lso has (looking at case (ii))  " }{XPPEDIT 18 0 "2^23 = 1;" "6#/*$\"
+\"#\"#B\"\"\"" }{TEXT -1 54 " (mod 178481), and so (squaring, cubing, \+
+etc) one has:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" 
+{XPPEDIT 18 0 "2^23,2^46,2^69;" "6%*$\"\"#\"#B*$\"\"#\"#Y*$\"\"#\"#p" 
+}{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "2^178480,2^178503;" "6$*$\"\"#
+\"'![y\"*$\"\"#\"'.&y\"" }{TEXT -1 32 ", etc (are all) = 1 (mod 178481
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "What
+ I am trying to draw attention to is that for " }{TEXT 552 4 "each" }
+{TEXT -1 21 " of the above primes " }{TEXT 546 1 "p" }{TEXT -1 9 " one
+ has " }{XPPEDIT 18 0 "2^m = 1;" "6#/)\"\"#%\"mG\"\"\"" }{TEXT -1 6 " \+
+(mod " }{TEXT 547 1 "p" }{TEXT -1 6 ") for " }{TEXT 549 7 "various" }
+{TEXT -1 11 " values of " }{TEXT 548 1 "m" }{TEXT -1 14 ", but that in
+ " }{TEXT 553 3 "all" }{TEXT -1 7 " cases " }{TEXT 551 4 "one " }
+{TEXT -1 9 "of those " }{TEXT 550 1 "m" }{TEXT -1 7 "'s is (" }
+{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 3 "). " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "In short,
+ for the primes " }{XPPEDIT 18 0 "p = 23,89,47,178481;" "6&/%\"pG\"#B
+\"#*)\"#Z\"'\"[y\"" }{TEXT -1 9 " one has\n" }}{PARA 294 "" 0 "" 
+{TEXT -1 1 " " }{XPPEDIT 18 0 "2^(p-1) = 1;" "6#/)\"\"#,&%\"pG\"\"\"\"
+\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 523 1 "p" }{TEXT -1 1 ")
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "But, \+
+is this true for " }{TEXT 525 5 "other" }{TEXT -1 34 " primes? Yes, of
+ course it is (or " }{TEXT 524 7 "appears" }{TEXT -1 9 " to be), " }
+{XPPEDIT 18 0 "p <> 2;" "6#0%\"pG\"\"#" }{TEXT -1 12 ", of course:" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 141 "for r to 15 do\n[ithprime(
+r), 2^(ithprime(r)-1), 2^(ithprime(r)-1) mod ithprime(r)]\nod;\n# the \+
+reason for the '0' in the 1st output is obvious:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7%\"\"#F$\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"
+\"$\"\"%\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"&\"#;\"\"\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"(\"#k\"\"\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#7%\"#6\"%C5\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+7%\"#8\"%'4%\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#<\"&Ob'\"\"
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#>\"'W@E\"\"\"" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#7%\"#B\"(/V>%\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7%\"#H\"*caVo#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#7%\"#J\"+C=ut5\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#P\",OnZ>
+(o\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#T\".wxi6&*4\"\"\"\"" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#V\"./6^Y!)R%\"\"\"" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#7%\"#Z\"/kw<W(o.(\"\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "And wh
+at about changing that '2' to " }{XPPEDIT 18 0 "3,4,5,6;" "6&\"\"$\"\"
+%\"\"&\"\"'" }{TEXT -1 7 ", etc? " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 141 "for r to 15 do\n[ithprime(r), 3^(ithprime(r)-1), 3^(
+ithprime(r)-1) mod ithprime(r)]\nod;\n# the reason for the '0' in the \+
+2nd output is obvious:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"#\"\"$
+\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"\"$\"\"*\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#7%\"\"&\"#\")\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7%\"\"(\"$H(\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7
+%\"#6\"&\\!f\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#8\"'T9`\"\"
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#<\")@n/V\"\"\"" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#7%\"#>\"**[?uQ\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7%\"#B\",4'f5QJ\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#7%\"#H\"/h\\X#zwG#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#J\"
+0\\Y4K6*e?\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#P\"3@\"**pHNY
+4]\"\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#T\"5,)Gp0famd@\"\"
+\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#V\"64#fB^J\"*)*=%4\"\"\"
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7%\"#Z\"7Hf4,Dl>\"QH'))\"\"\"" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 28 "etc. In short, one comes to " }
+{TEXT 526 7 "suspect" }{TEXT -1 6 " that " }{XPPEDIT 18 0 "a^(p-1) = 1
+;" "6#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 527 1 "p" }{TEXT -1 29 ") providing, of course, that " }
+{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 
+528 1 "p" }{TEXT -1 10 "), namely " }{TEXT 529 23 "Fermat's little the
+orem" }{TEXT -1 2 ". " }}}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 62 "Secti
+on 2. Decimal (and other) expansions of rational numbers." }}{PARA 0 "
+" 0 "" {TEXT -1 91 "Here the simple, and obvious point I wish to make \+
+is not only does Fermat's little theorem " }{TEXT 310 7 "explain" }
+{TEXT -1 17 ", or help one to " }{TEXT 311 10 "understand" }{TEXT -1 
+9 " certain " }{TEXT 436 10 "well known" }{TEXT -1 89 " phenomena in c
+onnection with the decimal expansions of rational numbers, but that th
+ose " }{TEXT 568 14 "very phenomena" }{TEXT -1 19 " themselves - with \+
+" }{TEXT 437 13 "general bases" }{TEXT -1 72 " being used (and not jus
+t decimal, i.e. base 10) - can lead someone to  " }{TEXT 312 14 "re-di
+scovering" }{TEXT -1 169 " of Fermat's little theorem. In particular, \+
+if one were working with young students, then, with proper guidance, t
+hey could be led to conjecture Fermat's little theorem." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "Specifically I refer
+ to the quickly observed fact that the " }{TEXT 554 16 "number of digi
+ts" }{TEXT -1 43 " in the period of the decimal expansion of " }
+{XPPEDIT 18 0 "1/p;" "6#*&\"\"\"\"\"\"%\"pG!\"\"" }{TEXT -1 8 " (where
+ " }{TEXT 319 1 "p" }{TEXT -1 19 " is any prime with " }{XPPEDIT 18 0 
+"p <> 2,p <> 5;" "6$0%\"pG\"\"#0F$\"\"&" }{TEXT -1 2 ") " }{TEXT 320 
+7 "appears" }{TEXT -1 38 " to an investigator to be (and may be " }
+{TEXT 321 6 "proved" }{TEXT -1 38 " using Fermat's little theorem to b
+e):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 8 "ei
+ther (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+2 ") " }}{PARA 15 "" 0 "" {TEXT -1 5 "or a " }{TEXT 438 7 "divisor" }
+{TEXT -1 5 " of (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" 
+}{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 322 5 "Start" }{TEXT -1 88 ". Many sensitive young people are fa
+scinated (or, at least, used to be!) with phenomena " }{TEXT 367 4 "li
+ke" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "
+" {XPPEDIT 18 0 "1/2 = .5;" "6#/*&\"\"\"\"\"\"\"\"#!\"\"$\"\"&!\"\"" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/3 = .33333333;" "6#/
+*&\"\"\"\"\"\"\"\"$!\"\"$\")LLLL!\")" }{TEXT -1 4 "... " }{TEXT 262 
+12 "ad infinitum" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/4 = .25;" "6#/*&
+\"\"\"\"\"\"\"\"%!\"\"$\"#D!\"#" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{XPPEDIT 18 0 "1/5 = .2;" "6#/*&\"\"\"\"\"\"\"\"&!\"\"$\"\"#!\"\"" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/6 = .16666666;" "6#/
+*&\"\"\"\"\"\"\"\"'!\"\"$\")mmm;!\")" }{TEXT -1 4 "... " }{TEXT 263 
+12 "ad infinitum" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "1/7
+ = .142857;" "6#/*&\"\"\"\"\"\"\"\"(!\"\"$\"'dG9!\"'" }{TEXT -1 22 "  \+
+142857  142857  ... " }{TEXT 264 12 "ad infinitum" }{TEXT -1 72 "\n[He
+re, and elsewhere, I make spaces to emphasise the periodic block.]\n\n
+" }{XPPEDIT 18 0 "2/7 = .285714;" "6#/*&\"\"#\"\"\"\"\"(!\"\"$\"'9dG!
+\"'" }{TEXT -1 22 "  285714  285714  ... " }{TEXT 285 12 "ad infinitum
+" }{TEXT -1 1 "\n" }}{PARA 0 "" 0 "" {TEXT -1 151 "and - as almost eve
+ryone who has ever investigated such matters (without knowing that it \+
+has all already long been discovered) - one quickly finds that" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 20 "the rati
+onal number " }{XPPEDIT 18 0 "m/n;" "6#*&%\"mG\"\"\"%\"nG!\"\"" }
+{TEXT -1 8 " (where " }{TEXT 303 1 "m" }{TEXT -1 5 " and " }{TEXT 304 
+1 "n" }{TEXT -1 15 " are positive, " }{XPPEDIT 18 0 "m < n;" "6#2%\"mG
+%\"nG" }{TEXT -1 8 ") has a " }{TEXT 313 8 "periodic" }{TEXT -1 28 " d
+ecimal expansion provided " }{TEXT 305 1 "n" }{TEXT -1 29 " is not div
+isible by 2 or 5\n\n" }{XPPEDIT 18 0 "1/21 = .47619e-1;" "6#/*&\"\"\"
+\"\"\"\"#@!\"\"$\"&>w%!\"'" }{TEXT -1 86 "  047619  047619 (I have del
+iberately made spaces to emphasise the periodic block) ..." }}{PARA 
+15 "" 0 "" {TEXT -1 10 "otherwise " }{XPPEDIT 18 0 "m/n;" "6#*&%\"mG\"
+\"\"%\"nG!\"\"" }{TEXT -1 8 " has an " }{TEXT 368 19 "eventually perio
+dic" }{TEXT -1 20 " decimal expansion\n\n" }{XPPEDIT 18 0 "1/22 = .0e-
+1;" "6#/*&\"\"\"\"\"\"\"#A!\"\"$\"\"!!\"#" }{TEXT -1 29 "  45  45  45 \+
+ 45  ...  (here " }{TEXT 306 1 "n" }{TEXT -1 21 " is divisible by 2)\n
+\n" }{XPPEDIT 18 0 "1/185 = .0e-1;" "6#/*&\"\"\"\"\"\"\"$&=!\"\"$\"\"!
+!\"#" }{TEXT -1 27 "  054  054  054  ... (here " }{TEXT 307 1 "n" }
+{TEXT -1 20 " is divisible by 5)\n" }}{PARA 15 "" 0 "" {TEXT -1 37 "An
+yone who gets preoccupied with the " }{TEXT 323 7 "lengths" }{TEXT -1 
+79 " of those periodic blocks quickly makes an often made (re)discover
+y: for prime " }{TEXT 324 1 "p" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "p <> \+
+2,p <> 5;" "6$0%\"pG\"\"#0F$\"\"&" }{TEXT -1 6 ") the " }{TEXT 439 6 "
+length" }{TEXT -1 43 " of the period of the decimal expansion of " }
+{XPPEDIT 18 0 "1/p;" "6#*&\"\"\"\"\"\"%\"pG!\"\"" }{TEXT -1 12 " is ei
+ther (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+20 ") or a divisor of  (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"
+!\"\"" }{TEXT -1 24 "). A sensitive eye gets " }{TEXT 325 13 "quickly \+
+drawn" }{TEXT -1 70 " towards the 'prime' element in all of this becau
+se the examples with " }{TEXT 555 12 "long periods" }{TEXT -1 88 " - l
+ong in relation to the size of the denominator - having encountered ex
+amples like:\n\n" }{XPPEDIT 18 0 "1/7 = .142857;" "6#/*&\"\"\"\"\"\"\"
+\"(!\"\"$\"'dG9!\"'" }{TEXT -1 38 " 142857 142857  ... [period length \+
+6]\n" }{XPPEDIT 18 0 "1/17 = .588235294117647e-1;" "6#/*&\"\"\"\"\"\"
+\"#<!\"\"$\"0Zw6%HN#)e!#;" }{TEXT -1 3 "  0" }{XPPEDIT 18 0 "588235294
+117647;" "6#\"0Zw6%HN#)e" }{TEXT -1 25 "  ... [period length 16]\n" }
+{XPPEDIT 18 0 "1/19 = .52631578947368421e-1;" "6#/*&\"\"\"\"\"\"\"#>!
+\"\"$\"2@%ot%*y:j_!#=" }{TEXT -1 3 "  0" }{XPPEDIT 18 0 "5263157894736
+8421;" "6#\"2@%ot%*y:j_" }{TEXT -1 47 "  ... [period length 18]\n\nand
+ the other primes " }{TEXT 326 1 "p" }{TEXT -1 23 ", up to 100, for wh
+ich " }{XPPEDIT 18 0 "1/p;" "6#*&\"\"\"\"\"\"%\"pG!\"\"" }{TEXT -1 20 
+" has period length (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"
+\"" }{TEXT -1 106 ") are 23, 29, 47, 59, 61 and 97. Anyone who knows s
+ufficient Number Theory will know that they are primes " }{TEXT 327 1 
+"p" }{TEXT -1 11 " for which " }{XPPEDIT 18 0 "ord[p](10) = p-1;" "6#/
+-&%$ordG6#%\"pG6#\"#5,&F(\"\"\"\"\"\"!\"\"" }{TEXT -1 51 "; in other w
+ords they are primes for which 10 is a " }{TEXT 440 14 "primitive root
+" }{TEXT -1 82 ". [See, too, Section 7 on open problems]. \nAs soon as
+ the eye has got drawn in to " }{XPPEDIT 18 0 "1/p;" "6#*&\"\"\"\"\"\"
+%\"pG!\"\"" }{TEXT -1 5 " for " }{XPPEDIT 18 0 "p = 7,17,19,23,29;" "6
+'/%\"pG\"\"(\"#<\"#>\"#B\"#H" }{TEXT -1 129 ", etc, then the eye retur
+ns to look at the decimal expansions of the reciprocals of the other p
+rimes (not 2 or 5), and notices:\n\n" }{XPPEDIT 18 0 "1/3 = .3;" "6#/*
+&\"\"\"\"\"\"\"\"$!\"\"$\"\"$!\"\"" }{TEXT -1 33 " 3 3 3 3 3 ... [peri
+od length 1]\n" }{XPPEDIT 18 0 "1/11 = .9e-1;" "6#/*&\"\"\"\"\"\"\"#6!
+\"\"$\"\"*!\"#" }{TEXT -1 35 " 09 09 09 09 ... [period length 2]\n" }
+{XPPEDIT 18 0 "1/13 = .76923e-1;" "6#/*&\"\"\"\"\"\"\"#8!\"\"$\"&Bp(!
+\"'" }{TEXT -1 37 " 076923 076923 ... [period length 6]\n" }{XPPEDIT 
+18 0 "1/31 = .32258064516129e-1;" "6#/*&\"\"\"\"\"\"\"#J!\"\"$\"/Hh^k!
+eA$!#:" }{TEXT -1 2 " 0" }{XPPEDIT 18 0 "32258064516129;" "6#\"/Hh^k!e
+A$" }{TEXT -1 24 " ... [period length 15]\n" }}{PARA 0 "" 0 "" {TEXT 
+-1 40 "Maple has a command for computing those " }{TEXT 308 1 "p" }
+{TEXT -1 8 "eriodic " }{TEXT 309 1 "d" }{TEXT -1 109 "ecimals expansio
+ns, and it's called 'pdexpand'. To access it one needs to load Maple's
+ Number Theory package:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "w
+ith(numtheory);" }}{PARA 7 "" 1 "" {TEXT -1 29 "Warning, new definitio
+n for M" }}{PARA 7 "" 1 "" {TEXT -1 33 "Warning, new definition for or
+der" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7gn%\"BG%\"FG%&GIgcdG%\"JG%\"LG
+%\"MG%*bernoulliG%)bigomegaG%&cfracG%)cfracpolG%+cyclotomicG%)divisors
+G%&eulerG%)factorEQG%*factorsetG%'fermatG%(ifactorG%)ifactorsG%)imagun
+itG%&indexG%/integral_basisG%)invcfracG%'invphiG%'isolveG%(isprimeG%*i
+ssqrfreeG%)ithprimeG%'jacobiG%*kroneckerG%'lambdaG%)legendreG%)mcombin
+eG%)mersenneG%*minkowskiG%(mipolysG%%mlogG%'mobiusG%&mrootG%&msqrtG%)n
+earestpG%*nextprimeG%*nthconverG%)nthdenomG%)nthnumerG%'nthpowG%&order
+G%)pdexpandG%$phiG%*pprimrootG%*prevprimeG%)primrootG%(quadresG%+roots
+unityG%*safeprimeG%&sigmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "order(10, 7);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "pdexpand(1/31);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&
+\"\"\"\"\"!7\"71F'\"\"$\"\"#F+\"\"&\"\")F'\"\"'\"\"%F,F&F.F&F+\"\"*" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 176 "This is not a Maple tutorial, b
+ut anyone who wishes may consult what Maple has to say about 'pdexpand
+' by executing the following line (first remove the '#', and then exec
+ute):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "# ?pdexpand" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "pdexpand(135/14);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"*7#\"\"'7(\"\"%\"\"#
+\"\")\"\"&\"\"(F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "means that \+
+" }{XPPEDIT 18 0 "135/14 = 9.6;" "6#/*&\"$N\"\"\"\"\"#9!\"\"$\"#'*!\"
+\"" }{TEXT -1 26 " 428571 428571 428571 ... " }{TEXT 314 12 "ad infini
+tum" }{TEXT -1 5 ", and" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "
+convert(PDEXPAND(-1, 2, [1, 1], [9, 0, 1, 3]), rational);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6##!(,%f5\"']**\\" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 11 "means that " }{XPPEDIT 18 0 "-2.11;" "6#,$$\"$6#!\"#!\"\"
+" }{TEXT -1 22 " 9013 9013 9013 ... = " }{XPPEDIT 18 0 "-1059401/49995
+0;" "6#,$*&\"(,%f5\"\"\"\"']**\\!\"\"F(" }{TEXT -1 1 "." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "pdexpand(1/7);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!7\"7(F&\"\"%\"\"#\"\")\"\"&\"
+\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "pdexpand(1/21);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!7\"7(F'\"\"%
+\"\"(\"\"'F&\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "pdexpa
+nd(1/22);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!
+7#F'7$\"\"%\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pdexpan
+d(1/185);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!
+7#F'7%F'\"\"&\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "In passing I cannot resist asking \+
+if from: " }{XPPEDIT 18 0 "1/11 = .9e-1;" "6#/*&\"\"\"\"\"\"\"#6!\"\"$
+\"\"*!\"#" }{TEXT -1 17 " 09 09 09 ... (A)" }}{PARA 0 "" 0 "" {TEXT 
+-1 49 "my reader can determine the decimal expansion of " }{XPPEDIT 
+18 0 "1/(11^2);" "6#*&\"\"\"\"\"\"*$\"#6\"\"#!\"\"" }{TEXT -1 66 "? In
+ other words, what do you get if you square both sides of (A)?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "pdexpand(1/11);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!7\"7$F'\"\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "pdexpand(1/11^2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%)PDEXPANDG6&\"\"\"\"\"!7\"78F'F'\"\")\"\"#
+\"\"'\"\"%F-F,F+F*F'\"\"*F.F&\"\"(\"\"$\"\"&F1F0F/F&F." }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 4 "And " }{XPPEDIT 18 0 "1/(11^3);" "6#*&\"\"
+\"\"\"\"*$\"#6\"\"$!\"\"" }{TEXT -1 2 " ?" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "pdexpand(1/11^3);" }}{PARA 12 "" 1 "" {XPPMATH 20 "
+6#-%)PDEXPANDG6&\"\"\"\"\"!7\"7^zF'F'F'\"\"(\"\"&F&\"\"$F&\"\"%\"\")F'
+F'\"\"*F'F&F+F*F*F*\"\"'F&F'F.F&F.F/F,F,F&F,\"\"#F/F.F1F*F&F/F*F+F/F+F
+*F/F1F0F,F*F&F&F-F/F+F&F&F0F-F+F,F*F/F-F&F,F/F*F-F-F+F+F1F/F0F*F0F/F,F
+-F0F,F+F0F&F1F,F1F&F+F0F1F*F,F-F*F.F+F.F*F+F1F.F&F*F-F,F'F+F'F,F,F.F'F
+/F&F0F0F'F-F'F+F*F'F/F/F/F1F-F.F0F.F+F&F/F/F'F/F.F-F1F1F1F,F.F/F&F.F&F
+'F0F0F.F0F*F'F&F*F1F.F'F1F-F'F-F1F'F*F,F0F1F.F.F+F'F-F.F.F,F+F-F0F1F'F
++F.F0F'F1F+F+F-F-F*F'F,F1F,F'F0F+F,F0F-F,F.F*F0F*F.F-F,F*F1F0F+F1F&F-F
+&F1F-F*F&F.F1F+F0F/F-F/F0F0F&F/F'F.F,F,F/F+F/F-F1F/" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 315 24 "
+A suggestion for playing" }{TEXT -1 99 ". Much fun may be had by inves
+tigating (and explaining what's going on with) decimal expansions of \+
+" }{XPPEDIT 18 0 "1/101,1/(101^2),1/(101^3);" "6%*&\"\"\"\"\"\"\"$,\"!
+\"\"*&\"\"\"F%*$\"$,\"\"\"#F'*&\"\"\"F%*$\"$,\"\"\"$F'" }{TEXT -1 8 ",
+ ... ; " }{XPPEDIT 18 0 "1/1001,1/(1001^2),1/(1001^3);" "6%*&\"\"\"\"
+\"\"\"%,5!\"\"*&\"\"\"F%*$\"%,5\"\"#F'*&\"\"\"F%*$\"%,5\"\"$F'" }
+{TEXT -1 71 ", ... ; etc. A knowledgeable practitioner should be able \+
+to quess, and " }{TEXT 317 5 "prove" }{TEXT -1 9 " results." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 316 17 
+"A word of warning" }{TEXT -1 72 ". One must be careful about saving o
+nes before executing some commands!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT 318 18 "Returning to above" }{TEXT -1 25 ". An
+d now to observe the " }{TEXT 556 7 "obvious" }{TEXT -1 145 " connecti
+on to Fermat's little theorem. All, I believe, becomes clear from almo
+st one reflection; simply consider the decimal expansion of, say, " }
+{XPPEDIT 18 0 "1/7;" "6#*&\"\"\"\"\"\"\"\"(!\"\"" }{TEXT -1 1 ":" }}
+{PARA 295 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "1/7 = .142857;" "6#/*&
+\"\"\"\"\"\"\"\"(!\"\"$\"'dG9!\"'" }{TEXT -1 20 " 142857 142857  ... \+
+" }{TEXT 558 12 "ad infinitum" }}{PARA 0 "" 0 "" {TEXT -1 28 "How does
+ one prove that the " }{TEXT 557 15 "non-terminating" }{TEXT -1 59 " d
+ecimal on the right hand side is equal to the (rational) " }}{PARA 0 "
+" 0 "" {TEXT -1 7 "number " }{XPPEDIT 18 0 "1/7;" "6#*&\"\"\"\"\"\"\"
+\"(!\"\"" }{TEXT -1 100 "? Of course one needs to have studied infinit
+e series to give a precise meaning to such an object..." }}{PARA 0 "" 
+0 "" {TEXT -1 53 "It's very simple, and straightforward, providing one
+ " }{TEXT 559 5 "knows" }{TEXT -1 6 " that:" }}{PARA 296 "" 0 "" 
+{XPPEDIT 18 0 "Sum(r^n,n = 1 .. infinity) = r/(1-r);" "6#/-%$SumG6$)%
+\"rG%\"nG/F);\"\"\"%)infinityG*&F(\"\"\",&\"\"\"F/F(!\"\"F2" }{TEXT 
+-1 5 " for " }{XPPEDIT 18 0 "-1 < r;" "6#2,$\"\"\"!\"\"%\"rG" }{TEXT 
+-1 4 " < 1" }}{PARA 0 "" 0 "" {TEXT -1 9 "and thus:" }}{PARA 297 "" 0 
+"" {TEXT -1 8 ".111... " }{TEXT 560 12 "ad infinitum" }{TEXT -1 3 " = \+
+" }{XPPEDIT 18 0 "Sum((1/10)^n,n = 1 .. infinity) = 1/(10*(1-1/10));" 
+"6#/-%$SumG6$)*&\"\"\"\"\"\"\"#5!\"\"%\"nG/F-;\"\"\"%)infinityG*&\"\"
+\"F**&\"#5F*,&\"\"\"F**&\"\"\"F*\"#5F,F,F*F," }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "1/(10-1) = 1/9;" "6#/*&\"\"\"\"\"\",&\"#5F&\"\"\"!\"\"F
+**&\"\"\"F&\"\"*F*" }{TEXT -1 0 "" }}{PARA 298 "" 0 "" {TEXT -1 11 ".0
+10101... " }{TEXT 256 12 "ad infinitum" }{TEXT -1 3 " = " }{XPPEDIT 
+18 0 "Sum((1/(10^2))^n,n = 1 .. infinity) = 1/(10^2*(1-1/(10^2)));" "6
+#/-%$SumG6$)*&\"\"\"\"\"\"*$\"#5\"\"#!\"\"%\"nG/F/;\"\"\"%)infinityG*&
+\"\"\"F**&\"#5\"\"#,&\"\"\"F**&\"\"\"F**$\"#5\"\"#F.F.F*F." }{TEXT -1 
+3 " = " }{XPPEDIT 18 0 "1/(10^2-1) = 1/99;" "6#/*&\"\"\"\"\"\",&*$\"#5
+\"\"#F&\"\"\"!\"\"F,*&\"\"\"F&\"#**F," }{TEXT -1 0 "" }}{PARA 299 "" 
+0 "" {TEXT -1 14 ".001001001... " }{TEXT 256 12 "ad infinitum" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "Sum((1/(10^3))^n,n = 1 .. infinity) = 1/(10
+^3*(1-1/(10^3)));" "6#/-%$SumG6$)*&\"\"\"\"\"\"*$\"#5\"\"$!\"\"%\"nG/F
+/;\"\"\"%)infinityG*&\"\"\"F**&\"#5\"\"$,&\"\"\"F**&\"\"\"F**$\"#5\"\"
+$F.F.F*F." }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/(10^3-1) = 1/999;" "6#/
+*&\"\"\"\"\"\",&*$\"#5\"\"$F&\"\"\"!\"\"F,*&\"\"\"F&\"$***F," }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "etc" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "Two points, now, are simply these:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "1. Fe
+rmat's little theorem (with " }{XPPEDIT 18 0 "p = 7;" "6#/%\"pG\"\"(" 
+}{TEXT -1 2 ", " }{XPPEDIT 18 0 "a = 10;" "6#/%\"aG\"#5" }{TEXT -1 9 "
+) forces " }{XPPEDIT 18 0 "1/7;" "6#*&\"\"\"\"\"\"\"\"(!\"\"" }{TEXT 
+-1 48 " to have the decimal (10) expansion that it has." }}{PARA 0 "" 
+0 "" {TEXT -1 28 "2. The decimal expansion of " }{XPPEDIT 18 0 "1/7;" 
+"6#*&\"\"\"\"\"\"\"\"(!\"\"" }{TEXT -1 2 ", " }{TEXT 562 5 "being" }
+{TEXT -1 44 " what it is, forces Fermat's little theorem " }{TEXT 561 
+7 "to hold" }{TEXT -1 5 " for " }{XPPEDIT 18 0 "p = 7;" "6#/%\"pG\"\"(
+" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "a = 10;" "6#/%\"aG\"#5" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "W
+hy? It's simple;" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 36 "1. By Fermat's little theorem, with " }{XPPEDIT 18 0 "p =
+ 7;" "6#/%\"pG\"\"(" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "a = 10;" "6#/
+%\"aG\"#5" }{TEXT -1 10 ", we have " }{XPPEDIT 18 0 "10^6 = 1;" "6#/*$
+\"#5\"\"'\"\"\"" }{TEXT -1 30 " (mod 7), and thus 7 divides (" }
+{XPPEDIT 18 0 "10^6-1;" "6#,&*$\"#5\"\"'\"\"\"\"\"\"!\"\"" }{TEXT -1 
+45 "). Performing the division by 7 we find that " }{XPPEDIT 18 0 "10^
+6-1 = 7;" "6#/,&*$\"#5\"\"'\"\"\"\"\"\"!\"\"\"\"(" }{TEXT -1 19 "*1428
+57, and so it " }{TEXT 566 7 "follows" }{TEXT -1 6 " that:" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 300 "" 0 "" {XPPEDIT 18 0 "1/7 = 142857/
+(10^6-1);" "6#/*&\"\"\"\"\"\"\"\"(!\"\"*&\"'dG9F&,&*$\"#5\"\"'F&\"\"\"
+F(F(" }{TEXT -1 29 " = .142857 142857 142857 ... " }{TEXT 563 12 "ad i
+nfinitum" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+55 "2. If one has determined that the decimal expansion of " }
+{XPPEDIT 18 0 "1/7;" "6#*&\"\"\"\"\"\"\"\"(!\"\"" }{TEXT -1 1 " " }
+{TEXT 564 2 "is" }{TEXT -1 11 " given by:\n" }}{PARA 301 "" 0 "" 
+{TEXT -1 1 " " }{XPPEDIT 18 0 "1/7 = .142857;" "6#/*&\"\"\"\"\"\"\"\"(
+!\"\"$\"'dG9!\"'" }{TEXT -1 20 " 142857 142857  ... " }{TEXT 256 12 "a
+d infinitum" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+565 4 "then" }{TEXT -1 9 " one has " }{XPPEDIT 18 0 "1/7 = 142857/(10^
+6-1);" "6#/*&\"\"\"\"\"\"\"\"(!\"\"*&\"'dG9F&,&*$\"#5\"\"'F&\"\"\"F(F(
+" }{TEXT -1 9 ", namely " }{XPPEDIT 18 0 "10^6-1 = 7;" "6#/,&*$\"#5\"
+\"'\"\"\"\"\"\"!\"\"\"\"(" }{TEXT -1 25 "*142857. Thus 7 divides (" }
+{XPPEDIT 18 0 "10^6-1;" "6#,&*$\"#5\"\"'\"\"\"\"\"\"!\"\"" }{TEXT -1 
+13 "), and so it " }{TEXT 567 7 "follows" }{TEXT -1 6 " that " }
+{XPPEDIT 18 0 "10^6 = 1;" "6#/*$\"#5\"\"'\"\"\"" }{TEXT -1 9 " (mod 7)
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "I ha
+rdly need write any more on this?" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT 
+-1 72 "Section 3. Quadratic and other congruences. Mersenne and Fermat
+ numbers." }}{PARA 0 "" 0 "" {TEXT -1 61 "Here I begin with a famous e
+mpirical discovery of Fermat's: \n" }}{PARA 289 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 347 5 "every" }{TEXT -1 23 " odd prime divisor of (" }{XPPEDIT 
+18 0 "x^2+1;" "6#,&*$%\"xG\"\"#\"\"\"\"\"\"F'" }{TEXT -1 37 ") leaves \+
+remainder 1 on division by 4" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 65 "In the following, this is what I am doing: I fi
+rst form a random " }{XPPEDIT 18 0 "x^2+1;" "6#,&*$%\"xG\"\"#\"\"\"\"
+\"\"F'" }{TEXT -1 112 ", factor it, and then verify that every odd pri
+me divisor leaves remainder 1 on division by 4. Bear in mind that" }}
+{PARA 15 "" 0 "" {TEXT -1 3 "if " }{TEXT 512 1 "x" }{TEXT -1 40 " is o
+dd then one of the primes dividing " }{XPPEDIT 18 0 "x^2+1;" "6#,&*$%
+\"xG\"\"#\"\"\"\"\"\"F'" }{TEXT -1 42 " will be 2 itself (and it is tr
+ivial that " }{XPPEDIT 18 0 "2^2;" "6#*$\"\"#\"\"#" }{TEXT -1 118 " wi
+ll not be a factor), otherwise all the other prime factors will be odd
+ (and, in extremis, there might only be one: " }{XPPEDIT 18 0 "3^2+1 =
+ 2;" "6#/,&*$\"\"$\"\"#\"\"\"\"\"\"F(\"\"#" }{TEXT -1 3 "*5)" }}{PARA 
+15 "" 0 "" {TEXT -1 3 "if " }{TEXT 256 1 "x" }{TEXT -1 34 " is even th
+en all primes dividing " }{XPPEDIT 18 0 "x^2+1;" "6#,&*$%\"xG\"\"#\"\"
+\"\"\"\"F'" }{TEXT -1 57 " will be odd (and, in extremis, there might \+
+only be one: " }{XPPEDIT 18 0 "2^2+1 = 5;" "6#/,&*$\"\"#\"\"#\"\"\"\"
+\"\"F(\"\"&" }{TEXT -1 2 ") " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "x := rand();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"xG\"-(ptIjV$" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n := x^2 + 1;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"95yCLyWQ$*o$3=\"" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 16 "m := ifactor(n);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"mG**-%!G6#\"\"#\"\"\"-F'6#\"\"&F*-F'6#\"3(p8(G_+SBa
+F*-F'6#\"&t<#F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "L := [op
+(m)];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"LG7&-%!G6#\"\"#-F'6#\"\"&
+-F'6#\"3(p8(G_+SBa-F'6#\"&t<#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 48 "r := nops(L); # how many prime factors there are" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"rG\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 34 "for k to r do\np[k] := op(L[k])\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"pG6#\"\"\"\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>&%\"pG6#\"\"#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"$
+\"3(p8(G_+SBa" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"%\"&t<#
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "for k to r do\np[k] mod
+ 4\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 179 "All those od
+d primes (which will change every time the two commands are re-execute
+d) are congruent to 1 mod 4. Euler gave a proof based on Fermat's litt
+le theorem (see Section 8)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 35 "An extension of that result is that" }}{PARA 
+256 "" 0 "" {TEXT -1 0 "" }{TEXT 256 5 "every" }{TEXT -1 23 " odd prim
+e divisor of (" }{XPPEDIT 18 0 "x^4+1;" "6#,&*$%\"xG\"\"%\"\"\"\"\"\"F
+'" }{TEXT -1 37 ") leaves remainder 1 on division by 4" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 291 "Here, numerical exp
+erimentation like the above (using rand()) would be problematic, since
+ Maple - almost certainly - would have difficulty in performing the re
+sulting factorisations (and, in fact, it is precisely the difficulty o
+f factoring that is the basis of RSA public-key cryptography)." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "Instead, \+
+I choose more modestly sized " }{TEXT 513 1 "n" }{TEXT -1 13 "'s to fa
+ctor:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "x := rand() mod 12
+34321; # to reduce the size of 'x':" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"xG\"&%4d" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "n := x^4 +
+ 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"5(*oANk+1ei5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "m := ifactor(n);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"mG*(-%!G6#\"#<\"\"\"-F'6#\".4[()3/=(F*-F
+'6#\"&\\q)F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "L := [op(m)
+];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"LG7%-%!G6#\"#<-F'6#\".4[()3/
+=(-F'6#\"&\\q)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "r := nops
+(L); # how many prime factors there are" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"rG\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "for k \+
+to r do\np[k] := op(L[k])\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%
+\"pG6#\"\"\"\"#<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"#\".4
+[()3/=(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"$\"&\\q)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "for k to r do\np[k] mod 8   \+
+ # note the change to mod 8\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "That result - " }{TEXT 530 2 "re
+" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "x^4+1;" "6#,&*$%\"xG\"\"%\"\"\"\"\"
+\"F'" }{TEXT -1 42 ") - may be proved in the same way as the (" }
+{XPPEDIT 18 0 "x^2+1;" "6#,&*$%\"xG\"\"#\"\"\"\"\"\"F'" }{TEXT -1 29 "
+) result. In general one has:" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }
+{TEXT 256 5 "every" }{TEXT -1 23 " odd prime divisor of (" }{XPPEDIT 
+18 0 "x^(2^m)+1;" "6#,&)%\"xG)\"\"#%\"mG\"\"\"\"\"\"F)" }{TEXT -1 36 "
+) leaves remainder 1 on division by " }{XPPEDIT 18 0 "2^(m+1);" "6#)\"
+\"#,&%\"mG\"\"\"\"\"\"F'" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 138 "This result enables trial factoring
+ of Fermat numbers to be eased, and there is another simple extension \+
+of it that saves a further 50%..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 12 "Yet another " }{TEXT 531 12 "application \+
+" }{TEXT -1 74 "of Fermat's little theorem is to the trial factoring o
+f Mersenne numbers (" }{XPPEDIT 18 0 "M[p] = 2^p-1;" "6#/&%\"MG6#%\"pG
+,&)\"\"#F'\"\"\"\"\"\"!\"\"" }{TEXT -1 7 ", with " }{TEXT 514 1 "p" }
+{TEXT -1 38 " prime): Theorem. Every prime divisor " }{TEXT 515 1 "q" 
+}{TEXT -1 4 " of " }{XPPEDIT 18 0 "M[p];" "6#&%\"MG6#%\"pG" }{TEXT -1 
+11 " satisfies " }{XPPEDIT 18 0 "q = 1;" "6#/%\"qG\"\"\"" }{TEXT -1 6 
+" (mod " }{TEXT 516 1 "p" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "It is pleasing that that Theorem c
+an be proved by " }{TEXT 532 5 "using" }{TEXT -1 153 " Fermat's little
+ theorem, when it was precisely the very discovery of that theorem whi
+ch led Fermat to discover his little theorem in the first instance." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 533 7 "Comment
+" }{TEXT -1 366 ". A great deal more about Mersenne numbers (including
+ the Lucas-Lehmer test) is available in my 1995 Maple public lecture \+
+\"The recently discovered record largest known prime,\" and a great de
+al more  more about Fermat numbers (including the Pepin test) is avail
+able in my 1999 Maple public lecture\"The history of Fermat numbers fr
+om August 1641,\" both at my web site." }}}}{SECT 1 {PARA 3 "" 0 "" 
+{TEXT -1 29 "Section 4. Primality testing." }}{PARA 0 "" 0 "" {TEXT 
+-1 302 "Here I only remark that the modern study of primality testing \+
+really begins with the trail blaising work of Lucas, via Fermat's litt
+le theorem, and I urge any serious reader to rush to their bookdealer \+
+and obtain a copy of the wonderful book by Hugh C. Williams (details i
+n the Section 8 bibliography)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 115 "I have briefly hinted at the sort of use
+ that can be made of Fermat's little theorem to establish that a numbe
+r is " }{TEXT 534 9 "composite" }{TEXT -1 53 ", but a great deal more \+
+is involved in using it as a " }{TEXT 535 14 "starting point" }{TEXT 
+-1 29 " in proving that a number is " }{TEXT 536 5 "prime" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "I
+ refer the interested reader to my web site, where I have " }{TEXT 
+441 4 "many" }{TEXT -1 143 " Maple worksheets - in the 2nd and 3rd yea
+r, and Public and Other Lectures sections of my site's Maple section -
+ devoted to primality testing. " }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 
+40 "Section 5. RSA public-key cryptography. " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 148 "Frequently it is (correctly) s
+tated that a fundamental element in the renowned RSA cryptographic met
+hod is the use of the Fermat-Euler theorem: let " }{TEXT 329 2 "n " }
+{TEXT -1 1 "(" }{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }{TEXT -1 27 "
+) be a natural number, and " }{TEXT 330 1 "a" }{TEXT -1 21 " be any in
+teger with " }{XPPEDIT 18 0 "gcd(a,n) = 1;" "6#/-%$gcdG6$%\"aG%\"nG\"
+\"\"" }{TEXT -1 7 ", then " }{XPPEDIT 18 0 "a^phi(n) = 1;" "6#/)%\"aG-
+%$phiG6#%\"nG\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 331 1 "n" }{TEXT -1 
+9 "), where " }{XPPEDIT 18 0 "phi(n);" "6#-%$phiG6#%\"nG" }{TEXT -1 
+14 " is the Euler " }{TEXT 332 3 "phi" }{TEXT -1 48 "-function (the nu
+mber of integers between 1 and " }{TEXT 333 1 "n" }{TEXT -1 10 " that \+
+are " }{TEXT 334 16 "relatively prime" }{TEXT -1 4 " to " }{TEXT 335 
+1 "n" }{TEXT -1 121 ").\n\nIn fact it is only a very special case of t
+his theorem that is needed for the RSA application, namely the case wh
+ere " }{XPPEDIT 18 0 "n = pq;" "6#/%\"nG%#pqG" }{TEXT -1 8 ", where " 
+}{TEXT 336 1 "p" }{TEXT -1 5 " and " }{TEXT 337 1 "q" }{TEXT -1 5 " ar
+e " }{TEXT 343 8 "distinct" }{TEXT -1 35 " primes (in practical applic
+ations " }{TEXT 338 1 "p" }{TEXT -1 5 " and " }{TEXT 339 1 "q" }{TEXT 
+-1 161 " are both large, and with some added refinements for security \+
+purposes). A fairly detailed exposition of the RSA method may be read \+
+in my Maple public lecture - " }{TEXT 340 12 "Bill Clinton" }{TEXT -1 
+2 ", " }{TEXT 341 12 "Bertie Ahern" }{TEXT -1 2 ", " }{TEXT 342 22 "an
+d digital signatures" }{TEXT -1 65 " - in the Maple Public and Other L
+ectures section of my web site." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 69 "The two prime version of Fermat's little \+
+theorem is simply this: let\n" }}{PARA 15 "" 0 "" {TEXT 537 1 "p" }
+{TEXT -1 5 " and " }{TEXT 538 1 "q" }{TEXT -1 4 " be " }{TEXT 328 8 "d
+istinct" }{TEXT -1 12 " primes (in " }{TEXT 569 26 "cryptographic appl
+ications" }{TEXT -1 34 " they will be large, but not just " }{TEXT 
+571 6 "merely" }{TEXT -1 52 " large (as is sometimes incorrectly state
+d); to see " }{TEXT 570 3 "why" }{TEXT -1 22 ", refer to Section 6 )" 
+}}{PARA 15 "" 0 "" {TEXT 539 1 "a" }{TEXT -1 21 " be any integer with \+
+" }{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" }{TEXT -1 6 " (mod " }
+{TEXT 259 1 "p" }{TEXT -1 6 ") and " }{XPPEDIT 18 0 "a <> 0;" "6#0%\"a
+G\"\"!" }{TEXT -1 6 " (mod " }{TEXT 261 1 "q" }{TEXT -1 1 ")" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "then" }}{PARA 
+302 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "a^((p-1)*(q-1)) = 1;" "6#/)
+%\"aG*&,&%\"pG\"\"\"\"\"\"!\"\"F),&%\"qGF)\"\"\"F+F)\"\"\"" }{TEXT -1 
+6 " (mod " }{TEXT 260 2 "pq" }{TEXT -1 2 ")\n" }}{PARA 0 "" 0 "" 
+{TEXT -1 193 "One may easily give a proof [see Section 8] of the two p
+rime version which is independent of the normal proof of the full Ferm
+at-Euler result. Here I merely give a Maple numerical illustration:" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 45 "p := nextprime(10^50 + rand()*rand()*rand()
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\"TPo4^,*4wOtZ>ba'[#*yP+++
+++++\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "q := nextprime(10
+^60 + rand()^2*rand()^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG\"h
+n2%f^Dl&)eL=c-A)R9p@*R'o$4m?X:ZQ=,5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "a := rand()^2 + 30!;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"aG\"Bp&)yd-ovj'yL3*fGDl#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 11 "igcd(a, p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "igcd(a, q);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "a&^((p-1)*(q-1)) mod p*q;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 3 
+"" 0 "" {TEXT -1 35 "Section 6. Factoring. The Pollard (" }{XPPEDIT 
+18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 19 ") factoring met
+hod." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "I
+n a nutshell, John Pollard's famous (" }{XPPEDIT 18 0 "p-1;" "6#,&%\"p
+G\"\"\"\"\"\"!\"\"" }{TEXT -1 103 ") factorisation method (1974) gives
+ a strategy - based on an ingenious use of Fermat's little theorem (" 
+}{TEXT 442 12 "full details" }{TEXT -1 22 " are available in the " }
+{XPPEDIT 18 0 "3^rd;" "6#)\"\"$%#rdG" }{TEXT -1 82 " year Maple sectio
+n of my web site) - for uncovering a prime factor of an integer " }
+{TEXT 295 1 "n" }{TEXT -1 10 ", if that " }{TEXT 296 1 "n" }{TEXT -1 
+20 " has a prime factor " }{TEXT 297 1 "p" }{TEXT -1 12 " such that (
+" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 22 ") h
+as only relatively " }{TEXT 298 5 "small" }{TEXT -1 17 " prime factors
+..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "And
+ " }{TEXT 300 3 "why" }{TEXT -1 49 " - apart from its intrinsic intere
+st - might one " }{TEXT 299 4 "want" }{TEXT -1 158 " to find a factor?
+ Well one need look no further than the renowned RSA cryptographic met
+hod (a full treatment of which may be read in my Maple public lecture \+
+" }{TEXT 286 50 "Bill Clinton, Bertie Ahern, and digital signatures" }
+{TEXT -1 76 "): the basis for its security rests on the current diffic
+ulty of the famous " }{TEXT 287 21 "factorisation problem" }{TEXT -1 
+76 ", of finding a fast method (or prove there isn't one) for factorin
+g general " }{TEXT 288 1 "n" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 289 4 "Note" }{TEXT -1 112 ". In the f
+ollowing examples, Maple is using the 1971 Brillhart-Morrison continue
+d fraction factorisation method." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "ifactor(15);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%!G6#\"\"$
+\"\"\"-F%6#\"\"&F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "n23 :
+= 23!;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$n23G\"8++kw\\))Qn,_e#" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "length(n23);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"#B" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "ifactor(n23);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*4)-%!G6#\"\"#\"#
+>\"\"\")-F&6#\"\"$\"\"*F*)-F&6#\"\"&\"\"%F*)-F&6#\"\"(F.F*)-F&6#\"#6F(
+F*-F&6#\"#8\"\"\"-F&6#\"#<F@-F&6#F)F@-F&6#\"#BF@" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 17 "ifactor(n23 + 1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*()-%!G6#\"#Z\"\"#\"\"\"-F&6#\"#z\"\"\"-F&6#\"3\"fkota(
+R\"[\"F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "n90 := 90!;" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%$n90G\"fs++++++++++?6y*pWB<ckfS)3PJ@*fawe1%4$R&)\\qjo
+@Upw)o%Gh*pb)ytD3iLF_4t\\h<[kfr&[\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "length(n90);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$R
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "ifactor(n90);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#*R)-%!G6#\"\"#\"#')\"\"\")-F&6#\"\"$\"
+#WF*)-F&6#\"\"&\"#@F*)-F&6#\"\"(\"#8F*)-F&6#\"#6\"\")F*)-F&6#F9\"\"'F*
+)-F&6#\"#<F3F*)-F&6#\"#>\"\"%F*)-F&6#\"#BF.F*)-F&6#\"#HF.F*)-F&6#\"#JF
+(F*)-F&6#\"#PF(F*)-F&6#\"#TF(F*)-F&6#\"#VF(F*-F&6#\"#Z\"\"\"-F&6#\"#`F
+ao-F&6#\"#fFao-F&6#\"#hFao-F&6#\"#nFao-F&6#\"#rFao-F&6#\"#tFao-F&6#\"#
+zFao-F&6#\"#$)Fao-F&6#\"#*)Fao" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 
+"But Maple cannot factor (" }{XPPEDIT 18 0 "90!+1;" "6#,&-%*factorialG
+6#\"#!*\"\"\"\"\"\"F(" }{TEXT -1 86 ") (and I've placed the 'comment s
+ign', # , before the command to prevent re-execution." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "# ifactor(n90 + 1);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "ifactor(n90 + 1, easy);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%&_c139G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 20 "which informs that (" }{XPPEDIT 18 0 "90!+1;" "6#,&-%*factorial
+G6#\"#!*\"\"\"\"\"\"F(" }{TEXT -1 7 ") is a " }{TEXT 293 1 "c" }{TEXT 
+-1 10 "omposite '" }{TEXT 294 3 "139" }{TEXT -1 15 "' digit number." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 290 4 "Note" }
+{TEXT -1 99 ". That 139 digit number may be proved to be composite (no
+t prime) by using Fermat's little theorem:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 291 2 "if" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "90!+1;" "6#
+,&-%*factorialG6#\"#!*\"\"\"\"\"\"F(" }{TEXT -1 27 ") is prime, one wo
+uld have " }{XPPEDIT 18 0 "a^n90 = 1;" "6#/)%\"aG%$n90G\"\"\"" }{TEXT 
+-1 6 " (mod " }{XPPEDIT 18 0 "n90+1;" "6#,&%$n90G\"\"\"\"\"\"F%" }
+{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 17 "for all integers " }{TEXT 292 1 "a" }{TEXT -1 19 " not di
+visible by (" }{XPPEDIT 18 0 "n90+1;" "6#,&%$n90G\"\"\"\"\"\"F%" }
+{TEXT -1 3 "). " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 37 "So, testing to see what happens when " }{XPPEDIT 18 0 "a \+
+= 2;" "6#/%\"aG\"\"#" }{TEXT -1 12 ", one finds:" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 21 "2&^n90 mod (n90 + 1);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#\"fs&zt[1T#4d7HcswG&e$z2%=fj6ME$3cM&f\\Zx]J?gWuXM;;9e+A
+!pf;%4x!)e@)ebZV8&)**f-mO'>7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "and so it follows immedi
+ately that (" }{XPPEDIT 18 0 "n90+1;" "6#,&%$n90G\"\"\"\"\"\"F%" }
+{TEXT -1 32 ") is not prime. (One says that (" }{XPPEDIT 18 0 "n90+1;
+" "6#,&%$n90G\"\"\"\"\"\"F%" }{TEXT -1 50 ") has failed the Lucas-Ferm
+at test to the base 2.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 344 4 "Note" }{TEXT -1 5 ". On " }{XPPEDIT 18 0 "10^th;" "6
+#)\"#5%#thG" }{TEXT -1 105 " April this year, Sean Irvine announced to
+ the Number Theory mailing list the complete factorisation of (" }
+{XPPEDIT 18 0 "n90+1;" "6#,&%$n90G\"\"\"\"\"\"F%" }{TEXT -1 38 "); it \+
+is the product of three primes, " }{XPPEDIT 18 0 "p,q,r;" "6%%\"pG%\"q
+G%\"rG" }{TEXT -1 3 " : " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 
+"p := 1381173038633;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG\".L'QI<
+\"Q\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "q := 4202507002304
+7325132446149666132026718715669472074383;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"qG\"V$Qu?Zpcr=n-Khm\\hWK^KZI-q]-U" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 80 "r := 255964214447885554475553202414994483
+69527283715169223676054601753562783959;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"rG\"eofRyiNv,Y0wOAp^r$GF&p$[%*\\T-KbvWb&)yW9U'fD" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "is(n90 + 1 = p*q*r);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "Now here is the famous 1
+29 digit number, RSA129:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+140 "RSA129 := 1143816257578888676692357799761466120102182967212423625
+6256184293570693524573389783059712356395870505898907514759929002687954
+3541;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%'RSA129G\"\\sTNazo-!H*fZ^2*
+)*e]qeRcBrfIy*QtX_$pqNH%=ciDOU7s'H=-,7m9w*zdBpw')))yvD;Q9\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "length(RSA129);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#\"$H\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 176 "I am certainly NOT goin
+g to attempt to factor it!! It first came to public attention in Marti
+n Gardiner's much read column in the August 1997 issue of the Scientif
+ic American. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 335 "Rivest, Shamir and Adleman (of RSA fame) threw this numb
+er out as a challenge to be factored. Given the then state of mathemat
+ical knowledge (as far as factoring was concerned) and computer power,
+ they estimated that it would take some 20,000 years to factor it, and
+ thereby decrypt a message which they had encrypted using it as the '
+" }{TEXT 259 1 "n" }{TEXT -1 27 "' part of a public modulus." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 308 "Briefly, a met
+hod known as the 'Quadratic Sieve' - introduced in 1981 by the US math
+ematician Carl Pomerance - together with thousands of computers worldw
+ide (organised by the Dutch mathematician Arjen Lenstra) - factored it
+ by April 1994, and decrypted the RSA-encrypted message (which, incide
+ntally, was: \"" }{TEXT 260 10 "The magic " }}{PARA 0 "" 0 "" {TEXT 
+261 30 "words are squeamish ossifrage." }{TEXT -1 42 "\") Lenstra, and
+ his co-workers found that " }{TEXT 262 7 "RSA_129" }{TEXT -1 136 " wa
+s the product of the two prime numbers (I show them individually, then
+ their produst, and then show their product really is RSA_129):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "f1 := 3490529510847650949147
+849619903898133417764638493387843990820577;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#f1G\"[ox0#3*R%yQ$\\QYw<M8)*Q!*>'\\y9\\4lZ3^H0\\$" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(f1);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#k" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "f2 := 32769132993266709
+549961988190834461413177642967992942539798288533;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#f2G\"\\oL&)G)zRD%H*z'HkxJThW$3>))>'*\\&4nE$*H8pF$" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "length(f2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"#l" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f1*f2;" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#\"\\sTNazo-!H*fZ^2*)*e]qeRcBrfIy*QtX_$pqNH%=ciDO
+U7s'H=-,7m9w*zdBpw')))yvD;Q9\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "is(RSA129 = f1*f2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 47 "If I were to foolishly enter the Maple command:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "# ifactor(RSA_129);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 55 "then the timer would stay on for MANY, MANY years ... ." 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 271 29 "I am going to create a number" }{TEXT 
+-1 95 " - which I will call by the name 'much_greater_than_RSA129' - w
+hich will have these properties:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 15 "it will be the " }{TEXT 270 7 "product" 
+}{TEXT -1 26 " of two primes 'P' and 'Q'" }}{PARA 15 "" 0 "" {TEXT -1 
+80 "I will choose P to be f2 (the greater of the two primes whose prod
+uct is RSA129)" }}{PARA 15 "" 0 "" {TEXT -1 42 "I will choose Q to be \+
+much greater than P\n" }}{PARA 0 "" 0 "" {TEXT -1 110 "Those choices w
+ill automatically make 'much_greater_than_RSA129' be much greater than
+ RSA129 (hence the name)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 25 "This is how I will do it:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "P := f2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"P
+G\"\\oL&)G)zRD%H*z'HkxJThW$3>))>'*\\&4nE$*H8pF$" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 129 "To sa
+ve time in my lecture I neutralise the following command, but beforeha
+nd copy and paste the output to the next command line." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 125 "# Q := nextprime(44701154615126843
+4089125713812505111007680070028290501581908009237042210406718331701690
+3679999999999999630);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 112 "Q
+ := 447011546151268434089125713812505111007680070028290501581908009237
+0422104067183317016903680000000000000001;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"QG\"eq,+++++++o.p,<L=nS5A/P#4!3>e,0HG+2!o2560D\"QrD
+\"*3M%o7:Y:,Z%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "much_greater_than_RSA129 := \+
+P*Q;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%9much_greater_than_RSA129G\"
+fuL&)G)zRD%HVpCbsYb#)Ru!Q!GWT6P5wel`Cmlbwq!fyFs.Gl$e#>x\\Ap**GclMgPVDM
+?!Rdxfw1egT\\EB61'[pc`!3=[Y\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 33 "length(much_greater_than_RSA129);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$r\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 86 "But that MUCH LARGER number can now be fa
+ctored in seconds by exploiting the Pollard (" }{XPPEDIT 18 0 "p-1;" "
+6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 23 ") factorisation method:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 306 "Pollard := proc(n)\nlocal a
+,k;\na[1]:=2:\nfor k from 2 while igcd(n,a[k-1]-1 mod n)=1   \ndo a[k]
+:=a[k-1]&^k mod n od;\nlprint(n,`is the PRODUCT of`,                  \+
+                                                                      \+
+          igcd(n, a[k-1]-1 mod n), `and`, \nn/igcd(n, a[k-1]-1 mod n))
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "Pollard(much_grea
+ter_than_RSA129);" }}{PARA 6 "" 1 "" {TEXT -1 374 "1464818080535669486
+0611232649416058067659775739020342543376034655628996922497719258365280
+3722778590707655656624536558761037114144280380743982554672552469432942
+539798288533   is the PRODUCT of   44701154615126843408912571381250511
+1007680070028290501581908009237042210406718331701690368000000000000000
+1   and   327691329932667095499619881908344614131776429679929425397982
+88533" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT 275 16 "Wonderful? Yes? " }{TEXT -1 80 " Of course I d
+eliberately made up the prime Q so that all the prime factors of (" }
+{XPPEDIT 18 0 "Q-1;" "6#,&%\"QG\"\"\"\"\"\"!\"\"" }{TEXT -1 13 ") were
+ small:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "ifactor(Q - 1);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*L)-%!G6#\"\"#\"#q\"\"\")-F&6#\"\"
+$\"#MF*)-F&6#\"\"&\"#;F*)-F&6#\"\"(\"#6F*)-F&6#F9\"\"'F*)-F&6#\"#8F3F*
+)-F&6#\"#<\"\"%F*)-F&6#\"#>F.F*)-F&6#\"#BF.F*)-F&6#\"#HF(F*)-F&6#\"#JF
+(F*-F&6#\"#P\"\"\"-F&6#\"#TFZ-F&6#\"#VFZ-F&6#\"#ZFZ-F&6#\"#`FZ-F&6#\"#
+fFZ-F&6#\"#hFZ-F&6#\"#nFZ-F&6#\"#rFZ-F&6#\"#tFZ" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "You ma
+y have noticed that I choose " }{TEXT 301 1 "Q" }{TEXT -1 30 " so that
+ the prime factors of " }{TEXT 302 1 "Q" }{TEXT -1 60 " are the first \+
+twenty-one primes:  2, 3, 5, ... , 71 and 73." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 95 "Finally, look at the two \+
+prime factors - f1 and f2 - of the RSA129 number; see how they behave:
+" }{TEXT 279 0 "" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "ifactor(f1 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*()-%!G6#
+\"\"#\"\"&\"\"\")-F&6#\"\"$F(F*-F&6#\"inF\"o\\7T?5G$QsOuSUxdtmLw1pn()[
+8%*)>@\"\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "ifactor(f
+2 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*()-%!G6#\"\"#F(\"\"\"-F&6#
+\"#T\"\"\"-F&6#\"jn8w'[vW=w([U!\\k$)fp8$Q_*QHd/#4Va'y6)*>F-" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 78 "Rivest, Shamir and Adleman knew what they were doing when
+ the made up RSA129!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 76 "And here you can see why it had been so difficult to f
+ind the prime factors " }{TEXT 345 1 "q" }{TEXT -1 5 " and " }{TEXT 
+346 1 "r" }{TEXT -1 5 " of (" }{XPPEDIT 18 0 "90!+1;" "6#,&-%*factoria
+lG6#\"#!*\"\"\"\"\"\"F(" }{TEXT -1 2 "):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "ifactor(q-1, easy);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#**-%!G6#\"\"#\"\"\"-F%6#\"$>%F(%%_c47GF(-F%6#\"%BLF(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "ifactor(r-1, easy);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*,-%!G6#\"\"#\"\"\"-F%6#\"\"$F(-F%6#\"\"(F(-F%6#\"
+$8\"F(-F%6#\"aoBQ%QUFY%=0bW[&4ZPvv]=XDFQT3'e@0[)*>E$R&F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 
+-1 65 "Section 7. Open problems: Artin's conjecture, Giuga's conjectur
+e." }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 37 "Artin's conjecture (primiti
+ve roots)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 38 "First, recall the meaning of the term " }{TEXT 369 24 "primitiv
+e root modulo p " }{TEXT -1 1 "(" }{TEXT 379 1 "p" }{TEXT -1 9 " prime
+): " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 370 1 "a
+" }{TEXT -1 39 " is said to be a primitive root modulo " }{TEXT 371 1 
+"p" }{TEXT -1 4 " if " }{XPPEDIT 18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG
+\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 372 1 "p" }{TEXT 
+-1 7 "), and " }{XPPEDIT 18 0 "a^r <> 1;" "6#0)%\"aG%\"rG\"\"\"" }
+{TEXT -1 6 " (mod " }{TEXT 373 1 "p" }{TEXT -1 10 ") for all " }
+{XPPEDIT 18 0 "r = 1,2,3;" "6%/%\"rG\"\"\"\"\"#\"\"$" }{TEXT -1 9 ", .
+.. , (" }{XPPEDIT 18 0 "p-2;" "6#,&%\"pG\"\"\"\"\"#!\"\"" }{TEXT -1 
+19 "). In other words, " }{TEXT 374 1 "a" }{TEXT -1 28 " is a primitiv
+e root modulo " }{TEXT 375 1 "p" }{TEXT -1 4 " if " }{XPPEDIT 18 0 "or
+d[p];" "6#&%$ordG6#%\"pG" }{XPPEDIT 18 0 "a = p-1;" "6#/%\"aG,&%\"pG\"
+\"\"\"\"\"!\"\"" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 15 "Maple examples:" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+47 "with(numtheory): # needed for 'order' and 'phi'" }}{PARA 7 "" 1 "
+" {TEXT -1 33 "Warning, new definition for order" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "p := nextprime(200);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"pG\"$6#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "order(2, p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$5#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "order(3, p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$5#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "ord
+er(4, p); # not a surprise:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$0\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "order(5, p);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#N" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 165 "So, 2 and 3 are primi
+tive roots modulo 211, 4 (for obvious reasons, known in advance) is no
+t a primitive root mod 211, and 5 also is not a primitive root modulo \+
+211." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "R
+ecall a classic theorem of Gauss that p has exactly " }{XPPEDIT 18 0 "
+phi(p-1);" "6#-%$phiG6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 37 " primit
+ive roots in the interval [1, " }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"
+\"\"\"!\"\"" }{TEXT -1 92 "], and let us make a list of all those prim
+itive roots - and count how many there are - for " }{XPPEDIT 18 0 "p =
+ 211;" "6#/%\"pG\"$6#" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 122 "L := []: count := 0:\nfor a to (p-1) do\nif order(a,
+ p) = p-1 then\nL := [a, op(L)]; count := count+1;\nfi od; sort(L); co
+unt;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7R\"\"#\"\"$\"\"(\"#<\"#A\"#H
+\"#N\"#R\"#T\"#[\"#d\"#s\"#v\"#&)\"#\"*\"##*\"$1\"\"$3\"\"$7\"\"$;\"\"
+$=\"\"$F\"\"$I\"\"$J\"\"$L\"\"$T\"\"$U\"\"$X\"\"$\\\"\"$_\"\"$b\"\"$e
+\"\"$f\"\"$g\"\"$i\"\"$k\"\"$l\"\"$m\"\"$n\"\"$u\"\"$v\"\"$\"=\"$(=\"$
+\">\"$&>\"$-#\"$0#\"$2#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#[" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 62 "To determine how many there are one can, \+
+trivially, resort to:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "nop
+s(L);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#[" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 29 "phi(p-1); # the Gauss result:" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#[" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "That's \+
+all very straightforward, and well known. But now let us look at the f
+ascinating unknown: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 262 "" 
+0 "" {TEXT 401 3 "Fix" }{TEXT -1 14 " the value of " }{TEXT 376 1 "a" 
+}{TEXT -1 31 ", and ask: for how many primes " }{TEXT 377 1 "p" }
+{TEXT -1 4 " is " }{TEXT 378 1 "a" }{TEXT -1 19 " a primitive root? " 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 36 "In othe
+r words, for how many primes " }{TEXT 402 1 "p" }{TEXT -1 15 " does on
+e have:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 263 "" 0 "" {XPPEDIT 
+18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT 
+-1 6 " (mod " }{TEXT 403 1 "p" }{TEXT -1 9 ") ... (i)" }}{PARA 264 "" 
+0 "" {TEXT -1 4 "but " }{XPPEDIT 18 0 "a^r <> 1;" "6#0)%\"aG%\"rG\"\"
+\"" }{TEXT -1 6 " (mod " }{TEXT 404 1 "p" }{TEXT -1 3 "), " }{TEXT 
+406 3 "all" }{TEXT -1 1 " " }{TEXT 405 1 "r" }{TEXT -1 8 " in [1, " }
+{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"\"" }{TEXT -1 10 "] ... \+
+(ii)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "H
+ere one has the (famous) " }{TEXT 394 10 "conjecture" }{TEXT -1 20 " o
+f Emil Artin. Let " }{TEXT 380 1 "a" }{TEXT -1 17 " be any integer (" 
+}{XPPEDIT 18 0 "a <> -1;" "6#0%\"aG,$\"\"\"!\"\"" }{TEXT -1 26 ", and \+
+not a square), then " }{TEXT 381 1 "a" }{TEXT -1 25 " is a primitive r
+oot mod " }{TEXT 382 1 "p" }{TEXT -1 28 " for infinitely many primes \+
+" }{TEXT 383 1 "p" }{TEXT -1 87 ".  (In 1958 Schinzel and Sierpinski s
+howed Artin's conjecture is  a consequence of the " }{TEXT 399 23 "pri
+me tuples conjecture" }{TEXT -1 34 ", and in 1986 Heath-Brown proved (
+" }{TEXT 398 15 "unconditionally" }{TEXT -1 41 ") Artin's conjecture f
+or infinitely many " }{TEXT 395 1 "a" }{TEXT -1 6 " (but " }{TEXT 400 
+2 "no" }{TEXT -1 9 " single '" }{TEXT 396 1 "a" }{TEXT -1 46 "' is kno
+wn for which the conjecture is true).)" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 47 "A remarkable quantitative version (fo
+r such an " }{TEXT 389 1 "a" }{TEXT -1 34 ") of this conjecture - by A
+rtin - " }{TEXT 397 8 "had been" }{TEXT -1 6 ": Let " }{XPPEDIT 18 0 "
+pi[a](a);" "6#-&%#piG6#%\"aG6#F'" }{TEXT -1 47 " be the number of prim
+es less than or equal to " }{TEXT 386 1 "x" }{TEXT -1 11 " for which \+
+" }{TEXT 384 1 "a" }{TEXT -1 27 " is a primitive root, then:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 260 "" 0 "" {XPPEDIT 18 0 "pi[a](x);" 
+"6#-&%#piG6#%\"aG6#%\"xG" }{TEXT -1 18 " is asymptotic to " }{TEXT 
+385 0 "" }{XPPEDIT 18 0 "A*x/ln(x);" "6#*(%\"AG\"\"\"%\"xGF%-%#lnG6#F&
+!\"\"" }{TEXT -1 4 " as " }{XPPEDIT 18 0 "proc (x) options operator, a
+rrow; infinity end;" "6#R6#%\"xG7\"6$%)operatorG%&arrowG6\"%)infinityG
+F*F*F*" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 6 "where " }{TEXT 387 1 "A" }{TEXT -1 2 " (" }{TEXT 388 
+16 "Artin's constant" }{TEXT -1 16 ") is defined by:" }}{PARA 0 "" 0 "
+" {TEXT -1 53 "                                                     " 
+}{XPPEDIT 18 0 "A = Product(1-1/(p*(p-1)),p = 2 .. infinity);" "6#/%\"
+AG-%(ProductG6$,&\"\"\"\"\"\"*&\"\"\"F**&%\"pGF*,&F.F*\"\"\"!\"\"F*F1F
+1/F.;\"\"#%)infinityG" }{TEXT -1 22 " ( = 0.3739558136... )" }}{PARA 
+0 "" 0 "" {TEXT -1 15 "In other words:" }}{PARA 261 "" 0 "" {XPPEDIT 
+18 0 "pi[a](x)/(x/ln(x));" "6#*&-&%#piG6#%\"aG6#%\"xG\"\"\"*&F*F+-%#ln
+G6#F*!\"\"F0" }{TEXT -1 11 "  tends to " }{XPPEDIT 18 0 "A;" "6#%\"AG
+" }{TEXT -1 4 " as " }{XPPEDIT 18 0 "proc (x) options operator, arrow;
+ infinity end;" "6#R6#%\"xG7\"6$%)operatorG%&arrowG6\"%)infinityGF*F*F
+*" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 93 "[I s
+hould point out to readers, perhaps not entirely familiar with Number \+
+Theory, that the ' " }{XPPEDIT 18 0 "x/ln(x);" "6#*&%\"xG\"\"\"-%#lnG6
+#F$!\"\"" }{TEXT -1 119 " ' is the main asymptotic term of the famous,
+ classic Prime Number Theorem; it is, roughly, the number of primes up
+ to " }{TEXT 420 1 "x" }{TEXT -1 2 ".]" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 15 "Above I wrote \"" }{TEXT 390 8 "had b
+een" }{TEXT -1 276 "\", because computational work by the Lehmers (D.H
+. and E., 1962) revealed an error (an independence error in a probabil
+ity argument), that error being set right by Tate and Lang (both of wh
+om had been Artin's students) in their 1965 preface to Artin's Collect
+ed Papers (1965)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 56 "Hooley (1967) proved that the above quantitative result \+
+" }{TEXT 391 2 "is" }{TEXT -1 10 " true for " }{TEXT 392 12 "squarefre
+e a" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "1 < a;" "6#2\"\"\"%\"aG" }{TEXT 
+-1 2 ") " }{TEXT 393 11 "subject to " }{TEXT -1 36 "the Generalised Ri
+emann Hypothesis. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "The " }{TEXT 409 19 "truly extraordinary" }{TEXT -1 101 ",
+ corrected version (formulated by Heilbronn, as detailed in the Royal \+
+Society Mathematical Tables 9 " }{TEXT 506 27 "Indices and Primitive R
+oots" }{TEXT -1 78 " by A. E. Western and J. C. P. Miller) reads as fo
+llows (in Bach and Shallit):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 4 "Let " }{XPPEDIT 18 0 "a = a[1]*a[2]^2;" "6#/%\"a
+G*&&F$6#\"\"\"\"\"\"*$&F$6#\"\"#\"\"#F)" }{TEXT -1 7 ", with " }
+{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" }{TEXT -1 21 " squarefree, an
+d let " }{TEXT 407 1 "h" }{TEXT -1 34 " be the largest integer for whi
+ch " }{TEXT 408 1 "a" }{TEXT -1 6 " is a " }{XPPEDIT 18 0 "h^th;" "6#)
+%\"hG%#thG" }{TEXT -1 12 " power. Let " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 265 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "A[0] = Product(1-1
+/(q-1))*Product(1-1/(q*(q-1)));" "6#/&%\"AG6#\"\"!*&-%(ProductG6#,&\"
+\"\"\"\"\"*&\"\"\"F.,&%\"qGF.\"\"\"!\"\"F4F4F.-F*6#,&\"\"\"F.*&\"\"\"F
+.*&F2F.,&F2F.\"\"\"F4F.F4F4F." }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 45 "where the first product is tak
+en over primes " }{TEXT 410 1 "q" }{TEXT -1 10 " dividing " }{TEXT 
+411 1 "h" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 36 "and the secon
+d is taken over primes " }{TEXT 414 1 "q" }{TEXT -1 1 " " }{TEXT 418 
+3 "not" }{TEXT -1 10 " dividing " }{TEXT 412 1 "h" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "then (conjecture) " }
+{XPPEDIT 18 0 "pi[a](x);" "6#-&%#piG6#%\"aG6#%\"xG" }{TEXT -1 18 " is \+
+asymptotic to " }{XPPEDIT 18 0 "A[0]*x/ln(x);" "6#*(&%\"AG6#\"\"!\"\"
+\"%\"xGF(-%#lnG6#F)!\"\"" }{TEXT -1 4 " as " }{XPPEDIT 18 0 "proc (x) \+
+options operator, arrow; infinity end;" "6#R6#%\"xG7\"6$%)operatorG%&a
+rrowG6\"%)infinityGF*F*F*" }{TEXT -1 4 " if " }{XPPEDIT 18 0 "a <> 1;
+" "6#0%\"aG\"\"\"" }{TEXT -1 8 " (mod 4)" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "otherwise (conjecture) " }
+{XPPEDIT 18 0 "pi[a](x);" "6#-&%#piG6#%\"aG6#%\"xG" }{TEXT -1 18 " is \+
+asymptotic to " }{XPPEDIT 18 0 "A[1]*x/ln(x);" "6#*(&%\"AG6#\"\"\"\"\"
+\"%\"xGF(-%#lnG6#F)!\"\"" }{TEXT -1 4 " as " }{XPPEDIT 18 0 "proc (x) \+
+options operator, arrow; infinity end;" "6#R6#%\"xG7\"6$%)operatorG%&a
+rrowG6\"%)infinityGF*F*F*" }{TEXT -1 7 ", where" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 266 "" 0 "" {XPPEDIT 18 0 "A[1] = A[0]*(1-mu(abs
+(a[1]))*Product(1/(q-2))*Product(1/(q^2-q-1)));" "6#/&%\"AG6#\"\"\"*&&
+F%6#\"\"!\"\"\",&\"\"\"F,*(-%#muG6#-%$absG6#&%\"aG6#\"\"\"F,-%(Product
+G6#*&\"\"\"F,,&%\"qGF,\"\"#!\"\"FBF,-F;6#*&\"\"\"F,,(*$F@\"\"#F,F@FB\"
+\"\"FBFBF,FBF," }{TEXT -1 1 "\n" }}{PARA 15 "" 0 "" {TEXT -1 7 "where \+
+'" }{XPPEDIT 18 0 "mu;" "6#%#muG" }{TEXT -1 9 "' is the " }{TEXT 417 
+15 "Mobius function" }{TEXT -1 27 " (in Maple that's 'mobius')" }}
+{PARA 15 "" 0 "" {TEXT -1 39 "the first product is taken over primes \+
+" }{TEXT 413 1 "q" }{TEXT -1 10 " dividing " }{XPPEDIT 18 0 "gcd(a[1],
+h);" "6#-%$gcdG6$&%\"aG6#\"\"\"%\"hG" }{TEXT -1 0 "" }}{PARA 15 "" 0 "
+" {TEXT -1 36 "and the second is taken over primes " }{TEXT 415 1 "q" 
+}{TEXT -1 10 " dividing " }{XPPEDIT 18 0 "a[1];" "6#&%\"aG6#\"\"\"" }
+{TEXT -1 5 " but " }{TEXT 419 3 "not" }{TEXT -1 10 " dividing " }
+{TEXT 416 1 "h" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 54 "(see page 222 of Bach and Shallit for man
+y references)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 16 "Some Maple work:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 64 "A := product(1 - 1/(ithprime(r)*(ithprime(r)-1)),r=1..infinity);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%(productG6$,&\"\"\"F)*&\"
+\"\"F+*&-%)ithprimeG6#%\"rG\"\"\",&F-F)!\"\"F)\"\"\"!\"\"F3/F0;F)%)inf
+inityG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "evalf(A); # it is
+ NO surprise that Maple cannot evaluate A:" }}{PARA 8 "" 1 "" {TEXT 
+-1 50 "Error, (in evalf/product1) cannot evaluate boolean" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 42 "So, let's merely get an approximate value
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "A[20] := product(1 - 1
+/(ithprime(r)*(ithprime(r)-1)),r=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%\"AG6#\"#?#\"I^FOjK8,\"p'R24cfv*3W/7&\"J?jlleK$)eMNIe^#oY!))e
+dO\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(A[20]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+Cn:\\P!#5" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 131 "In the \+
+following I calculate the number of times for which 2 (then 3, 5, 27) \+
+is a primitive for primes up to 'x' (for various x's: " }{XPPEDIT 18 
+0 "10^2,10^3,10^4;" "6%*$\"#5\"\"#*$\"#5\"\"$*$\"#5\"\"%" }{TEXT -1 
+122 "; one may take higher values depending on the speed of computer a
+vailable), and the relative frequency (i.e., relative to " }{XPPEDIT 
+18 0 "x/ln(x);" "6#*&%\"xG\"\"\"-%#lnG6#F$!\"\"" }{TEXT -1 170 " ). He
+re I have written a simple Maple procedure, which might not be familia
+r to all my readers, but it ought to be clear what is going on (and I \+
+spell it out just once):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+190 "Artin := proc(a, x) local count, r;\ncount := 0:\nfor r while ith
+prime(r) <= x do\nif order(a, ithprime(r)) = ithprime(r)-1 then\ncount
+ := count+1\nfi od; print(count, count/evalf(x/ln(x))); end:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Artin(2, 10^2);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6$\"#7$\"+AU?Eb!#5" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 96 "Thus there are 12 primes up to 100 for which 2 is a primi
+tive root, and the '.552 ... ' is ... ." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "Artin(2, 10^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"
+#n$\"+Pg>GY!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Artin(2, \+
+10^4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"$q%$\"+u*f)GV!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Artin(3, 10^4);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6$\"$x%$\"+cBL$R%!#5" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "Here I take
+ a case where " }{XPPEDIT 18 0 "a = 1;" "6#/%\"aG\"\"\"" }{TEXT -1 30 
+" (mod 4) (for the 'otherwise')" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "Artin(5, 10^4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"$$\\$\"+-
+ypSX!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Artin(6, 10^4);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"$q%$\"+u*f)GV!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "Artin(27, 10^4); # note the (expect
+ed) 'drop'..." }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"$y#$\"+BYZgD!#5" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 42 "Giuga's conjecture (a type of converse) . " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 219 "This is a well-kn
+own, longstanding problem (one on which I spent a lot of time over the
+ years). I first came upon it at school, in Sierpinski's wonderful 196
+4 collection of problems. There, on page 111, Sierpinski asks:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+507 70 "Does there exist a composite number n which is a divisor of th
+e number" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 286 "" 0 "" {TEXT 
+-1 0 "" }{XPPEDIT 18 0 "1^(n-1)+2^(n-1);" "6#,&)\"\"\",&%\"nG\"\"\"\"
+\"\"!\"\"F()\"\"#,&F'F(\"\"\"F*F(" }{TEXT -1 9 " + ... + " }{XPPEDIT 
+18 0 "(n-1)^(n-1)+1;" "6#,&),&%\"nG\"\"\"\"\"\"!\"\",&F&F'\"\"\"F)F'\"
+\"\"F'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 
+"and Sierpinski goes on to (trivially) remark: It is easy to prove tha
+t if " }{TEXT 508 1 "p" }{TEXT -1 24 " is a prime number, then" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 287 "" 0 "" {TEXT -1 0 "" }
+{XPPEDIT 18 0 "1^(p-1)+2^(p-1);" "6#,&)\"\"\",&%\"pG\"\"\"\"\"\"!\"\"F
+()\"\"#,&F'F(\"\"\"F*F(" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "(p-1)
+^(p-1)+1;" "6#,&),&%\"pG\"\"\"\"\"\"!\"\",&F&F'\"\"\"F)F'\"\"\"F'" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 16 "is divisible by " }{TEXT 509 1 "p" }{TEXT -1 51 ". [and that is
+ all Sierpinski had to say about it.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 52 "The point of Sierpinski's remark is t
+hat, for prime " }{TEXT 428 1 "p" }{TEXT -1 10 ", one has:" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 267 "" 0 "" {XPPEDIT 18 0 "1^(p-1) = 1;
+" "6#/)\"\"\",&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 421 1 "p" }{TEXT -1 3 "), " }{XPPEDIT 18 0 "2^(p-1) = 1;" "6#/)
+\"\"#,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 16 " (mod p), ... , " }
+{XPPEDIT 18 0 "(p-1)^(p-1) = 1;" "6#/),&%\"pG\"\"\"\"\"\"!\"\",&F&F'\"
+\"\"F)\"\"\"" }{TEXT -1 8 " (mod p)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 29 "and so, trivially:           " }
+{XPPEDIT 18 0 "1^(p-1)+2^(p-1);" "6#,&)\"\"\",&%\"pG\"\"\"\"\"\"!\"\"F
+()\"\"#,&F'F(\"\"\"F*F(" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "(p-1)
+^(p-1)+1 = 0;" "6#/,&),&%\"pG\"\"\"\"\"\"!\"\",&F'F(\"\"\"F*F(\"\"\"F(
+\"\"!" }{TEXT -1 6 " (mod " }{TEXT 422 1 "p" }{TEXT -1 4 ")   " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "Thus the \+
+thrust of Sierpinski's question is: does" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 288 "" 0 "" {TEXT -1 2 "  " }{XPPEDIT 18 0 "1^(n-1)+2^(n-
+1);" "6#,&)\"\"\",&%\"nG\"\"\"\"\"\"!\"\"F()\"\"#,&F'F(\"\"\"F*F(" }
+{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "(n-1)^(n-1)+1 = 0;" "6#/,&),&%
+\"nG\"\"\"\"\"\"!\"\",&F'F(\"\"\"F*F(\"\"\"F(\"\"!" }{TEXT -1 6 " (mod
+ " }{TEXT 423 1 "n" }{TEXT -1 11 " )  ... (c)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "hold " }{TEXT 435 4 "only
+" }{TEXT -1 11 " for prime " }{TEXT 424 1 "n" }{TEXT -1 1 "?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 425 7 "Comment" }
+{TEXT -1 96 ". It is well known (as indeed anyone will establish who t
+ackles this question) that a composite " }{TEXT 426 1 "n" }{TEXT -1 
+43 " satisfying (c) must have these properties:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 427 1 "n" }
+{TEXT -1 27 " is odd and squarefree (so " }{XPPEDIT 18 0 "n = Product(
+p[i],i = 1 .. r);" "6#/%\"nG-%(ProductG6$&%\"pG6#%\"iG/F+;\"\"\"%\"rG
+" }{TEXT -1 26 ", for distinct odd primes " }{XPPEDIT 18 0 "p[1],p[2];
+" "6$&%\"pG6#\"\"\"&F$6#\"\"#" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "
+p[r];" "6#&%\"pG6#%\"rG" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "1 < r;" "6#
+2\"\"\"%\"rG" }{TEXT -1 2 " )" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "p[i]*
+(p[i]-1);" "6#*&&%\"pG6#%\"iG\"\"\",&&F%6#F'F(\"\"\"!\"\"F(" }{TEXT 
+-1 9 " divides " }{XPPEDIT 18 0 "n[i]-1 = n/p[i]-1;" "6#/,&&%\"nG6#%\"
+iG\"\"\"\"\"\"!\"\",&*&F&F)&%\"pG6#F(F+F)\"\"\"F+" }{TEXT -1 11 " for \+
+every " }{XPPEDIT 18 0 "i,i = 1;" "6$%\"iG/F#\"\"\"" }{TEXT -1 8 ", ..
+. , " }{TEXT 429 1 "r" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 66 "Now, of course, one would like to show the latter is i
+mpossible..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+430 9 "A comment" }{TEXT -1 49 ". An immediate consequence of the latt
+er is that:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 268 "" 0 "" 
+{XPPEDIT 18 0 "1/p[1]+1/p[2];" "6#,&*&\"\"\"\"\"\"&%\"pG6#\"\"\"!\"\"F
+&*&\"\"\"F&&F(6#\"\"#F+F&" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "1/p
+[r]-1/Product(p[i],i = 1 .. r);" "6#,&*&\"\"\"\"\"\"&%\"pG6#%\"rG!\"\"
+F&*&\"\"\"F&-%(ProductG6$&F(6#%\"iG/F3;\"\"\"F*F+F+" }{TEXT -1 24 "  i
+s an integer  ... (e)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 86 "One might be tempted to argue that is impossible... , \+
+but one should be aware that it " }{TEXT 431 16 "will not be easy" }
+{TEXT -1 36 ". One cannot argue it is impossible " }{TEXT 432 6 "merel
+y" }{TEXT -1 5 " for " }{TEXT 433 8 "distinct" }{TEXT -1 38 " primes, \+
+for one should be aware that:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 269 "" 0 "" {XPPEDIT 18 0 "1/2+1/3+1/5-1/30 = 1;" "6#/,**&\"\"\"
+\"\"\"\"\"#!\"\"F'*&\"\"\"F'\"\"$F)F'*&\"\"\"F'\"\"&F)F'*&\"\"\"F'\"#I
+F)F)\"\"\"" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 
+-1 35 "So, is (e) impossible for distinct " }{TEXT 434 3 "odd" }{TEXT 
+-1 8 " primes?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 510 19 "Recommended reading" }{TEXT -1 206 ". The January 1996 A
+merican Mathematical Monthly article by Borwein (D., J. M., and R.) an
+d Girgensohn, R., who attribute the above question to G. Guiga (1950),
+ where they list ten associated Open Problems." }}}}{SECT 1 {PARA 3 "
+" 0 "" {TEXT -1 78 "Section 8. Proofs of some important consequences o
+f Fermat's 'little' theorem." }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 52 "E
+uler's (Ivory's?) proof of Fermat's little theorem." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "This proof relies on th
+e simple, but powerful observation that for prime " }{TEXT 348 1 "p" }
+{TEXT -1 14 ", and integer " }{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"\"!" 
+}{TEXT -1 6 " (mod " }{TEXT 349 1 "p" }{TEXT -1 11 "), one has " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 303 "" 0 "" {XPPEDIT 18 0 "a.1,a
+.2,a.3;" "6%(%\"aG\"\"\"(F$\"\"#(F$\"\"$" }{TEXT -1 6 ", ... " }
+{XPPEDIT 18 0 "a.(p-2),a.(p-1) = 1,2,3;" "6&(%\"aG,&%\"pG\"\"\"\"\"#!
+\"\"/(F$,&F&F'\"\"\"F)\"\"\"\"\"#\"\"$" }{TEXT -1 8 ", ... , " }
+{XPPEDIT 18 0 "p-2,p-1;" "6$,&%\"pG\"\"\"\"\"#!\"\",&F$F%\"\"\"F'" }
+{TEXT -1 6 " (mod " }{TEXT 350 1 "p" }{TEXT -1 15 ")\nin some order" }
+}{PARA 0 "" 0 "" {TEXT -1 38 "A small prime numerical demonstration:" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "p := 23;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"pG\"#B" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "a := 12;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"#7" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 25 "seq(a*k mod p, k=1..p-1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "68\"#7\"\"\"\"#8\"\"#\"#9\"\"$\"#:\"\"%\"#;\"\"&\"#<\"\"'
+\"#=\"\"(\"#>\"\")\"#?\"\"*\"#@\"#5\"#A\"#6" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 33 "sort([seq(a*k mod p, k=1..p-1)]);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#78\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"*\"
+#5\"#6\"#7\"#8\"#9\"#:\"#;\"#<\"#=\"#>\"#?\"#@\"#A" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 5 "Then " }
+{XPPEDIT 18 0 "a^(p-1)*(p-1)! = (p-1)!;" "6#/*&)%\"aG,&%\"pG\"\"\"\"\"
+\"!\"\"F)-%*factorialG6#,&F(F)\"\"\"F+F)-F-6#,&F(F)\"\"\"F+" }{TEXT 
+-1 6 " (mod " }{TEXT 351 1 "p" }{TEXT -1 30 "), from which it follows \+
+that " }{XPPEDIT 18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"
+\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 352 1 "p" }{TEXT -1 2 ")." }}}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 26 "Euler's proof concerning (" }
+{XPPEDIT 18 0 "x^2+1;" "6#,&*$%\"xG\"\"#\"\"\"\"\"\"F'" }{TEXT -1 2 ")
+." }}{PARA 0 "" 0 "" {TEXT -1 8 "Suppose " }{XPPEDIT 18 0 "x^2+1 = 0;
+" "6#/,&*$%\"xG\"\"#\"\"\"\"\"\"F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 
+354 1 "p" }{TEXT -1 17 ") for some prime " }{TEXT 353 1 "p" }{TEXT -1 
+6 " with " }{XPPEDIT 18 0 "p = 3;" "6#/%\"pG\"\"$" }{TEXT -1 20 " (mod
+ 4). Then from " }{XPPEDIT 18 0 "x^2 = -1;" "6#/*$%\"xG\"\"#,$\"\"\"!
+\"\"" }{TEXT -1 6 " (mod " }{TEXT 355 1 "p" }{TEXT -1 10 ") one has " 
+}{XPPEDIT 18 0 "(x^2)^((p-1)/2) = (-1)^((p-1)/2);" "6#/)*$%\"xG\"\"#*&
+,&%\"pG\"\"\"\"\"\"!\"\"F+\"\"#F-),$\"\"\"F-*&,&F*F+\"\"\"F-F+\"\"#F-
+" }{TEXT -1 6 " (mod " }{TEXT 356 1 "p" }{TEXT -1 9 "), giving" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "x^(p-1) = -1;" "6#/)%\"xG,&%\"pG\"\"\"\"\"\"!\"\",$\"\"
+\"F*" }{TEXT -1 6 " (mod " }{TEXT 357 1 "p" }{TEXT -1 11 ")  ... (i) \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 "But c
+learly " }{XPPEDIT 18 0 "x <> 0;" "6#0%\"xG\"\"!" }{TEXT -1 43 " (mod \+
+p), and so by Fermat's little theorem" }}{PARA 259 "" 0 "" {TEXT -1 1 
+" " }}{PARA 19 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "x^(p-1) = 1;" "6
+#/)%\"xG,&%\"pG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+540 1 "p" }{TEXT -1 12 ")  ... (ii) " }}{PARA 0 "" 0 "" {TEXT -1 38 "a
+nd (i) and (ii) are incompatible for " }{TEXT 358 3 "odd" }{TEXT -1 1 
+" " }{TEXT 359 1 "p" }{TEXT -1 19 ", since they imply " }{XPPEDIT 18 
+0 "2 = 0;" "6#/\"\"#\"\"!" }{TEXT -1 6 " (mod " }{TEXT 443 1 "p" }
+{TEXT -1 2 ")." }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 62 "An easy proof \+
+of a 2-prime version of Fermat's little theorem." }}{PARA 0 "" 0 "" 
+{TEXT -1 240 "If one is in a hurry then this proof allows one to sides
+tep having to establish all the side work necessary to a proof of the \+
+full Euler-Fermat theorem; one merely has to make two applications of \+
+the standard Fermat little theorem. We have:" }}{PARA 270 "" 0 "" 
+{TEXT -1 1 " " }{XPPEDIT 18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG\"\"\"\"
+\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 573 1 "p" }{TEXT -1 2 ") \+
+" }}{PARA 0 "" 0 "" {TEXT -1 8 "and thus" }}{PARA 271 "" 0 "" {TEXT 
+-1 1 " " }{XPPEDIT 18 0 "(a^(p-1))^(q-1) = 1^(q-1);" "6#/))%\"aG,&%\"p
+G\"\"\"\"\"\"!\"\",&%\"qGF)\"\"\"F+)\"\"\",&F-F)\"\"\"F+" }{TEXT -1 6 
+" (mod " }{TEXT 574 1 "p" }{TEXT -1 2 ") " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "giving" }}{PARA 272 "" 0 "" {TEXT 
+-1 1 " " }{XPPEDIT 18 0 "a^((p-1)*(q-1)) = 1;" "6#/)%\"aG*&,&%\"pG\"\"
+\"\"\"\"!\"\"F),&%\"qGF)\"\"\"F+F)\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+575 1 "p" }{TEXT -1 2 ") " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 9 "Similarly" }}{PARA 273 "" 0 "" {TEXT -1 1 " " }
+{XPPEDIT 18 0 "a^((p-1)*(q-1)) = 1;" "6#/)%\"aG*&,&%\"pG\"\"\"\"\"\"!
+\"\"F),&%\"qGF)\"\"\"F+F)\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 259 1 "q
+" }{TEXT -1 2 ") " }}{PARA 0 "" 0 "" {TEXT -1 8 "and thus" }}{PARA 
+274 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "a^((p-1)*(q-1)) = 1;" "6#/)
+%\"aG*&,&%\"pG\"\"\"\"\"\"!\"\"F),&%\"qGF)\"\"\"F+F)\"\"\"" }{TEXT -1 
+6 " (mod " }{TEXT 260 2 "pq" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "since " }{XPPEDIT 18 0 "gcd(p,q)
+ = 1;" "6#/-%$gcdG6$%\"pG%\"qG\"\"\"" }{TEXT -1 17 ". [End of proof.]
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 124 "As o
+ne quickly learns in RSA public-key cryptography, the 2-prime version \+
+of Fermat's 'little' theorem plays a central role." }}}}{SECT 1 {PARA 
+3 "" 0 "" {TEXT -1 43 "Section 9. Bibliography and web references." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "Bach, Eri
+c and Shallit, Jeffrey. " }{TEXT 504 25 "Algorithmic Number Theory" }
+{TEXT -1 48 ", Vol. 1: Efficient Algorithms. MIT Press, 1996." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "Borwein, \+
+D., J. M., and P.B., and Girgensohn, R. Giuga's Conjecture on Primalit
+y, " }{TEXT 499 29 "American Mathematical Monthly" }{TEXT -1 17 " 103 \+
+(1996) 40-50" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 179 "Cosgrave, John B., Many Maple worksheets - a number, but not a
+ll, in html format - are available at my web site; simply follow the o
+bvious links at: http://www.spd.dcu.ie/johnbcos" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "Dickson, Leonard E. D., \+
+" }{TEXT 500 32 "History of the Theory of Numbers" }{TEXT -1 73 ", Vol
+ume 1 (First published in 1919). Chelsea Publishing Company (1971). " 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "Edwards
+, Harold M., " }{TEXT 501 21 "Fermat's Last Theorem" }{TEXT -1 77 " (A
+ Genetic Introduction to Algebraic Number Theory). Springer-Verlag (19
+77)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "G
+auss, Carl Friedrich. " }{TEXT 269 27 "Disquisitiones Arithmeticae" }
+{TEXT -1 148 " (originally published in 1801). Translated by Arthur A.
+ Clarke (completed 1965). Yale University Press (1966). Reprinted by S
+pringer-Verlag (1986)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 23 "Mahoney, Michael Sean. " }{TEXT 511 53 "The Mathemat
+ical Career of Pierre de Fermat 1601-1665" }{TEXT -1 35 ". Princeton U
+niversity Press (1973)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 20 "Sierpinski, Waslaw. " }{TEXT 502 48 "A Selection of \+
+Problems in the Theory of Numbers" }{TEXT -1 58 ". Pergamon Press (PWN
+-Polish Scientific Publishers) (1964)" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 13 "Weil, Andr\351. " }{TEXT 503 13 "Numb
+er Theory" }{TEXT -1 78 " (An approach through history. From Hammurapi
+ to Legendre.) Birkha\374ser (1984)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 19 "Williams, Hugh C,. " }{TEXT 505 35 "Edo
+uard Lucas and Primality Testing" }{TEXT -1 114 ". Canadian Mathematic
+al Society Series Of Monographs And Advanced Texts, Volume 22. John Wi
+ley & Sons, Inc. (1998)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{MARK "10
+" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

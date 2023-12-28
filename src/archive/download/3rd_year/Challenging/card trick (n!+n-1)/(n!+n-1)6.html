@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>(n!+n-1).html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=5>Continuation to the Introduction, and some worked examples</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Now we will see how to complete the details of the identification of the 'hidden' card.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Recall from the Introduction our illustrative example 17, 38, 62, 116 and 120, where </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> knows '</font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>' to be 3 and '</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>' to be 2, and where </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> - on receipt of the 4 cards - knows '</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>' to be '2'. Recall that </font></b>
+<img src="images/(n!+n-1)61.gif" width=31 height=32 alt="c[3]" align=middle>
+<b><font color=#000080> renumbered value is 113 (= (-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>) (mod 5)).</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>113 = 5.</font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080> + (5 - 2)</font></b>
+</li>
+<li>
+<b><font color=#000080>so </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> needs to signal '</font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080>' to </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> </font></b>
+</li>
+<li>
+<b><font color=#000080>in base factorial </font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080> is 3.3!+2.2!+0.1! </font></b>
+</li>
+<li>
+<b><font color=#000080>so </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> needs signal </font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080> with the triple (3, 2, 0)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Agreement on how that may be done</font></u></b>
+<b><font color=#000080>. Consider this quadruple of the 4 passed </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>'s: (38, 62, 17, 120), and read the entries from left to right:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>the 1st entry is '38', and of the following three, </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080> of them is less than 38</font></b>
+</li>
+<li>
+<b><font color=#000080>the 2nd entry is '62', and of the following two, </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080> of them is less than 62</font></b>
+</li>
+<li>
+<b><font color=#000080>the 3rd entry is '17', and of the following one, none of them (</font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080>) is less than 17</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now, simply make the understanding that passing the four cards 17 (=</font></b>
+<img src="images/(n!+n-1)62.gif" width=31 height=32 alt="c[0]" align=middle>
+<b><font color=#000080>), 38 (=</font></b>
+<img src="images/(n!+n-1)63.gif" width=31 height=32 alt="c[1]" align=middle>
+<b><font color=#000080>), 62 (=</font></b>
+<img src="images/(n!+n-1)64.gif" width=31 height=32 alt="c[2]" align=middle>
+<b><font color=#000080>) and 120 (=</font></b>
+<img src="images/(n!+n-1)65.gif" width=31 height=32 alt="c[4]" align=middle>
+<b><font color=#000080>) in the left-to-right order (38, 62, 17, 120) </font></b>
+<i><b><font color=#000080>would signal</font></b></i>
+<b><font color=#000080> the number 1.3! + 1.2! + 0.1! (=8).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But, wishing to signal the number 22 (=</font></b>
+<b><u><font color=#000080>3</font></u></b>
+<b><font color=#000080>.3!+</font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>.2!+</font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080>.1!) from our example above, we should signal by passing in the left-to-right order (120, 62, 17, 38) since: <br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>the 1st entry is '120', and of the following three, </font></b>
+<b><u><font color=#000080>3</font></u></b>
+<b><font color=#000080> of them are less than 120</font></b>
+</li>
+<li>
+<b><font color=#000080>the 2nd entry is '62', and of the following two, </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080> of them are less than 62</font></b>
+</li>
+<li>
+<b><font color=#000080>the 3rd entry is '17', and of the following one, none of them (</font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080>) is less than 17</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The point is simply that for any quadruple (A, B, C, D) of distinct numbers:<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>the number of numbers from [B, C, D] that are less than A is 0, 1, 2 or 3 (gives '</font></b>
+<img src="images/(n!+n-1)66.gif" width=32 height=32 alt="d[3]" align=middle>
+<b><font color=#000080>')</font></b>
+</li>
+<li>
+<b><font color=#000080>the number of numbers from [C, D] that are less than B is 0, 1 or 2 (gives '</font></b>
+<img src="images/(n!+n-1)67.gif" width=32 height=32 alt="d[2]" align=middle>
+<b><font color=#000080>')</font></b>
+</li>
+<li>
+<b><font color=#000080>the number of numbers from [D] that are less than C is 0 or 1 (gives '</font></b>
+<img src="images/(n!+n-1)68.gif" width=32 height=32 alt="d[1]" align=middle>
+<b><font color=#000080>')</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> then knows that the hidden </font></b>
+<img src="images/(n!+n-1)69.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> has shifted value 113 (= 5.(the decoded </font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080>)) + (5 - </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>)) , and its actual value satisfies the vital congruence:</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)70.gif" width=81 height=32 alt="c[i] = i-2" align=middle>
+<b><font color=#000080> (mod 5)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> then knows that </font></b>
+<img src="images/(n!+n-1)71.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> cannot be 17, 38 nor 62 (they are less than the shifted value, and so must be </font></b>
+<img src="images/(n!+n-1)72.gif" width=54 height=32 alt="c[0], c[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/(n!+n-1)73.gif" width=31 height=32 alt="c[2]" align=middle>
+<b><font color=#000080>), and so </font></b>
+<img src="images/(n!+n-1)74.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> must be </font></b>
+<img src="images/(n!+n-1)75.gif" width=31 height=32 alt="c[3]" align=middle>
+<b><font color=#000080>, allowing </font></b>
+<i><b><font color=#000080>P </font></b></i>
+<b><font color=#000080>know that </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> is 3. Adding 3 to 113 gives the hidden card 116.</font></b>
+</p>
+<a href="(n!+n-1)7.html" target="Content"><p align=left>
+<b><font color=#000080 size=4>A telegraphic worked example with </font></b>
+<i><b><font color=#000080 size=4>n</font></b></i>
+<b><font color=#000080 size=4> = 4</font></b>
+</p>
+</a></ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Advice</font></u></b>
+<b><font color=#000080>. PRACTICE!!</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Exercise</font></u></b>
+<b><font color=#000080>. Take the simple case </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> = 3, choose two fixed cards (say '2' and '6') numbered 0 to 7, and a 3rd </font></b>
+<i><b><font color=#000080>variable</font></b></i>
+<b><font color=#000080> card '</font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>'. Now, work out the signals for the triple (2, </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>, 6).</font></b>
+</p>
+</basefont>
+</body>
+</html>

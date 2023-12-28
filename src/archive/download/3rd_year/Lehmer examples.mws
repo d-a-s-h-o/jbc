@@ -1,0 +1,247 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 14 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 275 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Text Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 14 128 0 0 
+1 2 1 2 2 2 1 2 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 
+1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 3 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "He
+lvetica" 1 12 128 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 
+128 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "N
+ormal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 
+1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "# Lehmer examples.mw
+s" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 262 16 "Lehmer's theorem" }{TEXT 
+-1 6 ": Let " }{TEXT 256 1 "n" }{TEXT -1 30 " be a natural number, and
+ let " }{XPPEDIT 18 0 "n-1 = p[1]^alpha[1]*p[2]^alpha[2]*`...`*p[r]^al
+pha[r];" "6#/,&%\"nG\"\"\"F&!\"\"**)&%\"pG6#F&&%&alphaG6#F&F&)&F+6#\"
+\"#&F.6#F3F&%$...GF&)&F+6#%\"rG&F.6#F:F&" }{TEXT -1 32 " be the prime \+
+factroisation of (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"F%!\"\"" }
+{TEXT -1 8 ") (the \{" }{XPPEDIT 18 0 "p[i];" "6#&%\"pG6#%\"iG" }
+{TEXT -1 6 "\} are " }{TEXT 263 8 "distinct" }{TEXT -1 14 " primes). L
+et " }{TEXT 257 1 "a" }{TEXT -1 24 " be an integer such that" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 
+18 0 "a^(n-1) = 1;" "6#/)%\"aG,&%\"nG\"\"\"F(!\"\"F(" }{TEXT -1 6 " (m
+od " }{TEXT 258 1 "n" }{TEXT -1 8 ")\n\nand\n\n" }{XPPEDIT 18 0 "a^((n
+-1)/p[i]) <> 1;" "6#0)%\"aG*&,&%\"nG\"\"\"F)!\"\"F)&%\"pG6#%\"iGF*F)" 
+}{TEXT -1 6 " (mod " }{TEXT 259 1 "n" }{TEXT -1 11 "), for all " }
+{TEXT 260 1 "i" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "then " }{TEXT 261 1 "n" }{TEXT -1 10 " is prime." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 126 "Rather than st
+art with a small example to illustrate, I'm going to begin with a reas
+onably large example (having 127 digits), " }{TEXT 264 21 "to make an \+
+impression" }{TEXT -1 23 "... Later you will see " }{TEXT 278 3 "how" 
+}{TEXT -1 35 " I came up with my initial example." }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 149 "n := \n142723502904916045529875040372813309
+4987988471984863281250000000000000000000000000000000000000000000000000
+000000000000000000001:\nifactor(n-1);\n" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*()-%!G6#\"\"#\"#q\"\"\")-F&6#\"\"$\"#%)F*)-F&6#\"\"&\"#$*F*" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 18 "So, you see, the '" }{TEXT 280 1 "n" }{TEXT -1 16 "' I've
+ begun is " }{TEXT 279 4 "this" }{TEXT -1 1 ":" }}{PARA 258 "" 0 "" 
+{TEXT -1 1 " " }{XPPEDIT 18 0 "n = 2^70*3^84*5^93+1;" "6#/%\"nG,&*(\"
+\"#\"#q\"\"$\"#%)\"\"&\"#$*\"\"\"F-F-" }{TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 24 "a := 2:\na&^(n-1) mod n;\n" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "So, that '" }{TEXT 281 
+1 "n" }{TEXT -1 2 "' " }{TEXT 282 5 "could" }{TEXT -1 52 " be a prime.
+.. Let's see what Lehmer has to tell us:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 60 "a&^((n-1)/2) mod n;\na&^((n-1)/3) mod n;\na&^((n-1)/5
+) mod n;\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 29 "What a pity, all those 1's..." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "So, we press on, with that " }
+{TEXT 265 4 "same" }{TEXT -1 1 " " }{TEXT 266 1 "n" }{TEXT -1 17 ", bu
+t now trying " }{XPPEDIT 18 0 "a = 3;" "6#/%\"aG\"\"$" }{TEXT -1 1 ":
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 84 "a := 3:\na&^(n-1) mod n
+;\na&^((n-1)/2) mod n;\na&^((n-1)/3) mod n;\na&^((n-1)/5) mod n;\n" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "Now, change to 5:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 84 "a := 5:\na&^(n-1) mod n;\na&
+^((n-1)/2) mod n;\na&^((n-1)/3) mod n;\na&^((n-1)/5) mod n;\n" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+84 "a := 7:\na&^(n-1) mod n;\na&^((n-1)/2) mod n;\na&^((n-1)/3) mod n;
+\na&^((n-1)/5) mod n;\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#\"jr++++++++++++++++++++++++++++++++++
++D\"Gj[)>Z))z)\\4L\"GPS]()Hb/;\\!H]BF9" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"jr+wp_gv))oiPmW!pz=#
+ppk$)p5VT*p5y4t_F;+h'y%o\"o:pR'\\pg'oB#pRbLc)>rJ\\=J[X5\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 85 "a := 11:\na&^(n-1) mod n;\na&^((n-1
+)/2) mod n;\na&^((n-1)/3) mod n;\na&^((n-1)/5) mod n;\n" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"jr++
++++++++++++++++++++++++++++++++++D\"Gj[)>Z))z)\\4L\"GPS]()Hb/;\\!H]BF9
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"iruu%4*>O+hG.SwfI&[\\R6GXdN$=P(>
+JY0!H+65#yj+m^$puS![%HRJDNOSk7*\\%QD)H]51'" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#\"jr\"Qr2;ZB+G\"[60AV2pHxp%R!)opXsJKG@9K2C.]sA$H8rL*GpT
+rg+\"QbDQ2I1c:@nsX.\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 73 "The first output is '1', and the
+ other three are 'not 1', and so the 'n' " }{TEXT 267 2 "is" }{TEXT 
+-1 28 " prime, by Lehmer's theorem." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 73 "Of course it is no surprise that Maple's
+ isprime command returns 'true'::" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "isprime(n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%true
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 60 "It should be of interest to see what happens if one \+
+tests a " }{TEXT 268 11 "pseudoprime" }{TEXT -1 118 ", and I'll do so \+
+with the first historical example, known to you all: 341, which is a b
+ase 2 pseudoprime (recall that " }{TEXT 269 1 "m" }{TEXT -1 11 " is a \+
+base " }{TEXT 283 1 "a" }{TEXT -1 14 " pseudoprime (" }{XPPEDIT 18 0 "
+a <> 1;" "6#0%\"aG\"\"\"" }{TEXT -1 6 "), if " }{XPPEDIT 18 0 "a^(n-1)
+ = 1;" "6#/)%\"aG,&%\"nG\"\"\"F(!\"\"F(" }{TEXT -1 6 " (mod " }{TEXT 
+270 1 "n" }{TEXT -1 7 "), and " }{TEXT 271 1 "n" }{TEXT -1 15 " is com
+posite)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+63 "Here is a way of finding other examples of base 2 pseudoprimes:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 130 "for m from 3 by 2 to 1000
+ do\nif 2&^(m-1) mod m = 1 \nand isprime(m) = false\nthen lprint(m, `i
+s a pseudoprime to the base 2`) fi od;" }}{PARA 6 "" 1 "" {TEXT -1 37 
+"341, `is a pseudoprime to the base 2`" }}{PARA 6 "" 1 "" {TEXT -1 37 
+"561, `is a pseudoprime to the base 2`" }}{PARA 6 "" 1 "" {TEXT -1 37 
+"645, `is a pseudoprime to the base 2`" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 130 "for m from 3 by 2 to 1000 do\nif 3&^(m-1) mod m = 1 \+
+\nand isprime(m) = false\nthen lprint(m, `is a pseudoprime to the base
+ 3`) fi od;" }}{PARA 6 "" 1 "" {TEXT -1 36 "91, `is a pseudoprime to t
+he base 3`" }}{PARA 6 "" 1 "" {TEXT -1 37 "121, `is a pseudoprime to t
+he base 3`" }}{PARA 6 "" 1 "" {TEXT -1 37 "671, `is a pseudoprime to t
+he base 3`" }}{PARA 6 "" 1 "" {TEXT -1 37 "703, `is a pseudoprime to t
+he base 3`" }}{PARA 6 "" 1 "" {TEXT -1 37 "949, `is a pseudoprime to t
+he base 3`" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 160 "for m from 3
+ by 2 to 3000 do\nif 2&^(m-1) mod m = 1 \nand 3&^(m-1) mod m = 1 \nand
+ isprime(m) = false\nthen lprint(m, `is a pseudoprime to the base 2 AN
+D 3`) fi od;" }}{PARA 6 "" 1 "" {TEXT -1 44 "1105, `is a pseudoprime t
+o the base 2 AND 3`" }}{PARA 6 "" 1 "" {TEXT -1 44 "1729, `is a pseudo
+prime to the base 2 AND 3`" }}{PARA 6 "" 1 "" {TEXT -1 44 "2465, `is a
+ pseudoprime to the base 2 AND 3`" }}{PARA 6 "" 1 "" {TEXT -1 44 "2701
+, `is a pseudoprime to the base 2 AND 3`" }}{PARA 6 "" 1 "" {TEXT -1 
+44 "2821, `is a pseudoprime to the base 2 AND 3`" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 6 "It is \+
+" }{TEXT 273 9 "immediate" }{TEXT -1 9 " that if " }{TEXT 272 1 "n" }
+{TEXT -1 44 " is a pseudoprime to the base 2 and 3, then " }{TEXT 274 
+1 "n" }{TEXT -1 4 " is " }{TEXT 275 13 "automatically" }{TEXT -1 55 " \+
+a pseudoprime to the base 6, but note that an integer " }{TEXT 276 3 "
+may" }{TEXT -1 79 " be a pseudoprime to the base 6 without being a pse
+udoprime to the base 2 or 3:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 130 "for m from 3 by 2 to 3000 do\nif 6&^(m-1) mod m = 1 \nand ispri
+me(m) = false\nthen lprint(m, `is a pseudoprime to the base 6`) fi od;
+" }}{PARA 6 "" 1 "" {TEXT -1 36 "35, `is a pseudoprime to the base 6`
+" }}{PARA 6 "" 1 "" {TEXT -1 37 "185, `is a pseudoprime to the base 6`
+" }}{PARA 6 "" 1 "" {TEXT -1 37 "217, `is a pseudoprime to the base 6`
+" }}{PARA 6 "" 1 "" {TEXT -1 37 "301, `is a pseudoprime to the base 6`
+" }}{PARA 6 "" 1 "" {TEXT -1 37 "481, `is a pseudoprime to the base 6`
+" }}{PARA 6 "" 1 "" {TEXT -1 38 "1105, `is a pseudoprime to the base 6
+`" }}{PARA 6 "" 1 "" {TEXT -1 38 "1111, `is a pseudoprime to the base \+
+6`" }}{PARA 6 "" 1 "" {TEXT -1 38 "1261, `is a pseudoprime to the base
+ 6`" }}{PARA 6 "" 1 "" {TEXT -1 38 "1333, `is a pseudoprime to the bas
+e 6`" }}{PARA 6 "" 1 "" {TEXT -1 38 "1729, `is a pseudoprime to the ba
+se 6`" }}{PARA 6 "" 1 "" {TEXT -1 38 "2465, `is a pseudoprime to the b
+ase 6`" }}{PARA 6 "" 1 "" {TEXT -1 38 "2701, `is a pseudoprime to the \+
+base 6`" }}{PARA 6 "" 1 "" {TEXT -1 38 "2821, `is a pseudoprime to the
+ base 6`" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 63 "So, let's take a quick look (with Lehmer'
+s theorem in mind) at " }{XPPEDIT 18 0 "n = 341;" "6#/%\"nG\"$T$" }
+{TEXT -1 39 ". Let us pretend we don't know that it " }{TEXT 277 2 "is
+" }{TEXT -1 12 " composite):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 101 "n := 341; # the well known (first found) pseudoprime to the bas
+e '2'\na := 2;\na&^(n-1) mod n; # IS '1'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"nG\"$T$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "ifactor(n-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*()-
+%!G6#\"\"#F(\"\"\"-F&6#\"\"&F)-F&6#\"#<F)" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "(n-1)/2; (n-1)/5; (n-1)/17;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$q\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#o" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#?" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "a&^170 mod n; a&^68 mod n; a&^20 mod n;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$c#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 81 "Of course, \+
+as soon as one changes the 'a' value from '2' to '3', the game is up!:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 142 "n := 341; # the well k
+nown (first found) pseudoprime to the base '2'\na := 3;\na&^(n-1) mod \+
+n; # IS NOT '1', and so 'n' is NOT prime (by Fermat)" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"nG\"$T$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"a
+G\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#c" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 69 "Now, h
+ow did I come up with that earlier example? This is what I did:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 227 "a := 2; # I'll start with '
+a' being 2\nfor A from 70 to 80 do\nfor B from 80 to 85 do\nfor C from
+ 90 to 95 do\nif a&^(2^A*3^B*5^C) mod (2^A*3^B*5^C + 1) = 1\nthen prin
+t(A, B, C, 2^A*3^B*5^C + 1, length(2^A*3^B*5^C + 1))\nfi od od od;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"\"#" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6'\"#q\"#%)\"#$*\"jr,++++++++++++++++++++++++++++++++++D
+\"Gj[)>Z))z)\\4L\"GPS]()Hb/;\\!H]BF9\"$F\"" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6'\"#w\"##)\"#!*\"hr,++++++++++++++++++++++++++++++++++++
++D1kc0#[QzLl&=\"*G.z%z2f)\\\"Q>\")\"$D\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 298 "a := 2
+; # I'll start with 'a' being 2\np[1] := 2; \np[2] := 5; \np[3] := 7;
+\nfor A from 40 to 50 do\nfor B from 30 to 35 do\nfor C from 20 to 25 \+
+do\nif a&^(p[1]^A*p[2]^B*p[3]^C) mod (p[1]^A*p[2]^B*p[3]^C + 1) = 1\nt
+hen print(A, B, C, p[1]^A*p[2]^B*p[3]^C + 1, length(p[1]^A*p[2]^B*p[3]
+^C + 1))\nfi od od od;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"\"#
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"\"\"\"#" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"#\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"pG6#\"\"$\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'
+\"#S\"#I\"#C\"W,++++++++++++++CmM3+qL4=zh>\"#a" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"#Z\"#J\"#B\"Y,++++++++++++++![[XLHazcAQOz\"\"#c" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'\"#\\\"#L\"#C\"fn,+++++++++++++++g$R=M
+0!ovzvYbD\"\"#f" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "n := 196
+179180933700008346624000000000000000000000000000001;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"nG\"W,++++++++++++++CmM3+qL4=zh>" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "a := 3:\na&^(n-1) mod n;\na&^((n-1)
+/p[1]) mod n;\na&^((n-1)/p[2]) mod n;\na&^((n-1)/p[3]) mod n;\n" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"W+++++++++++++++CmM3+qL4=zh>" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"W&))GvVD?[!z_C@$y0MOU#*=Q#=*o[[1\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"V!=`$*o2K5*Qo(>Yc6@*4NM76ZP<'\\%*" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "n := \+
+17936382256795429334548480000000000000000000000000000001;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"nG\"Y,++++++++++++++![[XLHazcAQOz\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "a := 3:\na&^(n-1) mod n;\na&
+^((n-1)/p[1]) mod n;\na&^((n-1)/p[2]) mod n;\na&^((n-1)/p[3]) mod n;\n
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"Y+++++++++++++++![[XLHazcAQOz\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"XF*[?i=LjN\"H0*pe/u*H(RUe\"o>vsix*" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"XX,!40nh-9=')41v!RSLN\\1wL/%=1S*)" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 65 "n := 12555467579756800534183936000000000000000000000000000000001
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"fn,+++++++++++++++g$R=M0!
+ovzvYbD\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "a := 3:\na&^(n
+-1) mod n;\na&^((n-1)/p[1]) mod n;\na&^((n-1)/p[2]) mod n;\na&^((n-1)/
+p[3]) mod n;\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"fn++++++++++++++++g$R=M0!ovzvYbD\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"enmZ3LRQDGWL#zqWn<gj.()[+'p)\\/AT5(" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"en59T@]^SK.$*[C5!=64=O;!QA:D,A:rQ" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 3" 9 }{VIEWOPTS 1 1 0 1 1 1803 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

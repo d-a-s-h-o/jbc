@@ -1,0 +1,11 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|PATSWEB\\johnbcos
+vti_timecreated:TR|24 Jun 1999 17:09:28 +0100
+vti_modifiedby:SR|PATSNET\\JOHNBCOS
+vti_backlinkinfo:VX|
+vti_nexttolasttimemodified:TR|24 Jun 1999 17:09:28 +0100
+vti_extenderversion:SR|4.0.2.7802
+vti_nosourcecontrol:SR|True
+vti_timelastmodified:TR|29 Jun 2000 13:09:33 -0000
+vti_cacheddtm:TX|30 Jun 2000 10:50:58 -0000
+vti_filesize:IR|17855

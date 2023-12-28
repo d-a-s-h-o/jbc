@@ -1,0 +1,620 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark14">
+<p align=left>
+<b><font color=#000080 size=4>Some remarks about computation times</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It is commonly known amongst number theorists that</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>modular exponentiation (the (important) computation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005697.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) can be performed quickly, while </font></b>
+</li>
+<li>
+<b><font color=#000080>factorial modular computation (</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>! mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) is (currently) relatively slow; Richard Crandall (</font></b>
+<i><b><font color=#000080>Topics in Advanced Scientific Computation</font></b></i>
+<b><font color=#000080>, Springer-Verlag (1996)) remarks:<br>
+<br>
+"</font></b>
+<i><b><font color=#000080>Before we investigate ways to compute</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005698.gif" width=71 height=32 alt="(p-1)!" align=middle>
+<b><font color=#000080>  </font></b>
+<i><b><font color=#000080>it is worth noting that factorial evaluation must in general be problematic. One way to see this is, if we wanted to factor some number N, and if it were easy to find massive</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>factorials</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>M</font></b></i>
+<b><font color=#000080>! </font></b>
+<i><b><font color=#000080>mod</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>N</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>where</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>M</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>is say of order</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005699.gif" width=59 height=108 alt="N^(1/2)" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>or even some lower but significant power of</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>N</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>the one could simply take the GCD of the factorial with </font></b></i>
+<b><font color=#000080>N</font></b>
+<i><b><font color=#000080> routinely to produce factors of </font></b></i>
+<b><font color=#000080>N</font></b>
+<i><b><font color=#000080>. On the belief that factorisation is intrinsically difficult, it must follow that so, too is factorial evaluation. Another way to say this is, a factorial M!  contains some information about every integer not exceeding M</font></b></i>
+<b><font color=#000080>."<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080 size=4>A hasty demonstration</font></b>
+<b><font color=#000080>. The following computes the remainder that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005700.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080> leaves on division by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, for the assigned values of </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n. A</font></b></i>
+<b><font color=#000080> word of </font></b>
+<b><font color=#000080 size=4>warning</font></b>
+<b><font color=#000080>, though, for the uninitiated: it is done - </font></b>
+<b><font color=#000080 size=4>not by first</font></b>
+<b><font color=#000080> calculating the actual value of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005701.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080> and then dividing by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (that would have been attempted had one (foolishly) used the command </font></b>
+<b><font color=#000080 size=4>a^b mod n</font></b>
+<b><font color=#000080>) - </font></b>
+<b><font color=#000080 size=4>but rather by</font></b>
+<b><font color=#000080> using congruence technique together with the </font></b>
+<i><b><font color=#000080>square and multiply</font></b></i>
+<b><font color=#000080> method (that method is invoked with the use of '&amp;' in the command </font></b>
+<b><font color=#000080 size=4>a&amp;^b mod n</font></b>
+<b><font color=#000080>). </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a :=<br>
+599999999999999999999999999777777777777777777777777777777777777777777777777777777777777: <br>
+b := 38888888888888866666666666664444444444444444444444333333333333300000000000999999999999: <br>
+n := 766666666666666666666888888888888888888888555555555555555555555555555555555555557777777778888888888888888855555555555555544444444444444444444444444444444444321: <br>
+a&amp;^b mod n;</font></b>
+</p>
+<p align=left>
+<img src="images/reduced TCD talk 9th Feb 2005702.gif" width=936 height=20 alt="493878658881002747894888764061227209520845178842115...">
+<br>
+<img src="images/reduced TCD talk 9th Feb 2005703.gif" width=368 height=20 alt="493878658881002747894888764061227209520845178842115...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Suppose, now, that one wanted to compute the</font></b>
+<b><font color=#000080 size=4> remainder that </font></b>
+<i><b><font color=#000080 size=4>M</font></b></i>
+<b><font color=#000080 size=4>! leaves on division by </font></b>
+<i><b><font color=#000080 size=4>N</font></b></i>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>(the type of computation of which Richard Crandall speaks above, and which - as you will see - is at the heart of this talk...) for given </font></b>
+<i><b><font color=#000080>M</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>N</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(Incidentally, although modular exponentiation may be performed extremely quickly, if one makes the modulus 'n' be very large then the time taken becomes the greater... In 2002, just before I was to give a talk in Dallas on my 'Fermat 6' work, I wrote to Richard Crandall to ask his estimate for how long it would take to test the possible primality of the 31st Fermat number </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005704.gif" width=139 height=76 alt="F[31] = 2^(2^31)+1" align=middle>
+<b><font color=#000080>, which is </font></b>
+<b><font color=#000080 size=4>entirely decided</font></b>
+<b><font color=#000080> (using Pépin's theorem) by the modular exponentiation computation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005705.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, with</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005706.gif" width=211 height=52 alt="a = 3, b = (F[31]-1)/2, n = F[31]">
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>By Pépin's theorem, if </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005707.gif" width=135 height=122 alt="3^((F[31]-1)/2) = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005708.gif" width=43 height=32 alt="F[31]" align=middle>
+<b><font color=#000080>) then </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005709.gif" width=43 height=32 alt="F[31]" align=middle>
+<b><font color=#000080> is prime.  </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(Note in passing. At that time </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005710.gif" width=43 height=32 alt="F[31]" align=middle>
+<b><font color=#000080> was the </font></b>
+<i><b><font color=#000080>smallest</font></b></i>
+<b><font color=#000080> Fermat number whose status was unknown: </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005711.gif" width=82 height=32 alt="F[0], `...`, F[4]" align=middle>
+<b><font color=#000080> all being prime, while every one of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005712.gif" width=90 height=32 alt="F[5], `...`, F[30]" align=middle>
+<b><font color=#000080> was known to be composite. Later that year a factor of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005713.gif" width=43 height=32 alt="F[31]" align=middle>
+<b><font color=#000080> was found by Kruppa and Forbes - it was the 23-digit prime (5463561471303*</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005714.gif" width=41 height=50 alt="2^33" align=middle>
+<b><font color=#000080>+1) - and now </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005715.gif" width=43 height=32 alt="F[33]" align=middle>
+<b><font color=#000080> is the smallest Fermat number of unknown status. Anyone interested in reading more about Fermat numbers might like to access the Fermat Record Number corner of my website.)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Richard (who perhaps knows more than anyone about such matters) responded that it would take more than </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005716.gif" width=41 height=50 alt="2^18" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>years...</font></b>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>____________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here is a simple procedure for performing factorial modular reductions:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fact_rem := proc(M, N) local r, k;<br>
+r := 1; for k from 2 to M do<br>
+r := k*r mod N od; r; end:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>This computes the remainder 8! leaves on division by 17:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fact_rem(8, 17);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005717.gif" width=32 height=20 alt="13">
+</p>
+<p align=left>
+<b><font color=#000080>This computes the remainder 20! leaves on division by (Jacobi prime) 61:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fact_rem(20, 61);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005718.gif" width=32 height=20 alt="47">
+</p>
+<p align=left>
+<b><font color=#000080>This computes the remainder 6000! leaves on division by (prime) 8191:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fact_rem(6000, 8191);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005719.gif" width=48 height=20 alt="3488">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Time (tongue-in-cheek) note</font></b>
+<b><font color=#000080> #1. It took as long as 80.5 hours on a 2.8GHz Pentium 4 merely to verify (using straightforward modular reduction) that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 18711862657 satisfies the congruence </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005720.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), while the identification of that prime, as a possible candidate for satisfying </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005721.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), took only a matter of minutes using the alpha-criterion. Another verification, using an intermediary stage criterion that presented itself to me - what I later call the cubes-odd-square criterion - took only a microsecond. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Roughly how long would it have taken to verify that </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>=</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>16426761041360671 </font></b>
+<b><font color=#000080>satisfies </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005722.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), using modular reduction? </font></b>
+<b><font color=#000080 size=4>Over 8000 years:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>floor(16426761041360671/18711862657);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005723.gif" width=64 height=20 alt="877879">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>hours := (16426761041360671/18711862657)*(80.5);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005724.gif" width=189 height=29 alt="hours := 70669301.50">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>years := floor(hours/(24*365));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005725.gif" width=104 height=20 alt="years := 8067">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Time (tongue-in-cheek) note</font></b>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080 size=4>#2.</font></b>
+<b><font color=#000080 size=5> </font></b>
+<b><font color=#000080>Roughly how long does/would it take (on a Pentium of known speed) to verify (using step-by-step modular reduction) that a given prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) satisfies the congruence</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005726.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) ... (1)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Time (comparison) note</font></b>
+<b><font color=#000080>. It took as long as 80.5 hours (using a 2.8GHz Pentium) to verify that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 18711862657 satisfies (1), while the </font></b>
+<i><b><font color=#000080>identification</font></b></i>
+<b><font color=#000080> of that prime, as a </font></b>
+<i><b><font color=#000080>possible</font></b></i>
+<b><font color=#000080> candidate for satisfying (1) took only a matter of minutes using the alpha-criterion. A verification, using the cubes-odd-square criterion, took only a microsecond. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Time (crude under) estimates</font></b>
+<b><font color=#000080>. Suppose </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> are primes (both 1 mod 3), and that </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> ~ </font></b>
+<i><b><font color=#000080>mp </font></b></i>
+<b><font color=#000080>(think of </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> as a multiplier, which in usage will be on the large side). Suppose also that the computation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005727.gif" width=106 height=84 alt="((p-1)/3)!^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> takes time </font></b>
+<i><b><font color=#000080>t</font></b></i>
+<b><font color=#000080>; then the computation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005728.gif" width=106 height=84 alt="((q-1)/3)!^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>q </font></b></i>
+<b><font color=#000080>will take time </font></b>
+<i><b><font color=#000080>mt</font></b></i>
+<b><font color=#000080>, at least.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Simple demonstration (on a 1.7GHz)</font></b>
+<b><font color=#000080>. I will demonstrate using two primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1000003 and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> = 2000029, the first after 1 and 2 million respectively:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for p from 10^6 by 3 do<br>
+if isprime(p) then print(p); break; fi; od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005729.gif" width=72 height=20 alt="1000003">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for q from (2*10^6+2) by 3 do<br>
+if isprime(q) then print(q); break; fi; od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005730.gif" width=72 height=20 alt="2000029">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P[1,3] := proc(p) local r, k; r := 1;<br>
+for k from 2 to (p-1)/3 do<br>
+r := mods(r*k, p) od; r; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 1000003: P[1,3](p); # took 2.2 secs</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005731.gif" width=61 height=20 alt="-10373">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q := 2000029: P[1,3](q); # took 4.4 secs</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005732.gif" width=64 height=20 alt="725131">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>One further simple demonstration (on a 1.7GHz)</font></b>
+<b><font color=#000080>. I will demonstrate using two primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 10000141 and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> = 20000023, the first after 10 and 20 million respectively:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for p from 10^7 by 3 do<br>
+if isprime(p) then print(p); break; fi; od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005733.gif" width=80 height=20 alt="10000141">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for q from (2*10^7+2) by 3 do<br>
+if isprime(q) then print(q); break; fi; od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005734.gif" width=80 height=20 alt="20000023">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 10000141: P[1,3](p); # took 23.9 secs</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005735.gif" width=77 height=20 alt="-2674333">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q := 20000023: P[1,3](q); # took 49.1 secs</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005736.gif" width=72 height=20 alt="1807871">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>8000+ years</font></b>
+<b><font color=#000080>. I came upon prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 16426761041360671 (a prime value of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005737.gif" width=129 height=50 alt="27*x^2+27*x+7" align=middle>
+<b><font color=#000080>), while searching for primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> such that (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005738.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>) has a large number (10, 11, 12, ... ) of </font></b>
+<i><b><font color=#000080>distinct</font></b></i>
+<b><font color=#000080> prime factors (apart from the singleton 3).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(Its details:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>24665736, 16426761041360671, (2)(3)(5)(7)(11)(13)(17)(19)(23)(41)(59)(61)(499), [12]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It was actually the </font></b>
+<i><b><font color=#000080>first instance</font></b></i>
+<b><font color=#000080> of a '[12]' (i.e., 13 primes - including the '3' - in the prime factorisation of</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005739.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>)). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>How long it would take - for comparison with the 2.8GHz, crudely underestimated - to verify (1) for that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, using modular reduction; it comes out at ~ 8067 years:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p1 := 18711862657; # the 80.5 hours base example</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005740.gif" width=142 height=20 alt="p1 := 18711862657">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p2 := 16426761041360671;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005741.gif" width=190 height=20 alt="p2 := 16426761041360671">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>m2_1 := floor(p2/p1); # how much longer</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005742.gif" width=122 height=20 alt="m2_1 := 877879">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>hours2 := (m2_1)*(80.5);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005743.gif" width=189 height=29 alt="hours2 := 70669259.5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>years2 := floor(hours2/(24*365));</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005744.gif" width=112 height=20 alt="years2 := 8067">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Thus p2 = 16426761041360671 would take a minimum of 8067 years.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Finally, just for fun, I wanted to find a prime p3 that would take at least the (commonly quoted) age of the universe to </font></b>
+<i><b><font color=#000080>verify</font></b></i>
+<b><font color=#000080> (1), that prime being found using </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005745.gif" width=129 height=50 alt="27*x^2+27*x+7" align=middle>
+<b><font color=#000080> (itself a proof), or further verification using the cube-odd square test.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>m3_2 := floor(15000000000/years2);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005746.gif" width=130 height=20 alt="m3_2 := 1859427">
+</p>
+<p align=left>
+<b><font color=#000080>I want a prime p3 (= 27*x^2 + 27*x + 7) which is at least 'MIN', defined by:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>MIN := p2*m3_2;<br>
+f := x -&gt; 27*x^2 + 27*x + 7;<br>
+fsolve(f(x) = MIN);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005747.gif" width=253 height=20 alt="MIN := 30544363002854148395517">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005748.gif" width=191 height=29 alt="f := proc (x) options operator, arrow; 27*x^2+27*x+...">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005749.gif" width=271 height=29 alt="-.3363439763e11, .3363439763e11">
+</p>
+<p align=left>
+<b><font color=#000080>To have </font></b>
+<i><b><font color=#000080>candidate</font></b></i>
+<b><font color=#000080> x's making (prime) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005750.gif" width=129 height=50 alt="27*x^2+27*x+7" align=middle>
+<b><font color=#000080> be large enough, </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> needs to have </font></b>
+<i><b><font color=#000080>minimum</font></b></i>
+<b><font color=#000080> value:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>x := 33634397628: is(f(x-1) &gt; MIN); is(f(x) &gt; MIN);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005751.gif" width=47 height=20 alt="false">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005752.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for x from 33634397628 do<br>
+if isprime(f(x))<br>
+then print(f(x));<br>
+break; fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005753.gif" width=200 height=20 alt="30544363025260343115487">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p3 := f(x);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005754.gif" width=238 height=20 alt="p3 := 30544363025260343115487">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>M3_2 := floor(p3/p2); # is, unsurprisingly, m3_2</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005755.gif" width=131 height=20 alt="M3_2 := 1859427">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>sqrt(((p3 - 1)/3)^3 mod p3); # is an odd number (takes a microsecond)</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005756.gif" width=104 height=20 alt="67268795281">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Summary</font></b>
+<b><font color=#000080>. To test (1) for the prime p3 = 30544363025260343115487 would take at least 15,000,000,000 years.</font></b>
+</p>
+</basefont>
+</body>
+</html>

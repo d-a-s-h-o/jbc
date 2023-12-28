@@ -1,0 +1,1591 @@
+<html>
+<head>
+<title>Fermat-Thue 2-squares.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># Fermat's 2-squares.mws</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Note to anyone reading this on the web in html format. Not having Maple you may not be familiar with its use of </font></b>
+<i><b><font color=#000080>Sections</font></b></i>
+<b><font color=#000080> (where you see those [+]s). To read the contents of a section, simply click on the [+] and it will expand into a [-], and you will see text, plus calculations (of course you cannot change the calculations, as you could with the active Maple worksheet). Later, by scrolling back up, you may close the box by clicking on the [-].</font></b>
+</p>
+<a name="MapleAutoBookmark2">
+<p align=left>
+<b><font color=#000080 size=5>Title</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080 size=5>Fermat's 2-squares theorem</font></b></i>
+<b><font color=#000080 size=4><br>
+(proved here using the </font></b>
+<i><b><font color=#000080 size=4>Dirichlet box principle</font></b></i>
+<b><font color=#000080 size=4>,<br>
+together with an idea of Axel Thue</font></b>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Remark (aimed at number theorists who might read this) on the approach I've adopted here</font></u></b>
+<b><font color=#000080>. The proof that I give here of Fermat's 2-squares theorem (as part of my 3rd year (BA only) course </font></b>
+<i><b><font color=#000080>Challenging Mathematical Puzzles and Problems</font></b></i>
+<b><font color=#000080>) is most certainly not the best, nor the most insightful proof there is of Fermat's theorem; and the proof given here serves mainly to demonstrate a </font></b>
+<i><b><font color=#000080>particular use</font></b></i>
+<b><font color=#000080> (the Thue result) of the entirely elementary, but quite profound, Dirichlet box principle (where would the work of - say - Roth or Schmidt be without it?!) which my students will encounter is less demanding areas (e.g. Choose any (</font></b>
+<img src="images/Fermat-Thue 2-squares1.gif" width=53 height=32 alt="n+1" align=middle>
+<b><font color=#000080>) integers from [1, 2, 3, 4, ... , (</font></b>
+<img src="images/Fermat-Thue 2-squares2.gif" width=65 height=32 alt="2*n-1" align=middle>
+<b><font color=#000080>), </font></b>
+<img src="images/Fermat-Thue 2-squares3.gif" width=37 height=32 alt="2*n" align=middle>
+<b><font color=#000080>], then one of those divides another (different!) one of those. Prove.) </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If you don't have Maple, and are reading this in html format then, of course, you won't be able to execute your own commands, but if you do have Maple then you may make your own changes to value assignments.</font></b>
+</p>
+<a name="MapleAutoBookmark3">
+<p align=left>
+<b><font color=#000080 size=5>Introduction to Fermat's 2-squares theorem (</font></b>
+<i><b><font color=#000080 size=5>how</font></b></i>
+<b><font color=#000080 size=5> it came about)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>One of the great classic theorems of Number Theory is the 'Fermat 2-square theorem' which states that </font></b>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> prime leaving remainder 1 on division by 4 is a sum of two squares of integers (a unique sum, in fact, if one ignores change of sign, or interchange of values). It is easy to see how he </font></b>
+<i><b><font color=#000080>found</font></b></i>
+<b><font color=#000080>/</font></b>
+<i><b><font color=#000080>discovered</font></b></i>
+<b><font color=#000080> this theorem (or more precisely came to </font></b>
+<i><b><font color=#000080>suspect</font></b></i>
+<b><font color=#000080> it was true, for he couldn't prove it), since he knew of the Greek result (due to Diophantus) giving all possible integer-sided right-angled triangles: Let </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> be integer (positive, of course) sides of a right-angled triangle, with </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> (the length of) the </font></b>
+<i><b><font color=#000080>hypothenuse</font></b></i>
+<b><font color=#000080>; then </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>, and </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080> are given by</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>(</font></b>
+<img src="images/Fermat-Thue 2-squares4.gif" width=257 height=50 alt="2*lambda*m*n, lambda*(m^2-n^2), lambda*(m^2+n^2)" align=middle>
+<b><font color=#000080>) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>for some (positive) integers </font></b>
+<img src="images/Fermat-Thue 2-squares5.gif" width=26 height=32 alt="lambda" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>lambda</font></b></i>
+<b><font color=#000080>), </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, with</font></b>
+</p>
+<ul><li>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> of 'opposite parity' (meaning one of them is </font></b>
+<i><b><font color=#000080>even</font></b></i>
+<b><font color=#000080>, the other </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080>), </font></b>
+<img src="images/Fermat-Thue 2-squares6.gif" width=57 height=32 alt="n &lt; m" align=middle>
+<b><font color=#000080>, and</font></b>
+</li>
+<li>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are 'relatively prime' (meaning there is no prime that divides both of them: i.e. </font></b>
+<img src="images/Fermat-Thue 2-squares7.gif" width=110 height=32 alt="gcd(m,n) = 1" align=middle>
+<b><font color=#000080>)</font></b>
+</li>
+</ul>
+<p align=left>
+<b><u><font color=#000080>Remark</font></u></b>
+<b><font color=#000080>. The last two conditions </font></b>
+<i><b><font color=#000080>make</font></b></i>
+<b><font color=#000080> the triple (</font></b>
+<img src="images/Fermat-Thue 2-squares8.gif" width=187 height=50 alt="2*m*n, m^2-n^2, m^2+n^2" align=middle>
+<b><font color=#000080>) form the sides of a </font></b>
+<i><b><font color=#000080>primitive</font></b></i>
+<b><font color=#000080> right-angled triangle (here 'primitive' means the formed triangle is not an integer 'multiple' of a </font></b>
+<i><b><font color=#000080>smaller</font></b></i>
+<b><font color=#000080> integer-sided right-angled triangle (in the way that - for example - (6, 8, 10) - where </font></b>
+<img src="images/Fermat-Thue 2-squares9.gif" width=115 height=50 alt="6^2+8^2 = 10^2" align=middle>
+<b><font color=#000080>- is simply the 'double' of the triangle with sides (3, 4, 5) (where </font></b>
+<img src="images/Fermat-Thue 2-squares10.gif" width=107 height=50 alt="3^2+4^2 = 5^2" align=middle>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Trivial exercise</font></u></b>
+<b><font color=#000080>. Verify that the numbers in the triple (</font></b>
+<img src="images/Fermat-Thue 2-squares11.gif" width=257 height=50 alt="2*lambda*m*n, lambda*(m^2-n^2), lambda*(m^2+n^2)" align=middle>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080>do</font></b></i>
+<b><font color=#000080> form the sides of a right-angled triangle.</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Primitive right-angled triangles</font></u></b>
+<b><font color=#000080> (with </font></b>
+<i><b><font color=#000080>particular attention</font></b></i>
+<b><font color=#000080> being given to the </font></b>
+<i><b><font color=#000080>hypothenuse</font></b></i>
+<b><font color=#000080>, </font></b>
+<b><u><font color=#000080>underlined</font></u></b>
+<b><font color=#000080>). Here are some </font></b>
+<i><b><font color=#000080>xs</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>s and </font></b>
+<i><b><font color=#000080>z</font></b></i>
+<b><font color=#000080>s forming (or not forming) the sides of </font></b>
+<b><u><font color=#000080>primitive</font></u></b>
+<b><font color=#000080> right-angled triangles:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>(3, 4, </font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080>) (or (4, 3, </font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080>), we're not fussed about the </font></b>
+<i><b><font color=#000080>order</font></b></i>
+<b><font color=#000080> of the <br>
+two shorter sides) coming from the choice (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) = (2, 1)</font></b>
+</li>
+<li>
+<b><font color=#000080>(8, 15, </font></b>
+<b><u><font color=#000080>17</font></u></b>
+<b><font color=#000080>) coming from the choice (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) = (4, 1)</font></b>
+</li>
+<li>
+<b><font color=#000080>(24, 7, </font></b>
+<b><u><font color=#000080>25</font></u></b>
+<b><font color=#000080>) coming from the choice (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) = (4, 3)<br>
+but </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> - say - the choice (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) = (3, 1), which</font></b>
+</li>
+<li>
+<b><u><font color=#000080>although</font></u></b>
+<b><font color=#000080> (</font></b>
+<img src="images/Fermat-Thue 2-squares12.gif" width=187 height=50 alt="2*m*n, m^2-n^2, m^2+n^2" align=middle>
+<b><font color=#000080>) is (8, 6, 10) - and </font></b>
+<img src="images/Fermat-Thue 2-squares13.gif" width=115 height=50 alt="8^2+6^2 = 10^2" align=middle>
+<b><font color=#000080>, does not produce a primitive right-angled triangle (the '3</font></b>
+<b><font color=#000080>' and '1' being of the same parity makes the sides all be even (thus divisible by 2, and so - in this case - is a multiple of the 'smaller' triangle (3, 4, 5)), <br>
+</font></b>
+<b><u><font color=#000080>nor</font></u></b>
+<b><font color=#000080> - say - the choice (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>) = (9, 6), which </font></b>
+</li>
+<li>
+<b><u><font color=#000080>although</font></u></b>
+<b><font color=#000080> (</font></b>
+<img src="images/Fermat-Thue 2-squares14.gif" width=187 height=50 alt="2*m*n, m^2-n^2, m^2+n^2" align=middle>
+<b><font color=#000080>) is (108, 45, 117) - and </font></b>
+<img src="images/Fermat-Thue 2-squares15.gif" width=147 height=50 alt="108^2+45^2 = 117^2" align=middle>
+<b><font color=#000080>, does not produce a primitive right-angled triangle (here the '9</font></b>
+<b><font color=#000080>' and '6' </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> of the opposite, </font></b>
+<i><b><font color=#000080>but now</font></b></i>
+<b><font color=#000080> they are both divisible by 3 which makes the sides be divisible by 3 (in fact by 9, and - in this case - is a multiple of the 'smaller' triangle (12, 5, 13))<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><u><font color=#000080>A question that Fermat asked himself</font></u></b>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>Which</font></b></i>
+<b><font color=#000080> numbers </font></b>
+<i><b><font color=#000080>occur</font></b></i>
+<b><font color=#000080> as the hypothenuse of an (integer-sided) right-angled triangle?</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>The obvious thing to do (as always) is to do some calculating</font></u></b>
+<b><font color=#000080>. Asking the question: for which integers ('</font></b>
+<i><b><font color=#000080>h</font></b></i>
+<b><font color=#000080>' say), </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares16.gif" width=104 height=50 alt="h = m^2+n^2" align=middle>
+<b><font color=#000080> for some </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> subject to the two conditions above, trial and error quickly uncovers the early values of such </font></b>
+<i><b><font color=#000080>h</font></b></i>
+<b><font color=#000080>s: </font></b>
+<img src="images/Fermat-Thue 2-squares17.gif" width=98 height=50 alt="5 = 2^2+1^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are even, odd), </font></b>
+<img src="images/Fermat-Thue 2-squares18.gif" width=106 height=50 alt="13 = 3^2+2^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are odd, even), </font></b>
+<img src="images/Fermat-Thue 2-squares19.gif" width=106 height=50 alt="17 = 4^2+1^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are even, odd), </font></b>
+<img src="images/Fermat-Thue 2-squares20.gif" width=106 height=50 alt="29 = 5^2+2^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are odd, even), </font></b>
+<img src="images/Fermat-Thue 2-squares21.gif" width=106 height=50 alt="37 = 6^2+1^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are even, odd), </font></b>
+<img src="images/Fermat-Thue 2-squares22.gif" width=106 height=50 alt="41 = 5^2+4^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are odd, even),  </font></b>
+<img src="images/Fermat-Thue 2-squares23.gif" width=106 height=50 alt="53 = 7^2+2^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are odd, even), </font></b>
+<img src="images/Fermat-Thue 2-squares24.gif" width=106 height=50 alt="61 = 6^2+5^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are even, odd), </font></b>
+<img src="images/Fermat-Thue 2-squares25.gif" width=106 height=50 alt="65 = 8^2+1^2" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are even, odd), etc ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>A numerically sensitive person would </font></b>
+<i><b><font color=#000080>notice</font></b></i>
+<b><font color=#000080>, but </font></b>
+<i><b><font color=#000080>not be surprised </font></b></i>
+<b><font color=#000080>(why?) by the occurence of </font></b>
+<i><b><font color=#000080>so</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>many</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>but not all</font></b></i>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080>primes</font></b></i>
+<b><font color=#000080> (and would, of course, notice that '65'...), and would begin to wonder about a new:<br>
+</font></b>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. Which  </font></b>
+<i><b><font color=#000080>primes</font></b></i>
+<b><font color=#000080> are a sum of two integers? This is what one finds:</font></b>
+</p>
+<ul><li>
+<img src="images/Fermat-Thue 2-squares26.gif" width=98 height=50 alt="2 = 1^2+1^2" align=middle>
+<b><font color=#000080> is a sum of two squares (but does not, of course, lead to a primitive right-angled triangle because...)</font></b>
+</li>
+<li>
+<b><font color=#000080>none of 3, 7, 11, 19, 23, 31, 43, 47, 59, 67, 71, ... is a sum of two squares</font></b>
+</li>
+<li>
+<b><font color=#000080>each of 5, 13, 17, 29, 37, 41, 53, 61, 73, ... is a sum of two squares</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>and then the next obvious </font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. What is it that </font></b>
+<i><b><font color=#000080>distinguishes</font></b></i>
+<b><font color=#000080> the last two sets of primes from each other? It was Fermat's great good fortune to notice that </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>the former all left remainder 3 on division by 4 (or at least did so as far as calculated...), while </font></b>
+</li>
+<li>
+<b><font color=#000080>the latter all left remainder 1 on division by 4 (or at least did so as far as calculated...)</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>It is entirely elementary to prove that </font></b>
+<i><b><font color=#000080>no</font></b></i>
+<b><font color=#000080> integer </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (whether prime or not) with </font></b>
+<img src="images/Fermat-Thue 2-squares27.gif" width=53 height=32 alt="n = 3" align=middle>
+<b><font color=#000080> (mod 4) is a sum of two squares of integers, but that left Fermat wondering if </font></b>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares28.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4), is a sum of two squares of integers (and here one should bear this in mind: it is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> true that </font></b>
+<i><b><font color=#000080>every</font></b></i>
+<b><font color=#000080> integer </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/Fermat-Thue 2-squares29.gif" width=53 height=32 alt="n = 1" align=middle>
+<b><font color=#000080> (mod 4) is a sum of two squares of integers. Examples are </font></b>
+<img src="images/Fermat-Thue 2-squares30.gif" width=213 height=32 alt="n = 21, 33, 57, 69, 77, 93, 105" align=middle>
+<b><font color=#000080>, ... ). Fermat couldn't prove his discovery, and it had to wait until the following century when Euler gave the first proof. Many others have been created in the following centuries. The proof that I give here (I don't know who put it together (I think it was in a book of Sierpinski's that I first read it, forty years ago) combines two ideas, which we meet in the next two sections. </font></b>
+</p>
+<a name="MapleAutoBookmark4">
+<p align=left>
+<b><font color=#000080 size=5> A special property of primes </font></b>
+<i><b><font color=#000080 size=5>p</font></b></i>
+<b><font color=#000080 size=4>,  </font></b>
+<img src="images/Fermat-Thue 2-squares31.gif" width=68 height=48 alt="p = 1" align=middle>
+<b><font color=#000080 size=5> (mod 4) (we use </font></b>
+<i><b><font color=#000080 size=5>Wilson's theorem</font></b></i>
+<b><font color=#000080 size=5>)</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem 1 (the special property)</font></u></b>
+<b><font color=#000080>. For every prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/Fermat-Thue 2-squares32.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4) there is an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/Fermat-Thue 2-squares33.gif" width=89 height=50 alt="a^2+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>).  (In fact there are always </font></b>
+<i><b><font color=#000080>exactly two</font></b></i>
+<b><font color=#000080> such (mutually incongruent) </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>'s.)</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Trying some by hand</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>For </font></b>
+<img src="images/Fermat-Thue 2-squares34.gif" width=52 height=32 alt="p = 5" align=middle>
+<b><font color=#000080>, one finds that </font></b>
+<img src="images/Fermat-Thue 2-squares35.gif" width=52 height=32 alt="a = 2" align=middle>
+<b><font color=#000080> will do [</font></b>
+<img src="images/Fermat-Thue 2-squares36.gif" width=52 height=32 alt="a = 3" align=middle>
+<b><font color=#000080> is the other one] </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>For </font></b>
+<img src="images/Fermat-Thue 2-squares37.gif" width=60 height=32 alt="p = 13" align=middle>
+<b><font color=#000080>, one finds that </font></b>
+<img src="images/Fermat-Thue 2-squares38.gif" width=52 height=32 alt="a = 5" align=middle>
+<b><font color=#000080> will do [</font></b>
+<img src="images/Fermat-Thue 2-squares39.gif" width=52 height=32 alt="a = 8" align=middle>
+<b><font color=#000080> is the other one] </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>For </font></b>
+<img src="images/Fermat-Thue 2-squares40.gif" width=60 height=32 alt="p = 17" align=middle>
+<b><font color=#000080>, one finds that </font></b>
+<img src="images/Fermat-Thue 2-squares41.gif" width=52 height=32 alt="a = 4" align=middle>
+<b><font color=#000080> will do [</font></b>
+<img src="images/Fermat-Thue 2-squares42.gif" width=60 height=32 alt="a = 13" align=middle>
+<b><font color=#000080> is the other one] </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>For </font></b>
+<img src="images/Fermat-Thue 2-squares43.gif" width=60 height=32 alt="p = 29" align=middle>
+<b><font color=#000080>, one finds that </font></b>
+<img src="images/Fermat-Thue 2-squares44.gif" width=60 height=32 alt="a = 12" align=middle>
+<b><font color=#000080> will do [</font></b>
+<img src="images/Fermat-Thue 2-squares45.gif" width=60 height=32 alt="a = 17" align=middle>
+<b><font color=#000080> is the other one] etc ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Of course a Maple command that will find such </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>'s is msolve:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>msolve(a^2 + 1 = 0, 5);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares46.gif" width=128 height=20 alt="{a = 2}, {a = 3}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>msolve(a^2 + 1 = 0, 13);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares47.gif" width=128 height=20 alt="{a = 5}, {a = 8}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>msolve(a^2 + 1 = 0, 17);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares48.gif" width=136 height=20 alt="{a = 4}, {a = 13}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for p from 5 by 4 to 100 do<br>
+if isprime(p) <br>
+then print([p, msolve(a^2 + 1 = 0, p)])<br>
+fi<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares49.gif" width=158 height=20 alt="[5, {a = 2}, {a = 3}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares50.gif" width=166 height=20 alt="[13, {a = 5}, {a = 8}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares51.gif" width=174 height=20 alt="[17, {a = 4}, {a = 13}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares52.gif" width=182 height=20 alt="[29, {a = 12}, {a = 17}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares53.gif" width=174 height=20 alt="[37, {a = 6}, {a = 31}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares54.gif" width=174 height=20 alt="[41, {a = 9}, {a = 32}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares55.gif" width=182 height=20 alt="[53, {a = 23}, {a = 30}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares56.gif" width=182 height=20 alt="[61, {a = 11}, {a = 50}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares57.gif" width=182 height=20 alt="[73, {a = 27}, {a = 46}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares58.gif" width=182 height=20 alt="[89, {a = 34}, {a = 55}]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares59.gif" width=182 height=20 alt="[97, {a = 22}, {a = 75}]">
+</p>
+<p align=left>
+<b><font color=#000080>There are many ways of proving this famous theorem, and one very quick way to do it (I know it will appear very much like a 'rabbit out of a hat', but we won't have time to divert too much) is to make use of another famous theorem, </font></b>
+<i><b><font color=#000080>Wilson's theorem</font></b></i>
+<b><font color=#000080> (whose proof I will not give here. Incidentally there are - as is often the case in Number Theory - many different proofs of this, one of which is my own, published in the UK </font></b>
+<i><b><font color=#000080>Mathematical Gazette</font></b></i>
+<b><font color=#000080> in February 1967). </font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Wilson's theorem (which I will not be proving here)</font></u></b>
+<b><font color=#000080>. For every prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> one has </font></b>
+<img src="images/Fermat-Thue 2-squares60.gif" width=104 height=32 alt="(p-1)! = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>When </font></b>
+<img src="images/Fermat-Thue 2-squares61.gif" width=52 height=32 alt="p = 5" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares62.gif" width=104 height=32 alt="(p-1)! = 5!" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Fermat-Thue 2-squares63.gif" width=97 height=32 alt="5.4+4 = -1" align=middle>
+<b><font color=#000080> (mod 5)</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>When </font></b>
+<img src="images/Fermat-Thue 2-squares64.gif" width=60 height=32 alt="p = 11" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares65.gif" width=112 height=32 alt="(p-1)! = 10!" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Fermat-Thue 2-squares66.gif" width=153 height=32 alt="11.329890+10 = -1" align=middle>
+<b><font color=#000080> (mod 11)</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>When </font></b>
+<img src="images/Fermat-Thue 2-squares67.gif" width=60 height=32 alt="p = 13" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares68.gif" width=112 height=32 alt="(p-1)! = 12!" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Fermat-Thue 2-squares69.gif" width=169 height=32 alt="13.36846276+12 = -1" align=middle>
+<b><font color=#000080> (mod 13)</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Remark</font></u></b>
+<b><font color=#000080>. Recall (from your second year studies that when proving Fermat's 'little' theorem one got to a point where one had (with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> prime and </font></b>
+<img src="images/Fermat-Thue 2-squares70.gif" width=52 height=32 alt="a &lt;&gt; 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares71.gif" width=204 height=58 alt="(p-1)!*(a^(p-1)-1) = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and then continued by saying that </font></b>
+<i><b><font color=#000080>either</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares72.gif" width=99 height=32 alt="(p-1)! = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080>or</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares73.gif" width=131 height=58 alt="a^(p-1)-1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>). Then one argued that </font></b>
+<img src="images/Fermat-Thue 2-squares74.gif" width=99 height=32 alt="(p-1)! &lt;&gt; 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) and thus ... giving Fermat's little theorem. SO: that '</font></b>
+<img src="images/Fermat-Thue 2-squares75.gif" width=71 height=32 alt="(p-1)!" align=middle>
+<b><font color=#000080>' is not congruent to 0 mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, ... and it is only if one had the curiousity to </font></b>
+<i><b><font color=#000080>wonder</font></b></i>
+<b><font color=#000080> - what (if anything) </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> it congruent to mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>? - that one could have </font></b>
+<i><b><font color=#000080>discovered</font></b></i>
+<b><font color=#000080> 'Wilson's theorem'...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In the following I am not concerned by the </font></b>
+<i><b><font color=#000080>inefficient</font></b></i>
+<b><font color=#000080> computation of of </font></b>
+<img src="images/Fermat-Thue 2-squares76.gif" width=71 height=32 alt="(p-1)!" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, nor later when I have a look at </font></b>
+<img src="images/Fermat-Thue 2-squares77.gif" width=79 height=58 alt="((p-1)/2)!" align=middle>
+<b><font color=#000080> mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for p to 30 do<br>
+if isprime(p) <br>
+then print(p, (p-1)!, mods((p-1)!, p))<br>
+fi<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares78.gif" width=56 height=20 alt="2, 1, 1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares79.gif" width=61 height=20 alt="3, 2, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares80.gif" width=69 height=20 alt="5, 24, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares81.gif" width=77 height=20 alt="7, 720, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares82.gif" width=117 height=20 alt="11, 3628800, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares83.gif" width=133 height=20 alt="13, 479001600, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares84.gif" width=173 height=20 alt="17, 20922789888000, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares85.gif" width=189 height=20 alt="19, 6402373705728000, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares86.gif" width=237 height=20 alt="23, 1124000727777607680000, -1">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares87.gif" width=301 height=20 alt="29, 304888344611713860501504000000, -1">
+</p>
+<p align=left>
+<b><font color=#000080>Here now is the simple idea that enables one to prove Theorem 1 above, by using Wilson's theorem, which I will first illustrate with the prime </font></b>
+<img src="images/Fermat-Thue 2-squares88.gif" width=60 height=32 alt="p = 13" align=middle>
+<b><font color=#000080>: first note that we have </font></b>
+<img src="images/Fermat-Thue 2-squares89.gif" width=70 height=32 alt="12! = -1" align=middle>
+<b><font color=#000080> (mod 13), and then - noting that </font></b>
+<img src="images/Fermat-Thue 2-squares90.gif" width=65 height=32 alt="12 = -1" align=middle>
+<b><font color=#000080> (mod 13), </font></b>
+<img src="images/Fermat-Thue 2-squares91.gif" width=70 height=32 alt="11 = -2" align=middle>
+<b><font color=#000080> (mod 13), </font></b>
+<img src="images/Fermat-Thue 2-squares92.gif" width=70 height=32 alt="10 = -3" align=middle>
+<b><font color=#000080> (mod 13), </font></b>
+<img src="images/Fermat-Thue 2-squares93.gif" width=62 height=32 alt="9 = -4" align=middle>
+<b><font color=#000080> (mod 13), </font></b>
+<img src="images/Fermat-Thue 2-squares94.gif" width=62 height=32 alt="8 = -5" align=middle>
+<b><font color=#000080> (mod 13), </font></b>
+<img src="images/Fermat-Thue 2-squares95.gif" width=62 height=32 alt="7 = -6" align=middle>
+<b><font color=#000080> (mod 13), we obtain</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares96.gif" width=37 height=32 alt="12!" align=middle>
+<b><font color=#000080> = 12.11.10.9.8.7.6.5.4.3.2.1 = </font></b>
+<img src="images/Fermat-Thue 2-squares97.gif" width=223 height=32 alt="(-1)*(-2)*(-3)*(-4)*(-5)*(-6)" align=middle>
+<b><font color=#000080>.6.5.4.3.2.1 = -1 (mod 13)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and thus </font></b>
+<img src="images/Fermat-Thue 2-squares98.gif" width=85 height=50 alt="6!^2 = -1" align=middle>
+<b><font color=#000080> (mod 13) (namely </font></b>
+<img src="images/Fermat-Thue 2-squares99.gif" width=108 height=50 alt="6!^2+1 = 0" align=middle>
+<b><font color=#000080> mod 13). Thus a working value for the claimed '</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>' of the theorem is whatever number one gets from calculation 6! mod 13:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 6! mod 13;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares100.gif" width=54 height=20 alt="a := 5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a^2 + 1 mod 13;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares101.gif" width=24 height=20 alt="0">
+</p>
+<p align=left>
+<b><font color=#000080>You should see</font></b>
+<i><b><font color=#000080> why</font></b></i>
+<b><font color=#000080> that then 'works' in the general case, and </font></b>
+<i><b><font color=#000080>what</font></b></i>
+<b><font color=#000080> is the </font></b>
+<i><b><font color=#000080>relevance</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/Fermat-Thue 2-squares102.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4).</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>A famous unsolved problem in connection with this</font></u></b>
+<b><font color=#000080>. The above clever trick of replacing the end remainders with their negatives can also be done with primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares103.gif" width=52 height=32 alt="p = 3" align=middle>
+<b><font color=#000080> (mod 4), and there - instead of getting an '</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>' with </font></b>
+<img src="images/Fermat-Thue 2-squares104.gif" width=66 height=50 alt="a^2 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) - one gets an '</font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>' with </font></b>
+<img src="images/Fermat-Thue 2-squares105.gif" width=61 height=50 alt="a^2 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), in fact </font></b>
+<img src="images/Fermat-Thue 2-squares106.gif" width=134 height=84 alt="((p-1)/2)!^2 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and thus (why?) </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>either  </font></b>
+<img src="images/Fermat-Thue 2-squares107.gif" width=107 height=58 alt="((p-1)/2)! = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) (and this happens for </font></b>
+<img src="images/Fermat-Thue 2-squares108.gif" width=148 height=32 alt="p = 3, 23, 31, 71, 83" align=middle>
+<b><font color=#000080>, ...</font></b>
+</li>
+<li>
+<b><font color=#000080>or </font></b>
+<img src="images/Fermat-Thue 2-squares109.gif" width=112 height=58 alt="((p-1)/2)! = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) (and this happens for </font></b>
+<img src="images/Fermat-Thue 2-squares110.gif" width=196 height=32 alt="p = 7, 11, 19, 43, 47, 67, 79" align=middle>
+<b><font color=#000080>, ...</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>and it is an </font></b>
+<b><u><font color=#000080>unsolved question</font></u></b>
+<b><font color=#000080> as to what </font></b>
+<i><b><font color=#000080>makes</font></b></i>
+<b><font color=#000080> the remainder be PLUS 1, and what makes it be MINUS 1.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for p from 3 by 4 to 100 do<br>
+if isprime(p) and mods(((p-1)/2)!, p) = 1 <br>
+then print([p, ((p-1)/2)!, 1])<br>
+elif isprime(p) and mods(((p-1)/2)!, p) = -1 <br>
+then print([p, ((p-1)/2)!, -1])<br>
+fi<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares111.gif" width=70 height=20 alt="[3, 1, 1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares112.gif" width=75 height=20 alt="[7, 6, -1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares113.gif" width=99 height=20 alt="[11, 120, -1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares114.gif" width=123 height=20 alt="[19, 362880, -1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares115.gif" width=134 height=20 alt="[23, 39916800, 1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares116.gif" width=174 height=20 alt="[31, 1307674368000, 1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares117.gif" width=235 height=20 alt="[43, 51090942171709440000, -1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares118.gif" width=259 height=20 alt="[47, 25852016738884976640000, -1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares119.gif" width=318 height=20 alt="[59, 8841761993739701954543616000000, 1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares120.gif" width=371 height=20 alt="[67, 8683317618811886495518194401280000000, -1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares121.gif" width=398 height=20 alt="[71, 10333147966386144929666651337523200000000, 1]">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares122.gif" width=451 height=20 alt="[79, 2039788208119744335864028173990289735680000000...">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares123.gif" width=470 height=20 alt="[83, 3345252661316380710817006205344075166515200000...">
+</p>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=5>A 2-variable congruence result of Thue's</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be </font></b>
+<i><b><font color=#000080>prime</font></b></i>
+<b><font color=#000080> and let </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer with </font></b>
+<img src="images/Fermat-Thue 2-squares124.gif" width=52 height=32 alt="a &lt;&gt; 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), then there are integers </font></b>
+<i><b><font color=#000080>x </font></b></i>
+<b><font color=#000080>and  </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/Fermat-Thue 2-squares125.gif" width=91 height=32 alt="a*x+y = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) with </font></b>
+<img src="images/Fermat-Thue 2-squares126.gif" width=52 height=32 alt="x &lt;&gt; 0" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares127.gif" width=51 height=32 alt="y &lt;&gt; 0" align=middle>
+<b><font color=#000080>, and </font></b>
+<img src="images/Fermat-Thue 2-squares128.gif" width=76 height=38 alt="abs(x) &lt; sqrt(p)" align=middle>
+<b><font color=#000080>, and </font></b>
+<img src="images/Fermat-Thue 2-squares129.gif" width=75 height=38 alt="abs(y) &lt; sqrt(p)" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(Note in the proof that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>'s primality is used only at one small point. Also note that one could have '</font></b>
+<img src="images/Fermat-Thue 2-squares130.gif" width=63 height=32 alt="a*x-y" align=middle>
+<b><font color=#000080>' in place of '</font></b>
+<img src="images/Fermat-Thue 2-squares131.gif" width=63 height=32 alt="a*x+y" align=middle>
+<b><font color=#000080>' (though </font></b>
+<i><b><font color=#000080>different</font></b></i>
+<b><font color=#000080> pairs of values may result when the signs are changed), and later make the same use of the alternative version in the proof of the Fermat 2-squares theorem.)</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Proof (which uses the Dirichlet box principle, and illustrated below)</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<img src="images/Fermat-Thue 2-squares132.gif" width=102 height=38 alt="c = ceil(sqrt(p))" align=middle>
+<b><font color=#000080> ('ceil' (the Maple command used below) for 'ceiling', </font></b>
+<i><b><font color=#000080>meaning</font></b></i>
+<b><font color=#000080> the integer satisfying </font></b>
+<img src="images/Fermat-Thue 2-squares133.gif" width=93 height=38 alt="c-1 &lt; sqrt(p)" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares134.gif" width=65 height=38 alt="sqrt(p) &lt; c" align=middle>
+<b><font color=#000080> (in other words, </font></b>
+<img src="images/Fermat-Thue 2-squares135.gif" width=74 height=50 alt="(c-1)^2" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares136.gif" width=32 height=50 alt="c^2" align=middle>
+<b><font color=#000080> are the squares </font></b>
+<i><b><font color=#000080>before</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>after</font></b></i>
+<b><font color=#000080> the prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and consider the </font></b>
+<img src="images/Fermat-Thue 2-squares137.gif" width=32 height=50 alt="c^2" align=middle>
+<b><font color=#000080> integers:</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares138.gif" width=176 height=32 alt="a*1+1, a*1+2, a*1+3" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Fermat-Thue 2-squares139.gif" width=63 height=32 alt="a*1+c" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares140.gif" width=176 height=32 alt="a*2+1, a*2+2, a*2+3" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Fermat-Thue 2-squares141.gif" width=63 height=32 alt="a*2+c" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares142.gif" width=176 height=32 alt="a*3+1, a*3+2, a*3+3" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Fermat-Thue 2-squares143.gif" width=63 height=32 alt="a*3+c" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>... ...</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares144.gif" width=173 height=32 alt="a*c+1, a*c+2, a*c+3" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Fermat-Thue 2-squares145.gif" width=62 height=32 alt="a*c+c" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>Since </font></b>
+<img src="images/Fermat-Thue 2-squares146.gif" width=60 height=50 alt="p &lt; c^2" align=middle>
+<b><font color=#000080> then - by the Dirichlet box principle - </font></b>
+<i><b><font color=#000080>some two</font></b></i>
+<b><font color=#000080> (at least) of those integers must be congruent mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>; that is, we have two </font></b>
+<i><b><font color=#000080>different</font></b></i>
+<b><font color=#000080> pairs (</font></b>
+<img src="images/Fermat-Thue 2-squares147.gif" width=55 height=32 alt="x[1], y[1]" align=middle>
+<b><font color=#000080>) and (</font></b>
+<img src="images/Fermat-Thue 2-squares148.gif" width=55 height=32 alt="x[2], y[2]" align=middle>
+<b><font color=#000080>) such that </font></b>
+<img src="images/Fermat-Thue 2-squares149.gif" width=162 height=32 alt="a*x[1]+y[1] = a*x[2]+y[2]" align=middle>
+<b><font color=#000080>  (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) for some </font></b>
+<img src="images/Fermat-Thue 2-squares150.gif" width=102 height=32 alt="x[1], y[1], x[2], y[2]" align=middle>
+<b><font color=#000080> between 1 and </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>, and then </font></b>
+<img src="images/Fermat-Thue 2-squares151.gif" width=192 height=32 alt="a*(x[1]-x[2])+y[1]-y[2] = 0" align=middle>
+<b><font color=#000080>  (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) ... (i)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Setting  </font></b>
+<img src="images/Fermat-Thue 2-squares152.gif" width=96 height=32 alt="x = x[1]-x[2]" align=middle>
+<b><font color=#000080> and  </font></b>
+<img src="images/Fermat-Thue 2-squares153.gif" width=93 height=32 alt="y = y[1]-y[2]" align=middle>
+<b><font color=#000080> we have </font></b>
+<img src="images/Fermat-Thue 2-squares154.gif" width=91 height=32 alt="a*x+y = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and clearly </font></b>
+<img src="images/Fermat-Thue 2-squares155.gif" width=76 height=38 alt="abs(x) &lt; sqrt(p)" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares156.gif" width=75 height=38 alt="abs(y) &lt; sqrt(p)" align=middle>
+<b><font color=#000080>. (But could it be - horror of horrors!! - that all we've got for our efforts is the </font></b>
+<i><b><font color=#000080>trivial</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares157.gif" width=114 height=32 alt="a.0+0 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>); that's the last point to be settled:) Now </font></b>
+<img src="images/Fermat-Thue 2-squares158.gif" width=52 height=32 alt="x &lt;&gt; 0" align=middle>
+<b><font color=#000080> because, if not, we would have </font></b>
+<img src="images/Fermat-Thue 2-squares159.gif" width=68 height=32 alt="x[1] = x[2]" align=middle>
+<b><font color=#000080> and (i) would give </font></b>
+<img src="images/Fermat-Thue 2-squares160.gif" width=94 height=32 alt="y[1]-y[2] = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), giving </font></b>
+<img src="images/Fermat-Thue 2-squares161.gif" width=66 height=32 alt="y[1] = y[2]" align=middle>
+<b><font color=#000080> (conflicting with (</font></b>
+<img src="images/Fermat-Thue 2-squares162.gif" width=55 height=32 alt="x[1], y[1]" align=middle>
+<b><font color=#000080>) and (</font></b>
+<img src="images/Fermat-Thue 2-squares163.gif" width=55 height=32 alt="x[2], y[2]" align=middle>
+<b><font color=#000080>) being different pairs). Also </font></b>
+<img src="images/Fermat-Thue 2-squares164.gif" width=51 height=32 alt="y &lt;&gt; 0" align=middle>
+<b><font color=#000080> because, if not, we would have </font></b>
+<img src="images/Fermat-Thue 2-squares165.gif" width=66 height=32 alt="y[1] = y[2]" align=middle>
+<b><font color=#000080> and (i) would give  </font></b>
+<img src="images/Fermat-Thue 2-squares166.gif" width=122 height=32 alt="a*(x[1]-x[2]) = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), giving </font></b>
+<img src="images/Fermat-Thue 2-squares167.gif" width=96 height=32 alt="x[1]-x[2] = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) (since </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>prime</font></b></i>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares168.gif" width=52 height=32 alt="a &lt;&gt; 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)), giving  </font></b>
+<img src="images/Fermat-Thue 2-squares169.gif" width=68 height=32 alt="x[1] = x[2]" align=middle>
+<b><font color=#000080> (once again conflicting with (</font></b>
+<img src="images/Fermat-Thue 2-squares170.gif" width=55 height=32 alt="x[1], y[1]" align=middle>
+<b><font color=#000080>) and (</font></b>
+<img src="images/Fermat-Thue 2-squares171.gif" width=55 height=32 alt="x[2], y[2]" align=middle>
+<b><font color=#000080>) being different pairs). [</font></b>
+<b><u><font color=#000080>end of proof</font></u></b>
+<b><font color=#000080>]                                          </font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Advice</font></u></b>
+<b><font color=#000080>. As always, some hand-performed calculations help to reinforce the idea.</font></b>
+</p>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=4>Maple illustrations of the Thue (Dirichlet) theorem </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 23; a := 7; c := ceil(sqrt(p)); <br>
+A := array(1..c,1..c):<br>
+for x to c do for y to c do<br>
+A[x, y] := a*x + y mod p;<br>
+od; od; <br>
+print(A);<br>
+lprint(`Note. There are`, c^2, `entries, and thus, on division by`, p,`there must be AT LEAST TWO entries that are congruent mod`, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares172.gif" width=62 height=20 alt="p := 23">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares173.gif" width=54 height=20 alt="a := 7">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares174.gif" width=53 height=20 alt="c := 5">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares175.gif" width=174 height=140 alt="matrix([[8, 9, 10, 11, 12], [15, 16, 17, 18, 19], [...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Note. There are`, 25, `entries, and thus, on division by`, 23, `there must be AT LEAST TWO entries that are congruent mod`, 23</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Looking at that Maple output one can see quite a few duplicates (3, 4, 5, 9, 10 and 11 in fact), and choosing any one of them - 9 say (the </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>nd in the </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>st row, and the </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>st in the </font></b>
+<b><u><font color=#000080>3</font></u></b>
+<b><font color=#000080>rd row) - one has:</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares176.gif" width=132 height=32 alt="7.1+2 = 7.3+1" align=middle>
+<b><font color=#000080> (mod 13)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>giving</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares177.gif" width=162 height=32 alt="7.(1-3)+2-1 = 0" align=middle>
+<b><font color=#000080> (mod 13)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>namely</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares178.gif" width=116 height=32 alt="7.(-2)+1 = 0" align=middle>
+<b><font color=#000080> (mod 13)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and so it produces an '</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>' and '</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>' of the theorem with </font></b>
+<img src="images/Fermat-Thue 2-squares179.gif" width=62 height=32 alt="x = -2" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares180.gif" width=51 height=32 alt="y = 1" align=middle>
+<b><font color=#000080>. And here's an example with a '0' (in fact two of them) in the </font></b>
+<i><b><font color=#000080>interior</font></b></i>
+<b><font color=#000080> of the table:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 13; a := 6; c := ceil(sqrt(p)); A := array(1..c,1..c):<br>
+for x to c do for y to c do<br>
+A[x, y] := a*x + y mod p;<br>
+od; od; print(A);<br>
+lprint(`Note. There are`, c^2, `entries, and thus, on division by`, p,`there must be AT LEAST TWO entries that are congruent mod`, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares181.gif" width=62 height=20 alt="p := 13">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares182.gif" width=54 height=20 alt="a := 6">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares183.gif" width=53 height=20 alt="c := 4">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares184.gif" width=138 height=110 alt="matrix([[7, 8, 9, 10], [0, 1, 2, 3], [6, 7, 8, 9], ...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Note. There are`, 16, `entries, and thus, on division by`, 13, `there must be AT LEAST TWO entries that are congruent mod`, 13</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That '0' in the 2nd row simply means that </font></b>
+<img src="images/Fermat-Thue 2-squares185.gif" width=92 height=32 alt="6.2+1 = 0" align=middle>
+<b><font color=#000080> (mod 13) (and so  </font></b>
+<img src="images/Fermat-Thue 2-squares186.gif" width=52 height=32 alt="x = 2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares187.gif" width=51 height=32 alt="y = 1" align=middle>
+<b><font color=#000080> satisfy the Theorem), or the '0' in the 4th row simply means that </font></b>
+<img src="images/Fermat-Thue 2-squares188.gif" width=92 height=32 alt="6.4+2 = 0" align=middle>
+<b><font color=#000080> (mod 13). </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>This result of Thue's makes no mention whatever of the value of </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> mod 4; it's true of </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> primes (but in the proof I give in the next section of the Fermat 2-squares theorem we will </font></b>
+<i><b><font color=#000080>need</font></b></i>
+<b><font color=#000080> to use that </font></b>
+<img src="images/Fermat-Thue 2-squares189.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4)). </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Here is one last example, this time with a prime that </font></b>
+<i><b><font color=#000080>happens</font></b></i>
+<b><font color=#000080> to be 3 (mod 4).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 79; a := 6; c := ceil(sqrt(p)); A := array(1..c,1..c):<br>
+for x to c do for y to c do<br>
+A[x, y] := a*x + y mod p;<br>
+od; od; print(A);<br>
+lprint(`Note. There are`, c^2, `entries, and thus, on division by`, p,`there must be AT LEAST TWO entries that are congruent mod`, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares190.gif" width=62 height=20 alt="p := 79">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares191.gif" width=54 height=20 alt="a := 6">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares192.gif" width=53 height=20 alt="c := 9">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares193.gif" width=302 height=260 alt="matrix([[7, 8, 9, 10, 11, 12, 13, 14, 15], [13, 14,...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Note. There are`, 81, `entries, and thus, on division by`, 79, `there must be AT LEAST TWO entries that are congruent mod`, 79</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>You shouldn't be surprised - in any example (Maple or otherwise) - by the way the entries in the rows read from left to right...</font></b>
+</p>
+<p align=left>
+</p>
+<a name="MapleAutoBookmark7">
+<p align=left>
+<b><font color=#000080 size=5>Proof of the Fermat 2-square theorem</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>All (finally!) is now in place for:</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be any prime with </font></b>
+<img src="images/Fermat-Thue 2-squares194.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4), then there are integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/Fermat-Thue 2-squares195.gif" width=97 height=50 alt="p = x^2+y^2" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Proof</font></u></b>
+<b><font color=#000080>. Since </font></b>
+<img src="images/Fermat-Thue 2-squares196.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4) then there exists an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares197.gif" width=89 height=50 alt="a^2+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   ... (i) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Also, there are integers </font></b>
+<i><b><font color=#000080>x </font></b></i>
+<b><font color=#000080>and  </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> such that</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares198.gif" width=91 height=32 alt="a*x+y = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)  ... (ii)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>with </font></b>
+<img src="images/Fermat-Thue 2-squares199.gif" width=52 height=32 alt="x &lt;&gt; 0" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares200.gif" width=76 height=38 alt="abs(x) &lt; sqrt(p)" align=middle>
+<b><font color=#000080>, and </font></b>
+<img src="images/Fermat-Thue 2-squares201.gif" width=51 height=32 alt="y &lt;&gt; 0" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares202.gif" width=75 height=38 alt="abs(y) &lt; sqrt(p)" align=middle>
+<b><font color=#000080>. Multiplying throughout (ii) by (</font></b>
+<img src="images/Fermat-Thue 2-squares203.gif" width=63 height=32 alt="a*x-y" align=middle>
+<b><font color=#000080>) gives</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares204.gif" width=118 height=50 alt="a^2*x^2-y^2 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)  ... (iii)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and throughout (i) by </font></b>
+<img src="images/Fermat-Thue 2-squares205.gif" width=33 height=50 alt="x^2" align=middle>
+<b><font color=#000080> gives</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Fermat-Thue 2-squares206.gif" width=119 height=50 alt="a^2*x^2+x^2 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   ... (iv)</font></b>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Subtracting (iii) from (iv) gives </font></b>
+<img src="images/Fermat-Thue 2-squares207.gif" width=97 height=50 alt="x^2+y^2 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>). Thus </font></b>
+<img src="images/Fermat-Thue 2-squares208.gif" width=113 height=50 alt="x^2+y^2 = m*p" align=middle>
+<b><font color=#000080>  for </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> integer </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> (and our aim is to argue it MUST be 1 giving </font></b>
+<img src="images/Fermat-Thue 2-squares209.gif" width=97 height=50 alt="p = x^2+y^2" align=middle>
+<b><font color=#000080>). We have </font></b>
+<img src="images/Fermat-Thue 2-squares210.gif" width=97 height=50 alt="0 &lt; x^2+y^2" align=middle>
+<b><font color=#000080> (even </font></b>
+<i><b><font color=#000080>only one</font></b></i>
+<b><font color=#000080> of </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> being non-zero would have gauranteed that) and so </font></b>
+<img src="images/Fermat-Thue 2-squares211.gif" width=56 height=32 alt="0 &lt; m" align=middle>
+<b><font color=#000080>, and since </font></b>
+<img src="images/Fermat-Thue 2-squares212.gif" width=125 height=50 alt="x^2+y^2 &lt; p+p" align=middle>
+<b><font color=#000080> then </font></b>
+<img src="images/Fermat-Thue 2-squares213.gif" width=80 height=32 alt="m*p &lt; 2*p" align=middle>
+<b><font color=#000080>, giving </font></b>
+<img src="images/Fermat-Thue 2-squares214.gif" width=56 height=32 alt="m &lt; 2" align=middle>
+<b><font color=#000080>. Thus </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> 1. [</font></b>
+<b><u><font color=#000080>end of proof</font></u></b>
+<b><font color=#000080>] </font></b>
+</p>
+<a name="MapleAutoBookmark8">
+<p align=left>
+<b><font color=#000080 size=4>See the '</font></b>
+<i><b><font color=#000080 size=4>x</font></b></i>
+<b><font color=#000080 size=4>' and '</font></b>
+<i><b><font color=#000080 size=4>y</font></b></i>
+<b><font color=#000080 size=4>' generated by combining (Wilson), Thue and Dirichlet</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Your understanding of the above may be enhanced by seeing the following calculations, which start with a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares215.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 4), and continue... I know primes that are 1 mod 4 off by heart, but if you want some such primes then do something like:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for k from 150 to 200 do<br>
+if k mod 4 = 1 and isprime(k)<br>
+then print(k) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares216.gif" width=40 height=20 alt="157">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares217.gif" width=40 height=20 alt="173">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares218.gif" width=40 height=20 alt="181">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares219.gif" width=40 height=20 alt="193">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares220.gif" width=40 height=20 alt="197">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 173; </font></b>
+<b><font color=#800080>a := ((p-1)/2)!; a mod p; a^2 + 1 mod p;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares221.gif" width=70 height=20 alt="p := 173">
+</p>
+<p align=left>
+<img src="images/Fermat-Thue 2-squares222.gif" width=686 height=20 alt="a := 2422709538367273238176552320344125971528487055...">
+<br>
+<img src="images/Fermat-Thue 2-squares223.gif" width=424 height=20 alt="a := 2422709538367273238176552320344125971528487055...">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares224.gif" width=32 height=20 alt="80">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares225.gif" width=24 height=20 alt="0">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now to see (what one might call) the Thue table:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>c := ceil(sqrt(p)); A := array(1..c,1..c):<br>
+for x to c do for y to c do<br>
+A[x, y] := a*x + y mod p;<br>
+od; od; print(A);<br>
+lprint(`Note. There are`, c^2, `entries, and thus, on division by`, p,`there must be AT LEAST TWO entries that are congruent mod`, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares226.gif" width=61 height=20 alt="c := 14">
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares227.gif" width=574 height=410 alt="matrix([[81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Note. There are`, 196, `entries, and thus, on division by`, 173, `there must be AT LEAST TWO entries that are congruent mod`, 173</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>As it happens there is a convenient '0' that occurs in the table (so one doesn't have to look out for two repeated entries (like 130 and 130), and so we can immediately read off the '</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>' and '</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>' values. But if you're too lazy to count along the rows and columns to find the '</font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080>' and '</font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>' values</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for x to c do for y to c do<br>
+if A[x, y] = 0 then print(x, y, x^2+y^2)<br>
+fi od; od;</font></b>
+</p>
+<p align=center>
+<img src="images/Fermat-Thue 2-squares228.gif" width=80 height=20 alt="2, 13, 173">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and so one sees that </font></b>
+<img src="images/Fermat-Thue 2-squares229.gif" width=122 height=50 alt="173 = 2^2+13^2" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<a name="MapleAutoBookmark9">
+<p align=left>
+<b><font color=#000080 size=5>Much, much more can be done with these ideas</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>There is a great deal more that may be achieved in connection with the above ideas. For example one may prove in a similar fashion the following: </font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be any prime with </font></b>
+<img src="images/Fermat-Thue 2-squares230.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 8) or </font></b>
+<img src="images/Fermat-Thue 2-squares231.gif" width=52 height=32 alt="p = 3" align=middle>
+<b><font color=#000080> (mod 8) then </font></b>
+<img src="images/Fermat-Thue 2-squares232.gif" width=109 height=50 alt="p = x^2+2*y^2" align=middle>
+<b><font color=#000080> for some integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>. </font></b>
+<img src="images/Fermat-Thue 2-squares233.gif" width=110 height=50 alt="3 = 1^2+2.1^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares234.gif" width=118 height=50 alt="11 = 3^2+2.1^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares235.gif" width=118 height=50 alt="17 = 3^2+2.2^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares236.gif" width=118 height=50 alt="19 = 1^2+2.3^2" align=middle>
+<b><font color=#000080>, ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>To give a proof, though, one needs to have access to another classic result: for every prime with </font></b>
+<img src="images/Fermat-Thue 2-squares237.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 8) or </font></b>
+<img src="images/Fermat-Thue 2-squares238.gif" width=52 height=32 alt="p = 3" align=middle>
+<b><font color=#000080> (mod 8) there is an integer </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/Fermat-Thue 2-squares239.gif" width=89 height=50 alt="a^2+2 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and that can't be proved using Wilson's theorem...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>One may also prove this theorem:</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Theorem</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be any prime with </font></b>
+<img src="images/Fermat-Thue 2-squares240.gif" width=52 height=32 alt="p = 1" align=middle>
+<b><font color=#000080> (mod 6)  then </font></b>
+<img src="images/Fermat-Thue 2-squares241.gif" width=109 height=50 alt="p = x^2+3*y^2" align=middle>
+<b><font color=#000080> for some integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>. </font></b>
+<img src="images/Fermat-Thue 2-squares242.gif" width=110 height=50 alt="7 = 2^2+3.1^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares243.gif" width=118 height=50 alt="13 = 1^2+3.2^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares244.gif" width=118 height=50 alt="19 = 4^2+3.1^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Fermat-Thue 2-squares245.gif" width=118 height=50 alt="31 = 2^2+3.3^2" align=middle>
+<b><font color=#000080>, ...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Really, really interesting things start at </font></b>
+<img src="images/Fermat-Thue 2-squares246.gif" width=81 height=50 alt="x^2+5*y^2" align=middle>
+<b><font color=#000080>... (Ah, if only one had time...)</font></b>
+</p>
+<a name="MapleAutoBookmark10">
+<p align=left>
+<b><font color=#000080 size=4>And much, much more is known about the two squares in </font></b>
+<img src="images/Fermat-Thue 2-squares247.gif" width=108 height=56 alt="p = x^2+y^2" align=middle>
+<b><font color=#000080 size=4>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>To start with it can be proved that the pair (</font></b>
+<img src="images/Fermat-Thue 2-squares248.gif" width=39 height=32 alt="x, y" align=middle>
+<b><font color=#000080>) is </font></b>
+<i><b><font color=#000080>unique</font></b></i>
+<b><font color=#000080> (apart from interchange, or change of sign).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Also, there are four quite beautiful </font></b>
+<i><b><font color=#000080>structured</font></b></i>
+<b><font color=#000080> ways for finding </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>Legendre (1808). Here one needs to know about the (infinite, but periodic) continued fraction expansion of </font></b>
+<img src="images/Fermat-Thue 2-squares249.gif" width=38 height=38 alt="sqrt(p)" align=middle>
+</li>
+<li>
+<b><font color=#000080>Gauss (1825). His construction is simple, but hard to </font></b>
+<i><b><font color=#000080>prove</font></b></i>
+<b><font color=#000080>: let </font></b>
+<img src="images/Fermat-Thue 2-squares250.gif" width=93 height=32 alt="p = 4*n+1" align=middle>
+<b><font color=#000080> and set:<br>
+ </font></b>
+<img src="images/Fermat-Thue 2-squares251.gif" width=97 height=58 alt="x = (2*n)!/(2*n!^2)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+<i><b><font color=#000080> and </font></b></i>
+<img src="images/Fermat-Thue 2-squares252.gif" width=95 height=32 alt="y = (2*n)!*x" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) with </font></b>
+<img src="images/Fermat-Thue 2-squares253.gif" width=66 height=58 alt="abs(x) &lt; p/2" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Fermat-Thue 2-squares254.gif" width=65 height=58 alt="abs(y) &lt; p/2" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/Fermat-Thue 2-squares255.gif" width=97 height=50 alt="p = x^2+y^2" align=middle>
+<b><font color=#000080> <br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080>Serret (1848). Here one needs to know about (finite) continued fraction expansions of rational numbers, and here the relevant rational is </font></b>
+<img src="images/Fermat-Thue 2-squares256.gif" width=28 height=58 alt="p/a" align=middle>
+<b><font color=#000080>, where </font></b>
+<img src="images/Fermat-Thue 2-squares257.gif" width=89 height=50 alt="a^2+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) with positive </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> less than </font></b>
+<img src="images/Fermat-Thue 2-squares258.gif" width=28 height=58 alt="p/2" align=middle>
+<b><font color=#000080>.</font></b>
+</li>
+<li>
+<b><font color=#000080>Jacobsthal (1906). Here one needs to know about quadratic residues, and Jacobsthal's beautiful result involves a careful study of sums of Legendre symbols,  </font></b>
+<img src="images/Fermat-Thue 2-squares259.gif" width=185 height=80 alt="S[r] = Sum([n*(n^2-r)/p],n = 0 .. p-1)" align=middle>
+<b><font color=#000080> (here I have been forced to use square brackets for the Legendre symbol) for non-zero residues </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>. Remarkably it emerges that </font></b>
+<img src="images/Fermat-Thue 2-squares260.gif" width=31 height=32 alt="S[r]" align=middle>
+<b><font color=#000080> has only </font></b>
+<i><b><font color=#000080>two</font></b></i>
+<b><font color=#000080> values, and you've probably guessed what those are!!</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>An outstanding reference is Harold Davenport's </font></b>
+<i><b><font color=#000080>The Higher Arithmetic</font></b></i>
+<b><font color=#000080> (I had the great good fortune (in Feb 1995) to come upon a 1952 first edition - in a run-down bookshop near where I live - for £3!!), though there are more recent editions.</font></b>
+</p>
+<p align=left>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:17 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

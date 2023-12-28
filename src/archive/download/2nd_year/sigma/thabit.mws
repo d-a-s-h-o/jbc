@@ -1,0 +1,132 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" 
+-1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 
+}{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 
+"Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 
+11 0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 3 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# amicable.mws" }}}
+{EXCHG {PARA 258 "" 0 "" {TEXT -1 16 "Amicable numbers" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "p := 3*2^(n-1) - 1;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"pG,&)\"\"#,&%\"nG\"\"\"!\"\"F*\"\"$F+F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "q := 3*2^n - 1;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"qG,&)\"\"#%\"nG\"\"$!\"\"\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "r := 9*2^(2*n - 1) - 1;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"rG,&)\"\"#,&%\"nGF'!\"\"\"\"\"\"\"*F*F+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "2^n*p*q;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*()\"\"#%\"nG\"\"\",&)F%,&F&F'!\"\"F'\"\"$F+F'F',&
+F$F,F+F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "2^n*r;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&)\"\"#%\"nG\"\"\",&)F%,&F&F%!\"\"F'
+\"\"*F+F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 33 "Thabit's Rule for amicable pairs." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "If p (=3*
+2^(n-1) - 1), q (=3*2^n - 1) and r (=9*2^(2*n - 1) - 1) are prime," }}
+{PARA 0 "" 0 "" {TEXT -1 58 "then (2^n)*p*q and (2^n)*r is an amicable
+ pair (if n > 1)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 352 "Thabit_primes := proc(n)\nlocal k;\nfor k to n do
+\nif isprime(3*2^(k-1) - 1) \n   and isprime(3*2^k - 1) \n   and ispri
+me(9*2^(2*k-1) - 1)\n   then lprint(`When k =`, k, `the numbers 3*2^(k
+-1) - 1,`, \n         `3*2^k - 1 and 9*2^(2*k-1) - 1 are  prime,`,\n  \+
+       `and have values`, 3*2^(k-1) - 1,`,`, 3*2^k - 1, \n         `an
+d`, 9*2^(2*k-1) - 1)\nfi\nod;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "Thabit_
+primes(10);" }}{PARA 6 "" 1 "" {TEXT -1 126 "When k =   1   the number
+s 3*2^(k-1) - 1,   3*2^k - 1 and 9*2^(2*k-1) - 1 are  prime,   and hav
+e values   2   ,   5   and   17" }}{PARA 6 "" 1 "" {TEXT -1 127 "When \+
+k =   2   the numbers 3*2^(k-1) - 1,   3*2^k - 1 and 9*2^(2*k-1) - 1 a
+re  prime,   and have values   5   ,   11   and   71" }}{PARA 6 "" 1 "
+" {TEXT -1 130 "When k =   4   the numbers 3*2^(k-1) - 1,   3*2^k - 1 \+
+and 9*2^(2*k-1) - 1 are  prime,   and have values   23   ,   47   and \+
+  1151" }}{PARA 6 "" 1 "" {TEXT -1 133 "When k =   7   the numbers 3*2
+^(k-1) - 1,   3*2^k - 1 and 9*2^(2*k-1) - 1 are  prime,   and have val
+ues   191   ,   383   and   73727" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "3*2^3 -
+ 1; 3*2^4 - 1; 9*2^7 - 1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#B" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#Z" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"%^6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 377 "Thabit_amicable := proc(n)\nlocal \+
+k;\nfor k from 2 to n do\nif isprime(3*2^(k-1) - 1) \n   and isprime(3
+*2^k - 1) \n   and isprime(9*2^(2*k-1) - 1)\nthen lprint(`When k =`, k
+, `the numbers 2^k*(3*2^(k-1)-1)*(3*2^k-1)`,\n            `and 2^k*(9*
+2^(2*k-1)-1) are amicable`,\n            `and have values`, 2^k*(3*2^(
+k-1)-1)*(3*2^k-1), \n            `and`, 2^k*(9*2^(2*k-1)-1))\nfi\nod;
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 20 "Thabit_amicable(50);" }}{PARA 6 "" 1 "" 
+{TEXT -1 129 "When k =   2   the numbers 2^k*(3*2^(k-1)-1)*(3*2^k-1)  \+
+ and 2^k*(9*2^(2*k-1)-1) are amicable   and have values   220   and   \+
+284" }}{PARA 6 "" 1 "" {TEXT -1 133 "When k =   4   the numbers 2^k*(3
+*2^(k-1)-1)*(3*2^k-1)   and 2^k*(9*2^(2*k-1)-1) are amicable   and hav
+e values   17296   and   18416" }}{PARA 6 "" 1 "" {TEXT -1 137 "When k
+ =   7   the numbers 2^k*(3*2^(k-1)-1)*(3*2^k-1)   and 2^k*(9*2^(2*k-1
+)-1) are amicable   and have values   9363584   and   9437056" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 283 "Thabit_prime_1and2 := proc(m, n)\nlocal k;\nfor k \+
+from m to n do\nif isprime(3*2^(k-1) - 1) and isprime(3*2^k - 1)\n    \+
+then lprint(`When k =`, k, `3*2^(k-1) - 1 and 3*2^k - 1 are prime`,\n \+
+               `and have values`, \n                 3*2^(k-1) - 1, ` \+
+ and`, 3*2^k - 1)\nfi\nod;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "Thabit_prime_1and2(1, 200);" }}{PARA 6 "" 1 "" {TEXT 
+-1 86 "When k =   1   3*2^(k-1) - 1 and 3*2^k - 1 are prime   and have
+ values   2     and   5" }}{PARA 6 "" 1 "" {TEXT -1 87 "When k =   2  \+
+ 3*2^(k-1) - 1 and 3*2^k - 1 are prime   and have values   5     and  \+
+ 11" }}{PARA 6 "" 1 "" {TEXT -1 88 "When k =   3   3*2^(k-1) - 1 and 3
+*2^k - 1 are prime   and have values   11     and   23" }}{PARA 6 "" 
+1 "" {TEXT -1 88 "When k =   4   3*2^(k-1) - 1 and 3*2^k - 1 are prime
+   and have values   23     and   47" }}{PARA 6 "" 1 "" {TEXT -1 90 "W
+hen k =   7   3*2^(k-1) - 1 and 3*2^k - 1 are prime   and have values \+
+  191     and   383" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "Thab
+it_prime_1and2(201, 300);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "So, no extra ones between 20
+1 and 300." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 211 "Thabit_prime3 := proc(m, n)\nlocal k;\nfor k from m \+
+to n do\nif isprime(9*2^(2*k - 1) - 1)\nthen lprint(`When k =`, k, `th
+e number 9*2^(2*k-1)-1 is prime`,\n            `and has value`, 9*2^(2
+*k - 1) - 1)\nfi\nod;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 "Thabit_prime3(1, 200);" }}{PARA 6 "" 1 "" {TEXT -1 69 "When k =   \+
+1   the number 9*2^(2*k-1)-1 is prime   and has value   17" }}{PARA 6 
+"" 1 "" {TEXT -1 69 "When k =   2   the number 9*2^(2*k-1)-1 is prime \+
+  and has value   71" }}{PARA 6 "" 1 "" {TEXT -1 71 "When k =   4   th
+e number 9*2^(2*k-1)-1 is prime   and has value   1151" }}{PARA 6 "" 
+1 "" {TEXT -1 72 "When k =   7   the number 9*2^(2*k-1)-1 is prime   a
+nd has value   73727" }}{PARA 6 "" 1 "" {TEXT -1 73 "When k =   8   th
+e number 9*2^(2*k-1)-1 is prime   and has value   294911" }}{PARA 6 "
+" 1 "" {TEXT -1 76 "When k =   11   the number 9*2^(2*k-1)-1 is prime \+
+  and has value   18874367" }}{PARA 6 "" 1 "" {TEXT -1 82 "When k =   \+
+22   the number 9*2^(2*k-1)-1 is prime   and has value   7916483719987
+1" }}{PARA 6 "" 1 "" {TEXT -1 88 "When k =   32   the number 9*2^(2*k-
+1)-1 is prime   and has value   83010348331692982271" }}{PARA 6 "" 1 "
+" {TEXT -1 99 "When k =   50   the number 9*2^(2*k-1)-1 is prime   and
+ has value   5704427701027032306735164424191" }}{PARA 6 "" 1 "" {TEXT 
+-1 102 "When k =   55   the number 9*2^(2*k-1)-1 is prime   and has va
+lue   5841333965851681082096808370372607" }}{PARA 6 "" 1 "" {TEXT -1 
+117 "When k =   80   the number 9*2^(2*k-1)-1 is prime   and has value
+   6576757367989063131916581747223273588451696443391" }}{PARA 6 "" 1 "
+" {TEXT -1 134 "When k =   106   the number 9*2^(2*k-1)-1 is prime   a
+nd has value   2961908203178170875878944528603230908968924558140443754
+0274962431" }}{PARA 6 "" 1 "" {TEXT -1 163 "When k =   155   the numbe
+r 9*2^(2*k-1)-1 is prime   and has value   938666177894931188552499773
+2190414566125166358012634242931335190624989029309455542093095108607" }
+}{PARA 6 "" 1 "" {TEXT -1 174 "When k =   172   the number 9*2^(2*k-1)
+-1 is prime   and has value   1612616214368019031601358442009279880247
+58475800894766512799215269393014724971588067423179515555712335871" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "Thabit_prime3(201, 300);" }}{PARA 2 "" 1 "" {TEXT 
+-1 420 "When k =   208   the number 9*2^(2*k - 1) -1 is prime and has \+
+value   761536476046366\\\n3859926064348537522378823221947748519646159
+154121561154715042306703906179704265520081\\\n444250762528269087665029
+11\nWhen k =   235   the number 9*2^(2*k - 1) -1 is prime and has valu
+e   137186215590058\\\n25235563659701239500367059269181633174002799029
+60772868439911029813529431392947823620\\\n1385958193404618948271011611
+871872347537407\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+}{MARK "19 1 0" 30 }{VIEWOPTS 1 1 0 1 1 1803 }

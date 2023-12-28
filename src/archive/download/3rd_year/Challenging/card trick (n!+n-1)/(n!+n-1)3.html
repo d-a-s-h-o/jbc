@@ -1,0 +1,357 @@
+<html>
+<head>
+<title>(n!+n-1).html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark3">
+<p align=left>
+<b><font color=#000080 size=4>How is it done?</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>My explanation, of MK's explanation, of EB's brilliant solution of the general 'choose any </font></u></b>
+<i><b><u><font color=#000080>n</font></u></b></i>
+<b><u><font color=#000080> from (</font></u></b>
+<i><b><u><font color=#000080>n</font></u></b></i>
+<b><u><font color=#000080>!+</font></u></b>
+<i><b><u><font color=#000080>n</font></u></b></i>
+<b><u><font color=#000080>-1)</font></u></b>
+<b><font color=#000080>'. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Like MK I will examine the case </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>=5 (every essential point may be seen in this case; also it's not too big to handle, and not so small that one can't see the point because so little is going on). Let </font></b>
+<i><b><font color=#000080>C </font></b></i>
+<b><font color=#000080>'s chosen numbers - between 0 and 123 - be </font></b>
+<img src="images/(n!+n-1)5.gif" width=123 height=32 alt="c[0], c[1], c[2], c[3], c[4]" align=middle>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080> </font></b></i>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> will then pass 4 of those 5 cards to </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> (in a certain order), allowing </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> to declare the hidden 5th number.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>How is it done?</font></u></b>
+<b><font color=#000080> First </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> calculates 2 </font></b>
+<i><b><font color=#000080>important</font></b></i>
+<b><font color=#000080> numbers '</font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>' and '</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>', both of which </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> may later calculate </font></b>
+<i><b><font color=#000080>after</font></b></i>
+<b><font color=#000080> the 4 cards are passed:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> := </font></b>
+<img src="images/(n!+n-1)6.gif" width=171 height=32 alt="c[0]+c[1]+c[2]+c[3]+c[4]" align=middle>
+<b><font color=#000080> (mod 5); </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>holds</font></b></i>
+<b><font color=#000080> onto </font></b>
+<img src="images/(n!+n-1)7.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080>, and passes the other 4 cards</font></b>
+</li>
+<li>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> := the sum of the other 4 cards (mod 5)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Thus the hidden card </font></b>
+<img src="images/(n!+n-1)8.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> satisfies (the </font></b>
+<i><b><font color=#000080>vital</font></b></i>
+<b><font color=#000080> congruence; 'vital' for reasons that will only be apparent later)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)9.gif" width=79 height=32 alt="c[i] = i-s" align=middle>
+<b><font color=#000080> (mod 5)  ... (1)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>(If you're not fluent with congruences, do a few examples to fix that last important detail: suppose the </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>'s were 17, 38, 62, 116 and 120. Then</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> := 17+38+62+116+120 = 2+3+2+1+0 = 3 (mod 5); the 'hidden' card is then </font></b>
+<img src="images/(n!+n-1)10.gif" width=31 height=32 alt="c[3]" align=middle>
+<b><font color=#000080> (namely 116), and </font></b>
+</li>
+<li>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> is found from </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> := </font></b>
+<img src="images/(n!+n-1)11.gif" width=136 height=32 alt="c[0]+c[1]+c[2]+c[4]" align=middle>
+<b><font color=#000080> = 2+3+2+0 = 2 (mod 5)<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>Now, imagine removing the 4 cards </font></b>
+<img src="images/(n!+n-1)12.gif" width=100 height=32 alt="c[0], c[1], c[2], c[4]" align=middle>
+<b><font color=#000080> from the original 124 numbers (0, 1, 2, 3, ... , 123), and renumber the remaining 120 (=5!) by shifting to the left. In our example<br>
+</font></b>
+</p>
+<ul><li>
+<b><u><font color=#000080>0 shift</font></u></b>
+<b><font color=#000080>: 0 would still be '0', 1 would still be '1', ... , </font></b>
+<b><u><font color=#000080>16</font></u></b>
+<b><font color=#000080> would still be '</font></b>
+<b><u><font color=#000080>16</font></u></b>
+<b><font color=#000080>', while</font></b>
+</li>
+<li>
+<b><u><font color=#000080>1 shift</font></u></b>
+<b><font color=#000080>: </font></b>
+<b><u><font color=#000080>18</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>17</font></u></b>
+<b><font color=#000080>', </font></b>
+<b><u><font color=#000080>19</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>18</font></u></b>
+<b><font color=#000080>', ... , </font></b>
+<b><u><font color=#000080>37</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>36</font></u></b>
+<b><font color=#000080>', and</font></b>
+</li>
+<li>
+<b><u><font color=#000080>2 shift</font></u></b>
+<b><font color=#000080>: </font></b>
+<b><u><font color=#000080>39</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>37</font></u></b>
+<b><font color=#000080>', </font></b>
+<b><u><font color=#000080>40</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>38</font></u></b>
+<b><font color=#000080>', ... , </font></b>
+<b><u><font color=#000080>61</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>59</font></u></b>
+<b><font color=#000080>', and</font></b>
+</li>
+<li>
+<b><u><font color=#000080>3 shift</font></u></b>
+<b><font color=#000080>: </font></b>
+<b><u><font color=#000080>63</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>60</font></u></b>
+<b><font color=#000080>', </font></b>
+<b><u><font color=#000080>64</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>61</font></u></b>
+<b><font color=#000080>', ... , </font></b>
+<b><u><font color=#000080>116</font></u></b>
+<b><font color=#000080> (=</font></b>
+<img src="images/(n!+n-1)13.gif" width=31 height=32 alt="c[3]" align=middle>
+<b><font color=#000080>) would become '</font></b>
+<b><u><font color=#000080>113</font></u></b>
+<b><font color=#000080>', and finally</font></b>
+</li>
+<li>
+<b><u><font color=#000080>4 shift</font></u></b>
+<b><font color=#000080>: </font></b>
+<b><u><font color=#000080>117</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>114</font></u></b>
+<b><font color=#000080>', ... , </font></b>
+<b><u><font color=#000080>123</font></u></b>
+<b><font color=#000080> would become '</font></b>
+<b><u><font color=#000080>119</font></u></b>
+<b><font color=#000080>' <br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>Thus 116 (=</font></b>
+<img src="images/(n!+n-1)14.gif" width=31 height=32 alt="c[3]" align=middle>
+<b><font color=#000080>, the </font></b>
+<i><b><font color=#000080>hidden</font></b></i>
+<b><font color=#000080> card) gets shifted 3 (=</font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>) places to the left, and thus </font></b>
+<img src="images/(n!+n-1)15.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080>'s </font></b>
+<i><b><font color=#000080>new location</font></b></i>
+<b><font color=#000080> is congruent to (-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>) (mod 5). In the </font></b>
+<i><b><font color=#000080>general</font></b></i>
+<b><font color=#000080> case where '</font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>' and '</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>' are defined by<br>
+</font></b>
+</p>
+<ul><li>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> := </font></b>
+<img src="images/(n!+n-1)16.gif" width=101 height=32 alt="c[0]+c[1]+c[2]" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/(n!+n-1)17.gif" width=60 height=32 alt="c[n-1]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and the hidden card is </font></b>
+<img src="images/(n!+n-1)18.gif" width=28 height=32 alt="c[i]" align=middle>
+</li>
+<li>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> := the sum of the other (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1) cards (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), and so </font></b>
+<img src="images/(n!+n-1)19.gif" width=79 height=32 alt="c[i] = i-s" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>)</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080><br>
+after renumbering </font></b>
+<img src="images/(n!+n-1)20.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080>'s </font></b>
+<i><b><font color=#000080>new</font></b></i>
+<b><font color=#000080> number will be (</font></b>
+<img src="images/(n!+n-1)21.gif" width=53 height=32 alt="c[i]-i" align=middle>
+<b><font color=#000080>), giving </font></b>
+<img src="images/(n!+n-1)22.gif" width=89 height=32 alt="c[i]-i = -s" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>). If </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>=0 then </font></b>
+<img src="images/(n!+n-1)23.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> does not get shifted to the left, and its new location - after removing the other (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1) </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>'s - is the same as its earlier one; otherwise </font></b>
+<img src="images/(n!+n-1)24.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> gets shifted 1 or 2 or ... or (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1) places to the left.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>Which</font></b></i>
+<b><font color=#000080> numbers (between 0 and 119) are congruent to (-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>) (mod 5)? </font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Answer, and the point of it all</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>if </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>=0 they are 5.</font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080>, 5.</font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>, 5.</font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>, ... , 5.</font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080> and 5.</font></b>
+<b><u><font color=#000080>23</font></u></b>
+<b><font color=#000080>, and </font></b>
+</li>
+<li>
+<b><font color=#000080>if </font></b>
+<img src="images/(n!+n-1)25.gif" width=50 height=32 alt="s &lt;&gt; 0" align=middle>
+<b><font color=#000080> they are 5.</font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080> + (5-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>), 5.</font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080> + (5-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>), 5.</font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080> + (5-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>), ... , 5.</font></b>
+<b><u><font color=#000080>22</font></u></b>
+<b><font color=#000080> + (5-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>) and 5.</font></b>
+<b><u><font color=#000080>23</font></u></b>
+<b><font color=#000080> + (5-</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In both cases (and </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>knowing the value</font></b></i>
+<b><font color=#000080> of </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> upon receipt of the 4 cards, will know which case is happening) there are exactly 24 (=4!) unknown (to </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>) numbers, and </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> has exactly 24 (=4!) ways in which to pass the 4 cards. THAT'S IT!! All that </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> have to agree upon in advance is a </font></b>
+<i><b><font color=#000080>precise correlation</font></b></i>
+<b><font color=#000080> between the 4! numbers </font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080>, </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>, </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>, ... , </font></b>
+<b><u><font color=#000080>23</font></u></b>
+<b><font color=#000080> and the 4! different signals that can be passed with 4 cards, and finally make a use of the congruence (1) above, in order to determine the value of '</font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>'. The detail is almost an anti-climax:</font></b>
+</p>
+</basefont>
+</body>
+</html>

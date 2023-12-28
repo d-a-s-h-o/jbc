@@ -1,0 +1,193 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws13.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<dl style="margin-left:40px"><a name="MapleAutoBookmark13" />
+<p align="left"><font color="#003366" size="4" face="Times New Roma"><strong>A very, very fast introduction to </strong></font><font color="#993300" size="4" face="Times New Roma"><strong><em>Gauss factorials</em></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>A very brief word about our (Cosgrave-Dilcher) </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>Gauss factorial studies</strong></font><font color="#000080" size="4" face="Times New Roman"><strong>. These were motivated by an entirely simple philosophy, which I will illustrate by a simple example:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong>Nobody appeared to have used Gauss' binomial to </strong></font><font color="#000080" size="4" face="Times New Roman"><strong><em>derive any consequences</em></strong></font><font color="#000080" size="4" face="Times New Roman"><strong>, and I will give to illustrative examples to show what we derived from it (I could give many examples, but these two should suffice). First recall that we know from </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>Lagrange</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> examples of primes for which:</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_193.gif" width="198" height="38" alt="" align="center" border="0"> (3, 23, 31, 59, 71, 83, ... )
+<br>
+<br><img src="images/TCD2017.mws_194.gif" width="209" height="38" alt="" align="center" border="0"> (7, 11, 19, 43, 47, 67, 79, ... )
+<br>
+<br><img src="images/TCD2017.mws_195.gif" width="213" height="38" alt="" align="center" border="0"> (5, 13, 17, 29, ... )
+<br>
+<br>(the latter in fact, for ALL primes <img src="images/TCD2017.mws_196.gif" width="43" height="18" alt="p = 1" align="center" border="0"><font style="background-color: #ffcc99"> &nbsp;(mod 4))</strong></font></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong><font style="background-color: #993300">
+<br></strong></font> &nbsp;&nbsp;&nbsp;&nbsp;<font style="background-color: #ff9900">In the spirit of these Lagrange examples</strong></font>, we established the following as consequences of Gauss' binomial coefficient congruence:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong>For primes <img src="images/TCD2017.mws_197.gif" width="43" height="18" alt="p = 1" align="center" border="0"><font style="background-color: #ffcc99"> &nbsp;(mod 4)</strong></font>, we have the following (note that it's <font style="background-color: #ff9900">quarter</strong></font> factorials):</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_198.gif" width="198" height="38" alt="" align="center" border="0"> holds </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>only</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> for the prime <img src="images/TCD2017.mws_199.gif" width="43" height="18" alt="p = 5" align="center" border="0">
+<br>
+<br><img src="images/TCD2017.mws_200.gif" width="209" height="38" alt="" align="center" border="0"> is impossible
+<br>
+<br><img src="images/TCD2017.mws_201.gif" width="213" height="38" alt="" align="center" border="0"> is impossible</strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>and, furthermore</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_202.gif" width="213" height="38" alt="" align="center" border="0"> is impossible</strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>but (quite a surprise!, and highly relevant for a later paper of ours, our Acta Mathematica Hungarica one, in which we introduced the notion of a </strong></font><font color="#993300" size="4" face="Times New Roman"><strong><em>Gauss prime</em></strong></font><font color="#000080" size="4" face="Times New Roman"><strong>)</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_203.gif" width="213" height="38" alt="" align="center" border="0"> ... (8) (just for reference below)</strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>holds for some primes, the first five examples of which are 17, 241, 3361, 46817, 652081, and the next ones have 150, 229, 339, 401, 594, 806 decimal digits (these are all those with fewer than 1000 decimal digits; we found all with up to 100,000 decimal digits), and these primes have a remarkable structure; they are </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>precisely the primes</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> in the sequence<img src="images/TCD2017.mws_204.gif" width="92" height="27" alt="{p[k] = `+`(`*`(`^`(x[k], 2)), `*`(`^`(y[k], 2)))}" align="center" border="0">, where</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><img src="images/TCD2017.mws_205.gif" width="95" height="25" alt="x[1] = 4, y[1] = 1" align="center" border="0">, </font><font color="#000080" size="4" face="Times New Roman"><strong>and</strong></font><font color="#000080" size="4" face="Times New Roman"> <img src="images/TCD2017.mws_206.gif" width="145" height="25" alt="x[k] = `+`(`*`(4, `*`(x[`+`(k, `-`(1))])), y[`+`(k, `-`(1))])" align="center" border="0">, <img src="images/TCD2017.mws_207.gif" width="75" height="25" alt="y[k] = x[`+`(k, `-`(1))]" align="center" border="0"> </font><font color="#000080" size="4" face="Times New Roman"><strong>for</strong></font><font color="#000080" size="4" face="Times New Roman"> <img src="images/TCD2017.mws_208.gif" width="98" height="18" alt="k = 2, 3, 4, `...`" align="center" border="0"></font><font color="#000080" size="5" face="Times New Roman"><strong>
+<br>
+<br>Thus <img src="images/TCD2017.mws_209.gif" width="233" height="31" alt="`and`(`*`(prime, `*`(p[1])) = `+`(`*`(`^`(x[1], 2)), `*`(`^`(y[1], 2))), `and`(`+`(`*`(`^`(x[1], 2)), `*`(`^`(y[1], 2))) = `+`(`^`(4, 2), `^`(1, 2)), `+`(`^`(4, 2), `^`(1, 2)) = 17))" align="center" border="0"></strong></font><font color="#000080" size="4" face="Times New Roman"><strong>, <img src="images/TCD2017.mws_210.gif" width="249" height="31" alt="`and`(`*`(prime, `*`(p[2])) = `+`(`*`(`^`(x[2], 2)), `*`(`^`(y[2], 2))), `and`(`+`(`*`(`^`(x[2], 2)), `*`(`^`(y[2], 2))) = `+`(`^`(15, 2), `^`(4, 2)), `+`(`^`(15, 2), `^`(4, 2)) = 241))" align="center" border="0">, etc</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Having coffee one morning in October 2007 - staying in </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>Jon Borwein</strong></font><font color="#000080" size="4" face="Times New Roman"><strong>'s home on my second research visit to Karl, and while Karl was away on CMS business - Jon asked me to tell him something of what Karl and I were doing ... I mentioned a number of things (from a vast list), and the latter was one of them. When I told Jon the latter result, concerning the solutions of (8), he remarked that he was just about to bring out - with his co-author David Bailey - the second edition of their book on </strong></font><font color="#993300" size="4" face="Times New Roman"><strong><em>Mathematics by Experiment</em></strong></font><font color="#000080" size="4" face="Times New Roman"><strong>, and that he had been on the lookout for things that were "new, beautiful and exciting", and that the above was exactly what he wanted... could he include it in their book? Answer: Yes! And Jon did.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Those latter primes - they are the </strong></font><font color="#000080" size="4" face="Times New Roman" style="background-color: #ff9900"><strong><em>Gauss primes</em></strong></font><font color="#000080" size="4" face="Times New Roman"><strong> (of 'level' 4) which we introduced in our paper:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong> </strong></font><font color="#000000" size="4" face="Times New Roman"><strong>THE GAUSS-WILSON THEOREM FOR QUARTER INTERVALS, Acta Mathemetica Hungarica, Vol. 142 (2014), no. 1, 199-230</strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>play a fundamental role in our study of certain Gauss factorial congruences.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong>Now, a </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>motivation of ours</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> was to consider this kind of question (</strong></font><font color="#993300" size="4" face="Times New Roman"><strong>in the spirit of the Gauss-Wilson theorem</strong></font><font color="#000080" size="4" face="Times New Roman"><strong>), namely ask:</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is the outcome if one replaces </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>prime</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> <img src="images/TCD2017.mws_211.gif" width="18" height="18" alt="p" align="center" border="0"> - in the just seen examples - with </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>composite</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> <img src="images/TCD2017.mws_212.gif" width="18" height="18" alt="n" align="center" border="0">?</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong> &nbsp;&nbsp;&nbsp;</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong> &nbsp;&nbsp;&nbsp;&nbsp;In other words, are there solutions of </strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br><img src="images/TCD2017.mws_213.gif" width="178" height="41" alt="" align="center" border="0"></strong></font><font color="#000080" size="3" face="Times New Roman"><strong> &nbsp;</strong></font><font color="#000080" size="4" face="Times New Roman"><strong>... (Gauss-half-factorial-congruence)</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;where the object on the left hand side is t</strong></font><font color="#993300" size="4" face="Times New Roman"><strong>o be interpreted as being</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong>the </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>ordinary</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> factorial <img src="images/TCD2017.mws_214.gif" width="100" height="41" alt="factorial(`+`(`*`(`/`(1, 2), `*`({`+`(n, `-`(1))}))))" align="center" border="0"></strong></font><font color="#000080" size="3" face="Times New Roman"><strong> , </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>BUT</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> with every integer OMITTED from the product that is divisible by a prime factor of <img src="images/TCD2017.mws_215.gif" width="18" height="18" alt="n" align="center" border="0"> itself &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Thus, for example, if <img src="images/TCD2017.mws_216.gif" width="51" height="18" alt="n = 15" align="center" border="0"> (which has prime factors 3 and 5 only) then we understand <img src="images/TCD2017.mws_217.gif" width="108" height="41" alt="factorial((`+`(`*`(`/`(1, 2), `*`({`+`(n, `-`(1))}))))[n])" align="center" border="0"></strong></font><font color="#000080" size="3" face="Times New Roman"><strong> </strong></font><font color="#000080" size="4" face="Times New Roman"><strong>to </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>mean</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> the product:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font><font color="#993300" size="4" face="Times New Roman"><strong>1 . 2 . 4 . 7</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> (having omitted 3, 5, and 6 from the original product)</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>The complete answer is given in our very first paper - EXTENSIONS OF THE GAUSS-WILSON THEOREM - it's paper #1 </strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>at http://johnbcosgrave.com/publications.php</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>An easily understood sample theorem from that paper is: if an odd integer <img src="images/TCD2017.mws_218.gif" width="18" height="18" alt="n" align="center" border="0"> has <font style="background-color: #ff9900">at least three distinct prime factors</strong></font> then the above Gauss-half-factorial-congruence holds. </strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>See the early examples in the following table (the first of which you might try to verify by hand):</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []: 
+<br>
+<br>for n from 3 by 2 to 1000 do if nops(factorset(n)) &gt; 2 then L := [op(L), n] fi od:
+<br>
+<br> &nbsp;&nbsp;for n in L do Ghf||n := PI(n, 2, 1): &nbsp;
+<br>
+<br> &nbsp;&nbsp;### 'Ghf' for Gauss half-factorial
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;od: &nbsp;&nbsp;
+<br>
+<br> print(``); print(array([
+<br>
+<br>['n', ``, ``, factored('n'), ``, ``, '({n-1}/2)[n]!'],
+<br> 
+<br>seq([n, ``, ``, ifactor(n), ``, ``, Ghf||n], 
+<br>
+<br>n = L)])): print(``); 
+<br>
+<br>lprint(`The final column show the residue of GAUSS FACTORIAL ({n-1}/2)[n]! mod n.`);</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_219.gif" width="291" height="1417" alt="array( 1 .. 55, 1 .. 7, [( 23, 2 ) = (``), ( 10, 4 ) = (`*`(``(3), `*`(``(5), `*`(``(23))))), ( 25, 6 ) = (``), ( 53, 1 ) = (969), ( 6, 3 ) = (``), ( 7, 5 ) = (``), ( 44, 7 ) = (1), ( 9, 7 ) = (1), ( ..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#993300" size="4" face="Times New Roman"><strong>`The final column show the residue of GAUSS FACTORIAL ({n-1}/2)[n]! mod n.`</td>
+<td width='5%' align='center'></td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Here are some having at least four distinct prime factors (this computation taking less than one second):</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []: 
+<br>
+<br>for n from 3 by 2 to 4000 do if nops(factorset(n)) &gt; 3 then L := [op(L), n] fi od:
+<br>
+<br> &nbsp;&nbsp;for n in L do Ghf||n := PI(n, 2, 1): &nbsp;
+<br>
+<br> &nbsp;&nbsp;### 'Ghf' for Gauss half-factorial
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;od: &nbsp;&nbsp;
+<br>
+<br> print(``); print(array([
+<br>
+<br>['n', ``, ``, factored('n'), ``, ``, '({n-1}/2)[n]!'],
+<br> 
+<br>seq([n, ``, ``, ifactor(n), ``, ``, Ghf||n], 
+<br>
+<br>n = L)])): print(``); 
+<br>
+<br>lprint(`The final column show the residue of GAUSS FACTORIAL ({n-1}/2)[n]! mod n.`);</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_220.gif" width="322" height="463" alt="array( 1 .. 18, 1 .. 7, [( 9, 7 ) = (1), ( 10, 6 ) = (``), ( 5, 7 ) = (1), ( 18, 1 ) = (3927), ( 6, 6 ) = (``), ( 18, 7 ) = (1), ( 13, 3 ) = (``), ( 2, 1 ) = (1155), ( 14, 2 ) = (``), ( 2, 4 ) = (`*`(..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#993300" size="4" face="Times New Roman"><strong>`The final column show the residue of GAUSS FACTORIAL ({n-1}/2)[n]! mod n.`</td>
+<td width='5%' align='center'></td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</dl>
+
+</html>

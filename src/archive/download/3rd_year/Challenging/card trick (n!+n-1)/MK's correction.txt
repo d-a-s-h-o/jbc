@@ -1,0 +1,37 @@
+An email from Michael Kleber, Wed 12th feb 2003:
+
+Hello again John,
+
+I'm afraid there's something the matter with your rendition of the card 
+trick.  I've only just looked at the (html version of the) maple worksheet, 
+so perhaps I misunderstand you.  But it seems to me that you believe the 
+magician (P) knows both the sequence of cards handed to him by A, *and* 
+knows a priori the value of i (which card in the sequence remains hidden).
+
+In fact that is *not* the case: P knows only the sequence of n-1 (four) 
+cards.  Based on this, P calculates the "base factorial" number represented 
+by the sequence, multiplies by n (five), adds (-s mod 5), and then figures 
+out what i must be in order for the "fundamental congruence" to hold true,
+by taking into account the effect of the renumbering based on the four 
+cards he was passed.
+
+So in your example with n=4 at the end of the worksheet, eg:
+
+* C [not P! -- typo] chooses, say, (c0,c1,c2,c3) = (3,14,22,23).
+
+* A calculates i = 2 as you say, hides c2=22.
+
+* A indicates the number 5 via the permutation, as you say.
+
+* P decodes the permutation and gets 5, and calculates s = 3+14+23 = 0 mod 4
+  So 4*5+(-0)=20, and --> The Hidden Card Is The Card "Renumbered" 20 <--
+
+* P now sees the 3 and 14 in the cards passed to him, so the card 
+  renumbered 20 was originally numbered 22.
+
+I'm afraid that part of the article is less clear than it ought to be; my 
+apologies for misleading you.
+
+--Michael Kleber
+  kleber@brandeis.edu
+

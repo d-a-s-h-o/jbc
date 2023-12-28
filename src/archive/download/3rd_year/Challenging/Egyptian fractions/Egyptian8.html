@@ -1,0 +1,343 @@
+<html>
+<head>
+<title>Egyptian.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark8">
+<p align=left>
+<b><font color=#000080 size=4>Numerators</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>By hand we investigated </font></b>
+<img src="images/Egyptian158.gif" width=28 height=58 alt="2/b" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Egyptian159.gif" width=28 height=58 alt="3/b" align=middle>
+<b><font color=#000080>, which led to considering </font></b>
+</p>
+<ul><li>
+<img src="images/Egyptian160.gif" width=68 height=58 alt="2/(2*k+1)" align=middle>
+<b><font color=#000080> (2 unit fractions)</font></b>
+</li>
+<li>
+<img src="images/Egyptian161.gif" width=68 height=58 alt="3/(3*k+1)" align=middle>
+<b><font color=#000080> (3 unit fractions)</font></b>
+</li>
+<li>
+<img src="images/Egyptian162.gif" width=68 height=58 alt="3/(3*k+2)" align=middle>
+<b><font color=#000080> (2 unit fractions)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and one was then interested in numerators: 4, 5, 6, 7, ...<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>Looking at </font></b>
+<img src="images/Egyptian163.gif" width=29 height=58 alt="4/n" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/Egyptian164.gif" width=109 height=32 alt="n = 4*k+1, 3" align=middle>
+<b><font color=#000080> (we notice...)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(4/(4*k+1)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian165.gif" width=716 height=20 alt="3, 2, 3, 4, 2, 4, 3, 2, 3, 4, 2, 4, 3, 2, 3, 4, 2, ...">
+<br>
+<img src="images/Egyptian166.gif" width=24 height=20 alt="3, 2, 3, 4, 2, 4, 3, 2, 3, 4, 2, 4, 3, 2, 3, 4, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Note those k's (up to whatever...) for which </font></b>
+<img src="images/Egyptian167.gif" width=68 height=58 alt="4/(4*k+1)" align=middle>
+<b><font color=#000080> requires 4 unit fractions):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L4 := []: <br>
+for k to 90 do <br>
+if howmany(4/(4*k+1)) = 4 <br>
+then L4 := [op(L4), k] <br>
+fi od; L4;</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian168.gif" width=719 height=20 alt="[4, 6, 10, 12, 16, 18, 22, 24, 28, 30, 34, 36, 40, ...">
+<br>
+<img src="images/Egyptian169.gif" width=21 height=20 alt="[4, 6, 10, 12, 16, 18, 22, 24, 28, 30, 34, 36, 40, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(4/(4*k+3)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian170.gif" width=716 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+<br>
+<img src="images/Egyptian171.gif" width=24 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080>Looking at </font></b>
+<img src="images/Egyptian172.gif" width=29 height=58 alt="5/n" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/Egyptian173.gif" width=141 height=32 alt="n = 5*k+1, 2, 3, 4" align=middle>
+<b><font color=#000080> (we notice...)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(5/(5*k+1)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian174.gif" width=716 height=20 alt="2, 3, 2, 3, 2, 5, 2, 3, 2, 3, 2, 5, 2, 3, 2, 3, 2, ...">
+<br>
+<img src="images/Egyptian175.gif" width=24 height=20 alt="2, 3, 2, 3, 2, 5, 2, 3, 2, 3, 2, 5, 2, 3, 2, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L5 := []: <br>
+for k to 150 do <br>
+if howmany(5/(5*k+1)) = 5 <br>
+then L5 := [op(L5), k] <br>
+fi od; L5;</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian176.gif" width=686 height=20 alt="[6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78,...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(5/(5*k+2)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian177.gif" width=716 height=20 alt="3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, ...">
+<br>
+<img src="images/Egyptian178.gif" width=24 height=20 alt="3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(5/(5*k+3)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian179.gif" width=716 height=20 alt="2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, ...">
+<br>
+<img src="images/Egyptian180.gif" width=24 height=20 alt="2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(5/(5*k+4)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian181.gif" width=716 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+<br>
+<img src="images/Egyptian182.gif" width=24 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080>Looking at </font></b>
+<img src="images/Egyptian183.gif" width=29 height=58 alt="6/n" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/Egyptian184.gif" width=109 height=32 alt="n = 6*k+1, 5" align=middle>
+<b><font color=#000080> (we notice...)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(6/(6*k+1)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian185.gif" width=716 height=20 alt="3, 3, 3, 2, 3, 3, 3, 4, 2, 4, 3, 3, 3, 2, 3, 3, 3, ...">
+<br>
+<img src="images/Egyptian186.gif" width=24 height=20 alt="3, 3, 3, 2, 3, 3, 3, 4, 2, 4, 3, 3, 3, 2, 3, 3, 3, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L6 := []: <br>
+for k to 360 do <br>
+if howmany(6/(6*k+1)) = 6 <br>
+then L6 := [op(L6), k] <br>
+fi od; L6;</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian187.gif" width=707 height=20 alt="[18, 30, 48, 60, 78, 90, 108, 120, 138, 150, 168, 1...">
+<br>
+<img src="images/Egyptian188.gif" width=47 height=20 alt="[18, 30, 48, 60, 78, 90, 108, 120, 138, 150, 168, 1...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(6/(6*k+5)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian189.gif" width=716 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+<br>
+<img src="images/Egyptian190.gif" width=24 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080>Looking at </font></b>
+<img src="images/Egyptian191.gif" width=29 height=58 alt="7/n" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/Egyptian192.gif" width=173 height=32 alt="n = 7*k+1, 2, 3, 4, 5, 6" align=middle>
+<b><font color=#000080> (we notice...)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(7/(7*k+1)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian193.gif" width=716 height=20 alt="3, 3, 3, 3, 2, 5, 3, 3, 3, 5, 2, 3, 3, 3, 3, 5, 2, ...">
+<br>
+<img src="images/Egyptian194.gif" width=24 height=20 alt="3, 3, 3, 3, 2, 5, 3, 3, 3, 5, 2, 3, 3, 3, 3, 5, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L7 := []: <br>
+for k to 400 do <br>
+if howmany(7/(7*k+1)) = 7 <br>
+then L7 := [op(L7), k] <br>
+fi od; L7;</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian195.gif" width=566 height=20 alt="[36, 40, 76, 90, 126, 130, 166, 180, 216, 220, 256,...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(7/(7*k+2)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian196.gif" width=716 height=20 alt="3, 3, 4, 2, 3, 3, 3, 3, 2, 3, 3, 3, 3, 2, 4, 3, 3, ...">
+<br>
+<img src="images/Egyptian197.gif" width=24 height=20 alt="3, 3, 4, 2, 3, 3, 3, 3, 2, 3, 3, 3, 3, 2, 4, 3, 3, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(7/(7*k+3)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian198.gif" width=716 height=20 alt="2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, ...">
+<br>
+<img src="images/Egyptian199.gif" width=24 height=20 alt="2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(7/(7*k+4)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian200.gif" width=716 height=20 alt="3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, ...">
+<br>
+<img src="images/Egyptian201.gif" width=24 height=20 alt="3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(7/(7*k+5)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian202.gif" width=716 height=20 alt="2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, ...">
+<br>
+<img src="images/Egyptian203.gif" width=24 height=20 alt="2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(7/(7*k+6)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian204.gif" width=716 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+<br>
+<img src="images/Egyptian205.gif" width=24 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080>Looking at </font></b>
+<img src="images/Egyptian206.gif" width=29 height=58 alt="8/n" align=middle>
+<b><font color=#000080>, with </font></b>
+<img src="images/Egyptian207.gif" width=141 height=32 alt="n = 8*k+1, 3, 5, 7" align=middle>
+<b><font color=#000080> (we notice...)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(8/(8*k+1)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian208.gif" width=716 height=20 alt="3, 4, 3, 3, 3, 2, 3, 3, 3, 4, 3, 8, 2, 4, 4, 4, 4, ...">
+<br>
+<img src="images/Egyptian209.gif" width=24 height=20 alt="3, 4, 3, 3, 3, 2, 3, 3, 3, 4, 3, 8, 2, 4, 4, 4, 4, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L8 := []: <br>
+for k to 400 do <br>
+if howmany(8/(8*k+1)) = 8 <br>
+then L8 := [op(L8), k] <br>
+fi od; L8;</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian210.gif" width=350 height=20 alt="[12, 42, 96, 126, 180, 210, 222, 252, 306, 336, 390...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(8/(8*k+3)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian211.gif" width=716 height=20 alt="4, 3, 3, 2, 3, 3, 4, 4, 2, 4, 3, 3, 3, 2, 3, 4, 3, ...">
+<br>
+<img src="images/Egyptian212.gif" width=24 height=20 alt="4, 3, 3, 2, 3, 3, 4, 4, 2, 4, 3, 3, 3, 2, 3, 4, 3, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(8/(8*k+5)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian213.gif" width=716 height=20 alt="3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, ...">
+<br>
+<img src="images/Egyptian214.gif" width=24 height=20 alt="3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(howmany(8/(8*k+7)), k=1..45);</font></b>
+</p>
+<p align=left>
+<img src="images/Egyptian215.gif" width=716 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+<br>
+<img src="images/Egyptian216.gif" width=24 height=20 alt="2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:06 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

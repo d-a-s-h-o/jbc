@@ -1,0 +1,450 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 1 12 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 1 12 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 260 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 261 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 1 12 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 1 12 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 264 "" 1 12 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 
+"" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 1 12 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 269 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+270 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 1 12 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 1 12 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 273 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 274 "" 1 12 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 1 12 
+0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 277 "" 1 12 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 278 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+279 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 1 12 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 1 12 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 282 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 283 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 1 12 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 1 12 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 286 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 287 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+288 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 1 12 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 1 12 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 291 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 292 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 1 12 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 307 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 308 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 311 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 312 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 1 12 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 315 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 1 12 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 1 12 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 320 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 321 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 1 12 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 1 12 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 324 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 325 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+326 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 1 12 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 1 12 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 329 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 1 12 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 1 12 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 338 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 1 12 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 341 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 342 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 1 
+12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 1 12 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 345 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 
+"" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 1 12 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+351 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 352 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 356 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 358 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 0 1 0 0 0 0 0 0 0 }0 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" 
+-1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 
+}{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "" 3 256 1 {CSTYLE "
+" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "" 3 257 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 258 1 {CSTYLE "" 
+-1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "# Archimedes area.mw
+s" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 78 "I generated all the diagrams
+ in a seperate worksheet (Archimedes diagrams.mws)" }}}{EXCHG {PARA 
+256 "" 0 "" {TEXT -1 40 "Archimedes' idea/work in connection with" }}
+{PARA 257 "" 0 "" {TEXT -1 38 "finding the area of a parabolic sector
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT 266 89 "Ar
+chimedes' famous discovery in connection with the area of a parabolic \+
+sector is this:  " }}{PARA 259 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "
+" {TEXT -1 0 "" }{TEXT 280 4 "Let " }{TEXT 259 1 "P" }{TEXT 267 6 " be
+ a " }{TEXT 257 8 "parabola" }{TEXT 282 53 " (defined in classical tim
+es as a particular kind of " }{TEXT 283 13 "conic section" }{TEXT 284 
+107 ", \nand later - with the advent of coordinate geometry - realised
+ to be the graph of a \nquadratic function: " }{TEXT 311 5 "every" }
+{TEXT 312 50 " parabola gives rise to a quadratic function, and " }
+{TEXT 285 10 "vice-versa" }{TEXT 286 32 ")\n                          \+
+    " }{GLPLOT2D 266 192 192 {PLOTDATA 2 "6'-%'CURVESG6$7S7$$!1+++++++
+@!#:$\"1++++++5WF*7$$!1nm\"H3vW)>F*$\"16rra89QRF*7$$!1L3Fqu&R)=F*$\"1z
+#*y\\dH\\NF*7$$!1n;/-\\\"4x\"F*$\"1YKF!fRh8$F*7$$!1n;H9I7d;F*$\"1*4&\\
+%ocgu#F*7$$!1L3_f>(Qa\"F*$\"1)p%RF1a$Q#F*7$$!1nTgMP()Q9F*$\"1UP8CwNq?F
+*7$$!1+vVaT:I8F*$\"1Stcu+Jp<F*7$$!1nT54ir<7F*$\"1B]\"fwKG[\"F*7$$!1+vo
+`)Qc5\"F*$\"14MyusVA7F*7$$!1LL$e<NN!**!#;$\"1<o*y*3+3)*Fgn7$$!1nm\"zI,
+\"))))Fgn$\"1(**yf[M)**yFgn7$$!1****\\xK'\\u(Fgn$\"1_B)phX%)*fFgn7$$!1
+****\\798(f'Fgn$\"1B%ztG9AN%Fgn7$$!1++]AF)4\\&Fgn$\"1^$ze7*3:IFgn7$$!1
+m;/TP\\'[%Fgn$\"1/1%)3E'G,#Fgn7$$!1JL$e=f?H$Fgn$\"1iHIo`w$3\"Fgn7$$!1K
+LLVk@!G#Fgn$\"14xWGqQ*>&!#<7$$!1+]P*y-K5\"Fgn$\"1!y%[%Rcq@\"F]q7$$!1XN
+LLoiMh!#=$\"1'fD%QYOjP!#?7$$\"1/]igat\"3\"Fgn$\"1!ftng^,<\"F]q7$$\"1/]
+(=e>-<#Fgn$\"1:PbLI&)4ZF]q7$$\"1pm\"HdQfI$Fgn$\"1I)*y%)H#H4\"Fgn7$$\"1
+r;zRJ))[VFgn$\"1EkNc%y7*=Fgn7$$\"1OL3_(RQZ&Fgn$\"1v([J;#H'*HFgn7$$\"1M
+$e*3NNUmFgn$\"15rz8g37WFgn7$$\"1,]Pp\"[&fwFgn$\"1$f(*e\"y'o'eFgn7$$\"1
+QLepi9e()Fgn$\"1a;%zg70n(Fgn7$$\"1*****\\g0J*)*Fgn$\"1R#o6&QN(y*Fgn7$$
+\"1+]7*=W.5\"F*$\"1a6aMtv57F*7$$\"1+D1M\\x27F*$\"1x'\\8H?(e9F*7$$\"1+]
+()f%eqK\"F*$\"12e#f:%3h<F*7$$\"1mm;8+CM9F*$\"1>$o`TWq0#F*7$$\"1++v)>z'
+[:F*$\"1V4kgsS)R#F*7$$\"1Le*)4\"yBl\"F*$\"1FH1=MNIFF*7$$\"1,+D5%[dw\"F
+*$\"1//I[u'y6$F*7$$\"1n\"Hx-@C(=F*$\"1\\B300'f]$F*7$$\"1+DJ\\Y#R)>F*$
+\"1F(\\T,df$RF*7$$\"1nmT?)RH4#F*$\"1]d)=4(R!Q%F*7$$\"1+Dc,'oq?#F*$\"1^
+I+7=:r[F*7$$\"1MLL#=))pJ#F*$\"1FB2PUVo`F*7$$\"1M$3(HoRHCF*$\"10p>c*o>!
+fF*7$$\"1n\"Hnnu3a#F*$\"1\\N%G7WgX'F*7$$\"1,+]S7JVEF*$\"1^O:9V4()pF*7$
+$\"1n;a-^rgFF*$\"1];Sxya@wF*7$$\"1MLL;DslGF*$\"1b)>1alB@)F*7$$\"1+D1@B
+oxHF*$\"1g\"o^+#fm))F*7$$\"1+v$*R@%[3$F*$\"1wTLG5D;&*F*7$$\"1+++++++KF
+*$\"1++++++C5!#9-%'COLOURG6&%$RGBG$\"#5!\"\"\"\"!Fc[l-%%TEXTG6$7$$\"++
++++]!#5$\"+++++l!\"*%,~parabola~PG-%+AXESLABELSG6$Q\"x6\"%!G-%*AXESSTY
+LEG6#%%NONEG-%%VIEWG6$;$!#@Fb[l$\"#KFb[l%(DEFAULTG" 1 2 0 1 0 2 9 1 1 
+2 1.000000 46.000000 45.000000 0 }}{TEXT 307 17 "                 " }}
+{PARA 15 "" 0 "" {TEXT 281 10 "let A and " }{TEXT 258 1 "B" }{TEXT 
+268 65 " be any two points on the parabola\n                          \+
+    " }{GLPLOT2D 258 191 191 {PLOTDATA 2 "6(-%'CURVESG6$7S7$$!1+++++++
+@!#:$\"1++++++5WF*7$$!1nm\"H3vW)>F*$\"16rra89QRF*7$$!1L3Fqu&R)=F*$\"1z
+#*y\\dH\\NF*7$$!1n;/-\\\"4x\"F*$\"1YKF!fRh8$F*7$$!1n;H9I7d;F*$\"1*4&\\
+%ocgu#F*7$$!1L3_f>(Qa\"F*$\"1)p%RF1a$Q#F*7$$!1nTgMP()Q9F*$\"1UP8CwNq?F
+*7$$!1+vVaT:I8F*$\"1Stcu+Jp<F*7$$!1nT54ir<7F*$\"1B]\"fwKG[\"F*7$$!1+vo
+`)Qc5\"F*$\"14MyusVA7F*7$$!1LL$e<NN!**!#;$\"1<o*y*3+3)*Fgn7$$!1nm\"zI,
+\"))))Fgn$\"1(**yf[M)**yFgn7$$!1****\\xK'\\u(Fgn$\"1_B)phX%)*fFgn7$$!1
+****\\798(f'Fgn$\"1B%ztG9AN%Fgn7$$!1++]AF)4\\&Fgn$\"1^$ze7*3:IFgn7$$!1
+m;/TP\\'[%Fgn$\"1/1%)3E'G,#Fgn7$$!1JL$e=f?H$Fgn$\"1iHIo`w$3\"Fgn7$$!1K
+LLVk@!G#Fgn$\"14xWGqQ*>&!#<7$$!1+]P*y-K5\"Fgn$\"1!y%[%Rcq@\"F]q7$$!1XN
+LLoiMh!#=$\"1'fD%QYOjP!#?7$$\"1/]igat\"3\"Fgn$\"1!ftng^,<\"F]q7$$\"1/]
+(=e>-<#Fgn$\"1:PbLI&)4ZF]q7$$\"1pm\"HdQfI$Fgn$\"1I)*y%)H#H4\"Fgn7$$\"1
+r;zRJ))[VFgn$\"1EkNc%y7*=Fgn7$$\"1OL3_(RQZ&Fgn$\"1v([J;#H'*HFgn7$$\"1M
+$e*3NNUmFgn$\"15rz8g37WFgn7$$\"1,]Pp\"[&fwFgn$\"1$f(*e\"y'o'eFgn7$$\"1
+QLepi9e()Fgn$\"1a;%zg70n(Fgn7$$\"1*****\\g0J*)*Fgn$\"1R#o6&QN(y*Fgn7$$
+\"1+]7*=W.5\"F*$\"1a6aMtv57F*7$$\"1+D1M\\x27F*$\"1x'\\8H?(e9F*7$$\"1+]
+()f%eqK\"F*$\"12e#f:%3h<F*7$$\"1mm;8+CM9F*$\"1>$o`TWq0#F*7$$\"1++v)>z'
+[:F*$\"1V4kgsS)R#F*7$$\"1Le*)4\"yBl\"F*$\"1FH1=MNIFF*7$$\"1,+D5%[dw\"F
+*$\"1//I[u'y6$F*7$$\"1n\"Hx-@C(=F*$\"1\\B300'f]$F*7$$\"1+DJ\\Y#R)>F*$
+\"1F(\\T,df$RF*7$$\"1nmT?)RH4#F*$\"1]d)=4(R!Q%F*7$$\"1+Dc,'oq?#F*$\"1^
+I+7=:r[F*7$$\"1MLL#=))pJ#F*$\"1FB2PUVo`F*7$$\"1M$3(HoRHCF*$\"10p>c*o>!
+fF*7$$\"1n\"Hnnu3a#F*$\"1\\N%G7WgX'F*7$$\"1,+]S7JVEF*$\"1^O:9V4()pF*7$
+$\"1n;a-^rgFF*$\"1];Sxya@wF*7$$\"1MLL;DslGF*$\"1b)>1alB@)F*7$$\"1+D1@B
+oxHF*$\"1g\"o^+#fm))F*7$$\"1+v$*R@%[3$F*$\"1wTLG5D;&*F*7$$\"1+++++++KF
+*$\"1++++++C5!#9-%'COLOURG6&%$RGBG$\"#5!\"\"\"\"!Fc[l-%%TEXTG6%7$$!\"#
+Fc[l$\"#QFb[l%\"AG%+ALIGNBELOWG-Fe[l6%7$$\"$0$Fi[l$\"\"*Fc[l%\"BG%+ALI
+GNRIGHTG-%+AXESLABELSG6$Q\"x6\"%!G-%*AXESSTYLEG6#%%NONEG-%%VIEWG6$;$!#
+@Fb[l$\"#KFb[l%(DEFAULTG" 1 2 0 1 0 2 9 1 1 2 1.000000 44.000000 
+44.000000 0 }}{TEXT 308 40 "                                        " 
+}}{PARA 15 "" 0 "" {TEXT 287 21 "then the area of the " }{TEXT 264 23 
+"finite parabolic sector" }{TEXT -1 1 " " }{TEXT 269 20 "bounded by th
+e line " }{TEXT 260 2 "AB" }{TEXT 270 32 " and the parabolic \narc joi
+ning " }{TEXT 261 1 "A" }{TEXT 271 5 " and " }{TEXT 262 1 "B" }{TEXT 
+275 31 "\n                              " }{GLPLOT2D 259 191 191 
+{PLOTDATA 2 "6)-%'CURVESG6$7S7$$!1+++++++@!#:$\"1++++++5WF*7$$!1nm\"H3
+vW)>F*$\"16rra89QRF*7$$!1L3Fqu&R)=F*$\"1z#*y\\dH\\NF*7$$!1n;/-\\\"4x\"
+F*$\"1YKF!fRh8$F*7$$!1n;H9I7d;F*$\"1*4&\\%ocgu#F*7$$!1L3_f>(Qa\"F*$\"1
+)p%RF1a$Q#F*7$$!1nTgMP()Q9F*$\"1UP8CwNq?F*7$$!1+vVaT:I8F*$\"1Stcu+Jp<F
+*7$$!1nT54ir<7F*$\"1B]\"fwKG[\"F*7$$!1+vo`)Qc5\"F*$\"14MyusVA7F*7$$!1L
+L$e<NN!**!#;$\"1<o*y*3+3)*Fgn7$$!1nm\"zI,\"))))Fgn$\"1(**yf[M)**yFgn7$
+$!1****\\xK'\\u(Fgn$\"1_B)phX%)*fFgn7$$!1****\\798(f'Fgn$\"1B%ztG9AN%F
+gn7$$!1++]AF)4\\&Fgn$\"1^$ze7*3:IFgn7$$!1m;/TP\\'[%Fgn$\"1/1%)3E'G,#Fg
+n7$$!1JL$e=f?H$Fgn$\"1iHIo`w$3\"Fgn7$$!1KLLVk@!G#Fgn$\"14xWGqQ*>&!#<7$
+$!1+]P*y-K5\"Fgn$\"1!y%[%Rcq@\"F]q7$$!1XNLLoiMh!#=$\"1'fD%QYOjP!#?7$$
+\"1/]igat\"3\"Fgn$\"1!ftng^,<\"F]q7$$\"1/](=e>-<#Fgn$\"1:PbLI&)4ZF]q7$
+$\"1pm\"HdQfI$Fgn$\"1I)*y%)H#H4\"Fgn7$$\"1r;zRJ))[VFgn$\"1EkNc%y7*=Fgn
+7$$\"1OL3_(RQZ&Fgn$\"1v([J;#H'*HFgn7$$\"1M$e*3NNUmFgn$\"15rz8g37WFgn7$
+$\"1,]Pp\"[&fwFgn$\"1$f(*e\"y'o'eFgn7$$\"1QLepi9e()Fgn$\"1a;%zg70n(Fgn
+7$$\"1*****\\g0J*)*Fgn$\"1R#o6&QN(y*Fgn7$$\"1+]7*=W.5\"F*$\"1a6aMtv57F
+*7$$\"1+D1M\\x27F*$\"1x'\\8H?(e9F*7$$\"1+]()f%eqK\"F*$\"12e#f:%3h<F*7$
+$\"1mm;8+CM9F*$\"1>$o`TWq0#F*7$$\"1++v)>z'[:F*$\"1V4kgsS)R#F*7$$\"1Le*
+)4\"yBl\"F*$\"1FH1=MNIFF*7$$\"1,+D5%[dw\"F*$\"1//I[u'y6$F*7$$\"1n\"Hx-
+@C(=F*$\"1\\B300'f]$F*7$$\"1+DJ\\Y#R)>F*$\"1F(\\T,df$RF*7$$\"1nmT?)RH4
+#F*$\"1]d)=4(R!Q%F*7$$\"1+Dc,'oq?#F*$\"1^I+7=:r[F*7$$\"1MLL#=))pJ#F*$
+\"1FB2PUVo`F*7$$\"1M$3(HoRHCF*$\"10p>c*o>!fF*7$$\"1n\"Hnnu3a#F*$\"1\\N
+%G7WgX'F*7$$\"1,+]S7JVEF*$\"1^O:9V4()pF*7$$\"1n;a-^rgFF*$\"1];Sxya@wF*
+7$$\"1MLL;DslGF*$\"1b)>1alB@)F*7$$\"1+D1@BoxHF*$\"1g\"o^+#fm))F*7$$\"1
++v$*R@%[3$F*$\"1wTLG5D;&*F*7$$\"1+++++++KF*$\"1++++++C5!#9-%'COLOURG6&
+%$RGBG$\"#5!\"\"\"\"!Fc[l-%%TEXTG6%7$$!\"#Fc[l$\"#QFb[l%\"AG%+ALIGNBEL
+OWG-Fe[l6%7$$\"$0$Fi[l$\"\"*Fc[l%\"BG%+ALIGNRIGHTG-F$6%7$7$Fh[l$\"\"%F
+c[l7$$\"\"$Fc[lFc\\lF\\[l-%*THICKNESSG6#F_]l-%*AXESSTYLEG6#%%NONEG-%+A
+XESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;$!#@Fb[l$\"#KFb[l%(DEFAULTG" 1 2 0 1 
+0 2 9 1 1 2 1.000000 45.000000 45.000000 0 }}{TEXT 309 35 "           \+
+                        " }}{PARA 15 "" 0 "" {TEXT 278 3 "is " }
+{XPPEDIT 18 0 "4/3;" "6#*&\"\"%\"\"\"\"\"$!\"\"" }{TEXT -1 1 " " }
+{TEXT 279 31 "times the area of the triangle " }{TEXT 289 3 "ABC" }
+{TEXT 277 0 "" }{TEXT 276 0 "" }{TEXT 274 0 "" }{TEXT 272 8 ", where \+
+" }{TEXT 263 1 "C" }{TEXT 273 26 " is that point on the arc " }{TEXT 
+290 2 "AB" }{TEXT 291 0 "" }{TEXT -1 1 " " }{TEXT 288 42 "which \nmaxi
+mises the area of the triangle " }{TEXT 292 3 "ABC" }{TEXT 293 2 " (" 
+}{TEXT 313 1 "C" }{TEXT 314 99 " happens to be at that point on the ar
+c\nof the parabola where the tangent is parallel to the chord " }
+{TEXT 315 2 "AB" }{TEXT 316 53 ", and it is easily found\n- for a para
+bola - that the " }{TEXT 317 1 "x" }{TEXT 318 15 "-coordinate of " }
+{TEXT 319 1 "C" }{TEXT 320 4 " is " }{TEXT 325 6 "midway" }{TEXT 326 
+18 " between those of " }{TEXT 321 1 "A" }{TEXT 322 5 " and " }{TEXT 
+323 1 "B" }{TEXT 324 0 "" }{TEXT -1 36 ")    \n                       \+
+       " }{GLPLOT2D 259 192 192 {PLOTDATA 2 "6*-%'CURVESG6$7S7$$!1++++
++++@!#:$\"1++++++5WF*7$$!1nm\"H3vW)>F*$\"16rra89QRF*7$$!1L3Fqu&R)=F*$
+\"1z#*y\\dH\\NF*7$$!1n;/-\\\"4x\"F*$\"1YKF!fRh8$F*7$$!1n;H9I7d;F*$\"1*
+4&\\%ocgu#F*7$$!1L3_f>(Qa\"F*$\"1)p%RF1a$Q#F*7$$!1nTgMP()Q9F*$\"1UP8Cw
+Nq?F*7$$!1+vVaT:I8F*$\"1Stcu+Jp<F*7$$!1nT54ir<7F*$\"1B]\"fwKG[\"F*7$$!
+1+vo`)Qc5\"F*$\"14MyusVA7F*7$$!1LL$e<NN!**!#;$\"1<o*y*3+3)*Fgn7$$!1nm
+\"zI,\"))))Fgn$\"1(**yf[M)**yFgn7$$!1****\\xK'\\u(Fgn$\"1_B)phX%)*fFgn
+7$$!1****\\798(f'Fgn$\"1B%ztG9AN%Fgn7$$!1++]AF)4\\&Fgn$\"1^$ze7*3:IFgn
+7$$!1m;/TP\\'[%Fgn$\"1/1%)3E'G,#Fgn7$$!1JL$e=f?H$Fgn$\"1iHIo`w$3\"Fgn7
+$$!1KLLVk@!G#Fgn$\"14xWGqQ*>&!#<7$$!1+]P*y-K5\"Fgn$\"1!y%[%Rcq@\"F]q7$
+$!1XNLLoiMh!#=$\"1'fD%QYOjP!#?7$$\"1/]igat\"3\"Fgn$\"1!ftng^,<\"F]q7$$
+\"1/](=e>-<#Fgn$\"1:PbLI&)4ZF]q7$$\"1pm\"HdQfI$Fgn$\"1I)*y%)H#H4\"Fgn7
+$$\"1r;zRJ))[VFgn$\"1EkNc%y7*=Fgn7$$\"1OL3_(RQZ&Fgn$\"1v([J;#H'*HFgn7$
+$\"1M$e*3NNUmFgn$\"15rz8g37WFgn7$$\"1,]Pp\"[&fwFgn$\"1$f(*e\"y'o'eFgn7
+$$\"1QLepi9e()Fgn$\"1a;%zg70n(Fgn7$$\"1*****\\g0J*)*Fgn$\"1R#o6&QN(y*F
+gn7$$\"1+]7*=W.5\"F*$\"1a6aMtv57F*7$$\"1+D1M\\x27F*$\"1x'\\8H?(e9F*7$$
+\"1+]()f%eqK\"F*$\"12e#f:%3h<F*7$$\"1mm;8+CM9F*$\"1>$o`TWq0#F*7$$\"1++
+v)>z'[:F*$\"1V4kgsS)R#F*7$$\"1Le*)4\"yBl\"F*$\"1FH1=MNIFF*7$$\"1,+D5%[
+dw\"F*$\"1//I[u'y6$F*7$$\"1n\"Hx-@C(=F*$\"1\\B300'f]$F*7$$\"1+DJ\\Y#R)
+>F*$\"1F(\\T,df$RF*7$$\"1nmT?)RH4#F*$\"1]d)=4(R!Q%F*7$$\"1+Dc,'oq?#F*$
+\"1^I+7=:r[F*7$$\"1MLL#=))pJ#F*$\"1FB2PUVo`F*7$$\"1M$3(HoRHCF*$\"10p>c
+*o>!fF*7$$\"1n\"Hnnu3a#F*$\"1\\N%G7WgX'F*7$$\"1,+]S7JVEF*$\"1^O:9V4()p
+F*7$$\"1n;a-^rgFF*$\"1];Sxya@wF*7$$\"1MLL;DslGF*$\"1b)>1alB@)F*7$$\"1+
+D1@BoxHF*$\"1g\"o^+#fm))F*7$$\"1+v$*R@%[3$F*$\"1wTLG5D;&*F*7$$\"1+++++
+++KF*$\"1++++++C5!#9-%'COLOURG6&%$RGBG$\"#5!\"\"\"\"!Fc[l-%)POLYGONSG6
+$7%7$!\"#\"\"%7$#\"\"\"\"\"##F]\\lFj[l7$\"\"$\"\"*-F][l6&F_[lF]\\lFc[l
+Fc[l-%%TEXTG6%7$$Fi[lFc[l$\"#QFb[l%\"AG%+ALIGNBELOWG-Ff\\l6%7$$\"$0$Fi
+[l$Fb\\lFc[l%\"BG%+ALIGNRIGHTG-Ff\\l6$7$$\"+++++g!#5$!+++++:F[^l%\"CG-
+%*AXESSTYLEG6#%%NONEG-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;$!#@Fb[l$\"#
+KFb[l%(DEFAULTG" 1 2 0 1 0 2 9 1 1 2 1.000000 45.000000 45.000000 0 }}
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 4 "The " }{TEXT 294 16 "fundamental idea" }{TEXT -1 70 " of
+ Archimedes was to bit-by-bit fill in the empty spaces between the " }
+{TEXT 295 7 "initial" }{TEXT -1 25 " \napproximating triangle " }
+{TEXT 296 3 "ABC" }{TEXT -1 237 " (the red triangle in the above pictu
+re) and the full parabolic sector \n(the entire white region of the pr
+evious diagram) with a succession of triangles (first two, then four \+
+\nmore, then eight more, ... ) which were critically related - " }
+{TEXT 297 23 "in terms of their areas" }{TEXT -1 38 " - to the previou
+s \nones. Archimedes' " }{TEXT 298 4 "idea" }{TEXT -1 79 " is very, ve
+ry simple (and it has a fundamental consequence), and it is this: \n" 
+}}{PARA 15 "" 0 "" {TEXT -1 14 "on the chords " }{TEXT 299 2 "AC" }
+{TEXT -1 5 " and " }{TEXT 338 2 "BC" }{TEXT -1 1 " " }}{PARA 15 "" 0 "
+" {TEXT -1 14 "construct two " }{TEXT 310 3 "new" }{TEXT -1 11 " trian
+gles " }{TEXT 300 3 "ACD" }{TEXT -1 5 " and " }{TEXT 301 3 "BCE" }
+{TEXT -1 6 ", with" }}{PARA 15 "" 0 "" {TEXT 302 3 "ACD" }{TEXT -1 33 
+" having the same relationship to " }{TEXT 303 2 "AC" }{TEXT -1 6 " th
+at " }{TEXT 304 4 "ABC " }{TEXT -1 7 "had to " }{TEXT 305 2 "AB" }
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 256 3 "BCE" }
+{TEXT -1 33 " having the same relationship to " }{TEXT 257 2 "BC" }
+{TEXT -1 6 " that " }{TEXT 339 3 "ABC" }{TEXT -1 8 " had to " }{TEXT 
+306 33 "AB\n                              " }{GLPLOT2D 400 300 300 
+{PLOTDATA 2 "6.-%'CURVESG6$7S7$$!1+++++++@!#:$\"1++++++5WF*7$$!1nm\"H3
+vW)>F*$\"16rra89QRF*7$$!1L3Fqu&R)=F*$\"1z#*y\\dH\\NF*7$$!1n;/-\\\"4x\"
+F*$\"1YKF!fRh8$F*7$$!1n;H9I7d;F*$\"1*4&\\%ocgu#F*7$$!1L3_f>(Qa\"F*$\"1
+)p%RF1a$Q#F*7$$!1nTgMP()Q9F*$\"1UP8CwNq?F*7$$!1+vVaT:I8F*$\"1Stcu+Jp<F
+*7$$!1nT54ir<7F*$\"1B]\"fwKG[\"F*7$$!1+vo`)Qc5\"F*$\"14MyusVA7F*7$$!1L
+L$e<NN!**!#;$\"1<o*y*3+3)*Fgn7$$!1nm\"zI,\"))))Fgn$\"1(**yf[M)**yFgn7$
+$!1****\\xK'\\u(Fgn$\"1_B)phX%)*fFgn7$$!1****\\798(f'Fgn$\"1B%ztG9AN%F
+gn7$$!1++]AF)4\\&Fgn$\"1^$ze7*3:IFgn7$$!1m;/TP\\'[%Fgn$\"1/1%)3E'G,#Fg
+n7$$!1JL$e=f?H$Fgn$\"1iHIo`w$3\"Fgn7$$!1KLLVk@!G#Fgn$\"14xWGqQ*>&!#<7$
+$!1+]P*y-K5\"Fgn$\"1!y%[%Rcq@\"F]q7$$!1XNLLoiMh!#=$\"1'fD%QYOjP!#?7$$
+\"1/]igat\"3\"Fgn$\"1!ftng^,<\"F]q7$$\"1/](=e>-<#Fgn$\"1:PbLI&)4ZF]q7$
+$\"1pm\"HdQfI$Fgn$\"1I)*y%)H#H4\"Fgn7$$\"1r;zRJ))[VFgn$\"1EkNc%y7*=Fgn
+7$$\"1OL3_(RQZ&Fgn$\"1v([J;#H'*HFgn7$$\"1M$e*3NNUmFgn$\"15rz8g37WFgn7$
+$\"1,]Pp\"[&fwFgn$\"1$f(*e\"y'o'eFgn7$$\"1QLepi9e()Fgn$\"1a;%zg70n(Fgn
+7$$\"1*****\\g0J*)*Fgn$\"1R#o6&QN(y*Fgn7$$\"1+]7*=W.5\"F*$\"1a6aMtv57F
+*7$$\"1+D1M\\x27F*$\"1x'\\8H?(e9F*7$$\"1+]()f%eqK\"F*$\"12e#f:%3h<F*7$
+$\"1mm;8+CM9F*$\"1>$o`TWq0#F*7$$\"1++v)>z'[:F*$\"1V4kgsS)R#F*7$$\"1Le*
+)4\"yBl\"F*$\"1FH1=MNIFF*7$$\"1,+D5%[dw\"F*$\"1//I[u'y6$F*7$$\"1n\"Hx-
+@C(=F*$\"1\\B300'f]$F*7$$\"1+DJ\\Y#R)>F*$\"1F(\\T,df$RF*7$$\"1nmT?)RH4
+#F*$\"1]d)=4(R!Q%F*7$$\"1+Dc,'oq?#F*$\"1^I+7=:r[F*7$$\"1MLL#=))pJ#F*$
+\"1FB2PUVo`F*7$$\"1M$3(HoRHCF*$\"10p>c*o>!fF*7$$\"1n\"Hnnu3a#F*$\"1\\N
+%G7WgX'F*7$$\"1,+]S7JVEF*$\"1^O:9V4()pF*7$$\"1n;a-^rgFF*$\"1];Sxya@wF*
+7$$\"1MLL;DslGF*$\"1b)>1alB@)F*7$$\"1+D1@BoxHF*$\"1g\"o^+#fm))F*7$$\"1
++v$*R@%[3$F*$\"1wTLG5D;&*F*7$$\"1+++++++KF*$\"1++++++C5!#9-%'COLOURG6&
+%$RGBG$\"#5!\"\"\"\"!Fc[l-%)POLYGONSG6$7%7$!\"#\"\"%7$#\"\"\"\"\"##F]
+\\lFj[l7$\"\"$\"\"*-F][l6&F_[lF]\\lFc[lFc[l-Fe[l6$7%Fh[l7$#!\"$Fj[l#Fb
+\\l\"#;F[\\l-F][l6&F_[lFc[lF]\\lFc[l-Fe[l6$7%F[\\l7$#\"\"(Fj[l#\"#\\F
+\\]lF`\\lF]]l-%%TEXTG6$7$$Fi[lFc[l$\"#OFb[l%\"AG-Fh]l6$7$$\"#JFb[l$Fb
+\\lFc[l%\"BG-Fh]l6$7$$\"+++++g!#5$\"*++++&F[_l%\"CG-Fh]l6$7$$!+++++&)F
+[_l$\"++++DEF[_l%\"DG-Fh]l6$7$$\"++++]=!\"*$\"+++]iGF\\`l%\"EG-%*AXESS
+TYLEG6#%%NONEG-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;$!#@Fb[l$\"#KFb[l%(
+DEFAULTG" 1 2 0 1 0 2 9 1 1 2 1.000000 45.000000 45.000000 0 }}}{PARA 
+15 "" 0 "" {TEXT -1 244 "then - and this was a critical detail, discov
+ered and proved by Archimedes (of Syracuse, Sicily, 287-212 B.C., \nth
+e \"greatest mathematician before the modern era\"), without which no \+
+real progress could have been made -\n\n                    area" }
+{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT -1 0 "" }{TEXT 336 3 "ACD" 
+}{TEXT -1 7 " + area" }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT 337 
+3 "BCE" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "1/4;" "6#*&\"\"\"\"\"\"\"\"%
+!\"\"" }{TEXT -1 4 "area" }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT 
+-1 0 "" }{TEXT 256 5 "ABC\n\n" }{TEXT 340 9 "It's the " }{TEXT 341 7 "
+detail " }{TEXT 335 10 "of that ' " }{XPPEDIT 18 0 "1/4;" "6#*&\"\"\"
+\"\"\"\"\"%!\"\"" }{TEXT -1 22 " ' that is so vital..." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 327 23 "Fundamental observa
+tion" }{TEXT 328 27 ": It is now clear that the " }{TEXT 331 17 "total
+ area of the" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{TEXT -1 8 "initial " }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT 330 
+3 "ABC" }{TEXT -1 1 "," }{TEXT 332 1 " " }{TEXT -1 24 "taken together \+
+with the " }}{PARA 15 "" 0 "" {TEXT -1 20 "two extra triangles " }
+{TEXT 333 3 "ACD" }{TEXT -1 5 " and " }{TEXT 334 3 "BCE" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 329 106 "\ngives a better approximation to t
+he area of the parabolic sector. In fact one can quantify, and say tha
+t " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 88 "a \+
+better approximation to the area of the parabolic sector than the area
+ of the initial " }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT -1 0 "" 
+}{TEXT 256 3 "ABC" }{TEXT 342 3 " is" }}{PARA 15 "" 0 "" {TEXT -1 4 "a
+rea" }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT -1 0 "" }{TEXT 256 4 
+"ABC " }{TEXT 343 7 "+ (area" }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }
+{TEXT -1 0 "" }{TEXT 256 3 "ACD" }{TEXT -1 7 " + area" }{XPPEDIT 18 0 
+"Delta;" "6#%&DeltaG" }{TEXT 257 3 "BCE" }{TEXT 344 25 ") \n          \+
+          = " }{TEXT -1 4 "area" }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" 
+}{TEXT -1 0 "" }{TEXT 256 6 "ABC + " }{XPPEDIT 18 0 "1/4;" "6#*&\"\"\"
+\"\"\"\"\"%!\"\"" }{TEXT -1 4 "area" }{XPPEDIT 18 0 "Delta;" "6#%&Delt
+aG" }{TEXT -1 0 "" }{TEXT 256 25 "ABC\n                   = " }{TEXT 
+-1 5 "(area" }{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT -1 0 "" }
+{TEXT 256 3 "ABC" }{TEXT 345 2 ")(" }{XPPEDIT 18 0 "1+1/4;" "6#,&\"\"
+\"\"\"\"*&\"\"\"F%\"\"%!\"\"F%" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 30 "The fine point, then, is \+
+that " }{TEXT 346 9 "repeating" }{TEXT -1 45 " the above construction,
+ one obtains a whole " }{TEXT 350 10 "succession" }{TEXT -1 75 " of be
+tter \nand better approximations to the area of the parabolic sector:
+\n" }}{PARA 15 "" 0 "" {TEXT -1 17 "The initial (area" }{XPPEDIT 18 0 
+"Delta;" "6#%&DeltaG" }{TEXT -1 0 "" }{TEXT 256 3 "ABC" }{TEXT 351 21 
+") itself, followed by" }}{PARA 15 "" 0 "" {TEXT -1 5 "(area" }
+{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT -1 0 "" }{TEXT 256 3 "ABC" 
+}{TEXT 347 2 ")(" }{XPPEDIT 18 0 "1+1/4;" "6#,&\"\"\"\"\"\"*&\"\"\"F%
+\"\"%!\"\"F%" }{TEXT -1 1 ")" }}{PARA 15 "" 0 "" {TEXT -1 5 "(area" }
+{XPPEDIT 18 0 "Delta;" "6#%&DeltaG" }{TEXT -1 0 "" }{TEXT 256 3 "ABC" 
+}{TEXT 348 2 ")(" }{XPPEDIT 18 0 "1+1/4+1/(4^2);" "6#,(\"\"\"\"\"\"*&
+\"\"\"F%\"\"%!\"\"F%*&\"\"\"F%*$\"\"%\"\"#F)F%" }{TEXT -1 1 ")" }}
+{PARA 15 "" 0 "" {TEXT -1 5 "(area" }{XPPEDIT 18 0 "Delta;" "6#%&Delta
+G" }{TEXT -1 0 "" }{TEXT 256 3 "ABC" }{TEXT 349 2 ")(" }{XPPEDIT 18 0 
+"1+1/4+1/(4^2)+1/(4^3);" "6#,*\"\"\"\"\"\"*&\"\"\"F%\"\"%!\"\"F%*&\"\"
+\"F%*$\"\"%\"\"#F)F%*&\"\"\"F%*$\"\"%\"\"$F)F%" }{TEXT -1 9 ")\n... ..
+." }}{PARA 0 "" 0 "" {TEXT -1 24 "Out of this emerged the " }{TEXT 
+354 11 "new problem" }{TEXT -1 44 " (it was new at the time) of the su
+m of the " }{TEXT 353 8 "infinite" }{TEXT -1 8 " series:" }}{PARA 0 "
+" 0 "" {XPPEDIT 18 0 "1+1/4+1/(4^2)+1/(4^3)" "6#,*\"\"\"\"\"\"*&\"\"\"
+F%\"\"%!\"\"F%*&\"\"\"F%*$\"\"%\"\"#F)F%*&\"\"\"F%*$\"\"%\"\"$F)F%" }
+{TEXT -1 7 " + ... " }{TEXT 352 12 "ad infinitum" }{TEXT -1 4 "  = " }
+{XPPEDIT 18 0 "Sum(1/(4^(k-1)),k = 1 .. infinity);" "6#-%$SumG6$*&\"\"
+\"\"\"\")\"\"%,&%\"kGF(\"\"\"!\"\"F./F,;\"\"\"%)infinityG" }{TEXT -1 
+32 " (which Archimedes showed to be " }{XPPEDIT 18 0 "4/3;" "6#*&\"\"%
+\"\"\"\"\"$!\"\"" }{TEXT -1 2 " )" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 67 "and thereby hangs a very, very long tale.
+.. (In my view this forms " }{TEXT 358 1 "a" }{TEXT -1 42 " natural in
+troduction to infinite series.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 98 "In summary, Archimedes' discovery was tha
+t the area of the parabolic sector standing on the chord " }{TEXT 355 
+3 "\nAB" }{TEXT -1 53 " is equal to four thirds of the area of the tri
+angle " }{TEXT 356 3 "ABC" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "The rest of this worksheet is take
+n up with illustrative graphics." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "with(plots):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 1099 "see_Archimedes := proc(f, start_a, start_b, bit1, bit2, n)\nlo
+cal a, b, k, m, curve:\n  a.1 := start_a;\n  b.1 := start_b;\n  c.1 :=
+ (a.1 + b.1)/2;\n    for k from 2 to n do\n      a.(2^(k-1)) := a.(2^(
+k-2)): \n      b.(2^(k-1)) := c.(2^(k-2)): \n       for m from (2^(k-1
+)+1) to (2^k-2) do\n         if m mod 2 = 1 then b.m := a.((m+1)/2)\n \+
+          else b.m := c.(m/2)\n         fi\n       od:\n    b.(2^k-1) \+
+:= b.(2^(k-1)-1): \n    for m from (2^(k-1)+1) to (2^k-1) do a.m := b.
+(m-1) od:                                   \nfor m from 2^(k-1) to (2
+^k-1) do c.m := (a.m+b.m)/2 od:\nod:   \ncurve := plot(f(x), x=(start_
+a-bit1)..(start_b+bit2)):\np.1 := display([curve, PLOT(POLYGONS(\n    \+
+   [[a.1, f(a.1)], [c.1, f(c.1)], [b.1, f(b.1)]], \n       COLOUR(RGB,
+ 1, 0, 0))) ] ):\nfor k from 2 to n do\np.k := display([ curve, PLOT(P
+OLYGONS(seq(\n       [[a.m, f(a.m)], [c.m, f(c.m)], [b.m, f(b.m)]], \n
+           m=2^(k-1)..(2^k-1)),\n       COLOUR(RGB, k mod 3, (k+1) mod
+ 3, (k+2) mod 3)))]):\n       od:\nd.1 := display([p.1]):\nfor k from \+
+2 to n do d.k := display([p.(1..k)]): od:\ndisplay([d.(1..n)], inseque
+nce=true); \nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 107 "see_Archimedes(x -> x^2, -2
+, 3, .1, .2, 3);  \n# execute command, reduce frame speed, and run the
+ animation:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 81 "I adopted the name 'necklace' for obvious
+ reasons (it illustrates the incredible " }{TEXT 357 12 "thinning out
+" }{TEXT -1 25 " of the extra triangles):" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 971 "necklace := proc(f, start_a, start_b, bit1, bit2, \+
+n)\nlocal a, b, k, m, curve:\na.1 := start_a;\nb.1 := start_b;\nc.1 :=
+ (a.1 + b.1)/2;\n  for k from 2 to n do\n    a.(2^(k-1)) := a.(2^(k-2)
+): \n    b.(2^(k-1)) := c.(2^(k-2)):            \n    for m from (2^(k
+-1)+1) to (2^k-2) do\n        if m mod 2 = 1 then b.m := a.((m+1)/2)\n
+           else b.m := c.(m/2)\n        fi\n    od:\n   b.(2^k-1) := b
+.(2^(k-1)-1):\n   for m from (2^(k-1)+1) to (2^k-1) do a.m := b.(m-1) \+
+od:                             \nfor m from 2^(k-1) to (2^k-1) do c.m
+ := (a.m+b.m)/2 od:\n   od:   \ncurve := plot(f(x), x=(start_a - bit1)
+..(start_b + bit2)): \np.1 := display([curve, PLOT(POLYGONS(\n       [
+[a.1, f(a.1)], [c.1, f(c.1)], [b.1, f(b.1)]],\n       COLOUR(RGB, 1, 0
+, 0))) ] ):\nfor k from 2 to n do\np.k := display([curve, PLOT(POLYGON
+S(seq(\n       [[a.m, f(a.m)], [c.m, f(c.m)], [b.m, f(b.m)]],\n       \+
+    m=2^(k-1)..(2^k-1)),\n       COLOUR(RGB, k mod 3, (k+1) mod 3, (k+
+2) mod 3)))]):\n       od:\np.n; \nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 "'necklace' is
+ about the added on extra triangles... See how they " }{TEXT 265 8 "th
+in out" }{TEXT -1 3 "..." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 
+"necklace(x -> x^2, -1, 2, .1, .2, 2);  # reduced to save space:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "necklace(x -> x^2, -1, 2, .1
+, .2, 3);  # reduced to save space:" }}{PARA 0 "" 0 "" {TEXT -1 1 " " 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "necklace(x -> x^2, -1, 2,
+ .1, .2, 4);" }{TEXT -1 1 " " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 95 "I have prepared a comple
+te worksheet on the following (see elsewhere for area of triangle.mws)
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 133 "tri_area := proc(x1, \+
+y1, x2, y2, x3, y3) \n# area of triangle in terms of coordinates\nabs(
+x1/2*(y2-y3)+x2/2*(y3-y1)+x3/2*(y1-y2))\nend:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 53 "The foll
+owing produces the successive approximations:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 633 "approximating_areas := proc(f, start_a, start_b
+, n)\nlocal a, b, k, m, K:\n  a.1 := start_a;\n  b.1 := start_b;\n  c.
+1 := (a.1 + b.1)/2;\n    for k from 2 to n do\n      a.(2^(k-1)) := a.
+(2^(k-2)): \n      b.(2^(k-1)) := c.(2^(k-2)): \n       for m from (2^
+(k-1)+1) to (2^k-2) do\n         if m mod 2 = 1 then b.m := a.((m+1)/2
+)\n           else b.m := c.(m/2)\n         fi\n       od:\n    b.(2^k
+-1) := b.(2^(k-1)-1): \n    for m from (2^(k-1)+1) to (2^k-1) do a.m :
+= b.(m-1) od:                                   \nfor m from 2^(k-1) t
+o (2^k-1) do c.m := (a.m+b.m)/2 od:\nod: \nadd(tri_area(a.K, f(a.K), c
+.K, f(c.K), b.K, f(b.K)), K=1..2^n-1);\nend:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Here I t
+ake the simple parabola  " }{XPPEDIT 18 0 "y = x^2;" "6#/%\"yG*$%\"xG
+\"\"#" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "se
+q(approximating_areas(x -> x^2, 0, 2, n), n=1..6);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 100 "seq(approximating_areas(x -> x^2, 0, 2, n+
+1) \n    - approximating_areas(x -> x^2, 0, 2, n), n=1..6);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 10 "and here  " }{XPPEDIT 18 0 "y = 2*x^2+3*x-5;" "6#/%\"yG,(
+*&\"\"#\"\"\"*$%\"xG\"\"#F(F(*&\"\"$F(F*F(F(\"\"&!\"\"" }{TEXT -1 1 ":
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "seq(approximating_areas
+(x -> 2*x^2 + 3*x - 5, 0, 2, n), n=1..6);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 124 "seq(approximating_areas(x -> 2*x^2 + 3*x - 5, 0, 2
+, n+1) \n    - approximating_areas(x -> 2*x^2 + 3*x - 5, 0, 2, n), n=1
+..6);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "18 0 0
+" 89 }{VIEWOPTS 1 1 0 1 1 1803 }

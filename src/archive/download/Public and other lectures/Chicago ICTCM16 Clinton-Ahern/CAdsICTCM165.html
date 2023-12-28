@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>CAdsICTCM16.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=4>Converting text to number and number to text</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Doing cryptography, we will</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>convert text into numerical form according to an agreed convention</font></b>
+</li>
+<li>
+<b><font color=#000080>disguise (encrypt) the resulting number</font></b>
+</li>
+<li>
+<b><font color=#000080>the recipient will recover (decrypt) the original</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>number</font></b>
+</li>
+<li>
+<b><font color=#000080>convert that number into the </font></b>
+<i><b><font color=#000080>original</font></b></i>
+<b><font color=#000080> text</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A convention</font></b>
+<b><font color=#000080> re ordering </font></b>
+<b><font color=#000080>alphabetic and other symbols</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>('a' followed by 'b', 'b' by 'c', </font></b>
+<i><b><font color=#000080>etc.</font></b></i>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>`crypt/alphabet` := <br>
+   `abcdefghijklmnopqrstuvwxyz`<br>
+   ||`ABCDEFGHIJKLMNOPQRSTUVWXYZ`<br>
+   ||```1234567890-=~!@#$£%^&amp;*()_+`<br>
+   ||` ,./&lt;&gt;?;':"[]{}|    `:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>This procedure converts a string of text into a number ('a' will be 01, 'b' will be 02, etc; finally</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>` | ` will be 95):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number := proc(st, string) <br>
+local ll, nn, ss, ii;  <br>
+ll := length(st);<br>
+if ll = 0 then RETURN(0) fi; <br>
+nn := 1;<br>
+for ii to ll do <br>
+ss := SearchText(substring(st, ii .. ii),<br>
+                 `crypt/alphabet`);<br>
+nn := 100*nn + ss <br>
+od;<br>
+nn - 10^(2*ll) <br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Example (</font></b>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080> to anyone trying this: text </font></b>
+<i><b><font color=#000080>must</font></b></i>
+<b><font color=#000080> be included within</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080>backward quotes</font></b></i>
+<b><font color=#000080>, ` and `).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(`Chicago, Chicago, ... my hometown`);  # Example 1</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM161.gif" width=544 height=20 alt="290809030107158180290809030107158180828282801325800...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(`Pythagoras' theorem concerns x^2 + y^2 = z^2`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM162.gif" width=720 height=20 alt="422520080107151801198880200805151805138003151403051...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(`Fermat's 'little' theorem states that...`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM163.gif" width=656 height=20 alt="320518130120881980881209202012058880200805151805138...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Even junk text has a numerical form:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(`uu67&amp;[[[...]]^%$£hello90ikh`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM164.gif" width=448 height=20 alt="212159607491919182828292927372707108051212156263091...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>to_number(HELLO);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM165.gif" width=96 height=20 alt="3431383841">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>This recovers a string of text from a number:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number := proc(nn, integer) <br>
+local ss, mm, ll, pp, ii, ans; mm := nn;<br>
+ll := floor(1/2*trunc(evalf(log10(mm))))+1;<br>
+ans := ``; for ii to ll do mm := mm/100;<br>
+pp := 100*frac(mm);<br>
+ss := substring(`crypt/alphabet`, pp..pp);<br>
+ans := cat(ss, ans); mm := trunc(mm)<br>
+od; ans end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(0102030405);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM166.gif" width=54 height=20 alt="abcde">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(102030405);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM167.gif" width=54 height=20 alt="abcde">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(32051813012088198088120920201205888020080515180513801920012005198020080120828282);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM168.gif" width=261 height=20 alt="`Fermat's 'little' theorem states that...`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>No alphabetic element corresponds to 96, 97, 98, 99, nor 00:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(96);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM169.gif" width=20 height=20 alt="` `">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(00);</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, (in ln) numeric exception: division by zero<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Notice the three colosely related:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(333902343138384177847687242526);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1610.gif" width=149 height=20 alt="`GMbHELLO)&lt;(;xyz`">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(33390234313838417784768724252698); # that 98 at end</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1611.gif" width=153 height=20 alt="`GMbHELLO)&lt;(;xyz `">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(3339023400313838417784768724252698); # that internal 00</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, (in from_number) invalid range for string subscript<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<img src="images/CAdsICTCM1612.gif" width=20 height=32 alt="` `" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>I can't resist insering this final example:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>from_number(358008151605803580080122058020091305802015802209190920802908090301071588198029343131453129273731803227294641445182802703031518040914078020158013258002151511818090401520080914078023091212801618051601180580251521800615188020080919801805192001211801142088198003151309036402151511800405031518801518808282828027140480200805148020080518058009198020080580030805051905030111058180011212805763802201180905200905198290);</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM1613.gif" width=708 height=20 alt="`I hope I have time to visit Chicago's CHEESECAKE F...">
+<br>
+<img src="images/CAdsICTCM1614.gif" width=710 height=20 alt="`I hope I have time to visit Chicago's CHEESECAKE F...">
+<br>
+<img src="images/CAdsICTCM1615.gif" width=29 height=20 alt="`I hope I have time to visit Chicago's CHEESECAKE F...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>It's time to do some cryptography, private and public. </font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:22 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

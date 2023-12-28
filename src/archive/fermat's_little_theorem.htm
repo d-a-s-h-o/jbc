@@ -1,0 +1,416 @@
+
+
+<html>
+
+<head>
+
+<title>
+
+Fermat's little theorem
+
+</title>
+
+<meta name = "GENERATOR" content = "Microsoft FrontPage 4.0">
+<meta name = "ProgId" content = "FrontPage.Editor.Document">
+<meta name = "Microsoft Theme" content = "nature 100, default">
+<meta name = "Microsoft Border" content = "tlrb, default">
+
+</head>
+
+<body bgcolor = "#FFFFCC" text = "#333399" link = "#990033" vlink = "#006633" alink = "#FF6600">  <!--msnavigation-->
+
+<table border = "0" cellpadding = "0" cellspacing = "0" width = "100%">  
+
+<tr>  
+
+<td>  
+
+<!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+
+<p align = "center">  <font size = "6">  <strong>
+
+<img src = "_derived/fermat's_little_theorem.htm_cmp_nature100_bnr.gif" width = "600" height = "60" border = "0" alt = "Fermat's little theorem">
+
+</strong>  
+
+</font>  
+
+<br>
+
+<a href = "./">  <img src = "_derived/home_cmp_nature100_gbtn.gif" width = "95" height = "20" border = "0" alt = "Home" align = "middle">  
+
+</a>  
+
+</p>
+
+<!--mstheme-->  
+
+</font>  
+
+</td>  
+
+</tr>  
+
+<!--msnavigation-->  
+
+</table>  
+
+<!--msnavigation-->  <table border = "0" cellpadding = "0" cellspacing = "0" width = "100%">
+
+<tr>  
+
+<td valign = "top" width = "1%">  <!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+
+<p>&nbsp;
+
+</p>
+
+<!--mstheme-->  
+
+</font>  
+
+</td>  
+
+<td valign = "top" width = "24">  
+
+</td> 
+
+<!--msnavigation-->  <td valign = "top">  <!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+
+<p>&nbsp;
+
+</p>
+
+<p align = "center">  
+
+<big>  <big>
+
+Fermat's <em>little</em> theorem
+
+</big>  
+
+</big>  
+
+</p>
+
+<p align = "center">  <font size = "3">
+
+(<a href = "http://www.math.jussieu.fr/~miw/">Michel Waldschmidt</a> 
+
+on <a href = "http://www.culture.gouv.fr/culture/actualites/celebrations2001/fermat.htm">Fermat</a>)
+
+</font>  
+
+</p>
+
+<p align  =  "left" class  =  "style3" style  =  "margin-left: 40px; margin-right: 40px;">
+
+<b> 
+
+A note of late March 2017 concerning the opening of the Maple worksheet below, indeed my Maple worksheets in general. 
+
+</b> 
+
+You may encounter a problem opening my Maple worksheets (as indeed I do myself) here at my web site - it would appear to depend on the internet 
+
+browser being used. Thus, if I attempt to open one of my worksheets using Interner Explorer there is never a problem, whereas if I use Firefox 
+
+(or Google Chrome) then all that one sees - this is just an example - is something like this: 
+
+   {VERSION 3 0 "IBM INTEL NT" "3.0" } {USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 0 1 0 0 0 0 }
+{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE " " -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+
+and so on (almost at infinitum)... 
+
+<br> 
+
+<p> 
+
+I asked Maplesoft for advice on this and they recommended doing the following (and I found it worked):
+
+</p>
+
+<ol>
+
+<li> Don't attempt directly to open the worksheet (by clicking on my link), instead right click and save the worksheet to (say) the download folder.
+
+</li> <br>
+
+<li> Now that the worksheet is in the download folder (cut it out if you wish and put into whatever folder you wish) you may open the worksheet
+     in the usual way (I should add that while I see this 'works', I have absolutely no idea as to why it does... ) [END OF NOTE].
+
+</li> 
+
+<br>
+
+</ol>
+
+</p>
+
+
+
+
+<span class  =  "style3">
+
+<!--msthemeseparator-->
+
+</span>
+
+<p align   =   "center" class   =   "style3"> <img src   =   "_themes/nature/narule.gif" width   =   "600" height   =   "10">
+
+</p>
+
+<p align   =   "center" class   =   "style3" style   =   "margin-left: 40px; margin-right: 40px; margin-bottom: 0;"> &nbsp;
+
+</p>
+
+<p align   =   "left" class   =   "style3" style   =   "margin-left: 40px; margin-right: 40px; margin-top: 0;"> <font size   =   "3"> 
+
+
+
+
+
+
+
+
+
+
+
+<p align = "left">Friday 17<sup>th</sup> August 2001 was the 400<sup>th</sup> anniversary of
+the birth of <a
+href = "http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Fermat.html">Pierre
+de Fermat</a>, and by way of a personal homage I decided that for the ICTMT5 meeting in
+Klagenfurt, Austria - held the week prior to Fermat's anniversary - I would offer a talk,
+using Maple, called <strong>Fermat's <em>little </em>theorem</strong>. It was never my
+intention to cover all of my prepared talk in Klagenfurt, and, in the event, I covered <em>less
+than 0.1%</em> of what I actually prepared. My Maple worksheet (129KB) may be downloaded <a
+href = "download/Public%20and%20other%20lectures/Fermat's%20little%20theorem/flt.mws">here</a>,
+and a (large) html version of it may be downloaded <a
+href = "download/Public%20and%20other%20lectures/Fermat's%20little%20theorem/FltTOC.html">here</a>
+(<em>large</em> because Maple converts all outputs to gif files, and there are 447 of
+those in the worksheet).&nbsp;</p>
+
+<p align = "left">  <font size = "3"> I dedicated my lecture to Mark Daly - a former colleague,
+and friend - as
+a token of my regard for him.</font>  <br>
+<br>
+Klaus Barner of Kassel university, Germany, disputes the date of Fermat's birth,
+and interested persons ought to read his papers:</p>
+<!--mstheme-->  </font>  <!--msthemelist-->  <table border = "0" cellpadding = "0" cellspacing = "0" width = "100%">
+  <!--msthemelist-->  <tr>  <td valign = "baseline" width = "42">  <img src = "_themes/nature/nabull1.gif" width = "15" height = "15" hspace = "13">
+
+</td>  <td valign = "top" width = "100%">  <!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+    <p align = "left">  <i>Pierre de Fermat (1601? - 1665)</i>, European Mathematics
+    Society Newsletter No. 42, December 2001<!--mstheme-->  </font>  <!--msthemelist-->  </td>  </tr>
+  <!--msthemelist-->  <tr>  <td valign = "baseline" width = "42">  <img src = "_themes/nature/nabull1.gif" width = "15" height = "15" hspace = "13">
+</td>  <td valign = "top" width = "100%">  <!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+    <p align = "left">How old did Fermat become? 2001<!--mstheme-->  </font>  <!--msthemelist-->  </td>  </tr>
+<!--msthemelist-->  </table>  <!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+<p align = "left">for a well argued case that &quot;<i>Fermat was most probably
+born in 1607</i>.&quot;</p>
+<p align = "left">
+
+</p>
+<p align = "left">Some weeks before I went to Klagenfurt I posted a question to the
+moderated Number Theory Mailing List to try determine who first called Fermat's little
+theorem 'little.' The responses (some private, some public) of that question may be read
+below:</p>
+
+<p align = "left">  <strong>My NT mail of 20th June</strong>:<br>
+<br>
+Dear colleagues,<br>
+<br>
+By was of a personal homage to Fermat, and to mark the 400<sup>th</sup> anniversary of his
+birth (this coming August 17th. Are the French postal authorities bringing out a special
+stamp?), I am giving a talk - &quot;Fermat's 'little' theorem&quot;, using Maple - at the
+ICTMT5 Conference in Klagenfurt, Austria, in the week before the anniversary. In time I
+will put the lecture up at my web site in mws and html formats (they will contain much,
+much more than I can cover in a 30 minute talk).<br>
+<br>
+Could someone please answer this banal question: who (and when) first used the 'little'?
+Dickson doesn't use 'little' in his monumental History of the Theory of Numbers (its
+Chapter III, Vol I, has title &quot;Fermat's and Wilson's theorems&quot;); Hardy and
+Wright don't use 'little' (at least not my 4th edition copy); etc<br>
+<br>
+I have a suspicion (I don't know why) that it was E.T. Bell, but I would very much
+appreciate - just for the sake of accuracy - an exact placing. Thanking you, John Cosgrave<br>
+<br>
+<strong>A private reply</strong>: Dear John, I am replying just to you. I am essentially
+certain that it was common German practice to refer to FLT as the 'great' theorem of
+Fermat. A secondary reference to that is Paulo Ribenboim's translation of Wolfskehl's
+will. I imagine that therefore they too used the adjective little in respect of Fermat's
+Little Theorem. Were I lecturing on the matter I would likely declare that no doubt Klein
+already referred to the Little Theorem. English usage in the matter is surely just a
+translation of german usage.<br>
+<br>
+<strong>Another private reply</strong>: John, In Carmichael's 1914 number theory text, he
+says &quot;it is often referred to as the simple Fermat theorem.&quot; He also attributes
+Euler's theorem to Fermat. He says later that Fermat had written down the case for primes,
+and didn't prove it. Euler gave the proof of what we call Euler's theorem, yet he
+attributes it still to Fermat. In Landau's 1927 elementary number theory book, he calls
+what we call Euler's theorem &quot;the so-called Little Fermat Theorem&quot;.<br>
+<br>
+<strong>Edwin Clark #1</strong>: A search of math journals up to 1950 for fermat's little
+theorem OR little fermat theorem on JSTOR yields: MacLane uses &quot;little Fermat
+Theorem&quot; in Modular Fields, Saunders Mac Lane, American Mathematical Monthly, Vol.
+47, No. 5. (May, 1940), pp. 259-274. Kaplansky uses &quot;Fermat's &quot;little
+theorem&quot; &quot; in Lucas's Tests for Mersenne Numbers, Irving Kaplansky American
+Mathematical Monthly, Vol. 52, No. 4. (Apr., 1945), pp. 188-190.<br>
+Edwin Clark<br>
+<br>
+<strong>A private reply to EC from Germany which EC forwarded to me</strong>: Dear Edwin,
+as is usual in such situation, I do not have a substantial answer to your query right off
+the cuff. However, I do recall that ever since I got into contact with the German
+literature on basic algebra or number theory, that is since the time of my T&quot;ubingen
+studies in the years after 1952, the terminology of the &quot;little Fermat&quot; and the
+&quot;big Fermat&quot; was absolutely current in a way as if this had been so for
+generations down the line. (&quot;Kleiner Fermatscher Satz&quot; versus &quot;Grosser
+Fermatscher Satz&quot;.) My tedacher G&quot;unter Pickert used this terminology in his
+algebra book of 1951, and I am sure that van der Waerden has it in his algebra book of
+1934 (or so). I believe that Saunders MacLane got his doctorate 1934 in G&quot;ottingen. I
+would imagine that the terminology had been long current at that time. Klein had died in
+G&quot;ottingen in 1925 but the time of his mathematical and pedagogical influence dates
+back to the 19th century. If I were a betting man I would bet that this terminology also
+goes back to the great number theoreticians of the nineteenth century like Kummer and
+Dedekind. I shall keep my eyes open and perk my ears. Should I find something, I shall let
+you know. <br>
+<br>
+<strong>And another from the same German source</strong>: Yes, Edwin, I confirm that the
+German editions accessible in the Darmstadt library just refer to &quot;Satz von
+Fermat&quot;. (I am just a little bit surprised, because I had indeed speculated that this
+very influential book had the terminology of &quot;kleiner Fermatscher Satz.&quot; The
+next source to check is the enormously influential algebra book by Weber (Einf&quot;uhrung
+in die Algebra) [Heinrich Weber, 1843--1913 taught Hilbert in K&quot;onigsberg]. The first
+Volume appeared 1894. I ckecked the second edition of 1898 and he DOES speak of the
+&quot;Lehrsatz von Fermat&quot; (no &quot;klein&quot; here anywhere). Also in the second
+volume where the theorem reappears it is called &quot;Satz von Fermat&quot;. I am glad
+that I did not bet on the appearance of &quot;kleiner Fermatscher Satz&quot; in 19th
+century literature. Weber would certainly reflect terminology that was current in the 19th
+century. Now your hypothesis that the terminology was generated some time in the last
+century (I mean the 20th) perhaps G&quot;ottingen gains credence. Helmut Hasses Textbooks
+beginning 1927 at the latest repeatedly speak of &quot;Kleiner Fermatscher Satz&quot;.
+Pickert was Hasses's student. So that explains where HIS terminology would come from. This
+could also explain Saunders' using this terminology; he could easily have picked up this
+terminology in G&quot;ottingen. I have no explanation why van der Waerden does NOT use it;
+he studied in G&quot;ottingen hanging out, among others with my teacher Hellmuth Kneser
+who was Courant's assistant having gotten his Ph.D. under Hilbert. I have no recollection
+how Hellmuth Kneser spoke of this theorem. Incidentally, in his &quot;Zahlbericht&quot;
+Hasse speaks of &quot;Fermats Vermutung&quot; and obviously not of &quot;Fermats Grossem
+Satz&quot;<br>
+<br>
+<strong>A less scholarly reply</strong>: I often joke to my students that it was his wife
+that called it that.....it always goes over well.<br>
+<br>
+<strong>A reply from Brazil</strong>: Morris Kline (Mathematical Thought from Ancient to
+Modern Times, Oxford University Press, 1972, p. 276) is speaking about the minor and major
+theorems of Fermat. Emile Borel (les Nombres Premiers, PUF, QSJ 571, 1958) is speaking
+about the theorem of Fermat and the last theorem of Fermat. Idem for Rouse Ball and
+Coxeter (Mathematical Recreations and Essays, Univ. of Toronto Press, 12th edition, 1974).
+Idem for O. Ore (Number Theory and its History, McGraw-Hill, 1948).<br>
+<br>
+<strong>Another private reply</strong>: Dear John Cosgrave: There is no mention of
+&quot;little&quot; in Bell's book Men of Mathematics (1937) or in his Development of Mathematics (1945). 
+I have a copy of Uspensky &amp;
+Heaslet, Elementary Number Theory, published in 1939, and on p. 145 you will find: 'Fermat
+states a result of which an important theorem, now known as the &quot;little Fermat
+theorem,&quot; is a consequence.' This indicates to me that someone had coined the term
+&quot;little Fermat theorem&quot; by the time Uspensky &amp; Heaslet published their book
+in 1939.<br>
+<br>
+In 1936, D. H. Lehmer wrote a famous paper in the American Mathematical Monthly (v. 43,
+pp. 347-354) entitled &quot;On the converse of Fermat's theorem,&quot; but the word
+&quot;little&quot; does not appear in this paper. It is my opinion (as a student of D. H. Lehmer) that 
+he would certainly have used the term &quot;little&quot; if
+it was commonly used at that time.<br>
+<br>
+I did check Kaplansky's 1945 paper in the Monthly (v. 52, pp. 188-190)entitled &quot;On
+Lucas' test for Mersenne numbers&quot; and on p. 140 he refers to Fermat's &quot;little
+theorem.&quot;<br>
+<br>
+So this little bit of detective work reveals that the term &quot;little Fermat
+theorem&quot; probably first appeared sometime between 1936 and 1939 and was in common
+usage by 1945.<br>
+<br>
+<strong>A mail to the Historia Mathematica mailing list</strong>:<br>
+<br>
+----- Original Message -----<br>
+From: &quot;Maryvonne Spiesser&quot; &lt;spiesser@cict.fr&gt;<br>
+To: &lt;historia-matematica-digest@chasque.apc.org&gt;<br>
+Sent: Friday, June 29, 2001 10:33 AM<br>
+Subject: Re: [HM] stamps about maths<br>
+<br>
+Dear listmembers, A special stamp will be brought out on the occasion of the 400th
+anniversary of Fermat's supposed birthday. &quot;First day&quot; will hold on 18th of
+August in Beaumont de Lomagne. Envelopes, postcards, ... will be buyable during the
+conference &quot;Fermat, 400 ans apres&quot; in Toulouse, University of Toulouse III,
+October 18th-19th 2001. M. Spiesser<br>
+<br>
+<strong>Finally</strong>:<br>
+<br>
+Delivery-date: Tue, 26 Jun 2001 12:31:20 +0200<br>
+From: Peter Flor &lt;peter.flor@kfunigraz.ac.at&gt;<br>
+Subject: Re: [HM] Fwd: origin of 'little' in Fermat's 'little' theorem<br>
+To: historia-matematica@chasque.apc.org<br>
+Reply-To: <a href = "mailto:historia-matematica@chasque.apc.org">historia-matematica@chasque.apc.org</a>
+<br>
+<br>
+There are much older sources for this usage than those quoted so far. Here is one: Kurt
+Hensel, &quot;Zahlentheorie&quot; (1913): &quot;F&quot;ur jede endliche Gruppe besteht nun
+ein Fundamentalsatz, welcher der kleine Fermatsche Satz genannt zu werden pflegt, weil ein
+ganz spezieller Teil desselben zuerst von Fermat bewiesen worden ist.&quot; . Translation:
+&quot;There is a fundamental theorem holding in every finite group, usually called
+Fermat's little Theorem because Fermat was the first to have proved a very special part of
+it.&quot; So at least in German, this seems to have been a term in common use, in 1913.
+Best wishes to all, Peter.
+
+</p>
+
+<br>  <br>
+
+<!--msthemeseparator-->  <p align = "center">  <img src = "_themes/nature/narule.gif" width = "600" height = "10">  </p>
+ <!--mstheme-->  </font>  <!--msnavigation-->  </td>
+<td valign = "top" width = "24">  </td>  <td valign = "top" width = "1%">  <!--mstheme-->  <font face = "Trebuchet MS, Arial, Helvetica">
+
+<!--mstheme-->  </font>  </td>  </tr>  <!--msnavigation-->  </table>  
+
+
+<!--msnavigation--> <table border  =  "0" cellpadding  =  "0" cellspacing  =  "0" width  =  "100%">
+
+<tr><td> <!--mstheme--> <font face  =  "Trebuchet MS, Arial, Helvetica">
+
+<p style  =  "margin-bottom: 0"> <big> Contact details. jbcosgrave at gmail.com </big>
+
+
+
+</p>
+
+<!--msthemeseparator--> <p align  =  "center"> <img src  =  "_themes/nature/narule.gif" width  =  "600" height  =  "10">
+
+</p>
+
+
+
+<!--mstheme-->
+
+</font> </td>
+
+</tr> <!--msnavigation--> 
+
+
+ 
+
+</table>  
+
+</body>
+</html>
+
+
+
+
+
+
+
+

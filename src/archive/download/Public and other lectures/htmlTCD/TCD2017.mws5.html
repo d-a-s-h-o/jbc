@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws5.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<dl style="margin-left:40px"><a name="MapleAutoBookmark5" />
+<p align="left"><font color="#000000" size="4" face="Times New Roma"><strong>Fermat's two-square theorem (with the 'signed' element incorporated into its statement)</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong><font style="background-color: #ffcc99">Fermat's (beautiful) two square theorem (in modified form, for the purposes of the upcoming Gauss binomial coefficient congruence)</strong></font>.
+<br>
+<br>For every prime <img src="images/TCD2017.mws_14.gif" width="43" height="18" alt="p = 1" align="center" border="0"><font style="background-color: #ffcc99"> &nbsp;(mod </strong></font></strong></font><font color="#993300" size="4" face="Times New Roman"><strong>4</strong></font><font color="#000080" size="4" face="Times New Roman" style="background-color: #ffcc99"><strong>)</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> there are unique integers, </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>odd</strong></font><font color="#000080" size="4" face="Times New Roman"><strong> <img src="images/TCD2017.mws_15.gif" width="103" height="18" alt="" align="center" border="0"> (which may involve a sign change) and (positive) <img src="images/TCD2017.mws_16.gif" width="18" height="18" alt="b" align="center" border="0"> such that</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_17.gif" width="85" height="24" alt="p = `+`(`*`(`^`(a, 2)), `*`(`^`(b, 2)))" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Examples to illustrate.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_18.gif" width="118" height="24" alt="`and`(p = 29, 29 = `+`(`^`(5, 2), `^`(2, 2)))" align="center" border="0">, here the odd <img src="images/TCD2017.mws_19.gif" width="43" height="18" alt="a = 5" align="center" border="0"> is already<img src="images/TCD2017.mws_20.gif" width="82" height="18" alt="" align="center" border="0">
+<br>
+<br></strong></font></li></ul>&nbsp;</p>
+<p align="left"><ul><li><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_21.gif" width="118" height="24" alt="`and`(p = 53, 53 = `+`(`^`(7, 2), `^`(2, 2)))" align="center" border="0">, here the odd <img src="images/TCD2017.mws_22.gif" width="43" height="18" alt="a = 7" align="center" border="0"> is </strong></font><font color="#993300" size="4" face="Times New Roman"><strong>not<img src="images/TCD2017.mws_23.gif" width="82" height="18" alt="" align="center" border="0"></strong></font><font color="#000080" size="4" face="Times New Roman"><strong>, but if we replace <img src="images/TCD2017.mws_24.gif" width="43" height="18" alt="a = 7" align="center" border="0"> with <img src="images/TCD2017.mws_25.gif" width="54" height="18" alt="a = -7" align="center" border="0"> - so that <img src="images/TCD2017.mws_26.gif" width="143" height="24" alt="`and`(p = 53, 53 = `+`(`^`(-7, 2), `^`(2, 2)))" align="center" border="0"> then we have the representation mentioned above in the modified Fermat two-square theorem.</strong></font></li></ul>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Here I exhibit these representation for all such primes up to 200:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []:
+<br>
+<br>for p from 5 by 4 to 200 do if isprime(p) then 
+<br>
+<br>L := [op(L), p] fi od: 
+<br>
+<br>for p in L do 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a||p := a_sign(p): ### see the Procedures section
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b||p := sqrt(p - a||p^2):
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;od:
+<br>
+<br>print(``); print(array([
+<br>
+<br>[ &nbsp;'p', ``, ``, 'a', ``, ``, 'b' &nbsp;],
+<br> 
+<br> &nbsp;seq( [p, ``, ``, a||p, ``, ``, b||p ], 
+<br>
+<br> &nbsp;p = L ) ] ) ): print(``); 
+<br>
+<br>lprint(`This shows the UNIQUE a = 1 (mod 4) and (positive) b in the modified Fermat two-square theorem.`);</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_27.gif" width="152" height="528" alt="array( 1 .. 22, 1 .. 7, [( 18, 5 ) = (``), ( 7, 3 ) = (``), ( 19, 4 ) = (13), ( 6, 4 ) = (1), ( 16, 7 ) = (4), ( 5, 5 ) = (``), ( 17, 6 ) = (``), ( 4, 6 ) = (``), ( 22, 1 ) = (197), ( 10, 6 ) = (``), ..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#993300" size="4" face="Times New Roman"><strong>`This shows the UNIQUE a = 1 (mod 4) and (positive) b in the modified Fermat two-square theorem.`</td>
+<td width='5%' align='center'></td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</dl>
+
+</html>

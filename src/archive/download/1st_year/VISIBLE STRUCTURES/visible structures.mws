@@ -1,0 +1,359 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 18 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 1 14 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item
+" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 
+}1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 
+2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Norma
+l" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 128 1 2 1 2 2 2 2 1 1 1 
+1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "# visible structures
+.mws" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "with(plots): # this is needed later
+ for 'display'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 296 0 "" }{TEXT 297 7 "S
+eeing " }{TEXT 321 6 "(of a " }{TEXT 324 4 "sort" }{TEXT 325 2 ") " }
+{TEXT 320 12 "is believing" }{TEXT 323 10 " (up to a " }{TEXT 326 5 "p
+oint" }{TEXT 327 2 ") " }{TEXT 322 89 "...\n\nJohn Cosgrave, Mathemati
+cs Department,\nSt. Patrick's College, Drumcondra, Dublin 9, " }{TEXT 
+332 8 "IRELAND\n" }{TEXT 333 20 "John.Cosgrave@spd.ie" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 294 15 "Acknowledgement" }
+{TEXT -1 128 ". The inspiration for this Maple worksheet was an articl
+e (rather one particular diagram in an article: Figure 1 on page 899) \+
+- " }{TEXT 309 35 "Visible Structures in Number Theory" }{TEXT -1 74 "
+ - by Peter Borwein and  Loki J\366rgenson in the December 2001 issue \+
+of the " }{TEXT 295 29 "American Mathematical Monthly" }{TEXT -1 16 ";
+ their diagram " }{TEXT 328 11 "illustrates" }{TEXT -1 10 " that the \+
+" }{TEXT 310 3 "sum" }{TEXT -1 45 " of the Archimedean series (as I re
+fer to it)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT 
+-1 0 "" }{XPPEDIT 18 0 "Sum(1/(4^(n-1)),n = 1 .. infinity) = 1+1/4+1/(
+4^2)+1/(4^3);" "6#/-%$SumG6$*&\"\"\"F()\"\"%,&%\"nGF(F(!\"\"F-/F,;F(%)
+infinityG,*F(F(*&F(F(F*F-F(*&F(F(*$F*\"\"#F-F(*&F(F(*$F*\"\"$F-F(" }
+{TEXT -1 7 " + ... " }{TEXT 298 12 "ad infinitum" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "is " }{XPPEDIT 18 0 "4/3;
+" "6#*&\"\"%\"\"\"\"\"$!\"\"" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 293 8 "Preamble" }{TEXT -1 62 ". Forge
+t about the technology (for the moment); just use your " }{TEXT 311 
+11 "imagination" }{TEXT -1 111 "... Here's something I first read some
+where when I was at school; it relates to the sum of the infinite seri
+es:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 
+0 "Sum(1/(2^(n-1)),n = 1 .. infinity) = 1+1/2+1/(2^2)+1/(2^3);" "6#/-%
+$SumG6$*&\"\"\"F()\"\"#,&%\"nGF(F(!\"\"F-/F,;F(%)infinityG,*F(F(*&F(F(
+F*F-F(*&F(F(*$F*F*F-F(*&F(F(*$F*\"\"$F-F(" }{TEXT -1 7 " + ... " }
+{TEXT 299 12 "ad infinitum" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "whose " }{TEXT 300 3 "sum" }{TEXT 
+-1 7 " is 2. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 19 "Here's how one may " }{TEXT 301 3 "see" }{TEXT -1 32 " th
+e (essential) truth of that: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 256 "" 0 "" {TEXT -1 49 "take in hand (imagine having) a piece o
+f string, " }{TEXT 303 1 "L" }{TEXT -1 5 ", of " }{TEXT 302 6 "length
+" }{TEXT -1 7 " 2, and" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 
+0 "" {TEXT -1 33 "cut that string into two pieces, " }{XPPEDIT 18 0 "L
+[1];" "6#&%\"LG6#\"\"\"" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "E[1];" "6
+#&%\"EG6#\"\"\"" }{TEXT -1 32 ", of equal length; then one has:" }}
+{PARA 256 "" 0 "" {XPPEDIT 18 0 "2 = 1+1;" "6#/\"\"#,&\"\"\"F&F&F&" }
+{TEXT -1 21 " (hardly a surprise!)" }}{PARA 15 "" 0 "" {TEXT -1 16 "cu
+t that string " }{XPPEDIT 18 0 "E[1];" "6#&%\"EG6#\"\"\"" }{TEXT -1 
+18 " into two pieces, " }{XPPEDIT 18 0 "L[2];" "6#&%\"LG6#\"\"#" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "E[2];" "6#&%\"EG6#\"\"#" }{TEXT -1 
+19 ", of equal length (" }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"F$\"\"#!\"\"
+" }{TEXT -1 16 "); then one has:" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "2
+ = 1+1/2+1/2;" "6#/\"\"#,(\"\"\"F&*&F&F&F$!\"\"F&*&F&F&F$F(F&" }{TEXT 
+-1 1 " " }}{PARA 15 "" 0 "" {TEXT -1 16 "cut that string " }{XPPEDIT 
+18 0 "E[2];" "6#&%\"EG6#\"\"#" }{TEXT -1 18 " into two pieces, " }
+{XPPEDIT 18 0 "L[3];" "6#&%\"LG6#\"\"$" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "E[3];" "6#&%\"EG6#\"\"$" }{TEXT -1 19 ", of equal length (" }
+{XPPEDIT 18 0 "1/(2^2);" "6#*&\"\"\"F$*$\"\"#F&!\"\"" }{TEXT -1 16 ");
+ then one has:" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "2 = 1+1/2+1/(2^2)+1
+/(2^2);" "6#/\"\"#,*\"\"\"F&*&F&F&F$!\"\"F&*&F&F&*$F$F$F(F&*&F&F&*$F$F
+$F(F&" }}{PARA 15 "" 0 "" {TEXT -1 16 "cut that string " }{XPPEDIT 18 
+0 "E[3];" "6#&%\"EG6#\"\"$" }{TEXT -1 18 " into two pieces, " }
+{XPPEDIT 18 0 "L[4];" "6#&%\"LG6#\"\"%" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "E[4];" "6#&%\"EG6#\"\"%" }{TEXT -1 19 ", of equal length (" }
+{XPPEDIT 18 0 "1/(2^3);" "6#*&\"\"\"F$*$\"\"#\"\"$!\"\"" }{TEXT -1 16 
+"); then one has:" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "2
+ = 1+1/2+1/(2^2)+1/(2^3)+1/(2^3);" "6#/\"\"#,,\"\"\"F&*&F&F&F$!\"\"F&*
+&F&F&*$F$F$F(F&*&F&F&*$F$\"\"$F(F&*&F&F&*$F$F-F(F&" }}{PARA 256 "" 0 "
+" {TEXT -1 31 "\n.............................." }}{PARA 15 "" 0 "" 
+{TEXT -1 16 "cut that string " }{XPPEDIT 18 0 "E[n];" "6#&%\"EG6#%\"nG
+" }{TEXT -1 18 " into two pieces, " }{XPPEDIT 18 0 "L[n+1];" "6#&%\"LG
+6#,&%\"nG\"\"\"F(F(" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "E[n+1];" "6#&
+%\"EG6#,&%\"nG\"\"\"F(F(" }{TEXT -1 19 ", of equal length (" }
+{XPPEDIT 18 0 "1/(2^n);" "6#*&\"\"\"F$)\"\"#%\"nG!\"\"" }{TEXT -1 16 "
+); then one has:" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "2 \+
+= 1+1/2+1/(2^2)+1/(2^3);" "6#/\"\"#,*\"\"\"F&*&F&F&F$!\"\"F&*&F&F&*$F$
+F$F(F&*&F&F&*$F$\"\"$F(F&" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "1/(
+2^n)+1/(2^n);" "6#,&*&\"\"\"F%)\"\"#%\"nG!\"\"F%*&F%F%)F'F(F)F%" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 "\n" }{TEXT 304 8 "The crux
+" }{TEXT -1 6 ". Now " }{TEXT 312 7 "imagine" }{TEXT -1 33 " the origi
+nal string cut into an " }{TEXT 305 8 "infinite" }{TEXT -1 18 " number
+ of pieces:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT 
+-1 25 "one piece having length 1" }}{PARA 15 "" 0 "" {TEXT -1 2 "a " }
+{XPPEDIT 18 0 "2^nd;" "6#)\"\"#%#ndG" }{TEXT -1 21 " piece having leng
+th " }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"F$\"\"#!\"\"" }{TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 2 "a " }{XPPEDIT 18 0 "3^rd;" "6#)\"\"$%#rdG
+" }{TEXT -1 21 " piece having length " }{XPPEDIT 18 0 "1/(2^2);" "6#*&
+\"\"\"F$*$\"\"#F&!\"\"" }}{PARA 15 "" 0 "" {TEXT -1 2 "a " }{XPPEDIT 
+18 0 "4^th;" "6#)\"\"%%#thG" }{TEXT -1 21 " piece having length " }
+{XPPEDIT 18 0 "1/(2^3);" "6#*&\"\"\"F$*$\"\"#\"\"$!\"\"" }{TEXT -1 0 "
+" }}{PARA 15 "" 0 "" {TEXT -1 2 "a " }{XPPEDIT 18 0 "5^th;" "6#)\"\"&%
+#thG" }{TEXT -1 21 " piece having length " }{XPPEDIT 18 0 "1/(2^4);" "
+6#*&\"\"\"F$*$\"\"#\"\"%!\"\"" }{TEXT -1 15 "\n... and so on " }{TEXT 
+306 12 "ad infinitum" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 135 "Then (stating the intuitive:) the length of the origin
+al string is equal to the total sum of the individual pieces of string
+, we would " }{TEXT 319 3 "see" }{TEXT -1 6 " that:" }}{PARA 256 "" 0 
+"" {XPPEDIT 18 0 "2 = 1+1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(2^5);" "6#/\"\"
+#,.\"\"\"F&*&F&F&F$!\"\"F&*&F&F&*$F$F$F(F&*&F&F&*$F$\"\"$F(F&*&F&F&*$F
+$\"\"%F(F&*&F&F&*$F$\"\"&F(F&" }{TEXT -1 7 " + ... " }{TEXT 307 12 "ad
+ infinitum" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 308 9 "Moving on" }{TEXT -1 364 ". Elsewhere I have expla
+ined that the first genuine example of what is now called an infinite \+
+series could be said to have occurred implicitly in the work of Archim
+edes (though that is bending the true history... , as mathematical his
+torians will know; however I never let historical accuracy get in the \+
+way of the more important issue: understanding mathematical " }{TEXT 
+262 5 "ideas" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 139 "I have attempted elsewhere to convey to you (m
+y students), that one of the initial hurdles to be overcome in connect
+ion with understanding " }{TEXT 257 8 "infinite" }{TEXT -1 19 " series
+ is that of " }{TEXT 258 9 "realising" }{TEXT -1 37 " that it is a non
+-trivial problem to " }{TEXT 263 14 "define exactly" }{TEXT -1 9 " wha
+t is " }{TEXT 259 5 "meant" }{TEXT -1 8 " by the " }{TEXT 260 3 "sum" 
+}{TEXT -1 23 " of such a series... . " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 12 "Recall that " }{TEXT 288 7 "naively" 
+}{TEXT -1 11 " one might " }{TEXT 261 5 "think" }{TEXT -1 50 " every s
+eries (within reason, of course) actually " }{TEXT 264 3 "has" }{TEXT 
+-1 16 " a sum, and one " }{TEXT 289 5 "might" }{TEXT -1 21 " also thin
+k that the " }{TEXT 290 4 "only" }{TEXT -1 45 " problem is to find - b
+y some clever method (" }{TEXT 265 3 "Let" }{TEXT -1 1 " " }{TEXT 266 
+129 "S be the sum of the series, then multiplying S by ... , and then \+
+subtracting, and then ... , and so the actual value of S is ... " }
+{TEXT -1 40 ") or whatever - the value of that sum..." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "The aim of this worksh
+eet is to show some pictures which " }{TEXT 291 7 "attempt" }{TEXT -1 
+17 " to reinforce an " }{TEXT 256 13 "understanding" }{TEXT -1 101 " o
+f the sums of certain infinite series. I will begin by setting up some
+ pictures which allow one to " }{TEXT 267 3 "see" }{TEXT -1 11 " (but \+
+your " }{TEXT 268 11 "imagination" }{TEXT -1 93 " will play a very big
+ role in all this!) that the series encountered in the Archimedes  wor
+k:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 
+"1+1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/(4^5);" "6#,.\"\"\"F$*&F$F$\"\"%!\"\"
+F$*&F$F$*$F&\"\"#F'F$*&F$F$*$F&\"\"$F'F$*&F$F$*$F&F&F'F$*&F$F$*$F&\"\"
+&F'F$" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "1/(4^(n-1));" "6#*&\"\"
+\"F$)\"\"%,&%\"nGF$F$!\"\"F)" }{TEXT -1 7 " + ... " }{TEXT 269 12 "ad \+
+infinitum" }{TEXT -1 10 ", has sum " }{XPPEDIT 18 0 "4/3;" "6#*&\"\"%
+\"\"\"\"\"$!\"\"" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 30 "This is what I am going to do:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 29 "First I am goi
+ng to show you " }{TEXT 270 1 "a" }{TEXT -1 76 " picture, in which you
+ will see some squares fitting together in a certain (" }{TEXT 313 6 "
+clever" }{TEXT -1 17 ") way; it is the " }{TEXT 272 7 "initial" }
+{TEXT -1 24 " part of a picture that " }{TEXT 275 2 "no" }{TEXT -1 66 
+" computer could construct, because the picture that I want you to " }
+{TEXT 273 3 "see" }{TEXT -1 13 " can only be " }{TEXT 271 4 "seen" }
+{TEXT -1 9 " in your " }{TEXT 276 11 "imagination" }{TEXT -1 93 "... (
+later I will show you an animation whose final frame is this single, s
+tatic picture...)\n" }}{PARA 258 "" 0 "" {TEXT -1 48 "Figure 1 in the \+
+Borwein-J\366rgenson December 2001 " }{TEXT 318 7 "Monthly" }{TEXT -1 
+8 " article" }}{PARA 256 "" 0 "" {GLPLOT2D 400 300 300 {PLOTDATA 2 "68
+-%)POLYGONSG6$7&7$\"\"!F(7$\"\"\"F(7$F*F*7$F(F*-%'COLOURG6&%$RGBGF(F*F
+(-F$6$7&F+7$#\"\"$\"\"#F*7$F5F57$F*F5F--F$6$7&F87$#\"\"(\"\"%F57$F>F>7
+$F5F>F--F$6$7&FA7$#\"#:\"\")F>7$FGFG7$F>FGF--F$6$7&FJ7$#\"#J\"#;FG7$FP
+FP7$FGFPF--F$6$7&FS7$#\"#j\"#KFP7$FYFY7$FPFYF--F$6$7&Ffn7$#\"$F\"\"#kF
+Y7$F\\oF\\o7$FYF\\oF--F$6$7&F,F+7$F*F77$F(F7-F.6&F0F(F(F*-F$6$7&F9F87$
+F5F7FdoFfo-F$6$7&FBFA7$F>F7F[pFfo-F$6$7&FKFJ7$FGF7F_pFfo-F$6$7&FTFS7$F
+PF7FcpFfo-F$6$7&FgnFfn7$FYF7FgpFfo-F$6$7&F`oF_o7$F\\oF7F[qFfo-F$6$7&F)
+7$F7F(7$F7F*F+Ffo-F$6$7&F4Fdq7$F7F5F8Ffo-F$6$7&F=Fhq7$F7F>FAFfo-F$6$7&
+FFF\\r7$F7FGFJFfo-F$6$7&FOF`r7$F7FPFSFfo-F$6$7&FXFdr7$F7FYFfnFfo-F$6$7
+&F[oFhr7$F7F\\oF_oFfo-F$6$7&F'Fcq7$F7F7Feo-F.6&F0F*F*F*" 1 2 0 1 10 0 
+2 9 1 1 1 1.000000 47.000000 44.000000 0 0 "Curve 1" "Curve 2" "Curve \+
+3" "Curve 4" "Curve 5" "Curve 6" "Curve 7" "Curve 8" "Curve 9" "Curve \+
+10" "Curve 11" "Curve 12" "Curve 13" "Curve 14" "Curve 15" "Curve 16" 
+"Curve 17" "Curve 18" "Curve 19" "Curve 20" "Curve 21" "Curve 22" }}
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 17 "Next I give some " }
+{TEXT 274 7 "details" }{TEXT -1 155 " about those squares: \n\n0. The \+
+largest, outer square has side length 2,\n\n   and as for the green sq
+uares, starting at the bottom left-hand corner:\n\n1. the " }{XPPEDIT 
+18 0 "1^st;" "6#)\"\"\"%#stG" }{TEXT -1 18 " of them has side " }
+{TEXT 277 6 "length" }{TEXT -1 30 " 1, and so has area...\n2. the " }
+{XPPEDIT 18 0 "2^nd;" "6#)\"\"#%#ndG" }{TEXT -1 18 " of them has side \+
+" }{TEXT 278 6 "length" }{TEXT -1 1 " " }{XPPEDIT 18 0 "1/(2)" "6#*&\"
+\"\"F$\"\"#!\"\"" }{TEXT -1 9 " (simply " }{XPPEDIT 18 0 "1/2;" "6#*&
+\"\"\"F$\"\"#!\"\"" }{TEXT -1 19 " the length of the " }{XPPEDIT 18 0 
+"1^st;" "6#)\"\"\"%#stG" }{TEXT -1 15 "square)\n3. the " }{XPPEDIT 18 
+0 "3^rd;" "6#)\"\"$%#rdG" }{TEXT -1 18 " of them has side " }{TEXT 
+279 6 "length" }{TEXT -1 1 " " }{XPPEDIT 18 0 "1/(2^2)" "6#*&\"\"\"F$*
+$\"\"#F&!\"\"" }{TEXT -1 9 " (simply " }{XPPEDIT 18 0 "1/2;" "6#*&\"\"
+\"F$\"\"#!\"\"" }{TEXT -1 19 " the length of the " }{XPPEDIT 18 0 "2^n
+d;" "6#)\"\"#%#ndG" }{TEXT -1 17 " square)\n 4. the " }{XPPEDIT 18 0 "
+4^th;" "6#)\"\"%%#thG" }{TEXT -1 18 " of them has side " }{TEXT 287 6 
+"length" }{TEXT -1 1 " " }{XPPEDIT 18 0 "1/(2^3);" "6#*&\"\"\"F$*$\"\"
+#\"\"$!\"\"" }{TEXT -1 9 " (simply " }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"
+F$\"\"#!\"\"" }{TEXT -1 19 " the length of the " }{XPPEDIT 18 0 "3^rd;
+" "6#)\"\"$%#rdG" }{TEXT -1 33 " square)\n   ... ... ... ... ... \n" }
+{TEXT 281 1 "k" }{TEXT -1 6 ". the " }{XPPEDIT 18 0 "k^th;" "6#)%\"kG%
+#thG" }{TEXT -1 18 " of them has side " }{TEXT 280 6 "length" }{TEXT 
+-1 1 " " }{XPPEDIT 18 0 "1/(2^(k-1));" "6#*&\"\"\"F$)\"\"#,&%\"kGF$F$!
+\"\"F)" }{TEXT -1 9 " (simply " }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"F$\"
+\"#!\"\"" }{TEXT -1 19 " the length of the " }{XPPEDIT 18 0 "(k-1)^th;
+" "6#),&%\"kG\"\"\"F&!\"\"%#thG" }{TEXT -1 10 " square)  " }}{PARA 15 
+"" 0 "" {TEXT -1 33 "Lastly, I ask you this question:\n" }}{PARA 256 "
+" 0 "" {TEXT -1 1 " " }{TEXT 283 3 "How" }{TEXT -1 10 " does the " }
+{TEXT 286 16 "imagined diagram" }{TEXT -1 28 " support the claim that \+
+the " }{TEXT 329 3 "sum" }{TEXT -1 8 " of the " }{TEXT 282 8 "infinite
+" }{TEXT -1 9 " series\n " }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "1+1/4+1/
+(4^2)+1/(4^3)+1/(4^4)+1/(4^5);" "6#,.\"\"\"F$*&F$F$\"\"%!\"\"F$*&F$F$*
+$F&\"\"#F'F$*&F$F$*$F&\"\"$F'F$*&F$F$*$F&F&F'F$*&F$F$*$F&\"\"&F'F$" }
+{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "1/(4^(n-1));" "6#*&\"\"\"F$)\"
+\"%,&%\"nGF$F$!\"\"F)" }{TEXT -1 7 " + ... " }{TEXT 284 12 "ad infinit
+um" }{TEXT -1 1 " " }{TEXT 285 2 "is" }{TEXT -1 1 " " }{XPPEDIT 18 0 "
+4/3;" "6#*&\"\"%\"\"\"\"\"$!\"\"" }{TEXT -1 2 " ?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 314 7 "Comment" }
+{TEXT -1 31 ". Notice, by the way, that the " }{TEXT 330 11 "side leng
+th" }{TEXT -1 27 " - 2 - of the above square " }{TEXT 316 2 "is" }
+{TEXT -1 5 " the " }{TEXT 315 3 "sum" }{TEXT -1 8 " of the " }{TEXT 
+317 8 "infinite" }{TEXT -1 8 " series:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "1+1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(
+2^5);" "6#,.\"\"\"F$*&F$F$\"\"#!\"\"F$*&F$F$*$F&F&F'F$*&F$F$*$F&\"\"$F
+'F$*&F$F$*$F&\"\"%F'F$*&F$F$*$F&\"\"&F'F$" }{TEXT -1 6 " + ..." }}
+{PARA 256 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 77 "In the
+ following Maple program, I am simply forming the first 7 partial sums
+ " }{XPPEDIT 18 0 "s[1],s[2],s[3];" "6%&%\"sG6#\"\"\"&F$6#\"\"#&F$6#\"
+\"$" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "s[7];" "6#&%\"sG6#\"\"(" }
+{TEXT -1 24 " of the infinite series:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "1+1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(
+2^5);" "6#,.\"\"\"F$*&F$F$\"\"#!\"\"F$*&F$F$*$F&F&F'F$*&F$F$*$F&\"\"$F
+'F$*&F$F$*$F&\"\"%F'F$*&F$F$*$F&\"\"&F'F$" }{TEXT -1 9 " + ... + " }
+{XPPEDIT 18 0 "1/(2^(n-1));" "6#*&\"\"\"F$)\"\"#,&%\"nGF$F$!\"\"F)" }
+{TEXT -1 7 " + ... " }{TEXT 292 12 "ad infinitum" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "they are given by:" }}
+{PARA 256 "" 0 "" {XPPEDIT 18 0 "s[1] = 1;" "6#/&%\"sG6#\"\"\"F'" }
+{TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "s[1]+s[2] = 1+1/2;" "
+6#/,&&%\"sG6#\"\"\"F(&F&6#\"\"#F(,&F(F(*&F(F(F+!\"\"F(" }{TEXT -1 1 "
+\n" }{XPPEDIT 18 0 "s[1]+s[2]+s[3] = 1+1/2+1/(2^2);" "6#/,(&%\"sG6#\"
+\"\"F(&F&6#\"\"#F(&F&6#\"\"$F(,(F(F(*&F(F(F+!\"\"F(*&F(F(*$F+F+F1F(" }
+{TEXT -1 1 "\n" }{XPPEDIT 18 0 "s[1]+s[2]+s[3]+s[4] = 1+1/2+1/(2^2)+1/
+(2^3);" "6#/,*&%\"sG6#\"\"\"F(&F&6#\"\"#F(&F&6#\"\"$F(&F&6#\"\"%F(,*F(
+F(*&F(F(F+!\"\"F(*&F(F(*$F+F+F4F(*&F(F(*$F+F.F4F(" }{TEXT -1 6 ", etc
+\n" }}{PARA 257 "" 0 "" {TEXT -1 34 "In short, we have:               \+
+ " }{XPPEDIT 18 0 "s[1] = 1;" "6#/&%\"sG6#\"\"\"F'" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "s[k] = s[k-1]+1/(2^(k-1));" "6#/&%\"sG6#%\"kG,&&F%6#,&F
+'\"\"\"F,!\"\"F,*&F,F,)\"\"#,&F'F,F,F-F-F," }{TEXT -1 5 " for " }
+{XPPEDIT 18 0 "2 <= k;" "6#1\"\"#%\"kG" }{TEXT -1 1 "." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 91 "n := 7: s[1] := 1:\nfor k from 2 to
+ n do\ns[k] := s[k-1] + 1/2^(k-1) od:\nseq(s[k], k = 1..n);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 587 "s[0] := 0: for r to n do\n
+\nsquare||r := PLOT(seq(POLYGONS([[s[k-1],s[k-1]], [s[k],s[k-1]],[s[k]
+,s[k]], [s[k-1],s[k]]],  COLOUR(RGB,0,1,0)), k=1..r)):\n\nabove||r := \+
+PLOT(seq(POLYGONS([[s[k-1],s[k]], [s[k],s[k]],[s[k],2], [s[k-1],2]], C
+OLOUR(RGB,0,0,1)), k=1..r)):\n\nbelow||r := PLOT(seq(POLYGONS([[s[k],s
+[k-1]], [2,s[k-1]],[2,s[k]], [s[k],s[k]]], COLOUR(RGB,0,0,1)), k=1..r)
+):\n\nouter_square := PLOT(POLYGONS([[0,0],[2,0],[2,2], [0,2]], COLOUR
+(RGB,1,1,1))):\n\nshow||r := display([square||r, above||r, \n         \+
+           below||r, outer_square]):\nod: display([show||(1..n)], inse
+quence=true);" }{TEXT -1 0 "" }}{PARA 13 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "# display([show||n]); # to m
+ake the initial picture" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 331 7 "Comment" }{TEXT -1 307 ". Mot
+ivated by the above (which requires an in-class discussion) there are \+
+many directions in which one might go, but one obvious one is to ask: \+
+what other infinite series might have their sums illustrated by varyin
+g the above diagram: for example by dividing a square into a 3 by 3 (o
+r 4 by 4, etc) grid..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 83 "The following (which requires some discussion is an \+
+initial step down that road)..." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 94 "n := 10: s[1] := 1:\nfor k from 2 to n do\ns[k] := s[k-1] + (2
+/3)^(k-1) od:\nseq(s[k], k = 1..n);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 587 "s[0] := 0: for r to n do\n\nsquare||r := PLOT(seq(PO
+LYGONS([[s[k-1],s[k-1]], [s[k],s[k-1]],[s[k],s[k]], [s[k-1],s[k]]],  C
+OLOUR(RGB,0,1,0)), k=1..r)):\n\nabove||r := PLOT(seq(POLYGONS([[s[k-1]
+,s[k]], [s[k],s[k]],[s[k],3], [s[k-1],3]], COLOUR(RGB,0,0,1)), k=1..r)
+):\n\nbelow||r := PLOT(seq(POLYGONS([[s[k],s[k-1]], [3,s[k-1]],[3,s[k]
+], [s[k],s[k]]], COLOUR(RGB,0,0,1)), k=1..r)):\n\nouter_square := PLOT
+(POLYGONS([[0,0],[3,0],[3,3], [0,3]], COLOUR(RGB,1,1,1))):\n\nshow||r \+
+:= display([square||r, above||r, \n                    below||r, outer
+_square]):\nod: display([show||(1..n)], insequence=true);" }{TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 94 "n := 14: s[1] := 1:\nfor k from 2 to n do\ns
+[k] := s[k-1] + (3/4)^(k-1) od:\nseq(s[k], k = 1..n);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 587 "s[0] := 0: for r to n do\n\nsquare
+||r := PLOT(seq(POLYGONS([[s[k-1],s[k-1]], [s[k],s[k-1]],[s[k],s[k]], \+
+[s[k-1],s[k]]],  COLOUR(RGB,0,1,0)), k=1..r)):\n\nabove||r := PLOT(seq
+(POLYGONS([[s[k-1],s[k]], [s[k],s[k]],[s[k],4], [s[k-1],4]], COLOUR(RG
+B,0,0,1)), k=1..r)):\n\nbelow||r := PLOT(seq(POLYGONS([[s[k],s[k-1]], \+
+[4,s[k-1]],[4,s[k]], [s[k],s[k]]], COLOUR(RGB,0,0,1)), k=1..r)):\n\nou
+ter_square := PLOT(POLYGONS([[0,0],[4,0],[4,4], [0,4]], COLOUR(RGB,1,1
+,1))):\n\nshow||r := display([square||r, above||r, \n                 \+
+   below||r, outer_square]):\nod: display([show||(1..n)], insequence=t
+rue);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{MARK "16" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

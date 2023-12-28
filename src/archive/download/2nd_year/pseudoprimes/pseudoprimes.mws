@@ -1,0 +1,542 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 
+"" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 273 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 274 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 284 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 292 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 296 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 308 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 312 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 316 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 320 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 323 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 327 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 328 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 332 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 336 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 340 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 356 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 357 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 360 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 361 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 362 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 364 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 365 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 366 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 368 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 372 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 373 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 376 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 377 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 1 14 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 380 "" 1 14 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+381 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 382 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+385 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 386 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 396 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+397 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 400 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+401 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 402 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+405 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 406 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 407 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 408 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+409 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 411 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 412 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+413 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 416 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+417 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 418 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 419 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 420 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+421 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 422 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 424 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+425 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 426 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 427 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 428 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+429 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 430 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 431 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 432 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+433 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 434 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 436 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+438 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 439 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 440 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 441 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+442 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 443 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 
+0 0 0 15 2 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 
+1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 0 128 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 
+3 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "# pseudoprimes.mws" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 258 "" 0 "" {TEXT 283 
+12 "Pseudoprimes" }{TEXT 441 5 " and " }{TEXT 442 9 "probable " }
+{TEXT 443 6 "primes" }{TEXT 280 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT 381 12 "Introduction" }{TEXT -1 14 ".  One of t
+he " }{TEXT 261 14 "most important" }{TEXT -1 30 " theorems in Number \+
+Theory is " }{TEXT 262 25 "Fermat's 'little' theorem" }{TEXT -1 6 ": L
+et " }{TEXT 263 1 "p" }{TEXT -1 4 " be " }{TEXT 275 3 "any" }{TEXT -1 
+12 " prime, and " }{TEXT 264 1 "a" }{TEXT -1 4 " be " }{TEXT 276 3 "an
+y" }{TEXT -1 14 " integer with " }{XPPEDIT 18 0 "a <> 0;" "6#0%\"aG\"
+\"!" }{TEXT -1 6 " (mod " }{TEXT 382 1 "p" }{TEXT -1 3 ") [" }{TEXT 
+265 1 "i" }{TEXT -1 1 "." }{TEXT 266 2 "e." }{TEXT -1 1 " " }{TEXT 
+267 1 "a" }{TEXT -1 4 " is " }{TEXT 274 1 "n" }{TEXT -1 0 "" }{TEXT 
+273 2 "ot" }{TEXT -1 19 " congruent to 0 mod" }{TEXT 268 2 " p" }
+{TEXT -1 194 "; Maple can't render the standard 'congruent' or 'not co
+ngruent' signs], then\n                                               \+
+                                                                     \+
+" }{XPPEDIT 18 0 "a^(p-1) = 1;" "6#/)%\"aG,&%\"pG\"\"\"\"\"\"!\"\"\"\"
+\"" }{TEXT -1 6 " (mod " }{TEXT 269 1 "p" }{TEXT -1 2 ") " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 "[" }{TEXT 270 1 "i
+" }{TEXT -1 1 "." }{TEXT 271 1 "e" }{TEXT -1 2 ". " }{TEXT 272 1 "a" }
+{TEXT -1 17 " to the power of " }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"
+\"\"\"!\"\"" }{TEXT -1 23 " is congruent to 1 mod " }{TEXT 277 1 "p" }
+{TEXT -1 2 ".]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 278 27 "Some illustrative examples:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "p[1] := 7; # is prime" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "a[1] := 4; # not divisible by p[1]
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "a[1]^(p[1] - 1) mod p[1
+];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 48 "p[2] := nextprime(10^60 + 987654321); # is pr
+ime" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "a[2] := 47; # not di
+visible by p[2]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 279 77 "Recall the importa
+nt observation on the difference between using `^` and `&^`" }{TEXT 
+-1 67 ". Observe what happens if one tries to verify Fermat's theorem \+
+for " }{XPPEDIT 18 0 "p[2];" "6#&%\"pG6#\"\"#" }{TEXT -1 6 " with " }
+{XPPEDIT 18 0 "a[2];" "6#&%\"aG6#\"\"#" }{TEXT -1 1 ":" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "a[2]^(p[2] - 1) mod p[2];" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 82 "That computation can be performed by using a very powerfu
+l technique (called the '" }{TEXT 284 19 "square-and-multiply" }{TEXT 
+-1 82 "' method, the datails of which you will learn about in the futu
+re), for which the " }{TEXT 285 5 "Maple" }{TEXT -1 12 " command is:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "a[2]&^(p[2] - 1) mod p[2]
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 38 "Now consider these three computations:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "n[1] := 30! + 1;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "2&^(n[1] - 1) mod n[1];" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 22 "n[2] := 60! + 30! + 1;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "2&^(n[2] - 1) mod n[2];" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 118 "n[3] := 12345678909876543212233445566778
+8990099887766554433221122233344455566677788899900099988877766655544433
+3222111;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "2&^(n[3] - 1) m
+od n[3];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 286 8 "Comments" }{TEXT -1 38 ". \+
+What do those outputs tell us about " }{XPPEDIT 18 0 "n[1],n[2];" "6$&
+%\"nG6#\"\"\"&F$6#\"\"#" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "n[3];" "6
+#&%\"nG6#\"\"$" }{TEXT -1 17 "? They tell us - " }{TEXT 423 11 "immedi
+ately" }{TEXT -1 8 " - that " }{TEXT 424 4 "none" }{TEXT -1 25 " of th
+em is prime, since " }{TEXT 425 4 "none" }{TEXT -1 42 " of them divide
+ 2, and for each of them - " }{TEXT 287 1 "n" }{TEXT -1 11 " - we have
+ " }{XPPEDIT 18 0 "2^(n-1) <> 1;" "6#0)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"
+\"\"" }{TEXT -1 6 " (mod " }{TEXT 288 1 "n" }{TEXT -1 1 ")" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 289 15 "Another example
+" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "n[4] :=
+ 1195068768795265792518361315725116351898245581;" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 40 "2&^(n[4] - 1) mod n[4];  # example (1.2)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 290 8 "Question" }{TEXT -1 25 ".  Does that calcu
+lation " }{TEXT 291 4 "mean" }{TEXT -1 7 " (i.e. " }{TEXT 292 20 "allo
+w us to conclude" }{TEXT -1 7 ") that " }{XPPEDIT 18 0 "n[4];" "6#&%\"
+nG6#\"\"%" }{TEXT -1 11 " is prime? " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 293 9 "An answer" }{TEXT -1 44 
+". Possibly ... , but only in the sense that " }{TEXT 295 8 "at least
+" }{TEXT -1 7 " it is " }{TEXT 296 10 "consistent" }{TEXT -1 32 " with
+ n4 being (possibly) prime." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 294 19 "Pushing it on a bit" }{TEXT -1 
+42 ". We should note that Fermat's theorem is " }{TEXT 300 8 "not just
+" }{TEXT -1 23 " about the case where '" }{TEXT 297 1 "a" }{TEXT -1 
+29 "' equals 2; it is also about:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 1 "(" }{XPPEDIT 18 0 "1;" "6#\"\"\"" }{TEXT 
+-1 3 "), " }{XPPEDIT 18 0 "3,4,5;" "6%\"\"$\"\"%\"\"&" }{TEXT -1 1 ",
+" }{TEXT -1 5 " ... " }{TEXT 298 12 "ad infinitum" }{TEXT -1 5 ", and
+" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "-1,-2,-3,-4;" "6&,$\"\"\"!\"\",$\"
+\"#F%,$\"\"$F%,$\"\"%F%" }{TEXT -1 6 ", ... " }{TEXT 299 12 "ad infini
+tum" }{TEXT -1 1 "\n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 301 9 "pr
+oviding" }{TEXT -1 21 " - of course - that '" }{TEXT 302 1 "a" }{TEXT 
+-1 40 "' is not divisible by the prime number '" }{TEXT 303 1 "p" }
+{TEXT -1 2 ".'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 17 "I am going to do " }{TEXT 304 28 "several similar computa
+tions" }{TEXT -1 13 " on the trot:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "3&^(n[4] - 1) mod n[4];  # \+
+example (1.3)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "4&^(n[4] -
+ 1) mod n[4];  # example (1.4)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 39 "5&^(n[4] - 1) mod n[4]; # example (1.5)" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 40 "6&^(n[4] - 1) mod n[4];  # example (1.6)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "7&^(n[4] - 1) mod n[4];  # e
+xample (1.7)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "8&^(n[4] - \+
+1) mod n[4];  # example (1.8)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 40 "9&^(n[4] - 1) mod n[4];  # example (1.9)" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 42 "10&^(n[4] - 1) mod n[4];  # example (1.10)" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "11&^(n[4] - 1) mod n[4];  #
+ example (1.11)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "12&^(n[4
+] - 1) mod n[4];  # example (1.12)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 305 
+8 "Question" }{TEXT -1 10 ". Is that " }{XPPEDIT 18 0 "n[4];" "6#&%\"n
+G6#\"\"%" }{TEXT -1 45 " prime? Surely - after all those 1's - it is?
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 306 11 "Observation" }{TEXT -1 40 ". First note that some of tho
+se 1's are " }{TEXT 307 9 "deceptive" }{TEXT -1 19 ", in that they are
+ " }{TEXT 308 12 "consequences" }{TEXT -1 66 " of other 1's. For examp
+le, the output '1' in example (1.4) is an " }{TEXT 310 21 "automatic c
+onsequence" }{TEXT -1 76 " of  the '1' in the example (1.2), since it \+
+is easy to prove the  following " }{TEXT 312 6 "simple" }{TEXT -1 10 "
+ theorem: " }}{PARA 0 "" 0 "" {TEXT -1 4 "Let " }{TEXT 315 1 "n" }
+{TEXT -1 31 " be a natural number such that " }{XPPEDIT 18 0 "2^(n-1) \+
+= 1;" "6#/)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 309 1 "n" }{TEXT -1 8 "); then " }{XPPEDIT 18 0 "4^(n-1) = 1;" "
+6#/)\"\"%,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 9 " (mod n)." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+313 5 "Proof" }{TEXT -1 9 ".  Since " }{XPPEDIT 18 0 "2^(n-1) = 1;" "6
+#/)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 47 " (mod n) then - \+
+squaring both sides - we have: " }{XPPEDIT 18 0 "2^(2*n-2) = 1^2;" "6#
+/)\"\"#,&*&\"\"#\"\"\"%\"nGF)F)\"\"#!\"\"*$\"\"\"\"\"#" }{TEXT -1 21 "
+= 1 (mod n)   ... (i)" }}{PARA 0 "" 0 "" {TEXT -1 29 "But (i) can be r
+ewritten as: " }{XPPEDIT 18 0 "4^(n-1) = 1;" "6#/)\"\"%,&%\"nG\"\"\"\"
+\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 316 1 "n" }{TEXT -1 27 ")
+ ... (ii)  [END of proof.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 11 "Thus (1.4) " }{TEXT 311 7 "follows" }{TEXT -1 12 
+" from (1.2)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 317 20 "Further observations" }{TEXT -1 91 ". Sim
+ilarly (1.6) is a joint consequence of (1.2) and (1.3) because of this
+ simple theorem:" }}{PARA 0 "" 0 "" {TEXT -1 4 "Let " }{TEXT 259 1 "n
+" }{TEXT -1 31 " be a natural number such that " }{XPPEDIT 18 0 "2^(n-
+1) = 1;" "6#/)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod \+
+" }{TEXT 257 1 "n" }{TEXT -1 6 ") and " }{XPPEDIT 18 0 "3^(n-1) = 1;" 
+"6#/)\"\"$,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+314 1 "n" }{TEXT -1 8 "), then " }{XPPEDIT 18 0 "6^(n-1) = 1;" "6#/)\"
+\"',&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 318 1 "
+n" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 319 5 "Proof" }{TEXT -1 9 ".  Since " }{XPPEDIT 18 0 "2^(n-1) = \+
+1;" "6#/)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }
+{TEXT 426 1 "n" }{TEXT -1 6 ") and " }{XPPEDIT 18 0 "3^(n-1) = 1;" "6#
+/)\"\"$,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 
+321 1 "n" }{TEXT -1 42 ") then - multiplying both sides - we have:" }}
+{PARA 0 "" 0 "" {TEXT -1 18 "                  " }{XPPEDIT 18 0 "2^(n-
+1)*3^(n-1);" "6#*&)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"F()\"\"$,&F'F(\"\"\"F*
+F(" }{TEXT -1 16 " = 1.1 = 1 (mod " }{TEXT 320 1 "n" }{TEXT -1 10 ")  \+
+... (i)" }}{PARA 0 "" 0 "" {TEXT -1 31 "But (i) can be rewritten as:  \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 16 "                " }{XPPEDIT 18 0 "6^
+(n-1) = 1;" "6#/)\"\"',&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (m
+od " }{TEXT 260 1 "n" }{TEXT -1 28 ")  ... (ii)  [END of proof.]" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "Thus (1.6
+) " }{TEXT 322 7 "follows" }{TEXT -1 22 " from (1.2) and (1.3)." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "It should
+ be immediately clear that there are other connections" }}{PARA 0 "" 
+0 "" {TEXT -1 41 "(which you should be able to prove), e.g." }}{PARA 
+0 "" 0 "" {TEXT -1 32 "(1.8) is a consequence of (1.2)," }}{PARA 0 "" 
+0 "" {TEXT -1 32 "(1.9) is a consequence of (1.3)," }}{PARA 0 "" 0 "" 
+{TEXT -1 43 "(1.10) is a consequence of (1.2) and (1.5)," }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 323 4 "etc." }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 324 7 "Summa
+ry" }{TEXT -1 51 ". It should be clear that our real interest is with
+" }}{PARA 0 "" 0 "" {TEXT -1 6 "those " }{TEXT 325 1 "a" }{TEXT -1 12 
+"'s that are " }{TEXT 326 5 "prime" }{TEXT -1 24 ", and so I proceed w
+ith:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "13&^(n[4] - 1) mod n[4];  # example (1.13)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "17&^(n[4] - 1) mod n[4];  # \+
+example (1.17)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "19&^(n[4]
+ - 1) mod n[4];  # example (1.19)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 7 "Surely " }
+{XPPEDIT 18 0 "n[4];" "6#&%\"nG6#\"\"%" }{TEXT -1 34 " is a prime? Let
+'s try a few more:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 42 "23&^(n[4] - 1) mod n[4];  # example (1.23)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "29&^(n[4] - 1) mod n[4]
+;  # example (1.29)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "31&^
+(n[4] - 1) mod n[4];  # example (1.31)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "37&^(n[4] - 1) mod n[4];  # example (1.37)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 25 "Ah!!!  An output that is " }{TEXT 327 3 "not" }{TEXT -1 
+11 " '1.' That " }{XPPEDIT 18 0 "n[4];" "6#&%\"nG6#\"\"%" }{TEXT -1 4 
+" is " }{TEXT 328 3 "not" }{TEXT -1 18 " prime after all!!" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 329 20 "L
+etting you in on it" }{TEXT -1 3 ".  " }{XPPEDIT 18 0 "n[4];" "6#&%\"n
+G6#\"\"%" }{TEXT -1 114 " is, in fact, the product of the following tw
+o primes, p and q (whose values - as you should see - are connected (
+" }{TEXT 330 3 "how" }{TEXT -1 4 "?)):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "p := 24444516448431392447461;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 29 "q := 48889032896862784894921;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "p*q;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "n[4];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 102 "or if you wish to use the follo
+wing (so as not to be depending on your eye possibly letting you down)
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "is(n[4] = p*q);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 331 32 "Introducing some new terminology" }{TEXT -1 17 ".  That \+
+number - " }{XPPEDIT 18 0 "n[4];" "6#&%\"nG6#\"\"%" }{TEXT -1 102 " - \+
+is an example of a rather special, and rare sort of number. It is an e
+xample of what is known as a " }{TEXT 332 11 "pseudoprime" }{TEXT -1 
+36 " (roughly such a number is one that " }{TEXT 333 11 "isn't prime" 
+}{TEXT -1 2 ", " }{TEXT 334 18 "but which behaves " }{TEXT 335 4 "like
+" }{TEXT 336 4 " one" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 348 14 "More precisely" }{TEXT -1 41 " it is
+ an example of a number which is a " }{TEXT 337 25 "pseudoprime to the
+ bases " }{TEXT 338 1 "2" }{TEXT 339 2 ", " }{TEXT 340 1 "3" }{TEXT 
+341 5 ", 4, " }{TEXT 342 1 "5" }{TEXT 343 5 ", 6, " }{TEXT 344 1 "7" }
+{TEXT 345 11 ", 8, ... , " }{TEXT 346 2 "31" }{TEXT 347 12 ", ... , 36
+, " }{TEXT -1 4 "but " }{TEXT 349 3 "not" }{TEXT -1 16 " to the base 3
+7." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 350 10 "Definition" }{TEXT -1 6 ". Let " }{TEXT 351 1 "n" }
+{TEXT -1 26 " be a natural number with " }{XPPEDIT 18 0 "1 < n;" "6#2
+\"\"\"%\"nG" }{TEXT -1 7 ", then " }{TEXT 353 1 "n" }{TEXT -1 17 " is \+
+said to be a " }{TEXT 354 25 "pseudoprime to the base 2" }{TEXT -1 4 "
+ if:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 
+0 "2^(n-1) = 1;" "6#/)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"" }{TEXT -1 
+6 " (mod " }{TEXT 355 1 "n" }{TEXT -1 6 "), and" }}{PARA 15 "" 0 "" 
+{TEXT 356 1 "n" }{TEXT -1 13 " is composite" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "and here is the general" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 394 10 "Definiti
+on" }{TEXT 371 7 ". Let n" }{TEXT -1 26 " be a natural number with " }
+{XPPEDIT 18 0 "1 < n;" "6#2\"\"\"%\"nG" }{TEXT -1 7 ", then " }{TEXT 
+427 1 "n" }{TEXT -1 17 " is said to be a " }{TEXT 260 25 "pseudoprime \+
+to the base b" }{TEXT -1 4 " if:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {XPPEDIT 18 0 "b^(n-1) = 1;" "6#/)%\"bG,&%\"nG\"\"\"
+\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 261 1 "n" }{TEXT -1 6 "
+), and" }}{PARA 15 "" 0 "" {TEXT 262 1 "n" }{TEXT -1 14 " is composite
+\n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 357 8 "Question" }{TEXT -1 
+16 ".  You gave the " }{XPPEDIT 18 0 "n[4];" "6#&%\"nG6#\"\"%" }{TEXT 
+-1 76 " as an example, could you not have given a smaller example of s
+uch a number?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 358 6 "Answer" }{TEXT -1 20 ". Yes, I could. The \+
+" }{TEXT 359 8 "smallest" }{TEXT -1 89 " example of a pseudoprime to t
+he base 2 (discovered by Sarrus in 1814) is the number 341:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 0 "" }{MPLTEXT 1 
+0 15 "2&^340 mod 341;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "if
+actor(341);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 30 "That discovery came as a real " }{TEXT 
+360 8 "surprise" }{TEXT -1 16 " because it was " }{TEXT 370 8 "believe
+d" }{TEXT -1 50 " - wrongly, as it turned out - that the following " }
+{TEXT 361 16 "partial converse" }{TEXT -1 44 " of Fermat's 'little' th
+eorem was true: Let " }{TEXT 362 1 "n" }{TEXT -1 31 " be a natural num
+ber such that " }{XPPEDIT 18 0 "2^(n-1) = 1;" "6#/)\"\"#,&%\"nG\"\"\"
+\"\"\"!\"\"\"\"\"" }{TEXT -1 6 " (mod " }{TEXT 428 1 "n" }{TEXT -1 8 "
+), then " }{TEXT 363 1 "n" }{TEXT -1 11 " is prime. " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 364 15 "Historical note" }
+{TEXT -1 155 ". Early this century a Chinese manuscript - dating from \+
+the 5th. century B.C. - was discovered in which (and here I have to us
+e our modern notation) it is " }{TEXT 365 8 "asserted" }{TEXT -1 6 " t
+hat " }{TEXT 366 2 "if" }{TEXT -1 1 " " }{TEXT 367 1 "n" }{TEXT -1 9 "
+ divides " }{XPPEDIT 18 0 "2^n-2;" "6#,&)\"\"#%\"nG\"\"\"\"\"#!\"\"" }
+{TEXT -1 1 " " }{TEXT 369 4 "then" }{TEXT -1 1 " " }{TEXT 368 1 "n" }
+{TEXT -1 10 " is prime." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 89 "The connection between those historically separate a
+ssertions/beliefs should be apparent." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 372 23 "Back to the example 3
+41" }{TEXT -1 274 ". Suppose one didn't know that it was composite (be
+ing 11 times 31), but had found the '1' output from applying the 'base
+ 2 Lucas-Fermat test', as I would like to call it. Then, if one had go
+ne on to apply a base 3 Lucas-Fermat test to it, this is what one woul
+d have found:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "3&^340 mod
+ 341;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 49 "and immediately (and much more quickly than wit
+h " }{XPPEDIT 18 0 "n[4];" "6#&%\"nG6#\"\"%" }{TEXT -1 109 " - which r
+esisted, as it were, for so long) one would have known that 341 was no
+t prime, and so is composite." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 373 16 "Important Remark" }{TEXT 
+-1 13 ". There is a " }{TEXT 376 19 "very big difference" }{TEXT -1 9 
+" between " }{TEXT 374 7 "knowing" }{TEXT -1 33 " that a number is not
+ prime, and " }{TEXT 375 11 "knowing how" }{TEXT -1 32 " it factors. W
+hen you study the " }{TEXT 377 35 "RSA public-key cryptographic method
+" }{TEXT -1 64 " you will see how important, and critical a distinctio
+n that is." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 378 26 "                          " }{TEXT 380 20 "Find
+ing pseudoprimes" }{TEXT 379 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 383 44 "I first give a wasteful (from a computat
+ion " }{TEXT 384 4 "time" }{TEXT 385 25 " point of view) procedure" }
+{TEXT -1 30 ", which I call pp2 (short for " }{TEXT 431 1 "p" }{TEXT 
+-1 5 "seudo" }{TEXT 432 1 "p" }{TEXT -1 13 "rime to base " }{TEXT 433 
+1 "2" }{TEXT -1 2 "):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 117 "p
+p2 := proc(n)   \nlocal k;\nfor k from 2 to n do\nif 2&^(k-1) mod k = \+
+1 \nand not isprime(k)   \nthen print(k)\nfi\nod\nend:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+430 13 "Note on usage" }{TEXT -1 82 ". In place of that 'not isprime(k
+)' one could also have used 'isprime(k) = false'." }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 10 "pp2(1000);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 18 "and there are
+ two " }{TEXT 429 8 "wasteful" }{TEXT -1 18 " elements to that:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 29 "the firs
+t one is the obvious " }{TEXT 386 13 "recalculation" }{TEXT -1 5 ", bu
+t" }}{PARA 15 "" 0 "" {TEXT -1 152 "the second one is the checking of \+
+values of 'k' that are divisible by 2: 2, 4, 6, 8, 10, ...\n(why is th
+at 'wasteful', and what could be done about it?)\n" }}{PARA 0 "" 0 "" 
+{TEXT -1 80 "Thus a far more sensible procedure - which I call also ca
+ll pp2, but now with a " }{TEXT 434 6 "second" }{TEXT -1 22 " global v
+ariable - is:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 121 "pp2 := pr
+oc(m, n)   \nlocal k;\nfor k from m to n do\nif 2&^(k-1) mod k = 1 \na
+nd not isprime(k)    \nthen print(k)\nfi\nod\nend:" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "pp2(2, 1000);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pp2(10
+01, 3000);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 44 "And now for some pseudoprimes to the base
+ 3:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 115 "pp3 := proc(m, n)  \+
+\nlocal k;\nfor k from m to n do\nif 3&^(k-1) mod k = 1 and not isprim
+e(k)\nthen print(k)\nfi\nod\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "pp3(1000, 2000);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 102 "And, to avoi
+d a proliferation of procedure names, one can simply resort to somethi
+ng like this with a " }{TEXT 435 5 "third" }{TEXT -1 115 " global vari
+able, in which I have introduced a request to see the factoring of the
+ pseudoprime in the 'print' line:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 129 "pp := proc(a, m, n)  \nlocal k;\nfor k from m to n d
+o\nif a&^(k-1) mod k = 1 and not isprime(k)\nthen print(k, ifactor(k))
+\nfi\nod\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "pp(5, 100
+0, 2000);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 189 "And, noting for example that 1105 is a p
+seudoprime, not just to the base2, but also to the base 3, one could m
+ake a further alteration to the above procedure to search for numbers \+
+that are " }{TEXT 438 3 "sim" }{TEXT -1 49 "ultaneously pseudoprimes t
+o two bases (call it pp" }{TEXT 436 3 "sim" }{TEXT -1 23 ", for obviou
+s reasons):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 162 "ppsim := pr
+oc(a, b, m, n)    \nlocal k;\nfor k from m to n do\nif 2&^(k-1) mod k \+
+= 1 \nand 3&^(k-1) mod k = 1 \nand not isprime(k)\nthen print(k, ifact
+or(k))\nfi\nod\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "pps
+im(2, 3, 1000, 3000);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 186 "It should be clear that one cou
+ld adapt that last procedure so that it produced pseudoprimes (or esta
+blished there were none within certain bounds) to three or more bases \+
+simultaneously." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 396 
+10 "Definition" }{TEXT -1 6 ". Let " }{TEXT 397 1 "n" }{TEXT -1 27 " b
+e a natural number; then " }{TEXT 398 1 "n" }{TEXT -1 17 " is said to \+
+be a " }{TEXT 399 8 "probable" }{TEXT -1 24 " prime to the base 2 if:
+" }}{PARA 0 "" 0 "" {TEXT -1 27 "                           " }
+{XPPEDIT 18 0 "2^(n-1) = 1;" "6#/)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"\"\"\"
+" }{TEXT -1 6 " (mod " }{TEXT 400 1 "n" }{TEXT -1 1 ")" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 401 35 "The \+
+thinking behind that definition" }{TEXT -1 46 ". From Fermat's 'little
+' theorem we know that " }{TEXT 403 2 "if" }{TEXT -1 1 " " }{TEXT 402 
+1 "n" }{TEXT -1 15 " is prime then:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {XPPEDIT 18 0 "1^(n-1);" "6#)\"\"\",&%\"nG\"\"\"\"\"
+\"!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^(n-1);" "6#)\"\"#,&%\"nG\"
+\"\"\"\"\"!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "3^(n-1);" "6#)\"\"$,
+&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 9 ",  ... , " }{XPPEDIT 18 0 "(n-1)
+^(n-1);" "6#),&%\"nG\"\"\"\"\"\"!\"\",&F%F&\"\"\"F(" }{TEXT -1 10 " = \+
+1 (mod " }{TEXT 404 1 "n" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "But what about a converse result? \+
+We know that " }{XPPEDIT 18 0 "1^(n-1);" "6#)\"\"\",&%\"nG\"\"\"\"\"\"
+!\"\"" }{TEXT -1 10 " = 1 (mod " }{TEXT 405 1 "n" }{TEXT -1 6 ") for \+
+" }{TEXT 407 3 "all" }{TEXT -1 1 " " }{TEXT 406 1 "n" }{TEXT -1 62 " (
+prime or not), and so nothing valuable can be deduced about " }{TEXT 
+408 1 "n" }{TEXT -1 18 " from calculating " }{XPPEDIT 18 0 "1^(n-1);" 
+"6#)\"\"\",&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 5 "(mod " }{TEXT 409 1 "
+n" }{TEXT -1 24 "). What, however, about " }{XPPEDIT 18 0 "2^(n-1);" "
+6#)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 6 " (mod " }{TEXT 410 1 "n
+" }{TEXT -1 4 ")?  " }{TEXT 411 5 "Might" }{TEXT -1 17 " it be true th
+at " }{TEXT 412 2 "if" }{TEXT -1 1 " " }{XPPEDIT 18 0 "2^(n-1);" "6#)
+\"\"#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 10 " = 1 (mod " }{TEXT 256 1 
+"n" }{TEXT -1 7 ") then " }{TEXT 413 1 "n" }{TEXT -1 10 " is prime?" }
+}{PARA 0 "" 0 "" {TEXT -1 44 "No!! We know of examples of natural numb
+ers " }{TEXT 414 1 "n" }{TEXT -1 6 " with " }{XPPEDIT 18 0 "2^(n-1);" 
+"6#)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 10 " = 1 (mod " }{TEXT 
+256 1 "n" }{TEXT -1 6 ") but " }{TEXT 415 1 "n" }{TEXT -1 4 " is " }
+{TEXT 416 3 "not" }{TEXT -1 50 " prime (these are the pseudoprimes to \+
+the base 2)." }}{PARA 0 "" 0 "" {TEXT -1 27 "However these examples ar
+e " }{TEXT 417 7 "so rare" }{TEXT -1 19 " that if one tests " }
+{XPPEDIT 18 0 "2^(n-1);" "6#)\"\"#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+6 " (mod " }{TEXT 256 1 "n" }{TEXT -1 40 "), and it comes out to be 1,
+ then it is " }{TEXT 418 15 "highly probable" }{TEXT -1 6 " (but " }
+{TEXT 419 3 "not" }{TEXT -1 14 " certain) that" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 420 1 "n" }{TEXT -1 61 " is prime (a proof or ref
+utation would require further work)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 421 7 "Comment" }{TEXT -1 40 ".
+ Above I gave an example of a number - " }{XPPEDIT 18 0 "n[4];" "6#&%
+\"nG6#\"\"%" }{TEXT -1 24 " - which was not just a " }{TEXT 422 8 "pro
+bable" }{TEXT -1 56 " prime to the base 2, but it was also one to the \+
+base 3," }}{PARA 0 "" 0 "" {TEXT -1 68 "4, 5, 6, 7, 8, 9, ... , 36, bu
+t then it failed on the base 37. Thus " }{XPPEDIT 18 0 "n[4];" "6#&%\"
+nG6#\"\"%" }{TEXT -1 40 " was revealed as being a pseudoprime to " }
+{TEXT 440 29 "quite a few independent bases" }{TEXT -1 18 ", and not a
+ prime." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+52 "I will terminate with an example of another number, " }{XPPEDIT 
+18 0 "77!+1;" "6#,&-%*factorialG6#\"#x\"\"\"\"\"\"F(" }{TEXT -1 2 ": \+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "n[77] := 77! + 1;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 165 "and I will subject it to Lucas-Fermat tests, not just to
+ the bases 2, 3, 5, 7, 11, 13, 17, 19, ... , but to the first 25 prime
+ bases (so, all prime bases up to 100):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "seq(ithprime(k)&^(n[77] - 1) mod n[77], k=1..25);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 22 "All 1's!! Now is that " }{XPPEDIT 18 0 "n[77];" "6#&%\"nG
+6#\"#x" }{TEXT -1 24 " a prime, or is it like " }{XPPEDIT 18 0 "n[4];
+" "6#&%\"nG6#\"\"%" }{TEXT -1 143 " from earlier? It is - as it happen
+s - prime, but you will have to wait until the third year to learn cer
+tain new ideas which will allow us to " }{TEXT 439 5 "prove" }{TEXT 
+-1 40 " that it (and other numbers) is a prime." }}}}{MARK "1 0 0" 8 }
+{VIEWOPTS 1 1 0 1 1 1803 }

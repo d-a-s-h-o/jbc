@@ -1,0 +1,572 @@
+<html>
+<head>
+<title>Egyptian.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark10">
+<p align=left>
+<b><font color=#000080 size=5>The </font></b>
+<i><b><font color=#000080 size=5>odd-greedy algorithm problem</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>We start with a simple numerical observation:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<img src="images/Egyptian239.gif" width=100 height=58 alt="2/7 = 1/4+1/28" align=middle>
+<b><font color=#000080> represents </font></b>
+<img src="images/Egyptian240.gif" width=28 height=58 alt="2/7" align=middle>
+<b><font color=#000080> (which has an </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080> denominator) <br>
+as a sum of unit fractions </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> of whose denominators are </font></b>
+<i><b><font color=#000080>even</font></b></i>
+</li>
+<li>
+<img src="images/Egyptian241.gif" width=212 height=58 alt="2/7 = 1/5+1/13+1/115+1/10465" align=middle>
+<b><font color=#000080> represents the same </font></b>
+<img src="images/Egyptian242.gif" width=28 height=58 alt="2/7" align=middle>
+<b><font color=#000080>  <br>
+as a sum of unit fractions </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> of whose denominators are </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080> </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A natural question to ask is this: if </font></b>
+<img src="images/Egyptian243.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080> is a fraction with an odd denominator, does it have an egyptian fraction representation with all denominators odd? (It is automatic that a fraction - in reduced form - with an even denominator, could </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> have such a representation.)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It has been proved (R. Breusch; see References) that every </font></b>
+<img src="images/Egyptian244.gif" width=28 height=58 alt="a/b" align=middle>
+<b><font color=#000080>, with </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080>, has an egyptian fraction representation in which every denominator is also </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The first of the above representations of </font></b>
+<img src="images/Egyptian245.gif" width=28 height=58 alt="2/7" align=middle>
+<b><font color=#000080> is clearly obtained by applying the </font></b>
+<i><b><font color=#000080>standard greedy</font></b></i>
+<b><font color=#000080> algorithm, but the second representation is obtained by making the following </font></b>
+<i><b><font color=#000080>odd-greedy</font></b></i>
+<b><font color=#000080> modification. Start by asking if we may represent </font></b>
+<img src="images/Egyptian246.gif" width=28 height=58 alt="2/7" align=middle>
+<b><font color=#000080> by:</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian247.gif" width=181 height=58 alt="2/7 = 1/n[1]+1/n[2]+`...`+1/n[r]" align=middle>
+<b><font color=#000080> with </font></b>
+<i><b><font color=#000080>all</font></b></i>
+<b><font color=#000080> the </font></b>
+<img src="images/Egyptian248.gif" width=101 height=32 alt="n[1], n[2], `...`, n[r]" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>odd</font></b></i>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and see how far we can get by </font></b>
+<i><b><font color=#000080>attempting</font></b></i>
+<b><font color=#000080> to use the standard greedy algorithm:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<img src="images/Egyptian249.gif" width=62 height=58 alt="r[0] = 2/7" align=middle>
+<b><font color=#000080> and we </font></b>
+<i><b><font color=#000080>attempt</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Egyptian250.gif" width=112 height=58 alt="n[1] = ceil(1/r[0])" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian251.gif" width=97 height=58 alt="ceil(7/2) = 4" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>even</font></b></i>
+<b><font color=#000080>. Now we attempt the </font></b>
+<i><b><font color=#000080>second closest</font></b></i>
+<b><font color=#000080> unit fraction, the one with denominator 5. So we set:  </font></b>
+<img src="images/Egyptian252.gif" width=61 height=32 alt="n[1] = 5" align=middle>
+<b><font color=#000080>. That leads to </font></b>
+<img src="images/Egyptian253.gif" width=62 height=58 alt="r[0] = 2/7" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian254.gif" width=62 height=58 alt="1/5+r[1]" align=middle>
+<b><font color=#000080> which gives </font></b>
+<img src="images/Egyptian255.gif" width=94 height=58 alt="r[1] = 2/7-1/5" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian256.gif" width=120 height=58 alt="(2.5-7.1)/7.5 = 3/35" align=middle>
+<b><font color=#000080>, and the thing to note is the </font></b>
+<i><b><font color=#000080>increased</font></b></i>
+<b><font color=#000080> numerator (that </font></b>
+<i><b><font color=#000080>novel</font></b></i>
+<b><font color=#000080> behaviour means we now have a problem on our hands...). However, we have </font></b>
+<img src="images/Egyptian257.gif" width=100 height=58 alt="2/7 = 1/5+3/35" align=middle>
+<b><font color=#000080>, and we plough on with the </font></b>
+<img src="images/Egyptian258.gif" width=36 height=58 alt="3/35" align=middle>
+<b><font color=#000080> to see:</font></b>
+</li>
+<li>
+<img src="images/Egyptian259.gif" width=70 height=58 alt="r[1] = 3/35" align=middle>
+<b><font color=#000080> and we </font></b>
+<i><b><font color=#000080>attempt</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Egyptian260.gif" width=112 height=58 alt="n[2] = ceil(1/r[1])" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian261.gif" width=113 height=58 alt="ceil(35/3) = 12" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>even</font></b></i>
+<b><font color=#000080>. So we attempt </font></b>
+<img src="images/Egyptian262.gif" width=69 height=32 alt="n[2] = 13" align=middle>
+<b><font color=#000080>, the next best denominator. That leads to </font></b>
+<img src="images/Egyptian263.gif" width=70 height=58 alt="r[1] = 3/35" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian264.gif" width=70 height=58 alt="1/13+r[2]" align=middle>
+<b><font color=#000080> which gives </font></b>
+<img src="images/Egyptian265.gif" width=110 height=58 alt="r[2] = 3/35-1/13" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian266.gif" width=144 height=58 alt="(3.13-35.1)/35.13 = 4/455" align=middle>
+<b><font color=#000080>, and we note there is yet another </font></b>
+<i><b><font color=#000080>increased</font></b></i>
+<b><font color=#000080> numerator. So far  </font></b>
+<img src="images/Egyptian267.gif" width=148 height=58 alt="2/7 = 1/5+1/13+4/455" align=middle>
+<b><font color=#000080>, and we plough on with </font></b>
+<img src="images/Egyptian268.gif" width=44 height=58 alt="4/455" align=middle>
+<b><font color=#000080> to see:<br>
+</font></b>
+</li>
+<li>
+<img src="images/Egyptian269.gif" width=78 height=58 alt="r[2] = 4/455" align=middle>
+<b><font color=#000080> and we </font></b>
+<i><b><font color=#000080>attempt</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Egyptian270.gif" width=112 height=58 alt="n[3] = ceil(1/r[2])" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian271.gif" width=129 height=58 alt="ceil(455/4) = 114" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>even</font></b></i>
+<b><font color=#000080>. So we attempt </font></b>
+<img src="images/Egyptian272.gif" width=77 height=32 alt="n[3] = 115" align=middle>
+<b><font color=#000080>, the next best denominator. That leads to </font></b>
+<img src="images/Egyptian273.gif" width=78 height=58 alt="r[2] = 4/455" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian274.gif" width=78 height=58 alt="1/115+r[3]" align=middle>
+<b><font color=#000080> which gives </font></b>
+<img src="images/Egyptian275.gif" width=126 height=58 alt="r[4] = 4/455-1/115" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian276.gif" width=176 height=58 alt="(4.115-455.1)/455.115 = 5/52325" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian277.gif" width=60 height=58 alt="1/10465" align=middle>
+<b><font color=#000080>, is a unit fraction (that's </font></b>
+<img src="images/Egyptian278.gif" width=37 height=58 alt="1/n[4]" align=middle>
+<b><font color=#000080>) with an odd denominator!!<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>Thus we have ended up with  </font></b>
+<img src="images/Egyptian279.gif" width=212 height=58 alt="2/7 = 1/5+1/13+1/115+1/10465" align=middle>
+<b><font color=#000080>.<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Advice. Do some examples to get the hang of this modification to the standard greedy algorithm.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>'Doing' </font></b>
+<img src="images/Egyptian280.gif" width=28 height=58 alt="2/3" align=middle>
+<b><font color=#000080> leads to the representation </font></b>
+<img src="images/Egyptian281.gif" width=132 height=58 alt="1/3+1/5+1/9+1/45" align=middle>
+<b><font color=#000080>. Don't allow that </font></b>
+<img src="images/Egyptian282.gif" width=28 height=58 alt="1/3" align=middle>
+<b><font color=#000080> to put you off.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Do these examples: </font></b>
+<img src="images/Egyptian283.gif" width=48 height=58 alt="2/5, 2/9" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Egyptian284.gif" width=36 height=58 alt="3/25" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>The odd-greedy algorithm (unanswered) question is simply this</font></b>
+<b><font color=#000080>: </font></b>
+<b><font color=#000080 size=4><br>
+does the above process always </font></b>
+<i><b><font color=#000080 size=4>terminate</font></b></i>
+<b><font color=#000080 size=4>?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The </font></b>
+<i><b><font color=#000080>point</font></b></i>
+<b><font color=#000080> of that question should be obvious: </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>With the regular greedy algorithm there is the (proven) </font></b>
+<i><b><font color=#000080>decrease</font></b></i>
+<b><font color=#000080> in the successive numerators; it's precisely that which gaurantees the termination<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>   HOWEVER<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>When one attempts the odd-greedy modification, the behaviour of successive denominators can be, and generally is, </font></b>
+<i><b><font color=#000080>quite different</font></b></i>
+<b><font color=#000080>. And while the sequence of successive </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>'s is decreasing (but their integral numerators may not be), there is the prospect that that </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> exist some initial fraction </font></b>
+<img src="images/Egyptian285.gif" width=30 height=32 alt="r[0]" align=middle>
+<b><font color=#000080> which leads to an </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> sequence: </font></b>
+<img src="images/Egyptian286.gif" width=121 height=32 alt="r[1], r[2], r[3], `ad inf`" align=middle>
+<b><font color=#000080> <br>
+See Stan Wagon's email below.</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>   (An interesting elementary question to investigate is: how many fractions (with odd numerator) can one produce for which the greedy and odd-greedy algorithms produce the same output. For example, </font></b>
+<img src="images/Egyptian287.gif" width=148 height=58 alt="3/7 = 1/3+1/11+1/231" align=middle>
+<b><font color=#000080> is produced by both.)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I have adapted our earlier ordinary greedy algorithm to put the above </font></b>
+<b><font color=#000080 size=4>odd greedy</font></b>
+<b><font color=#000080> approach into effect. I </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> write a more sophisticated one (one, for example that would reject an input 'R' which didn't have an odd numerator), but I want to keep everything to a minimum.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080> The thinking behing the lines should be obvious to anyone who has done hand examples.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt := proc(R) <br>
+local r, n, k; r[0] := R:<br>
+if ceil(1/r[0]) mod 2 = 1 then n[1] := ceil(1/r[0]); <br>
+   else n[1] := ceil(1/r[0]) + 1; <br>
+fi: r[1] := r[0] - 1/n[1]; <br>
+for k from 2 while r[k-1] &lt;&gt; 0 do<br>
+if ceil(1/r[k-1]) &lt;= n[k-1] then n[k] := n[k-1] + 2;<br>
+   elif ceil(1/r[k-1]) mod 2 = 1 then n[k] := ceil(1/r[k-1]); <br>
+   else n[k] := ceil(1/r[k-1])+1;<br>
+fi;  r[k] := r[k-1] - 1/n[k];<br>
+od: seq(1/n[j], j=1..k-1); end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt(2/7); # the above initial example</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian288.gif" width=128 height=45 alt="1/5, 1/13, 1/115, 1/10465">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt(8/9);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian289.gif" width=232 height=45 alt="1/3, 1/5, 1/7, 1/9, 1/11, 1/95, 1/6585, 1/28901565">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt(14/15);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian290.gif" width=464 height=45 alt="1/3, 1/5, 1/7, 1/9, 1/11, 1/19, 1/403, 1/103237, 1/...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt(3/13);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian291.gif" width=88 height=45 alt="1/5, 1/33, 1/2145">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Some small numerator examples (producing smallish denominators) are:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt(2/3);<br>
+odd_egypt(2/5);<br>
+odd_egypt(2/9);<br>
+odd_egypt(3/5);<br>
+odd_egypt(3/7);<br>
+odd_egypt(3/11);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian292.gif" width=80 height=45 alt="1/3, 1/5, 1/9, 1/45">
+</p>
+<p align=center>
+<img src="images/Egyptian293.gif" width=48 height=45 alt="1/3, 1/15">
+</p>
+<p align=center>
+<img src="images/Egyptian294.gif" width=48 height=45 alt="1/5, 1/45">
+</p>
+<p align=center>
+<img src="images/Egyptian295.gif" width=64 height=45 alt="1/3, 1/5, 1/15">
+</p>
+<p align=center>
+<img src="images/Egyptian296.gif" width=80 height=45 alt="1/3, 1/11, 1/231">
+</p>
+<p align=center>
+<img src="images/Egyptian297.gif" width=80 height=45 alt="1/5, 1/15, 1/165">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Some small numerator examples that produce large denominators are:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>odd_egypt(2/11);<br>
+odd_egypt(2/19);<br>
+odd_egypt(2/23);<br>
+odd_egypt(3/17);<br>
+odd_egypt(3/23);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian298.gif" width=416 height=45 alt="1/7, 1/27, 1/521, 1/216633, 1/39107997275, 1/305887...">
+</p>
+<p align=center>
+<img src="images/Egyptian299.gif" width=536 height=45 alt="1/11, 1/71, 1/3711, 1/11013507, 1/101081102685701, ...">
+</p>
+<p align=center>
+<img src="images/Egyptian300.gif" width=568 height=45 alt="1/13, 1/101, 1/7551, 1/45606531, 1/1733296345938437...">
+</p>
+<p align=center>
+<img src="images/Egyptian301.gif" width=240 height=45 alt="1/7, 1/31, 1/739, 1/454363, 1/176953033439">
+</p>
+<p align=center>
+<img src="images/Egyptian302.gif" width=272 height=45 alt="1/9, 1/53, 1/2195, 1/6020337, 1/48325937437755">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In October 1996, Stan Wagon announced a </font></b>
+<i><b><font color=#000080>quite extraordinary numerical discovery</font></b></i>
+<b><font color=#000080>: Here are two emails of Wagon's (in the public domain) which capture the excitement of his discovery:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Date:       Sat, 12 Oct 1996 17:05:31 -0700 (PDT)<br>
+From:       WAGON@thuban.ac.hmc.edu<br>
+Subject:    Odd Greediness<br>
+To:            eppstein@ics.uci.edu<br>
+-----------------------------------------------------------------<br>
+I am busily updating my Egyptian fraction algorithms for a revision of MinA. I was testing your heuristic for the Odd Greedy, when I discovered  3/179. Odd Greedy does not do well on this at all. In fact, I have not completed the representation. So far I am at a term with 55,000 digits. The number of digits is doubleing at each stage. I hesitate to suggest that this might be a counterexample...... stan wagon<br>
+<br>
+Date:       Sun, 13 Oct 1996 12:11:32 -0700 (PDT)<br>
+From:       WAGON@thuban.ac.hmc.edu<br>
+Subject:   an amazing Egyptian fraction<br>
+To:           Klee, Campbell, Guy, Eppstein, Wellin<br>
+------------------------------------------------------------------<br>
+The number 3/179 has a rather amazing output when the greedy odd Egyptian fraction algorithm is tried out on it. Recall that it is a famous open question whether </font></b>
+<b><font color=#000080 size=2>ODD GREEDY</font></b>
+<b><font color=#000080> always halts. On 3/179 the algorithm produces 19 terms, the last of which has 439492 digits!!! Takes a little under an hour for my computer to get this. </font></b>
+<b><font color=#000080 size=2>AND</font></b>
+<b><font color=#000080> the sequence of numerators of the remainders is </font></b>
+<i><b><font color=#000080>somewhat amazing</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                         3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 1<br>
+Of course, when I saw the 3, 4, 5, 6... I thought I was on to something....could this continue forever? Well, I don't think so.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>-----------------------------------</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Wagon's 439492 digits may be verified with the program above (obviously I won't save it for placing on web site!!): </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># odd_egypt(3/179);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I have modified the earlier odd_egypt procedure to make it stop after a certain number of steps, </font></b>
+<b><font color=#000080 size=2>BOUND </font></b>
+<b><font color=#000080>(I've simply removed the 'while' line and replaced it with "for k from 2 to </font></b>
+<b><font color=#000080 size=2>BOUND</font></b>
+<b><font color=#000080> do"):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>stop_odd_egypt := proc(R, BOUND) <br>
+local r, n, k; r[0] := R:<br>
+if ceil(1/r[0]) mod 2 = 1 then n[1] := ceil(1/r[0]); <br>
+   else n[1] := ceil(1/r[0]) + 1; <br>
+fi: r[1] := r[0] - 1/n[1]; <br>
+for k from 2 to BOUND do<br>
+if ceil(1/r[k-1]) &lt;= n[k-1] then n[k] := n[k-1] + 2;<br>
+   elif ceil(1/r[k-1]) mod 2 = 1 then n[k] := ceil(1/r[k-1]); <br>
+   else n[k] := ceil(1/r[k-1])+1;<br>
+fi; r[k] := r[k-1] - 1/n[k];<br>
+od: <br>
+print(seq(1/n[j], j = 1..k-1));<br>
+lprint(`See the numerators, including the initial one:`);<br>
+seq(numer(r[j]), j=0..BOUND); end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>stop_odd_egypt(3/179, 5);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian303.gif" width=480 height=45 alt="1/61, 1/2731, 1/5963959, 1/29640666497443, 1/753059...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`See the numerators, including the initial one:`</font></pre></tt></b>
+</p>
+<p align=center>
+<img src="images/Egyptian304.gif" width=104 height=20 alt="3, 4, 5, 6, 7, 8">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>You may verify the first few by hand:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Egyptian305.gif" width=178 height=82 alt="ceil(1/(3/179)) = ceil(179/3)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian306.gif" width=141 height=58 alt="ceil(59+2/3) = 60" align=middle>
+<b><font color=#000080>, is even, so go to denominator 61<br>
+Then </font></b>
+<img src="images/Egyptian307.gif" width=192 height=58 alt="3/179-1/61 = (3.61-179.1)/179.61" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian308.gif" width=152 height=58 alt="(183-179)/10919 = 4/10919" align=middle>
+<b><font color=#000080>, etc</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>3/179 - 1/61;</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian309.gif" width=56 height=45 alt="4/10919">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>4/10919 - 1/2731;</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian310.gif" width=80 height=45 alt="5/29819789">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>5/29819789 - 1/5963959;</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian311.gif" width=136 height=45 alt="6/177843998984651">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>stop_odd_egypt(3/2879, 4);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian312.gif" width=400 height=45 alt="1/961, 1/691681, 1/382737392929, 1/1220732599546903...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`See the numerators, including the initial one:`</font></pre></tt></b>
+</p>
+<p align=center>
+<img src="images/Egyptian313.gif" width=88 height=20 alt="3, 4, 5, 6, 7">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>stop_odd_egypt(5/5809, 4);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian314.gif" width=432 height=45 alt="1/1163, 1/1125979, 1/1086709195543, 1/1033319766216...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`See the numerators, including the initial one:`</font></pre></tt></b>
+</p>
+<p align=center>
+<img src="images/Egyptian315.gif" width=88 height=20 alt="5, 6, 7, 8, 9">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:04 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

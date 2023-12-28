@@ -1,0 +1,198 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 0 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" 
+-1 -1 "Courier" 1 12 255 0 0 1 0 1 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 
+0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 
+0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 
+3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 
+0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "R3 Font 0" -1 256 1 
+{CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" 
+-1 -1 "Courier" 1 11 0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# gcd_fast.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 13 "Speed of the " }{TEXT 256 19 "Euc
+lidean Algorithm" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "In the Pollar
+d 'Monte Carlo' (also known as '" }{XPPEDIT 18 0 "rho;" "6#%$rhoG" }
+{TEXT -1 9 "-') and '" }{XPPEDIT 18 0 "p-1;" "6#,&%\"pG\"\"\"\"\"\"!\"
+\"" }{TEXT -1 12 "' factoring " }}{PARA 0 "" 0 "" {TEXT -1 75 "methods
+, the Euclidean algorithm for calculating gcd's plays a fundamental " 
+}}{PARA 0 "" 0 "" {TEXT -1 73 "role.  These two remarkable methods hav
+e beautiful ideas at their roots, " }}{PARA 0 "" 0 "" {TEXT -1 71 "but
+ they would be utterly useless (from a computational point of view) " 
+}}{PARA 0 "" 0 "" {TEXT -1 66 "were it not for the SPEED of the Euclid
+ean algorithm, the SPEED at" }}{PARA 0 "" 0 "" {TEXT -1 45 "which the \+
+gcd calculation can be carried out." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 65 "The purpose of this worksheet is to demo
+nstrate the SPEED of the " }}{PARA 0 "" 0 "" {TEXT -1 20 "Euclidean al
+gorithm." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 439 "gcd_and_steps := proc(A, B)\nlocal a, b, r, k, K;\na
+[1] := A:  \nb[1] := B:  \nr[1] := a[1] mod b[1]:\nif r[1] = 0 then \n
+lprint( `the greatest common divisor of `, A, `and `, B,`is`, b[1])\ne
+lse for k from 2 while r[k - 1] <> 0 do\na[k] := b[k - 1]:  \nb[k] := \+
+r[k - 1]:  \nr[k] := a[k] mod b[k]:\nod;\nprint(seq([a[K], b[K], iquo(
+a[K], b[K]), r[K]], K = 1..k - 1)); \nlprint( `the greatest common div
+isor of `, A, `and `, B,`is`, r[k - 2]);\nfi; \nend:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 26 "gcd_and_steps(12321, 121);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6(7&
+\"&@B\"\"$@\"\"$,\"\"$+\"7&F%F'\"\"\"\"#@7&F'F*\"\"%\"#;7&F*F-F)\"\"&7
+&F-F/\"\"$F)7&F/F)F/\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 61 "the greatest
+ common divisor of    12321   and    121   is   1" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "You \+
+should see what the output MEANS:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "The first output, '[12321, 121, 101, 100]
+' is simply recording the" }}{PARA 0 "" 0 "" {TEXT -1 57 "numbers in t
+he FIRST division in the Euclidean algorithm:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "12321 = 121*101 + 100  (a
+[1] = b[1]*q[1] + r[1])," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 45 "followed by the second, third, ... divisions." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "And recal
+l the DIFFICULTY of factoring:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "p
+ := nextprime(1234565432134543);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"pG\"1\"oM@VlXB\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "q := \+
+nextprime(56789876512321);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG\"
+/PB^w)*yc" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "n := p*q;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\">(\\f?9$4*\\GtV=36q" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "# ifactor(n); the clock STAY
+S on, and I have stopped it" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 "You and I can SEE that the
+ ONLY factors of 'n' are 1, p, q and n." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 18 "Now let's do this:" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 33 "P := nextprime(9999565432134543);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"PG\"1pX8Kac****" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 31 "Q := nextprime(88889876512321);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"QG\"/pB^w)*))))" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "N := P*Q;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"NG\"?
+hR)4!3i%f&zRk8g))))" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "# if
+actor(N); I have placed the comment sign before the command" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "              # to prevent e
+xecution " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 72 "Again, you and I can SEE that the ONLY fa
+ctors of 'N' are 1, P, Q and N." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "And, what is the gcd of 'n' and 'N'?  We \+
+can SEE it is '1', because ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 72 "Now to see how FAST the Euclidean algorit
+hm when applied to 'n' and 'N':" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "
+gcd_and_steps(n, N);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6]o7&\">(\\f?9$4
+*\\GtV=36q\"?hR)4!3i%f&zRk8g))))\"\"!F$7&F%F$\"#7\">(**pi4.bg`=>:.`Z7&
+F$F)\"\"\"\">+&*yX+f$*[ZXK]!eA7&F)F,\"\"#\"=(*4p/IK=Q!4q3$pB7&F,F/\"\"
+*\"=F0d.IoG0MP\\sc77&F/F2F+\"=q/7,+k*GjNw$e767&F2F4F+\"<d+X-I/Rsxt69W
+\"7&F4F6\"\"(\"<r+(R)*QjhAra&f.\"7&F6F9F+\";')*z%=SqAYlEcaS7&F9F;F.\";
+*45q%4$4P8QH/D#7&F;F=F+\";())p92t<DTGLT!=7&F=F?F+\":7-avy:>@(4'HY%7&F?
+FA\"\"%\"9R!4$p:9vF&*)[*=7&FAFD\"#B\"9:BV\"y,4He]r/\"7&FDFGF+\"8Cn(yyR
+U[%*Qx%)7&FGFIF+\"8\"fbN*>m1Q;T*>7&FIFKFC\"7gVl8=fd#R#4]7&FKFM\"\"$\"7
+6Df_l)Q.YM\"\\7&FMFPF+\"5\\=1h_qBKz&*7&FPFR\"#^\"57#Q%Q#=\\i\"*z#7&FRF
+UFO\"58suX0&*[$==\"7&FUFWF.\"4'yVp9<q#\\N%7&FWFYF.\"4T'f=D;\\\\3J7&FYF
+enF+\"4XT3&*35KkC\"7&FenFgnF.\"3^8phWrIch7&FgnFinF.\"2V9qr>nq^\"7&FinF
+[o\"#S\"1JOj$fNQ!))7&F[oF^oF+\"17y1yj$oO'7&F^oF`oF+\"1>ec:#**pV#7&F`oF
+boF.\"1uh$p%z$G\\\"7&FboFdoF+\"0X'H'o7;W*7&FdoFfoF+\"0HlIymn[&7&FfoFho
+F+\"0;JK!f%[&R7&FhoFjoF+\"08M)z3#>`\"7&FjoF\\pF.\"/!HcVT+\"*)7&F\\pF^p
+F+\"/Brit;4k7&F^pF`pF+\"/n\"H2u3]#7&F`pFbpF.\"/*yo@>uS\"7&FbpFdpF+\"/y
+.c[X$4\"7&FdpFfpF+\".6%3OkRJ7&FfpFhpFO\".X^t<c^\"7&FhpFjpF.\"-@\"Q\"3%
+3\"7&FjpF\\q\"#8\"-s&R>J1\"7&F\\qF_qF+\"+\\&)>'4#7&F_qFaq\"#]\"+A@,-:7
+&FaqFdqF+\"*Fk=%f7&FdqFfqF.\"*o#ROJ7&FfqFhqF+\"*fra!G7&FhqFjqF+\")4@4L
+7&FjqF\\r\"\")\")(G5e\"7&F\\rF_rF.\"(N:Z\"7&F_rFar\"#5\"(P\\4\"7&FarFd
+rF+\"')fw$7&FdrFfrF.\"'T<M7&FfrFhrF+\"&d[$7&FhrFjrF1\"&G!G7&FjrF\\sF+
+\"%Ho7&F\\sF^sFC\"$7(7&F^sF`sF1\"$@%7&F`sFbsF+\"$\"H7&FbsFdsF+\"$I\"7&
+FdsFfsF.\"#J7&FfsFhsFC\"\"'7&FhsFjs\"\"&F+7&FjsF+FjsF&" }}{PARA 6 "" 
+1 "" {TEXT -1 112 "the greatest common divisor of    70110818437328499
+093142059497   and    888860136439795594620800983961   is   1" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 62 "COMMENT:  What should IMPRESS you (with that and other si
+milar" }}{PARA 0 "" 0 "" {TEXT -1 72 "calculations) is that whereas th
+e factoring of 'n' or 'N' is SLOW, their" }}{PARA 0 "" 0 "" {TEXT -1 
+39 "gcd can be calculated ALMOST INSTANTLY." }{MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 89 "array([ [(n+1)^5, 2^n, (n+1)
+^5 - 2^n],\n    seq([(n+1)^5, 2^n, (n+1)^5 - 2^n], n=1..5) ]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7(7%*$),&%\"nG\"\"\"F,F,\"
+\"&\"\"\")\"\"#F+,&F(F,F/!\"\"7%\"#KF0\"#I7%\"$V#\"\"%\"$R#7%\"%C5\"\"
+)\"%;57%\"%DJ\"#;\"%4J7%\"%wxF4\"%Wx" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 503 "see_gcd_steps := proc(A, B)\nlocal a, b, r, k, K;\na
+[1] := A: b[1] := B: r[1] := a[1] mod b[1]:\nif r[1] = 0 then \nlprint
+( `the greatest common divisor of `, A, `and `, B,`is`, b[1])\nelse fo
+r k from 2 while r[k - 1] <> 0 do\na[k] := b[k - 1]: b[k] := r[k - 1]:
+ r[k] := a[k] mod b[k]:\nod;\nprint(array([[a, `divided by b` , `goes \+
+q times`, `leaves remainder r`],\n   seq([a[K], b[K], iquo(a[K], b[K])
+, r[K]], K = 1..k - 1) ]));\nlprint( `the greatest common divisor of `
+, A, `and `, B,`is`, r[k - 2]);\nfi; \nend:" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "see_
+gcd_steps(28, 12);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7%7&
+%\"aG%-divided~by~bG%-goes~q~timesG%3leaves~remainder~rG7&\"#G\"#7\"\"
+#\"\"%7&F.F0\"\"$\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 57 "the greatest co
+mmon divisor of    28   and    12   is   4" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "see_gcd_steps(281, 112);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'matrixG6#7(7&%\"aG%-divided~by~bG%-goes~q~timesG%3le
+aves~remainder~rG7&\"$\"G\"$7\"\"\"#\"#d7&F.F0\"\"\"\"#b7&F0F3F2F/7&F3
+F/\"#FF27&F/F2F/\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 59 "the greatest com
+mon divisor of    281   and    112   is   1" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 26 "see_gcd_steps(2811, 1211);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'matrixG6#7*7&%\"aG%-divided~by~bG%-goes~q~timesG%3le
+aves~remainder~rG7&\"%6G\"%67\"\"#\"$*Q7&F.F0\"\"$\"#W7&F0F3\"\")\"#P7
+&F3F6\"\"\"\"\"(7&F6F9\"\"&F/7&F9F/F2F87&F/F8F/\"\"!" }}{PARA 6 "" 1 "
+" {TEXT -1 61 "the greatest common divisor of    2811   and    1211   \+
+is   1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^2
+2 - 1, 2^11 - 1);" }}{PARA 6 "" 1 "" {TEXT -1 67 "the greatest common \+
+divisor of    4194303   and    2047   is   2047" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^23 - 1, 2^11 - 1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7%7&%\"aG%-divided~by~bG%-goes~q
+~timesG%3leaves~remainder~rG7&\"(2')Q)\"%Z?\"%)4%\"\"\"7&F.F0F.\"\"!" 
+}}{PARA 6 "" 1 "" {TEXT -1 64 "the greatest common divisor of    83886
+07   and    2047   is   1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+34 "see_gcd_steps(2^24 - 1, 2^11 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%'matrixG6#7&7&%\"aG%-divided~by~bG%-goes~q~timesG%3leaves~rema
+inder~rG7&\"):sx;\"%Z?\"%'>)\"\"$7&F.F0\"$#o\"\"\"7&F0F3F0\"\"!" }}
+{PARA 6 "" 1 "" {TEXT -1 65 "the greatest common divisor of    1677721
+5   and    2047   is   1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 
+"see_gcd_steps(2^25 - 1, 2^11 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%'matrixG6#7'7&%\"aG%-divided~by~bG%-goes~q~timesG%3leaves~remainder
+~rG7&\")JWbL\"%Z?\"&#R;\"\"(7&F.F0\"$#H\"\"$7&F0F3\"\"#\"\"\"7&F3F6F3
+\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 65 "the greatest common divisor of  \+
+  33554431   and    2047   is   1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "see_gcd_steps(2^26 - 1, 2^11 - 1);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'matrixG6#7'7&%\"aG%-divided~by~bG%-goes~q~timesG%3
+leaves~remainder~rG7&\")j)3r'\"%Z?\"&%yK\"#:7&F.F0\"$O\"\"\"(7&F0F3\"
+\"#\"\"\"7&F3F6F3\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 65 "the greatest co
+mmon divisor of    67108863   and    2047   is   1" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^27 - 1, 2^11 - 1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7&7&%\"aG%-divided~by~bG%-
+goes~q~timesG%3leaves~remainder~rG7&\"*Fx@M\"\"%Z?\"&ob'\"#J7&F.F0\"#m
+\"\"\"7&F0F3F0\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 66 "the greatest commo
+n divisor of    134217727   and    2047   is   1" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^28 - 1, 2^11 - 1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7'7&%\"aG%-divided~by~bG%-goes~q
+~timesG%3leaves~remainder~rG7&\"*baVo#\"%Z?\"'O68\"#j7&F.F0\"#K\"#J7&F
+0F3\"\"#\"\"\"7&F3F6F3\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 66 "the greate
+st common divisor of    268435455   and    2047   is   1" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^29 - 1, 2^11 - 1);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7(7&%\"aG%-divided~by~
+bG%-goes~q~timesG%3leaves~remainder~rG7&\"*64(o`\"%Z?\"'sAE\"$F\"7&F.F
+0\"#;\"#:7&F0F3\"\")\"\"(7&F3F6\"\"#\"\"\"7&F6F9F6\"\"!" }}{PARA 6 "" 
+1 "" {TEXT -1 66 "the greatest common divisor of    536870911   and   \+
+ 2047   is   1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "see_gcd_s
+teps(2^30 - 1, 2^11 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrix
+G6#7(7&%\"aG%-divided~by~bG%-goes~q~timesG%3leaves~remainder~rG7&\"+B=
+ut5\"%Z?\"'WX_\"$b#7&F.F0\"\")\"\"(7&F0F3\"#O\"\"$7&F3F6\"\"#\"\"\"7&F
+6F9F6\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 67 "the greatest common divisor
+ of    1073741823   and    2047   is   1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "see_gcd_steps(2^31 - 1, 2^11 - 1);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'matrixG6#7'7&%\"aG%-divided~by~bG%-goes~q~timesG%3
+leaves~remainder~rG7&\"+ZO[Z@\"%Z?\"()3\\5\"$6&7&F.F0\"\"%\"\"$7&F0F3
+\"$q\"\"\"\"7&F3F6F3\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 67 "the greatest
+ common divisor of    2147483647   and    2047   is   1" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^32 - 1, 2^11 - 1);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7&7&%\"aG%-divided~by~
+bG%-goes~q~timesG%3leaves~remainder~rG7&\"+&Hn\\H%\"%Z?\"(w\")4#\"%B57
+&F.F0\"\"#\"\"\"7&F0F3F0\"\"!" }}{PARA 6 "" 1 "" {TEXT -1 67 "the grea
+test common divisor of    4294967295   and    2047   is   1" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "see_gcd_steps(2^33 - 1, 2^11
+ - 1);" }}{PARA 6 "" 1 "" {TEXT -1 70 "the greatest common divisor of \+
+   8589934591   and    2047   is   2047" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "19 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

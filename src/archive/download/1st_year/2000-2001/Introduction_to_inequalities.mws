@@ -1,0 +1,391 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 1 18 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 285 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 297 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 301 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+309 "" 1 18 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+313 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+329 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+333 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+341 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 348 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+349 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+353 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 
+0 0 128 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "" 0 257 1 {CSTYLE "" -1 -1 
+"" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 260 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "# Introduction to in
+equalities.mws" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "restart; \+
+" }}}{EXCHG {PARA 257 "" 0 "" {TEXT -1 57 "An introduction to 'Inequal
+ities' for first year students" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 44 "I have three aims in this 'Maple workshee
+t':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 51 "t
+o introduce the fascinating mathematical topic of " }{TEXT 256 12 "Ine
+qualities" }}{PARA 15 "" 0 "" {TEXT -1 46 "to expose you to some relat
+ed Maple techniques" }}{PARA 15 "" 0 "" {TEXT -1 52 "to suggest certai
+n inequality type problems for you\n" }{TEXT 264 23 "to actively think
+ about" }{TEXT -1 37 " for discussion in follow up classes\n" }}{PARA 
+0 "" 0 "" {TEXT -1 11 "What is an " }{TEXT 257 10 "inequality" }{TEXT 
+-1 98 "? There are many, many different types of inequalities, and her
+e I aim only to convey a flavour.\n\n" }{TEXT 285 4 "Note" }{TEXT -1 
+62 ". I wish to emphasise that the purpose of today's exercise is " }
+{TEXT 310 16 "not neccessarily" }{TEXT -1 31 " to arrive at any conclu
+sions, " }{TEXT 311 4 "but " }}{PARA 0 "" 0 "" {TEXT 354 6 "rather" }
+{TEXT -1 118 " to raise certain questions, and get you thinking about \+
+certain things... I begin with a classic tale relating to the " }}
+{PARA 0 "" 0 "" {TEXT -1 33 "invention of the game of chess..." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 260 "" 0 "" {TEXT -1 0 "" }
+{TEXT 308 0 "" }{TEXT 309 21 "A chess board problem" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 108 "Here's an 8 by 8 chess
+ board (don't get distracted by the fancy footwork I used to construct
+ it, though you " }}{PARA 0 "" 0 "" {TEXT -1 65 "might like to cast yo
+ur eye over it and try to figure out what's " }{TEXT 312 8 "going on" 
+}{TEXT -1 2 "):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 262 "colour1
+ := proc(i, j) if i+j mod 2 = 1 \nthen 1 else 0 fi end:\ncolour2 := pr
+oc(i, j) if i+j mod 2 = 1 \nthen 0 else 1 fi end:\nPLOT(seq(seq(POLYGO
+NS(\n        [[i,j], [i-1,j], \n        [i-1,j-1], [i,j-1]], \nCOLOUR(
+RGB,colour1(i,j),colour2(i,j),0)), i=1..8),j=1..8));" }{TEXT -1 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 111 "The story goes that the inventor of Chess so pleased t
+he king - to whom he showed it - that the king offered a " }}{PARA 0 "
+" 0 "" {TEXT -1 107 "reward of whatever the inventor wished... The inv
+entor gave the king a choice; from your granaries give me " }}{PARA 0 
+"" 0 "" {TEXT -1 37 "whichever of the following you wish:\n" }}{PARA 
+15 "" 0 "" {TEXT 299 10 "Choice One" }{TEXT -1 26 ":\n1 grain of wheat
+ on the " }{XPPEDIT 18 0 "1^st;" "6#)\"\"\"%#stG" }{TEXT -1 26 " squar
+e, \n2 grains on the " }{XPPEDIT 18 0 "2^nd;" "6#)\"\"#%#ndG" }{TEXT 
+-1 19 " square, \n4 on the " }{XPPEDIT 18 0 "3^rd;" "6#)\"\"$%#rdG" }
+{TEXT -1 19 " square, \n8 on the " }{XPPEDIT 18 0 "4^th;" "6#)\"\"%%#t
+hG" }{TEXT -1 19 " square,\n16 on the " }{XPPEDIT 18 0 "5^th;" "6#)\"
+\"&%#thG" }{TEXT -1 35 " square, \n... \nand so, in general, " }
+{XPPEDIT 18 0 "2^(k-1);" "6#)\"\"#,&%\"kG\"\"\"\"\"\"!\"\"" }{TEXT -1 
+15 " grains on the " }{XPPEDIT 18 0 "k^th;" "6#)%\"kG%#thG" }{TEXT -1 
+9 " square, " }{TEXT 295 3 "\nk " }{TEXT -1 26 "varying between 1 and \+
+64\n\n" }{TEXT 296 7 "or else" }{TEXT -1 1 "\n" }}{PARA 15 "" 0 "" 
+{TEXT 300 10 "Choice Two" }{TEXT -1 36 ":\n100,000,000,000,000 grains \+
+on the " }{XPPEDIT 18 0 "1^st;" "6#)\"\"\"%#stG" }{TEXT -1 43 " square
+,\n200,000,000,000,000 grains on the " }{XPPEDIT 18 0 "2^nd;" "6#)\"\"
+#%#ndG" }{TEXT -1 36 " square,\n300,000,000,000,000 on the " }
+{XPPEDIT 18 0 "3^rd;" "6#)\"\"$%#rdG" }{TEXT -1 36 " square,\n400,000,
+000,000,000 on the " }{XPPEDIT 18 0 "4^th;" "6#)\"\"%%#thG" }{TEXT -1 
+37 " square,\n500,000,000, 000,000 on the " }{XPPEDIT 18 0 "5^th;" "6#
+)\"\"&%#thG" }{TEXT -1 52 " square,\n...\nand so, in general, 100,000,
+000,000,000" }{TEXT 297 1 "k" }{TEXT -1 16 " grains \non the " }
+{XPPEDIT 18 0 "k^th;" "6#)%\"kG%#thG" }{TEXT -1 8 " square\n" }}{PARA 
+0 "" 0 "" {TEXT 298 8 "Question" }{TEXT -1 110 ". Which choice ought t
+he king have opted for (assuming, let's agree, that he wished to give \+
+the least amount)?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 301 19 "An initial approach" }{TEXT -1 100 ". Let's form the par
+tial totals corresponding to Choices One and Two, to perhaps gain a fe
+eling for " }}{PARA 0 "" 0 "" {TEXT -1 17 "what is going on:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 160 "array([[n, `Choice One part
+ial totals`, \n           `Choice Two partial totals`], \nseq([n, add(
+2^(k-1), k=1..n), add(k*100000000000000, k=1..n)], \nn = 1..20)]);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 41 "As you see the partial totals (up to the " }{XPPEDIT 18 
+0 "20^th;" "6#)\"#?%#thG" }{TEXT -1 81 " square) corresponding to Choi
+ce One are far less than those for Choice Two, and " }}{PARA 0 "" 0 "
+" {TEXT 305 15 "the question is" }{TEXT -1 1 " " }{TEXT 302 41 "does t
+hat continue all the way up to the " }{XPPEDIT 18 0 "64^th;" "6#)\"#k%
+#thG" }{TEXT -1 1 " " }{TEXT 303 7 "square " }{TEXT -1 22 "(or, at lea
+st, at the " }{XPPEDIT 18 0 "64^th;" "6#)\"#k%#thG" }{TEXT -1 1 " " }
+{TEXT 304 6 "square" }{TEXT -1 2 ")?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT 306 40 "That question raises two other questio
+ns" }{TEXT -1 2 ":\n" }}{PARA 15 "" 0 "" {TEXT -1 72 "Corresponding to
+ Choice One, what is the total number (let's \ncall that " }{XPPEDIT 
+18 0 "t[64];" "6#&%\"tG6#\"#k" }{TEXT -1 36 ") of grains up to and inc
+luding the " }{XPPEDIT 18 0 "64^th;" "6#)\"#k%#thG" }{TEXT -1 9 " squa
+re? " }}{PARA 15 "" 0 "" {TEXT -1 72 "Corresponding to Choice Two, wha
+t is the total number (let's \ncall that " }{XPPEDIT 18 0 "T[64];" "6#
+&%\"TG6#\"#k" }{TEXT -1 36 ") of grains up to and including the " }
+{XPPEDIT 18 0 "64^th;" "6#)\"#k%#thG" }{TEXT -1 8 " square?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "and so " }{TEXT 
+327 30 "the real question becomes this" }{TEXT -1 33 ": which of the f
+ollowing it true\n" }}{PARA 15 "" 0 "" {TEXT -1 4 "is  " }{XPPEDIT 18 
+0 "t[64] < T[64];" "6#2&%\"tG6#\"#k&%\"TG6#\"#k" }{TEXT -1 5 "?, or" }
+}{PARA 15 "" 0 "" {TEXT -1 4 "is  " }{XPPEDIT 18 0 "T[64] < t[64];" "6
+#2&%\"TG6#\"#k&%\"tG6#\"#k" }{TEXT -1 6 "?, or " }}{PARA 15 "" 0 "" 
+{TEXT -1 13 "is (perhaps) " }{XPPEDIT 18 0 "t[64] = T[64];" "6#/&%\"tG
+6#\"#k&%\"TG6#\"#k" }{TEXT -1 1 "?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 307 38 "That's for you to actively think about" 
+}{TEXT -1 91 "... (of course, this question gives rise to many, many o
+ther questions, as you will see...)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 75 "And now for a very well-known and beauti
+ful example, the simplest case of \n" }}{PARA 258 "" 0 "" {TEXT -1 1 "
+ " }{TEXT 263 45 "The arithmetic-mean geometric-mean inequality" }}
+{PARA 259 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "Choose \+
+" }{TEXT 314 3 "any" }{TEXT -1 5 " two " }{TEXT 313 8 "positive" }
+{TEXT -1 9 " numbers " }{TEXT 265 1 "a" }{TEXT -1 5 " and " }{TEXT 
+266 1 "b" }{TEXT -1 48 " (not necessarily distinct), and form \n\n1.  \+
+the " }{TEXT 267 15 "arithmetic mean" }{TEXT -1 2 ", " }{XPPEDIT 18 0 
+"A(a,b);" "6#-%\"AG6$%\"aG%\"bG" }{TEXT -1 5 ", of " }{TEXT 273 1 "a" 
+}{TEXT -1 5 " and " }{TEXT 274 1 "b" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "
+(a+b)/2;" "6#*&,&%\"aG\"\"\"%\"bGF&F&\"\"#!\"\"" }{TEXT -1 17 " (that \+
+number is " }{TEXT 329 7 "halfway" }{TEXT -1 9 " between " }{TEXT 269 
+1 "a" }{TEXT -1 5 " and " }{TEXT 270 1 "b" }{TEXT -1 1 ")" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "2.  their " }
+{TEXT 268 14 "geometric mean" }{TEXT -1 1 "," }{TEXT 328 1 " " }
+{XPPEDIT 18 0 "G(a,b);" "6#-%\"GG6$%\"aG%\"bG" }{TEXT -1 6 ",  of " }
+{TEXT 275 1 "a" }{TEXT -1 5 " and " }{TEXT 276 1 "b" }{TEXT -1 2 ", " 
+}{XPPEDIT 18 0 "sqrt(ab);" "6#-%%sqrtG6#%#abG" }{TEXT -1 17 " (that nu
+mber is " }{TEXT 330 9 "somewhere" }{TEXT -1 9 " between " }{TEXT 271 
+1 "a" }{TEXT -1 5 " and " }{TEXT 272 1 "b" }{TEXT -1 24 ": if one thin
+ks \n    of " }{TEXT 320 2 "ab" }{TEXT -1 52 " as being the area of a \+
+rectangle with side lengths " }{TEXT 321 2 "a " }{TEXT -1 4 "and " }
+{TEXT 322 2 "b," }{TEXT -1 6 " then " }{XPPEDIT 18 0 "sqrt(ab)" "6#-%%
+sqrtG6#%#abG" }{TEXT -1 117 " may be thought of as being the side \n  \+
+  length of the square whose area is the same as the rectangle, and wi
+ll lie " }{TEXT 326 9 "somewhere" }{TEXT -1 43 " between the lesser an
+d \n    he greater of " }{TEXT 323 1 "a" }{TEXT -1 5 " and " }{TEXT 
+324 1 "b" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 277 13 "Now, question" }{TEXT -1 9 ": how do " }{XPPEDIT 
+18 0 "A(a,b);" "6#-%\"AG6$%\"aG%\"bG" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "G(a,b);" "6#-%\"GG6$%\"aG%\"bG" }{TEXT -1 18 " compare in size? \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 48 "It is
+ immediately clear that they coincide when " }{XPPEDIT 18 0 "a = b;" "
+6#/%\"aG%\"bG" }{TEXT -1 55 ", and the real interest is in what happen
+s otherwise..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 73 "Let's look at some examples (where I will take some diffe
+rent values for " }{TEXT 278 1 "a" }{TEXT -1 5 " and " }{TEXT 279 1 "b
+" }{TEXT -1 24 "), and please note that " }}{PARA 0 "" 0 "" {TEXT -1 
+106 "everything I am doing here using Maple we could also do by hand, \+
+perhaps with the help of a calculator... " }}{PARA 0 "" 0 "" {TEXT -1 
+98 "(in other words, don't let the technology go to your head, or get \+
+in the way of your thinking...):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "A := (a, b) -> (a + b)/2;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 25 "G := (a, b) -> sqrt(a*b);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Example \+
+1." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "a[1] := 2; b[1] := 4;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "A(a[1], b[1]);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "G(a[1], b[1]);" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 80 "and which - if either - is greater?... So
+, technology aside, what can we say?..." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 10 "Example 2." }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 25 "a[2] := 2.1; b[2] := 3.9;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "A(a[2], b[2]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "G(a[2], b[2]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "and we see that the ar
+ithmetic mean is the greater." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 38 "Example 3 (in which I am choosing the " }
+{TEXT 280 1 "a" }{TEXT -1 13 "-value to be " }{TEXT 282 13 "slightly m
+ore" }{TEXT -1 17 " than 2, and the " }{TEXT 281 1 "b" }{TEXT -1 13 "-
+value to be " }{TEXT 283 13 "slightly less" }{TEXT -1 9 " than 2)." }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "a[3] := 30001/10000; b[3] :
+= 299999/100000;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "A(a[3],
+ b[3]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "G(a[3], b[3]);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 132 "And here we see that?...\n\nSo, let's see (note that -
+ as with most calculators - the following evaluations are automaticall
+y done to " }{TEXT 284 3 "ten" }{TEXT -1 17 " decimal places):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "evalf(a[3]);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "evalf(b[3]);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "evalf(A(a[3], b[3]));" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 21 "evalf(G(a[3], b[3]));" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "And here w
+e see that? ...\n" }}{PARA 0 "" 0 "" {TEXT -1 73 "But now see this (in
+creasing the number of decimal places from 10 to 11):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "evalf(A(a[3], b[3]), 11);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "evalf(G(a[3], b[3]), 11);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 26 "and here we see that ...\n\n" }{TEXT 286 12 "So, questi
+on" }{TEXT -1 6 ": for " }{TEXT 292 3 "all" }{TEXT -1 23 " positive re
+al numbers " }{TEXT 287 1 "a" }{TEXT -1 5 " and " }{TEXT 288 1 "b" }
+{TEXT -1 48 " is it true that their geometric mean is always " }{TEXT 
+289 7 "at most" }{TEXT -1 7 " their " }}{PARA 0 "" 0 "" {TEXT -1 17 "a
+rithmetic mean, " }{TEXT 293 2 "or" }{TEXT -1 23 " are there examples \+
+of " }{TEXT 290 1 "a" }{TEXT -1 5 " and " }{TEXT 291 1 "b" }{TEXT -1 
+69 " for which their arithmetic mean is less than their geometric mean
+?\n\n" }{TEXT 317 29 "So, for all positive numbers " }{TEXT 315 1 "a" 
+}{TEXT 318 5 " and " }{TEXT 316 1 "b" }{TEXT -1 2 ", " }{TEXT 319 2 "i
+s" }{TEXT -1 1 " " }{XPPEDIT 18 0 "sqrt(ab) <= (a+b)/2;" "6#1-%%sqrtG6
+#%#abG*&,&%\"aG\"\"\"%\"bGF+F+\"\"#!\"\"" }{TEXT -1 1 "?" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 325 39 "That, too, is a q
+uestion to think about" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 294 9 "Moving on" }{TEXT -1 78 ", I ask you \+
+to observe that whenever we choose four consecutive whole numbers " }
+{TEXT 258 1 "a" }{TEXT -1 2 ", " }{TEXT 259 1 "b" }{TEXT -1 2 ", " }
+{TEXT 260 1 "c" }{TEXT -1 5 " and " }{TEXT 261 1 "d" }{TEXT -1 24 " - \+
+written in ascending " }}{PARA 0 "" 0 "" {TEXT -1 22 "order of size (a
+nd so " }{XPPEDIT 18 0 "a = n,b = n+1,c = n+2;" "6%/%\"aG%\"nG/%\"bG,&
+F%\"\"\"\"\"\"F)/%\"cG,&F%F)\"\"#F)" }{TEXT -1 5 " and " }{XPPEDIT 18 
+0 "c = n+3;" "6#/%\"cG,&%\"nG\"\"\"\"\"$F'" }{TEXT -1 23 " for some wh
+ole number " }{TEXT 262 1 "n" }{TEXT -1 37 ") - then the sum of the ou
+ter two is " }}{PARA 0 "" 0 "" {TEXT -1 35 "equal to the sum of the in
+ner two: " }{XPPEDIT 18 0 "a+d = b+c;" "6#/,&%\"aG\"\"\"%\"dGF&,&%\"bG
+F&%\"cGF&" }{TEXT -1 24 " (since both are simply " }{XPPEDIT 18 0 "2*n
++3;" "6#,&*&\"\"#\"\"\"%\"nGF&F&\"\"$F&" }{TEXT -1 1 ")" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 44 "Now I ask: which (if
+ either) is the greater " }{XPPEDIT 18 0 "a^2+d^2;" "6#,&*$%\"aG\"\"#
+\"\"\"*$%\"dG\"\"#F'" }{TEXT -1 4 " or " }{XPPEDIT 18 0 "b^2+c^2;" "6#
+,&*$%\"bG\"\"#\"\"\"*$%\"cG\"\"#F'" }{TEXT -1 1 "?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "We could try some example
+s, just to get a feeling for what might be going on:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 42 "n := 1:\nn^2 + (n+3)^2; (n+1)^2 + (n+2)^2
+; " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "n := 2:\nn^2 + (n+3)^
+2; (n+1)^2 + (n+2)^2; " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "n
+ := 3:\nn^2 + (n+3)^2; (n+1)^2 + (n+2)^2; " }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 42 "n := 4:\nn^2 + (n+3)^2; (n+1)^2 + (n+2)^2; " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 62 "So what result is suggested? Can we give a proof of our g
+uess?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 333 24 
+"Another type of question" }{TEXT -1 7 ".  Let " }{TEXT 332 1 "L" }
+{TEXT -1 29 " be a line segment of length " }{TEXT 334 1 "l" }{TEXT 
+-1 68 " (and here a piece of string comes in very handy; I hope I reme
+mber " }}{PARA 0 "" 0 "" {TEXT -1 109 "to bring some string into class
+, and get some for yourself), and imagine many, many triangles with pe
+rimeter " }{TEXT 335 1 "l" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT 336 8 "Question" }{TEXT -1 43 ". Of all p
+ossible triangles with perimeter " }{TEXT 337 1 "l" }{TEXT -1 9 ", whi
+ch (" }{TEXT 341 6 "if any" }{TEXT -1 23 ") of them encloses the " }
+{TEXT 338 8 "greatest" }{TEXT -1 38 " area? (and why do we not really \+
+have " }}{PARA 0 "" 0 "" {TEXT -1 39 "an interesting problem if we rep
+lace ' " }{TEXT 339 8 "greatest" }{TEXT -1 10 " ' with ' " }{TEXT 340 
+5 "least" }{TEXT -1 4 " '?)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 78 "I hope to play with string during class contact
+, and just see how that goes..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 12 "This is the " }{TEXT 342 14 "isoperimetri
+c " }{TEXT -1 27 "(meaning, equal perimeter) " }{TEXT 343 7 "problem" 
+}{TEXT -1 15 " for triangles." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 105 "And what about the isoperimetric problem
+ for quadrilaterals? Imagine many, many 4-sided figures... Play!!" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 344 24 "Another \+
+type of question" }{TEXT -1 6 ": Let " }{TEXT 345 1 "C" }{TEXT -1 22 "
+ be a (fixed) circle; " }{TEXT 347 5 "where" }{TEXT -1 53 " (if anywhe
+re) should three points be located inside " }}{PARA 0 "" 0 "" {TEXT 
+-1 6 "or on " }{TEXT 346 1 "C" }{TEXT -1 93 ", so as to maximise the a
+rea of the corresponding triangle? And what about the corresponding " 
+}}{PARA 0 "" 0 "" {TEXT -1 38 "problem with 4 (5, 6, 7, ... ) points?
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 104 "In p
+assing I mention a much more subtle one: choose any four consecutive n
+umbers (not necessarily whole " }}{PARA 0 "" 0 "" {TEXT -1 37 "numbers
+). E.g., choose 2, 3, 4 and 5." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "Now " }{XPPEDIT 18 0 "2^x+5^x = 3^x+4^x;" 
+"6#/,&)\"\"#%\"xG\"\"\")\"\"&F'F(,&)\"\"$F'F()\"\"%F'F(" }{TEXT -1 5 "
+ for " }{XPPEDIT 18 0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "x = 1;" "6#/%\"xG\"\"\"" }{TEXT -1 33 ". But what about
+ other values of " }{TEXT 331 1 "x" }{TEXT -1 30 " (and not just whole
+ numbers)?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 74 "Meaning? Well, which of the following, for example, is (perhaps
+) greater:\n" }}{PARA 0 "" 0 "" {TEXT -1 18 "                  " }
+{XPPEDIT 18 0 "2^.5+5^.5;" "6#,&)\"\"#$\"\"&!\"\"\"\"\")\"\"&$\"\"&!\"
+\"F)" }{TEXT -1 11 "     or    " }{XPPEDIT 18 0 "3^.5+4^.5;" "6#,&)\"
+\"$$\"\"&!\"\"\"\"\")\"\"%$\"\"&!\"\"F)" }{TEXT -1 19 " ?\n\n         \+
+      " }{XPPEDIT 18 0 "2^(3/2)+5^(3/2);" "6#,&)\"\"#*&\"\"$\"\"\"\"\"
+#!\"\"F()\"\"&*&\"\"$F(\"\"#F*F(" }{TEXT -1 8 "  or    " }{XPPEDIT 18 
+0 "3^(3/2)+4^(3/2);" "6#,&)\"\"$*&\"\"$\"\"\"\"\"#!\"\"F()\"\"%*&\"\"$
+F(\"\"#F*F(" }{TEXT -1 2 " ?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 12 "            " }{XPPEDIT 18 0 "2^(-.1)+5^(-.1);
+" "6#,&)\"\"#,$$\"\"\"!\"\"!\"\"\"\"\")\"\"&,$$\"\"\"!\"\"F*F+" }
+{TEXT -1 10 "   or     " }{XPPEDIT 18 0 "3^(-.1)+4^(-.1);" "6#,&)\"\"$
+,$$\"\"\"!\"\"!\"\"\"\"\")\"\"%,$$\"\"\"!\"\"F*F+" }{TEXT -1 2 " ?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "         \+
+       " }{XPPEDIT 18 0 "2^Pi+5^Pi;" "6#,&)\"\"#%#PiG\"\"\")\"\"&F&F'
+" }{TEXT -1 15 "       or      " }{XPPEDIT 18 0 "3^Pi+4^Pi;" "6#,&)\"
+\"$%#PiG\"\"\")\"\"%F&F'" }{TEXT -1 8 " ?\n\netc." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "A quick plot shows someth
+ing interesting:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(pl
+ots):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 159 "p1 := plot(2^x + \+
+5^x, x = (-.5)..1.5, \ncolour = navy, thickness = 2):\np2 := plot(3^x \+
++ 4^x, x = (-.5)..1.5, \ncolour = green, thickness = 2):\ndisplay([p1,
+ p2]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 12 "You see how " }{TEXT 350 5 "close" }{TEXT -1 
+15 " the values of " }{XPPEDIT 18 0 "2^x+5^x;" "6#,&)\"\"#%\"xG\"\"\")
+\"\"&F&F'" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "3^x+4^x;" "6#,&)\"\"$%
+\"xG\"\"\")\"\"%F&F'" }{TEXT -1 1 " " }{TEXT 351 6 "appear" }{TEXT -1 
+1 " " }{TEXT 352 0 "" }{TEXT -1 49 "to be (at least in the middle rang
+e of values of " }{TEXT 353 1 "x" }{TEXT -1 4 ")..." }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 155 "p3 := plot(2^x + 5^x, x = .2..(.5), \nco
+lour = navy, thickness = 2):\np4 := plot(3^x + 4^x, x = .2..(.5), \nco
+lour = green, thickness = 2):\ndisplay([p3, p4]);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+163 "p5 := plot(2^x + 5^x, x = (-.5)..(-.1), \ncolour = navy, thicknes
+s = 2):\np6 := plot(3^x + 4^x, x = (-.5)..(-.1), \ncolour = green, thi
+ckness = 2):\ndisplay([p5, p6]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 23 "Here one migh
+t quickly " }{TEXT 348 7 "suspect" }{TEXT -1 29 " the following inequa
+lities:\n" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "2^x+5^x < \+
+3^x+4^x;" "6#2,&)\"\"#%\"xG\"\"\")\"\"&F'F(,&)\"\"$F'F()\"\"%F'F(" }
+{TEXT -1 10 " whenever " }{XPPEDIT 18 0 "0 < x;" "6#2\"\"!%\"xG" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "x < 1;" "6#2%\"xG\"\"\"" }{TEXT -1 
+3 ",\n\n" }{TEXT 349 3 "but" }{TEXT -1 1 "\n" }}{PARA 15 "" 0 "" 
+{TEXT -1 0 "" }{XPPEDIT 18 0 "3^x+4^x < 2^x+5^x;" "6#2,&)\"\"$%\"xG\"
+\"\")\"\"%F'F(,&)\"\"#F'F()\"\"&F'F(" }{TEXT -1 11 "  whenever " }
+{XPPEDIT 18 0 "x < 0;" "6#2%\"xG\"\"!" }{TEXT -1 4 " or " }{XPPEDIT 
+18 0 "1 < x;" "6#2\"\"\"%\"xG" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 117 "Indeed, these happen to be tru
+e, but it is not at all easy to prove that they are. Finally, of all t
+he above topics, " }}{PARA 0 "" 0 "" {TEXT -1 102 "the one I would mos
+t like you to think about for our next class together is the chess rel
+ated problem." }}}}{MARK "44 0 0" 44 }{VIEWOPTS 1 1 0 1 1 1803 }

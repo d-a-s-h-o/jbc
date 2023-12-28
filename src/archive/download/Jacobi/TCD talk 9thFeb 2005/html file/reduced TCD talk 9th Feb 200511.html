@@ -1,0 +1,821 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark11">
+<p align=left>
+<b><font color=#000080 size=4>You like quadratics? Here's 7 more</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The following '7 quadratics' work was done on the morning of 5th Jan 2005 (my 59th birthday)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The seven quadratics given here are those whose prime values produce the </font></b>
+<b><font color=#000080 size=4>even squares</font></b>
+<b><font color=#000080> in the </font></b>
+<i><b><font color=#000080>cubes-squares</font></b></i>
+<b><font color=#000080> relationship, in the sense that:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Theorem</font></b>
+<b><font color=#000080>. ...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P[1,3] := proc(p) local r, k; r := 1;<br>
+for k from 2 to (p-1)/3 do<br>
+r := mods(r*k, p) od; r; end: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>poly0 := 108*R^2 + 1; # r = 2*R in 1+27*r^2<br>
+a0 := 108; b0 := 0; c0 := 1;<br>
+Delta0 := b0^2 - 4*a0*c0;<br>
+sqrt(Delta0);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005362.gif" width=150 height=29 alt="poly0 := 108*R^2+1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005363.gif" width=78 height=20 alt="a0 := 108">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005364.gif" width=62 height=20 alt="b0 := 0">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005365.gif" width=61 height=20 alt="c0 := 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005366.gif" width=87 height=20 alt="Delta0 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005367.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>I need to solve<br>
+<br>
+(1) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005368.gif" width=119 height=50 alt="1+27*r^2 = 7*p" align=middle>
+<b><font color=#000080>, subject to </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even</font></b>
+<b><font color=#000080>. So, I need </font></b>
+<i><b><font color=#000080>R</font></b></i>
+<b><font color=#000080> (mod 7), then </font></b>
+<i><b><font color=#000080>r = 2W </font></b></i>
+<b><font color=#000080><br>
+</font></b>
+<b><font color=#000080 size=4>  (2) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005369.gif" width=127 height=50 alt="1+27*r^2 = 13*p" align=middle>
+<b><font color=#000080>, subject to </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even</font></b>
+<b><font color=#000080>. So, I need </font></b>
+<i><b><font color=#000080>R</font></b></i>
+<b><font color=#000080> (mod 13), then </font></b>
+<i><b><font color=#000080>r = 2W<br>
+</font></b></i>
+<b><font color=#000080 size=4>(3) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005370.gif" width=127 height=50 alt="1+27*r^2 = 19*p" align=middle>
+<b><font color=#000080>, subject to </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>even</font></b>
+<b><font color=#000080>. So, I need </font></b>
+<i><b><font color=#000080>R</font></b></i>
+<b><font color=#000080> (mod 19), then </font></b>
+<i><b><font color=#000080>r = 2W </font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(1) The 7</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> case</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>msolve(1 + 27*(2*W)^2 = 0, 7); # so W=7R+3, 4</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005371.gif" width=142 height=20 alt="{W = 3}, {W = 4}">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> is defined by </font></b>
+<i><b><font color=#000080 size=4>r = 2W = 14R + 6 or 8</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 1:<br>
+poly||i := sort(expand((1+27*(14*R+6)^2)/7)); # r=14*R+6<br>
+a||i := op(1, op(1, poly||i));<br>
+b||i := op(1, op(2, poly||i));<br>
+c||i := op(1, op(3, poly||i));<br>
+Delta||i := b||i^2 - 4*a||i*c||i;<br>
+sqrt(Delta||i);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005372.gif" width=225 height=29 alt="poly1 := 756*R^2+648*R+139">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005373.gif" width=78 height=20 alt="a1 := 756">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005374.gif" width=78 height=20 alt="b1 := 648">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005375.gif" width=77 height=20 alt="c1 := 139">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005376.gif" width=87 height=20 alt="Delta1 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005377.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 2:<br>
+poly||i := sort(expand((1+27*(14*R+8)^2)/7)); # r = 14*R+8<br>
+a||i := op(1, op(1, poly||i));<br>
+b||i := op(1, op(2, poly||i));<br>
+c||i := op(1, op(3, poly||i));<br>
+Delta||i := b||i^2 - 4*a||i*c||i;<br>
+sqrt(Delta||i);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005378.gif" width=225 height=29 alt="poly2 := 756*R^2+864*R+247">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005379.gif" width=78 height=20 alt="a2 := 756">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005380.gif" width=78 height=20 alt="b2 := 864">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005381.gif" width=77 height=20 alt="c2 := 247">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005382.gif" width=87 height=20 alt="Delta2 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005383.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>poly1; poly2;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005384.gif" width=167 height=29 alt="756*R^2+648*R+139">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005385.gif" width=167 height=29 alt="756*R^2+864*R+247">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(2) The 13</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> case</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>msolve(1 + 27*(2*W)^2 = 0, 13); # so W = 13R+4, 9</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005386.gif" width=142 height=20 alt="{W = 4}, {W = 9}">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> is defined by </font></b>
+<i><b><font color=#000080 size=4>r = 2W = 26R + 8 or 18</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 3:<br>
+poly||i := sort(expand((1+27*(26*R+8)^2)/13)); # r = 26*R+8<br>
+factor(poly||i);<br>
+a||i := op(1, op(1, poly||i));<br>
+b||i := op(1, op(2, poly||i));<br>
+c||i := op(1, op(3, poly||i));<br>
+Delta||i := b||i^2 - 4*a||i*c||i;<br>
+sqrt(Delta||i);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005387.gif" width=233 height=29 alt="poly3 := 1404*R^2+864*R+133">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005388.gif" width=175 height=29 alt="1404*R^2+864*R+133">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005389.gif" width=86 height=20 alt="a3 := 1404">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005390.gif" width=78 height=20 alt="b3 := 864">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005391.gif" width=77 height=20 alt="c3 := 133">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005392.gif" width=87 height=20 alt="Delta3 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005393.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 4:<br>
+poly||i := sort(expand((1+27*(26*R+18)^2)/13)); # r = 26R+18<br>
+a||i := op(1, op(1, poly||i));<br>
+b||i := op(1, op(2, poly||i));<br>
+c||i := op(1, op(3, poly||i));<br>
+Delta||i := b||i^2 - 4*a||i*c||i;<br>
+sqrt(Delta||i);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005394.gif" width=241 height=29 alt="poly4 := 1404*R^2+1944*R+673">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005395.gif" width=86 height=20 alt="a4 := 1404">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005396.gif" width=86 height=20 alt="b4 := 1944">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005397.gif" width=77 height=20 alt="c4 := 673">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005398.gif" width=87 height=20 alt="Delta4 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005399.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>poly3; poly4;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005400.gif" width=175 height=29 alt="1404*R^2+864*R+133">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005401.gif" width=183 height=29 alt="1404*R^2+1944*R+673">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(3) The 19</font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> case</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>msolve(1 + 27*(2*W)^2 = 0, 19); # so W = 13R+4, 15</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005402.gif" width=150 height=20 alt="{W = 4}, {W = 15}">
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> is defined by </font></b>
+<i><b><font color=#000080 size=4>r = 2W = 38R + 8 or 30</font></b></i>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 5:<br>
+poly||i := sort(expand((1+27*(38*R+8)^2)/19)); # r = 38*R+8<br>
+a||i := op(1, op(1, poly||i));<br>
+b||i := op(1, op(2, poly||i));<br>
+c||i := op(1, op(3, poly||i));<br>
+Delta||i := b||i^2 - 4*a||i*c||i;<br>
+sqrt(Delta||i);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005403.gif" width=225 height=29 alt="poly5 := 2052*R^2+864*R+91">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005404.gif" width=86 height=20 alt="a5 := 2052">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005405.gif" width=78 height=20 alt="b5 := 864">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005406.gif" width=69 height=20 alt="c5 := 91">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005407.gif" width=87 height=20 alt="Delta5 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005408.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 6:<br>
+poly||i := sort(expand((1+27*(38*R+30)^2)/19)); # r = 38*R+30<br>
+a||i := op(1, op(1, poly||i));<br>
+b||i := op(1, op(2, poly||i));<br>
+c||i := op(1, op(3, poly||i));<br>
+Delta||i := b||i^2 - 4*a||i*c||i;<br>
+sqrt(Delta||i);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005409.gif" width=249 height=29 alt="poly6 := 2052*R^2+3240*R+1279">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005410.gif" width=86 height=20 alt="a6 := 2052">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005411.gif" width=86 height=20 alt="b6 := 3240">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005412.gif" width=85 height=20 alt="c6 := 1279">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005413.gif" width=87 height=20 alt="Delta6 := -432">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005414.gif" width=68 height=23 alt="12*I*sqrt(3)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>poly5; poly6;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005415.gif" width=167 height=29 alt="2052*R^2+864*R+91">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005416.gif" width=191 height=29 alt="2052*R^2+3240*R+1279">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for i from 0 to 6 do [i, poly||i] od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005417.gif" width=122 height=29 alt="[0, 108*R^2+1]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005418.gif" width=197 height=29 alt="[1, 756*R^2+648*R+139]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005419.gif" width=197 height=29 alt="[2, 756*R^2+864*R+247]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005420.gif" width=205 height=29 alt="[3, 1404*R^2+864*R+133]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005421.gif" width=213 height=29 alt="[4, 1404*R^2+1944*R+673]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005422.gif" width=197 height=29 alt="[5, 2052*R^2+864*R+91]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005423.gif" width=221 height=29 alt="[6, 2052*R^2+3240*R+1279]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>The primes in the first of those seven sets of primes {</font></b>
+<i><b><font color=#000080> p</font></b></i>
+<b><font color=#000080> } - the ones generated by </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005424.gif" width=92 height=50 alt="108*R^2+1" align=middle>
+<b><font color=#000080> - are rather special: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>each has the </font></b>
+<b><font color=#000080 size=4>beautiful property</font></b>
+<b><font color=#000080> that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005425.gif" width=141 height=58 alt="P[1,3](p)^3 = (p-1)/2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>i.e. </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005426.gif" width=126 height=36 alt="2*P[1,3](p)^3 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I had observed those primes yesterday (4th Jan), but only now (5th Jan) do they </font></b>
+<i><b><font color=#000080>make sense</font></b></i>
+<b><font color=#000080>, in terms of having that polynomial structure to them.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In terms of the Berndt, Evans, and Williams binomial coefficients theorems in Chapter 9, those primes have the property that</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005427.gif" width=138 height=108 alt="(2*(p-1)/3)!/(((p-1)/3)!^2) = 2" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 0:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R),<br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005428.gif" width=56 height=20 alt="109, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005429.gif" width=56 height=20 alt="433, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005430.gif" width=64 height=20 alt="3889, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005431.gif" width=72 height=20 alt="18253, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005432.gif" width=80 height=20 alt="21169, 14">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005433.gif" width=72 height=20 alt="43201, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005434.gif" width=72 height=20 alt="47629, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005435.gif" width=72 height=20 alt="73009, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005436.gif" width=80 height=20 alt="84673, 24">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 1:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R), <br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005437.gif" width=56 height=20 alt="139, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005438.gif" width=64 height=20 alt="1543, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005439.gif" width=64 height=20 alt="8887, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005440.gif" width=80 height=20 alt="14827, 42">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005441.gif" width=72 height=20 alt="22279, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005442.gif" width=72 height=20 alt="41719, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005443.gif" width=72 height=20 alt="82219, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005444.gif" width=80 height=20 alt="136327, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005445.gif" width=80 height=20 alt="229639, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005446.gif" width=80 height=20 alt="347143, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005447.gif" width=80 height=20 alt="380299, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005448.gif" width=80 height=20 alt="528043, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005449.gif" width=80 height=20 alt="654727, 2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 2:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R), <br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005450.gif" width=64 height=20 alt="1867, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005451.gif" width=64 height=20 alt="4999, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005452.gif" width=64 height=20 alt="9643, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005453.gif" width=72 height=20 alt="32647, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005454.gif" width=72 height=20 alt="69259, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005455.gif" width=80 height=20 alt="183307, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005456.gif" width=80 height=20 alt="233419, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005457.gif" width=80 height=20 alt="319927, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005458.gif" width=80 height=20 alt="385159, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005459.gif" width=80 height=20 alt="456439, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005460.gif" width=80 height=20 alt="574699, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005461.gif" width=80 height=20 alt="661099, 2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 3:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R), <br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005462.gif" width=64 height=20 alt="7477, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005463.gif" width=88 height=20 alt="15361, 320">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005464.gif" width=72 height=20 alt="26053, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005465.gif" width=80 height=20 alt="121633, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005466.gif" width=80 height=20 alt="149173, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005467.gif" width=80 height=20 alt="212677, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005468.gif" width=88 height=20 alt="248641, 40">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005469.gif" width=80 height=20 alt="762721, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005470.gif" width=88 height=20 alt="899233, 38">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005471.gif" width=88 height=20 alt="1046977, 4">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005472.gif" width=88 height=20 alt="1289653, 1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 4:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R), <br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005473.gif" width=56 height=20 alt="673, 8">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005474.gif" width=64 height=20 alt="4021, 3">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005475.gif" width=72 height=20 alt="10177, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005476.gif" width=72 height=20 alt="19141, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005477.gif" width=72 height=20 alt="83077, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005478.gif" width=80 height=20 alt="131893, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005479.gif" width=80 height=20 alt="303073, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005480.gif" width=80 height=20 alt="345733, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005481.gif" width=80 height=20 alt="660661, 1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005482.gif" width=88 height=20 alt="722977, 16">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005483.gif" width=88 height=20 alt="1155841, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005484.gif" width=88 height=20 alt="1237813, 3">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005485.gif" width=88 height=20 alt="1322593, 6">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 5:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R), <br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005486.gif" width=72 height=20 alt="55711, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005487.gif" width=72 height=20 alt="79147, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005488.gif" width=88 height=20 alt="174079, 38">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005489.gif" width=88 height=20 alt="305947, 18">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005490.gif" width=80 height=20 alt="474751, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005491.gif" width=80 height=20 alt="838171, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005492.gif" width=88 height=20 alt="1012267, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005493.gif" width=88 height=20 alt="1202779, 6">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>i := 6:<br>
+for R from 0 to 30 do<br>
+if isprime(poly||i(R)) then print(poly||i(R), <br>
+(poly||i(R) - 1)/order(P[1,3](poly||i(R)), poly||i(R))) fi od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005494.gif" width=72 height=20 alt="1279, 18">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005495.gif" width=72 height=20 alt="6571, 10">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005496.gif" width=80 height=20 alt="158527, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005497.gif" width=80 height=20 alt="238879, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005498.gif" width=80 height=20 alt="511579, 6">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005499.gif" width=80 height=20 alt="724447, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005500.gif" width=80 height=20 alt="803611, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005501.gif" width=88 height=20 alt="1260991, 2">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005502.gif" width=88 height=20 alt="1700767, 6">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Procedure to calculate the Jacobi binomial coefficients mod </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005503.gif" width=110 height=108 alt="(2*(p-1)/3)!/(((p-1)/3)!^2)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) for prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>J_bin := proc(p) local r1, k, r2; <br>
+r1 := 1; <br>
+for k from 2 to (p-1)/3 do <br>
+    r1 := r1*k mod p od;<br>
+r2 := (p+2)/3; <br>
+for k from (p+5)/3 to 2*(p-1)/3 do <br>
+    r2 := r2*k mod p od; <br>
+r2/r1 mod p; end:<br>
+<br>
+J_bin_la := proc(p) mods(J_bin(p), p) end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 3889: J_bin_la(p);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005504.gif" width=24 height=20 alt="2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L := [109, 433, 3889, 18253, 21169, 43201, 47629, 73009, 84673, 139969];</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005505.gif" width=502 height=20 alt="L := [109, 433, 3889, 18253, 21169, 43201, 47629, 7...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for p in L do [p, J_bin_la(p)] od;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005506.gif" width=70 height=20 alt="[109, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005507.gif" width=70 height=20 alt="[433, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005508.gif" width=78 height=20 alt="[3889, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005509.gif" width=86 height=20 alt="[18253, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005510.gif" width=86 height=20 alt="[21169, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005511.gif" width=86 height=20 alt="[43201, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005512.gif" width=86 height=20 alt="[47629, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005513.gif" width=86 height=20 alt="[73009, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005514.gif" width=86 height=20 alt="[84673, 2]">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 2005515.gif" width=94 height=20 alt="[139969, 2]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+</body>
+</html>

@@ -1,0 +1,352 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 
+"" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 128 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Times" 1 12 255 0 0 1 
+0 1 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier
+" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 0 15 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 3 3 0 0 
+0 0 0 0 15 2 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 
+0 1 1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "Author" 
+0 19 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 8 
+8 0 0 0 0 0 0 -1 0 }{PSTYLE "" 19 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# pnt_time.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 4 "The " }{TEXT 256 20 "Prime Number \+
+Theorem" }{TEXT -1 64 " (PNT), and the\ntime needed to implement the E
+ratosthenes method" }}{PARA 256 "" 0 "" {TEXT -1 75 "This famous theor
+em (PNT) - first conjectured by the renowned mathematician" }}{PARA 0 
+"" 0 "" {TEXT -1 14 "Carl Frederic " }{TEXT 286 5 "Gauss" }{TEXT -1 
+56 " in the early 1800's - was only proved in the year 1897," }}{PARA 
+0 "" 0 "" {TEXT -1 70 "when - remarkably - two different proofs of it \+
+were developed. One was" }}{PARA 0 "" 0 "" {TEXT -1 50 "given by the e
+minent French mathematician Jacques " }{TEXT 287 8 "Hadamard" }{TEXT 
+-1 11 ", the other" }}{PARA 0 "" 0 "" {TEXT -1 37 "by the eminent Belg
+ian mathematician " }{TEXT 288 17 "La Vallee Poussin" }{TEXT -1 2 ". \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 265 18 "Some preliminaries" }{TEXT -1 56 ". We all know that the
+ number of primes is infinite. Put" }}{PARA 0 "" 0 "" {TEXT -1 30 "ano
+ther way that says that if " }{TEXT 256 2 "Pi" }{TEXT -1 1 "(" }{TEXT 
+257 1 "x" }{TEXT -1 36 ") is the number of primes up to and " }}{PARA 
+0 "" 0 "" {TEXT -1 10 "including " }{TEXT 258 1 "x" }{TEXT -1 7 ", the
+n " }{TEXT 266 2 "Pi" }{TEXT -1 1 "(" }{TEXT 267 1 "x" }{TEXT -1 23 ")
+ tends to infinity as " }{TEXT 259 1 "x" }{TEXT -1 19 " tends to infin
+ity." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 268 15 "Some values of " }{TEXT 269 2 "Pi" }{TEXT 270 1 "(" }
+{TEXT 271 1 "x" }{TEXT 272 1 ")" }{TEXT -1 3 ":  " }{TEXT 273 2 "Pi" }
+{TEXT -1 10 "(10) = 4, " }{TEXT 256 2 "Pi" }{TEXT -1 10 "(11) = 5, " }
+{TEXT 256 2 "Pi" }{TEXT -1 10 "(12) = 5, " }{TEXT 256 2 "Pi" }{TEXT 
+-1 11 "(31) = 11, " }{TEXT 256 2 "Pi" }{TEXT -1 11 "(36) = 11, " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 256 2 "Pi" }{TEXT -1 17 "(37) = 1
+2, ... , " }{TEXT 256 2 "Pi" }{TEXT -1 18 "(100) = 25, ... , " }{TEXT 
+256 2 "Pi" }{TEXT -1 21 "(1,000) = 168, ... , " }{TEXT 256 2 "Pi" }
+{TEXT -1 23 "(10,000) = 1,229, ... ," }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 256 2 "Pi" }{TEXT -1 25 "(100,000) = 9,592, ... , " }{TEXT 256 
+2 "Pi" }{TEXT -1 26 "(1,000,000) = 78,498, ... " }{TEXT 256 4 ", Pi" }
+{TEXT -1 23 "(10,000,000) = 664,579," }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 256 51 "                       \+
+                          Pi" }{TEXT -1 26 "(100,000,000) = 5,761,455,
+" }}{PARA 0 "" 0 "" {TEXT -1 46 "                                     \+
+         " }{TEXT 256 2 "Pi" }{TEXT -1 29 "(1,000,000,000) = 50,874,53
+4," }}{PARA 0 "" 0 "" {TEXT -1 44 "                                   \+
+         " }{TEXT 256 2 "Pi" }{TEXT -1 31 "(10,000,000,000) = 455,052,
+511," }}{PARA 0 "" 0 "" {TEXT -1 38 "                                 \+
+     " }{TEXT 256 6 "    Pi" }{TEXT -1 34 "(100,000,000,000) = 4,118,0
+54,813," }}{PARA 0 "" 0 "" {TEXT -1 39 "                              \+
+         " }{TEXT 256 2 "Pi" }{TEXT -1 37 "(1,000,000,000,000) = 37,60
+7,912,018," }}{PARA 0 "" 0 "" {TEXT -1 37 "                           \+
+          " }{TEXT 256 2 "Pi" }{TEXT -1 39 "(10,000,000,000,000) = 346
+,065,536,839," }}{PARA 0 "" 0 "" {TEXT -1 37 "                        \+
+             " }{TEXT 256 2 "Pi" }{TEXT -1 41 "(30,000,000,000,000) = \+
+1,000,121,668,853." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 274 4 "Note" }{TEXT -1 55 ". The 1,000,000,000,00
+0-th prime is 29,996,224,275,833." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 49 "The [truly REMARKABLE] Prime Number Theor
+em. Let " }{TEXT 261 2 "Pi" }{TEXT -1 1 "(" }{TEXT 262 1 "x" }{TEXT 
+-1 9 ") be the " }}{PARA 0 "" 0 "" {TEXT -1 23 "number of primes up to
+ " }{TEXT 263 1 "x" }{TEXT -1 7 ", then " }{TEXT 276 2 "Pi" }{TEXT -1 
+1 "(" }{TEXT 277 1 "x" }{TEXT -1 4 ") ~ " }{TEXT 278 1 "x" }{TEXT -1 
+1 "/" }{TEXT 279 2 "ln" }{TEXT -1 1 "(" }{TEXT 280 1 "x" }{TEXT -1 5 "
+) as " }{TEXT 264 1 "x" }{TEXT -1 19 " tends to infinity." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "[Here, " }{TEXT 
+281 2 "ln" }{TEXT -1 1 "(" }{TEXT 275 1 "x" }{TEXT -1 22 ") is the log
+arithm of " }{TEXT 282 1 "x" }{TEXT -1 13 " to the base " }{TEXT 283 
+1 "e" }{TEXT -1 2 " (" }{TEXT 284 1 "e" }{TEXT -1 6 ", the " }{TEXT 
+285 12 "Euler number" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 35 " \+
+is approximately 2.71828).  That '" }{TEXT 256 2 "Pi" }{TEXT -1 2 " (
+" }{TEXT 257 1 "x" }{TEXT -1 4 ") ~ " }{TEXT 258 1 "x" }{TEXT -1 1 "/
+" }{TEXT 259 2 "ln" }{TEXT -1 1 "(" }{TEXT 260 1 "x" }{TEXT -1 14 ")' \+
+is read as " }{TEXT 300 3 "\"Pi" }{TEXT -1 4 " of " }{TEXT 301 1 "x" }
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 5 " is '" }{TEXT 302 10 "asy
+mptotic" }{TEXT -1 35 "' (that's what the '~' sign is) to " }{TEXT 
+256 1 "x" }{TEXT -1 1 "/" }{TEXT 257 2 "ln" }{TEXT -1 1 "(" }{TEXT 
+258 1 "x" }{TEXT -1 5 ") as " }{TEXT 303 1 "x" }{TEXT -1 10 " tends to
+ " }}{PARA 0 "" 0 "" {TEXT -1 12 " infinity,\" " }{TEXT 299 7 "meaning
+" }{TEXT -1 6 " that " }{TEXT 304 2 "Pi" }{TEXT -1 1 "(" }{TEXT 305 1 
+"x" }{TEXT -1 14 ")  divided by " }{TEXT 256 1 "x" }{TEXT -1 1 "/" }
+{TEXT 257 2 "ln" }{TEXT -1 1 "(" }{TEXT 258 1 "x" }{TEXT -1 24 ") gets
+ nearer to 1 as \n " }{TEXT 306 1 "x" }{TEXT -1 50 " is made larger an
+d larger;  and so the values of " }{TEXT 307 2 "Pi" }{TEXT -1 1 "(" }
+{TEXT 308 1 "x" }{TEXT -1 6 ") and " }{TEXT 256 1 "x" }{TEXT -1 1 "/" 
+}{TEXT 257 2 "ln" }{TEXT -1 1 "(" }{TEXT 258 1 "x" }{TEXT -1 2 ") " }}
+{PARA 0 "" 0 "" {TEXT -1 5 " are " }{TEXT 309 12 "almost equal" }
+{TEXT -1 2 ".]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 289 36 "An equivalent formulation of the PNT" }
+{TEXT -1 6 ". Let " }{TEXT 290 1 "p" }{TEXT -1 1 "[" }{TEXT 291 1 "n" 
+}{TEXT -1 9 "] be the " }{TEXT 292 1 "n" }{TEXT -1 10 "-th prime " }}
+{PARA 0 "" 0 "" {TEXT -1 13 "number, then " }{TEXT 293 1 "p" }{TEXT 
+-1 1 "[" }{TEXT 294 1 "n" }{TEXT -1 4 "] ~ " }{TEXT 295 1 "n" }{TEXT 
+-1 1 "*" }{TEXT 296 2 "ln" }{TEXT -1 1 "(" }{TEXT 297 1 "n" }{TEXT -1 
+5 ") as " }{TEXT 298 1 "n" }{TEXT -1 19 " tends to infinity." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "       In other
+ words, " }{TEXT 256 1 "p" }{TEXT -1 1 "[" }{TEXT 257 1 "n" }{TEXT -1 
+3 "]/(" }{TEXT 258 1 "n" }{TEXT -1 1 "*" }{TEXT 259 2 "ln" }{TEXT -1 
+1 "(" }{TEXT 260 1 "n" }{TEXT -1 12 ")) --> 1 as " }{TEXT 310 1 "n" }
+{TEXT -1 14 " --> infinity." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "plot(\{x,x/ln(x)\}, x=10..10
+000);  # true scale:" }}{PARA 13 "" 1 "" {GLPLOT2D 434 298 298 
+{PLOTDATA 2 "6&-%'CURVESG6$7S7$$\"#5\"\"!F(7$$\"1++D,d`xA!#8F,7$$\"1+v
+ory>sTF.F07$$\"1+]()QO%HI'F.F37$$\"1+]7sL\"yW)F.F67$$\"1]PR\"*)[#e5!#7
+F97$$\"1](o)R1;c7F;F=7$$\"1](=>z'3h9F;F@7$$\"1](=:r@In\"F;FC7$$\"1]P9`
+pF%)=F;FF7$$\"1+]sN*y:5#F;FI7$$\"1+DES'yHH#F;FL7$$\"1+]nu$\\%3DF;FO7$$
+\"1+]i_[![s#F;FR7$$\"1+]KXMILHF;FU7$$\"1](=?9SE7$F;FX7$$\"1+]U(yzxM$F;
+Fen7$$\"1++q)f-&QNF;Fhn7$$\"1](o&o&e.w$F;F[o7$$\"1++&RpQn&RF;F^o7$$\"1
+^(og\"))>sTF;Fao7$$\"1]i?/yOxVF;Fdo7$$\"1,vo>,W\"f%F;Fgo7$$\"1]PWJ`-)y
+%F;Fjo7$$\"1+D1S!p++&F;F]p7$$\"1](=&fGK?_F;F`p7$$\"1]7$oXa?T&F;Fcp7$$
+\"1+veM)H\">cF;Ffp7$$\"1***\\@'*eI$eF;Fip7$$\"1+vBxoMUgF;F\\q7$$\"1](o
+kpV[C'F;F_q7$$\"1+DY*)=opkF;Fbq7$$\"1++&f+4<n'F;Feq7$$\"1+]iugT()oF;Fh
+q7$$\"1](=#R(yG3(F;F[r7$$\"1,]2g5d'H(F;F^r7$$\"1\\(o0))Qw\\(F;Far7$$\"
+1]P/)o7yq(F;Fdr7$$\"1+]7,gH8zF;Fgr7$$\"1\\(=n)zTG\")F;Fjr7$$\"1,+qEggN
+$)F;F]s7$$\"1,DTAd[Z&)F;F`s7$$\"1^(os%4hd()F;Fcs7$$\"1,+:1Up]*)F;Ffs7$
+$\"1+DE5%*)><*F;Fis7$$\"1*****)y%=*p$*F;F\\t7$$\"1^(o&[@&4e*F;F_t7$$\"
+1^7t(HQHy*F;Fbt7$$\"&++\"F*Fet-%'COLOURG6&%$RGBG$F)!\"\"F*F*-F$6$7S7$F
+($\"1=D.>[%HM%!#:7$F,$\"194sZzp&>%!#97$F0$\"1<v7(QC\\\"pFgu7$F3$\"1-U%
+Q(fyx(*Fgu7$F6$\"1!H*3(GcND\"F.7$F9$\"1OV8)H=&>:F.7$F=$\"1&pVnPg.w\"F.
+7$F@$\"1hVfqq20?F.7$FC$\"1h\"G_A@SD#F.7$FF$\"1YSCS/h)\\#F.7$FI$\"1)3%G
+'\\-qu#F.7$FL$\"1o8pD4UjHF.7$FO$\"1P$*yv\\p/KF.7$FR$\"1x[+yLpWMF.7$FU$
+\"1S'o3SISn$F.7$FX$\"1Q;8H^x!)QF.7$Fen$\"1Zi?Fn)[7%F.7$Fhn$\"1(H&Hk#>.
+L%F.7$F[o$\"1WW-'GFyc%F.7$F^o$\"1zhq*)z$ox%F.7$Fao$\"1bRb1y\"\\+&F.7$F
+do$\"10'oYwq4A&F.7$Fgo$\"1s-lS#*GXaF.7$Fjo$\"1/&*)=bQ.l&F.7$F]p$\"1$yy
+)*4]0(eF.7$F`p$\"1*)o`PRG)4'F.7$Fcp$\"1^!=knLdH'F.7$Ffp$\"1Jy.@K>3lF.7
+$Fip$\"1;[&H#)eos'F.7$F\\q$\"1OFjGJ+SpF.7$F_q$\"1'ywbbHb9(F.7$Fbq$\"1I
+c9;e&HP(F.7$Feq$\"1%33c.Rmd(F.7$Fhq$\"1mzkW;W$z(F.7$F[r$\"1.#pHE=$*)zF
+.7$F^r$\"1[!>N^bG?)F.7$Far$\"1))*Gv3<KS)F.7$Fdr$\"1#=@'*4\"47')F.7$Fgr
+$\"1J9$[Hmd\"))F.7$Fjr$\"1;'=63W%G!*F.7$F]s$\"1hyw(GhFB*F.7$F`s$\"1L()
+>6l>T%*F.7$Fcs$\"11._HETZ'*F.7$Ffs$\"16C\"[*G[O)*F.7$Fis$\"12'*=i'p_+
+\"F;7$F\\t$\"1zfS,ccC5F;7$F_t$\"1xPn$4'4X5F;7$Fbt$\"1cl6ueqk5F;7$Fet$
+\"1H\"eZ?Od3\"F;-Fht6&FjtF*F[uF*-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;F
+(Fet%(DEFAULTG" 1 2 0 1 0 2 9 1 4 1 1.000000 46.000000 45.000000 0 }}}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 27 "Maple's reserved nume for '" }{TEXT 311 1 "e" }{TEXT -1 
+14 "' used to be '" }{TEXT 312 2 "E " }{TEXT -1 20 "'; now it is exp(1
+):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "exp(1);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%$expG6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 86 "plot(exp(x), x = -1..2, title = `y = exp(x) between -
+1 and 2`);  \n# not to true scale:" }}{PARA 13 "" 1 "" {GLPLOT2D 247 
+221 221 {PLOTDATA 2 "6&-%'CURVESG6$7S7$$!\"\"\"\"!$\"1BWr6WzyO!#;7$$!1
+*****\\P&3Y$*F-$\"1cKg#y&RFRF-7$$!1++Dcx6x()F-$\"17wuZ6LdTF-7$$!1,+]iT
+DP\")F-$\"1I#e&z'Q?V%F-7$$!1****\\P\"\\J\\(F-$\"1PeZaF!ps%F-7$$!1++DJa
+5_oF-$\"1Ne9!3T)R]F-7$$!1,+DcexdiF-$\"1xp/(y`%[`F-7$$!1++D1?QUcF-$\"1$
+zX7)G$zo&F-7$$!1++D13%f+&F-$\"1J,5'Q/<1'F-7$$!1++D\"oS:P%F-$\"1sppa\">
+(ekF-7$$!1+++v@)*=PF-$\"1nF$H5WU*oF-7$$!1++](G3U9$F-$\"1Y=F%p;@I(F-7$$
+!1*****\\-\\r\\#F-$\"1iN\"))[G-z(F-7$$!1+++vGVZ=F-$\"1tO)4mwJJ)F-7$$!1
++++v4J@7F-$\"1.Qq`LK]))F-7$$!1,+]iIKFl!#<$\"1f!R#GY6o$*F-7$$\"19+++DFO
+B!#=$\"1M6r.!RB+\"!#:7$$\"1,+++!R5'fFap$\"1S#*)\\#HUh5Fjp7$$\"1++vV!QB
+E\"F-$\"1Y8U*RZX8\"Fjp7$$\"1******\\\"o?&=F-$\"1hM[4tY.7Fjp7$$\"1,+vVb
+4*\\#F-$\"1$=euG4RG\"Fjp7$$\"1,+DJ'=_6$F-$\"1V0BS;]l8Fjp7$$\"1,+]P%y!e
+PF-$\"1h(Q_HnhX\"Fjp7$$\"1,+v=WU[VF-$\"1'3Wml>Za\"Fjp7$$\"1++]7B>&)\\F
+-$\"16!HCq\"GY;Fjp7$$\"1++v$>:mk&F-$\"1(\\9XM_)e<Fjp7$$\"1++DcdQAiF-$
+\"1Ik2aS4j=Fjp7$$\"1,+]PPBWoF-$\"1:$f.FGE)>Fjp7$$\"1******\\Nm'[(F-$\"
+1#\\Y>dyT6#Fjp7$$\"1****\\(yb^6)F-$\"1WkD^uJ^AFjp7$$\"1++vVVDB()F-$\"1
+f>'o\"zY#R#Fjp7$$\"1++]7TW)R*F-$\"1)f/]9$efDFjp7$$\"1+++:K^+5Fjp$\"1<D
+^\\sn>FFjp7$$\"1++]7,Hl5Fjp$\"1Thzv1o,HFjp7$$\"1+]P4w)R7\"Fjp$\"1\\`BW
++5xIFjp7$$\"1++]x%f\")=\"Fjp$\"1n\"zX#o.\"G$Fjp7$$\"1+]P/-a[7Fjp$\"1F*
+Rs[^_[$Fjp7$$\"1+](=Yb;J\"Fjp$\"1'4\"yAUJ7PFjp7$$\"1++]i@Ot8Fjp$\"1:K#
+=D/'[RFjp7$$\"1+]PfL'zV\"Fjp$\"1QI,C&3@@%Fjp7$$\"1+++!*>=+:Fjp$\"1cS:n
+Z]#[%Fjp7$$\"1++DE&4Qc\"Fjp$\"1aYluY)px%Fjp7$$\"1+]P%>5pi\"Fjp$\"1xntv
+!H\")3&Fjp7$$\"1+++bJ*[o\"Fjp$\"1g#3n![(=R&Fjp7$$\"1++Dr\"[8v\"Fjp$\"1
+MR#z4mBw&Fjp7$$\"1+++Ijy5=Fjp$\"1%\\X*\\TD:hFjp7$$\"1+]P/)fT(=Fjp$\"1s
+fgdEM:lFjp7$$\"1+]i0j\"[$>Fjp$\"1mqCkAxApFjp7$$\"\"#F*$\"1]1$*)4c!*Q(F
+jp-%'COLOURG6&%$RGBG$\"#5F)F*F*-%&TITLEG6#%<y~=~exp(x)~between~-1~and~
+2G-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;F(Fgz%(DEFAULTG" 1 2 0 1 0 2 9 
+1 4 2 1.000000 45.000000 45.000000 0 }}}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "exp(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$expG6#\"
+\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "exp(5/2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%$expG6##\"\"&\"\"#" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 50 "exp(1.0);  # the value of 'e' to 10 decimal pl
+aces" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+G=G=F!\"*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "evalf(exp(1), 80);  # to 80 decimal
+ places" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"[pwa`.jwSsFw'p'\\df**p$4
+Zsv(\\iENruGg`BX!f%G=G=F!#z" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "ln(100);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#lnG6#\"$+\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "ln(100.0);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#$\"+'=q^g%!\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "ln(2.718);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+dJ'
+*)***!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "ln(exp(1));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "ln(2.719);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+mTE
++5!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "floor(3.78);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "floor(10^10/ln(10^10.0));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"*\"[%HM%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "floor(10^50/ln(10^50.0));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"Q++
++++++++++++++++++U'*)eo)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+127 "say_number_of_primes := proc(n)\nDigits := 3*length(n);\nlprint(`
+There are approximately`,floor(n/ln(n)),`primes up to`,n); \nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 25 "say_number_of_primes(10);" }}{PARA 6 "" 1 "" {TEXT 
+-1 47 "There are approximately   4   primes up to   10" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "say_number_of_primes(100);" }}
+{PARA 6 "" 1 "" {TEXT -1 49 "There are approximately   21   primes up \+
+to   100" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "say_number_of_p
+rimes(400);" }}{PARA 6 "" 1 "" {TEXT -1 49 "There are approximately   \+
+66   primes up to   400" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "
+say_number_of_primes(1000);" }}{PARA 6 "" 1 "" {TEXT -1 51 "There are \+
+approximately   144   primes up to   1000" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 28 "say_number_of_primes(10000);" }}{PARA 6 "" 1 "" 
+{TEXT -1 53 "There are approximately   1085   primes up to   10000" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "say_number_of_primes(100000
+);" }}{PARA 6 "" 1 "" {TEXT -1 54 "There are approximately   8685   pr
+imes up to   100000" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "say_
+number_of_primes(1000000);" }}{PARA 6 "" 1 "" {TEXT -1 56 "There are a
+pproximately   72382   primes up to   1000000" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 31 "say_number_of_primes(10000000);" }}{PARA 6 "" 1 
+"" {TEXT -1 58 "There are approximately   620420   primes up to   1000
+0000" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "say_number_of_prime
+s(100000000);" }}{PARA 6 "" 1 "" {TEXT -1 60 "There are approximately \+
+  5428681   primes up to   100000000" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "say_number_of_primes(10^9);" }}{PARA 6 "" 1 "" {TEXT 
+-1 62 "There are approximately   48254942   primes up to   1000000000
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "say_number_of_primes(10
+^10);" }}{PARA 6 "" 1 "" {TEXT -1 64 "There are approximately   434294
+481   primes up to   10000000000" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "say_number_of_primes(10^11);" }}{PARA 6 "" 1 "" 
+{TEXT -1 66 "There are approximately   3948131653   primes up to   100
+000000000" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "say_number_of_
+primes(10^11 + 9);" }}{PARA 6 "" 1 "" {TEXT -1 66 "There are approxima
+tely   3948131654   primes up to   100000000009" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 33 "say_number_of_primes(10^11 + 36);" }}{PARA 6 "
+" 1 "" {TEXT -1 66 "There are approximately   3948131655   primes up t
+o   100000000036" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "say_num
+ber_of_primes(10^11 + 62);" }}{PARA 6 "" 1 "" {TEXT -1 66 "There are a
+pproximately   3948131656   primes up to   100000000062" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 111 "say_prime := proc(n)\nDigits := 4*length(n);\nlprint
+(`The`, n,`-th prime is approximately`,floor(n*ln(n))); \nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "say_prime(5000);" }}{PARA 6 "" 1 "" {TEXT -1 47 "Th
+e   5000   -th prime is approximately   42585" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "ithprime(5000);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"&6'[" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "say_prime(1000
+0);" }}{PARA 6 "" 1 "" {TEXT -1 48 "The   10000   -th prime is approxi
+mately   92103" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "ithprime(
+10000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'HZ5" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 29 "In t
+he following procedure - " }{TEXT 315 17 "Eratosthenes_time" }{TEXT 
+-1 11 " - in which" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "
+" {TEXT -1 398 "the global variable 'n' gives the SIZE of a number bei
+ng tested for primality \nby the method of Eratosthenes \n[so if the n
+umber being tested was - say - (2^127 - 1) [a well known prime], \nor \+
+ (2^127 - 3) [an obvious composite, being divisible by 5], or (2^127 +
+ 3)\n[a not so obvious composite, being divisible by 79], then for 'n'
+ we would take \n2^127 (since the '-1' would be of no consequence)], \+
+" }}{PARA 15 "" 0 "" {TEXT -1 128 "the global variable 'r' will be as \+
+in an ASSUMPTION that we are \nusing some computer which CAN perform '
+r' divisions per second," }}{PARA 15 "" 0 "" {TEXT -1 65 "the local va
+riable 'X' will be the square-root of the number 'n'," }}{PARA 15 "" 
+0 "" {TEXT -1 140 "the local variable 'nop' will be the (approximate) \+
+number of primes\n- according to the Prime Number Theorem - that there
+ are up as\nfar as X," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 17 "will compute the " }{TEXT 316 22 "worst case possibili
+ty" }{TEXT -1 27 " for the number of years it" }}{PARA 0 "" 0 "" 
+{TEXT -1 67 "would take to test if 'n' is a prime or not, by using the
+ method of" }}{PARA 0 "" 0 "" {TEXT -1 14 "Eratosthenes. " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 283 "Era
+tosthenes_time := proc(n, r)\nlocal X, nop;\nX := evalf(sqrt(n));\nnop
+ := floor(X/ln(X));\nlprint(`Performing`, r,`divisions per second, the
+ method of Eratosthenes could take as many as`, floor(nop/(3600*24*365
+*r)),`YEARS to test for primality a number whose size is roughly`, n)
+\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 31 "Eratosthenes_time(10^32, 10^3);" }}{PARA 
+6 "" 1 "" {TEXT -1 194 "Performing   1000   divisions per second, the \+
+method of Eratosthenes could take as many as   8607   YEARS to test fo
+r primality a number whose size is roughly   1000000000000000000000000
+00000000" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Eratosthenes_ti
+me(10^32, 10^6);" }}{PARA 6 "" 1 "" {TEXT -1 194 "Performing   1000000
+   divisions per second, the method of Eratosthenes could take as many
+ as   8   YEARS to test for primality a number whose size is roughly  \+
+ 100000000000000000000000000000000" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "Eratosthenes_time(10^32, 10^5);" }}{PARA 6 "" 1 "" 
+{TEXT -1 194 "Performing   100000   divisions per second, the method o
+f Eratosthenes could take as many as   86   YEARS to test for primalit
+y a number whose size is roughly   100000000000000000000000000000000" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Eratosthenes_time(2^127, \+
+10^9);" }}{PARA 6 "" 1 "" {TEXT -1 203 "Performing   1000000000   divi
+sions per second, the method of Eratosthenes could take as many as   9
+   YEARS to test for primality a number whose size is roughly   170141
+183460469231731687303715884105728" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "Eratosthenes_time(2^819, 10^10);" }}{PARA 6 "" 1 "" 
+{TEXT -1 515 "Performing   10000000000   divisions per second, the met
+hod of Eratosthenes could take as many as   20888018832445459157787924
+9112125824454591577879249112125824454591577879249112125824454591577879
+24911212   YEARS to test for primality a number whose size is roughly \+
+  34959599509857130376487773356536668079494310512903628575978332156141
+4355534093068351382864573054545598502923696520992676689414804163493367
+9253543217964426223207137977048243664827490388364133151397099610379851
+714779776678907072458937421726941708288" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "ifactor(2^127 - 3, easy);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&)-%!G6#\"\"&\"\"#\"\"\"%%_c37G\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "ifactor(2^127 + 3, easy);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&-%!G6#\"#z\"\"\"%%_c37GF(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "54 0 0" 0 }{VIEWOPTS 1 
+1 0 1 1 1803 }

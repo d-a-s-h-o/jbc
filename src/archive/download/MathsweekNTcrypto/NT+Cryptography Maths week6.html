@@ -1,0 +1,939 @@
+<html>
+<head>
+<title>NT+Cryptography Maths week.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=4>The Euclidean Algorithm</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Here, I regret, I really have to move quickly, and state rather blandly some things that should be lingered upon...<br>
+<br>
+The Euclidean algorithm (due to the legendary Euclid (325 (?) B.C. - 265 (?) B.C.) is a remarkable way - which has not been improved upon in over 2300 years (indeed it may never be improved upon) - for computing a </font></b>
+<i><b><font color=#000080 size=4>fundamental</font></b></i>
+<b><font color=#000080 size=4> mathematical object, namely:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>the greatest common divisor <br>
+(sometimes called the highest common factor) <br>
+of two whole numbers</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Terminology (via examples, rather than general definitions)</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>The 'factors' of 12 are 1, 2, 3, 4, 6 and 12 (meaning those listed are precisely those whole numbers that 'divide evenly' into 12; thus, e.g., 4 </font></b>
+<i><b><font color=#000080 size=4>is</font></b></i>
+<b><font color=#000080 size=4> a factor of 12 because 12 = 4*3, whereas 5 </font></b>
+<i><b><font color=#000080 size=4>is not</font></b></i>
+<b><font color=#000080 size=4> a factor of 12 because 12 is NOT 5 times some whole number)<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>The 'factors' of 13 are 1 and 13 (only; 13 is a 'prime' number)<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>The '</font></b>
+<i><b><font color=#000080 size=4>common</font></b></i>
+<b><font color=#000080 size=4> factors' of 18 (whose factors are 1, 2, 3, 6, 9 and 18) and 12 (whose factors I have already listed above) are 1, 2, 3 and 6, while the highest common factor (or greatest common divisor) of 18 and 12 is </font></b>
+<b><font color=#000080 size=5>6</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080 size=4> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Being able to quickly compute the greatest common divisor of any two whole numbers is of fundamental importance in Number Theory (and - as you will later see - in Cryptography).<br>
+<br>
+First, let us see a brute force way of computing it in a small case; in fact, in the case just seen:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory); # needs to be 'loaded' to make use of the 'divisors' command</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#0000FF>Warning, the protected name order has been redefined and unprotected<br>
+</font></pre></tt></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week87.gif" width=896 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+<br>
+<img src="images/NT+Cryptography Maths week88.gif" width=895 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+<br>
+<img src="images/NT+Cryptography Maths week89.gif" width=927 height=20 alt="[GIgcd, bigomega, cfrac, cfracpol, cyclotomic, divi...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 18; Sa := divisors(a);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week90.gif" width=62 height=20 alt="a := 18">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week91.gif" width=167 height=20 alt="Sa := {1, 2, 3, 6, 9, 18}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>b := 12; Sb := divisors(b);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week92.gif" width=62 height=20 alt="b := 12">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week93.gif" width=167 height=20 alt="Sb := {1, 2, 3, 4, 6, 12}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>S_common_a_b := Sa intersect Sb;</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week94.gif" width=215 height=20 alt="S_common_a_b := {1, 2, 3, 6}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And we see that the greatest common divisor of 18 and 12 is </font></b>
+<b><font color=#000080 size=5>6</font></b>
+<b><font color=#000080 size=4>.<br>
+<br>
+Here is another example, in which I have simply replaced 18 and 12 by 18181818 and 12121212:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 18181818; Sa := divisors(a);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week95.gif" width=110 height=20 alt="a := 18181818">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week96.gif" width=947 height=20 alt="Sa := {1, 2, 3, 6, 9, 18, 73, 101, 137, 146, 202, 2...">
+<br>
+<img src="images/NT+Cryptography Maths week97.gif" width=908 height=20 alt="Sa := {1, 2, 3, 6, 9, 18, 73, 101, 137, 146, 202, 2...">
+<br>
+<img src="images/NT+Cryptography Maths week98.gif" width=216 height=20 alt="Sa := {1, 2, 3, 6, 9, 18, 73, 101, 137, 146, 202, 2...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>b := 12121212; Sb := divisors(b);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week99.gif" width=110 height=20 alt="b := 12121212">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week100.gif" width=931 height=20 alt="Sb := {1, 2, 3, 4, 6, 12, 73, 101, 137, 146, 202, 2...">
+<br>
+<img src="images/NT+Cryptography Maths week101.gif" width=892 height=20 alt="Sb := {1, 2, 3, 4, 6, 12, 73, 101, 137, 146, 202, 2...">
+<br>
+<img src="images/NT+Cryptography Maths week102.gif" width=216 height=20 alt="Sb := {1, 2, 3, 4, 6, 12, 73, 101, 137, 146, 202, 2...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>S_common_a_b := Sa intersect Sb;</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week103.gif" width=915 height=20 alt="S_common_a_b := {1, 2, 3, 6, 73, 101, 137, 146, 202...">
+<br>
+<img src="images/NT+Cryptography Maths week104.gif" width=512 height=20 alt="S_common_a_b := {1, 2, 3, 6, 73, 101, 137, 146, 202...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And we see that the greatest common divisor of 18181818 and 12121212 is </font></b>
+<b><font color=#000080 size=5>6060606</font></b>
+<b><font color=#000080 size=4>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>One hears so much about how powerful computers are (how they can do everything for us, etc), to the extent - perhaps - that someone who is not a mathematician might think mathematicians have no real work to do (that all they have to do is sit back and - somehow - let the computers do the work for them... ; nothing could be further from the truth...)<br>
+<br>
+The following is a </font></b>
+<i><b><font color=#000080 size=4>dangerous</font></b></i>
+<b><font color=#000080 size=4> computation for me to attempt live in my lecture (so I will return to it at the end - if I remember!): f</font></b>
+<b><font color=#000080 size=4>ind - by the above brute force method - the greatest common divisor of the integers</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>(</font></b>
+<img src="images/NT+Cryptography Maths week105.gif" width=65 height=32 alt="90!+1" align=middle>
+<b><font color=#000080 size=4>) and (</font></b>
+<img src="images/NT+Cryptography Maths week106.gif" width=65 height=32 alt="80!+1" align=middle>
+<b><font color=#000080 size=4>), namely<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>'ninety factorial plus 1' and 'eighty factorial plus 1', namely<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>(90*89*88*87*...*3*2*1 + 1) and (80*79*78*...*3*2*1 + 1)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Of course Maple has </font></b>
+<i><b><font color=#000080 size=4>absolutely no difficulty</font></b></i>
+<b><font color=#000080 size=4> in computing the values of those two numbers</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 90! + 1;</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week107.gif" width=910 height=20 alt="a := 1485715964481761497309522733620825737885569961...">
+<br>
+<img src="images/NT+Cryptography Maths week108.gif" width=264 height=20 alt="a := 1485715964481761497309522733620825737885569961...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>b := 80! + 1;</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week109.gif" width=910 height=20 alt="b := 7156945704626380229481153372318653216558465734...">
+<br>
+<img src="images/NT+Cryptography Maths week110.gif" width=104 height=20 alt="b := 7156945704626380229481153372318653216558465734...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>But the computation of the greatest common divisor of those two numbers - by the above brute force method (namely compute the actual divisors/factors of each of the numbers, and then pick out the largest of the common divisors/factors) - would be beyond the capacity, not just of this computer, but of the most powerful computer currently available.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Even just to compute the divisors of (</font></b>
+<img src="images/NT+Cryptography Maths week111.gif" width=65 height=32 alt="80!+1" align=middle>
+<b><font color=#000080 size=4>) is not possible:<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># b := 80! + 1; Sb := divisors(b);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Maple, however, has a command (igcd) - which incorporates the </font></b>
+<i><b><font color=#000080 size=4>remarkable Euclidean algorithm</font></b></i>
+<b><font color=#000080 size=4> - which allows the greatest common divisor of the above two integers to be found in a micro-second:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 18; b := 12; igcd(a, b);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week112.gif" width=62 height=20 alt="a := 18">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week113.gif" width=62 height=20 alt="b := 12">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week114.gif" width=24 height=20 alt="6">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 1818; b := 1212; igcd(a, b);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week115.gif" width=78 height=20 alt="a := 1818">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week116.gif" width=78 height=20 alt="b := 1212">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week117.gif" width=40 height=20 alt="606">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 181818; b := 121212; igcd(a, b);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week118.gif" width=94 height=20 alt="a := 181818">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week119.gif" width=94 height=20 alt="b := 121212">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week120.gif" width=56 height=20 alt="60606">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 18181818; b := 12121212; igcd(a, b);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week121.gif" width=110 height=20 alt="a := 18181818">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week122.gif" width=110 height=20 alt="b := 12121212">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week123.gif" width=72 height=20 alt="6060606">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 90! + 1; b := 80! + 1; igcd(a, b);</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week124.gif" width=910 height=20 alt="a := 1485715964481761497309522733620825737885569961...">
+<br>
+<img src="images/NT+Cryptography Maths week125.gif" width=264 height=20 alt="a := 1485715964481761497309522733620825737885569961...">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week126.gif" width=910 height=20 alt="b := 7156945704626380229481153372318653216558465734...">
+<br>
+<img src="images/NT+Cryptography Maths week127.gif" width=104 height=20 alt="b := 7156945704626380229481153372318653216558465734...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week128.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Here I slightly vary the (</font></b>
+<img src="images/NT+Cryptography Maths week129.gif" width=65 height=32 alt="90!+1" align=middle>
+<b><font color=#000080 size=4>) and (</font></b>
+<img src="images/NT+Cryptography Maths week130.gif" width=65 height=32 alt="80!+1" align=middle>
+<b><font color=#000080 size=4>) to (</font></b>
+<img src="images/NT+Cryptography Maths week131.gif" width=73 height=32 alt="90!+48" align=middle>
+<b><font color=#000080 size=4>) and (</font></b>
+<img src="images/NT+Cryptography Maths week132.gif" width=73 height=32 alt="80!+72" align=middle>
+<b><font color=#000080 size=4>):<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 90! + 48; b := 80! + 72; igcd(a, b); # INSTANTLY COMPUTED</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week133.gif" width=910 height=20 alt="a := 1485715964481761497309522733620825737885569961...">
+<br>
+<img src="images/NT+Cryptography Maths week134.gif" width=264 height=20 alt="a := 1485715964481761497309522733620825737885569961...">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week135.gif" width=910 height=20 alt="b := 7156945704626380229481153372318653216558465734...">
+<br>
+<img src="images/NT+Cryptography Maths week136.gif" width=104 height=20 alt="b := 7156945704626380229481153372318653216558465734...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week137.gif" width=32 height=20 alt="24">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080 size=4><br>
+Very briefly I wish to say that (the remarkable achievement of) the Euclidean algorithm</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>enables one to compute - </font></b>
+<i><b><font color=#000080 size=4>breathtakingly fast </font></b></i>
+<b><font color=#000080 size=4>- the greatest common divisor of any two integers, </font></b>
+<i><b><font color=#000080 size=4>without</font></b></i>
+<b><font color=#000080 size=4> having to compute </font></b>
+<i><b><font color=#000080 size=4>any</font></b></i>
+<b><font color=#000080 size=4> divisors whatever.<br>
+<br>
+I have been familiar with it for over forty years, and I still find it utterly remarkable. The poet Keats found a way of expressing how one feels about it: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080 size=4>A thing of beauty is a joy forever; its loveliness increases; it will never pass into nothingness.</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>This was Euclid's stunningly simple, but profound insight: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>to compute the greatest common divisor of integers </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>b </font></b></i>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>(with, let us say, </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> being the greater of the two), </font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>all that one needs to do is:<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>compute the remainder that </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> leaves on division by </font></b>
+<i><b><font color=#000080 size=4>b (</font></b></i>
+<b><font color=#000080 size=4>so, let us say that</font></b>
+<i><b><font color=#000080 size=4> a, </font></b></i>
+<b><font color=#000080 size=4>when divided by</font></b>
+<i><b><font color=#000080 size=4> b, </font></b></i>
+<b><font color=#000080 size=4>goes</font></b>
+<i><b><font color=#000080 size=4> 'q</font></b></i>
+<b><font color=#000080 size=4>' times, and leaves remainder '</font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4>'</font></b>
+<i><b><font color=#000080 size=4>;</font></b></i>
+<b><font color=#000080 size=4> that is </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4>*</font></b>
+<i><b><font color=#000080 size=4>q</font></b></i>
+<b><font color=#000080 size=4> + </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4>, with </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4> being </font></b>
+<i><b><font color=#000080 size=4>less</font></b></i>
+<b><font color=#000080 size=4> than </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4>. The '</font></b>
+<i><b><font color=#000080 size=4>less</font></b></i>
+<b><font color=#000080 size=4>' is </font></b>
+<i><b><font color=#000080 size=4>critical</font></b></i>
+<b><font color=#000080 size=4> in applications.)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>and then deduce - by a very simple mathematical argument - that</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>the greatest common divisor of </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4> (the </font></b>
+<i><b><font color=#000080 size=4>lesser</font></b></i>
+<b><font color=#000080 size=4> of </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4>) is equal to the greatest common divisor of </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>r </font></b></i>
+<b><font color=#000080 size=4>(the lesser of </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>r</font></b></i>
+<b><font color=#000080 size=4>)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Here is a Maple procedure of my own intended to illustrate the point:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_steps := proc(A, B) local a, b, r, k, K;<br>
+a[1] := A: b[1] := B: r[1] := a[1] mod b[1]:<br>
+if r[1] = 0 then <br>
+lprint(`The greatest common divisor of `, A, `and `, B,`is`, b[1])<br>
+else for k from 2 while r[k-1] &lt;&gt; 0 do<br>
+a[k] := b[k-1]: b[k] := r[k-1]: r[k] := a[k] mod b[k]: od;<br>
+print(array([[a, `divided by b` , `goes q times`, `leaves remainder r`],<br>
+seq([a[K], b[K], iquo(a[K], b[K]), r[K]], K = 1..k-1)]));<br>
+lprint( `The greatest common divisor of `, A, `and `, B,`is the final NON-ZERO remainder`, r[k-2]); fi; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_steps(78, 28);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week138.gif" width=375 height=170 alt="matrix([[a, `divided by b`, `goes q times`, `leaves...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`The greatest common divisor of `, 78, `and `, 28, `is the final NON-ZERO remainder`, 2</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The </font></b>
+<i><b><font color=#000080 size=4>meaning</font></b></i>
+<b><font color=#000080 size=4> of the table you have just seen is simply this:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><u><font color=#000080 size=4>78</font></u></b>
+<b><font color=#000080 size=4> = </font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>*2 + </font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>, and thus gcd(</font></b>
+<b><u><font color=#000080 size=4>78</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>)</font></b>
+</li>
+<li>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4> = </font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>*1 + </font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>, and thus gcd(</font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>)</font></b>
+</li>
+<li>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4> = </font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>*3 + </font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4> and thus gcd(</font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>)</font></b>
+</li>
+<li>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4> = </font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>*1 + </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+<b><font color=#000080 size=4>, and thus gcd(</font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+<b><font color=#000080>)</font></b>
+</li>
+<li>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4> = </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+<b><font color=#000080 size=4>*2 + </font></b>
+<b><u><font color=#000080 size=4>0</font></u></b>
+<b><font color=#000080 size=4>, and thus gcd(</font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+<b><font color=#000080 size=4>) = </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus the chain of equations gcd(</font></b>
+<b><u><font color=#000080 size=4>78</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>22</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>6</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>) = gcd(</font></b>
+<b><u><font color=#000080 size=4>4</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+<b><font color=#000080>) </font></b>
+<b><font color=#000080 size=4>= </font></b>
+<b><u><font color=#000080 size=4>2</font></u></b>
+<b><font color=#000080 size=4> gives the conclusion</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>gcd(</font></b>
+<b><u><font color=#000080 size=4>78</font></u></b>
+<b><font color=#000080 size=4>, </font></b>
+<b><u><font color=#000080 size=4>28</font></u></b>
+<b><font color=#000080 size=4>) =</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=5>2</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_steps(15! + 1, 13! + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week139.gif" width=464 height=230 alt="matrix([[a, `divided by b`, `goes q times`, `leaves...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`The greatest common divisor of `, 1307674368001, `and `, 6227020801, `is the final NON-ZERO remainder`, 1</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_steps(28! + 1, 22! + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week140.gif" width=774 height=650 alt="matrix([[a, `divided by b`, `goes q times`, `leaves...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`The greatest common divisor of `, 304888344611713860501504000001, `and `, 1124000727777607680001, `is the final NON-ZERO remainder`, 1</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>gcd_steps(28! + 418000, 22! + 30519225);</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week141.gif" width=750 height=890 alt="matrix([[a, `divided by b`, `goes q times`, `leaves...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`The greatest common divisor of `, 304888344611713860501504418000, `and `, 1124000727777638199225, `is the final NON-ZERO remainder`, 5225</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>There is one final matter - the so-called </font></b>
+<i><b><font color=#000080 size=4>extended</font></b></i>
+<b><font color=#000080 size=4> Euclidean algorithm, of vital computational and theoretical importance </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>(many classical results in 'elementary' Number Theory follow (by mathematical argument) from it, to name but one: the so-called </font></b>
+<i><b><font color=#000080 size=4>fundamental property</font></b></i>
+<b><font color=#000080 size=4> of prime numbers, that whenever a prime number divides the product of two or more whole numbers, then that prime must divide </font></b>
+<i><b><font color=#000080 size=4>at least one</font></b></i>
+<b><font color=#000080 size=4> of those whole numbers, and - to name but one direct consequence of </font></b>
+<i><b><font color=#000080 size=4>that</font></b></i>
+<b><font color=#000080 size=4> - a proof of Fermat's 'little' theorem may be given...)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>- the so-called </font></b>
+<i><b><font color=#000080 size=4>extended</font></b></i>
+<b><font color=#000080 size=4> Euclidean algorithm, which states that:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>if </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4> are two whole numbers whose greatest common divisor is </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+</li>
+<li>
+<b><font color=#000080 size=4>then there </font></b>
+<i><b><font color=#000080 size=4>are</font></b></i>
+<b><font color=#000080 size=4> whole numbers </font></b>
+<i><b><font color=#000080 size=4>x</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>y</font></b></i>
+<b><font color=#000080 size=4> (whose values may be found using the Euclidean algorithm)</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>such that </font></b>
+<i><b><font color=#000080 size=4>a*x</font></b></i>
+<b><font color=#000080 size=4> + </font></b>
+<i><b><font color=#000080 size=4>b*y</font></b></i>
+<b><font color=#000080 size=4> = </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>For example, </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>if we set </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> = 18 and </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4> = 14, then gcd(</font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4>, </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080 size=4>) = </font></b>
+<i><b><font color=#000080 size=4>d</font></b></i>
+<b><font color=#000080 size=4> (= 2)</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>and the whole numbers </font></b>
+<i><b><font color=#000080 size=4>x</font></b></i>
+<b><font color=#000080 size=4> = -3 and </font></b>
+<i><b><font color=#000080 size=4>y</font></b></i>
+<b><font color=#000080 size=4> = 4</font></b>
+</li>
+<li>
+<b><font color=#000080 size=4>are such that </font></b>
+<i><b><font color=#000080 size=4>a*x</font></b></i>
+<b><font color=#000080 size=4> + </font></b>
+<i><b><font color=#000080 size=4>b*y </font></b></i>
+<b><font color=#000080 size=4>= 18*(-3) + 14*4 = -54 + 56 = 2</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Here is the appropriate Maple command for finding such </font></b>
+<i><b><font color=#000080 size=4>x</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>y </font></b></i>
+<b><font color=#000080 size=4>(the 'ex' in 'igcdex' invokes the </font></b>
+<b><u><font color=#000080 size=4>ex</font></u></b>
+<b><font color=#000080 size=4>tended Euclidean algorithm):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 18; b := 14; <br>
+[igcdex(a, b, 'x', 'y')];<br>
+x; y; [a*x + b*y];</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week142.gif" width=62 height=20 alt="a := 18">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week143.gif" width=62 height=20 alt="b := 14">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week144.gif" width=38 height=20 alt="[2]">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week145.gif" width=29 height=20 alt="-3">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week146.gif" width=24 height=20 alt="4">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week147.gif" width=38 height=20 alt="[2]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The use of square-brackets [ ] is for </font></b>
+<i><b><font color=#000080 size=4>visual purposes only</font></b></i>
+<b><font color=#000080 size=4>, and is drawing your eye to the two important objects:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>within the first [ ] is the </font></b>
+<i><b><font color=#000080 size=4>gcd</font></b></i>
+<b><font color=#000080 size=4> of the integers </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>b<br>
+</font></b></i>
+</li>
+<li>
+<b><font color=#000080 size=4>within the second [ ] is the value of </font></b>
+<i><b><font color=#000080 size=4>a*x + b*y</font></b></i>
+<b><font color=#000080 size=4>, where </font></b>
+<i><b><font color=#000080 size=4>x</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>y</font></b></i>
+<b><font color=#000080 size=4> (determined in a very special way from the Euclidean algorithm) are such that </font></b>
+<i><b><font color=#000080 size=4>a*x + b*y</font></b></i>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080 size=4>is</font></b></i>
+<b><font color=#000080 size=4> equal to the gcd of </font></b>
+<i><b><font color=#000080 size=4>a</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<i><b><font color=#000080 size=4>b</font></b></i>
+<b><font color=#000080> </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And here is the earlier example with a = 28! + 20 and b = 22! + 30519225:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 28! + 418000; <br>
+b := 22! + 30519225; <br>
+[igcdex(a, b, 'x', 'y')];<br>
+x; y; [a*x + b*y];</font></b>
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week148.gif" width=286 height=20 alt="a := 304888344611713860501504418000">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week149.gif" width=222 height=20 alt="b := 1124000727777638199225">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week150.gif" width=62 height=20 alt="[5225]">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week151.gif" width=157 height=20 alt="-29658270584282446">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week152.gif" width=216 height=20 alt="8044888939144031030967441">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week153.gif" width=62 height=20 alt="[5225]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>This sort of computation is simply bread-and-butter for the Euclidean algorithm:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 258! + 7!; <br>
+b := 242! + 5!; <br>
+[igcdex(a, b, 'x', 'y')];<br>
+x; y; [a*x + b*y];</font></b>
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week154.gif" width=910 height=20 alt="a := 5687846541188252502401986910609581044371186148...">
+<br>
+<img src="images/NT+Cryptography Maths week155.gif" width=912 height=20 alt="a := 5687846541188252502401986910609581044371186148...">
+<br>
+<img src="images/NT+Cryptography Maths week156.gif" width=912 height=20 alt="a := 5687846541188252502401986910609581044371186148...">
+<br>
+<img src="images/NT+Cryptography Maths week157.gif" width=912 height=20 alt="a := 5687846541188252502401986910609581044371186148...">
+<br>
+<img src="images/NT+Cryptography Maths week158.gif" width=560 height=20 alt="a := 5687846541188252502401986910609581044371186148...">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week159.gif" width=910 height=20 alt="b := 2372472101786237237034263348929581250598543735...">
+<br>
+<img src="images/NT+Cryptography Maths week160.gif" width=912 height=20 alt="b := 2372472101786237237034263348929581250598543735...">
+<br>
+<img src="images/NT+Cryptography Maths week161.gif" width=912 height=20 alt="b := 2372472101786237237034263348929581250598543735...">
+<br>
+<img src="images/NT+Cryptography Maths week162.gif" width=912 height=20 alt="b := 2372472101786237237034263348929581250598543735...">
+<br>
+<img src="images/NT+Cryptography Maths week163.gif" width=256 height=20 alt="b := 2372472101786237237034263348929581250598543735...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week164.gif" width=54 height=20 alt="[120]">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week165.gif" width=917 height=20 alt="-80267105885685120115675806853335635547805727463597...">
+<br>
+<img src="images/NT+Cryptography Maths week166.gif" width=912 height=20 alt="-80267105885685120115675806853335635547805727463597...">
+<br>
+<img src="images/NT+Cryptography Maths week167.gif" width=912 height=20 alt="-80267105885685120115675806853335635547805727463597...">
+<br>
+<img src="images/NT+Cryptography Maths week168.gif" width=912 height=20 alt="-80267105885685120115675806853335635547805727463597...">
+<br>
+<img src="images/NT+Cryptography Maths week169.gif" width=200 height=20 alt="-80267105885685120115675806853335635547805727463597...">
+</p>
+<p align=left>
+<img src="images/NT+Cryptography Maths week170.gif" width=912 height=20 alt="192435131371766411094500166150441814362348368759315...">
+<br>
+<img src="images/NT+Cryptography Maths week171.gif" width=912 height=20 alt="192435131371766411094500166150441814362348368759315...">
+<br>
+<img src="images/NT+Cryptography Maths week172.gif" width=912 height=20 alt="192435131371766411094500166150441814362348368759315...">
+<br>
+<img src="images/NT+Cryptography Maths week173.gif" width=912 height=20 alt="192435131371766411094500166150441814362348368759315...">
+<br>
+<img src="images/NT+Cryptography Maths week174.gif" width=512 height=20 alt="192435131371766411094500166150441814362348368759315...">
+</p>
+<p align=center>
+<img src="images/NT+Cryptography Maths week175.gif" width=54 height=20 alt="[120]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+</body>
+</html>

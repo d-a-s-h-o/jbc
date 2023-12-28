@@ -1,0 +1,654 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" 
+-1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }1 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier
+" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE 
+"" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Co
+urier" 1 12 0 128 0 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# 1mloct96.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "  \+
+                         Introduction to MAPLE for First Year Students
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 28 "Thu
+rsday, 3rd. October 1996." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 14 "John Cosgrave," }}{PARA 0 "" 0 "" {TEXT -1 23 "Mat
+hematics Department," }}{PARA 0 "" 0 "" {TEXT -1 22 "St. Patrick's Col
+lege," }}{PARA 0 "" 0 "" {TEXT -1 11 "Drumcondra," }}{PARA 0 "" 0 "" 
+{TEXT -1 7 "Dublin." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 79 "To be able to use 'MAPLE' (the mathematical software wh
+ich is installed in the " }}{PARA 0 "" 0 "" {TEXT -1 72 "College's com
+puter laboratory) you DO NOT need have to already have ANY " }}{PARA 
+0 "" 0 "" {TEXT -1 72 "previous experience with computers.   We start \+
+COMPLETELY FROM SCRATCH, " }}{PARA 0 "" 0 "" {TEXT -1 88 "and slowly b
+uild up your knowledge, ability and confidence.   I believe that you w
+ill be" }}{PARA 0 "" 0 "" {TEXT -1 86 "amazed at how easily and quickl
+y you become proficient in the use of MAPLE.   It will " }}{PARA 0 "" 
+0 "" {TEXT -1 92 "be rather like learning a new language, learning a l
+ittle bit at a time, and, in no time at " }}{PARA 0 "" 0 "" {TEXT -1 
+33 "all, be speaking like a native!  " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 83 "This document is the 'saved' version \+
+of the work which you will see in class time, " }}{PARA 0 "" 0 "" 
+{TEXT -1 84 "together with this commentary.  I will show you how this \+
+commentary has been added, " }}{PARA 0 "" 0 "" {TEXT -1 82 "and you wi
+ll be able to do the same with your own work:  do your own mathematica
+l " }}{PARA 0 "" 0 "" {TEXT -1 86 "work at the computer, save it on yo
+ur own 'disk', carry it around with you - print it " }}{PARA 0 "" 0 "
+" {TEXT -1 90 "out in the meantime if you so wish - and return to the \+
+computer to continue - if you wish " }}{PARA 0 "" 0 "" {TEXT -1 47 "- \+
+work already started, or start some new work." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 89 "In a single lecture it is
+ only possible to demonstrate but a very small part of what can " }}
+{PARA 0 "" 0 "" {TEXT -1 86 "be done with MAPLE.   It is a quite remar
+kable product, and is the collective work of " }}{PARA 0 "" 0 "" 
+{TEXT -1 83 "an outstanding group of mathematicians and computer scien
+tists from the University " }}{PARA 0 "" 0 "" {TEXT -1 84 "of Waterloo
+, Canada, who have been developing it since about 1980.   ('MAPLE' tak
+es " }}{PARA 0 "" 0 "" {TEXT -1 92 "its name from the Canadian nationa
+l symbol - the Maple tree.)   It continues to be improved " }}{PARA 0 
+"" 0 "" {TEXT -1 89 "year after year, aided now by other mathematician
+s and computer scientists in France and " }}{PARA 0 "" 0 "" {TEXT -1 
+88 "Switzerland.    MAPLE will enable you to gain a deeper understandi
+ng of the Mathematics " }}{PARA 0 "" 0 "" {TEXT -1 92 "which you alrea
+dy know from secondary school, and make it possible for you to signifi
+cantly " }}{PARA 0 "" 0 "" {TEXT -1 58 "increase your mathematical kno
+wledge and understanding.   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 86 "It will - most importantly - enable you to ask \+
+of yourself (and be able to experiment " }}{PARA 0 "" 0 "" {TEXT -1 
+85 "quickly so as to see ... ), time after time, \"now, I wonder what \+
+happens if such and " }}{PARA 0 "" 0 "" {TEXT -1 79 "such happens ... \+
+?\".   Of course, you have to BE CURIOUS, and you have to have " }}
+{PARA 0 "" 0 "" {TEXT -1 90 "things to be curious about ... .   Don't \+
+worry, if you haven't got anything to be curious " }}{PARA 0 "" 0 "" 
+{TEXT -1 81 "about, you will be given lots (and lots and lots ... !) o
+f things to investigate." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 61 "There are four basic things that MAPLE allows you \+
+to perform:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 62 "1. Do ordinary (and extraordinary!) arithmetical calculations.
+" }}{PARA 0 "" 0 "" {TEXT -1 60 "2. Do algebraic and 'analytic' (calcu
+lus-type) calculations." }}{PARA 0 "" 0 "" {TEXT -1 46 "3. Do graphica
+l work (i.e., plot graphs etc.)." }}{PARA 0 "" 0 "" {TEXT -1 40 "4. Wr
+ite 'procedures' (or 'programmes')." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 84 "We will have a brief look at each of the
+se, and I ask you to bear in mind that I am " }}{PARA 0 "" 0 "" {TEXT 
+-1 82 "only intending to scratch the surface in this introductory lect
+ure, and not cover " }}{PARA 0 "" 0 "" {TEXT -1 84 "everything.  Anywa
+y, there is no 'everything'; you will still be learning about how " }}
+{PARA 0 "" 0 "" {TEXT -1 65 "MAPLE can be used even at the end of your
+ third year of studies. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 92 "In this first introductory lecture I will only loo
+k briefly at the first three of the above " }}{PARA 0 "" 0 "" {TEXT 
+-1 66 "topics; in a later lecture I will introduce you to 'programming
+'. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "Le
+t's start with some familiar, simple things: arithmetical calculations
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "I wi
+ll start with addition, subtraction, multiplication, division, simple \+
+powers (like " }}{PARA 0 "" 0 "" {TEXT -1 64 "squares, cubes, ... ) an
+d - just to make a start - square-roots." }}{PARA 0 "" 0 "" {TEXT -1 
+2 "  " }}{PARA 0 "" 0 "" {TEXT -1 83 "You know how to add two numbers \+
+together.  1 plus 2 is 3.   With a calculator that " }}{PARA 0 "" 0 "
+" {TEXT -1 76 "would have been done by pressing '1', then '+', then '2
+', and finally '='.  " }}{PARA 0 "" 0 "" {TEXT -1 36 "Your calculator \+
+would then show '3'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 27 "With Maple that is done by:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "1+2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 1 " " }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 88 "
+That was done by typing '1' (after the Maple 'prompt' '>', as it is ca
+lled) , then '+', " }}{PARA 0 "" 0 "" {TEXT -1 82 "then '2', then';', \+
+and, finally, pressing the 'Return key'.  Maple then shows '3'." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "That '1+2
+' is called Maple 'input', and the '3' is Maple 'output'." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "And how about 1 pl
+us 2 plus 3?:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "1+2+3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "But what about 1 plus 2 p
+lus 3 plus 4 plus ... all the way up to 200?  Well you could" }}{PARA 
+0 "" 0 "" {TEXT -1 81 "do it by laboriously typing '1+2+3+4+5+6+7+8+9+
+ ... (until you got to)+200'.  It " }}{PARA 0 "" 0 "" {TEXT -1 86 "wou
+ld take quite a long time to do it (even for a fast typist - which I a
+m not!), but " }}{PARA 0 "" 0 "" {TEXT -1 63 "Maple does it instantly \+
+- and several others which I show - by:" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sum(n,n=1..200);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"&+,#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "sum(n,n=1..3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "sum(n,n=1..12345678987654321
+23456787654321);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"gn\"o7))3pZ6]L#)
+=)z$Gy.'*fm5+8Z5L[*y?w" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "s
+um(n,n=1..12345678987654321234567876543212345678987654321);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"gp\"o7))Q1!yi^VXzk/&\\NO:sjuBA'HPt'eo+v.'*
+fm5+8Z5L[*y?w" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "Wh
+en the output is too long to fit on one line, Maple just continues the
+ output on " }}{PARA 0 "" 0 "" {TEXT -1 89 "the next line, ending each
+ line with  a '\\' (what is called \"backward slash\", for obvious" }}
+{PARA 0 "" 0 "" {TEXT -1 9 "reasons)." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 86 "Let's just comment on the first one, \+
+'sum(n,n=1..200)'.   'sum' alerts Maple that you " }}{PARA 0 "" 0 "" 
+{TEXT -1 86 "want to add certain numbers together, 'n' tells Maple tha
+t you are giving the name 'n'" }}{PARA 0 "" 0 "" {TEXT -1 86 "to the g
+eneral number in your addition, and the 'n=1..200' tells Maple that 'n
+' STARTS" }}{PARA 0 "" 0 "" {TEXT -1 45 "at '1' and continues all the \+
+way up to '200'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 91 "Suppose you wished to add 4, 5, 6, 7, ... (up to:) , 200.
+  That - and others - are done by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sum(n,n=4..200);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"&%4?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "
+sum(n,n=3..5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#7" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "sum(n,n=100..1234567654321000000000
+0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"M]]****\\gr#QGAe&)\\2GyaY'y?w
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "Now, one small point
+.  Personally I don't like the 'n', the ',' and the 'n' being SO " }}
+{PARA 0 "" 0 "" {TEXT -1 55 "CLOSE together.  It's too cluttered.  I p
+refer to type:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "sum(n, n=1..200);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"&+,#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "It just makes t
+hings look a little less cluttered.  (O.k., here it is not so bad, but
+ there" }}{PARA 0 "" 0 "" {TEXT -1 85 "will be much more cluttered sit
+uations where it can be hard to read, and so I like to" }}{PARA 0 "" 
+0 "" {TEXT -1 27 "space things out a little.)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "I URGE you to do so yours
+elf in your own work.  SPACE YOUR WORK!!!" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "Also, it doesn't have to be 'n' th
+at is used:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "sum(m, m=1..30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"$l%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "sum(H, H=60..600);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'I&y\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 25 "and you can even do this:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "sum(Heaney, He
+aney=121..3456543);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\".OkZYQ(f" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "but see this:" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "sum(Seamus \+
+Heaney, Seamus Heaney=1..6);" }}{PARA 2 "" 1 "" {TEXT -1 73 "syntax er
+ror:\nsum(Seamus Heaney, Seamus Heaney=1..6);\n                ^\n\n" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "Maple tell me that I ha
+ve made a 'syntax error'.  The 'error' is this:  when you give" }}
+{PARA 0 "" 0 "" {TEXT -1 78 "a 'name' to a variable in Maple, the name
+ has to be a CONTINUOUS line of text." }}{PARA 0 "" 0 "" {TEXT -1 38 "
+So, for example, see what happens now:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "sum(SeamusHeaney, SeamusHeaney=
+1..6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#@" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "The 'SeamusHeaney' has no breaks in it, a
+nd so I now get output.  " }}{PARA 0 "" 0 "" {TEXT -1 28 "I could also
+ have done this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "sum(Seamus_Heaney, Seamus_Heaney=1..6);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"#@" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 73 "where I have linked 'Seamus' and 'Heaney' with the 'underscore'
+ sign '_'," }}{PARA 0 "" 0 "" {TEXT -1 50 "which is on the keyboard ab
+ove the minus sign '-'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 78 "So far we have just added up numbers that were conse
+cutive.  How about adding " }}{PARA 0 "" 0 "" {TEXT -1 78 "some number
+s which aren't?  How about 1 squared plus 2 squared plus 3 squared?" }
+}{PARA 0 "" 0 "" {TEXT -1 18 "That comes to 14. " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "Maple does it by:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "sum
+(n^2, n=1..3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#9" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "That 'n^2' is Maple's way of wr
+iting 'n to the power of 2'.  The sign for 'to the power of'" }}{PARA 
+0 "" 0 "" {TEXT -1 78 "is '^' (it is called \"hat\"), and is on the ke
+yboard just above the figure '6'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 14 "Some examples:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "3^2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "1^2;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "13.71^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"(T'z=
+!\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "1223334444555556666
+66777777788888888999999999^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"dp,
++++?AAAUl()4a=&Q2E\"[@@lrgMK;6`P6t\"ol\"[B0OK;Zl\\\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 7 "(-7)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"#\\" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "IMPORTANT NOTE;
+ if you want ' minus seven squared' you have to write '(-7)^2'" }}
+{PARA 0 "" 0 "" {TEXT -1 48 "and NOT '-7^2'.   See what you get if you
+ don't:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 5 "-7^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!#\\" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 82 "(We will frequently encounter situation
+s where we have to be ALERT otherwise ... )" }}{PARA 0 "" 0 "" {TEXT 
+-1 70 "Some more examples of squares - or sums of squares - being calc
+ulated:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 46 "1234567898765432123456787654321234567654321^2;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"`pT5(*\\hlNl#>c#z+_\\\"zzg^%4368r8+v?*>L@+E%4im*
+y:C:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 87 "sum(d^2, d=1..12345
+678987654321234567876543212345676543212345654321234543212343212321);" 
+}}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"]xhH-VY8*[v#=MN3J&)f9+&)pMk<')[)Rc
+TdaaRO_`#4=JpxUXo`pDwh.)>P)[^)>nH9k@`BTLC(H`:G2oqdNdR8b(3'['>Z1YJJ1/-k
+'f19T&HiqaAF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "Yo
+u see that in the Maple input I made 'd' go all the way up to some hug
+e number" }}{PARA 0 "" 0 "" {TEXT -1 78 "which wouldn't fit on one lin
+e, and so it was just continued on the next line." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "And what about adding up \+
+cubes, fourth powers, fifth powers, etc.?  Well they are done " }}
+{PARA 0 "" 0 "" {TEXT -1 79 "in exactly the same way.  Here are severa
+l on the trot (CHECK the small ones in" }}{PARA 0 "" 0 "" {TEXT -1 11 
+"your head):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "sum(a^3, a=1..4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"$+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "sum(a^3, a=5..90)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")D*on\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 20 "sum(a^300, a=5..90);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#\"f_mVW%Rp@XJDH[tg;nkw\"z@$)e^meuMT&zj4>Di!QOJUBo`z1J8X
+e)>(o;K%ob;oAw!Qh*4!RsD.+b[a+7(3#eRR>,asqN:jw9G!oh=NUi6W'Ht\"=m'fo;![m
+>fE;1YIu2$*>))*ow=l)=1r%Ru$)4wG#f\"Huw<p&\\d\"G(Q&Hb.;ATT$)*4l79zfG;80
+GDhh(=')p*>x>WP0,6c1'4$zoZD)Q:&H]<eCP$*)p,YT%z:6$38!Q54$eDmP,:xG*H-$R'
+>;%\\U]8Ibu\"e![\\o@u6)z<x!)yc4AF^y')fNk?(=[:3U<70zeG@-4!eS)R`<!p%4;)[
+Zj'G=%>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "Instantly
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Let'
+s have a look at multiplication.  What is 4 times 5?  It's 20." }}
+{PARA 0 "" 0 "" {TEXT -1 19 "Maple does that by:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "4*5;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+78 "The multiplication sign '*' is found on the keyboard just above th
+e figure '8'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 22 "And 4 times 5 times 6?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "4*5*6;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$?\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 12 "Subtraction:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 4 "8-3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "9876876-23432;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(WM&)*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 138 "The 'minus sign' is a bit on the small side, and \+
+it can be a bit hard to see, so I prefer - remembering my advice about
+ SPACING - to type:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 9 "123 - 24;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#**
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "9876543678977655 - 7654
+87654;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"1,+\\8Haw)*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "6 - 23;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#!#<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 30 "Le
+t's have a look at division:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 5 "24/4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "The sign for di
+vision is '/' (it is called \"forward slash\", and is on the keyboard
+" }}{PARA 0 "" 0 "" {TEXT -1 25 "just under the '?' sign)." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "-24/4;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "-24/-4;" }}{PARA 2 "" 1 "" {TEXT -1 29 "syntax error:
+\n-24/-4;\n    ^\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "I
+t isn't that Maple doesn't know how to divide a negative number by a n
+egative" }}{PARA 0 "" 0 "" {TEXT -1 85 "number.  It can do it, BUT you
+ have to put a bracket around the negative denominator:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "-24/(-4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "30/(-2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!#:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "Now, how about these:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "24/1
+0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#7\"\"&" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 6 "24/15;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"
+\")\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "89/37;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6##\"#*)\"#P" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 84 "Can't it do divisions?  A calculator would give '2
+4/10' to be 2.4, would give 24/15 " }}{PARA 0 "" 0 "" {TEXT -1 74 "to \+
+be 1.6, and would give 89/37 to be 2.405405406.  So, what can Maple do
+?" }}{PARA 0 "" 0 "" {TEXT -1 71 "Well, an IMPORTANT difference betwee
+n MAPLE and an ordinary calculator " }}{PARA 0 "" 0 "" {TEXT -1 79 "is
+ that MAPLE always tries ti give exact values for everything you ask f
+or, and" }}{PARA 0 "" 0 "" {TEXT -1 86 "so in asking it to calculate 2
+4/15 it gave 8/5 (which HAPPENS - as with 1.6 - to be AN" }}{PARA 0 "
+" 0 "" {TEXT -1 78 "EXACT value of 24/15 (meaning they are EQUAL), whe
+reas a calculator would give" }}{PARA 0 "" 0 "" {TEXT -1 74 "the value
+ of 89/37 to be a decimal which is a GOOD APPROXIMATION to 89/37," }}
+{PARA 0 "" 0 "" {TEXT -1 51 "but would NOT be an EXACT value of 89/37 \+
+(WHY NOT?)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 85 "You might say though that you want a decimal value for 89/37, a
+nd if that is what you" }}{PARA 0 "" 0 "" {TEXT -1 27 "want then MAPLE
+ does it by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "evalf(89/37);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+
+0aS0C!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "That give
+s 10 digit accuracy, but - unlike your ordinary calculator which is re
+stricted" }}{PARA 0 "" 0 "" {TEXT -1 76 "to perhaps 10 or 12 digits - \+
+you can ask MAPLE to give you greater accuracy." }}{PARA 0 "" 0 "" 
+{TEXT -1 85 "(If you ask MAPLE for a decimal value it will automatical
+ly do it to 10 places - that" }}{PARA 0 "" 0 "" {TEXT -1 67 "is called
+ the \"default\" value - unless you ask it for more places.)" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "Suppose you wan
+ted 50 digit accuracy, then this is what you do:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Digits:=50;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'DigitsG\"#]" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 13 "evalf(89/37);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#$\"SaS0aS0aS0aS0aS0aS0aS0aS0C!#\\" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 84 "Finally let's have a brief look at calculating squ
+are-roots (at a later stage I will" }}{PARA 0 "" 0 "" {TEXT -1 46 "hav
+e a look at cube-roots, fourth-roots, etc.)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "The square root of 9 is 3.  MAP
+LE does that by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "sqrt(9);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "an
+d the square root of 2?:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 8 "sqrt(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$
+\"\"##\"\"\"F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "Wh
+y did MAPLE do that?  It is because the square-root of 2 DOES NOT have
+ an" }}{PARA 0 "" 0 "" {TEXT -1 75 "EXACT decimal value (WHY? - think \+
+about that!).  Let's find an approximate " }}{PARA 0 "" 0 "" {TEXT -1 
+14 "decimal value:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "evalf(sqrt(2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"SpPv=np&y!)p4Us)o,)[]4tBc8UT\"!#\\" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 65 "That was done to 50 decimal places because of what
+ I did earlier." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 78 "I am going to reset the 'Digits' value from 50 to the def
+ault value of 10, and" }}{PARA 0 "" 0 "" {TEXT -1 58 "will follow that
+ with some other square-root calculations:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Digits:=10;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%'DigitsG\"#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "sqrt(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$\"\"$#\"
+\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(sqrt(3))
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+330K<!\"*" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 9 "sqrt(18);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,$*$\"\"##\"\"\"F%\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"evalf(sqrt(18));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+'oSEC%!\"*" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "There is another way in
+ which you can get a decimal value without using evalf:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "sqrt(19.0);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+W*)*)eV!\"*" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 69 "Writing 19.0 instead of 19 tells MAPLE th
+at you want a decimal value." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "2.  Now to have
+ a look at some algebraic and analytic calculations:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "MAPLE can multiply alge
+braic expressions.  What is (3x - 2) multiplied by" }}{PARA 0 "" 0 "" 
+{TEXT -1 58 "(4x + 7)?   Look at what happens if I tried to do that by
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+17 "(3x - 2)(4x + 7);" }}{PARA 2 "" 1 "" {TEXT -1 37 "syntax error:\n(
+3x - 2)(4x + 7);\n  ^\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+82 "MAPLE tells me that I have made what it calls a \"syntax error\", \+
+and it even points" }}{PARA 0 "" 0 "" {TEXT -1 86 "out to me where I a
+m making an error.   It is pointing at the '3x' term, and I should " }
+}{PARA 0 "" 0 "" {TEXT -1 83 "then remember that multiplication is den
+oted in MAPLE by '*', and I should see that" }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "there are two other places where I should have '*'.   So, try a
+gain:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 20 "(3*x - 2)*(4*x + 7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"x
+G\"\"$!\"#\"\"\"F(,&F%\"\"%\"\"(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 75 "You see what has happened.  MAPLE doesn't seem to \+
+have done anything, apart" }}{PARA 0 "" 0 "" {TEXT -1 54 "from writing
+ it in the normal mathematical notation.  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "This is where I have to let you
+ in on a new MAPLE command:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 28 "expand((3*x - 2)*(4*x + 7));" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,(*$%\"xG\"\"#\"#7F%\"#8!#9\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "expand((3*x^2 + x - 2)*(4*x + 7));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$%\"xG\"\"$\"#7*$F%\"\"#\"#DF%!
+\"\"!#9\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "expand((3*
+x^2 + x - 2)*(4*x^5 - 5*x^2 + 7));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+,2*$%\"xG\"\"(\"#7*$F%\"\"%!#:*$F%\"\"#\"#J*$F%\"\"'F)*$F%\"\"$!\"&F%F
+&*$F%\"\"&!\")!#9\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "
+expand((a + b)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$%\"aG\"\"#\"
+\"\"*&F%F'%\"bGF'F&*$F)F&F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+18 "expand((a + b)^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$%\"aG\"
+\"$\"\"\"*&F%\"\"#%\"bGF'F&*&F%F'F*F)F&*$F*F&F'" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 19 "expand((a + b)^20);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#,L*$%\"aG\"#?\"\"\"*&%\"bGF'F%\"#>F&*&F)\"\"#F%\"#=\"$!
+>*&F)\"\"$F%\"#<\"%S6*&F)\"\"%F%\"#;\"%X[*&F)\"\"&F%\"#:\"&/b\"*&F)\"
+\"'F%\"#9\"&g(Q*&F)\"\"(F%\"#8\"&?v(*&F)\"\")F%\"#7\"'qf7*&F)\"\"*F%\"
+#6\"'gz;*&F)\"#5F%FL\"'cZ=*&F)FIF%FHFJ*&F)FEF%FDFF*&F)FAF%F@FB*&F)F=F%
+F<F>*&F)F9F%F8F:*&F)F5F%F4F6*&F)F1F%F0F2*&F)F-F%F,F.*&F)F*F%F'F&*$F)F&
+F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "MAPLE can also do \+
+other algebraic things like:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 16 "factor(x^2 - 1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&%\"xG\"\"\"!\"\"F&F&,&F%F&F&F&F&" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 16 "factor(x^3 - 1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&%\"xG\"\"\"!\"\"F&F&,(*$F%\"\"#F&F%F&F&F&F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "factor(x^4 - 1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"!\"\"F&F&,&F%F&F&F&F&,&*$F%\"
+\"#F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor(x^20 \+
+- 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*.,&%\"xG\"\"\"!\"\"F&F&,&F%F
+&F&F&F&,,*$F%\"\"%F&*$F%\"\"$F&*$F%\"\"#F&F%F&F&F&F&,,F*F&F,F'F.F&F%F'
+F&F&F&,&F.F&F&F&F&,,*$F%\"\")F&*$F%\"\"'F'F*F&F.F'F&F&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor(x^20 + 1);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*&,&*$%\"xG\"\"%\"\"\"F(F(F(,,*$F&\"#;F(*$F&\"#7!\"
+\"*$F&\"\")F(F%F.F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "
+factor(x^4 + 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"%\"\"
+\"F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "factor(x^10 + x^5
+ + 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(*$%\"xG\"\"#\"\"\"F&F(F(
+F(F(,0*$F&\"\")F(*$F&\"\"(!\"\"*$F&\"\"&F(*$F&\"\"%F.*$F&\"\"$F(F&F.F(
+F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "factor(x^6 - x^4 + \+
+x^ 2 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"!\"\"F&F&
+,&F%F&F&F&F&,&*$F%\"\"%F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "factor(x^3 - y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"x
+G\"\"\"%\"yG!\"\"F&,(*$F%\"\"#F&*&F%F&F'F&F&*$F'F+F&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^6 - y^3);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*&,&*$%\"xG\"\"#\"\"\"%\"yG!\"\"F(,(*$F&\"\"%F(*&F
+&F'F)F(F(*$F)F'F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "fact
+or(x^6 - y^6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**,&%\"xG\"\"\"%\"yG
+!\"\"F&,&F%F&F'F&F&,(*$F%\"\"#F&*&F%F&F'F&F&*$F'F,F&F&,(F+F&F-F(F.F&F&
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^3 + y^3);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"%\"yGF&F&,(*$F%\"\"#F&*
+&F%F&F'F&!\"\"*$F'F*F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 
+"factor(8x^3 - y^3);" }}{PARA 2 "" 1 "" {TEXT -1 45 "syntax error:\nfa
+ctor(8x^3 - y^3);\n        ^\n\n" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 75 "I made a deliberate error there to remind you that
+ you need to use '*' for " }}{PARA 0 "" 0 "" {TEXT -1 24 "multiplicati
+on.  So now:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "factor(8*x^3 - y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#*&,&%\"xG\"\"#%\"yG!\"\"\"\"\",(*$F%F&\"\"%*&F%F)F'F)F&*$F'F&F)F)" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^4 + y^4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"%\"\"\"*$%\"yGF&F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "So, you see, Maple did fa
+ctor some of them, but left others alone.  As far as the ones " }}
+{PARA 0 "" 0 "" {TEXT -1 174 "that were left alone are concerned, it's
+ not that MAPLE couldn't do them, it's that those ones CAN'T be factor
+ed (they're LIKE primes, they are what are called 'irreducible'," }}
+{PARA 0 "" 0 "" {TEXT -1 47 "and I will come back to that in later lec
+tures." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 
+"But now to something with which you were all familiar from school.  '
+Differentiating'." }}{PARA 0 "" 0 "" {TEXT -1 90 "This - differentiati
+ng - is one of the most important topics you will study.  I will start
+" }}{PARA 0 "" 0 "" {TEXT -1 91 "it from scratch in lectures, but, for
+ the moment, you were all able to tell me that - as we" }}{PARA 0 "" 
+0 "" {TEXT -1 70 "all learned at school - \"d by dx of x cubed is thre
+e times x squared\"." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 42 "Maple can do that - and much else - too!!:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(x^3, x)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$%\"xG\"\"#\"\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(x^4, x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*$%\"xG\"\"$\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "diff(x^5, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$
+%\"xG\"\"%\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "Yo
+u also knew what \"d by dx of 7 times x cubed \" was:" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "diff(7x^3, x);" 
+}}{PARA 2 "" 1 "" {TEXT -1 38 "syntax error:\ndiff(7x^3, x);\n      ^
+\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "I made - again - \+
+a deliberate error to show you what happens if one forgets to type" }}
+{PARA 0 "" 0 "" {TEXT -1 53 "the Maple multiplication sign '*'.  So, l
+et's now do:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "diff(7*x^3, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$
+*$%\"xG\"\"#\"#@" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "An
+d some others with which you are familiar from school:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "diff(7*x^3 + 1
+0*x^2 + 51, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#\"#@F
+%\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "diff(7*x^3 - 10*x^
+2 + 51, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#\"#@F%!#?
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "diff( -7*x^3 - 10*x^2 +
+ 51, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#!#@F%!#?" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "diff( -7*x^3 - 10*x^2 + 125
+1, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#!#@F%!#?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "diff( (x^3 - 10*x^2)/(x^2 + \+
+1), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&,&*$%\"xG\"\"#\"\"$F'!#
+?\"\"\",&F&F+F+F+!\"\"F+*(,&*$F'F)F+F&!#5F+F,!\"#F'F+F2" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 84 "So, Maple knows about the \"u o
+ver v rule\" that you met in school (I will be treating" }}{PARA 0 "" 
+0 "" {TEXT -1 43 "that, and more besides, in later lectures)." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "Now, not \+
+only can MAPLE do \"differentiation\" (work out various d by dx's), bu
+t it" }}{PARA 0 "" 0 "" {TEXT -1 74 "can also perform what is called \+
+\"integration\"; that MEANS it can reverse a" }}{PARA 0 "" 0 "" {TEXT 
+-1 81 "differentiation (the REASON why one would want to do that will \+
+form a part of our" }}{PARA 0 "" 0 "" {TEXT -1 51 "later studies, but \+
+just for the moment let us see):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "int(x^2, x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*$%\"xG\"\"$#\"\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "int(x^20, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$
+%\"xG\"#@#\"\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "int(1
+0*x^7 + 5*x^4 - 7*x^2 + 253, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*
+*$%\"xG\"\")#\"\"&\"\"%*$F%F(\"\"\"*$F%\"\"$#!\"(F-F%\"$`#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "And so on ... ." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "I have only BRIEFLY \+
+touched on what MAPLE can do as far as differentiation and" }}{PARA 0 
+"" 0 "" {TEXT -1 155 "integration is concerned, and now wish to end to
+day's introduction with one of the most powerful and important of MAPL
+E's features - its GRAPHING facility." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 75 "One of the most important things for \+
+a mathematician to be able to do is to" }}{PARA 0 "" 0 "" {TEXT -1 75 
+"VISUALISE.  To have pictures representing mathematical ideas, mathema
+tical " }}{PARA 0 "" 0 "" {TEXT -1 81 "objects.  Those pictures may be
+ on a scrap of paper, in a book, on a blackboard, " }}{PARA 0 "" 0 "" 
+{TEXT -1 81 "in your head.   And truly a picture can be worth a thousa
+nd words.   You can gain" }}{PARA 0 "" 0 "" {TEXT -1 76 "SO MUCH insig
+ht and understanding from a picture, providing you know what to" }}
+{PARA 0 "" 0 "" {TEXT -1 13 "look out for!" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "Let's start with a very simple \+
+example, one known to all of you from school:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(x^2, x=-1..1);
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 
+-1 67 "This is what the graph of the function f(x) = x^2, plotted betw
+een " }}{PARA 0 "" 0 "" {TEXT -1 68 "  the values x = -1 and x = 1, lo
+oked like before I did things like:" }}{PARA 0 "" 0 "" {TEXT -1 63 "  \+
+   (a) magnified it (by 'clicking' on the 'maximise button')," }}
+{PARA 0 "" 0 "" {TEXT -1 74 "     (b) showed it in 'point style' (name
+ly showed the actual points that " }}{PARA 0 "" 0 "" {TEXT -1 74 "    \+
+      Maple plotted before it joined those points up by short lines to
+" }}{PARA 0 "" 0 "" {TEXT -1 48 "          make the graph appear in 'p
+atch style'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 75 "                                                               \+
+ FIGURE ONE." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "And now I redo th
+e previous plot:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "plot(x^2, x=-1..1);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "And this is what the graph look
+ed like after I had 'clicked' on the maximise button" }}{PARA 0 "" 0 "
+" {TEXT -1 40 "and then on 'Point' in the 'Style menu'." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "                    \+
+                                             FIGURE TWO." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 2 "
+" 1 "" {TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 86 "If you carefully count the number of poin
+ts in the last picture, you should find there" }}{PARA 0 "" 0 "" 
+{TEXT -1 90 "are 49 of them altogether.  That '49' is called the plot \+
+'default' value, which just means" }}{PARA 0 "" 0 "" {TEXT -1 81 "that
+ whenever you ask Maple to plot a function (or several) it will AUTOMA
+TICALLY" }}{PARA 0 "" 0 "" {TEXT -1 82 "take 49 EQUALLY spaced points \+
+on the 'interval' you chose to plot on (in the above" }}{PARA 0 "" 0 "
+" {TEXT -1 44 "examples the 'interval' is from -1 up to 1)." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "Now we will plo
+t the same function, but in a larger interval, - from -1 up to 2:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plo
+t(x^2, x=-1..2);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 
+"" 0 "" {TEXT -1 30 "The graph now looks like this:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "                       \+
+                        FIGURE THREE." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 2 "" 1 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+82 "Some observations:  It looks as expected.  This after all is a gra
+ph that is very " }}{PARA 0 "" 0 "" {TEXT -1 84 "familiar to you from \+
+school.  Starting at the left end where x = -1, the curve dips " }}
+{PARA 0 "" 0 "" {TEXT -1 82 "downwards, 'bottoms out' where x = 0, the
+n starts to rise, and continues to do so " }}{PARA 0 "" 0 "" {TEXT -1 
+41 "until it reaches the far end where x = 2." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "(A mathematician would sa
+y something like:   \"On the interval [-1, 2] the function " }}{PARA 
+0 "" 0 "" {TEXT -1 84 "x squared decreases to the right of x = -1, con
+tinues to decrease until x = 0, then " }}{PARA 0 "" 0 "" {TEXT -1 62 "
+starts to increase, and continues to do so right up to x = 2\"." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "Or, to pu
+t it another way:   \"The function x squared decreases in the interval
+ [-1, 0]," }}{PARA 0 "" 0 "" {TEXT -1 69 "has a minimum value at x = 0
+, and increases in the interval [0, 2]\".)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "Now, the graph in Figure Three \+
+is distorted.  When x = 2 then x^2 = 4, and as you " }}{PARA 0 "" 0 "
+" {TEXT -1 86 "can see by looking at the graph the top end of it certa
+inly does not LOOK as if it has" }}{PARA 0 "" 0 "" {TEXT -1 80 "co-ord
+inates (2, 4).  You saw that what Maple had done was to alter the SCAL
+E on" }}{PARA 0 "" 0 "" {TEXT -1 84 "the vertical axes so as to fill u
+p as much of the screen as possible.  I then showed" }}{PARA 0 "" 0 "
+" {TEXT -1 81 "you how you could use Maple to give you a true picture \+
+as to how the graph really" }}{PARA 0 "" 0 "" {TEXT -1 7 "looked:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 "       To
+ get this I just clicked on the 'Projection' menu, and then on 'Constr
+ained'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+70 "                                                          FIGURE F
+OUR." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 82 "When you get to do your own work in the computer laborato
+ry you will plot lots and" }}{PARA 0 "" 0 "" {TEXT -1 82 "lots of func
+tions so as to build up a FEELING for HOW different functions behave. \+
+" }}{PARA 0 "" 0 "" {TEXT -1 87 "Given a function, where does it get l
+arge (if at all) positively or negatively?; where " }}{PARA 0 "" 0 "" 
+{TEXT -1 90 "does it increase?, decrease?; where is it zero (if at all
+)?; does it look as if it is ever" }}{PARA 0 "" 0 "" {TEXT -1 77 "equa
+l to 2 (for example)?; where does it have a maximum or minimum value? \+
+..." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 79 "I \+
+also showed you that you can use Maple not just to plot the graph of a
+ single" }}{PARA 0 "" 0 "" {TEXT -1 88 "function, but - and this is an
+ incredibly valuable thing to be able to do - you can also" }}{PARA 0 
+"" 0 "" {TEXT -1 83 "use it to make a simultaneous plot of two or more
+ functions.  Let's take the simple" }}{PARA 0 "" 0 "" {TEXT -1 8 "exam
+ple:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 29 "plot( \{x^2, x^3\}, x=-1..1.2);" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "In my demonstration you s
+aw this picture in two colours, and so could clearly" }}{PARA 0 "" 0 "
+" {TEXT -1 83 "distinguish between them. I made the picture by first g
+enerating the plot, and then" }}{PARA 0 "" 0 "" {TEXT -1 81 "altering \+
+the scale - by clicking on Projection and then on Constrained - to sho
+w " }}{PARA 0 "" 0 "" {TEXT -1 11 "true scale:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 2 "" 1 "" 
+{TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 80 "Here is a plot showing the graphs of x squared, x cu
+bed, and 2 to the power x on" }}{PARA 0 "" 0 "" {TEXT -1 25 "the inter
+val [-1.2, 2.4]:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 36 "plot( \{x^2, x^3, 2^x\}, x=-1.2..2.4);" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "This are \+
+the graphs as originally plotted, with scaling on the vertical axis:" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 36 "and here they are with true scalin
+g:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+36 "plot( \{x^2, x^3, 2^x\}, x=-1.2..2.4);" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 2 "" 1 "" 
+{TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 79 "Conclusion:  In this introductory lecture it has bee
+n my aim only to give you a" }}{PARA 0 "" 0 "" {TEXT -1 80 "representa
+tive flavour of what you can do with MAPLE.  In the weeks, months and \+
+" }}{PARA 0 "" 0 "" {TEXT -1 78 "(for some of you) years ahead you wil
+l see how your mathematical understanding" }}{PARA 0 "" 0 "" {TEXT -1 
+36 "will be greatly enhanced by its use." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}}{MARK "2 0 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 }

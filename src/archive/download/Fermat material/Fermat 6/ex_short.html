@@ -1,0 +1,589 @@
+<html>
+<head>
+<title>ex_short.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Theme" content="nature 100, default">
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="#FFFFCC" text="#333399" link="#990033" vlink="#006633" alink="#FF6600"><a href="http://www.johnbcosgrave.com">	&lt; Back to johnbcosgrave.com</a><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<a name="MapleAutoBookmark1">
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># ex_short.mws</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">This is a shortened form of my extend.mws, the last saved form of which is dated at 11/04/99, which I will make available to anyone who wishes to see it.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">The Maple work shown below led me eventually to write a paper - Could there exist a sixth Fermat prime? I believe it is </font></b>
+<i><b><font color="#000080">not impossible</font></b></i>
+<b><font color="#000080"> - which I finished on 19th March 1999. I submitted it to, and it was rejected by, the </font></b>
+<i><b><font color="#000080">American Mathematical Monthly</font></b></i>
+<b><font color="#000080"> (my favourite journal).</font></b>
+</p>
+<p align="center">
+<b><u><font color="#000080">Extending the range for 's' in Proth</font></u></b>
+</p>
+<p align="left">
+<b><font color="#000080">I began this Maple worksheet on Saturday 20th. Feb. 1999, and added to it from time to time up to 11th April, 1999.</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">I had just formulated a more satisfying statement of Proth's theorem to present to my 3rd. year students, which replaced the ' </font></b>
+<img src="images/ex_short1.gif" width="58" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> ' with ' </font></b>
+<img src="images/ex_short2.gif" width="87" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> for the numbers </font></b>
+<i><b><font color="#000080">s</font></b></i>
+<b><font color="#000080">*</font></b>
+<img src="images/ex_short3.gif" width="60" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, and I wanted to find some examples to show that the improved range for </font></b>
+<i><b><font color="#000080">s</font></b></i>
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">really</font></u></b>
+<b><font color="#000080"> threw up some </font></b>
+<b><u><font color="#000080">extra</font></u></b>
+<b><font color="#000080"> primes. By hand I took </font></b>
+<img src="images/ex_short4.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, giving </font></b>
+<img src="images/ex_short5.gif" width="51" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, and the prime 73. But then I wanted to examine the general </font></b>
+<b><u><font color="#000080">extreme case</font></u></b>
+<b><font color="#000080"> where </font></b>
+<img src="images/ex_short6.gif" width="87" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, giving the numbers:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">                                                       </font></b>
+<img src="images/ex_short7.gif" width="249" height="56" alt="[Maple Math]" align="middle">
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">and so I did this:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f := k -&gt; 2^(2*k) + 2^k + 1;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short8.gif" width="189" height="32" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(1);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short9.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">f(3);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short10.gif" width="32" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(f(2*t-1), t=1..5);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short11.gif" width="192" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Of course my real interest was in applying the Proth test to these, and other numbers, but I used the isprime command just to get a fast peek, as it were:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=1..10);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short12.gif" width="386" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=11..20);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short13.gif" width="398" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=21..40);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short14.gif" width="788" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">I was - of course - disappointed not to be getting any more primes after those three early </font></b>
+<i><b><u><font color="#000080">true</font></u></b></i>
+<b><font color="#000080">s, but I ploughed on:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=41..60);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short15.gif" width="788" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=61..100);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short16.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short17.gif" width="593" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=101..150);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short18.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short19.gif" width="983" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=151..200);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short20.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short21.gif" width="983" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=201..250);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short22.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short23.gif" width="983" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">At that point I wondered if some trivial sort of factorisation was perhaps taking place, and so I had a go at using the ifactor( , easy) command to see:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(f(499), easy);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short24.gif" width="233" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(f(299), easy);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short25.gif" width="193" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(f(199), easy);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short26.gif" width="85" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">ifactor(f(99), easy);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short27.gif" width="117" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Those _</font></b>
+<i><b><font color="#000080">c</font></b></i>
+<b><font color="#000080">'s made me feel that it wasn't trivial, and so I ploughed on a bit more:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">seq(isprime(f(2*t-1)), t=251..350);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short28.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short29.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short30.gif" width="987" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short31.gif" width="983" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Because of the time those were now taking I decided just to do a Lucas-Fermat base 2 test to see:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">for k from 351 to 400 do<br>
+if 2&amp;^(f(2*k-1)-1) mod f(2*k-1) = 1<br>
+then print(k)<br>
+fi<br>
+od;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short32.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">When I first saw that 365 it didn't make any great impression on me (though I was glad that I had another candidate - actually I presumed it would give me a prime ... ), but it was only when I did this (that </font></b>
+<i><b><font color="#000080">I knew something was going on</font></b></i>
+<b><font color="#000080">):</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2*365-1;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short33.gif" width="40" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">A power of 3! That's what's behind the earlier ones? The 1, 2 and 5!! Double those less 1 gives 1, 3 and 9. Is f(729) prime?  [NO! ... :]</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">m := f(729):</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(m-1) mod m;  # just double checking:</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short34.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Applying the Proth test:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(2&amp;^((m-1)/2), m);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short35.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Doesn't give a '</font></b>
+<img src="images/ex_short36.gif" width="35" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">', so can't be </font></b>
+<i><b><font color="#000080">proved</font></b></i>
+<b><font color="#000080"> prime through Proth ... . Apply Lucas-Fermat test to base 3:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">mods(3&amp;^(m-1), m);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short37.gif" width="957" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short38.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short39.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short40.gif" width="720" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">So</font></b>
+<i><b><font color="#000080"> m</font></b></i>
+<b><font color="#000080"> is COMPOSITE!</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">for k from 401 to 450 do<br>
+if 2&amp;^(f(2*k-1)-1) mod f(2*k-1) = 1<br>
+then print(k)<br>
+fi<br>
+od;</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080"># NO OUTPUT</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">Then I returned to the missing pwers of 3 (the 27, 81 and 243) to see what had happened to those (they had only been declared not prime by the isprime command, but </font></b>
+<i><b><font color="#000080">why</font></b></i>
+<b><font color="#000080"> ... ):</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">n27 := f(27);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short41.gif" width="199" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(n27 - 1) mod n27;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short42.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Ah! It's a pseudoprime! And:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^((n27 - 1)/2) mod n27;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short43.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">But n27 fails a Lucas-Fermat base 3 test:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3&amp;^(n27 - 1) mod n27;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short44.gif" width="152" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">Now to test n81:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">n81 := f(81);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short45.gif" width="455" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(n81 - 1) mod n81;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short46.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^((n81 - 1)/2) mod n81;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short47.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3&amp;^(n81 - 1) mod n81;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short48.gif" width="392" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">And then n243:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">n243 := f(243);</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short49.gif" width="951" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short50.gif" width="312" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(n243 - 1) mod n243;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short51.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^((n243 - 1)/2) mod n243;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short52.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3&amp;^(n243 - 1) mod n243;</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short53.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short54.gif" width="256" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><font color="#000080">And going on to the next power of 3 after 729:</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3^7;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short55.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">n2187 := f(2187):</font></b>
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">length(n2187);</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short56.gif" width="48" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^(n2187 - 1) mod n2187;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short57.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">2&amp;^((n2187 - 1)/2) mod n2187;</font></b>
+</p>
+<p align="center">
+<img src="images/ex_short58.gif" width="24" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<tt>&gt; </tt>
+<b><font color="#800080">3&amp;^(n2187 - 1) mod n2187;</font></b>
+</p>
+<p align="left">
+<img src="images/ex_short59.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short60.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short61.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short62.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short63.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short64.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short65.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short66.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short67.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short68.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short69.gif" width="952" height="19" alt="[Maple Math]">
+<br>
+<img src="images/ex_short70.gif" width="256" height="19" alt="[Maple Math]">
+</p>
+<p align="left">
+<b><u><font color="#000080">n2187 is a pp to base 2</font></u></b>
+<b><font color="#000080">! </font></b>
+<b><u><font color="#000080">There MUST be something going on here</font></u></b>
+<b><font color="#000080">:</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">Question</font></u></b>
+<b><font color="#000080">: Is </font></b>
+<img src="images/ex_short71.gif" width="166" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> a </font></b>
+<b><u><font color="#000080">prime</font></u></b>
+<b><font color="#000080"> or a </font></b>
+<b><u><font color="#000080">pseudoprime to the base 2</font></u></b>
+<b><font color="#000080">?</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><u><font color="#000080">That was where I was up to by Saturday evening</font></u></b>
+<b><font color="#000080">.  One thought that came to me was that the </font></b>
+<img src="images/ex_short72.gif" width="91" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> was </font></b>
+<b><u><font color="#000080">simply</font></u></b>
+<b><font color="#000080"> the quadratic case of the more general irreducible cyclotomic one coming from a </font></b>
+<b><u><font color="#000080">prime</font></u></b>
+<b><font color="#000080"> </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080">, and all of a sudden a </font></b>
+<b><u><font color="#000080">much grander scheme</font></u></b>
+<b><font color="#000080"> presented itself:</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">The </font></b>
+<b><u><font color="#000080">Fermat numbers</font></u></b>
+<b><font color="#000080"> are the values of the </font></b>
+<b><u><font color="#000080">1st. degree</font></u></b>
+<b><font color="#000080"> polynomial </font></b>
+<img src="images/ex_short73.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> </font></b>
+<b><u><font color="#000080">under the substitution</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/ex_short74.gif" width="83" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"><br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">The ones I stumbled upon from the simple extension I made of Proth's theorem: using the </font></b>
+<b><u><font color="#000080">2nd. degree</font></u></b>
+<b><font color="#000080"> polynomial </font></b>
+<img src="images/ex_short75.gif" width="91" height="48" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, followed by the </font></b>
+<b><u><font color="#000080">substitution</font></u></b>
+<b><font color="#000080"> </font></b>
+<img src="images/ex_short76.gif" width="83" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> [actually this quadratic made me wonder <br>
+about cyclotomic ones [and the '3' made me feel that </font></b>
+<i><b><font color="#000080">it</font></b></i>
+<b><font color="#000080"> was the </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080">], which is why I went backwards to the <br>
+1st. degree one, and the Fermat </font></b>
+<b><u><font color="#000080">jumped out at me</font></u></b>
+<b><font color="#000080"> ... making me feel that </font></b>
+<b><u><font color="#000080">something is going on</font></u></b>
+<b><font color="#000080"> ... ]<br>
+</font></b>
+</p>
+<p align="left">
+<b><font color="#000080">It made me speculate that I should look at the </font></b>
+<b><u><font color="#000080">irreducible cyclotomics</font></u></b>
+<b><font color="#000080">: <br>
+</font></b>
+<img src="images/ex_short77.gif" width="157" height="56" alt="[Maple Math]" align="middle">
+<b><font color="#000080"> + ... + </font></b>
+<img src="images/ex_short78.gif" width="53" height="30" alt="[Maple Math]" align="middle">
+<b><font color="#000080">, where </font></b>
+<i><b><font color="#000080">p</font></b></i>
+<b><font color="#000080"> is prime, and under the substitution </font></b>
+<img src="images/ex_short79.gif" width="83" height="74" alt="[Maple Math]" align="middle">
+<b><font color="#000080">  [and </font></b>
+</p>
+<p align="left">
+<b><font color="#000080">perhaps vary the '2' as well? Is the '2' that is causing the pseudoprimes to base '2' to emerge?]</font></b>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<b><font color="#000080">At this point I cut my original Maple worksheet short, and refer to my </font></b>
+<i><b><font color="#000080">Could the exist a sixth Fermat paper...</font></b></i>
+<b><font color="#000080"> for mathematical details.</font></b>
+</p>
+<!--mstheme--></font><!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/nature/narule.gif" width="600" height="10"></p>
+
+<p>This page was last updated 18 February 2005 15:07:31 -0000</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

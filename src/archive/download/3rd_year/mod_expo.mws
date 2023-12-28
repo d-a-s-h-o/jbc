@@ -1,0 +1,121 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Norm
+al" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 
+"" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "" 1 12 0 128 0 1 2 
+1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# mod_expo.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "This worksheet is about performing
+ " }{TEXT 260 22 "modular exponentiation" }{TEXT -1 1 "." }}{PARA 0 "
+" 0 "" {TEXT -1 33 "That is, it is about calculating " }{XPPEDIT 18 0 
+"`mod`(a^b,n);" "6#-%$modG6$)%\"aG%\"bG%\"nG" }{TEXT -1 7 " where:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "1.  " }
+{TEXT 256 1 "a" }{TEXT -1 16 " is any integer," }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "2.  " }{TEXT 257 1 "b" }{TEXT -1 29 " is any positive inte
+ger, and" }}{PARA 0 "" 0 "" {TEXT -1 4 "3.  " }{TEXT 258 2 "n " }
+{TEXT -1 16 "is any modulus (" }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"nG
+" }{TEXT -1 2 ")." }{TEXT 259 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 67 "One should - of course - have an apprecia
+tion that this calculation" }}{PARA 0 "" 0 "" {TEXT -1 54 "presents a \+
+real problem when the numbers involved are " }{TEXT 261 5 "large" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 29 "With the binary expansion of " }{TEXT 262 1 "b" }{TEXT 
+-1 27 " known, one can immediately" }}{PARA 0 "" 0 "" {TEXT -1 28 "do \+
+'modular exponentiation.'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 263 7 "Example" }{TEXT -1 35 ".  Suppose one wanted to ca
+lculate " }{XPPEDIT 18 0 "13^91;" "6#*$\"#8\"#\"*" }{TEXT -1 9 " mod 1
+27." }}{PARA 0 "" 0 "" {TEXT -1 31 "One could do it by working out " }
+{XPPEDIT 18 0 "13^91;" "6#*$\"#8\"#\"*" }{TEXT -1 20 " etc, but better
+ is:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "9
+1 =   64                  + 16     + 8               + 2    + 1 " }}
+{PARA 0 "" 0 "" {TEXT -1 48 "    = 1*64 + 0*32 + 1*16 + 1*8 + 0*4 + 1*
+2 + 1*1" }}{PARA 0 "" 0 "" {TEXT -1 83 "    = [1,        0,           \+
+1,         1,       0,       1,       1]  (in BASE 2)" }}{PARA 0 "" 0 
+"" {TEXT -1 7 "    = [" }{XPPEDIT 18 0 "d[6];" "6#&%\"dG6#\"\"'" }
+{TEXT -1 6 ",     " }{XPPEDIT 18 0 "d[5];" "6#&%\"dG6#\"\"&" }{TEXT 
+-1 10 ",         " }{XPPEDIT 18 0 "d[4];" "6#&%\"dG6#\"\"%" }{TEXT -1 
+8 ",       " }{XPPEDIT 18 0 "d[3];" "6#&%\"dG6#\"\"$" }{TEXT -1 7 ",  \+
+    " }{XPPEDIT 18 0 "d[2];" "6#&%\"dG6#\"\"#" }{TEXT -1 6 ",     " }
+{XPPEDIT 18 0 "d[1];" "6#&%\"dG6#\"\"\"" }{TEXT -1 6 ",     " }
+{XPPEDIT 18 0 "d[0];" "6#&%\"dG6#\"\"!" }{TEXT -1 1 "]" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "Then what one needs \+
+is this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 
+18 0 "13^91;" "6#*$\"#8\"#\"*" }{TEXT -1 58 " mod 127 is obtained by m
+ultiplying together these powers:" }}{PARA 0 "" 0 "" {TEXT -1 3 "  \n
+" }{XPPEDIT 18 0 "13^64;" "6#*$\"#8\"#k" }{TEXT -1 2 ", " }{XPPEDIT 
+18 0 "13^16;" "6#*$\"#8\"#;" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "13^8;" "
+6#*$\"#8\"\")" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "13^2;" "6#*$\"#8\"\"#
+" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "13;" "6#\"#8" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "Calculate
+ what '13' mod 127 is, then what its square is mod 127, " }}{PARA 0 "
+" 0 "" {TEXT -1 72 "then what its square is mod 127, then what its squ
+are is mod 127, ... ; " }}{PARA 0 "" 0 "" {TEXT -1 40 "that is, we rep
+eatedly 'square' mod 127:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 75 "s[0] := 13 mod 127,      what 13^1 (the '1' is 2^0
+) is congruent to mod 127" }}{PARA 0 "" 0 "" {TEXT -1 81 "s[1] := s[0]
+^2 mod 127,  what 13^2 (the '2' is 2^1) is congruent to mod 127      \+
+" }}{PARA 0 "" 0 "" {TEXT -1 80 "s[2] := s[1]^2 mod 127,  what 13^4 (t
+he '4' is 2^2) is congruent to mod 127     " }}{PARA 0 "" 0 "" {TEXT 
+-1 76 "s[3] := s[2]^2 mod 127,  what 13^8 (the '8' is 2^3) is congruen
+t to mod 127," }}{PARA 0 "" 0 "" {TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 73 "s[k] := s[k-1]^2 mod 127
+,  what 13^(2^k) is congruent to mod 127.        " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "And now what one wants to
+ do is to multiply the values of the " }}{PARA 0 "" 0 "" {TEXT -1 54 "
+s[k]'s for which the CORRESPONDING d[k]'s have VALUE 1" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "b =
+ d[r]*2^r+d[r-1]*2^(r-1);" "6#/%\"bG,&*&&%\"dG6#%\"rG\"\"\")\"\"#F*F+F
++*&&F(6#,&F*F+\"\"\"!\"\"F+)\"\"#,&F*F+\"\"\"F3F+F+" }{TEXT -1 9 " + .
+.. + " }{XPPEDIT 18 0 "d[2]*2^2+d[1]*2+d[0];" "6#,(*&&%\"dG6#\"\"#\"\"
+\"*$\"\"#\"\"#F)F)*&&F&6#\"\"\"F)\"\"#F)F)&F&6#\"\"!F)" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 10 "       = (" }{XPPEDIT 18 0 "d[r]*d[r-
+1];" "6#*&&%\"dG6#%\"rG\"\"\"&F%6#,&F'F(\"\"\"!\"\"F(" }{TEXT -1 6 "  \+
+... " }{XPPEDIT 18 0 "d[2]*d[1]*d[0];" "6#*(&%\"dG6#\"\"#\"\"\"&F%6#\"
+\"\"F(&F%6#\"\"!F(" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 52 "So here is a procedure for 'modular expon
+entiation':" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 536 "mod_expon := proc(a
+, b, n)\nlocal q, d, k, r, s, PRODUCT;\nq[0] := iquo(b, 2): \nd[0] := \+
+irem(b, 2):\nfor k while q[k - 1] <> 0 do\nq[k] := iquo(q[k-1], 2): \n
+d[k] := irem(q[k - 1], 2):\nod;   # we now have the binary digits of '
+b' \nr := k-1:  # this defines the value of 'r' as above \ns[0] := a m
+od n:\nfor k to r do \ns[k] := s[k-1]^2 mod n\nod; # that defines ALL \+
+the squares \nPRODUCT := 1: # NOW to multiply the RELEVANT ones togeth
+er,\nfor k from 0 to r do\nif d[k] = 1 then   # the RELEVANT d-values \+
+\nPRODUCT := s[k]*PRODUCT mod n\nfi\nod:\nend:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "mod_expon(22, 358, 791);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#d" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "22&^
+358 mod 791;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#d" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 30 "mod_expon(2211, 35855, 79188);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"&$oe" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "2211&^35855 mod
+ 79188;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&$oe" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+62 "mod_expon(229876549876432, 35887975975771, 65667686861661791);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"2nc6Yq`e;#" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 54 "229876549876432&^35887975975771 mod 656676868616
+61791;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"2nc6Yq`e;#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 226 "mod_expon(229876549876888888888888888888888888888888
+88888888888888888888888432876549876554430000000,8879759757999999999999
+99999999999999999999971,5667686777777777777777777777777777777777777777
+77777776543210000000000861661791);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"iog]mn&e*=PqGTkWS@WqXAy#y.c#=C$zC=[=tBDhFSu\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 220 "229876549876888888888888888888888888888888888
+88888888888888888888432876549876554430000000&^887975975799999999999999
+999999999999999999971 mod 56676867777777777777777777777777777777777777
+7777777776543210000000000861661791;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#\"iog]mn&e*=PqGTkWS@WqXAy#y.c#=C$zC=[=tBDhFSu\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "Almos
+t instantly." }}}}{MARK "1 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

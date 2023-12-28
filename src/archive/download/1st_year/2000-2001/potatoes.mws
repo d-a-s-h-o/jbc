@@ -1,0 +1,340 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 269 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 285 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 
+128 1 0 1 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bul
+let Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 
+0 0 -1 3 3 0 0 0 0 0 0 15 2 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# potatoes.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 88 "First note the use of 'is', '<', '
+>', '<=' and '>=' in the following (all of which have " }{TEXT 292 7 "
+correct" }{TEXT -1 10 " outputs):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "is(4 < 6);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "is(4 < -6);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "is(-4 < \+
+6);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "is(-4 < -6);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "is(-4 > -6);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "is(4 < 4);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 11 "is(4 <= 4);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "is(-4 <= 4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "is(-4^2 = 4^2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "is
+((-4)^2 <= 4^2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "Recall our discussion of the potat
+oes volume/area inequalities: if " }{XPPEDIT 18 0 "S[1];" "6#&%\"SG6#
+\"\"\"" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "s[1];" "6#&%\"sG6#\"\"\"" 
+}{TEXT -1 27 " are two sets of spheres - " }{XPPEDIT 18 0 "S[1];" "6#&
+%\"SG6#\"\"\"" }{TEXT -1 36 " comprised of the 'large' ones, and " }
+{XPPEDIT 18 0 "s[1];" "6#&%\"sG6#\"\"\"" }{TEXT -1 42 " comprised of t
+he 'small' ones - such that" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+15 "" 0 "" {TEXT -1 35 "the total volume of the spheres in " }
+{XPPEDIT 18 0 "S[1]" "6#&%\"SG6#\"\"\"" }{TEXT -1 39 " = the total vol
+ume of the spheres in  " }{XPPEDIT 18 0 "s[1];" "6#&%\"sG6#\"\"\"" }
+{TEXT -1 18 "\n\nis it true that\n" }}{PARA 15 "" 0 "" {TEXT -1 41 "th
+e total surface area of the spheres in " }{XPPEDIT 18 0 "S[1]" "6#&%\"
+SG6#\"\"\"" }{TEXT -1 45 " < the total surface area of the spheres in \+
+ " }{XPPEDIT 18 0 "s[1];" "6#&%\"sG6#\"\"\"" }{TEXT -1 1 "?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 48 "Mathematical fo
+rmulation of that question. Let \{" }{XPPEDIT 18 0 "R[1],R[2];" "6$&%
+\"RG6#\"\"\"&F$6#\"\"#" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "R[m];" 
+"6#&%\"RG6#%\"mG" }{TEXT -1 9 "\}, and \{ " }{XPPEDIT 18 0 "r[1],r[2];
+" "6$&%\"rG6#\"\"\"&F$6#\"\"#" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "
+r[n];" "6#&%\"rG6#%\"nG" }{TEXT -1 37 "\} be two sets of 'large' and '
+small' " }{TEXT 257 8 "positive" }{TEXT -1 19 " numbers, such that" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "4*Pi*R
+[1]^3/3+4*Pi*R[2]^3/3;" "6#,&**\"\"%\"\"\"%#PiGF&&%\"RG6#\"\"\"\"\"$\"
+\"$!\"\"F&**\"\"%F&F'F&&F)6#\"\"#\"\"$\"\"$F.F&" }{TEXT -1 10 "  + ...
+ + " }{XPPEDIT 18 0 "4*Pi*R[m]^3/3 = 4*Pi*r[1]^3/3+4*Pi*r[2]^3/3;" "6#
+/**\"\"%\"\"\"%#PiGF&&%\"RG6#%\"mG\"\"$\"\"$!\"\",&**\"\"%F&F'F&&%\"rG
+6#\"\"\"\"\"$\"\"$F.F&**\"\"%F&F'F&&F36#\"\"#\"\"$\"\"$F.F&" }{TEXT 
+-1 11 "  + ... +  " }{XPPEDIT 18 0 "4*Pi*r[n]^3/3;" "6#**\"\"%\"\"\"%#
+PiGF%&%\"rG6#%\"nG\"\"$\"\"$!\"\"" }{TEXT -1 19 " \n\nis it true that
+\n" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "4*Pi*R[1]^2+4*Pi*
+R[2]^2;" "6#,&*(\"\"%\"\"\"%#PiGF&&%\"RG6#\"\"\"\"\"#F&*(\"\"%F&F'F&&F
+)6#\"\"#\"\"#F&" }{TEXT -1 10 "  + ... + " }{XPPEDIT 18 0 "4*Pi*R[m]^2
+ < 4*Pi*r[1]^2+4*Pi*r[2]^2;" "6#2*(\"\"%\"\"\"%#PiGF&&%\"RG6#%\"mG\"\"
+#,&*(\"\"%F&F'F&&%\"rG6#\"\"\"\"\"#F&*(\"\"%F&F'F&&F16#\"\"#\"\"#F&" }
+{TEXT -1 11 "  + ... +  " }{XPPEDIT 18 0 "4*Pi*r[n]^2;" "6#*(\"\"%\"\"
+\"%#PiGF%&%\"rG6#%\"nG\"\"#" }{TEXT -1 35 " ?\n\nor, to put it more su
+ccinctly \n" }}{PARA 15 "" 0 "" {TEXT 311 2 "if" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "R[1]^3+R[2]^3;" "6#,&*$&%\"RG6#\"\"\"\"\"$\"\"\"*$&F&6#
+\"\"#\"\"$F*" }{TEXT -1 10 "  + ... + " }{XPPEDIT 18 0 "R[m]^3 = r[1]^
+3+r[2]^3;" "6#/*$&%\"RG6#%\"mG\"\"$,&*$&%\"rG6#\"\"\"\"\"$\"\"\"*$&F-6
+#\"\"#\"\"$F1" }{TEXT -1 11 "  + ... +  " }{XPPEDIT 18 0 "r[n]^3;" "6#
+*$&%\"rG6#%\"nG\"\"$" }{TEXT -1 51 " (for 'large' positive ... and 'sm
+all' positive...)" }}{PARA 15 "" 0 "" {TEXT 259 2 "is" }{TEXT -1 1 " \+
+" }{XPPEDIT 18 0 "R[1]^2+R[2]^2;" "6#,&*$&%\"RG6#\"\"\"\"\"#\"\"\"*$&F
+&6#\"\"#\"\"#F*" }{TEXT -1 10 "  + ... + " }{XPPEDIT 18 0 "R[m]^2 < r[
+1]^2+r[2]^2;" "6#2*$&%\"RG6#%\"mG\"\"#,&*$&%\"rG6#\"\"\"\"\"#\"\"\"*$&
+F-6#\"\"#\"\"#F1" }{TEXT -1 11 "  + ... +  " }{XPPEDIT 18 0 "r[n]^2;" 
+"6#*$&%\"rG6#%\"nG\"\"#" }{TEXT -1 3 " ?\n" }}{PARA 0 "" 0 "" {TEXT 
+-1 156 "I suggested - in the face of not immediately knowing what to d
+o - that one should consider the frequently good tactic of replacing t
+he above problem with a " }{TEXT 260 7 "simpler" }{TEXT -1 215 " one: \+
+instead of spheres and surface areas, consider circles and their perim
+eters (if you like - to keep the potato image in mind - the obvious co
+rresponding problem for circular crisps and their edging peel): Let \{
+" }{XPPEDIT 18 0 "R[1],R[2];" "6$&%\"RG6#\"\"\"&F$6#\"\"#" }{TEXT -1 
+8 ", ... , " }{XPPEDIT 18 0 "R[m];" "6#&%\"RG6#%\"mG" }{TEXT -1 9 "\},
+ and \{ " }{XPPEDIT 18 0 "r[1],r[2];" "6$&%\"rG6#\"\"\"&F$6#\"\"#" }
+{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "r[n];" "6#&%\"rG6#%\"nG" }{TEXT 
+-1 64 "\} be two sets of 'large' and 'small' positive numbers, such th
+at" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "
+Pi*R[1]^2+Pi*R[2]^2;" "6#,&*&%#PiG\"\"\"*$&%\"RG6#\"\"\"\"\"#F&F&*&F%F
+&*$&F)6#\"\"#\"\"#F&F&" }{TEXT -1 10 "  + ... + " }{XPPEDIT 18 0 "4*Pi
+*R[m]^2 = 4*Pi*r[1]^2+4*Pi*r[2]^2;" "6#/*(\"\"%\"\"\"%#PiGF&&%\"RG6#%
+\"mG\"\"#,&*(\"\"%F&F'F&&%\"rG6#\"\"\"\"\"#F&*(\"\"%F&F'F&&F16#\"\"#\"
+\"#F&" }{TEXT -1 11 "  + ... +  " }{XPPEDIT 18 0 "4*Pi*r[n]^2;" "6#*(
+\"\"%\"\"\"%#PiGF%&%\"rG6#%\"nG\"\"#" }{TEXT -1 19 " \n\nis it true th
+at\n" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "2*Pi*R[1]+2*Pi*
+R[2];" "6#,&*(\"\"#\"\"\"%#PiGF&&%\"RG6#\"\"\"F&F&*(\"\"#F&F'F&&F)6#\"
+\"#F&F&" }{TEXT -1 10 "  + ... + " }{XPPEDIT 18 0 "2*Pi*R[m] < 2*Pi*r[
+1]+2*Pi*r[2];" "6#2*(\"\"#\"\"\"%#PiGF&&%\"RG6#%\"mGF&,&*(\"\"#F&F'F&&
+%\"rG6#\"\"\"F&F&*(\"\"#F&F'F&&F06#\"\"#F&F&" }{TEXT -1 11 "  + ... + \+
+ " }{XPPEDIT 18 0 "2*Pi*r[n];" "6#*(\"\"#\"\"\"%#PiGF%&%\"rG6#%\"nGF%
+" }{TEXT -1 35 " ?\n\nor, to put it more succinctly \n" }}{PARA 15 "" 
+0 "" {TEXT 257 2 "if" }{TEXT -1 1 " " }{XPPEDIT 18 0 "R[1]^2+R[2]^2;" 
+"6#,&*$&%\"RG6#\"\"\"\"\"#\"\"\"*$&F&6#\"\"#\"\"#F*" }{TEXT -1 10 "  +
+ ... + " }{XPPEDIT 18 0 "R[m]^2 = r[1]^2+r[2]^2;" "6#/*$&%\"RG6#%\"mG
+\"\"#,&*$&%\"rG6#\"\"\"\"\"#\"\"\"*$&F-6#\"\"#\"\"#F1" }{TEXT -1 11 " \+
+ + ... +  " }{XPPEDIT 18 0 "r[n]^2;" "6#*$&%\"rG6#%\"nG\"\"#" }{TEXT 
+-1 51 " (for 'large' positive ... and 'small' positive...)" }}{PARA 
+15 "" 0 "" {TEXT 258 2 "is" }{TEXT -1 1 " " }{XPPEDIT 18 0 "R[1]+R[2];
+" "6#,&&%\"RG6#\"\"\"\"\"\"&F%6#\"\"#F(" }{TEXT -1 10 "  + ... + " }
+{XPPEDIT 18 0 "R[m] < r[1]+r[2];" "6#2&%\"RG6#%\"mG,&&%\"rG6#\"\"\"\"
+\"\"&F*6#\"\"#F-" }{TEXT -1 11 "  + ... +  " }{XPPEDIT 18 0 "r[n];" "6
+#&%\"rG6#%\"nG" }{TEXT -1 2 " ?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "Or, again, to consider a single, simple c
+ase, is this true?: let " }{XPPEDIT 18 0 "R,r[1],r[2];" "6%%\"RG&%\"rG
+6#\"\"\"&F%6#\"\"#" }{TEXT -1 4 " be " }{TEXT 261 8 "positive" }{TEXT 
+-1 21 " numbers such that\n  " }}{PARA 15 "" 0 "" {TEXT 312 2 "if" }
+{TEXT -1 1 " " }{XPPEDIT 18 0 "R[1]^2 = r[1]^2+r[2]^2;" "6#/*$&%\"RG6#
+\"\"\"\"\"#,&*$&%\"rG6#\"\"\"\"\"#\"\"\"*$&F-6#\"\"#\"\"#F1" }{TEXT 
+-1 8 " ... (i)" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 262 2 "is" }
+{TEXT -1 1 " " }{XPPEDIT 18 0 "R[1] < r[1]+r[2];" "6#2&%\"RG6#\"\"\",&
+&%\"rG6#\"\"\"\"\"\"&F*6#\"\"#F-" }{TEXT -1 14 " ?   ... (ii)\n" }}
+{PARA 0 "" 0 "" {TEXT 263 19 "Some numerical play" }{TEXT -1 8 ". Let'
+s " }}{PARA 15 "" 0 "" {TEXT -1 17 "first choose an '" }{XPPEDIT 18 0 
+"R[1];" "6#&%\"RG6#\"\"\"" }{TEXT -1 2 "' " }}{PARA 15 "" 0 "" {TEXT 
+-1 16 "then choose an '" }{XPPEDIT 18 0 "r[1];" "6#&%\"rG6#\"\"\"" }
+{TEXT -1 2 "' " }{TEXT 264 4 "less" }{TEXT -1 6 " than " }{XPPEDIT 18 
+0 "R[1];" "6#&%\"RG6#\"\"\"" }{TEXT -1 19 " (and subsequently " }
+{TEXT 265 5 "just " }{TEXT -1 19 "slightly less than " }{XPPEDIT 18 0 
+"R[1];" "6#&%\"RG6#\"\"\"" }{TEXT -1 3 "), " }}{PARA 15 "" 0 "" {TEXT 
+-1 43 "then calculate (to 10 places of accuracy) '" }{XPPEDIT 18 0 "r[
+2];" "6#&%\"rG6#\"\"#" }{TEXT -1 28 "' such that (i) holds\n(with " }
+{XPPEDIT 18 0 "R[1]^2 = r[1]^2+r[2]^2;" "6#/*$&%\"RG6#\"\"\"\"\"#,&*$&
+%\"rG6#\"\"\"\"\"#\"\"\"*$&F-6#\"\"#\"\"#F1" }{TEXT -1 7 ", then " }
+{XPPEDIT 18 0 "r[2] = sqrt(R[1]^2-r[1]^2);" "6#/&%\"rG6#\"\"#-%%sqrtG6
+#,&*$&%\"RG6#\"\"\"\"\"#\"\"\"*$&F%6#\"\"\"\"\"#!\"\"" }{TEXT -1 2 " )
+" }}{PARA 15 "" 0 "" {TEXT -1 141 "finally test to see if (ii) holds (
+the last command 'is(R[1] < r[1] + r[2])' isn't necessary; you should \+
+let your eye compare the values of '" }{XPPEDIT 18 0 "R[1];" "6#&%\"RG
+6#\"\"\"" }{TEXT -1 64 "' and 'r[1]+r[2]' (the fourth output line) to \+
+see not only that " }{XPPEDIT 18 0 "R[1];" "6#&%\"RG6#\"\"\"" }{TEXT 
+-1 4 " is " }{TEXT 313 4 "less" }{TEXT -1 7 " than (" }{XPPEDIT 18 0 "
+r[1]+r[2];" "6#,&&%\"rG6#\"\"\"\"\"\"&F%6#\"\"#F(" }{TEXT -1 25 "), bu
+t to see that it is " }{TEXT 275 10 "only a bit" }{TEXT -1 50 " less t
+han it. Of course your numerical intuition " }{TEXT 314 6 "should" }
+{TEXT -1 65 " be telling you that is so without any computation whatso
+ever...)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 98 "R[1] := 7; r[1]
+ := 6; r[2] := evalf(sqrt(R[1]^2 - r[1]^2)); \nr[1] + r[2]; is(R[1] < \+
+r[1] + r[2]); " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 4 "Now " }}{PARA 15 "" 0 "" {TEXT -1 
+53 "Copy and paste the above into the next command region" }}{PARA 15 
+"" 0 "" {TEXT -1 39 "Keep the assigned value of 'R[1]', but " }{TEXT 
+266 5 "alter" }{TEXT -1 32 " the assigned 'r[1]' value to a " }{TEXT 
+267 10 "little bit" }{TEXT -1 31 " short of R[1]'s assigned value" }}
+{PARA 15 "" 0 "" {TEXT -1 40 "Re-execute the command region to see... \+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 105 "R[1] := 7; r[1] := 6.9
+99901; r[2] := evalf(sqrt(R[1]^2 - r[1]^2)); \nr[1] + r[2]; is(R[1] < \+
+r[1] + r[2]); " }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 89 "But observe what happens
+ if I do this (note I have left out 'evalf' to get exact values):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 92 "R[1] := 5; r[1] := -4; r[2] \+
+:= sqrt(R[1]^2 - r[1]^2); \nr[1] + r[2]; is(R[1] < r[1] + r[2]); " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 31 "which brings me to an important" }}{PARA 0 "" 0 "" {TEXT 
+-1 9 "Note the " }{TEXT 268 8 "emphasis" }{TEXT 269 5 " on '" }{TEXT 
+270 8 "positive" }{TEXT 271 1 "'" }{TEXT 256 1 "." }{TEXT -1 46 " In t
+he last example what I did was to choose " }{XPPEDIT 18 0 "R[1] = 5;" 
+"6#/&%\"RG6#\"\"\"\"\"&" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "r[1] = -4;" 
+"6#/&%\"rG6#\"\"\",$\"\"%!\"\"" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "r
+[2] = 3;" "6#/&%\"rG6#\"\"#\"\"$" }{TEXT -1 21 " (and so satisfy the \+
+" }{XPPEDIT 18 0 "R[1]^2 = r[1]^2+r[2]^2;" "6#/*$&%\"RG6#\"\"\"\"\"#,&
+*$&%\"rG6#\"\"\"\"\"#\"\"\"*$&F-6#\"\"#\"\"#F1" }{TEXT -1 20 " relatio
+nship), but " }{TEXT 273 4 "that" }{TEXT -1 15 " choice led to " }
+{XPPEDIT 18 0 "R[1];" "6#&%\"RG6#\"\"\"" }{TEXT -1 1 " " }{TEXT 272 3 
+"not" }{TEXT -1 18 " being less than (" }{XPPEDIT 18 0 "r[1]+r[2];" "6
+#,&&%\"rG6#\"\"\"\"\"\"&F%6#\"\"#F(" }{TEXT -1 3 ").\n" }{TEXT 274 10 
+"The moral?" }{TEXT -1 204 " Simply that one must be very, very carefu
+l that a proof that (ii) follows from (i) really is carefully framed, \+
+and doesn't contain an error or oversight!! One must be fully awake an
+d alert at all times!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 42 "And one can numerically handle cases like " }
+{XPPEDIT 18 0 "R[1]^2 = r[1]^2+r[2]^2+r[3]^2;" "6#/*$&%\"RG6#\"\"\"\"
+\"#,(*$&%\"rG6#\"\"\"\"\"#\"\"\"*$&F-6#\"\"#\"\"#F1*$&F-6#\"\"$\"\"#F1
+" }{TEXT -1 6 ", but " }{TEXT 276 4 "care" }{TEXT -1 20 " must be take
+n that " }{TEXT 277 5 "after" }{TEXT -1 80 " one has assigned values t
+o 'R[1]' and 'r[1]', that 'r[2]' is chosen so that...:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 138 "R[1] := 7; r[1] := 6.99; r[2] := .
+374; \nr[3] := evalf(sqrt(R[1]^2 - r[1]^2 - r[2]^2)); \nr[1] + r[2] + \+
+r[3]; is(R[1] < r[1] + r[2] + r[3]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 284 13 "Final commen
+t" }{TEXT -1 24 ", in a Maple worksheet, " }{TEXT 285 12 "on the above
+" }{TEXT -1 59 ": numerical work is all very well and good, but it doe
+sn't " }{TEXT 278 5 "prove" }{TEXT -1 24 " anything. Of course it " }
+{TEXT 279 5 "could" }{TEXT -1 54 " disprove something: if one were to \+
+stumble upon some " }{TEXT 280 8 "positive" }{TEXT -1 1 " " }{XPPEDIT 
+18 0 "R[1],r[1],r[2];" "6%&%\"RG6#\"\"\"&%\"rG6#\"\"\"&F(6#\"\"#" }
+{TEXT -1 46 " satisfying (i) above, but for which (ii) was " }{TEXT 
+281 3 "not" }{TEXT -1 31 " satisfied, then we would have " }{TEXT 282 
+18 "achieved something" }{TEXT -1 16 ": we would then " }{TEXT 283 4 "
+know" }{TEXT -1 118 " that (ii) didn't follow from (i), and so we woul
+d have abandoned all efforts to prove that (ii) does follow from (i).
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 306 8 "Quest
+ion" }{TEXT -1 63 ". How does one prove that (ii) follows from (i)? Or
+ prove the (" }{XPPEDIT 18 0 "R[1],r[1],r[2],r[3];" "6&&%\"RG6#\"\"\"&
+%\"rG6#\"\"\"&F(6#\"\"#&F(6#\"\"$" }{TEXT -1 17 ") case? Or ... .\n" }
+{TEXT 307 6 "Answer" }{TEXT -1 66 ". Follow the arguments given in cla
+ss time, or study my hard-copy " }{TEXT 308 4 "Word" }{TEXT -1 7 " not
+es." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "An
+d here's another example of an inequality (again it's quite tantalisin
+g): " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT 287 2 "
+is" }{TEXT -1 1 " " }{XPPEDIT 18 0 "2 <= a+1/a;" "6#1\"\"#,&%\"aG\"\"
+\"*&\"\"\"F'F&!\"\"F'" }{TEXT -1 5 " for " }{TEXT 288 3 "all" }{TEXT 
+-1 1 " " }{XPPEDIT 18 0 "0 < a;" "6#2\"\"!%\"aG" }{TEXT -1 25 " ? Inde
+ed, more precisely" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 256 2 "is
+" }{TEXT -1 1 " " }{XPPEDIT 18 0 "2 < a+1/a;" "6#2\"\"#,&%\"aG\"\"\"*&
+\"\"\"F'F&!\"\"F'" }{TEXT -1 5 " for " }{TEXT 257 3 "all" }{TEXT -1 1 
+" " }{XPPEDIT 18 0 "0 < a;" "6#2\"\"!%\"aG" }{TEXT -1 1 " " }{TEXT 
+289 6 "except" }{TEXT -1 1 " " }{XPPEDIT 18 0 "a = 1;" "6#/%\"aG\"\"\"
+" }{TEXT -1 7 " (when " }{XPPEDIT 18 0 "a+1/a = 1+1/1;" "6#/,&%\"aG\"
+\"\"*&\"\"\"F&F%!\"\"F&,&\"\"\"F&*&\"\"\"F&\"\"\"F)F&" }{TEXT -1 8 " =
+ 2) ? " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 290 
+19 "Some numerical play" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "a := 3; a+1/a; is(a + 1/a >= 2);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Of c
+ourse if one chooses a negative 'a' then:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 35 "a := -3; a + 1/a; is(a + 1/a >= 2);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 11 "So back to " }{TEXT 286 8 "positive" }{TEXT -1 30 " a's (copy, \+
+paste, alter 'a'):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "a := \+
+50; a + 1/a; is(a + 1/a >= 2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 38 "a := 1.001; a + 1/a; is(a + 1/a >= 2);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "Let's \+
+have a peek at the graph of (" }{XPPEDIT 18 0 "a+1/a;" "6#,&%\"aG\"\"
+\"*&\"\"\"F%F$!\"\"F%" }{TEXT -1 6 ") as '" }{TEXT 291 1 "a" }{TEXT 
+-1 75 "' varies between '.1' (slightly bigger than 0) and '3'. First o
+ne needs to " }{TEXT 293 8 "unassign" }{TEXT -1 102 " the value of 'a'
+ by (otherwise it leads to a problem with the 'plot' command, and I wi
+ll demonstrate " }{TEXT 294 6 "before" }{TEXT -1 30 " performing the u
+nassignment):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "a := 'a';" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "plot(a + 1/a, a = (.1)..3
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 50 "And one sees, what one should sense anyway, that (
+" }{XPPEDIT 18 0 "a+1/a;" "6#,&%\"aG\"\"\"*&\"\"\"F%F$!\"\"F%" }{TEXT 
+-1 12 ") initially " }{TEXT 297 7 "appears" }{TEXT -1 46 " to decrease
+ in value as 'a' increases beyond " }{XPPEDIT 18 0 "a = .1;" "6#/%\"aG
+$\"\"\"!\"\"" }{TEXT -1 29 ", appears to reach a minimum " }{TEXT 295 
+2 "at" }{TEXT -1 5 " (or " }{TEXT 296 6 "around" }{TEXT -1 3 "?) " }
+{XPPEDIT 18 0 "a = 1;" "6#/%\"aG\"\"\"" }{TEXT -1 11 ", and then " }
+{TEXT 298 7 "appears" }{TEXT -1 20 " to increase beyond " }{XPPEDIT 
+18 0 "a = 1;" "6#/%\"aG\"\"\"" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 "But, let's drop the '=' i
+n the 'is(a + 1/a >= 2)' and consider these two computations:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "a := 1.0001; a + 1/a; is(a +
+ 1/a > 2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "a := 1.00001;
+ a + 1/a; is(a + 1/a > 2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+39 "a := 1.00001; a + 1/a; is(a + 1/a = 2);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "See the di
+fference? Shock (mock), horror!! What's happened? " }}{PARA 0 "" 0 "" 
+{TEXT -1 7 "Has it " }{TEXT 299 6 "really" }{TEXT -1 21 " happened on \+
+setting " }{XPPEDIT 18 0 "a = 1.00001;" "6#/%\"aG$\"',+5!\"&" }{TEXT 
+-1 6 " that " }{XPPEDIT 18 0 "a+1/a = 2;" "6#/,&%\"aG\"\"\"*&\"\"\"F&F
+%!\"\"F&\"\"#" }{TEXT -1 2 "? " }}{PARA 0 "" 0 "" {TEXT -1 40 "Of cour
+se not!! Just solve the equation " }{XPPEDIT 18 0 "x+1/x = 2;" "6#/,&%
+\"xG\"\"\"*&\"\"\"F&F%!\"\"F&\"\"#" }{TEXT -1 13 " to see that " }
+{XPPEDIT 18 0 "x+1/x = 2" "6#/,&%\"xG\"\"\"*&\"\"\"F&F%!\"\"F&\"\"#" }
+{TEXT -1 1 " " }{TEXT 309 4 "only" }{TEXT -1 5 " for " }{XPPEDIT 18 0 
+"x = 1;" "6#/%\"xG\"\"\"" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 
+17 "                 " }{XPPEDIT 18 0 "x+1/x = 2;" "6#/,&%\"xG\"\"\"*&
+\"\"\"F&F%!\"\"F&\"\"#" }{TEXT -1 21 ", and multiplying by " }{TEXT 
+300 1 "x" }{TEXT -1 7 " gives:" }}{PARA 0 "" 0 "" {TEXT -1 16 "       \+
+         " }{XPPEDIT 18 0 "x^2+1 = 2*x;" "6#/,&*$%\"xG\"\"#\"\"\"\"\"
+\"F(*&\"\"#F(F&F(" }{TEXT -1 14 ", giving\n     " }{XPPEDIT 18 0 "x^2-
+2*x+1 = 0;" "6#/,(*$%\"xG\"\"#\"\"\"*&\"\"#F(F&F(!\"\"\"\"\"F(\"\"!" }
+{TEXT -1 21 ", and so\n            " }{XPPEDIT 18 0 "(x-1)^2 = 0;" "6#
+/*$,&%\"xG\"\"\"\"\"\"!\"\"\"\"#\"\"!" }{TEXT -1 9 ", giving " }
+{XPPEDIT 18 0 "x = 1;" "6#/%\"xG\"\"\"" }{TEXT -1 1 "." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "And thus " }{XPPEDIT 
+18 0 "a = 1.00001;" "6#/%\"aG$\"',+5!\"&" }{TEXT -1 7 " could " }
+{TEXT 301 3 "not" }{TEXT -1 6 " give " }{XPPEDIT 18 0 "a+1/a = 2;" "6#
+/,&%\"aG\"\"\"*&\"\"\"F&F%!\"\"F&\"\"#" }{TEXT -1 1 "." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "So, what happened wi
+th the above Maple computation? It's simple:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 13 "a := 1.00001;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "1/a; # to TEN places of accuracy" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 36 "a + 1/a; # to TEN places of accuracy" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 11 "Converting " }{XPPEDIT 18 0 "a = 1.00001;" "6#/%\"aG$\"',
++5!\"&" }{TEXT -1 26 " to rational form we have " }{XPPEDIT 18 0 "a = \+
+100001/100000;" "6#/%\"aG*&\"',+5\"\"\"\"'++5!\"\"" }{TEXT -1 8 ", and
+ so" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "a := 100001/100000;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "a + 1/a;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "a + 1/a - 2;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 16 "And we
+ see that " }{XPPEDIT 18 0 "a+1/a;" "6#,&%\"aG\"\"\"*&\"\"\"F%F$!\"\"F
+%" }{TEXT -1 22 " is greater than 2 by " }{XPPEDIT 18 0 "1/10000100000
+;" "6#*&\"\"\"\"\"\"\",++5++\"!\"\"" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 302 8 "Question" }{TEXT -1 5 "
+. So " }{TEXT 305 3 "how" }{TEXT -1 10 " does one " }{TEXT 303 5 "prov
+e" }{TEXT -1 6 " that " }{XPPEDIT 18 0 "2 <= a+1/a;" "6#1\"\"#,&%\"aG
+\"\"\"*&\"\"\"F'F&!\"\"F'" }{TEXT -1 5 " for " }{TEXT 304 3 "all" }
+{TEXT -1 1 " " }{XPPEDIT 18 0 "0 < a;" "6#2\"\"!%\"aG" }{TEXT -1 3 " ?
+\n" }{TEXT 310 6 "Answer" }{TEXT -1 66 ". Follow the arguments given i
+n class time, or study my hard-copy " }{TEXT 256 4 "Word" }{TEXT -1 7 
+" notes." }}}}{MARK "13 25 2" 29 }{VIEWOPTS 1 1 0 1 1 1803 }

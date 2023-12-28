@@ -1,0 +1,142 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 270 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 
+1 2 1 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet It
+em" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 
+1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE 
+"" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 11 0 128 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 
+1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "# Sierpinski.mws" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 83 "Here our starting question is to \+
+ask some primes (if there are any...) of the form:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "2^n+1;" "6#,&)\"\"#%\"
+nG\"\"\"F'F'" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "3.2^n+1
+;" "6#,&)-%&FloatG6$\"#K!\"\"%\"nG\"\"\"F+F+" }{TEXT -1 0 "" }}{PARA 
+15 "" 0 "" {XPPEDIT 18 0 "5.2^n+1;" "6#,&)-%&FloatG6$\"#_!\"\"%\"nG\"
+\"\"F+F+" }{TEXT -1 0 "" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "7.2^n+1;" "
+6#,&)-%&FloatG6$\"#s!\"\"%\"nG\"\"\"F+F+" }{TEXT -1 0 "" }}{PARA 15 "
+" 0 "" {XPPEDIT 18 0 "9.2^n+1;" "6#,&)-%&FloatG6$\"##*!\"\"%\"nG\"\"\"
+F+F+" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 44 "... ... , in gener
+al, for primes of the form" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "k*2^n+1;
+" "6#,&*&%\"kG\"\"\")\"\"#%\"nGF&F&F&F&" }{TEXT -1 11 ", for each " }
+{TEXT 257 3 "odd" }{TEXT -1 1 " " }{TEXT 256 1 "k" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "First, so
+me facts:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT 
+-1 10 "There are " }{TEXT 258 9 "only five" }{TEXT -1 26 " known prime
+s of the form " }{XPPEDIT 18 0 "2^n+1;" "6#,&)\"\"#%\"nG\"\"\"F'F'" }
+{TEXT -1 38 ", corresponding to these five values: " }{XPPEDIT 18 0 "n
+ = 1,2,4,8,16;" "6'/%\"nG\"\"\"\"\"#\"\"%\"\")\"#;" }{TEXT -1 118 ". T
+hose primes - namely 3, 5, 17, 257, and 65537 - were first identified \+
+by Fermat (~1641), who wrongly believed that " }{TEXT 260 4 "all " }
+{TEXT -1 1 "'" }{TEXT 259 14 "Fermat numbers" }{TEXT -1 29 "' - namely
+ those of the form " }{XPPEDIT 18 0 "2^(2^m)+1;" "6#,&)\"\"#)F%%\"mG\"
+\"\"F(F(" }{TEXT -1 43 " - were prime. They happen to be prime for " }
+{XPPEDIT 18 0 "m = 0,1,2,3,4;" "6'/%\"mG\"\"!\"\"\"\"\"#\"\"$\"\"%" }
+{TEXT -1 21 ", but no other later " }{TEXT 261 1 "m" }{TEXT -1 26 " ha
+s been found for which " }{XPPEDIT 18 0 "F[m] = 2^(2^m)+1;" "6#/&%\"FG
+6#%\"mG,&)\"\"#)F*F'\"\"\"F,F," }{TEXT -1 11 " is prime. " }{XPPEDIT 
+18 0 "F[m];" "6#&%\"FG6#%\"mG" }{TEXT -1 4 " is " }{TEXT 263 5 "known
+" }{TEXT -1 43 " to be composite (i.e., not prime) for all " }{TEXT 
+262 1 "m" }{TEXT -1 37 " between 5 and 31, but the nature of " }
+{XPPEDIT 18 0 "F[32];" "6#&%\"FG6#\"#K" }{TEXT -1 101 " has yet to be \+
+determined... At a much higher level, however, it has been known since
+ July 1999 that " }{XPPEDIT 18 0 "F[382447];" "6#&%\"FG6#\"'ZCQ" }
+{TEXT -1 67 " is composite (see the Fermat Record Number section of my
+ web site)" }}{PARA 15 "" 0 "" {TEXT -1 38 "There are several primes o
+f the form (" }{XPPEDIT 18 0 "3.2^n+1;" "6#,&)-%&FloatG6$\"#K!\"\"%\"n
+G\"\"\"F+F+" }{TEXT -1 123 "), and it is believed that there are infin
+itely many such primes, but nobody has the remotest idea as to how thi
+s might be " }{TEXT 264 6 "proved" }{TEXT -1 16 ". Currently the " }
+{TEXT 265 13 "largest known" }{TEXT -1 61 " (found here in St Patrick'
+s College) prime of this form is (" }{XPPEDIT 18 0 "3.2^2478785+1;" "6
+#,&*$-%&FloatG6$\"#K!\"\"\"(&yyC\"\"\"F+F+" }{TEXT -1 28 "), which has
+ 746190 digits. " }}{PARA 15 "" 0 "" {TEXT -1 46 "There are several pr
+imes of each of the forms " }{XPPEDIT 18 0 "5.2^n+1,7.2^n+1,9.2^n+1,`.
+..`;" "6&,&)-%&FloatG6$\"#_!\"\"%\"nG\"\"\"F+F+,&)-F&6$\"#sF)F*F+F+F+,
+&)-F&6$\"##*F)F*F+F+F+%$...G" }{TEXT -1 32 " , and one might well wond
+er if:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" {TEXT -1 
+28 "for each odd natural number " }{TEXT 266 1 "k" }{TEXT -1 6 ", is (
+" }{XPPEDIT 18 0 "k*2^n+1;" "6#,&*&%\"kG\"\"\")\"\"#%\"nGF&F&F&F&" }
+{TEXT -1 12 ") prime for " }{TEXT 267 4 "some" }{TEXT -1 10 " value of
+ " }{TEXT 268 1 "n" }{TEXT -1 23 " (= 1, 2, 3, 4, 5, ...)" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 148 "Well, we can do s
+mall calculations by hand, but this is precisely the sort of investiga
+tion for which a computer is the answer to all our prayers..." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "First of \+
+all, note that one can do things like " }{TEXT 269 3 "fix" }{TEXT -1 
+55 " a particular value of 'k', and try many values of 'n':" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "for n to 50 do\nif isprime(5
+*2^n + 1)\nthen print(n, 5*2^n + 1)\nfi\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"\"\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"#T
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"(\"$T'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"#8\"&h4%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#:\"'TQ
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#D\"*h@xn\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$\"#R\".T%p!z([F" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 68 "for n to 50 do\nif isprime(7*2^n + 1)\nthen print(n, \+
+7*2^n + 1)\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"#H" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"%\"$8\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"'\"$\\%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#9\"'*
+o9\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#?\"(L+M(" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$\"#E\"*\\?wp%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"#]
+\"1p$)*yM*H\")y" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 91 "But that sort of thing can be a bi
+t wasteful if all one wants to know is: does there exist " }{TEXT 270 
+4 "some" }{TEXT -1 43 " 'n' (i.e., we might consider one would be " }
+{TEXT 271 6 "enough" }{TEXT -1 26 "). Well, there's a way of " }{TEXT 
+272 8 "stopping" }{TEXT -1 48 " our calculations when we've found what
+ we want:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "for n do\nif i
+sprime(5*2^n + 1)\nthen print(n, 5*2^n + 1);\nbreak;\nfi;\nod;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"\"#6" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 71 "for n do\nif isprime(7*2^n + 1)\nthen print(n, 7*2^
+n + 1);\nbreak;\nfi;\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"#H
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "for n do\nif isprime(19
+*2^n + 1)\nthen print(n, 19*2^n + 1);\nbreak;\nfi;\nod;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$\"\"'\"%<7" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 148 "And we can s
+ystematically do the odd k's in a single program like this one (just t
+he above type of program, but enclosed within another 'do ... od')" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 105 "for k from 1 by 2 to 40 do
+\nfor n do\nif isprime(k*2^n + 1)\nthen print(k, n, k*2^n + 1);\nbreak
+;\nfi;\nod;\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"F#\"\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"\"\"\"(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"&\"\"\"\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"
+(\"\"#\"#H" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"*\"\"\"\"#>" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#6\"\"\"\"#B" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#8\"\"#\"#`" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#:\"
+\"\"\"#J" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#<\"\"$\"$P\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"#>\"\"'\"%<7" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"#@\"\"\"\"#V" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#B\"\"\"\"#Z
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#D\"\"#\"$,\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"#F\"\"#\"$4\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+#H\"\"\"\"#f" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#J\"\")\"%Pz" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#L\"\"\"\"#n" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"#N\"\"\"\"#r" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#P
+\"\"#\"$\\\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"#R\"\"\"\"#z" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 70 "At this point I call a halt to my contribution... (but so
+meone called " }{TEXT 273 10 "Sierpinski" }{TEXT -1 33 " is lurking ar
+ound the corner...)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 17 "Another question:" }}}}{MARK "0 0 0" 16 }{VIEWOPTS 1 1 
+0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

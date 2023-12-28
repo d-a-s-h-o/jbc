@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark10">
+<p align=left>
+<b><font color=#000080 size=5>Section 5. RSA public-key cryptography. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Frequently it is (correctly) stated that a fundamental element in the renowned RSA cryptographic method is the use of the Fermat-Euler theorem: let </font></b>
+<i><b><font color=#000080>n </font></b></i>
+<b><font color=#000080>(</font></b>
+<img src="images/Flt269.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) be a natural number, and </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer with </font></b>
+<img src="images/Flt270.gif" width=107 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/Flt271.gif" width=88 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), where </font></b>
+<img src="images/Flt272.gif" width=50 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> is the Euler </font></b>
+<i><b><font color=#000080>phi</font></b></i>
+<b><font color=#000080>-function (the number of integers between 1 and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> that are </font></b>
+<i><b><font color=#000080>relatively prime</font></b></i>
+<b><font color=#000080> to </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>).<br>
+<br>
+In fact it is only a very special case of this theorem that is needed for the RSA application, namely the case where </font></b>
+<img src="images/Flt273.gif" width=62 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, where </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> are </font></b>
+<i><b><font color=#000080>distinct</font></b></i>
+<b><font color=#000080> primes (in practical applications </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> are both large, and with some added refinements for security purposes). A fairly detailed exposition of the RSA method may be read in my Maple public lecture - </font></b>
+<i><b><font color=#000080>Bill Clinton</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>Bertie Ahern</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>and digital signatures</font></b></i>
+<b><font color=#000080> - in the Maple Public and Other Lectures section of my web site.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The two prime version of Fermat's little theorem is simply this: let<br>
+</font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> be </font></b>
+<i><b><font color=#000080>distinct</font></b></i>
+<b><font color=#000080> primes (in </font></b>
+<i><b><font color=#000080>cryptographic applications</font></b></i>
+<b><font color=#000080> they will be large, but not just </font></b>
+<i><b><font color=#000080>merely</font></b></i>
+<b><font color=#000080> large (as is sometimes incorrectly stated); to see </font></b>
+<i><b><font color=#000080>why</font></b></i>
+<b><font color=#000080>, refer to Section 6 )</font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> be any integer with </font></b>
+<img src="images/Flt274.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) and </font></b>
+<img src="images/Flt275.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>then</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Flt276.gif" width=174 height=56 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>pq</font></b></i>
+<b><font color=#000080>)<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>One may easily give a proof [see Section 8] of the two prime version which is independent of the normal proof of the full Fermat-Euler result. Here I merely give a Maple numerical illustration:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(10^50 + rand()*rand()*rand());</font></b>
+</p>
+<p align=center>
+<img src="images/Flt277.gif" width=454 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q := nextprime(10^60 + rand()^2*rand()^3);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt278.gif" width=534 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := rand()^2 + 30!;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt279.gif" width=310 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(a, p);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt280.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>igcd(a, q);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt281.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a&amp;^((p-1)*(q-1)) mod p*q;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt282.gif" width=24 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:42 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

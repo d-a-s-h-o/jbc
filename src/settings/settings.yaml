@@ -1,0 +1,147 @@
+setup: false
+language: en
+welcome: false
+title: 'John B Cosgrave'
+author: 'John B Cosgrave'
+copyright: ©
+year: '2023'
+langattr: en
+editor: visual
+formats:
+    - markdown
+    - headline
+    - ulist
+    - olist
+    - table
+    - quote
+    - notice
+    - image
+    - video
+    - file
+    - toc
+    - hr
+    - definition
+    - code
+    - shortcode
+access: null
+pageaccess: null
+hrdelimiter: null
+restrictionnotice: ''
+wraprestrictionnotice: null
+headlineanchors: 'on'
+displayErrorDetails: null
+twigcache: null
+proxy: null
+trustedproxies: ''
+headersoff: true
+urlschemes: ''
+svg: true
+recoverpw: null
+recoverfrom: ''
+recoversubject: ''
+recovermessage: ''
+securitylog: true
+oldslug: null
+refreshcache: null
+pingsitemap: null
+maxuploadsize: '20'
+images:
+    live:
+        width: '820'
+logo: ''
+favicon: favicon
+theme: cyanine
+themes:
+    cyanine:
+        layoutsize: standard
+        blogintro: 'on'
+        blogfolder: ''
+        landingpage: 'on'
+        landingpageIntro: '1'
+        introTitle: ''
+        introMarkdown: ''
+        introButtonLink: publications
+        introButtonLabel: 'Start off by looking at my publications ➡️'
+        introFullsize: 'on'
+        introImage: 'on'
+        introImageOpacity: '0.4'
+        landingpageInfo: '0'
+        infoMarkdown: "# John B. Cosgrave.\r\n\r\nClassical Number Theorist"
+        landingpageTeaser: '0'
+        teaser1title: Publications
+        teaser1text: 'See some of my (and Karl''s) published work.'
+        teaser1link: publications
+        teaser1label: 'Publications ➡️'
+        teaser2title: Computations
+        teaser2text: 'PDFs of all my computations.'
+        teaser2link: computations
+        teaser2label: 'Computations ➡️'
+        teaser3title: Archive
+        teaser3text: 'Content from the original site.'
+        teaser3link: /archive
+        teaser3label: 'Archive ➡️'
+        landingpageContrast: ''
+        contrastTitle: ''
+        contrastText: ''
+        contrastLink: ''
+        contrastLabel: ''
+        landingpageNavi: '0'
+        naviTitle: ''
+        naviDepth: ''
+        landingpageNews: ''
+        newsHeadline: ''
+        newsFolder: ''
+        newsLabel: ''
+        authorIntro: ''
+        dateIntro: ''
+        dateFormat: m/d/Y
+        gitLink: ''
+        editText: ''
+        printText: ''
+        printIcon: 'on'
+        expand: ''
+        collapse: ''
+        next: ''
+        previous: ''
+        footer1: ''
+        footer2: ''
+        footer3: ''
+        copyrightlinetext: ''
+        font: 'avenir,sans-serif'
+        fontheadline: 'avenir,sans-serif'
+        fontnavi: 'avenir,sans-serif'
+        brandcolorprimary: '#293241'
+        fontcolorprimary: ''
+        newsbackground: ''
+        newscolor: ''
+        brandcolortertiary: '#293241'
+        fontcolortertiary: ''
+        bordercolortertiary: ''
+        fontcolorlink: ''
+        brandcolorsecondary: ''
+        fontcolorsecondary: ''
+        codebackground: ''
+        codecolor: ''
+        contentnavihoverbackground: '#293241'
+        contentnavihovercolor: ''
+        thinbordercolor: ''
+startpage: true
+plugins:
+    highlight:
+        active: 'on'
+        theme: obsidian
+        lineNumber: 'true'
+        copyButton: 'true'
+    htmlclose:
+        active: false
+    htmlopen:
+        active: false
+    math:
+        active: 'on'
+        tool: katex
+    search:
+        active: 'on'
+        placeholder: ''
+        resulttext: ''
+        noresulttext: ''
+        closetext: ''

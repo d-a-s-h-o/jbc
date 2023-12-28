@@ -1,0 +1,1142 @@
+<html>
+<head>
+<title>Swineshead's sum.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># Swineshead.mws</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080>A Maple worksheet devoted to Swineshead's series (as I call it)<br>
+John Cosgrave, St. Patrick's College, Drumcondra,<br>
+Dublin 9, IRELAND.<br>
+</font></b>
+<i><b><font color=#000080>John.Cosgrave@spd.ie</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Swineshead's series</font></u></b>
+<b><font color=#000080> (from C.H.Edwards' </font></b>
+<i><b><font color=#000080>The Historical Development of the Calculus</font></b></i>
+<b><font color=#000080>: 'Richard Swineshead (known to medievals as </font></b>
+<i><b><font color=#000080>the</font></b></i>
+<b><font color=#000080> Calculator, as Aristotle was </font></b>
+<i><b><font color=#000080>the </font></b></i>
+<b><font color=#000080>Philosopher and Paul </font></b>
+<i><b><font color=#000080>the </font></b></i>
+<b><font color=#000080>Apostle) was part of a group working in Merton College (Oxford) during the second quarter of the 1300's). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Swineshead found the sum of the following series (pay special attention to its </font></b>
+<i><b><font color=#000080>formation</font></b></i>
+<b><font color=#000080>), it is<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>partly 'arithmetic' progression: the 1, 2, 3, 4, ... , </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, ... </font></b>
+</li>
+<li>
+<b><font color=#000080>partly 'geometric' progression: the </font></b>
+<img src="images/Swineshead's sum1.gif" width=115 height=58 alt="1/2, 1/(2^2), 1/(2^3), 1/(2^4)" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Swineshead's sum2.gif" width=38 height=58 alt="1/(2^n)" align=middle>
+<b><font color=#000080>, ...      </font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/Swineshead's sum3.gif" width=275 height=80 alt="Sum(n/(2^n),n = 1 .. infinity) = 1/2+2/(2^2)+3/(2^3..." align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>to be 2</font></b>
+<b><font color=#000080>.<br>
+<br>
+Before going any further, you should mentally </font></b>
+<i><b><font color=#000080>consider</font></b></i>
+<b><font color=#000080> (think about!) the first few partial sums:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Swineshead's sum4.gif" width=62 height=58 alt="s[1] = 1/2" align=middle>
+<b><font color=#000080><br>
+</font></b>
+<img src="images/Swineshead's sum5.gif" width=103 height=58 alt="s[2] = 1/2+2/(2^2)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum6.gif" width=60 height=58 alt="1/2+1/2" align=middle>
+<b><font color=#000080>  ( = 1 )<br>
+</font></b>
+<img src="images/Swineshead's sum7.gif" width=144 height=58 alt="s[3] = 1/2+2/(2^2)+3/(2^3)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum8.gif" width=92 height=58 alt="1/2+1/2+3/8" align=middle>
+<b><font color=#000080> ( = </font></b>
+<img src="images/Swineshead's sum9.gif" width=36 height=58 alt="11/8" align=middle>
+<b><font color=#000080> )<br>
+</font></b>
+<img src="images/Swineshead's sum10.gif" width=185 height=58 alt="s[4] = 1/2+2/(2^2)+3/(2^3)+4/(2^4)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum11.gif" width=124 height=58 alt="1/2+1/2+3/8+1/4" align=middle>
+<b><font color=#000080> ( = </font></b>
+<img src="images/Swineshead's sum12.gif" width=36 height=58 alt="13/8" align=middle>
+<b><font color=#000080> )<br>
+</font></b>
+<img src="images/Swineshead's sum13.gif" width=226 height=58 alt="s[5] = 1/2+2/(2^2)+3/(2^3)+4/(2^4)+5/(2^5)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum14.gif" width=164 height=58 alt="1/2+1/2+3/8+1/4+5/32" align=middle>
+<b><font color=#000080> ( = </font></b>
+<img src="images/Swineshead's sum15.gif" width=36 height=58 alt="57/32" align=middle>
+<b><font color=#000080> )<br>
+</font></b>
+<img src="images/Swineshead's sum16.gif" width=267 height=58 alt="s[6] = 1/2+2/(2^2)+3/(2^3)+4/(2^4)+5/(2^5)+6/(2^6)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum17.gif" width=204 height=58 alt="1/2+1/2+3/8+1/4+5/32+3/32" align=middle>
+<b><font color=#000080> ( = </font></b>
+<img src="images/Swineshead's sum18.gif" width=36 height=58 alt="60/32" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum19.gif" width=36 height=58 alt="15/8" align=middle>
+<b><font color=#000080> )<br>
+... ... ... <br>
+</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. Can </font></b>
+<i><b><font color=#000080>you</font></b></i>
+<b><font color=#000080> write a Maple program to produce those partial sums? How about the first 50 of them? At this point I ask you to tell me... (and in this worksheet I place it at the end...).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>[Aside: It is not at all obvious what the </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> sum is!!] Swineshead found the </font></b>
+<i><b><font color=#000080>sum</font></b></i>
+<b><font color=#000080> to be 2, but by a method (</font></b>
+<i><b><font color=#000080>entirely verbal</font></b></i>
+<b><font color=#000080>) that would not be acceptable today. I will show you how that '2' may be arrived at, again by a method not </font></b>
+<i><b><font color=#000080>strictly</font></b></i>
+<b><font color=#000080> acceptable; the method is entirely familiar, and is the one already known from school for finding the sum of a </font></b>
+<i><b><font color=#000080>geometric series</font></b></i>
+<b><font color=#000080> (which the above series is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080>), and has already been encountered by you in the purely formal of the sum of the Archimedes series (</font></b>
+<img src="images/Swineshead's sum20.gif" width=138 height=58 alt="1+1/4+1/(4^2)+1/(4^3)" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080>). With the Archimedes series the trick was to multiply by </font></b>
+<img src="images/Swineshead's sum21.gif" width=28 height=58 alt="1/4" align=middle>
+<b><font color=#000080>; here it is to multiply by </font></b>
+<img src="images/Swineshead's sum22.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>      Let </font></b>
+<i><b><font color=#000080>S </font></b></i>
+<b><font color=#000080>= ( </font></b>
+<img src="images/Swineshead's sum23.gif" width=192 height=58 alt="1/2+2/(2^2)+3/(2^3)+4/(2^4)+5/(2^5)" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum </font></b></i>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080> ... </font></b></i>
+<b><font color=#000080>( i )</font></b>
+<i><b><font color=#000080><br>
+</font></b></i>
+<b><font color=#000080>then </font></b>
+<img src="images/Swineshead's sum24.gif" width=28 height=58 alt="1/2" align=middle>
+<img src="images/Swineshead's sum25.gif" width=25 height=32 alt="S" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum26.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> ( </font></b>
+<img src="images/Swineshead's sum27.gif" width=192 height=58 alt="1/2+2/(2^2)+3/(2^3)+4/(2^4)+5/(2^5)" align=middle>
+<b><font color=#000080>  + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080> )</font></b>
+<i><b><font color=#000080><br>
+                 = </font></b></i>
+<b><font color=#000080>( </font></b>
+<img src="images/Swineshead's sum28.gif" width=201 height=58 alt="1/(2^2)+2/(2^3)+3/(2^4)+4/(2^5)+5/(2^6)" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080> ) ... ( ii )<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Formal subtraction of ( ii ) from ( i ) gives<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Swineshead's sum29.gif" width=57 height=58 alt="S-1/2" align=middle>
+<i><b><font color=#000080>S</font></b></i>
+<b><font color=#000080> = ( </font></b>
+<img src="images/Swineshead's sum30.gif" width=192 height=58 alt="1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(2^5)" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080> )</font></b>
+<i><b><font color=#000080><br>
+</font></b></i>
+<b><font color=#000080>(and the right hand side has </font></b>
+<i><b><font color=#000080>known</font></b></i>
+<b><font color=#000080> sum</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>'1')</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>giving (</font></b>
+<i><b><font color=#000080>apparently</font></b></i>
+<b><font color=#000080>) </font></b>
+<img src="images/Swineshead's sum31.gif" width=28 height=58 alt="1/2" align=middle>
+<img src="images/Swineshead's sum32.gif" width=53 height=32 alt="S = 1" align=middle>
+<b><font color=#000080>, and (</font></b>
+<i><b><font color=#000080>so</font></b></i>
+<b><font color=#000080>) </font></b>
+<img src="images/Swineshead's sum33.gif" width=53 height=32 alt="S = 2" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>________________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>A second</font></u></b>
+<b><font color=#000080> (non-rigourous!) </font></b>
+<b><u><font color=#000080>way</font></u></b>
+<b><font color=#000080> in which one may </font></b>
+<i><b><font color=#000080>formally</font></b></i>
+<b><font color=#000080> uncover that the sum is 2:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Start as we did above:</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>Let </font></b>
+<i><b><font color=#000080>S </font></b></i>
+<b><font color=#000080>= ( </font></b>
+<img src="images/Swineshead's sum34.gif" width=192 height=58 alt="1/2+2/(2^2)+3/(2^3)+4/(2^4)+5/(2^5)" align=middle>
+<b><font color=#000080> + ... ), and then continue:<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>so, </font></b>
+<img src="images/Swineshead's sum35.gif" width=385 height=58 alt="S = 1/2+1/(2^2)+1/(2^2)+1/(2^3)+2/(2^3)+1/(2^4)+3/(..." align=middle>
+<b><font color=#000080> + ...<br>
+<br>
+= ( </font></b>
+<img src="images/Swineshead's sum36.gif" width=192 height=58 alt="1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(2^5)" align=middle>
+<b><font color=#000080> + ... ) + ( </font></b>
+<img src="images/Swineshead's sum37.gif" width=160 height=58 alt="1/(2^2)+2/(2^3)+3/(2^4)+4/(2^5)" align=middle>
+<b><font color=#000080> + ... )<br>
+= ( 1 ) + </font></b>
+<img src="images/Swineshead's sum38.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080>*( </font></b>
+<img src="images/Swineshead's sum39.gif" width=151 height=58 alt="1/2+2/(2^2)+3/(2^3)+4/(2^4)" align=middle>
+<b><font color=#000080> + ... )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>namely:                                           </font></b>
+<img src="images/Swineshead's sum40.gif" width=53 height=32 alt="S = 1" align=middle>
+<b><font color=#000080> + </font></b>
+<img src="images/Swineshead's sum41.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080>*</font></b>
+<i><b><font color=#000080>S</font></b></i>
+<b><font color=#000080>, giving </font></b>
+<img src="images/Swineshead's sum42.gif" width=53 height=32 alt="S = 2" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. In fact it is preferable to view that in general terms (without the </font></b>
+<i><b><font color=#000080>distraction</font></b></i>
+<b><font color=#000080> of the ' </font></b>
+<img src="images/Swineshead's sum43.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> '):</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> Let </font></b>
+<img src="images/Swineshead's sum44.gif" width=249 height=50 alt="S = x+2*x^2+3*x^3+4*x^4+5*x^5" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum </font></b></i>
+<b><font color=#000080>)</font></b>
+<i><b><font color=#000080>  ... </font></b></i>
+<b><font color=#000080>( i )</font></b>
+<i><b><font color=#000080><br>
+</font></b></i>
+<b><font color=#000080>then </font></b>
+<img src="images/Swineshead's sum45.gif" width=24 height=32 alt="x" align=middle>
+<img src="images/Swineshead's sum46.gif" width=25 height=32 alt="S" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum47.gif" width=24 height=32 alt="x" align=middle>
+<b><font color=#000080>( </font></b>
+<img src="images/Swineshead's sum48.gif" width=220 height=50 alt="x+2*x^2+3*x^3+4*x^4+5*x^5" align=middle>
+<b><font color=#000080>  + ... </font></b>
+<i><b><font color=#000080>ad infinitum </font></b></i>
+<b><font color=#000080>)</font></b>
+<i><b><font color=#000080><br>
+                  = </font></b></i>
+<img src="images/Swineshead's sum49.gif" width=229 height=50 alt="x^2+2*x^3+3*x^4+4*x^5+5*x^6" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080> ... ( ii )<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Formal subtraction of ( ii ) from ( i ) gives</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Swineshead's sum50.gif" width=53 height=32 alt="S-x" align=middle>
+<i><b><font color=#000080>S</font></b></i>
+<b><font color=#000080> = </font></b>
+<img src="images/Swineshead's sum51.gif" width=172 height=50 alt="x+x^2+x^3+x^4+x^5" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum<br>
+<br>
+</font></b></i>
+<b><font color=#000080>(and the right hand side has </font></b>
+<i><b><font color=#000080>known</font></b></i>
+<b><font color=#000080> sum</font></b>
+<i><b><font color=#000080> </font></b></i>
+<img src="images/Swineshead's sum52.gif" width=56 height=58 alt="x/(1-x)" align=middle>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>provided</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> lies </font></b>
+<i><b><font color=#000080>between</font></b></i>
+<b><font color=#000080> -1 and 1)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>giving (</font></b>
+<i><b><font color=#000080>actually</font></b></i>
+<b><font color=#000080>) that </font></b>
+<img src="images/Swineshead's sum53.gif" width=135 height=58 alt="S(1-x) = x/(1-x)" align=middle>
+<b><font color=#000080>, and so </font></b>
+<img src="images/Swineshead's sum54.gif" width=108 height=58 alt="S = x/((1-x)^2)" align=middle>
+<b><font color=#000080> provided </font></b>
+<img src="images/Swineshead's sum55.gif" width=57 height=32 alt="-1 &lt; x" align=middle>
+<b><font color=#000080> &lt; 1.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>__________________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>According to Edwards' </font></b>
+<i><b><font color=#000080>History</font></b></i>
+<b><font color=#000080>, page 88: 'The Merton studies spread to France and Italy in the mid-fourteenth century. In his </font></b>
+<i><b><font color=#000080>Treatise on the Configurations of Qualities and Motions</font></b></i>
+<b><font color=#000080>, written in the 1350s, the Parisian scholastic Nicole Oresme introduced the important concept of </font></b>
+<i><b><font color=#000080>graphical representations </font></b></i>
+<b><font color=#000080>[my emphasis, JC] ... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and, page 92: 'In his </font></b>
+<i><b><font color=#000080>Treatise</font></b></i>
+<b><font color=#000080>, Oresme gave a geometric method for summing [the above Swineshead series]...'.  This worksheet demonstrates the Oresme method. </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 7: s[1] := 1/2:<br>
+for k from 2 to n do<br>
+s[k] := s[k-1] + 1/2^k od:<br>
+seq(s[k], k = 1..n);</font></b>
+</p>
+<p align=center>
+<img src="images/Swineshead's sum56.gif" width=160 height=45 alt="1/2, 3/4, 7/8, 15/16, 31/32, 63/64, 127/128">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(plots): # needed for 'display' in the following</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the name changecoords has been redefined<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080>. One should </font></b>
+<i><b><font color=#000080>reduce</font></b></i>
+<b><font color=#000080> the frame speed to 1 in the animations...<br>
+<br>
+One should </font></b>
+<i><b><font color=#000080>notice</font></b></i>
+<b><font color=#000080> in the following diagrams that:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>the areas of the </font></b>
+<b><u><font color=#000080>green</font></u></b>
+<b><font color=#000080> rectangles (the A's) are given by:<br>
+<br>
+1. 1 (height) * </font></b>
+<img src="images/Swineshead's sum57.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> (base length)<br>
+     and that the area of the white rectangle to its right is...    <br>
+2. 2 (height) * </font></b>
+<img src="images/Swineshead's sum58.gif" width=37 height=58 alt="1/(2^2)" align=middle>
+<b><font color=#000080> (base length)<br>
+   and that the area of the white rectangle to its right is...    <br>
+3. 3 (height) * </font></b>
+<img src="images/Swineshead's sum59.gif" width=37 height=58 alt="1/(2^3)" align=middle>
+<b><font color=#000080> (base length)<br>
+     and that the area of the white rectangle to its right is...    <br>
+4. 4 (height) * </font></b>
+<img src="images/Swineshead's sum60.gif" width=37 height=58 alt="1/(2^4)" align=middle>
+<b><font color=#000080> (base length)<br>
+     and that the area of the white rectangle to its right is...    <br>
+<br>
+     and that the suggested total area of the </font></b>
+<i><b><font color=#000080>infinitely many green rectangles</font></b></i>
+<b><font color=#000080> is ...<br>
+     ..................</font></b>
+</li>
+<li>
+<b><font color=#000080>the areas of the </font></b>
+<b><u><font color=#000080>blue</font></u></b>
+<b><font color=#000080> rectangles (the B's) are given by:<br>
+<br>
+1. 1 (height) *  1 (base length)<br>
+2. 1 (height) * </font></b>
+<img src="images/Swineshead's sum61.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> (base length)<br>
+3. 1 (height) * </font></b>
+<img src="images/Swineshead's sum62.gif" width=37 height=58 alt="1/(2^2)" align=middle>
+<b><font color=#000080> (base length)<br>
+4. 1 (height) * </font></b>
+<img src="images/Swineshead's sum63.gif" width=37 height=58 alt="1/(2^3)" align=middle>
+<b><font color=#000080> (base length)<br>
+... ... <br>
+<br>
+The sum of the areas of all the </font></b>
+<i><b><font color=#000080>infinitely many blue rectangles</font></b></i>
+<b><font color=#000080> is...<br>
+<br>
+Thus one </font></b>
+<i><b><font color=#000080>sees</font></b></i>
+<b><font color=#000080> that  </font></b>
+<img src="images/Swineshead's sum64.gif" width=168 height=80 alt="Sum(n/(2^n),n = 1 .. infinity) = Sum(1/(2^m),m = 0 ..." align=middle>
+<b><font color=#000080> = 2.</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>s[0] := 0: for r to n do<br>
+A||r := PLOT(POLYGONS([[s[r-1],0],[s[r],0],[s[r],r],<br>
+        [s[r-1],r]],COLOUR(RGB,0,1,0))):<br>
+B||r := PLOT(POLYGONS([[s[r-1],r-1],[1,r-1],[1,r],<br>
+        [s[r-1],r]],COLOUR(RGB,0,0,1))):<br>
+a||r := PLOT(POLYGONS([[s[r],0],[1,0],[1,r],<br>
+           [s[r],r]],COLOUR(RGB,1,1,1)))<br>
+od:<br>
+for r to n do<br>
+all_A||r := display(A||(1..r)):<br>
+all_B||r := display(B||(1..r)):<br>
+G||r := array(1..2):<br>
+G||r[1] := display([all_A||r, a||r]): <br>
+G||r[2] := all_B||r:<br>
+show||r := display(G||r):<br>
+od: <br>
+display([show||(1..n)], insequence=true);</font></b>
+</p>
+<p align=center>
+<img src="images/Swineshead's sum65.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>A simple Maple program to find the first 40 partial sums of the Swineshead series:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>s[1] := 1/2^1;<br>
+for k from 2 to 40 do<br>
+s[k] := s[k-1] + k/2^k<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Swineshead's sum66.gif" width=60 height=45 alt="s[1] := 1/2">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum67.gif" width=60 height=27 alt="s[2] := 1">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum68.gif" width=68 height=45 alt="s[3] := 11/8">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum69.gif" width=68 height=45 alt="s[4] := 13/8">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum70.gif" width=68 height=45 alt="s[5] := 57/32">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum71.gif" width=68 height=45 alt="s[6] := 15/8">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum72.gif" width=76 height=45 alt="s[7] := 247/128">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum73.gif" width=76 height=45 alt="s[8] := 251/128">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum74.gif" width=84 height=45 alt="s[9] := 1013/512">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum75.gif" width=84 height=45 alt="s[10] := 509/256">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum76.gif" width=92 height=45 alt="s[11] := 4083/2048">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum77.gif" width=92 height=45 alt="s[12] := 4089/2048">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum78.gif" width=100 height=45 alt="s[13] := 16369/8192">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum79.gif" width=92 height=45 alt="s[14] := 2047/1024">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum80.gif" width=100 height=45 alt="s[15] := 65519/32768">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum81.gif" width=100 height=45 alt="s[16] := 65527/32768">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum82.gif" width=108 height=45 alt="s[17] := 262125/131072">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum83.gif" width=108 height=45 alt="s[18] := 131067/65536">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum84.gif" width=116 height=45 alt="s[19] := 1048555/524288">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum85.gif" width=116 height=45 alt="s[20] := 1048565/524288">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum86.gif" width=116 height=45 alt="s[21] := 4194281/2097152">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum87.gif" width=116 height=45 alt="s[22] := 1048573/524288">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum88.gif" width=124 height=45 alt="s[23] := 16777191/8388608">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum89.gif" width=124 height=45 alt="s[24] := 16777203/8388608">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum90.gif" width=124 height=45 alt="s[25] := 67108837/33554432">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum91.gif" width=124 height=45 alt="s[26] := 33554425/16777216">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum92.gif" width=132 height=45 alt="s[27] := 268435427/134217728">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum93.gif" width=132 height=45 alt="s[28] := 268435441/134217728">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum94.gif" width=140 height=45 alt="s[29] := 1073741793/536870912">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum95.gif" width=124 height=45 alt="s[30] := 67108863/33554432">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum96.gif" width=140 height=45 alt="s[31] := 4294967263/2147483648">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum97.gif" width=140 height=45 alt="s[32] := 4294967279/2147483648">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum98.gif" width=148 height=45 alt="s[33] := 17179869149/8589934592">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum99.gif" width=140 height=45 alt="s[34] := 8589934583/4294967296">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum100.gif" width=148 height=45 alt="s[35] := 68719476699/34359738368">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum101.gif" width=148 height=45 alt="s[36] := 68719476717/34359738368">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum102.gif" width=156 height=45 alt="s[37] := 274877906905/137438953472">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum103.gif" width=148 height=45 alt="s[38] := 68719476731/34359738368">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum104.gif" width=164 height=45 alt="s[39] := 1099511627735/549755813888">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum105.gif" width=164 height=45 alt="s[40] := 1099511627755/549755813888">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for k to 40 do<br>
+[k, evalf(s[k])]<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Swineshead's sum106.gif" width=130 height=20 alt="[1, .5000000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum107.gif" width=58 height=20 alt="[2, 1.]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum108.gif" width=130 height=20 alt="[3, 1.375000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum109.gif" width=130 height=20 alt="[4, 1.625000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum110.gif" width=130 height=20 alt="[5, 1.781250000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum111.gif" width=130 height=20 alt="[6, 1.875000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum112.gif" width=130 height=20 alt="[7, 1.929687500]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum113.gif" width=130 height=20 alt="[8, 1.960937500]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum114.gif" width=130 height=20 alt="[9, 1.978515625]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum115.gif" width=138 height=20 alt="[10, 1.988281250]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum116.gif" width=138 height=20 alt="[11, 1.993652344]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum117.gif" width=138 height=20 alt="[12, 1.996582031]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum118.gif" width=138 height=20 alt="[13, 1.998168945]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum119.gif" width=138 height=20 alt="[14, 1.999023438]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum120.gif" width=138 height=20 alt="[15, 1.999481201]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum121.gif" width=138 height=20 alt="[16, 1.999725342]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum122.gif" width=138 height=20 alt="[17, 1.999855042]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum123.gif" width=138 height=20 alt="[18, 1.999923706]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum124.gif" width=138 height=20 alt="[19, 1.999959946]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum125.gif" width=138 height=20 alt="[20, 1.999979019]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum126.gif" width=138 height=20 alt="[21, 1.999989033]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum127.gif" width=138 height=20 alt="[22, 1.999994278]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum128.gif" width=138 height=20 alt="[23, 1.999997020]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum129.gif" width=138 height=20 alt="[24, 1.999998450]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum130.gif" width=138 height=20 alt="[25, 1.999999195]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum131.gif" width=138 height=20 alt="[26, 1.999999583]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum132.gif" width=138 height=20 alt="[27, 1.999999784]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum133.gif" width=138 height=20 alt="[28, 1.999999888]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum134.gif" width=138 height=20 alt="[29, 1.999999942]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum135.gif" width=138 height=20 alt="[30, 1.999999970]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum136.gif" width=138 height=20 alt="[31, 1.999999985]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum137.gif" width=138 height=20 alt="[32, 1.999999992]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum138.gif" width=138 height=20 alt="[33, 1.999999996]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum139.gif" width=138 height=20 alt="[34, 1.999999998]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum140.gif" width=138 height=20 alt="[35, 1.999999999]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum141.gif" width=138 height=20 alt="[36, 1.999999999]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum142.gif" width=138 height=20 alt="[37, 2.000000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum143.gif" width=138 height=20 alt="[38, 2.000000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum144.gif" width=138 height=20 alt="[39, 2.000000000]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum145.gif" width=138 height=20 alt="[40, 2.000000000]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>There - using 'evalf' - the decimal computations are automatically done to 10 places, but one can do them to 50 places (for example), and for the first 120 of the partial sums, by doing this:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>s[1] := 1/2^1:<br>
+for k from 2 to 120 do<br>
+s[k] := s[k-1] + k/2^k<br>
+od:<br>
+for k to 120 do<br>
+[k, evalf(s[k], 50)]<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Swineshead's sum146.gif" width=450 height=20 alt="[1, .5000000000000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum147.gif" width=58 height=20 alt="[2, 1.]">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum148.gif" width=450 height=20 alt="[3, 1.375000000000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum149.gif" width=450 height=20 alt="[4, 1.625000000000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum150.gif" width=450 height=20 alt="[5, 1.781250000000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum151.gif" width=450 height=20 alt="[6, 1.875000000000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum152.gif" width=450 height=20 alt="[7, 1.929687500000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum153.gif" width=450 height=20 alt="[8, 1.960937500000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum154.gif" width=450 height=20 alt="[9, 1.978515625000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum155.gif" width=458 height=20 alt="[10, 1.98828125000000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum156.gif" width=458 height=20 alt="[11, 1.99365234375000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum157.gif" width=458 height=20 alt="[12, 1.99658203125000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum158.gif" width=458 height=20 alt="[13, 1.99816894531250000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum159.gif" width=458 height=20 alt="[14, 1.99902343750000000000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum160.gif" width=458 height=20 alt="[15, 1.99948120117187500000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum161.gif" width=458 height=20 alt="[16, 1.99972534179687500000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum162.gif" width=458 height=20 alt="[17, 1.99985504150390625000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum163.gif" width=458 height=20 alt="[18, 1.99992370605468750000000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum164.gif" width=458 height=20 alt="[19, 1.99995994567871093750000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum165.gif" width=458 height=20 alt="[20, 1.99997901916503906250000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum166.gif" width=458 height=20 alt="[21, 1.99998903274536132812500000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum167.gif" width=458 height=20 alt="[22, 1.99999427795410156250000000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum168.gif" width=458 height=20 alt="[23, 1.99999701976776123046875000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum169.gif" width=458 height=20 alt="[24, 1.99999845027923583984375000000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum170.gif" width=458 height=20 alt="[25, 1.99999919533729553222656250000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum171.gif" width=458 height=20 alt="[26, 1.99999958276748657226562500000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum172.gif" width=458 height=20 alt="[27, 1.99999978393316268920898437500000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum173.gif" width=458 height=20 alt="[28, 1.99999988824129104614257812500000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum174.gif" width=458 height=20 alt="[29, 1.99999994225800037384033203125000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum175.gif" width=458 height=20 alt="[30, 1.99999997019767761230468750000000000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum176.gif" width=458 height=20 alt="[31, 1.99999998463317751884460449218750000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum177.gif" width=458 height=20 alt="[32, 1.99999999208375811576843261718750000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum178.gif" width=458 height=20 alt="[33, 1.99999999592546373605728149414062500000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum179.gif" width=458 height=20 alt="[34, 1.99999999790452420711517333984375000000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum180.gif" width=458 height=20 alt="[35, 1.99999999892315827310085296630859375000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum181.gif" width=458 height=20 alt="[36, 1.99999999944702722132205963134765625000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum182.gif" width=458 height=20 alt="[37, 1.99999999971623765304684638977050781250000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum183.gif" width=458 height=20 alt="[38, 1.99999999985448084771633148193359375000000000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum184.gif" width=458 height=20 alt="[39, 1.99999999992542143445461988449096679687500000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum185.gif" width=458 height=20 alt="[40, 1.99999999996180122252553701400756835937500000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum186.gif" width=458 height=20 alt="[41, 1.99999999998044586391188204288482666015625000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum187.gif" width=458 height=20 alt="[42, 1.99999999998999555828049778938293457031250000...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum188.gif" width=458 height=20 alt="[43, 1.99999999999488409230252727866172790527343750...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum189.gif" width=458 height=20 alt="[44, 1.99999999999738520273240283131599426269531250...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum190.gif" width=458 height=20 alt="[45, 1.99999999999866417965677101165056228637695312...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum191.gif" width=458 height=20 alt="[46, 1.99999999999931787897367030382156372070312500...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum192.gif" width=458 height=20 alt="[47, 1.99999999999965183405947755090892314910888671...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum193.gif" width=458 height=20 alt="[48, 1.99999999999982236431605997495353221893310546...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum194.gif" width=458 height=20 alt="[49, 1.99999999999990940580119058722630143165588378...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum195.gif" width=458 height=20 alt="[50, 1.99999999999995381472217559348791837692260742...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum196.gif" width=458 height=20 alt="[51, 1.99999999999997646327187794668134301900863647...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum197.gif" width=458 height=20 alt="[52, 1.99999999999998800959133404830936342477798461...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum198.gif" width=458 height=20 alt="[53, 1.99999999999999389377336456163902767002582550...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum199.gif" width=458 height=20 alt="[54, 1.99999999999999689137553104956168681383132934...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum200.gif" width=458 height=20 alt="[55, 1.99999999999999841793218990915192989632487297...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum201.gif" width=458 height=20 alt="[56, 1.99999999999999919508830714676150819286704063...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum202.gif" width=458 height=20 alt="[57, 1.99999999999999959060525966947352571878582239...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum203.gif" width=458 height=20 alt="[58, 1.99999999999999979183318288278314867056906223...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum204.gif" width=458 height=20 alt="[59, 1.99999999999999989418186796541476724087260663...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum205.gif" width=458 height=20 alt="[60, 1.99999999999999994622357224471898007323034107...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum206.gif" width=458 height=20 alt="[61, 1.99999999999999997267810525336528826301218941...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum207.gif" width=458 height=20 alt="[62, 1.99999999999999998612221219218554324470460414...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum208.gif" width=458 height=20 alt="[63, 1.99999999999999999295268587884422117895155679...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum209.gif" width=458 height=20 alt="[64, 1.99999999999999999642213283079783536777540575...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum210.gif" width=458 height=20 alt="[65, 1.99999999999999999818396136108678007303751655...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum211.gif" width=458 height=20 alt="[66, 1.99999999999999999907842815338732123109366511...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum212.gif" width=458 height=20 alt="[67, 1.99999999999999999953243781311562621283428597...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum213.gif" width=458 height=20 alt="[68, 1.99999999999999999976283077476879590506086969...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum214.gif" width=458 height=20 alt="[69, 1.99999999999999999987972132148988935185229820...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum215.gif" width=458 height=20 alt="[70, 1.99999999999999999993901362779769037558708077...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum216.gif" width=458 height=20 alt="[71, 1.99999999999999999996908329742521803762400622...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum217.gif" width=458 height=20 alt="[72, 1.99999999999999999998432989047579544372723603...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum218.gif" width=458 height=20 alt="[73, 1.99999999999999999999205906611949093432123447...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum219.gif" width=458 height=20 alt="[74, 1.99999999999999999999597659350054207338942546...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum220.gif" width=458 height=20 alt="[75, 1.99999999999999999999796182697066933980911684...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum221.gif" width=458 height=20 alt="[76, 1.99999999999999999999896767859553382146176048...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum222.gif" width=458 height=20 alt="[77, 1.99999999999999999999947722185286648650948126...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum223.gif" width=458 height=20 alt="[78, 1.99999999999999999999973530220398303114404114...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum224.gif" width=458 height=20 alt="[79, 1.99999999999999999999986599674076640951667083...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum225.gif" width=458 height=20 alt="[80, 1.99999999999999999999993217118977065173066054...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum226.gif" width=458 height=20 alt="[81, 1.99999999999999999999996567200457904935149283...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum227.gif" width=458 height=20 alt="[82, 1.99999999999999999999998262920713638641882770...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum228.gif" width=458 height=20 alt="[83, 1.99999999999999999999999121120599162408095449...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum229.gif" width=458 height=20 alt="[84, 1.99999999999999999999999555390420752747624756...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum230.gif" width=458 height=20 alt="[85, 1.99999999999999999999999775110270962145600894...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum231.gif" width=458 height=20 alt="[86, 1.99999999999999999999999886262665773958694705...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum232.gif" width=458 height=20 alt="[87, 1.99999999999999999999999942485098033422294481...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum233.gif" width=458 height=20 alt="[88, 1.99999999999999999999999970919431589932620805...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum234.gif" width=458 height=20 alt="[89, 1.99999999999999999999999985298157081577047184...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum235.gif" width=458 height=20 alt="[90, 1.99999999999999999999999992568299184093891983...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum236.gif" width=458 height=20 alt="[91, 1.99999999999999999999999996243759913699630187...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum237.gif" width=458 height=20 alt="[92, 1.99999999999999999999999998101685117676157191...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum238.gif" width=458 height=20 alt="[93, 1.99999999999999999999999999040745139251249644...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum239.gif" width=458 height=20 alt="[94, 1.99999999999999999999999999515323859832210346...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum240.gif" width=458 height=20 alt="[95, 1.99999999999999999999999999755137575019397935...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum241.gif" width=458 height=20 alt="[96, 1.99999999999999999999999999876306610061345348...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum242.gif" width=458 height=20 alt="[97, 1.99999999999999999999999999937522216306495865...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum243.gif" width=458 height=20 alt="[98, 1.99999999999999999999999999968445563791159527...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum244.gif" width=458 height=20 alt="[99, 1.99999999999999999999999999984065009714535561...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum245.gif" width=466 height=20 alt="[100, 1.9999999999999999999999999999195361876674567...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum246.gif" width=466 height=20 alt="[101, 1.9999999999999999999999999999593736633811178...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum247.gif" width=466 height=20 alt="[102, 1.9999999999999999999999999999794896164642536...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum248.gif" width=466 height=20 alt="[103, 1.9999999999999999999999999999896462006189742...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum249.gif" width=466 height=20 alt="[104, 1.9999999999999999999999999999947737965029107...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum250.gif" width=466 height=20 alt="[105, 1.9999999999999999999999999999973622463481672...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum251.gif" width=466 height=20 alt="[106, 1.9999999999999999999999999999986687972224395...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum252.gif" width=466 height=20 alt="[107, 1.9999999999999999999999999999993282356353977...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum253.gif" width=466 height=20 alt="[108, 1.9999999999999999999999999999996610363297878...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum254.gif" width=466 height=20 alt="[109, 1.9999999999999999999999999999998289774209384...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum255.gif" width=466 height=20 alt="[110, 1.9999999999999999999999999999999137183384914...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum256.gif" width=466 height=20 alt="[111, 1.9999999999999999999999999999999564739832568...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum257.gif" width=466 height=20 alt="[112, 1.9999999999999999999999999999999780443986339...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum258.gif" width=466 height=20 alt="[113, 1.9999999999999999999999999999999889259028197...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum259.gif" width=466 height=20 alt="[114, 1.9999999999999999999999999999999944148031612...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum260.gif" width=466 height=20 alt="[115, 1.9999999999999999999999999999999971833274563...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum261.gif" width=466 height=20 alt="[116, 1.9999999999999999999999999999999985796266660...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum262.gif" width=466 height=20 alt="[117, 1.9999999999999999999999999999999992837948019...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum263.gif" width=466 height=20 alt="[118, 1.9999999999999999999999999999999996388881354...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum264.gif" width=466 height=20 alt="[119, 1.9999999999999999999999999999999998179394349...">
+</p>
+<p align=center>
+<img src="images/Swineshead's sum265.gif" width=466 height=20 alt="[120, 1.9999999999999999999999999999999999082174010...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:06:49 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

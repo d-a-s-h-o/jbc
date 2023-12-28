@@ -1,0 +1,1151 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 256 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 261 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 264 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 268 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 269 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 272 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 273 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 1 14 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 1 14 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+278 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 1 14 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 1 14 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 282 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 290 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 298 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 1 14 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "
+" -1 302 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 1 14 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 306 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 1 14 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 1 14 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 311 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 1 14 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 319 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 322 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 323 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 327 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 331 
+"" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 332 "" 1 14 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 334 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+335 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 338 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+339 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 341 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 342 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 343 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 347 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 1 14 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "
+" -1 351 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 352 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 355 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 356 "" 1 14 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 357 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 359 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 361 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 362 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 363 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 1 
+14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 365 "" 1 14 0 0 0 0 1 0 1 
+0 0 0 0 0 0 }{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 367 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+368 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 371 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+372 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 373 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 375 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+376 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 377 "" 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 
+380 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 381 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 382 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 385 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 386 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 387 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 388 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 389 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 391 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 392 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 393 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 1 14 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 395 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "
+" -1 396 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 397 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 400 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 401 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 402 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 403 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 404 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 405 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 406 "" 0 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 407 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 408 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 409 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 411 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 412 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 413 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 1 14 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 415 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 416 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 417 "" 0 1 
+0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 418 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 419 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 420 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+421 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 422 "" 1 14 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 424 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 425 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 426 "" 1 14 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 427 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 428 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 429 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 430 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 431 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 432 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 433 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 434 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 436 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "No
+rmal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 
+0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 255 0 0 1 0 1 0 0 0 1 3 0 3 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 
+1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 
+-1 "" 0 0 255 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 
+128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "
+" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "R3 Font 0" -1 256 
+1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "
+" -1 -1 "Courier" 1 12 0 128 0 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 3 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# 1mloct98.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "The work that you are " }{TEXT 
+256 6 "seeing" }{TEXT -1 20 " (on the screen) or " }{TEXT 259 0 "" }
+{TEXT 260 7 "reading" }{TEXT 261 0 "" }{TEXT -1 12 " (this text)" }}
+{PARA 0 "" 0 "" {TEXT -1 20 "is an example of a '" }{TEXT 262 5 "Maple
+" }{TEXT -1 1 " " }{TEXT 263 9 "worksheet" }{TEXT -1 24 "', and has be
+en prepared" }}{PARA 0 "" 0 "" {TEXT -1 17 "using the latest " }{TEXT 
+275 5 "Maple" }{TEXT -1 17 " release, namely " }{TEXT 264 5 "Maple" }
+{TEXT 276 10 "5-ReleaseV" }{TEXT -1 19 ".                  " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 259 "" 0 "" {TEXT -1 16 "Introduction \+
+to " }{TEXT 265 5 "Maple" }{TEXT -1 27 " for First Year Students.  " }
+}{PARA 258 "" 0 "" {TEXT -1 13 "October 1998." }}{PARA 0 "" 0 "" 
+{TEXT -1 20 "(Dr.) John Cosgrave," }}{PARA 0 "" 0 "" {TEXT -1 23 "Math
+ematics Department," }}{PARA 0 "" 0 "" {TEXT -1 22 "St. Patrick's Coll
+ege," }}{PARA 0 "" 0 "" {TEXT -1 11 "Drumcondra," }}{PARA 0 "" 0 "" 
+{TEXT -1 7 "Dublin." }}{PARA 0 "" 0 "" {TEXT -1 7 "IRELAND" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "e-mail addresses:
+" }}{PARA 0 "" 0 "" {TEXT -1 22 "HOME:  johnbcos@iol.ie" }}{PARA 0 "" 
+0 "" {TEXT -1 27 "WORK:  John.Cosgrave@spd.ie" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "To be able to use " }
+{TEXT 268 5 "Maple" }{TEXT -1 54 " (the mathematical software which is
+ installed in the " }}{PARA 0 "" 0 "" {TEXT -1 38 "College's computer \+
+laboratory) you do " }{TEXT 269 8 "not need" }{TEXT -1 13 " to have ha
+d " }{TEXT 270 3 "any" }{TEXT -1 10 " previous " }}{PARA 0 "" 0 "" 
+{TEXT -1 38 "experience with computers.   We start " }{TEXT 271 23 "co
+mpletely from scratch" }{TEXT -1 19 ", and slowly build " }}{PARA 0 "
+" 0 "" {TEXT -1 82 "up your knowledge, ability and confidence.   I bel
+ieve that you will be amazed at " }}{PARA 0 "" 0 "" {TEXT -1 59 "how e
+asily and quickly you become proficient in the use of " }{TEXT 272 0 "
+" }{TEXT 273 5 "Maple" }{TEXT 274 0 "" }{TEXT -1 19 ". It will be rath
+er" }}{PARA 0 "" 0 "" {TEXT -1 90 "like learning a new language, learn
+ing a little bit at a time, and, in no time at all, be " }}{PARA 0 "" 
+0 "" {TEXT -1 25 "speaking like a native!  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "This document is the 'saved' ve
+rsion of the work which you will see in class time, " }}{PARA 0 "" 0 "
+" {TEXT -1 77 "together with this commentary.  I will show you how thi
+s commentary has been " }}{PARA 0 "" 0 "" {TEXT -1 62 "added, and you \+
+will be able to do the same with your own work." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 36 "In the computer laborator
+y you will:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 51 "1.  do your own mathematical work at the computer, " }}{PARA 0 
+"" 0 "" {TEXT -1 36 "2.  save it on your own 'disk', and " }}{PARA 0 "
+" 0 "" {TEXT -1 77 "3.  return to the computer to continue - if you wi
+sh - work already started, " }}{PARA 0 "" 0 "" {TEXT -1 28 "     or st
+art some new work." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 60 "In one or two lectures it is only possible to demonstrate
+ a " }{TEXT 281 15 "very small part" }{TEXT -1 1 " " }}{PARA 0 "" 0 "
+" {TEXT -1 25 "of what can be done with " }{TEXT 277 5 "Maple" }{TEXT 
+-1 12 ".   It is a " }{TEXT 282 24 "quite remarkable product" }{TEXT 
+-1 8 " (it is " }}{PARA 0 "" 0 "" {TEXT -1 32 "an example of what is c
+alled a '" }{TEXT 283 23 "Computer Algebra System" }{TEXT -1 14 "') an
+d is the " }}{PARA 0 "" 0 "" {TEXT -1 71 "collective work of an outsta
+nding group of mathematicians and computer " }}{PARA 0 "" 0 "" {TEXT 
+-1 77 "scientists from the University of Waterloo, Canada, who have be
+en developing " }}{PARA 0 "" 0 "" {TEXT -1 18 "it since 1980.   (" }
+{TEXT 278 5 "Maple" }{TEXT -1 52 " takes its name from the Canadian na
+tional symbol - " }}{PARA 0 "" 0 "" {TEXT -1 19 "the maple tree.)   " 
+}{TEXT 279 5 "Maple" }{TEXT -1 53 " continues to be improved year afte
+r year, aided now " }}{PARA 0 "" 0 "" {TEXT -1 75 "by other mathematic
+ians and computer scientists in France (at 'INRIA') and " }}{PARA 0 "
+" 0 "" {TEXT -1 31 "Switzerland (at the 'ETH').    " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 280 5 "Maple" }{TEXT -1 67 " w
+ill enable you to gain a deeper understanding of the Mathematics " }}
+{PARA 0 "" 0 "" {TEXT -1 75 "which you already know from secondary sch
+ool, and make it possible for you " }}{PARA 0 "" 0 "" {TEXT -1 31 "to \+
+significantly increase your " }{TEXT 284 22 "mathematical knowledge" }
+{TEXT -1 5 " and " }{TEXT 285 13 "understanding" }{TEXT -1 4 ".   " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "It will -
+ most importantly - enable you to ask of yourself, time after time: " 
+}}{PARA 0 "" 0 "" {TEXT -1 74 "I wonder what happens if such and such \+
+happens ... ?  Of course, you have " }}{PARA 0 "" 0 "" {TEXT -1 81 "to
+ be curious. Don't worry, you will be given lots of things to be curio
+us about!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+10 "There are " }{TEXT 286 17 "four basic things" }{TEXT -1 22 " that \+
+you can do with " }{TEXT 287 5 "Maple" }{TEXT -1 1 ":" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "1.  ordinary (and extr
+aordinary!) " }{TEXT 290 25 "arithmetical calculations" }{TEXT -1 1 ".
+" }}{PARA 0 "" 0 "" {TEXT -1 4 "2.  " }{TEXT 291 24 "algebraic and 'an
+alytic'" }{TEXT -1 17 " (calculus-type) " }{TEXT 292 12 "calculations
+" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 4 "3.  " }{TEXT 293 14 "g
+raphical work" }{TEXT -1 2 " (" }{TEXT 288 4 "i.e." }{TEXT -1 14 ", pl
+ot graphs " }{TEXT 289 3 "etc" }{TEXT -1 3 ".)." }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "4.  " }{TEXT 294 18 "write 'procedures'" }{TEXT -1 19 " (o
+r 'programmes')." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 74 "We will have a brief look at each of these, and I ask you
+ to bear in mind " }}{PARA 0 "" 0 "" {TEXT -1 76 "that I am only scrat
+ching the surface in this introductory lecture, and not " }}{PARA 0 "
+" 0 "" {TEXT -1 80 "cover everything.  Anyway, there is no 'everything
+'; you will still be learning " }}{PARA 0 "" 0 "" {TEXT -1 10 "about h
+ow " }{TEXT 295 5 "Maple" }{TEXT -1 60 " can be used even at the end o
+f your third year of studies. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 6 "Let's " }{TEXT 296 17 "make a start with" 
+}{TEXT -1 31 " some familiar, simple things: " }{TEXT 297 25 "arithmet
+ical calculations" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 78 "I will start with addition, subtraction, \+
+multiplication, division, and powers." }}{PARA 0 "" 0 "" {TEXT -1 2 " \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 60 "You know how to add two numbers toge
+ther.  1 plus 2 is 3.   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 64 "With a calculator that would be done by pressing '
+1', then '+', " }}{PARA 0 "" 0 "" {TEXT -1 65 "then '2', and finally '
+='.   Your calculator would then show '3'." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "With Maple that is done by:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "1+2;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 39 "That was do
+ne by typing '1' (after the " }{TEXT 304 5 "Maple" }{TEXT -1 2 " '" }
+{TEXT 303 6 "prompt" }{TEXT -1 26 "' '>', as it is called) , " }}
+{PARA 0 "" 0 "" {TEXT -1 84 "then '+', then '2', then';', and, finally
+, pressing the 'Return' (or 'Enter') key.  " }}{PARA 0 "" 0 "" {TEXT 
+298 5 "Maple" }{TEXT -1 16 " then shows '3'." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 14 "That '1+2' is " }{TEXT 299 5 "M
+aple" }{TEXT -1 2 " '" }{TEXT 301 5 "input" }{TEXT -1 18 "', and the '
+3' is " }{TEXT 300 5 "Maple" }{TEXT -1 2 " '" }{TEXT 302 6 "output" }
+{TEXT -1 2 "'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 31 "And how about 1 plus 2 plus 3?:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "1+2+3;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "But what about 1 plus 2 plus 3 \+
+plus 4 plus ... all the way up to 200?  " }}{PARA 0 "" 0 "" {TEXT -1 
+67 "Well you could do it by laboriously typing '1+2+3+4+5+6+7+8+9+ ...
+ " }}{PARA 0 "" 0 "" {TEXT -1 73 "(until you got to)+200'.  It would t
+ake quite a long time to do it (even " }}{PARA 0 "" 0 "" {TEXT -1 72 "
+for a fast typist - which I am not!), but Maple does it instantly - an
+d " }}{PARA 0 "" 0 "" {TEXT -1 33 "several others which I show - by:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sum(n,n=1..200);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&+,#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "sum(n,n=1..1234567898765432123456787654321);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"gn\"o7))3pZ6]L#)=)z$Gy.'*fm5+8Z5L[*y
+?w" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 139 "sum(n,n=1..123456789
+8765432123456888888888888888888888888877777777777777787654300000000000
+00000000000000000219999999999992345678987654321);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#\"ez\"o7))Q1!yiG=+3:V-!)RGx$\\gJ)*********>pdIuy)e<ENx!
+>&\\\"Ri)*\\'yxxxx*Q0c*)G4vT\"*3D()R/dC@C:1br#Q\\!y#Q\\%elxG#fI2h86sZ
+\\7@u^()yDG<=G\"z5s\\)p(4z5+8Z5L[*y?w" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 48 "When the outp
+ut is too long to fit on one line, " }{TEXT 305 5 "Maple" }{TEXT -1 
+20 " just continues the " }}{PARA 0 "" 0 "" {TEXT -1 76 "output on to \+
+the next line, ending each line of the output with a '\\' (what " }}
+{PARA 0 "" 0 "" {TEXT -1 15 "is called the '" }{TEXT 306 14 "backward \+
+slash" }{TEXT -1 3 "')." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 71 "Let's just comment on the first one, 'sum(n,n=1..200
+)'.   'sum' alerts " }}{PARA 0 "" 0 "" {TEXT 307 5 "Maple" }{TEXT -1 
+58 " that you want to add certain numbers together, 'n' tells " }
+{TEXT 308 5 "Maple" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 73 "tha
+t you are giving the name 'n' to the general number in your addition, \+
+" }}{PARA 0 "" 0 "" {TEXT -1 40 "and the 'n=1..200' tells Maple that '
+n' " }{TEXT 309 6 "starts" }{TEXT -1 12 " at '1' and " }{TEXT 310 8 "f
+inishes" }{TEXT -1 9 " at '200'" }}{PARA 0 "" 0 "" {TEXT -1 24 "(with \+
+'n' automatically " }{TEXT 311 10 "increasing" }{TEXT -1 25 " by 1 bet
+ween 1 and 200)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 312 15 "Question to you" }{TEXT -1 43 ". Suppose \+
+you wanted to add up the numbers " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 1 "(" }{TEXT 313 1 "i" }{TEXT -1 30 ")    2, \+
+4, 6, 8, ... , 100, or" }}{PARA 0 "" 0 "" {TEXT -1 1 "(" }{TEXT 314 2 
+"ii" }{TEXT -1 29 ")   1, 3, 5, 7, ... , 199, or" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 "(" }{TEXT 315 3 "iii" }{TEXT -1 25 ")  1, 4, 7, 10, ... , \+
+100" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "wha
+t " }{TEXT 316 5 "Maple" }{TEXT 317 0 "" }{TEXT -1 24 " commands would
+ you use?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+59 "Suppose you wished to add 4, 5, 6, 7, ... (up to:) , 200.  " }}
+{PARA 0 "" 0 "" {TEXT -1 44 "That - and other similar ones - are done \+
+by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "sum(n,n=4..200);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&%4?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "sum(n,n=3..5);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"#7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+117 "sum(n,n=100..1234567654321000000000088888888888888888666666666666
+66666666666666666666666666655555555555555555555555);" }}{PARA 12 "" 1 
+"" {XPPMATH 20 "6#\"ewS=XB,zcM7!z1&RG<1&RG<1&Ryxxxxxxxx)4Kaw)4KaOq.dMn
+@)pp[056666@ur8Q=u>k3`(>k3$RG<1&faQ6@\"Gbbv]qMR-j&)\\2GyaY'y?w" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 85 "Now, one small point.  Personally I don't like the 'n', t
+he ',' and the 'n' being SO " }}{PARA 0 "" 0 "" {TEXT -1 55 "CLOSE tog
+ether.  It's TOO CLUTTERED.  I prefer to type:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "sum(n, n=1..200);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&+,#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "It just makes
+ things look a little less cluttered.  (Here it is not so " }}{PARA 0 
+"" 0 "" {TEXT -1 67 "bad, but there will be much more cluttered situat
+ions where it can " }}{PARA 0 "" 0 "" {TEXT -1 61 "be hard to read, an
+d so I like to space things out a little.)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "I URGE you to do so yourself in
+ your own work.  SPACE YOUR WORK!!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 45 "Also, it doesn't have to be 'n' that is \+
+used:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "sum(m, m=1..30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$l%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "sum(H, H=60..600);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"'I&y\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 321 25 "Brief commen
+t about 'sum'" }{TEXT -1 39 " (which holds true for other commands):" 
+}}{PARA 0 "" 0 "" {TEXT -1 48 "It is ABSOLUTELY VITAL that you type 's
+um', and " }{TEXT 322 3 "not" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 
+-1 22 "- for example - 'SUM'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 40 "Look at what happens if you typed 'SUM':
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"SUM(n, n=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$SUMG6$%\"nG/F&
+;\"\"\"\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 73 "The input 'SUM(n, n=1..10)' leads to the \+
+(same) output 'SUM(n, n=1..10)'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 54 "It just means that MAPLE does NOT know wh
+at you mean; " }}{PARA 0 "" 0 "" {TEXT -1 31 "MAPLE does NOT recognise
+ 'SUM'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+43 "On the other hand, it DOES recognise 'Sum':" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Sum(n, n=1..10);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$SumG6$%\"nG/F&;\"\"\"\"#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 73 "This is the familiar 'sigma' notation, and the last expre
+ssion is read as" }}{PARA 0 "" 0 "" {TEXT -1 73 "\"sigma n, n equals 1
+ to 10\".  It MEANS the sum of all of the numbers 'n'," }}{PARA 0 "" 
+0 "" {TEXT -1 48 "with n ranging in (integral) value from 1 to 10." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "['Sum' - \+
+note the " }{TEXT 266 7 "capital" }{TEXT -1 42 " S - is called the 'in
+ert' form of 'sum'.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 18 "Sum(n^2, n=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%$SumG6$*$)%\"nG\"\"#\"\"\"/F(;\"\"\"\"#5" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 32 "Sum(3*n^4 - 7*n^2 + n, n=1..10);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#-%$SumG6$,(*$)%\"nG\"\"%\"\"\"\"\"$*$)F)\"\"#F+
+!\"(F)\"\"\"/F);F1\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "So far we have just added up nu
+mbers that were consecutive" }}{PARA 0 "" 0 "" {TEXT -1 69 "(or if not
+ consecutive, then at least in 'arithmetic progression').  " }}{PARA 
+0 "" 0 "" {TEXT -1 59 "How about, though, adding some numbers which ar
+en't?   How " }}{PARA 0 "" 0 "" {TEXT -1 67 "about 1 squared, plus 2 s
+quared, plus 3 squared? That comes to 14. " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "Maple does it by:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "sum(n^2, n=1
+..3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#9" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 38 "That 'n^
+2' is Maple's way of writing '" }{TEXT 324 19 "n to the power of 2" }
+{TEXT -1 4 "'.  " }}{PARA 0 "" 0 "" {TEXT -1 14 "The sign for '" }
+{TEXT 323 16 "to the power of " }{TEXT -1 38 "' is '^' (it is called '
+hat'), and is " }}{PARA 0 "" 0 "" {TEXT -1 42 "on the keyboard just ab
+ove the figure '6'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 14 "Some examples:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "3^2;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "1^2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "13.71^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"(T'z=!
+\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 192 "1223334444555556666
+6677777778888888899999999999999999999999999999999999999999999999999999
+9998888888888888888888877777777777777776666666666666665555555555555555
+554444444444444443333333333333^2;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#
+\"dbl*)))))))))))[\"[\"[\"[\"[-%G<1&RGPq.jH'H'H<E>&=&=&=&=p%G<1&RGP766
+r.PqB@V2uS2uS[,zcM7!zw)4_=&=&=D!eLL2u?$G<1pC?.xxJ[gH<A#QnXB<1`PHac9[RG
+8\\SB\"[RGbNrycMqh3L$H'Hw)47!z9G(********************4Kaw=&=&=Pq.z)4ug
+MK;6`P6t\"ol\"[B0OK;Zl\\\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "(-7)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#\\" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 267 14 "
+IMPORTANT NOTE" }{TEXT -1 42 ".  if you want ' minus seven squared' yo
+u " }}{PARA 0 "" 0 "" {TEXT -1 61 "have to write '(-7)^2' and NOT '-7^
+2'.   See what you get if " }}{PARA 0 "" 0 "" {TEXT -1 10 "you don't:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "
+-7^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!#\\" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 41 "(One mus
+t ALWAYS be ALERT otherwise ... )" }}{PARA 0 "" 0 "" {TEXT -1 53 "Some
+ more examples of squares - or sums of squares - " }}{PARA 0 "" 0 "" 
+{TEXT -1 17 "being calculated:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "12345678987654321234567876543212345
+67654321^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"`pT5(*\\hlNl#>c#z+_\\
+\"zzg^%4368r8+v?*>L@+E%4im*y:C:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 103 "sum(d^2, d=1..12345678987654399990000000000002123456787654321
+2345676543212345654321234543212343212321);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#\"][lhH-VY8*[v#=MN3J&)f9+&)pMk<')[)Rcw\"H)*4&R9)yn5;tJ'
+Gy'))Q@=!\\fZh]DagtX:,H*QjD'3t]wW')eZ\")f`z/=#)eZxf'[;hH1@%3eAkW]8m?^C
+\\reQ[Kg+HGb/M-SMPw6mHiqaAF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 64 "You see that in the Mapl
+e input I made 'd' go all the way up to " }}{PARA 0 "" 0 "" {TEXT -1 
+63 "some huge number which wouldn't fit on one line, and so it was " }
+}{PARA 0 "" 0 "" {TEXT -1 32 "just continued on the next line." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "And what \+
+about adding up cubes, fourth powers, fifth powers, etc.?  " }}{PARA 
+0 "" 0 "" {TEXT -1 65 "Well they are done in exactly the same way.  He
+re are several on " }}{PARA 0 "" 0 "" {TEXT -1 45 "the trot (CHECK the
+ small ones in your head):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 17 "sum(a^3, a=1..4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "su
+m(a^3, a=5..90);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\")D*on\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "sum(a^300, a=5..90);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#\"f_mVW%Rp@XJDH[tg;nkw\"z@$)e^meuMT&zj
+4>Di!QOJUBo`z1J8Xe)>(o;K%ob;oAw!Qh*4!RsD.+b[a+7(3#eRR>,asqN:jw9G!oh=NU
+i6W'Ht\"=m'fo;![m>fE;1YIu2$*>))*ow=l)=1r%Ru$)4wG#f\"Huw<p&\\d\"G(Q&Hb.
+;ATT$)*4l79zfG;80GDhh(=')p*>x>WP0,6c1'4$zoZD)Q:&H]<eCP$*)p,YT%z:6$38!Q
+54$eDmP,:xG*H-$R'>;%\\U]8Ibu\"e![\\o@u6)z<x!)yc4AF^y')fNk?(=[:3U<70zeG
+@-4!eS)R`<!p%4;)[Zj'G=%>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 421 9 "Instantly" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "Let's hav
+e a look at " }{TEXT 320 14 "multiplication" }{TEXT -1 31 ".  What is \+
+4 times 5?  It's 20." }}{PARA 0 "" 0 "" {TEXT -1 19 "Maple does that b
+y:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+4 "4*5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#?" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 274 "999999999999999998888888888888888888887777777
+7777766666666666666655555555555555554444444444444433333333333333332222
+2222222222222222221111111111111111111111111111111111100000000000000000
+*987654321234567890987654321234567890987654321234567898765432123456789
+098765432123456789;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"[\\l++++++++!
+zDG')>&\\\"z(yYr^(3%Q!oYh)oi\\A%[VCRcicl=yqh4hZRGz!)>&=#>S2ukAw44)z#[u
+uM83r5@VF*)yxZSQpX'3!Gw)>:*R!QR'y9o2DUVr?7Te1:H'y%R[VF+5!p$R(4jg-*)*)y
+cM7Kaw)*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 325 19 "m
+ultiplication sign" }{TEXT -1 35 " '*' is found on the keyboard just \+
+" }}{PARA 0 "" 0 "" {TEXT -1 20 "above the figure '8'" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "And 4 times 5 times 6?
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "
+4*5*6;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$?\"" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT 319 11 "Subtraction" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "8-3;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "9876876-23432;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"(WM&)*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "The 'minus sign' is a bit
+ on the small side, and it can be " }}{PARA 0 "" 0 "" {TEXT -1 55 "a b
+it hard to see, so I prefer - remembering my advice " }}{PARA 0 "" 0 "
+" {TEXT -1 24 "about spacing - to type:" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "123 - 24;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#**" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "987
+6543678977655 - 765487654;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"1,+\\8
+Haw)*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "6 - 23;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#!#<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 21 "Let's have a look at " }
+{TEXT 318 8 "division" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "24/4;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 327 17 "sign for divi
+sion" }{TEXT -1 23 " is '/' (it is called '" }{TEXT 326 13 "forward sl
+ash" }{TEXT -1 10 "', and is " }}{PARA 0 "" 0 "" {TEXT -1 41 "on the k
+eyboard just under the '?' sign)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "-24/4;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#!\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "-24/-4;" }}
+{PARA 8 "" 1 "" {TEXT -1 14 "`-` unexpected" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "What does \+
+that ' `-` unexpected ' mean?  [And notice how the" }}{PARA 0 "" 0 "" 
+{TEXT -1 59 "cursor flashes on and off between the ' / ' and the ' - '
+.]" }}{PARA 0 "" 0 "" {TEXT -1 65 "It isn't that Maple doesn't know ho
+w to divide a negative number " }}{PARA 0 "" 0 "" {TEXT -1 37 "by a ne
+gative number.  It can do it, " }{TEXT 328 3 "but" }{TEXT -1 19 " you \+
+have to put a " }{TEXT 329 7 "bracket" }{TEXT -1 1 " " }}{PARA 0 "" 0 
+"" {TEXT -1 32 "around the negative denominator:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "-24/(-4);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "30/(-2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!#:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 21 "Now, how about these:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 6 "24/10;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+#\"#7\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "24/15;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\")\"\"&" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 6 "89/37;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#*)\"#
+P" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 26 "Can't it do divisions?  A " }{TEXT 330 10 "calculato
+r" }{TEXT -1 12 " would give:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 18 " 24/10 to be 2.4, " }}{PARA 15 "" 0 "" 
+{TEXT -1 17 "24/15 to be 1.6, " }}{PARA 15 "" 0 "" {TEXT -1 26 "89/37 \+
+to be 2.405405406  \n" }}{PARA 0 "" 0 "" {TEXT -1 13 "So, what can " }
+{TEXT 333 5 "Maple" }{TEXT -1 4 " do?" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 11 "One of the " }{TEXT 331 23 "fundament
+al differences" }{TEXT -1 9 " between " }{TEXT 332 5 "Maple" }{TEXT 
+-1 8 " and an " }}{PARA 0 "" 0 "" {TEXT -1 28 "ordinary calculator is \+
+that " }{TEXT 334 5 "Maple" }{TEXT -1 22 " always tries to give " }
+{TEXT 335 5 "exact" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 65 "val
+ues for everything, and so in asking it to calculate 24/15 it " }}
+{PARA 0 "" 0 "" {TEXT -1 49 "gave 8/5 (which happens - as with 1.6 - t
+o be an " }{TEXT 337 5 "exact" }{TEXT -1 10 " value of " }}{PARA 0 "" 
+0 "" {TEXT -1 24 "24/15 (meaning they are " }{TEXT 336 5 "equal" }
+{TEXT -1 34 "), whereas a calculator would give" }}{PARA 0 "" 0 "" 
+{TEXT -1 46 "the value of 89/37 to be a decimal which is a " }{TEXT 
+338 18 "good approximation" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 
+-1 20 "to 89/37, but would " }{TEXT 339 3 "not" }{TEXT -1 29 " be an E
+XACT value of 89/37 (" }{TEXT 340 7 "why not" }{TEXT -1 2 "?)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "You might
+ say though that you want a decimal value for 89/37, " }}{PARA 0 "" 0 
+"" {TEXT -1 34 "and if that is what you want then " }{TEXT 341 5 "Mapl
+e" }{TEXT -1 12 " does it by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(89/37);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+0aS0C!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "That gives 10 digit accu
+racy, but - unlike your ordinary calculator " }}{PARA 0 "" 0 "" {TEXT 
+-1 61 "which is restricted to perhaps 10 or 12 digits - you can ask " 
+}{TEXT 342 5 "Maple" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 42 "to
+ give you greater accuracy. (If you ask " }{TEXT 343 5 "Maple" }{TEXT 
+-1 15 " for a decimal " }}{PARA 0 "" 0 "" {TEXT -1 69 "value it will a
+utomatically do it to 10 places - that is called the '" }{TEXT 344 7 "
+default" }{TEXT -1 2 "' " }}{PARA 0 "" 0 "" {TEXT -1 43 "value - unles
+s you ask it for more places.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 68 "Suppose you wanted 50 digit accuracy, the
+n this is one of the things" }}{PARA 0 "" 0 "" {TEXT -1 16 "that you c
+an do:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "Digits := 50;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'DigitsG\"#
+]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(89/37);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"SaS0aS0aS0aS0aS0aS0aS0aS0C!#\\" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 66 "And look at what happens if you try to add two fractions \+
+together:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "1/2 + 1/3;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"\"&\"\"'" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "A 10-digit
+ calculator would have given .8333333333," }}{PARA 0 "" 0 "" {TEXT -1 
+45 "which is NOT the exact value of 1/2 plus 1/3." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 422 0 "" }{TEXT 
+423 5 "Maple" }{TEXT 424 0 "" }{TEXT -1 33 ", however, gives the exact
+ value." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "234/321 + 987654
+321/123454376543876;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"1vYV\\qaH'*
+\"2KZ>!H='4K\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Let's have a look at calculating \+
+" }{TEXT 345 12 "square-roots" }{TEXT -1 10 " (and then" }}{PARA 0 "" 
+0 "" {TEXT -1 15 "have a look at " }{TEXT 346 10 "cube-roots" }{TEXT 
+-1 2 ", " }{TEXT 347 12 "fourth-roots" }{TEXT -1 7 ", etc.)" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "The square-root
+ of 9 is 3.  " }{TEXT 348 5 "Maple" }{TEXT -1 14 " does that by:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "sqrt
+(9);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 26 "and the square root of 2?:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "sqrt(2);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*$-%%sqrtG6#\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "Why did " }
+{TEXT 349 5 "Maple" }{TEXT -1 46 " do that?  It is because the square-
+root of 2 " }{TEXT 350 8 "does not" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "have an " }{TEXT 351 5 "exact" }{TEXT -1 16 " decimal valu
+e (" }{TEXT 352 3 "Why" }{TEXT -1 38 "? - think about that!  We will d
+iscuss" }}{PARA 0 "" 0 "" {TEXT -1 52 "that - and other related questi
+ons - in lectures).  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 40 "Let's find an approximate decimal value:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(sqrt(2
+));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"SpPv=np&y!)p4Us)o,)[]4tBc8UT
+\"!#\\" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 65 "That was done to 50 decimal places because of w
+hat I did earlier." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 14 "I am going to " }{TEXT 353 5 "reset" }{TEXT -1 49 " the '
+Digits' value from 50 to the default value " }}{PARA 0 "" 0 "" {TEXT 
+-1 69 "of 10, and will follow that with some other square-root calcula
+tions:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "Digits := 10;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'DigitsG\"#
+5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "sqrt(3);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*$\"\"$#\"\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "evalf(sqrt(3));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"+330K<!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "sqrt(18);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$\"\"##\"\"\"F%\"\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "evalf(sqrt(18));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#$\"+'oSEC%!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "There is " }{TEXT 354 
+11 "another way" }{TEXT -1 38 " in which you can get a decimal value \+
+" }}{PARA 0 "" 0 "" {TEXT -1 20 "without using evalf:" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "sqrt(19.0);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+W*)*)eV!\"*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "Writin
+g 19.0 instead of 19 " }{TEXT 258 5 "tells" }{TEXT -1 1 " " }{TEXT 
+256 5 "Maple" }{TEXT -1 10 " that you " }{TEXT 257 20 "want a decimal \+
+value" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 70 "And here is yet another way - perhaps the best way, fo
+r reasons I will" }}{PARA 0 "" 0 "" {TEXT -1 63 "explain in class - fo
+r getting a decimal value for some number." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Suppose we want the square-root
+ of 2 to (say) 500 decimal places; " }}{PARA 0 "" 0 "" {TEXT -1 18 "it
+ can be done by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "evalf(sqrt(2), 500);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#$\"_jlsB()*o&=c,8Iromf6JYy0e@'=p$H\\oI#yCakJ!zFSaI]\"[+
+*pq***oQgr%))\\3MguVN6q&=`P.Avb$)H<'*fxG]dua]R_$e_h?1kH)3=LYlR`so*)zS^
+_*zi.EwR3X@Vr3V[I#HBb4')>*)3k=u^GZ,iofMXFqfgr*f&4,Zr01#y_6]]**zbFf0v#f
+mAKTJe$**4(\\@Tk7st]e0O[#\\-(H74BYQ,NFdTwKMvQ])Qq5i%yCt!*ztzm<t![pPv=n
+p&y!)p4Us)o,)[]4tBc8UT\"!$*\\" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "And here are some more d
+ecimal calculations:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "eva
+lf(1/2, 50);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"S++++++++++++++++++
+++++++]!#]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(1/3, 50
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"SLLLLLLLLLLLLLLLLLLLLLLLLL!#]
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(1/4, 50);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"S++++++++++++++++++++++++D!#]" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(1/5, 50);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#$\"S++++++++++++++++++++++++?!#]" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(1/6, 50);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#$\"Snmmmmmmmmmmmmmmmmmmmmmmm;!#]" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 15 "evalf(1/7, 50);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"S9dG9dG9dG9dG9dG9dG9dG9dG9!#]" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 16 "evalf(1/17, 50);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"Sfqk<THN#)eqk<THN#)eqk<THN#)e!#^" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 39 "And how abo
+ut some cube-roots? Perhaps " }{TEXT 414 0 "" }{TEXT 415 5 "Maple" }
+{TEXT 416 1 " " }{TEXT -1 13 "has a command" }}{PARA 0 "" 0 "" {TEXT 
+-1 30 "for cube-roots? Perhaps it is " }{TEXT 417 4 "cbrt" }{TEXT -1 
+34 "? Let's try it to see if it works:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "cbrt(8);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%cbrtG6#
+\"\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "cuberoot(8);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%)cuberootG6#\"\")" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "beetroot(8);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%)beetrootG6#\"\")" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "curt(8);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%curtG6#
+\"\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 21 "Point made, I hope.  " }{TEXT 418 0 "" }{TEXT 
+419 5 "Maple" }{TEXT 420 1 " " }{TEXT -1 37 "simply doesn't recognise \+
+any of those" }}{PARA 0 "" 0 "" {TEXT -1 10 "attempts. " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "One obvious attempt \+
+that we could make is to say: the cube-root" }}{PARA 0 "" 0 "" {TEXT 
+-1 54 "of a number is that number raised to the power of 1/3." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "Let's try
+ that:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "8^(1/3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*$)\"\")#\"\"\"\"\"$\"\"\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 60 "O
+.k. Time to take you out of your misery, and let you in on " }{TEXT 
+429 3 "how" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 425 0 "" }{TEXT 
+426 5 "Maple" }{TEXT 427 0 "" }{TEXT -1 12 " copes with " }{TEXT 435 
+4 "cube" }{TEXT -1 8 "-roots, " }{TEXT 436 6 "fourth" }{TEXT -1 8 "-ro
+ots, " }{TEXT 428 3 "etc" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "It does it - in " }{TEXT 431 9 "Re
+lease 5" }{TEXT -1 16 " - by using its " }{TEXT 430 4 "surd" }{TEXT 
+-1 21 " command (in earlier " }}{PARA 0 "" 0 "" {TEXT -1 12 "versions \+
+of " }{TEXT 432 0 "" }{TEXT 433 5 "Maple" }{TEXT 434 0 "" }{TEXT -1 
+26 " it was more complicated):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "surd(8, 3);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "surd(16, 4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "surd(125, 3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "sur
+d(-125, 3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"&" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 11 "surd(9, 3);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*$)\"\"$#\"\"#F%\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 63 "The meaning of each of t
+he above outputs should be clear to you" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 357 3 "2. " }{TEXT -1 1 " " }{TEXT 356 62 "Now to have a \+
+look at some algebraic and analytic calculations" }{TEXT -1 1 ":" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 355 5 "Maple" }
+{TEXT -1 14 " can multiply " }{TEXT 358 9 "algebraic" }{TEXT -1 15 " e
+xpressions.  " }}{PARA 0 "" 0 "" {TEXT -1 43 "What is (3x - 2) multipl
+ied by (4x + 7)?   " }}{PARA 0 "" 0 "" {TEXT -1 46 "Look at what happe
+ns if I tried to do that by:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 17 "(3x - 2)(4x + 7);" }}{PARA 8 "" 1 "" 
+{TEXT -1 23 "missing operator or `;`" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 359 5 "Maple" }
+{TEXT -1 35 " suggests that there is a missing '" }{TEXT 360 8 "operat
+or" }{TEXT -1 1 "'" }}{PARA 0 "" 0 "" {TEXT -1 59 "(or that there is a
+ missing `;`).  (In earlier versions of " }{TEXT 361 0 "" }}{PARA 0 "
+" 0 "" {TEXT 362 5 "Maple" }{TEXT 363 0 "" }{TEXT -1 24 " it did somet
+hing else.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 19 "In fact, there are " }{TEXT 370 23 "three missing operators" }
+{TEXT -1 13 " (and in the " }{TEXT 368 4 "live" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "demonstration of this in class you will s
+ee that the cursor" }}{PARA 0 "" 0 "" {TEXT -1 3 "is " }{TEXT 369 19 "
+flashing on and off" }{TEXT -1 31 " between the '3' and the 'x'). " }}
+{PARA 0 "" 0 "" {TEXT -1 58 "I failed (deliberately) to insert the mul
+tiplication sign:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" 
+{TEXT -1 28 "between the '3' and the 'x'," }}{PARA 15 "" 0 "" {TEXT 
+-1 52 "between the first set of parentheses and the second," }}{PARA 
+15 "" 0 "" {TEXT -1 27 "between the '3' and the 'x'" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "Now to set that right:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 
+"(3*x - 2)*(4*x + 7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"
+$!\"#\"\"\"F(,&F%\"\"%\"\"(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "But now see what has h
+appened.  " }{TEXT 364 5 "Maple" }{TEXT -1 1 " " }{TEXT 371 12 "doesn'
+t seem" }{TEXT -1 14 " to have done " }}{PARA 0 "" 0 "" {TEXT -1 71 "a
+nything - apart from writing it in the normal mathematical notation.  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "This \+
+is where I have to let you in on a " }{TEXT 372 4 "new " }{TEXT 365 5 
+"Maple" }{TEXT 373 8 " command" }{TEXT -1 5 ", the" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 "'" }{TEXT 366 6 "expand" }{TEXT -1 10 "' command:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "exp
+and((3*x - 2)*(4*x + 7));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"x
+G\"\"#\"\"\"\"#7F&\"#8!#9\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 34 "expand((3*x^2 + x - 2)*(4*x + 7));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**$)%\"xG\"\"$\"\"\"\"#7*$)F&\"\"#F(\"#DF&!\"\"!#9\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "expand(x*(4*x^5 - 5*x
+^2 + 7));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"xG\"\"'\"\"\"\"\"
+%*$)F&\"\"$F(!\"&F&\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 
+"expand((a + b)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$%\"aG\"\"#
+\"\"\"*&F%F'%\"bGF'F&*$F)F&F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "expand((a + b)^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$%\"aG
+\"\"$\"\"\"*&F%\"\"#%\"bGF'F&*&F%F'F*F)F&*$F*F&F'" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "expand((a + b)^20);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#,L*$%\"aG\"#?\"\"\"*&%\"bGF'F%\"#>F&*&F)\"\"#F%\"#=\"$!
+>*&F)\"\"$F%\"#<\"%S6*&F)\"\"%F%\"#;\"%X[*&F)\"\"&F%\"#:\"&/b\"*&F)\"
+\"'F%\"#9\"&g(Q*&F)\"\"(F%\"#8\"&?v(*&F)\"\")F%\"#7\"'qf7*&F)\"\"*F%\"
+#6\"'gz;*&F)\"#5F%FL\"'cZ=*&F)FIF%FHFJ*&F)FEF%FDFF*&F)FAF%F@FB*&F)F=F%
+F<F>*&F)F9F%F8F:*&F)F5F%F4F6*&F)F1F%F0F2*&F)F-F%F,F.*&F)F*F%F'F&*$F)F&
+F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT 367 5 "Maple" }{TEXT -1 45 " can many, many other algebra
+ic calculations." }}{PARA 0 "" 0 "" {TEXT -1 26 "Here is an important \+
+one (" }{TEXT 374 23 "and keep your eyes open" }{TEXT -1 4 "!!):" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "fac
+tor(x^2 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"!\"\"F
+&F&,&F%F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "factor(x
+^3 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"!\"\"F&F&,(
+*$)F%\"\"#\"\"\"F&F%F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "factor(x^4 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"
+\"\"!\"\"F&F&,&F%F&F&F&F&,&*$)F%\"\"#\"\"\"F&F&F&F&" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 17 "factor(x^20 - 1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*.,&%\"xG\"\"\"!\"\"F&F&,&F%F&F&F&F&,,*$)F%\"\"%\"\"\"F
+&*$)F%\"\"$F-F&*$)F%\"\"#F-F&F%F&F&F&F&,,F*F&F.F'F1F&F%F'F&F&F&,&F1F&F
+&F&F&,,*$)F%\"\")F-F&*$)F%\"\"'F-F'F*F&F1F'F&F&F&" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 17 "factor(x^20 + 1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&,&*$)%\"xG\"\"%\"\"\"\"\"\"F*F*F*,,*$)F'\"#;F)F**$)F'
+\"#7F)!\"\"*$)F'\"\")F)F*F%F2F*F*F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "factor(x^4 + 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+&*$)%\"xG\"\"%\"\"\"\"\"\"F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 23 "factor(x^10 + x^5 + 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,
+(*$)%\"xG\"\"#\"\"\"\"\"\"F'F*F*F*F*,0*$)F'\"\")F)F**$)F'\"\"(F)!\"\"*
+$)F'\"\"&F)F**$)F'\"\"%F)F2*$)F'\"\"$F)F*F'F2F*F*F*" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "factor(x^6 - x^4 + x^ 2 - 1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"!\"\"F&F&,&F%F&F&F&F&,&*$)F%
+\"\"%\"\"\"F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "fact
+or(x^3 - y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&,&%\"yG\"\"\"%\"
+xG!\"\"F',(*$)F&\"\"#\"\"\"F'*&F&F'F(F'F'*$)F(F-F.F'F'F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^6 - y^3);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*&,&%\"yG\"\"\"*$)%\"xG\"\"#\"\"\"!\"\"F',(*$)F&
+F+F,F'*&F&F'F)F,F'*$)F*\"\"%F,F'F'F-" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "factor(x^6 - y^6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,$**,&%\"yG\"\"\"%\"xG!\"\"F',&F&F'F(F'F',(*$)F&\"\"#\"\"\"F'*&F&F'F(
+F'F'*$)F(F.F/F'F',(F,F'F0F)F1F'F'F)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "factor(x^3 + y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#*&,&%\"yG\"\"\"%\"xGF&F&,(*$)F%\"\"#\"\"\"F&*&F%F&F'F&!\"\"*$)F'F+F,F
+&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "factor(8x^3 - y^3);
+" }}{PARA 8 "" 1 "" {TEXT -1 23 "missing operator or `;`" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 60 "I made a deliberate error there to remind you that you need " }
+}{PARA 0 "" 0 "" {TEXT -1 39 "to use '*' for multiplication.  So now:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 
+"factor(8*x^3 - y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&,&%\"yG\"
+\"\"%\"xG!\"#F',(*$)F&\"\"#\"\"\"F'*&F&F'F(F'F-*$)F(F-F.\"\"%F'!\"\"" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^4 + y^4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)%\"xG\"\"%\"\"\"\"\"\"*$)%\"yGF'F
+(F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 13 "So, you see, " }{TEXT 375 5 "Maple" }{TEXT -1 50 "
+ did factor some of them, but left others alone.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 69 "As far as the ones that were left alone are concerned, it
+'s not that " }}{PARA 0 "" 0 "" {TEXT 376 5 "Maple" }{TEXT -1 40 " cou
+ldn't do them, it's that those ones " }{TEXT 377 5 "can't" }{TEXT -1 
+20 " be factored - they " }}{PARA 0 "" 0 "" {TEXT -1 4 "are " }{TEXT 
+378 4 "like" }{TEXT -1 1 " " }{TEXT 379 6 "primes" }{TEXT -1 28 ", the
+y are what are called '" }{TEXT 380 11 "irreducible" }{TEXT -1 14 "', \+
+and I will " }}{PARA 0 "" 0 "" {TEXT -1 36 "come back to that in later
+ lectures." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "But now to something with which you were all familiar from scho
+ol.  " }}{PARA 0 "" 0 "" {TEXT -1 1 "'" }{TEXT 381 15 "Differentiating
+" }{TEXT -1 57 "'. This - differentiating - is one of the most importa
+nt " }}{PARA 0 "" 0 "" {TEXT -1 75 "topics you will study.  I will sta
+rt it from scratch in lectures, but, for " }}{PARA 0 "" 0 "" {TEXT -1 
+69 "the moment, you were all able to tell me that - as we all learned \+
+at " }}{PARA 0 "" 0 "" {TEXT -1 10 "school - '" }{TEXT 384 45 " d by d
+x of x cubed is three times x squared " }{TEXT -1 2 "'." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 382 5 "Maple" }{TEXT -1 37 
+" can do that - and much else - too!!:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(x^3, x);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#,$*$%\"xG\"\"#\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "diff(x^4, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$
+%\"xG\"\"$\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(x^5
+, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$%\"xG\"\"%\"\"&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 20 "You also knew what '" }{TEXT 383 26 "d by dx of 7 times x
+ cubed" }{TEXT -1 6 "' was:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 14 "diff(7x^3, x);" }}{PARA 8 "" 1 "" {TEXT 
+-1 23 "missing operator or `;`" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "Again I made a deliber
+ate error to show you what happens " }}{PARA 0 "" 0 "" {TEXT -1 59 "if
+ one forgets to type the Maple multiplication sign '*'.  " }}{PARA 0 "
+" 0 "" {TEXT -1 17 "So, let's now do:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "diff(7*x^3, x);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*$)%\"xG\"\"#\"\"\"\"#@" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 56 "And some
+ others with which you are familiar from school:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "diff(7*x^3 + 10*x^2
+ + 51, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#\"#@F%\"#?
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "diff(7*x^3 - 10*x^2 + 5
+1, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#\"#@F%!#?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "diff( -7*x^3 - 10*x^2 + 51, \+
+x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#!#@F%!#?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "diff( -7*x^3 - 10*x^2 + 1251
+, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$%\"xG\"\"#!#@F%!#?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "diff( (x^3 - 10*x^2)/(x^2 + \+
+1), x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&,&*$%\"xG\"\"#\"\"$F'!#
+?\"\"\",&F&F+F+F+!\"\"F+*(,&*$F'F)F+F&!#5F+F,!\"#F'F+F2" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 4 "So, " }{TEXT 385 5 "Maple" }{TEXT -1 18 " knows about the '" }
+{TEXT 386 13 "u over v rule" }{TEXT -1 25 "' that you met in school " 
+}}{PARA 0 "" 0 "" {TEXT -1 63 "(I will be treating that, and more besi
+des, in later lectures)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 18 "Now, not only can " }{TEXT 387 5 "Maple" }{TEXT 
+-1 50 " do differentiation (work out various d by dx's), " }}{PARA 0 "
+" 0 "" {TEXT -1 40 "but it can also perform what is called '" }{TEXT 
+388 11 "integration" }{TEXT -1 8 "'. That " }{TEXT 389 5 "means" }
+{TEXT -1 8 " it can " }{TEXT 390 7 "reverse" }{TEXT -1 1 " " }}{PARA 
+0 "" 0 "" {TEXT -1 30 "a differentiation (the reason " }{TEXT 391 3 "w
+hy" }{TEXT -1 39 " one would want to do that will form a " }}{PARA 0 "
+" 0 "" {TEXT -1 63 "part of our later studies, but just for the moment
+ let us see):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "int(x^2, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$)
+%\"xG\"\"$\"\"\"#\"\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "int(x^20, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$)%\"xG\"#@\"
+\"\"#\"\"\"F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "int(10*x^7
+ + 5*x^4 - 7*x^2 + 253, x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$)%
+\"xG\"\")\"\"\"#\"\"&\"\"%*$)F&F*F(\"\"\"*$)F&\"\"$F(#!\"(F1F&\"$`#" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 15 "And so on ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 12 "I have only " }{TEXT 392 7 "briefly" }
+{TEXT -1 17 " touched on what " }{TEXT 393 5 "Maple" }{TEXT -1 18 " ca
+n do as far as " }}{PARA 0 "" 0 "" {TEXT -1 72 "differentiation and in
+tegration is concerned, and now I wish to move on " }}{PARA 0 "" 0 "" 
+{TEXT -1 14 "to one of the " }{TEXT 396 27 "most powerful and importan
+t" }{TEXT -1 4 " of " }{TEXT 394 5 "Maple" }{TEXT -1 14 "'s features -
+ " }}{PARA 0 "" 0 "" {TEXT -1 4 "its " }{TEXT 395 9 "graphical" }
+{TEXT -1 12 " facilities." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 70 "One of the most important things for a mathematici
+an to be able to do " }}{PARA 0 "" 0 "" {TEXT -1 6 "is to " }{TEXT 
+397 0 "" }{TEXT 398 9 "visualise" }{TEXT -1 53 ".  To have pictures re
+presenting mathematical ideas, " }}{PARA 0 "" 0 "" {TEXT -1 69 "mathem
+atical objects.  Those pictures may be on a scrap of paper, in " }}
+{PARA 0 "" 0 "" {TEXT -1 74 "a book, on a blackboard, in your head.   \+
+And truly a picture can be worth " }}{PARA 0 "" 0 "" {TEXT -1 33 "a th
+ousand words.   You can gain " }{TEXT 399 7 "so much" }{TEXT -1 27 " i
+nsight and understanding " }}{PARA 0 "" 0 "" {TEXT -1 56 "from a pictu
+re, providing you know what to look out for!" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "Let's start with a very simple \+
+example, one known to all of you " }}{PARA 0 "" 0 "" {TEXT -1 61 "from
+ school (for the purposes of this printed document I have" }}{PARA 0 "
+" 0 "" {TEXT -1 67 "reduced the size of the graphical output - I will \+
+show you in class" }}{PARA 0 "" 0 "" {TEXT -1 64 "how that is done) - \+
+namely the graph of y equals x squared, with" }}{PARA 0 "" 0 "" {TEXT 
+-1 29 "'x' varying between -1 and 1:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(x^2, x=-1..1);" }}{PARA 13 "
+" 1 "" {GLPLOT2D 185 167 167 {PLOTDATA 2 "6%-%'CURVESG6$7S7$$!\"\"\"\"
+!$\"\"\"F*7$$!1nmm;p0k&*!#;$\"1^R_q%=r9*F07$$!1LL$3<XZ=*F0$\"1AYJ&QafV
+)F07$$!1nmmT%p\"e()F0$\"1\"Q%*o>`0n(F07$$!1mmm\"4m(G$)F0$\"1V'p4YMo$pF
+07$$!1ML$3i.9!zF0$\"16=$z\"z@ViF07$$!1nm;/R=0vF0$\"1Ti`V&yFj&F07$$!1++
+]P8#\\4(F0$\"1z7`y3zL]F07$$!1nm;/siqmF0$\"1TopHns\\WF07$$!1++](y$pZiF0
+$\"15mBmxO.RF07$$!1LLL$yaE\"eF0$\"1)y?Ic&pyLF07$$!1nmm\">s%HaF0$\"1k\"
+3!Go\"z%HF07$$!1+++]$*4)*\\F0$\"1VqC6(*4)\\#F07$$!1+++]_&\\c%F0$\"1c-X
+V;)Q3#F07$$!1+++]1aZTF0$\"1U-MW$4-s\"F07$$!1nm;/#)[oPF0$\"1JV\\M.:?9F0
+7$$!1MLL$=exJ$F0$\"1IvIO>v+6F07$$!1MLLL2$f$HF0$\"137$4F*o>')!#<7$$!1++
+]PYx\"\\#F0$\"1f#)3W3%*3iF]q7$$!1MLLL7i)4#F0$\"1Dv*436US%F]q7$$!1++]P'
+psm\"F0$\"1!QHT/)yzFF]q7$$!1++]74_c7F0$\"1K)\\N![%)y:F]q7$$!1JLL$3x%z#
+)F]q$\"1!=Wt2u\\&o!#=7$$!1MLL3s$QM%F]q$\"19,Dp@*o)=Fgr7$$!1^omm;zr)*!#
+>$\"14t+rqAX(*!#A7$$\"1<LLezw5VF]q$\"1>$f!R?Fe=Fgr7$$\"1!****\\PQ#\\\"
+)F]q$\"1ZsD4'35k'Fgr7$$\"1KLLe\"*[H7F0$\"11#f/fV;^\"F]q7$$\"1*******pv
+xl\"F0$\"1)[5:F?#[FF]q7$$\"1)****\\_qn2#F0$\"1n(3N\"e(HJ%F]q7$$\"1)***
+\\i&p@[#F0$\"1M9+Pd;hhF]q7$$\"1)****\\2'HKHF0$\"1&Rg9Fg$)f)F]q7$$\"1lm
+mmZvOLF0$\"1rsGPKR86F07$$\"1+++]2goPF0$\"1c+Hh^B?9F07$$\"1KL$eR<*fTF0$
+\"1xc,u7\\I<F07$$\"1+++])Hxe%F0$\"1-\"ew^EZ5#F07$$\"1lm;H!o-*\\F0$\"1&
+H#H+vF!\\#F07$$\"1****\\7k.6aF0$\"1'3Sd]Jz#HF07$$\"1mmm;WTAeF0$\"1$ySR
+'40!R$F07$$\"1****\\i!*3`iF0$\"17dN#G7,\"RF07$$\"1MLLL*zym'F0$\"1M\\`!
+GigW%F07$$\"1LLL3N1#4(F0$\"1ILi![O(H]F07$$\"1mm;HYt7vF0$\"1,!G3;=Tk&F0
+7$$\"1*******p(G**yF0$\"1Grt;Y()RiF07$$\"1mmmT6KU$)F0$\"1j)pI?K%fpF07$
+$\"1LLLLbdQ()F0$\"1%>x^Bqij(F07$$\"1++]i`1h\"*F0$\"1F(*fd=^#R)F07$$\"1
+++]P?Wl&*F0$\"1:sFP\"o(\\\"*F07$F+F+-%'COLOURG6&%$RGBG$\"#5F)F*F*-%+AX
+ESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;F(F+%(DEFAULTG" 1 2 0 1 0 2 9 1 4 2 
+1.000000 47.000000 44.000000 0 }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 "Here is a variation of
+ the previous plot (again reduced in size):" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "plot(x^2, x=-1..1, style=
+point);" }}{PARA 13 "" 1 "" {GLPLOT2D 246 189 189 {PLOTDATA 2 "6&-%'CU
+RVESG6$7S7$$!\"\"\"\"!$\"\"\"F*7$$!1nmm;p0k&*!#;$\"1^R_q%=r9*F07$$!1LL
+$3<XZ=*F0$\"1AYJ&QafV)F07$$!1nmmT%p\"e()F0$\"1\"Q%*o>`0n(F07$$!1mmm\"4
+m(G$)F0$\"1V'p4YMo$pF07$$!1ML$3i.9!zF0$\"16=$z\"z@ViF07$$!1nm;/R=0vF0$
+\"1Ti`V&yFj&F07$$!1++]P8#\\4(F0$\"1z7`y3zL]F07$$!1nm;/siqmF0$\"1TopHns
+\\WF07$$!1++](y$pZiF0$\"15mBmxO.RF07$$!1LLL$yaE\"eF0$\"1)y?Ic&pyLF07$$
+!1nmm\">s%HaF0$\"1k\"3!Go\"z%HF07$$!1+++]$*4)*\\F0$\"1VqC6(*4)\\#F07$$
+!1+++]_&\\c%F0$\"1c-XV;)Q3#F07$$!1+++]1aZTF0$\"1U-MW$4-s\"F07$$!1nm;/#
+)[oPF0$\"1JV\\M.:?9F07$$!1MLL$=exJ$F0$\"1IvIO>v+6F07$$!1MLLL2$f$HF0$\"
+137$4F*o>')!#<7$$!1++]PYx\"\\#F0$\"1f#)3W3%*3iF]q7$$!1MLLL7i)4#F0$\"1D
+v*436US%F]q7$$!1++]P'psm\"F0$\"1!QHT/)yzFF]q7$$!1++]74_c7F0$\"1K)\\N![
+%)y:F]q7$$!1JLL$3x%z#)F]q$\"1!=Wt2u\\&o!#=7$$!1MLL3s$QM%F]q$\"19,Dp@*o
+)=Fgr7$$!1^omm;zr)*!#>$\"14t+rqAX(*!#A7$$\"1<LLezw5VF]q$\"1>$f!R?Fe=Fg
+r7$$\"1!****\\PQ#\\\")F]q$\"1ZsD4'35k'Fgr7$$\"1KLLe\"*[H7F0$\"11#f/fV;
+^\"F]q7$$\"1*******pvxl\"F0$\"1)[5:F?#[FF]q7$$\"1)****\\_qn2#F0$\"1n(3
+N\"e(HJ%F]q7$$\"1)***\\i&p@[#F0$\"1M9+Pd;hhF]q7$$\"1)****\\2'HKHF0$\"1
+&Rg9Fg$)f)F]q7$$\"1lmmmZvOLF0$\"1rsGPKR86F07$$\"1+++]2goPF0$\"1c+Hh^B?
+9F07$$\"1KL$eR<*fTF0$\"1xc,u7\\I<F07$$\"1+++])Hxe%F0$\"1-\"ew^EZ5#F07$
+$\"1lm;H!o-*\\F0$\"1&H#H+vF!\\#F07$$\"1****\\7k.6aF0$\"1'3Sd]Jz#HF07$$
+\"1mmm;WTAeF0$\"1$ySR'40!R$F07$$\"1****\\i!*3`iF0$\"17dN#G7,\"RF07$$\"
+1MLLL*zym'F0$\"1M\\`!GigW%F07$$\"1LLL3N1#4(F0$\"1ILi![O(H]F07$$\"1mm;H
+Yt7vF0$\"1,!G3;=Tk&F07$$\"1*******p(G**yF0$\"1Grt;Y()RiF07$$\"1mmmT6KU
+$)F0$\"1j)pI?K%fpF07$$\"1LLLLbdQ()F0$\"1%>x^Bqij(F07$$\"1++]i`1h\"*F0$
+\"1F(*fd=^#R)F07$$\"1++]P?Wl&*F0$\"1:sFP\"o(\\\"*F07$F+F+-%'COLOURG6&%
+$RGBG$\"#5F)F*F*-%&STYLEG6#%&POINTG-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6
+$;F(F+%(DEFAULTG" 1 5 0 1 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 }
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 "If you carefully count the numb
+er of points in the last picture, " }}{PARA 0 "" 0 "" {TEXT -1 63 "you
+ should find there are 49 of them altogether.  That '49' is " }}{PARA 
+0 "" 0 "" {TEXT -1 64 "called the plot 'default' value, which just mea
+ns that whenever " }}{PARA 0 "" 0 "" {TEXT -1 54 "you ask Maple to plo
+t a function (or several) it will " }{TEXT 400 13 "automatically" }}
+{PARA 0 "" 0 "" {TEXT -1 61 "take 49 equally spaced points on the 'int
+erval' you chose to " }}{PARA 0 "" 0 "" {TEXT -1 66 "plot on (in the a
+bove examples the 'interval' is from -1 up to 1)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Now we will plot the same
+ function, but in a larger interval, this" }}{PARA 0 "" 0 "" {TEXT -1 
+21 "time from -1 up to 2:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "plot(x^2, x=-1..2);" }}{PARA 13 "" 1 "" 
+{GLPLOT2D 177 142 142 {PLOTDATA 2 "6%-%'CURVESG6$7S7$$!\"\"\"\"!$\"\"
+\"F*7$$!1*****\\P&3Y$*!#;$\"1)))yO=J\\t)F07$$!1++Dcx6x()F0$\"1/zq5'zPq
+(F07$$!1,+]iTDP\")F0$\"1eB^I0\\@mF07$$!1****\\P\"\\J\\(F0$\"1)p\"o*RGZ
+h&F07$$!1++DJa5_oF0$\"1vl4%)[8&p%F07$$!1,+DcexdiF0$\"1Vlqme(f\"RF07$$!
+1++D1?QUcF0$\"1x`Wquk$=$F07$$!1++D13%f+&F0$\"1!*ycNV%f]#F07$$!1++D\"oS
+:P%F0$\"1sBy#zO5\">F07$$!1+++v@)*=PF0$\"1tnzTG3$Q\"F07$$!1++](G3U9$F0$
+\"1$o$=bd/'))*!#<7$$!1*****\\-\\r\\#F0$\"1[%eID`dB'F_o7$$!1+++vGVZ=F0$
+\"1m2jF#3IT$F_o7$$!1+++v4J@7F0$\"1]al(\\+;\\\"F_o7$$!1,+]iIKFlF_o$\"1S
+WAOYfgU!#=7$$\"19+++DFOBFdp$\"1:jD%>p\"ea!#@7$$\"1,+++!R5'fF_o$\"1-@&f
+f)R`NFdp7$$\"1++vV!QBE\"F0$\"1w&)pOt\\$f\"F_o7$$\"1******\\\"o?&=F0$\"
+1?WCKk:IMF_o7$$\"1,+vVb4*\\#F0$\"176zO&yaC'F_o7$$\"1,+DJ'=_6$F0$\"1Gr[
+?re/(*F_o7$$\"1,+]P%y!ePF0$\"1X-Ca`J79F07$$\"1,+v=WU[VF0$\"1G\"eD\\z3*
+=F07$$\"1++]7B>&)\\F0$\"144ERU@&[#F07$$\"1++v$>:mk&F0$\"1N)GYJE%)=$F07
+$$\"1++DcdQAiF0$\"1)Ge*\\%3=(QF07$$\"1,+]PPBWoF0$\"1ALNXNN%o%F07$$\"1*
+*****\\Nm'[(F0$\"1e)*36J,0cF07$$\"1****\\(yb^6)F0$\"1t%RbMvbe'F07$$\"1
+++vVVDB()F0$\"1C`dMm^4wF07$$\"1++]7TW)R*F0$\"1\"fyN<vI$))F07$$\"1+++:K
+^+5!#:$\"1O'*Q$pE5+\"Fiu7$$\"1++]7,Hl5Fiu$\"1j-zBI%[8\"Fiu7$$\"1+]P4w)
+R7\"Fiu$\"1F&Gg9[LE\"Fiu7$$\"1++]x%f\")=\"Fiu$\"1tI(R%Hs69Fiu7$$\"1+]P
+/-a[7Fiu$\"1m2%>k_)e:Fiu7$$\"1+](=Yb;J\"Fiu$\"1?lm]+W?<Fiu7$$\"1++]i@O
+t8Fiu$\"1wmQHO7')=Fiu7$$\"1+]PfL'zV\"Fiu$\"1N]!HiQx1#Fiu7$$\"1+++!*>=+
+:Fiu$\"1h.7.ga]AFiu7$$\"1++DE&4Qc\"Fiu$\"1\\-RM-]XCFiu7$$\"1+]P%>5pi\"
+Fiu$\"1,8c!yOok#Fiu7$$\"1+++bJ*[o\"Fiu$\"1aewV\\')QGFiu7$$\"1++Dr\"[8v
+\"Fiu$\"1?2%pT?s1$Fiu7$$\"1+++Ijy5=Fiu$\"1p[\"H8Z*yKFiu7$$\"1+]P/)fT(=
+Fiu$\"1Q\\Ls\\Z7NFiu7$$\"1+]i0j\"[$>Fiu$\"1uB^OT^VPFiu7$$\"\"#F*$\"\"%
+F*-%'COLOURG6&%$RGBG$\"#5F)F*F*-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;F(
+Fhz%(DEFAULTG" 1 2 0 1 0 2 9 1 4 2 1.000000 46.000000 45.000000 0 }}}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 401 17 "Some observations" }{TEXT -1 55 ":  It looks as expected
+.  This is a graph that is very " }}{PARA 0 "" 0 "" {TEXT -1 73 "famil
+iar to you from school.  Starting at the left end where x = -1, the " 
+}}{PARA 0 "" 0 "" {TEXT -1 70 "curve dips downwards, 'bottoms out' whe
+re x = 0, then starts to rise, " }}{PARA 0 "" 0 "" {TEXT -1 64 "and co
+ntinues to do so until it reaches the far end where x = 2." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "(A mathematician \+
+would say something like:   \"On the interval [-1, 2] " }}{PARA 0 "" 
+0 "" {TEXT -1 70 "the function x squared decreases to the right of x =
+ -1, continues to " }}{PARA 0 "" 0 "" {TEXT -1 76 "decrease until x = \+
+0, then starts to increase, and continues to do so right " }}{PARA 0 "
+" 0 "" {TEXT -1 69 "up to x = 2.\"   Or, to put it another way:   \"Th
+e function x squared " }}{PARA 0 "" 0 "" {TEXT -1 69 "decreases in the
+ interval [-1, 0], has a minimum value at x = 0, and " }}{PARA 0 "" 0 
+"" {TEXT -1 35 "increases in the interval [0, 2]\".)" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "However, the graph is d
+istorted.  When x = 2 then x^2 = 4, and as " }}{PARA 0 "" 0 "" {TEXT 
+-1 69 "you can see by looking at the graph the top end of it certainly
+ does " }}{PARA 0 "" 0 "" {TEXT 402 8 "not look" }{TEXT -1 54 " as if \+
+it has co-ordinates (2, 4).  You saw that what " }{TEXT 403 5 "Maple" 
+}{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 67 "had done was to alter t
+he scale on the vertical axes so as to fill " }}{PARA 0 "" 0 "" {TEXT 
+-1 65 "up as much of the screen as possible.  I then showed you how yo
+u " }}{PARA 0 "" 0 "" {TEXT -1 8 "can use " }{TEXT 404 5 "Maple" }
+{TEXT -1 48 " to give you a true picture as to how the graph " }}
+{PARA 0 "" 0 "" {TEXT 405 13 "really looked" }{TEXT -1 54 ":  to do so
+, just click on the 'Projection' menu, and " }}{PARA 0 "" 0 "" {TEXT 
+-1 69 "then on 'Constrained' (an alternative way is to click on the 1:
+1 box," }}{PARA 0 "" 0 "" {TEXT -1 69 "which appears near the top of t
+he screen when you point at, and click" }}{PARA 0 "" 0 "" {TEXT -1 
+101 "on, the graphic output) producing this picture:                  \+
+                                    " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(x^2, x=-1..2);" }}{PARA 13 "
+" 1 "" {GLPLOT2D 176 144 144 {PLOTDATA 2 "6%-%'CURVESG6$7S7$$!\"\"\"\"
+!$\"\"\"F*7$$!1*****\\P&3Y$*!#;$\"1)))yO=J\\t)F07$$!1++Dcx6x()F0$\"1/z
+q5'zPq(F07$$!1,+]iTDP\")F0$\"1eB^I0\\@mF07$$!1****\\P\"\\J\\(F0$\"1)p
+\"o*RGZh&F07$$!1++DJa5_oF0$\"1vl4%)[8&p%F07$$!1,+DcexdiF0$\"1Vlqme(f\"
+RF07$$!1++D1?QUcF0$\"1x`Wquk$=$F07$$!1++D13%f+&F0$\"1!*ycNV%f]#F07$$!1
+++D\"oS:P%F0$\"1sBy#zO5\">F07$$!1+++v@)*=PF0$\"1tnzTG3$Q\"F07$$!1++](G
+3U9$F0$\"1$o$=bd/'))*!#<7$$!1*****\\-\\r\\#F0$\"1[%eID`dB'F_o7$$!1+++v
+GVZ=F0$\"1m2jF#3IT$F_o7$$!1+++v4J@7F0$\"1]al(\\+;\\\"F_o7$$!1,+]iIKFlF
+_o$\"1SWAOYfgU!#=7$$\"19+++DFOBFdp$\"1:jD%>p\"ea!#@7$$\"1,+++!R5'fF_o$
+\"1-@&ff)R`NFdp7$$\"1++vV!QBE\"F0$\"1w&)pOt\\$f\"F_o7$$\"1******\\\"o?
+&=F0$\"1?WCKk:IMF_o7$$\"1,+vVb4*\\#F0$\"176zO&yaC'F_o7$$\"1,+DJ'=_6$F0
+$\"1Gr[?re/(*F_o7$$\"1,+]P%y!ePF0$\"1X-Ca`J79F07$$\"1,+v=WU[VF0$\"1G\"
+eD\\z3*=F07$$\"1++]7B>&)\\F0$\"144ERU@&[#F07$$\"1++v$>:mk&F0$\"1N)GYJE
+%)=$F07$$\"1++DcdQAiF0$\"1)Ge*\\%3=(QF07$$\"1,+]PPBWoF0$\"1ALNXNN%o%F0
+7$$\"1******\\Nm'[(F0$\"1e)*36J,0cF07$$\"1****\\(yb^6)F0$\"1t%RbMvbe'F
+07$$\"1++vVVDB()F0$\"1C`dMm^4wF07$$\"1++]7TW)R*F0$\"1\"fyN<vI$))F07$$
+\"1+++:K^+5!#:$\"1O'*Q$pE5+\"Fiu7$$\"1++]7,Hl5Fiu$\"1j-zBI%[8\"Fiu7$$
+\"1+]P4w)R7\"Fiu$\"1F&Gg9[LE\"Fiu7$$\"1++]x%f\")=\"Fiu$\"1tI(R%Hs69Fiu
+7$$\"1+]P/-a[7Fiu$\"1m2%>k_)e:Fiu7$$\"1+](=Yb;J\"Fiu$\"1?lm]+W?<Fiu7$$
+\"1++]i@Ot8Fiu$\"1wmQHO7')=Fiu7$$\"1+]PfL'zV\"Fiu$\"1N]!HiQx1#Fiu7$$\"
+1+++!*>=+:Fiu$\"1h.7.ga]AFiu7$$\"1++DE&4Qc\"Fiu$\"1\\-RM-]XCFiu7$$\"1+
+]P%>5pi\"Fiu$\"1,8c!yOok#Fiu7$$\"1+++bJ*[o\"Fiu$\"1aewV\\')QGFiu7$$\"1
+++Dr\"[8v\"Fiu$\"1?2%pT?s1$Fiu7$$\"1+++Ijy5=Fiu$\"1p[\"H8Z*yKFiu7$$\"1
++]P/)fT(=Fiu$\"1Q\\Ls\\Z7NFiu7$$\"1+]i0j\"[$>Fiu$\"1uB^OT^VPFiu7$$\"\"
+#F*$\"\"%F*-%'COLOURG6&%$RGBG$\"#5F)F*F*-%+AXESLABELSG6$Q\"x6\"%!G-%%V
+IEWG6$;F(Fhz%(DEFAULTG" 1 2 0 1 0 2 9 1 4 1 1.000000 45.000000 
+43.000000 0 }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 64 "When you get to do your own work in the c
+omputer laboratory you " }}{PARA 0 "" 0 "" {TEXT -1 57 "will plot lots
+ and lots of functions so as to build up a " }{TEXT 406 7 "feeling" }
+{TEXT -1 5 " for " }{TEXT 407 3 "how" }{TEXT -1 1 " " }}{PARA 0 "" 0 "
+" {TEXT -1 70 "different functions behave: given a function, where doe
+s it get large " }}{PARA 0 "" 0 "" {TEXT -1 75 "(if at all) positively
+ or negatively?; where does it increase?, decrease?; " }}{PARA 0 "" 0 
+"" {TEXT -1 77 "where is it zero (if at all)?; does it look as if it i
+s ever equal to 2 (for " }}{PARA 0 "" 0 "" {TEXT -1 61 "example)?; whe
+re does it have a maximum or minimum value? ..." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "I also showed you that yo
+u can use Maple not just to plot the graph " }}{PARA 0 "" 0 "" {TEXT 
+-1 75 "of a single function, but - and this is an incredibly valuable \+
+thing to be " }}{PARA 0 "" 0 "" {TEXT -1 71 "able to do - you can also
+ use it to make a simultaneous plot of two or " }}{PARA 0 "" 0 "" 
+{TEXT -1 32 "more functions.  Let's take the " }{TEXT 408 14 "simple e
+xample" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 29 "plot( \{x^2, x^3\}, x=-1..1.2);" }}{PARA 13 "
+" 1 "" {GLPLOT2D 174 155 155 {PLOTDATA 2 "6&-%'CURVESG6$7S7$$!\"\"\"\"
+!$\"\"\"F*7$$!1LLL3EY?&*!#;$\"18tmF3#R1*F07$$!1mm\"zo>K5*F0$\"1gtko3'o
+G)F07$$!1LL$eQ')Rj)F0$\"1Mb2\"4sXX(F07$$!1ML$3qU;;)F0$\"1.mgd6ChmF07$$
+!1nm\"H)Ra\"p(F0$\"1eT6%)[)f\"fF07$$!1LLe%H-dD(F0$\"1%=i(y:_k_F07$$!1*
+**\\7Z8W!oF0$\"1ZGxoU+IYF07$$!1LLeC**oPjF0$\"14l,e8j;SF07$$!1***\\i;jC
+(eF0$\"1'H'*QO#e[MF07$$!1mmmh-#RR&F0$\"1?=#*yvV4HF07$$!1LL$3T>C(\\F0$
+\"16Ksza\\sCF07$$!1*****\\G4z\\%F0$\"1?*3Oz=J-#F07$$!1*****\\x]9-%F0$
+\"15[dLm?<;F07$$!1+++:ZHiNF0$\"1$p^OO%**o7F07$$!1LLeCqLXJF0$\"1PZ@)*\\
+9$*)*!#<7$$!1mmm,S`\\EF0$\"1vx)fUI+-(Fcp7$$!1mmm1Q_HAF0$\"1>M\\/kxq\\F
+cp7$$!1++D,@&4u\"F0$\"1*yY)=U\"4.$Fcp7$$!1mmmcL[38F0$\"1nOn%pG@r\"Fcp7
+$$!1*)**\\7g'*R$)Fcp$\"1'\\l*3L]bp!#=7$$!1#)**\\P+t@QFcp$\"1hH&z/i0Y\"
+F]r7$$\"1gML$3_d#*)F]r$\"1hJJD]!p'z!#?7$$\"1VL$32z<A&Fcp$\"19$fkm(pEFF
+]r7$$\"1pmm\"H59*)*Fcp$\"1H*3ev**Ry*F]r7$$\"1nmTvW=u9F0$\"18&fv')>K<#F
+cp7$$\"1,+D@iT'*=F0$\"1M,A%[%R'f$Fcp7$$\"1nm;u!QCN#F0$\"1y*)y#*['R`&Fc
+p7$$\"1,++qKbBGF0$\"1*pF&oIXszFcp7$$\"1++]xvW%G$F0$\"1iX$*)ef(y5F07$$
+\"1-+v=lQIPF0$\"1wr#zNy:R\"F07$$\"1++]#oDbA%F0$\"14nMHn]&y\"F07$$\"1KL
+LV-VqYF0$\"1lUyl=H\"=#F07$$\"1,++D3YX^F0$\"1p4;5ndZEF07$$\"1omTN\"4fd&
+F0$\"10Bkoi24JF07$$\"1.++NG]YgF0$\"12jO`'>gl$F07$$\"1KL3K[H*['F0$\"1W.
+xTZ46UF07$$\"1-+v`+9_pF0$\"13bpK^AL[F07$$\"1LLLeel/uF0$\"1:].QG*G[&F07
+$$\"1***\\(ozRyyF0$\"16/Sba\"p?'F07$$\"1qmmEzmM$)F0$\"131yW*om%pF07$$
+\"1pm;f)p7!))F0$\"1ovQ8^BYxF07$$\"1OL3#43SE*F0$\"1`&=If%=#e)F07$$\"1-+
++qk@*o*F0$\"1H>D!e\"4)Q*F07$$\"1MLeD`l<5!#:$\"1@\")ohBiN5Fey7$$\"1nmm3
+LCh5Fey$\"1v(*=gtBE6Fey7$$\"1+]()*=<x5\"Fey$\"1nXust.F7Fey7$$\"1+]7C')
+>_6Fey$\"1WbVp;cF8Fey7$$\"1+++++++7Fey$\"1++++++S9Fey-%'COLOURG6&%$RGB
+G$\"#5F)F*F*-F$6$7S7$F(F(7$F.$!1P+ZK>FH')F07$F4$!1&o\\5]6Pa(F07$F9$!1H
+fl%RniV'F07$F>$!1_qCFqmOaF07$FC$!1?M%Qz0.b%F07$FH$!1D3*)H,y>QF07$FM$!1
+'HQ=MY/:$F07$FR$!1qm%)3khXDF07$FW$!1Ngx!Hn^-#F07$Ffn$!1\"3+2VF$p:F07$F
+[o$!1Ptl^%G%H7F07$F`o$!1f:V1[!)*4*Fcp7$Feo$!1eX#*po^.lFcp7$Fjo$!187+:>
+`?XFcp7$F_p$!1BcCDvs6JFcp7$Fep$!19*Q1$4)*f=Fcp7$Fjp$!1,N9LkC36Fcp7$F_q
+$!1=)4!yknw_F]r7$Fdq$!1=>X,>HSAF]r7$Fiq$!1W.m>h'3!e!#>7$F_r$!1@VH]Q(=e
+&Fhr7$Fdr$\"1x3u7>16r!#A7$Fjr$\"1O2s!G@QU\"Fb_l7$F_s$\"1is#yebxn*Fb_l7
+$Fds$\"1)HB/*ps.KF]r7$Fis$\"1%4*)y$3E?oF]r7$F^t$\"1X)*[r4$=I\"Fcp7$Fct
+$\"1$HcJfk5D#Fcp7$Fht$\"1=5e=$HJa$Fcp7$F]u$\"1,e>Y^7\">&Fcp7$Fbu$\"1&4
+J6a/Za(Fcp7$Fgu$\"1#e\\*\\rv=5F07$F\\v$\"1l:LC-Ii8F07$Fav$\"1zH!pn#fL<
+F07$Ffv$\"15&*))>Lh5AF07$F[w$\"1f$=X`.Ft#F07$F`w$\"1h.Q.e7gLF07$Few$\"
+1&)pPdM*)fSF07$Fjw$\"1eHg6]0!*[F07$F_x$\"1MM7&)y\")*y&F07$Fdx$\"1^wai0
+n<oF07$Fix$\"1!oZ<vU0&zF07$F^y$\"1MX7c^K'4*F07$Fcy$\"10^m6m!R0\"Fey7$F
+iy$\"15=Zi=@&>\"Fey7$F^z$\"1:#3/R5#f8Fey7$Fcz$\"1AZ'*GZhH:Fey7$Fhz$\"1
+++++++G<Fey-F][l6&F_[lF*F`[lF*-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;F($
+\"#7F)%(DEFAULTG" 1 2 0 1 0 2 9 1 4 2 1.000000 45.000000 44.000000 0 }
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 64 "In my demonstration you saw this picture in two colours
+, and so " }}{PARA 0 "" 0 "" {TEXT -1 68 "could clearly distinguish be
+tween them. I made the picture by first " }}{PARA 0 "" 0 "" {TEXT -1 
+66 "generating the plot, and then altering the scale - by clicking on \+
+" }}{PARA 0 "" 0 "" {TEXT -1 56 "Projection and then on Constrained - \+
+to show true scale:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 28 "plot(\{x^2, x^3\}, x=-1..1.2);" }}{PARA 13 "" 1 "
+" {GLPLOT2D 215 183 183 {PLOTDATA 2 "6&-%'CURVESG6$7S7$$!\"\"\"\"!$\"
+\"\"F*7$$!1LLL3EY?&*!#;$\"18tmF3#R1*F07$$!1mm\"zo>K5*F0$\"1gtko3'oG)F0
+7$$!1LL$eQ')Rj)F0$\"1Mb2\"4sXX(F07$$!1ML$3qU;;)F0$\"1.mgd6ChmF07$$!1nm
+\"H)Ra\"p(F0$\"1eT6%)[)f\"fF07$$!1LLe%H-dD(F0$\"1%=i(y:_k_F07$$!1***\\
+7Z8W!oF0$\"1ZGxoU+IYF07$$!1LLeC**oPjF0$\"14l,e8j;SF07$$!1***\\i;jC(eF0
+$\"1'H'*QO#e[MF07$$!1mmmh-#RR&F0$\"1?=#*yvV4HF07$$!1LL$3T>C(\\F0$\"16K
+sza\\sCF07$$!1*****\\G4z\\%F0$\"1?*3Oz=J-#F07$$!1*****\\x]9-%F0$\"15[d
+Lm?<;F07$$!1+++:ZHiNF0$\"1$p^OO%**o7F07$$!1LLeCqLXJF0$\"1PZ@)*\\9$*)*!
+#<7$$!1mmm,S`\\EF0$\"1vx)fUI+-(Fcp7$$!1mmm1Q_HAF0$\"1>M\\/kxq\\Fcp7$$!
+1++D,@&4u\"F0$\"1*yY)=U\"4.$Fcp7$$!1mmmcL[38F0$\"1nOn%pG@r\"Fcp7$$!1*)
+**\\7g'*R$)Fcp$\"1'\\l*3L]bp!#=7$$!1#)**\\P+t@QFcp$\"1hH&z/i0Y\"F]r7$$
+\"1gML$3_d#*)F]r$\"1hJJD]!p'z!#?7$$\"1VL$32z<A&Fcp$\"19$fkm(pEFF]r7$$
+\"1pmm\"H59*)*Fcp$\"1H*3ev**Ry*F]r7$$\"1nmTvW=u9F0$\"18&fv')>K<#Fcp7$$
+\"1,+D@iT'*=F0$\"1M,A%[%R'f$Fcp7$$\"1nm;u!QCN#F0$\"1y*)y#*['R`&Fcp7$$
+\"1,++qKbBGF0$\"1*pF&oIXszFcp7$$\"1++]xvW%G$F0$\"1iX$*)ef(y5F07$$\"1-+
+v=lQIPF0$\"1wr#zNy:R\"F07$$\"1++]#oDbA%F0$\"14nMHn]&y\"F07$$\"1KLLV-Vq
+YF0$\"1lUyl=H\"=#F07$$\"1,++D3YX^F0$\"1p4;5ndZEF07$$\"1omTN\"4fd&F0$\"
+10Bkoi24JF07$$\"1.++NG]YgF0$\"12jO`'>gl$F07$$\"1KL3K[H*['F0$\"1W.xTZ46
+UF07$$\"1-+v`+9_pF0$\"13bpK^AL[F07$$\"1LLLeel/uF0$\"1:].QG*G[&F07$$\"1
+***\\(ozRyyF0$\"16/Sba\"p?'F07$$\"1qmmEzmM$)F0$\"131yW*om%pF07$$\"1pm;
+f)p7!))F0$\"1ovQ8^BYxF07$$\"1OL3#43SE*F0$\"1`&=If%=#e)F07$$\"1-++qk@*o
+*F0$\"1H>D!e\"4)Q*F07$$\"1MLeD`l<5!#:$\"1@\")ohBiN5Fey7$$\"1nmm3LCh5Fe
+y$\"1v(*=gtBE6Fey7$$\"1+]()*=<x5\"Fey$\"1nXust.F7Fey7$$\"1+]7C')>_6Fey
+$\"1WbVp;cF8Fey7$$\"1+++++++7Fey$\"1++++++S9Fey-%'COLOURG6&%$RGBG$\"#5
+F)F*F*-F$6$7S7$F(F(7$F.$!1P+ZK>FH')F07$F4$!1&o\\5]6Pa(F07$F9$!1Hfl%Rni
+V'F07$F>$!1_qCFqmOaF07$FC$!1?M%Qz0.b%F07$FH$!1D3*)H,y>QF07$FM$!1'HQ=MY
+/:$F07$FR$!1qm%)3khXDF07$FW$!1Ngx!Hn^-#F07$Ffn$!1\"3+2VF$p:F07$F[o$!1P
+tl^%G%H7F07$F`o$!1f:V1[!)*4*Fcp7$Feo$!1eX#*po^.lFcp7$Fjo$!187+:>`?XFcp
+7$F_p$!1BcCDvs6JFcp7$Fep$!19*Q1$4)*f=Fcp7$Fjp$!1,N9LkC36Fcp7$F_q$!1=)4
+!yknw_F]r7$Fdq$!1=>X,>HSAF]r7$Fiq$!1W.m>h'3!e!#>7$F_r$!1@VH]Q(=e&Fhr7$
+Fdr$\"1x3u7>16r!#A7$Fjr$\"1O2s!G@QU\"Fb_l7$F_s$\"1is#yebxn*Fb_l7$Fds$
+\"1)HB/*ps.KF]r7$Fis$\"1%4*)y$3E?oF]r7$F^t$\"1X)*[r4$=I\"Fcp7$Fct$\"1$
+HcJfk5D#Fcp7$Fht$\"1=5e=$HJa$Fcp7$F]u$\"1,e>Y^7\">&Fcp7$Fbu$\"1&4J6a/Z
+a(Fcp7$Fgu$\"1#e\\*\\rv=5F07$F\\v$\"1l:LC-Ii8F07$Fav$\"1zH!pn#fL<F07$F
+fv$\"15&*))>Lh5AF07$F[w$\"1f$=X`.Ft#F07$F`w$\"1h.Q.e7gLF07$Few$\"1&)pP
+dM*)fSF07$Fjw$\"1eHg6]0!*[F07$F_x$\"1MM7&)y\")*y&F07$Fdx$\"1^wai0n<oF0
+7$Fix$\"1!oZ<vU0&zF07$F^y$\"1MX7c^K'4*F07$Fcy$\"10^m6m!R0\"Fey7$Fiy$\"
+15=Zi=@&>\"Fey7$F^z$\"1:#3/R5#f8Fey7$Fcz$\"1AZ'*GZhH:Fey7$Fhz$\"1+++++
++G<Fey-F][l6&F_[lF*F`[lF*-%+AXESLABELSG6$Q\"x6\"%!G-%%VIEWG6$;F($\"#7F
+)%(DEFAULTG" 1 2 0 1 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 }}}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 4 "4.  " }{TEXT 409 11 "PROGRAMMING" }{TEXT -1 13 ".  This is
+ a " }{TEXT 413 4 "vast" }{TEXT -1 34 " topic, which I will consider a
+nd " }}{PARA 0 "" 0 "" {TEXT -1 74 "     develop elsewhere (and you wi
+ll still be learning new things about it" }}{PARA 0 "" 0 "" {TEXT -1 
+29 "     even in the third year)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 410 10 "Conclusion" }{TEXT -1 59 ":  In this int
+roductory lecture it has been my aim only to " }}{PARA 0 "" 0 "" 
+{TEXT -1 11 "give you a " }{TEXT 412 22 "representative flavour" }
+{TEXT -1 25 " of what you can do with " }{TEXT 411 5 "Maple" }{TEXT 
+-1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 69 "In the weeks, months and (fo
+r some of you) years ahead, you will see " }}{PARA 0 "" 0 "" {TEXT -1 
+72 "how your mathematical understanding will be greatly enhanced by it
+s use." }{MPLTEXT 1 0 0 "" }}}}{MARK "174 6 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 }

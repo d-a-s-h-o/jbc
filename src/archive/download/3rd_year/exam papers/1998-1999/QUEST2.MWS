@@ -1,0 +1,57 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 
+1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 1 0 1 0 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 
+0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "# quest2.mws" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 138 "`crypt/alphabet` := `abcdef
+ghijklmnopqrstuvwxyz`\n||`ABCDEFGHIJKLMNOPQRSTUVWXYZ`\n||```1234567890
+-=~!@#$\243%^&*()_+`\n||` ,./<>?;':\"[]\{\}|    `:" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+232 "to_number := proc(st, string) \nlocal ll, nn, ss, ii;  \nll := le
+ngth(st);\nif ll = 0 then RETURN(0) fi; \nnn := 1;\nfor ii to ll do \n
+ss := SearchText(substring(st, ii .. ii),`crypt/alphabet`);\nnn := 100
+*nn + ss \nod;\nnn - 10^(2*ll) \nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 272 "from_n
+umber := proc(nn, integer) \nlocal ss, mm, ll, pp, ii, ans; mm := nn;
+\nll := floor(1/2*trunc(evalf(log10(mm))))+1;\nans := ``; for ii to ll
+ do mm := mm/100;\npp := 100*frac(mm);\nss := substring(`crypt/alphabe
+t`, pp..pp);\nans := cat(ss, ans); mm := trunc(mm)\nod; ans end:" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(a)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 57 "M:=to_number(`Pocklington's theorem is really powerfu
+l`);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG\"[p7@1=0B:;!eA@6]!=!)>4
+!Q^!=:03?!)>)[^,sS\"476.:U" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(b)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(M);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#\"#!)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(c
+)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 115 "p:=nextprime(87687679
+6565467546754675467546546754675467545765765765768987676567576576567576
+5765765765765765465464);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"pG\"_q
+HeYldwldwldwvcwldnln()*odwldwXvYvYvYlananananac'zwo()" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$+\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(d)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "e:=nextprime(765765754787687
+687);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eG\"3,xo(yadwl(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "length(e);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"#=" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "igcd(e,(p-1));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 24 "igcdex(e,(p-1),'x','y');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(e)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 17 "Send:=M&^e mod p;" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%%SendG\"^qE!RB%y3rs(y<V7/]w$oM1]k44$f*>;]@vcMo$HPHz@K)38g:\"za
+cEN" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 3 "(f)" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 24 "igcdex(e,(p-1),'x','y');" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "d:
+= x mod (p-1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"dG\"_qLmhgu(>@uj
+o><6<()Q8=w5/^DaZ/H]sJ;6tpShX?J3(e()*[2V`*zv" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 3 "(g)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "Decryp
+t:=Send&^d mod p;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(DecryptG\"[p7@
+1=0B:;!eA@6]!=!)>4!Q^!=:03?!)>)[^,sS\"476.:U" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 32 "original:= from_number(Decrypt);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%)originalG%IPocklington's~theorem~is~really~powe
+rfulG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0
+" 12 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,202 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 0 0 128 1 2 
+1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output
+" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 
+"Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 
+12 0 128 0 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "                Ma
+ple procedures in connection with 'pseudoprimes'." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "First recall Fermat's 'li
+ttle' theorem:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 55 "If p is prime and a is any integer with a <> 0 (mod p)," 
+}}{PARA 0 "" 0 "" {TEXT -1 25 "then a^(p-1) = 1 (mod p)." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "So, for example, i
+f p = 7 and a = 2, then 2^6 = 1 (mod 7)." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "That can be checked by hand:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "         \+
+                      2^6 = 64 = 7*9 + 1," }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "where the '9' is the 'quotient' of
+ 2^6 on division by 7, and " }}{PARA 0 "" 0 "" {TEXT -1 62 "the '1' is
+ the 'remainder' that 2^6 'leaves' on division by 7." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Another example: if p =
+ 37 and a = 2, then 2^36 = 1 (mod 37)." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 16 "Let's use Maple:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "2^36;  # not needed
+, but just to see the actual value of 2^36:" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\",OnZ>(o" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 
+"iquo(2^36, 37);  # not needed, but just to see the actual quotient:" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"+bJGd=" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 57 "irem(2^36, 37);  # calculates the remainder straigh
+taway:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "as does the 'mod' \+
+command:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "2^36 mod 37;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 24 "And, some more examples:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "isprime(197);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "2
+^196 mod 197;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "3^196 mod 197;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "4^
+196 mod 197;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "5^196 mod 197;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "6^
+196 mod 197;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "7^196 mod 197;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "(-
+12)^196 mod 197;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "(-19)^196 mod 197;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 10 "etc, etc. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 31 "Whereas, notice these examples:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "2^202 mod 203;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#$*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 30 "And so 202 could NOT be prime." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "2^206 mod 207;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#\\" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 30 "And so 207 could NOT be prime." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "4^ 208 mod 209;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#U" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "And so 209 could NOT be prime.  etc, etc." }}{PARA 0 "" 
+0 "" {TEXT -1 60 "                          __________________________
+________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+73 "The above computations establish - WITHOUT finding a non-trivial f
+actor -" }}{PARA 0 "" 0 "" {TEXT -1 74 "that NONE of 203, 207 or 209 a
+re prime (IF any of them had been prime then" }}{PARA 0 "" 0 "" {TEXT 
+-1 66 "that would have been incompatible with Fermat's 'little' theore
+m)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "NO
+TE, however, this example:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 15 "2&^340 mod 341;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "is
+prime(341);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "ifactor(341);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&-%!G6#\"#6\"\"\"-F%6#\"#JF(" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "The POINT of that example is that a numbe
+r (like 341) may NOT be a prime," }}{PARA 0 "" 0 "" {TEXT -1 39 "and y
+et 'behave' as if it were a prime." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 70 "Such numbers have a special name; they ar
+e called 'pseudoprimes'. More" }}{PARA 0 "" 0 "" {TEXT -1 57 "precisel
+y they are known as 'pseudoprimes to the base 2':" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "DEFINITION: If n is a nat
+ural number, then n is said to be a" }}{PARA 0 "" 0 "" {TEXT -1 29 "ps
+eudoprime to the base 2 if:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 23 "1.  n is composite, and" }}{PARA 0 "" 0 "" 
+{TEXT -1 24 "2.  2^(n-1) = 1 (mod n)." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 71 "[ Aside: It is easy to verify by hand
+ that 341 is a pseudoprime to the " }}{PARA 0 "" 0 "" {TEXT -1 72 "bas
+e 2 by just noting that 341 = 11*31, and then using the calculation: \+
+" }}{PARA 0 "" 0 "" {TEXT -1 46 "                     2^10 = 1024 = 34
+1*3 + 1, " }}{PARA 0 "" 0 "" {TEXT -1 35 "and so          2^10 = 1 (mo
+d 341)." }}{PARA 0 "" 0 "" {TEXT -1 35 "Thus    (2^10)^34 = 1^34 (mod \+
+341)," }}{PARA 0 "" 0 "" {TEXT -1 35 "and so       2^340 = 1 (mod 341)
+. ]" }}{PARA 0 "" 0 "" {TEXT -1 60 "                                __
+__________________________" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 61 "As it happens, 341 is the smallest pseudoprime to
+ the base 2." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "What we now want is to write a Maple procedure (programme) that
+ will" }}{PARA 0 "" 0 "" {TEXT -1 45 "enable us to find pseudoprimes t
+o the base 2." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 64 "So, what does one WANT?  You should try to IMAGINE the st
+ructure" }}{PARA 0 "" 0 "" {TEXT -1 20 "of such a programme." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "It will have a \+
+'name' of course (one can think of many, but 'pp2' seems like " }}
+{PARA 0 "" 0 "" {TEXT -1 51 "the best of them), one 'global' variable,
+ and ... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 62 "I will discuss with you in class what one should do next ... .
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 
+"pp2:=proc(n)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "local k;" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 20 "for k from 2 to n do" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 40 "if not isprime(k) and 2&^(k-1) mod k = 1" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 48 "then lprint(k, `is a pseudoprime to the b
+ase 2`)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "fi" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "od" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}{PARA 
+2 "" 1 "" {TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+47 "So, let's find some pseudoprimes to the base 2:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "pp2(300);" }}
+{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 9 "pp2(500);" }}{PARA 2 "" 1 "" {TEXT -1 38 "341   is a pseudoprim
+e to the base 2\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "pp2(
+1000);" }}{PARA 2 "" 1 "" {TEXT -1 112 "341   is a pseudoprime to the \+
+base 2\n561   is a pseudoprime to the base 2\n645   is a pseudoprime t
+o the base 2\n\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Th
+e WHOLE POINT about a 'pseudoprime' is this:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "Let's say you choose a number a
+t random: 1234567654321123456543211234939857." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "Is that number a prime nu
+mber, or is it a composite number?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 57 "We can try the following 'Fermat test' (a
+s it is called):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 77 "2&^1234567654321123456543211234939856 mod 12345676543
+21123456543211234939857;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"BEKTHe9(
+*pH%z*pc(RCh" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "The fact \+
+that we didn't get '1' as output tells us IMMEDIATELY that the number
+" }}{PARA 0 "" 0 "" {TEXT -1 69 "1234567654321123456543211234939857 is
+ NOT prime, and so is composite." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 25 "However, the calculation:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "2&^340 mod 341
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 71 "on its own doesn't tell us ANYTHING DEFINITE. I
+t leaves us ONLY knowing" }}{PARA 0 "" 0 "" {TEXT -1 57 "that 341 MIGH
+T be prime, but it MIGHT be composite ... . " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "Until the example '341' was dis
+covered in 1814, it had been SUSPECTED " }}{PARA 0 "" 0 "" {TEXT -1 
+62 "that a sort of converse of Fermat's 'little' theorem was true:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "         \+
+      IF n>1 and 2^(n-1) = 1 (mod n) THEN n is prime." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "However, 341 can be qu
+ickly be revealed as being NOT prime by replacing '2'" }}{PARA 0 "" 0 
+"" {TEXT -1 7 "by '3':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "3&^340 mod 341;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#c" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "In other \+
+words - as is said - 341 'passes the Fermat test for the base 2'," }}
+{PARA 0 "" 0 "" {TEXT -1 43 "but 'fails the Fermat test for the base 3
+'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "Pre
+cise definitions:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "Definition. If n is a natural number and n > 1, then n is
+ said to " }}{PARA 0 "" 0 "" {TEXT -1 57 "'pass Fermat's test for the \+
+base 2' if 2^(n-1) mod n = 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 51 "Examples: 3, 5, 7, 11, 13, 17, 19, ... (A
+LL primes)" }}{PARA 0 "" 0 "" {TEXT -1 72 "and 341, 561, ... (SOME com
+posites) 'pass Fermat's test for the base 2'." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Definition. If n is a nat
+ural number and n > 1, then n is said to " }}{PARA 0 "" 0 "" {TEXT -1 
+58 "'fail Fermat's test for the base 2' if 2^(n-1) mod n <> 1." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "Examples:
+ 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, ... " }}
+{PARA 0 "" 0 "" {TEXT -1 66 "(that is, CERTAIN composites) 'fail Ferma
+t's test for the base 2)." }}{PARA 0 "" 0 "" {TEXT -1 56 "            \+
+          __________________________________" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "Likewise there are then other, \+
+similar definitions:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 66 "Definition. If n is a natural number and n > 1, then n \+
+is said to " }}{PARA 0 "" 0 "" {TEXT -1 57 "'pass Fermat's test for th
+e base 3' if 3^(n-1) mod n = 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 39 "Examples: ALL primes APART from 3 ... ." 
+}}{PARA 0 "" 0 "" {TEXT -1 62 "QUESTION: Are there any composites that
+ 'pass' for the base 3?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 66 "Definition. If n is a natural number and n > 1, then
+ n is said to " }}{PARA 0 "" 0 "" {TEXT -1 58 "'fail Fermat's test for
+ the base 3' if 3^(n-1) mod n <> 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 70 "Examples: 4, 6, 8, 9, 10, 12, 14, 15, 16
+, 18, 20, 21, 22, 24, 25, ... " }}{PARA 0 "" 0 "" {TEXT -1 66 "(that i
+s, CERTAIN composites) 'fail Fermat's test for the base 2)." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{MARK "0 0
+ 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

@@ -1,0 +1,247 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 275 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 280 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 285 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 
+1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 0" -1 256 1 
+{CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 
+-1 "Courier" 1 11 0 128 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Nor
+mal" -1 259 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 128 1 2 1 2 2 2 2 1 1 
+1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 260 1 {CSTYLE "
+" -1 -1 "Times" 1 18 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 
+0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "# fundamental proper
+ty of primes.mws" }}}{EXCHG {PARA 258 "" 0 "" {TEXT -1 0 "" }}{PARA 
+260 "" 0 "" {TEXT -1 4 "The " }{TEXT 256 30 "fundamental property of p
+rimes" }{TEXT 257 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 68 "Note. This Maple worksheet supplements classroom discu
+ssion, and is " }{TEXT 268 3 "not" }{TEXT -1 61 " meant to serve as an
+ introduction to this fundamental topic." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 122 "The (aptly-named) 'fundamental pr
+operty of primes' is understood to refer to primes (2, 3, 5, 7, .11, 1
+3, 17, .. ) of the " }{TEXT 258 21 "natural number system" }{TEXT -1 
+90 " (1, 2, 3, 4, 5, 6, 7, .8, 9, 10, 11, 12, 13, 14, 15, ... ). That \+
+fundamental property is:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 259 
+"" 0 "" {TEXT -1 4 "Let " }{TEXT 259 1 "p" }{TEXT -1 30 " be any prime
+ number, and let " }{TEXT 260 1 "a" }{TEXT -1 5 " and " }{TEXT 261 1 "
+b" }{TEXT -1 27 " be any two integers whose " }}{PARA 259 "" 0 "" 
+{TEXT -1 9 "product, " }{TEXT 262 2 "ab" }{TEXT -1 18 ", is divisible \+
+by " }{TEXT 263 1 "p" }{TEXT -1 23 ", then at least one of " }{TEXT 
+264 1 "a" }{TEXT -1 5 " and " }{TEXT 265 1 "b" }{TEXT -1 17 " is divis
+ible by " }{TEXT 266 1 "p" }{TEXT -1 22 ".\n(in other words: is " }
+{TEXT 296 1 "p" }{TEXT -1 15 " is prime, and " }{TEXT 297 2 "p " }
+{TEXT -1 1 "|" }{TEXT 298 3 " ab" }{TEXT -1 11 ", integers " }{TEXT 
+299 1 "a" }{TEXT -1 5 " and " }{TEXT 300 1 "b" }{TEXT -1 7 ", then " }
+{TEXT 301 2 "p " }{TEXT -1 1 "|" }{TEXT 302 3 " a " }{TEXT -1 3 "or " 
+}{TEXT 303 2 "p " }{TEXT -1 2 "| " }{TEXT 304 1 "b" }{TEXT -1 1 ")" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "Before I \+
+exhibit some multiplication tables for various moduli " }{TEXT 267 1 "
+m" }{TEXT -1 73 " (2, 3, 4, 5, 6, 7, ... ), a brief word about how I m
+ade up those tables." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 225 "A way to make up a display table/matrix/array (call it
+ what you will) is to use Maple's 'array' command, and you may read al
+l about it by the usual methos of placing a '?' before 'array' in the \+
+command line, and then Enter..." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 6 "?array" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "A := array
+(1..3, 1..2):\nprint(A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG
+6#7%7$&%\"AG6$\"\"\"F+&F)6$F+\"\"#7$&F)6$F.F+&F)6$F.F.7$&F)6$\"\"$F+&F
+)6$F7F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 47 "Now you will understand how I do the foll
+owing:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 157 "m := 6:\nmod_mul
+tiply_table := array(1..m, 1..m):\nfor i to m do\nfor j to m do\nmod_m
+ultiply_table[i, j] := (i-1)*(j-1) mod m\nod\nod:\nprint(mod_multiply_
+table);\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7(7(\"\"!F(F(
+F(F(F(7(F(\"\"\"\"\"#\"\"$\"\"%\"\"&7(F(F+F-F(F+F-7(F(F,F(F,F(F,7(F(F-
+F+F(F-F+7(F(F.F-F,F+F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 174 "
+for m from 2 to 10 do\nmod_multiply_table := array(1..m, 1..m):\nfor i
+ to m do\nfor j to m do\nmod_multiply_table[i, j] := (i-1)*(j-1) mod m
+\nod\nod:\nprint(mod_multiply_table);\nod;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%3mod_multiply_tableG-%&arrayG6%;\"\"\"\"\"#F(7\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$7$\"\"!F(7$F(\"\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3mod_multiply_tableG-%&arrayG6%;\"\"
+\"\"\"$F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7%7%\"\"!F
+(F(7%F(\"\"\"\"\"#7%F(F+F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3mod_m
+ultiply_tableG-%&arrayG6%;\"\"\"\"\"%F(7\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'matrixG6#7&7&\"\"!F(F(F(7&F(\"\"\"\"\"#\"\"$7&F(F+F(
+F+7&F(F,F+F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3mod_multiply_tableG
+-%&arrayG6%;\"\"\"\"\"&F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'mat
+rixG6#7'7'\"\"!F(F(F(F(7'F(\"\"\"\"\"#\"\"$\"\"%7'F(F+F-F*F,7'F(F,F*F-
+F+7'F(F-F,F+F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3mod_multiply_tabl
+eG-%&arrayG6%;\"\"\"\"\"'F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'m
+atrixG6#7(7(\"\"!F(F(F(F(F(7(F(\"\"\"\"\"#\"\"$\"\"%\"\"&7(F(F+F-F(F+F
+-7(F(F,F(F,F(F,7(F(F-F+F(F-F+7(F(F.F-F,F+F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%3mod_multiply_tableG-%&arrayG6%;\"\"\"\"\"(F(7\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7)7)\"\"!F(F(F(F(F(F(7)F(
+\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'7)F(F+F-F/F*F,F.7)F(F,F/F+F.F*F-7)F(F-F
+*F.F+F/F,7)F(F.F,F*F/F-F+7)F(F/F.F-F,F+F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%3mod_multiply_tableG-%&arrayG6%;\"\"\"\"\")F(7\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7*7*\"\"!F(F(F(F(F(F(F(7*F
+(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(7*F(F+F-F/F(F+F-F/7*F(F,F/F*F-F0F
++F.7*F(F-F(F-F(F-F(F-7*F(F.F+F0F-F*F/F,7*F(F/F-F+F(F/F-F+7*F(F0F/F.F-F
+,F+F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3mod_multiply_tableG-%&arra
+yG6%;\"\"\"\"\"*F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7
++7+\"\"!F(F(F(F(F(F(F(F(7+F(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")7
++F(F+F-F/F1F*F,F.F07+F(F,F/F(F,F/F(F,F/7+F(F-F1F,F0F+F/F*F.7+F(F.F*F/F
++F0F,F1F-7+F(F/F,F(F/F,F(F/F,7+F(F0F.F,F*F1F/F-F+7+F(F1F0F/F.F-F,F+F*
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%3mod_multiply_tableG-%&arrayG6%;
+\"\"\"\"#5F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7,7,\"
+\"!F(F(F(F(F(F(F(F(F(7,F(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"
+*7,F(F+F-F/F1F(F+F-F/F17,F(F,F/F2F+F.F1F*F-F07,F(F-F1F+F/F(F-F1F+F/7,F
+(F.F(F.F(F.F(F.F(F.7,F(F/F+F1F-F(F/F+F1F-7,F(F0F-F*F1F.F+F2F/F,7,F(F1F
+/F-F+F(F1F/F-F+7,F(F2F1F0F/F.F-F,F+F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 74 "And here I ex
+hibit the modular multiplication tables, but only those with " }{TEXT 
+269 12 "prime moduli" }{TEXT -1 42 " (see how I arranged for that to h
+appen?):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 219 "for m to 6 do
+\nmod_multiply_PRIMES := array(1..ithprime(m), 1..ithprime(m)):\nfor i
+ to ithprime(m) do\nfor j to ithprime(m) do\nmod_multiply_PRIMES[i, j]
+ := (i-1)*(j-1) mod ithprime(m)\nod\nod:\nprint(mod_multiply_PRIMES);
+\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%4mod_multiply_PRIMESG-%&arr
+ayG6%;\"\"\"\"\"#F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#
+7$7$\"\"!F(7$F(\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%4mod_multip
+ly_PRIMESG-%&arrayG6%;\"\"\"\"\"$F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%'matrixG6#7%7%\"\"!F(F(7%F(\"\"\"\"\"#7%F(F+F*" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%4mod_multiply_PRIMESG-%&arrayG6%;\"\"\"\"\"&F(7
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7'7'\"\"!F(F(F(F(7'F
+(\"\"\"\"\"#\"\"$\"\"%7'F(F+F-F*F,7'F(F,F*F-F+7'F(F-F,F+F*" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%4mod_multiply_PRIMESG-%&arrayG6%;\"\"\"\"
+\"(F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7)7)\"\"!F(F(F
+(F(F(F(7)F(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'7)F(F+F-F/F*F,F.7)F(F,F/F+F.
+F*F-7)F(F-F*F.F+F/F,7)F(F.F,F*F/F-F+7)F(F/F.F-F,F+F*" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%4mod_multiply_PRIMESG-%&arrayG6%;\"\"\"\"#6F(7\"" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7-7-\"\"!F(F(F(F(F(F(F(F
+(F(F(7-F(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"*\"#57-F(F+F-F/F
+1F3F*F,F.F0F27-F(F,F/F2F*F-F0F3F+F.F17-F(F-F1F*F.F2F+F/F3F,F07-F(F.F3F
+-F2F,F1F+F0F*F/7-F(F/F*F0F+F1F,F2F-F3F.7-F(F0F,F3F/F+F2F.F*F1F-7-F(F1F
+.F+F3F0F-F*F2F/F,7-F(F2F0F.F,F*F3F1F/F-F+7-F(F3F2F1F0F/F.F-F,F+F*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%4mod_multiply_PRIMESG-%&arrayG6%;\"
+\"\"\"#8F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7/7/\"\"!
+F(F(F(F(F(F(F(F(F(F(F(F(7/F(\"\"\"\"\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")
+\"\"*\"#5\"#6\"#77/F(F+F-F/F1F3F5F*F,F.F0F2F47/F(F,F/F2F5F+F.F1F4F*F-F
+0F37/F(F-F1F5F,F0F4F+F/F3F*F.F27/F(F.F3F+F0F5F-F2F*F/F4F,F17/F(F/F5F.F
+4F-F3F,F2F+F1F*F07/F(F0F*F1F+F2F,F3F-F4F.F5F/7/F(F1F,F4F/F*F2F-F5F0F+F
+3F.7/F(F2F.F*F3F/F+F4F0F,F5F1F-7/F(F3F0F-F*F4F1F.F+F5F2F/F,7/F(F4F2F0F
+.F,F*F5F3F1F/F-F+7/F(F5F4F3F2F1F0F/F.F-F,F+F*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "An extre
+mely interesting " }{TEXT 270 11 "distinction" }{TEXT -1 20 " between \+
+odd primes:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "" 
+{TEXT -1 35 "the prime 7 (for example) divides (" }{XPPEDIT 18 0 "a^2+
+b^2;" "6#,&*$%\"aG\"\"#\"\"\"*$%\"bGF&F'" }{TEXT -1 39 ") - the sum of
+ two squares of integers " }{TEXT 272 1 "a" }{TEXT -1 5 " and " }
+{TEXT 273 1 "b" }{TEXT -1 3 " - " }}{PARA 258 "" 0 "" {TEXT 271 4 "onl
+y" }{TEXT -1 14 " if 7 divides " }{TEXT 274 4 "both" }{TEXT -1 18 " of
+ those integers" }}{PARA 0 "" 0 "" {TEXT -1 7 "whereas" }}{PARA 258 "
+" 0 "" {TEXT -1 38 "the prime 5 (for example) can divide (" }{XPPEDIT 
+18 0 "a^2+b^2;" "6#,&*$%\"aG\"\"#\"\"\"*$%\"bGF&F'" }{TEXT -1 39 ") - \+
+the sum of two squares of integers " }{TEXT 276 1 "a" }{TEXT -1 5 " an
+d " }{TEXT 277 1 "b" }{TEXT -1 3 " - " }}{PARA 258 "" 0 "" {TEXT 275 
+7 "without" }{TEXT -1 12 " 5 dividing " }{TEXT 278 6 "either" }{TEXT 
+-1 36 " of those integers (e.g., 5 divides " }{XPPEDIT 18 0 "1+2^2;" "
+6#,&\"\"\"F$*$\"\"#F&F$" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "1^2+3^2;" "6
+#,&*$\"\"\"\"\"#F%*$\"\"$F&F%" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2^2+4^
+2;" "6#,&*$\"\"#F%\"\"\"*$\"\"%F%F&" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "
+3^2+4^2;" "6#,&*$\"\"$\"\"#\"\"\"*$\"\"%F&F'" }{TEXT -1 7 ", ... )" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "The quest
+ion here is this: for " }{TEXT 288 4 "some" }{TEXT -1 8 " primes " }
+{TEXT 281 1 "p" }{TEXT -1 23 " (which ones?) one has " }{XPPEDIT 18 0 
+"a^2+b^2 = 0;" "6#/,&*$%\"aG\"\"#\"\"\"*$%\"bGF'F(\"\"!" }{TEXT -1 6 "
+ (mod " }{TEXT 282 1 "p" }{TEXT -1 2 ") " }{TEXT 283 4 "only" }{TEXT 
+-1 6 " when " }{TEXT 284 4 "both" }{TEXT -1 1 " " }{XPPEDIT 18 0 "a = \+
+0;" "6#/%\"aG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 286 1 "p" }{TEXT -1 2 
+") " }{TEXT 285 3 "and" }{TEXT -1 1 " " }{XPPEDIT 18 0 "b = 0;" "6#/%
+\"bG\"\"!" }{TEXT -1 6 " (mod " }{TEXT 287 1 "p" }{TEXT -1 26 "), whil
+e for other primes " }{TEXT 290 1 "p" }{TEXT -1 28 " (which ones?) one
+ can have " }{XPPEDIT 18 0 "a^2+b^2 = 0;" "6#/,&*$%\"aG\"\"#\"\"\"*$%
+\"bGF'F(\"\"!" }{TEXT -1 6 " (mod " }{TEXT 289 1 "p" }{TEXT -1 2 ") " 
+}{TEXT 291 7 "without" }{TEXT -1 1 " " }{TEXT 293 1 "p" }{TEXT -1 10 "
+ dividing " }{TEXT 292 6 "either" }{TEXT -1 1 " " }{TEXT 294 1 "a" }
+{TEXT -1 4 " or " }{TEXT 295 1 "b" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "I have abbreviated '" }
+{TEXT 279 30 "sums of squares, prime modulus" }{TEXT -1 6 "' to '" }
+{TEXT 280 5 "sospm" }{TEXT -1 19 "' in the following:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 183 "for m to 8 do\nsospm := array(1..i
+thprime(m), 1..ithprime(m)):\nfor i to ithprime(m) do\nfor j to ithpri
+me(m) do\nsospm[i, j] := (i-1)^2 + (j-1)^2 mod ithprime(m)\nod\nod:\np
+rint(sospm);\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&sospmG-%&array
+G6%;\"\"\"\"\"#F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$
+7$\"\"!\"\"\"7$F)F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&sospmG-%&arr
+ayG6%;\"\"\"\"\"$F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#
+7%7%\"\"!\"\"\"F)7%F)\"\"#F+F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&s
+ospmG-%&arrayG6%;\"\"\"\"\"&F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%'matrixG6#7'7'\"\"!\"\"\"\"\"%F*F)7'F)\"\"#F(F(F,7'F*F(\"\"$F.F(F-F+
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&sospmG-%&arrayG6%;\"\"\"\"\"(F(
+7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7)7)\"\"!\"\"\"\"\"
+%\"\"#F+F*F)7)F)F+\"\"&\"\"$F.F-F+7)F*F-F)\"\"'F0F)F-7)F+F.F0F*F*F0F.F
+1F/F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&sospmG-%&arrayG6%;\"\"\"\"
+#6F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7-7-\"\"!\"\"\"
+\"\"%\"\"*\"\"&\"\"$F-F,F+F*F)7-F)\"\"#F,\"#5\"\"'F*F*F1F0F,F/7-F*F,\"
+\")F/F+\"\"(F4F+F/F3F,7-F+F0F/F4F-F)F)F-F4F/F07-F,F1F+F-F0F3F3F0F-F+F1
+7-F-F*F4F)F3F1F1F3F)F4F*F7F6F5F2F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%&sospmG-%&arrayG6%;\"\"\"\"#8F(7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#-%'matrixG6#7/7/\"\"!\"\"\"\"\"%\"\"*\"\"$\"#7\"#5F.F-F,F+F*F)7/F)\"
+\"#\"\"&F.F*F(\"#6F2F(F*F.F1F07/F*F1\"\")F(\"\"(F,F)F)F,F5F(F4F17/F+F.
+F(F1F-F4\"\"'F7F4F-F1F(F.7/F,F*F5F-F7F0F(F(F0F7F-F5F*7/F-F(F,F4F0F2F+F
++F2F0F4F,F(7/F.F2F)F7F(F+F5F5F+F(F7F)F2F:F9F8F6F3F/" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%&sospmG-%&arrayG6%;\"\"\"\"#<F(7\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%'matrixG6#7373\"\"!\"\"\"\"\"%\"\"*\"#;\"\")\"\"
+#\"#:\"#8F0F/F.F-F,F+F*F)73F)F.\"\"&\"#5F(F+\"\"$F,\"#9F5F,F4F+F(F3F2F
+.73F*F2F-F0F4\"#7\"\"'F.F(F(F.F8F7F4F0F-F273F+F3F0F)F-F(\"#6\"\"(F2F2F
+;F:F(F-F)F0F373F,F(F4F-F/F;F)F5F7F7F5F)F;F/F-F4F(73F-F+F7F(F;F,F3F8F*F
+*F8F3F,F;F(F7F+73F.F4F8F:F)F3F*F(F/F/F(F*F3F)F:F8F473F/F,F.F;F5F8F(F0F
+:F:F0F(F8F5F;F.F,73F0F5F(F2F7F*F/F:F+F+F:F/F*F7F2F(F5F@F?F>F=F<F9F6F1
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&sospmG-%&arrayG6%;\"\"\"\"#>F(7
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7575\"\"!\"\"\"\"\"%
+\"\"*\"#;\"\"'\"#<\"#6\"\"(\"\"&F1F0F/F.F-F,F+F*F)75F)\"\"#F1\"#5F.F0
+\"#=\"#7\"\")F-F-F7F6F5F0F.F4F1F375F*F1F7\"#8F)F4F3\"#:F/F+F+F/F:F3F4F
+)F9F7F175F+F4F9F5F-F:F0F)F,\"#9F<F,F)F0F:F-F5F9F475F,F.F)F-F9\"\"$F<F7
+F*F3F3F*F7F<F>F9F-F)F.75F-F0F4F:F>F6F*F.F9F/F/F9F.F*F6F>F:F4F075F.F5F3
+F0F<F*F:F+F1F>F>F1F+F:F*F<F0F3F575F/F6F:F)F7F.F+F>F5F,F,F5F>F+F.F7F)F:
+F675F0F7F/F,F*F9F1F5F<F6F6F<F5F1F9F*F,F/F775F1F-F+F<F3F/F>F,F6F4F4F6F,
+F>F/F3F<F+F-FCFBFAF@F?F=F;F8F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{MARK "1 1 2" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

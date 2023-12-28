@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>CAdsICTCM16.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark3">
+<p align=left>
+<b><font color=#000080 size=4>Abstract and time comment</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Since 1995-96 I have taught a 3rd year undergraduate course</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080>Number Theory and Cryptography</font></b></i>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>using Maple</font></b></i>
+<b><font color=#000080>) at St Patricks College. Before I had a web site (in June 1999), David Joyner at the United States Naval Academy (Annapolis) asked if I would allow my course Maple worksheets be displayed at their site; they are still there at:</font></b>
+<b><font color=#000080 size=4> </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>http://web.usna.navy.mil/~wdj/crypto.htm<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Subsequently I published a fairly full outline of my 3rd year course in: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>Number Theory and Cryptography</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>using Maple</font></b></i>
+<b><font color=#000080>) in David Joyner USNA (Ed.), Coding Theory and Cryptography: From Enigma to Geheimschreiber to Quantum Theory (Unites States Naval Academy Conference), Springer-Verlag, 2000, pp 124-143.<br>
+</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>In September 1998 the U.S. President, Bill Clinton, and the Irish Prime Minister Bertie Ahern engaged in a 'historic, first digital signing of a treaty on e-commerce' - at Gateway 2000's Dublin plant (Gateway's then European headquarters), and using software produced by Baltimore, the Irish cyrptography company - between the U.S. and Irish governments, and in November 1998 I gave a </font></b>
+<i><b><font color=#000080>public</font></b></i>
+<b><font color=#000080> lecture (using Maple) - </font></b>
+<i><b><font color=#000080>Bill Clinton, Bertie Ahern, and digital signatures</font></b></i>
+<b><font color=#000080> - at my college, to explain the essential </font></b>
+<i><b><font color=#000080>revolutionary</font></b></i>
+<b><font color=#000080> ideas of </font></b>
+<i><b><font color=#000080>public-key cryptography</font></b></i>
+<b><font color=#000080>, that lay behind our governments' signing. The </font></b>
+<i><b><font color=#000080>Irish Times</font></b></i>
+<b><font color=#000080> - our leading daily newspaper - publicised my talk in advance, and invited me to contribute an explanatory article prior to my lecture (that article used to be freely available at the </font></b>
+<i><b><font color=#000080>Times</font></b></i>
+<b><font color=#000080>' site, but unfortunately they now charge for access). That talk - which took me about 70 mins to deliver - is available in active Maple mws format, or in html format in the Public and Other Lectures corner of my web site.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Since November 1998 I have used that public lecture to introduce my course to my students: my aim has been to show just how much one can cover with a general public audience. My third year course then entails putting </font></b>
+<i><b><font color=#000080>mathematical flesh</font></b></i>
+<b><font color=#000080> on that public lecture. My students have already studied Number Theory in their second year, that course consisting of three core areas: Congruences, the Euclidean Algorithm and its extension, and Fermat's 'little' theorem with applications, plus some other topics that I change from year to year. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here in Chicago I offer a much revised version of my 1998 Clinton-Ahern talk to college mathematics faculty: e.g. the inclusion of the Pohlig-Hellman material is entirely new. No prior knowledge of Number Theory will be required to follow my talk, in which I will</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Briefly</font></b>
+<i><b><font color=#000080> explain</font></b></i>
+<b><font color=#000080> the difference between </font></b>
+<i><b><font color=#000080>private-</font></b></i>
+<b><font color=#000080>key and </font></b>
+<i><b><font color=#000080>public</font></b></i>
+<b><font color=#000080>-key cryptography</font></b>
+</li>
+<li>
+<i><b><font color=#000080>Demonstrate</font></b></i>
+<b><font color=#000080> the Pohlig-Hellman </font></b>
+<i><b><font color=#000080>private</font></b></i>
+<b><font color=#000080>-key cryptographic method</font></b>
+</li>
+<li>
+<i><b><font color=#000080>Demonstrate</font></b></i>
+<b><font color=#000080> a simplified element of the renowned Rivest-Shamir-Adleman</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>(RSA) </font></b>
+<i><b><font color=#000080>public</font></b></i>
+<b><font color=#000080>-key</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>cryptographic</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>method</font></b>
+</li>
+<li>
+<i><b><font color=#000080>Illustrate</font></b></i>
+<b><font color=#000080> the relevance of the unsolved fast factorisation problem</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>to the security of the RSA method</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>(and, if I have time, also have a look at </font></b>
+<i><b><font color=#000080>phi of n</font></b></i>
+<b><font color=#000080>...)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The core content of my 3rd year Number Theory and Cryptography course, my preparatory 2nd year Number Theory course, and related examination papers (3-hour written, 2-hour Maple, and one set of student Maple solutions) are all available at my web site: visit my home page and follow the obvious links.<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>A related paper of mine is: </font></b>
+<i><b><font color=#000080>From divisibility by 6 to the Euclidean Algorithm and the RSA cryptographic method</font></b></i>
+<b><font color=#000080>, The American Mathematical Association of Two-Year Colleges Review, Vol 19, No 1, Fall 1997, 38-45.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>_______________</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>Time comment. Because of the amount of material I wish to cover, time constraints (45 minutes) dictate that I cannot devote as much time as I would wish even to sketchy mathematical details. The interested reader may, however, explore further, complete details of all the relevant mathematics at my web site. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In my talk, then, I will have to resort to a certain amount of hand-waving along the lines of:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>that computation used a method known as modular exponentiation using the square-and-multiply technique</font></b>
+</li>
+<li>
+<b><font color=#000080>that computation used the Euclidean algorithm</font></b>
+</li>
+<li>
+<b><font color=#000080>that computation used the </font></b>
+<i><b><font color=#000080>extended</font></b></i>
+<b><font color=#000080> Euclidean algorithm</font></b>
+</li>
+<li>
+<b><font color=#000080>what made that 'work' was Fermat's little theorem</font></b>
+</li>
+<li>
+<b><font color=#000080>what made that 'work' was the 2-prime version of Fermat's little theorem (which is itself a special case of the</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>so-called Fermat-Euler theorem)<br>
+</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+<i><b><font color=#000080 size=4>etc</font></b></i>
+</li>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:22 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

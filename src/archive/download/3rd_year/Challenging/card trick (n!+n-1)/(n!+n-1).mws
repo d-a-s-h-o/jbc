@@ -1,0 +1,764 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 1 18 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+347 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 351 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+352 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 356 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+357 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 361 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+362 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 365 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 366 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+367 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 368 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 369 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 370 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 371 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+372 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 373 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 374 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 375 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 376 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+377 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 378 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 379 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 380 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 381 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+382 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 383 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 384 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 385 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 386 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+387 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 388 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 389 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 390 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 391 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+392 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 393 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 394 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 395 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 396 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+397 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 398 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 399 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 400 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 401 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+402 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 403 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 404 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 405 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 406 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+407 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 408 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 409 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 410 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 411 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+412 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 413 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 414 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 415 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 416 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+417 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 418 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 419 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 420 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 421 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+422 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 423 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 424 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 425 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 426 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+427 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 428 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 429 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 430 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 431 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+432 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 433 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 434 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 435 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 436 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+437 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 438 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 439 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 440 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 441 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+442 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 443 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 444 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 445 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 446 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+447 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 448 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 449 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 450 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 451 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+452 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 453 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 454 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 455 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 456 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+457 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 458 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 459 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 460 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 461 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+462 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 463 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 464 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 465 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 466 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+467 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 468 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 469 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 470 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 471 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+472 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 473 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 474 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 475 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 476 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+477 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 478 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 479 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 480 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 481 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+482 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 483 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 484 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 485 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 486 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+487 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 488 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 489 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 490 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 491 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+492 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 493 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 494 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 495 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 496 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+497 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 498 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 499 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 500 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 501 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+502 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 503 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 504 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 505 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 506 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+507 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 508 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 509 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 510 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 511 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+512 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 513 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 514 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 515 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 516 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+517 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 518 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 519 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 520 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 521 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+522 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 523 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 524 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 525 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 526 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+527 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 528 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 529 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 530 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 531 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+532 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 533 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 534 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 535 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 536 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+537 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 538 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 539 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 540 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 541 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+542 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 543 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 544 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 545 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 
+1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 8 4 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 14 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item" 
+-1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }
+1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 
+256 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# (n!+n-1).mws" }}}
+{EXCHG {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 256 19 "The Best Card Tr
+ick" }{TEXT 257 1 "\n" }{TEXT -1 6 "(the (" }{TEXT 299 1 "n" }{TEXT 
+-1 2 "!+" }{TEXT 300 1 "n" }{TEXT -1 19 "-1) generalisation)" }}}
+{SECT 1 {PARA 3 "" 0 "" {TEXT -1 12 "Introduction" }}{PARA 0 "" 0 "" 
+{TEXT -1 81 "This Maple worksheet is based on a reading of Michael Kle
+ber's wonderful article " }{TEXT 258 19 "The Best Card Trick" }{TEXT 
+-1 2 " (" }{TEXT 259 26 "Mathematical Intelligencer" }{TEXT -1 201 ", \+
+Volume 24, Number 1, 2002; that article is available in various format
+s from MK's web site: there's a link from my site). If you haven't rea
+d MK's article then you should do so before reading below. " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 159 "I would like t
+o acknowledge that MK pointed out a foolish error in my original prese
+ntation (in short, the generalised trick is even better than I realise
+d...)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 486 
+"The 'best card trick' is: choose any 5 cards from a 52-card pack (in \+
+the US 'deck'?), pass them to 'my beautiful assistant', who then passe
+s just 4 of them to me, whereupon I tell you the 5th, hidden card. Mag
+ic!! It was the creation of William Fitch Cheney, Jr., the first mathe
+matics PhD graduate (1927) from MIT. MK explains that the trick may be
+ performed not just with a 52-card pack, but in fact with one having a
+s many as 124 cards. The '124' is 5!+5-1, and, in general, - where " }
+{TEXT 308 1 "n" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"
+nG" }{TEXT -1 65 ") cards are chosen - one may perform the trick with \+
+a maximum of " }{TEXT 310 1 "n" }{TEXT -1 2 "!+" }{TEXT 311 1 "n" }
+{TEXT -1 9 "-1 cards." }{TEXT 309 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 73 "My aim is to flesh out MK's explanati
+on (due to Elwyn Berlekamp) of the (" }{TEXT 301 1 "n" }{TEXT -1 2 "!+
+" }{TEXT 302 1 "n" }{TEXT -1 62 "-1) generalisation, that generalisati
+on being as follows: let " }{TEXT 260 1 "n" }{TEXT -1 22 " be any whol
+e number (" }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"nG" }{TEXT -1 33 "), \+
+and let there be three persons" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 264 1 "P" }{TEXT -1 71 ", the pe
+rson about to perform a remarkable feat (described in a moment)" }}
+{PARA 15 "" 0 "" {TEXT 261 1 "C" }{TEXT -1 31 " (the challenger), who \+
+chooses " }{TEXT 263 3 "any" }{TEXT -1 1 " " }{TEXT 262 1 "n" }{TEXT 
+-1 9 " numbers " }{XPPEDIT 18 0 "c[0],c[1];" "6$&%\"cG6#\"\"!&F$6#\"\"
+\"" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "c[n-1];" "6#&%\"cG6#,&%\"nG
+\"\"\"F(!\"\"" }{TEXT -1 12 " from the \n(" }{TEXT 303 1 "n" }{TEXT 
+-1 2 "!+" }{TEXT 304 1 "n" }{TEXT -1 28 "-1) numbers 0, 1, 2, ... , (
+" }{TEXT 305 1 "n" }{TEXT -1 2 "!+" }{TEXT 306 1 "n" }{TEXT -1 27 "-2)
+, and then passes those " }{TEXT 265 1 "n" }{TEXT -1 11 " numbers to" 
+}}{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 266 1 "A" }{TEXT -1 2 " (" }
+{TEXT 267 1 "P" }{TEXT -1 27 "'s assistant, who has made " }{TEXT 296 
+18 "certain agreements" }{TEXT -1 26 " - explained below - with " }
+{TEXT 295 1 "P" }{TEXT -1 1 ")" }}{PARA 15 "" 0 "" {TEXT -1 54 "who th
+en (after some mental calculation) passes some (" }{TEXT 307 1 "n" }
+{TEXT -1 13 "-1) of those " }{TEXT 268 1 "c" }{TEXT -1 9 "s (in a \n" 
+}{TEXT 298 13 "certain order" }{TEXT -1 16 ", of course) to " }{TEXT 
+269 1 "P" }{TEXT -1 11 ", allowing " }{TEXT 270 1 "P" }{TEXT -1 19 " t
+o then name the '" }{TEXT 272 6 "hidden" }{TEXT -1 2 "' " }{TEXT 271 
+1 "c" }{TEXT -1 2 ".\n" }}{PARA 257 "" 0 "" {TEXT -1 28 "Remarkable! H
+ow is it done? " }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 15 "How is it done
+?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 543 91 "My explanation, of M
+K's explanation, of EB's brilliant solution of the general 'choose any
+ " }{TEXT 319 1 "n" }{TEXT 320 7 " from (" }{TEXT 317 1 "n" }{TEXT 
+321 2 "!+" }{TEXT 318 1 "n" }{TEXT 322 3 "-1)" }{TEXT -1 3 "'. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 32 "Like MK I
+ will examine the case " }{TEXT 323 1 "n" }{TEXT -1 167 "=5 (every ess
+ential point may be seen in this case; also it's not too big to handle
+, and not so small that one can't see the point because so little is g
+oing on). Let " }{TEXT 324 2 "C " }{TEXT -1 43 "'s chosen numbers - be
+tween 0 and 123 - be " }{XPPEDIT 18 0 "c[0],c[1],c[2],c[3],c[4];" "6'&
+%\"cG6#\"\"!&F$6#\"\"\"&F$6#\"\"#&F$6#\"\"$&F$6#\"\"%" }{TEXT -1 1 ".
+" }{TEXT 545 1 " " }{TEXT -1 0 "" }{TEXT 544 1 "A" }{TEXT -1 38 " will
+ then pass 4 of those 5 cards to " }{TEXT 326 1 "P" }{TEXT -1 32 " (in
+ a certain order), allowing " }{TEXT 327 1 "P" }{TEXT -1 34 " to decla
+re the hidden 5th number." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 332 15 "How is it done?" }{TEXT -1 7 " First " }{TEXT 
+328 1 "A" }{TEXT -1 14 " calculates 2 " }{TEXT 329 9 "important" }
+{TEXT -1 10 " numbers '" }{TEXT 333 1 "i" }{TEXT -1 7 "' and '" }
+{TEXT 334 1 "s" }{TEXT -1 17 "', both of which " }{TEXT 542 1 "P" }
+{TEXT -1 21 " may later calculate " }{TEXT 431 5 "after" }{TEXT -1 24 
+" the 4 cards are passed:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 
+"" 0 "" {TEXT 335 1 "i" }{TEXT -1 4 " := " }{XPPEDIT 18 0 "c[0]+c[1]+c
+[2]+c[3]+c[4];" "6#,,&%\"cG6#\"\"!\"\"\"&F%6#F(F(&F%6#\"\"#F(&F%6#\"\"
+$F(&F%6#\"\"%F(" }{TEXT -1 10 " (mod 5); " }{TEXT 331 1 "A" }{TEXT -1 
+1 " " }{TEXT 330 5 "holds" }{TEXT -1 6 " onto " }{XPPEDIT 18 0 "c[i];
+" "6#&%\"cG6#%\"iG" }{TEXT -1 30 ", and passes the other 4 cards" }}
+{PARA 15 "" 0 "" {TEXT 336 1 "s" }{TEXT -1 40 " := the sum of the othe
+r 4 cards (mod 5)" }}{PARA 257 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 21 "Thus the hidden card " }{XPPEDIT 18 0 "c[i];" "6#&%\"cG
+6#%\"iG" }{TEXT -1 16 " satisfies (the " }{TEXT 373 5 "vital" }{TEXT 
+-1 66 " congruence; 'vital' for reasons that will only be apparent lat
+er)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 
+0 "c[i] = i-s;" "6#/&%\"cG6#%\"iG,&F'\"\"\"%\"sG!\"\"" }{TEXT -1 17 " \+
+(mod 5)  ... (1)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 105 "(If you're not fluent with congruences, do a few example
+s to fix that last important detail: suppose the " }{TEXT 337 1 "c" }
+{TEXT -1 37 "'s were 17, 38, 62, 116 and 120. Then" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT 338 1 "i" }{TEXT -1 72 " := 17+
+38+62+116+120 = 2+3+2+1+0 = 3 (mod 5); the 'hidden' card is then " }
+{XPPEDIT 18 0 "c[3];" "6#&%\"cG6#\"\"$" }{TEXT -1 19 " (namely 116), a
+nd " }}{PARA 15 "" 0 "" {TEXT 339 1 "s" }{TEXT -1 15 " is found from \+
+" }{TEXT 340 1 "s" }{TEXT -1 4 " := " }{XPPEDIT 18 0 "c[0]+c[1]+c[2]+c
+[4];" "6#,*&%\"cG6#\"\"!\"\"\"&F%6#F(F(&F%6#\"\"#F(&F%6#\"\"%F(" }
+{TEXT -1 23 " = 2+3+2+0 = 2 (mod 5)\n" }}{PARA 0 "" 0 "" {TEXT -1 34 "
+Now, imagine removing the 4 cards " }{XPPEDIT 18 0 "c[0],c[1],c[2],c[4
+];" "6&&%\"cG6#\"\"!&F$6#\"\"\"&F$6#\"\"#&F$6#\"\"%" }{TEXT -1 133 " f
+rom the original 124 numbers (0, 1, 2, 3, ... , 123), and renumber the
+ remaining 120 (=5!) by shifting to the left. In our example\n" }}
+{PARA 15 "" 0 "" {TEXT 348 7 "0 shift" }{TEXT -1 52 ": 0 would still b
+e '0', 1 would still be '1', ... , " }{TEXT 341 2 "16" }{TEXT -1 17 " \+
+would still be '" }{TEXT 342 2 "16" }{TEXT -1 8 "', while" }}{PARA 15 
+"" 0 "" {TEXT 343 7 "1 shift" }{TEXT -1 2 ": " }{TEXT 349 2 "18" }
+{TEXT -1 15 " would become '" }{TEXT 344 2 "17" }{TEXT -1 3 "', " }
+{TEXT 399 2 "19" }{TEXT -1 15 " would become '" }{TEXT 400 2 "18" }
+{TEXT -1 9 "', ... , " }{TEXT 345 2 "37" }{TEXT -1 15 " would become '
+" }{TEXT 346 2 "36" }{TEXT -1 6 "', and" }}{PARA 15 "" 0 "" {TEXT 350 
+7 "2 shift" }{TEXT -1 2 ": " }{TEXT 396 2 "39" }{TEXT -1 15 " would be
+come '" }{TEXT 347 2 "37" }{TEXT -1 3 "', " }{TEXT 401 2 "40" }{TEXT 
+-1 15 " would become '" }{TEXT 402 2 "38" }{TEXT -1 9 "', ... , " }
+{TEXT 351 2 "61" }{TEXT -1 15 " would become '" }{TEXT 352 2 "59" }
+{TEXT -1 6 "', and" }}{PARA 15 "" 0 "" {TEXT 353 7 "3 shift" }{TEXT 
+-1 2 ": " }{TEXT 397 2 "63" }{TEXT -1 15 " would become '" }{TEXT 356 
+2 "60" }{TEXT -1 3 "', " }{TEXT 403 2 "64" }{TEXT -1 15 " would become
+ '" }{TEXT 404 2 "61" }{TEXT -1 9 "', ... , " }{TEXT 354 3 "116" }
+{TEXT -1 3 " (=" }{XPPEDIT 18 0 "c[3];" "6#&%\"cG6#\"\"$" }{TEXT -1 
+16 ") would become '" }{TEXT 355 3 "113" }{TEXT -1 14 "', and finally
+" }}{PARA 15 "" 0 "" {TEXT 358 7 "4 shift" }{TEXT -1 2 ": " }{TEXT 
+398 3 "117" }{TEXT -1 15 " would become '" }{TEXT 357 3 "114" }{TEXT 
+-1 9 "', ... , " }{TEXT 359 3 "123" }{TEXT -1 15 " would become '" }
+{TEXT 360 3 "119" }{TEXT -1 3 "' \n" }}{PARA 0 "" 0 "" {TEXT -1 11 "Th
+us 116 (=" }{XPPEDIT 18 0 "c[3];" "6#&%\"cG6#\"\"$" }{TEXT -1 6 ", the
+ " }{TEXT 405 6 "hidden" }{TEXT -1 24 " card) gets shifted 3 (=" }
+{TEXT 372 1 "i" }{TEXT -1 31 ") places to the left, and thus " }
+{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT -1 3 "'s " }{TEXT 374 
+12 "new location" }{TEXT -1 19 " is congruent to (-" }{TEXT 375 1 "s" 
+}{TEXT -1 18 ") (mod 5). In the " }{TEXT 361 7 "general" }{TEXT -1 13 
+" case where '" }{TEXT 362 1 "i" }{TEXT -1 7 "' and '" }{TEXT 365 1 "s
+" }{TEXT -1 17 "' are defined by\n" }}{PARA 15 "" 0 "" {TEXT -1 0 "" }
+{TEXT 363 1 "i" }{TEXT -1 4 " := " }{XPPEDIT 18 0 "c[0]+c[1]+c[2];" "6
+#,(&%\"cG6#\"\"!\"\"\"&F%6#F(F(&F%6#\"\"#F(" }{TEXT -1 9 " + ... + " }
+{XPPEDIT 18 0 "c[n-1];" "6#&%\"cG6#,&%\"nG\"\"\"F(!\"\"" }{TEXT -1 6 "
+ (mod " }{TEXT 364 1 "n" }{TEXT -1 26 "), and the hidden card is " }
+{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT -1 0 "" }}{PARA 15 "" 
+0 "" {TEXT -1 0 "" }{TEXT 366 1 "s" }{TEXT -1 26 " := the sum of the o
+ther (" }{TEXT 367 1 "n" }{TEXT -1 15 "-1) cards (mod " }{TEXT 368 1 "
+n" }{TEXT -1 10 "), and so " }{XPPEDIT 18 0 "c[i] = i-s;" "6#/&%\"cG6#
+%\"iG,&F'\"\"\"%\"sG!\"\"" }{TEXT -1 6 " (mod " }{TEXT 369 1 "n" }
+{TEXT -1 1 ")" }}{PARA 257 "" 0 "" {TEXT -1 19 "\nafter renumbering " 
+}{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT -1 3 "'s " }{TEXT 370 
+3 "new" }{TEXT -1 17 " number will be (" }{XPPEDIT 18 0 "c[i]-i;" "6#,
+&&%\"cG6#%\"iG\"\"\"F'!\"\"" }{TEXT -1 10 "), giving " }{XPPEDIT 18 0 
+"c[i]-i = -s;" "6#/,&&%\"cG6#%\"iG\"\"\"F(!\"\",$%\"sGF*" }{TEXT -1 6 
+" (mod " }{TEXT 371 1 "n" }{TEXT -1 6 "). If " }{TEXT 406 1 "i" }
+{TEXT -1 8 "=0 then " }{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT 
+-1 84 " does not get shifted to the left, and its new location - after
+ removing the other (" }{TEXT 407 1 "n" }{TEXT -1 4 "-1) " }{TEXT 408 
+1 "c" }{TEXT -1 47 "'s - is the same as its earlier one; otherwise " }
+{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT -1 32 " gets shifted 1 \+
+or 2 or ... or (" }{TEXT 432 1 "n" }{TEXT -1 23 "-1) places to the lef
+t." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 376 8 "Que
+stion" }{TEXT -1 2 ". " }{TEXT 378 5 "Which" }{TEXT -1 48 " numbers (b
+etween 0 and 119) are congruent to (-" }{TEXT 377 1 "s" }{TEXT -1 11 "
+) (mod 5)? " }}{PARA 0 "" 0 "" {TEXT 379 31 "Answer, and the point of \+
+it all" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 
+0 "" {TEXT -1 3 "if " }{TEXT 380 1 "s" }{TEXT -1 14 "=0 they are 5." }
+{TEXT 386 1 "0" }{TEXT -1 4 ", 5." }{TEXT 387 1 "1" }{TEXT -1 4 ", 5.
+" }{TEXT 388 1 "2" }{TEXT -1 10 ", ... , 5." }{TEXT 389 2 "22" }{TEXT 
+-1 7 " and 5." }{TEXT 390 2 "23" }{TEXT -1 6 ", and " }}{PARA 15 "" 0 
+"" {TEXT -1 3 "if " }{XPPEDIT 18 0 "s <> 0;" "6#0%\"sG\"\"!" }{TEXT 
+-1 12 " they are 5." }{TEXT 391 1 "0" }{TEXT -1 6 " + (5-" }{TEXT 381 
+1 "s" }{TEXT -1 5 "), 5." }{TEXT 392 1 "1" }{TEXT -1 6 " + (5-" }
+{TEXT 382 1 "s" }{TEXT -1 5 "), 5." }{TEXT 393 1 "2" }{TEXT -1 6 " + (
+5-" }{TEXT 383 1 "s" }{TEXT -1 11 "), ... , 5." }{TEXT 394 2 "22" }
+{TEXT -1 6 " + (5-" }{TEXT 384 1 "s" }{TEXT -1 8 ") and 5." }{TEXT 
+395 2 "23" }{TEXT -1 6 " + (5-" }{TEXT 385 1 "s" }{TEXT -1 1 ")" }}
+{PARA 257 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "In both
+ cases (and " }{TEXT 410 1 "P" }{TEXT -1 2 ", " }{TEXT 528 17 "knowing
+ the value" }{TEXT -1 4 " of " }{TEXT 411 1 "s" }{TEXT -1 104 " upon r
+eceipt of the 4 cards, will know which case is happening) there are ex
+actly 24 (=4!) unknown (to " }{TEXT 409 1 "P" }{TEXT -1 15 ") numbers,
+ and " }{TEXT 412 1 "A" }{TEXT -1 78 " has exactly 24 (=4!) ways in wh
+ich to pass the 4 cards. THAT'S IT!! All that " }{TEXT 417 1 "A" }
+{TEXT -1 5 " and " }{TEXT 418 1 "P" }{TEXT -1 36 " have to agree upon \+
+in advance is a " }{TEXT 419 19 "precise correlation" }{TEXT -1 24 " b
+etween the 4! numbers " }{TEXT 413 1 "0" }{TEXT -1 2 ", " }{TEXT 414 
+1 "1" }{TEXT -1 2 ", " }{TEXT 415 1 "2" }{TEXT -1 8 ", ... , " }{TEXT 
+416 2 "23" }{TEXT -1 151 " and the 4! different signals that can be pa
+ssed with 4 cards, and finally make a use of the congruence (1) above,
+ in order to determine the value of '" }{TEXT 529 1 "i" }{TEXT -1 39 "
+'. The detail is almost an anti-climax:" }}}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT -1 10 "The detail" }}{PARA 0 "" 0 "" {TEXT -1 173 "Of course it'
+s not completely straightforward; but what one needs is a general, eas
+ily applied method that doesn't require some great feat of memory. Of \+
+course in the above " }{TEXT 420 1 "n" }{TEXT -1 179 "=5 case one coul
+d make an easy arrangement like the one in Cheney's card trick: there \+
+- to convey the numbers 1 to 6 by passing the last 3 cards (of the 4, \+
+the first was the suit " }{TEXT 312 1 "i" }{TEXT -1 44 "ndicator) - wh
+at one could agree upon is to " }{TEXT 313 5 "order" }{TEXT -1 78 " th
+e 4 suits (and the cards within those suits), so that 3 cards would ha
+ve a " }{TEXT 314 1 "s" }{TEXT -1 15 "mallest one, a " }{TEXT 315 1 "m
+" }{TEXT -1 17 "iddle one, and a " }{TEXT 316 1 "l" }{TEXT -1 137 "arg
+est one, and then use the signals (s,m,l), (s,l,m), (m,s,l), (m,l,s), \+
+(l,s,m) and (l,m,s) to signal 1, 2, 3, 4, 5 and 6 respectively. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "With " }
+{TEXT 433 1 "n" }{TEXT -1 4 "=5, " }{TEXT 421 1 "A" }{TEXT -1 5 " and \+
+" }{TEXT 422 1 "P" }{TEXT -1 604 " could agree in advance that the 24 \+
+numbers from 0 to 23 be divided into 4 blocks of 6, introduce a 4th va
+riable, 't' say (with the understanding that s < m < l < t), and agree
+ that (s,m,l,t), (s,l,m,t), (m,s,l,t), (m,l,s,t), (l,s,m,t) and (l,m,s
+,t) would represent 0, 1, 2, 3, 4 and 5, (s,m,t,l), (s,l,t,m), (m,s,t,
+l), (m,l,t,s), (l,s,t,m) and (l,m,t,s) would represent 6, 7, 8, 9, 10 \+
+and 11, etc, but one would soon realise how fraught with danger that c
+ould be (and it could so easily lead to the sort of fights that are re
+puted to happen sometimes amongst Bridge partners). And, DON'T FORGET \+
+to add '" }{TEXT 498 1 "i" }{TEXT -1 118 "' (see the 'Continuation' se
+ction below, or the later telegraphic worked example) to the decoded r
+enumbered value of '" }{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT 
+-1 41 "' to finally know the actual hidden card." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 177 "A much more elegant solu
+tion is at hand if one knows about 'base factorial' representation (in
+deed had it not been at hand, one would have invented it for exactly t
+his purpose):" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 52 "A technical in
+terlude: base factorial representation" }}{PARA 0 "" 0 "" {TEXT -1 99 
+"An elementary exercise that one sometimes sees in sequences/series pr
+oblems in texts is: prove that" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 256 "" 0 "" {TEXT 434 1 "n" }{TEXT -1 1 "." }{TEXT 435 1 "n" }
+{TEXT -1 5 "! + (" }{TEXT 436 1 "n" }{TEXT -1 5 "-1).(" }{TEXT 437 1 "
+n" }{TEXT -1 32 "-1)! + ... 3.3! + 2.2! +1.1! = (" }{TEXT 278 1 "n" }
+{TEXT -1 20 "+1)! - 1     ... (1)" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 57 "Someone whose bag of tricks consists onl
+y of the school '" }{TEXT 273 21 "turn it back to front" }{TEXT -1 36 
+"' (for adding arithmetic series) or " }}{PARA 0 "" 0 "" {TEXT -1 1 "'
+" }{TEXT 274 13 "multiply by r" }{TEXT -1 65 "' (for adding geometric \+
+series) is going to get stuck on this... " }}{PARA 0 "" 0 "" {TEXT -1 
+91 "Here the obvious solution is dictated by thinking about a particul
+ar case of (1), and then " }{TEXT 275 6 "seeing" }{TEXT -1 25 "... . S
+uppose, say, that " }{TEXT 276 1 "n" }{TEXT -1 142 " is 3, then the LH
+S of (1) is (3.3! + 2.2! + 1.1!), namely (18+4+1), which is 23. And th
+e RHS of (i) is (4! - 1), which is also 23. Now (with " }{XPPEDIT 18 
+0 "n = 4;" "6#/%\"nG\"\"%" }{TEXT -1 14 ") if one adds " }{XPPEDIT 18 
+0 "4.4!;" "6#-%*factorialG6#-%&FloatG6$\"#W!\"\"" }{TEXT -1 72 " to '2
+3' - which is both (3.3! + 2.2! + 1.1!) and (4! - 1) - one obtains" }}
+{PARA 256 "" 0 "" {TEXT -1 81 " 4.4! + (3.3! + 2.2! + 1.1!) = 4.4! + (
+4! - 1) = (4+1).4! - 1 = 5.4! - 1 = 5! - 1" }}{PARA 256 "" 0 "" {TEXT 
+-1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 25 "The simple point is that " }
+{TEXT 279 1 "k" }{TEXT -1 1 "." }{TEXT 438 1 "k" }{TEXT -1 4 "! + " }
+{TEXT 280 1 "k" }{TEXT -1 5 "! = (" }{TEXT 281 1 "k" }{TEXT -1 4 "+1).
+" }{TEXT 282 1 "k" }{TEXT -1 5 "! = (" }{TEXT 283 1 "k" }{TEXT -1 60 "
+ + 1)!, and thus a proof of (1) may be given 'by induction'." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "Alternatively j
+ust " }{TEXT 277 3 "see" }{TEXT -1 23 " what happens when one " }
+{TEXT 284 4 "adds" }{TEXT -1 29 " '1 (=1!)' to the LHS of (1):" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT 439 1 "n" }
+{TEXT -1 1 "." }{TEXT 440 1 "n" }{TEXT -1 5 "! + (" }{TEXT 441 1 "n" }
+{TEXT -1 5 "-1).(" }{TEXT 442 1 "n" }{TEXT -1 37 "-1)! + ... 3.3! + 2.
+2! + (1.1! + 1!) " }}{PARA 256 "" 0 "" {TEXT -1 2 "= " }{TEXT 443 1 "n
+" }{TEXT -1 1 "." }{TEXT 444 1 "n" }{TEXT -1 5 "! + (" }{TEXT 445 1 "n
+" }{TEXT -1 5 "-1).(" }{TEXT 446 1 "n" }{TEXT -1 27 "-1)! + ... 3.3! +
+ 2.2! + 2!" }}{PARA 256 "" 0 "" {TEXT -1 2 "= " }{TEXT 447 1 "n" }
+{TEXT -1 1 "." }{TEXT 448 1 "n" }{TEXT -1 5 "! + (" }{TEXT 449 1 "n" }
+{TEXT -1 5 "-1).(" }{TEXT 450 1 "n" }{TEXT -1 21 "-1)! + ... 3.3! + 3!
+ " }}{PARA 256 "" 0 "" {TEXT -1 2 "= " }{TEXT 451 1 "n" }{TEXT -1 1 ".
+" }{TEXT 452 1 "n" }{TEXT -1 5 "! + (" }{TEXT 453 1 "n" }{TEXT -1 5 "-
+1).(" }{TEXT 454 1 "n" }{TEXT -1 13 "-1)! + ... 4!" }}{PARA 256 "" 0 "
+" {TEXT -1 8 "= ... = " }{TEXT 455 1 "n" }{TEXT -1 1 "." }{TEXT 456 1 
+"n" }{TEXT -1 5 "! + (" }{TEXT 457 1 "n" }{TEXT -1 6 ")! = (" }{TEXT 
+458 1 "n" }{TEXT -1 4 "+1)." }{TEXT 459 1 "n" }{TEXT -1 5 "! = (" }
+{TEXT 460 1 "n" }{TEXT -1 4 "+1)!" }}{PARA 0 "" 0 "" {TEXT -1 25 "and \+
+subtracting '1' gives" }}{PARA 256 "" 0 "" {TEXT 461 1 "n" }{TEXT -1 
+1 "." }{TEXT 462 1 "n" }{TEXT -1 5 "! + (" }{TEXT 463 1 "n" }{TEXT -1 
+5 "-1).(" }{TEXT 464 1 "n" }{TEXT -1 33 "-1)! + ... 3.3! + 2.2! +1.1! \+
+ = (" }{TEXT 285 1 "n" }{TEXT -1 10 " + 1)! - 1" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 286 6 "Remark" }
+{TEXT -1 42 ". (1) should simply be seen as being the '" }{TEXT 288 
+14 "base factorial" }{TEXT -1 36 "' equivalent of what happens in the \+
+" }{TEXT 289 7 "base 10" }{TEXT -1 61 " system (or indeed any polynomi
+al base system) with examples " }{TEXT 287 4 "like" }{TEXT -1 87 " 999
+ + 1 = 1000 (i.e. 999 = 1000 - 1), or 9999 + 1 = 10000 (i.e. 9999 = 10
+000 - 1) (in " }{TEXT 290 6 "binary" }{TEXT -1 85 " base: 1111 + 1 = 1
+0000 (i.e. 1111 = 10000 - 1)), because every non-negative integer " }
+{TEXT 292 2 "n " }{TEXT -1 20 "may be represented (" }{TEXT 291 8 "uni
+quely" }{TEXT -1 4 ") by" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 
+"" 0 "" {XPPEDIT 18 0 "n = d[r]*r!+d[r-1]*(r-1)!;" "6#/%\"nG,&*&&%\"dG
+6#%\"rG\"\"\"-%*factorialG6#F*F+F+*&&F(6#,&F*F+F+!\"\"F+-F-6#,&F*F+F+F
+3F+F+" }{TEXT -1 9 " + ... + " }{XPPEDIT 18 0 "d[3]*3!+d[2]*2!+d[1]*1!
+;" "6#,(*&&%\"dG6#\"\"$\"\"\"-%*factorialG6#F(F)F)*&&F&6#\"\"#F)-F+6#F
+0F)F)*&&F&6#F)F)-F+6#F)F)F)" }{TEXT -1 5 " (= (" }{XPPEDIT 18 0 "d[r];
+" "6#&%\"dG6#%\"rG" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "d[r-1];" "6#&%\"
+dG6#,&%\"rG\"\"\"F(!\"\"" }{TEXT -1 9 " , ... , " }{XPPEDIT 18 0 "d[3]
+;" "6#&%\"dG6#\"\"$" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "d[2];" "6#&%\"d
+G6#\"\"#" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "d[1];" "6#&%\"dG6#\"\"\"" 
+}{TEXT -1 2 "))" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 10 "where the " }{TEXT 293 6 "digits" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "d[r];" "6#&%\"dG6#%\"rG" }{TEXT -1 3 " , " }{XPPEDIT 
+18 0 "d[r-1];" "6#&%\"dG6#,&%\"rG\"\"\"F(!\"\"" }{TEXT -1 9 " , ... , \+
+" }{XPPEDIT 18 0 "d[3],d[2],d[1];" "6%&%\"dG6#\"\"$&F$6#\"\"#&F$6#\"\"
+\"" }{TEXT -1 9 " satisfy " }{XPPEDIT 18 0 "0 <= d[j];" "6#1\"\"!&%\"d
+G6#%\"jG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "d[j] <= j;" "6#1&%\"dG6#
+%\"jGF'" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 195 "MK, in his article, writes the digits the other w
+ay round, but I believe the above is more natural, and is the conventi
+on followed by D. E. Knuth in his classic Seminumerical Algorithms, Vo
+l. 2, " }{TEXT 294 31 "The Art of Computer Programming" }{TEXT -1 1 ".
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 297 8 "Examp
+les" }{TEXT -1 92 ". The integers 0, 1, 2, ... , 23 (= 4!-1) have the \+
+following base factorial representations:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 256 "" 0 "" {TEXT -1 111 "0 = (0, 0, 0), 1 = (0, 0, 1), 2
+ = (0, 1, 0), 3 = (0, 1, 1), 4 = (0, 2, 0), ... , 22 = (3, 2, 0), 23 =
+ (3, 2, 1)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 442 "Of course (e.g.) '3' is just (1, 1), but I have written it as \+
+(0, 1, 1) because I wanted to have it appear as a triple, with '23' - \+
+the extreme triple - in mind. Maple doesn't appear to have a command f
+or converting an integer to base factorial (trying Maple's '?factorial
+' and '?base' produced no related topic), so I have written a simple M
+aple procedure for finding such representations, which I will call 'fa
+cKn' (Kn, for Knuth, with the " }{TEXT 430 8 "dominant" }{TEXT -1 76 "
+ digits left to right, as in the normal decimal or general polynomial \+
+base):" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 285 "facKn := proc(n) \+
+local j, r, d, N, k;\nif n=0 then print(0=[0][fKn])\nelse for j while \+
+j! <= n do od: r := j-1:\nd[r] := iquo(n, r!);\nN[r] := n - d[r]*r!;\n
+for k from r-1 by -1 to 1 do\nd[k] := iquo(N[k+1], k!);\nN[k] := N[k+1
+] - d[k]*k!;\nod;\nprint(n=[seq(d[r+1-k], k=1..r)][fKn]); \nfi; end:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "facKn(0);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/\"\"!&7#F$6#%$fKnG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "facKn(1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"\"\"&7
+#F$6#%$fKnG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "facKn(2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"\"#&7$\"\"\"\"\"!6#%$fKnG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "facKn(3);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/\"\"$&7$\"\"\"F'6#%$fKnG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 9 "facKn(4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"\"%&
+7$\"\"#\"\"!6#%$fKnG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fac
+Kn(20!-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"4***Rm<3?!HV#&75\"#>
+\"#=\"#<\"#;\"#:\"#9\"#8\"#7\"#6\"#5\"\"*\"\")\"\"(\"\"'\"\"&\"\"%\"\"
+$\"\"#\"\"\"6#%$fKnG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "fac
+Kn(123454321);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"*@VXB\"&7-\"\"$\"
+\"\"\"\"!F(\"\"'F*\"\"#F)F)F)F(6#%$fKnG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 468 14 "A helping ha
+nd" }{TEXT -1 259 " (not aimed at my students!!). If you are not famil
+iar with programming then the above may not make much sense, but if yo
+u are then the thinking behind it is obvious; it is simply based upon \+
+extending a simple example like: convert 63 (say) to base factorial." 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 465 9 "Roughwo
+rk" }{TEXT -1 60 ". 4! = 24, 5! = 120, and so 63 lies between 4! and 5
+!. Thus " }{XPPEDIT 18 0 "63 = d[4]*4!+d[3]*3!+d[2]*2!+d[1]*1!;" "6#/
+\"#j,**&&%\"dG6#\"\"%\"\"\"-%*factorialG6#F*F+F+*&&F(6#\"\"$F+-F-6#F2F
++F+*&&F(6#\"\"#F+-F-6#F8F+F+*&&F(6#F+F+-F-6#F+F+F+" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {XPPEDIT 18 0 "d[4];" "6#&%\"dG6#\"\"%" }{TEXT -1 43 "
+ is the quotient when 63 is divided by 4! \n" }}{PARA 15 "" 0 "" 
+{TEXT -1 25 "and the Maple command to " }{TEXT 466 6 "define" }{TEXT 
+-1 1 " " }{XPPEDIT 18 0 "d[4];" "6#&%\"dG6#\"\"%" }{TEXT -1 26 " is d[
+4] := iquo(63, 4!);\n" }}{PARA 257 "" 0 "" {TEXT -1 11 "and so is '" }
+{TEXT 471 1 "2" }{TEXT -1 16 "'. Then setting " }{XPPEDIT 18 0 "N[4] =
+ 63-d[4]*4!;" "6#/&%\"NG6#\"\"%,&\"#j\"\"\"*&&%\"dG6#F'F*-%*factorialG
+6#F'F*!\"\"" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "63-2.24;" "6#,&\"#j\"\"
+\"-%&FloatG6$\"$C#!\"#!\"\"" }{TEXT -1 5 " = 15" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 25 "and the Maple command to
+ " }{TEXT 467 6 "define" }{TEXT -1 1 " " }{XPPEDIT 18 0 "N[4];" "6#&%
+\"NG6#\"\"%" }{TEXT -1 26 " is N[4] := 63 - d[4]*4!; " }}{PARA 257 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Then " }{XPPEDIT 18 
+0 "d[3];" "6#&%\"dG6#\"\"$" }{TEXT -1 42 " is obtained by finding the \+
+quotient when " }{XPPEDIT 18 0 "N[4];" "6#&%\"NG6#\"\"%" }{TEXT -1 4 "
+ (= " }{XPPEDIT 18 0 "d[3]*3!+d[2]*2!+d[1]*1!" "6#,(*&&%\"dG6#\"\"$\"
+\"\"-%*factorialG6#F(F)F)*&&F&6#\"\"#F)-F+6#F0F)F)*&&F&6#F)F)-F+6#F)F)
+F)" }{TEXT -1 53 ") - namely 15 - is divided by 3! (so the quotient is
+ " }{TEXT 472 1 "2" }{TEXT -1 13 ", since 15 = " }{TEXT 473 1 "2" }
+{TEXT -1 28 ".3! + 3, and one then forms " }{XPPEDIT 18 0 "N[3];" "6#&
+%\"NG6#\"\"$" }{TEXT -1 16 " by subtracting " }{XPPEDIT 18 0 "d[3]*3!
+" "6#*&&%\"dG6#\"\"$\"\"\"-%*factorialG6#F'F(" }{TEXT -1 6 " from " }
+{XPPEDIT 18 0 "N[4];" "6#&%\"NG6#\"\"%" }{TEXT -1 40 ", etc. One will \+
+eventually obtain: 63 = " }{TEXT 474 1 "2" }{TEXT -1 6 ".4! + " }
+{TEXT 475 1 "2" }{TEXT -1 6 ".3! + " }{TEXT 476 1 "1" }{TEXT -1 6 ".2!
+ + " }{TEXT 477 1 "1" }{TEXT -1 4 ".1!." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 230 "There are some other elements (whil
+e, r:=j-1, etc) that would need explanation for a pure beginner, and I
+ would recommend such a person to consult some of my 1st year Maple ma
+terial. Here are the continued details for the example " }{TEXT 469 1 
+"n" }{TEXT -1 28 " = 63, but not written as a " }{TEXT 470 9 "procedur
+e" }{TEXT -1 33 " (the above facKn is a procedure)" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 45 "n := 63: for j while j! <= n do od: r := j-
+1:" }{TEXT -1 1 "\n" }{MPLTEXT 1 0 71 "d[r] := iquo(n, r!): N[r] := n \+
+- d[r]*r!:\nfor k from r-1 by -1 to 1 do\n" }{TEXT -1 0 "" }{MPLTEXT 
+1 0 105 "d[k] := iquo(N[k+1], k!): N[k] := N[k+1] - d[k]*k!: od:\nprin
+t(63=[seq(d[r+1-k], k=1..r)][basefactorial]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/\"#j&7&\"\"#F'\"\"\"F(6#%.basefactorialG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 21 "No
+w to return to the " }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 58 "Continuat
+ion to the Introduction, and some worked examples" }}{PARA 0 "" 0 "" 
+{TEXT -1 87 "Now we will see how to complete the details of the identi
+fication of the 'hidden' card." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 85 "Recall from the Introduction our illustra
+tive example 17, 38, 62, 116 and 120, where " }{TEXT 530 1 "A" }{TEXT 
+-1 8 " knows '" }{TEXT 531 1 "i" }{TEXT -1 15 "' to be 3 and '" }
+{TEXT 532 1 "s" }{TEXT -1 21 "' to be 2, and where " }{TEXT 423 1 "P" 
+}{TEXT -1 38 " - on receipt of the 4 cards - knows '" }{TEXT 424 1 "s
+" }{TEXT -1 25 "' to be '2'. Recall that " }{XPPEDIT 18 0 "c[3];" "6#&
+%\"cG6#\"\"$" }{TEXT -1 30 " renumbered value is 113 (= (-" }{TEXT 
+425 1 "s" }{TEXT -1 11 ") (mod 5))." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 15 "" 0 "" {TEXT -1 8 "113 = 5." }{TEXT 426 2 "22" }{TEXT -1 
+10 " + (5 - 2)" }}{PARA 15 "" 0 "" {TEXT -1 3 "so " }{TEXT 427 1 "A" }
+{TEXT -1 18 " needs to signal '" }{TEXT 478 2 "22" }{TEXT -1 5 "' to \+
+" }{TEXT 428 1 "P" }{TEXT -1 1 " " }}{PARA 15 "" 0 "" {TEXT -1 18 "in \+
+base factorial " }{TEXT 479 2 "22" }{TEXT -1 19 " is 3.3!+2.2!+0.1! " 
+}}{PARA 15 "" 0 "" {TEXT -1 3 "so " }{TEXT 429 1 "A" }{TEXT -1 14 " ne
+eds signal " }{TEXT 325 2 "22" }{TEXT -1 26 " with the triple (3, 2, 0
+)" }}{PARA 257 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 480 33 "A
+greement on how that may be done" }{TEXT -1 42 ". Consider this quadru
+ple of the 4 passed " }{TEXT 481 1 "c" }{TEXT -1 63 "'s: (38, 62, 17, \+
+120), and read the entries from left to right:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 51 "the 1st entry is '38', a
+nd of the following three, " }{TEXT 482 1 "1" }{TEXT -1 24 " of them i
+s less than 38" }}{PARA 15 "" 0 "" {TEXT -1 49 "the 2nd entry is '62',
+ and of the following two, " }{TEXT 483 1 "1" }{TEXT -1 24 " of them i
+s less than 62" }}{PARA 15 "" 0 "" {TEXT -1 63 "the 3rd entry is '17',
+ and of the following one, none of them (" }{TEXT 484 1 "0" }{TEXT -1 
+17 ") is less than 17" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 68 "Now, simply make the understanding that passing the fo
+ur cards 17 (=" }{XPPEDIT 18 0 "c[0];" "6#&%\"cG6#\"\"!" }{TEXT -1 8 "
+), 38 (=" }{XPPEDIT 18 0 "c[1];" "6#&%\"cG6#\"\"\"" }{TEXT -1 8 "), 62
+ (=" }{XPPEDIT 18 0 "c[2];" "6#&%\"cG6#\"\"#" }{TEXT -1 12 ") and 120 \+
+(=" }{XPPEDIT 18 0 "c[4];" "6#&%\"cG6#\"\"%" }{TEXT -1 47 ") in the le
+ft-to-right order (38, 62, 17, 120) " }{TEXT 485 12 "would signal" }
+{TEXT -1 36 " the number 1.3! + 1.2! + 0.1! (=8)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "But, wishing to signal th
+e number 22 (=" }{TEXT 486 1 "3" }{TEXT -1 4 ".3!+" }{TEXT 487 1 "2" }
+{TEXT -1 4 ".2!+" }{TEXT 488 1 "0" }{TEXT -1 110 ".1!) from our exampl
+e above, we should signal by passing in the left-to-right order (120, \+
+62, 17, 38) since: \n" }}{PARA 15 "" 0 "" {TEXT -1 52 "the 1st entry i
+s '120', and of the following three, " }{TEXT 490 1 "3" }{TEXT -1 26 "
+ of them are less than 120" }}{PARA 15 "" 0 "" {TEXT -1 49 "the 2nd en
+try is '62', and of the following two, " }{TEXT 491 1 "2" }{TEXT -1 
+25 " of them are less than 62" }}{PARA 15 "" 0 "" {TEXT -1 63 "the 3rd
+ entry is '17', and of the following one, none of them (" }{TEXT 489 
+1 "0" }{TEXT -1 17 ") is less than 17" }}{PARA 257 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 77 "The point is simply that for any qua
+druple (A, B, C, D) of distinct numbers:\n" }}{PARA 15 "" 0 "" {TEXT 
+-1 82 "the number of numbers from [B, C, D] that are less than A is 0,
+ 1, 2 or 3 (gives '" }{XPPEDIT 18 0 "d[3];" "6#&%\"dG6#\"\"$" }{TEXT 
+-1 2 "')" }}{PARA 15 "" 0 "" {TEXT -1 76 "the number of numbers from [
+C, D] that are less than B is 0, 1 or 2 (gives '" }{XPPEDIT 18 0 "d[2]
+;" "6#&%\"dG6#\"\"#" }{TEXT -1 2 "')" }}{PARA 15 "" 0 "" {TEXT -1 70 "
+the number of numbers from [D] that are less than C is 0 or 1 (gives '
+" }{XPPEDIT 18 0 "d[1];" "6#&%\"dG6#\"\"\"" }{TEXT -1 2 "')" }}{PARA 
+258 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 533 
+1 "P" }{TEXT -1 28 " then knows that the hidden " }{TEXT 534 0 "" }
+{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT -1 41 " has shifted val
+ue 113 (= 5.(the decoded " }{TEXT 536 2 "22" }{TEXT -1 10 ")) + (5 - \+
+" }{TEXT 535 1 "s" }{TEXT -1 57 ")) , and its actual value satisfies t
+he vital congruence:" }}{PARA 259 "" 0 "" {XPPEDIT 18 0 "c[i] = i-2;" 
+"6#/&%\"cG6#%\"iG,&F'\"\"\"\"\"#!\"\"" }{TEXT -1 8 " (mod 5)" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 537 1 "
+P" }{TEXT -1 17 " then knows that " }{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#
+%\"iG" }{TEXT -1 79 " cannot be 17, 38 nor 62 (they are less than the \+
+shifted value, and so must be " }{XPPEDIT 18 0 "c[0],c[1];" "6$&%\"cG6
+#\"\"!&F$6#\"\"\"" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "c[2];" "6#&%\"c
+G6#\"\"#" }{TEXT -1 10 "), and so " }{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#
+%\"iG" }{TEXT -1 9 " must be " }{XPPEDIT 18 0 "c[3];" "6#&%\"cG6#\"\"$
+" }{TEXT -1 11 ", allowing " }{TEXT 538 2 "P " }{TEXT -1 10 "know that
+ " }{TEXT 539 0 "" }{TEXT -1 0 "" }{TEXT 540 1 "i" }{TEXT -1 49 " is 3
+. Adding 3 to 113 gives the hidden card 116." }}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 34 "A telegraphic worked example with " }{TEXT 499 1 "n" }
+{TEXT -1 4 " = 4" }}{PARA 0 "" 0 "" {TEXT -1 5 "Here " }{TEXT 500 1 "n
+" }{TEXT -1 4 "! + " }{TEXT 501 1 "n" }{TEXT -1 87 " - 1 = 24+4-1 = 27
+, and the base factorial bound is 3!-1, namely 5 (so keep and eye on \+
+" }{XPPEDIT 18 0 "d[2]*2!+d[1]*1!;" "6#,&*&&%\"dG6#\"\"#\"\"\"-%*facto
+rialG6#F(F)F)*&&F&6#F)F)-F+6#F)F)F)" }{TEXT -1 1 ")" }}{PARA 15 "" 0 "
+" {TEXT 502 1 "C" }{TEXT -1 49 " chooses 4 numbers from 0, 1, 2, ... ,
+ 26, say: (" }{XPPEDIT 18 0 "c[0],c[1],c[2],c[3];" "6&&%\"cG6#\"\"!&F$
+6#\"\"\"&F$6#\"\"#&F$6#\"\"$" }{TEXT -1 20 ") = (3, 14, 22, 23)." }}
+{PARA 15 "" 0 "" {TEXT -1 0 "" }{TEXT 503 1 "A" }{TEXT -1 13 " calcula
+tes '" }{TEXT 504 1 "i" }{TEXT -1 7 "' from " }{TEXT 507 1 "i" }{TEXT 
+-1 37 " = 3+14+22+23 = 3+2+2+3 = 2 (mod 4); " }{TEXT 509 1 "i" }{TEXT 
+-1 25 " = 2, the hidden card is " }{XPPEDIT 18 0 "c[2] = 22;" "6#/&%\"
+cG6#\"\"#\"#A" }{TEXT -1 82 ", and the cards to be passed will be 3, 1
+4 and 23 (in the order determined below:)" }}{PARA 15 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 505 1 "A" }{TEXT -1 13 " calculates '" }{TEXT 506 1 "s
+" }{TEXT -1 7 "' from " }{TEXT 508 1 "s" }{TEXT -1 32 " = 3+14+23 = 3+
+2+3 = 0 (mod 4); " }{TEXT 510 1 "s" }{TEXT -1 5 " = 0." }}{PARA 15 "" 
+0 "" {TEXT -1 32 "After the imagined renumbering, " }{XPPEDIT 18 0 "c[
+2];" "6#&%\"cG6#\"\"#" }{TEXT -1 30 "'s new location will be 20 (= " }
+{XPPEDIT 18 0 "c[2]-i = 22-2;" "6#/,&&%\"cG6#\"\"#\"\"\"%\"iG!\"\",&\"
+#AF)F(F+" }{TEXT -1 6 ") = 4." }{TEXT 512 1 "5" }{TEXT -1 9 ", and so \+
+" }{TEXT 511 1 "A" }{TEXT -1 23 " needs to signal that '" }{TEXT 513 
+1 "5" }{TEXT -1 5 "' to " }{TEXT 514 1 "P" }{TEXT -1 35 " (now, though
+, with representation " }{XPPEDIT 18 0 "d[2]*2!+d[1]*1!;" "6#,&*&&%\"d
+G6#\"\"#\"\"\"-%*factorialG6#F(F)F)*&&F&6#F)F)-F+6#F)F)F)" }{TEXT -1 
+116 "). Since 5 = 2.2! + 1.1! then the correct (agreed) order in which
+ to pass them is 23, followed by 14, followed by 3." }}{PARA 15 "" 0 "
+" {TEXT 515 1 "P" }{TEXT -1 57 ", on receiving the ordered triple (23,
+ 14, 3), sees that " }{TEXT 516 1 "s" }{TEXT -1 38 " is 0 (23+14+3 = 3
++2+3 = 0 (mod 4)). \n" }{TEXT 517 1 "P" }{TEXT -1 12 " knows that " }
+{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" }{TEXT -1 32 "'s renumbered va
+lue is one of 4." }{TEXT 518 1 "0" }{TEXT -1 4 ", 4." }{TEXT 519 1 "1
+" }{TEXT -1 4 ", 4." }{TEXT 520 1 "2" }{TEXT -1 4 ", 4." }{TEXT 521 1 
+"3" }{TEXT -1 4 ", 4." }{TEXT 522 1 "4" }{TEXT -1 6 " or 4." }{TEXT 
+523 1 "5" }{TEXT -1 158 ", and, on seeing the ordered triple (23, 14, \+
+3), reads left to right and sees that:\n\n     the two numbers to the \+
+right of 23 are both smaller than it, and so " }{XPPEDIT 18 0 "d[2] = \+
+2;" "6#/&%\"dG6#\"\"#F'" }{TEXT -1 63 "\n     the number to the right \+
+of 14 is smaller than it, and so " }{XPPEDIT 18 0 "d[1] = 1;" "6#/&%\"
+dG6#\"\"\"F'" }{TEXT -1 8 "\n \nThus " }{TEXT 524 1 "P" }{TEXT -1 12 "
+ knows that " }{TEXT 525 1 "s" }{TEXT -1 15 " = 2.2!+1.1! = " }{TEXT 
+526 1 "5" }{TEXT -1 13 ", knows that " }{XPPEDIT 18 0 "c[i];" "6#&%\"c
+G6#%\"iG" }{TEXT -1 25 "'s renumbered value is 4." }{TEXT 527 1 "5" }
+{TEXT -1 84 " = 20, and seeing the two smaller cards 3 and 14 (smaller
+ than the shifted value of " }{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG" 
+}{TEXT -1 14 ") knows that  " }{XPPEDIT 18 0 "c[i];" "6#&%\"cG6#%\"iG
+" }{TEXT -1 8 " is not " }{XPPEDIT 18 0 "c[0];" "6#&%\"cG6#\"\"!" }
+{TEXT -1 5 " nor " }{XPPEDIT 18 0 "c[1];" "6#&%\"cG6#\"\"\"" }{TEXT 
+-1 12 ", and so is " }{XPPEDIT 18 0 "c[2];" "6#&%\"cG6#\"\"#" }{TEXT 
+-1 2 ". " }{TEXT 541 1 "P" }{TEXT -1 49 " then adds 2 to 20 to obtain \+
+22, the hidden card." }}}{PARA 257 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 492 6 "Advice" }{TEXT -1 12 ". PRACTICE!!" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 493 8 "Exercise" }{TEXT -1 23 
+". Take the simple case " }{TEXT 494 1 "n" }{TEXT -1 74 " = 3, choose \+
+two fixed cards (say '2' and '6') numbered 0 to 7, and a 3rd " }{TEXT 
+497 8 "variable" }{TEXT -1 7 " card '" }{TEXT 495 1 "c" }{TEXT -1 48 "
+'. Now, work out the signals for the triple (2, " }{TEXT 496 1 "c" }
+{TEXT -1 5 ", 6)." }}}}{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>Egyptian.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark7">
+<p align=left>
+<b><font color=#000080 size=4>Some useful working procedures</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The following simple procedure is easily built upon the above:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>egypt := proc(R) <br>
+local r, n, k;<br>
+r[0] := R: <br>
+n[1] := ceil(1/r[0]):<br>
+for k while type(1/r[k-1], integer) = false do<br>
+r[k] := r[k-1] - 1/n[k]:<br>
+n[k+1] := ceil(1/r[k]):<br>
+od: <br>
+seq(1/n[m], m=1..k);<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>egypt(1/7);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian133.gif" width=24 height=45 alt="1/7">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>egypt(3/15); # here '3/15' is already a unit fraction</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian134.gif" width=24 height=45 alt="1/5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>egypt(3/5);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian135.gif" width=48 height=45 alt="1/2, 1/10">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>egypt(17/39);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian136.gif" width=80 height=45 alt="1/3, 1/10, 1/390">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>egypt(171/3391); # the original example</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian137.gif" width=520 height=45 alt="1/20, 1/2339, 1/14420999, 1/254179689327669, 1/5814...">
+</p>
+<p align=left>
+<b><font color=#000080>A dramatic example due to Stan Wagon is </font></b>
+<img src="images/Egyptian138.gif" width=44 height=58 alt="31/311" align=middle>
+<b><font color=#000080> (which I'm not executing for printing):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># egypt(31/311);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>A way of checking (if you wish) is to make the output into a List, and then add the elements of that list:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>L := [egypt(17/39)];<br>
+add(x, x = L);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian139.gif" width=130 height=45 alt="L := [1/3, 1/10, 1/390]">
+</p>
+<p align=center>
+<img src="images/Egyptian140.gif" width=32 height=45 alt="17/39">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := ithprime(100);<br>
+b := ithprime(200);<br>
+egypt(a/b);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian141.gif" width=70 height=20 alt="a := 541">
+</p>
+<p align=center>
+<img src="images/Egyptian142.gif" width=78 height=20 alt="b := 1223">
+</p>
+<p align=center>
+<img src="images/Egyptian143.gif" width=224 height=45 alt="1/3, 1/10, 1/111, 1/79855, 1/21681111630">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 9!+1:<br>
+b := 10!+1:<br>
+egypt(a/b);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian144.gif" width=440 height=45 alt="1/10, 1/4032002, 1/18289166112003, 1/66898719414485...">
+</p>
+<p align=left>
+<b><font color=#000080>Here's a simple variation which will allow us to see the </font></b>
+<i><b><font color=#000080>decreasing </font></b></i>
+<b><font color=#000080>numerators (the last of which will always be '1', for we have arrived at a </font></b>
+<i><b><font color=#000080>terminating</font></b></i>
+<b><font color=#000080> unit fraction):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>stages := proc(R) <br>
+local r, n, k, m;<br>
+r[0] := R: <br>
+n[1] := ceil(1/r[0]):<br>
+for k while type(1/r[k-1], integer) = false do<br>
+r[k] := r[k-1] - 1/n[k]:<br>
+n[k+1] := ceil(1/r[k]):<br>
+od: <br>
+print(seq(1/n[m], m=1..k));<br>
+lprint(`Decreasing numerators:`);<br>
+seq(numer(r[m]), m=0..k-1);<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>stages(4/17);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian145.gif" width=152 height=45 alt="1/5, 1/29, 1/1233, 1/3039345">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Decreasing numerators:`</font></pre></tt></b>
+</p>
+<p align=center>
+<img src="images/Egyptian146.gif" width=72 height=20 alt="4, 3, 2, 1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>The '3, 2, 1' in the output are last </font></b>
+<i><b><font color=#000080>three</font></b></i>
+<b><font color=#000080> numerators on the RHS in:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Egyptian147.gif" width=108 height=58 alt="4/17 = 1/5+3/85" align=middle>
+<b><font color=#000080><br>
+</font></b>
+<img src="images/Egyptian148.gif" width=132 height=58 alt="3/85 = 1/29+2/2465" align=middle>
+<b><font color=#000080><br>
+</font></b>
+<img src="images/Egyptian149.gif" width=188 height=58 alt="2/2465 = 1/1233+1/3039345" align=middle>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := ithprime(100);<br>
+b := ithprime(200);<br>
+stages(a/b);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian150.gif" width=70 height=20 alt="a := 541">
+</p>
+<p align=center>
+<img src="images/Egyptian151.gif" width=78 height=20 alt="b := 1223">
+</p>
+<p align=center>
+<img src="images/Egyptian152.gif" width=224 height=45 alt="1/3, 1/10, 1/111, 1/79855, 1/21681111630">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Decreasing numerators:`</font></pre></tt></b>
+</p>
+<p align=center>
+<img src="images/Egyptian153.gif" width=144 height=20 alt="541, 400, 331, 17, 1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>a := 9!+1:<br>
+b := 10!+1:<br>
+stages(a/b);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian154.gif" width=440 height=45 alt="1/10, 1/4032002, 1/18289166112003, 1/66898719414485...">
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>`Decreasing numerators:`</font></pre></tt></b>
+</p>
+<p align=center>
+<img src="images/Egyptian155.gif" width=112 height=20 alt="362881, 9, 2, 1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>If we wanted only to see </font></b>
+<b><font color=#000080 size=4>how many</font></b>
+<b><font color=#000080> steps there were when the greedy algorithm was applied, we could do something like this:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>howmany := proc(R) local r, n, k, m;<br>
+r[0] := R: n[1] := ceil(1/r[0]):<br>
+for k while type(1/r[k-1], integer) = false do<br>
+r[k] := r[k-1] - 1/n[k]:<br>
+n[k+1] := ceil(1/r[k]):<br>
+od: k; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>howmany(4/19);</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian156.gif" width=24 height=20 alt="2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>howmany(4/17); # the maximum number with numerator '4':</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian157.gif" width=24 height=20 alt="4">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:06 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

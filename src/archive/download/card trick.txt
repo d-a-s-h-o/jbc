@@ -1,0 +1,34 @@
+Dear colleagues,
+
+"It's a kind of magic" is the title of an article by Ian Stewart (Prof at
+Warwick Univ, and well known author of popular articles on mathematical
+topics) in the 4th January 2003 issue of the New Scientist. I have just
+placed a colour photocopy of it (two pages only) on the unofficial (open)
+mathematics board opposite my office in E block. I hope you will make time
+to glance at it.
+
+For me the timing of Stewart's article is perfect, since the topic of his
+article (an extraordinary card trick, devised by William Finch Cheney, Jr,
+(Cheney was awarded the first Mathematics PhD at the renowned MIT)) forms a
+(small) part of my new 3rd year BA course - Challenging Mathematical Puzzles
+and Problems - that I have just begun.
+
+The trick is this: choose any 5 cards from a 52 pack of cards, and pass them
+to my assistant, who - having looked at them - passes a certain 4 of them to
+me. I can then tell you the card that my assistant still holds. There are no
+mirrors, touching ears, etc. The problem-to-be-solved is of course: how is
+it done?
+
+Incidentally the mathematics of it ensures that the same trick may be done
+with any pack of cards (still choosing 5) up to a maximum of 124 cards. If
+one were to allow a choice of 6 cards, then the maximum may be increased to
+725, ... , and if one were to drop back - as it were - then a choice of 3
+allows for a maximum of 8, and at the absolute lowest a choice of 2 allows
+for a maximum of 3 (so let the 'cards' be '1', '2', and '3'; choose any 2 of
+those, pass them to my assistant, who then passes just 1 of those to me. I
+may then 'reveal' the 'other' card. HOW? Yes, yes, of course that's simple,
+but how about the 52 cards pack...).
+
+Pleasant thoughts (nay dreams),
+
+John

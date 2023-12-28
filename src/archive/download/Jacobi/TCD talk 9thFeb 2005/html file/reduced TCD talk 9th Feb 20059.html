@@ -1,0 +1,301 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark9">
+<p align=left>
+<b><font color=#000080 size=4>A diary entry, some emails, the inexplicable clarifies</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A mathematical diary entry of Mon 13th December 2004 will do more than anything I believe to explain the next step; I quote the entry </font></b>
+<i><b><font color=#000080>exactly</font></b></i>
+<b><font color=#000080> as written:<br>
+<br>
+        " </font></b>
+<i><b><font color=#000080>Is the general result simply a question of '1' relationships? Meaning: If p is a prime such that<br>
+           </font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005217.gif" width=154 height=32 alt="p-1 = 3*p[1]*p[2]*`...`*p[r]" align=middle>
+<b><font color=#000080> , { </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005218.gif" width=29 height=32 alt="p[i]" align=middle>
+<b><font color=#000080> }  </font></b>
+<i><b><font color=#000080>some primes (none = 3) such that</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005219.gif" width=222 height=40 alt="product(some)-product(others) = 1" align=middle>
+<b><font color=#000080>, <br>
+           </font></b>
+<i><b><u><font color=#000080>then</font></u></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005220.gif" width=109 height=36 alt="P[1,3](p)^3 = 1" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>mod p).   And conversely? (Surely not…; but nevertheless: investigate!</font></b></i>
+<b><font color=#000080>) "<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>In other words</font></b>
+<b><font color=#000080>: if prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> satisfies</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005221.gif" width=154 height=32 alt="p-1 = 3*p[1]*p[2]*`...`*p[r]" align=middle>
+<b><font color=#000080>  (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005222.gif" width=57 height=32 alt="p[i] &lt;&gt; 3" align=middle>
+<b><font color=#000080>, all </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>and the { </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005223.gif" width=29 height=32 alt="p[i]" align=middle>
+<b><font color=#000080> } divide into two, (necessarily disjoint) sets of primes or prime powers (since a prime may occur to a certain multiplicity in the factorisation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005224.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>) </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005225.gif" width=90 height=32 alt="L[1] = {p1[j]}" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005226.gif" width=94 height=32 alt="L[2] = {p2[k]}" align=middle>
+<b><font color=#000080>, such that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005227.gif" width=164 height=40 alt="product(p1[j])-product(p2[k])" align=middle>
+<b><font color=#000080> differ by 1, does it follow that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005228.gif" width=109 height=36 alt="P[1,3](p)^3 = 1" align=middle>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>mod p</font></b></i>
+<b><font color=#000080>)? And conversely?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>On the evening of Wed 15th Dec I finally got round to investigating that question. I will be frank and admit I thought it all simply too-good-to-be-true; surely - I thought - I would find a counterexample fairly early amongst my found Jacobi primes. And that's precisely what I set out to do: find an early counterexample…</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Earlier that evening, before leaving my college, I sent the following email to Andrew Granville</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>From: John Cosgrave [john.cosgrave@spd.dcu.ie]<br>
+Sent: 15 December 2004 19:06<br>
+To: Andrew Granville (E-mail)<br>
+Subject: p=1 mod 3, (((p-1)/3)!)^3 mod p: some beautiful (re?)discoveries<br>
+<br>
+Dear Andrew,<br>
+<br>
+You are the only person to whom I am writing about the matter below (unless you direct me elsewhere). In the past three weeks I've made some of the most beautiful discoveries of my life, and it is hard for me to believe they haven't already been made. I've got to a point where I really need to know, before the disappointment factor gets to be too great.<br>
+<br>
+First, the standard background to what I've been doing: Wilson's theorem, and the classic consequences (due to Lagrange?) that<br>
+<br>
+1. (((p-1)/2)!)^2 = -1 (mod p), for p = 1 (mod 4)<br>
+2. (((p-1)/2)!)^2 =  1 (mod p), for p = 3 (mod 4)<br>
+<br>
+From #2 one has ((p-1)/2)! = +1/-1 (mod p), for p = 3 (mod 4), and the (still I presume unsolved?) problem of determining the sign by some *simple* criterion. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+All of that is to do with dividing the interval [1, p-1] into two reflecting half-intervals <br>
+[1, (p-1)/2] and [(p-1)/2+1, p-1]. Now to move on to what I've stumbled upon in recent weeks.<br>
+<br>
+For p = 1 (mod 3), divide the interval [1, p-1] into three equi-numerous blocks. Let I[1,3](p), I[2,3](p) and I[3,3](p) be the intervals [1, (p-1)/3], [(p-1)/3 + 1, 2*((p-1)/3)], and [2*(p-1)/3+1, p-1], and let P[1,3](p), P[2,3](p) and P[3,3](p) be the products of the residues in I[1,3](p), I[2,3](p) and I[3,3](p); then, by Wilson's theorem, we have:<br>
+<br>
+				P[1,3](p)*P[2,3](p)*P[3,3](p) = -1 (mod p) ... (a)<br>
+<br>
+and, since P[1,3](p) = P[3,3](p) (mod p), then (a) becomes:<br>
+<br>
+				(P[1,3](p)^2)*P[2,3](p) = -1 (mod p) ... (b)<br>
+<br>
+P[1,3](p) is of course ((p-1)/3)! There are then these equivalences:<br>
+<br>
+E1.    P[1,3](p) = P[2,3](p) (mod p) &lt;=&gt; (((p-1)/3)!)^3 = -1 (mod p) ... (i)<br>
+<br>
+(if the latter happens, either ((p-1)/3)! = -1 (mod p) or P[1,3]^2 - P[1,3] + 1 = 0 (mod p))<br>
+<br>
+		and<br>
+<br>
+E2.    P[1,3](p) = -P[2,3](p) (mod p) &lt;=&gt; (((p-1)/3)!)^3 = 1 (mod p) ... (ii)<br>
+<br>
+(if the latter happens, either ((p-1)/3)! = 1 (mod p) or P[1,3]^2 + P[1,3] + 1 = 0 (mod p))<br>
+<br>
+The obvious questions are then: when (if ever) do (i) or (ii) happen? More importantly: is there anything interesting/beautiful going on? I believe I have made some truly beautiful discoveries, and I think you know me well enough - albeit only by email - to know I would not waste your time by telling you something trivial. <br>
+<br>
+Several years ago I had a look at the above, but then only the following special case versions of (i) and (ii), namely</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>((p-1)/3)! = -1 (mod p) ... (i') and ((p-1)/3)! =  1 (mod p) ... (ii')<br>
+<br>
+At that time I found *no* example of (i') happening (I believe it is impossible, but cannot for the life of me prove it. Am I missing something obvious? I have checked all p = 1 (mod 3) out to 3 million), but several examples of (ii'). The primes p up to 1 million for which (ii') happens are p = 3571, 4219, 13669, 25117, 55897, 89269, 102121, 170647, 231019, 246247,251431, 347821, 360187, 398581, 452797, 603457, 611557, 879667, 909151 (I looked to see if they are listed in Sloane's On-Line Encyclopaedia; they aren't there, not that that proves anything...)<br>
+<br>
+When I looked at the early ones of those several years ago, I had the wit to consider the prime factorisations of (p-1), and noticed something going on, but completely failed to notice something else, something stunning (well, to me at any rate), which I'll tell you in a moment):<br>
+<br>
+p = 3571, p-1 = 2*3*5*7*17<br>
+p = 4219, p-1 = 2*3*19*37<br>
+p = 13669, p-1 = (2^2)*3*17*67<br>
+p = 25117, p-1 = (2^2)*3*7*13*23<br>
+p = 55879, p-1 = (2^3)*3*17*137<br>
+p = 89269, p-1 = (2^2)*3*43*173<br>
+p = 102121, p-1 = (2^3)*3*5*23*37<br>
+p = 170647, p-1 = 2*3*7*17*239<br>
+<br>
+(One obvious thing that jumped out was that '3' occurred only to the first power in the p-1 factorisation. Is that obviously true? I couldn't see then why it should be true.) It stuck out a mile that<br>
+ <br>
+37 = -1 (mod 19) in the p = 4219 case, that <br>
+67 =  1 (mod 17) in the p = 13669 case, that<br>
+137 = 1 (mod 17) in the p = 55879 case, and that <br>
+173 = 1 (mod 43) in the p = 89269 case, <br>
+<br>
+but similar congruences didn't *appear* to be happening in the other cases (now I know what I missed with those), and although I sensed that something 'must be up', I just couldn't see it, and moved on...<br>
+<br>
+Now, starting on Tues 23rd Nov - when I decided to return to this again - the floodgates fairly opened...<br>
+<br>
+I had failed to notice the *quotients* in those congruences:<br>
+ <br>
+37 = 2*19 - 1 in the p = 4219 case <br>
+67 = 4*17 + 1 in the p = 13669 case<br>
+137 = 8*17 + 1 in the p = 55879 case <br>
+173 = 4*43 + 1 in the p = 89269 case<br>
+<br>
+and those quotients - all powers of 2 - are the *exact* contribution of '2' in the corresponding prime factorisations of (p-1). Now, though, I had widened my net from earlier years, and had now extended my search for primes p satisfying E1(i) or E2(ii). No prime p yielded an example with (((p-1)/3)!)^3 = -1 (mod p), but there were now examples of (((p-1)/3)!)^3 = 1 (mod p), with order(((p-1)/3)!, p) = 3. Here are the first several examples:<br>
+<br>
+p = 7, p-1 = 2*3, ((p-1)/3)! = 2 (mod p)<br>
+p = 61, p-1 = (2^2)*3*5, ((p-1)/3)! = -14 (mod p)<br>
+p = 331, p-1 = 2*3*5*11, ((p-1)/3)! = -32 (mod p) <br>
+p = 547, p-1 = 2*3*7*13, ((p-1)/3)! = 40 (mod p) <br>
+p = 1951, p-1 = 2*3*(5^2)*13, ((p-1)/3)! = 76 (mod p)<br>
+...<br>
+<br>
+There, too, there were subset examples of the same power-of-2 quotients, which led me to wonder this: let p be a prime of the form (2^a)*3*q[1]*q[2] + 1, with q[1] &gt; 3 and q[2] = (2^a)*q[1] +/-1, is it true that (((p-1)/3)!)^3 = 1 (mod p). <br>
+<br>
+Before I even began to calculate I felt absolutely certain that it would be true (and it is!, I can't resist telling you) because the discriminant of the resulting quadratic in q[1] *felt right*: <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>		p = (2^a)*3*q[1]*q[2] + 1 = (2^a)*3*q[1]*((2^a)*q[1] +/-1) + 1<br>
+              = (2^(2*a))*q[1]^2 +/- (2^a)*q[1] + 1<br>
+<br>
+so clearly must be related to the *mod p* cube-roots of 1: 1, (-1 +/-sqrt(-3))/2.<br>
+<br>
+Yes, of course I calculated, and in every single case (of scores tested - way beyond the 1 million mark for p) it transpired that (((p-1)/3)!)^3 = 1 (mod p). For example, p = 15085747969 = (2^8)*3*277*70913 + 1, and 70913 = (2^8)*277 + 1. (Incidentally, the checking of that took 45.5 hours on a 2.8GHz Pentium 4)<br>
+<br>
+I could tell you of many other things I've fallen upon, but (and I'm not being coy, merely saving you having to read...) I can't but resist two:<br>
+<br>
+One. When (((p-1)/3)!)^3 = 1 (mod p), with order(((p-1)/3)!, p) = 3, then not only is P[1,3]^2 + P[1,3] + 1 = a multiple of p, as it must be, BUT P[1,3]^2 + P[1,3] + 1 (*appears to be*) = 3*p<br>
+<br>
+Two (this is one that really moved me, when it fell into place). In trying to make a proof of the (p, q[1], q[2]) result - of course I can't prove it, though I do have *some* ideas, and I do believe I'll get there in the end - I fell upon this (I could tell you how it happened, I have it all written down on reams and reams of paper): it *appeared* to me that when (((p-1)/3)!)^3 = 1 (mod p) happens, THEN setting ((p-1)/3)^3 (NO FACTORIAL MISSING there) = R (mod p), 0 &lt; R &lt; p, R is a SQUARE. Initially that jumped out at me when I was pondering the example p = 331 (recall from above that p = 331, p-1 = 2*3*5*11, ((p-1)/3)! = -32 (mod p)); there one has 110! = 49 (mod 331). It wasn't that I merely 'saw' that the residue of ((331-1)/3)^3 mod 331 was 49, but in looking with reason at consecutive congruent cubes mod 331 (they happen to be 10^3 and 11^3) I saw this: 10^3 = 7 (mod 331) and 11^3 = 7 mod 331, AND 10*11 = 110; that's what I 'saw', which threw my eye to the final cubic residue...<br>
+<br>
+That immediately made me wonder about the other primes p I had collected for which (((p-1)/3)!)^3 = 1 (mod p). Checking ALL examples that I already had, the same phenomenon happened, and made me wonder (surely not I thought): would the condition ((p-1)/3)^3 = r^2 (mod p), 0 &lt; r^2 &lt; p, FORCE (((p-1)/3)!)^3 = 1 (mod p) to HAPPEN (a *polynomial* condition forcing a MASSIVE *factorial* consequence...)<br>
+<br>
+So I computed ALL primes p up to wherever that satisfied ((p-1)/3)^3 = r^2 (mod p), 0 &lt; r^2 &lt; p, and it didn't surprise me that there were ones that weren't in my list of those with (((p-1)/3)!)^3 = 1 (mod p). They, too, are rare, and here are the first several: 109, 139, 433, 673, 1279, 1543, ... . For example: p = 1543, here 514! = 20^2 (mod 1543).<br>
+<br>
+My disappointment turned to JOY though, when I noticed that there was a fundamental difference between the two cases: the earlier ones were ALL ODD squares, while the 'extra' ones were ALL EVEN squares... I was absolutely flabbergasted, and I still am, now 13 days later. (The 'extra' ones threw up an independently interesting phenomenon - with an ABC flavour to it - which I won't bore you with).<br>
+<br>
+Am I merely rediscovering well-known material? I can't find my personal copy of Volume 1 of Dickson (an obvious place to look), and you'll understand that I'm reluctant to send a query to the NT mailing list, in case this really is new. I thought I would not wish to hear bad news, but now that I've written this out of my system, I think I'm prepared to hear the worst. I hope all is well with you. John </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>And a few hours later I sent this</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>From:  John.Cosgrave@spd.dcu.ie <br>
+To: Andrew Granville (E-mail)<br>
+Cc:  John.Cosgrave@spd.dcu.ie <br>
+Subject:  ALL p with (((p-1)/3)!)^3 =3D 1 (mod p) <br>
+Sent:  Wed, 15 Dec 2004 22:33:48 +0000 <br>
+<br>
+Dear Andrew,<br>
+<br>
+Cycling home I had an idea which clarified many of the loose intuitions that I've fumbled with over the past weeks, and then - quite suddenly - it all came together for me in one single moment (I have all the motivating squiggles here in my lap): it appeared to me that the p's that force (((p - 1)/3)!)^3 =1 (mod p) to happen are *exclusively*<br>
+the prime values of the quadratic 27*x^2 + 27*x + 7 !!!!!!!!! <br>
+<br>
+I should tell you something, just so you don't think I'm being too mystical about this: that polynomial actually came about from my making up (prime) p =3*m^2 + 3*m + 1, with m^2 + m &lt;&gt; 0 (mod 3), forcing m = 3*X +1, and so producing the 27*X^2 etc. And - while I'm at it - the p =3*m^2+ 3*m + 1 came from p-1 =3*p[1]*p[2]*p[3]*...*p[r], *none* of the p[i]= being '3', and such that they divided into two (necessarily disjoint) sets whose products differed by exactly 1. Thus, for example, in the case p = 3571 - a case that made no sense to me years ago, it wasn't one of those that satisfied the congruence observation I told you about earlier - p-1 = 2*[3]*5*7*17, and here 5*7 - 2*17 = 1. I've tried to paste in the Maple output from:<br>
+<br>
+&gt; for x from 0 to 200 do<br>
+   if isprime(27*x^2 + 27*x + 7)<br>
+   then print(x, 27*x^2 + 27*x + 7)<br>
+   fi od;<br>
+                                 0, 7<br>
+                                1, 61<br>
+                                3, 331<br>
+                                4, 547<br>
+                               8, 1951<br>
+                               9, 2437<br>
+                               11, 3571<br>
+                               12, 4219<br>
+                               16, 7351<br>
+                               17, 8269<br>
+                               18, 9241<br>
+                              19, 10267<br>
+                              22, 13669<br>
+                              29, 23497<br>
+                              30, 25117<br>
+                              45, 55897<br>
+                              47, 60919<br>
+                              52, 74419<br>
+                              57, 89269<br>
+                              58, 92401<br>
+                              61, 102121<br>
+                              64, 112327<br>
+                              65, 115837<br>
+                              68, 126691<br>
+                              73, 145861<br>
+                              79, 170647<br>
+                              86, 202021<br>
+                              92, 231019<br>
+                              94, 241117<br>
+                              95, 246247<br>
+                              96, 251431<br>
+                              99, 267307<br>
+                             102, 283669<br>
+                             110, 329677<br>
+                             113, 347821<br>
+                             115, 360187<br>
+                             117, 372769<br>
+                             121, 398581<br>
+                             129, 452797<br>
+                             130, 459817<br>
+                             148, 595411<br>
+                             149, 603457<br>
+                             150, 611557<br>
+                             151, 619711<br>
+                             152, 627919<br>
+                             170, 784897<br>
+                             173, 812761<br>
+                             180, 879667<br>
+                             183, 909151<br>
+                             185, 929077<br>
+                             186, 939121<br>
+                             191, 990151<br>
+                             194, 1021417<br>
+                             199, 1074607<br>
+                             200, 1085407<br>
+<br>
+I don't know how that will appear on your screen. I apologise most sincerely if I am only telling you something well-known, and I'll never bother you again. So much for my beautiful cube-square relationship (I don't mean that, for the cube-square insight is the most beautiful matahematical experience I think I've had in my life). And now I simply must go to bed; I haven't had a proper sleep for weeks. John</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                              ______________________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I do not intend putting Andrew Granville's responses into the public domain, but suffice it here to record that withing days of commencing a frenetic correspondence he came up with a proof of Theorems 1 and 2, using theorems of Gauss and Jacobi from the 1820's together with more recent (1980) joint work of R. H. Hudson and K. S. Williams, as detailed in the Canadian Math. Soc. monograph </font></b>
+<i><b><font color=#000080>Gauss and Jacobi Sums</font></b></i>
+<b><font color=#000080>. Those proofs will appear in my yet to be submitted paper. </font></b>
+</p>
+</basefont>
+</body>
+</html>

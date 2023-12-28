@@ -1,0 +1,390 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 
+0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courie
+r" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 
+1 2 1 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 
+1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 
+3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Time
+s" 1 12 0 0 128 1 2 1 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "# e^2 and e^4 paper.
+mws" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 34 "This Maple worksheet demon
+strates " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 
+5 "some " }{TEXT 256 7 "routine" }{TEXT -1 42 " computations in connec
+tion with my paper " }{TEXT 272 35 "New proofs of the Irrationality of
+ " }{XPPEDIT 18 0 "e^2;" "6#*$)%\"eG\"\"#\"\"\"" }{TEXT -1 1 " " }
+{TEXT 273 3 "and" }{TEXT -1 1 " " }{XPPEDIT 18 0 "e^4;" "6#*$)%\"eG\"
+\"%\"\"\"" }}{PARA 15 "" 0 "" {TEXT -1 13 "some related " }{TEXT 266 
+18 "continued fraction" }{TEXT -1 10 " material " }}{PARA 15 "" 0 "" 
+{TEXT -1 97 "some (brief) related 2-adic material, intended to draw at
+tention to Maple's (not so well known?) " }{TEXT 274 6 "p-adic" }
+{TEXT -1 7 " corner" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 25 "My paper - written using " }{TEXT 267 4 "Word" }{TEXT 
+-1 90 " - is available in Rich Text Format (rtf) at my web site (and s
+o one doesn't need to have " }{TEXT 268 4 "Word" }{TEXT -1 56 " to rea
+d it; simply having a web browser is sufficient)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "My " }{XPPEDIT 18 0 "e^2;
+" "6#*$%\"eG\"\"#" }{TEXT -1 19 " proof begins with " }{XPPEDIT 18 0 "
+e^2 = 1+2/1!+2^2/2!+2^3/3!;" "6#/*$%\"eG\"\"#,*\"\"\"F(*&F&F(-%*factor
+ialG6#F(!\"\"F(*&F&F&-F+6#F&F-F(*&F&\"\"$-F+6#F2F-F(" }{TEXT -1 9 " + \+
+... + " }{XPPEDIT 18 0 "2^n/n!+2^(n+1)/(n+1)!+2^(n+2)/(n+2)!;" "6#,(*&
+)\"\"#%\"nG\"\"\"-%*factorialG6#F'!\"\"F(*&)F&,&F'F(F(F(F(-F*6#,&F'F(F
+(F(F,F(*&)F&,&F'F(F&F(F(-F*6#,&F'F(F&F(F,F(" }{TEXT -1 7 " + ...\n" }}
+{PARA 0 "" 0 "" {TEXT -1 12 "followed by " }{XPPEDIT 18 0 "n!*e^2 = n!
++n!*2/1!+n!*2^2/2!+n!*2^3/3!;" "6#/*&-%*factorialG6#%\"nG\"\"\"*$%\"eG
+\"\"#F),*-F&6#F(F)*(-F&6#F(F)F,F)-F&6#F)!\"\"F)*(-F&6#F(F)*$F,F,F)-F&6
+#F,F5F)*(-F&6#F(F)*$F,\"\"$F)-F&6#F@F5F)" }{TEXT -1 9 " + ... + " }
+{XPPEDIT 18 0 "n!*2^n/n!+n!*2^(n+1)/(n+1)!+n!*2^(n+2)/(n+2)!;" "6#,(*(
+-%*factorialG6#%\"nG\"\"\")\"\"#F(F)-F&6#F(!\"\"F)*(-F&6#F(F))F+,&F(F)
+F)F)F)-F&6#,&F(F)F)F)F.F)*(-F&6#F(F))F+,&F(F)F+F)F)-F&6#,&F(F)F+F)F.F)
+" }{TEXT -1 6 " + ..." }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "and then the main id
+ea in my new proof(s) is to take advantage of the " }{TEXT 262 7 "mini
+mum" }{TEXT -1 35 " power of 2 that divides the terms " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "n!*2^r/r!;" "6#*
+(-%*factorialG6#%\"nG\"\"\")\"\"#%\"rGF(-F%6#F+!\"\"" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "as " }
+{TEXT 260 1 "r" }{TEXT -1 22 " varies between 0 and " }{TEXT 261 1 "n
+" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 72 "On the (elementary) theory side one need to know (see my \+
+paper) that if " }{XPPEDIT 18 0 "2^alpha[n];" "6#)\"\"#&%&alphaG6#%\"n
+G" }{TEXT -1 36 " is the highest power of 2 dividing " }{XPPEDIT 18 0 
+"n!;" "6#-%*factorialG6#%\"nG" }{TEXT -1 6 " then:" }}{PARA 15 "" 0 "
+" {XPPEDIT 18 0 "alpha[n] = [n/2]+[n/(2^2)]+[n/(2^3)];" "6#/&%&alphaG6
+#%\"nG,(7#*&F'\"\"\"\"\"#!\"\"F+7#*&F'F+*$)F,F,F+F-F+7#*&F'F+*$)F,\"\"
+$F+F-F+" }{TEXT -1 80 " + ...\nwhere [ ] is the integer part function \+
+(in Maple that's given by 'floor')" }}{PARA 15 "" 0 "" {XPPEDIT 18 0 "
+alpha[n] = n-1;" "6#/&%&alphaG6#%\"nG,&F'\"\"\"F)!\"\"" }{TEXT -1 6 " \+
+when " }{XPPEDIT 18 0 "n = 2^m;" "6#/%\"nG)\"\"#%\"mG" }{TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 36 "and la
+ter will need to know that if " }{XPPEDIT 18 0 "3^beta[n];" "6#)\"\"$&
+%%betaG6#%\"nG" }{TEXT -1 36 " is the highest power of 3 dividing " }
+{XPPEDIT 18 0 "n!;" "6#-%*factorialG6#%\"nG" }{TEXT -1 6 " then:" }}
+{PARA 15 "" 0 "" {XPPEDIT 18 0 "beta[n] = [n/3]+[n/(3^2)]+[n/(3^3)];" 
+"6#/&%%betaG6#%\"nG,(7#*&F'\"\"\"\"\"$!\"\"F+7#*&F'F+*$F,\"\"#F-F+7#*&
+F'F+*$F,F,F-F+" }{TEXT -1 80 " + ...\nwhere [ ] is the integer part fu
+nction (in Maple that's given by 'floor')" }}{PARA 15 "" 0 "" 
+{XPPEDIT 18 0 "beta[n] = (n-1)/2;" "6#/&%%betaG6#%\"nG*&,&F'\"\"\"F*!
+\"\"F*\"\"#F+" }{TEXT -1 6 " when " }{XPPEDIT 18 0 "n = 3^m;" "6#/%\"n
+G)\"\"$%\"mG" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "First defi
+ne the 2-variable function " }{XPPEDIT 18 0 "e(n,r) = n!*2^r/r!;" "6#/
+-%\"eG6$%\"nG%\"rG*(-%*factorialG6#F'\"\"\")\"\"#F(F--F+6#F(!\"\"" }
+{TEXT -1 7 "  with:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "e :=
+ (n,r) -> n!*2^r/r!;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eGR6$%\"nG
+%\"rG6\"6$%)operatorG%&arrowGF)*&*&-%*factorialG6#9$\"\"\")\"\"#9%F3F3
+-F06#F6!\"\"F)F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "seq(e
+(15, r), r=0..15);" }}{PARA 12 "" 1 "" {XPPMATH 20 "62\".+!oVn28\".+gt
+[`h#F$\".+S#ecV<\"-+?\"Hyr)\"-+[;8([$\"-+;sPi6\",+wx5K$\"++Wp-$)\"++K/
+X=\"*S'3!p$\")![#4n\")!3#=6\"(?.s\"\"'gdC\"&oF$" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 88 "Here i
+s a simple procedure that picks out the exact power of 2 dividing a gi
+ven integer:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 97 "pow2:= proc
+(n)  local t, a; t := n: a := 0:\nwhile t mod 2 = 0 do t := t/2: a := \+
+a+1:  od: a; end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "pow2(60
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 9 "pow2(16);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "pow2(2^121*321);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$@\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Here are the \+
+first 32 terms of the sequence \{" }{XPPEDIT 18 0 "alpha[n];" "6#&%&al
+phaG6#%\"nG" }{TEXT -1 3 "\} (" }{XPPEDIT 18 0 "2^alpha[n];" "6#)\"\"#
+&%&alphaG6#%\"nG" }{TEXT -1 36 " is the largest power of 2 dividing " 
+}{TEXT 264 1 "n" }{TEXT -1 64 "!), and is the sequence with ID Number \+
+A011371 and Name n minus " }{TEXT 265 44 "(number of 1's in the binary
+ expansion of n)" }{TEXT -1 88 " in N. J. A. Sloane's wonderful On-Lin
+e Encyclopaedia of Integer Sequences, web address " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 99 "                         \+
+                            http://www.research.att.com/~njas/sequence
+s/):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "seq(pow2(n!), n=1..
+32);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6B\"\"!\"\"\"F$\"\"$F%\"\"%F&\"
+\"(F'\"\")F(\"#5F)\"#6F*\"#:F+\"#;F,\"#=F-\"#>F.\"#AF/\"#BF0\"#DF1\"#E
+F2\"#J" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 36 "n := 15: seq(pow2(e(n, r)), r=0..n);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "62\"\"!F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "n := 16: seq(pow2(e(n, r))
+, r=0..n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "63\"\"!F#F#F#F#F#F#F#F#F#F
+#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "n := 2^5-1: seq(pow2(e(n, r)
+), r=0..n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6B\"\"!F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 37 "n := 2^5: seq(pow2(e(n, r)), r=0..n);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6C\"\"!F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F
+#F#F#F#F#F#F#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "n := 2^6-1: seq(pow2(e
+(n, r)), r=0..n);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6\\o\"\"!F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 55 "Notice that initial '57', and that it is '6' short o
+f (" }{XPPEDIT 18 0 "2^6-1;" "6#,&*$\"\"#\"\"'\"\"\"F'!\"\"" }{TEXT 
+-1 3 "). " }}{PARA 0 "" 0 "" {TEXT -1 26 "In general if one chooses " 
+}{XPPEDIT 18 0 "n = 2^m-1;" "6#/%\"nG,&)\"\"#%\"mG\"\"\"F)!\"\"" }
+{TEXT -1 41 ", then the exact power of 2 that divides " }{XPPEDIT 18 
+0 "n!;" "6#-%*factorialG6#%\"nG" }{TEXT -1 10 " will be (" }{XPPEDIT 
+18 0 "n-m;" "6#,&%\"nG\"\"\"%\"mG!\"\"" }{TEXT -1 18 "); that 'drop' o
+f " }{TEXT 263 1 "m" }{TEXT -1 29 " is the log term coming from " }
+{XPPEDIT 18 0 "2^n;" "6#)\"\"#%\"nG" }{TEXT -1 1 "." }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 37 "n := 2^6: seq(pow2(e(n, r)), r=0..n);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6]o\"\"!F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#F#
+F#F#F#F#F#F#F#F#F#F#F#F#F#" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "Not
+ice that initial '63', and that it is just 1 short of (" }{XPPEDIT 18 
+0 "2^6-1;" "6#,&*$\"\"#\"\"'\"\"\"F'!\"\"" }{TEXT -1 3 "). " }}{PARA 
+0 "" 0 "" {TEXT -1 26 "In general if one chooses " }{XPPEDIT 18 0 "n =
+ 2^m;" "6#/%\"nG)\"\"#%\"mG" }{TEXT -1 41 ", then the exact power of 2
+ that divided " }{XPPEDIT 18 0 "n!;" "6#-%*factorialG6#%\"nG" }{TEXT 
+-1 10 " will be (" }{XPPEDIT 18 0 "n-1;" "6#,&%\"nG\"\"\"F%!\"\"" }
+{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 23 "And now to see why the " }{TEXT 269 10 "proof-idea" }
+{TEXT -1 17 " that works with " }{XPPEDIT 18 0 "e^2;" "6#*$)%\"eG\"\"#
+\"\"\"" }{TEXT -1 16 " (and then with " }{XPPEDIT 18 0 "e^4;" "6#*$)%
+\"eG\"\"%\"\"\"" }{TEXT -1 7 ") does " }{TEXT 270 3 "not" }{TEXT -1 
+11 " work with " }{XPPEDIT 18 0 "e^3;" "6#*$)%\"eG\"\"$\"\"\"" }{TEXT 
+-1 40 ". [Of course one should realise that now" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "First we need a procedure
+ that picks out the exact power of 3 dividing a given integer:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 97 "pow3:= proc(n)  local t, a; \+
+t := n: a := 0:\nwhile t mod 3 = 0 do t := t/3: a := a+1:  od: a; end:
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "pow3(18);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "pow3(20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "pow3(3^99*11111);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"#**" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "
+seq(pow3(n!), n=1..81);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6]p\"\"!F#\"
+\"\"F$F$\"\"#F%F%\"\"%F&F&\"\"&F'F'\"\"'F(F(\"\")F)F)\"\"*F*F*\"#5F+F+
+\"#8F,F,\"#9F-F-\"#:F.F.\"#<F/F/\"#=F0F0\"#>F1F1\"#@F2F2\"#AF3F3\"#BF4
+F4\"#EF5F5\"#FF6F6\"#GF7F7\"#IF8F8\"#JF9F9\"#KF:F:\"#MF;F;\"#NF<F<\"#O
+F=F=\"#S" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "seq(pow3((3^m)!
+), m=0..6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6)\"\"!\"\"\"\"\"%\"#8\"#
+S\"$@\"\"$k$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 287 "And now some continued fraction m
+aterial. [A reader not familiar with Maple should note that by hitting
+ Enter in the line with '?expand' one will then see a related 'Help' p
+age, and should also note that the 'with(numtheory)' line must be exec
+uted so as to activate the 'cfrac' command.]" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 7 "?expand" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "with(numtheory);" }}{PARA 7 "" 1 "" {TEXT -1 69 "Warning, the pr
+otected name order has been redefined and unprotected\n" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#7P%&GIgcdG%)bigomegaG%&cfracG%)cfracpolG%+cyclot
+omicG%)divisorsG%)factorEQG%*factorsetG%'fermatG%)imagunitG%&indexG%/i
+ntegral_basisG%)invcfracG%'invphiG%*issqrfreeG%'jacobiG%*kroneckerG%'l
+ambdaG%)legendreG%)mcombineG%)mersenneG%*minkowskiG%(mipolysG%%mlogG%'
+mobiusG%&mrootG%&msqrtG%)nearestpG%*nthconverG%)nthdenomG%)nthnumerG%'
+nthpowG%&orderG%)pdexpandG%$phiG%#piG%*pprimrootG%)primrootG%(quadresG
+%+rootsunityG%*safeprimeG%&sigmaG%*sq2factorG%(sum2sqrG%$tauG%%thueG" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "cfrac(exp(1),10);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"#\"\"\"*&F%F%,&F%F%*&F%F%,&F$F%*
+&F%F%,&F%F%*&F%F%,&F%F%*&F%F%,&\"\"%F%*&F%F%,&F%F%*&F%F%,&F%F%*&F%F%,&
+\"\"'F%*&F%F%,&F%F%*&F%F%,&F%F%%$...GF%!\"\"F%F=F%F=F%F=F%F=F%F=F%F=F%
+F=F%F=F%F=F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "?cfrac" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 46 "Here now are the initial partial q
+uotients of " }{XPPEDIT 18 0 "e,e^2,e^3,e^4;" "6&%\"eG*$F#\"\"#*$F#\"
+\"$*$F#\"\"%" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 30 "cfrac(exp(1),21, 'quotients');" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#79\"\"#\"\"\"F$F%F%\"\"%F%F%\"\"'F%F%\"\")F%F%\"#5F%F%\"#7F%F%\"#9F%
+%$...G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "cfrac(exp(2),21, \+
+'quotients');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#79\"\"(\"\"#\"\"\"F&
+\"\"$\"#=\"\"&F&F&\"\"'\"#I\"\")F&F&\"\"*\"#U\"#6F&F&\"#7\"#a\"#9%$...
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "cfrac(exp(3),100, 'quo
+tients');" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq\"#?\"#6\"\"\"\"\"#\"
+\"%\"\"$F&\"\"&F&F'\"#;F&F&F+F'\"#8\"#9F(\"\"'F'F&F&F'F'F'F)F*F&F)F&F&
+\"#o\"\"(F*F&F(F'F&F&F&F&F&F&F0F)F&F.F&F'F*F(F0F'F&F)F'F'F&F'F&F(F&F&F
+,F&F&F'F&F&F&F&F)F0F%\"#=\"#aF&F'F'F'F&F&F.F'F'\"#YF'\"$*=F&\"#CF&\"\"
+)F,F(F&F&F&F)F&F&F&%$...G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+31 "cfrac(exp(4),100, 'quotients');" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#7bq\"#a\"\"\"F%\"\"#\"#@\"\"%F%F%\"#dF&F%\"\"*F%F%\"#8\"\"'F&\"#?F&F(
+F%\"#<F%\"\"$F&\"\"(F&F%F%F%F%F/F&F%\"#6F(F&F%F/F&F%F0F%F0F%\"#7F&\"\"
+)F0F,F%F&F%F0F&\"#PF&F/\"#mF%F%F%F&F%F&F%F%F&F%F%F%F%F&F/F%F%F&\"#5\"#
+=F&\"#>F(F&F%F*F%F*F&F%F%F%F%F(\"\"&F%\"$D\"F%F(F%F2F6%$...G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 74 "Student readers may care to guess (for a hint at a proof \+
+see Serge Lang's " }{TEXT 275 42 "Introduction to Diophantine Approxim
+ations" }{TEXT -1 19 ", referenced in my " }{XPPEDIT 18 0 "e^2;" "6#*$
+%\"eG\"\"#" }{TEXT -1 45 " paper) the continued fraction expansions of
+ " }{XPPEDIT 18 0 "e^(2/3),e^(2/5),e^(2/7),e^(2/9);" "6&)%\"eG*&\"\"#
+\"\"\"\"\"$!\"\")F$*&F&F'\"\"&F))F$*&F&F'\"\"(F))F$*&F&F'\"\"*F)" }
+{TEXT -1 33 ", ... from the following outputs:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 63 "for y from 3 by 2 to 19 do\ncfrac(exp(2/y),100
+, 'quotients')\nod;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq\"\"\"F$\"#=
+\"\"(F$F$\"#5\"#a\"#;F$F$\"#>\"#!*\"#DF$F$\"#G\"$E\"\"#MF$F$\"#P\"$i\"
+\"#VF$F$\"#Y\"$)>\"#_F$F$\"#b\"$M#\"#hF$F$\"#k\"$q#\"#qF$F$\"#t\"$1$\"
+#zF$F$\"##)\"$U$\"#))F$F$\"#\"*\"$y$\"#(*F$F$\"$+\"\"$9%\"$1\"F$F$\"$4
+\"\"$]%\"$:\"F$F$\"$=\"\"$'[\"$C\"F$F$\"$F\"\"$A&\"$L\"F$F$\"$O\"\"$e&
+\"$U\"F$F$\"$X\"\"$%f\"$^\"F$F$\"$a\"\"$I'\"$g\"F$F$\"$j\"\"$m'\"$p\"F
+$F$\"$s\"\"$-(\"$y\"F$F$%$...G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq
+\"\"\"\"\"#\"#I\"#7F$F$\"#<\"#!*\"#FF$F$\"#K\"$]\"\"#UF$F$\"#Z\"$5#\"#
+dF$F$\"#i\"$q#\"#sF$F$\"#x\"$I$\"#()F$F$\"##*\"$!R\"$-\"F$F$\"$2\"\"$]
+%\"$<\"F$F$\"$A\"\"$5&\"$K\"F$F$\"$P\"\"$q&\"$Z\"F$F$\"$_\"\"$I'\"$i\"
+F$F$\"$n\"\"$!p\"$x\"F$F$\"$#=\"$](\"$#>F$F$\"$(>\"$5)\"$2#F$F$\"$7#\"
+$q)\"$A#F$F$\"$F#\"$I*\"$P#F$F$\"$U#\"$!**\"$_#F$F$\"$d#\"%]5\"$n#F$F$
+\"$s#\"%56\"$#GF$F$\"$(G\"%q6\"$(HF$F$%$...G" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#7bq\"\"\"\"\"$\"#U\"#<F$F$\"#C\"$E\"\"#QF$F$\"#X\"$5#\"
+#fF$F$\"#m\"$%H\"#!)F$F$\"#()\"$y$\"$,\"F$F$\"$3\"\"$i%\"$A\"F$F$\"$H
+\"\"$Y&\"$V\"F$F$\"$]\"\"$I'\"$k\"F$F$\"$r\"\"$9(\"$&=F$F$\"$#>\"$)z\"
+$1#F$F$\"$8#\"$#))\"$F#F$F$\"$M#\"$m*\"$[#F$F$\"$b#\"%]5\"$p#F$F$\"$w#
+\"%M6\"$!HF$F$\"$(H\"%=7\"$6$F$F$\"$=$\"%-8\"$K$F$F$\"$R$\"%'Q\"\"$`$F
+$F$\"$g$\"%q9\"$u$F$F$\"$\"Q\"%a:\"$&RF$F$\"$-%\"%Q;\"$;%F$F$%$...G" }
+}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq\"\"\"\"\"%\"#a\"#AF$F$\"#J\"$i\"
+\"#\\F$F$\"#e\"$q#\"#wF$F$\"#&)\"$y$\"$.\"F$F$\"$7\"\"$'[\"$I\"F$F$\"$
+R\"\"$%f\"$d\"F$F$\"$m\"\"$-(\"$%=F$F$\"$$>\"$5)\"$6#F$F$\"$?#\"$=*\"$
+Q#F$F$\"$Z#\"%E5\"$l#F$F$\"$u#\"%M6\"$#HF$F$\"$,$\"%U7\"$>$F$F$\"$G$\"
+%]8\"$Y$F$F$\"$b$\"%e9\"$t$F$F$\"$#Q\"%m:\"$+%F$F$\"$4%\"%u;\"$F%F$F$
+\"$O%\"%#y\"\"$a%F$F$\"$j%\"%!*=\"$\"[F$F$\"$!\\\"%)*>\"$3&F$F$\"$<&\"
+%1@\"$N&F$F$%$...G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq\"\"\"\"\"&\"
+#m\"#FF$F$\"#Q\"$)>\"#gF$F$\"#r\"$I$\"#$*F$F$\"$/\"\"$i%\"$E\"F$F$\"$P
+\"\"$%f\"$f\"F$F$\"$q\"\"$E(\"$#>F$F$\"$.#\"$e)\"$D#F$F$\"$O#\"$!**\"$
+e#F$F$\"$p#\"%A6\"$\"HF$F$\"$-$\"%a7\"$C$F$F$\"$N$\"%'Q\"\"$d$F$F$\"$o
+$\"%=:\"$!RF$F$\"$,%\"%];\"$B%F$F$\"$M%\"%#y\"\"$c%F$F$\"$n%\"%9>\"$*[
+F$F$\"$+&\"%Y?\"$A&F$F$\"$L&\"%y@\"$b&F$F$\"$m&\"%5B\"$)eF$F$\"$*f\"%U
+C\"$@'F$F$\"$K'\"%uD\"$a'F$F$%$...G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#7bq\"\"\"\"\"'\"#y\"#KF$F$\"#X\"$M#\"#rF$F$\"#%)\"$!R\"$5\"F$F$\"$B\"
+\"$Y&\"$\\\"F$F$\"$i\"\"$-(\"$)=F$F$\"$,#\"$e)\"$F#F$F$\"$S#\"%95\"$m#
+F$F$\"$z#\"%q6\"$0$F$F$\"$=$\"%E8\"$W$F$F$\"$d$\"%#[\"\"$$QF$F$\"$'R\"
+%Q;\"$A%F$F$\"$N%\"%%z\"\"$h%F$F$\"$u%\"%]>\"$+&F$F$\"$8&\"%1@\"$R&F$F
+$\"$_&\"%iA\"$y&F$F$\"$\"f\"%=C\"$<'F$F$\"$I'\"%uD\"$c'F$F$\"$p'\"%IF
+\"$&pF$F$\"$3(\"%')G\"$M(F$F$\"$Z(\"%UI\"$t(F$F$%$...G" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#7bq\"\"\"\"\"(\"#!*\"#PF$F$\"#_\"$q#\"##)F$F$\"#(*
+\"$]%\"$F\"F$F$\"$U\"\"$I'\"$s\"F$F$\"$(=\"$5)\"$<#F$F$\"$K#\"$!**\"$i
+#F$F$\"$x#\"%q6\"$2$F$F$\"$A$\"%]8\"$_$F$F$\"$n$\"%I:\"$(RF$F$\"$7%\"%
+5<\"$U%F$F$\"$d%\"%!*=\"$([F$F$\"$-&\"%q?\"$K&F$F$\"$Z&\"%]A\"$x&F$F$
+\"$#f\"%IC\"$A'F$F$\"$P'\"%5E\"$n'F$F$\"$#o\"%!z#\"$7(F$F$\"$F(\"%qH\"
+$d(F$F$\"$s(\"%]J\"$-)F$F$\"$<)\"%IL\"$Z)F$F$\"$i)\"%5N\"$#*)F$F$%$...
+G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq\"\"\"\"\")\"$-\"\"#UF$F$\"#f
+\"$1$\"#$*F$F$\"$5\"\"$5&\"$W\"F$F$\"$h\"\"$9(\"$&>F$F$\"$7#\"$=*\"$Y#
+F$F$\"$j#\"%A6\"$(HF$F$\"$9$\"%E8\"$[$F$F$\"$l$\"%I:\"$*RF$F$\"$;%\"%M
+<\"$]%F$F$\"$n%\"%Q>\"$,&F$F$\"$=&\"%U@\"$_&F$F$\"$p&\"%YB\"$.'F$F$\"$
+?'\"%]D\"$a'F$F$\"$r'\"%aF\"$0(F$F$\"$A(\"%eH\"$c(F$F$\"$t(\"%iJ\"$2)F
+$F$\"$C)\"%mL\"$e)F$F$\"$v)\"%qN\"$4*F$F$\"$E*\"%uP\"$g*F$F$\"$x*\"%yR
+\"%65F$F$%$...G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7bq\"\"\"\"\"*\"$9
+\"\"#ZF$F$\"#m\"$U$\"$/\"F$F$\"$B\"\"$q&\"$h\"F$F$\"$!=\"$)z\"$=#F$F$
+\"$P#\"%E5\"$v#F$F$\"$%H\"%a7\"$K$F$F$\"$^$\"%#[\"\"$*QF$F$\"$3%\"%5<
+\"$Y%F$F$\"$l%\"%Q>\"$.&F$F$\"$A&\"%m@\"$g&F$F$\"$z&\"%%R#\"$<'F$F$\"$
+O'\"%AE\"$u'F$F$\"$$p\"%]G\"$J(F$F$\"$](\"%yI\"$)yF$F$\"$2)\"%1L\"$X)F
+$F$\"$k)\"%MN\"$-*F$F$\"$@*\"%iP\"$f*F$F$\"$y*\"%!*R\"%;5F$F$\"%N5\"%=
+U\"%t5F$F$\"%#4\"\"%YW\"%I6F$F$%$...G" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 13 "And now some \+
+" }{TEXT 276 6 "2-adic" }{TEXT -1 10 " material." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "I make the (amusing, I ho
+pe) comment in my paper that our beloved '" }{XPPEDIT 18 0 "e^2;" "6#*
+$)%\"eG\"\"#\"\"\"" }{TEXT -1 10 "' - whose " }{TEXT 277 16 "ordinary \+
+meaning" }{TEXT -1 15 " is the number " }{TEXT 278 7 "defined" }{TEXT 
+-1 8 " by the " }{TEXT 279 3 "sum" }{TEXT -1 24 " of the infinite seri
+es " }{XPPEDIT 18 0 "Sum(2^n/n!,n = 0 .. infinity);" "6#-%$SumG6$*&)\"
+\"#%\"nG\"\"\"-%*factorialG6#F)!\"\"/F);\"\"!%)infinityG" }{TEXT -1 3 
+" - " }{TEXT 290 14 "has no meaning" }{TEXT -1 6 " as a " }{TEXT 280 
+6 "2-adic" }{TEXT -1 34 " number; that is, in the field of " }{TEXT 
+281 6 "2-adic" }{TEXT -1 30 " numbers, the infinite series " }
+{XPPEDIT 18 0 "Sum(2^n/n!,n = 0 .. infinity)" "6#-%$SumG6$*&)\"\"#%\"n
+G\"\"\"-%*factorialG6#F)!\"\"/F);\"\"!%)infinityG" }{TEXT -1 42 " does
+ not converge [of course the number '" }{TEXT 291 1 "e" }{TEXT -1 29 "
+' itself has no meaning as a " }{TEXT 292 6 "2-adic" }{TEXT -1 14 " nu
+mber since " }{XPPEDIT 18 0 "proc (abs(1/n!)[2]) options operator, arr
+ow; infinity end proc;" "6#R6#&-%$absG6#*&\"\"\"F*-%*factorialG6#%\"nG
+!\"\"6#\"\"#7\"6$%)operatorG%&arrowG6\"%)infinityGF6F6F6" }{TEXT -1 4 
+" as " }{XPPEDIT 18 0 "proc (n) options operator, arrow; infinity end \+
+proc;" "6#R6#%\"nG7\"6$%)operatorG%&arrowG6\"%)infinityGF*F*F*" }
+{TEXT -1 24 "], whereas our beloved '" }{XPPEDIT 18 0 "e^4;" "6#*$%\"e
+G\"\"%" }{TEXT -1 10 "' - whose " }{TEXT 282 16 "ordinary meaning" }
+{TEXT -1 15 " is the number " }{TEXT 283 7 "defined" }{TEXT -1 8 " by \+
+the " }{TEXT 284 3 "sum" }{TEXT -1 24 " of the infinite series " }
+{XPPEDIT 18 0 "Sum(4^n/n!,n = 0 .. infinity);" "6#-%$SumG6$*&)\"\"%%\"
+nG\"\"\"-%*factorialG6#F)!\"\"/F);\"\"!%)infinityG" }{TEXT -1 3 " - " 
+}{TEXT 289 3 "has" }{TEXT -1 16 " a meaning as a " }{TEXT 285 6 "2-adi
+c" }{TEXT -1 34 " number; that is, in the field of " }{TEXT 286 6 "2-a
+dic" }{TEXT -1 30 " numbers, the infinite series " }{XPPEDIT 18 0 "Sum
+(4^n/n!,n = 0 .. infinity);" "6#-%$SumG6$*&)\"\"%%\"nG\"\"\"-%*factori
+alG6#F)!\"\"/F);\"\"!%)infinityG" }{TEXT -1 1 " " }{TEXT 287 5 "does \+
+" }{TEXT -1 38 "converge (one needs to know that ...)." }}{PARA 0 "" 
+0 "" {TEXT -1 18 "The point is that " }{XPPEDIT 18 0 "abs(2^n/n!)[2];
+" "6#&-%$absG6#*&)\"\"#%\"nG\"\"\"-%*factorialG6#F*!\"\"6#F)" }{TEXT 
+-1 22 "does not tend to 0 in " }{XPPEDIT 18 0 "Omega[2];" "6#&%&OmegaG
+6#\"\"#" }{TEXT -1 15 ", the field of " }{TEXT 288 6 "2-adic" }{TEXT 
+-1 18 " numbers, whereas " }{XPPEDIT 18 0 "proc (abs(4^n/n!)[2]) optio
+ns operator, arrow; 0 end proc;" "6#R6#&-%$absG6#*&)\"\"%%\"nG\"\"\"-%
+*factorialG6#F,!\"\"6#\"\"#7\"6$%)operatorG%&arrowG6\"\"\"!F8F8F8" }
+{TEXT -1 4 " as " }{XPPEDIT 18 0 "proc (n) options operator, arrow; in
+finity end proc;" "6#R6#%\"nG7\"6$%)operatorG%&arrowG6\"%)infinityGF*F
+*F*" }{TEXT -1 1 "." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "?padi
+c" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(padic);" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#7E%)arccoshpG%(arccospG%)arccothpG%(arccotpG
+%)arccschpG%(arccscpG%)arcsechpG%(arcsecpG%)arcsinhpG%(arcsinpG%)arcta
+nhpG%(arctanpG%&coshpG%%cospG%&cothpG%%cotpG%&cschpG%%cscpG%&evalpG%*e
+xpansionG%%exppG%(lcoeffpG%%logpG%'orderpG%%ordpG%*ratvaluepG%&rootpG%
+&sechpG%%secpG%&sinhpG%%sinpG%&sqrtpG%&tanhpG%%tanpG%'valuepG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 54 "This gives information about the e
+xponential function:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "?exp
+p" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 1 "'" }{TEXT 293 1 "e" }{TEXT 
+-1 7 "' and '" }{XPPEDIT 18 0 "e^2;" "6#*$)%\"eG\"\"#\"\"\"" }{TEXT 
+-1 22 "' have no meanings as " }{TEXT 294 6 "2-adic" }{TEXT -1 9 " num
+bers:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expp(1,2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "expp(2,2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAILG
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "whereas " }{XPPEDIT 18 0 "e^4;
+" "6#*$)%\"eG\"\"%\"\"\"" }{TEXT -1 31 " does exist (as do, of course,
+ " }{XPPEDIT 18 0 "e^8,e^16;" "6$*$)%\"eG\"\")\"\"\"*$)F%\"#;F'" }
+{TEXT -1 7 ", etc):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expp
+(4,2);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#+M%\"2G\"\"\"\"\"!F%\"\"#F%
+\"\"$F%\"\"'F%\"\")F%\"#9F%\"#<F%\"#=F%\"#>F%\"#BF%\"#FF%\"#GF%\"#HF%
+\"#LF%\"#OF%\"#PF%\"#QF%\"#TF%\"#VF%\"#W-%\"OG6#F%\"#\\" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expp(8,2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#+-%\"2G\"\"\"\"\"!F%\"\"$F%\"\"&F%\"\")-%\"OG6#F%\"#5" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "expp(16,2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#++%\"2G\"\"\"\"\"!F%\"\"%F%\"\"(-%\"OG6#F%\"#5" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "Digitsp := 50:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "expp(16,2);" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#+Y%\"2G\"\"\"\"\"!F%\"\"%F%\"\"(F%\"#6F%\"#7F%\"#8
+F%\"#:F%\"#>F%\"#?F%\"#AF%\"#BF%\"#CF%\"#DF%\"#FF%\"#GF%\"#HF%\"#JF%\"
+#KF%\"#LF%\"#MF%\"#NF%\"#QF%\"#RF%\"#VF%\"#YF%\"#[-%\"OG6#F%\"#\\" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Of course '" }{XPPEDIT 18 0 "e^4;
+" "6#*$)%\"eG\"\"%\"\"\"" }{TEXT -1 22 "' has no meaning as a " }
+{TEXT 295 6 "3-adic" }{TEXT -1 8 " number:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "expp(4,3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%FAI
+LG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 5 "but '" }{XPPEDIT 18 0 "e^3;
+" "6#*$)%\"eG\"\"$\"\"\"" }{TEXT -1 21 "' has a meaning as a " }{TEXT 
+296 6 "3-adic" }{TEXT -1 8 " number:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "expp(3,3);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#+io%\"3
+G\"\"\"\"\"!F%F%F%\"\"#F'\"\"$F'\"\"%F%\"\"'F%\"\")F%\"\"*F%\"#6F'\"#7
+F'\"#9F'\"#:F'\"#;F%\"#>F%\"#?F%\"#@F%\"#AF%\"#BF%\"#DF%\"#EF%\"#FF'\"
+#GF%\"#HF'\"#IF'\"#JF'\"#KF%\"#MF'\"#NF%\"#PF%\"#QF'\"#TF'\"#UF%\"#VF%
+\"#WF'\"#XF%\"#YF%\"#[-%\"OG6#F%\"#\\" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 85 "Those extra approximating terms are because 'Digitsp' has
+ been changed above to '50'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 22 "It's time I stopped..." }}}}{MARK "66 2 0" 19 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

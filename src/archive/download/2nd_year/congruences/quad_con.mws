@@ -1,0 +1,215 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 
+0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 260 "" 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 272 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 276 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 288 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 300 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 314 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 318 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 
+0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 326 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 
+-1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 
+0 0 -1 0 }{PSTYLE "Title" 0 18 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 
+1 0 0 0 0 0 0 }3 0 0 -1 12 12 0 0 0 0 0 0 19 0 }{PSTYLE "R3 Font 0" 
+-1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# quad_com.mws" }}}
+{EXCHG {PARA 18 "" 0 "" {TEXT -1 38 "Quadratic congruences (with compo
+site " }{TEXT 275 6 "moduli" }{TEXT -1 1 ")" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 4 "The " }{TEXT 257 5 "point" }{TEXT 258 27 " of the follow
+ing procedure" }{TEXT -1 65 ":  Every quadratic congruence (with integ
+er coefficients) - to a " }{TEXT 259 5 "prime" }{TEXT -1 39 " modulus \+
+(with leading coefficient not " }}{PARA 0 "" 0 "" {TEXT -1 31 "divisib
+le by that prime) - has " }{TEXT 260 9 "at most 2" }{TEXT -1 103 " mut
+ually incongruent solutions.  That is the quadratic case of the genera
+l Lagrange theorem (that for " }}{PARA 0 "" 0 "" {TEXT -1 7 "degree " 
+}{TEXT 261 1 "n" }{TEXT -1 36 " the number of solutions is at most " }
+{TEXT 262 1 "n" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 19 "Now, the composite " }{TEXT 263 6 "moduli
+" }{TEXT -1 108 " are 4, 6, 8, 9, 10, ... , and for each of those one \+
+would like to produce a quadratic congruence which has " }{TEXT 264 
+11 "more than 2" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 91 "mutual
+ly incongruent solutions.  [Later see deg1_com, to see that the first \+
+degree case is " }{TEXT 285 7 "trivial" }{TEXT -1 2 ".]" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 286 34 "What
+ does the following procedure " }{TEXT 287 2 "do" }{TEXT 288 1 "?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "It " }
+{TEXT 289 14 "systematically" }{TEXT -1 39 " list all quadratic congru
+ences to the " }{TEXT 293 9 "modulus m" }{TEXT -1 21 " (where the valu
+e of " }{TEXT 321 0 "" }{TEXT -1 0 "" }{TEXT 322 1 "m" }{TEXT -1 58 " \+
+is allowed to vary between M1 and M2), with coefficients " }}{PARA 0 "
+" 0 "" {TEXT -1 1 "(" }{TEXT 290 1 "a" }{TEXT -1 2 ", " }{TEXT 291 1 "
+b" }{TEXT -1 2 ", " }{TEXT 292 1 "c" }{TEXT -1 30 ") running throught \+
+the values:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 45 "(1, 0, 0), (1, 0, 1), (1, 0, 2), ... , (1, 0," }{TEXT 294 2 " m
+" }{TEXT -1 4 "-1)," }}{PARA 0 "" 0 "" {TEXT -1 45 "(1, 1, 0), (1, 1, \+
+1), (1, 1, 2), ... , (1, 1," }{TEXT 256 2 " m" }{TEXT -1 4 "-1)," }}
+{PARA 0 "" 0 "" {TEXT -1 45 "(1, 2, 0), (1, 2, 1), (1, 2, 2), ... , (1
+, 2," }{TEXT 256 2 " m" }{TEXT -1 4 "-1)," }}{PARA 0 "" 0 "" {TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 3 "(
+1," }{TEXT 295 2 " m" }{TEXT -1 11 "-1, 0), (1," }{TEXT 297 2 " m" }
+{TEXT -1 11 "-1, 1), (1," }{TEXT 298 2 " m" }{TEXT -1 18 "-1, 2), ... \+
+, (1, " }{TEXT 299 1 "m" }{TEXT -1 3 "-1," }{TEXT 296 2 " m" }{TEXT 
+-1 4 "-1)," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 45 "(2, 0, 0), (2, 0, 1), (2, 0, 2), ... , (2, 0," }{TEXT 257 2 " m
+" }{TEXT -1 4 "-1)," }{TEXT 300 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "(2
+, 1, 0), (2, 2, 1), (2, 2, 2), ... , (2, 1," }{TEXT 256 2 " m" }{TEXT 
+-1 4 "-1)," }}{PARA 0 "" 0 "" {TEXT -1 45 "(2, 2, 0), (2, 2, 1), (2, 2
+, 2), ... , (2, 2," }{TEXT 256 2 " m" }{TEXT -1 4 "-1)," }}{PARA 0 "" 
+0 "" {TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 1 "." }}{PARA 0 "" 0 "
+" {TEXT -1 4 "(2, " }{TEXT 301 1 "m" }{TEXT -1 12 "-1, 0), (2, " }
+{TEXT 302 1 "m" }{TEXT -1 11 "-1, 1), (2," }{TEXT 261 2 " m" }{TEXT 
+-1 18 "-1, 2), ... , (2, " }{TEXT 262 1 "m" }{TEXT -1 3 "-1," }{TEXT 
+259 1 " " }{TEXT 303 1 "m" }{TEXT -1 4 "-1)," }}{PARA 0 "" 0 "" {TEXT 
+-1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+50 ".                            ending finally with (" }{TEXT 304 1 "
+m" }{TEXT -1 4 "-1, " }{TEXT 305 1 "m" }{TEXT -1 4 "-1, " }{TEXT 306 
+1 "m" }{TEXT -1 4 "-1)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 53 "Then, for each congruence in turn, it calculates the
+ " }{TEXT 307 6 "number" }{TEXT -1 32 " of solutions of the congruence
+ " }{XPPEDIT 18 0 "ax^2+bx+c = 0;" "6#/,(*$)%#axG\"\"#\"\"\"F)%#bxGF)%
+\"cGF)\"\"!" }{TEXT -1 6 " (mod " }{TEXT 325 1 "m" }{TEXT -1 23 "), an
+d checks if it is " }{TEXT 314 4 "more" }{TEXT -1 10 " than 2.  " }
+{TEXT 315 4 "When" }{TEXT -1 2 " (" }{TEXT 316 2 "if" }{TEXT -1 37 ") \+
+- an interesting note is that when " }{TEXT 323 1 "m" }{TEXT -1 14 " =
+ 4 there is " }{TEXT 324 2 "no" }{TEXT -1 183 " quadratic congruence w
+ith more than 2 solutions - it eventually comes upon such a congruence
+ it ceases to test any further, and then records the following five pi
+eces of information:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 14 "[the value of " }{TEXT 317 1 "m" }{TEXT -1 54 ", the nu
+mber of solutions], followed by the values of " }{TEXT 318 1 "a" }
+{TEXT -1 2 ", " }{TEXT 319 1 "b" }{TEXT -1 5 " and " }{TEXT 320 1 "c" 
+}{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 385 "quad_com := proc(M1, M2)\nlocal m, a, b, c, flag;\nf
+or m from M1 to M2 do \nflag := 0:\nif not isprime(m) then for a to m-
+1 do  \nif flag = 0 then for b from 0 to m-1 do\nif flag = 0 then for \+
+c from 0 to m-1 do\nif flag = 0 then         \nif nops(\{msolve( a*x^2
+ + b*x + c, m)\}) > 2 \n  then print([m, nops(\{msolve( a*x^2 + b*x + \+
+c, m)\})],a , b, c);  \n  flag := 1\nfi fi od fi od fi od fi od end:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "quad_com(4, 12);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6&7$\"\"'\"\"%\"\"\"F&\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$
+\"\")\"\"%\"\"\"\"\"!\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"\"*
+\"\"$\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#5\"\"%\"\"
+\"F&\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#7\"\"%\"\"\"\"\"!\"
+\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "quad_com(13, 20);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#9\"\"%\"\"\"F&\"\"!" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6&7$\"#:\"\"%\"\"\"\"\"!\"#6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#;\"\"%\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6&7$\"#=\"\"$\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"
+#?\"\"%\"\"\"\"\"!F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "qua
+d_com(21, 40);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#@\"\"%\"\"\"\"
+\"!\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#A\"\"%\"\"\"F&\"\"!" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#C\"\"%\"\"\"\"\"!\"\")" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#D\"\"&\"\"\"\"\"!F'" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6&7$\"#E\"\"%\"\"\"F&\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#F\"\"$\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6&7$\"#G\"\"%\"\"\"\"\"!\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7
+$\"#I\"\"%\"\"\"\"\"!\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#K\"
+\"%\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#L\"\"%\"\"\"
+\"\"!\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#M\"\"%\"\"\"F&\"\"!
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#N\"\"%\"\"\"\"\"!\"\"'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#O\"\"'\"\"\"\"\"!F'" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6&7$\"#Q\"\"%\"\"\"F&\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#R\"\"%\"\"\"\"\"!\"#9" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#S\"\"%\"\"\"\"\"!F%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "quad_com(41, 60);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&
+7$\"#U\"\"%\"\"\"\"\"!\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#W
+\"\"%\"\"\"\"\"!\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#X\"\"$\"
+\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#Y\"\"%\"\"\"F&\"\"
+!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#[\"\"%\"\"\"\"\"!F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#\\\"\"(\"\"\"\"\"!F'" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6&7$\"#]\"\"&\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#^\"\"%\"\"\"\"\"!\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#_\"\"%\"\"\"\"\"!\"\"$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6&7$\"#a\"\"$\"\"\"\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6&7$\"#b\"\"%\"\"\"\"\"!\"\"'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7
+$\"#c\"\"%\"\"\"\"\"!\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#d\"
+\"%\"\"\"\"\"!\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#e\"\"%\"\"
+\"F&\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&7$\"#g\"\")\"\"\"\"\"!\"#
+6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }{TEXT 273 9 "Question1" }{TEXT -1 37 ". Is this tr
+ue?: For every composite " }{TEXT 276 0 "" }{TEXT -1 0 "" }{TEXT 272 
+0 "" }{TEXT 265 1 "m" }{TEXT -1 29 " - apart from 4 - there is a " }
+{TEXT 266 1 "c" }{TEXT -1 11 " such that " }{XPPEDIT 18 0 "x^2+c = 0;
+" "6#/,&*$)%\"xG\"\"#\"\"\"F)%\"cGF)\"\"!" }{TEXT -1 9 " (mod m) " }
+{TEXT 326 2 "or" }{TEXT -1 1 " " }{XPPEDIT 18 0 "x^2+x+c = 0;" "6#/,(*
+$)%\"xG\"\"#\"\"\"F)F'F)%\"cGF)\"\"!" }{TEXT -1 6 " (mod " }{TEXT 270 
+1 "m" }{TEXT -1 11 ") has more " }}{PARA 0 "" 0 "" {TEXT -1 54 "than 2
+ mutually incongruent solutions. [And for which " }{TEXT 274 1 "m" }
+{TEXT -1 54 " will the first of these suffice?  See next question.]" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+277 37 "Questions (for students) to play with" }{TEXT -1 2 ": " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "i.    For
+ some " }{TEXT 278 1 "m" }{TEXT -1 21 " it is easy, and the " }{TEXT 
+279 1 "a" }{TEXT -1 2 ", " }{TEXT 280 1 "b" }{TEXT -1 1 "," }{TEXT 
+281 2 " c" }{TEXT -1 28 " values are 1, 0, 0.  Which " }{TEXT 282 1 "m
+" }{TEXT -1 1 "?" }}{PARA 0 "" 0 "" {TEXT -1 63 "ii.   What can one sa
+y about the (1, 0, 1) and (1, 1, 0) cases?" }}{PARA 0 "" 0 "" {TEXT 
+-1 55 "iii.  For some (rare) cases the number of solutions is " }
+{TEXT 283 3 "odd" }{TEXT -1 13 ".  Structure?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 284 17 "First deg
+ree case" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+317 "deg1_com := proc(M1, M2)\nlocal m, a, b, flag;\nfor m from M1 to \+
+M2 do \nflag := 0:\nif not isprime(m) then for a to m-1 do  \nif flag \+
+= 0 then for b from 0 to m-1 do\nif flag = 0 then         \nif nops(\{
+msolve( a*x + b, m)\}) > 1 \n  then print([m, nops(\{msolve( a*x + b, \+
+m)\})],a , b);  \n  flag := 1\nfi fi od fi od fi od end:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "deg1_com(4, 10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7
+$\"\"%\"\"#F%\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7$\"\"'\"\"#F%\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7$\"\")\"\"#F%\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%7$\"\"*\"\"$F%\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%7$\"#5\"\"#F%\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "deg1_com(11, 20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+7$\"#7\"\"#F%\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7$\"#9\"\"#F%\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7$\"#:\"\"$F%\"\"!" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6%7$\"#;\"\"#F%\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%7$\"#=\"\"#F%\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7
+$\"#?\"\"#F%\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "9 1 2" 19 }{VIEWOPTS 1 1 0 1 1 1803 }

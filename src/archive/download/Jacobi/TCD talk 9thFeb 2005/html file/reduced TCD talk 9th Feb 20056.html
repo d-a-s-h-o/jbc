@@ -1,0 +1,874 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark6">
+<p align=left>
+<b><font color=#000080 size=4>Initial engagement, and seeing the first light</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Several years ago - in an idle moment - I wondered (not knowing if there was already a known answer) what happens if one divides the residues of a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> into </font></b>
+<b><font color=#000080 size=4>three equi-numerous</font></b>
+<b><font color=#000080> sets (that requires, of course, that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> leaves remainder 1 on division by 3; as I have already remarked there are an infinite number of such primes: 7, 13, 19, 31, 37, 43, 61, 67, 73, 79, ... ). Suppose, for example, that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 19: how do the residues in the three sets</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080> {1, 2, 3, 4, 5, 6}, {7, 8, 9, 10, 11, 12} and {13, 14, 15, 16, 17, 18} </font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>(forming mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> products, of course, in the manner of Wilson and Lagrange) relate to each other?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Without any calculations being performed one knows that the two outer sets are trivially related (simply because </font></b>
+<img src="images/reduced TCD talk 9th Feb 200544.gif" width=65 height=32 alt="18 = -1" align=middle>
+<b><font color=#000080> (mod 19), </font></b>
+<img src="images/reduced TCD talk 9th Feb 200545.gif" width=70 height=32 alt="17 = -2" align=middle>
+<b><font color=#000080> (mod 19), ... , </font></b>
+<img src="images/reduced TCD talk 9th Feb 200546.gif" width=70 height=32 alt="13 = -6" align=middle>
+<b><font color=#000080> (mod 19)). Thus one immediately has:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>1*2*3*4*5*6 = 13*14*15*16*17*18 (mod 19)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But what of the product (mod 19) of the residues in the middle range of residues? Well, we have to calculate (I am </font></b>
+<b><font color=#000080 size=4>not</font></b>
+<b><font color=#000080> doing so in the most efficient way - certainly for the purposes of later work - and since my only intention at this point is simply to illustrate, then I even show the </font></b>
+<b><font color=#000080 size=4>entirely redundant</font></b>
+<b><font color=#000080> third product):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD1(19) := 1*2*3*4*5*6;<br>
+PROD1(19) mod 19;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200547.gif" width=145 height=20 alt="PROD1(19) := 720">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200548.gif" width=32 height=20 alt="17">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD2(19) := 7*8*9*10*11*12;<br>
+PROD2(19) mod 19;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200549.gif" width=169 height=20 alt="PROD2(19) := 665280">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200550.gif" width=32 height=20 alt="14">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD3(19) := 13*14*15*16*17*18;<br>
+PROD3(19) mod 19;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200551.gif" width=185 height=20 alt="PROD3(19) := 13366080">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200552.gif" width=32 height=20 alt="17">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Thus, while the </font></b>
+<b><font color=#000080 size=4>two outer ones</font></b>
+<b><font color=#000080> (trivially) have congruent products, the </font></b>
+<b><font color=#000080 size=4>inner one</font></b>
+<b><font color=#000080> goes its own way (as it were), in that it is </font></b>
+<b><font color=#000080 size=4>neither</font></b>
+<b><font color=#000080> '17' </font></b>
+<b><font color=#000080 size=4>nor</font></b>
+<b><font color=#000080> '2' (which would be congruent to </font></b>
+<img src="images/reduced TCD talk 9th Feb 200553.gif" width=42 height=32 alt="-17" align=middle>
+<b><font color=#000080> mod 19). Of course the inner one is </font></b>
+<b><font color=#000080 size=4>not independent</font></b>
+<b><font color=#000080> of the other two, since by Wilson's theorem the product of all three sets of residues is -1 mod 19:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD1(19)*PROD2(19)*PROD3(19) mod 19;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200554.gif" width=32 height=20 alt="18">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(PROD1(19)*PROD2(19)*PROD3(19), 19);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200555.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now, though, I move out a bit to the example </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 61 (once again I am not interested here in fancy footwork - that will come later - I want only to </font></b>
+<b><font color=#000080 size=4>demonstrate</font></b>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD1(61) := 1*2*3*4*5*6*7*8*9*10*11*12*13*14*15*16*17*18*19*20;<br>
+PROD1(61) mod 61;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200556.gif" width=273 height=20 alt="PROD1(61) := 2432902008176640000">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200557.gif" width=32 height=20 alt="47">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD2(61) := 21*22*23*24*25*26*27*28*29*30*31*32*33*34*35*36*37*38*39*40;<br>
+PROD2(61) mod 61;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200558.gif" width=361 height=20 alt="PROD2(61) := 335367096786357081410764800000">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200559.gif" width=32 height=20 alt="14">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD3(61) := 41*42*43*44*45*46*47*48*49*50*51*52*53*54*55*56*57*58*59*60;<br>
+PROD3(61) mod 61;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200560.gif" width=401 height=20 alt="PROD3(61) := 10198346916138403856439442636800000">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200561.gif" width=32 height=20 alt="47">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The two outer products are of course congruent mod 61 (both are 47), but here the inner set of residues has a mod 61 product that is </font></b>
+<b><font color=#000080 size=4>minus</font></b>
+<b><font color=#000080> the other products: </font></b>
+<img src="images/reduced TCD talk 9th Feb 200562.gif" width=78 height=32 alt="14 = -47" align=middle>
+<b><font color=#000080> (mod 61). Again, of course, all three products are necessarily related via Wilson's thorem:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>PROD1(61)*PROD2(61)*PROD3(61) mod 61;</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200563.gif" width=32 height=20 alt="60">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(PROD1(61)*PROD2(61)*PROD3(61), 61);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200564.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The point now is this</font></b>
+<b><font color=#000080>: </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>the </font></b>
+<b><font color=#000080 size=4>two interval</font></b>
+<b><font color=#000080> division of the (non-zero) mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> residues forces an </font></b>
+<b><font color=#000080 size=4>automatic connection</font></b>
+<b><font color=#000080> between the mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> products of the residues in the first-half and second-half sets of residues (the products are either congruent to each other, or to the negatives of each other)</font></b>
+</li>
+<li>
+<b><font color=#000080>the corresponding </font></b>
+<b><font color=#000080 size=4>three interval</font></b>
+<b><font color=#000080> division of the (non-zero) mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> residues entails </font></b>
+<b><font color=#000080 size=4>no</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>similar</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>automatic connection</font></b>
+<b><font color=#000080> between the mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> products of the three sets of residues. Thus while the mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> products of the residues in the first and last third sets of residues are </font></b>
+<b><font color=#000080 size=4>automatically connected</font></b>
+<b><font color=#000080>, the mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> product of the residues in the middle third set of residues </font></b>
+<b><font color=#000080 size=4>may be entirely different</font></b>
+<b><font color=#000080>: it may turn out to be not congruent to the other two products, nor to the negative of the other two products<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080 size=4>The question then is this</font></b>
+<b><font color=#000080>: for which primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) does one have the middle set of residues (beautifully) related to the outer sets of residues? Meaning? Simply this: setting</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200565.gif" width=162 height=130 alt="P[1,3](p) := [Product(r,r = 1 .. (p-1)/3)]" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/reduced TCD talk 9th Feb 200566.gif" width=216 height=130 alt="P[2,3](p) := [Product(r,r = (p-1)/3+1 .. 2*(p-1)/3)..." align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>(the </font></b>
+<img src="images/reduced TCD talk 9th Feb 200567.gif" width=242 height=106 alt="P[3,3](p) := [Product(r,r = 2*(p-1)/3+1 .. p-1)]" align=middle>
+<b><font color=#000080> is redundant <br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>since one automatically has </font></b>
+<img src="images/reduced TCD talk 9th Feb 200568.gif" width=148 height=32 alt="P[1,3](p) = P[3,3](p)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>))</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>for which primes </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4> = 1 (mod 3), then, does one have</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200569.gif" width=148 height=32 alt="P[1,3](p) = P[2,3](p)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(mod </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>) or </font></b>
+<img src="images/reduced TCD talk 9th Feb 200570.gif" width=158 height=32 alt="P[1,3](p) = -P[2,3](p)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>(mod </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>)?</font></b>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I first show the computation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 200571.gif" width=72 height=32 alt="P[1,3](p)" align=middle>
+<b><font color=#000080>, together with the entirely redundant computation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 200572.gif" width=72 height=32 alt="P[2,3](p)" align=middle>
+<b><font color=#000080>.  Readers should now appreciate that </font></b>
+<b><font color=#000080 size=4>none</font></b>
+<b><font color=#000080> of the products are actually being calculated (which would in any event only be possible where </font></b>
+<i><b><font color=#000080>small</font></b></i>
+<b><font color=#000080> numbers were concerned, with 'small' meaning up to a couple of million digits!), but rather modular reduction is being used at all stages, </font></b>
+<b><font color=#000080 size=4>in the spirit</font></b>
+<b><font color=#000080> of the following small hand-performed:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Earlier example</font></b>
+<b><font color=#000080>. Compute the remainder that 7*8*9*10*11*12 leaves on division by 19.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Solution </font></b>
+<b><font color=#000080>(note Maple doesn't have congruence notation available for 'Insert Standard Math' work), and so suitably interpret ' = ', sometimes as 'equals', but sometimes as 'is congruent to' in each of the following).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>[in normal form; i.e. with remainders between 0 and 18]:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   7*8 = 56 = 18 (mod 19) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   7*8*9 = 18*9 = 162 = 10 (mod 19) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   7*8*9*10 = 10*10 = 100 = 5 (mod 19)<br>
+   7*8*9*10*11 = 5*11 = 55 = 17 (mod 19)<br>
+   7*8*9*10*11*12 = 17*12 = 204 = 14 (mod 19)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>[in least absolute form; i.e. with remainders between </font></b>
+<img src="images/reduced TCD talk 9th Feb 200573.gif" width=34 height=32 alt="-9" align=middle>
+<b><font color=#000080> and 9]:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   7*8 = 56 = -1 (mod 19) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   7*8*9 = (-1)*9 = -9 (mod 19) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>   7*8*9*10 = (-9)*10 = -90 = 5 (mod 19)<br>
+   7*8*9*10*11 = 5*11 = 55 = -2 (mod 19)<br>
+   7*8*9*10*11*12 = (-2)*12 = -24 = -5 (mod 19)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>All those recursive step-by-step modular reductions are captured in the following P[1, 3] and P[2, 3] procedures with the use of: </font></b>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>r := mods(r*k, p)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P[1,3] := proc(p) local r, k; r := 1;<br>
+for k from 2 to (p-1)/3 do<br>
+r := mods(r*k, p) od; r; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P[2,3] := proc(p) local r, k; r := (p+2)/3;<br>
+for k from (p+5)/3 to 2*(p-1)/3 do<br>
+r := mods(r*k, p) od; r; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0: for k from 2 to 25 do<br>
+if ithprime(k) mod 3 = 1<br>
+then count := count+1:<br>
+     p[count] := ithprime(k):<br>
+fi; od;<br>
+array([[p, `1st set product mod p`, `middle set product mod p`],<br>
+seq([p[k], P[1,3](p[k]), P[2,3](p[k])], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200574.gif" width=384 height=350 alt="matrix([[p, `1st set product mod p`, `middle set pr...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>There I tested the first twenty-four odd primes (of which eleven were 1 mod 3), and we found by eye inspection only two instances of what we are looking for: </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 7 and </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 61.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now I dispense with eye-inspection and use the ' if...fi ' to </font></b>
+<b><font color=#000080 size=4>select only those</font></b>
+<b><font color=#000080> we are looking for:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0: for k from 2 to 1001 do<br>
+if (ithprime(k) mod 3 = 1<br>
+and mods(P[1,3](ithprime(k)), ithprime(k)) <br>
+    = P[2,3](ithprime(k)))<br>
+or (ithprime(k) mod 3 = 1<br>
+and mods(P[1,3](ithprime(k)), ithprime(k)) <br>
+    = -P[2,3](ithprime(k))) <br>
+then count := count+1:<br>
+     p[count] := ithprime(k):<br>
+fi; od;<br>
+array([[p, `1st set product mod p`, `middle set product mod p`],<br>
+seq([p[k], P[1,3](p[k]), P[2,3](p[k])], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200575.gif" width=400 height=290 alt="matrix([[p, `1st set product mod p`, `middle set pr...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The first one-thousand odd primes were tested there. Of those, exactly 491 are 1 mod 3, and of those exactly 9 primes are of the desired kind, of which we </font></b>
+<b><font color=#000080 size=4>notice</font></b>
+<b><font color=#000080> that </font></b>
+<b><font color=#000080 size=4>none</font></b>
+<b><font color=#000080> produce congruent products; we found instances only of the mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> products being the negatives of each other. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Now, I dispense - as we may, for reasons I'll quickly explain - with the redundant computation of the </font></b>
+<img src="images/reduced TCD talk 9th Feb 200576.gif" width=72 height=32 alt="P[2,3](p)" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>since </font></b>
+<img src="images/reduced TCD talk 9th Feb 200577.gif" width=136 height=32 alt="P[1,3](p), P[2,3](p)" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/reduced TCD talk 9th Feb 200578.gif" width=72 height=32 alt="P[3,3](p)" align=middle>
+<b><font color=#000080> are related via Wilson's theorem:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200579.gif" width=225 height=32 alt="P[1,3](p)*P[2,3](p)*P[3,3](p) = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>then it </font></b>
+<b><font color=#000080 size=4>immediately follows</font></b>
+<b><font color=#000080> that </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<img src="images/reduced TCD talk 9th Feb 200580.gif" width=148 height=32 alt="P[1,3](p) = P[2,3](p)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) </font></b>
+<b><font color=#000080 size=4>if and only if</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200581.gif" width=114 height=36 alt="P[1,3](p)^3 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)<br>
+</font></b>
+</li>
+<li>
+<img src="images/reduced TCD talk 9th Feb 200582.gif" width=158 height=32 alt="P[1,3](p) = -P[2,3](p)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) </font></b>
+<b><font color=#000080 size=4>if and only if</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200583.gif" width=109 height=36 alt="P[1,3](p)^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thus, from now on, we are concerned with the following question</font></b>
+<b><font color=#000080>: for which primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 3) does one have:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200584.gif" width=139 height=84 alt="((p-1)/3)!^3 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   ... #1 congruence<br>
+<br>
+</font></b>
+<b><font color=#000080 size=4>                          or</font></b>
+</li>
+<li>
+<img src="images/reduced TCD talk 9th Feb 200585.gif" width=134 height=84 alt="((p-1)/3)!^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   ... #2 congruence     </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That was the question I asked myself several years ago. Actually at that time I only looked for examples of simpler versions of #1 and #2: it is automatic that</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>if </font></b>
+<img src="images/reduced TCD talk 9th Feb 200586.gif" width=66 height=50 alt="x^3 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) then </font></b>
+<b><font color=#000080 size=4>either</font></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = -1 (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) </font></b>
+<b><font color=#000080 size=4>or</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200587.gif" width=117 height=50 alt="x^2-x+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)</font></b>
+</li>
+<li>
+<b><font color=#000080>if </font></b>
+<img src="images/reduced TCD talk 9th Feb 200588.gif" width=61 height=50 alt="x^3 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) then </font></b>
+<b><font color=#000080 size=4>either</font></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> = 1 (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) </font></b>
+<b><font color=#000080 size=4>or</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200589.gif" width=117 height=50 alt="x^2+x+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p)</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and, in fact, at that time I had only investigated possible instances of</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200590.gif" width=112 height=58 alt="((p-1)/3)! = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   ... #1' congruence<br>
+</font></b>
+</li>
+<li>
+<img src="images/reduced TCD talk 9th Feb 200591.gif" width=107 height=58 alt="((p-1)/3)! = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)   ... #2' congruence     </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>At the time, years ago, I noticed a certain </font></b>
+<i><b><font color=#000080>something</font></b></i>
+<b><font color=#000080> (that I will relate in a moment), but couldn't see anything else, and I dropped it...  When I returned to this last November 23rd 2004, I initially investigated as before only #1' and #2' (noticing something that had eluded me all those years ago), and then looked at the wider #1 and #2, noticing there the same phenomena that I had since spotted with #1' and #2'. In the following, then, I am leaping ahead to the investigation of #1 and #2 together:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P[1,3] := proc(p) local r, k; r := 1;<br>
+for k from 2 to (p-1)/3 do<br>
+r := mods(r*k, p) od; r; end: </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In the following I am searching amongst the first 1000 odd primes for those that are 1 mod 3, and for which either of congruences #1 or #2 are satisfied. The first column</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>shows the sought </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>'s, while the</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>second column displays the value of the corresponding </font></b>
+<img src="images/reduced TCD talk 9th Feb 200592.gif" width=106 height=84 alt="((p-1)/3)!^3" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>, and in the third column is the value of </font></b>
+<img src="images/reduced TCD talk 9th Feb 200593.gif" width=79 height=58 alt="((p-1)/3)!" align=middle>
+<b><font color=#000080>mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0: for k from 2 to 1001 do<br>
+if (ithprime(k) mod 3 = 1<br>
+and mods(P[1,3](ithprime(k))^3, ithprime(k)) = -1) <br>
+ or (ithprime(k) mod 3 = 1<br>
+and P[1,3](ithprime(k))^3 mod ithprime(k) = 1) <br>
+then count := count+1: p[count] := ithprime(k):<br>
+fi; od; array([[p,`((p-1)/3)!^3 (p)`, `((p-1)/3)! (p)`],<br>
+seq([p[k], P[1,3](p[k])^3 mod p[k], P[1,3](p[k]) mod p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200594.gif" width=271 height=290 alt="matrix([[p, `((p-1)/3)!^3 (p)`, `((p-1)/3)! (p)`], ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Since the above computation - </font></b>
+<b><font color=#000080 size=4>which repeats an earlier one</font></b>
+<b><font color=#000080> - will be done 'live' in my talk you see only the output up to the 1000th odd prime. And what does one notice? Well</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>there don't </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> to be any instances of #1 occurring</font></b>
+</li>
+<li>
+<b><font color=#000080>and of those for which #2 occurs, two of them entail #2' occurring</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>But what are those produced </font></b>
+<i><b><font color=#000080 size=4>p</font></b></i>
+<b><font color=#000080 size=4>'s? Can one </font></b>
+<i><b><font color=#000080 size=4>predict</font></b></i>
+<b><font color=#000080 size=4> some more of them? </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Aside</font></b>
+<b><font color=#000080>. On Nov 25th 2004 I looked up Sloane's On-Line Encyclopaedia returns for all the primes { </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> } I had at that stage for which #2' held (i.e., those for which </font></b>
+<img src="images/reduced TCD talk 9th Feb 200595.gif" width=107 height=58 alt="((p-1)/3)! = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and received the following reply: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>" </font></b>
+<i><b><font color=#000080>I am sorry, but the terms </font></b></i>
+<b><font color=#000080>3571, 4219, 13669, 25117, 55897, 89269, 102121, 170647, 231019, 246247, 251431, 347821 :</font></b>
+<i><b><font color=#000080> do not match anything in the table... </font></b></i>
+<b><font color=#000080>" (which was of some relief to me, as it gave me </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> indication that </font></b>
+<i><b><font color=#000080>perhaps</font></b></i>
+<b><font color=#000080> I was onto something new; how often in the past had I visited Sloane's site thinking I had some new sequence, only to find that... . Later I tried Sloane's site for all the other sequences that I came upon, and none were registered there.</font></b>
+<b><font color=#000080 size=4> [end of aside]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>The start of predictions</font></b>
+<b><font color=#000080>. Several years ago I had the wit to examine the </font></b>
+<b><font color=#000080 size=4>prime factorisation</font></b>
+<b><font color=#000080> of the corresponding (</font></b>
+<img src="images/reduced TCD talk 9th Feb 200596.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>), as I show in the next table, in which I test a bit further (time constraints dictate that I don't go up too high, just the first 1650 odd primes, 815 of which are 1 mod 3):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>count:= 0: for k from 2 to 1651 do<br>
+if (ithprime(k) mod 3 = 1<br>
+and mods(P[1,3](ithprime(k))^3, ithprime(k)) = -1) <br>
+ or (ithprime(k) mod 3 = 1<br>
+and P[1,3](ithprime(k))^3 mod ithprime(k) = 1) <br>
+then count := count+1: p[count] := ithprime(k):<br>
+fi; od; array([[p,`p-1`,`((p-1)/3)!^3 (p)`, `((p-1)/3)! (p)`],<br>
+seq([p[k], ifactor(p[k]-1), P[1,3](p[k])^3 mod p[k], P[1,3](p[k]) mod p[k]], k=1..count)]);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200597.gif" width=458 height=473 alt="matrix([[p, `p-1`, `((p-1)/3)!^3 (p)`, `((p-1)/3)! ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>What does one notice?</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080 size=4>No</font></b>
+<b><font color=#000080> ' -1s'. That is, </font></b>
+<b><font color=#000080 size=4>no</font></b>
+<b><font color=#000080> instance of #1 or #1'. (And one begins to wonder if...)</font></b>
+</li>
+<li>
+<b><font color=#000080>Those </font></b>
+<b><font color=#000080 size=4>singleton</font></b>
+<b><font color=#000080> 3's in the prime factorisation of </font></b>
+<img src="images/reduced TCD talk 9th Feb 200598.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080> (and one begins to wonder if...)</font></b>
+</li>
+<li>
+<b><font color=#000080>And then, as I noticed several years ago (in </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080>, but </font></b>
+<i><b><font color=#000080>not all</font></b></i>
+<b><font color=#000080> cases) the last two primes in the prime factorisation of (</font></b>
+<img src="images/reduced TCD talk 9th Feb 200599.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>) </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> to be related. <br>
+<br>
+See, for example, with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 331, the '5' and '11' </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> related: 11 = 1 (mod 5)<br>
+See, for example, with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 547, the '13' and '7' </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> related: 13 = -1 (mod 7)<br>
+<br>
+(Aside: those cases involve numbers so small that any and every kind of connection could be misleadingly spotted, and no one should get too excited if that was all there was going on)<br>
+<br>
+See too, with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 2437, the '7' and '29' </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> related: 29 = 1 (mod 7)<br>
+See too, with </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 4219, the '19' and '37' </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> related: 37 = -1 (mod 19)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Notice, though, reading backwards through the table that </font></b>
+<b><font color=#000080 size=4>nothing appears</font></b>
+<b><font color=#000080> to be going on</font></b>
+<i><b><font color=#000080> </font></b></i>
+<b><font color=#000080>in the cases where </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 9241, 7351 (unless you decide to notice, for example, that </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005100.gif" width=66 height=50 alt="7^2 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005101.gif" width=33 height=50 alt="5^2" align=middle>
+<b><font color=#000080>)), 3571, ...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I returned to all of this last November 23rd, 2004. I quote exactly from my diary of that day:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>" </font></b>
+<i><b><font color=#000080>I also did some (</font></b></i>
+<i><b><u><font color=#000080>renewed</font></u></b></i>
+<i><b><font color=#000080>) Maple work on 'Wilson 3' - the </font></b></i>
+<img src="images/reduced TCD talk 9th Feb 2005102.gif" width=79 height=58 alt="((p-1)/3)!" align=middle>
+<i><b><font color=#000080> mod p etc. Of course I noticed certain things: the +/-1 residue from the lesser prime, BUT it was only as I was about to go to bed that I </font></b></i>
+<i><b><u><font color=#000080>noticed</font></u></b></i>
+<i><b><font color=#000080> the: </font></b></i>
+<img src="images/reduced TCD talk 9th Feb 2005103.gif" width=99 height=50 alt="p = 2^alpha.3" align=middle>
+<i><b><font color=#000080>.q.q' + 1 with q' = +/-1 was </font></b></i>
+<i><b><u><font color=#000080>really</font></u></b></i>
+<i><b><font color=#000080> TIED to the </font></b></i>
+<img src="images/reduced TCD talk 9th Feb 2005104.gif" width=37 height=50 alt="2^alpha" align=middle>
+<i><b><font color=#000080> ...</font></b></i>
+<b><font color=#000080>"</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Meaning? </font></b>
+<b><font color=#000080 size=4>It jumped out at me</font></b>
+<b><font color=#000080> that the </font></b>
+<i><b><font color=#000080>q'</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> (in cases where they were the </font></b>
+<b><font color=#000080 size=4>only primes</font></b>
+<b><font color=#000080> besides the automatically occurring '2' and '3') weren't just apparently related by some vague congruence, but it seemed that the corresponding congruence had a very precise quotient: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>the exact power of 2 occurring in the prime factorisation of</font></b>
+<b><font color=#000080> (</font></b>
+<img src="images/reduced TCD talk 9th Feb 2005105.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080>)...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Thus, for example, to take the last prime in the above table: </font></b>
+<b><font color=#000080 size=4>it's not merely</font></b>
+<b><font color=#000080> that 67 = -1 (mod 17), </font></b>
+<b><font color=#000080 size=4>but</font></b>
+<b><font color=#000080> in fact </font></b>
+<img src="images/reduced TCD talk 9th Feb 2005106.gif" width=117 height=50 alt="67 = 17.2^2-1" align=middle>
+<b><font color=#000080>. This deserves a new section:</font></b>
+</p>
+</basefont>
+</body>
+</html>

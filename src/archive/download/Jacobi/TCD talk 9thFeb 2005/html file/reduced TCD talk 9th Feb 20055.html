@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>reduced TCD talk 9th Feb 2005.html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=4>Some history: Wilson and Lagrange</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here I have to </font></b>
+<b><font color=#000080 size=4>move quickly</font></b>
+<b><font color=#000080> (in fact I'll simply have to fly through this section), and attempt not to get too involved in covering standard material (of a type that I covered last November 2004 with my 2nd year BEd and BA students). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The </font></b>
+<b><font color=#000080 size=4>essential point</font></b>
+<b><font color=#000080> about Wilson and Lagrange is that they discovered fundamental connections</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>in Wilson's case between the residues in the </font></b>
+<b><font color=#000080 size=4>full set</font></b>
+<b><font color=#000080> of non-zero residues for a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+</li>
+<li>
+<b><font color=#000080>in Lagrange's case between the residues in the </font></b>
+<b><font color=#000080 size=4>two </font></b>
+<i><b><font color=#000080 size=4>natural</font></b></i>
+<b><font color=#000080 size=4> half-sets</font></b>
+<b><font color=#000080> of non-zero residues for a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>First the classic theorem of Wilson (of which there are many, many proofs, including one-and-a-half of my own (published in 1967)):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Wilson's theorem </font></b>
+<b><font color=#000080>(first proved by Lagrange in 1777). For </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> prime one has </font></b>
+<img src="images/reduced TCD talk 9th Feb 200517.gif" width=104 height=32 alt="(p-1)! = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Note. The converse of Wilson's theorem:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>if </font></b>
+<img src="images/reduced TCD talk 9th Feb 200518.gif" width=105 height=32 alt="(n-1)! = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>), then </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>is a complete triviality (however, should polynomial time factorial modular computation ever become a reality then that would be a different matter!).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Numerical examples (here I am interested only in </font></b>
+<b><font color=#000080 size=4>demonstration</font></b>
+<b><font color=#000080>, not in fancy footwork; in short, I want you to see the </font></b>
+<i><b><font color=#000080>potential</font></b></i>
+<b><font color=#000080> size of the numbers involved). </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 37; # a prime, of course<br>
+(p-1)!; # the actual value of the factorial<br>
+(p-1)! mod p; # the normal remainder<br>
+mods((p-1)!, p); # the least absolute remainder</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200519.gif" width=62 height=20 alt="p := 37">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200520.gif" width=352 height=20 alt="371993326789901217467999448150835200000000">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200521.gif" width=32 height=20 alt="36">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200522.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 39; # NOT a prime<br>
+(p-1)!; # the actual value of the factorial<br>
+(p-1)! mod p; # the normal remainder<br>
+mods((p-1)!, p); # the least absolute remainder</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200523.gif" width=62 height=20 alt="p := 39">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200524.gif" width=376 height=20 alt="523022617466601111760007224100074291200000000">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200525.gif" width=24 height=20 alt="0">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200526.gif" width=24 height=20 alt="0">
+</p>
+<p align=left>
+<b><font color=#000080>I had to omit the large output from the (p-1)! following in the html version, as it led to problems:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(1234); # a prime<br>
+# (p-1)!; # the actual value of the factorial<br>
+(p-1)! mod p; # the normal remainder<br>
+mods((p-1)!, p); # the least absolute remainder</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200527.gif" width=78 height=20 alt="p := 1237">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200528.gif" width=48 height=20 alt="1236">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200529.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Lagrange besides publishing the first proof of Wilson's theorem in 1777, published some important related work: he </font></b>
+<i><b><font color=#000080>proved</font></b></i>
+<b><font color=#000080> - using Wilson's theorem - important distinctions (discovered by Fermat, who could not provide proofs) between the way in which primes leaving remainders 1 and 3 on division by 4 behaved.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Briefly, Fermat had observed (in </font></b>
+<i><b><font color=#000080>equivalent non-congruence language</font></b></i>
+<b><font color=#000080>; congruence notation only came in with Gauss in his monumental </font></b>
+<i><b><font color=#000080>Disquisitiones Arithmeticae</font></b></i>
+<b><font color=#000080> (1801)) that</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>the quadratic congruence </font></b>
+<img src="images/reduced TCD talk 9th Feb 200530.gif" width=89 height=50 alt="x^2+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) has </font></b>
+<b><font color=#000080 size=4>no</font></b>
+<b><font color=#000080> solutions for prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> satisfying </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 3 (mod 4) </font></b>
+</li>
+<li>
+<b><font color=#000080>the quadratic congruence </font></b>
+<img src="images/reduced TCD talk 9th Feb 200531.gif" width=89 height=50 alt="x^2+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) has </font></b>
+<b><font color=#000080 size=4>exactly</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>two</font></b>
+<b><font color=#000080> solutions for prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> satisfying </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 4)</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Numerical illustrations.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(1000);<br>
+p mod 4;<br>
+msolve(x^2 + 1 = 0, p);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200532.gif" width=78 height=20 alt="p := 1009">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200533.gif" width=24 height=20 alt="1">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200534.gif" width=160 height=20 alt="{x = 540}, {x = 469}">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := nextprime(2000);<br>
+p mod 4;<br>
+msolve(x^2 + 1 = 0, p);</font></b>
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200535.gif" width=78 height=20 alt="p := 2003">
+</p>
+<p align=center>
+<img src="images/reduced TCD talk 9th Feb 200536.gif" width=24 height=20 alt="3">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Suffice it to say that Lagrange noted the following (trivially-derived) consequence of Wilson's theorem:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>               </font></b>
+<img src="images/reduced TCD talk 9th Feb 200537.gif" width=212 height=108 alt="((p-1)/2)!^2 = (-1)^((p+1)/2)" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>)       (Lagrange congruence)</font></b>
+</p>
+<p align=center>
+<b><font color=#000080><br>
+(you see why, of course? Use </font></b>
+<img src="images/reduced TCD talk 9th Feb 200538.gif" width=86 height=32 alt="p-r = -r" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), for </font></b>
+<img src="images/reduced TCD talk 9th Feb 200539.gif" width=150 height=58 alt="r = 1, 2, 3, `...`, (p-1)/2" align=middle>
+<b><font color=#000080>, and...)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+</font></b>
+<b><font color=#000080 size=4>In summary, this is what one had</font></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>For prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 3 (mod 4), </font></b>
+<img src="images/reduced TCD talk 9th Feb 200540.gif" width=134 height=84 alt="((p-1)/2)!^2 = 1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>).<br>
+<br>
+It should be noted that a </font></b>
+<i><b><font color=#000080>consequence</font></b></i>
+<b><font color=#000080> of that was that </font></b>
+<b><font color=#000080 size=4>either</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/reduced TCD talk 9th Feb 200541.gif" width=107 height=58 alt="((p-1)/2)! = 1" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>or</font></b>
+<b><font color=#000080> -1 (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), and it was a </font></b>
+<b><font color=#000080 size=4>long-standing unsolved problem</font></b>
+<b><font color=#000080> for many years to determine the sign (see Dec 15th 2004 email from Andrew Granville)  </font></b>
+</li>
+<li>
+<b><font color=#000080>For prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> = 1 (mod 4), </font></b>
+<img src="images/reduced TCD talk 9th Feb 200542.gif" width=139 height=84 alt="((p-1)/2)!^2 = -1" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>), from which it is easily deduced that </font></b>
+<img src="images/reduced TCD talk 9th Feb 200543.gif" width=89 height=50 alt="x^2+1 = 0" align=middle>
+<b><font color=#000080> (mod </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>) has </font></b>
+<b><font color=#000080 size=4>at least</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>two</font></b>
+<b><font color=#000080> solutions, and a further result of Lagrange's then allowed one to conclude there were </font></b>
+<b><font color=#000080 size=4>exactly</font></b>
+<b><font color=#000080> two solutions.</font></b>
+</li>
+</basefont>
+</body>
+</html>

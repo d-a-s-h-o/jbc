@@ -1,0 +1,80 @@
+<html>
+
+<head>
+<title>Search Page</title>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+
+
+<base HREF="search.htm">
+<meta name="Microsoft Theme" content="nature 111, default"><meta name="Microsoft Border" content="tlb, default"></head>
+
+<body background="_themes/nature/nabkgnd.jpg" bgcolor="#FFFF99" text="#333399" link="#990033" vlink="#009966" alink="#FF6600"><a href="http://www.johnbcosgrave.com">	&lt; Back to johnbcosgrave.com</a><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="trebuchet ms, arial, helvetica">
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+
+<p align="center">&nbsp;</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="trebuchet ms, arial, helvetica">
+
+<p> </p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="trebuchet ms, arial, helvetica">
+
+<p ALIGN="center">&nbsp;</p>
+<!--webbot BOT="Search" S-INDEX="All" S-SCOPE="All-Website" S-FIELDS="documentk,weight," S-FIELDSEX="size,rank," S-TEXT="Search for:" I-SIZE="20" S-SUBMIT="Start Search" S-CLEAR="Reset" S-CIMAXRECORDSPERPAGE="10" S-CIMAXRECORDSINRESULTSET="200" TAG="FORM" B-USEINDEXSERVER="1" U-DOC-URL="search.htm" startspan --><form action="_vti_bin/search.htm0.idq" method="POST"><p><b>Search for: </b><input type="text" name="UserRestriction" size="20" value="<%if UserRestriction NE VT_EMPTY%><%if UserRestriction NE "UserRestriction"%><%UserRestriction%><%endif%><%endif%>"></p><p><input type="submit" value="Start Search"><input type="reset" value="Reset"></p></form><!--webbot bot="Search" endspan i-checksum="12602" -->
+
+<!--mstheme--></font><table BORDER="0">
+  <tr>
+    <td><!--mstheme--><font face="trebuchet ms, arial, helvetica"><%if CiContainsFirstRecord EQ 0%><form ACTION="_vti_bin/search.htm0.idq" METHOD="POST">
+      <input TYPE="HIDDEN" NAME="CiBookmark" VALUE="<%CiBookmark%>"><input TYPE="HIDDEN" NAME="CiBookmarkSkipCount" VALUE="-<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="CiMaxRecordsPerPage" VALUE="<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="CiRestriction" VALUE="<%CiRestriction%>"><input TYPE="HIDDEN" NAME="CiScope" VALUE="<%CiScope%>"><%if CiMaxRecordsPerPage EQ 1%><input TYPE="SUBMIT" VALUE="Previous hit"><%else%><input TYPE="SUBMIT" VALUE="Previous <%CiMaxRecordsPerPage%> Hits"><%endif%>
+    </form>
+    <%endif%><!--mstheme--></font></td>
+    <td><!--mstheme--><font face="trebuchet ms, arial, helvetica"><%if CiContainsLastRecord EQ 0%><form ACTION="_vti_bin/search.htm0.idq" METHOD="POST">
+      <input TYPE="HIDDEN" NAME="CiBookmark" VALUE="<%CiBookmark%>"><input TYPE="HIDDEN" NAME="CiBookmarkSkipCount" VALUE="<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="CiMaxRecordsPerPage" VALUE="<%EscapeRAW CiMaxRecordsPerPage%>"><input TYPE="HIDDEN" NAME="CiRestriction" VALUE="<%CiRestriction%>"><input TYPE="HIDDEN" NAME="CiScope" VALUE="<%CiScope%>"><%if CiRecordsNextPage EQ 1%><input TYPE="SUBMIT" VALUE="Next hit"><%else%><input TYPE="SUBMIT" VALUE="Next <%CiRecordsNextPage%> Hits"><%endif%>
+    </form>
+    <%endif%><!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="trebuchet ms, arial, helvetica">
+<%if CiMatchedRecordCount EQ 0%>
+<p><b>No documents found. Please try again.</b></p>
+<%else%>
+<p><b>Number of documents found: <%CiMatchedRecordCount%>. Click on a document to view it, or submit another search.</b></p>
+
+<!--mstheme--></font><table BORDER>
+  <caption><b>Search Results</b></caption>
+  <tr>
+    <td><!--mstheme--><font face="trebuchet ms, arial, helvetica"><b>Document</b><!--mstheme--></font></td>
+    <td ALIGN="right"><!--mstheme--><font face="trebuchet ms, arial, helvetica"><b>Size</b><!--mstheme--></font></td>
+    <td ALIGN="right"><!--mstheme--><font face="trebuchet ms, arial, helvetica"><b>Score</b><!--mstheme--></font></td>
+  </tr>
+  <%endif%><%begindetail%>
+  <tr>
+    <td><!--mstheme--><font face="trebuchet ms, arial, helvetica"><a HREF="<%EscapeURL vpath%>"><%if DocTitle ISEMPTY%><%Filename%><%else%><%DocTitle%><%endif%></a><!--mstheme--></font></td>
+    <td ALIGN="right"><!--mstheme--><font face="trebuchet ms, arial, helvetica"><%size%><!--mstheme--></font></td>
+    <td ALIGN="right"><!--mstheme--><font face="trebuchet ms, arial, helvetica"><%rank%><!--mstheme--></font></td>
+  </tr>
+  <%enddetail%><%if CiMatchedRecordCount GT 0%>
+</table><!--mstheme--><font face="trebuchet ms, arial, helvetica">
+<%endif%><!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="trebuchet ms, arial, helvetica">
+
+<p><strong>Contact me at: </strong></p>
+
+<p><strong>e-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:John.Cosgrave@spd.ie">John.Cosgrave@spd.ie</a>
+(St. Patrick's College) and <a href="mailto:johnbcos@iol.ie">johnbcos@iol.ie</a> (Home)</strong></p>
+
+<p><strong>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 00 - 353 - 1 - 8842133 (Office number at
+St. Patrick's College)</strong></p>
+
+<p><strong>Fax: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;00 - 353 - 1 -
+8376197 (St. Patrick's College)</strong></p>
+
+<p><strong>Address:&nbsp; Dr. John B. Cosgrave, Mathematics Department, St. Patrick's
+College, </strong></p>
+
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;Drumcondra, Dublin 9, IRELAND.</strong></p>
+
+<!--msthemeseparator--><p align="center"><img src="_themes/nature/anarule.gif" width="300" height="10"></p>
+
+<p><strong>This page was last updated 22 July 1999 13:32:31 +0100</strong></p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+</html>

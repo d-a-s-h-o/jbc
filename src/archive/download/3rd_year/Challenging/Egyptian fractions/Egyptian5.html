@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>Egyptian.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=4>Fibonacci's </font></b>
+<i><b><font color=#000080 size=4>greedy</font></b></i>
+<b><font color=#000080 size=4> algorithm</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>What I  write here is meant only to be a </font></b>
+<i><b><font color=#000080>summary after the event</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>after the playing/experimentimg/teaching</font></b></i>
+<b><font color=#000080> has been done in some way...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Let's start with a (well-chosen!) example like '</font></b>
+<img src="images/Egyptian29.gif" width=36 height=58 alt="3/25" align=middle>
+<b><font color=#000080>'. Let's try to fill in the question marks on the right-hand side of:</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian30.gif" width=36 height=58 alt="3/25" align=middle>
+<b><font color=#000080> = ? + ? + ... + ?     [e]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>with </font></b>
+<i><b><font color=#000080>distinct unit fractions</font></b></i>
+<b><font color=#000080>. What unit fractions might one try? An </font></b>
+<i><b><font color=#000080>obvious</font></b></i>
+<b><font color=#000080> initial observation is that one could </font></b>
+<i><b><font color=#000080>not use</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Egyptian31.gif" width=68 height=58 alt="1/2, 1/3, 1/4" align=middle>
+<b><font color=#000080>, ... (Why? Because they are </font></b>
+<i><b><font color=#000080>too big</font></b></i>
+<b><font color=#000080> in relation to </font></b>
+<img src="images/Egyptian32.gif" width=36 height=58 alt="3/25" align=middle>
+<b><font color=#000080>). And </font></b>
+<i><b><font color=#000080>where</font></b></i>
+<b><font color=#000080> does the '...' end? Of course it ends at </font></b>
+<img src="images/Egyptian33.gif" width=28 height=58 alt="1/8" align=middle>
+<b><font color=#000080> because </font></b>
+<img src="images/Egyptian34.gif" width=68 height=58 alt="3/25 &lt; 1/8" align=middle>
+<b><font color=#000080> (which is </font></b>
+<img src="images/Egyptian35.gif" width=36 height=58 alt="3/24" align=middle>
+<b><font color=#000080>), while </font></b>
+<img src="images/Egyptian36.gif" width=68 height=58 alt="1/9 &lt; 3/25" align=middle>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>So, [e] could </font></b>
+</p>
+<ul><li>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> commence with </font></b>
+<img src="images/Egyptian37.gif" width=68 height=58 alt="3/25 = 1/2" align=middle>
+<b><font color=#000080> + ? + ... + ?, </font></b>
+</li>
+<li>
+<i><b><font color=#000080>nor</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/Egyptian38.gif" width=68 height=58 alt="3/25 = 1/3" align=middle>
+<b><font color=#000080> + ? + ... + ?, </font></b>
+</li>
+<li>
+<i><b><font color=#000080>nor</font></b></i>
+<b><font color=#000080> with ... </font></b>
+</li>
+<li>
+<i><b><font color=#000080>nor</font></b></i>
+<b><font color=#000080> with </font></b>
+<img src="images/Egyptian39.gif" width=68 height=58 alt="3/25 = 1/8" align=middle>
+<b><font color=#000080> + ? + ... + ?, <br>
+<br>
+</font></b>
+<i><b><font color=#000080>but</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>it </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> commence with </font></b>
+<img src="images/Egyptian40.gif" width=68 height=58 alt="3/25 = 1/9" align=middle>
+<b><font color=#000080> + ? + ... + ?   [e9], and </font></b>
+</li>
+<li>
+<b><font color=#000080>it </font></b>
+<i><b><font color=#000080>could also</font></b></i>
+<b><font color=#000080> commence with </font></b>
+<img src="images/Egyptian41.gif" width=76 height=58 alt="3/25 = 1/10" align=middle>
+<b><font color=#000080> + ? + ... + ?   [e10], and</font></b>
+</li>
+<li>
+<b><font color=#000080>it </font></b>
+<i><b><font color=#000080>could also</font></b></i>
+<b><font color=#000080> commence with </font></b>
+<img src="images/Egyptian42.gif" width=76 height=58 alt="3/25 = 1/11" align=middle>
+<b><font color=#000080> + ? + ... + ?   [e11] </font></b>
+<i><b><font color=#000080>etc</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>etc</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>So </font></b>
+<i><b><font color=#000080>much choice</font></b></i>
+<b><font color=#000080>! An infinite amount of choice, in fact... which is what makes it all so interesting...</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Suppose one made the choice in [e9]; then one would </font></b>
+<i><b><font color=#000080>do the obvious thing</font></b></i>
+<b><font color=#000080>: subtract </font></b>
+<img src="images/Egyptian43.gif" width=28 height=58 alt="1/9" align=middle>
+<b><font color=#000080> from the right-hand side of [e9] giving</font></b>
+</p>
+<p align=center>
+<img src="images/Egyptian44.gif" width=160 height=58 alt="3/25-1/9 = (3.9-1.25)/25.9" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian45.gif" width=120 height=58 alt="(27-25)/225 = 2/225" align=middle>
+<b><font color=#000080> = ? + ... ?  [e9', is unfinished]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But if one made the choice in [e10] then one would have<br>
+</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Egyptian46.gif" width=176 height=58 alt="3/25-1/10 = (3.10-1.25)/25.10" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian47.gif" width=120 height=58 alt="(30-25)/250 = 5/250" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian48.gif" width=36 height=58 alt="1/50" align=middle>
+<b><font color=#000080>  [e10', is finished]</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Thus </font></b>
+<img src="images/Egyptian49.gif" width=116 height=58 alt="3/25 = 1/10+1/50" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>If one were to continue with the '</font></b>
+<img src="images/Egyptian50.gif" width=44 height=58 alt="2/225" align=middle>
+<b><font color=#000080>' in [e9'] by setting</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/Egyptian51.gif" width=44 height=58 alt="2/225" align=middle>
+<b><font color=#000080> = ? + ... + ?  [e9'']</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>then the </font></b>
+<i><b><font color=#000080>first possible unit fraction</font></b></i>
+<b><font color=#000080> (as we did earlier to produce the initial '</font></b>
+<img src="images/Egyptian52.gif" width=28 height=58 alt="1/9" align=middle>
+<b><font color=#000080>'; this is an </font></b>
+<i><b><font color=#000080>important detail</font></b></i>
+<b><font color=#000080> which I will return to in a moment) that one could use is </font></b>
+<img src="images/Egyptian53.gif" width=44 height=58 alt="1/113" align=middle>
+<b><font color=#000080>, giving: </font></b>
+<img src="images/Egyptian54.gif" width=92 height=58 alt="2/225 = 1/113" align=middle>
+<b><font color=#000080> + ... + ?   [e9''']</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Thus </font></b>
+<img src="images/Egyptian55.gif" width=208 height=58 alt="2/225-1/113 = (2.113-1.225)/113.225" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Egyptian56.gif" width=152 height=58 alt="(226-225)/113.225 = 1/25425" align=middle>
+<b><font color=#000080> , and so the initial choice of </font></b>
+<img src="images/Egyptian57.gif" width=28 height=58 alt="1/9" align=middle>
+<b><font color=#000080> has led to</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/Egyptian58.gif" width=180 height=58 alt="3/25 = 1/9+1/113+1/25425" align=middle>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:07:05 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

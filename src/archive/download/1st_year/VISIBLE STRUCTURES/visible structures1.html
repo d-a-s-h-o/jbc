@@ -1,0 +1,639 @@
+<html>
+<head>
+<title>visible structures.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># visible structures.mws</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(plots): # this is needed later for 'display'</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the name changecoords has been redefined<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<i><b><font color=#000080 size=4>Seeing </font></b></i>
+<b><font color=#000080 size=4>(of a </font></b>
+<i><b><font color=#000080 size=4>sort</font></b></i>
+<b><font color=#000080 size=4>) </font></b>
+<i><b><font color=#000080 size=4>is believing</font></b></i>
+<b><font color=#000080 size=4> (up to a </font></b>
+<i><b><font color=#000080 size=4>point</font></b></i>
+<b><font color=#000080 size=4>) </font></b>
+<i><b><font color=#000080 size=4>...<br>
+<br>
+John Cosgrave, Mathematics Department,<br>
+St. Patrick's College, Drumcondra, Dublin 9, </font></b></i>
+<b><font color=#000080 size=4>IRELAND<br>
+</font></b>
+<i><b><font color=#000080 size=4>John.Cosgrave@spd.ie</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Acknowledgement</font></u></b>
+<b><font color=#000080>. The inspiration for this Maple worksheet was an article (rather one particular diagram in an article: Figure 1 on page 899) - </font></b>
+<i><b><font color=#000080>Visible Structures in Number Theory</font></b></i>
+<b><font color=#000080> - by Peter Borwein and  Loki Jörgenson in the December 2001 issue of the </font></b>
+<i><b><font color=#000080>American Mathematical Monthly</font></b></i>
+<b><font color=#000080>; their diagram </font></b>
+<i><b><font color=#000080>illustrates</font></b></i>
+<b><font color=#000080> that the </font></b>
+<i><b><font color=#000080>sum</font></b></i>
+<b><font color=#000080> of the Archimedean series (as I refer to it)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/visible structures1.gif" width=263 height=80 alt="Sum(1/(4^(n-1)),n = 1 .. infinity) = 1+1/4+1/(4^2)+..." align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>is </font></b>
+<img src="images/visible structures2.gif" width=28 height=58 alt="4/3" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Preamble</font></u></b>
+<b><font color=#000080>. Forget about the technology (for the moment); just use your </font></b>
+<i><b><font color=#000080>imagination</font></b></i>
+<b><font color=#000080>... Here's something I first read somewhere when I was at school; it relates to the sum of the infinite series:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/visible structures3.gif" width=263 height=80 alt="Sum(1/(2^(n-1)),n = 1 .. infinity) = 1+1/2+1/(2^2)+..." align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>whose </font></b>
+<i><b><font color=#000080>sum</font></b></i>
+<b><font color=#000080> is 2. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here's how one may </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> the (essential) truth of that: </font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>take in hand (imagine having) a piece of string, </font></b>
+<i><b><font color=#000080>L</font></b></i>
+<b><font color=#000080>, of </font></b>
+<i><b><font color=#000080>length</font></b></i>
+<b><font color=#000080> 2, and</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>cut that string into two pieces, </font></b>
+<img src="images/visible structures4.gif" width=34 height=32 alt="L[1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/visible structures5.gif" width=35 height=32 alt="E[1]" align=middle>
+<b><font color=#000080>, of equal length; then one has:</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/visible structures6.gif" width=80 height=32 alt="2 = 1+1" align=middle>
+<b><font color=#000080> (hardly a surprise!)</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>cut that string </font></b>
+<img src="images/visible structures7.gif" width=35 height=32 alt="E[1]" align=middle>
+<b><font color=#000080> into two pieces, </font></b>
+<img src="images/visible structures8.gif" width=34 height=32 alt="L[2]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/visible structures9.gif" width=35 height=32 alt="E[2]" align=middle>
+<b><font color=#000080>, of equal length (</font></b>
+<img src="images/visible structures10.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080>); then one has:</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/visible structures11.gif" width=116 height=58 alt="2 = 1+1/2+1/2" align=middle>
+<b><font color=#000080> </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>cut that string </font></b>
+<img src="images/visible structures12.gif" width=35 height=32 alt="E[2]" align=middle>
+<b><font color=#000080> into two pieces, </font></b>
+<img src="images/visible structures13.gif" width=34 height=32 alt="L[3]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/visible structures14.gif" width=35 height=32 alt="E[3]" align=middle>
+<b><font color=#000080>, of equal length (</font></b>
+<img src="images/visible structures15.gif" width=37 height=58 alt="1/(2^2)" align=middle>
+<b><font color=#000080>); then one has:</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/visible structures16.gif" width=166 height=54 alt="2 = 1+1/2+1/(2^2)+1/(2^2)">
+</p>
+<ul><li>
+<b><font color=#000080>cut that string </font></b>
+<img src="images/visible structures17.gif" width=35 height=32 alt="E[3]" align=middle>
+<b><font color=#000080> into two pieces, </font></b>
+<img src="images/visible structures18.gif" width=34 height=32 alt="L[4]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/visible structures19.gif" width=35 height=32 alt="E[4]" align=middle>
+<b><font color=#000080>, of equal length (</font></b>
+<img src="images/visible structures20.gif" width=37 height=58 alt="1/(2^3)" align=middle>
+<b><font color=#000080>); then one has:</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/visible structures21.gif" width=207 height=58 alt="2 = 1+1/2+1/(2^2)+1/(2^3)+1/(2^3)" align=middle>
+</p>
+<p align=center>
+<b><font color=#000080><br>
+..............................</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>cut that string </font></b>
+<img src="images/visible structures22.gif" width=36 height=32 alt="E[n]" align=middle>
+<b><font color=#000080> into two pieces, </font></b>
+<img src="images/visible structures23.gif" width=63 height=32 alt="L[n+1]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/visible structures24.gif" width=64 height=32 alt="E[n+1]" align=middle>
+<b><font color=#000080>, of equal length (</font></b>
+<img src="images/visible structures25.gif" width=38 height=58 alt="1/(2^n)" align=middle>
+<b><font color=#000080>); then one has:</font></b>
+</li>
+</ul>
+<p align=center>
+<img src="images/visible structures26.gif" width=166 height=58 alt="2 = 1+1/2+1/(2^2)+1/(2^3)" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/visible structures27.gif" width=80 height=58 alt="1/(2^n)+1/(2^n)" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+</font></b>
+<b><u><font color=#000080>The crux</font></u></b>
+<b><font color=#000080>. Now </font></b>
+<i><b><font color=#000080>imagine</font></b></i>
+<b><font color=#000080> the original string cut into an </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> number of pieces:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>one piece having length 1</font></b>
+</li>
+<li>
+<b><font color=#000080>a </font></b>
+<img src="images/visible structures28.gif" width=42 height=50 alt="2^nd" align=middle>
+<b><font color=#000080> piece having length </font></b>
+<img src="images/visible structures29.gif" width=28 height=58 alt="1/2" align=middle>
+</li>
+<li>
+<b><font color=#000080>a </font></b>
+<img src="images/visible structures30.gif" width=39 height=50 alt="3^rd" align=middle>
+<b><font color=#000080> piece having length </font></b>
+<img src="images/visible structures31.gif" width=37 height=58 alt="1/(2^2)" align=middle>
+</li>
+<li>
+<b><font color=#000080>a </font></b>
+<img src="images/visible structures32.gif" width=39 height=50 alt="4^th" align=middle>
+<b><font color=#000080> piece having length </font></b>
+<img src="images/visible structures33.gif" width=37 height=58 alt="1/(2^3)" align=middle>
+</li>
+<li>
+<b><font color=#000080>a </font></b>
+<img src="images/visible structures34.gif" width=39 height=50 alt="5^th" align=middle>
+<b><font color=#000080> piece having length </font></b>
+<img src="images/visible structures35.gif" width=37 height=58 alt="1/(2^4)" align=middle>
+<b><font color=#000080><br>
+... and so on </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Then (stating the intuitive:) the length of the original string is equal to the total sum of the individual pieces of string, we would </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> that:</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures36.gif" width=248 height=58 alt="2 = 1+1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(2^5)" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Moving on</font></u></b>
+<b><font color=#000080>. Elsewhere I have explained that the first genuine example of what is now called an infinite series could be said to have occurred implicitly in the work of Archimedes (though that is bending the true history... , as mathematical historians will know; however I never let historical accuracy get in the way of the more important issue: understanding mathematical </font></b>
+<i><b><font color=#000080>ideas</font></b></i>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I have attempted elsewhere to convey to you (my students), that one of the initial hurdles to be overcome in connection with understanding </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> series is that of </font></b>
+<i><b><font color=#000080>realising</font></b></i>
+<b><font color=#000080> that it is a non-trivial problem to </font></b>
+<i><b><font color=#000080>define exactly</font></b></i>
+<b><font color=#000080> what is </font></b>
+<i><b><font color=#000080>meant</font></b></i>
+<b><font color=#000080> by the </font></b>
+<i><b><font color=#000080>sum</font></b></i>
+<b><font color=#000080> of such a series... . </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Recall that </font></b>
+<i><b><font color=#000080>naively</font></b></i>
+<b><font color=#000080> one might </font></b>
+<i><b><font color=#000080>think</font></b></i>
+<b><font color=#000080> every series (within reason, of course) actually </font></b>
+<i><b><font color=#000080>has</font></b></i>
+<b><font color=#000080> a sum, and one </font></b>
+<i><b><font color=#000080>might</font></b></i>
+<b><font color=#000080> also think that the </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> problem is to find - by some clever method (</font></b>
+<i><b><font color=#000080>Let</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>S be the sum of the series, then multiplying S by ... , and then subtracting, and then ... , and so the actual value of S is ... </font></b></i>
+<b><font color=#000080>) or whatever - the value of that sum...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The aim of this worksheet is to show some pictures which </font></b>
+<i><b><font color=#000080>attempt</font></b></i>
+<b><font color=#000080> to reinforce an </font></b>
+<i><b><font color=#000080>understanding</font></b></i>
+<b><font color=#000080> of the sums of certain infinite series. I will begin by setting up some pictures which allow one to </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> (but your </font></b>
+<i><b><font color=#000080>imagination</font></b></i>
+<b><font color=#000080> will play a very big role in all this!) that the series encountered in the Archimedes  work:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/visible structures37.gif" width=220 height=58 alt="1+1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/(4^5)" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/visible structures38.gif" width=80 height=58 alt="1/(4^(n-1))" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080>, has sum </font></b>
+<img src="images/visible structures39.gif" width=28 height=58 alt="4/3" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>This is what I am going to do:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>First I am going to show you </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> picture, in which you will see some squares fitting together in a certain (</font></b>
+<i><b><font color=#000080>clever</font></b></i>
+<b><font color=#000080>) way; it is the </font></b>
+<i><b><font color=#000080>initial</font></b></i>
+<b><font color=#000080> part of a picture that </font></b>
+<b><u><font color=#000080>no</font></u></b>
+<b><font color=#000080> computer could construct, because the picture that I want you to </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> can only be </font></b>
+<i><b><font color=#000080>seen</font></b></i>
+<b><font color=#000080> in your </font></b>
+<i><b><font color=#000080>imagination</font></b></i>
+<b><font color=#000080>... (later I will show you an animation whose final frame is this single, static picture...)<br>
+</font></b>
+</li>
+</ul>
+<p align=center>
+<b><font color=#000080 size=4>Figure 1 in the Borwein-Jörgenson December 2001 </font></b>
+<i><b><font color=#000080 size=4>Monthly</font></b></i>
+<b><font color=#000080 size=4> article</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures40.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<ul><li>
+<b><font color=#000080>Next I give some </font></b>
+<i><b><font color=#000080>details</font></b></i>
+<b><font color=#000080> about those squares: <br>
+<br>
+0. The largest, outer square has side length 2,<br>
+<br>
+   and as for the green squares, starting at the bottom left-hand corner:<br>
+<br>
+1. the </font></b>
+<img src="images/visible structures41.gif" width=36 height=50 alt="1^st" align=middle>
+<b><font color=#000080> of them has side </font></b>
+<i><b><font color=#000080>length</font></b></i>
+<b><font color=#000080> 1, and so has area...<br>
+2. the </font></b>
+<img src="images/visible structures42.gif" width=42 height=50 alt="2^nd" align=middle>
+<b><font color=#000080> of them has side </font></b>
+<i><b><font color=#000080>length</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/visible structures43.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> (simply </font></b>
+<img src="images/visible structures44.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> the length of the </font></b>
+<img src="images/visible structures45.gif" width=36 height=50 alt="1^st" align=middle>
+<b><font color=#000080>square)<br>
+3. the </font></b>
+<img src="images/visible structures46.gif" width=39 height=50 alt="3^rd" align=middle>
+<b><font color=#000080> of them has side </font></b>
+<i><b><font color=#000080>length</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/visible structures47.gif" width=37 height=58 alt="1/(2^2)" align=middle>
+<b><font color=#000080> (simply </font></b>
+<img src="images/visible structures48.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> the length of the </font></b>
+<img src="images/visible structures49.gif" width=42 height=50 alt="2^nd" align=middle>
+<b><font color=#000080> square)<br>
+ 4. the </font></b>
+<img src="images/visible structures50.gif" width=39 height=50 alt="4^th" align=middle>
+<b><font color=#000080> of them has side </font></b>
+<i><b><font color=#000080>length</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/visible structures51.gif" width=37 height=58 alt="1/(2^3)" align=middle>
+<b><font color=#000080> (simply </font></b>
+<img src="images/visible structures52.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> the length of the </font></b>
+<img src="images/visible structures53.gif" width=39 height=50 alt="3^rd" align=middle>
+<b><font color=#000080> square)<br>
+   ... ... ... ... ... <br>
+</font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>. the </font></b>
+<img src="images/visible structures54.gif" width=39 height=50 alt="k^th" align=middle>
+<b><font color=#000080> of them has side </font></b>
+<i><b><font color=#000080>length</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/visible structures55.gif" width=79 height=58 alt="1/(2^(k-1))" align=middle>
+<b><font color=#000080> (simply </font></b>
+<img src="images/visible structures56.gif" width=28 height=58 alt="1/2" align=middle>
+<b><font color=#000080> the length of the </font></b>
+<img src="images/visible structures57.gif" width=81 height=50 alt="(k-1)^th" align=middle>
+<b><font color=#000080> square)  </font></b>
+</li>
+<li>
+<b><font color=#000080>Lastly, I ask you this question:<br>
+</font></b>
+</li>
+</ul>
+<p align=center>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>How</font></b></i>
+<b><font color=#000080> does the </font></b>
+<i><b><font color=#000080>imagined diagram</font></b></i>
+<b><font color=#000080> support the claim that the </font></b>
+<i><b><font color=#000080>sum</font></b></i>
+<b><font color=#000080> of the </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> series<br>
+ </font></b>
+</p>
+<p align=center>
+<img src="images/visible structures58.gif" width=220 height=58 alt="1+1/4+1/(4^2)+1/(4^3)+1/(4^4)+1/(4^5)" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/visible structures59.gif" width=80 height=58 alt="1/(4^(n-1))" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> </font></b>
+<img src="images/visible structures60.gif" width=28 height=58 alt="4/3" align=middle>
+<b><font color=#000080> ?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. Notice, by the way, that the </font></b>
+<i><b><font color=#000080>side length</font></b></i>
+<b><font color=#000080> - 2 - of the above square </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> the </font></b>
+<i><b><font color=#000080>sum</font></b></i>
+<b><font color=#000080> of the </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> series:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/visible structures61.gif" width=220 height=58 alt="1+1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(2^5)" align=middle>
+<b><font color=#000080> + ...</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In the following Maple program, I am simply forming the first 7 partial sums </font></b>
+<img src="images/visible structures62.gif" width=74 height=32 alt="s[1], s[2], s[3]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/visible structures63.gif" width=30 height=32 alt="s[7]" align=middle>
+<b><font color=#000080> of the infinite series:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/visible structures64.gif" width=220 height=58 alt="1+1/2+1/(2^2)+1/(2^3)+1/(2^4)+1/(2^5)" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/visible structures65.gif" width=80 height=58 alt="1/(2^(n-1))" align=middle>
+<b><font color=#000080> + ... </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>they are given by:</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures66.gif" width=58 height=32 alt="s[1] = 1" align=middle>
+</p>
+<p align=center>
+<img src="images/visible structures67.gif" width=124 height=58 alt="s[1]+s[2] = 1+1/2" align=middle>
+<b><font color=#000080><br>
+</font></b>
+<img src="images/visible structures68.gif" width=199 height=58 alt="s[1]+s[2]+s[3] = 1+1/2+1/(2^2)" align=middle>
+<b><font color=#000080><br>
+</font></b>
+<img src="images/visible structures69.gif" width=274 height=58 alt="s[1]+s[2]+s[3]+s[4] = 1+1/2+1/(2^2)+1/(2^3)" align=middle>
+<b><font color=#000080>, etc<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>In short, we have:                </font></b>
+<img src="images/visible structures70.gif" width=58 height=32 alt="s[1] = 1" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/visible structures71.gif" width=175 height=58 alt="s[k] = s[k-1]+1/(2^(k-1))" align=middle>
+<b><font color=#000080> for </font></b>
+<img src="images/visible structures72.gif" width=52 height=32 alt="2 &lt;= k" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 7: s[1] := 1:<br>
+for k from 2 to n do<br>
+s[k] := s[k-1] + 1/2^(k-1) od:<br>
+seq(s[k], k = 1..n);</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures73.gif" width=160 height=45 alt="1, 3/2, 7/4, 15/8, 31/16, 63/32, 127/64">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>s[0] := 0: for r to n do<br>
+<br>
+square||r := PLOT(seq(POLYGONS([[s[k-1],s[k-1]], [s[k],s[k-1]],[s[k],s[k]], [s[k-1],s[k]]],  COLOUR(RGB,0,1,0)), k=1..r)):<br>
+<br>
+above||r := PLOT(seq(POLYGONS([[s[k-1],s[k]], [s[k],s[k]],[s[k],2], [s[k-1],2]], COLOUR(RGB,0,0,1)), k=1..r)):<br>
+<br>
+below||r := PLOT(seq(POLYGONS([[s[k],s[k-1]], [2,s[k-1]],[2,s[k]], [s[k],s[k]]], COLOUR(RGB,0,0,1)), k=1..r)):<br>
+<br>
+outer_square := PLOT(POLYGONS([[0,0],[2,0],[2,2], [0,2]], COLOUR(RGB,1,1,1))):<br>
+<br>
+show||r := display([square||r, above||r, <br>
+                    below||r, outer_square]):<br>
+od: display([show||(1..n)], insequence=true);</font></b>
+</p>
+<p align=center>
+</p>
+<p align=center>
+<img src="images/visible structures74.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># display([show||n]); # to make the initial picture</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comment</font></u></b>
+<b><font color=#000080>. Motivated by the above (which requires an in-class discussion) there are many directions in which one might go, but one obvious one is to ask: what other infinite series might have their sums illustrated by varying the above diagram: for example by dividing a square into a 3 by 3 (or 4 by 4, etc) grid...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The following (which requires some discussion is an initial step down that road)...</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 10: s[1] := 1:<br>
+for k from 2 to n do<br>
+s[k] := s[k-1] + (2/3)^(k-1) od:<br>
+seq(s[k], k = 1..n);</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures75.gif" width=328 height=45 alt="1, 5/3, 19/9, 65/27, 211/81, 665/243, 2059/729, 630...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>s[0] := 0: for r to n do<br>
+<br>
+square||r := PLOT(seq(POLYGONS([[s[k-1],s[k-1]], [s[k],s[k-1]],[s[k],s[k]], [s[k-1],s[k]]],  COLOUR(RGB,0,1,0)), k=1..r)):<br>
+<br>
+above||r := PLOT(seq(POLYGONS([[s[k-1],s[k]], [s[k],s[k]],[s[k],3], [s[k-1],3]], COLOUR(RGB,0,0,1)), k=1..r)):<br>
+<br>
+below||r := PLOT(seq(POLYGONS([[s[k],s[k-1]], [3,s[k-1]],[3,s[k]], [s[k],s[k]]], COLOUR(RGB,0,0,1)), k=1..r)):<br>
+<br>
+outer_square := PLOT(POLYGONS([[0,0],[3,0],[3,3], [0,3]], COLOUR(RGB,1,1,1))):<br>
+<br>
+show||r := display([square||r, above||r, <br>
+                    below||r, outer_square]):<br>
+od: display([show||(1..n)], insequence=true);</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures76.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 14: s[1] := 1:<br>
+for k from 2 to n do<br>
+s[k] := s[k-1] + (3/4)^(k-1) od:<br>
+seq(s[k], k = 1..n);</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures77.gif" width=664 height=45 alt="1, 7/4, 37/16, 175/64, 781/256, 3367/1024, 14197/40...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>s[0] := 0: for r to n do<br>
+<br>
+square||r := PLOT(seq(POLYGONS([[s[k-1],s[k-1]], [s[k],s[k-1]],[s[k],s[k]], [s[k-1],s[k]]],  COLOUR(RGB,0,1,0)), k=1..r)):<br>
+<br>
+above||r := PLOT(seq(POLYGONS([[s[k-1],s[k]], [s[k],s[k]],[s[k],4], [s[k-1],4]], COLOUR(RGB,0,0,1)), k=1..r)):<br>
+<br>
+below||r := PLOT(seq(POLYGONS([[s[k],s[k-1]], [4,s[k-1]],[4,s[k]], [s[k],s[k]]], COLOUR(RGB,0,0,1)), k=1..r)):<br>
+<br>
+outer_square := PLOT(POLYGONS([[0,0],[4,0],[4,4], [0,4]], COLOUR(RGB,1,1,1))):<br>
+<br>
+show||r := display([square||r, above||r, <br>
+                    below||r, outer_square]):<br>
+od: display([show||(1..n)], insequence=true);</font></b>
+</p>
+<p align=center>
+<img src="images/visible structures78.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:06:52 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

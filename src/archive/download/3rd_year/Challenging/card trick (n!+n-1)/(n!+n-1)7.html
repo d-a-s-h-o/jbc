@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>(n!+n-1).html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark7">
+<p align=left>
+<b><font color=#000080 size=4>A telegraphic worked example with </font></b>
+<i><b><font color=#000080 size=4>n</font></b></i>
+<b><font color=#000080 size=4> = 4</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Here </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> - 1 = 24+4-1 = 27, and the base factorial bound is 3!-1, namely 5 (so keep and eye on </font></b>
+<img src="images/(n!+n-1)76.gif" width=102 height=32 alt="d[2]*2!+d[1]*1!" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<ul><li>
+<i><b><font color=#000080>C</font></b></i>
+<b><font color=#000080> chooses 4 numbers from 0, 1, 2, ... , 26, say: (</font></b>
+<img src="images/(n!+n-1)77.gif" width=100 height=32 alt="c[0], c[1], c[2], c[3]" align=middle>
+<b><font color=#000080>) = (3, 14, 22, 23).</font></b>
+</li>
+<li>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> calculates '</font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080>' from </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> = 3+14+22+23 = 3+2+2+3 = 2 (mod 4); </font></b>
+<i><b><font color=#000080>i</font></b></i>
+<b><font color=#000080> = 2, the hidden card is </font></b>
+<img src="images/(n!+n-1)78.gif" width=67 height=32 alt="c[2] = 22" align=middle>
+<b><font color=#000080>, and the cards to be passed will be 3, 14 and 23 (in the order determined below:)</font></b>
+</li>
+<li>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> calculates '</font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080>' from </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> = 3+14+23 = 3+2+3 = 0 (mod 4); </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> = 0.</font></b>
+</li>
+<li>
+<b><font color=#000080>After the imagined renumbering, </font></b>
+<img src="images/(n!+n-1)79.gif" width=31 height=32 alt="c[2]" align=middle>
+<b><font color=#000080>'s new location will be 20 (= </font></b>
+<img src="images/(n!+n-1)80.gif" width=120 height=32 alt="c[2]-i = 22-2" align=middle>
+<b><font color=#000080>) = 4.</font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080>, and so </font></b>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> needs to signal that '</font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080>' to </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> (now, though, with representation </font></b>
+<img src="images/(n!+n-1)81.gif" width=102 height=32 alt="d[2]*2!+d[1]*1!" align=middle>
+<b><font color=#000080>). Since 5 = 2.2! + 1.1! then the correct (agreed) order in which to pass them is 23, followed by 14, followed by 3.</font></b>
+</li>
+<li>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>, on receiving the ordered triple (23, 14, 3), sees that </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> is 0 (23+14+3 = 3+2+3 = 0 (mod 4)). <br>
+</font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> knows that </font></b>
+<img src="images/(n!+n-1)82.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080>'s renumbered value is one of 4.</font></b>
+<b><u><font color=#000080>0</font></u></b>
+<b><font color=#000080>, 4.</font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>, 4.</font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>, 4.</font></b>
+<b><u><font color=#000080>3</font></u></b>
+<b><font color=#000080>, 4.</font></b>
+<b><u><font color=#000080>4</font></u></b>
+<b><font color=#000080> or 4.</font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080>, and, on seeing the ordered triple (23, 14, 3), reads left to right and sees that:<br>
+<br>
+     the two numbers to the right of 23 are both smaller than it, and so </font></b>
+<img src="images/(n!+n-1)83.gif" width=60 height=32 alt="d[2] = 2" align=middle>
+<b><font color=#000080><br>
+     the number to the right of 14 is smaller than it, and so </font></b>
+<img src="images/(n!+n-1)84.gif" width=60 height=32 alt="d[1] = 1" align=middle>
+<b><font color=#000080><br>
+ <br>
+Thus </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> knows that </font></b>
+<i><b><font color=#000080>s</font></b></i>
+<b><font color=#000080> = 2.2!+1.1! = </font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080>, knows that </font></b>
+<img src="images/(n!+n-1)85.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080>'s renumbered value is 4.</font></b>
+<b><u><font color=#000080>5</font></u></b>
+<b><font color=#000080> = 20, and seeing the two smaller cards 3 and 14 (smaller than the shifted value of </font></b>
+<img src="images/(n!+n-1)86.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080>) knows that  </font></b>
+<img src="images/(n!+n-1)87.gif" width=28 height=32 alt="c[i]" align=middle>
+<b><font color=#000080> is not </font></b>
+<img src="images/(n!+n-1)88.gif" width=31 height=32 alt="c[0]" align=middle>
+<b><font color=#000080> nor </font></b>
+<img src="images/(n!+n-1)89.gif" width=31 height=32 alt="c[1]" align=middle>
+<b><font color=#000080>, and so is </font></b>
+<img src="images/(n!+n-1)90.gif" width=31 height=32 alt="c[2]" align=middle>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> then adds 2 to 20 to obtain 22, the hidden card.</font></b>
+</li>
+</basefont>
+</body>
+</html>

@@ -1,0 +1,299 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 
+0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 
+2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Outp
+ut" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 12 255 0 0 1 0 1 0 0 0 1 3 0 
+3 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 
+"" 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 0 
+1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 
+12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "He
+lvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 
+0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 11 
+0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# ferm_fac.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "This elementary worksheet deals wi
+th 'Fermat" }}{PARA 0 "" 0 "" {TEXT -1 45 "factorisation', which is an
+ elementary method" }}{PARA 0 "" 0 "" {TEXT -1 33 "for factoring a com
+posite number." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 40 "This is NOT a very PRACTICAL method, but" }}{PARA 0 "" 0 
+"" {TEXT -1 46 "at the same time it should NOT be ignored, and" }}
+{PARA 0 "" 0 "" {TEXT -1 46 "- for example - if someone were foolish e
+nough" }}{PARA 0 "" 0 "" {TEXT -1 47 "in using the RSA cryptographic m
+ethod to choose" }}{PARA 0 "" 0 "" {TEXT -1 46 "their two primes 'p' a
+nd 'q' to be TOO NEAR to" }}{PARA 0 "" 0 "" {TEXT -1 51 "each other, t
+hen their public modulus 'n' (n = p*q)" }}{PARA 0 "" 0 "" {TEXT -1 47 
+"can be easily factored using the Fermat method," }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "as we will see below." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 43 "Let us remind ourselves of the simple IDE
+A " }}{PARA 0 "" 0 "" {TEXT -1 40 "behind 'Fermat factorisation/factor
+ing':" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "
+[First we 'read in' (it's like 'with'(numtheory))" }}{PARA 0 "" 0 "" 
+{TEXT -1 44 "from the 'Maple library' the useful 'issqr' " }}{PARA 0 "
+" 0 "" {TEXT -1 43 "command - the 'issqr' is an abbreviation of" }}
+{PARA 0 "" 0 "" {TEXT -1 49 "'is_a_square', and is like the familiar '
+isprime'" }}{PARA 0 "" 0 "" {TEXT -1 9 "command.]" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "readlib(issqr):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "issqr(8
+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "issqr(83);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "n1 := 91;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#n1G\"#\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "issqr(n1 + 0^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "issqr(n1 + 1^2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "issqr(n1 + 2^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "issqr(n1 + 3^2);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "That last \+
+one tells us that 91 + 3^2 is " }}{PARA 0 "" 0 "" {TEXT -1 25 "a squar
+e.  Which square?:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "sqrt(n1 + 3^2
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 39 "and so we h
+ave: 91 + 3^2 = 10^2, and so" }}{PARA 0 "" 0 "" {TEXT -1 43 "91 = 10^2
+ - 3^2 = (10 - 3)*(10 + 3) = 7*13." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "n2 := 121;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#n2G\"$@\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "issqr(n2 + 0^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 45 "That immediately tells us that 121 is itself " }}{PARA 0 
+"" 0 "" {TEXT -1 43 "a square, and so it immediately factors as:" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sqrt(121 + 0^2);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 6 "11*11." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "n3 := 13;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#n3G\"#
+8" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "issqr(n3 + 0^2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "issqr(n3 + 1^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "issqr(n3 + 2^2);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "issqr(n3 + 3^2);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "issqr(n3 \+
++ 4^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 16 "issqr(n3 + 5^2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "
+issqr(n3 + 6^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 30 "but that MERELY tells us that:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "sqrt(n3 + 6^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 38 "and so we have: 13 + 6^2 = 7^2, and so" }}{PARA 0 
+"" 0 "" {TEXT -1 40 "13 = 7^2 - 6^2 = (7 - 6)*(7 + 6) = 1*13," }}
+{PARA 0 "" 0 "" {TEXT -1 16 "and 13 is prime." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "Now to make the Fermat me
+thod into" }}{PARA 0 "" 0 "" {TEXT -1 29 "a procedure. I give two ways
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "In P
+rocedure #1 the global variables are:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 58 "1.  'n' - that will be the number we \+
+are trying to factor." }}{PARA 0 "" 0 "" {TEXT -1 50 "2.  'start' - th
+at will be where we start testing." }}{PARA 0 "" 0 "" {TEXT -1 42 "3. \+
+ 'finish' - that's where we test up to." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 28 "And the local variables are:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "1.  'k' -
+ it will be the number whose square is added to 'n'" }}{PARA 0 "" 0 "
+" {TEXT -1 56 "2.  's' - IF we eventually get a 'k' such that (n + k^2
+)" }}{PARA 0 "" 0 "" {TEXT -1 57 "            comes out to be a square
+, then 's' is DEFINED" }}{PARA 0 "" 0 "" {TEXT -1 55 "            to b
+e the number whose square IS (n + k^2)." }}{PARA 0 "" 0 "" {TEXT -1 
+53 "    [IF that does happen, then we have n + k^2 = s^2," }}{PARA 0 "
+" 0 "" {TEXT -1 59 "     and so n = s^2 - k^2 = (s - k)*(s + k), which
+ explains" }}{PARA 0 "" 0 "" {TEXT -1 24 "     the 'lprint' line.]" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 43 "NOTE. The
+ 'RETURN()' device is Maple's way " }}{PARA 0 "" 0 "" {TEXT -1 50 "of \+
+being instructed to then discontinue [IF a 'k' " }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "has been found] any further calculations." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "Procedure #1." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 231 "Fermat_factor := proc(n, start, fi
+nish)  \nlocal k, s;\nreadlib(issqr):\nfor k from start to finish do\n
+if issqr(n + k^2) then\ns := sqrt(n + k^2); \nlprint(n, `factors as th
+e product of `, s - k, `and`, s + k); \nRETURN()\nfi    \nod \nend:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 26 "Fermat_factor(121, 0, 30);" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "121   factors as the product of    11   and   11" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 25 "Fermat_factor(91, 0, 30);" }}{PARA 6 "" 1 "" {TEXT 
+-1 46 "91   factors as the product of    7   and   13" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "Fermat_factor(83, 0, 30);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "The fact th
+at there was NO output there just" }}{PARA 0 "" 0 "" {TEXT -1 34 "tell
+s us that NONE of the numbers:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 47 "          83 + \{0^2, 1^2, 2^2, 3^2, ... \+
+, 30^2\}" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+46 "is a square, and if we try a bit more (and the" }}{PARA 0 "" 0 "" 
+{TEXT -1 43 "furthest to test to - in general for an odd" }}{PARA 0 "
+" 0 "" {TEXT -1 43 "number 2*r + 1, is as far as r - is to 41):" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Fermat_factor(83, 31, 41);" }}
+{PARA 6 "" 1 "" {TEXT -1 46 "83   factors as the product of    1   and
+   83" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 47 "And now the other form of the Fermat procedure.
+" }}{PARA 0 "" 0 "" {TEXT -1 53 "It is almost identical to the above o
+ne, except here " }}{PARA 0 "" 0 "" {TEXT -1 23 "I make use of 'while'
+. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "Pro
+cedure #2." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 307 "Fermat_fact := proc(
+n, start, finish)  \nlocal k, s;\nreadlib(issqr):\nfor k from start to
+ finish while not issqr(n + k^2) \ndo k od:\nif issqr(n + k^2) then \n
+s := sqrt(n + k^2):\nlprint(n, `factors as the product of `, s - k, `a
+nd`, s + k)\nelse lprint(n, `does not Fermat factorise in the chosen r
+ange`)\nfi;\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "Fermat_fact(121, 0, 0);" }}
+{PARA 6 "" 1 "" {TEXT -1 48 "121   factors as the product of    11   a
+nd   11" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "Fermat_fact(91, \+
+0, 45);" }}{PARA 6 "" 1 "" {TEXT -1 46 "91   factors as the product of
+    7   and   13" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "Fermat_
+fact(83, 0, 39);" }}{PARA 6 "" 1 "" {TEXT -1 50 "83   does not Fermat \+
+factorise in the chosen range" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "Fermat_fact(83, 0, 40);" }}{PARA 6 "" 1 "" {TEXT -1 46 "83   fac
+tors as the product of    1   and   83" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Let's have a \+
+look at an RSA example." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 33 "Suppose someone chose as follows:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 76 "p[1] := nextprime
+(87654991265472155767543211312312321245216559009239994365);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"\"\"YdX**R#4!fl@X7K7BJ6Kand:saE
+\"*\\l()" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "q[1] := nextpri
+me(p[1] + 100);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"qG6#\"\"\"\"Yz
+Z**R#4!fl@X7K7BJ6Kand:saE\"*\\l()" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "n[1] := p[1]*q[1];" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>&%\"nG6#\"\"\"\"[r.zToYYDB*fT^#*[8*p]w[z(QPEcvYa.()Gdocot&*RIdR]s/iY
+e>****\\P\\(R$o(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "Fermat_
+factor(n[1], 0, 1000);" }}{PARA 6 "" 1 "" {TEXT -1 265 "76833974937499
+9991958466204725039573039957368566857288703544675562637387794876506991
+3489251415992325464668417903   factors as the product of    8765499126
+5472155767543211312312321245216559009239994557   and   876549912654721
+55767543211312312321245216559009239994779" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "Fermat_fact(n[1], 0, 1000);" }}{PARA 6 "" 1 "" 
+{TEXT -1 265 "76833974937499999195846620472503957303995736856685728870
+35446755626373877948765069913489251415992325464668417903   factors as \+
+the product of    8765499126547215576754321131231232124521655900923999
+4557   and   87654991265472155767543211312312321245216559009239994779
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "Now I am going to CH
+ANGE the '100' in the" }}{PARA 0 "" 0 "" {TEXT -1 44 "'q[1] := nextpri
+me(p[1] + 100)' to 3000, and" }}{PARA 0 "" 0 "" {TEXT -1 43 "change al
+l those 1's to 2's.  However I am " }}{PARA 0 "" 0 "" {TEXT -1 48 "goi
+ng to leave unchanged the 'finish' of '1000':" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "p[2] := nextprime(1
+111187654991265472155767543211312312321245216559009239994365);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"#\"hn.\\**R#4!fl@X7K7BJ6K
+and:saE\"*\\l(=66" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "q[2] :
+= nextprime(p[2] + 3000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"qG6#
+\"\"#\"hnnz**R#4!fl@X7K7BJ6Kand:saE\"*\\l(=66" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 18 "n[2] := p[2]*q[2];" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>&%\"nG6#\"\"#\"dr,AO5)=T'=J6?`K_iZQZY/Os\\!y)e=3Q0^')y=S+P1&om!
+pn-%)3TbYX(fi()\\g/!QZB\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "Fermat_factor(n[2], 0, 1000);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "Fermat_fact(n[2], 0, 1000);" }}{PARA 6 "" 1 "" {TEXT 
+-1 169 "12347380046049876259745465541088402676906668506370040187886510
+53808185887804972360446473847625232532011311864118810362201   does not
+ Fermat factorise in the chosen range" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "You see what \+
+has happened?  The trial range" }}{PARA 0 "" 0 "" {TEXT -1 39 "of 0 to
+ 1000 wasn't LONG ENOUGH, and so" }}{PARA 0 "" 0 "" {TEXT -1 46 "we ne
+ed to test in a further trial range, and " }}{PARA 0 "" 0 "" {TEXT -1 
+45 "NOT redo calculations already done; that is, " }}{PARA 0 "" 0 "" 
+{TEXT -1 46 "we DON'T go for a range like (say) 0 to 2000, " }}{PARA 
+0 "" 0 "" {TEXT -1 33 "but rather one like 1001 to 2000:" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 32 "Fermat_factor(n[2], 1001, 2000);" }}{PARA 6 "
+" 1 "" {TEXT -1 284 "1234738004604987625974546554108840267690666850637
+0040187886510538081858878049723604464738476252325320113118641188103622
+01   factors as the product of    111118765499126547215576754321131231
+2321245216559009239994903   and   111118765499126547215576754321131231
+2321245216559009239997967" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+30 "Fermat_fact(n[2], 1001, 2000);" }}{PARA 6 "" 1 "" {TEXT -1 284 "12
+3473800460498762597454655410884026769066685063700401878865105380818588
+7804972360446473847625232532011311864118810362201   factors as the pro
+duct of    11111876549912654721557675432113123123212452165590092399949
+03   and   11111876549912654721557675432113123123212452165590092399979
+67" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "COMMENTS." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 42 "1.  The Fermat \+
+method is all very well for" }}{PARA 0 "" 0 "" {TEXT -1 41 "      fact
+oring a number IF it HAPPENS to" }}{PARA 0 "" 0 "" {TEXT -1 45 "      \+
+be the product of two integers that are" }}{PARA 0 "" 0 "" {TEXT -1 
+34 "      CLOSE TO EACH OTHER IN SIZE," }}{PARA 0 "" 0 "" {TEXT -1 43 
+"      but it is USELESS otherwise, and does" }}{PARA 0 "" 0 "" {TEXT 
+-1 40 "      NOT pose a threat to someone using" }}{PARA 0 "" 0 "" 
+{TEXT -1 44 "      RSA, providing the user is sensible in" }}{PARA 0 "
+" 0 "" {TEXT -1 33 "      their choice of two primes." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "2.   The above remarks
+ might appear to" }}{PARA 0 "" 0 "" {TEXT -1 40 "      be rather dismi
+ssive of the Fermat" }}{PARA 0 "" 0 "" {TEXT -1 39 "      method, and \+
+I ought to record two" }}{PARA 0 "" 0 "" {TEXT -1 12 "      facts:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "ONE. The \+
+method CAN be SPEEDED up a bit " }}{PARA 0 "" 0 "" {TEXT -1 42 "by mak
+ing certain elementary observations:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 46 "   Squares, when expressed in the base \+
+10 have" }}{PARA 0 "" 0 "" {TEXT -1 51 "   ONLY got certain FINAL digi
+ts: 0, 1, 4, 5, 6, 9." }}{PARA 0 "" 0 "" {TEXT -1 44 "   To put it ano
+ther way, squares CANNOT end" }}{PARA 0 "" 0 "" {TEXT -1 39 "   in 2, \+
+3, 7 or 8.  That's elementary:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 54 "For n = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 (mod
+ 10), we have" }}{PARA 0 "" 0 "" {TEXT -1 46 "  n^2 = 0, 1, 4, 9, 6, 5
+, 6, 9, 4, 1 (mod 10)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 46 "An immediate consequence:  When - by hand - we" }}
+{PARA 0 "" 0 "" {TEXT -1 50 "were trying to 'Fermat factorise' 91 (for
+ example)" }}{PARA 0 "" 0 "" {TEXT -1 47 "we began by adding 1^2 to it
+ to see IF we got a" }}{PARA 0 "" 0 "" {TEXT -1 50 "square.  We got '9
+2', and it wasn't a square. HOW," }}{PARA 0 "" 0 "" {TEXT -1 50 "thoug
+h, did we do that?   Because it was so small," }}{PARA 0 "" 0 "" 
+{TEXT -1 51 "we could see it (92) was between 81 (9 squared) and" }}
+{PARA 0 "" 0 "" {TEXT -1 51 "100 (10 squared), and so we would have re
+jected it." }}{PARA 0 "" 0 "" {TEXT -1 44 "Probably the same with 91 +
+ 2^2, and then we" }}{PARA 0 "" 0 "" {TEXT -1 44 "found a lucky factor
+isation on the next one:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 41 "           91 + 3^2 = 100 = 10^2, and so " }}
+{PARA 0 "" 0 "" {TEXT -1 49 "      91 = 10^2 - 3^3 = (10 - 3)*(10 + 3)
+ = 7*13." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+47 "IF, however, we had been trying a larger number" }}{PARA 0 "" 0 "
+" {TEXT -1 51 "than 91, let's say - for example - that we had been" }}
+{PARA 0 "" 0 "" {TEXT -1 52 "testing 13161, which - like 91 - ends in \+
+a '1', then" }}{PARA 0 "" 0 "" {TEXT -1 43 "we could save ourselves (A
+ND computing TIME" }}{PARA 0 "" 0 "" {TEXT -1 38 "when MUCH LARGER num
+bers are involved)" }}{PARA 0 "" 0 "" {TEXT -1 19 "by noting that for:
+" }}{PARA 0 "" 0 "" {TEXT -1 8 "        " }}{PARA 0 "" 0 "" {TEXT -1 
+62 "                   k = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 (mod 10), " }}
+{PARA 0 "" 0 "" {TEXT -1 59 "               k^2 = 0, 1, 4, 9, 6, 5, 6,
+ 9, 4, 1 (mod 10)," }}{PARA 0 "" 0 "" {TEXT -1 53 "13161 +  k^2 = 1, 2
+, 5, 0, 7, 6, 7, 0, 5, 2 (mod 10)," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 44 "and so (13161 +  k^2 ) could NOT be a squ
+are" }}{PARA 0 "" 0 "" {TEXT -1 49 "for k ending (base 10) in a '1', '
+4', '6' or '9'." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 46 "That represents a SAVING of 40% in computation" }}{PARA 
+0 "" 0 "" {TEXT -1 49 "time, and so in ATTEMPTING a Fermat factorisati
+on" }}{PARA 0 "" 0 "" {TEXT -1 43 "of 13161 one would ONLY test these \+
+numbers:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+43 "                                   13161 + " }}{PARA 0 "" 0 "" 
+{TEXT -1 65 "(  0^2, __ ,  2^2,    3^2, __ ,  5^2, __ ,   7^2, __ ,   \+
+8^2, __ " }}{PARA 0 "" 0 "" {TEXT -1 60 " 10^2, __ , 12^2, 13^2, __ , \+
+15^2, __ , 17^2, __ , 18^2, __ " }}{PARA 0 "" 0 "" {TEXT -1 6 "   ...
+" }}{PARA 0 "" 0 "" {TEXT -1 13 "   ... etc. )" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "YOU use that approach to \+
+continue - by hand, with " }}{PARA 0 "" 0 "" {TEXT -1 51 "a calculator
+ - an attempted factorisation of 13161." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 43 "QUESTION to you:  What about other n
+umbers?" }}{PARA 0 "" 0 "" {TEXT -1 54 "What about numbers (like, say,
+ 13163) that end in a 3?" }}{PARA 0 "" 0 "" {TEXT -1 54 "What about nu
+mbers (like, say, 13167) that end in a 7?" }}{PARA 0 "" 0 "" {TEXT -1 
+54 "What about numbers (like, say, 13169) that end in a 9?" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "What % saving in \+
+computation time is there in those cases?" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "There are OTHER simple devices tha
+t one can further" }}{PARA 0 "" 0 "" {TEXT -1 49 "use to reduce comput
+ation time, BUT they are ONLY" }}{PARA 0 "" 0 "" {TEXT -1 53 "scratchi
+ng at the surface, and they pose no threat to" }}{PARA 0 "" 0 "" 
+{TEXT -1 31 "a correctly chosen RSA example." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "TWO.  The Fermat method was bri
+lliantly extended in " }}{PARA 0 "" 0 "" {TEXT -1 52 "1982 to what was
+ called the 'quadratic sieve' by the" }}{PARA 0 "" 0 "" {TEXT -1 51 "A
+merican mathematician Carl Pomerance [though there" }}{PARA 0 "" 0 "" 
+{TEXT -1 52 "were many, many others between Fermat and Pommerance" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "who contributed ideas].  That (very, very
+ advanced )method " }}{PARA 0 "" 0 "" {TEXT -1 59 "had its greatest tr
+iumph by factoring the famous 'RSA_129' " }}{PARA 0 "" 0 "" {TEXT -1 
+15 "number in 1994." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "
+61 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

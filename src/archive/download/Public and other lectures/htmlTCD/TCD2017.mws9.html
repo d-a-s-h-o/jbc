@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252">
+<title>TCD2017.mws9.html</title>
+<!-- Created by Maple 16.01, Windows NT (unknown) -->
+</head>
+<dl style="margin-left:40px"><a name="MapleAutoBookmark9" />
+<p align="left"><font color="#000000" size="4" face="Times New Roma"><strong><font style="background-color: #ffcc99">Wilson's Theorem, and introducing another standard term: the </strong></font></strong></font><font color="#000000" size="4" face="Times New Roma" style="background-color: #ffcc99"><strong><em>Wilson quotient</em></strong></font><font color="#000000" size="4" face="Times New Roma" style="background-color: #ffcc99"><strong>, <img src="images/TCD2017.mws_91.gif" width="29" height="31" alt="w[p]" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong><font style="background-color: #ffcc99">Wilson's (the discoverer, not the prover) theorem</strong></font> (around 1770). Every <font style="background-color: #ffcc99">prime</strong></font> <img src="images/TCD2017.mws_92.gif" width="18" height="18" alt="p" align="center" border="0"> satisfies <img src="images/TCD2017.mws_93.gif" width="108" height="18" alt="factorial(`+`(p, `-`(1))) = -1" align="center" border="0"><font style="background-color: #ffcc99"> (mod <img src="images/TCD2017.mws_94.gif" width="18" height="18" alt="p" align="center" border="0">)</strong></font>.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>Remark. It was something of a surprise for me to hear you had not encountered this in your second year NT course.</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []: for p from 2 to 50 do if isprime(p) then 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R||p := PRFAC(1, p-1, p, 1): 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font><font color="#800080" size="4" face="Courier New" style="background-color: #ffcc99"><strong>### COMPUTES THE RESIDUE OF THE FACTORIAL</strong></font><font color="#800080" size="3" face="Courier New"><strong>
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L := [op(L), p]: fi od:
+<br>
+<br>print(``); print(array([
+<br>
+<br>['p', ``, ``, '(p-1)!', ``, ``, 'residue'],
+<br> 
+<br>seq([p, ``, ``, (p-1)!, ``, ``,R||p], 
+<br>
+<br>p = L)])): print(``); 
+<br>
+<br>lprint(`The final column show the LEAST ABSOLUTE residue of (p-1)! mod p.`);</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_95.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_96.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_97.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_98.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_99.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_100.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_101.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_102.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_103.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_104.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_105.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_106.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_107.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_108.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_109.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"><br><img src="images/TCD2017.mws_110.gif" width="536" height="16" alt="array( 1 .. 16, 1 .. 7, [( 3, 7 ) = (-1), ( 14, 2 ) = (``), ( 16, 1 ) = (47), ( 4, 6 ) = (``), ( 16, 7 ) = (-1), ( 2, 2 ) = (``), ( 14, 3 ) = (``), ( 3, 1 ) = (3), ( 7, 3 ) = (``), ( 1, 4 ) = (factori..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#993300" size="4" face="Times New Roman"><strong>`The final column show the LEAST ABSOLUTE residue of (p-1)! mod p.`</td>
+<td width='5%' align='center'></td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>A standard term. Following from the above, simply translating congruence into its equation equivalent, we have:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="5" face="Times New Roman"><img src="images/TCD2017.mws_111.gif" width="144" height="18" alt="factorial(`+`(p, `-`(1))) = `+`(`*`(M, `*`(p)), `-`(1))" align="center" border="0"></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>for some integer <img src="images/TCD2017.mws_112.gif" width="25" height="18" alt="M" align="center" border="0">, giving:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman"><strong><img src="images/TCD2017.mws_113.gif" width="137" height="38" alt="M = `/`(`*`(`+`(factorial(`+`(p, `-`(1))), 1)), `*`(p))" align="center" border="0"></strong></font>&nbsp;</p>
+<p align="center"><font color="#000080" size="4" face="Times New Roman" style="background-color: #ff9900"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong>That integer <img src="images/TCD2017.mws_114.gif" width="25" height="18" alt="M" align="center" border="0">, is known as the <font style="background-color: #ffcc99">Wilson quotient</strong></font> &nbsp;<img src="images/TCD2017.mws_115.gif" width="29" height="31" alt="w[p]" align="center" border="0">:</strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"><font color="#800080" size="3" face="Courier New"><strong>L := []: for p from 2 to 50 do if isprime(p) then 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w||p := ((p - 1)! + 1)/p: 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L := [op(L), p]: fi od:
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(``); print(array([['p', ``, ``, 'w[p]'], 
+<br>
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seq([p, ``, ``, w||p], p = L)])): print(``); </td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="center"><table width='100%'>
+<tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong><img src="images/TCD2017.mws_116.gif" width="476" height="391" alt="array( 1 .. 16, 1 .. 4, [( 14, 2 ) = (``), ( 12, 3 ) = (``), ( 11, 1 ) = (29), ( 5, 1 ) = (7), ( 6, 3 ) = (``), ( 5, 2 ) = (``), ( 13, 3 ) = (``), ( 8, 4 ) = (1230752346353), ( 11, 2 ) = (``), ( 4, 1 ..." align="center" border="0"></td>
+</tr></strong></font>&nbsp;</p>
+<p align="center"><tr>
+<td valign="top" align="center"><font color="#008000" size="3" face="Times New Roman"><strong></td>
+<td width='5%' align='center'>(5.3.1)</td>
+</tr>
+</table></strong></font>&nbsp;</p>
+<p align="left"><table>
+<tr>
+<td valign="top" align="center"><font color="#800080" size="3" face="Courier New"><strong>&gt; </strong></font></td>
+<td valign="top"></td>
+</tr>
+</table>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+<p align="left"><font color="#000080" size="4" face="Times New Roman"><strong></strong></font>&nbsp;</p>
+</dl>
+
+</html>

@@ -1,0 +1,28 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 
+128 1 0 1 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# alphabet.mws" }}
+{PARA 0 "" 0 "" {TEXT -1 86 "The following is simply to instruct MAPLE
+ as to which letters (small and large case), " }}{PARA 0 "" 0 "" 
+{TEXT -1 48 "numerals, punctuation marks, etc. I wish to use:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 138 "`c
+rypt/alphabet` := `abcdefghijklmnopqrstuvwxyz`\n||`ABCDEFGHIJKLMNOPQRS
+TUVWXYZ`\n||```1234567890-=~!@#$\243%^&*()_+`\n||` ,./<>?;':\"[]\{\}| \+
+   `:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 79 "The following sets up the association between t
+he terms of the 'crypt/alphabet'" }}{PARA 0 "" 0 "" {TEXT -1 24 "and t
+he numbers 1 to 95." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 232 "to_
+number := proc(st, string) \nlocal ll, nn, ss, ii;  \nll := length(st)
+;\nif ll = 0 then RETURN(0) fi; \nnn := 1;\nfor ii to ll do \nss := Se
+archText(substring(st, ii .. ii),`crypt/alphabet`);\nnn := 100*nn + ss
+ \nod;\nnn - 10^(2*ll) \nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "And now some instruction
+s to recover a text from its numerical form:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 272 "from_number := proc(nn, integer) \nlocal ss, mm
+, ll, pp, ii, ans; mm := nn;\nll := floor(1/2*trunc(evalf(log10(mm))))
++1;\nans := ``; for ii to ll do mm := mm/100;\npp := 100*frac(mm);\nss
+ := substring(`crypt/alphabet`, pp..pp);\nans := cat(ss, ans); mm := t
+runc(mm)\nod; ans end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}}{MARK "7 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

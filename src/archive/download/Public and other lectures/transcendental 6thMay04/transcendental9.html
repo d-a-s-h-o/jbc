@@ -1,0 +1,348 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark9">
+<p align=left>
+<i><b><font color=#000080 size=4>e</font></b></i>
+<b><font color=#000080 size=4> and </font></b>
+<img src="images/transcendental47.gif" width=27 height=36 alt="Pi" align=middle>
+<b><font color=#000080 size=4> (irrationality). </font></b>
+<img src="images/transcendental48.gif" width=73 height=66 alt="Pi &lt;&gt; 22/7" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>The irrationality of </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> was first established by Euler, who concluded it from his derivation of the </font></b>
+<i><b><font color=#000080>infinite</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>continued fraction</font></b></i>
+<b><font color=#000080> expansion of  </font></b>
+<img src="images/transcendental49.gif" width=55 height=58 alt="(e-1)/2" align=middle>
+<b><font color=#000080>. I will not dwell much on this since I cannot presume a familarity with continued fraction theory on behalf of a general reader. However I show some brief computations:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>with(numtheory): # for use of 'cfrac'</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>Warning, the protected name order has been redefined and unprotected<br>
+</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>cfrac((exp(1) - 1)/2, 5); # to the 5th 'partial quotient'</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental50.gif" width=212 height=145 alt="1/(1+1/(6+1/(10+1/(14+1/(18+`...`)))))">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>where the pattern from the partial quotient '6' (the </font></b>
+<img src="images/transcendental51.gif" width=32 height=32 alt="a[2]" align=middle>
+<b><font color=#000080> of the standard continued fraction notation) is continued </font></b>
+<i><b><font color=#000080>ad infinitum</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental52.gif" width=228 height=145 alt="a[0]+1/(a[1]+1/(a[2]+1/(a[3]+1/(a[4]+1/`...`))))">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>cfrac ((exp(1) - 1)/2, 50, 'quotients'); </font></b>
+</p>
+<p align=left>
+<img src="images/transcendental53.gif" width=715 height=20 alt="[0, 1, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 5...">
+<br>
+<img src="images/transcendental54.gif" width=716 height=20 alt="[0, 1, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 5...">
+<br>
+<img src="images/transcendental55.gif" width=35 height=20 alt="[0, 1, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 5...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Everyone knows the standard classic irrationality proof of (Euler's number) </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080>, the proof, given by Fourier in 1815, that exploits:</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental56.gif" width=316 height=80 alt="Sum(1/n!,n = 0 .. infinity) = 1+1/1!+1/2!+1/3!+`......" align=middle>
+<b><font color=#000080>      (i)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Suppose </font></b>
+<img src="images/transcendental57.gif" width=55 height=58 alt="e = a/b" align=middle>
+<b><font color=#000080> for some (positive) whole numbers </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080>. Then multiplying throughout (i) by </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! gives:</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental58.gif" width=317 height=58 alt="n!*e = n!+n!/1!+n!/2!+n!/3!+`...`+n!/n!+n!*R[n]" align=middle>
+<b><font color=#000080> ...    (ii)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>where </font></b>
+</p>
+<p align=center>
+<img src="images/transcendental59.gif" width=64 height=32 alt="0 &lt; R[n]" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/transcendental60.gif" width=268 height=58 alt="1/(n+1)!+1/(n+2)!+`...` &lt; 2/(n+1)!" align=middle>
+<b><font color=#000080>, and thus </font></b>
+<img src="images/transcendental61.gif" width=115 height=58 alt="n!*R[n] &lt; 2/(n+1)" align=middle>
+<b><font color=#000080>  </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Thus (i) is impossible since (ii) - for sufficiently large </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> - leads to an integer (the LHS) being equal to (an integer, plus a positive error term that is less than 1). Thus </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> is irrational.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>_________</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Any obvious attempt at giving a similar irrationality proof for (say) </font></b>
+<img src="images/transcendental62.gif" width=32 height=50 alt="e^2" align=middle>
+<b><font color=#000080>appears at first sight to be doomed (try it to see what I mean). In his 1949 Princeton book on Transcendental Numbers, C. L. Siegel gave an elementary proof - which I had always assumed was his own, since he didn't credit it to anyone - not only that </font></b>
+<img src="images/transcendental63.gif" width=32 height=50 alt="e^2" align=middle>
+<b><font color=#000080> is irrational, but more generally that </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> is not a quadratic algebraic number (i.e. </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> does not satisfy any quadratic equation </font></b>
+<img src="images/transcendental64.gif" width=138 height=50 alt="a*e^2+b*e+c = 0" align=middle>
+<b><font color=#000080> with integers </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080>, </font></b>
+<i><b><font color=#000080>b</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>, and </font></b>
+<img src="images/transcendental65.gif" width=52 height=32 alt="a &lt;&gt; 0" align=middle>
+<b><font color=#000080>). While preparing my Manchester 1972-73 course I made a minor improvement on Siegel's proof, by formulating another elementary proof that </font></b>
+<img src="images/transcendental66.gif" width=32 height=50 alt="e^2" align=middle>
+<b><font color=#000080>is irrational. That alternative proof had the advantage that incorporating the idea in Siegel's proof led to an elementary proof that </font></b>
+<img src="images/transcendental67.gif" width=32 height=50 alt="e^4" align=middle>
+<b><font color=#000080> is irrational. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Although I gave a 'splinter group' talk (attended by Masser and Serre, who clearly had nothing better to do) on my proof at the BMC in 1973(?) I didn't bother to write up the proof for possible publication until 2002. I submitted it to the MAA </font></b>
+<i><b><font color=#000080>Monthly</font></b></i>
+<b><font color=#000080> in that year, and was just a little disappointed to learn from a scholarly referee that Siegel's proof had already been given by Liouville in 1840, and that 'my' proof was also given by Liouville in the same year (though I believe I give a better explanation that Liouville!). An interested reader may consult the submitted paper in the </font></b>
+<i><b><font color=#000080>esquared</font></b></i>
+<b><font color=#000080> corner of my web site.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Of course all of these elementary results are completely put in the shade with Hermite's (1873) result that </font></b>
+<i><b><font color=#000080>e</font></b></i>
+<b><font color=#000080> is a transcendental number.</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>__________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The irrationality of </font></b>
+<img src="images/transcendental68.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> was first demonstrated by Lambert in 1766. As with Euler, continued fractions were central to his proof.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    There are many different proofs that </font></b>
+<img src="images/transcendental69.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> is irrational, but it should be said that none of them are elementary. Here my sole aim is to show you a very beautiful way of seeing that </font></b>
+<img src="images/transcendental70.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> isn't the oft-quoted </font></b>
+<img src="images/transcendental71.gif" width=36 height=58 alt="22/7" align=middle>
+<b><font color=#000080>. I believe this could be understood, and how nice it would be to have it appreciated, by competent school pupils. I only came to know of this way in August 1996 while browsing in a bookshop in Blackwell's of Oxford: there I came upon a lovely integral, in a paper by van der Poorten and Bombieri, which I had never seen before: an integral with positive integrand, with value (</font></b>
+<img src="images/transcendental72.gif" width=67 height=58 alt="22/7-Pi" align=middle>
+<b><font color=#000080>). What I saw fairly set my heart thumping, and I read no further as I wanted to have an opportunity to play. This is what I saw in their paper, and I hardly need comment on the obvious implications: </font></b>
+</p>
+<p align=center>
+<img src="images/transcendental73.gif" width=212 height=120 alt="Int(x^4*(1-x)^4/(1+x^2),x = 0 .. 1) = 22/7-Pi" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>It's an easy school exercise to evaluate that integral, and I quickly show that Maple can cope with it, and more:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Int(x^4*(1 - x)^4/(1 + x^2), x = 0..1);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental74.gif" width=141 height=107 alt="Int(x^4*(1-x)^4/(1+x^2),x = 0 .. 1)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>int(x^4*(1 - x)^4/(1 + x^2), x = 0..1);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental75.gif" width=73 height=45 alt="-Pi+22/7">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(22/7 - Pi);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental76.gif" width=92 height=20 alt=".1264489e-2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>plot(x^4*(1 - x)^4/(1 + x^2), x = 0..1); <br>
+# Notice the scale on the y-axis</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental77.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>But there is so much more to be investigated, discovered, and </font></b>
+<i><b><font color=#000080>proved</font></b></i>
+<b><font color=#000080>. Can one explain this, can one explain that...? I did a lot of related work in August 1996, but have never done anything about it. I drop some passing </font></b>
+<i><b><font color=#000080>hints</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>int(x^40*(1 - x)^40/(1 + x^2), x = 0..1);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental78.gif" width=387 height=45 alt="262144*Pi-178586956504106682229517991364033546/2168...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(262144);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental79.gif" width=59 height=29 alt="``(2)^18">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(216850257105757801880233554675); <br>
+# the denominator of the approximating denominator</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental80.gif" width=699 height=29 alt="``(3)^2*``(5)^2*``(7)^2*``(11)*``(13)*``(17)*``(23)...">
+<br>
+<img src="images/transcendental81.gif" width=50 height=20 alt="``(3)^2*``(5)^2*``(7)^2*``(11)*``(13)*``(17)*``(23)...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I need hardly point out that all the odd primes between 3 and 79 occur there, except for 19.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>int(x^68*(1 - x)^68/(1 + x^2), x = 0..1);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental82.gif" width=635 height=45 alt="132570645054700093606473440370784391628703685360477...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(4294967296);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental83.gif" width=59 height=29 alt="``(2)^32">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(9825114844989333870090599983047666848673348322555875);<br>
+# the denominator of the approximating denominator</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental84.gif" width=708 height=29 alt="``(3)^4*``(5)^3*``(7)^2*``(11)^2*``(17)*``(19)*``(2...">
+<br>
+<img src="images/transcendental85.gif" width=478 height=20 alt="``(3)^4*``(5)^3*``(7)^2*``(11)^2*``(17)*``(19)*``(2...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>One will notice that the primes 13 and 107 are 'missing' between 3 and 131.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And here I have varied the powers in the integrand:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>int(x^52*(1 - x)^76/(1 + x^2), x = 0..1);#</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental86.gif" width=645 height=45 alt="-68719476736*Pi+62046396154551874399210836096401434...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(68719476736);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental87.gif" width=59 height=29 alt="``(2)^36">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(287400053611342363537442949475728231373512239326125);<br>
+# the denominator of the approximating denominator</font></b>
+</p>
+<p align=left>
+<img src="images/transcendental88.gif" width=699 height=29 alt="``(3)^3*``(5)^3*``(7)^2*``(13)*``(17)*``(19)*``(23)...">
+<br>
+<img src="images/transcendental89.gif" width=478 height=20 alt="``(3)^3*``(5)^3*``(7)^2*``(13)*``(17)*``(19)*``(23)...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>An obvious question to ask is: can </font></b>
+<i><b><font color=#000080>some such integral</font></b></i>
+<b><font color=#000080> be used to give a proof that </font></b>
+<img src="images/transcendental90.gif" width=27 height=32 alt="Pi" align=middle>
+<b><font color=#000080> is irrational?</font></b>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:10:03 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

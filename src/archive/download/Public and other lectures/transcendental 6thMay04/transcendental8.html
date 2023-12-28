@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark8">
+<p align=left>
+<b><font color=#000080 size=4>A very brief introduction</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I suppose everyone knows that </font></b>
+<img src="images/transcendental9.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> is irrational, and has read the standard textbook proof, with its </font></b>
+<i><b><font color=#000080>we may suppose without loss of generality that</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental10.gif" width=32 height=58 alt="m/n" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>is in reduced form...</font></b></i>
+<b><font color=#000080> . I </font></b>
+<i><b><font color=#000080>hate</font></b></i>
+<b><font color=#000080> the standard textbook presentation of the proof. I don't hate the </font></b>
+<i><b><font color=#000080>proof</font></b></i>
+<b><font color=#000080>; rather I hate the </font></b>
+<i><b><font color=#000080>presentation</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Sadly (in my view) youngsters don't get a chance to </font></b>
+<i><b><font color=#000080>think</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental11.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>before</font></b></i>
+<b><font color=#000080> being exposed to its brutal irrationality proof that rambles on about "we may suppose that ... may be expressed in reduced form" (even G. H. Hardy - an early hero of mine - is guilty of it in his classic </font></b>
+<i><b><font color=#000080>A Mathematician's Apology</font></b></i>
+<b><font color=#000080>). Youngsters </font></b>
+<i><b><font color=#000080>should</font></b></i>
+<b><font color=#000080> be given an opportunity to </font></b>
+<i><b><font color=#000080>attempt</font></b></i>
+<b><font color=#000080> to find a 'fraction' - a term that youngsters probably prefer over 'rational number' - that </font></b>
+<i><b><font color=#000080>possibly</font></b></i>
+<b><font color=#000080> equals </font></b>
+<img src="images/transcendental12.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> (of course they're in for a surprise). Since that is a topic on which I have already written at considerable length in my 56-page </font></b>
+<i><b><font color=#000080>Number theorising</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>with Talented Youth</font></b></i>
+<b><font color=#000080> (available from the Talented Youth corner of my web site) then I will not pursue it here.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    </font></b>
+<b><font color=#000080>Briefly, how do I think irrationality (as a subject to be contemplated) can/should be introduced to youngsters? From my experience, many youngsters think that </font></b>
+<img src="images/transcendental13.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> 1.414... (the calculator displayed value):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 10);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental14.gif" width=100 height=20 alt="1.414213562">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>A thoughtful student - </font></b>
+<i><b><font color=#000080>when pressed</font></b></i>
+<b><font color=#000080> - will tell you that 1.414213562</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental15.gif" width=40 height=42 alt="sqrt(2)" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>because, when you square it, you</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>get a decimal that ends in a 4, and so it can't be 2. More pressing (that could be motivated by by further computations like:)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 40); # this "really ends" in '7'</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental16.gif" width=340 height=20 alt="1.414213562373095048801688724209698078570">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>will lead - with proof (the crux!) - to the conclusion that </font></b>
+<img src="images/transcendental17.gif" width=40 height=42 alt="sqrt(2)" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>does not have a terminating decimal value. That's an elementary, but serious result. (Aside. What, though, </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> the non-terminating decimal value of </font></b>
+<img src="images/transcendental18.gif" width=40 height=42 alt="sqrt(2)" align=middle>
+<b><font color=#000080>; what are its digits? Once, when I was a student in London, I sat with a group of other students in the company of C. A. Rogers. Someone asked him which question he would most like to have answered. He replied: </font></b>
+<i><b><font color=#000080>to know the decimal expansion of the square-root of two</font></b></i>
+<b><font color=#000080>. We all knew what he meant. Many years later, in June 1986, I travelled to London to attend the UCL meeting marking C.A.R.'s retirement. Looking back over his life, Rogers remarked on his good fortune to have had a good teacher at school, and he mentioned the friendly competition that he had later enjoyed with Wolfgang Schmidt.)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    </font></b>
+<b><font color=#000080>Next, in my view (based on teaching </font></b>
+<i><b><font color=#000080>experience</font></b></i>
+<b><font color=#000080>) the discussion can continue on this line of observation (followed by appropriate questioning): numbers with terminating decimal values are simply fractions with a very particular type of denominator (powers of 10), and so saying (e.g)</font></b>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>that </font></b>
+<img src="images/transcendental19.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>1.414 is simply saying that it is </font></b>
+<i><b><font color=#000080>not</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental20.gif" width=52 height=58 alt="1414/1000" align=middle>
+<b><font color=#000080>, but (the motivated question) could it be (say)</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental21.gif" width=52 height=58 alt="1414/999" align=middle>
+<b><font color=#000080>? Well, let's see:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(1414/999);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental22.gif" width=100 height=20 alt="1.415415415">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>So, it isn't. But could it be </font></b>
+<i><b><font color=#000080>something else</font></b></i>
+<b><font color=#000080>? Some other fraction? Could it be (say) </font></b>
+<img src="images/transcendental23.gif" width=60 height=58 alt="47321/33461" align=middle>
+<b><font color=#000080>?: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 10);<br>
+evalf(47321/33461, 10);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental24.gif" width=100 height=20 alt="1.414213562">
+</p>
+<p align=center>
+<img src="images/transcendental25.gif" width=100 height=20 alt="1.414213562">
+</p>
+<p align=left>
+<b><font color=#000080>No. And why not? Resorting to computation we see they aren't equal, as they differ on the last decimal point:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 11);<br>
+evalf(47321/33461, 11);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental26.gif" width=108 height=20 alt="1.4142135624">
+</p>
+<p align=center>
+<img src="images/transcendental27.gif" width=108 height=20 alt="1.4142135621">
+</p>
+<p align=left>
+<b><font color=#000080>But could </font></b>
+<img src="images/transcendental28.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> be (say) </font></b>
+<img src="images/transcendental29.gif" width=100 height=58 alt="4478554083/3166815962" align=middle>
+<b><font color=#000080>?:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 20);<br>
+</font></b>
+<b><font color=#800080>evalf(4478554083/3166815962, 20);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental30.gif" width=180 height=20 alt="1.4142135623730950488">
+</p>
+<p align=center>
+<img src="images/transcendental31.gif" width=180 height=20 alt="1.4142135623730950488">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Again, no. But </font></b>
+<i><b><font color=#000080>why</font></b></i>
+<b><font color=#000080> not?  And this is the point at which one can start asking for reasons independent of computation. Of course it's also the time to start asking: </font></b>
+<i><b><font color=#000080>where</font></b></i>
+<b><font color=#000080> are those fantastic fractions coming from? It's the sort of thing - if you don't know about this - you may read about in the Talented  Youth corner of my web site, or in my ICTMT4 Plymouth 1999 talk on </font></b>
+<i><b><font color=#000080>L- and R-approximations</font></b></i>
+<b><font color=#000080>, or in the first year section of my Courses I Teach corner of my web site.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Why </font></b>
+<i><b><font color=#000080>can't</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental32.gif" width=100 height=58 alt="4478554083/3166815962" align=middle>
+<b><font color=#000080> be </font></b>
+<img src="images/transcendental33.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>? Suppose it was, then </font></b>
+<img src="images/transcendental34.gif" width=142 height=58 alt="sqrt(2) = 4478554083/3166815962" align=middle>
+<b><font color=#000080>, and then?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/transcendental35.gif" width=178 height=84 alt="sqrt(2)^2 = (4478554083/3166815962)^2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/transcendental36.gif" width=155 height=84 alt="2 = (4478554083/3166815962)^2" align=middle>
+<b><font color=#000080>, and?<br>
+<br>
+2*</font></b>
+<img src="images/transcendental37.gif" width=214 height=50 alt="3166815962^2 = 4478554083^2" align=middle>
+<b><font color=#000080> (and then what?)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Impossible since... (e.g.: the LHS ends in '8', the RHS ends in '9'; the LHS is even, the RHS is odd). That's not the end of it, of course. But it all eventually leads to having a proof that </font></b>
+<img src="images/transcendental38.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>irrational</font></b></i>
+<b><font color=#000080>. In short, by following a well-motivated path, one may lead young minds to a basic understanding of the fundamental mathematical concept of irrationality. If we are interested in teaching, then this - or something like it - is what we should be doing. Incidentally, a much faster route into irrationality may be given by asking questions like:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<i><b><font color=#000080>Is</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental39.gif" width=130 height=32 alt="log[10](2) = .3010" align=middle>
+<b><font color=#000080> (as the old log tables used to show)?</font></b>
+</li>
+<li>
+<i><b><font color=#000080>Is</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental40.gif" width=178 height=32 alt="log[10](2) = .3010299957" align=middle>
+<b><font color=#000080> (as ones calculator may show, or, in Maple)?</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(log[10](2));</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental41.gif" width=100 height=20 alt=".3010299957">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Then, having easily argued that </font></b>
+<img src="images/transcendental42.gif" width=74 height=32 alt="log[10](2)" align=middle>
+<b><font color=#000080> does not have a terminating decimal value, move on to easily argue that it is, in fact, irrational. While numbers like (e.g.) </font></b>
+<img src="images/transcendental43.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental44.gif" width=74 height=32 alt="log[10](2)" align=middle>
+<b><font color=#000080> are both irrational - the latter having the easier irrationality proof - these two numbers are fundamentally </font></b>
+<i><b><font color=#000080>quite different</font></b></i>
+<b><font color=#000080>: the former is an algebraic number, while the latter is a transcendental number. But I am getting ahead of myself. It is time I moved on to the next section.</font></b>
+</p>
+<p align=left>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:10:03 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

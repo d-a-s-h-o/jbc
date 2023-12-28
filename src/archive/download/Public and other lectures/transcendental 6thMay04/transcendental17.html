@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark17">
+<p align=left>
+<b><font color=#000080>Conway's Look-and-Say algebraic number</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Perhaps the most remarkable example of an algebraic number (from a gee-whiz point of view) is provided by John Conway's </font></b>
+<i><b><font color=#000080>Look</font></b></i>
+<b><font color=#000080>-and-</font></b>
+<i><b><font color=#000080>Say</font></b></i>
+<b><font color=#000080> sequence (see the wonderful </font></b>
+<i><b><font color=#000080>Book of Numbers</font></b></i>
+<b><font color=#000080> by Conway &amp; Guy):</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>1, 11, 21, 1211, 111221, 312211, 13112221, 1113213211, 31131211121221, ... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    I hope you see why it's called the Look-and-Say sequence... (If you don't already know of N. J. A. Sloane's extraordinary On-Line Encyclopedia of Integer Sequences, then you simply must consult it; be prepared, however, to suffer the disappointment of thinking you've discovered a new (</font></b>
+<i><b><font color=#000080>interesting</font></b></i>
+<b><font color=#000080>) sequence: you will almost certainly find it there...).</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    How many digits does the </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-th  term of that sequence have? Conway proved that it's roughly proportional to </font></b>
+<img src="images/transcendental367.gif" width=38 height=52 alt="alpha^n" align=middle>
+<b><font color=#000080>, where </font></b>
+<img src="images/transcendental368.gif" width=468 height=32 alt="alpha = 1.30357726903429639125709911215255189073070..." align=middle>
+<b><font color=#000080>, is an algebraic number of degree 71, being a solution of the following irreducible </font></b>
+<img src="images/transcendental369.gif" width=44 height=50 alt="71^st" align=middle>
+<b><font color=#000080> degree polynomial equation (with integer coefficients):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental370.gif" width=686 height=29 alt="x^71-x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-...">
+<br>
+<img src="images/transcendental371.gif" width=696 height=29 alt="x^71-x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-...">
+<br>
+<img src="images/transcendental372.gif" width=712 height=29 alt="x^71-x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-...">
+<br>
+<img src="images/transcendental373.gif" width=704 height=29 alt="x^71-x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-...">
+<br>
+<img src="images/transcendental374.gif" width=696 height=29 alt="x^71-x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-...">
+<br>
+<img src="images/transcendental375.gif" width=365 height=29 alt="x^71-x^69-2*x^68-x^67+2*x^66+2*x^65+x^64-x^63-x^62-...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>restart;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f := x -&gt; x^71 - x^69 - 2*x^68 - x^67 + 2*x^66 + 2*x^65 + x^64 <br>
+- x^63 - x^62 - x^61 - x^60 - x^59 + 2*x^58 + 5*x^57 + 3*x^56 <br>
+- 2*x^55 - 10*x^54 - 3*x^53 - 2*x^52 + 6*x^51 + 6*x^50 + x^49 <br>
++ 9*x^48 - 3*x^47 - 7*x^46 - 8*x^45 - 8*x^44 + 10*x^43 + 6*x^42 <br>
++ 8*x^41 - 5*x^40 - 12*x^39 + 7*x^38 - 7*x^37 + 7*x^36 + x^35 <br>
+- 3*x^34 + 10*x^33 + x^32 - 6*x^31 - 2*x^30 - 10*x^29 - 3*x^28 <br>
++ 2*x^27 + 9*x^26 - 3*x^25 + 14*x^24 - 8*x^23 - 7*x^21 + 9*x^20 <br>
++ 3*x^19 - 4*x^18 - 10*x^17 - 7*x^16 + 12*x^15 + 7*x^14 + 2*x^13 <br>
+- 12*x^12 - 4*x^11 - 2*x^10 + 5*x^9 + x^7 - 7*x^6 + 7*x^5 - 4*x^4 <br>
++ 12*x^3 - 6*x^2 + 3*x - 6:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Digits := 50; # to give the value in Conway &amp; Guy</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental376.gif" width=95 height=20 alt="Digits := 50">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>fsolve(f(x) = 0, x = 1..2);</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental377.gif" width=420 height=20 alt="1.3035772690342963912570991121525518907307025046594...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Digits := 10;</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental378.gif" width=95 height=20 alt="Digits := 10">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>plot(f(x), x = (1.303)..(1.304));</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental379.gif" width=388 height=288 alt="[Maple Plot]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:56 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

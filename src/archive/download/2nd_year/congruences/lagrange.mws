@@ -1,0 +1,250 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 0 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 128 0 1 0 0 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "
+" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helveti
+ca" 1 12 128 0 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 128 
+128 1 2 1 2 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# lagrange.mws" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Lagrange.ms" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "This is work I did on Wed
+. 7th. Feb. '96:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 134 "I started (in 'quactest.ms') by trying to write a progra
+mme which would take a prime ('p', say) and - for example - find ALL q
+uadratic" }}{PARA 0 "" 0 "" {TEXT -1 43 "congruences which had no solu
+tion modulo p." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 137 "It CLEARLY wasn't working (I only spotted it by pure cha
+nce; by just seeing '0' all the way down the centre).  It wasn't VARYI
+NG the 'b' " }}{PARA 0 "" 0 "" {TEXT -1 37 "coefficient (WHY? come bac
+k to that.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 144 "I then went to have a look at the programmes (quacong1, 2, 3) \+
+which Mark had written to take composite moduli with a view to finding
+ non-trivial" }}{PARA 0 "" 0 "" {TEXT -1 145 "quadratics which had MOR
+E than TWO solutions.   I copied and pasted the second of those into t
+his worksheet (the first one below), and varied it." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 143 "First I kept 'a' fixed
+ at '1' (so I only had local variables 'b' and 'c'). That worked (as i
+ndeed it did elsewhere), but would it work if I now" }}{PARA 0 "" 0 "
+" {TEXT -1 39 "introduced three variable coefficients." }}{PARA 2 "" 
+0 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 644 "search:=pro
+c(M)    # this was MARK's second attempt\nlocal m, a, b, c, S, count: \+
+ # I've just changed his 'flag' to 'count'\nfor m from 2 to M do\ncoun
+t:=0:\n   if (isprime(m)=false) then \na:=1:\n           while (a < m)
+ and (count=0) do           \nb:=0:\n           while (b<m) and (count
+=0) do              \nc:=0:\n           while (c<m) and (count=0) do  \+
+               \nS:=\{msolve(a*x^2+b*x+c, m)\}:\n    if nops(S)>2 \n  \+
+      then  print(m, a, b, c);    \ncount:=1:                 \n    fi
+:                  \nc:=c+1:              \n   od:              \nb:=b
++1:           \n   od:           \na:=a+1:       \n   od:       \n   f
+i:\n   od:\nprint( `` ):\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "search(10);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"'\"\"\"F$\"\"!" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6&\"\")\"\"\"\"\"!\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6&\"\"*\"\"\"\"\"!F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"#5\"\"\"
+F$\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 7 "Then I:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 54 "1.  c
+hanged 'search' to 'test', and 'M' to 'p' (prime)" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "2.  got rid of 'm', 'a', 'S' and 'count'," }}{PARA 0 "" 
+0 "" {TEXT -1 62 "3.  got rid of the \"if (isprime(m)=false) then ... \+
+\", etc... ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 35 "and so had the following programme:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 315 "NOTE: better procedure names f
+or those below would be ones like quad_test0, quad_test1, quad_test2 c
+orresponding to 0, 1 and 2 mutually incongruent solutions. (I made tho
+se changes later.) (Used names 'new_quad_test0, 1, 2, 3' for those whe
+re I FIXED (to increase the speed) the leading coefficient 'a' to be '
+1' )." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 132 
+"Later it occured to me that I should make one final improvement - to \+
+incorporate the Number Of Solutions ('nos') into the programme." }}
+{PARA 0 "" 0 "" {TEXT -1 125 "(That programme is called Quad_Test.  It
+ requires two global variables: 'p' (the prime) and 'nos' (the number \+
+of solutions).)" }}{PARA 2 "" 0 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 241 "test0:=proc(p)\nlocal b, c;\nb:=0:\nwhile (b < p) \+
+do    \nc:=0:\nwhile (c<p) do                 \nif nops(\{msolve(x^2+b
+*x+c, p)\})=0 \nthen print(b, c);   \nfi:                  \nc:=c+1:  \+
+            \nod:\nb:=b+1:           \nod:     \nprint( `` ):\nend:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 9 "test0(5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"!
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"!\"\"$" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"\"
+\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$F#" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"%\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"%\"
+\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 157 "Good, it w
+orked correctly. Now, what I needed to to was to see if I could bring \+
+back the first coefficient (that is NOT needed, but I wanted to see if
+ ... ):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 288 "quad_test1:=proc(p)\nlocal a, b, c;\na:=1:\nwhile (a < p) do
+\nb:=0:\nwhile (b < p) do    \nc:=0:\nwhile (c<p) do                 \+
+\nif nops(\{msolve(a*x^2+b*x+c, p)\})=1 then\nprint(a, b, c);   \nfi: \+
+                 \nc:=c+1:              \nod:\nb:=b+1:           \nod:
+\na:=a+1:\nod:     \nprint( `` ):\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "quad_te
+st1(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"!F$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"\"F#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"\"\"\"#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"!F$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"#F#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 11 "GOOD!!!!!!!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "quad_test1(5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%
+\"\"\"\"\"!F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"F#\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"#F#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"\"$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"
+\"\"%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"!F$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"#\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+%\"\"#F#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"$F$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"%F#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"$\"\"!F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"
+\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"#F$" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"\"$F#\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"$\"\"%F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"!F$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"\"F$" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"%\"\"#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"$F#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%F#\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "And now for those with 2 solutions
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+288 "quad_test2:=proc(p)\nlocal a, b, c;\na:=1:\nwhile (a < p) do\nb:=
+0:\nwhile (b < p) do    \nc:=0:\nwhile (c<p) do                 \nif n
+ops(\{msolve(a*x^2+b*x+c, p)\})=2 then\nprint(a, b, c);   \nfi:       \+
+           \nc:=c+1:              \nod:\nb:=b+1:           \nod:\na:=a
++1:\nod:     \nprint( `` ):\nend:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "quad_te
+st2(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"!\"\"#" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"\"\"F#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"\"\"\"#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"!\"
+\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"\"\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"#F#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 14 "quad_test2(5);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"\"\"\"!F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"!\"\"
+%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"F#\"\"!" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"\"\"F#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"
+\"\"\"#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"#F$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"$\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"\"$\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"\"\"\"%\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"%\"\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"!F#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"#\"\"!\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"
+#\"\"\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"\"\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#F#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"#F#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#
+\"\"$\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"$\"\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"%\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"#\"\"%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"
+\"!\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"!F#" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"$\"\"\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"$\"\"\"F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"#\"\"!
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"#\"\"%" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6%\"\"$F#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$
+F#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"%\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"\"$\"\"%\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"%\"\"!\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"%\"\"!F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"\"\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"\"\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"%\"\"#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"
+%\"\"#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"$\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%\"\"$F$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"%F#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"%F#
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 23 "And - te
+sting Lagrange:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 323 "quad_test3:=proc(p)   # at LEAST '3'; so below ' > 2
+ '\nlocal a, b, c;\na:=1:\nwhile (a < p) do\nb:=0:\nwhile (b < p) do  \+
+  \nc:=0:\nwhile (c<p) do                 \nif nops(\{msolve(a*x^2+b*x
++c, p)\})>2 then\nprint(a, b, c);   \nfi:                  \nc:=c+1:  \+
+            \nod:\nb:=b+1:           \nod:\na:=a+1:\nod:     \nprint( \+
+`` ):\nend:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "quad_test3(3
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "quad_test3(5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "quad_test3(7);  " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 76 "quad_test3(11);  #  several seconds.  get rid of firs
+t coefficient for speed" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 37 "So, FIXED leading coefficient at '1':" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 286 "new_quad_test3:=pr
+oc(p)   # at LEAST '3'; so below ' > 2 '\nlocal b, c;\nb:=0:\nwhile (b
+ < p) do    \nc:=0:\nwhile (c<p) do                 \nif nops(\{msolve
+(x^2+b*x+c, p)\}) > 2 then\nprint(b, c);   \nfi:                  \nc:
+=c+1:              \nod:\nb:=b+1:           \nod:     \nprint( `` ):\n
+end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "new_quad_test3(11);
+  # instantly!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "new_quad_test3(13);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 272 "Ah!!   Could incorporate the
+ 0, 1, 2, 3 INTO the programme by: INSTEAD of names  like 'new_quad_te
+st0, 1, 2, 3' - which mean that I have to have a programme for EACH of
+ them - I should make a NEW GLOBAL variable 'nos' (short for 'number o
+f solutions') and change the line:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 52 "> if nops(\{msolve(x^2+b*x+c, p)\})=0, 1,
+ 2, etc.  to:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 38 "> if nops(\{msolve(x^2+b*x+c, p)\})=nos\"" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 261 "Quad_Test:=pr
+oc(p, nos)  \nlocal b, c;\nb:=0:\nwhile (b < p) do    \nc:=0:\nwhile (
+c<p) do                 \nif nops(\{msolve(x^2 + b*x + c = 0, p)\})=no
+s then\nprint(b, c);   \nfi:                  \nc:=c+1:              \+
+\nod:\nb:=b+1:           \nod:     \nprint( `` ):\nend:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 66 "Quad_Test(5, 2);  # the prime first, followed by no. \+
+of solutions." }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"!\"\"\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$\"\"!\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6$\"\"\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"\"\"$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6$\"\"#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$\"\"$\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"
+\"%\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"%\"\"$" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Quad_Test(5, 1); " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"!F#" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6$\"\"\"\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$\"\"%F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "Quad_Test(5, 0); " }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6$\"\"!\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"!\"\"$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"\"\"\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"#\"\"$" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6$\"\"#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$
+\"\"$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"$\"\"%" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6$\"\"%\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"
+\"%\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "
+Quad_Test(5, 3); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%!G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 34 "GOOD!!!!! But a FAR BETTER one is:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 192 "quadratic_Lagrange:=proc(m,
+ nos)\nlocal a, b, c;\nfor a to m-1 do\nfor b from 0 to m-1 do\nfor c \+
+from 0 to m-1 do\nif nops(\{msolve(a*x^2 + b*x + c = 0, m)\})=nos\nthe
+n print(a, b, c)\nfi od od od end:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "quadrat
+ic_Lagrange(3, 0);  # those with NO ('0') solutions (mod 3)" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"!F#" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"\"F#\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"#F$" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"!F#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"#\"\"\"F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#F
+#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "quadratic_Lagran
+ge(3, 1);  # those with 1 solution (mod 3)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"\"\"\"\"!F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"
+F#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"#F#" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%\"\"#\"\"!F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"
+\"#\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#F#F#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "quadratic_Lagrange(3, 2);  # those \+
+with 2 solutions (mod 3)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"\"
+!\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"F#\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6%\"\"\"\"\"#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%\"\"#\"\"!\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#\"\"\"
+\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"#F#\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "quadratic_Lagrange(3, 3);  # those \+
+with 3 solutions (mod 3)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{MARK "47 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

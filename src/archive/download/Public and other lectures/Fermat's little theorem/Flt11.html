@@ -1,0 +1,545 @@
+<html>
+<head>
+<title>Flt.html</title>
+<!-- Created by Maple V Release 5, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<a name="MapleAutoBookmark11">
+<p align=left>
+<b><font color=#000080 size=5>Section 6. Factoring. The Pollard (</font></b>
+<img src="images/Flt284.gif" width=70 height=44 alt="[Maple Math]" align=middle>
+<b><font color=#000080 size=5>) factoring method.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In a nutshell, John Pollard's famous (</font></b>
+<img src="images/Flt285.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) factorisation method (1974) gives a strategy - based on an ingenious use of Fermat's little theorem (</font></b>
+<b><u><font color=#000080>full details</font></u></b>
+<b><font color=#000080> are available in the </font></b>
+<img src="images/Flt286.gif" width=39 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> year Maple section of my web site) - for uncovering a prime factor of an integer </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>, if that </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> has a prime factor </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> such that (</font></b>
+<img src="images/Flt287.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) has only relatively </font></b>
+<i><b><font color=#000080>small</font></b></i>
+<b><font color=#000080> prime factors...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And </font></b>
+<i><b><font color=#000080>why</font></b></i>
+<b><font color=#000080> - apart from its intrinsic interest - might one </font></b>
+<i><b><font color=#000080>want</font></b></i>
+<b><font color=#000080> to find a factor? Well one need look no further than the renowned RSA cryptographic method (a full treatment of which may be read in my Maple public lecture </font></b>
+<i><b><font color=#000080>Bill Clinton, Bertie Ahern, and digital signatures</font></b></i>
+<b><font color=#000080>): the basis for its security rests on the current difficulty of the famous </font></b>
+<i><b><font color=#000080>factorisation problem</font></b></i>
+<b><font color=#000080>, of finding a fast method (or prove there isn't one) for factoring general </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080>. In the following examples, Maple is using the 1971 Brillhart-Morrison continued fraction factorisation method.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(15);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt288.gif" width=72 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n23 := 23!;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt289.gif" width=247 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(n23);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt290.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(n23);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt291.gif" width=375 height=28 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(n23 + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt292.gif" width=263 height=28 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n90 := 90!;</font></b>
+</p>
+<p align=left>
+<img src="images/Flt293.gif" width=935 height=19 alt="[Maple Math]">
+<br>
+<img src="images/Flt294.gif" width=256 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(n90);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt295.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(n90);</font></b>
+</p>
+<p align=left>
+<img src="images/Flt296.gif" width=936 height=28 alt="[Maple Math]">
+<br>
+<img src="images/Flt297.gif" width=126 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>But Maple cannot factor (</font></b>
+<img src="images/Flt298.gif" width=66 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) (and I've placed the 'comment sign', # , before the command to prevent re-execution.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># ifactor(n90 + 1);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(n90 + 1, easy);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt299.gif" width=55 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<b><font color=#000080>which informs that (</font></b>
+<img src="images/Flt300.gif" width=66 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is a </font></b>
+<b><u><font color=#000080>c</font></u></b>
+<b><font color=#000080>omposite '</font></b>
+<b><u><font color=#000080>139</font></u></b>
+<b><font color=#000080>' digit number.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080>. That 139 digit number may be proved to be composite (not prime) by using Fermat's little theorem:</font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>if</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/Flt301.gif" width=66 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is prime, one would have </font></b>
+<img src="images/Flt302.gif" width=79 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> (mod </font></b>
+<img src="images/Flt303.gif" width=70 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>for all integers </font></b>
+<i><b><font color=#000080>a</font></b></i>
+<b><font color=#000080> not divisible by (</font></b>
+<img src="images/Flt304.gif" width=70 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>So, testing to see what happens when </font></b>
+<img src="images/Flt305.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>, one finds:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2&amp;^n90 mod (n90 + 1);</font></b>
+</p>
+<p align=left>
+<img src="images/Flt306.gif" width=936 height=19 alt="[Maple Math]">
+<br>
+<img src="images/Flt307.gif" width=208 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and so it follows immediately that (</font></b>
+<img src="images/Flt308.gif" width=70 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) is not prime. (One says that (</font></b>
+<img src="images/Flt309.gif" width=70 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) has failed the Lucas-Fermat test to the base 2.)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080>. On </font></b>
+<img src="images/Flt310.gif" width=47 height=48 alt="[Maple Math]" align=middle>
+<b><font color=#000080> April this year, Sean Irvine announced to the Number Theory mailing list the complete factorisation of (</font></b>
+<img src="images/Flt311.gif" width=70 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>); it is the product of three primes, </font></b>
+<img src="images/Flt312.gif" width=54 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080> : </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p := 1381173038633;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt313.gif" width=150 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>q := 42025070023047325132446149666132026718715669472074383;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt314.gif" width=470 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r := 25596421444788555447555320241499448369527283715169223676054601753562783959;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt315.gif" width=636 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>is(n90 + 1 = p*q*r);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt316.gif" width=43 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now here is the famous 129 digit number, RSA129:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>RSA129 := 114381625757888867669235779976146612010218296721242362562561842935706935245733897830597123563958705058989075147599290026879543541;</font></b>
+</p>
+<p align=left>
+<img src="images/Flt317.gif" width=933 height=19 alt="[Maple Math]">
+<br>
+<img src="images/Flt318.gif" width=208 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(RSA129);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt319.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I am certainly NOT going to attempt to factor it!! It first came to public attention in Martin Gardiner's much read column in the August 1997 issue of the Scientific American. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Rivest, Shamir and Adleman (of RSA fame) threw this number out as a challenge to be factored. Given the then state of mathematical knowledge (as far as factoring was concerned) and computer power, they estimated that it would take some 20,000 years to factor it, and thereby decrypt a message which they had encrypted using it as the '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' part of a public modulus.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Briefly, a method known as the 'Quadratic Sieve' - introduced in 1981 by the US mathematician Carl Pomerance - together with thousands of computers worldwide (organised by the Dutch mathematician Arjen Lenstra) - factored it by April 1994, and decrypted the RSA-encrypted message (which, incidentally, was: "</font></b>
+<i><b><font color=#000080>The magic </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>words are squeamish ossifrage.</font></b></i>
+<b><font color=#000080>") Lenstra, and his co-workers found that </font></b>
+<i><b><font color=#000080>RSA_129</font></b></i>
+<b><font color=#000080> was the product of the two prime numbers (I show them individually, then their produst, and then show their product really is RSA_129):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f1 := 3490529510847650949147849619903898133417764638493387843990820577;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt320.gif" width=563 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(f1);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt321.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f2 := 32769132993266709549961988190834461413177642967992942539798288533;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt322.gif" width=571 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(f2);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt323.gif" width=32 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f1*f2;</font></b>
+</p>
+<p align=left>
+<img src="images/Flt324.gif" width=936 height=19 alt="[Maple Math]">
+<br>
+<img src="images/Flt325.gif" width=128 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>is(RSA129 = f1*f2);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt326.gif" width=43 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>If I were to foolishly enter the Maple command:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># ifactor(RSA_129);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>then the timer would stay on for MANY, MANY years ... .</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>I am going to create a number</font></b>
+<b><font color=#000080> - which I will call by the name 'much_greater_than_RSA129' - which will have these properties:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>it will be the </font></b>
+<i><b><font color=#000080>product</font></b></i>
+<b><font color=#000080> of two primes 'P' and 'Q'</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I will choose P to be f2 (the greater of the two primes whose product is RSA129)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>I will choose Q to be much greater than P<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Those choices will automatically make 'much_greater_than_RSA129' be much greater than RSA129 (hence the name).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>This is how I will do it:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P := f2;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt327.gif" width=568 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>To save time in my lecture I neutralise the following command, but beforehand copy and paste the output to the next command line.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># Q := nextprime(4470115461512684340891257138125051110076800700282905015819080092370422104067183317016903679999999999999630);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Q := 4470115461512684340891257138125051110076800700282905015819080092370422104067183317016903680000000000000001;</font></b>
+</p>
+<p align=center>
+<img src="images/Flt328.gif" width=898 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>much_greater_than_RSA129 := P*Q;</font></b>
+</p>
+<p align=left>
+<img src="images/Flt329.gif" width=936 height=19 alt="[Maple Math]">
+<br>
+<img src="images/Flt330.gif" width=680 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(much_greater_than_RSA129);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt331.gif" width=40 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>But that MUCH LARGER number can now be factored in seconds by exploiting the Pollard (</font></b>
+<img src="images/Flt332.gif" width=53 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) factorisation method:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard := proc(n)<br>
+local a,k;<br>
+a[1]:=2:<br>
+for k from 2 while igcd(n,a[k-1]-1 mod n)=1   <br>
+do a[k]:=a[k-1]&amp;^k mod n od;<br>
+lprint(n,`is the PRODUCT of`,                                                                                                  igcd(n, a[k-1]-1 mod n), `and`, <br>
+n/igcd(n, a[k-1]-1 mod n))<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(much_greater_than_RSA129);</font></b>
+</p>
+<p align=left>
+<b><tt><pre><font color=#800000>146481808053566948606112326494160580676597757390203425433760346556289969224977192583652803722778590707655656624536558761037114144280380743982554672552469432942539798288533   is the PRODUCT of   4470115461512684340891257138125051110076800700282905015819080092370422104067183317016903680000000000000001   and   32769132993266709549961988190834461413177642967992942539798288533</font></pre></tt></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Wonderful? Yes? </font></b>
+<b><font color=#000080> Of course I deliberately made up the prime Q so that all the prime factors of (</font></b>
+<img src="images/Flt333.gif" width=57 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>) were small:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(Q - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt334.gif" width=909 height=28 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>You may have noticed that I choose </font></b>
+<i><b><font color=#000080>Q</font></b></i>
+<b><font color=#000080> so that the prime factors of </font></b>
+<i><b><font color=#000080>Q</font></b></i>
+<b><font color=#000080> are the first twenty-one primes:  2, 3, 5, ... , 71 and 73.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Finally, look at the two prime factors - f1 and f2 - of the RSA129 number; see how they behave:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(f1 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt335.gif" width=608 height=28 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(f2 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt336.gif" width=615 height=28 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Rivest, Shamir and Adleman knew what they were doing when the made up RSA129!!</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And here you can see why it had been so difficult to find the prime factors </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> of (</font></b>
+<img src="images/Flt337.gif" width=66 height=30 alt="[Maple Math]" align=middle>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(q-1, easy);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt338.gif" width=177 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(r-1, easy);</font></b>
+</p>
+<p align=center>
+<img src="images/Flt339.gif" width=730 height=19 alt="[Maple Math]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:42 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

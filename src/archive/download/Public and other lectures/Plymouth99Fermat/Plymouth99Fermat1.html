@@ -1,0 +1,1912 @@
+<html>
+<head>
+<title>Plymouth99Fermat.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># Fermat.mws</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Speaker</font></u></b>
+<b><font color=#000080>:  Dr. John Cosgrave.<br>
+<br>
+</font></b>
+<b><u><font color=#000080>Address</font></u></b>
+<b><font color=#000080>:  Mathematics Department, St. Patrick's College, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                   Drumcondra, Dublin 9, IRELAND.<br>
+<br>
+</font></b>
+<b><u><font color=#000080>e-mail</font></u></b>
+<b><font color=#000080>:  John.Cosgrave@spd.ie (College) or  <br>
+              johnbcos@iol.ie (Home)<br>
+<br>
+</font></b>
+<b><u><font color=#000080>Web</font></u></b>
+<b><font color=#000080>:  &lt;http://www.spd.dcu.ie/johnbcos&gt;<br>
+<br>
+</font></b>
+<b><u><font color=#000080>Title of talk</font></u></b>
+<b><font color=#000080> (given on Tuesday 10th. August 1999 in Plymouth University, Devon, England): </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>  </font></b>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>                      The mathematical context of the <br>
+                 recent (25th. July 1999) discovery of the<br>
+                </font></b>
+<b><u><font color=#000080 size=4>largest known composite Fermat number</font></u></b>
+<b><font color=#000080><br>
+</font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>Note</font></b></i>
+<b><font color=#000080>. The Maple file of this talk, and many other Maple worksheets<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>1st. year Maple/Calculus/Analysis</font></b>
+</li>
+<li>
+<b><font color=#000080>2nd year Number Theory</font></b>
+</li>
+<li>
+<b><font color=#000080>3rd year Number Theory and Cryptography</font></b>
+</li>
+<li>
+<b><font color=#000080>some public lectures<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>together with course notes, examination papers (written and Maple lab), may be accessed at my Web site.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Dedication</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>       </font></b>
+<b><font color=#000080 size=4>I dedicate this talk to the French scientist Yves Gallot (Toulouse), <br>
+          and the German mathematician Wilfrid Keller (Hamburg)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left><a name="Structure of my talk">
+<b><u><font color=#000080>Structure of my talk</font></u></b>
+<b><font color=#000080> [All the standard mathematical ideas presented in this talk are treated in my </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>undergraduate courses with my students in St. Patrick's College, Drumcondra. Most of my students </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>are taking the B.Ed. degree, with a view to becoming primary school teachers in Ireland.]</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<a href="Plymouth99Fermat1.html#In the late afternoon" target="Content">Events</a><b><font color=#000080> of past couple of weeks, starting 5.00 P.M. Friday 23rd. July 1999.</font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#Euclid and perfect numbers" target="Content">Euclid and perfect numbers</a><b><font color=#000080>. </font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#Mersenne primes" target="Content">Mersenne primes</a><b><font color=#000080>. [these last two sections are intended </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> to provide <br>
+the historical background to Fermat's question coming up next.]</font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#Fermat numbers" target="Content">Fermat numbers</a><b><font color=#000080> made their first appearance in </font></b>
+<b><u><font color=#000080>August 1640</font></u></b>
+<b><font color=#000080>.  Fermat's belief.</font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#Fermat-Euler theorem" target="Content">Fermat-Euler theorem</a><b><font color=#000080> (1732). <br>
+Euler's discovery that </font></b>
+<img src="images/Plymouth99Fermat1.gif" width=123 height=76 alt="F[5] = 2^(2^5)+1" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99Fermat2.gif" width=69 height=50 alt="2^32+1" align=middle>
+<b><font color=#000080> is composite.<br>
+Landry (1880), Brillhart and Morrison (1970), Morehead (190?) - I don't have Dickson's History <br>
+to hand to give the correct date)</font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#Question" target="Content">Pepin's theorem</a><b><font color=#000080> (1877)</font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#The current state" target="Content">The current state of knowledge</a><b><font color=#000080>, <br>
+</font></b>
+<a href="Plymouth99Fermat1.html#Let" target="Content">Proth's theorem</a><b><font color=#000080> of 1878, and<br>
+</font></b>
+<a href="Plymouth99Fermat1.html#Yves Gallot" target="Content">Yves Gallot</a><b><font color=#000080>'s remarkable </font></b>
+<i><b><font color=#000080>Proth.exe</font></b></i>
+<b><font color=#000080> program</font></b>
+</li>
+<li>
+<a href="Plymouth99Fermat1.html#Web site references" target="Content">Web site references</a><b><font color=#000080><br>
+</font></b>
+</li>
+</ul>
+<p align=left><a name="In the late afternoon">
+<b><font color=#000080>In the late afternoon of Friday 23rd. August 1999, I sent the following announcement to the Irish <br>
+Mathematics Departments List Server, and to a number of individual mathematicians worldwide:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Dear Friends and colleagues,<br>
+<br>
+I am delighted to inform you that using Yves Gallot's Proth program I have just found the </font></b>
+<b><u><font color=#000080><br>
+10th. largest known prime</font></u></b>
+<b><font color=#000080> (and a new Irish prime record into the bargain). The prime is:</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                             3*</font></b>
+<img src="images/Plymouth99Fermat3.gif" width=101 height=50 alt="2^382449+1" align=middle>
+<b><font color=#000080>, <br>
+and it has 115130 digits.<br>
+<br>
+All the credit goes to Proth (1878, whose theorem I teach to my 3rd. years), to Gallot for his <br>
+remarkable program, and to my College for computer access during the slack Summer period. <br>
+I have put up a brief note about it on my web site (&lt;www.spd.dcu.ie/johnbcos&gt;).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Then, two days later , on the evening of Sunday 25th. August I sent out the following much more <br>
+exciting announcement:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>            </font></b>
+<b><font color=#000080 size=4>ANNOUNCING THE LARGEST KNOWN COMPOSITE FERMAT NUMBER</font></b>
+<b><font color=#000080 size=5> <br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Dear Friends and colleagues,<br>
+<br>
+Using Yves Gallot's remarkable Proth program I have made the fortuitous discoveries that: <br>
+<br>
+1.   </font></b>
+<img src="images/Plymouth99Fermat4.gif" width=52 height=32 alt="p = 3" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat5.gif" width=101 height=50 alt="2^382449+1" align=middle>
+<b><font color=#000080> is </font></b>
+<i><b><font color=#000080>prime</font></b></i>
+<b><font color=#000080> (the 10th. largest known one, and the<br>
+      3rd. largest non-Mersenne prime),<br>
+2.   </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is a divisor of the </font></b>
+<i><b><font color=#000080>Fermat number</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99Fermat6.gif" width=203 height=76 alt="F[382447] = 2^(2^382447)+1" align=middle>
+<b><font color=#000080><br>
+<br>
+      making </font></b>
+<img src="images/Plymouth99Fermat7.gif" width=75 height=32 alt="F[382447]" align=middle>
+<b><font color=#000080> be the </font></b>
+<b><u><font color=#000080>largest known composite Fermat number</font></u></b>
+<b><font color=#000080>, and the sixth <br>
+     [added later: its actually the 7th.] Fermat number for which a factor has been found <br>
+     using Gallot's program.<br>
+<br>
+3.    </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is a divisor of the following 'generalized Fermat numbers' (GFN's):<br>
+<br>
+                   </font></b>
+<img src="images/Plymouth99Fermat8.gif" width=219 height=76 alt="F[382443,6] = 6^(2^382443)+1" align=middle>
+<b><font color=#000080>,                 </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                   </font></b>
+<img src="images/Plymouth99Fermat9.gif" width=219 height=76 alt="F[382447,3] = 3^(2^382447)+1" align=middle>
+<b><font color=#000080>, <br>
+                  </font></b>
+<img src="images/Plymouth99Fermat10.gif" width=235 height=76 alt="F[382447,12] = 12^(2^382447)+1" align=middle>
+<b><font color=#000080>,  <br>
+               <br>
+4.   </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> a divisor of </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99Fermat11.gif" width=159 height=76 alt="GF[5,m] = 5^(2^m)+1" align=middle>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>nor</font></u></b>
+<b><font color=#000080> of </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99Fermat12.gif" width=175 height=76 alt="GF[10,m] = 10^(2^m)+1" align=middle>
+<b><font color=#000080>,<br>
+<br>
+5.   </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is a 'generalized Cullen prime.'<br>
+<br>
+Previously the largest known composite Fermat number was </font></b>
+</p>
+<p align=left>
+<img src="images/Plymouth99Fermat13.gif" width=231 height=76 alt="F[3030885,m] = 2^(2^303088)+1" align=middle>
+<b><font color=#000080>, with prime 3*</font></b>
+<img src="images/Plymouth99Fermat14.gif" width=101 height=50 alt="2^303093+1" align=middle>
+<b><font color=#000080> [Jeff Young, 1998]<br>
+<br>
+I made my chance discovery while making a systematic Proth-Gallot test of all numbers </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>3*</font></b>
+<img src="images/Plymouth99Fermat15.gif" width=62 height=50 alt="2^n+1" align=middle>
+<b><font color=#000080>, with '</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>' ranging between 366,000 and 390,000, spread over 40-50 machines in </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>my College's main computer laboratory, during the past two months. <br>
+<br>
+Best wishes to you all, John<br>
+<br>
+REFERENCES<br>
+<br>
+1.    Wilfrid Keller maintains the 'Prime factors k*2^n + 1 of Fermat<br>
+       numbers F[m] and complete factoring status' site at:<br>
+                &lt;http://vamri.xray.ufl.edu/proths/fermat.html&gt;<br>
+<br>
+2.    Ray Ballinger valiantly maintains the Proth prime search site at:<br>
+	               &lt;http://vamri.xray.ufl.edu/proths/&gt;<br>
+<br>
+3.    Chris Caldwell maintains [just in case you didn't know] the<br>
+       remarkable Prime number site at:<br>
+	              &lt;http://www.utm.edu/research/primes&gt;<br>
+                    <br>
+Much more detail concerning the story and timing of the discovery may </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>be seen at my College we site, including a simple analysis showing that </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the </font></b>
+<i><b><font color=#000080>supra-astronomically large</font></b></i>
+<b><font color=#000080> number</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+                        </font></b>
+<img src="images/Plymouth99Fermat16.gif" width=203 height=76 alt="F[382447] = 2^(2^382447)+1" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>has </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>approximately </font></b>
+<img src="images/Plymouth99Fermat17.gif" width=81 height=50 alt="10^115136" align=middle>
+<b><font color=#000080> digits</font></b>
+</li>
+<li>
+<b><font color=#000080>would require a square board of side length approximately </font></b>
+<img src="images/Plymouth99Fermat18.gif" width=73 height=50 alt="10^57559" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>LIGHT YEARS</font></b></i>
+<b><font color=#000080> in order <br>
+to write it out in decimal notation at 4 digits per inch   <br>
+<br>
+                           </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a><b><font color=#000080>   <br>
+  </font></b>
+</li>
+</ul>
+<p align=left><a name="Euclid and perfect numbers">
+<b><u><font color=#000080>Euclid and perfect numbers</font></u></b>
+<b><font color=#000080> (briefly!) [Much greater detail may be viewed in one of my Maple </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>public lectures, given in October 1997, available at my web site.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Recall that a </font></b>
+<i><b><u><font color=#000080>perfect</font></u></b></i>
+<b><font color=#000080> number is one whose sum of factors - excluding itself - is equal to itself.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>6 is perfect, because the factors of 6 are 1, 2, 3 and 6, and </font></b>
+<img src="images/Plymouth99Fermat19.gif" width=108 height=32 alt="1+2+3 = 6" align=middle>
+<b><font color=#000080>.</font></b>
+</li>
+<li>
+<b><font color=#000080>28 is perfect, because the factors of 28 are 1, 2, 4, 7, 14 and 28, and </font></b>
+<img src="images/Plymouth99Fermat20.gif" width=180 height=32 alt="1+2+4+7+14 = 28" align=middle>
+</li>
+<li>
+<b><font color=#000080>496 is perfect, because the factors of 496 are 1, 2, 4, 8, 16, 31, 62, 124, 248 and 496, and <br>
+</font></b>
+<img src="images/Plymouth99Fermat21.gif" width=348 height=32 alt="1+2+4+8+16+31+62+124+248 = 496" align=middle>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Euclid's great discovery (and one to which students may easily be led) was</font></u></b>
+<b><font color=#000080>: Let </font></b>
+<img src="images/Plymouth99Fermat22.gif" width=25 height=32 alt="n" align=middle>
+<b><font color=#000080> be a natural number <br>
+such that (</font></b>
+<img src="images/Plymouth99Fermat23.gif" width=62 height=50 alt="2^n-1" align=middle>
+<b><font color=#000080>) is a prime number, then the number </font></b>
+<img src="images/Plymouth99Fermat24.gif" width=140 height=58 alt="2^(n-1)*(2^n-1)" align=middle>
+<b><font color=#000080> is a perfect number.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<img src="images/Plymouth99Fermat25.gif" width=89 height=50 alt="2^3-1 = 7" align=middle>
+<b><font color=#000080> is prime, and thus the number </font></b>
+<img src="images/Plymouth99Fermat26.gif" width=124 height=50 alt="2^2*(2^3-1) = 4" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat27.gif" width=60 height=32 alt="7 = 28" align=middle>
+<b><font color=#000080>, is perfect</font></b>
+</li>
+<li>
+<img src="images/Plymouth99Fermat28.gif" width=121 height=50 alt="2^13-1 = 8191" align=middle>
+<b><font color=#000080> is prime, and thus the number </font></b>
+<img src="images/Plymouth99Fermat29.gif" width=164 height=50 alt="2^12*(2^13-1) = 4096" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat30.gif" width=48 height=32 alt="8191" align=middle>
+<b><font color=#000080> = 33,550,336, <br>
+is perfect<br>
+</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(2^13 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat31.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^12*(2^13-1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat32.gif" width=80 height=20 alt="33550336">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Historical (historic, and unsolved) question</font></u></b>
+<b><font color=#000080>: For which values of </font></b>
+<img src="images/Plymouth99Fermat33.gif" width=25 height=32 alt="n" align=middle>
+<b><font color=#000080> is (</font></b>
+<img src="images/Plymouth99Fermat34.gif" width=62 height=50 alt="2^n-1" align=middle>
+<b><font color=#000080>) prime?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Some partial answers</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><u><font color=#000080>If</font></u></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is composite (i.e., is not prime) </font></b>
+<b><u><font color=#000080>then</font></u></b>
+<b><font color=#000080> (</font></b>
+<img src="images/Plymouth99Fermat35.gif" width=62 height=50 alt="2^n-1" align=middle>
+<b><font color=#000080>) is also composite,</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and - as a consequence - </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><u><font color=#000080>if</font></u></b>
+<b><font color=#000080> (</font></b>
+<img src="images/Plymouth99Fermat36.gif" width=62 height=50 alt="2^n-1" align=middle>
+<b><font color=#000080>) is prime, </font></b>
+<b><u><font color=#000080>then</font></u></b>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime.</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Warning</font></u></b>
+<b><font color=#000080>. It is </font></b>
+<b><u><font color=#000080>not true</font></u></b>
+<b><font color=#000080> that<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>if </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is prime then </font></b>
+<b><font color=#000080>(</font></b>
+<img src="images/Plymouth99Fermat37.gif" width=62 height=50 alt="2^n-1" align=middle>
+<b><font color=#000080>) is prime</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>. Note that 11, 23 and 29 are all prime, but:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(2^11 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat38.gif" width=47 height=20 alt="false">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(2^11 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat39.gif" width=88 height=20 alt="``(23)*``(89)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(2^23 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat40.gif" width=47 height=20 alt="false">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(2^23 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat41.gif" width=120 height=20 alt="``(47)*``(178481)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(2^29 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat42.gif" width=47 height=20 alt="false">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(2^29 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat43.gif" width=166 height=20 alt="``(233)*``(1103)*``(2089)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>                                  </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a><b><font color=#000080>                                                                             </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                 </font></b>
+</p>
+<p align=left><a name="Mersenne primes">
+<b><u><font color=#000080>Mersenne primes</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Definitions.</font></u></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Let  </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be prime, then </font></b>
+<img src="images/Plymouth99Fermat44.gif" width=102 height=50 alt="M[p] = 2^p-1" align=middle>
+<b><font color=#000080>, is the </font></b>
+<i><b><font color=#000080>Mersenne</font></b></i>
+<b><font color=#000080> number <br>
+formed from the prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>.</font></b>
+</li>
+<li>
+<b><font color=#000080>Let  </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> be prime; if </font></b>
+<img src="images/Plymouth99Fermat45.gif" width=102 height=50 alt="M[p] = 2^p-1" align=middle>
+<b><font color=#000080> is prime, then it is said to be <br>
+a Mersenne prime.</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Mersenne := proc(n1, n2) local p;<br>
+for p from n1 to n2 do<br>
+if isprime(p) and isprime(2^p - 1)<br>
+then print(p, 2^p - 1) fi od end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Mersenne(2, 100);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>WARNING</font></u></b>
+<b><font color=#000080>. Do </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> fall into the trap of thinking that you can find big Mersenne primes using </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>this ... !! I am attempting to avoid straying into very, very deep waters.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                            </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a><b><font color=#000080> </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left><a name="Fermat numbers">
+<b><u><font color=#000080>Fermat numbers</font></u></b>
+<b><font color=#000080>. Whereas Mersenne primes (primes that are a power of 2, </font></b>
+<b><u><font color=#000080>minus</font></u></b>
+<b><font color=#000080> 1) had </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>their origin is a question asked in the 3rd. century B.C. (and earlier), Fermat primes/numbers </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>had their origin in 1640. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Pierre de Fermat (1601-1665</font></u></b>
+<b><font color=#000080>, and the '</font></b>
+<i><b><font color=#000080>father of modern Number Theory</font></b></i>
+<b><font color=#000080>') - a contemporary </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and correspondent of Mersenne's - asked himself this </font></b>
+<i><b><u><font color=#000080 size=4>apparently</font></u></b></i>
+<b><u><font color=#000080 size=4> simple question</font></u></b>
+<b><font color=#000080>, sometime </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>in the Summer of 1640:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080> Which primes are a power of 2, </font></b>
+<b><u><font color=#000080>plus</font></u></b>
+<b><font color=#000080> 1? That is, for which values of </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/Plymouth99Fermat46.gif" width=146 height=32 alt="r = 1, 2, 3, 4, 5, 6, 7" align=middle>
+<b><font color=#000080>...) <br>
+  is (</font></b>
+<img src="images/Plymouth99Fermat47.gif" width=59 height=50 alt="2^r+1" align=middle>
+<b><font color=#000080>) a prime?</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>School children, students, anyone, may easily check by hand that:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat48.gif" width=50 height=32 alt="r = 1" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat49.gif" width=115 height=50 alt="2^r+1 = 2+1" align=middle>
+<b><font color=#000080> = 3, </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat50.gif" width=50 height=32 alt="r = 2" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat51.gif" width=115 height=50 alt="2^r+1 = 4+1" align=middle>
+<b><font color=#000080> = 5, </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat52.gif" width=50 height=32 alt="r = 3" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat53.gif" width=115 height=50 alt="2^r+1 = 8+1" align=middle>
+<b><font color=#000080> = 9 = 3*3, is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat54.gif" width=50 height=32 alt="r = 4" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat55.gif" width=123 height=50 alt="2^r+1 = 16+1" align=middle>
+<b><font color=#000080> = 17, </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat56.gif" width=50 height=32 alt="r = 5" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat57.gif" width=123 height=50 alt="2^r+1 = 32+1" align=middle>
+<b><font color=#000080> = 33 = 3*11, is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat58.gif" width=50 height=32 alt="r = 6" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat59.gif" width=123 height=50 alt="2^r+1 = 64+1" align=middle>
+<b><font color=#000080> = 65 = 5*13, is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat60.gif" width=50 height=32 alt="r = 7" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat61.gif" width=131 height=50 alt="2^r+1 = 128+1" align=middle>
+<b><font color=#000080> = 129 = 3*43, is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+<li>
+<b><font color=#000080>When </font></b>
+<img src="images/Plymouth99Fermat62.gif" width=50 height=32 alt="r = 8" align=middle>
+<b><font color=#000080>, </font></b>
+<img src="images/Plymouth99Fermat63.gif" width=131 height=50 alt="2^r+1 = 256+1" align=middle>
+<b><font color=#000080> = 257, </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> prime</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>At this point (and this has always been my experience, over many years, with my own students) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>any numerically sensitive person will immediately leap to the </font></b>
+<b><u><font color=#000080>guesses</font></u></b>
+<b><font color=#000080>/</font></b>
+<b><u><font color=#000080>questions</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Is (</font></b>
+<img src="images/Plymouth99Fermat64.gif" width=59 height=50 alt="2^r+1" align=middle>
+<b><font color=#000080>) composite when </font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>is not</font></u></b>
+<b><font color=#000080> a power of 2? [Here the answer is a simple '</font></b>
+<i><b><font color=#000080>yes</font></b></i>
+<b><font color=#000080>,' and it is <br>
+an elementary exercise to prove it.]</font></b>
+</li>
+<li>
+<b><font color=#000080>Is (</font></b>
+<img src="images/Plymouth99Fermat65.gif" width=59 height=50 alt="2^r+1" align=middle>
+<b><font color=#000080>) prime when r </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> a power of 2?  That is, letting </font></b>
+<img src="images/Plymouth99Fermat66.gif" width=131 height=76 alt="F[m] = 2^(2^m)+1" align=middle>
+<b><font color=#000080> (</font></b>
+<img src="images/Plymouth99Fermat67.gif" width=200 height=32 alt="m = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9" align=middle>
+<b><font color=#000080>, ... ) <br>
+be the </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>-th Fermat number, is it true that </font></b>
+<img src="images/Plymouth99Fermat68.gif" width=39 height=32 alt="F[m]" align=middle>
+<b><font color=#000080> is prime for all </font></b>
+<img src="images/Plymouth99Fermat69.gif" width=28 height=32 alt="m" align=middle>
+<b><font color=#000080>?<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>In a letter to Frenicle of </font></b>
+<b><u><font color=#000080>August 1640</font></u></b>
+<b><font color=#000080> (and another of October 1640; both letters available - in French - </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>at Antreas P. Hatzipolakis's we site: &lt;http://users.hol.gr/~xpolakis/fermat/fac.html&gt;) Fermat wrote as </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>follows (English translation quoted from M.S.Mahoney's </font></b>
+<i><b><font color=#000080>The Mathematical Career of Pierre de Fermat</font></b></i>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Princeton University Press, 2nd edition, 1994; see also Andre Weil's </font></b>
+<i><b><font color=#000080>Number Theory </font></b></i>
+<b><font color=#000080>(</font></b>
+<i><b><font color=#000080>An approach through </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>history</font></b></i>
+<b><font color=#000080>), Birkhauser, 1984):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>But here is what I admire most of all: it is that I am just about convinced that all progressive numbers </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>augmented by unity, of which the exponents are numbers of the double progression, are prime numbers, </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>such as<br>
+<br>
+                            </font></b></i>
+<b><font color=#000080>3, 5, 17, 257, 65537, 4294967297</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>and the following of twenty digits</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                          18446744073709551617, etc.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>I do not have an exact proof of it, but I have excluded such a large quantity of divisors by infallible </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>demonstrations, and my thoughts rest on such clear insights, that I can hardly be mistaken.</font></b></i>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Fermat returned to this question over and over again in the remaining 25 years of his life, and when he </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>died in January 1665 he could not - perhaps - have imagined that all would change quite dramatically in </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the following century... .</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                             </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a></p>
+<p align=left>
+</p>
+<p align=left><a name="Fermat-Euler theorem">
+<b><u><font color=#000080>Fermat-Euler theorem (1732)</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Briefly this theorem (which lies unproved in the work of Fermat - and has its origins in Fermat's studies </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>of which primes may be the hypothenuse of an integer sided right angled triangle...) states this:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> be </font></b>
+<b><u><font color=#000080>any</font></u></b>
+<b><font color=#000080> natural number, and </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> be any integer, then </font></b>
+<b><u><font color=#000080>every</font></u></b>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>odd</font></u></b>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>prime</font></u></b>
+<b><font color=#000080> divisor </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> of the integer </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(</font></b>
+<img src="images/Plymouth99Fermat70.gif" width=88 height=76 alt="x^(2^m)+1" align=middle>
+<b><font color=#000080>) leaves remainder 1 when divided by </font></b>
+<img src="images/Plymouth99Fermat71.gif" width=79 height=58 alt="2^(m+1)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In other words, </font></b>
+<b><u><font color=#000080>every</font></u></b>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>odd</font></u></b>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>prime</font></u></b>
+<b><font color=#000080> divisor </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> of the integer (</font></b>
+<img src="images/Plymouth99Fermat72.gif" width=88 height=76 alt="x^(2^m)+1" align=middle>
+<b><font color=#000080>) must have the following </font></b>
+<b><u><font color=#000080>structure</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                                                 </font></b>
+<img src="images/Plymouth99Fermat73.gif" width=52 height=32 alt="p = k" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat74.gif" width=107 height=58 alt="2^(m+1)+1" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>for some </font></b>
+<img src="images/Plymouth99Fermat75.gif" width=132 height=32 alt="k = 1, 2, 3, 4, 5, 6" align=middle>
+<b><font color=#000080>, ... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>m := 4;  # and so (m+1) is 5</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat76.gif" width=58 height=20 alt="m := 4">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^m;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat77.gif" width=32 height=20 alt="16">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2^(m+1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat78.gif" width=32 height=20 alt="32">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>x := 5;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat79.gif" width=54 height=20 alt="x := 5">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>x^(2^m) + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat80.gif" width=112 height=20 alt="152587890626">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(x^(2^m) + 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat81.gif" width=182 height=20 alt="``(2)*``(29423041)*``(2593)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>2593 mod 2^(m+1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat82.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>29423041 mod 2^(m+1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat83.gif" width=24 height=20 alt="1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>What Euler did (actually Andre Weil is of the view (which I am in sympathy) that Fermat himself </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>also did this - using his unproven discovery - but made an arithmetical error) was to attempt to find <br>
+a factor of:                                      </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                                           </font></b>
+<img src="images/Plymouth99Fermat84.gif" width=123 height=76 alt="F[5] = 2^(2^5)+1" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99Fermat85.gif" width=169 height=50 alt="2^32+1 = 4294967297" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>by using the proved result that any prime factor </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> of </font></b>
+<img src="images/Plymouth99Fermat86.gif" width=35 height=32 alt="F[5]" align=middle>
+<b><font color=#000080> must be of the form:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                        </font></b>
+<img src="images/Plymouth99Fermat87.gif" width=100 height=32 alt="p = 64*k+1" align=middle>
+<b><font color=#000080> (some </font></b>
+<img src="images/Plymouth99Fermat88.gif" width=100 height=32 alt="k = 1, 2, 3, 4" align=middle>
+<b><font color=#000080>, ... )</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and, when he got up to </font></b>
+<img src="images/Plymouth99Fermat89.gif" width=60 height=32 alt="k = 10" align=middle>
+<b><font color=#000080> he found that </font></b>
+<img src="images/Plymouth99Fermat90.gif" width=60 height=32 alt="p = 64" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat91.gif" width=104 height=32 alt="10+1 = 641" align=middle>
+<b><font color=#000080> <br>
+is a proper factor of </font></b>
+<img src="images/Plymouth99Fermat92.gif" width=35 height=32 alt="F[5]" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F := m -&gt; 2^(2^m) + 1; # defining the FUNCTION 'F'</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat93.gif" width=160 height=42 alt="F := proc (m) options operator, arrow; 2^(2^m)+1 en...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F(5);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat94.gif" width=96 height=20 alt="4294967297">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F(5)/641;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat95.gif" width=72 height=20 alt="6700417">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(F(5));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat96.gif" width=136 height=20 alt="``(641)*``(6700417)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and in the following century, Landry (in 1880, and at the age of 82!) found a proper factor of:<br>
+<br>
+                           </font></b>
+<img src="images/Plymouth99Fermat97.gif" width=123 height=76 alt="F[6] = 2^(2^6)+1" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99Fermat98.gif" width=69 height=50 alt="2^64+1" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F(6);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat99.gif" width=176 height=20 alt="18446744073709551617">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(F(6));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat100.gif" width=216 height=20 alt="``(67280421310721)*``(274177)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Warning</font></u></b>
+<b><font color=#000080>. I am </font></b>
+<b><u><font color=#000080 size=5>not</font></u></b>
+<b><font color=#000080> going to use Maple to </font></b>
+<b><u><font color=#000080>attempt</font></u></b>
+<b><font color=#000080> to factor<br>
+                                         </font></b>
+<img src="images/Plymouth99Fermat101.gif" width=123 height=76 alt="F[7] = 2^(2^7)+1" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F(7);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat102.gif" width=328 height=20 alt="340282366920938463463374607431768211457">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>because that number </font></b>
+<b><u><font color=#000080>was only factored as recently as 1970</font></u></b>
+<b><font color=#000080> - <br>
+it has the following prime factorization:<br>
+<br>
+       </font></b>
+<img src="images/Plymouth99Fermat103.gif" width=35 height=32 alt="F[7]" align=middle>
+<b><font color=#000080> = (</font></b>
+<img src="images/Plymouth99Fermat104.gif" width=136 height=32 alt="116503103764643" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat105.gif" width=61 height=50 alt="2^9+1" align=middle>
+<b><font color=#000080>)*(</font></b>
+<img src="images/Plymouth99Fermat106.gif" width=176 height=32 alt="11141971095088142685" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat107.gif" width=61 height=50 alt="2^9+1" align=middle>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+and it was only possible to do so because of a very great theoretical advance, made that year, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>due to </font></b>
+<b><u><font color=#000080>Brillhart and Morrison</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p1 := 116503103764643*2^9 + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat108.gif" width=190 height=20 alt="p1 := 59649589127497217">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(p1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat109.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p2 := 11141971095088142685*2^9 + 1;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat110.gif" width=230 height=20 alt="p2 := 5704689200685129054721">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>isprime(p2);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat111.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>N := p1*p2;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat112.gif" width=362 height=20 alt="N := 340282366920938463463374607431768211457">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>is(F(7) = N);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat113.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>However, in 1970 it had </font></b>
+<i><b><font color=#000080>already been known</font></b></i>
+<b><font color=#000080> from the first decade of this century that </font></b>
+<img src="images/Plymouth99Fermat114.gif" width=35 height=32 alt="F[7]" align=middle>
+<b><font color=#000080> </font></b>
+<b><u><font color=#000080>is</font></u></b>
+<b><font color=#000080> composite!!</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                              </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a></p>
+<p align=left>
+</p>
+<p align=left><a name="Question">
+<b><u><font color=#000080 size=4>Question</font></u></b>
+<b><font color=#000080>. (leading to </font></b>
+<b><u><font color=#000080>Pepin's theorem</font></u></b>
+<b><font color=#000080>)</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><u><font color=#000080 size=4>How</font></u></b>
+<b><font color=#000080> was it possible to know at </font></b>
+<i><b><font color=#000080>an earlier time</font></b></i>
+<b><font color=#000080> (than 1970) that </font></b>
+<img src="images/Plymouth99Fermat115.gif" width=35 height=32 alt="F[7]" align=middle>
+<b><font color=#000080> is composite?<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>This brings us to </font></b>
+<b><u><font color=#000080>Pepin's remarkable theorem of 1877</font></u></b>
+<b><font color=#000080>:<br>
+<br>
+        </font></b>
+<img src="images/Plymouth99Fermat116.gif" width=131 height=76 alt="F[m] = 2^(2^m)+1" align=middle>
+<b><font color=#000080> is a prime if and only if the number</font></b>
+</p>
+<p align=left>
+<b><font color=#000080><br>
+                                   </font></b>
+<img src="images/Plymouth99Fermat117.gif" width=98 height=122 alt="3^((F[m]-1)/2)" align=middle>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>leaves remainder  </font></b>
+<img src="images/Plymouth99Fermat118.gif" width=29 height=32 alt="-1" align=middle>
+<b><font color=#000080> when divided by </font></b>
+<img src="images/Plymouth99Fermat119.gif" width=39 height=32 alt="F[m]" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That is, </font></b>
+<img src="images/Plymouth99Fermat120.gif" width=39 height=32 alt="F[m]" align=middle>
+<b><font color=#000080> is a prime if and only if<br>
+<br>
+                        </font></b>
+<img src="images/Plymouth99Fermat121.gif" width=181 height=122 alt="3^((F[m]-1)/2) = F[m]*q-1" align=middle>
+<b><font color=#000080>   ... (P)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>for some integer </font></b>
+<img src="images/Plymouth99Fermat122.gif" width=24 height=32 alt="q" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Small hand performed example</font></u></b>
+<b><u><font color=#000080>, by way of illustration</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<img src="images/Plymouth99Fermat123.gif" width=56 height=32 alt="m = 2" align=middle>
+<b><font color=#000080>, then </font></b>
+<img src="images/Plymouth99Fermat124.gif" width=78 height=32 alt="F[m] = F[2]" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99Fermat125.gif" width=84 height=76 alt="2^(2^2)+1" align=middle>
+<b><font color=#000080> = 17, and so<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                          </font></b>
+<img src="images/Plymouth99Fermat126.gif" width=193 height=122 alt="3^((F[m]-1)/2) = 3^((17-1)/2)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99Fermat127.gif" width=85 height=50 alt="3^8 = 6561" align=middle>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and dividing 6561 by 17 we get:<br>
+<br>
+                    </font></b>
+<img src="images/Plymouth99Fermat128.gif" width=84 height=32 alt="6561 = 17" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat129.gif" width=68 height=32 alt="386-1" align=middle>
+<b><font color=#000080>      ... [compare with P, above]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>proving, by Pepin's theorem that </font></b>
+<img src="images/Plymouth99Fermat130.gif" width=123 height=76 alt="F[2] = 2^(2^2)+1" align=middle>
+<b><font color=#000080> = 17, is prime.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>That small example was for illustration purposes </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080>; no one would seriously prove that 17 is prime</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>by appealing to Pepin's theorem!! However for larger values of </font></b>
+<img src="images/Plymouth99Fermat131.gif" width=28 height=32 alt="m" align=middle>
+<b><font color=#000080>, it really is a serious issue to decide </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the status of </font></b>
+<img src="images/Plymouth99Fermat132.gif" width=39 height=32 alt="F[m]" align=middle>
+<b><font color=#000080> by using Pepin's theorem (though researchers are currently stuck on the case </font></b>
+<img src="images/Plymouth99Fermat133.gif" width=64 height=32 alt="m = 24" align=middle>
+<b><font color=#000080>).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here is the Maple command for that latter computation:<br>
+</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3^((F(2) - 1)/2), F(2));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat134.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3^((F(3) - 1)/2), F(3));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat135.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3^((F(4) - 1)/2), F(4));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat136.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Incidentally, let us just have a peek at the value of the number [which I OMIT in</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the primted form to save space. remove the </font></b>
+<i><b><font color=#000080>comment sign </font></b></i>
+<b><font color=#000080>'#' before the command if</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>you wish to execute it]:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># 3^((F(4) - 1)/2);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>It is quite large! This computes how many digits it has:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(3^((F(4) - 1)/2));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat137.gif" width=56 height=20 alt="15635">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now let's do the Euler case, where </font></b>
+<img src="images/Plymouth99Fermat138.gif" width=56 height=32 alt="m = 5" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>F(5);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat139.gif" width=96 height=20 alt="4294967297">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>But see what happens when we attempt to apply the Pepin theorem:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3^((F(5) - 1)/2), F(5));</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#FF00FF size=2>Error, integer too large in context</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>So, is Maple useless, when we only get up to the modest sized </font></b>
+<img src="images/Plymouth99Fermat140.gif" width=56 height=32 alt="m = 5" align=middle>
+<b><font color=#000080>?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>No!! Not at all. You see, what has happened above is that that Maple <br>
+was being asked to:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><u><font color=#000080>First</font></u></b>
+<b><font color=#000080> compute the actual value of the number </font></b>
+<img src="images/Plymouth99Fermat141.gif" width=106 height=108 alt="3^((F(5)-1)/2)" align=middle>
+<b><font color=#000080>, </font></b>
+</li>
+<li>
+<b><font color=#000080>and only </font></b>
+<b><u><font color=#000080>then</font></u></b>
+<b><font color=#000080> calculate its remainder on division by </font></b>
+<img src="images/Plymouth99Fermat142.gif" width=47 height=32 alt="F(5)" align=middle>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>However, by using a combination of </font></b>
+<b><u><font color=#000080>two ideas from Number Theory</font></u></b>
+<b><font color=#000080> - the method of </font></b>
+<i><b><u><font color=#000080>congruences</font></u></b></i>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and </font></b>
+<i><b><u><font color=#000080>modular exponentiation</font></u></b></i>
+<b><font color=#000080> (I teach such methods to my students, with applications to modern </font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>Public-Key Cryptography</font></b></i>
+<b><font color=#000080> - one can circumvent the difficulty caused by the above first step.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>When those ideas are taken into account, there is a corresponding Maple command that now allows </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>one to return to the above computation, and in the process determine the nature of the 5th. Fermat number.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>First, let us redo the earlier </font></b>
+<img src="images/Plymouth99Fermat143.gif" width=35 height=32 alt="F[4]" align=middle>
+<b><font color=#000080> case:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(4) - 1)/2), F(4));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat144.gif" width=29 height=20 alt="-1">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>and now let us re-view the </font></b>
+<img src="images/Plymouth99Fermat145.gif" width=35 height=32 alt="F[5]" align=middle>
+<b><font color=#000080> case:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(5) - 1)/2), F(5));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat146.gif" width=80 height=20 alt="10324303">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>The fact that the '10324303' is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> '</font></b>
+<img src="images/Plymouth99Fermat147.gif" width=29 height=32 alt="-1" align=middle>
+<b><font color=#000080>' proves - using Pepin's theorem - that </font></b>
+<img src="images/Plymouth99Fermat148.gif" width=35 height=32 alt="F[5]" align=middle>
+<b><font color=#000080> is </font></b>
+<b><u><font color=#000080>not</font></u></b>
+<b><font color=#000080> prime.</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(6) - 1)/2), F(6));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat149.gif" width=173 height=20 alt="-6586524273069171148">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(7) - 1)/2), F(7));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat150.gif" width=328 height=20 alt="110780954395540516579111562860048860420">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(8) - 1)/2), F(8));</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat151.gif" width=624 height=20 alt="586454539974218386257801801618341002546549190472251...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(9) - 1)/2), F(9));</font></b>
+</p>
+<p align=left>
+<img src="images/Plymouth99Fermat152.gif" width=728 height=20 alt="348784219229283416082867780492645287330765693502675...">
+<br>
+<img src="images/Plymouth99Fermat153.gif" width=536 height=20 alt="348784219229283416082867780492645287330765693502675...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>mods(3&amp;^((F(10) - 1)/2), F(10));</font></b>
+</p>
+<p align=left>
+<img src="images/Plymouth99Fermat154.gif" width=728 height=20 alt="387619810475491122179739047140959275426443598784645...">
+<br>
+<img src="images/Plymouth99Fermat155.gif" width=728 height=20 alt="387619810475491122179739047140959275426443598784645...">
+<br>
+<img src="images/Plymouth99Fermat156.gif" width=728 height=20 alt="387619810475491122179739047140959275426443598784645...">
+<br>
+<img src="images/Plymouth99Fermat157.gif" width=328 height=20 alt="387619810475491122179739047140959275426443598784645...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Those computations establish that </font></b>
+<img src="images/Plymouth99Fermat158.gif" width=178 height=32 alt="F[5], F[6], F[7], F[8], F[9], F[10]" align=middle>
+<b><font color=#000080> are all composite - a very </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>far cry from Fermat's belief that all </font></b>
+<img src="images/Plymouth99Fermat159.gif" width=39 height=32 alt="F[m]" align=middle>
+<b><font color=#000080>'s are prime!!</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                  </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a></p>
+<p align=left>
+</p>
+<p align=left><a name="The current state">
+<b><u><font color=#000080>The current state of knowledge </font></u></b>
+<i><b><u><font color=#000080>re</font></u></b></i>
+<b><u><font color=#000080> Fermat numbers</font></u></b>
+<b><font color=#000080>. I mention </font></b>
+<i><b><font color=#000080><br>
+only some of the most important</font></b></i>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>The </font></b>
+<b><u><font color=#000080>only known</font></u></b>
+<b><font color=#000080> Fermat primes are the first five: </font></b>
+<img src="images/Plymouth99Fermat160.gif" width=143 height=32 alt="F[0], F[1], F[2], F[3], F[4]" align=middle>
+<b><font color=#000080><br>
+[the </font></b>
+<i><b><font color=#000080>current orthodoxy</font></b></i>
+<b><font color=#000080> is that these are the </font></b>
+<b><u><font color=#000080>only</font></u></b>
+<b><font color=#000080> Fermat primes.<br>
+ I do not share that view, and would maintain that some work of<br>
+ mine, from March of 1999, casts considerable doubt on this...]<br>
+</font></b>
+</li>
+<li>
+<img src="images/Plymouth99Fermat161.gif" width=39 height=32 alt="F[m]" align=middle>
+<b><font color=#000080> is </font></b>
+<b><u><font color=#000080>known to be composite</font></u></b>
+<b><font color=#000080> for all </font></b>
+<img src="images/Plymouth99Fermat162.gif" width=28 height=32 alt="m" align=middle>
+<b><font color=#000080> with 4 &lt; </font></b>
+<img src="images/Plymouth99Fermat163.gif" width=64 height=32 alt="m &lt;= 23" align=middle>
+<b><font color=#000080><br>
+</font></b>
+</li>
+<li>
+<img src="images/Plymouth99Fermat164.gif" width=113 height=32 alt="F[14], F[20], F[22]" align=middle>
+<b><font color=#000080> have </font></b>
+<b><u><font color=#000080>no known factors<br>
+</font></u></b>
+</li>
+<li>
+<b><font color=#000080>The status of </font></b>
+<img src="images/Plymouth99Fermat165.gif" width=43 height=32 alt="F[24]" align=middle>
+<b><font color=#000080> is </font></b>
+<b><u><font color=#000080>completely unknown</font></u></b>
+<b><font color=#000080> (at least two research teams - led by very, very <br>
+big names in Computational Number Theory, Richard Crandall (Director of the Centre for <br>
+Advanced Scientific Computation, Oregon) and Richard Brent (Director of the National <br>
+Computing Laboratory, Australia, and presently in Oxford, England) - are working on this problem)<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><u><font color=#000080>Francois Proth</font></u></b>
+<b><font color=#000080> (1852-1879), a self-taught French farmer, discovered and proved the following <br>
+theorem in 1878 (I teach it to my 3rd. year students, and notes about it are available form my web site):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left><a name="Let">
+<b><font color=#000080>Let </font></b>
+<img src="images/Plymouth99Fermat166.gif" width=56 height=32 alt="N = k" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat167.gif" width=62 height=50 alt="2^n+1" align=middle>
+<b><font color=#000080> where </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> are narural numbers with </font></b>
+<img src="images/Plymouth99Fermat168.gif" width=62 height=50 alt="k &lt; 2^n" align=middle>
+<b><font color=#000080>; then </font></b>
+<img src="images/Plymouth99Fermat169.gif" width=28 height=32 alt="N" align=middle>
+<b><font color=#000080> is a prime number if <br>
+and only if there is an integer </font></b>
+<img src="images/Plymouth99Fermat170.gif" width=24 height=32 alt="a" align=middle>
+<b><font color=#000080> with the property that:<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                 </font></b>
+<img src="images/Plymouth99Fermat171.gif" width=87 height=108 alt="a^((N-1)/2)" align=middle>
+<b><font color=#000080> leaves remainder  </font></b>
+<img src="images/Plymouth99Fermat172.gif" width=29 height=32 alt="-1" align=middle>
+<b><font color=#000080> on division by </font></b>
+<img src="images/Plymouth99Fermat173.gif" width=28 height=32 alt="N" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>in other words, if and only if<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                          </font></b>
+<img src="images/Plymouth99Fermat174.gif" width=181 height=108 alt="a^((N-1)/2) = N.q-1" align=middle>
+<b><font color=#000080>     ... (P')</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>for some integer </font></b>
+<img src="images/Plymouth99Fermat175.gif" width=24 height=32 alt="q" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Small hand performed example</font></u></b>
+<b><font color=#000080> (with </font></b>
+<img src="images/Plymouth99Fermat176.gif" width=52 height=32 alt="k = 3" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Plymouth99Fermat177.gif" width=53 height=32 alt="n = 2" align=middle>
+<b><font color=#000080>):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let </font></b>
+<img src="images/Plymouth99Fermat178.gif" width=64 height=32 alt="N = 13" align=middle>
+<b><font color=#000080> = 3*</font></b>
+<img src="images/Plymouth99Fermat179.gif" width=61 height=50 alt="2^2+1" align=middle>
+<b><font color=#000080>, then choosing </font></b>
+<img src="images/Plymouth99Fermat180.gif" width=52 height=32 alt="a = 2" align=middle>
+<b><font color=#000080> we find that<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                    </font></b>
+<img src="images/Plymouth99Fermat181.gif" width=182 height=108 alt="a^((N-1)/2) = 2^((13-1)/2)" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99Fermat182.gif" width=69 height=50 alt="2^6 = 64" align=middle>
+<b><font color=#000080>, and we have:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                   </font></b>
+<img src="images/Plymouth99Fermat183.gif" width=68 height=32 alt="64 = 13" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat184.gif" width=52 height=32 alt="5-1" align=middle>
+<b><font color=#000080>       ... (compare with P' above)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and so, by Pepin's theorem, </font></b>
+<img src="images/Plymouth99Fermat185.gif" width=64 height=32 alt="N = 13" align=middle>
+<b><font color=#000080> is prime.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                                   </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a></p>
+<p align=left>
+</p>
+<p align=left><a name="Yves Gallot">
+<b><u><font color=#000080 size=4>Yves Gallot</font></u></b>
+<b><font color=#000080> (Toulouse, France, where Fermat discovered the numbers that now bear his name) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>has written a truly extraordinary program - named </font></b>
+<i><b><font color=#000080>Proth.exe</font></b></i>
+<b><font color=#000080> after Proth, whom Gallot holds in high </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>esteem (as I do too) - which incorporated Proth's theorem with a great new idea of the the past </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>twenty years - the </font></b>
+<i><b><font color=#000080>Fast Fourier Transform</font></b></i>
+<b><font color=#000080> (FFT). </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>Basically</font></b></i>
+<b><font color=#000080> what his program does is this: it searches for primes </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> of the form:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                                </font></b>
+<img src="images/Plymouth99Fermat186.gif" width=138 height=50 alt="p = k.(2^n)+1" align=middle>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and - whenever it finds such a prime </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> - it then tests to see if </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> divides </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>what one might call the associated Fermat number. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>In particular, on finding the recent prime </font></b>
+<img src="images/Plymouth99Fermat187.gif" width=52 height=32 alt="p = 3" align=middle>
+<b><font color=#000080>*</font></b>
+<img src="images/Plymouth99Fermat188.gif" width=101 height=50 alt="2^382449+1" align=middle>
+<b><font color=#000080>, his program then proceeded to perform </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the monumental computation that </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> is a factor of </font></b>
+<img src="images/Plymouth99Fermat189.gif" width=203 height=76 alt="F[382447] = 2^(2^382447)+1" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I have prepared a simple Maple worksheet - available from my web site - showing that the number of </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>digits that </font></b>
+<img src="images/Plymouth99Fermat190.gif" width=75 height=32 alt="F[382447]" align=middle>
+<b><font color=#000080> has </font></b>
+<b><u><font color=#000080>approximately</font></u></b>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99Fermat191.gif" width=103 height=58 alt="10^(115, 136)" align=middle>
+<b><font color=#000080> digits, and would require a square board with side </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>length approximately </font></b>
+<img src="images/Plymouth99Fermat192.gif" width=95 height=58 alt="10^(57, 550)" align=middle>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>LIGHT YEARS</font></b></i>
+<b><font color=#000080> in order to write </font></b>
+<img src="images/Plymouth99Fermat193.gif" width=75 height=32 alt="F[382447]" align=middle>
+<b><font color=#000080> in decimal notation at 4 </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>digits per inch, and even if one were to write the digits at </font></b>
+<img src="images/Plymouth99Fermat194.gif" width=49 height=50 alt="10^30" align=middle>
+<b><font color=#000080> digits per inch it would only bring the </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>side of the square down to (not a surprise) </font></b>
+<img src="images/Plymouth99Fermat195.gif" width=95 height=58 alt="10^(57, 520)" align=middle>
+<b><font color=#000080> light years.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left><a name="Web site references">
+<b><u><font color=#000080 size=4>Web site references</font></u></b>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Yves Gallot's remarkable </font></b>
+<i><b><font color=#000080>Proth.exe</font></b></i>
+<b><font color=#000080> program may be downloaded from:<br>
+<br>
+                   &lt;http://perso.wanadoo.fr/yves.gallot/primes/gfn.html&gt;<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080>Dr. Ray Ballinger of the University of Florida valiantly maintains the Proth prime search site at:<br>
+<br>
+	                  &lt;http://vamri.xray.ufl.edu/proths/&gt;<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080>The current complete factoring status re Fermat numbers is maintained by Dr. Wilfrid Keller <br>
+(who once - in 1984 - held the record for the largest known composite Fermat number; it was <br>
+then </font></b>
+<img src="images/Plymouth99Fermat196.gif" width=67 height=32 alt="F[23471]" align=middle>
+<b><font color=#000080>) of Hamburg University at this site:<br>
+<br>
+                   &lt;http://vamri.xray.ufl.edu/proths/fermat.html&gt;<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080>For matters relating to primes in general one should look no further than Dr. Chris Caldwell's <br>
+monumental site at:<br>
+<br>
+                   &lt;http://www.utm.edu/research/primes/&gt;</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>                                       </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a><b><font color=#000080>        </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Here, finally, is the above 115,130 digit prime </font></b>
+<img src="images/Plymouth99Fermat197.gif" width=24 height=32 alt="p" align=middle>
+<b><font color=#000080> [I have suppressed it in the PRINTED form to save space]:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>#p := 3*2^382449 + 1;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(p);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99Fermat198.gif" width=64 height=20 alt="115130">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>                                      </font></b>
+<a href="Plymouth99Fermat1.html#Structure of my talk" target="Content">Return to Structure of my talk</a></p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:07 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

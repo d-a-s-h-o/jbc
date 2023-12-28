@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>(n!+n-1).html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark2">
+<p align=left>
+<b><font color=#000080 size=5>Introduction</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>This Maple worksheet is based on a reading of Michael Kleber's wonderful article </font></b>
+<i><b><font color=#000080>The Best Card Trick</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>Mathematical Intelligencer</font></b></i>
+<b><font color=#000080>, Volume 24, Number 1, 2002; that article is available in various formats from MK's web site: there's a link from my site). If you haven't read MK's article then you should do so before reading below. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I would like to acknowledge that MK pointed out a foolish error in my original presentation (in short, the generalised trick is even better than I realised...)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>The 'best card trick' is: choose any 5 cards from a 52-card pack (in the US 'deck'?), pass them to 'my beautiful assistant', who then passes just 4 of them to me, whereupon I tell you the 5th, hidden card. Magic!! It was the creation of William Fitch Cheney, Jr., the first mathematics PhD graduate (1927) from MIT. MK explains that the trick may be performed not just with a 52-card pack, but in fact with one having as many as 124 cards. The '124' is 5!+5-1, and, in general, - where </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (</font></b>
+<img src="images/(n!+n-1)1.gif" width=53 height=32 alt="2 &lt;= n" align=middle>
+<b><font color=#000080>) cards are chosen - one may perform the trick with a maximum of </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>!+</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1 cards.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>My aim is to flesh out MK's explanation (due to Elwyn Berlekamp) of the (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>!+</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1) generalisation, that generalisation being as follows: let </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> be any whole number (</font></b>
+<img src="images/(n!+n-1)2.gif" width=53 height=32 alt="2 &lt;= n" align=middle>
+<b><font color=#000080>), and let there be three persons</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>, the person about to perform a remarkable feat (described in a moment)</font></b>
+</li>
+<li>
+<i><b><font color=#000080>C</font></b></i>
+<b><font color=#000080> (the challenger), who chooses </font></b>
+<i><b><font color=#000080>any</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> numbers </font></b>
+<img src="images/(n!+n-1)3.gif" width=54 height=32 alt="c[0], c[1]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/(n!+n-1)4.gif" width=60 height=32 alt="c[n-1]" align=middle>
+<b><font color=#000080> from the <br>
+(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>!+</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1) numbers 0, 1, 2, ... , (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>!+</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-2), and then passes those </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> numbers to</font></b>
+</li>
+<li>
+<i><b><font color=#000080>A</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>'s assistant, who has made </font></b>
+<i><b><font color=#000080>certain agreements</font></b></i>
+<b><font color=#000080> - explained below - with </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>)</font></b>
+</li>
+<li>
+<b><font color=#000080>who then (after some mental calculation) passes some (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1) of those </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>s (in a <br>
+</font></b>
+<i><b><font color=#000080>certain order</font></b></i>
+<b><font color=#000080>, of course) to </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080>, allowing </font></b>
+<i><b><font color=#000080>P</font></b></i>
+<b><font color=#000080> to then name the '</font></b>
+<i><b><font color=#000080>hidden</font></b></i>
+<b><font color=#000080>' </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080>.<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>Remarkable! How is it done? </font></b>
+</p>
+<a href="(n!+n-1)3.html" target="Content"><p align=left>
+<b><font color=#000080 size=4>How is it done?</font></b>
+</p>
+</a><a href="(n!+n-1)4.html" target="Content"><p align=left>
+<b><font color=#000080 size=4>The detail</font></b>
+</p>
+</a></basefont>
+</body>
+</html>

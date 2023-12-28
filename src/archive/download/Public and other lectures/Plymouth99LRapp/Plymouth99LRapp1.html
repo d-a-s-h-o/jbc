@@ -1,0 +1,1098 @@
+<html>
+<head>
+<title>Plymouth99LRapp.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark1">
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># ictm_ply.mws</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>Speaker:  John B. Cosgrave.<br>
+<br>
+Address:  Mathematics Department,<br>
+                 St. Patrick's College,<br>
+             Drumcondra,<br>
+               Dublin 9,<br>
+               IRELAND.<br>
+<br>
+e-mail:  John.Cosgrave@spd.ie (College)<br>
+                    johnbcos@iol.ie (Home)<br>
+<br>
+Web:  http://www.spd.dcu.ie/johnbcos<br>
+</font></b>
+</p>
+<p align=left>
+<b><u><font color=#000080>Note</font></u></b>
+<b><font color=#000080>. The Maple file of this talk (and many other Maple worksheets) <br>
+may be accessed at my Web site.<br>
+</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><u><font color=#000080 size=4>Title of talk</font></u></b>
+<b><font color=#000080>:</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+</p>
+<p align=center>
+<b><u><font color=#000080 size=5>Using Maple programming to investigate</font></u></b>
+</p>
+<p align=center>
+<b><u><font color=#000080 size=5>L- and R-approximations to quadratic irrationalities</font></u></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comment on lecture title</font></u></b>
+<b><font color=#000080>. Later you may agree that I could just as easily given </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>my talk the title </font></b>
+<i><b><u><font color=#000080>Using L- and R-approximations to quadratic irrationalities to</font></u></b></i>
+</p>
+<p align=left>
+<i><b><u><font color=#000080>introduce Maple programming</font></u></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>A brief synopsis of my talk</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Rational numbers, and classic examples of irrational numbers</font></b>
+</li>
+<li>
+<b><font color=#000080>Rational approximations to </font></b>
+<img src="images/Plymouth99LRapp1.gif" width=128 height=38 alt="sqrt(2), sqrt(3), sqrt(5), sqrt(6)" align=middle>
+<b><font color=#000080>, ... </font></b>
+</li>
+<li>
+<b><font color=#000080>Formulating the notions of </font></b>
+<i><b><font color=#000080>L-</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>R-approximations</font></b></i>
+<b><font color=#000080> to </font></b>
+<img src="images/Plymouth99LRapp2.gif" width=128 height=38 alt="sqrt(2), sqrt(3), sqrt(5), sqrt(6)" align=middle>
+<b><font color=#000080>, ... </font></b>
+</li>
+<li>
+<b><font color=#000080>Easily observed relationships between </font></b>
+<i><b><font color=#000080>hand computed</font></b></i>
+<b><font color=#000080> successive approximations, </font></b>
+</li>
+<li>
+<b><font color=#000080>leading to precise formulations and search for proofs</font></b>
+</li>
+<li>
+<b><font color=#000080>Surprises in store ... </font></b>
+</li>
+<li>
+<b><font color=#000080>When hand computation </font></b>
+<i><b><font color=#000080>appears</font></b></i>
+<b><font color=#000080> to let one down, </font></b>
+<i><b><font color=#000080>what</font></b></i>
+<b><font color=#000080> can one do to<br>
+</font></b>
+<i><b><font color=#000080>attempt</font></b></i>
+<b><font color=#000080> to find some L- and/or R-approximations [this is where Maple<br>
+really makes itself felt ... ]</font></b>
+</li>
+<li>
+<i><b><font color=#000080>Doable</font></b></i>
+<b><font color=#000080> projects ... [also some deep, very advanced topics (</font></b>
+<i><b><font color=#000080>en passant</font></b></i>
+<b><font color=#000080>)]</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>A statement of my basic philosophy</font></u></b>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>Ideally</font></b></i>
+<b><font color=#000080> one would like ones students to be </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>more than passive absorbers of mathematical ideas. One would like ones students </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>to experience the thrill of making a mathematical discovery. The difficulty is to </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>identify topics that are neither trivial nor too advanced. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Some motivating questions</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question(s) 1</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>What </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> the value of </font></b>
+<img src="images/Plymouth99LRapp3.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>? [Students should </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99LRapp4.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>, should </font></b>
+<i><b><font color=#000080>think of it</font></b></i>
+<b><font color=#000080> as being <br>
+- e.g. - the length of the diagonal of the unit square.]</font></b>
+</li>
+<li>
+<b><font color=#000080>Is it (perhaps) </font></b>
+<i><b><font color=#000080>1.414213562</font></b></i>
+<b><font color=#000080> (the value given by a 10-digit calculator)?   </font></b>
+</li>
+<li>
+<b><font color=#000080>Is it (perhaps) the 1000-place decimal given below?:                              </font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 10);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp5.gif" width=100 height=20 alt="1.414213562">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 1000);</font></b>
+</p>
+<p align=left>
+<img src="images/Plymouth99LRapp6.gif" width=732 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp7.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp8.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp9.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp10.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp11.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp12.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp13.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp14.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp15.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp16.gif" width=728 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+<br>
+<img src="images/Plymouth99LRapp17.gif" width=184 height=20 alt="1.4142135623730950488016887242096980785696718753769...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>My experience is that I always receive from several students an argument </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(perhaps not formulated exactly precisely, but at least in the right direction) </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>that </font></b>
+<img src="images/Plymouth99LRapp18.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> does not have a </font></b>
+<i><b><font color=#000080>terminating decimal value</font></b></i>
+<b><font color=#000080> [I assume that the reason </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>for that immediately occurs to all of my readers. Requiring ones students to </font></b>
+<i><b><font color=#000080>write </font></b></i>
+</p>
+<p align=left>
+<i><b><font color=#000080>out</font></b></i>
+<b><font color=#000080> of a  </font></b>
+<i><b><font color=#000080>formal proof</font></b></i>
+<b><font color=#000080>  of that simple (but non-trivial) result, is an interesting exercise.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Observation</font></u></b>
+<b><font color=#000080>.</font></b>
+<b><font color=#000080 size=4> </font></b>
+<i><b><font color=#000080>Every terminating decimal is </font></b></i>
+<b><font color=#000080>[trivially] </font></b>
+<i><b><font color=#000080>a rational number of a certain kind</font></b></i>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>that is, every terminating decimal is a rational number </font></b>
+<i><b><font color=#000080>whose denominator is a power of 10</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question(s) (going back to classical times)</font></u></b>
+<b><font color=#000080>. </font></b>
+<i><b><font color=#000080>Could</font></b></i>
+<b><font color=#000080> it be that </font></b>
+<img src="images/Plymouth99LRapp19.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> has a rational value?</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>That is, </font></b>
+<i><b><font color=#000080>could</font></b></i>
+<b><font color=#000080> there be </font></b>
+<i><b><font color=#000080>integers</font></b></i>
+<b><font color=#000080> </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> such that </font></b>
+<img src="images/Plymouth99LRapp20.gif" width=74 height=58 alt="sqrt(2) = m/n" align=middle>
+<b><font color=#000080> ?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Let's have a look at the following rational number:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r := 152139002499/107578520350;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp21.gif" width=140 height=45 alt="r := 152139002499/107578520350">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>whose square is:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>r^2;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp22.gif" width=200 height=45 alt="23146276081390728245001/11573138040695364122500">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Its decimal value to 10 palces is:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(r^2);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp23.gif" width=100 height=20 alt="2.000000000">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>perhaps it </font></b>
+<i><b><font color=#000080>is</font></b></i>
+<b><font color=#000080> 2?</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(r^2, 20);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp24.gif" width=180 height=20 alt="2.0000000000000000000">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(r^2, 30);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp25.gif" width=260 height=20 alt="2.00000000000000000000008640699">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>O.k., that '</font></b>
+<img src="images/Plymouth99LRapp26.gif" width=31 height=50 alt="r^2" align=middle>
+<b><font color=#000080>' isn't 2, but it is pretty close to it, and so '</font></b>
+<i><b><font color=#000080>r</font></b></i>
+<b><font color=#000080>' itself is pretty close to </font></b>
+<img src="images/Plymouth99LRapp27.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>There is agreement to at least 20 places:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(r, 20);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp28.gif" width=180 height=20 alt="1.4142135623730950488">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>evalf(sqrt(2), 20);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp29.gif" width=180 height=20 alt="1.4142135623730950488">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Look at what we get if we </font></b>
+<i><b><font color=#000080>lower</font></b></i>
+<b><font color=#000080> the numerator of </font></b>
+<img src="images/Plymouth99LRapp30.gif" width=31 height=50 alt="r^2" align=middle>
+<b><font color=#000080> by 1:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>23146276081390728245000/11573138040695364122500;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp31.gif" width=24 height=20 alt="2">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080 size=4>Definition 1</font></u></b>
+<b><font color=#000080>. Let  </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> be natural numbers, then  </font></b>
+<img src="images/Plymouth99LRapp32.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080>  is said to be<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>an </font></b>
+<i><b><font color=#000080>L-approximation to </font></b></i>
+<img src="images/Plymouth99LRapp33.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> if </font></b>
+<img src="images/Plymouth99LRapp34.gif" width=124 height=84 alt="(p/q)^2 = 2-1/(q^2)" align=middle>
+<b><font color=#000080>,<br>
+<br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp35.gif" width=110 height=50 alt="p^2 = 2*q^2-1" align=middle>
+<b><font color=#000080>,<br>
+            <br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp36.gif" width=115 height=50 alt="p^2-2*q^2 = -1" align=middle>
+<b><font color=#000080>.<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080>an </font></b>
+<i><b><font color=#000080>R-approximation to </font></b></i>
+<img src="images/Plymouth99LRapp37.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> if </font></b>
+<img src="images/Plymouth99LRapp38.gif" width=124 height=84 alt="(p/q)^2 = 2+1/(q^2)" align=middle>
+<b><font color=#000080>,<br>
+<br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp39.gif" width=110 height=50 alt="p^2 = 2*q^2+1" align=middle>
+<b><font color=#000080>,<br>
+            <br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp40.gif" width=110 height=50 alt="p^2-2*q^2 = 1" align=middle>
+<b><font color=#000080>.</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Hand computations to find some L- and R-approximations to</font></u></b>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99LRapp41.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>eventually leads to finding that the numbers </font></b>
+<img src="images/Plymouth99LRapp42.gif" width=68 height=58 alt="1/1, 3/2, 7/5" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/Plymouth99LRapp43.gif" width=36 height=58 alt="17/12" align=middle>
+<b><font color=#000080> are alternately</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>L- and R-approximations to </font></b>
+<img src="images/Plymouth99LRapp44.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>The start of real progress</font></u></b>
+<b><font color=#000080>. Some bright students will invariably call out that they</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>see some </font></b>
+<i><b><font color=#000080>connections</font></b></i>
+<b><font color=#000080> [I always try to play the innocent and say something like:</font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>oh yes, like what</font></b></i>
+<b><font color=#000080>? ...].</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>And what </font></b>
+<i><b><font color=#000080>are</font></b></i>
+<b><font color=#000080> those connections?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Well they simply jump out at you!!</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>The sum of numerator and denominator for a </font></b>
+<b><u><font color=#000080>given</font></u></b>
+<b><font color=#000080> term of the sequence<br>
+(appear to) produce the denominator of the </font></b>
+<b><u><font color=#000080>next</font></u></b>
+<b><font color=#000080> rational in the sequence</font></b>
+</li>
+<li>
+<b><font color=#000080>The sum of denominators of </font></b>
+<b><u><font color=#000080>two consecutive terms</font></u></b>
+<b><font color=#000080> of the sequence<br>
+(appear to) produce the numerator of the </font></b>
+<b><u><font color=#000080>second</font></u></b>
+<b><font color=#000080> of those terms</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question(s) 2</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>Does that </font></b>
+<i><b><font color=#000080>continue</font></b></i>
+<b><font color=#000080> to happen (perhaps it is just a fluke on those early ones?)</font></b>
+</li>
+<li>
+<b><font color=#000080>Are there any </font></b>
+<i><b><font color=#000080>missing</font></b></i>
+<b><font color=#000080> L- and R-approximations to </font></b>
+<img src="images/Plymouth99LRapp45.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>? ['missing' in the sense<br>
+that ... ]</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Students can form some more by hand ... , but let's move quickly along to</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>some simple programs. Let's denote the alternating L- and R-approximations</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>to </font></b>
+<img src="images/Plymouth99LRapp46.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> by </font></b>
+<img src="images/Plymouth99LRapp47.gif" width=92 height=72 alt="p[1]/q[1], p[2]/q[2], p[3]/q[3]" align=middle>
+<b><font color=#000080>, ... , </font></b>
+<img src="images/Plymouth99LRapp48.gif" width=37 height=72 alt="p[n]/q[n]" align=middle>
+<b><font color=#000080>, ... </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>A formulation of the </font></u></b>
+<i><b><u><font color=#000080>apparent</font></u></b></i>
+<b><u><font color=#000080> connection between the </font></u></b>
+<i><b><u><font color=#000080>p</font></u></b></i>
+<b><u><font color=#000080>'s and </font></u></b>
+<i><b><u><font color=#000080>q</font></u></b></i>
+<b><u><font color=#000080>'s:</font></u></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>It </font></b>
+<i><b><font color=#000080>appears</font></b></i>
+<b><font color=#000080> as though </font></b>
+<img src="images/Plymouth99LRapp49.gif" width=160 height=32 alt="q[k] = p[k-1]+q[k-1]" align=middle>
+<b><font color=#000080> (for </font></b>
+<img src="images/Plymouth99LRapp50.gif" width=84 height=32 alt="k = 2, 3, 4" align=middle>
+<b><font color=#000080>, ... )</font></b>
+</li>
+<li>
+<b><font color=#000080>It </font></b>
+<i><b><font color=#000080>appears</font></b></i>
+<b><font color=#000080> as though </font></b>
+<img src="images/Plymouth99LRapp51.gif" width=132 height=32 alt="p[k] = q[k-1]+q[k]" align=middle>
+<b><font color=#000080> (for </font></b>
+<img src="images/Plymouth99LRapp52.gif" width=84 height=32 alt="k = 2, 3, 4" align=middle>
+<b><font color=#000080>, ... )</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Students are easily introduced to the following simple Maple program</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>(but one has to devote TIME to explaining all the elements involved):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p[1] := 1:<br>
+q[1] := 1:<br>
+for k from 2 to 50 do<br>
+q[k] := p[k-1] + q[k-1]:<br>
+p[k] := q[k-1] + q[k]<br>
+od:<br>
+seq(p[k]/q[k], k=1..50);<br>
+ </font></b>
+</p>
+<p align=left>
+<img src="images/Plymouth99LRapp53.gif" width=708 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+<br>
+<img src="images/Plymouth99LRapp54.gif" width=732 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+<br>
+<img src="images/Plymouth99LRapp55.gif" width=740 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+<br>
+<img src="images/Plymouth99LRapp56.gif" width=764 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+<br>
+<img src="images/Plymouth99LRapp57.gif" width=716 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+<br>
+<img src="images/Plymouth99LRapp58.gif" width=636 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+<br>
+<img src="images/Plymouth99LRapp59.gif" width=168 height=45 alt="1, 3/2, 7/5, 17/12, 41/29, 99/70, 239/169, 577/408,...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>p[30]/q[30];  # The 'r' from earlier is:</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp60.gif" width=112 height=45 alt="152139002499/107578520350">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question</font></u></b>
+<b><font color=#000080>. But are those rationals alternating L- and R-approximations to </font></b>
+<img src="images/Plymouth99LRapp61.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>?</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Students should do some by hand and calculator before being exposed to:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>seq(p[k]^2 - 2*q[k]^2, k=1..50);</font></b>
+</p>
+<p align=left>
+<img src="images/Plymouth99LRapp62.gif" width=752 height=20 alt="-1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1...">
+<br>
+<img src="images/Plymouth99LRapp63.gif" width=193 height=20 alt="-1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>Computation on its own is not enough</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Happily a proof of the following elementary theorem is within </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>the reach of a good second level student (indeed finding a proof</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>is a really good test, and not an unreasonable one):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080 size=4>Theorem 1</font></u></b>
+<b><font color=#000080 size=4>.</font></b>
+<font color=#000080 size=4> </font>
+<b><font color=#000080>Let  </font></b>
+<img src="images/Plymouth99LRapp64.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080>  be an L-approximation to </font></b>
+<img src="images/Plymouth99LRapp65.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                     then  </font></b>
+<img src="images/Plymouth99LRapp66.gif" width=68 height=58 alt="(p+2*q)/(p+q)" align=middle>
+<b><font color=#000080> is an R-approximation to </font></b>
+<img src="images/Plymouth99LRapp67.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>and </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                     </font></b>
+<b><font color=#000080>if  </font></b>
+<img src="images/Plymouth99LRapp68.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080>  is an R-approximation to </font></b>
+<img src="images/Plymouth99LRapp69.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                     then  </font></b>
+<img src="images/Plymouth99LRapp70.gif" width=68 height=58 alt="(p+2*q)/(p+q)" align=middle>
+<b><font color=#000080> is an L-approximation to </font></b>
+<img src="images/Plymouth99LRapp71.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080 size=4>Proof</font></u></b>
+<b><font color=#000080 size=4>.</font></b>
+<b><font color=#000080> First, suppose that  </font></b>
+<img src="images/Plymouth99LRapp72.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080>  is an L-approximation to </font></b>
+<img src="images/Plymouth99LRapp73.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>; </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>then </font></b>
+<img src="images/Plymouth99LRapp74.gif" width=115 height=50 alt="p^2-2*q^2 = -1" align=middle>
+<b><font color=#000080> . </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Thus  </font></b>
+<img src="images/Plymouth99LRapp75.gif" width=178 height=50 alt="(p+2*q)^2-2*(p+q)^2" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>       =  </font></b>
+<img src="images/Plymouth99LRapp76.gif" width=286 height=50 alt="p^2+4*p*q+4*q^2-2*(p^2+2*p*q+q^2)" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>       =  </font></b>
+<img src="images/Plymouth99LRapp77.gif" width=214 height=50 alt="-p^2+2*q^2 = -1*(p^2-2*q^2)" align=middle>
+</p>
+<p align=left>
+<b><font color=#000080>       =  </font></b>
+<img src="images/Plymouth99LRapp78.gif" width=81 height=32 alt="-(-1) = 1" align=middle>
+<b><font color=#000080>,</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and it follows that  </font></b>
+<img src="images/Plymouth99LRapp79.gif" width=68 height=58 alt="(p+2*q)/(p+q)" align=middle>
+<b><font color=#000080>  is an R-approximation to </font></b>
+<img src="images/Plymouth99LRapp80.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A similar argument [exercise for students] establishes the other half of theorem 1. [</font></b>
+<b><u><font color=#000080>end of proof</font></u></b>
+<b><font color=#000080>]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Comments</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Question (s)</font></u></b>
+<b><font color=#000080>. </font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>What happens when one similarly investigates </font></b>
+<img src="images/Plymouth99LRapp81.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080>?</font></b>
+</li>
+<li>
+<b><font color=#000080>Does </font></b>
+<img src="images/Plymouth99LRapp82.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> have L- and R-approximations?</font></b>
+</li>
+<li>
+<b><font color=#000080>Are those L- and R-approximations related to each other in <br>
+some </font></b>
+<i><b><font color=#000080>similar</font></b></i>
+<b><font color=#000080> fashion?<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>First, let's get our definitions [one should first have discussed a proof of the </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>irrationality of </font></b>
+<img src="images/Plymouth99LRapp83.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> - or at the very least alluded to the probability that</font></b>
+</p>
+<p align=left>
+<b><font color=#000080> straightened out:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Definition 2</font></u></b>
+<b><font color=#000080>. Let </font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>q</font></b></i>
+<b><font color=#000080> be natural numbers, then  </font></b>
+<img src="images/Plymouth99LRapp84.gif" width=28 height=58 alt="p/q" align=middle>
+<b><font color=#000080>  is said to be<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>an </font></b>
+<i><b><font color=#000080>L-approximation to </font></b></i>
+<img src="images/Plymouth99LRapp85.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> if </font></b>
+<img src="images/Plymouth99LRapp86.gif" width=124 height=84 alt="(p/q)^2 = 3-1/(q^2)" align=middle>
+<b><font color=#000080>,<br>
+<br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp87.gif" width=110 height=50 alt="p^2 = 3*q^2-1" align=middle>
+<b><font color=#000080>,<br>
+            <br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp88.gif" width=115 height=50 alt="p^2-3*q^2 = -1" align=middle>
+<b><font color=#000080>.<br>
+</font></b>
+</li>
+<li>
+<b><font color=#000080>an </font></b>
+<i><b><font color=#000080>R-approximation to </font></b></i>
+<img src="images/Plymouth99LRapp89.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> if </font></b>
+<img src="images/Plymouth99LRapp90.gif" width=124 height=84 alt="(p/q)^2 = 3+1/(q^2)" align=middle>
+<b><font color=#000080>,<br>
+<br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp91.gif" width=110 height=50 alt="p^2 = 3*q^2+1" align=middle>
+<b><font color=#000080>,<br>
+            <br>
+                                      equivalently if  </font></b>
+<img src="images/Plymouth99LRapp92.gif" width=110 height=50 alt="p^2-3*q^2 = 1" align=middle>
+<b><font color=#000080>.</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>With ones students one could do some hand computations [in fact that</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>is what I do with mine], along the lines of:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>1. When </font></b>
+<img src="images/Plymouth99LRapp93.gif" width=52 height=32 alt="q = 1" align=middle>
+<b><font color=#000080> then </font></b>
+<img src="images/Plymouth99LRapp94.gif" width=101 height=50 alt="3*q^2-1 = 2" align=middle>
+<b><font color=#000080> is not a square, but </font></b>
+<img src="images/Plymouth99LRapp95.gif" width=101 height=50 alt="3*q^2+1 = 4" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/Plymouth99LRapp96.gif" width=33 height=50 alt="2^2" align=middle>
+<b><font color=#000080>, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    and so </font></b>
+<img src="images/Plymouth99LRapp97.gif" width=28 height=58 alt="2/1" align=middle>
+<b><font color=#000080> is an R-approximation to </font></b>
+<img src="images/Plymouth99LRapp98.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>2. When </font></b>
+<img src="images/Plymouth99LRapp99.gif" width=52 height=32 alt="q = 2" align=middle>
+<b><font color=#000080> then </font></b>
+<img src="images/Plymouth99LRapp100.gif" width=109 height=50 alt="3*q^2-1 = 11" align=middle>
+<b><font color=#000080> is not a square, </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>                        nor is </font></b>
+<img src="images/Plymouth99LRapp101.gif" width=109 height=50 alt="3*q^2+1 = 13" align=middle>
+<b><font color=#000080> a square.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    Thus </font></b>
+<img src="images/Plymouth99LRapp102.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> has no L- or R-approximation with denominator 2.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>etc.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Here, students are in for a surprise</font></u></b>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>First I will redo to </font></b>
+<img src="images/Plymouth99LRapp103.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080> search for L- and R-approximations,</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>but using a simple Maple program (below).</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>First, some preliminaries:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>### WARNING: persistent store makes one-argument readlib obsolete<br>
+readlib(issqr);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp104.gif" width=149 height=20 alt="proc (n) option `Copyright (c) 1990 by the Universi...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Testing to see if </font></b>
+<img src="images/Plymouth99LRapp105.gif" width=73 height=50 alt="2*q^2-1" align=middle>
+<b><font color=#000080> is a square when </font></b>
+<img src="images/Plymouth99LRapp106.gif" width=52 height=32 alt="q = 4" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>issqr(2*4^2 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp107.gif" width=47 height=20 alt="false">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And so it isn't.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Testing to see if </font></b>
+<img src="images/Plymouth99LRapp108.gif" width=73 height=50 alt="2*q^2-1" align=middle>
+<b><font color=#000080> is a square when </font></b>
+<img src="images/Plymouth99LRapp109.gif" width=52 height=32 alt="q = 5" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>issqr(2*5^2 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp110.gif" width=43 height=20 alt="true">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>And what is it the square of?:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>sqrt(2*5^2 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp111.gif" width=24 height=20 alt="7">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now we are ready to systematically look for L- and R-approximations</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>to </font></b>
+<img src="images/Plymouth99LRapp112.gif" width=38 height=38 alt="sqrt(2)" align=middle>
+<b><font color=#000080>.  We limit ourselves to testing denominators up to 100:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for q to 100 do<br>
+if issqr(2*q^2 - 1)<br>
+then print(L, sqrt(2*q^2 - 1)/q)<br>
+elif issqr(2*q^2 + 1)<br>
+then print(R, sqrt(2*q^2 + 1)/q)<br>
+fi<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp113.gif" width=42 height=20 alt="L, 1">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp114.gif" width=43 height=45 alt="R, 3/2">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp115.gif" width=42 height=45 alt="L, 7/5">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp116.gif" width=51 height=45 alt="R, 17/12">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp117.gif" width=50 height=45 alt="L, 41/29">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp118.gif" width=51 height=45 alt="R, 99/70">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now let's do the same for </font></b>
+<img src="images/Plymouth99LRapp119.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080>:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>for q to 100 do<br>
+if issqr(3*q^2 - 1)<br>
+then print(L, sqrt(3*q^2-1)/q)<br>
+elif issqr(3*q^2 + 1)<br>
+then print(R, sqrt(3*q^2+1)/q)<br>
+fi<br>
+od;</font></b>
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp120.gif" width=43 height=20 alt="R, 2">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp121.gif" width=43 height=45 alt="R, 7/4">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp122.gif" width=51 height=45 alt="R, 26/15">
+</p>
+<p align=center>
+<img src="images/Plymouth99LRapp123.gif" width=51 height=45 alt="R, 97/56">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>So, a surprise!!</font></u></b>
+<b><font color=#000080> </font></b>
+<img src="images/Plymouth99LRapp124.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> would </font></b>
+<i><b><font color=#000080>appear</font></b></i>
+<b><font color=#000080> to have no L-approximations.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>A question</font></u></b>
+<b><font color=#000080>. Is that </font></b>
+<i><b><font color=#000080>true</font></b></i>
+<b><font color=#000080>? [Now </font></b>
+<i><b><font color=#000080>that</font></b></i>
+<b><font color=#000080> is a really good problem for students.]</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>An observation and another question</font></u></b>
+<b><font color=#000080>. </font></b>
+<img src="images/Plymouth99LRapp125.gif" width=38 height=38 alt="sqrt(3)" align=middle>
+<b><font color=#000080> certainly has </font></b>
+<i><b><font color=#000080>some</font></b></i>
+<b><font color=#000080> R-approximations, but </font></b>
+</p>
+<ul><li>
+<b><font color=#000080>how many does it have?</font></b>
+</li>
+<li>
+<b><font color=#000080>can one find (and prove) any connection between them?</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:13 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

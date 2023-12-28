@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>transcendental.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark25">
+<p align=left>
+<b><font color=#000080 size=4>Axel Thue (1863-1922)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>Thue's Theorem (1909)</font></b>
+<b><font color=#000080>. Let </font></b>
+<img src="images/transcendental669.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> be any real algebraic number of degree </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> (</font></b>
+<i><b><font color=#000080>at least</font></b></i>
+<b><font color=#000080> 3), and let </font></b>
+<img src="images/transcendental670.gif" width=25 height=32 alt="epsilon" align=middle>
+<b><font color=#000080> be any positive constant (</font></b>
+<i><b><font color=#000080>however small</font></b></i>
+<b><font color=#000080>), then there is a positive constant </font></b>
+<img src="images/transcendental671.gif" width=93 height=32 alt="c = c(alpha,epsilon)" align=middle>
+<b><font color=#000080> (i.e. the value of </font></b>
+<i><b><font color=#000080>c</font></b></i>
+<b><font color=#000080> depends </font></b>
+</p>
+<p align=left>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> on </font></b>
+<img src="images/transcendental672.gif" width=28 height=32 alt="alpha" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/transcendental673.gif" width=25 height=32 alt="epsilon" align=middle>
+<b><font color=#000080>) such that</font></b>
+</p>
+<p align=center>
+<img src="images/transcendental674.gif" width=70 height=58 alt="abs(alpha-p/q)" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080 size=4>&gt;</font></b>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental675.gif" width=117 height=108 alt="c(alpha)/(q^(n/2+1+epsilon))" align=middle>
+<b><font color=#000080>   ... (i')</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>One can only write of the fundamental importance of that result by resorting to hyperbole. </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>I highly recommend Wolfgang Schmidt's AMS Bulletin (1978) review of </font></b>
+<i><b><font color=#000080>Selected mathematical papers of Axel Thue</font></b></i>
+<b><font color=#000080>, from which I quote:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<i><b><font color=#000080>" His greatest work, on approximation to algebraic numbers, appeared in 1908/1909, when he was well in his forties, and when he had been away from the centres of mathematics for over a decade. ... Landau called it </font></b></i>
+<b><font color=#000080>[the above theorem, and its application to the related </font></b>
+<i><b><font color=#000080>Thue equation</font></b></i>
+<b><font color=#000080>] </font></b>
+<i><b><font color=#000080>the most important discovery in elementary number theory which he had witnessed in his lifetime. He also said ten years after its publication that already ten competent mathematicians had read Thue's paper.</font></b></i>
+<i><b><font color=#000080>"</font></b></i>
+<b><font color=#000080> [JC comment. Far be it from me to correct Schmidt's English (his first language is German) but I think any reader will believe that what Landau said, ten years after the publication of Thue's paper, was that </font></b>
+<i><b><font color=#000080>only</font></b></i>
+<b><font color=#000080> ten competent... ]<br>
+<br>
+</font></b>
+<i><b><font color=#000080>" Siegel, trying to understand Thue's paper, rewrote it , and in the process ..."</font></b></i>
+<b><font color=#000080> [introduced refinements which improved the above (i'), see next section]<br>
+</font></b>
+<i><b><font color=#000080><br>
+</font></b></i>
+<i><b><font color=#000080>" ... Thue's papers are sometimes difficult to read, not in the least because often the reader does not know until the end where the investigation is leading to."</font></b></i>
+</p>
+<p align=center>
+<b><font color=#000080>__________</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>A fundamental (and easy) consequence of Thue's theorem. Let</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+<img src="images/transcendental676.gif" width=457 height=58 alt="f(x,y) = a[0]*x^n+a[1]*x^(n-1)*y+`...`+a[n-1]*x*y^(..." align=middle>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>be a homogeneous form of degree at least 3 such that </font></b>
+<img src="images/transcendental677.gif" width=59 height=32 alt="f(x,1)" align=middle>
+<b><font color=#000080> has no repeated zero, then the Diophantine equation </font></b>
+<img src="images/transcendental678.gif" width=90 height=32 alt="f(x,y) = m" align=middle>
+<b><font color=#000080> has only finitely many solutions for integral </font></b>
+<img src="images/transcendental679.gif" width=56 height=32 alt="m &lt;&gt; 0" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>    In particular the cubic and higher degree versions of the classic </font></b>
+<i><b><font color=#000080>Fermat-Pell</font></b></i>
+<b><font color=#000080> equation </font></b>
+<img src="images/transcendental680.gif" width=109 height=50 alt="x^2-d*y^2 = 1" align=middle>
+<b><font color=#000080> (which have </font></b>
+<i><b><font color=#000080>infinitely</font></b></i>
+<b><font color=#000080> many integral solutions for every non-square natural number </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>) have only a </font></b>
+<i><b><font color=#000080>finite</font></b></i>
+<b><font color=#000080> number of solutions:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>For every integer </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, the equation  </font></b>
+<img src="images/transcendental681.gif" width=109 height=50 alt="x^3-d*y^3 = 1" align=middle>
+<b><font color=#000080> has only a </font></b>
+<i><b><font color=#000080>finite</font></b></i>
+<b><font color=#000080> number of solutions in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+<b><font color=#000080> </font></b>
+</li>
+<li>
+<b><font color=#000080>For every integer </font></b>
+<i><b><font color=#000080>d</font></b></i>
+<b><font color=#000080>, the equation  </font></b>
+<img src="images/transcendental682.gif" width=109 height=50 alt="x^4-d*y^4 = 1" align=middle>
+<b><font color=#000080> has only a </font></b>
+<i><b><font color=#000080>finite</font></b></i>
+<b><font color=#000080> number of solutions in integers </font></b>
+<i><b><font color=#000080>x</font></b></i>
+<b><font color=#000080> and </font></b>
+<i><b><font color=#000080>y</font></b></i>
+</li>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:09:58 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

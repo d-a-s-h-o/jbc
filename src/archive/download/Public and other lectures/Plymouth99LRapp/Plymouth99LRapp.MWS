@@ -1,0 +1,489 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 0 128 0 128 1 0 1 0 
+0 1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "2D Output" 2 20 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 2 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 1 14 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 265 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 1 14 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 1 14 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 1 14 0 0 0 0 0 2 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 285 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "" 1 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+287 "" 0 14 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 1 14 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 290 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 300 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 301 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 305 "" 0 14 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 348 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 0 0 0 128 1 0 
+1 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Out
+put" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 
+0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Bullet Item" 0 15 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }0 0 0 -1 3 3 0 0 0 0 0 0 15 2 }{PSTYLE "Title" 0 18 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 1 0 0 0 0 0 0 1 }3 0 0 -1 12 12 
+0 0 0 0 0 0 19 0 }{PSTYLE "Author" 0 19 1 {CSTYLE "" -1 -1 "" 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 8 8 0 0 0 0 0 0 -1 0 }{PSTYLE "" 19 
+256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "# ictm_ply.mws" }}}
+{EXCHG {PARA 19 "" 0 "" {TEXT -1 299 "Speaker:  John B. Cosgrave.\n\nA
+ddress:  Mathematics Department,\n                 St. Patrick's Colle
+ge,\n             Drumcondra,\n               Dublin 9,\n             \+
+  IRELAND.\n\ne-mail:  John.Cosgrave@spd.ie (College)\n               \+
+     johnbcos@iol.ie (Home)\n\nWeb:  http://www.spd.dcu.ie/johnbcos\n
+" }}{PARA 256 "" 0 "" {TEXT 262 4 "Note" }{TEXT -1 97 ". The Maple fil
+e of this talk (and many other Maple worksheets) \nmay be accessed at \+
+my Web site.\n" }{TEXT 265 1 "\n" }{TEXT 264 13 "Title of talk" }
+{TEXT -1 1 ":" }{TEXT 261 1 "\n" }}{PARA 18 "" 0 "" {TEXT -1 38 "Using
+ Maple programming to investigate" }}{PARA 18 "" 0 "" {TEXT -1 52 "L- \+
+and R-approximations to quadratic irrationalities" }{TEXT 315 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+316 24 "Comment on lecture title" }{TEXT -1 56 ". Later you may agree \+
+that I could just as easily given " }}{PARA 0 "" 0 "" {TEXT -1 18 "my \+
+talk the title " }{TEXT 317 61 "Using L- and R-approximations to quadr
+atic irrationalities to" }}{PARA 0 "" 0 "" {TEXT 318 27 "introduce Map
+le programming" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 266 27 "A brief synopsis of my talk" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 60 "
+Rational numbers, and classic examples of irrational numbers" }}{PARA 
+15 "" 0 "" {TEXT -1 27 "Rational approximations to " }{XPPEDIT 18 0 "s
+qrt(2),sqrt(3),sqrt(5),sqrt(6);" "6&-%%sqrtG6#\"\"#-F$6#\"\"$-F$6#\"\"
+&-F$6#\"\"'" }{TEXT -1 6 ", ... " }}{PARA 15 "" 0 "" {TEXT -1 27 "Form
+ulating the notions of " }{TEXT 267 2 "L-" }{TEXT -1 5 " and " }{TEXT 
+268 16 "R-approximations" }{TEXT -1 4 " to " }{XPPEDIT 18 0 "sqrt(2),s
+qrt(3),sqrt(5),sqrt(6);" "6&-%%sqrtG6#\"\"#-F$6#\"\"$-F$6#\"\"&-F$6#\"
+\"'" }{TEXT -1 6 ", ... " }}{PARA 15 "" 0 "" {TEXT -1 38 "Easily obser
+ved relationships between " }{TEXT 269 13 "hand computed" }{TEXT -1 
+28 " successive approximations, " }}{PARA 15 "" 0 "" {TEXT -1 53 "lead
+ing to precise formulations and search for proofs" }}{PARA 15 "" 0 "" 
+{TEXT -1 23 "Surprises in store ... " }}{PARA 15 "" 0 "" {TEXT -1 22 "
+When hand computation " }{TEXT 272 7 "appears" }{TEXT -1 18 " to let o
+ne down, " }{TEXT 270 4 "what" }{TEXT -1 15 " can one do to\n" }{TEXT 
+271 7 "attempt" }{TEXT -1 92 " to find some L- and/or R-approximations
+ [this is where Maple\nreally makes itself felt ... ]" }}{PARA 15 "" 
+0 "" {TEXT 274 6 "Doable" }{TEXT -1 53 " projects ... [also some deep,
+ very advanced topics (" }{TEXT 273 10 "en passant" }{TEXT -1 2 ")]" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 275 34 "A state
+ment of my basic philosophy" }{TEXT -1 2 ". " }{TEXT 276 7 "Ideally" }
+{TEXT -1 36 " one would like ones students to be " }}{PARA 0 "" 0 "" 
+{TEXT -1 80 "more than passive absorbers of mathematical ideas. One wo
+uld like ones students " }}{PARA 0 "" 0 "" {TEXT -1 82 "to experience \+
+the thrill of making a mathematical discovery. The difficulty is to " 
+}}{PARA 0 "" 0 "" {TEXT -1 59 "identify topics that are neither trivia
+l nor too advanced. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 277 25 "Some motivating questions" }{TEXT -1 2 
+". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 300 13 "Question(s) 1" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 5 "What " }{TEXT 292 2 "is" }
+{TEXT -1 14 " the value of " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"
+\"#" }{TEXT -1 19 "? [Students should " }{TEXT 319 3 "see" }{TEXT -1 
+1 " " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 9 ", sho
+uld " }{TEXT 320 11 "think of it" }{TEXT -1 67 " as being \n- e.g. - t
+he length of the diagonal of the unit square.]" }}{PARA 15 "" 0 "" 
+{TEXT -1 16 "Is it (perhaps) " }{TEXT 278 11 "1.414213562" }{TEXT -1 
+47 " (the value given by a 10-digit calculator)?   " }}{PARA 15 "" 0 "
+" {TEXT -1 82 "Is it (perhaps) the 1000-place decimal given below?:   \+
+                           " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "evalf(sqrt(2), 10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+iN@99!
+\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "evalf(sqrt(2), 1000)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#$\"cinZ)[=&H#G@:#e;(e(>%*)os\"e;R
+o66<5ZJpG=4t2rLg.e5y9`G<MT%\\-7\"f]@%)fW+\"=_!f[7p#H1UuC!oK!=(**GP#[lv
+/QTp*Hwg!HZO*zD2Xo$o)p$=S]n*3\"Qd\\!GFOdF6%pA+xA\"4X-/At6c_&)RPJ\")ojs
+]/T1Hys*[>U.['=.Sqe[f+,j#3d\"okC)Q6.!=fE4PWR*))Re9_mWe&3-gAdE#\\Ze2i,)
+ee,Za[E-s`wnpqlbT([&eVr2sCo9ggo&G/UL=U:x\\\\7'[E4&)GNsB()*o&=c,8Iromf6
+JYy0e@'=p$H\\oI#yCakJ!zFSaI]\"[+*pq***oQgr%))\\3MguVN6q&=`P.Avb$)H<'*f
+xG]dua]R_$e_h?1kH)3=LYlR`so*)zS^_*zi.EwR3X@Vr3V[I#HBb4')>*)3k=u^GZ,iof
+MXFqfgr*f&4,Zr01#y_6]]**zbFf0v#fmAKTJe$**4(\\@Tk7st]e0O[#\\-(H74BYQ,NF
+dTwKMvQ])Qq5i%yCt!*ztzm<t![pPv=np&y!)p4Us)o,)[]4tBc8UT\"!$***" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 73 "My experience is that I always receive from several stude
+nts an argument " }}{PARA 0 "" 0 "" {TEXT -1 80 "(perhaps not formulat
+ed exactly precisely, but at least in the right direction) " }}{PARA 
+0 "" 0 "" {TEXT -1 5 "that " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"
+\"#" }{TEXT -1 17 " does not have a " }{TEXT 294 25 "terminating decim
+al value" }{TEXT -1 27 " [I assume that the reason " }}{PARA 0 "" 0 "
+" {TEXT -1 77 "for that immediately occurs to all of my readers. Requi
+ring ones students to " }{TEXT 295 6 "write " }}{PARA 0 "" 0 "" {TEXT 
+297 3 "out" }{TEXT -1 7 " of a  " }{TEXT 296 12 "formal proof" }{TEXT 
+-1 71 "  of that simple (but non-trivial) result, is an interesting ex
+ercise.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 301 11 "Observation" }{TEXT -1 1 "." }{TEXT 263 1 " " }
+{TEXT 302 29 "Every terminating decimal is " }{TEXT -1 12 "[trivially]
+ " }{TEXT 304 35 "a rational number of a certain kind" }{TEXT -1 1 ",
+" }}{PARA 0 "" 0 "" {TEXT -1 56 "that is, every terminating decimal is
+ a rational number " }{TEXT 303 34 "whose denominator is a power of 10
+" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 305 43 "Question(s) (going back to classical time
+s)" }{TEXT -1 2 ". " }{TEXT 306 5 "Could" }{TEXT -1 12 " it be that " 
+}{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 22 " has a rat
+ional value?" }}{PARA 0 "" 0 "" {TEXT -1 9 "That is, " }{TEXT 309 5 "c
+ould" }{TEXT -1 10 " there be " }{TEXT 310 8 "integers" }{TEXT -1 1 " \+
+" }{TEXT 307 1 "m" }{TEXT -1 5 " and " }{TEXT 308 1 "n" }{TEXT -1 11 "
+ such that " }{XPPEDIT 18 0 "sqrt(2) = m/n;" "6#/-%%sqrtG6#\"\"#*&%\"m
+G\"\"\"%\"nG!\"\"" }{TEXT -1 2 " ?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 51 "Let's have a look at the following ration
+al number:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "r := 15213900
+2499/107578520350;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG#\"-*\\-!R
+@:\"-]._yv5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 16 "whose square is:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 4 "r^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"8,]CG2
+R\"3wi9B\"8+D7k`pS!QJd6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 34 "Its decimal value to 10 palce
+s is:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "evalf(r^2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+++++?!\"*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "perhaps \+
+it " }{TEXT 298 2 "is" }{TEXT -1 3 " 2?" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "evalf(r^2, 20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"5+++++++++?!#>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalf(r
+^2, 30);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"?*pS'3++++++++++?!#H" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 12 "O.k., that '" }{XPPEDIT 18 0 "r^2;" "6#*$%\"rG\"\"#" }
+{TEXT -1 49 "' isn't 2, but it is pretty close to it, and so '" }
+{TEXT 321 1 "r" }{TEXT -1 28 "' itself is pretty close to " }{XPPEDIT 
+18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "There is agreement to at least 20 places:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalf(r, 20);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"5)[]4tBc8UT\"!#>" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "evalf(sqrt(2), 20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#$\"5)[]4tBc8UT\"!#>" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "Look at what we get if we " }
+{TEXT 299 5 "lower" }{TEXT -1 18 " the numerator of " }{XPPEDIT 18 0 "
+r^2;" "6#*$%\"rG\"\"#" }{TEXT -1 6 " by 1:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 48 "23146276081390728245000/11573138040695364122500;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 279 
+12 "Definition 1" }{TEXT -1 7 ". Let  " }{TEXT 280 1 "p" }{TEXT -1 5 "
+ and " }{TEXT 281 1 "q" }{TEXT -1 27 " be natural numbers, then  " }
+{XPPEDIT 18 0 "p/q;" "6#*&%\"pG\"\"\"%\"qG!\"\"" }{TEXT -1 16 "  is sa
+id to be\n" }}{PARA 15 "" 0 "" {TEXT -1 3 "an " }{TEXT 282 19 "L-appro
+ximation to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 
+4 " if " }{XPPEDIT 18 0 "(p/q)^2 = 2-1/(q^2);" "6#/*$*&%\"pG\"\"\"%\"q
+G!\"\"\"\"#,&F*F'*&F'F'*$F(F*F)F)" }{TEXT -1 58 ",\n\n                \+
+                      equivalently if  " }{XPPEDIT 18 0 "p^2 = 2*q^2-1
+;" "6#/*$%\"pG\"\"#,&*&F&\"\"\"*$%\"qGF&F)F)F)!\"\"" }{TEXT -1 70 ",\n
+            \n                                      equivalently if  \+
+" }{XPPEDIT 18 0 "p^2-2*q^2 = -1;" "6#/,&*$%\"pG\"\"#\"\"\"*&F'F(*$%\"
+qGF'F(!\"\",$F(F," }{TEXT -1 2 ".\n" }}{PARA 15 "" 0 "" {TEXT -1 3 "an
+ " }{TEXT 256 19 "R-approximation to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%
+%sqrtG6#\"\"#" }{TEXT -1 4 " if " }{XPPEDIT 18 0 "(p/q)^2 = 2+1/(q^2);
+" "6#/*$*&%\"pG\"\"\"%\"qG!\"\"\"\"#,&F*F'*&F'F'*$F(F*F)F'" }{TEXT -1 
+58 ",\n\n                                      equivalently if  " }
+{XPPEDIT 18 0 "p^2 = 2*q^2+1;" "6#/*$%\"pG\"\"#,&*&F&\"\"\"*$%\"qGF&F)
+F)F)F)" }{TEXT -1 70 ",\n            \n                               \+
+       equivalently if  " }{XPPEDIT 18 0 "p^2-2*q^2 = 1;" "6#/,&*$%\"p
+G\"\"#\"\"\"*&F'F(*$%\"qGF'F(!\"\"F(" }{TEXT -1 1 "." }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 311 57 "
+Hand computations to find some L- and R-approximations to" }{TEXT -1 
+1 " " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 ":" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "eventuall
+y leads to finding that the numbers " }{XPPEDIT 18 0 "1/1,3/2,7/5;" "6
+%*&\"\"\"F$F$!\"\"*&\"\"$F$\"\"#F%*&\"\"(F$\"\"&F%" }{TEXT -1 5 " and \+
+" }{XPPEDIT 18 0 "17/12;" "6#*&\"#<\"\"\"\"#7!\"\"" }{TEXT -1 16 " are
+ alternately" }}{PARA 0 "" 0 "" {TEXT -1 27 "L- and R-approximations t
+o " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+312 26 "The start of real progress" }{TEXT -1 57 ". Some bright studen
+ts will invariably call out that they" }}{PARA 0 "" 0 "" {TEXT -1 9 "s
+ee some " }{TEXT 313 11 "connections" }{TEXT -1 59 " [I always try to \+
+play the innocent and say something like:" }}{PARA 0 "" 0 "" {TEXT 
+314 17 "oh yes, like what" }{TEXT -1 7 "? ...]." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "And what " }{TEXT 322 3 "a
+re" }{TEXT -1 19 " those connections?" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 34 "Well they simply jump out at you!!" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 43 "The sum
+ of numerator and denominator for a " }{TEXT 324 5 "given" }{TEXT -1 
+65 " term of the sequence\n(appear to) produce the denominator of the \+
+" }{TEXT 323 4 "next" }{TEXT -1 25 " rational in the sequence" }}
+{PARA 15 "" 0 "" {TEXT -1 27 "The sum of denominators of " }{TEXT 325 
+21 "two consecutive terms" }{TEXT -1 58 " of the sequence\n(appear to)
+ produce the numerator of the " }{TEXT 326 6 "second" }{TEXT -1 15 " o
+f those terms" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 327 13 "Question(s) 2" }{TEXT -1 1 "." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 10 "Does that " }
+{TEXT 328 8 "continue" }{TEXT -1 60 " to happen (perhaps it is just a \+
+fluke on those early ones?)" }}{PARA 15 "" 0 "" {TEXT -1 14 "Are there
+ any " }{TEXT 329 7 "missing" }{TEXT -1 28 " L- and R-approximations t
+o " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 36 "? ['mi
+ssing' in the sense\nthat ... ]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "Students can form some more by hand ... ,
+ but let's move quickly along to" }}{PARA 0 "" 0 "" {TEXT -1 74 "some \+
+simple programs. Let's denote the alternating L- and R-approximations
+" }}{PARA 0 "" 0 "" {TEXT -1 3 "to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%s
+qrtG6#\"\"#" }{TEXT -1 4 " by " }{XPPEDIT 18 0 "p[1]/q[1],p[2]/q[2],p[
+3]/q[3];" "6%*&&%\"pG6#\"\"\"F'&%\"qG6#F'!\"\"*&&F%6#\"\"#F'&F)6#F/F+*
+&&F%6#\"\"$F'&F)6#F5F+" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "p[n]/q[
+n];" "6#*&&%\"pG6#%\"nG\"\"\"&%\"qG6#F'!\"\"" }{TEXT -1 6 ", ... " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+330 21 "A formulation of the " }{TEXT 331 8 "apparent" }{TEXT 332 24 "
+ connection between the " }{TEXT 333 1 "p" }{TEXT 334 7 "'s and " }
+{TEXT 335 1 "q" }{TEXT 336 3 "'s:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 3 "It " }{TEXT 337 7 "appear
+s" }{TEXT -1 11 " as though " }{XPPEDIT 18 0 "q[k] = p[k-1]+q[k-1];" "
+6#/&%\"qG6#%\"kG,&&%\"pG6#,&F'\"\"\"F-!\"\"F-&F%6#,&F'F-F-F.F-" }
+{TEXT -1 6 " (for " }{XPPEDIT 18 0 "k = 2,3,4;" "6%/%\"kG\"\"#\"\"$\"
+\"%" }{TEXT -1 7 ", ... )" }}{PARA 15 "" 0 "" {TEXT -1 3 "It " }{TEXT 
+256 7 "appears" }{TEXT -1 11 " as though " }{XPPEDIT 18 0 "p[k] = q[k-
+1]+q[k];" "6#/&%\"pG6#%\"kG,&&%\"qG6#,&F'\"\"\"F-!\"\"F-&F*6#F'F-" }
+{TEXT -1 6 " (for " }{XPPEDIT 18 0 "k = 2,3,4;" "6%/%\"kG\"\"#\"\"$\"
+\"%" }{TEXT -1 7 ", ... )" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 68 "Students are easily introduced to the following si
+mple Maple program" }}{PARA 0 "" 0 "" {TEXT -1 69 "(but one has to dev
+ote TIME to explaining all the elements involved):" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 121 "p[1] := 1:\nq[1] := 1:\nfor k from 2 to 50
+ do\nq[k] := p[k-1] + q[k-1]:\np[k] := q[k-1] + q[k]\nod:\nseq(p[k]/q[
+k], k=1..50);\n " }}{PARA 12 "" 1 "" {XPPMATH 20 "6T\"\"\"#\"\"$\"\"##
+\"\"(\"\"&#\"#<\"#7#\"#T\"#H#\"#**\"#q#\"$R#\"$p\"#\"$x&\"$3%#\"%$R\"
+\"$&)*#\"%jL\"%yB#\"%>\")\"%Td#\"&,'>\"&gQ\"#\"&@t%\"&hM$#\"'VU6\"&#y!
+)#\"'2eF\"'D]>#\"'dem\"'K3Z#\"(@vg\"\"(*oO6#\"(**3)Q\"(5Uu##\"(>$p$*\"
+(4^i'#\")P&>E#\")GW*f\"#\")$R3Y&\")lRhQ#\"*Bj$=8\")eBA$*#\"*R5G=$\"*\"
+oe]A#\"*,%)Ro(\"*?(RLa#\"+Ty2b=\"+@\"Q<J\"#\"+$3a&yW\"+if\"o;$#\",2g=7
+3\"\"+X+PXw#\",(4EH5E\",_gbd%=#\",,#Q!=I'\",\\@[gX%#\"-*\\-!R@:\"-]._y
+v5#\"-*>VgHn$\"-\\G_<(f##\"-(*))3Jn))\"-[gc8qi#\".$*4Ae29#\".X\\lWP^\"
+#\".$)3`Z#o^\".Qf(G]aO#\"/fFG`sZ7\".@oS]F#))#\"/,k4aF7I\"/!e*o.+I@#\"/
+hbZhFss\"/\")fydFU^#\"0Bv/x#ob<\"0U:E>b9C\"#\"021d:$fQU\"0l!4jz8(*H#\"
+1P()=3pGB5\"0s'z=6tNs#\"1\"3[>8L/Z#\"14%o+-gou\"#\"1**[3sJ:kf\"1!\\;?:
+$H<U#\"2zy6w%R()R9\"2*Q,TKY9=5#\"2d1KC@jhZ$\"2o#>-!e=!eC#\"2$>fZs.?#R)
+\"2D*RX#z\"=Mf#\"3V!RQdRcg-#\"3=\"*H\\;#QEV\"#\"3zsVsGGL\"*[\"3h\"QJAh
+%peM#\"4,Or=`?s3=\"\"3Sad&4WF+N)#\"4\"[k)4Npx3&G\"4T!*G9%\\\\(e,##\"4j
+DWQBfFE)o\"4AN:CHk_n'[" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "p
+[30]/q[30];  # The 'r' from earlier is:" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6##\"-*\\-!R@:\"-]._yv5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 339 8 "Question" }{TEXT -1 65 ". \+
+But are those rationals alternating L- and R-approximations to " }
+{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 "?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "Students should
+ do some by hand and calculator before being exposed to:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "seq(p[k]^2 - 2*q[k]^2, k=1..50);" }
+{TEXT -1 0 "" }}{PARA 12 "" 1 "" {XPPMATH 20 "6T!\"\"\"\"\"F#F$F#F$F#F
+$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F#F$F
+#F$F#F$F#F$F#F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 338 36 "Computation on its own is not eno
+ugh" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 62 "Happily a proof of the following elementary theorem is \+
+within " }}{PARA 0 "" 0 "" {TEXT -1 64 "the reach of a good second lev
+el student (indeed finding a proof" }}{PARA 0 "" 0 "" {TEXT -1 52 "is \+
+a really good test, and not an unreasonable one):" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 283 9 "Theorem 1" }{TEXT 284 0 "
+" }{TEXT 285 1 "." }{TEXT 286 1 " " }{TEXT 287 0 "" }{TEXT -1 5 "Let  \+
+" }{XPPEDIT 18 0 "p/q;" "6#*&%\"pG\"\"\"%\"qG!\"\"" }{TEXT -1 27 "  be
+ an L-approximation to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#
+" }{TEXT -1 2 ", " }}{PARA 0 "" 0 "" {TEXT -1 27 "                    \+
+ then  " }{XPPEDIT 18 0 "(p+2*q)/(p+q);" "6#*&,&%\"pG\"\"\"*&\"\"#F&%
+\"qGF&F&F&,&F%F&F)F&!\"\"" }{TEXT -1 26 " is an R-approximation to " }
+{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 "," }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "and " }}{PARA 0 
+"" 0 "" {TEXT -1 21 "                     " }{TEXT 256 0 "" }{TEXT -1 
+4 "if  " }{XPPEDIT 18 0 "p/q;" "6#*&%\"pG\"\"\"%\"qG!\"\"" }{TEXT -1 
+27 "  is an R-approximation to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG
+6#\"\"#" }{TEXT -1 2 ", " }}{PARA 0 "" 0 "" {TEXT -1 27 "             \+
+        then  " }{XPPEDIT 18 0 "(p+2*q)/(p+q);" "6#*&,&%\"pG\"\"\"*&\"
+\"#F&%\"qGF&F&F&,&F%F&F)F&!\"\"" }{TEXT -1 26 " is an L-approximation \+
+to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+288 0 "" }{TEXT 289 5 "Proof" }{TEXT 290 1 "." }{TEXT -1 22 " First, s
+uppose that  " }{XPPEDIT 18 0 "p/q;" "6#*&%\"pG\"\"\"%\"qG!\"\"" }
+{TEXT -1 27 "  is an L-approximation to " }{XPPEDIT 18 0 "sqrt(2);" "6
+#-%%sqrtG6#\"\"#" }{TEXT -1 2 "; " }}{PARA 0 "" 0 "" {TEXT -1 5 "then \+
+" }{XPPEDIT 18 0 "p^2-2*q^2 = -1;" "6#/,&*$%\"pG\"\"#\"\"\"*&F'F(*$%\"
+qGF'F(!\"\",$F(F," }{TEXT -1 3 " . " }}{PARA 0 "" 0 "" {TEXT -1 6 "Thu
+s  " }{XPPEDIT 18 0 "(p+2*q)^2-2*(p+q)^2;" "6#,&*$,&%\"pG\"\"\"*&\"\"#
+F'%\"qGF'F'F)F'*&F)F'*$,&F&F'F*F'F)F'!\"\"" }{TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 10 "       =  " }{XPPEDIT 18 0 "p^2+4*p*q+4*q^2-2*(p^2
++2*p*q+q^2);" "6#,**$%\"pG\"\"#\"\"\"*(\"\"%F'F%F'%\"qGF'F'*&F)F'*$F*F
+&F'F'*&F&F',(*$F%F&F'*(F&F'F%F'F*F'F'*$F*F&F'F'!\"\"" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 10 "       =  " }{XPPEDIT 18 0 "-p^2+2*q^2 =
+ -1*(p^2-2*q^2);" "6#/,&*$%\"pG\"\"#!\"\"*&F'\"\"\"*$%\"qGF'F*F*,$*&F*
+F*,&*$F&F'F**&F'F**$F,F'F*F(F*F(" }}{PARA 0 "" 0 "" {TEXT -1 10 "     \+
+  =  " }{XPPEDIT 18 0 "-(-1) = 1;" "6#/,$,$\"\"\"!\"\"F'F&" }{TEXT -1 
+1 "," }}{PARA 0 "" 0 "" {TEXT -1 21 "and it follows that  " }{XPPEDIT 
+18 0 "(p+2*q)/(p+q);" "6#*&,&%\"pG\"\"\"*&\"\"#F&%\"qGF&F&F&,&F%F&F)F&
+!\"\"" }{TEXT -1 27 "  is an R-approximation to " }{XPPEDIT 18 0 "sqrt
+(2);" "6#-%%sqrtG6#\"\"#" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "A similar argument [exercise for s
+tudents] establishes the other half of theorem 1. [" }{TEXT 293 12 "en
+d of proof" }{TEXT -1 1 "]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }{TEXT 291 8 "Comments" }{TEXT -1 1 "." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 340 12 
+"Question (s)" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 15 "" 0 "" {TEXT -1 45 "What happens when one similarly investig
+ates " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }{TEXT -1 1 "?" }
+}{PARA 15 "" 0 "" {TEXT -1 5 "Does " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%s
+qrtG6#\"\"$" }{TEXT -1 30 " have L- and R-approximations?" }}{PARA 15 
+"" 0 "" {TEXT -1 65 "Are those L- and R-approximations related to each
+ other in \nsome " }{TEXT 341 7 "similar" }{TEXT -1 10 " fashion?\n" }
+}{PARA 0 "" 0 "" {TEXT -1 81 "First, let's get our definitions [one sh
+ould first have discussed a proof of the " }}{PARA 0 "" 0 "" {TEXT -1 
+17 "irrationality of " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }
+{TEXT -1 55 " - or at the very least alluded to the probability that" 
+}}{PARA 0 "" 0 "" {TEXT -1 18 " straightened out:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 257 12 "Definition 2" }{TEXT -1 
+6 ". Let " }{TEXT 258 1 "p" }{TEXT -1 5 " and " }{TEXT 259 1 "q" }
+{TEXT -1 27 " be natural numbers, then  " }{XPPEDIT 18 0 "p/q;" "6#*&%
+\"pG\"\"\"%\"qG!\"\"" }{TEXT -1 16 "  is said to be\n" }}{PARA 15 "" 
+0 "" {TEXT -1 3 "an " }{TEXT 260 19 "L-approximation to " }{XPPEDIT 
+18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }{TEXT -1 4 " if " }{XPPEDIT 18 0 
+"(p/q)^2 = 3-1/(q^2);" "6#/*$*&%\"pG\"\"\"%\"qG!\"\"\"\"#,&\"\"$F'*&F'
+F'*$F(F*F)F)" }{TEXT -1 58 ",\n\n                                     \+
+ equivalently if  " }{XPPEDIT 18 0 "p^2 = 3*q^2-1;" "6#/*$%\"pG\"\"#,&
+*&\"\"$\"\"\"*$%\"qGF&F*F*F*!\"\"" }{TEXT -1 70 ",\n            \n    \+
+                                  equivalently if  " }{XPPEDIT 18 0 "p
+^2-3*q^2 = -1;" "6#/,&*$%\"pG\"\"#\"\"\"*&\"\"$F(*$%\"qGF'F(!\"\",$F(F
+-" }{TEXT -1 2 ".\n" }}{PARA 15 "" 0 "" {TEXT -1 3 "an " }{TEXT 256 
+19 "R-approximation to " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$
+" }{TEXT -1 4 " if " }{XPPEDIT 18 0 "(p/q)^2 = 3+1/(q^2);" "6#/*$*&%\"
+pG\"\"\"%\"qG!\"\"\"\"#,&\"\"$F'*&F'F'*$F(F*F)F'" }{TEXT -1 58 ",\n\n \+
+                                     equivalently if  " }{XPPEDIT 18 
+0 "p^2 = 3*q^2+1;" "6#/*$%\"pG\"\"#,&*&\"\"$\"\"\"*$%\"qGF&F*F*F*F*" }
+{TEXT -1 70 ",\n            \n                                      eq
+uivalently if  " }{XPPEDIT 18 0 "p^2-3*q^2 = 1;" "6#/,&*$%\"pG\"\"#\"
+\"\"*&\"\"$F(*$%\"qGF'F(!\"\"F(" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "With ones students one co
+uld do some hand computations [in fact that" }}{PARA 0 "" 0 "" {TEXT 
+-1 44 "is what I do with mine], along the lines of:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "1. When " }{XPPEDIT 18 
+0 "q = 1;" "6#/%\"qG\"\"\"" }{TEXT -1 6 " then " }{XPPEDIT 18 0 "3*q^2
+-1 = 2;" "6#/,&*&\"\"$\"\"\"*$%\"qG\"\"#F'F'F'!\"\"F*" }{TEXT -1 22 " \+
+is not a square, but " }{XPPEDIT 18 0 "3*q^2+1 = 4;" "6#/,&*&\"\"$\"\"
+\"*$%\"qG\"\"#F'F'F'F'\"\"%" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "2^2;" "
+6#*$\"\"#F$" }{TEXT -1 2 ", " }}{PARA 0 "" 0 "" {TEXT -1 11 "    and s
+o " }{XPPEDIT 18 0 "2/1;" "6#*&\"\"#\"\"\"F%!\"\"" }{TEXT -1 26 " is a
+n R-approximation to " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "2. When " }{XPPEDIT 18 0 "q = 2;" "6#/%\"qG\"\"#" }{TEXT 
+-1 6 " then " }{XPPEDIT 18 0 "3*q^2-1 = 11;" "6#/,&*&\"\"$\"\"\"*$%\"q
+G\"\"#F'F'F'!\"\"\"#6" }{TEXT -1 18 " is not a square, " }}{PARA 0 "" 
+0 "" {TEXT -1 31 "                        nor is " }{XPPEDIT 18 0 "3*q
+^2+1 = 13;" "6#/,&*&\"\"$\"\"\"*$%\"qG\"\"#F'F'F'F'\"#8" }{TEXT -1 10 
+" a square." }}{PARA 0 "" 0 "" {TEXT -1 9 "    Thus " }{XPPEDIT 18 0 "
+sqrt(3);" "6#-%%sqrtG6#\"\"$" }{TEXT -1 49 " has no L- or R-approximat
+ion with denominator 2." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 4 "etc." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }{TEXT 342 36 "Here, students are in for a surprise" 
+}{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "First I will redo to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sq
+rtG6#\"\"#" }{TEXT -1 36 " search for L- and R-approximations," }}
+{PARA 0 "" 0 "" {TEXT -1 41 "but using a simple Maple program (below).
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "First
+, some preliminaries:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "##
+# WARNING: persistent store makes one-argument readlib obsolete\nreadl
+ib(issqr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#R6#%\"nG6\"6#%aoCopyrigh
+t~(c)~1990~by~the~University~of~Waterloo.~All~rights~reserved.GF&@'-%%
+typeG6$9$%(integerG-%&evalbG6#/*$)-%&isqrtG6#F-\"\"#\"\"\"F--F+6$F-%(n
+umericG%&falseG.-%&issqrGF7F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 18 "Testing to se
+e if " }{XPPEDIT 18 0 "2*q^2-1;" "6#,&*&\"\"#\"\"\"*$%\"qGF%F&F&F&!\"
+\"" }{TEXT -1 18 " is a square when " }{XPPEDIT 18 0 "q = 4;" "6#/%\"q
+G\"\"%" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "i
+ssqr(2*4^2 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 16 "And so it isn't." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 18 "Testing to see if " }{XPPEDIT 18 0 "2*q^2
+-1;" "6#,&*&\"\"#\"\"\"*$%\"qGF%F&F&F&!\"\"" }{TEXT -1 18 " is a squar
+e when " }{XPPEDIT 18 0 "q = 5;" "6#/%\"qG\"\"&" }{TEXT -1 1 ":" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "issqr(2*5^2 - 1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 30 "And what is i
+t the square of?:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sqrt(2
+*5^2 - 1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"(" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "N
+ow we are ready to systematically look for L- and R-approximations" }}
+{PARA 0 "" 0 "" {TEXT -1 3 "to " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG
+6#\"\"#" }{TEXT -1 56 ".  We limit ourselves to testing denominators u
+p to 100:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 130 "for q to 100 \+
+do\nif issqr(2*q^2 - 1)\nthen print(L, sqrt(2*q^2 - 1)/q)\nelif issqr(
+2*q^2 + 1)\nthen print(R, sqrt(2*q^2 + 1)/q)\nfi\nod;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6$%\"LG\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"
+RG#\"\"$\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"LG#\"\"(\"\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"RG#\"#<\"#7" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$%\"LG#\"#T\"#H" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"RG
+#\"#**\"#q" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 26 "Now let's do the same for " }{XPPEDIT 18 
+0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }{TEXT -1 1 ":" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 126 "for q to 100 do\nif issqr(3*q^2 - 1)\nthen pr
+int(L, sqrt(3*q^2-1)/q)\nelif issqr(3*q^2 + 1)\nthen print(R, sqrt(3*q
+^2+1)/q)\nfi\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"RG\"\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"RG#\"\"(\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$%\"RG#\"#E\"#:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$%\"RG
+#\"#(*\"#c" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 343 16 "So, a surprise!!" }{TEXT 
+-1 1 " " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }{TEXT -1 7 " w
+ould " }{TEXT 344 6 "appear" }{TEXT -1 29 " to have no L-approximation
+s." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 345 10 "A question" }{TEXT -1 10 ". Is that " }{TEXT 346 4 "true
+" }{TEXT -1 7 "? [Now " }{TEXT 347 4 "that" }{TEXT -1 40 " is a really
+ good problem for students.]" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 348 35 "An observation and another ques
+tion" }{TEXT -1 2 ". " }{XPPEDIT 18 0 "sqrt(3);" "6#-%%sqrtG6#\"\"$" }
+{TEXT -1 15 " certainly has " }{TEXT 349 4 "some" }{TEXT -1 23 " R-app
+roximations, but " }}{PARA 15 "" 0 "" {TEXT -1 22 "how many does it ha
+ve?" }}{PARA 15 "" 0 "" {TEXT -1 53 "can one find (and prove) any conn
+ection between them?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "52 6 0" 53 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

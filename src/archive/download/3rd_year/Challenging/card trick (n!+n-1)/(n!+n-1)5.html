@@ -1,0 +1,406 @@
+<html>
+<head>
+<title>(n!+n-1).html</title>
+<!-- Created by Maple 7.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark5">
+<p align=left>
+<b><font color=#000080 size=5>A technical interlude: base factorial representation</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>An elementary exercise that one sometimes sees in sequences/series problems in texts is: prove that</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1).(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1)! + ... 3.3! + 2.2! +1.1! = (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>+1)! - 1     ... (1)</font></b>
+</p>
+<p align=center>
+</p>
+<p align=left>
+<b><font color=#000080>Someone whose bag of tricks consists only of the school '</font></b>
+<i><b><font color=#000080>turn it back to front</font></b></i>
+<b><font color=#000080>' (for adding arithmetic series) or </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>'</font></b>
+<i><b><font color=#000080>multiply by r</font></b></i>
+<b><font color=#000080>' (for adding geometric series) is going to get stuck on this... </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>Here the obvious solution is dictated by thinking about a particular case of (1), and then </font></b>
+<i><b><font color=#000080>seeing</font></b></i>
+<b><font color=#000080>... . Suppose, say, that </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> is 3, then the LHS of (1) is (3.3! + 2.2! + 1.1!), namely (18+4+1), which is 23. And the RHS of (i) is (4! - 1), which is also 23. Now (with </font></b>
+<img src="images/(n!+n-1)27.gif" width=53 height=32 alt="n = 4" align=middle>
+<b><font color=#000080>) if one adds </font></b>
+<img src="images/(n!+n-1)28.gif" width=41 height=32 alt="4.4!" align=middle>
+<b><font color=#000080> to '23' - which is both (3.3! + 2.2! + 1.1!) and (4! - 1) - one obtains</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> 4.4! + (3.3! + 2.2! + 1.1!) = 4.4! + (4! - 1) = (4+1).4! - 1 = 5.4! - 1 = 5! - 1</font></b>
+</p>
+<p align=center>
+<b><font color=#000080> </font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The simple point is that </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>! + </font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>! = (</font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>+1).</font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080>! = (</font></b>
+<i><b><font color=#000080>k</font></b></i>
+<b><font color=#000080> + 1)!, and thus a proof of (1) may be given 'by induction'.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Alternatively just </font></b>
+<i><b><font color=#000080>see</font></b></i>
+<b><font color=#000080> what happens when one </font></b>
+<i><b><font color=#000080>adds</font></b></i>
+<b><font color=#000080> '1 (=1!)' to the LHS of (1):</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1).(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1)! + ... 3.3! + 2.2! + (1.1! + 1!) </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>= </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1).(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1)! + ... 3.3! + 2.2! + 2!</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>= </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1).(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1)! + ... 3.3! + 3! </font></b>
+</p>
+<p align=center>
+<b><font color=#000080>= </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1).(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1)! + ... 4!</font></b>
+</p>
+<p align=center>
+<b><font color=#000080>= ... = </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>)! = (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>+1).</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! = (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>+1)!</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>and subtracting '1' gives</font></b>
+</p>
+<p align=center>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>.</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>! + (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1).(</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080>-1)! + ... 3.3! + 2.2! +1.1!  = (</font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> + 1)! - 1</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Remark</font></u></b>
+<b><font color=#000080>. (1) should simply be seen as being the '</font></b>
+<i><b><font color=#000080>base factorial</font></b></i>
+<b><font color=#000080>' equivalent of what happens in the </font></b>
+<i><b><font color=#000080>base 10</font></b></i>
+<b><font color=#000080> system (or indeed any polynomial base system) with examples </font></b>
+<i><b><font color=#000080>like</font></b></i>
+<b><font color=#000080> 999 + 1 = 1000 (i.e. 999 = 1000 - 1), or 9999 + 1 = 10000 (i.e. 9999 = 10000 - 1) (in </font></b>
+<i><b><font color=#000080>binary</font></b></i>
+<b><font color=#000080> base: 1111 + 1 = 10000 (i.e. 1111 = 10000 - 1)), because every non-negative integer </font></b>
+<i><b><font color=#000080>n </font></b></i>
+<b><font color=#000080>may be represented (</font></b>
+<i><b><font color=#000080>uniquely</font></b></i>
+<b><font color=#000080>) by</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)29.gif" width=193 height=32 alt="n = d[r]*r!+d[r-1]*(r-1)!" align=middle>
+<b><font color=#000080> + ... + </font></b>
+<img src="images/(n!+n-1)30.gif" width=155 height=32 alt="d[3]*3!+d[2]*2!+d[1]*1!" align=middle>
+<b><font color=#000080> (= (</font></b>
+<img src="images/(n!+n-1)31.gif" width=30 height=32 alt="d[r]" align=middle>
+<b><font color=#000080> , </font></b>
+<img src="images/(n!+n-1)32.gif" width=58 height=32 alt="d[r-1]" align=middle>
+<b><font color=#000080> , ... , </font></b>
+<img src="images/(n!+n-1)33.gif" width=32 height=32 alt="d[3]" align=middle>
+<b><font color=#000080> , </font></b>
+<img src="images/(n!+n-1)34.gif" width=32 height=32 alt="d[2]" align=middle>
+<b><font color=#000080> , </font></b>
+<img src="images/(n!+n-1)35.gif" width=32 height=32 alt="d[1]" align=middle>
+<b><font color=#000080>))</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>where the </font></b>
+<i><b><font color=#000080>digits</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/(n!+n-1)36.gif" width=30 height=32 alt="d[r]" align=middle>
+<b><font color=#000080> , </font></b>
+<img src="images/(n!+n-1)37.gif" width=58 height=32 alt="d[r-1]" align=middle>
+<b><font color=#000080> , ... , </font></b>
+<img src="images/(n!+n-1)38.gif" width=80 height=32 alt="d[3], d[2], d[1]" align=middle>
+<b><font color=#000080> satisfy </font></b>
+<img src="images/(n!+n-1)39.gif" width=56 height=32 alt="0 &lt;= d[j]" align=middle>
+<b><font color=#000080> and </font></b>
+<img src="images/(n!+n-1)40.gif" width=52 height=32 alt="d[j] &lt;= j" align=middle>
+<b><font color=#000080>.  </font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>MK, in his article, writes the digits the other way round, but I believe the above is more natural, and is the convention followed by D. E. Knuth in his classic Seminumerical Algorithms, Vol. 2, </font></b>
+<i><b><font color=#000080>The Art of Computer Programming</font></b></i>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Examples</font></u></b>
+<b><font color=#000080>. The integers 0, 1, 2, ... , 23 (= 4!-1) have the following base factorial representations:</font></b>
+</p>
+<p align=left>
+</p>
+<p align=center>
+<b><font color=#000080>0 = (0, 0, 0), 1 = (0, 0, 1), 2 = (0, 1, 0), 3 = (0, 1, 1), 4 = (0, 2, 0), ... , 22 = (3, 2, 0), 23 = (3, 2, 1)</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Of course (e.g.) '3' is just (1, 1), but I have written it as (0, 1, 1) because I wanted to have it appear as a triple, with '23' - the extreme triple - in mind. Maple doesn't appear to have a command for converting an integer to base factorial (trying Maple's '?factorial' and '?base' produced no related topic), so I have written a simple Maple procedure for finding such representations, which I will call 'facKn' (Kn, for Knuth, with the </font></b>
+<i><b><font color=#000080>dominant</font></b></i>
+<b><font color=#000080> digits left to right, as in the normal decimal or general polynomial base):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn := proc(n) local j, r, d, N, k;<br>
+if n=0 then print(0=[0][fKn])<br>
+else for j while j! &lt;= n do od: r := j-1:<br>
+d[r] := iquo(n, r!);<br>
+N[r] := n - d[r]*r!;<br>
+for k from r-1 by -1 to 1 do<br>
+d[k] := iquo(N[k+1], k!);<br>
+N[k] := N[k+1] - d[k]*k!;<br>
+od;<br>
+print(n=[seq(d[r+1-k], k=1..r)][fKn]); <br>
+fi; end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(0);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)41.gif" width=91 height=31 alt="0 = [0][fKn]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(1);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)42.gif" width=91 height=31 alt="1 = [1][fKn]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(2);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)43.gif" width=107 height=31 alt="2 = [1, 0][fKn]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(3);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)44.gif" width=107 height=31 alt="3 = [1, 1][fKn]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(4);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)45.gif" width=107 height=31 alt="4 = [2, 0][fKn]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(20!-1);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)46.gif" width=603 height=31 alt="2432902008176639999 = [19, 18, 17, 16, 15, 14, 13, ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>facKn(123454321);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)47.gif" width=315 height=31 alt="123454321 = [3, 1, 0, 1, 6, 6, 2, 0, 0, 0, 1][fKn]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><u><font color=#000080>A helping hand</font></u></b>
+<b><font color=#000080> (not aimed at my students!!). If you are not familiar with programming then the above may not make much sense, but if you are then the thinking behind it is obvious; it is simply based upon extending a simple example like: convert 63 (say) to base factorial.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><u><font color=#000080>Roughwork</font></u></b>
+<b><font color=#000080>. 4! = 24, 5! = 120, and so 63 lies between 4! and 5!. Thus </font></b>
+<img src="images/(n!+n-1)48.gif" width=244 height=32 alt="63 = d[4]*4!+d[3]*3!+d[2]*2!+d[1]*1!" align=middle>
+<b><font color=#000080>.</font></b>
+</p>
+<p align=left>
+<img src="images/(n!+n-1)49.gif" width=32 height=32 alt="d[4]" align=middle>
+<b><font color=#000080> is the quotient when 63 is divided by 4! <br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>and the Maple command to </font></b>
+<i><b><font color=#000080>define</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/(n!+n-1)50.gif" width=32 height=32 alt="d[4]" align=middle>
+<b><font color=#000080> is d[4] := iquo(63, 4!);<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>and so is '</font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>'. Then setting </font></b>
+<img src="images/(n!+n-1)51.gif" width=125 height=32 alt="N[4] = 63-d[4]*4!" align=middle>
+<b><font color=#000080> = </font></b>
+<img src="images/(n!+n-1)52.gif" width=80 height=32 alt="63-2.24" align=middle>
+<b><font color=#000080> = 15</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>and the Maple command to </font></b>
+<i><b><font color=#000080>define</font></b></i>
+<b><font color=#000080> </font></b>
+<img src="images/(n!+n-1)53.gif" width=36 height=32 alt="N[4]" align=middle>
+<b><font color=#000080> is N[4] := 63 - d[4]*4!; </font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>Then </font></b>
+<img src="images/(n!+n-1)54.gif" width=32 height=32 alt="d[3]" align=middle>
+<b><font color=#000080> is obtained by finding the quotient when </font></b>
+<img src="images/(n!+n-1)55.gif" width=36 height=32 alt="N[4]" align=middle>
+<b><font color=#000080> (= </font></b>
+<img src="images/(n!+n-1)56.gif" width=155 height=32 alt="d[3]*3!+d[2]*2!+d[1]*1!" align=middle>
+<b><font color=#000080>) - namely 15 - is divided by 3! (so the quotient is </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>, since 15 = </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>.3! + 3, and one then forms </font></b>
+<img src="images/(n!+n-1)57.gif" width=36 height=32 alt="N[3]" align=middle>
+<b><font color=#000080> by subtracting </font></b>
+<img src="images/(n!+n-1)58.gif" width=49 height=32 alt="d[3]*3!" align=middle>
+<b><font color=#000080> from </font></b>
+<img src="images/(n!+n-1)59.gif" width=36 height=32 alt="N[4]" align=middle>
+<b><font color=#000080>, etc. One will eventually obtain: 63 = </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>.4! + </font></b>
+<b><u><font color=#000080>2</font></u></b>
+<b><font color=#000080>.3! + </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>.2! + </font></b>
+<b><u><font color=#000080>1</font></u></b>
+<b><font color=#000080>.1!.</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>There are some other elements (while, r:=j-1, etc) that would need explanation for a pure beginner, and I would recommend such a person to consult some of my 1st year Maple material. Here are the continued details for the example </font></b>
+<i><b><font color=#000080>n</font></b></i>
+<b><font color=#000080> = 63, but not written as a </font></b>
+<i><b><font color=#000080>procedure</font></b></i>
+<b><font color=#000080> (the above facKn is a procedure)</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>n := 63: for j while j! &lt;= n do od: r := j-1:</font></b>
+<b><font color=#000080><br>
+</font></b>
+<b><font color=#800080>d[r] := iquo(n, r!): N[r] := n - d[r]*r!:<br>
+for k from r-1 by -1 to 1 do<br>
+</font></b>
+<b><font color=#800080>d[k] := iquo(N[k+1], k!): N[k] := N[k+1] - d[k]*k!: od:<br>
+print(63=[seq(d[r+1-k], k=1..r)][basefactorial]);</font></b>
+</p>
+<p align=center>
+<img src="images/(n!+n-1)60.gif" width=208 height=31 alt="63 = [2, 2, 1, 1][basefactorial]">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now to return to the </font></b>
+</p>
+</basefont>
+</body>
+</html>

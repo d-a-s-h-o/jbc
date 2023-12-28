@@ -1,0 +1,540 @@
+<html>
+<head>
+<title>CAdsICTCM16.html</title>
+<!-- Created by Maple 6.02a, IBM INTEL NT -->
+<meta name="Microsoft Border" content="tlrb, default">
+</head>
+<body bgcolor="FFFFFF"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong></strong></font><br>
+</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>&nbsp;</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<basefont size=3>
+<a name="MapleAutoBookmark9">
+<p align=left>
+<b><font color=#000080 size=4>The unsolved </font></b>
+<i><b><font color=#000080 size=4>fast</font></b></i>
+<b><font color=#000080 size=4> factorization problem. RSA129 illustration</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The problem of being able to perform certain calculations quickly is an enormous topic in Number Theory (a proper discussion of what 'quickly' means involves setting down precise definitions of concepts like, e.g., </font></b>
+<i><b><font color=#000080>polynomial time</font></b></i>
+<b><font color=#000080>...) Here I will only remark that while, as you have actually seen:</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>modular exponentiation (computing the remainder</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM1688.gif" width=33 height=50 alt="a^b" align=middle>
+<b><font color=#000080> leaves on division by </font></b>
+<i><b><font color=#000080>m</font></b></i>
+<b><font color=#000080>)</font></b>
+</li>
+<li>
+<b><font color=#000080>the Euclidean algorithm (to compute greatest common divisor) and its extended form</font></b>
+</li>
+</ul>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080>may both be performed 'quickly' (indeed breath-takingly so; the Euclidean algorithm is considered one of the ten greatest algorithms in Mathematics),</font></b>
+<b><font color=#000080 size=4> BUT </font></b>
+<b><font color=#000080 size=4>factoring (in </font></b>
+<i><b><font color=#000080 size=4>general</font></b></i>
+<b><font color=#000080 size=4>) </font></b>
+<b><font color=#000080>is currently a totally unknown barrier... There are individual factorization methods, each of which enjoys a </font></b>
+<i><b><font color=#000080>certain limited success </font></b></i>
+<b><font color=#000080>when applied to some numbers, but no single one that works quickly on any given candidate. <br>
+Here all that I can expect to do is to give you a flavour of what I mean, and to do so I will use a famous number known as RSA129:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>RSA129 := 114381625757888867669235779976146612010218296721242362562561842935706935245733897830597123563958705058989075147599290026879543541;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM1689.gif" width=709 height=20 alt="RSA129 := 11438162575788886766923577997614661201021...">
+<br>
+<img src="images/CAdsICTCM1690.gif" width=432 height=20 alt="RSA129 := 11438162575788886766923577997614661201021...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(RSA129);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1691.gif" width=40 height=20 alt="129">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>It first came to public attention in Martin Gardiner's much read column in the August 1997 issue of the </font></b>
+<i><b><font color=#000080>Scientific American</font></b></i>
+<b><font color=#000080>. Rivest, Shamir and Adleman threw this number out as a challenge to be factored. Given the then state of mathematical knowledge (as far as factoring was concerned) and computer power, they estimated that it would take some 20,000 years to factor it, and thereby decrypt a message which used their specially constructed RSA129 as public modulus. <br>
+Briefly, a method known as the 'Quadratic Sieve' - introduced in 1981 by the US mathematician Carl Pomerance - together with </font></b>
+<i><b><font color=#000080>thousands</font></b></i>
+<b><font color=#000080> of computers worldwide (organised by the Dutch mathematician Arjen Lenstra) - factored it by April 1994, and decrypted the RSA-encrypted message (which, incidentally, was: "</font></b>
+<i><b><font color=#000080>The magic words are squeamish ossifrage.</font></b></i>
+<b><font color=#000080>") <br>
+Lenstra, and his co-workers found the two primes whose product was </font></b>
+<i><b><font color=#000080>RSA129</font></b></i>
+<b><font color=#000080> to be the following 64-digit f1 and 65-digit f2:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f1 := 3490529510847650949147849619903898133417764638493387843990820577;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1692.gif" width=563 height=20 alt="f1 := 349052951084765094914784961990389813341776463...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(f1);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1693.gif" width=32 height=20 alt="64">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f2 := 32769132993266709549961988190834461413177642967992942539798288533;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1694.gif" width=571 height=20 alt="f2 := 327691329932667095499619881908344614131776429...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(f2);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM1695.gif" width=32 height=20 alt="65">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>f1*f2;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM1696.gif" width=712 height=20 alt="114381625757888867669235779976146612010218296721242...">
+<br>
+<img src="images/CAdsICTCM1697.gif" width=352 height=20 alt="114381625757888867669235779976146612010218296721242...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>RSA129;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM1698.gif" width=712 height=20 alt="114381625757888867669235779976146612010218296721242...">
+<br>
+<img src="images/CAdsICTCM1699.gif" width=352 height=20 alt="114381625757888867669235779976146612010218296721242...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Now, Maple has a command 'ifactor' (which, by default, uses the 1970's Brillhart-Morrison continued fraction method...). Here are some examples of its use: </font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(987654321);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16100.gif" width=168 height=29 alt="``(3)^2*``(17)^2*``(379721)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(13121110987654321);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16101.gif" width=222 height=20 alt="``(17)*``(3243967)*``(237927839)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(41703118764796734960601837);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16102.gif" width=264 height=20 alt="``(55845871897601)*``(746753830637)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>But if I were to foolishly execute the command (which I have neutralized with the initial '#'):</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080># ifactor(RSA129);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>the timer would stay on for MANY, MANY years ... (RSA129 does not fall quickly to the Brillhart-Morrison method). </font></b>
+<b><font color=#000080><br>
+<br>
+Question.  So, it it just a matter of mere size? </font></b>
+<b><font color=#000080><br>
+Answer. No; size is only </font></b>
+<i><b><font color=#000080>part</font></b></i>
+<b><font color=#000080> of the problem, and to illustrate that I will create a number</font></b>
+<b><font color=#000080> - which I will call by the name 'beyondRSA129' - as follows:<br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>it will be - like RSA129 itself - the </font></b>
+<b><font color=#000080>product</font></b>
+<b><font color=#000080> of two primes</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>'P' and 'Q'</font></b>
+</li>
+<li>
+<b><font color=#000080>I</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>will choose P to be f2 (the greater of the two primes whose product is RSA129)</font></b>
+</li>
+<li>
+<b><font color=#000080>I will choose Q to be </font></b>
+<i><b><font color=#000080>not much</font></b></i>
+<b><font color=#000080> greater than P (in fact I will choose it to be the very next prime after P itself)<br>
+</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080>Those choices automatically make 'beyondRSA129' be greater than RSA129 (hence the name).</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P := f2;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16103.gif" width=568 height=20 alt="P := 3276913299326670954996198819083446141317764296...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Q := nextprime(P);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16104.gif" width=570 height=20 alt="Q := 3276913299326670954996198819083446141317764296...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>beyondRSA129 := P*Q;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM16105.gif" width=708 height=20 alt="beyondRSA129 := 10738160771304008194754862722243407...">
+<br>
+<img src="images/CAdsICTCM16106.gif" width=488 height=20 alt="beyondRSA129 := 10738160771304008194754862722243407...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(beyondRSA129);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16107.gif" width=40 height=20 alt="130">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That 130-digit number can be quickly factored by using an almost trivial method due to Fermat, and the idea behind it is simply this: 91 may be factored by trial-and-error by noting that</font></b>
+<b><font color=#000080 size=4><br>
+</font></b>
+</p>
+<ul><li>
+<b><font color=#000080>91 is not a perfect</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>square </font></b>
+</li>
+<li>
+<b><font color=#000080>nor is</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM16108.gif" width=69 height=50 alt="91+1^2" align=middle>
+<b><font color=#000080>, namely 92 </font></b>
+</li>
+<li>
+<b><font color=#000080>nor is </font></b>
+<img src="images/CAdsICTCM16109.gif" width=69 height=50 alt="91+2^2" align=middle>
+<b><font color=#000080>, namely 95, </font></b>
+</li>
+<li>
+<b><font color=#000080>but </font></b>
+<img src="images/CAdsICTCM16110.gif" width=113 height=50 alt="91+3^2 = 100" align=middle>
+<b><font color=#000080>,</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>is</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM16111.gif" width=41 height=50 alt="10^2" align=middle>
+<b><font color=#000080>,</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>giving</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM16112.gif" width=114 height=50 alt="91 = 10^2-3^2" align=middle>
+<b><font color=#000080 size=4> = </font></b>
+<img src="images/CAdsICTCM16113.gif" width=132 height=32 alt="(10-3)(10+3)" align=middle>
+<b><font color=#000080 size=4> = </font></b>
+<b><font color=#000080>7*13</font></b>
+</li>
+</ul>
+<p align=left>
+<b><font color=#000080 size=4><br>
+</font></b>
+<b><font color=#000080>Even this crude procedure that I've written factors the above 130-digit number immediately:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Fermat_factor := proc(n, start, finish)  <br>
+local k, s;<br>
+for k from start to finish do<br>
+if issqr(n+k^2) then s := sqrt(n+k^2); <br>
+lprint(n,`is the product of`, s-k,`and`,s+k); <br>
+RETURN() fi od end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Fermat_factor(beyondRSA129, 0, 300);</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>1073816077130400819475486272224340785666856801858501936519539003127821295385023569561686898933064223684576642307425535503474310669, `is the product of`, 32769132993266709549961988190834461413177642967992942539798288533, `and`, 32769132993266709549961988190834461413177642967992942539798288793</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>That entirely success was however due to the arranged fact that the two primes - although both reasonably large - happened to be so relatively close to each other.</font></b>
+<b><font color=#000080 size=4> <br>
+</font></b>
+<b><font color=#000080>Suppose, however, one choose them so that they were quite far apart? That's what I'm now going to do. This time I will make up another number - I will call it 'BEYONDRSA129' - as follows:</font></b>
+</p>
+<p align=left>
+</p>
+<ul><li>
+<b><font color=#000080>it will be - like beyondRSA129 - the </font></b>
+<b><font color=#000080>product</font></b>
+<b><font color=#000080> of two primes 'P1' and 'Q1' </font></b>
+</li>
+<li>
+<b><font color=#000080>I will still choose P1 to be P</font></b>
+</li>
+<li>
+<b><font color=#000080>I will now choose Q1 to be </font></b>
+<i><b><font color=#000080>much</font></b></i>
+<b><font color=#000080> greater than P1</font></b>
+</li>
+</ul>
+</ul>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>P1 := f2;</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16114.gif" width=576 height=20 alt="P1 := 327691329932667095499619881908344614131776429...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Q1 := nextprime(4470115461512684340891257138125051110076800700282905015819080092370422104067183317016903679999999999999630);</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM16115.gif" width=706 height=20 alt="Q1 := 447011546151268434089125713812505111007680070...">
+<br>
+<img src="images/CAdsICTCM16116.gif" width=216 height=20 alt="Q1 := 447011546151268434089125713812505111007680070...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>BEYONDRSA129 := P1*Q1;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM16117.gif" width=713 height=20 alt="BEYONDRSA129 := 14648180805356694860611232649416058...">
+<br>
+<img src="images/CAdsICTCM16118.gif" width=712 height=20 alt="BEYONDRSA129 := 14648180805356694860611232649416058...">
+<br>
+<img src="images/CAdsICTCM16119.gif" width=136 height=20 alt="BEYONDRSA129 := 14648180805356694860611232649416058...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>length(BEYONDRSA129);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16120.gif" width=40 height=20 alt="171">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>BEYONDRSA129 - beyondRSA129;</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM16121.gif" width=712 height=20 alt="146481808053566948606112326494160580676596683574126...">
+<br>
+<img src="images/CAdsICTCM16122.gif" width=688 height=20 alt="146481808053566948606112326494160580676596683574126...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>But that </font></b>
+<i><b><font color=#000080>much larger</font></b></i>
+<b><font color=#000080> number can now be </font></b>
+<i><b><font color=#000080>quickly</font></b></i>
+<b><font color=#000080> factored by doing this:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard:=proc(n)<br>
+local a,k;<br>
+a[1]:=2:<br>
+for k from 2 while igcd(n,a[k-1]-1 mod n)=1   <br>
+do a[k]:=a[k-1]&amp;^k mod n od;<br>
+lprint(n,`is the product of`,                                                                                                  igcd(n, a[k-1]-1 mod n), `and`, <br>
+n/igcd(n, a[k-1]-1 mod n))<br>
+end:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>Pollard(BEYONDRSA129);</font></b>
+</p>
+<p align=left>
+<tt><pre><font color=#0000FF size=2>146481808053566948606112326494160580676597757390203425433760346556289969224977192583652803722778590707655656624536558761037114144280380743982554672552469432942539798288533, `is the product of`, 4470115461512684340891257138125051110076800700282905015819080092370422104067183317016903680000000000000001, `and`, 32769132993266709549961988190834461413177642967992942539798288533</font></pre></tt>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<b><font color=#000080 size=4>WONDERFUL!!!</font></b>
+<b><font color=#000080 size=4> (I hope you agree...)<br>
+</font></b>
+</p>
+<p align=left>
+<b><font color=#000080>The mathematical ideas behind the success of that factorisation are due to an English mathematician, John Pollard (he lives outside Reading, and has a great interest in the music of Handel), and were published by him in 1974 in the Mathematical Proceedings of the Cambridge Philosophical Society, </font></b>
+<b><font color=#000080>in a now famous paper. The method he develops there has become known as Pollard's </font></b>
+<img src="images/CAdsICTCM16123.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080> method, and with reason: i</font></b>
+<b><font color=#000080>n that paper he expounds a very beautiful idea - which uses Fermat's little theorem - which enables one to factor a number, one of whose prime factors '</font></b>
+<i><b><font color=#000080>p</font></b></i>
+<b><font color=#000080>' </font></b>
+<b><font color=#000080>is such</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>that</font></b>
+<b><font color=#000080> the number </font></b>
+<img src="images/CAdsICTCM16124.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080> </font></b>
+<b><font color=#000080>has only relatively </font></b>
+<i><b><font color=#000080>small</font></b></i>
+<b><font color=#000080> prime</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>factors.</font></b>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>That is why I was able so quickly to factor the number BEYONDRSA129. Look at how its prime factor Q1 is structured:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(Q1 - 1);</font></b>
+</p>
+<p align=left>
+<img src="images/CAdsICTCM16125.gif" width=719 height=29 alt="``(2)^70*``(3)^34*``(5)^16*``(7)^11*``(11)^6*``(13)...">
+<br>
+<img src="images/CAdsICTCM16126.gif" width=202 height=20 alt="``(2)^70*``(3)^34*``(5)^16*``(7)^11*``(11)^6*``(13)...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Can you guess what the number Q1 really is, given that I have let you see </font></b>
+<img src="images/CAdsICTCM16127.gif" width=64 height=32 alt="Q1-1" align=middle>
+<b><font color=#000080>?... See, however, the two prime factors - f1 and f2 - of the RSA129 number:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(f1 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16128.gif" width=608 height=29 alt="``(2)^5*``(3)^2*``(12119894134887676906763366735777...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(f2 - 1);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16129.gif" width=615 height=29 alt="``(2)^2*``(41)*``(199811786544309204572938952383136...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=left>
+<b><font color=#000080>Rivest, Shamir and Adleman really </font></b>
+<i><b><font color=#000080>knew</font></b></i>
+<b><font color=#000080> what they were doing in choosing </font></b>
+<i><b><font color=#000080>their</font></b></i>
+<b><font color=#000080> two primes to make up </font></b>
+<i><b><font color=#000080>their</font></b></i>
+<b><font color=#000080> 129 digit number, RSA129...</font></b>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<b><font color=#000080 size=4>A summary. </font></b>
+<b><font color=#000080>The current security of the RSA method rests on the </font></b>
+<i><b><font color=#000080>general difficulty of factorisation</font></b></i>
+<b><font color=#000080> ... . Besides the Pollard</font></b>
+<b><font color=#000080 size=4> </font></b>
+<img src="images/CAdsICTCM16130.gif" width=52 height=32 alt="p-1" align=middle>
+<b><font color=#000080 size=4> </font></b>
+<b><font color=#000080>method, there is also his </font></b>
+<i><b><font color=#000080>rho-</font></b></i>
+<b><font color=#000080>method (aka his </font></b>
+<i><b><font color=#000080>Monte Carlo</font></b></i>
+<b><font color=#000080> method), and the Pomerance </font></b>
+<i><b><font color=#000080>quadratic sieve </font></b></i>
+<b><font color=#000080>method, and (Dutch mathematician) Hendrik Lenstra's </font></b>
+<i><b><font color=#000080>elliptic curve</font></b></i>
+<b><font color=#000080> method, and the current dominant method: the </font></b>
+<i><b><font color=#000080>Number Field Sieve </font></b></i>
+<b><font color=#000080>method (introduced by Pollard, and added to by many others). The </font></b>
+<i><b><font color=#000080>historic</font></b></i>
+<b><font color=#000080> creation by Agrawal, Kayal, and Saxena (India) in the summer of 2002 of a (long-sought) polynomial time algorithm for primality testing, has raised once again the possibility that someone, at some future date, may create such an algorithm for factoring (and, like A, K, and S) enter the history books...)<br>
+</font></b>
+<b><font color=#000080 size=4><br>
+A bit of fun:</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>AKS1 := to_number(`Agrawal-Kayal-Saxena`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16131.gif" width=397 height=20 alt="AKS1 := 2707180123011264370125011264450124051401">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(AKS1);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16132.gif" width=376 height=20 alt="``(5986250722550685974099659388965697)*``(452233)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>AKS2 := to_number(`Agrawal_Kayal_Saxena`);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16133.gif" width=397 height=20 alt="AKS2 := 2707180123011278370125011278450124051401">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#800080>ifactor(AKS2);</font></b>
+</p>
+<p align=center>
+<img src="images/CAdsICTCM16134.gif" width=376 height=20 alt="``(3)*``(902393374337092790041670426150041350467)">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+<!--msnavigation--></td><td valign="top" width="24"></td><td valign="top" width="1%">
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p><big>Contact details&nbsp;</big></p>
+
+<p>After August 31st 2007 please use the
+following Gmail address: jbcosgrave at gmail.com
+</p>
+
+<hr>
+
+<p>This page was last updated 18 February 2005 15:08:24 -0000</p>
+</td></tr><!--msnavigation--></table></body>
+</html>

@@ -1,0 +1,327 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 1 12 128 0 128 1 0 1 
+0 0 1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 128 1 2 1 2 
+0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }1 
+0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "
+" -1 -1 "Courier" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" 
+-1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 12 128 0 128 1 2 1 2 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 128 128 1 2 1 2 0 0 0 0 0 0 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Ways of getting Fi
+bonacci (and other) numbers." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 79 "In this work I have a number of experiments I c
+arried out - initially with the " }}{PARA 0 "" 0 "" {TEXT -1 76 "aim o
+f gererating the Fibonacci numbers - which eventually led to other mor
+e" }}{PARA 0 "" 0 "" {TEXT -1 16 "general matters." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "1:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "1:" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "for k to 3 do" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 10 "2*\"\" + 1*\"" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 3 "od;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#6" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+2 "1:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "1:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "for k to 4 do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "\"
+\" + \"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 46 "\";       # will give the 6 th Fibonacci numb
+er" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\")" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "1, 1, 2, 3, 5, 8, 13." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 45 "The following programme adopts this strat
+egy:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "S
+tart with 1 and 0 to produce: 1+0 = 1, 0+1 = 1, then 1+1 = 2, etc.: 3,
+ 5, 8, ..." }}{PARA 0 "" 0 "" {TEXT -1 89 "[I did that BECAUSE if I ha
+d started with 1 and 1 the 'Fib' would always be out of step.]" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "Fib
+:=proc(n)  # this will produce the Fibonacci numbers" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "local k;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "1:
+   # note the starting ones" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "0:" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "for k to n do" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 6 "\"\" + \"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "\";" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 7 "Fib(1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "seq(Fib(m), m=1..12);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6.\"\"\"F#\"\"#\"\"$\"\"&\"\")\"#8\"#@\"
+#M\"#b\"#*)\"$W\"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "Here's another way o
+f doing it:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "f:=proc(m, n)  " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 
+"local a, k;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "1:           " }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "0:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "for k to n do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "a[k] := \"\"
+ + \"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 2 "\";" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "seq(a
+[k], k=m..n);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 
+1 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "f(10, 19);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6,\"#b\"#*)\"$W\"\"$L#\"$x$\"$5'\"$()*
+\"%(f\"\"%%e#\"%\"=%" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "Fib(1000);" }}{PARA 12 "" 1 "" {XPPMATH 20 
+"6#\"\\xv)G#\\o;&zPhZ/P+;&G*\\'p*)HQz=Ll!4W'*Hkh6ZAL()RKi*o4_xMEK!3$fA
+fHp^Dz+%)zQS!*=0\\zTbl`*3H<[-/yrt^gYc-eiS]nF&)oNkXPpodlYV" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 41 "It also gave Fib(10000) almost instantly." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "pri
+me_test:=proc(n)  # this will look for primes in the Fibonacci numbers
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "local k;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "for k to n do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "i
+f isprime(Fib(k))" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "then lprint(`t
+he`, k, `th Fibonacci number`, Fib(k), `\354s prime`)" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 2 "fi" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 1 "" {TEXT -1 1 "
+\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "prime_test(400);" }}{PARA 2 "" 1 "" {TEXT -1 870 "the
+   3   th Fibonacci number   2   \354s prime\nthe   4   th Fibonacci n
+umber   3   \354s prime\nthe   5   th Fibonacci number   5   \354s pri
+me\nthe   7   th Fibonacci number   13   \354s prime\nthe   11   th Fi
+bonacci number   89   \354s prime\nthe   13   th Fibonacci number   23
+3   \354s prime\nthe   17   th Fibonacci number   1597   \354s prime\n
+the   23   th Fibonacci number   28657   \354s prime\nthe   29   th Fi
+bonacci number   514229   \354s prime\nthe   43   th Fibonacci number \+
+  433494437   \354s prime\nthe   47   th Fibonacci number   2971215073
+   \354s prime\nthe   83   th Fibonacci number   99194853094755497   \+
+\354s prime\nthe   131   th Fibonacci number   10663404174917105958145
+72169   \354s prime\nthe   137   th Fibonacci number   191347024000932
+78081449423917   \354s prime\nthe   359   th Fibonacci number   \n4754
+2043773469822074736802716674938292770141701655719366226871637693547624
+1   \n\354s prime\n\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "ifactor(Fib(43) - 1);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#*,-%!G6#\"\"#F'-F%6#\"#H\"\"\"-F%6#\"#*)F+-F%6#\"$*>F
++-F%6#\"$6#F+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "ifactor(Fib(47) - \+
+1, easy);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*.-%!G6#\"\"#\"\"&-F%6#\"
+\"$F'-F%6#\"\"(\"\"\"-F%6#\"#BF/-F%6#\"$R\"F/-F%6#\"$h%F/" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 27 "ifactor(Fib(83) - 1, easy);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*.-%!G6#\"\"#\"\"$-F%6#\"#8\"\"\"-F%6#\"#HF,-F%6#
+\"$6#F,-F%6#\"$@%F,-F%6#\"*^%[-PF," }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "ifactor(Fib(131) - 1, easy);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*4-%!G6#\"\"#\"\"$-F%6#\"#6\"\"\"-
+F%6#\"#*)F,-F%6#\"$J\"F,-F%6#\"$*>F,-F%6#\"$@&F,-F%6#\"&rX#F,-F%6#\"%
+\"3#F,%$_c9GF," }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "(Fib(131) - 1)/(2
+^3*11*89*131*199*521*24571*2081);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"*,(\\g>" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "ifactor(196049701);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%!G6#\"&,)>\"\"\"-F%6#\"%,**F(" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "ifactor(Fib(131) - 1);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#*6-%!G6#\"\"#\"\"$-F%6#\"#6\"\"\"-F%6#\"#*)F,-F
+%6#\"$J\"F,-F%6#\"$*>F,-F%6#\"$@&F,-F%6#\"&rX#F,-F%6#\"%\"3#F,-F%6#\"&
+,)>F,-F%6#\"%,**F," }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "19801*9901;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"*,(\\g>" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "ifactor(Fib(359) - 1, easy);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#*D-%!G6#\"\"#\"\"%-F%6#\"\"$F+-F%6#\"\"&\"\"\"-F%6#\"#6
+F/-F%6#\"#<F/-F%6#\"#>F/-F%6#\"#JF/-F%6#\"#TF/-F%6#\"#hF/-F%6#\"$2\"F/
+-F%6#\"$\"=F/-F%6#\"$f$F/-F%6#\"$T&F/%%_c35GF/-F%6#\",\"3ULy5F/-F%6#\"
+'T%4\"F/-F%6#\"%@DF/" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 26 "try:=proc(a, b, A, B, n)  " }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "local k;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "a: \+
+  " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "b:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "for k to n do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "A
+*\"\" + B*\"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "\";" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 4 "end:" }}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "seq(try(1, 1, 1, 1, m), m=1..7);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6)\"\"#\"\"$\"\"&\"\")\"#8\"#@\"#M" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 36 "This is better, for obvious reasons:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "Try:=proc(first, se
+cond, first_coeff, second_coeff, n)  " }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 11 "local s, k;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "s[1] := first:
+   " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "s[2] := second:" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 20 "for k from 3 to n do" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "s[k] := first_coeff * \"\" + second_coeff * \"" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "\";" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}
+{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "s
+eq(Try(1, 1, 1, 1, m), m=1..7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6)\"
+\"\"F#\"\"#\"\"$\"\"&\"\")\"#8" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "T
+ry(1,1,1,1,1000);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#\"\\xv)G#\\o;&zPh
+Z/P+;&G*\\'p*)HQz=Ll!4W'*Hkh6ZAL()RKi*o4_xMEK!3$fAfHp^Dz+%)zQS!*=0\\zT
+bl`*3H<[-/yrt^gYc-eiS]nF&)oNkXPpodlYV" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 30 "Try(1,1,1,1,1000) - Fib(1000);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"\"!" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "seq(Try(1, 1, 3, 15, m),
+ m=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,\"\"\"F#\"#=\"$t#\"%\\T
+\"&aI'\"'d#e*\")<Ic9\"*E+K@#\"+T%*[jL" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "
+An attempt (it worked first time!!) at weeding out obvious non-prime g
+enerators," }}{PARA 0 "" 0 "" {TEXT -1 69 "but I need to improve it so
+ that it 'breaks' in the event of 'Error':" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "exper:=proc(first, second
+, first_coeff, second_coeff, n)  " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "local s, k;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "s[1] := first:  \+
+ " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "s[2] := second:" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 28 "if igcd(s[1], s[2]) > 1 then" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 58 "print(`Error`, `first and second have gcd greate
+r than 1`)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "fi;" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 43 "if igcd(first_coeff, second_coeff) > 1 then" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "print(`Error`, `first_coeff and sec
+ond_coeff have gcd greater than 1`)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+3 "fi;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "for k from 3 to n do" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "s[k] := first_coeff * \"\" + second
+_coeff * \"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 2 "\";" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "
+for k to n do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "if isprime(s[k])" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "then lprint(`when k =`, k, `the n
+umber s[k]  =`,s[k], `and \354s prime`)" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 2 "fi" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od;" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 23 "exper(6, 15, 1, 1, 30);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$%&ErrorG%Ifirst~and~second~have~gcd~greater~than~1G" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "exper(1, 1, 15, 12, 30);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6$%&ErrorG%Ufirst_coeff~and~second_coeff~have~
+gcd~greater~than~1G" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "Problem for studen
+ts:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "If
+  gcd('first', 'second') = 1 and gcd('first_coeff', 'second_coeff') = \+
+1" }}{PARA 0 "" 0 "" {TEXT -1 62 "is it true that ALL subsequent CONSE
+CUTIVE terms have gcd = 1;" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 47 "that is:   is gcd(s[k], s[k+1]) = 1 for all k? " 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "exper(2, 3, 15, 13, 100);" }}{PARA 
+2 "" 1 "" {TEXT -1 107 "when k =   1   the number s[k]  =   2   and \+
+\354s prime\nwhen k =   2   the number s[k]  =   3   and \354s prime\n
+\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "exper(7, 5, 15, 13, 100);" }}
+{PARA 2 "" 1 "" {TEXT -1 107 "when k =   1   the number s[k]  =   7   \+
+and \354s prime\nwhen k =   2   the number s[k]  =   5   and \354s pri
+me\n\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "exper(1, 2, 3, 4, 100);" 
+}}{PARA 2 "" 1 "" {TEXT -1 221 "when k =   2   the number s[k]  =   2 \+
+  and \354s prime\nwhen k =   3   the number s[k]  =   11   and \354s \+
+prime\nwhen k =   5   the number s[k]  =   233   and \354s prime\nwhen
+ k =   9   the number s[k]  =   108497   and \354s prime\n\n" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "exper(2, 3, 4, 5, 100);" }}{PARA 2 "" 1 "
+" {TEXT -1 835 "when k =   1   the number s[k]  =   2   and \354s prim
+e\nwhen k =   2   the number s[k]  =   3   and \354s prime\nwhen k =  \+
+ 3   the number s[k]  =   23   and \354s prime\nwhen k =   4   the num
+ber s[k]  =   127   and \354s prime\nwhen k =   5   the number s[k]  =
+   727   and \354s prime\nwhen k =   7   the number s[k]  =   23623   \+
+and \354s prime\nwhen k =   11   the number s[k]  =   24963623   and \+
+\354s prime\nwhen k =   20   the number s[k]  =   158947008152767   an
+d \354s prime\nwhen k =   28   the number s[k]  =   177501995715649743
+487   and \354s prime\nwhen k =   36   the number s[k]  =   1982230357
+72756421292703807   and \354s prime\nwhen k =   67   the number s[k]  \+
+=   \n54070924294775408535978558766198376433907259115623   and \354s p
+rime\nwhen k =   87   the number s[k]  =   \n7125920949967503530939611
+3548291294243248084750111527207633799623   \nand \354s prime\n\n" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "exper(3, 4, 5, 6, 100);" }}{PARA 2 
+"" 1 "" {TEXT -1 54 "when k =   1   the number s[k]  =   3   and \354s
+ prime\n\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "exper(4, 5, 6, 7, 100
+);" }}{PARA 2 "" 1 "" {TEXT -1 617 "when k =   2   the number s[k]  = \+
+  5   and \354s prime\nwhen k =   3   the number s[k]  =   59   and \+
+\354s prime\nwhen k =   4   the number s[k]  =   443   and \354s prime
+\nwhen k =   7   the number s[k]  =   208631   and \354s prime\nwhen k
+ =   12   the number s[k]  =   5916188147   and \354s prime\nwhen k = \+
+  13   the number s[k]  =   45980625359   and \354s prime\nwhen k =   \+
+21   the number s[k]  =   612122081176778351   and \354s prime\nwhen k
+ =   46   the number s[k]  =   112243308729413887958400183251124568035
+47\n   and \354s prime\nwhen k =   55   the number s[k]  =   \n1161332
+365171618391834330781615736795115340878711   and \354s prime\n\n" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "exper(5, 6, 7, 8, 100);" }}{PARA 2 
+"" 1 "" {TEXT -1 383 "when k =   1   the number s[k]  =   5   and \354
+s prime\nwhen k =   3   the number s[k]  =   83   and \354s prime\nwhe
+n k =   5   the number s[k]  =   6229   and \354s prime\nwhen k =   29
+   the number s[k]  =   286386954326560079510007349   and \354s prime
+\nwhen k =   89   the number s[k]  =   1298875019686646949668164660929
+6820728678\\\n5008941850249543788528563049284793988752101   and \354s \+
+prime\n\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "exper(6, 7, 8, 9, 100)
+;" }}{PARA 2 "" 1 "" {TEXT -1 130 "when k =   2   the number s[k]  =  \+
+ 7   and \354s prime\nwhen k =   24   the number s[k]  =   72813146349
+664800928991   and \354s prime\n\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "exper(7, 8, 9, 10, 100);" }}{PARA 2 "" 1 "" {TEXT -1 271 "when k =
+   1   the number s[k]  =   7   and \354s prime\nwhen k =   7   the nu
+mber s[k]  =   1912643   and \354s prime\nwhen k =   15   the number s
+[k]  =   362215054122443   and \354s prime\nwhen k =   35   the number
+ s[k]  =   178771809075796168001910514686304943   \nand \354s prime\n
+\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "exper(8, 9, 10, 11, 100);" }}
+{PARA 2 "" 1 "" {TEXT -1 621 "when k =   3   the number s[k]  =   179 \+
+  and \354s prime\nwhen k =   5   the number s[k]  =   24439   and \+
+\354s prime\nwhen k =   11   the number s[k]  =   67464658319   and \+
+\354s prime\nwhen k =   12   the number s[k]  =   799070894899   and \+
+\354s prime\nwhen k =   21   the number s[k]  =   36657783081472763661
+19   and \354s prime\nwhen k =   29   the number s[k]  =   14198357088
+00761086770991815559   \nand \354s prime\nwhen k =   37   the number s
+[k]  =   549933266696816151453686717106999079399   \nand \354s prime\n
+when k =   67   the number s[k]  =   \n8822255017505452279115656413419
+5795288869912042241610961265556801770799   \nand \354s prime\n\n" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "exper(9, 10, 11, 12, 100);" }}
+{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "e
+xper(10, 11, 12, 13, 100);" }}{PARA 2 "" 1 "" {TEXT -1 622 "when k =  \+
+ 2   the number s[k]  =   11   and \354s prime\nwhen k =   3   the num
+ber s[k]  =   263   and \354s prime\nwhen k =   6   the number s[k]  =
+   683759   and \354s prime\nwhen k =   15   the number s[k]  =   1295
+1326428348727   and \354s prime\nwhen k =   41   the number s[k]  =   \+
+\n6347541269937210700615189521781523929585021511   and \354s prime\nwh
+en k =   59   the number s[k]  =   \n227731221565270446287582822323373
+0375863881962144208572832866544407   \nand \354s prime\nwhen k =   93 \+
+  the number s[k]  =   15247129905279474117724112649558103967948\\\n17
+763540753690718694688039231097659432705245327725773845187500391   \nan
+d \354s prime\n\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "exper(11, 12, \+
+13, 14, 200);" }}{PARA 2 "" 1 "" {TEXT -1 397 "when k =   1   the numb
+er s[k]  =   11   and \354s prime\nwhen k =   3   the number s[k]  =  \+
+ 311   and \354s prime\nwhen k =   11   the number s[k]  =   727429848
+911   and \354s prime\nwhen k =   21   the number s[k]  =   3855415492
+95569216224063   and \354s prime\nwhen k =   77   the number s[k]  =  \+
+ 17459812821468156147402267289699985403701\\\n744380119791374794636462
+5244810359587204397608663   and \354s prime\n\n" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "exper_value:=pr
+oc(first, second, first_coeff, second_coeff, n)  " }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "local s, k;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "s
+[1] := first:   " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "s[2] := second:
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "for k from 3 to n do" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 43 "s[k] := first_coeff * \"\" + second_coeff
+ * \"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 2 "\";" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" 
+}}{PARA 2 "" 1 "" {TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 
+"seq(exper_value(1,1,1,1,m), m=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6,\"\"\"F#\"\"#\"\"$\"\"&\"\")\"#8\"#@\"#M\"#b" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 45 "seq(exper_value(11, 12, 13, 14, m), m=1..10);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6,\"#7F#\"$6$\"%5X\"&$=n\"'#>***\")n?'[
+\"\"*M%e5A\"+Z\\-)G$\",+*3h!*[" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "x
+_expr := 2*x^2 + 7;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'x_exprG,&*$%
+\"xG\"\"#F(\"\"(\"\"\"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "subs(x=3,
+ x_expr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#D" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "experiment:=p
+roc(x_expr, first, second, first_coeff, second_coeff, n)  " }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 11 "local s, k;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "s[1] := first:   " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "s[2] :
+= second:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "for k from 3 to n do" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "s[k] := first_coeff * subs(x=\"\"
+, x_expr) + second_coeff * subs(x=\", x_expr)" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "
+\";" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end:" }}{PARA 2 "" 1 "" 
+{TEXT -1 1 "\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "The following Maple cal
+culation involves:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 29 "One.   Starting with 1 and 1," }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "Two.  Then forming 1 times 1 sq
+uared + 1 times 1 squared (giving 2)," }}{PARA 0 "" 0 "" {TEXT -1 73 "
+           then forming 1 times 1 squared + 1 times 2 squared (giving \+
+5)," }}{PARA 0 "" 0 "" {TEXT -1 74 "           then forming 1 times 2 \+
+squared + 1 times 5 squared (giving 29)," }}{PARA 0 "" 0 "" {TEXT -1 
+76 "           then forming 1 times 5 squared + 1 times 29 squared (gi
+ving 866)," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 13 "Verification:" }}{PARA 2 "" 0 "" {TEXT -1 1 "\n" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 40 "seq(experiment(x^2, 1,1,1,1,m), m=1..6);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6(\"\"\"F#\"\"#\"\"&\"#H\"$m)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 40 "seq(experiment(x^3, 1,1,1,1,m), m=1..6);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6(\"\"\"F#\"\"#\"\"*\"$P(\"*#G;.S" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "seq(experiment(x^4, 1,1,1,1,m), m=
+1..6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6(\"\"\"F#\"\"#\"#<\"&PN)\"5#o
+f:)\\T!\\)p[" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "The posibilities are ENDL
+ESS ... " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "seq(experiment(floor(sqrt(x)),1,1,1,1,m), m=1..15);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "61\"\"\"F#\"\"#F$F$F$F$F$F$F$F$F$F$F$F
+$" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "seq(experiment(2^x, 1,1,1,1,m)
+, m=1..5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"\"F#\"\"%\"#=\"'g@E
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "seq(experiment(2^x, 1,1,1,1,m),
+ m=1..6);" }}{PARA 2 "" 1 "" {TEXT -1 81 "Error, (in experiment) objec
+t size cannot exceed 16383 words in Student Edition\n\n" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 76 "I calculated the latter over in the Professional ver
+sion of Maplev-Release3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}}{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }
